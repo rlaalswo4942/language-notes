@@ -1,23 +1,78 @@
 {
- "note": "매일 레슨 추가 루틴이 읽는 설정 (규칙: docs/CONTENT_GUIDE.md). 언어마다 sequence 순서대로 가장 낮은 단계부터 채우고, 과정이 plan_days 를 채우면 다음 과정으로 넘어감. days 는 로드맵 기간을 하루 1레슨으로 환산한 계획치이며 공식 기준이 아님",
+ "note": "매일 레슨 추가 루틴이 읽는 설정 (규칙: docs/CONTENT_GUIDE.md). 모든 과정이 매일 1레슨씩 함께 늘어남(어느 단계를 골라도 매일 새 레슨). 언어별로 가장 낮은 미완성 과정은 비축 목표(start+ahead_days)에 닿을 때까지 extra_lowest 만큼 더 추가. plan_days 를 채운 과정은 멈춤. plan_days 는 로드맵 기간을 하루 1레슨으로 환산한 계획치이며 공식 기준이 아님",
  "start": "2026-10-12",
  "ahead_days": 60,
- "max_per_run": 3,
+ "per_course_per_run": 1,
+ "extra_lowest": 1,
  "sequence": {
   "en": [
-   {"course": "PRE-A1", "plan_days": 30, "basis": "01_학습_로드맵 6장 1~30일 주제표"},
-   {"course": "A1", "plan_days": 150, "basis": "0~6개월 기초(Pre-A1 포함)"},
-   {"course": "A2", "plan_days": 180, "basis": "7~18개월 A2~B1 앞부분"},
-   {"course": "B1", "plan_days": 180, "basis": "7~18개월 A2~B1 뒷부분"},
-   {"course": "B2", "plan_days": 365, "basis": "19~36개월 B2·시험 준비"}
+   {
+    "course": "PRE-A1",
+    "plan_days": 30,
+    "basis": "01_학습_로드맵 6장 1~30일 주제표"
+   },
+   {
+    "course": "A1",
+    "plan_days": 150,
+    "basis": "0~6개월 기초(Pre-A1 포함)"
+   },
+   {
+    "course": "A2",
+    "plan_days": 180,
+    "basis": "7~18개월 A2~B1 앞부분"
+   },
+   {
+    "course": "B1",
+    "plan_days": 180,
+    "basis": "7~18개월 A2~B1 뒷부분"
+   },
+   {
+    "course": "B2",
+    "plan_days": 365,
+    "basis": "19~36개월 B2·시험 준비"
+   },
+   {
+    "course": "TOEIC",
+    "plan_days": 120,
+    "basis": "B1부터 병행 가능한 시험 과정(4주 사이클 반복)"
+   },
+   {
+    "course": "TOEFL",
+    "plan_days": 120,
+    "basis": "B1~B2부터 병행 가능한 시험 과정(2026 형식)"
+   }
   ],
   "ja": [
-   {"course": "INTRO", "plan_days": 56, "basis": "설계서 1장 입문 1~2개월, 9장 첫 8주"},
-   {"course": "N5", "plan_days": 120, "basis": "3~6개월"},
-   {"course": "N4", "plan_days": 180, "basis": "7~12개월"},
-   {"course": "N3", "plan_days": 270, "basis": "13~21개월"},
-   {"course": "N2", "plan_days": 390, "basis": "22~34개월"},
-   {"course": "N1", "plan_days": 420, "basis": "35~48개월"}
+   {
+    "course": "INTRO",
+    "plan_days": 56,
+    "basis": "설계서 1장 입문 1~2개월, 9장 첫 8주"
+   },
+   {
+    "course": "N5",
+    "plan_days": 120,
+    "basis": "3~6개월"
+   },
+   {
+    "course": "N4",
+    "plan_days": 180,
+    "basis": "7~12개월"
+   },
+   {
+    "course": "N3",
+    "plan_days": 270,
+    "basis": "13~21개월"
+   },
+   {
+    "course": "N2",
+    "plan_days": 390,
+    "basis": "22~34개월"
+   },
+   {
+    "course": "N1",
+    "plan_days": 420,
+    "basis": "35~48개월"
+   }
   ]
  }
 }

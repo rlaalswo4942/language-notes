@@ -255,7 +255,7 @@
       <div class="acts">${due.length ? `<button class="pill" data-go="#${lang}/review">복습 시작</button>` : ""}${wrongList(lang).length ? `<button class="pill ghost" data-go="#${lang}/wrong">오답 ${wrongList(lang).length}개 다시 풀기</button>` : ""}</div></div></div>`;
     h += `<div class="stats st4"><div><small>연속 학습</small><b>${s.streak}일</b><span>누적 ${s.days}일</span></div><div><small>과정 진도</small><b>${doneN}/${total}</b><span>${esc(course.t)} 레슨</span></div>
       <div><small>익힌 항목</small><b>${s.items}</b><span>복습 카드</span></div><div><small>최근 7일 정답률</small><b>${s.acc != null ? s.acc + "%" : "—"}</b><span>${s.n ? `${s.ok}/${s.n}문항` : "기록 없음"}</span></div></div>`;
-    if (L.romaji) h += `<div class="pick"><span class="lab">표시</span><div class="chips"><button class="${p.romaji ? "on" : ""}" data-pref="romaji">로마자</button><button class="${p.furi ? "on" : ""}" data-pref="furi">후리가나</button></div></div>`;
+    if (L.romaji) h += `<div class="pick"><span class="lab">표시</span><div class="chips"><button class="${p.romaji ? "on" : ""}" data-pref="romaji">로마자</button><button class="${p.furi ? "on" : ""}" data-pref="furi" title="한자 위 읽기와 단어 읽기 줄을 히라가나로 표시">히라가나</button></div></div>`;
     h += `<div class="notice small">${esc(L.notice)}${TTS ? " 듣기 버튼은 브라우저 자동 음성(TTS)이라 실제 원어민 발음과 다를 수 있어요." : ""}</div></div>`;
     main.innerHTML = h;
   }
@@ -280,7 +280,7 @@
     }
     if (L.examples.length) {
       h += `<section class="card" id="examples"><h2>예문 <small>${L.examples.length}개 · 소리 내어 읽어 보세요</small></h2><div class="exlist">`;
-      L.examples.forEach(e => (h += `<div class="exrow"><div class="t">${tx(lang, e.t)}${e.reading ? `<small class="jp" lang="ja">${esc(e.reading)}</small>` : ""}${e.roma && p.romaji ? `<small class="rm">${esc(e.roma)}</small>` : ""}</div><div class="ko">${esc(e.ko)}${e.note && !/^(읽기와 뜻을 함께 확인하고|소리 내어 읽고 뜻과)/.test(e.note) ? `<small>${esc(e.note)}</small>` : ""}${e.plus ? `<small class="plus">보강 · AI 초안</small>` : ""}</div>${sayBtn(e.t)}</div>`));
+      L.examples.forEach(e => (h += `<div class="exrow"><div class="t">${tx(lang, e.t)}${e.reading ? `<small class="jp rd" lang="ja">${esc(e.reading)}</small>` : ""}${e.roma && p.romaji ? `<small class="rm">${esc(e.roma)}</small>` : ""}</div><div class="ko">${esc(e.ko)}${e.note && !/^(읽기와 뜻을 함께 확인하고|소리 내어 읽고 뜻과)/.test(e.note) ? `<small>${esc(e.note)}</small>` : ""}${e.plus ? `<small class="plus">보강 · AI 초안</small>` : ""}</div>${sayBtn(e.t)}</div>`));
       h += `</div></section>`;
     }
     if (L.qs.length) {
@@ -472,7 +472,7 @@
     if (!ids.length) h += `<p class="empty">${cnt.all ? "조건에 맞는 항목이 없어요." : "아직 익힌 항목이 없어요. 레슨을 완료하면 여기에 쌓여요."}</p>`;
     ids.forEach(k => {
       const it = D.items[k], e = s[k];
-      h += `<div class="wrow"><div class="w">${tx(lang, it.text)}</div><div class="m">${it.reading ? `<span class="jp" lang="ja">${esc(it.reading)}</span> ` : ""}${it.roma && p.romaji ? `<span class="rm">${esc(it.roma)}</span> ` : ""}${esc(it.meaning || "")}
+      h += `<div class="wrow"><div class="w">${tx(lang, it.text)}</div><div class="m">${it.reading ? `<span class="jp rd" lang="ja">${esc(it.reading)}</span> ` : ""}${it.roma && p.romaji ? `<span class="rm">${esc(it.roma)}</span> ` : ""}${esc(it.meaning || "")}
         <small>${e.due <= d ? "오늘 복습" : `다음 복습 ${e.due.slice(5).replace("-", "/")}`} · 단계 ${e.s + 1}/${MAX_S + 1}</small><span class="lvbar"><i style="width:${Math.round((e.s + 1) / (MAX_S + 1) * 100)}%"></i></span></div>${sayBtn(it.text)}</div>`;
     });
     main.innerHTML = h + `</div></div>`;

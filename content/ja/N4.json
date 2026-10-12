@@ -1,0 +1,1465 @@
+{
+ "course": "N4",
+ "schema_version": "1.0.0",
+ "authoring_policy": {
+  "not_official_jlpt_vocab_list": true,
+  "review_required_for_publish": true
+ },
+ "lessons": [
+  {
+   "id": "JP-N4-01",
+   "day_index": 1,
+   "week_index": 1,
+   "level": "N4",
+   "unit_id": "N4-W01",
+   "lesson_type": "new",
+   "title_ko": "〜ている: 진행과 상태",
+   "objective_ko": "진행 중인 동작과 결과 상태를 〜ている로 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [],
+   "explanation_ko": "동사 て형 + いる는 지금 진행 중인 동작(食べている = 먹고 있다)과 결과 상태(結婚している = 결혼한 상태이다)를 나타냅니다. 정중형은 〜ています.",
+   "usage_notes": [
+    "住む・知る・結婚する는 주로 〜ている 형태로 상태를 나타냅니다."
+   ],
+   "common_mistakes": [
+    "‘모릅니다’는 知っていません이 아니라 知りません."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N4-01-01",
+     "kind": "word",
+     "text": "結婚{けっこん}",
+     "reading_kana": "けっこん",
+     "reading_romanized": "kekkon",
+     "meaning_ko": "결혼",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-01-02",
+     "kind": "word",
+     "text": "知{し}る",
+     "reading_kana": "しる",
+     "reading_romanized": "shiru",
+     "meaning_ko": "알다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-01-03",
+     "kind": "word",
+     "text": "住{す}む",
+     "reading_kana": "すむ",
+     "reading_romanized": "sumu",
+     "meaning_ko": "살다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-01-04",
+     "kind": "word",
+     "text": "待{ま}つ",
+     "reading_kana": "まつ",
+     "reading_romanized": "matsu",
+     "meaning_ko": "기다리다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-01-05",
+     "kind": "word",
+     "text": "働{はたら}く",
+     "reading_kana": "はたらく",
+     "reading_romanized": "hataraku",
+     "meaning_ko": "일하다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-01-06",
+     "kind": "word",
+     "text": "雨{あめ}",
+     "reading_kana": "あめ",
+     "reading_romanized": "ame",
+     "meaning_ko": "비",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "今{いま}、ご飯{はん}を 食{た}べています。",
+     "meaning_ko": "지금 밥을 먹고 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "雨{あめ}が 降{ふ}っています。",
+     "meaning_ko": "비가 오고 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "姉{あね}は 銀行{ぎんこう}で 働{はたら}いています。",
+     "meaning_ko": "언니(누나)는 은행에서 일하고 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "兄{あに}は 結婚{けっこん}しています。",
+     "meaning_ko": "형(오빠)은 결혼했습니다. (결혼한 상태)",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "大阪{おおさか}に 住{す}んでいます。",
+     "meaning_ko": "오사카에 살고 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "駅{えき}の 前{まえ}で 待{ま}っています。",
+     "meaning_ko": "역 앞에서 기다리고 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "あの 人{ひと}を 知{し}っていますか。",
+     "meaning_ko": "저 사람을 알고 있습니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "いいえ、知{し}りません。",
+     "meaning_ko": "아니요, 모릅니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N4-01-Q1",
+     "type": "single_choice",
+     "prompt_ko": "‘지금 공부하고 있습니다’",
+     "options": [
+      "今、勉強しています。",
+      "今、勉強します。",
+      "今、勉強していました。",
+      "今、勉強てあります。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "진행 → 〜ています."
+    },
+    {
+     "id": "JP-N4-01-Q2",
+     "type": "single_choice",
+     "prompt_ko": "‘모릅니다’의 자연스러운 표현",
+     "options": [
+      "知りません",
+      "知っていません",
+      "知るません",
+      "知らないでした"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "知る의 부정은 知りません."
+    },
+    {
+     "id": "JP-N4-01-Q3",
+     "type": "single_choice",
+     "prompt_ko": "「兄は結婚しています」의 의미",
+     "options": [
+      "형은 결혼한 상태이다",
+      "형은 지금 결혼식을 하는 중이다",
+      "형은 결혼할 예정이다",
+      "형은 결혼한 적이 없다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "결과 상태의 〜ている."
+    },
+    {
+     "id": "JP-N4-01-Q4",
+     "type": "single_choice",
+     "prompt_ko": "待つ의 て형",
+     "options": [
+      "待って",
+      "待ちて",
+      "待んで",
+      "待いて"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "つ → って."
+    },
+    {
+     "id": "JP-N4-01-Q5",
+     "type": "typing",
+     "prompt_ko": "「働いています」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "hataraiteimasu",
+     "accepted_answers": [
+      "hataraiteimasu"
+     ],
+     "explanation_ko": "働いています = はたらいています (hataraiteimasu)"
+    },
+    {
+     "id": "JP-N4-01-Q6",
+     "type": "typing",
+     "prompt_ko": "「雨」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "ame",
+     "accepted_answers": [
+      "ame"
+     ],
+     "explanation_ko": "雨 = あめ (ame)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-02",
+   "day_index": 2,
+   "week_index": 1,
+   "level": "N4",
+   "unit_id": "N4-W01",
+   "lesson_type": "new",
+   "title_ko": "〜てもいいです: 허가",
+   "objective_ko": "허락을 구하고 허락하는 표현을 쓴다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-01"
+   ],
+   "explanation_ko": "て형 + もいいです는 ‘~해도 됩니다’. 허락을 구할 때는 〜てもいいですか. 대답은 はい、いいですよ / すみません、ちょっと… 처럼 합니다.",
+   "usage_notes": [
+    "거절할 때는 끝까지 말하지 않고 ちょっと…로 완곡하게 말하는 경우가 많습니다."
+   ],
+   "common_mistakes": [
+    "座るもいいですか(X) → 座ってもいいですか(O)."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N4-02-01",
+     "kind": "word",
+     "text": "写真{しゃしん}",
+     "reading_kana": "しゃしん",
+     "reading_romanized": "shashin",
+     "meaning_ko": "사진",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-02-02",
+     "kind": "word",
+     "text": "撮{と}る",
+     "reading_kana": "とる",
+     "reading_romanized": "toru",
+     "meaning_ko": "(사진을) 찍다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-02-03",
+     "kind": "word",
+     "text": "座{すわ}る",
+     "reading_kana": "すわる",
+     "reading_romanized": "suwaru",
+     "meaning_ko": "앉다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-02-04",
+     "kind": "word",
+     "text": "窓{まど}",
+     "reading_kana": "まど",
+     "reading_romanized": "mado",
+     "meaning_ko": "창문",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-02-05",
+     "kind": "word",
+     "text": "使{つか}う",
+     "reading_kana": "つかう",
+     "reading_romanized": "tsukau",
+     "meaning_ko": "사용하다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-02-06",
+     "kind": "word",
+     "text": "入{はい}る",
+     "reading_kana": "はいる",
+     "reading_romanized": "hairu",
+     "meaning_ko": "들어가다",
+     "part_of_speech": "동사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "ここで 写真{しゃしん}を 撮{と}っても いいですか。",
+     "meaning_ko": "여기서 사진을 찍어도 됩니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "はい、いいですよ。",
+     "meaning_ko": "네, 괜찮아요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 席{せき}に 座{すわ}っても いいですか。",
+     "meaning_ko": "이 자리에 앉아도 됩니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "窓{まど}を 開{あ}けても いいですか。",
+     "meaning_ko": "창문을 열어도 됩니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "ペンを 使{つか}っても いいですよ。",
+     "meaning_ko": "펜을 써도 돼요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "中{なか}に 入{はい}っても いいですか。",
+     "meaning_ko": "안에 들어가도 됩니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "すみません、ちょっと…。",
+     "meaning_ko": "죄송하지만 좀…. (완곡한 거절)",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "明日{あした}は 休{やす}んでも いいです。",
+     "meaning_ko": "내일은 쉬어도 됩니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N4-02-Q1",
+     "type": "single_choice",
+     "prompt_ko": "‘여기 앉아도 됩니까?’",
+     "options": [
+      "ここに座ってもいいですか。",
+      "ここに座ってはいいですか。",
+      "ここに座るもいいですか。",
+      "ここに座ってもいいです。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "질문 → 〜てもいいですか."
+    },
+    {
+     "id": "JP-N4-02-Q2",
+     "type": "single_choice",
+     "prompt_ko": "使う의 て형",
+     "options": [
+      "使って",
+      "使いて",
+      "使んで",
+      "使て"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "う → って."
+    },
+    {
+     "id": "JP-N4-02-Q3",
+     "type": "single_choice",
+     "prompt_ko": "완곡한 거절로 자연스러운 것은?",
+     "options": [
+      "すみません、ちょっと…。",
+      "はい、いいですよ。",
+      "どうぞ。",
+      "ありがとうございます。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ちょっと…로 완곡하게 거절."
+    },
+    {
+     "id": "JP-N4-02-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「撮る」의 뜻은?",
+     "options": [
+      "(사진을) 찍다",
+      "앉다",
+      "들어가다",
+      "사용하다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "撮る(とる) = 찍다."
+    },
+    {
+     "id": "JP-N4-02-Q5",
+     "type": "typing",
+     "prompt_ko": "「写真」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "shashin",
+     "accepted_answers": [
+      "shashin",
+      "syasin",
+      "shashinn"
+     ],
+     "explanation_ko": "写真 = しゃしん (shashin)"
+    },
+    {
+     "id": "JP-N4-02-Q6",
+     "type": "typing",
+     "prompt_ko": "「窓」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "mado",
+     "accepted_answers": [
+      "mado"
+     ],
+     "explanation_ko": "窓 = まど (mado)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-03",
+   "day_index": 3,
+   "week_index": 1,
+   "level": "N4",
+   "unit_id": "N4-W01",
+   "lesson_type": "new",
+   "title_ko": "〜てはいけません: 금지",
+   "objective_ko": "규칙과 금지를 〜てはいけません으로 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-02"
+   ],
+   "explanation_ko": "て형 + はいけません은 ‘~하면 안 됩니다’. 규칙이나 금지를 말할 때 씁니다. 표지판에는 〜禁止(금지)도 자주 보입니다.",
+   "usage_notes": [
+    "허가 〜てもいい ↔ 금지 〜てはいけない를 짝으로 기억하세요."
+   ],
+   "common_mistakes": [
+    "食べはいけません(X) → 食べてはいけません(O)."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N4-03-01",
+     "kind": "word",
+     "text": "吸{す}う",
+     "reading_kana": "すう",
+     "reading_romanized": "suu",
+     "meaning_ko": "(담배를) 피우다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-03-02",
+     "kind": "word",
+     "text": "止{と}める",
+     "reading_kana": "とめる",
+     "reading_romanized": "tomeru",
+     "meaning_ko": "세우다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-03-03",
+     "kind": "word",
+     "text": "走{はし}る",
+     "reading_kana": "はしる",
+     "reading_romanized": "hashiru",
+     "meaning_ko": "달리다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-03-04",
+     "kind": "word",
+     "text": "捨{す}てる",
+     "reading_kana": "すてる",
+     "reading_romanized": "suteru",
+     "meaning_ko": "버리다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-03-05",
+     "kind": "word",
+     "text": "ごみ",
+     "reading_kana": "",
+     "reading_romanized": "gomi",
+     "meaning_ko": "쓰레기",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-03-06",
+     "kind": "word",
+     "text": "禁止{きんし}",
+     "reading_kana": "きんし",
+     "reading_romanized": "kinshi",
+     "meaning_ko": "금지",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "ここで たばこを 吸{す}っては いけません。",
+     "meaning_ko": "여기서 담배를 피우면 안 됩니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "教室{きょうしつ}で 走{はし}っては いけません。",
+     "meaning_ko": "교실에서 뛰면 안 됩니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "ここに 車{くるま}を 止{と}めては いけません。",
+     "meaning_ko": "여기에 차를 세우면 안 됩니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "ここに ごみを 捨{す}てては いけません。",
+     "meaning_ko": "여기에 쓰레기를 버리면 안 됩니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "美術館{びじゅつかん}で 写真{しゃしん}を 撮{と}っては いけません。",
+     "meaning_ko": "미술관에서 사진을 찍으면 안 됩니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "駐車{ちゅうしゃ}禁止{きんし}",
+     "meaning_ko": "주차 금지",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "テストの とき、辞書{じしょ}を 見{み}ては いけません。",
+     "meaning_ko": "시험 때 사전을 보면 안 됩니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "夜{よる} 遅{おそ}く 電話{でんわ}しては いけませんよ。",
+     "meaning_ko": "밤늦게 전화하면 안 돼요.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N4-03-Q1",
+     "type": "single_choice",
+     "prompt_ko": "‘여기서 먹으면 안 됩니다.’",
+     "options": [
+      "ここで食べてはいけません。",
+      "ここで食べてもいいです。",
+      "ここで食べはいけません。",
+      "ここで食べるはいけません。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "て형 + はいけません."
+    },
+    {
+     "id": "JP-N4-03-Q2",
+     "type": "single_choice",
+     "prompt_ko": "捨てる의 て형",
+     "options": [
+      "捨てて",
+      "捨って",
+      "捨んで",
+      "捨いて"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "2그룹 동사 → る를 빼고 て."
+    },
+    {
+     "id": "JP-N4-03-Q3",
+     "type": "single_choice",
+     "prompt_ko": "「禁止」의 뜻은?",
+     "options": [
+      "금지",
+      "허가",
+      "주의",
+      "출입"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "禁止(きんし) = 금지."
+    },
+    {
+     "id": "JP-N4-03-Q4",
+     "type": "single_choice",
+     "prompt_ko": "허가(~해도 된다)를 나타내는 표현은?",
+     "options": [
+      "〜てもいいです",
+      "〜てはいけません",
+      "〜ています",
+      "〜たことがあります"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "허가 → 〜てもいい."
+    },
+    {
+     "id": "JP-N4-03-Q5",
+     "type": "typing",
+     "prompt_ko": "「走る」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "hashiru",
+     "accepted_answers": [
+      "hashiru",
+      "hasiru"
+     ],
+     "explanation_ko": "走る = はしる (hashiru)"
+    },
+    {
+     "id": "JP-N4-03-Q6",
+     "type": "typing",
+     "prompt_ko": "「吸う」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "suu",
+     "accepted_answers": [
+      "suu",
+      "su"
+     ],
+     "explanation_ko": "吸う = すう (suu)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-04",
+   "day_index": 4,
+   "week_index": 1,
+   "level": "N4",
+   "unit_id": "N4-W01",
+   "lesson_type": "new",
+   "title_ko": "〜たことがあります: 경험",
+   "objective_ko": "해 본 일과 안 해 본 일을 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-03"
+   ],
+   "explanation_ko": "동사 た형 + ことがあります는 ‘~한 적이 있습니다’. 경험이 없으면 〜たことがありません, 질문은 〜たことがありますか.",
+   "usage_notes": [
+    "‘한 번도 없다’는 一度も ありません."
+   ],
+   "common_mistakes": [
+    "行ったがあります(X) → 行ったことがあります(O)."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N4-04-01",
+     "kind": "word",
+     "text": "富士山{ふじさん}",
+     "reading_kana": "ふじさん",
+     "reading_romanized": "fujisan",
+     "meaning_ko": "후지산",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-04-02",
+     "kind": "word",
+     "text": "登{のぼ}る",
+     "reading_kana": "のぼる",
+     "reading_romanized": "noboru",
+     "meaning_ko": "오르다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-04-03",
+     "kind": "word",
+     "text": "着物{きもの}",
+     "reading_kana": "きもの",
+     "reading_romanized": "kimono",
+     "meaning_ko": "기모노",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-04-04",
+     "kind": "word",
+     "text": "着{き}る",
+     "reading_kana": "きる",
+     "reading_romanized": "kiru",
+     "meaning_ko": "입다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-04-05",
+     "kind": "word",
+     "text": "一度{いちど}",
+     "reading_kana": "いちど",
+     "reading_romanized": "ichido",
+     "meaning_ko": "한 번",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-04-06",
+     "kind": "word",
+     "text": "外国{がいこく}",
+     "reading_kana": "がいこく",
+     "reading_romanized": "gaikoku",
+     "meaning_ko": "외국",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "富士山{ふじさん}に 登{のぼ}った ことが あります。",
+     "meaning_ko": "후지산에 오른 적이 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "着物{きもの}を 着{き}た ことが ありますか。",
+     "meaning_ko": "기모노를 입어 본 적이 있습니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "いいえ、一度{いちど}も ありません。",
+     "meaning_ko": "아니요, 한 번도 없습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "外国{がいこく}に 住{す}んだ ことが あります。",
+     "meaning_ko": "외국에 산 적이 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "すしを 食{た}べた ことが ありますか。",
+     "meaning_ko": "초밥을 먹어 본 적이 있습니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "日本{にほん}の 映画{えいが}を 見{み}た ことが あります。",
+     "meaning_ko": "일본 영화를 본 적이 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "まだ 北海道{ほっかいどう}へ 行{い}った ことが ありません。",
+     "meaning_ko": "아직 홋카이도에 간 적이 없습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "一度{いちど} 有名{ゆうめい}な 歌手{かしゅ}に 会{あ}った ことが あります。",
+     "meaning_ko": "한 번 유명한 가수를 만난 적이 있습니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N4-04-Q1",
+     "type": "single_choice",
+     "prompt_ko": "‘일본에 간 적이 있습니다.’",
+     "options": [
+      "日本へ行ったことがあります。",
+      "日本へ行くことがあります。",
+      "日本へ行ってことがあります。",
+      "日本へ行ったがあります。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "た형 + ことがあります."
+    },
+    {
+     "id": "JP-N4-04-Q2",
+     "type": "single_choice",
+     "prompt_ko": "飲む의 た형",
+     "options": [
+      "飲んだ",
+      "飲った",
+      "飲みた",
+      "飲いた"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "む → んだ."
+    },
+    {
+     "id": "JP-N4-04-Q3",
+     "type": "single_choice",
+     "prompt_ko": "「一度も ありません」의 뜻",
+     "options": [
+      "한 번도 없습니다",
+      "한 번 있습니다",
+      "가끔 있습니다",
+      "두 번 있습니다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "一度も + 부정 = 한 번도 ~없다."
+    },
+    {
+     "id": "JP-N4-04-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「着る」의 뜻은?",
+     "options": [
+      "입다",
+      "오르다",
+      "살다",
+      "보다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "着る(きる) = 입다."
+    },
+    {
+     "id": "JP-N4-04-Q5",
+     "type": "typing",
+     "prompt_ko": "「着物」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kimono",
+     "accepted_answers": [
+      "kimono"
+     ],
+     "explanation_ko": "着物 = きもの (kimono)"
+    },
+    {
+     "id": "JP-N4-04-Q6",
+     "type": "typing",
+     "prompt_ko": "「外国」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "gaikoku",
+     "accepted_answers": [
+      "gaikoku"
+     ],
+     "explanation_ko": "外国 = がいこく (gaikoku)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-05",
+   "day_index": 5,
+   "week_index": 1,
+   "level": "N4",
+   "unit_id": "N4-W01",
+   "lesson_type": "new",
+   "title_ko": "가능형: 〜できる",
+   "objective_ko": "할 수 있는 일을 가능형으로 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-04"
+   ],
+   "explanation_ko": "‘~할 수 있다’는 가능형으로 나타냅니다. 1그룹: う단 → え단 + る(書く→書ける), 2그룹: る → られる(食べる→食べられる), 3그룹: する→できる, 来る→来られる. 할 수 있는 대상은 보통 が로 표시합니다(日本語が 話せます).",
+   "usage_notes": [
+    "회화에서는 食べれる처럼 ら를 빼는 형태(ら抜き)도 들리지만 시험·글에서는 食べられる를 씁니다."
+   ],
+   "common_mistakes": [
+    "書かれる는 수동형(쓰이다)이고 가능형은 書ける."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N4-05-01",
+     "kind": "word",
+     "text": "話{はな}せる",
+     "reading_kana": "はなせる",
+     "reading_romanized": "hanaseru",
+     "meaning_ko": "말할 수 있다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-05-02",
+     "kind": "word",
+     "text": "泳{およ}げる",
+     "reading_kana": "およげる",
+     "reading_romanized": "oyogeru",
+     "meaning_ko": "헤엄칠 수 있다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-05-03",
+     "kind": "word",
+     "text": "読{よ}める",
+     "reading_kana": "よめる",
+     "reading_romanized": "yomeru",
+     "meaning_ko": "읽을 수 있다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-05-04",
+     "kind": "word",
+     "text": "できる",
+     "reading_kana": "",
+     "reading_romanized": "dekiru",
+     "meaning_ko": "할 수 있다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-05-05",
+     "kind": "word",
+     "text": "運転{うんてん}",
+     "reading_kana": "うんてん",
+     "reading_romanized": "unten",
+     "meaning_ko": "운전",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-05-06",
+     "kind": "word",
+     "text": "漢字{かんじ}",
+     "reading_kana": "かんじ",
+     "reading_romanized": "kanji",
+     "meaning_ko": "한자",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "日本語{にほんご}が 少{すこ}し 話{はな}せます。",
+     "meaning_ko": "일본어를 조금 말할 수 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "私{わたし}は 泳{およ}げません。",
+     "meaning_ko": "저는 수영을 못 합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 漢字{かんじ}が 読{よ}めますか。",
+     "meaning_ko": "이 한자를 읽을 수 있습니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "車{くるま}の 運転{うんてん}が できます。",
+     "meaning_ko": "차 운전을 할 수 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "納豆{なっとう}が 食{た}べられますか。",
+     "meaning_ko": "낫토를 먹을 수 있습니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "明日{あした}は 来{こ}られません。",
+     "meaning_ko": "내일은 올 수 없습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "ここで チケットが 買{か}えます。",
+     "meaning_ko": "여기서 티켓을 살 수 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "ピアノが 弾{ひ}けるように なりたいです。",
+     "meaning_ko": "피아노를 칠 수 있게 되고 싶습니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N4-05-Q1",
+     "type": "single_choice",
+     "prompt_ko": "書く의 가능형",
+     "options": [
+      "書ける",
+      "書かれる",
+      "書きる",
+      "書けれる"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "く → ける."
+    },
+    {
+     "id": "JP-N4-05-Q2",
+     "type": "single_choice",
+     "prompt_ko": "食べる의 가능형(시험·글 기준)",
+     "options": [
+      "食べられる",
+      "食べらる",
+      "食べける",
+      "食べさせる"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "2그룹 → られる."
+    },
+    {
+     "id": "JP-N4-05-Q3",
+     "type": "single_choice",
+     "prompt_ko": "する의 가능형",
+     "options": [
+      "できる",
+      "しれる",
+      "される",
+      "すれる"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "する → できる."
+    },
+    {
+     "id": "JP-N4-05-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「泳げません」의 뜻",
+     "options": [
+      "수영을 못 합니다",
+      "수영을 합니다",
+      "수영하지 않았습니다",
+      "수영하고 싶습니다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "泳げる의 부정 → 못 합니다."
+    },
+    {
+     "id": "JP-N4-05-Q5",
+     "type": "typing",
+     "prompt_ko": "「運転」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "unten",
+     "accepted_answers": [
+      "unten",
+      "unntenn"
+     ],
+     "explanation_ko": "運転 = うんてん (unten)"
+    },
+    {
+     "id": "JP-N4-05-Q6",
+     "type": "typing",
+     "prompt_ko": "「漢字」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kanji",
+     "accepted_answers": [
+      "kanji",
+      "kanzi",
+      "kannji"
+     ],
+     "explanation_ko": "漢字 = かんじ (kanji)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-06",
+   "day_index": 6,
+   "week_index": 1,
+   "level": "N4",
+   "unit_id": "N4-W01",
+   "lesson_type": "new",
+   "title_ko": "〜ながら: 동시 동작",
+   "objective_ko": "두 동작을 동시에 하는 것을 〜ながら로 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-05"
+   ],
+   "explanation_ko": "동사 ます형(ます를 뺀 형태) + ながら는 ‘~하면서’. 같은 사람이 두 동작을 동시에 할 때 쓰며, 뒤의 동작이 주된 동작입니다.",
+   "usage_notes": [
+    "見る → 見ながら, する → しながら."
+   ],
+   "common_mistakes": [
+    "聞くながら(X) → 聞きながら(O)."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N4-06-01",
+     "kind": "word",
+     "text": "歌{うた}う",
+     "reading_kana": "うたう",
+     "reading_romanized": "utau",
+     "meaning_ko": "노래하다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-06-02",
+     "kind": "word",
+     "text": "歩{ある}く",
+     "reading_kana": "あるく",
+     "reading_romanized": "aruku",
+     "meaning_ko": "걷다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-06-03",
+     "kind": "word",
+     "text": "聞{き}く",
+     "reading_kana": "きく",
+     "reading_romanized": "kiku",
+     "meaning_ko": "듣다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-06-04",
+     "kind": "word",
+     "text": "考{かんが}える",
+     "reading_kana": "かんがえる",
+     "reading_romanized": "kangaeru",
+     "meaning_ko": "생각하다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-06-05",
+     "kind": "word",
+     "text": "音楽{おんがく}",
+     "reading_kana": "おんがく",
+     "reading_romanized": "ongaku",
+     "meaning_ko": "음악",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-06-06",
+     "kind": "word",
+     "text": "アルバイト",
+     "reading_kana": "",
+     "reading_romanized": "arubaito",
+     "meaning_ko": "아르바이트",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "音楽{おんがく}を 聞{き}きながら 勉強{べんきょう}します。",
+     "meaning_ko": "음악을 들으면서 공부합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "歩{ある}きながら 話{はな}しましょう。",
+     "meaning_ko": "걸으면서 이야기합시다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "テレビを 見{み}ながら ご飯{はん}を 食{た}べます。",
+     "meaning_ko": "텔레비전을 보면서 밥을 먹습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "歌{うた}いながら 料理{りょうり}を します。",
+     "meaning_ko": "노래하면서 요리를 합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "アルバイトを しながら 大学{だいがく}に 通{かよ}っています。",
+     "meaning_ko": "아르바이트를 하면서 대학에 다니고 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "考{かんが}えながら ゆっくり 答{こた}えて ください。",
+     "meaning_ko": "생각하면서 천천히 대답해 주세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "スマホを 見{み}ながら 歩{ある}いては いけません。",
+     "meaning_ko": "스마트폰을 보면서 걸으면 안 됩니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "コーヒーを 飲{の}みながら 新聞{しんぶん}を 読{よ}みます。",
+     "meaning_ko": "커피를 마시면서 신문을 읽습니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N4-06-Q1",
+     "type": "single_choice",
+     "prompt_ko": "‘음악을 들으면서’",
+     "options": [
+      "音楽を聞きながら",
+      "音楽を聞くながら",
+      "音楽を聞いてながら",
+      "音楽を聞いたながら"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ます형 + ながら."
+    },
+    {
+     "id": "JP-N4-06-Q2",
+     "type": "single_choice",
+     "prompt_ko": "見る + ながら",
+     "options": [
+      "見ながら",
+      "見るながら",
+      "見てながら",
+      "見たながら"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "見ます → 見ながら."
+    },
+    {
+     "id": "JP-N4-06-Q3",
+     "type": "single_choice",
+     "prompt_ko": "〜ながら의 뜻",
+     "options": [
+      "~하면서",
+      "~한 후에",
+      "~하기 전에",
+      "~하기 때문에"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "동시 동작."
+    },
+    {
+     "id": "JP-N4-06-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「考える」의 뜻은?",
+     "options": [
+      "생각하다",
+      "대답하다",
+      "노래하다",
+      "걷다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "考える(かんがえる) = 생각하다."
+    },
+    {
+     "id": "JP-N4-06-Q5",
+     "type": "typing",
+     "prompt_ko": "「音楽」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "ongaku",
+     "accepted_answers": [
+      "ongaku",
+      "onngaku"
+     ],
+     "explanation_ko": "音楽 = おんがく (ongaku)"
+    },
+    {
+     "id": "JP-N4-06-Q6",
+     "type": "typing",
+     "prompt_ko": "「歩く」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "aruku",
+     "accepted_answers": [
+      "aruku"
+     ],
+     "explanation_ko": "歩く = あるく (aruku)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-07",
+   "day_index": 7,
+   "week_index": 1,
+   "level": "N4",
+   "unit_id": "N4-W01",
+   "lesson_type": "checkpoint",
+   "title_ko": "1주 점검: 여행 회화",
+   "objective_ko": "N4 첫 주 문형을 여행 장면에서 종합 점검한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-06"
+   ],
+   "explanation_ko": "〜ている, 〜てもいい, 〜てはいけない, 〜たことがある, 가능형, 〜ながら를 온천 여행 장면 속에서 다시 확인합니다.",
+   "usage_notes": [
+    "困っています = 곤란한 상태입니다."
+   ],
+   "common_mistakes": [],
+   "new_items": [
+    {
+     "id": "w-JP-N4-07-01",
+     "kind": "word",
+     "text": "予約{よやく}",
+     "reading_kana": "よやく",
+     "reading_romanized": "yoyaku",
+     "meaning_ko": "예약",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-07-02",
+     "kind": "word",
+     "text": "旅館{りょかん}",
+     "reading_kana": "りょかん",
+     "reading_romanized": "ryokan",
+     "meaning_ko": "료칸(일본식 여관)",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-07-03",
+     "kind": "word",
+     "text": "温泉{おんせん}",
+     "reading_kana": "おんせん",
+     "reading_romanized": "onsen",
+     "meaning_ko": "온천",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-07-04",
+     "kind": "word",
+     "text": "浴衣{ゆかた}",
+     "reading_kana": "ゆかた",
+     "reading_romanized": "yukata",
+     "meaning_ko": "유카타",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-07-05",
+     "kind": "word",
+     "text": "地図{ちず}",
+     "reading_kana": "ちず",
+     "reading_romanized": "chizu",
+     "meaning_ko": "지도",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-07-06",
+     "kind": "word",
+     "text": "道{みち}",
+     "reading_kana": "みち",
+     "reading_romanized": "michi",
+     "meaning_ko": "길",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "旅館{りょかん}を 予約{よやく}しています。",
+     "meaning_ko": "료칸을 예약해 두었습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "温泉{おんせん}に 入{はい}った ことが ありますか。",
+     "meaning_ko": "온천에 들어가 본 적이 있습니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "温泉{おんせん}で タオルを お湯{ゆ}に 入{い}れては いけません。",
+     "meaning_ko": "온천에서 수건을 탕에 넣으면 안 됩니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "浴衣{ゆかた}を 着{き}ても いいですか。",
+     "meaning_ko": "유카타를 입어도 됩니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "地図{ちず}を 見{み}ながら 歩{ある}きました。",
+     "meaning_ko": "지도를 보면서 걸었습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "道{みち}が わからなくて、困{こま}っています。",
+     "meaning_ko": "길을 몰라서 곤란합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "日本語{にほんご}で 道{みち}が 聞{き}けますか。",
+     "meaning_ko": "일본어로 길을 물어볼 수 있습니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "はい、簡単{かんたん}な 日本語{にほんご}なら 話{はな}せます。",
+     "meaning_ko": "네, 간단한 일본어라면 말할 수 있습니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N4-07-Q1",
+     "type": "single_choice",
+     "prompt_ko": "‘온천에 들어가도 됩니까?’",
+     "options": [
+      "温泉に入ってもいいですか。",
+      "温泉に入ってはいけませんか。",
+      "温泉に入ったことがありますか。",
+      "温泉に入りながらですか。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "허가 질문 → 〜てもいいですか."
+    },
+    {
+     "id": "JP-N4-07-Q2",
+     "type": "single_choice",
+     "prompt_ko": "‘지도를 보면서’",
+     "options": [
+      "地図を見ながら",
+      "地図を見てながら",
+      "地図を見るながら",
+      "地図を見たながら"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ます형 + ながら."
+    },
+    {
+     "id": "JP-N4-07-Q3",
+     "type": "single_choice",
+     "prompt_ko": "来る의 가능형",
+     "options": [
+      "来られる",
+      "来れられる",
+      "来させる",
+      "来える"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "来る → 来られる(こられる)."
+    },
+    {
+     "id": "JP-N4-07-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「予約」의 뜻은?",
+     "options": [
+      "예약",
+      "약속",
+      "여행",
+      "지도"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "予約(よやく) = 예약."
+    },
+    {
+     "id": "JP-N4-07-Q5",
+     "type": "typing",
+     "prompt_ko": "「温泉」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "onsen",
+     "accepted_answers": [
+      "onsen",
+      "onnsenn"
+     ],
+     "explanation_ko": "温泉 = おんせん (onsen)"
+    },
+    {
+     "id": "JP-N4-07-Q6",
+     "type": "typing",
+     "prompt_ko": "「地図」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "chizu",
+     "accepted_answers": [
+      "chizu",
+      "tizu"
+     ],
+     "explanation_ko": "地図 = ちず (chizu)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  }
+ ]
+}

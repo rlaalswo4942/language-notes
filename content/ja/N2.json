@@ -1,0 +1,1472 @@
+{
+ "course": "N2",
+ "schema_version": "1.0.0",
+ "authoring_policy": {
+  "not_official_jlpt_vocab_list": true,
+  "review_required_for_publish": true
+ },
+ "lessons": [
+  {
+   "id": "JP-N2-01",
+   "day_index": 1,
+   "week_index": 1,
+   "level": "N2",
+   "unit_id": "N2-W01",
+   "lesson_type": "new",
+   "title_ko": "〜わけではない: 부분 부정",
+   "objective_ko": "‘반드시 ~인 것은 아니다’로 부분적으로 부정한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [],
+   "explanation_ko": "〜わけではない는 ‘(반드시/전부) ~인 것은 아니다’로, 상대가 당연히 그렇다고 생각할 내용을 부분적으로 부정합니다. 全部・いつも・必ずしも와 자주 함께 씁니다.",
+   "usage_notes": [
+    "회화에서는 〜わけじゃない."
+   ],
+   "common_mistakes": [
+    "な형용사는 嫌いなわけではない(嫌いだわけ X)."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N2-01-01",
+     "kind": "word",
+     "text": "必{かなら}ずしも",
+     "reading_kana": "かならずしも",
+     "reading_romanized": "kanarazushimo",
+     "meaning_ko": "반드시 (부정과 함께)",
+     "part_of_speech": "부사"
+    },
+    {
+     "id": "w-JP-N2-01-02",
+     "kind": "word",
+     "text": "嫌{きら}い",
+     "reading_kana": "きらい",
+     "reading_romanized": "kirai",
+     "meaning_ko": "싫어함",
+     "part_of_speech": "な형용사"
+    },
+    {
+     "id": "w-JP-N2-01-03",
+     "kind": "word",
+     "text": "高価{こうか}",
+     "reading_kana": "こうか",
+     "reading_romanized": "kouka",
+     "meaning_ko": "고가",
+     "part_of_speech": "な형용사"
+    },
+    {
+     "id": "w-JP-N2-01-04",
+     "kind": "word",
+     "text": "品質{ひんしつ}",
+     "reading_kana": "ひんしつ",
+     "reading_romanized": "hinshitsu",
+     "meaning_ko": "품질",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-01-05",
+     "kind": "word",
+     "text": "得意{とくい}",
+     "reading_kana": "とくい",
+     "reading_romanized": "tokui",
+     "meaning_ko": "잘함, 자신 있음",
+     "part_of_speech": "な형용사"
+    },
+    {
+     "id": "w-JP-N2-01-06",
+     "kind": "word",
+     "text": "賛成{さんせい}",
+     "reading_kana": "さんせい",
+     "reading_romanized": "sansei",
+     "meaning_ko": "찬성",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "肉{にく}が嫌{きら}いなわけではないが、あまり食{た}べない。",
+     "meaning_ko": "고기가 싫은 것은 아니지만 별로 먹지 않는다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "高価{こうか}な物{もの}が必{かなら}ずしも品質{ひんしつ}がいいわけではない。",
+     "meaning_ko": "비싼 물건이 반드시 품질이 좋은 것은 아니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "日本人{にほんじん}だからといって、敬語{けいご}が得意{とくい}なわけではありません。",
+     "meaning_ko": "일본인이라고 해서 경어를 잘하는 것은 아닙니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "あなたの意見{いけん}に反対{はんたい}しているわけではありません。",
+     "meaning_ko": "당신 의견에 반대하는 것은 아닙니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "毎日{まいにち}忙{いそが}しいわけではないので、週末{しゅうまつ}なら会{あ}えます。",
+     "meaning_ko": "매일 바쁜 것은 아니라서 주말이라면 만날 수 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "全員{ぜんいん}が賛成{さんせい}しているわけではない。",
+     "meaning_ko": "전원이 찬성하는 것은 아니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "お金{かね}があれば幸{しあわ}せになれるわけではない。",
+     "meaning_ko": "돈이 있다고 행복해질 수 있는 것은 아니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "嫌{きら}いなわけじゃないけど、今日{きょう}は遠慮{えんりょ}しておきます。",
+     "meaning_ko": "싫은 건 아니지만 오늘은 사양할게요.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N2-01-Q1",
+     "type": "single_choice",
+     "prompt_ko": "「高い物が必ずしも良いわけではない」의 뜻",
+     "options": [
+      "비싼 물건이 반드시 좋은 것은 아니다",
+      "비싼 물건은 절대 좋지 않다",
+      "비싼 물건은 반드시 좋다",
+      "비싼 물건이 좋을 리가 없다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "부분 부정."
+    },
+    {
+     "id": "JP-N2-01-Q2",
+     "type": "single_choice",
+     "prompt_ko": "な형용사 + わけではない",
+     "options": [
+      "嫌いなわけではない",
+      "嫌いだわけではない",
+      "嫌いわけではない",
+      "嫌いのわけではない"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "な형용사 + な + わけ."
+    },
+    {
+     "id": "JP-N2-01-Q3",
+     "type": "single_choice",
+     "prompt_ko": "必ずしも와 어울리는 문말",
+     "options": [
+      "〜わけではない",
+      "〜はずだ",
+      "〜べきだ",
+      "〜そうだ"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "必ずしも + 부분 부정."
+    },
+    {
+     "id": "JP-N2-01-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「賛成」의 뜻은?",
+     "options": [
+      "찬성",
+      "반대",
+      "의견",
+      "품질"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "賛成(さんせい) = 찬성."
+    },
+    {
+     "id": "JP-N2-01-Q5",
+     "type": "typing",
+     "prompt_ko": "「品質」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "hinshitsu",
+     "accepted_answers": [
+      "hinshitsu",
+      "hinsitu",
+      "hinnshitsu"
+     ],
+     "explanation_ko": "品質 = ひんしつ (hinshitsu)"
+    },
+    {
+     "id": "JP-N2-01-Q6",
+     "type": "typing",
+     "prompt_ko": "「得意」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "tokui",
+     "accepted_answers": [
+      "tokui"
+     ],
+     "explanation_ko": "得意 = とくい (tokui)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-02",
+   "day_index": 2,
+   "week_index": 1,
+   "level": "N2",
+   "unit_id": "N2-W01",
+   "lesson_type": "new",
+   "title_ko": "〜ものの: ~이지만 (기대와 다른 결과)",
+   "objective_ko": "앞 사실을 인정하면서 예상과 다른 결과를 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-01"
+   ],
+   "explanation_ko": "〜ものの는 ‘~하기는 했지만’. 앞의 사실을 인정하면서 뒤에 예상과 다른 결과가 옵니다. 문어적이며 보통형에 접속합니다(な형용사·명사는 〜な/〜である).",
+   "usage_notes": [
+    "회화에서는 〜けど가 더 자연스럽습니다."
+   ],
+   "common_mistakes": [
+    "뒤에 명령·의지 표현은 잘 오지 않습니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N2-02-01",
+     "kind": "word",
+     "text": "申{もう}し込{こ}む",
+     "reading_kana": "もうしこむ",
+     "reading_romanized": "moushikomu",
+     "meaning_ko": "신청하다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N2-02-02",
+     "kind": "word",
+     "text": "免許{めんきょ}",
+     "reading_kana": "めんきょ",
+     "reading_romanized": "menkyo",
+     "meaning_ko": "면허",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-02-03",
+     "kind": "word",
+     "text": "購入{こうにゅう}",
+     "reading_kana": "こうにゅう",
+     "reading_romanized": "kounyuu",
+     "meaning_ko": "구입",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-02-04",
+     "kind": "word",
+     "text": "実際{じっさい}",
+     "reading_kana": "じっさい",
+     "reading_romanized": "jissai",
+     "meaning_ko": "실제",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-02-05",
+     "kind": "word",
+     "text": "一応{いちおう}",
+     "reading_kana": "いちおう",
+     "reading_romanized": "ichiou",
+     "meaning_ko": "일단",
+     "part_of_speech": "부사"
+    },
+    {
+     "id": "w-JP-N2-02-06",
+     "kind": "word",
+     "text": "苦労{くろう}",
+     "reading_kana": "くろう",
+     "reading_romanized": "kurou",
+     "meaning_ko": "고생",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "運転免許{うんてんめんきょ}は取{と}ったものの、ほとんど運転{うんてん}していない。",
+     "meaning_ko": "운전면허는 땄지만 거의 운전하지 않는다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "参加{さんか}を申{もう}し込{こ}んだものの、当日{とうじつ}は行{い}けなかった。",
+     "meaning_ko": "참가 신청은 했지만 당일에는 가지 못했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "新{あたら}しいパソコンを購入{こうにゅう}したものの、使{つか}い方{かた}がよくわからない。",
+     "meaning_ko": "새 컴퓨터를 구입하긴 했지만 사용법을 잘 모르겠다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "一応{いちおう}説明{せつめい}は聞{き}いたものの、実際{じっさい}にやるのは難{むずか}しい。",
+     "meaning_ko": "일단 설명은 들었지만 실제로 하는 것은 어렵다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "春{はる}になったものの、まだ寒{さむ}い日{ひ}が続{つづ}いている。",
+     "meaning_ko": "봄이 되었지만 아직 추운 날이 계속되고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "給料{きゅうりょう}は高{たか}いものの、残業{ざんぎょう}が多{おお}い。",
+     "meaning_ko": "월급은 높지만 야근이 많다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "留学{りゅうがく}は楽{たの}しかったものの、苦労{くろう}も多{おお}かった。",
+     "meaning_ko": "유학은 즐거웠지만 고생도 많았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "便利{べんり}であるものの、値段{ねだん}が高{たか}すぎる。",
+     "meaning_ko": "편리하긴 하지만 가격이 너무 비싸다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N2-02-Q1",
+     "type": "single_choice",
+     "prompt_ko": "「免許は取ったものの、運転していない」의 뜻",
+     "options": [
+      "면허는 땄지만 운전하지 않는다",
+      "면허를 땄기 때문에 운전한다",
+      "면허를 따기 위해 운전한다",
+      "면허를 딴다면 운전할 것이다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜ものの = ~했지만."
+    },
+    {
+     "id": "JP-N2-02-Q2",
+     "type": "single_choice",
+     "prompt_ko": "〜ものの 뒤에 오는 내용은?",
+     "options": [
+      "예상과 다른 결과",
+      "앞 내용의 이유",
+      "목적",
+      "명령"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "기대와 다른 결과."
+    },
+    {
+     "id": "JP-N2-02-Q3",
+     "type": "single_choice",
+     "prompt_ko": "な형용사 便利 + ものの (문어)",
+     "options": [
+      "便利であるものの",
+      "便利なであるものの",
+      "便利だものの",
+      "便利のものの"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "な형용사 → 〜である/〜な."
+    },
+    {
+     "id": "JP-N2-02-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「購入」의 뜻은?",
+     "options": [
+      "구입",
+      "신청",
+      "고생",
+      "실제"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "購入(こうにゅう) = 구입."
+    },
+    {
+     "id": "JP-N2-02-Q5",
+     "type": "typing",
+     "prompt_ko": "「実際」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "jissai",
+     "accepted_answers": [
+      "jissai",
+      "zissai"
+     ],
+     "explanation_ko": "実際 = じっさい (jissai)"
+    },
+    {
+     "id": "JP-N2-02-Q6",
+     "type": "typing",
+     "prompt_ko": "「苦労」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kurou",
+     "accepted_answers": [
+      "kurou",
+      "kuro"
+     ],
+     "explanation_ko": "苦労 = くろう (kurou)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-03",
+   "day_index": 3,
+   "week_index": 1,
+   "level": "N2",
+   "unit_id": "N2-W01",
+   "lesson_type": "new",
+   "title_ko": "〜に応じて: ~에 따라",
+   "objective_ko": "조건의 변화에 맞춰 달라지는 것을 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-02"
+   ],
+   "explanation_ko": "명사 + に応{おう}じて는 ‘~에 따라/맞춰’. 상황·조건의 변화에 대응해 뒤의 내용이 달라짐을 나타냅니다. 명사 수식은 〜に応じた + 명사.",
+   "usage_notes": [
+    "비슷한 표현 〜によって보다 ‘조건에 맞춰 조정한다’는 뉘앙스가 강합니다."
+   ],
+   "common_mistakes": [
+    "状況に応じて対応(명사 앞에 て형 X) → 状況に応じた対応."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N2-03-01",
+     "kind": "word",
+     "text": "予算{よさん}",
+     "reading_kana": "よさん",
+     "reading_romanized": "yosan",
+     "meaning_ko": "예산",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-03-02",
+     "kind": "word",
+     "text": "能力{のうりょく}",
+     "reading_kana": "のうりょく",
+     "reading_romanized": "nouryoku",
+     "meaning_ko": "능력",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-03-03",
+     "kind": "word",
+     "text": "給与{きゅうよ}",
+     "reading_kana": "きゅうよ",
+     "reading_romanized": "kyuuyo",
+     "meaning_ko": "급여",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-03-04",
+     "kind": "word",
+     "text": "状況{じょうきょう}",
+     "reading_kana": "じょうきょう",
+     "reading_romanized": "joukyou",
+     "meaning_ko": "상황",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-03-05",
+     "kind": "word",
+     "text": "対応{たいおう}",
+     "reading_kana": "たいおう",
+     "reading_romanized": "taiou",
+     "meaning_ko": "대응",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-03-06",
+     "kind": "word",
+     "text": "希望{きぼう}",
+     "reading_kana": "きぼう",
+     "reading_romanized": "kibou",
+     "meaning_ko": "희망",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "予算{よさん}に応{おう}じてプランを選{えら}べます。",
+     "meaning_ko": "예산에 따라 플랜을 고를 수 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "能力{のうりょく}に応{おう}じて給与{きゅうよ}が決{き}まります。",
+     "meaning_ko": "능력에 따라 급여가 정해집니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "お客様{きゃくさま}の希望{きぼう}に応{おう}じて、料理{りょうり}の量{りょう}を調整{ちょうせい}します。",
+     "meaning_ko": "손님의 희망에 맞춰 요리 양을 조정합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "状況{じょうきょう}に応{おう}じた対応{たいおう}が求{もと}められる。",
+     "meaning_ko": "상황에 맞는 대응이 요구된다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "季節{きせつ}に応{おう}じてメニューが変{か}わります。",
+     "meaning_ko": "계절에 따라 메뉴가 바뀝니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "年齢{ねんれい}に応{おう}じた運動{うんどう}をしましょう。",
+     "meaning_ko": "나이에 맞는 운동을 합시다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "参加者{さんかしゃ}の数{かず}に応{おう}じて、会場{かいじょう}を変更{へんこう}します。",
+     "meaning_ko": "참가자 수에 따라 행사장을 변경합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "レベルに応{おう}じたクラスに分{わ}かれて学{まな}びます。",
+     "meaning_ko": "레벨에 맞는 반으로 나뉘어 배웁니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N2-03-Q1",
+     "type": "single_choice",
+     "prompt_ko": "「予算に応じて選べます」의 뜻",
+     "options": [
+      "예산에 따라 고를 수 있습니다",
+      "예산을 위해 고를 수 있습니다",
+      "예산 덕분에 고를 수 있습니다",
+      "예산과 상관없이 고를 수 있습니다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜に応じて = ~에 따라."
+    },
+    {
+     "id": "JP-N2-03-Q2",
+     "type": "single_choice",
+     "prompt_ko": "명사 수식: 状況___対応",
+     "options": [
+      "に応じた",
+      "に応じて",
+      "に応じる",
+      "に応じての"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "명사 앞 → に応じた."
+    },
+    {
+     "id": "JP-N2-03-Q3",
+     "type": "single_choice",
+     "prompt_ko": "「能力」의 뜻은?",
+     "options": [
+      "능력",
+      "급여",
+      "희망",
+      "상황"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "能力(のうりょく) = 능력."
+    },
+    {
+     "id": "JP-N2-03-Q4",
+     "type": "single_choice",
+     "prompt_ko": "季節___メニューが変わる。",
+     "options": [
+      "に応じて",
+      "に反して",
+      "にとって",
+      "について"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "계절 변화에 맞춰 → に応じて."
+    },
+    {
+     "id": "JP-N2-03-Q5",
+     "type": "typing",
+     "prompt_ko": "「予算」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "yosan",
+     "accepted_answers": [
+      "yosan",
+      "yosann"
+     ],
+     "explanation_ko": "予算 = よさん (yosan)"
+    },
+    {
+     "id": "JP-N2-03-Q6",
+     "type": "typing",
+     "prompt_ko": "「状況」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "joukyou",
+     "accepted_answers": [
+      "joukyou",
+      "zyoukyou",
+      "jokyo",
+      "zyokyo"
+     ],
+     "explanation_ko": "状況 = じょうきょう (joukyou)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-04",
+   "day_index": 4,
+   "week_index": 1,
+   "level": "N2",
+   "unit_id": "N2-W01",
+   "lesson_type": "new",
+   "title_ko": "〜に伴って: ~에 따라 (동반 변화)",
+   "objective_ko": "한쪽의 변화가 다른 쪽 변화를 동반함을 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-03"
+   ],
+   "explanation_ko": "〜に伴{ともな}って는 ‘~에 따라/~와 함께’. 한쪽의 변화가 다른 쪽의 변화를 동반함을 나타내며, 사회 변화·뉴스 같은 딱딱한 문장에 자주 쓰입니다. 명사 수식은 〜に伴う + 명사, 문어체 연결은 〜に伴い.",
+   "usage_notes": [
+    "동사 사전형 + に伴って도 가능: 年齢が上がるに伴って."
+   ],
+   "common_mistakes": [
+    "개인의 의지적 행동에는 잘 쓰지 않습니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N2-04-01",
+     "kind": "word",
+     "text": "人口{じんこう}",
+     "reading_kana": "じんこう",
+     "reading_romanized": "jinkou",
+     "meaning_ko": "인구",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-04-02",
+     "kind": "word",
+     "text": "増加{ぞうか}",
+     "reading_kana": "ぞうか",
+     "reading_romanized": "zouka",
+     "meaning_ko": "증가",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-04-03",
+     "kind": "word",
+     "text": "減少{げんしょう}",
+     "reading_kana": "げんしょう",
+     "reading_romanized": "genshou",
+     "meaning_ko": "감소",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-04-04",
+     "kind": "word",
+     "text": "発展{はってん}",
+     "reading_kana": "はってん",
+     "reading_romanized": "hatten",
+     "meaning_ko": "발전",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-04-05",
+     "kind": "word",
+     "text": "高齢化{こうれいか}",
+     "reading_kana": "こうれいか",
+     "reading_romanized": "koureika",
+     "meaning_ko": "고령화",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-04-06",
+     "kind": "word",
+     "text": "変化{へんか}",
+     "reading_kana": "へんか",
+     "reading_romanized": "henka",
+     "meaning_ko": "변화",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "人口{じんこう}の増加{ぞうか}に伴{ともな}って、住宅{じゅうたく}が不足{ふそく}している。",
+     "meaning_ko": "인구 증가에 따라 주택이 부족하다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "技術{ぎじゅつ}の発展{はってん}に伴{ともな}い、働{はたら}き方{かた}も変{か}わってきた。",
+     "meaning_ko": "기술 발전에 따라 일하는 방식도 바뀌어 왔다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "高齢化{こうれいか}に伴{ともな}う問題{もんだい}が増{ふ}えている。",
+     "meaning_ko": "고령화에 따른 문제가 늘고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "気温{きおん}の上昇{じょうしょう}に伴{ともな}って、電気{でんき}の使用量{しようりょう}が増{ふ}えた。",
+     "meaning_ko": "기온 상승에 따라 전기 사용량이 늘었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "店舗{てんぽ}の移転{いてん}に伴{ともな}い、営業時間{えいぎょうじかん}が変更{へんこう}になります。",
+     "meaning_ko": "점포 이전에 따라 영업시간이 변경됩니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "子{こ}どもの数{かず}の減少{げんしょう}に伴{ともな}って、学校{がっこう}が統合{とうごう}された。",
+     "meaning_ko": "아이 수 감소에 따라 학교가 통합되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "経済{けいざい}の変化{へんか}に伴{ともな}う影響{えいきょう}を調{しら}べる。",
+     "meaning_ko": "경제 변화에 따른 영향을 조사한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "年齢{ねんれい}が上{あ}がるに伴{ともな}って、体力{たいりょく}が落{お}ちる。",
+     "meaning_ko": "나이가 들수록 체력이 떨어진다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N2-04-Q1",
+     "type": "single_choice",
+     "prompt_ko": "「人口の増加に伴って」의 뜻",
+     "options": [
+      "인구 증가에 따라",
+      "인구 증가에 반해",
+      "인구 증가를 위해",
+      "인구 증가 대신에"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜に伴って = ~에 따라(동반 변화)."
+    },
+    {
+     "id": "JP-N2-04-Q2",
+     "type": "single_choice",
+     "prompt_ko": "명사 수식: 高齢化___問題",
+     "options": [
+      "に伴う",
+      "に伴って",
+      "に伴い",
+      "に伴うの"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "명사 앞 → に伴う."
+    },
+    {
+     "id": "JP-N2-04-Q3",
+     "type": "single_choice",
+     "prompt_ko": "〜に伴って가 자주 쓰이는 장면",
+     "options": [
+      "사회 변화·뉴스 같은 딱딱한 문장",
+      "친구끼리 가벼운 대화",
+      "명령하는 말",
+      "감탄하는 말"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "문어적 표현."
+    },
+    {
+     "id": "JP-N2-04-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「減少」의 뜻은?",
+     "options": [
+      "감소",
+      "증가",
+      "발전",
+      "변화"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "減少(げんしょう) = 감소."
+    },
+    {
+     "id": "JP-N2-04-Q5",
+     "type": "typing",
+     "prompt_ko": "「人口」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "jinkou",
+     "accepted_answers": [
+      "jinkou",
+      "zinkou",
+      "jinko",
+      "zinko",
+      "jinnkou"
+     ],
+     "explanation_ko": "人口 = じんこう (jinkou)"
+    },
+    {
+     "id": "JP-N2-04-Q6",
+     "type": "typing",
+     "prompt_ko": "「発展」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "hatten",
+     "accepted_answers": [
+      "hatten",
+      "hattenn"
+     ],
+     "explanation_ko": "発展 = はってん (hatten)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-05",
+   "day_index": 5,
+   "week_index": 1,
+   "level": "N2",
+   "unit_id": "N2-W01",
+   "lesson_type": "new",
+   "title_ko": "〜をめぐって: ~을 둘러싸고",
+   "objective_ko": "쟁점을 중심으로 한 논쟁·대립을 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-04"
+   ],
+   "explanation_ko": "명사 + をめぐって는 ‘~을 둘러싸고’. 어떤 문제를 중심으로 여러 사람이 논쟁·대립·검토하는 상황에 씁니다. 명사 수식은 〜をめぐる + 명사, 문어체 연결은 〜をめぐり.",
+   "usage_notes": [
+    "뒤에는 議論する・対立する・争う・意見が分かれる 같은 말이 자주 옵니다."
+   ],
+   "common_mistakes": [
+    "단순한 ‘~에 대해’는 〜について."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N2-05-01",
+     "kind": "word",
+     "text": "議論{ぎろん}",
+     "reading_kana": "ぎろん",
+     "reading_romanized": "giron",
+     "meaning_ko": "논의",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-05-02",
+     "kind": "word",
+     "text": "対立{たいりつ}",
+     "reading_kana": "たいりつ",
+     "reading_romanized": "tairitsu",
+     "meaning_ko": "대립",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-05-03",
+     "kind": "word",
+     "text": "遺産{いさん}",
+     "reading_kana": "いさん",
+     "reading_romanized": "isan",
+     "meaning_ko": "유산",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-05-04",
+     "kind": "word",
+     "text": "建設{けんせつ}",
+     "reading_kana": "けんせつ",
+     "reading_romanized": "kensetsu",
+     "meaning_ko": "건설",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-05-05",
+     "kind": "word",
+     "text": "計画{けいかく}",
+     "reading_kana": "けいかく",
+     "reading_romanized": "keikaku",
+     "meaning_ko": "계획",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-05-06",
+     "kind": "word",
+     "text": "住民{じゅうみん}",
+     "reading_kana": "じゅうみん",
+     "reading_romanized": "juumin",
+     "meaning_ko": "주민",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "新{あたら}しい空港{くうこう}の建設{けんせつ}をめぐって、住民{じゅうみん}の意見{いけん}が分{わ}かれている。",
+     "meaning_ko": "새 공항 건설을 둘러싸고 주민 의견이 갈리고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "遺産{いさん}をめぐって、兄弟{きょうだい}が対立{たいりつ}した。",
+     "meaning_ko": "유산을 둘러싸고 형제가 대립했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この問題{もんだい}をめぐる議論{ぎろん}は今{いま}も続{つづ}いている。",
+     "meaning_ko": "이 문제를 둘러싼 논의는 지금도 계속되고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "増税{ぞうぜい}をめぐって、国会{こっかい}で激{はげ}しい議論{ぎろん}が行{おこな}われた。",
+     "meaning_ko": "증세를 둘러싸고 국회에서 격렬한 논의가 벌어졌다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "再開発{さいかいはつ}計画{けいかく}をめぐり、市{し}と住民{じゅうみん}が話{はな}し合{あ}っている。",
+     "meaning_ko": "재개발 계획을 둘러싸고 시와 주민이 논의하고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "AIの利用{りよう}をめぐる課題{かだい}について考{かんが}える。",
+     "meaning_ko": "AI 이용을 둘러싼 과제에 대해 생각한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "選手{せんしゅ}の移籍{いせき}をめぐって、さまざまな噂{うわさ}が流{なが}れた。",
+     "meaning_ko": "선수 이적을 둘러싸고 여러 소문이 돌았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "ルールの解釈{かいしゃく}をめぐって意見{いけん}が対立{たいりつ}した。",
+     "meaning_ko": "규칙 해석을 둘러싸고 의견이 대립했다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N2-05-Q1",
+     "type": "single_choice",
+     "prompt_ko": "「建設をめぐって意見が分かれている」의 뜻",
+     "options": [
+      "건설을 둘러싸고 의견이 갈리고 있다",
+      "건설 덕분에 의견이 모였다",
+      "건설에 따라 의견이 바뀌었다",
+      "건설을 위해 의견을 냈다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜をめぐって = ~을 둘러싸고."
+    },
+    {
+     "id": "JP-N2-05-Q2",
+     "type": "single_choice",
+     "prompt_ko": "명사 수식: 問題___議論",
+     "options": [
+      "をめぐる",
+      "をめぐって",
+      "をめぐり",
+      "をめぐた"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "명사 앞 → をめぐる."
+    },
+    {
+     "id": "JP-N2-05-Q3",
+     "type": "single_choice",
+     "prompt_ko": "〜をめぐって 뒤에 자주 오는 말",
+     "options": [
+      "対立する・議論する",
+      "食べる・寝る",
+      "晴れる・曇る",
+      "笑う・歌う"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "논쟁·대립 표현."
+    },
+    {
+     "id": "JP-N2-05-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「住民」의 뜻은?",
+     "options": [
+      "주민",
+      "유산",
+      "계획",
+      "건설"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "住民(じゅうみん) = 주민."
+    },
+    {
+     "id": "JP-N2-05-Q5",
+     "type": "typing",
+     "prompt_ko": "「議論」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "giron",
+     "accepted_answers": [
+      "giron",
+      "gironn"
+     ],
+     "explanation_ko": "議論 = ぎろん (giron)"
+    },
+    {
+     "id": "JP-N2-05-Q6",
+     "type": "typing",
+     "prompt_ko": "「計画」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "keikaku",
+     "accepted_answers": [
+      "keikaku"
+     ],
+     "explanation_ko": "計画 = けいかく (keikaku)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-06",
+   "day_index": 6,
+   "week_index": 1,
+   "level": "N2",
+   "unit_id": "N2-W01",
+   "lesson_type": "practice",
+   "title_ko": "적용: 공지문 읽기",
+   "objective_ko": "건물 공지문을 읽고 필요한 정보를 찾는다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-05"
+   ],
+   "explanation_ko": "회사·건물 공지문에서 자주 쓰이는 표현(〜について, 〜いたします, 〜ください, 〜場合があります)을 읽고 필요한 정보를 찾습니다.",
+   "usage_notes": [
+    "ご迷惑をおかけしますが = 불편을 끼쳐 드리지만(공지문 관용구)."
+   ],
+   "common_mistakes": [],
+   "new_items": [
+    {
+     "id": "w-JP-N2-06-01",
+     "kind": "word",
+     "text": "点検{てんけん}",
+     "reading_kana": "てんけん",
+     "reading_romanized": "tenken",
+     "meaning_ko": "점검",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-06-02",
+     "kind": "word",
+     "text": "停止{ていし}",
+     "reading_kana": "ていし",
+     "reading_romanized": "teishi",
+     "meaning_ko": "정지",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-06-03",
+     "kind": "word",
+     "text": "利用者{りようしゃ}",
+     "reading_kana": "りようしゃ",
+     "reading_romanized": "riyousha",
+     "meaning_ko": "이용자",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-06-04",
+     "kind": "word",
+     "text": "期間{きかん}",
+     "reading_kana": "きかん",
+     "reading_romanized": "kikan",
+     "meaning_ko": "기간",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-06-05",
+     "kind": "word",
+     "text": "迷惑{めいわく}",
+     "reading_kana": "めいわく",
+     "reading_romanized": "meiwaku",
+     "meaning_ko": "폐, 불편",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-06-06",
+     "kind": "word",
+     "text": "協力{きょうりょく}",
+     "reading_kana": "きょうりょく",
+     "reading_romanized": "kyouryoku",
+     "meaning_ko": "협력, 협조",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "【お知{し}らせ】エレベーター点検{てんけん}について",
+     "meaning_ko": "[안내] 엘리베이터 점검에 대해",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "10月{じゅうがつ}20日{はつか}(火{か})、エレベーターの点検{てんけん}を行{おこな}います。",
+     "meaning_ko": "10월 20일(화) 엘리베이터 점검을 실시합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "点検{てんけん}期間{きかん}中{ちゅう}は、エレベーターが停止{ていし}いたします。",
+     "meaning_ko": "점검 기간 중에는 엘리베이터가 정지됩니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "時間{じかん}は午前{ごぜん}9時{くじ}から正午{しょうご}までの予定{よてい}です。",
+     "meaning_ko": "시간은 오전 9시부터 정오까지 예정입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "その間{あいだ}は、階段{かいだん}をご利用{りよう}ください。",
+     "meaning_ko": "그동안은 계단을 이용해 주십시오.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "作業{さぎょう}の状況{じょうきょう}により、終了{しゅうりょう}時間{じかん}が前後{ぜんご}する場合{ばあい}があります。",
+     "meaning_ko": "작업 상황에 따라 종료 시간이 앞뒤로 바뀔 수 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "利用者{りようしゃ}の皆様{みなさま}にはご迷惑{めいわく}をおかけしますが、ご協力{きょうりょく}をお願{ねが}いいたします。",
+     "meaning_ko": "이용자 여러분께 불편을 끼쳐 드리지만 협조 부탁드립니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "管理{かんり}事務所{じむしょ}",
+     "meaning_ko": "관리 사무소",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N2-06-Q1",
+     "type": "single_choice",
+     "prompt_ko": "점검 중 이용할 수 있는 것은?",
+     "options": [
+      "계단",
+      "엘리베이터",
+      "에스컬레이터",
+      "주차장"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "階段をご利用ください."
+    },
+    {
+     "id": "JP-N2-06-Q2",
+     "type": "single_choice",
+     "prompt_ko": "점검 시간은?",
+     "options": [
+      "오전 9시~정오",
+      "오전 9시~오후 5시",
+      "정오~오후 3시",
+      "하루 종일"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "午前9時から正午まで."
+    },
+    {
+     "id": "JP-N2-06-Q3",
+     "type": "single_choice",
+     "prompt_ko": "「前後する場合があります」의 뜻",
+     "options": [
+      "앞뒤로 바뀔 수 있습니다",
+      "반드시 늦어집니다",
+      "취소될 수 있습니다",
+      "앞당겨지지 않습니다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "前後する = 앞뒤로 바뀌다."
+    },
+    {
+     "id": "JP-N2-06-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「ご迷惑をおかけしますが」의 뜻",
+     "options": [
+      "불편을 끼쳐 드리지만",
+      "도움을 드리지만",
+      "연락을 드리지만",
+      "감사를 드리지만"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "迷惑 = 폐, 불편."
+    },
+    {
+     "id": "JP-N2-06-Q5",
+     "type": "typing",
+     "prompt_ko": "「点検」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "tenken",
+     "accepted_answers": [
+      "tenken",
+      "tennkenn"
+     ],
+     "explanation_ko": "点検 = てんけん (tenken)"
+    },
+    {
+     "id": "JP-N2-06-Q6",
+     "type": "typing",
+     "prompt_ko": "「期間」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kikan",
+     "accepted_answers": [
+      "kikan",
+      "kikann"
+     ],
+     "explanation_ko": "期間 = きかん (kikan)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-07",
+   "day_index": 7,
+   "week_index": 1,
+   "level": "N2",
+   "unit_id": "N2-W01",
+   "lesson_type": "checkpoint",
+   "title_ko": "1주 점검: 재택근무 기사",
+   "objective_ko": "N2 첫 주 문형을 기사문 속에서 구별한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-06"
+   ],
+   "explanation_ko": "わけではない・ものの・に応じて・に伴って・をめぐって를 재택근무에 관한 짧은 기사문 속에서 다시 확인합니다.",
+   "usage_notes": [
+    "〜という声もある = ~라는 목소리(의견)도 있다."
+   ],
+   "common_mistakes": [],
+   "new_items": [
+    {
+     "id": "w-JP-N2-07-01",
+     "kind": "word",
+     "text": "導入{どうにゅう}",
+     "reading_kana": "どうにゅう",
+     "reading_romanized": "dounyuu",
+     "meaning_ko": "도입",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-07-02",
+     "kind": "word",
+     "text": "制度{せいど}",
+     "reading_kana": "せいど",
+     "reading_romanized": "seido",
+     "meaning_ko": "제도",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-07-03",
+     "kind": "word",
+     "text": "在宅勤務{ざいたくきんむ}",
+     "reading_kana": "ざいたくきんむ",
+     "reading_romanized": "zaitakukinmu",
+     "meaning_ko": "재택근무",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-07-04",
+     "kind": "word",
+     "text": "効率{こうりつ}",
+     "reading_kana": "こうりつ",
+     "reading_romanized": "kouritsu",
+     "meaning_ko": "효율",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-07-05",
+     "kind": "word",
+     "text": "社員{しゃいん}",
+     "reading_kana": "しゃいん",
+     "reading_romanized": "shain",
+     "meaning_ko": "사원",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-07-06",
+     "kind": "word",
+     "text": "課題{かだい}",
+     "reading_kana": "かだい",
+     "reading_romanized": "kadai",
+     "meaning_ko": "과제",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "会社{かいしゃ}は在宅勤務{ざいたくきんむ}制度{せいど}を導入{どうにゅう}した。",
+     "meaning_ko": "회사는 재택근무 제도를 도입했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "制度{せいど}の導入{どうにゅう}に伴{ともな}い、オフィスの席{せき}が減{へ}らされた。",
+     "meaning_ko": "제도 도입에 따라 사무실 자리가 줄었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "社員{しゃいん}の希望{きぼう}に応{おう}じて、出社日{しゅっしゃび}を選{えら}べる。",
+     "meaning_ko": "사원의 희망에 따라 출근일을 고를 수 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "在宅勤務{ざいたくきんむ}が全員{ぜんいん}に合{あ}うわけではない。",
+     "meaning_ko": "재택근무가 모두에게 맞는 것은 아니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "効率{こうりつ}は上{あ}がったものの、会話{かいわ}が減{へ}ったという声{こえ}もある。",
+     "meaning_ko": "효율은 올랐지만 대화가 줄었다는 목소리도 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "評価{ひょうか}の方法{ほうほう}をめぐって、議論{ぎろん}が続{つづ}いている。",
+     "meaning_ko": "평가 방법을 둘러싸고 논의가 계속되고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "今後{こんご}の課題{かだい}は、チームの交流{こうりゅう}を増{ふ}やすことだ。",
+     "meaning_ko": "앞으로의 과제는 팀 교류를 늘리는 것이다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "状況{じょうきょう}に応{おう}じた柔軟{じゅうなん}な働{はたら}き方{かた}が求{もと}められている。",
+     "meaning_ko": "상황에 맞는 유연한 근무 방식이 요구되고 있다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N2-07-Q1",
+     "type": "single_choice",
+     "prompt_ko": "練習はした___、本番では失敗した。",
+     "options": [
+      "ものの",
+      "に伴って",
+      "をめぐって",
+      "に応じて"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "했지만 실패 → ものの."
+    },
+    {
+     "id": "JP-N2-07-Q2",
+     "type": "single_choice",
+     "prompt_ko": "給料は成果___決まる。",
+     "options": [
+      "に応じて",
+      "をめぐって",
+      "ものの",
+      "わけではない"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "성과에 따라 → に応じて."
+    },
+    {
+     "id": "JP-N2-07-Q3",
+     "type": "single_choice",
+     "prompt_ko": "環境政策___、意見が対立している。",
+     "options": [
+      "をめぐって",
+      "に応じて",
+      "ものの",
+      "わけではなく"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "쟁점 + 대립 → をめぐって."
+    },
+    {
+     "id": "JP-N2-07-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「導入」의 뜻은?",
+     "options": [
+      "도입",
+      "제도",
+      "효율",
+      "과제"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "導入(どうにゅう) = 도입."
+    },
+    {
+     "id": "JP-N2-07-Q5",
+     "type": "typing",
+     "prompt_ko": "「効率」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kouritsu",
+     "accepted_answers": [
+      "kouritsu",
+      "kouritu",
+      "koritsu",
+      "koritu"
+     ],
+     "explanation_ko": "効率 = こうりつ (kouritsu)"
+    },
+    {
+     "id": "JP-N2-07-Q6",
+     "type": "typing",
+     "prompt_ko": "「制度」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "seido",
+     "accepted_answers": [
+      "seido"
+     ],
+     "explanation_ko": "制度 = せいど (seido)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  }
+ ]
+}

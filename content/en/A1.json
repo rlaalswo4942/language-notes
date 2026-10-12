@@ -1,0 +1,1344 @@
+{
+ "course": "A1",
+ "schema_version": "1.0",
+ "description": "자체 제작 교육용 연습 레슨(AI 초안). 공식 ETS·CEFR 문항 아님.",
+ "lessons": [
+  {
+   "id": "A1-001",
+   "publish_date": "2026-10-12",
+   "level": "A1",
+   "track": "foundation",
+   "day": 1,
+   "title_ko": "일상 루틴: 현재시제와 빈도부사",
+   "objective_ko": "매일 반복하는 일을 빈도부사와 함께 말한다.",
+   "estimated_minutes": 15,
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-12",
+     "supports": "A1-A2 문법 학습 주제"
+    }
+   ],
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "grammar": {
+    "explanation_ko": "매일 반복하는 일은 현재시제로 말합니다. always(항상)·usually(보통)·often(자주)·sometimes(가끔)·never(전혀 ~않다) 같은 빈도부사는 보통 일반동사 앞, be동사 뒤에 둡니다.",
+    "common_mistake_ko": "I go always to school.(X) → I always go to school.(O) / be동사는 She is always late.처럼 뒤에 둡니다."
+   },
+   "vocabulary": [
+    {
+     "word": "always",
+     "part_of_speech": "부사",
+     "meaning_ko": "항상",
+     "example_en": "I always eat breakfast.",
+     "example_ko": "나는 항상 아침을 먹어요."
+    },
+    {
+     "word": "usually",
+     "part_of_speech": "부사",
+     "meaning_ko": "보통",
+     "example_en": "She usually walks to work.",
+     "example_ko": "그녀는 보통 걸어서 출근해요."
+    },
+    {
+     "word": "often",
+     "part_of_speech": "부사",
+     "meaning_ko": "자주",
+     "example_en": "We often play soccer.",
+     "example_ko": "우리는 자주 축구를 해요."
+    },
+    {
+     "word": "sometimes",
+     "part_of_speech": "부사",
+     "meaning_ko": "가끔",
+     "example_en": "He sometimes cooks dinner.",
+     "example_ko": "그는 가끔 저녁을 요리해요."
+    },
+    {
+     "word": "never",
+     "part_of_speech": "부사",
+     "meaning_ko": "전혀 ~않다",
+     "example_en": "I never drink coffee.",
+     "example_ko": "나는 커피를 전혀 마시지 않아요."
+    },
+    {
+     "word": "get up",
+     "part_of_speech": "동사구",
+     "meaning_ko": "일어나다",
+     "example_en": "I get up at seven.",
+     "example_ko": "나는 7시에 일어나요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I always get up at 7 a.m.",
+     "ko": "나는 항상 오전 7시에 일어나요."
+    },
+    {
+     "en": "She usually takes the bus.",
+     "ko": "그녀는 보통 버스를 타요."
+    },
+    {
+     "en": "We often eat lunch together.",
+     "ko": "우리는 자주 점심을 같이 먹어요."
+    },
+    {
+     "en": "He sometimes works on Saturday.",
+     "ko": "그는 가끔 토요일에 일해요."
+    },
+    {
+     "en": "They never watch TV in the morning.",
+     "ko": "그들은 아침에는 TV를 전혀 보지 않아요."
+    },
+    {
+     "en": "My father is always busy.",
+     "ko": "우리 아버지는 항상 바빠요."
+    },
+    {
+     "en": "I usually go to bed at eleven.",
+     "ko": "나는 보통 11시에 자요."
+    },
+    {
+     "en": "Do you often read books?",
+     "ko": "너는 자주 책을 읽니?"
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "알맞은 어순은?",
+     "choices": [
+      "I always drink milk.",
+      "I drink always milk.",
+      "Always I milk drink.",
+      "I milk always drink."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "빈도부사는 일반동사 앞에 둡니다.",
+     "error_tag": "word_order",
+     "id": "A1-001-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "She ___ late. (그녀는 절대 늦지 않아요.)",
+     "choices": [
+      "is never",
+      "never is",
+      "never",
+      "is not never"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "be동사 뒤에 빈도부사를 둡니다.",
+     "error_tag": "word_order",
+     "id": "A1-001-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "‘가끔’이라는 뜻의 단어는?",
+     "choices": [
+      "sometimes",
+      "always",
+      "never",
+      "usually"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "sometimes = 가끔.",
+     "error_tag": "vocabulary",
+     "id": "A1-001-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "He ___ to work by bus every day.",
+     "choices": [
+      "goes",
+      "go",
+      "going",
+      "to go"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "3인칭 단수 현재는 goes.",
+     "error_tag": "subject_verb",
+     "id": "A1-001-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 빈도부사를 쓰세요: I ___ eat breakfast. (나는 항상 아침을 먹어요.)",
+     "answer_text": "always",
+     "accepted_answers": [
+      "always"
+     ],
+     "explanation_ko": "always = 항상.",
+     "error_tag": "grammar",
+     "id": "A1-001-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "괄호 속 동사를 알맞은 형태로: She (walk) to school every day.",
+     "answer_text": "walks",
+     "accepted_answers": [
+      "walks"
+     ],
+     "explanation_ko": "3인칭 단수 현재는 -s를 붙여요.",
+     "error_tag": "grammar",
+     "id": "A1-001-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "빈도부사(always·usually·sometimes·never)를 넣어 나의 하루를 두 문장으로 써 보세요.",
+    "example_answer_en": "I usually get up at seven. I never skip breakfast.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 배운 형태를 썼는지 확인하세요."
+   },
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-12"
+   }
+  },
+  {
+   "id": "A1-002",
+   "publish_date": "2026-10-12",
+   "level": "A1",
+   "track": "foundation",
+   "day": 2,
+   "title_ko": "there is / there are: 장소 묘사",
+   "objective_ko": "무엇이 어디에 있는지 there is / are로 말한다.",
+   "estimated_minutes": 15,
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-12",
+     "supports": "A1-A2 문법 학습 주제"
+    }
+   ],
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "grammar": {
+    "explanation_ko": "‘~이 있다’는 there is(하나·셀 수 없는 것)와 there are(여럿)로 말합니다. 질문은 Is there ~? / Are there ~?, 부정은 There isn't / There aren't.",
+    "common_mistake_ko": "There is two chairs.(X) → There are two chairs.(O) 뒤에 오는 명사의 수에 맞춥니다."
+   },
+   "vocabulary": [
+    {
+     "word": "kitchen",
+     "part_of_speech": "명사",
+     "meaning_ko": "부엌",
+     "example_en": "There is a table in the kitchen.",
+     "example_ko": "부엌에 탁자가 있어요."
+    },
+    {
+     "word": "bedroom",
+     "part_of_speech": "명사",
+     "meaning_ko": "침실",
+     "example_en": "There are two bedrooms.",
+     "example_ko": "침실이 두 개 있어요."
+    },
+    {
+     "word": "park",
+     "part_of_speech": "명사",
+     "meaning_ko": "공원",
+     "example_en": "There is a park near my house.",
+     "example_ko": "우리 집 근처에 공원이 있어요."
+    },
+    {
+     "word": "near",
+     "part_of_speech": "전치사",
+     "meaning_ko": "~근처에",
+     "example_en": "Is there a bank near here?",
+     "example_ko": "이 근처에 은행이 있나요?"
+    },
+    {
+     "word": "some",
+     "part_of_speech": "한정사",
+     "meaning_ko": "약간의, 몇몇의",
+     "example_en": "There are some books on the desk.",
+     "example_ko": "책상 위에 책이 몇 권 있어요."
+    },
+    {
+     "word": "any",
+     "part_of_speech": "한정사",
+     "meaning_ko": "(부정·의문문) 조금도, 어떤",
+     "example_en": "There aren't any eggs.",
+     "example_ko": "달걀이 하나도 없어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "There is a cat on the sofa.",
+     "ko": "소파 위에 고양이가 있어요."
+    },
+    {
+     "en": "There are three people in my family.",
+     "ko": "우리 가족은 세 명이에요."
+    },
+    {
+     "en": "Is there a bank near here?",
+     "ko": "이 근처에 은행이 있나요?"
+    },
+    {
+     "en": "Yes, there is. It's next to the park.",
+     "ko": "네, 있어요. 공원 옆에 있어요."
+    },
+    {
+     "en": "There aren't any chairs in the room.",
+     "ko": "방에 의자가 하나도 없어요."
+    },
+    {
+     "en": "There is some water in the bottle.",
+     "ko": "병에 물이 조금 있어요."
+    },
+    {
+     "en": "Are there any good restaurants here?",
+     "ko": "여기 좋은 식당이 있나요?"
+    },
+    {
+     "en": "There isn't a bus stop on this street.",
+     "ko": "이 길에는 버스 정류장이 없어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "There ___ two parks in my town.",
+     "choices": [
+      "are",
+      "is",
+      "be",
+      "am"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "two parks는 복수라서 are.",
+     "error_tag": "there_be",
+     "id": "A1-002-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "There ___ some milk in the fridge.",
+     "choices": [
+      "is",
+      "are",
+      "be",
+      "have"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "milk는 셀 수 없는 명사라 is.",
+     "error_tag": "there_be",
+     "id": "A1-002-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "‘이 근처에 약국이 있나요?’에 맞는 문장은?",
+     "choices": [
+      "Is there a pharmacy near here?",
+      "Are there a pharmacy near here?",
+      "Is there pharmacy a near here?",
+      "There are a pharmacy near here?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "단수 → Is there a ~?",
+     "error_tag": "there_be",
+     "id": "A1-002-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "There aren't ___ apples.",
+     "choices": [
+      "any",
+      "a",
+      "an",
+      "much"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "부정문의 복수 명사 앞에는 보통 any.",
+     "error_tag": "determiner",
+     "id": "A1-002-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 단어를 쓰세요: ___ there any questions? (질문 있나요?)",
+     "answer_text": "are",
+     "accepted_answers": [
+      "are"
+     ],
+     "explanation_ko": "questions가 복수라 Are there ~?",
+     "error_tag": "grammar",
+     "id": "A1-002-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "부정문으로: There is a TV in my room. → There ___ a TV in my room. (줄임말)",
+     "answer_text": "isn't",
+     "accepted_answers": [
+      "isn't",
+      "is not"
+     ],
+     "explanation_ko": "is not = isn't",
+     "error_tag": "grammar",
+     "id": "A1-002-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "내 방에 있는 것을 there is / there are로 두 문장 써 보세요.",
+    "example_answer_en": "There is a desk in my room. There are two windows.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 배운 형태를 썼는지 확인하세요."
+   },
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-12"
+   }
+  },
+  {
+   "id": "A1-003",
+   "publish_date": "2026-10-12",
+   "level": "A1",
+   "track": "foundation",
+   "day": 3,
+   "title_ko": "can / can't: 능력과 부탁",
+   "objective_ko": "할 수 있는 일·없는 일과 허락·부탁을 can으로 말한다.",
+   "estimated_minutes": 15,
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-12",
+     "supports": "A1-A2 문법 학습 주제"
+    }
+   ],
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "grammar": {
+    "explanation_ko": "can + 동사원형은 ‘~할 수 있다’(능력)와 ‘~해도 돼요?/~해 줄래요?’(허락·부탁)를 나타냅니다. 주어가 무엇이든 can 모양은 바뀌지 않고, 부정은 can't(cannot)입니다.",
+    "common_mistake_ko": "She cans swim.(X) / She can swims.(X) → She can swim.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "swim",
+     "part_of_speech": "동사",
+     "meaning_ko": "수영하다",
+     "example_en": "I can swim.",
+     "example_ko": "나는 수영할 수 있어요."
+    },
+    {
+     "word": "drive",
+     "part_of_speech": "동사",
+     "meaning_ko": "운전하다",
+     "example_en": "He can't drive.",
+     "example_ko": "그는 운전을 못 해요."
+    },
+    {
+     "word": "speak",
+     "part_of_speech": "동사",
+     "meaning_ko": "말하다",
+     "example_en": "Can you speak English?",
+     "example_ko": "영어 할 줄 아세요?"
+    },
+    {
+     "word": "help",
+     "part_of_speech": "동사",
+     "meaning_ko": "돕다",
+     "example_en": "Can you help me?",
+     "example_ko": "저 좀 도와줄 수 있어요?"
+    },
+    {
+     "word": "open",
+     "part_of_speech": "동사",
+     "meaning_ko": "열다",
+     "example_en": "Can I open the window?",
+     "example_ko": "창문 열어도 될까요?"
+    },
+    {
+     "word": "well",
+     "part_of_speech": "부사",
+     "meaning_ko": "잘",
+     "example_en": "She can sing well.",
+     "example_ko": "그녀는 노래를 잘해요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I can play the piano.",
+     "ko": "나는 피아노를 칠 수 있어요."
+    },
+    {
+     "en": "My brother can't swim.",
+     "ko": "우리 형(남동생)은 수영을 못 해요."
+    },
+    {
+     "en": "Can you speak Japanese?",
+     "ko": "일본어 할 줄 알아요?"
+    },
+    {
+     "en": "Yes, I can. / No, I can't.",
+     "ko": "네, 할 수 있어요. / 아니요, 못 해요."
+    },
+    {
+     "en": "Can I sit here?",
+     "ko": "여기 앉아도 될까요?"
+    },
+    {
+     "en": "Can you help me with this box?",
+     "ko": "이 상자 좀 도와줄 수 있어요?"
+    },
+    {
+     "en": "She can cook very well.",
+     "ko": "그녀는 요리를 아주 잘해요."
+    },
+    {
+     "en": "We can't go out tonight.",
+     "ko": "우리는 오늘 밤 외출할 수 없어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "He ___ ride a bike.",
+     "choices": [
+      "can",
+      "cans",
+      "can to",
+      "is can"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "can + 동사원형, 모양은 바뀌지 않아요.",
+     "error_tag": "modal",
+     "id": "A1-003-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "She can speak French.",
+      "She can speaks French.",
+      "She cans speak French.",
+      "She can to speak French."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "can 뒤에는 동사원형.",
+     "error_tag": "modal",
+     "id": "A1-003-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "‘창문 열어도 될까요?’에 맞는 문장은?",
+     "choices": [
+      "Can I open the window?",
+      "Can I opening the window?",
+      "Do I can open the window?",
+      "Can open I the window?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "질문은 Can + 주어 + 동사원형.",
+     "error_tag": "modal",
+     "id": "A1-003-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Can you drive?에 부정으로 답하기",
+     "choices": [
+      "No, I can't.",
+      "No, I don't.",
+      "No, I can.",
+      "No, I am not."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "can 질문에는 can / can't로 답해요.",
+     "error_tag": "short_answer",
+     "id": "A1-003-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 쓰세요: I ___ swim. (나는 수영 못 해요. 줄임말)",
+     "answer_text": "can't",
+     "accepted_answers": [
+      "can't",
+      "cannot",
+      "can not"
+     ],
+     "explanation_ko": "can not의 줄임말은 can't.",
+     "error_tag": "grammar",
+     "id": "A1-003-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "단어를 배열해 질문을 쓰세요: (you / help / can / me)",
+     "answer_text": "Can you help me?",
+     "accepted_answers": [
+      "Can you help me?"
+     ],
+     "explanation_ko": "Can + 주어 + 동사원형 ~?",
+     "error_tag": "grammar",
+     "id": "A1-003-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "내가 할 수 있는 것 하나, 못 하는 것 하나를 can / can't로 써 보세요.",
+    "example_answer_en": "I can swim. I can't drive.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 배운 형태를 썼는지 확인하세요."
+   },
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-12"
+   }
+  },
+  {
+   "id": "A1-004",
+   "publish_date": "2026-10-12",
+   "level": "A1",
+   "track": "foundation",
+   "day": 4,
+   "title_ko": "명령문과 지시",
+   "objective_ko": "지시·금지·제안을 명령문과 Let's로 말한다.",
+   "estimated_minutes": 15,
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-12",
+     "supports": "A1-A2 문법 학습 주제"
+    }
+   ],
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "grammar": {
+    "explanation_ko": "명령·지시·안내는 주어 없이 동사원형으로 시작합니다. 하지 말라고 할 때는 Don't + 동사원형, 공손하게는 please를 붙입니다. 함께 하자고 할 때는 Let's + 동사원형.",
+    "common_mistake_ko": "Not touch it.(X) → Don't touch it.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "turn left",
+     "part_of_speech": "동사구",
+     "meaning_ko": "왼쪽으로 돌다",
+     "example_en": "Turn left at the corner.",
+     "example_ko": "모퉁이에서 왼쪽으로 도세요."
+    },
+    {
+     "word": "wait",
+     "part_of_speech": "동사",
+     "meaning_ko": "기다리다",
+     "example_en": "Please wait here.",
+     "example_ko": "여기서 기다려 주세요."
+    },
+    {
+     "word": "close",
+     "part_of_speech": "동사",
+     "meaning_ko": "닫다",
+     "example_en": "Close the door, please.",
+     "example_ko": "문 좀 닫아 주세요."
+    },
+    {
+     "word": "touch",
+     "part_of_speech": "동사",
+     "meaning_ko": "만지다",
+     "example_en": "Don't touch the screen.",
+     "example_ko": "화면을 만지지 마세요."
+    },
+    {
+     "word": "quiet",
+     "part_of_speech": "형용사",
+     "meaning_ko": "조용한",
+     "example_en": "Be quiet, please.",
+     "example_ko": "조용히 해 주세요."
+    },
+    {
+     "word": "let's",
+     "part_of_speech": "동사구",
+     "meaning_ko": "~하자",
+     "example_en": "Let's go home.",
+     "example_ko": "집에 가자."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Open your books to page ten.",
+     "ko": "책 10쪽을 펴세요."
+    },
+    {
+     "en": "Please sit down.",
+     "ko": "앉으세요."
+    },
+    {
+     "en": "Don't run in the hallway.",
+     "ko": "복도에서 뛰지 마세요."
+    },
+    {
+     "en": "Turn right at the bank.",
+     "ko": "은행에서 오른쪽으로 도세요."
+    },
+    {
+     "en": "Be careful!",
+     "ko": "조심해!"
+    },
+    {
+     "en": "Let's take a break.",
+     "ko": "잠깐 쉬자."
+    },
+    {
+     "en": "Don't be late tomorrow.",
+     "ko": "내일 늦지 마."
+    },
+    {
+     "en": "Wash your hands before lunch.",
+     "ko": "점심 먹기 전에 손을 씻어."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "‘여기서 뛰지 마세요.’에 맞는 문장은?",
+     "choices": [
+      "Don't run here.",
+      "Not run here.",
+      "No run here.",
+      "You don't running here."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "금지는 Don't + 동사원형.",
+     "error_tag": "imperative",
+     "id": "A1-004-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "‘조용히 해 주세요.’에 맞는 문장은?",
+     "choices": [
+      "Be quiet, please.",
+      "Quiet be, please.",
+      "Are quiet, please.",
+      "Is quiet, please."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "형용사 앞에서는 Be로 시작해요.",
+     "error_tag": "imperative",
+     "id": "A1-004-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "‘같이 점심 먹자.’에 맞는 문장은?",
+     "choices": [
+      "Let's have lunch.",
+      "Let's having lunch.",
+      "Let's to have lunch.",
+      "Let we have lunch."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Let's + 동사원형.",
+     "error_tag": "imperative",
+     "id": "A1-004-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "___ the window, please.",
+     "choices": [
+      "Close",
+      "Closes",
+      "Closing",
+      "To close"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "명령문은 동사원형으로 시작해요.",
+     "error_tag": "imperative",
+     "id": "A1-004-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 쓰세요: ___ touch the screen. (화면을 만지지 마세요.)",
+     "answer_text": "Don't",
+     "accepted_answers": [
+      "Don't",
+      "Do not"
+     ],
+     "explanation_ko": "금지는 Don't.",
+     "error_tag": "grammar",
+     "id": "A1-004-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 쓰세요: ___ left at the corner. (모퉁이에서 왼쪽으로 도세요.)",
+     "answer_text": "Turn",
+     "accepted_answers": [
+      "Turn"
+     ],
+     "explanation_ko": "turn left = 왼쪽으로 돌다.",
+     "error_tag": "grammar",
+     "id": "A1-004-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "친구에게 길을 알려 주는 지시문을 두 문장으로 써 보세요.",
+    "example_answer_en": "Go straight. Turn left at the park.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 배운 형태를 썼는지 확인하세요."
+   },
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-12"
+   }
+  },
+  {
+   "id": "A1-005",
+   "publish_date": "2026-10-12",
+   "level": "A1",
+   "track": "foundation",
+   "day": 5,
+   "title_ko": "현재진행형과 현재시제",
+   "objective_ko": "지금 하는 일과 늘 하는 일을 구별해 말한다.",
+   "estimated_minutes": 15,
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-12",
+     "supports": "A1-A2 문법 학습 주제"
+    }
+   ],
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "grammar": {
+    "explanation_ko": "지금 하고 있는 일은 be동사 + 동사-ing(현재진행), 늘 반복하는 일은 현재시제로 말합니다. now, right now는 진행형과, every day, usually는 현재시제와 자주 함께 쓰입니다.",
+    "common_mistake_ko": "I am go to school every day.(X) → I go to school every day.(O) / Look! He runs.(어색) → Look! He is running.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "now",
+     "part_of_speech": "부사",
+     "meaning_ko": "지금",
+     "example_en": "I am eating now.",
+     "example_ko": "나는 지금 먹고 있어요."
+    },
+    {
+     "word": "right now",
+     "part_of_speech": "부사구",
+     "meaning_ko": "바로 지금",
+     "example_en": "She is sleeping right now.",
+     "example_ko": "그녀는 지금 자고 있어요."
+    },
+    {
+     "word": "every day",
+     "part_of_speech": "부사구",
+     "meaning_ko": "매일",
+     "example_en": "He studies every day.",
+     "example_ko": "그는 매일 공부해요."
+    },
+    {
+     "word": "listen",
+     "part_of_speech": "동사",
+     "meaning_ko": "듣다",
+     "example_en": "I am listening to music.",
+     "example_ko": "나는 음악을 듣고 있어요."
+    },
+    {
+     "word": "study",
+     "part_of_speech": "동사",
+     "meaning_ko": "공부하다",
+     "example_en": "They are studying English.",
+     "example_ko": "그들은 영어를 공부하고 있어요."
+    },
+    {
+     "word": "rain",
+     "part_of_speech": "동사",
+     "meaning_ko": "비가 오다",
+     "example_en": "It is raining now.",
+     "example_ko": "지금 비가 와요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I am reading a book now.",
+     "ko": "나는 지금 책을 읽고 있어요."
+    },
+    {
+     "en": "I read a book every night.",
+     "ko": "나는 매일 밤 책을 읽어요."
+    },
+    {
+     "en": "Look! The baby is sleeping.",
+     "ko": "봐! 아기가 자고 있어."
+    },
+    {
+     "en": "She works at a hospital.",
+     "ko": "그녀는 병원에서 일해요."
+    },
+    {
+     "en": "She is working late today.",
+     "ko": "그녀는 오늘 늦게까지 일하고 있어요."
+    },
+    {
+     "en": "It is raining outside.",
+     "ko": "밖에 비가 오고 있어요."
+    },
+    {
+     "en": "What are you doing?",
+     "ko": "뭐 하고 있어?"
+    },
+    {
+     "en": "I'm cooking dinner.",
+     "ko": "저녁 요리하고 있어."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "Be quiet! The baby ___.",
+     "choices": [
+      "is sleeping",
+      "sleeps",
+      "sleep",
+      "sleeping"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "지금 진행 중이므로 is sleeping.",
+     "error_tag": "tense",
+     "id": "A1-005-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "He usually ___ tennis on Sundays.",
+     "choices": [
+      "plays",
+      "is playing",
+      "play",
+      "playing"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "usually = 습관 → 현재시제.",
+     "error_tag": "tense",
+     "id": "A1-005-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "‘지금 뭐 하고 있어?’에 맞는 문장은?",
+     "choices": [
+      "What are you doing now?",
+      "What do you doing now?",
+      "What you are doing now?",
+      "What are you do now?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "What + are + 주어 + -ing?",
+     "error_tag": "tense",
+     "id": "A1-005-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "run의 -ing 형태는?",
+     "choices": [
+      "running",
+      "runing",
+      "runnig",
+      "runeing"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "단모음+단자음은 자음을 하나 더 써요.",
+     "error_tag": "spelling",
+     "id": "A1-005-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 쓰세요: I am ___ to music now. (listen)",
+     "answer_text": "listening",
+     "accepted_answers": [
+      "listening"
+     ],
+     "explanation_ko": "be + 동사-ing.",
+     "error_tag": "grammar",
+     "id": "A1-005-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "괄호 속 동사를 알맞은 형태로: She (study) English every day.",
+     "answer_text": "studies",
+     "accepted_answers": [
+      "studies"
+     ],
+     "explanation_ko": "자음+y → ies.",
+     "error_tag": "grammar",
+     "id": "A1-005-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "지금 하고 있는 일 하나와 매일 하는 일 하나를 써 보세요.",
+    "example_answer_en": "I am studying English now. I walk to school every day.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 배운 형태를 썼는지 확인하세요."
+   },
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-12"
+   }
+  },
+  {
+   "id": "A1-006",
+   "publish_date": "2026-10-12",
+   "level": "A1",
+   "track": "foundation",
+   "day": 6,
+   "title_ko": "시간 전치사 at / on / in",
+   "objective_ko": "시각·요일·월을 알맞은 전치사로 말한다.",
+   "estimated_minutes": 15,
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-12",
+     "supports": "A1-A2 문법 학습 주제"
+    }
+   ],
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "grammar": {
+    "explanation_ko": "시각에는 at(at 3 o'clock), 요일·날짜에는 on(on Monday, on May 5th), 월·연도·계절·하루의 때에는 in(in July, in 2026, in the morning)을 씁니다. 예외: at night, at noon.",
+    "common_mistake_ko": "in Monday(X) → on Monday(O) / at the morning(X) → in the morning(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "o'clock",
+     "part_of_speech": "부사",
+     "meaning_ko": "~시 정각",
+     "example_en": "The class starts at nine o'clock.",
+     "example_ko": "수업은 9시 정각에 시작해요."
+    },
+    {
+     "word": "Monday",
+     "part_of_speech": "명사",
+     "meaning_ko": "월요일",
+     "example_en": "I have a test on Monday.",
+     "example_ko": "월요일에 시험이 있어요."
+    },
+    {
+     "word": "weekend",
+     "part_of_speech": "명사",
+     "meaning_ko": "주말",
+     "example_en": "What do you do on the weekend?",
+     "example_ko": "주말에 뭐 해요?"
+    },
+    {
+     "word": "summer",
+     "part_of_speech": "명사",
+     "meaning_ko": "여름",
+     "example_en": "It is hot in summer.",
+     "example_ko": "여름에는 더워요."
+    },
+    {
+     "word": "birthday",
+     "part_of_speech": "명사",
+     "meaning_ko": "생일",
+     "example_en": "My birthday is in April.",
+     "example_ko": "내 생일은 4월이에요."
+    },
+    {
+     "word": "noon",
+     "part_of_speech": "명사",
+     "meaning_ko": "정오",
+     "example_en": "Let's meet at noon.",
+     "example_ko": "정오에 만나자."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The movie starts at 7:30.",
+     "ko": "영화는 7시 30분에 시작해요."
+    },
+    {
+     "en": "I go swimming on Saturdays.",
+     "ko": "나는 토요일마다 수영하러 가요."
+    },
+    {
+     "en": "We have a meeting on May 3rd.",
+     "ko": "5월 3일에 회의가 있어요."
+    },
+    {
+     "en": "Her birthday is in October.",
+     "ko": "그녀의 생일은 10월이에요."
+    },
+    {
+     "en": "I drink coffee in the morning.",
+     "ko": "나는 아침에 커피를 마셔요."
+    },
+    {
+     "en": "The stars are bright at night.",
+     "ko": "밤에는 별이 밝아요."
+    },
+    {
+     "en": "He was born in 2010.",
+     "ko": "그는 2010년에 태어났어요."
+    },
+    {
+     "en": "See you on Friday!",
+     "ko": "금요일에 봐!"
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "The class starts ___ 9 a.m.",
+     "choices": [
+      "at",
+      "on",
+      "in"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "시각 → at.",
+     "error_tag": "preposition",
+     "id": "A1-006-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "I have a party ___ Sunday.",
+     "choices": [
+      "on",
+      "at",
+      "in"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "요일 → on.",
+     "error_tag": "preposition",
+     "id": "A1-006-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "We go skiing ___ winter.",
+     "choices": [
+      "in",
+      "on",
+      "at"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "계절 → in.",
+     "error_tag": "preposition",
+     "id": "A1-006-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "I watch TV ___ night.",
+     "choices": [
+      "at",
+      "in",
+      "on"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "at night는 고정 표현.",
+     "error_tag": "preposition",
+     "id": "A1-006-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 at/on/in 중 하나를 쓰세요: My birthday is ___ June.",
+     "answer_text": "in",
+     "accepted_answers": [
+      "in"
+     ],
+     "explanation_ko": "월 → in.",
+     "error_tag": "grammar",
+     "id": "A1-006-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 at/on/in 중 하나를 쓰세요: Let's meet ___ noon.",
+     "answer_text": "at",
+     "accepted_answers": [
+      "at"
+     ],
+     "explanation_ko": "at noon은 고정 표현.",
+     "error_tag": "grammar",
+     "id": "A1-006-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "내 일정 하나를 at/on/in을 써서 문장으로 써 보세요.",
+    "example_answer_en": "I have English class on Tuesday at six.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 배운 형태를 썼는지 확인하세요."
+   },
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-12"
+   }
+  },
+  {
+   "id": "A1-007",
+   "publish_date": "2026-10-12",
+   "level": "A1",
+   "track": "foundation",
+   "day": 7,
+   "title_ko": "1주 복습: 루틴·장소·능력·지시",
+   "objective_ko": "이번 주 표현을 섞어 짧은 안내를 이해하고 말한다.",
+   "estimated_minutes": 15,
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-12",
+     "supports": "A1-A2 문법 학습 주제"
+    }
+   ],
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "grammar": {
+    "explanation_ko": "이번 주에 배운 빈도부사, there is/are, can, 명령문, 현재진행형, 시간 전치사를 섞어서 다시 확인합니다.",
+    "common_mistake_ko": "There is many people.(X) → There are many people. / He can plays.(X) → He can play."
+   },
+   "vocabulary": [
+    {
+     "word": "museum",
+     "part_of_speech": "명사",
+     "meaning_ko": "박물관",
+     "example_en": "There is a museum in the city.",
+     "example_ko": "도시에 박물관이 있어요."
+    },
+    {
+     "word": "ticket",
+     "part_of_speech": "명사",
+     "meaning_ko": "표",
+     "example_en": "Can I buy a ticket here?",
+     "example_ko": "여기서 표를 살 수 있나요?"
+    },
+    {
+     "word": "early",
+     "part_of_speech": "부사",
+     "meaning_ko": "일찍",
+     "example_en": "I usually get up early.",
+     "example_ko": "나는 보통 일찍 일어나요."
+    },
+    {
+     "word": "map",
+     "part_of_speech": "명사",
+     "meaning_ko": "지도",
+     "example_en": "Look at the map.",
+     "example_ko": "지도를 보세요."
+    },
+    {
+     "word": "visit",
+     "part_of_speech": "동사",
+     "meaning_ko": "방문하다",
+     "example_en": "We often visit our grandparents.",
+     "example_ko": "우리는 자주 조부모님을 찾아뵈어요."
+    },
+    {
+     "word": "guide",
+     "part_of_speech": "명사",
+     "meaning_ko": "안내원",
+     "example_en": "The guide is speaking now.",
+     "example_ko": "안내원이 지금 말하고 있어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I always visit the museum on Sundays.",
+     "ko": "나는 항상 일요일에 박물관에 가요."
+    },
+    {
+     "en": "There are many people in the park today.",
+     "ko": "오늘 공원에 사람이 많아요."
+    },
+    {
+     "en": "Can I buy a ticket here?",
+     "ko": "여기서 표를 살 수 있나요?"
+    },
+    {
+     "en": "Please look at the map.",
+     "ko": "지도를 봐 주세요."
+    },
+    {
+     "en": "The guide is explaining the history now.",
+     "ko": "안내원이 지금 역사를 설명하고 있어요."
+    },
+    {
+     "en": "We usually have lunch at noon.",
+     "ko": "우리는 보통 정오에 점심을 먹어요."
+    },
+    {
+     "en": "Don't take pictures inside.",
+     "ko": "안에서 사진을 찍지 마세요."
+    },
+    {
+     "en": "Is there a café near the museum?",
+     "ko": "박물관 근처에 카페가 있나요?"
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "There ___ a lot of tourists here.",
+     "choices": [
+      "are",
+      "is",
+      "be",
+      "am"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "tourists는 복수 → are.",
+     "error_tag": "there_be",
+     "id": "A1-007-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "She ___ speak three languages.",
+     "choices": [
+      "can",
+      "cans",
+      "can to",
+      "is can"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "can은 모양이 바뀌지 않아요.",
+     "error_tag": "modal",
+     "id": "A1-007-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "‘안에서 먹지 마세요.’에 맞는 문장은?",
+     "choices": [
+      "Don't eat inside.",
+      "Not eat inside.",
+      "Doesn't eat inside.",
+      "Don't eating inside."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Don't + 동사원형.",
+     "error_tag": "imperative",
+     "id": "A1-007-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Look! They ___ a picture.",
+     "choices": [
+      "are taking",
+      "take",
+      "takes",
+      "taking"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "지금 진행 중 → are taking.",
+     "error_tag": "tense",
+     "id": "A1-007-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 at/on/in 중 하나를 쓰세요: The museum opens ___ 10 a.m.",
+     "answer_text": "at",
+     "accepted_answers": [
+      "at"
+     ],
+     "explanation_ko": "시각 → at.",
+     "error_tag": "grammar",
+     "id": "A1-007-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 빈도부사를 쓰세요: I ___ eat meat. (나는 고기를 전혀 먹지 않아요.)",
+     "answer_text": "never",
+     "accepted_answers": [
+      "never"
+     ],
+     "explanation_ko": "never = 전혀 ~않다.",
+     "error_tag": "grammar",
+     "id": "A1-007-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "주말 계획이나 습관을 이번 주에 배운 표현 두 가지 이상으로 써 보세요.",
+    "example_answer_en": "I usually go to the park on Saturday. There is a nice café there.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 배운 형태를 썼는지 확인하세요."
+   },
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-12"
+   }
+  }
+ ]
+}

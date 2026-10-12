@@ -1,0 +1,1473 @@
+{
+ "course": "N3",
+ "schema_version": "1.0.0",
+ "authoring_policy": {
+  "not_official_jlpt_vocab_list": true,
+  "review_required_for_publish": true
+ },
+ "lessons": [
+  {
+   "id": "JP-N3-01",
+   "day_index": 1,
+   "week_index": 1,
+   "level": "N3",
+   "unit_id": "N3-W01",
+   "lesson_type": "new",
+   "title_ko": "〜ように: 목적·변화·노력",
+   "objective_ko": "〜ように의 세 가지 쓰임을 구별한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [],
+   "explanation_ko": "〜ように는 주로 ① 목적: 가능형·무의지 동사 + ように(잊지 않도록), ② 〜ようになる(~하게 되다: 변화), ③ 〜ようにする(~하도록 노력하다: 습관)로 씁니다. 의지 동사의 목적에는 보통 〜ために를 씁니다.",
+   "usage_notes": [
+    "聞こえる・見える・わかる처럼 의지로 조절할 수 없는 동사의 목적 → ように."
+   ],
+   "common_mistakes": [
+    "日本語が話せるために(X) → 話せるように(O)."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N3-01-01",
+     "kind": "word",
+     "text": "忘{わす}れる",
+     "reading_kana": "わすれる",
+     "reading_romanized": "wasureru",
+     "meaning_ko": "잊다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N3-01-02",
+     "kind": "word",
+     "text": "聞{き}こえる",
+     "reading_kana": "きこえる",
+     "reading_romanized": "kikoeru",
+     "meaning_ko": "들리다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N3-01-03",
+     "kind": "word",
+     "text": "間{ま}に合{あ}う",
+     "reading_kana": "まにあう",
+     "reading_romanized": "maniau",
+     "meaning_ko": "시간에 맞추다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N3-01-04",
+     "kind": "word",
+     "text": "健康{けんこう}",
+     "reading_kana": "けんこう",
+     "reading_romanized": "kenkou",
+     "meaning_ko": "건강",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-01-05",
+     "kind": "word",
+     "text": "早{はや}めに",
+     "reading_kana": "はやめに",
+     "reading_romanized": "hayameni",
+     "meaning_ko": "일찌감치",
+     "part_of_speech": "부사"
+    },
+    {
+     "id": "w-JP-N3-01-06",
+     "kind": "word",
+     "text": "習慣{しゅうかん}",
+     "reading_kana": "しゅうかん",
+     "reading_romanized": "shuukan",
+     "meaning_ko": "습관",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "忘{わす}れないようにメモします。",
+     "meaning_ko": "잊지 않도록 메모합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "後{うし}ろの人{ひと}にも聞{き}こえるように、大{おお}きい声{こえ}で話{はな}してください。",
+     "meaning_ko": "뒷사람에게도 들리도록 큰 소리로 말해 주세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "電車{でんしゃ}に間{ま}に合{あ}うように、早{はや}めに家{いえ}を出{で}ます。",
+     "meaning_ko": "전철 시간에 맞추도록 일찌감치 집을 나섭니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "日本語{にほんご}のニュースがわかるようになりました。",
+     "meaning_ko": "일본어 뉴스를 알아듣게 되었습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "健康{けんこう}のために、毎日{まいにち}歩{ある}くようにしています。",
+     "meaning_ko": "건강을 위해 매일 걷도록 하고 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "夜{よる}は甘{あま}い物{もの}を食{た}べないようにしています。",
+     "meaning_ko": "밤에는 단것을 먹지 않도록 하고 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "子{こ}どもが野菜{やさい}を食{た}べるようになりました。",
+     "meaning_ko": "아이가 채소를 먹게 되었습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "かぜをひかないように気{き}をつけてください。",
+     "meaning_ko": "감기에 걸리지 않도록 조심하세요.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N3-01-Q1",
+     "type": "single_choice",
+     "prompt_ko": "「話せるようになりました」의 뜻",
+     "options": [
+      "말할 수 있게 되었습니다",
+      "말하도록 하고 있습니다",
+      "말할 것 같습니다",
+      "말하기 위해서입니다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜ようになる = 변화."
+    },
+    {
+     "id": "JP-N3-01-Q2",
+     "type": "single_choice",
+     "prompt_ko": "〜ようにしています의 의미",
+     "options": [
+      "~하도록 (습관적으로) 노력하고 있다",
+      "~하게 되었다",
+      "~할 것 같다",
+      "~하기 위해서"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜ようにする = 노력·습관."
+    },
+    {
+     "id": "JP-N3-01-Q3",
+     "type": "single_choice",
+     "prompt_ko": "聞こえる___ 大きい声で話します。",
+     "options": [
+      "ように",
+      "ために",
+      "ながら",
+      "のに"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "무의지 동사(聞こえる)의 목적 → ように."
+    },
+    {
+     "id": "JP-N3-01-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「健康」의 뜻은?",
+     "options": [
+      "건강",
+      "습관",
+      "목소리",
+      "시간"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "健康(けんこう) = 건강."
+    },
+    {
+     "id": "JP-N3-01-Q5",
+     "type": "typing",
+     "prompt_ko": "「習慣」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "shuukan",
+     "accepted_answers": [
+      "shuukan",
+      "syuukan",
+      "shukan",
+      "syukan",
+      "shuukann"
+     ],
+     "explanation_ko": "習慣 = しゅうかん (shuukan)"
+    },
+    {
+     "id": "JP-N3-01-Q6",
+     "type": "typing",
+     "prompt_ko": "「忘れる」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "wasureru",
+     "accepted_answers": [
+      "wasureru"
+     ],
+     "explanation_ko": "忘れる = わすれる (wasureru)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N3-02",
+   "day_index": 2,
+   "week_index": 1,
+   "level": "N3",
+   "unit_id": "N3-W01",
+   "lesson_type": "new",
+   "title_ko": "〜ために: 목적과 원인",
+   "objective_ko": "〜ために로 목적과 원인을 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N3-01"
+   ],
+   "explanation_ko": "의지 동사 사전형/명사の + ために는 ‘~하기 위해서’(목적)이며 앞뒤 주어가 같아야 합니다. 명사の/과거형 + ために는 ‘~때문에’(원인)도 나타내며 주로 문어체입니다.",
+   "usage_notes": [
+    "뉴스·안내문에서는 〜ため(に)를 원인으로 자주 씁니다: 大雪のため 休校."
+   ],
+   "common_mistakes": [
+    "留学するように お金を 貯めます(어색) → 留学するために(O)."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N3-02-01",
+     "kind": "word",
+     "text": "留学{りゅうがく}",
+     "reading_kana": "りゅうがく",
+     "reading_romanized": "ryuugaku",
+     "meaning_ko": "유학",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-02-02",
+     "kind": "word",
+     "text": "貯金{ちょきん}",
+     "reading_kana": "ちょきん",
+     "reading_romanized": "chokin",
+     "meaning_ko": "저금",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-02-03",
+     "kind": "word",
+     "text": "将来{しょうらい}",
+     "reading_kana": "しょうらい",
+     "reading_romanized": "shourai",
+     "meaning_ko": "장래",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-02-04",
+     "kind": "word",
+     "text": "事故{じこ}",
+     "reading_kana": "じこ",
+     "reading_romanized": "jiko",
+     "meaning_ko": "사고",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-02-05",
+     "kind": "word",
+     "text": "遅{おく}れる",
+     "reading_kana": "おくれる",
+     "reading_romanized": "okureru",
+     "meaning_ko": "늦다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N3-02-06",
+     "kind": "word",
+     "text": "試験{しけん}",
+     "reading_kana": "しけん",
+     "reading_romanized": "shiken",
+     "meaning_ko": "시험",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "留学{りゅうがく}するために、お金{かね}を貯{た}めています。",
+     "meaning_ko": "유학하기 위해 돈을 모으고 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "将来{しょうらい}のために貯金{ちょきん}しています。",
+     "meaning_ko": "장래를 위해 저금하고 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "試験{しけん}に合格{ごうかく}するために、毎日{まいにち}3時間{さんじかん}勉強{べんきょう}します。",
+     "meaning_ko": "시험에 합격하기 위해 매일 3시간 공부합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "家族{かぞく}のために料理{りょうり}を作{つく}ります。",
+     "meaning_ko": "가족을 위해 요리를 만듭니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "事故{じこ}のために電車{でんしゃ}が遅{おく}れました。",
+     "meaning_ko": "사고 때문에 전철이 늦어졌습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "大雪{おおゆき}のため、学校{がっこう}は休{やす}みです。",
+     "meaning_ko": "폭설 때문에 학교는 휴교입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "健康{けんこう}を守{まも}るために、たばこをやめました。",
+     "meaning_ko": "건강을 지키기 위해 담배를 끊었습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "何{なん}のために日本語{にほんご}を勉強{べんきょう}していますか。",
+     "meaning_ko": "무엇을 위해 일본어를 공부하고 있습니까?",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N3-02-Q1",
+     "type": "single_choice",
+     "prompt_ko": "‘유학하기 위해서’",
+     "options": [
+      "留学するために",
+      "留学したために",
+      "留学のように",
+      "留学するように"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "의지 동사의 목적 → ために."
+    },
+    {
+     "id": "JP-N3-02-Q2",
+     "type": "single_choice",
+     "prompt_ko": "「事故のために遅れました」에서 ために의 뜻",
+     "options": [
+      "~때문에(원인)",
+      "~를 위해서(목적)",
+      "~처럼",
+      "~하면서"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "명사の + ために = 원인."
+    },
+    {
+     "id": "JP-N3-02-Q3",
+     "type": "single_choice",
+     "prompt_ko": "家族___ために 働きます。",
+     "options": [
+      "の",
+      "が",
+      "を",
+      "に"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "명사 + の + ために."
+    },
+    {
+     "id": "JP-N3-02-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「将来」의 뜻은?",
+     "options": [
+      "장래",
+      "유학",
+      "저금",
+      "시험"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "将来(しょうらい) = 장래."
+    },
+    {
+     "id": "JP-N3-02-Q5",
+     "type": "typing",
+     "prompt_ko": "「試験」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "shiken",
+     "accepted_answers": [
+      "shiken",
+      "siken",
+      "shikenn"
+     ],
+     "explanation_ko": "試験 = しけん (shiken)"
+    },
+    {
+     "id": "JP-N3-02-Q6",
+     "type": "typing",
+     "prompt_ko": "「事故」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "jiko",
+     "accepted_answers": [
+      "jiko",
+      "ziko"
+     ],
+     "explanation_ko": "事故 = じこ (jiko)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N3-03",
+   "day_index": 3,
+   "week_index": 1,
+   "level": "N3",
+   "unit_id": "N3-W01",
+   "lesson_type": "new",
+   "title_ko": "〜はず: 근거 있는 예상",
+   "objective_ko": "근거를 바탕으로 한 확신과 ‘~일 리가 없다’를 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N3-02"
+   ],
+   "explanation_ko": "〜はずです는 근거가 있는 확신 ‘(당연히) ~일 것이다’. 부정은 〜はずがない(~일 리가 없다)와 〜ないはずだ(~하지 않을 것이다). 기대와 다를 때 〜はずだった(~였을 텐데)를 씁니다.",
+   "usage_notes": [
+    "명사 + の + はず, な형용사 + な + はず."
+   ],
+   "common_mistakes": [
+    "学生なはず(X) → 学生のはず(O)."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N3-03-01",
+     "kind": "word",
+     "text": "届{とど}く",
+     "reading_kana": "とどく",
+     "reading_romanized": "todoku",
+     "meaning_ko": "(물건이) 도착하다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N3-03-02",
+     "kind": "word",
+     "text": "確{たし}か",
+     "reading_kana": "たしか",
+     "reading_romanized": "tashika",
+     "meaning_ko": "분명",
+     "part_of_speech": "부사"
+    },
+    {
+     "id": "w-JP-N3-03-03",
+     "kind": "word",
+     "text": "鍵{かぎ}",
+     "reading_kana": "かぎ",
+     "reading_romanized": "kagi",
+     "meaning_ko": "열쇠",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-03-04",
+     "kind": "word",
+     "text": "閉{し}める",
+     "reading_kana": "しめる",
+     "reading_romanized": "shimeru",
+     "meaning_ko": "닫다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N3-03-05",
+     "kind": "word",
+     "text": "締{し}め切{き}り",
+     "reading_kana": "しめきり",
+     "reading_romanized": "shimekiri",
+     "meaning_ko": "마감",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-03-06",
+     "kind": "word",
+     "text": "準備{じゅんび}",
+     "reading_kana": "じゅんび",
+     "reading_romanized": "junbi",
+     "meaning_ko": "준비",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "荷物{にもつ}は明日{あした}届{とど}くはずです。",
+     "meaning_ko": "짐은 내일 도착할 것입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}は日本{にほん}に10年{じゅうねん}住{す}んでいたから、日本語{にほんご}が上手{じょうず}なはずです。",
+     "meaning_ko": "그는 일본에 10년 살았으니 일본어를 잘할 것입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "鍵{かぎ}は確{たし}か閉{し}めたはずです。",
+     "meaning_ko": "열쇠는 분명 잠갔을 것입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "そんなはずがありません。",
+     "meaning_ko": "그럴 리가 없습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "今日{きょう}は日曜日{にちようび}だから、銀行{ぎんこう}は開{あ}いていないはずです。",
+     "meaning_ko": "오늘은 일요일이니 은행은 열려 있지 않을 것입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "締{し}め切{き}りは金曜日{きんようび}のはずでした。",
+     "meaning_ko": "마감은 금요일이었을 텐데요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "準備{じゅんび}はもうできているはずです。",
+     "meaning_ko": "준비는 이미 되어 있을 것입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "あの真面目{まじめ}な人{ひと}が遅刻{ちこく}するはずがない。",
+     "meaning_ko": "그 성실한 사람이 지각할 리가 없다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N3-03-Q1",
+     "type": "single_choice",
+     "prompt_ko": "「届くはずです」의 뜻",
+     "options": [
+      "도착할 것입니다(근거 있는 예상)",
+      "도착하면 좋겠습니다",
+      "도착할지도 모릅니다",
+      "도착해야 합니다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "はず = 근거 있는 확신."
+    },
+    {
+     "id": "JP-N3-03-Q2",
+     "type": "single_choice",
+     "prompt_ko": "‘그럴 리가 없습니다’",
+     "options": [
+      "そんなはずがありません。",
+      "そんなはずです。",
+      "そんなはずでした。",
+      "そんなはずにありません。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜はずがない = ~일 리가 없다."
+    },
+    {
+     "id": "JP-N3-03-Q3",
+     "type": "single_choice",
+     "prompt_ko": "명사 + はず의 올바른 연결",
+     "options": [
+      "学生のはず",
+      "学生なはず",
+      "学生はず",
+      "学生だはず"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "명사 + の + はず."
+    },
+    {
+     "id": "JP-N3-03-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「確か」의 뜻은?",
+     "options": [
+      "분명",
+      "아마도",
+      "혹시",
+      "절대로"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "確か(たしか) = 분명."
+    },
+    {
+     "id": "JP-N3-03-Q5",
+     "type": "typing",
+     "prompt_ko": "「準備」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "junbi",
+     "accepted_answers": [
+      "junbi",
+      "zyunbi",
+      "junnbi"
+     ],
+     "explanation_ko": "準備 = じゅんび (junbi)"
+    },
+    {
+     "id": "JP-N3-03-Q6",
+     "type": "typing",
+     "prompt_ko": "「鍵」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kagi",
+     "accepted_answers": [
+      "kagi"
+     ],
+     "explanation_ko": "鍵 = かぎ (kagi)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N3-04",
+   "day_index": 4,
+   "week_index": 1,
+   "level": "N3",
+   "unit_id": "N3-W01",
+   "lesson_type": "new",
+   "title_ko": "〜べき: 마땅히 ~해야 한다",
+   "objective_ko": "의견과 조언을 〜べきだ로 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N3-03"
+   ],
+   "explanation_ko": "동사 사전형 + べきだ는 ‘(당연히) ~해야 한다’는 의견·조언입니다. する는 するべき/すべき 둘 다 씁니다. 부정은 〜べきではない(~해서는 안 된다).",
+   "usage_notes": [
+    "법·규칙처럼 의무가 정해진 것보다는 말하는 사람의 판단에 씁니다."
+   ],
+   "common_mistakes": [
+    "守りべき(X) → 守るべき(O): 사전형에 접속."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N3-04-01",
+     "kind": "word",
+     "text": "謝{あやま}る",
+     "reading_kana": "あやまる",
+     "reading_romanized": "ayamaru",
+     "meaning_ko": "사과하다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N3-04-02",
+     "kind": "word",
+     "text": "約束{やくそく}",
+     "reading_kana": "やくそく",
+     "reading_romanized": "yakusoku",
+     "meaning_ko": "약속",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-04-03",
+     "kind": "word",
+     "text": "守{まも}る",
+     "reading_kana": "まもる",
+     "reading_romanized": "mamoru",
+     "meaning_ko": "지키다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N3-04-04",
+     "kind": "word",
+     "text": "意見{いけん}",
+     "reading_kana": "いけん",
+     "reading_romanized": "iken",
+     "meaning_ko": "의견",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-04-05",
+     "kind": "word",
+     "text": "相談{そうだん}",
+     "reading_kana": "そうだん",
+     "reading_romanized": "soudan",
+     "meaning_ko": "상담",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-04-06",
+     "kind": "word",
+     "text": "無理{むり}",
+     "reading_kana": "むり",
+     "reading_romanized": "muri",
+     "meaning_ko": "무리",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "約束{やくそく}は守{まも}るべきです。",
+     "meaning_ko": "약속은 지켜야 합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "間違{まちが}えたら、すぐ謝{あやま}るべきだ。",
+     "meaning_ko": "틀렸으면 바로 사과해야 한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "困{こま}ったときは先生{せんせい}に相談{そうだん}すべきです。",
+     "meaning_ko": "곤란할 때는 선생님과 상담해야 합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "人{ひと}の悪口{わるぐち}を言{い}うべきではありません。",
+     "meaning_ko": "남의 험담을 해서는 안 됩니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "若{わか}いうちにいろいろな経験{けいけん}をすべきだと思{おも}います。",
+     "meaning_ko": "젊을 때 여러 가지 경험을 해야 한다고 생각합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "体調{たいちょう}が悪{わる}いなら、無理{むり}をすべきではない。",
+     "meaning_ko": "몸 상태가 나쁘면 무리해서는 안 된다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "自分{じぶん}の意見{いけん}をはっきり言{い}うべきです。",
+     "meaning_ko": "자기 의견을 분명히 말해야 합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "あの映画{えいが}は一度{いちど}見{み}るべきですよ。",
+     "meaning_ko": "그 영화는 한 번 봐야 해요.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N3-04-Q1",
+     "type": "single_choice",
+     "prompt_ko": "‘약속은 지켜야 합니다’",
+     "options": [
+      "約束は守るべきです。",
+      "約束は守りべきです。",
+      "約束は守ってべきです。",
+      "約束は守ったべきです。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "사전형 + べき."
+    },
+    {
+     "id": "JP-N3-04-Q2",
+     "type": "single_choice",
+     "prompt_ko": "する + べき의 올바른 형태",
+     "options": [
+      "すべき",
+      "しべき",
+      "されべき",
+      "せべき"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "する → すべき(するべき)."
+    },
+    {
+     "id": "JP-N3-04-Q3",
+     "type": "single_choice",
+     "prompt_ko": "〜べきではない의 뜻",
+     "options": [
+      "~해서는 안 된다",
+      "~할 필요가 없다",
+      "~할 리가 없다",
+      "~하고 싶지 않다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "べきではない = 해서는 안 된다."
+    },
+    {
+     "id": "JP-N3-04-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「謝る」의 뜻은?",
+     "options": [
+      "사과하다",
+      "지키다",
+      "상담하다",
+      "말하다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "謝る(あやまる) = 사과하다."
+    },
+    {
+     "id": "JP-N3-04-Q5",
+     "type": "typing",
+     "prompt_ko": "「約束」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "yakusoku",
+     "accepted_answers": [
+      "yakusoku"
+     ],
+     "explanation_ko": "約束 = やくそく (yakusoku)"
+    },
+    {
+     "id": "JP-N3-04-Q6",
+     "type": "typing",
+     "prompt_ko": "「意見」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "iken",
+     "accepted_answers": [
+      "iken",
+      "ikenn"
+     ],
+     "explanation_ko": "意見 = いけん (iken)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N3-05",
+   "day_index": 5,
+   "week_index": 1,
+   "level": "N3",
+   "unit_id": "N3-W01",
+   "lesson_type": "new",
+   "title_ko": "〜おかげで / 〜せいで",
+   "objective_ko": "좋은 결과와 나쁜 결과의 원인을 구별해 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N3-04"
+   ],
+   "explanation_ko": "결과의 원인을 말할 때 좋은 결과면 〜おかげで(~덕분에), 나쁜 결과면 〜せいで(~탓에)를 씁니다. 명사の / 동사·형용사 보통형 + おかげで・せいで.",
+   "usage_notes": [
+    "비꼬는 말투로 おかげで를 나쁜 결과에 쓰기도 합니다: 君のおかげで 遅刻したよ。"
+   ],
+   "common_mistakes": [
+    "雨のおかげで 試合が 中止になった(감사하는 뉘앙스라 어색) → 雨のせいで."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N3-05-01",
+     "kind": "word",
+     "text": "合格{ごうかく}",
+     "reading_kana": "ごうかく",
+     "reading_romanized": "goukaku",
+     "meaning_ko": "합격",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-05-02",
+     "kind": "word",
+     "text": "応援{おうえん}",
+     "reading_kana": "おうえん",
+     "reading_romanized": "ouen",
+     "meaning_ko": "응원",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-05-03",
+     "kind": "word",
+     "text": "寝坊{ねぼう}",
+     "reading_kana": "ねぼう",
+     "reading_romanized": "nebou",
+     "meaning_ko": "늦잠",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-05-04",
+     "kind": "word",
+     "text": "渋滞{じゅうたい}",
+     "reading_kana": "じゅうたい",
+     "reading_romanized": "juutai",
+     "meaning_ko": "교통 체증",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-05-05",
+     "kind": "word",
+     "text": "薬{くすり}",
+     "reading_kana": "くすり",
+     "reading_romanized": "kusuri",
+     "meaning_ko": "약",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-05-06",
+     "kind": "word",
+     "text": "治{なお}る",
+     "reading_kana": "なおる",
+     "reading_romanized": "naoru",
+     "meaning_ko": "낫다",
+     "part_of_speech": "동사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "先生{せんせい}のおかげで合格{ごうかく}できました。",
+     "meaning_ko": "선생님 덕분에 합격할 수 있었습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "薬{くすり}を飲{の}んだおかげで、かぜが治{なお}りました。",
+     "meaning_ko": "약을 먹은 덕분에 감기가 나았습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "みんなの応援{おうえん}のおかげで優勝{ゆうしょう}しました。",
+     "meaning_ko": "모두의 응원 덕분에 우승했습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "渋滞{じゅうたい}のせいで会議{かいぎ}に遅{おく}れました。",
+     "meaning_ko": "교통 체증 탓에 회의에 늦었습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "寝坊{ねぼう}したせいで、朝{あさ}ご飯{はん}を食{た}べられなかった。",
+     "meaning_ko": "늦잠을 잔 탓에 아침을 못 먹었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "雨{あめ}のせいで、試合{しあい}が中止{ちゅうし}になりました。",
+     "meaning_ko": "비 때문에 경기가 중지되었습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "天気{てんき}がよかったおかげで、きれいな写真{しゃしん}が撮{と}れました。",
+     "meaning_ko": "날씨가 좋았던 덕분에 예쁜 사진을 찍을 수 있었습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "私{わたし}のせいで、ごめんなさい。",
+     "meaning_ko": "제 탓이라 미안해요.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N3-05-Q1",
+     "type": "single_choice",
+     "prompt_ko": "友達が手伝ってくれた___、早く終わりました。",
+     "options": [
+      "おかげで",
+      "せいで",
+      "ながら",
+      "はずで"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "좋은 결과 → おかげで."
+    },
+    {
+     "id": "JP-N3-05-Q2",
+     "type": "single_choice",
+     "prompt_ko": "雨の___、遠足が中止になった。",
+     "options": [
+      "せいで",
+      "おかげで",
+      "ながら",
+      "ように"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "나쁜 결과 → せいで."
+    },
+    {
+     "id": "JP-N3-05-Q3",
+     "type": "single_choice",
+     "prompt_ko": "おかげで가 기본적으로 어울리는 결과는?",
+     "options": [
+      "좋은 결과",
+      "나쁜 결과",
+      "미래의 계획",
+      "명령"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "おかげで = 덕분에."
+    },
+    {
+     "id": "JP-N3-05-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「渋滞」의 뜻은?",
+     "options": [
+      "교통 체증",
+      "늦잠",
+      "응원",
+      "합격"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "渋滞(じゅうたい) = 교통 체증."
+    },
+    {
+     "id": "JP-N3-05-Q5",
+     "type": "typing",
+     "prompt_ko": "「合格」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "goukaku",
+     "accepted_answers": [
+      "goukaku",
+      "gokaku"
+     ],
+     "explanation_ko": "合格 = ごうかく (goukaku)"
+    },
+    {
+     "id": "JP-N3-05-Q6",
+     "type": "typing",
+     "prompt_ko": "「薬」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kusuri",
+     "accepted_answers": [
+      "kusuri"
+     ],
+     "explanation_ko": "薬 = くすり (kusuri)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N3-06",
+   "day_index": 6,
+   "week_index": 1,
+   "level": "N3",
+   "unit_id": "N3-W01",
+   "lesson_type": "new",
+   "title_ko": "추측 표현: 〜ようだ・〜らしい・〜そうだ",
+   "objective_ko": "근거의 종류에 따라 추측 표현을 고른다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N3-05"
+   ],
+   "explanation_ko": "〜ようだ(みたいだ): 내가 보고 느낀 근거로 하는 추측. 〜らしい: 들은 정보나 간접 근거에 의한 추측. 〜そうだ: ① ます형/형용사 어간 + そうだ = 겉보기에 ~할 것 같다, ② 보통형 + そうだ = ~라고 한다(전언).",
+   "usage_notes": [
+    "降りそうだ(하늘을 보고) ↔ 降るそうだ(예보에서 들음)."
+   ],
+   "common_mistakes": [
+    "おいしいそうだ는 ‘맛있다고 한다’(전언). ‘맛있어 보인다’는 おいしそうだ."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N3-06-01",
+     "kind": "word",
+     "text": "噂{うわさ}",
+     "reading_kana": "うわさ",
+     "reading_romanized": "uwasa",
+     "meaning_ko": "소문",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-06-02",
+     "kind": "word",
+     "text": "引{ひ}っ越{こ}す",
+     "reading_kana": "ひっこす",
+     "reading_romanized": "hikkosu",
+     "meaning_ko": "이사하다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N3-06-03",
+     "kind": "word",
+     "text": "留守{るす}",
+     "reading_kana": "るす",
+     "reading_romanized": "rusu",
+     "meaning_ko": "부재중",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-06-04",
+     "kind": "word",
+     "text": "降{ふ}る",
+     "reading_kana": "ふる",
+     "reading_romanized": "furu",
+     "meaning_ko": "(비·눈이) 내리다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N3-06-05",
+     "kind": "word",
+     "text": "倒{たお}れる",
+     "reading_kana": "たおれる",
+     "reading_romanized": "taoreru",
+     "meaning_ko": "쓰러지다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N3-06-06",
+     "kind": "word",
+     "text": "天気予報{てんきよほう}",
+     "reading_kana": "てんきよほう",
+     "reading_romanized": "tenkiyohou",
+     "meaning_ko": "일기 예보",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "電気{でんき}が消{き}えている。誰{だれ}もいないようだ。",
+     "meaning_ko": "불이 꺼져 있다. 아무도 없는 것 같다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "田中{たなか}さんは来月{らいげつ}引{ひ}っ越{こ}すらしいです。",
+     "meaning_ko": "다나카 씨는 다음 달 이사한다고 하네요(들은 이야기).",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "雨{あめ}が降{ふ}りそうです。",
+     "meaning_ko": "비가 올 것 같습니다(하늘을 보고).",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "天気予報{てんきよほう}によると、明日{あした}は雪{ゆき}が降{ふ}るそうです。",
+     "meaning_ko": "일기 예보에 따르면 내일은 눈이 온다고 합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "このケーキ、おいしそうですね。",
+     "meaning_ko": "이 케이크 맛있어 보이네요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "あの店{みせ}は来週{らいしゅう}閉店{へいてん}するという噂{うわさ}です。",
+     "meaning_ko": "저 가게는 다음 주에 폐점한다는 소문입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "山田{やまだ}さんは留守{るす}のようです。",
+     "meaning_ko": "야마다 씨는 부재중인 것 같습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "今{いま}にも倒{たお}れそうな木{き}です。",
+     "meaning_ko": "금방이라도 쓰러질 것 같은 나무입니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N3-06-Q1",
+     "type": "single_choice",
+     "prompt_ko": "하늘이 어두워서 ‘비가 올 것 같다’",
+     "options": [
+      "雨が降りそうだ",
+      "雨が降るそうだ",
+      "雨が降ったそうだ",
+      "雨が降りらしい"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "겉보기 추측 → ます형 + そうだ."
+    },
+    {
+     "id": "JP-N3-06-Q2",
+     "type": "single_choice",
+     "prompt_ko": "「明日は雪が降るそうです」의 의미",
+     "options": [
+      "내일 눈이 온다고 합니다(전해 들음)",
+      "내일 눈이 올 것처럼 보입니다",
+      "내일 눈이 와야 합니다",
+      "내일 눈이 올 리가 없습니다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "보통형 + そうだ = 전언."
+    },
+    {
+     "id": "JP-N3-06-Q3",
+     "type": "single_choice",
+     "prompt_ko": "‘맛있어 보인다’",
+     "options": [
+      "おいしそうだ",
+      "おいしいそうだ",
+      "おいしくそうだ",
+      "おいしさそうだ"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "형용사 어간 + そうだ."
+    },
+    {
+     "id": "JP-N3-06-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「噂」의 뜻은?",
+     "options": [
+      "소문",
+      "예보",
+      "부재중",
+      "이사"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "噂(うわさ) = 소문."
+    },
+    {
+     "id": "JP-N3-06-Q5",
+     "type": "typing",
+     "prompt_ko": "「留守」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "rusu",
+     "accepted_answers": [
+      "rusu"
+     ],
+     "explanation_ko": "留守 = るす (rusu)"
+    },
+    {
+     "id": "JP-N3-06-Q6",
+     "type": "typing",
+     "prompt_ko": "「天気予報」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "tenkiyohou",
+     "accepted_answers": [
+      "tenkiyohou",
+      "tenkiyoho",
+      "tennkiyohou"
+     ],
+     "explanation_ko": "天気予報 = てんきよほう (tenkiyohou)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N3-07",
+   "day_index": 7,
+   "week_index": 1,
+   "level": "N3",
+   "unit_id": "N3-W01",
+   "lesson_type": "checkpoint",
+   "title_ko": "1주 점검: 면접 준비 이야기",
+   "objective_ko": "N3 첫 주 문형을 하나의 이야기 속에서 구별한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N3-06"
+   ],
+   "explanation_ko": "ように・ために・はず・べき・おかげで/せいで・추측 표현을 면접 준비 이야기 속에서 다시 확인합니다.",
+   "usage_notes": [
+    "自信がつく = 자신감이 생기다."
+   ],
+   "common_mistakes": [],
+   "new_items": [
+    {
+     "id": "w-JP-N3-07-01",
+     "kind": "word",
+     "text": "面接{めんせつ}",
+     "reading_kana": "めんせつ",
+     "reading_romanized": "mensetsu",
+     "meaning_ko": "면접",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-07-02",
+     "kind": "word",
+     "text": "緊張{きんちょう}",
+     "reading_kana": "きんちょう",
+     "reading_romanized": "kinchou",
+     "meaning_ko": "긴장",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-07-03",
+     "kind": "word",
+     "text": "練習{れんしゅう}",
+     "reading_kana": "れんしゅう",
+     "reading_romanized": "renshuu",
+     "meaning_ko": "연습",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-07-04",
+     "kind": "word",
+     "text": "結果{けっか}",
+     "reading_kana": "けっか",
+     "reading_romanized": "kekka",
+     "meaning_ko": "결과",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-07-05",
+     "kind": "word",
+     "text": "連絡{れんらく}",
+     "reading_kana": "れんらく",
+     "reading_romanized": "renraku",
+     "meaning_ko": "연락",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-07-06",
+     "kind": "word",
+     "text": "自信{じしん}",
+     "reading_kana": "じしん",
+     "reading_romanized": "jishin",
+     "meaning_ko": "자신감",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "来週{らいしゅう}、会社{かいしゃ}の面接{めんせつ}があります。",
+     "meaning_ko": "다음 주에 회사 면접이 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "緊張{きんちょう}しないように、何度{なんど}も練習{れんしゅう}しました。",
+     "meaning_ko": "긴장하지 않도록 몇 번이나 연습했습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "合格{ごうかく}するために、会社{かいしゃ}のことをよく調{しら}べました。",
+     "meaning_ko": "합격하기 위해 회사에 대해 잘 조사했습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "先輩{せんぱい}のアドバイスのおかげで、自信{じしん}がつきました。",
+     "meaning_ko": "선배의 조언 덕분에 자신감이 생겼습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "面接{めんせつ}の前{まえ}の日{ひ}は早{はや}く寝{ね}るべきです。",
+     "meaning_ko": "면접 전날은 일찍 자야 합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "結果{けっか}は一週間後{いっしゅうかんご}に連絡{れんらく}が来{く}るはずです。",
+     "meaning_ko": "결과는 일주일 후에 연락이 올 것입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "面接官{めんせつかん}は優{やさ}しそうな人{ひと}でした。",
+     "meaning_ko": "면접관은 상냥해 보이는 사람이었습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "電車{でんしゃ}が遅{おく}れたせいで、少{すこ}し焦{あせ}りました。",
+     "meaning_ko": "전철이 늦은 탓에 조금 초조했습니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N3-07-Q1",
+     "type": "single_choice",
+     "prompt_ko": "日本語が話せる___、毎日練習している。",
+     "options": [
+      "ように",
+      "ために",
+      "せいで",
+      "おかげで"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "가능형의 목적 → ように."
+    },
+    {
+     "id": "JP-N3-07-Q2",
+     "type": "single_choice",
+     "prompt_ko": "連絡は明日来る___です。(근거 있는 예상)",
+     "options": [
+      "はず",
+      "べき",
+      "せい",
+      "ため"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "근거 있는 예상 → はず."
+    },
+    {
+     "id": "JP-N3-07-Q3",
+     "type": "single_choice",
+     "prompt_ko": "‘선배 덕분에’",
+     "options": [
+      "先輩のおかげで",
+      "先輩のせいで",
+      "先輩のために",
+      "先輩のように"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "좋은 결과의 원인 → おかげで."
+    },
+    {
+     "id": "JP-N3-07-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「自信」의 뜻은?",
+     "options": [
+      "자신감",
+      "결과",
+      "연습",
+      "면접"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "自信(じしん) = 자신감."
+    },
+    {
+     "id": "JP-N3-07-Q5",
+     "type": "typing",
+     "prompt_ko": "「練習」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "renshuu",
+     "accepted_answers": [
+      "renshuu",
+      "rensyuu",
+      "renshu",
+      "rensyu",
+      "rennshuu"
+     ],
+     "explanation_ko": "練習 = れんしゅう (renshuu)"
+    },
+    {
+     "id": "JP-N3-07-Q6",
+     "type": "typing",
+     "prompt_ko": "「連絡」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "renraku",
+     "accepted_answers": [
+      "renraku",
+      "rennraku"
+     ],
+     "explanation_ko": "連絡 = れんらく (renraku)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  }
+ ]
+}

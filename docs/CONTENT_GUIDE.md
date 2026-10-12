@@ -9,11 +9,11 @@
 - 파일: `content/<언어>/<과정>.json` 의 `lessons` 배열 **끝에만** 추가. 기존 레슨은 고치지 않는다(학습 기록·필기 키가 레슨 id라서)
   - 영어 과정: `PRE-A1 A1 A2 B1 B2 TOEIC TOEFL` / 일본어 과정: `INTRO N5 N4 N3 N2 N1`
   - 새 과정 파일은 `{"course": "<과정>", "schema_version": "1.0", "lessons": []}` 로 시작
-- 얼마나: `content/schedule.json` (언어마다 따로 계산)
-  - 그 언어의 `sequence` 과정들의 레슨 수 합계 = 현재 비축량
-  - 목표 = (오늘(한국 시간) - `start` 일수) + `ahead_days`. 비축량이 목표보다 적으면 이번 실행에 그 언어에 최대 `max_per_run` 개 추가
-  - 추가할 곳 = `sequence` 에서 레슨 수가 `plan_days` 보다 적은 **첫 과정** (가장 낮은 단계부터). 그 과정이 차면 다음 과정 1일차부터 시작
-  - TOEIC·TOEFL 과정은 sequence 밖 — 사람이 요청할 때만 추가
+- 얼마나: `content/schedule.json` (실행할 때마다)
+  - `sequence` 에 있는 **모든 과정**에 `per_course_per_run`(1)개씩 다음 일차를 추가 — 사용자가 어느 단계를 골라도 매일 새 레슨이 생김
+  - 언어마다 레슨 수가 `plan_days` 보다 적은 **가장 낮은 과정**은, 그 언어 전체 레슨 수가 (오늘(한국 시간) - `start` 일수) + `ahead_days` 보다 적으면 `extra_lowest`(1)개 더 추가
+  - 레슨 수가 `plan_days` 에 닿은 과정은 더 늘리지 않고 보고에 적는다
+  - 7일 리듬: 영어는 7·14·21…일차가 주간 복습, 일본어는 6·13…일차 practice, 7·14…일차 checkpoint
 - 다 쓴 뒤 `python tools/validate.py` 실행 → 통과해야만 커밋 (index.json 도 이때 갱신됨)
 
 ## 하루 분량 = 15분 고정 (모든 새 레슨의 최소 기준)
@@ -69,6 +69,7 @@
 ```
 - lesson_type: `new` / `practice`(6일차 리듬, 새 글자 없이 적용) / `checkpoint`(7일차 리듬, 주간 점검)
 - 입문 과정: 예문은 **이미 배운 가나만** 사용 (검사 스크립트가 확인). 1~2개월차는 로마자 표기 포함
+- N5·N4 예문은 단어 사이를 띄어 쓰고(初級 교재식), N3 이상은 붙여 쓴다. 한자에는 모두 `漢字{かんじ}` 읽기를 단다 (화면의 ‘히라가나’ 표시)
 - N5 이후: 단어는 `new_items` 에 `{"kind": "word", "text": "学生{がくせい}", "reading_kana": "がくせい", "reading_romanized": "gakusei", "meaning_ko": "학생", "part_of_speech": "명사"}` — 한자 뒤 `{읽기}` 는 화면에서 후리가나로 표시
   - 문법·설명은 `explanation_ko`, 주의점은 `usage_notes` / `common_mistakes` (문자열 배열)
 - `source_refs` 는 `content/ja/sources.json` 의 키만 사용

@@ -1,0 +1,1344 @@
+{
+ "course": "B2",
+ "schema_version": "1.0",
+ "description": "자체 제작 교육용 연습 레슨(AI 초안). 공식 ETS·CEFR 문항 아님.",
+ "lessons": [
+  {
+   "id": "B2-001",
+   "publish_date": "2026-10-12",
+   "level": "B2",
+   "track": "general",
+   "day": 1,
+   "title_ko": "가정법 과거: If I were ..., I would ...",
+   "objective_ko": "현재 사실과 반대되는 상상을 가정법 과거로 말한다.",
+   "estimated_minutes": 15,
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-12",
+     "supports": "B1-B2 문법 학습 주제"
+    }
+   ],
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "grammar": {
+    "explanation_ko": "현재 사실과 반대이거나 일어날 가능성이 낮은 일을 상상할 때 If + 과거형, 주어 + would + 동사원형을 씁니다. be동사는 주어와 관계없이 were를 쓰는 것이 격식 있는 표현입니다(구어에서는 was도 씀).",
+    "common_mistake_ko": "If I would have money, I would buy it.(X) → If I had money, I would buy it.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "afford",
+     "part_of_speech": "동사",
+     "meaning_ko": "(돈·시간의) 여유가 있다",
+     "example_en": "If I could afford it, I'd buy a house.",
+     "example_ko": "여유가 있다면 집을 살 텐데."
+    },
+    {
+     "word": "imagine",
+     "part_of_speech": "동사",
+     "meaning_ko": "상상하다",
+     "example_en": "Imagine you were rich.",
+     "example_ko": "네가 부자라고 상상해 봐."
+    },
+    {
+     "word": "situation",
+     "part_of_speech": "명사",
+     "meaning_ko": "상황",
+     "example_en": "What would you do in that situation?",
+     "example_ko": "그 상황이라면 어떻게 하겠어요?"
+    },
+    {
+     "word": "advice",
+     "part_of_speech": "명사",
+     "meaning_ko": "조언",
+     "example_en": "If I were you, I'd take his advice.",
+     "example_ko": "내가 너라면 그의 조언을 따를 거야."
+    },
+    {
+     "word": "lottery",
+     "part_of_speech": "명사",
+     "meaning_ko": "복권",
+     "example_en": "If I won the lottery, I'd travel.",
+     "example_ko": "복권에 당첨되면 여행할 거야."
+    },
+    {
+     "word": "decision",
+     "part_of_speech": "명사",
+     "meaning_ko": "결정",
+     "example_en": "It's a difficult decision.",
+     "example_ko": "어려운 결정이에요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "If I had more time, I would learn to play the guitar.",
+     "ko": "시간이 더 있다면 기타를 배울 텐데."
+    },
+    {
+     "en": "If I were you, I would apologize first.",
+     "ko": "내가 너라면 먼저 사과하겠어."
+    },
+    {
+     "en": "What would you do if you lost your passport abroad?",
+     "ko": "해외에서 여권을 잃어버리면 어떻게 하겠어요?"
+    },
+    {
+     "en": "If she lived closer, we would see each other more often.",
+     "ko": "그녀가 더 가까이 산다면 우리는 더 자주 볼 텐데."
+    },
+    {
+     "en": "I wouldn't accept that job if they offered it to me.",
+     "ko": "그 일을 제안받아도 받아들이지 않을 거예요."
+    },
+    {
+     "en": "If it weren't so expensive, more people would use it.",
+     "ko": "그렇게 비싸지 않다면 더 많은 사람이 쓸 텐데."
+    },
+    {
+     "en": "Would you move abroad if you had the chance?",
+     "ko": "기회가 있다면 해외로 이주하겠어요?"
+    },
+    {
+     "en": "If I could change one thing, I'd sleep more.",
+     "ko": "한 가지를 바꿀 수 있다면 잠을 더 잘 거예요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "If I ___ rich, I would travel the world.",
+     "choices": [
+      "were",
+      "am",
+      "will be",
+      "would be"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "가정법 과거의 be동사 → were.",
+     "error_tag": "conditional",
+     "id": "B2-001-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "If she studied harder, she ___ the exam.",
+     "choices": [
+      "would pass",
+      "will pass",
+      "passes",
+      "passed"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "주절은 would + 동사원형.",
+     "error_tag": "conditional",
+     "id": "B2-001-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "‘내가 너라면 그 차를 사지 않을 거야.’에 맞는 문장은?",
+     "choices": [
+      "If I were you, I wouldn't buy that car.",
+      "If I am you, I won't buy that car.",
+      "If I were you, I don't buy that car.",
+      "If I would be you, I wouldn't buy that car."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "If I were you, I would(n't) ~.",
+     "error_tag": "conditional",
+     "id": "B2-001-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "가정법 과거가 나타내는 것은?",
+     "choices": [
+      "현재 사실과 반대되거나 가능성이 낮은 상상",
+      "과거에 실제로 일어난 일",
+      "확실한 미래 계획",
+      "지금 진행 중인 동작"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "현재의 비현실적 상상.",
+     "error_tag": "conditional",
+     "id": "B2-001-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "괄호 속 동사를 알맞은 형태로: If I (have) a car, I would drive to work.",
+     "answer_text": "had",
+     "accepted_answers": [
+      "had"
+     ],
+     "explanation_ko": "if절은 과거형.",
+     "error_tag": "grammar",
+     "id": "B2-001-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 쓰세요: What ___ you do if you won the lottery?",
+     "answer_text": "would",
+     "accepted_answers": [
+      "would"
+     ],
+     "explanation_ko": "주절의 조동사 → would.",
+     "error_tag": "grammar",
+     "id": "B2-001-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "‘If I were ~, I would ~’ 형식으로 나의 상상을 한 문장 써 보세요.",
+    "example_answer_en": "If I were a teacher, I would give less homework.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 배운 형태를 썼는지 확인하세요."
+   },
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-12"
+   }
+  },
+  {
+   "id": "B2-002",
+   "publish_date": "2026-10-12",
+   "level": "B2",
+   "track": "general",
+   "day": 2,
+   "title_ko": "계속적 용법의 관계대명사 (, who / , which)",
+   "objective_ko": "쉼표 + 관계절로 앞 명사에 정보를 덧붙인다.",
+   "estimated_minutes": 15,
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-12",
+     "supports": "B1-B2 문법 학습 주제"
+    }
+   ],
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "grammar": {
+    "explanation_ko": "쉼표 뒤의 관계절(non-defining)은 앞 명사에 대한 추가 정보를 줍니다. 사람은 who, 사물은 which를 쓰고 that은 쓸 수 없습니다. 앞 문장 전체를 가리키는 , which도 있습니다.",
+    "common_mistake_ko": "My brother, that lives in Seoul, ...(X) → My brother, who lives in Seoul, ...(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "colleague",
+     "part_of_speech": "명사",
+     "meaning_ko": "동료",
+     "example_en": "My colleague, who is from Canada, speaks French.",
+     "example_ko": "캐나다 출신인 내 동료는 프랑스어를 해요."
+    },
+    {
+     "word": "recently",
+     "part_of_speech": "부사",
+     "meaning_ko": "최근에",
+     "example_en": "The museum, which opened recently, is popular.",
+     "example_ko": "최근 문을 연 그 박물관은 인기가 많아요."
+    },
+    {
+     "word": "founder",
+     "part_of_speech": "명사",
+     "meaning_ko": "창립자",
+     "example_en": "The founder, who started the company in 1990, retired.",
+     "example_ko": "1990년에 회사를 세운 창립자는 은퇴했어요."
+    },
+    {
+     "word": "surprising",
+     "part_of_speech": "형용사",
+     "meaning_ko": "놀라운",
+     "example_en": "He passed, which was surprising.",
+     "example_ko": "그는 합격했는데, 그건 놀라웠어요."
+    },
+    {
+     "word": "capital",
+     "part_of_speech": "명사",
+     "meaning_ko": "수도",
+     "example_en": "Canberra, which is the capital, is quite small.",
+     "example_ko": "수도인 캔버라는 꽤 작아요."
+    },
+    {
+     "word": "award",
+     "part_of_speech": "명사",
+     "meaning_ko": "상",
+     "example_en": "The film, which won an award, is on TV tonight.",
+     "example_ko": "상을 받은 그 영화가 오늘 밤 TV에 나와요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "My sister, who works as a nurse, lives in Daegu.",
+     "ko": "간호사로 일하는 우리 언니는 대구에 살아요."
+    },
+    {
+     "en": "The report, which was due on Friday, is finally finished.",
+     "ko": "금요일 마감이던 보고서가 드디어 끝났어요."
+    },
+    {
+     "en": "We visited Gyeongju, which has many historical sites.",
+     "ko": "우리는 경주를 방문했는데, 그곳에는 유적지가 많아요."
+    },
+    {
+     "en": "He didn't call me back, which was annoying.",
+     "ko": "그는 다시 전화하지 않았는데, 그게 짜증났어요."
+    },
+    {
+     "en": "Mr. Kim, whose son is my classmate, is a doctor.",
+     "ko": "아들이 내 반 친구인 김 선생님은 의사예요."
+    },
+    {
+     "en": "The new policy, which starts next month, affects all employees.",
+     "ko": "다음 달 시작되는 새 정책은 전 직원에게 영향을 줘요."
+    },
+    {
+     "en": "My laptop, which I bought last year, already needs repairs.",
+     "ko": "작년에 산 내 노트북은 벌써 수리가 필요해요."
+    },
+    {
+     "en": "Jeju, where I grew up, is famous for its beaches.",
+     "ko": "내가 자란 제주는 해변으로 유명해요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "My father, ___ is a chef, cooks every weekend.",
+     "choices": [
+      "who",
+      "which",
+      "that",
+      "whose"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "사람 + 계속적 용법 → who.",
+     "error_tag": "relative_clause",
+     "id": "B2-002-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "The book, ___ I borrowed from you, is very interesting.",
+     "choices": [
+      "which",
+      "who",
+      "that",
+      "where"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "사물 + 쉼표 → which.",
+     "error_tag": "relative_clause",
+     "id": "B2-002-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "쉼표가 있는 관계절에서 쓸 수 없는 관계대명사는?",
+     "choices": [
+      "that",
+      "which",
+      "who",
+      "whose"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "계속적 용법에는 that을 쓰지 않아요.",
+     "error_tag": "relative_clause",
+     "id": "B2-002-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "She failed the test, ___ surprised everyone.",
+     "choices": [
+      "which",
+      "who",
+      "that",
+      "what"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "앞 문장 전체 → , which.",
+     "error_tag": "relative_clause",
+     "id": "B2-002-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 쓰세요: Seoul, ___ is the capital of Korea, is very crowded.",
+     "answer_text": "which",
+     "accepted_answers": [
+      "which"
+     ],
+     "explanation_ko": "사물(도시) → which.",
+     "error_tag": "grammar",
+     "id": "B2-002-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 쓰세요: My neighbor, ___ dog barks all night, is rarely home.",
+     "answer_text": "whose",
+     "accepted_answers": [
+      "whose"
+     ],
+     "explanation_ko": "소유 관계 → whose.",
+     "error_tag": "grammar",
+     "id": "B2-002-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "쉼표 + who 또는 which를 써서 내 주변 사람이나 장소를 소개해 보세요.",
+    "example_answer_en": "My best friend, who lives in Busan, is a designer.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 배운 형태를 썼는지 확인하세요."
+   },
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-12"
+   }
+  },
+  {
+   "id": "B2-003",
+   "publish_date": "2026-10-12",
+   "level": "B2",
+   "track": "general",
+   "day": 3,
+   "title_ko": "현재완료 진행형",
+   "objective_ko": "과거부터 지금까지 계속되는 동작을 말한다.",
+   "estimated_minutes": 15,
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-12",
+     "supports": "B1-B2 문법 학습 주제"
+    }
+   ],
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "grammar": {
+    "explanation_ko": "과거에 시작해 지금까지 계속되고 있는 동작, 또는 막 끝나 지금 결과가 보이는 동작에 have/has been + -ing를 씁니다. for(기간), since(시작 시점)와 자주 함께 씁니다. know, believe 같은 상태동사는 보통 진행형으로 쓰지 않습니다.",
+    "common_mistake_ko": "I have been knowing him for years.(X) → I have known him for years.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "since",
+     "part_of_speech": "전치사",
+     "meaning_ko": "~이후로",
+     "example_en": "I've been working here since 2020.",
+     "example_ko": "2020년부터 여기서 일해 왔어요."
+    },
+    {
+     "word": "for",
+     "part_of_speech": "전치사",
+     "meaning_ko": "~동안",
+     "example_en": "She has been waiting for an hour.",
+     "example_ko": "그녀는 한 시간째 기다리고 있어요."
+    },
+    {
+     "word": "lately",
+     "part_of_speech": "부사",
+     "meaning_ko": "최근에",
+     "example_en": "Have you been sleeping well lately?",
+     "example_ko": "요즘 잘 자고 있어요?"
+    },
+    {
+     "word": "exhausted",
+     "part_of_speech": "형용사",
+     "meaning_ko": "녹초가 된",
+     "example_en": "I'm exhausted. I've been running.",
+     "example_ko": "녹초예요. 계속 뛰었거든요."
+    },
+    {
+     "word": "practice",
+     "part_of_speech": "동사",
+     "meaning_ko": "연습하다",
+     "example_en": "He has been practicing the piano all day.",
+     "example_ko": "그는 하루 종일 피아노를 연습하고 있어요."
+    },
+    {
+     "word": "for ages",
+     "part_of_speech": "부사구",
+     "meaning_ko": "아주 오랫동안",
+     "example_en": "We've been waiting for ages!",
+     "example_ko": "우리 엄청 오래 기다렸어!"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I've been learning Japanese for six months.",
+     "ko": "나는 6개월째 일본어를 배우고 있어요."
+    },
+    {
+     "en": "It has been raining since this morning.",
+     "ko": "오늘 아침부터 비가 계속 오고 있어요."
+    },
+    {
+     "en": "How long have you been living in this city?",
+     "ko": "이 도시에 산 지 얼마나 됐어요?"
+    },
+    {
+     "en": "She's tired because she has been working all night.",
+     "ko": "그녀는 밤새 일해서 피곤해요."
+    },
+    {
+     "en": "Your eyes are red. Have you been crying?",
+     "ko": "눈이 빨개요. 울었어요?"
+    },
+    {
+     "en": "We have been planning this trip for months.",
+     "ko": "우리는 몇 달째 이 여행을 계획하고 있어요."
+    },
+    {
+     "en": "I haven't been feeling well lately.",
+     "ko": "요즘 몸이 좋지 않아요."
+    },
+    {
+     "en": "They've known each other since high school.",
+     "ko": "그들은 고등학교 때부터 알고 지냈어요. (know는 진행형으로 쓰지 않음)"
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "I ___ for you for thirty minutes!",
+     "choices": [
+      "have been waiting",
+      "am waiting",
+      "waited",
+      "have been waited"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "지금까지 계속 → have been -ing.",
+     "error_tag": "present_perfect",
+     "id": "B2-003-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "She has been working here ___ 2019.",
+     "choices": [
+      "since",
+      "for",
+      "from",
+      "during"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "시작 시점 → since.",
+     "error_tag": "preposition",
+     "id": "B2-003-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "I have known her for ten years.",
+      "I have been knowing her for ten years.",
+      "I am knowing her for ten years.",
+      "I know her since ten years."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "know는 상태동사 → 현재완료.",
+     "error_tag": "present_perfect",
+     "id": "B2-003-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "‘너 땀 흘리네. 계속 운동했어?’에 맞는 문장은?",
+     "choices": [
+      "Have you been exercising?",
+      "Did you been exercising?",
+      "Are you been exercising?",
+      "Have you exercising?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Have + 주어 + been -ing?",
+     "error_tag": "present_perfect",
+     "id": "B2-003-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 for 또는 since를 쓰세요: We have been studying ___ three hours.",
+     "answer_text": "for",
+     "accepted_answers": [
+      "for"
+     ],
+     "explanation_ko": "기간 → for.",
+     "error_tag": "grammar",
+     "id": "B2-003-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 쓰세요: It has been ___ all day. (rain)",
+     "answer_text": "raining",
+     "accepted_answers": [
+      "raining"
+     ],
+     "explanation_ko": "have/has been + -ing.",
+     "error_tag": "grammar",
+     "id": "B2-003-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "요즘 꾸준히 해 오고 있는 일을 현재완료 진행형으로 써 보세요.",
+    "example_answer_en": "I have been running every morning since March.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 배운 형태를 썼는지 확인하세요."
+   },
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-12"
+   }
+  },
+  {
+   "id": "B2-004",
+   "publish_date": "2026-10-12",
+   "level": "B2",
+   "track": "general",
+   "day": 4,
+   "title_ko": "비인칭 수동 구문: It is said that ...",
+   "objective_ko": "소문·보도를 객관적으로 전하는 수동 구문을 쓴다.",
+   "estimated_minutes": 15,
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-12",
+     "supports": "B1-B2 문법 학습 주제"
+    }
+   ],
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "grammar": {
+    "explanation_ko": "소문·일반적 믿음·보도를 객관적으로 전할 때 It is said / believed / reported that + 절, 또는 주어 + is said / believed + to부정사 구문을 씁니다. 과거 일을 말할 때는 to have + 과거분사.",
+    "common_mistake_ko": "He is said that he is rich.(X) → It is said that he is rich. / He is said to be rich.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "rumor",
+     "part_of_speech": "명사",
+     "meaning_ko": "소문",
+     "example_en": "There's a rumor that he's leaving.",
+     "example_ko": "그가 떠난다는 소문이 있어요."
+    },
+    {
+     "word": "believe",
+     "part_of_speech": "동사",
+     "meaning_ko": "믿다",
+     "example_en": "It is believed that the castle is 500 years old.",
+     "example_ko": "그 성은 500년 됐다고 여겨져요."
+    },
+    {
+     "word": "report",
+     "part_of_speech": "동사",
+     "meaning_ko": "보도하다",
+     "example_en": "It was reported that prices rose.",
+     "example_ko": "물가가 올랐다고 보도됐어요."
+    },
+    {
+     "word": "estimate",
+     "part_of_speech": "동사",
+     "meaning_ko": "추정하다",
+     "example_en": "It is estimated that 2,000 people attended.",
+     "example_ko": "2,000명이 참석한 것으로 추정돼요."
+    },
+    {
+     "word": "consider",
+     "part_of_speech": "동사",
+     "meaning_ko": "여기다",
+     "example_en": "She is considered an expert.",
+     "example_ko": "그녀는 전문가로 여겨져요."
+    },
+    {
+     "word": "expect",
+     "part_of_speech": "동사",
+     "meaning_ko": "예상하다",
+     "example_en": "The project is expected to finish soon.",
+     "example_ko": "그 프로젝트는 곧 끝날 것으로 예상돼요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "It is said that this lake never freezes.",
+     "ko": "이 호수는 절대 얼지 않는다고 해요."
+    },
+    {
+     "en": "The company is believed to be planning layoffs.",
+     "ko": "그 회사는 감원을 계획하는 것으로 여겨져요."
+    },
+    {
+     "en": "It was reported that the bridge would close.",
+     "ko": "다리가 폐쇄될 거라고 보도됐어요."
+    },
+    {
+     "en": "The painting is thought to be worth millions.",
+     "ko": "그 그림은 수백만 달러 가치가 있다고 여겨져요."
+    },
+    {
+     "en": "He is said to have lived in Paris for ten years.",
+     "ko": "그는 파리에서 10년간 살았다고 해요."
+    },
+    {
+     "en": "It is expected that prices will rise next year.",
+     "ko": "내년에 물가가 오를 것으로 예상돼요."
+    },
+    {
+     "en": "The festival is expected to attract many tourists.",
+     "ko": "축제는 많은 관광객을 끌 것으로 예상돼요."
+    },
+    {
+     "en": "It is estimated that half of the forest was lost.",
+     "ko": "숲의 절반이 사라진 것으로 추정돼요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "It ___ that the singer will retire.",
+     "choices": [
+      "is rumored",
+      "rumors",
+      "is rumor",
+      "rumored"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "It is + 과거분사 + that.",
+     "error_tag": "passive",
+     "id": "B2-004-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "She is said ___ very rich.",
+     "choices": [
+      "to be",
+      "that she is",
+      "being",
+      "be"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "주어 + is said + to부정사.",
+     "error_tag": "passive",
+     "id": "B2-004-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "He is believed to have left the country.",
+      "He is believed that he left the country.",
+      "It is believed him to leave the country.",
+      "He believes to have left the country."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "과거 일 → to have + 과거분사.",
+     "error_tag": "passive",
+     "id": "B2-004-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "‘그 건물은 100년 된 것으로 여겨진다.’에 맞는 문장은?",
+     "choices": [
+      "The building is thought to be 100 years old.",
+      "The building thinks to be 100 years old.",
+      "It is thought the building to be 100 years old.",
+      "The building is thought that it is 100 years old."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "주어 + is thought + to be.",
+     "error_tag": "passive",
+     "id": "B2-004-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 쓰세요: It ___ said that he speaks five languages.",
+     "answer_text": "is",
+     "accepted_answers": [
+      "is"
+     ],
+     "explanation_ko": "It is said that ~.",
+     "error_tag": "grammar",
+     "id": "B2-004-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 쓰세요: The match is expected ___ start at 8 p.m.",
+     "answer_text": "to",
+     "accepted_answers": [
+      "to"
+     ],
+     "explanation_ko": "be expected + to부정사.",
+     "error_tag": "grammar",
+     "id": "B2-004-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "들은 소문이나 일반적인 믿음을 It is said that ~으로 한 문장 써 보세요.",
+    "example_answer_en": "It is said that drinking water in the morning is good for you.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 배운 형태를 썼는지 확인하세요."
+   },
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-12"
+   }
+  },
+  {
+   "id": "B2-005",
+   "publish_date": "2026-10-12",
+   "level": "B2",
+   "track": "general",
+   "day": 5,
+   "title_ko": "담화 표지: however, therefore, moreover",
+   "objective_ko": "문장 사이의 논리 관계를 연결어로 분명히 한다.",
+   "estimated_minutes": 15,
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-12",
+     "supports": "B1-B2 문법 학습 주제"
+    }
+   ],
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "grammar": {
+    "explanation_ko": "글에서 문장과 문장의 논리 관계를 보여 주는 연결어입니다. 대조는 however / on the other hand, 결과는 therefore / as a result, 추가는 moreover / in addition. 보통 문장 앞에 두고 쉼표를 찍습니다.",
+    "common_mistake_ko": "I was tired, however I finished.(X: 쉼표만으로 두 문장을 잇지 않음) → I was tired. However, I finished. / I was tired; however, I finished."
+   },
+   "vocabulary": [
+    {
+     "word": "however",
+     "part_of_speech": "부사",
+     "meaning_ko": "그러나",
+     "example_en": "The plan was good. However, it was expensive.",
+     "example_ko": "계획은 좋았어요. 그러나 비쌌어요."
+    },
+    {
+     "word": "therefore",
+     "part_of_speech": "부사",
+     "meaning_ko": "그러므로",
+     "example_en": "He was ill. Therefore, he stayed home.",
+     "example_ko": "그는 아팠어요. 그래서 집에 있었어요."
+    },
+    {
+     "word": "moreover",
+     "part_of_speech": "부사",
+     "meaning_ko": "게다가",
+     "example_en": "The hotel is cheap. Moreover, it's near the beach.",
+     "example_ko": "호텔이 싸요. 게다가 해변 근처예요."
+    },
+    {
+     "word": "as a result",
+     "part_of_speech": "부사구",
+     "meaning_ko": "그 결과",
+     "example_en": "It rained. As a result, the game was canceled.",
+     "example_ko": "비가 왔어요. 그 결과 경기가 취소됐어요."
+    },
+    {
+     "word": "on the other hand",
+     "part_of_speech": "부사구",
+     "meaning_ko": "반면에",
+     "example_en": "City life is exciting. On the other hand, it's stressful.",
+     "example_ko": "도시 생활은 신나요. 반면에 스트레스가 많아요."
+    },
+    {
+     "word": "in addition",
+     "part_of_speech": "부사구",
+     "meaning_ko": "덧붙여, 게다가",
+     "example_en": "In addition, we offer free delivery.",
+     "example_ko": "덧붙여 무료 배송도 해 드려요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Online classes are flexible. However, some students feel isolated.",
+     "ko": "온라인 수업은 유연해요. 그러나 일부 학생은 고립감을 느껴요."
+    },
+    {
+     "en": "The road was icy. Therefore, the driver slowed down.",
+     "ko": "길이 얼어 있었어요. 그래서 운전자는 속도를 줄였어요."
+    },
+    {
+     "en": "The apartment is spacious. Moreover, the rent is reasonable.",
+     "ko": "아파트가 넓어요. 게다가 월세도 적당해요."
+    },
+    {
+     "en": "Sales dropped sharply. As a result, the store closed.",
+     "ko": "매출이 급감했어요. 그 결과 가게가 문을 닫았어요."
+    },
+    {
+     "en": "Cars are convenient. On the other hand, they cause pollution.",
+     "ko": "자동차는 편리해요. 반면에 오염을 일으켜요."
+    },
+    {
+     "en": "The course is free. In addition, you get a certificate.",
+     "ko": "과정은 무료예요. 덧붙여 수료증도 받아요."
+    },
+    {
+     "en": "I studied hard; however, I didn't pass.",
+     "ko": "열심히 공부했지만 합격하지 못했어요."
+    },
+    {
+     "en": "Regular exercise reduces stress. Therefore, many doctors recommend it.",
+     "ko": "규칙적인 운동은 스트레스를 줄여요. 그래서 많은 의사들이 권해요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "The movie was long. ___, it was very enjoyable.",
+     "choices": [
+      "However",
+      "Therefore",
+      "Moreover",
+      "As a result"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "길었지만 재미있었다 → 대조.",
+     "error_tag": "connector",
+     "id": "B2-005-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "He missed the bus. ___, he was late for work.",
+     "choices": [
+      "As a result",
+      "However",
+      "On the other hand",
+      "In addition"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "버스를 놓친 결과 → 결과.",
+     "error_tag": "connector",
+     "id": "B2-005-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "The phone is cheap. ___, it has a great camera.",
+     "choices": [
+      "Moreover",
+      "However",
+      "Therefore",
+      "As a result"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "장점 추가 → 추가.",
+     "error_tag": "connector",
+     "id": "B2-005-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "‘반면에’에 해당하는 표현은?",
+     "choices": [
+      "on the other hand",
+      "in addition",
+      "as a result",
+      "therefore"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "on the other hand = 반면에.",
+     "error_tag": "connector",
+     "id": "B2-005-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "‘그러므로’라는 뜻의 연결어를 쓰세요. (t로 시작)",
+     "answer_text": "therefore",
+     "accepted_answers": [
+      "therefore"
+     ],
+     "explanation_ko": "therefore = 그러므로.",
+     "error_tag": "grammar",
+     "id": "B2-005-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "‘덧붙여’라는 뜻의 두 단어 표현을 쓰세요. (In a...)",
+     "answer_text": "in addition",
+     "accepted_answers": [
+      "in addition"
+     ],
+     "explanation_ko": "in addition = 덧붙여.",
+     "error_tag": "grammar",
+     "id": "B2-005-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "however 또는 therefore를 써서 두 문장을 이어 보세요.",
+    "example_answer_en": "The test was difficult. However, I did my best.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 배운 형태를 썼는지 확인하세요."
+   },
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-12"
+   }
+  },
+  {
+   "id": "B2-006",
+   "publish_date": "2026-10-12",
+   "level": "B2",
+   "track": "general",
+   "day": 6,
+   "title_ko": "분사구문",
+   "objective_ko": "접속사와 주어를 줄인 분사구문으로 문장을 간결하게 쓴다.",
+   "estimated_minutes": 15,
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-12",
+     "supports": "B1-B2 문법 학습 주제"
+    }
+   ],
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "grammar": {
+    "explanation_ko": "부사절(때·이유·동시 동작)의 접속사와 주어를 줄여 -ing(능동)나 과거분사(수동)로 시작하는 구문입니다. 주절의 주어와 분사의 의미상 주어가 같아야 합니다. 먼저 일어난 일은 Having + 과거분사.",
+    "common_mistake_ko": "Walking down the street, a car hit me.(주어 불일치) → Walking down the street, I was hit by a car.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "realize",
+     "part_of_speech": "동사",
+     "meaning_ko": "깨닫다",
+     "example_en": "Realizing my mistake, I apologized.",
+     "example_ko": "실수를 깨닫고 사과했어요."
+    },
+    {
+     "word": "notice",
+     "part_of_speech": "동사",
+     "meaning_ko": "알아차리다",
+     "example_en": "Noticing the rain, she took an umbrella.",
+     "example_ko": "비가 오는 걸 보고 그녀는 우산을 챙겼어요."
+    },
+    {
+     "word": "complete",
+     "part_of_speech": "동사",
+     "meaning_ko": "완료하다",
+     "example_en": "Having completed the task, he went home.",
+     "example_ko": "일을 끝낸 뒤 그는 집에 갔어요."
+    },
+    {
+     "word": "confuse",
+     "part_of_speech": "동사",
+     "meaning_ko": "혼란스럽게 하다",
+     "example_en": "Confused by the map, we asked for help.",
+     "example_ko": "지도에 헷갈려서 우리는 도움을 요청했어요."
+    },
+    {
+     "word": "surround",
+     "part_of_speech": "동사",
+     "meaning_ko": "둘러싸다",
+     "example_en": "Surrounded by mountains, the village is quiet.",
+     "example_ko": "산에 둘러싸여 그 마을은 조용해요."
+    },
+    {
+     "word": "shout",
+     "part_of_speech": "동사",
+     "meaning_ko": "외치다",
+     "example_en": "Shouting loudly, he ran outside.",
+     "example_ko": "크게 외치며 그는 밖으로 뛰어나갔어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Feeling tired, I went to bed early.",
+     "ko": "피곤해서 일찍 잤어요."
+    },
+    {
+     "en": "Walking along the beach, we found a small café.",
+     "ko": "해변을 따라 걷다가 작은 카페를 발견했어요."
+    },
+    {
+     "en": "Having finished dinner, they watched a movie.",
+     "ko": "저녁을 다 먹고 나서 그들은 영화를 봤어요."
+    },
+    {
+     "en": "Written in simple English, the book is easy to read.",
+     "ko": "쉬운 영어로 쓰여서 그 책은 읽기 쉬워요."
+    },
+    {
+     "en": "Not knowing what to say, she stayed silent.",
+     "ko": "무슨 말을 해야 할지 몰라서 그녀는 침묵했어요."
+    },
+    {
+     "en": "Seen from above, the city looks like a map.",
+     "ko": "위에서 보면 도시는 지도 같아요."
+    },
+    {
+     "en": "Listening to music, he cleaned the house.",
+     "ko": "음악을 들으며 그는 집을 청소했어요."
+    },
+    {
+     "en": "Having lived abroad, she understands different cultures.",
+     "ko": "해외에서 살아 봐서 그녀는 다양한 문화를 이해해요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "___ the news, she started crying.",
+     "choices": [
+      "Hearing",
+      "Heard",
+      "Hear",
+      "To hearing"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "능동(그녀가 들음) → -ing.",
+     "error_tag": "participle",
+     "id": "B2-006-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "___ in 1890, the bridge is still in use.",
+     "choices": [
+      "Built",
+      "Building",
+      "Having building",
+      "Build"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "수동(다리가 지어짐) → 과거분사.",
+     "error_tag": "participle",
+     "id": "B2-006-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "‘숙제를 끝내고 나서 나는 밖에 나갔다.’에 맞는 문장은?",
+     "choices": [
+      "Having finished my homework, I went out.",
+      "Finished my homework, I went out.",
+      "Having finishing my homework, I went out.",
+      "Have finished my homework, I went out."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "먼저 일어난 일 → Having + 과거분사.",
+     "error_tag": "participle",
+     "id": "B2-006-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "주어가 맞지 않는(잘못된) 문장은?",
+     "choices": [
+      "Opening the door, the room was dark.",
+      "Opening the door, I saw a cat.",
+      "Tired after work, he fell asleep.",
+      "Not feeling well, she left early."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "문을 연 것은 방(the room)이 아니에요.",
+     "error_tag": "participle",
+     "id": "B2-006-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 두 단어를 쓰세요: ___ what to do, he called his father. (무엇을 해야 할지 몰라서)",
+     "answer_text": "Not knowing",
+     "accepted_answers": [
+      "Not knowing"
+     ],
+     "explanation_ko": "부정은 Not + -ing.",
+     "error_tag": "grammar",
+     "id": "B2-006-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "괄호 속 동사를 알맞은 분사로: (Surround) by trees, the house is very quiet.",
+     "answer_text": "Surrounded",
+     "accepted_answers": [
+      "Surrounded"
+     ],
+     "explanation_ko": "수동 → 과거분사.",
+     "error_tag": "grammar",
+     "id": "B2-006-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "분사구문으로 시작하는 문장 하나를 써 보세요.",
+    "example_answer_en": "Feeling hungry, I made a sandwich.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 배운 형태를 썼는지 확인하세요."
+   },
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-12"
+   }
+  },
+  {
+   "id": "B2-007",
+   "publish_date": "2026-10-12",
+   "level": "B2",
+   "track": "general",
+   "day": 7,
+   "title_ko": "1주 복습: 가정·관계절·완료진행·연결어",
+   "objective_ko": "이번 주 구문을 섞어 짧은 소식 글을 이해한다.",
+   "estimated_minutes": 15,
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-12",
+     "supports": "B1-B2 문법 학습 주제"
+    }
+   ],
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "grammar": {
+    "explanation_ko": "가정법 과거, 계속적 용법의 관계절, 현재완료 진행형, 비인칭 수동, 담화 표지, 분사구문을 한 단락 안에서 함께 확인합니다.",
+    "common_mistake_ko": "If I would know, I would tell you.(X) → If I knew, I would tell you.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "proposal",
+     "part_of_speech": "명사",
+     "meaning_ko": "제안",
+     "example_en": "The proposal, which was submitted late, was rejected.",
+     "example_ko": "늦게 제출된 그 제안은 거절됐어요."
+    },
+    {
+     "word": "budget",
+     "part_of_speech": "명사",
+     "meaning_ko": "예산",
+     "example_en": "If we had a bigger budget, we would hire more staff.",
+     "example_ko": "예산이 더 크다면 직원을 더 뽑을 텐데."
+    },
+    {
+     "word": "negotiate",
+     "part_of_speech": "동사",
+     "meaning_ko": "협상하다",
+     "example_en": "They have been negotiating for weeks.",
+     "example_ko": "그들은 몇 주째 협상 중이에요."
+    },
+    {
+     "word": "postpone",
+     "part_of_speech": "동사",
+     "meaning_ko": "연기하다",
+     "example_en": "The meeting is expected to be postponed.",
+     "example_ko": "회의가 연기될 것으로 예상돼요."
+    },
+    {
+     "word": "consequently",
+     "part_of_speech": "부사",
+     "meaning_ko": "결과적으로",
+     "example_en": "Consequently, the launch was delayed.",
+     "example_ko": "결과적으로 출시가 지연됐어요."
+    },
+    {
+     "word": "stakeholder",
+     "part_of_speech": "명사",
+     "meaning_ko": "이해관계자",
+     "example_en": "Having consulted the stakeholders, the board approved it.",
+     "example_ko": "이해관계자와 협의한 뒤 이사회가 승인했어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "If we had a bigger budget, we would expand overseas.",
+     "ko": "예산이 더 크다면 해외로 확장할 텐데."
+    },
+    {
+     "en": "Our manager, who joined last year, has been leading the project.",
+     "ko": "작년에 입사한 매니저가 그 프로젝트를 이끌어 오고 있어요."
+    },
+    {
+     "en": "The two sides have been negotiating since March.",
+     "ko": "양측은 3월부터 협상해 오고 있어요."
+    },
+    {
+     "en": "It is reported that an agreement is close.",
+     "ko": "합의가 임박했다고 보도됐어요."
+    },
+    {
+     "en": "However, some details are still unclear.",
+     "ko": "그러나 일부 세부 사항은 아직 불분명해요."
+    },
+    {
+     "en": "Having reviewed the data, the team changed its plan.",
+     "ko": "데이터를 검토한 뒤 팀은 계획을 바꿨어요."
+    },
+    {
+     "en": "The launch, which was planned for May, was postponed.",
+     "ko": "5월로 계획됐던 출시는 연기됐어요."
+    },
+    {
+     "en": "Consequently, the company is expected to lose money this quarter.",
+     "ko": "결과적으로 회사는 이번 분기에 손실을 볼 것으로 예상돼요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "If I ___ his number, I would call him.",
+     "choices": [
+      "knew",
+      "know",
+      "would know",
+      "will know"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "가정법 과거 → 과거형.",
+     "error_tag": "conditional",
+     "id": "B2-007-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "The museum, ___ opened in 2015, attracts many visitors.",
+     "choices": [
+      "which",
+      "who",
+      "that",
+      "where"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "사물 + 쉼표 → which.",
+     "error_tag": "relative_clause",
+     "id": "B2-007-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "They ___ for this exam since January.",
+     "choices": [
+      "have been preparing",
+      "are preparing",
+      "prepared",
+      "have been prepared"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "since + 지금까지 계속 → have been -ing.",
+     "error_tag": "present_perfect",
+     "id": "B2-007-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "The results were poor. ___, the plan was canceled.",
+     "choices": [
+      "Consequently",
+      "However",
+      "On the other hand",
+      "Moreover"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "결과 → consequently.",
+     "error_tag": "connector",
+     "id": "B2-007-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 쓰세요: The CEO is said ___ resign soon.",
+     "answer_text": "to",
+     "accepted_answers": [
+      "to"
+     ],
+     "explanation_ko": "be said + to부정사.",
+     "error_tag": "grammar",
+     "id": "B2-007-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 쓰세요: ___ finished the report, she went home. (보고서를 끝낸 뒤)",
+     "answer_text": "Having",
+     "accepted_answers": [
+      "Having"
+     ],
+     "explanation_ko": "먼저 일어난 일 → Having + 과거분사.",
+     "error_tag": "grammar",
+     "id": "B2-007-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "이번 주 표현 두 가지 이상을 써서 최근 소식을 짧게 전해 보세요.",
+    "example_answer_en": "It is said that the new library will open soon. However, the date hasn't been announced.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 배운 형태를 썼는지 확인하세요."
+   },
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-12"
+   }
+  }
+ ]
+}

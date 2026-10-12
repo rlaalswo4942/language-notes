@@ -1,0 +1,1346 @@
+{
+ "course": "A2",
+ "schema_version": "1.0",
+ "description": "자체 제작 교육용 연습 레슨(AI 초안). 공식 ETS·CEFR 문항 아님.",
+ "lessons": [
+  {
+   "id": "A2-001",
+   "publish_date": "2026-10-12",
+   "level": "A2",
+   "track": "foundation",
+   "day": 1,
+   "title_ko": "과거의 be동사 was / were",
+   "objective_ko": "과거의 상태와 위치를 was/were로 말한다.",
+   "estimated_minutes": 15,
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-12",
+     "supports": "A1-A2 문법 학습 주제"
+    }
+   ],
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "grammar": {
+    "explanation_ko": "과거의 상태는 was(I/he/she/it)와 were(you/we/they)로 말합니다. 부정은 wasn't/weren't, 질문은 Was/Were를 앞으로 보냅니다.",
+    "common_mistake_ko": "They was tired.(X) → They were tired.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "yesterday",
+     "part_of_speech": "부사",
+     "meaning_ko": "어제",
+     "example_en": "I was at home yesterday.",
+     "example_ko": "나는 어제 집에 있었어요."
+    },
+    {
+     "word": "last night",
+     "part_of_speech": "부사구",
+     "meaning_ko": "어젯밤",
+     "example_en": "Were you busy last night?",
+     "example_ko": "어젯밤에 바빴어요?"
+    },
+    {
+     "word": "ago",
+     "part_of_speech": "부사",
+     "meaning_ko": "~전에",
+     "example_en": "He was a student two years ago.",
+     "example_ko": "그는 2년 전에 학생이었어요."
+    },
+    {
+     "word": "born",
+     "part_of_speech": "형용사",
+     "meaning_ko": "태어난",
+     "example_en": "I was born in Seoul.",
+     "example_ko": "나는 서울에서 태어났어요."
+    },
+    {
+     "word": "crowded",
+     "part_of_speech": "형용사",
+     "meaning_ko": "붐비는",
+     "example_en": "The train was crowded.",
+     "example_ko": "기차가 붐볐어요."
+    },
+    {
+     "word": "concert",
+     "part_of_speech": "명사",
+     "meaning_ko": "콘서트",
+     "example_en": "The concert was amazing.",
+     "example_ko": "콘서트는 정말 멋졌어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I was tired after work.",
+     "ko": "나는 퇴근 후에 피곤했어요."
+    },
+    {
+     "en": "We were at the beach last summer.",
+     "ko": "우리는 지난여름 해변에 있었어요."
+    },
+    {
+     "en": "The test wasn't difficult.",
+     "ko": "시험은 어렵지 않았어요."
+    },
+    {
+     "en": "Were you at the party?",
+     "ko": "파티에 있었어요?"
+    },
+    {
+     "en": "Yes, I was. / No, I wasn't.",
+     "ko": "네, 있었어요. / 아니요, 없었어요."
+    },
+    {
+     "en": "The streets were crowded yesterday.",
+     "ko": "어제는 거리가 붐볐어요."
+    },
+    {
+     "en": "It was sunny last weekend.",
+     "ko": "지난 주말에는 맑았어요."
+    },
+    {
+     "en": "Where were you last night?",
+     "ko": "어젯밤에 어디 있었어요?"
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "They ___ at school yesterday.",
+     "choices": [
+      "were",
+      "was",
+      "are",
+      "is"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "they의 과거 be동사는 were.",
+     "error_tag": "past_be",
+     "id": "A2-001-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "It ___ cold last night.",
+     "choices": [
+      "was",
+      "were",
+      "is",
+      "be"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "it → was.",
+     "error_tag": "past_be",
+     "id": "A2-001-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "‘너는 어제 아팠니?’에 맞는 문장은?",
+     "choices": [
+      "Were you sick yesterday?",
+      "Was you sick yesterday?",
+      "Did you sick yesterday?",
+      "Are you sick yesterday?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "you → Were you ~?",
+     "error_tag": "past_be",
+     "id": "A2-001-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Was the movie good?에 부정으로 답하기",
+     "choices": [
+      "No, it wasn't.",
+      "No, it weren't.",
+      "No, it didn't.",
+      "No, it isn't."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Was 질문 → wasn't.",
+     "error_tag": "short_answer",
+     "id": "A2-001-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 쓰세요: I ___ born in 2005.",
+     "answer_text": "was",
+     "accepted_answers": [
+      "was"
+     ],
+     "explanation_ko": "I → was.",
+     "error_tag": "grammar",
+     "id": "A2-001-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "부정 줄임말을 쓰세요: We ___ late. (우리는 늦지 않았어요.)",
+     "answer_text": "weren't",
+     "accepted_answers": [
+      "weren't",
+      "were not"
+     ],
+     "explanation_ko": "were not = weren't",
+     "error_tag": "grammar",
+     "id": "A2-001-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "어제 어디에 있었는지, 기분이 어땠는지 was/were로 두 문장 써 보세요.",
+    "example_answer_en": "I was at the library yesterday. I was very tired.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 배운 형태를 썼는지 확인하세요."
+   },
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-12"
+   }
+  },
+  {
+   "id": "A2-002",
+   "publish_date": "2026-10-12",
+   "level": "A2",
+   "track": "foundation",
+   "day": 2,
+   "title_ko": "규칙동사 과거 -ed",
+   "objective_ko": "지난 일을 규칙동사 과거형과 did로 말한다.",
+   "estimated_minutes": 15,
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-12",
+     "supports": "A1-A2 문법 학습 주제"
+    }
+   ],
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "grammar": {
+    "explanation_ko": "과거에 끝난 일은 동사 + -ed로 말합니다. e로 끝나면 -d(liked), 자음+y는 y→i+ed(studied), 단모음+단자음은 자음을 하나 더(stopped). 부정·질문은 did / didn't + 동사원형.",
+    "common_mistake_ko": "I didn't watched TV.(X) → I didn't watch TV.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "watch",
+     "part_of_speech": "동사",
+     "meaning_ko": "보다",
+     "example_en": "I watched a movie.",
+     "example_ko": "나는 영화를 봤어요."
+    },
+    {
+     "word": "call",
+     "part_of_speech": "동사",
+     "meaning_ko": "전화하다",
+     "example_en": "She called me last night.",
+     "example_ko": "그녀가 어젯밤 나에게 전화했어요."
+    },
+    {
+     "word": "clean",
+     "part_of_speech": "동사",
+     "meaning_ko": "청소하다",
+     "example_en": "We cleaned the room.",
+     "example_ko": "우리는 방을 청소했어요."
+    },
+    {
+     "word": "stay",
+     "part_of_speech": "동사",
+     "meaning_ko": "머무르다",
+     "example_en": "They stayed at a hotel.",
+     "example_ko": "그들은 호텔에 묵었어요."
+    },
+    {
+     "word": "stop",
+     "part_of_speech": "동사",
+     "meaning_ko": "멈추다",
+     "example_en": "The bus stopped suddenly.",
+     "example_ko": "버스가 갑자기 멈췄어요."
+    },
+    {
+     "word": "travel",
+     "part_of_speech": "동사",
+     "meaning_ko": "여행하다",
+     "example_en": "He traveled to Japan last year.",
+     "example_ko": "그는 작년에 일본을 여행했어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I watched a soccer game last night.",
+     "ko": "나는 어젯밤 축구 경기를 봤어요."
+    },
+    {
+     "en": "She studied for the exam yesterday.",
+     "ko": "그녀는 어제 시험공부를 했어요."
+    },
+    {
+     "en": "We cleaned the kitchen together.",
+     "ko": "우리는 함께 부엌을 청소했어요."
+    },
+    {
+     "en": "The bus stopped in front of the school.",
+     "ko": "버스가 학교 앞에 멈췄어요."
+    },
+    {
+     "en": "They stayed home on Sunday.",
+     "ko": "그들은 일요일에 집에 있었어요."
+    },
+    {
+     "en": "Did you call your mom?",
+     "ko": "엄마한테 전화했어?"
+    },
+    {
+     "en": "I didn't watch the news.",
+     "ko": "나는 뉴스를 보지 않았어요."
+    },
+    {
+     "en": "He traveled to Jeju last month.",
+     "ko": "그는 지난달 제주를 여행했어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "study의 과거형은?",
+     "choices": [
+      "studied",
+      "studyed",
+      "studid",
+      "studed"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "자음+y → ied.",
+     "error_tag": "spelling",
+     "id": "A2-002-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "stop의 과거형은?",
+     "choices": [
+      "stopped",
+      "stoped",
+      "stopt",
+      "stopping"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "단모음+단자음 → 자음 하나 더.",
+     "error_tag": "spelling",
+     "id": "A2-002-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "‘너 숙제 끝냈니?’ ___ you finish your homework?",
+     "choices": [
+      "Did",
+      "Do",
+      "Were",
+      "Was"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "과거 일반동사 질문은 Did.",
+     "error_tag": "past_simple",
+     "id": "A2-002-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "I didn't like the movie.",
+      "I didn't liked the movie.",
+      "I don't liked the movie.",
+      "I not liked the movie."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "didn't + 동사원형.",
+     "error_tag": "past_simple",
+     "id": "A2-002-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "괄호 속 동사를 과거형으로: We (play) tennis yesterday.",
+     "answer_text": "played",
+     "accepted_answers": [
+      "played"
+     ],
+     "explanation_ko": "규칙동사 → -ed.",
+     "error_tag": "grammar",
+     "id": "A2-002-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "괄호 속 동사를 과거형으로: She (live) in Busan in 2020.",
+     "answer_text": "lived",
+     "accepted_answers": [
+      "lived"
+     ],
+     "explanation_ko": "e로 끝나면 -d만.",
+     "error_tag": "grammar",
+     "id": "A2-002-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "지난 주말에 한 일 두 가지를 -ed 과거형으로 써 보세요.",
+    "example_answer_en": "I cleaned my room. I watched a movie with my friend.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 배운 형태를 썼는지 확인하세요."
+   },
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-12"
+   }
+  },
+  {
+   "id": "A2-003",
+   "publish_date": "2026-10-12",
+   "level": "A2",
+   "track": "foundation",
+   "day": 3,
+   "title_ko": "불규칙 동사 과거",
+   "objective_ko": "자주 쓰는 불규칙 동사의 과거형으로 지난 일을 말한다.",
+   "estimated_minutes": 15,
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-12",
+     "supports": "A1-A2 문법 학습 주제"
+    }
+   ],
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "grammar": {
+    "explanation_ko": "자주 쓰는 동사 중 많은 수가 불규칙하게 과거형이 바뀝니다: go→went, have→had, eat→ate, see→saw, buy→bought, make→made. 부정·질문은 여전히 did + 동사원형입니다.",
+    "common_mistake_ko": "I goed home.(X) → I went home. / Did you saw it?(X) → Did you see it?"
+   },
+   "vocabulary": [
+    {
+     "word": "went",
+     "part_of_speech": "동사(go의 과거)",
+     "meaning_ko": "갔다",
+     "example_en": "I went to the market.",
+     "example_ko": "나는 시장에 갔어요."
+    },
+    {
+     "word": "ate",
+     "part_of_speech": "동사(eat의 과거)",
+     "meaning_ko": "먹었다",
+     "example_en": "We ate pizza.",
+     "example_ko": "우리는 피자를 먹었어요."
+    },
+    {
+     "word": "saw",
+     "part_of_speech": "동사(see의 과거)",
+     "meaning_ko": "봤다",
+     "example_en": "I saw a rainbow.",
+     "example_ko": "나는 무지개를 봤어요."
+    },
+    {
+     "word": "bought",
+     "part_of_speech": "동사(buy의 과거)",
+     "meaning_ko": "샀다",
+     "example_en": "She bought a new bag.",
+     "example_ko": "그녀는 새 가방을 샀어요."
+    },
+    {
+     "word": "made",
+     "part_of_speech": "동사(make의 과거)",
+     "meaning_ko": "만들었다",
+     "example_en": "He made a cake.",
+     "example_ko": "그는 케이크를 만들었어요."
+    },
+    {
+     "word": "had",
+     "part_of_speech": "동사(have의 과거)",
+     "meaning_ko": "가졌다, 먹었다, 보냈다",
+     "example_en": "We had a great time.",
+     "example_ko": "우리는 즐거운 시간을 보냈어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I went to the beach last weekend.",
+     "ko": "나는 지난 주말 해변에 갔어요."
+    },
+    {
+     "en": "We ate dinner at a Korean restaurant.",
+     "ko": "우리는 한식당에서 저녁을 먹었어요."
+    },
+    {
+     "en": "She saw her friend at the station.",
+     "ko": "그녀는 역에서 친구를 봤어요."
+    },
+    {
+     "en": "He bought a ticket online.",
+     "ko": "그는 온라인으로 표를 샀어요."
+    },
+    {
+     "en": "My mom made kimchi yesterday.",
+     "ko": "엄마가 어제 김치를 담갔어요."
+    },
+    {
+     "en": "We had a lot of fun.",
+     "ko": "우리는 정말 재미있었어요."
+    },
+    {
+     "en": "Did you see the news?",
+     "ko": "뉴스 봤어?"
+    },
+    {
+     "en": "I didn't buy anything.",
+     "ko": "나는 아무것도 사지 않았어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "go의 과거형은?",
+     "choices": [
+      "went",
+      "goed",
+      "gone",
+      "goes"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "go → went.",
+     "error_tag": "irregular",
+     "id": "A2-003-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "buy의 과거형은?",
+     "choices": [
+      "bought",
+      "buyed",
+      "brought",
+      "boughted"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "buy → bought (brought는 bring의 과거).",
+     "error_tag": "irregular",
+     "id": "A2-003-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "올바른 질문은?",
+     "choices": [
+      "Did you eat breakfast?",
+      "Did you ate breakfast?",
+      "Do you ate breakfast?",
+      "Did you eating breakfast?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Did + 주어 + 동사원형.",
+     "error_tag": "past_simple",
+     "id": "A2-003-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "‘우리는 즐거운 시간을 보냈어요.’에 맞는 문장은?",
+     "choices": [
+      "We had a good time.",
+      "We haved a good time.",
+      "We has a good time.",
+      "We had a good times."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "have → had.",
+     "error_tag": "irregular",
+     "id": "A2-003-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "괄호 속 동사를 과거형으로: I (see) a famous actor yesterday.",
+     "answer_text": "saw",
+     "accepted_answers": [
+      "saw"
+     ],
+     "explanation_ko": "see → saw.",
+     "error_tag": "grammar",
+     "id": "A2-003-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "괄호 속 동사를 과거형으로: She (make) a cake for me.",
+     "answer_text": "made",
+     "accepted_answers": [
+      "made"
+     ],
+     "explanation_ko": "make → made.",
+     "error_tag": "grammar",
+     "id": "A2-003-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "어제 한 일을 불규칙 과거형 두 개를 써서 문장으로 써 보세요.",
+    "example_answer_en": "I went to the gym. I ate a salad.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 배운 형태를 썼는지 확인하세요."
+   },
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-12"
+   }
+  },
+  {
+   "id": "A2-004",
+   "publish_date": "2026-10-12",
+   "level": "A2",
+   "track": "foundation",
+   "day": 4,
+   "title_ko": "be going to: 계획과 예측",
+   "objective_ko": "정해 둔 계획과 눈앞의 근거로 하는 예측을 말한다.",
+   "estimated_minutes": 15,
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-12",
+     "supports": "A1-A2 문법 학습 주제"
+    }
+   ],
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "grammar": {
+    "explanation_ko": "미리 정해 둔 계획이나 눈앞의 증거로 하는 예측은 be going to + 동사원형으로 말합니다. 주어에 따라 am/is/are가 바뀝니다.",
+    "common_mistake_ko": "I going to study.(X) → I am going to study. / She is going to visits.(X) → She is going to visit."
+   },
+   "vocabulary": [
+    {
+     "word": "plan",
+     "part_of_speech": "명사",
+     "meaning_ko": "계획",
+     "example_en": "What are your plans for the weekend?",
+     "example_ko": "주말 계획이 뭐예요?"
+    },
+    {
+     "word": "tomorrow",
+     "part_of_speech": "부사",
+     "meaning_ko": "내일",
+     "example_en": "I'm going to call him tomorrow.",
+     "example_ko": "내일 그에게 전화할 거예요."
+    },
+    {
+     "word": "next week",
+     "part_of_speech": "부사구",
+     "meaning_ko": "다음 주",
+     "example_en": "We're going to move next week.",
+     "example_ko": "우리는 다음 주에 이사할 거예요."
+    },
+    {
+     "word": "move",
+     "part_of_speech": "동사",
+     "meaning_ko": "이사하다",
+     "example_en": "They are going to move to Busan.",
+     "example_ko": "그들은 부산으로 이사할 거예요."
+    },
+    {
+     "word": "cloud",
+     "part_of_speech": "명사",
+     "meaning_ko": "구름",
+     "example_en": "Look at those clouds.",
+     "example_ko": "저 구름들 좀 봐."
+    },
+    {
+     "word": "fall",
+     "part_of_speech": "동사",
+     "meaning_ko": "넘어지다, 떨어지다",
+     "example_en": "Be careful! You're going to fall.",
+     "example_ko": "조심해! 넘어지겠어."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I'm going to visit my grandparents this weekend.",
+     "ko": "이번 주말에 조부모님 댁에 갈 거예요."
+    },
+    {
+     "en": "She is going to start a new job next month.",
+     "ko": "그녀는 다음 달에 새 일을 시작할 거예요."
+    },
+    {
+     "en": "We're going to have a barbecue on Saturday.",
+     "ko": "우리는 토요일에 바비큐를 할 거예요."
+    },
+    {
+     "en": "Look at those clouds. It's going to rain.",
+     "ko": "저 구름 좀 봐. 비가 오겠어."
+    },
+    {
+     "en": "Are you going to take the exam?",
+     "ko": "그 시험 볼 거야?"
+    },
+    {
+     "en": "I'm not going to eat fast food.",
+     "ko": "나는 패스트푸드를 먹지 않을 거예요."
+    },
+    {
+     "en": "What are you going to do tomorrow?",
+     "ko": "내일 뭐 할 거야?"
+    },
+    {
+     "en": "They are going to move next week.",
+     "ko": "그들은 다음 주에 이사해요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "I ___ going to buy a car.",
+     "choices": [
+      "am",
+      "is",
+      "are",
+      "be"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "I → am.",
+     "error_tag": "future",
+     "id": "A2-004-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "‘비가 오겠다.’ (먹구름을 보며)에 맞는 문장은?",
+     "choices": [
+      "It's going to rain.",
+      "It going to rain.",
+      "It's going to rains.",
+      "It's go to rain."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "be going to + 동사원형.",
+     "error_tag": "future",
+     "id": "A2-004-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "올바른 질문은?",
+     "choices": [
+      "Are you going to come?",
+      "Do you going to come?",
+      "Are you go to come?",
+      "Are you going to coming?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Are + 주어 + going to + 동사원형?",
+     "error_tag": "future",
+     "id": "A2-004-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "He is going to ___ his room.",
+     "choices": [
+      "clean",
+      "cleans",
+      "cleaned",
+      "cleaning"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "going to 뒤에는 동사원형.",
+     "error_tag": "future",
+     "id": "A2-004-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 쓰세요: We ___ going to travel next month.",
+     "answer_text": "are",
+     "accepted_answers": [
+      "are"
+     ],
+     "explanation_ko": "we → are.",
+     "error_tag": "grammar",
+     "id": "A2-004-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "부정문 빈칸에 쓰세요: I'm ___ going to watch TV tonight.",
+     "answer_text": "not",
+     "accepted_answers": [
+      "not"
+     ],
+     "explanation_ko": "be동사 뒤에 not.",
+     "error_tag": "grammar",
+     "id": "A2-004-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "다음 주 계획 두 가지를 be going to로 써 보세요.",
+    "example_answer_en": "I'm going to meet my friend. I'm going to study English.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 배운 형태를 썼는지 확인하세요."
+   },
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-12"
+   }
+  },
+  {
+   "id": "A2-005",
+   "publish_date": "2026-10-12",
+   "level": "A2",
+   "track": "foundation",
+   "day": 5,
+   "title_ko": "will: 즉석 결정·약속·예측",
+   "objective_ko": "그 자리에서 정한 일과 약속을 will로 말한다.",
+   "estimated_minutes": 15,
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-12",
+     "supports": "A1-A2 문법 학습 주제"
+    }
+   ],
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "grammar": {
+    "explanation_ko": "말하는 순간 정한 일, 약속·제안, 생각에 근거한 예측은 will + 동사원형(줄임 I'll)으로 말합니다. 부정은 won't입니다.",
+    "common_mistake_ko": "I will to call you.(X) → I will call you. / It wills rain.(X) → It will rain."
+   },
+   "vocabulary": [
+    {
+     "word": "promise",
+     "part_of_speech": "동사",
+     "meaning_ko": "약속하다",
+     "example_en": "I promise I'll be there.",
+     "example_ko": "거기 갈 거라고 약속할게."
+    },
+    {
+     "word": "maybe",
+     "part_of_speech": "부사",
+     "meaning_ko": "아마",
+     "example_en": "Maybe it will snow.",
+     "example_ko": "아마 눈이 올 거예요."
+    },
+    {
+     "word": "probably",
+     "part_of_speech": "부사",
+     "meaning_ko": "아마도",
+     "example_en": "She will probably be late.",
+     "example_ko": "그녀는 아마 늦을 거예요."
+    },
+    {
+     "word": "carry",
+     "part_of_speech": "동사",
+     "meaning_ko": "나르다, 들다",
+     "example_en": "I'll carry your bag.",
+     "example_ko": "가방 들어 줄게요."
+    },
+    {
+     "word": "answer",
+     "part_of_speech": "동사",
+     "meaning_ko": "(전화를) 받다, 대답하다",
+     "example_en": "I'll answer the phone.",
+     "example_ko": "제가 전화 받을게요."
+    },
+    {
+     "word": "forget",
+     "part_of_speech": "동사",
+     "meaning_ko": "잊다",
+     "example_en": "I won't forget your birthday.",
+     "example_ko": "네 생일 잊지 않을게."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The phone is ringing. I'll answer it.",
+     "ko": "전화가 울리네요. 제가 받을게요."
+    },
+    {
+     "en": "I'll help you with your homework.",
+     "ko": "숙제 도와줄게."
+    },
+    {
+     "en": "I think it will be sunny tomorrow.",
+     "ko": "내일은 맑을 것 같아요."
+    },
+    {
+     "en": "Don't worry. I won't tell anyone.",
+     "ko": "걱정 마. 아무한테도 말 안 할게."
+    },
+    {
+     "en": "Will you marry me?",
+     "ko": "나랑 결혼해 줄래?"
+    },
+    {
+     "en": "She will probably call you tonight.",
+     "ko": "그녀가 아마 오늘 밤 전화할 거예요."
+    },
+    {
+     "en": "I'll have a coffee, please.",
+     "ko": "커피 한 잔 주세요."
+    },
+    {
+     "en": "We'll see you at the station.",
+     "ko": "역에서 봐요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "It's cold. I ___ close the window.",
+     "choices": [
+      "'ll",
+      "am",
+      "will to",
+      "won"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "그 자리에서 정한 일 → I'll.",
+     "error_tag": "future",
+     "id": "A2-005-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "will not의 줄임말은?",
+     "choices": [
+      "won't",
+      "willn't",
+      "wont'",
+      "wo'nt"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "will not = won't.",
+     "error_tag": "contraction",
+     "id": "A2-005-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "She will call you later.",
+      "She will calls you later.",
+      "She wills call you later.",
+      "She will to call you later."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "will + 동사원형.",
+     "error_tag": "future",
+     "id": "A2-005-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "식당에서 메뉴를 바로 정할 때 자연스러운 말은?",
+     "choices": [
+      "I'll have the pasta.",
+      "I'm going to having the pasta.",
+      "I have will the pasta.",
+      "I will had the pasta."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "즉석 결정 → I'll.",
+     "error_tag": "future",
+     "id": "A2-005-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 쓰세요: Don't worry. I ___ forget. (잊지 않을게, 줄임말)",
+     "answer_text": "won't",
+     "accepted_answers": [
+      "won't",
+      "will not"
+     ],
+     "explanation_ko": "will not = won't",
+     "error_tag": "grammar",
+     "id": "A2-005-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 쓰세요: I think it ___ snow tomorrow.",
+     "answer_text": "will",
+     "accepted_answers": [
+      "will"
+     ],
+     "explanation_ko": "생각에 근거한 예측 → will.",
+     "error_tag": "grammar",
+     "id": "A2-005-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "친구에게 약속 하나를 will로 써 보세요.",
+    "example_answer_en": "I'll call you after class.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 배운 형태를 썼는지 확인하세요."
+   },
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-12"
+   }
+  },
+  {
+   "id": "A2-006",
+   "publish_date": "2026-10-12",
+   "level": "A2",
+   "track": "foundation",
+   "day": 6,
+   "title_ko": "비교급과 최상급",
+   "objective_ko": "두 가지를 비교하고 그중 가장 ~한 것을 말한다.",
+   "estimated_minutes": 15,
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-12",
+     "supports": "A1-A2 문법 학습 주제"
+    }
+   ],
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "grammar": {
+    "explanation_ko": "두 개를 비교할 때 짧은 형용사는 -er + than(taller than), 긴 형용사는 more ~ than(more expensive than)을 씁니다. 셋 이상 중 최고는 the -est / the most. 불규칙: good-better-best, bad-worse-worst.",
+    "common_mistake_ko": "more taller(X) → taller / the most big(X) → the biggest"
+   },
+   "vocabulary": [
+    {
+     "word": "cheap",
+     "part_of_speech": "형용사",
+     "meaning_ko": "싼",
+     "example_en": "This bag is cheaper than that one.",
+     "example_ko": "이 가방이 저것보다 싸요."
+    },
+    {
+     "word": "expensive",
+     "part_of_speech": "형용사",
+     "meaning_ko": "비싼",
+     "example_en": "It's the most expensive car.",
+     "example_ko": "그게 가장 비싼 차예요."
+    },
+    {
+     "word": "fast",
+     "part_of_speech": "형용사",
+     "meaning_ko": "빠른",
+     "example_en": "The train is faster than the bus.",
+     "example_ko": "기차가 버스보다 빨라요."
+    },
+    {
+     "word": "better",
+     "part_of_speech": "형용사",
+     "meaning_ko": "더 좋은",
+     "example_en": "Your idea is better than mine.",
+     "example_ko": "네 생각이 내 것보다 나아."
+    },
+    {
+     "word": "interesting",
+     "part_of_speech": "형용사",
+     "meaning_ko": "흥미로운",
+     "example_en": "This book is more interesting.",
+     "example_ko": "이 책이 더 흥미로워요."
+    },
+    {
+     "word": "than",
+     "part_of_speech": "전치사",
+     "meaning_ko": "~보다",
+     "example_en": "I'm older than my sister.",
+     "example_ko": "나는 여동생보다 나이가 많아요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Seoul is bigger than Busan.",
+     "ko": "서울은 부산보다 커요."
+    },
+    {
+     "en": "This phone is cheaper than that one.",
+     "ko": "이 휴대폰이 저것보다 싸요."
+    },
+    {
+     "en": "Math is more difficult than English for me.",
+     "ko": "나에게는 수학이 영어보다 어려워요."
+    },
+    {
+     "en": "She is the tallest student in our class.",
+     "ko": "그녀는 우리 반에서 키가 가장 커요."
+    },
+    {
+     "en": "This is the most interesting movie of the year.",
+     "ko": "이건 올해 가장 흥미로운 영화예요."
+    },
+    {
+     "en": "My cooking is worse than yours.",
+     "ko": "내 요리는 너보다 못해."
+    },
+    {
+     "en": "Today is hotter than yesterday.",
+     "ko": "오늘은 어제보다 더워요."
+    },
+    {
+     "en": "What is the best way to learn English?",
+     "ko": "영어를 배우는 가장 좋은 방법은 뭐예요?"
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "big의 비교급은?",
+     "choices": [
+      "bigger",
+      "biger",
+      "more big",
+      "bigest"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "단모음+단자음 → 자음 하나 더 + er.",
+     "error_tag": "comparative",
+     "id": "A2-006-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "This book is ___ than that one.",
+     "choices": [
+      "more interesting",
+      "interestinger",
+      "most interesting",
+      "more interestinger"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "긴 형용사는 more ~.",
+     "error_tag": "comparative",
+     "id": "A2-006-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "good의 최상급은?",
+     "choices": [
+      "the best",
+      "the goodest",
+      "the better",
+      "the most good"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "good-better-best.",
+     "error_tag": "superlative",
+     "id": "A2-006-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "He is ___ than his brother.",
+     "choices": [
+      "taller",
+      "tall",
+      "more tall",
+      "the tallest"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "than 앞에는 비교급.",
+     "error_tag": "comparative",
+     "id": "A2-006-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "괄호 속 형용사를 비교급으로: A plane is (fast) than a train.",
+     "answer_text": "faster",
+     "accepted_answers": [
+      "faster"
+     ],
+     "explanation_ko": "fast → faster.",
+     "error_tag": "grammar",
+     "id": "A2-006-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "괄호 속 형용사를 최상급으로: It's the (cheap) hotel in town.",
+     "answer_text": "cheapest",
+     "accepted_answers": [
+      "cheapest"
+     ],
+     "explanation_ko": "cheap → cheapest.",
+     "error_tag": "grammar",
+     "id": "A2-006-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "두 가지를 비교하는 문장을 써 보세요.",
+    "example_answer_en": "Summer is hotter than spring.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 배운 형태를 썼는지 확인하세요."
+   },
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-12"
+   }
+  },
+  {
+   "id": "A2-007",
+   "publish_date": "2026-10-12",
+   "level": "A2",
+   "track": "foundation",
+   "day": 7,
+   "title_ko": "1주 복습: 과거·미래·비교",
+   "objective_ko": "여행 이야기 속에서 과거·미래·비교 표현을 함께 쓴다.",
+   "estimated_minutes": 15,
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-12",
+     "supports": "A1-A2 문법 학습 주제"
+    }
+   ],
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "grammar": {
+    "explanation_ko": "was/were, -ed와 불규칙 과거, be going to와 will, 비교급·최상급을 섞어서 확인합니다.",
+    "common_mistake_ko": "Yesterday I go(X) → went / I will going(X) → I will go / more better(X) → better"
+   },
+   "vocabulary": [
+    {
+     "word": "trip",
+     "part_of_speech": "명사",
+     "meaning_ko": "여행",
+     "example_en": "How was your trip?",
+     "example_ko": "여행은 어땠어요?"
+    },
+    {
+     "word": "hotel",
+     "part_of_speech": "명사",
+     "meaning_ko": "호텔",
+     "example_en": "The hotel was cheaper than I thought.",
+     "example_ko": "호텔이 생각보다 쌌어요."
+    },
+    {
+     "word": "souvenir",
+     "part_of_speech": "명사",
+     "meaning_ko": "기념품",
+     "example_en": "I bought a souvenir.",
+     "example_ko": "기념품을 샀어요."
+    },
+    {
+     "word": "delicious",
+     "part_of_speech": "형용사",
+     "meaning_ko": "맛있는",
+     "example_en": "The food was delicious.",
+     "example_ko": "음식이 맛있었어요."
+    },
+    {
+     "word": "again",
+     "part_of_speech": "부사",
+     "meaning_ko": "다시",
+     "example_en": "I'm going to visit again.",
+     "example_ko": "다시 방문할 거예요."
+    },
+    {
+     "word": "view",
+     "part_of_speech": "명사",
+     "meaning_ko": "경치",
+     "example_en": "It was the best view.",
+     "example_ko": "최고의 경치였어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "How was your trip to Jeju?",
+     "ko": "제주 여행 어땠어요?"
+    },
+    {
+     "en": "It was great. The weather was perfect.",
+     "ko": "좋았어요. 날씨가 완벽했어요."
+    },
+    {
+     "en": "We stayed at a small hotel near the sea.",
+     "ko": "우리는 바다 근처 작은 호텔에 묵었어요."
+    },
+    {
+     "en": "I bought some souvenirs for my family.",
+     "ko": "가족을 위해 기념품을 좀 샀어요."
+    },
+    {
+     "en": "The food was more delicious than in Seoul.",
+     "ko": "음식이 서울보다 더 맛있었어요."
+    },
+    {
+     "en": "It was the most beautiful view.",
+     "ko": "가장 아름다운 경치였어요."
+    },
+    {
+     "en": "I'm going to go there again next year.",
+     "ko": "내년에 다시 갈 거예요."
+    },
+    {
+     "en": "I'll send you the pictures tonight.",
+     "ko": "오늘 밤에 사진 보내 줄게요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "We ___ to Japan last year.",
+     "choices": [
+      "went",
+      "go",
+      "will go",
+      "are going"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "last year → 과거.",
+     "error_tag": "tense",
+     "id": "A2-007-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "‘사진 보내 줄게.’(지금 결정)에 맞는 문장은?",
+     "choices": [
+      "I'll send you the pictures.",
+      "I sent you the pictures tomorrow.",
+      "I'm send you the pictures.",
+      "I will sending you the pictures."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "즉석 결정 → I'll.",
+     "error_tag": "future",
+     "id": "A2-007-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "This hotel is ___ than that one.",
+     "choices": [
+      "better",
+      "gooder",
+      "more good",
+      "best"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "good의 비교급은 better.",
+     "error_tag": "comparative",
+     "id": "A2-007-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "___ the food good?",
+     "choices": [
+      "Was",
+      "Were",
+      "Did",
+      "Does"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "the food(단수) 과거 → Was.",
+     "error_tag": "past_be",
+     "id": "A2-007-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "괄호 속 동사를 과거형으로: I (buy) a souvenir.",
+     "answer_text": "bought",
+     "accepted_answers": [
+      "bought"
+     ],
+     "explanation_ko": "buy → bought.",
+     "error_tag": "grammar",
+     "id": "A2-007-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 쓰세요: It was the ___ beautiful beach. (가장 아름다운)",
+     "answer_text": "most",
+     "accepted_answers": [
+      "most"
+     ],
+     "explanation_ko": "긴 형용사의 최상급 → the most.",
+     "error_tag": "grammar",
+     "id": "A2-007-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "지난 여행이나 외출을 과거형 한 문장, 다음 계획을 미래형 한 문장으로 써 보세요.",
+    "example_answer_en": "I went to Busan last month. I'm going to visit Gyeongju next month.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 배운 형태를 썼는지 확인하세요."
+   },
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-12"
+   }
+  }
+ ]
+}

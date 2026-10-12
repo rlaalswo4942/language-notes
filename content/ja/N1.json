@@ -1,0 +1,1479 @@
+{
+ "course": "N1",
+ "schema_version": "1.0.0",
+ "authoring_policy": {
+  "not_official_jlpt_vocab_list": true,
+  "review_required_for_publish": true
+ },
+ "lessons": [
+  {
+   "id": "JP-N1-01",
+   "day_index": 1,
+   "week_index": 1,
+   "level": "N1",
+   "unit_id": "N1-W01",
+   "lesson_type": "new",
+   "title_ko": "〜を余儀なくされる",
+   "objective_ko": "외부 사정으로 어쩔 수 없이 하게 된 일을 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [],
+   "explanation_ko": "명사 + を余儀{よぎ}なくされる는 ‘(어쩔 수 없이) ~하게 되다’. 본인 뜻과 달리 외부 사정 때문에 피할 수 없이 하게 된 일에 쓰는 딱딱한 표현입니다. 〜を余儀なくさせる는 ‘~하지 않을 수 없게 만들다’.",
+   "usage_notes": [
+    "앞에는 延期・中止・撤退・変更 같은 동작성 명사가 옵니다."
+   ],
+   "common_mistakes": [
+    "스스로 원해서 한 일에는 쓰지 않습니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N1-01-01",
+     "kind": "word",
+     "text": "撤退{てったい}",
+     "reading_kana": "てったい",
+     "reading_romanized": "tettai",
+     "meaning_ko": "철수",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-01-02",
+     "kind": "word",
+     "text": "延期{えんき}",
+     "reading_kana": "えんき",
+     "reading_romanized": "enki",
+     "meaning_ko": "연기",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-01-03",
+     "kind": "word",
+     "text": "中断{ちゅうだん}",
+     "reading_kana": "ちゅうだん",
+     "reading_romanized": "chuudan",
+     "meaning_ko": "중단",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-01-04",
+     "kind": "word",
+     "text": "変更{へんこう}",
+     "reading_kana": "へんこう",
+     "reading_romanized": "henkou",
+     "meaning_ko": "변경",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-01-05",
+     "kind": "word",
+     "text": "避難{ひなん}",
+     "reading_kana": "ひなん",
+     "reading_romanized": "hinan",
+     "meaning_ko": "피난",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-01-06",
+     "kind": "word",
+     "text": "不況{ふきょう}",
+     "reading_kana": "ふきょう",
+     "reading_romanized": "fukyou",
+     "meaning_ko": "불황",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "台風{たいふう}の影響{えいきょう}で、大会{たいかい}は延期{えんき}を余儀{よぎ}なくされた。",
+     "meaning_ko": "태풍 영향으로 대회는 어쩔 수 없이 연기되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "不況{ふきょう}により、多{おお}くの企業{きぎょう}が事業{じぎょう}の縮小{しゅくしょう}を余儀{よぎ}なくされている。",
+     "meaning_ko": "불황으로 많은 기업이 사업 축소를 피할 수 없게 되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "住民{じゅうみん}は長期間{ちょうきかん}の避難{ひなん}生活{せいかつ}を余儀{よぎ}なくされた。",
+     "meaning_ko": "주민들은 장기간의 피난 생활을 할 수밖에 없었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "けがのため、彼{かれ}は引退{いんたい}を余儀{よぎ}なくされた。",
+     "meaning_ko": "부상 때문에 그는 은퇴할 수밖에 없었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "資金{しきん}不足{ぶそく}で、研究{けんきゅう}は中断{ちゅうだん}を余儀{よぎ}なくされた。",
+     "meaning_ko": "자금 부족으로 연구는 중단될 수밖에 없었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "急激{きゅうげき}な円安{えんやす}が、旅行{りょこう}計画{けいかく}の変更{へんこう}を余儀{よぎ}なくさせた。",
+     "meaning_ko": "급격한 엔화 약세가 여행 계획을 바꾸지 않을 수 없게 만들었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "競争{きょうそう}の激化{げきか}で、その会社{かいしゃ}は市場{しじょう}からの撤退{てったい}を余儀{よぎ}なくされた。",
+     "meaning_ko": "경쟁 격화로 그 회사는 시장에서 철수할 수밖에 없었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "大雪{おおゆき}のため、列車{れっしゃ}は運転{うんてん}見合{みあ}わせを余儀{よぎ}なくされた。",
+     "meaning_ko": "폭설 때문에 열차는 운행을 보류할 수밖에 없었다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N1-01-Q1",
+     "type": "single_choice",
+     "prompt_ko": "「延期を余儀なくされた」의 뜻",
+     "options": [
+      "어쩔 수 없이 연기되었다",
+      "기꺼이 연기했다",
+      "연기를 거절했다",
+      "연기할 필요가 없었다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "외부 사정 → 피할 수 없이."
+    },
+    {
+     "id": "JP-N1-01-Q2",
+     "type": "single_choice",
+     "prompt_ko": "〜を余儀なくされる 앞에 오는 말",
+     "options": [
+      "명사",
+      "동사 て형",
+      "い형용사",
+      "부사"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "명사 + を余儀なくされる."
+    },
+    {
+     "id": "JP-N1-01-Q3",
+     "type": "single_choice",
+     "prompt_ko": "어울리는 문맥",
+     "options": [
+      "외부 사정으로 원치 않게 하게 된 일",
+      "스스로 원해서 한 일",
+      "습관적으로 하는 일",
+      "미래의 희망"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "본인 뜻과 반대."
+    },
+    {
+     "id": "JP-N1-01-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「撤退」의 뜻은?",
+     "options": [
+      "철수",
+      "연기",
+      "변경",
+      "피난"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "撤退(てったい) = 철수."
+    },
+    {
+     "id": "JP-N1-01-Q5",
+     "type": "typing",
+     "prompt_ko": "「延期」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "enki",
+     "accepted_answers": [
+      "enki",
+      "ennki"
+     ],
+     "explanation_ko": "延期 = えんき (enki)"
+    },
+    {
+     "id": "JP-N1-01-Q6",
+     "type": "typing",
+     "prompt_ko": "「避難」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "hinan",
+     "accepted_answers": [
+      "hinan",
+      "hinann"
+     ],
+     "explanation_ko": "避難 = ひなん (hinan)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "JLPT_FORMAT"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-02",
+   "day_index": 2,
+   "week_index": 1,
+   "level": "N1",
+   "unit_id": "N1-W01",
+   "lesson_type": "new",
+   "title_ko": "〜に至る / 〜に至っては / 〜に至るまで",
+   "objective_ko": "도달·극단적 예·범위를 に至る 계열로 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-01"
+   ],
+   "explanation_ko": "〜に至{いた}る는 ‘(마침내) ~에 이르다’로 긴 과정 끝에 도달한 결과·단계를 나타냅니다. 〜に至っては는 ‘~에 이르러서는(극단적인 예)’, 〜に至るまで는 ‘~에 이르기까지(범위)’.",
+   "usage_notes": [
+    "〜に至って(はじめて) = ~하고 나서야 (비로소)."
+   ],
+   "common_mistakes": [
+    "단순한 ‘~에 가다’에는 쓰지 않습니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N1-02-01",
+     "kind": "word",
+     "text": "経緯{けいい}",
+     "reading_kana": "けいい",
+     "reading_romanized": "keii",
+     "meaning_ko": "경위",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-02-02",
+     "kind": "word",
+     "text": "結論{けつろん}",
+     "reading_kana": "けつろん",
+     "reading_romanized": "ketsuron",
+     "meaning_ko": "결론",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-02-03",
+     "kind": "word",
+     "text": "和解{わかい}",
+     "reading_kana": "わかい",
+     "reading_romanized": "wakai",
+     "meaning_ko": "화해",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-02-04",
+     "kind": "word",
+     "text": "細部{さいぶ}",
+     "reading_kana": "さいぶ",
+     "reading_romanized": "saibu",
+     "meaning_ko": "세부",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-02-05",
+     "kind": "word",
+     "text": "事態{じたい}",
+     "reading_kana": "じたい",
+     "reading_romanized": "jitai",
+     "meaning_ko": "사태",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-02-06",
+     "kind": "word",
+     "text": "深刻{しんこく}",
+     "reading_kana": "しんこく",
+     "reading_romanized": "shinkoku",
+     "meaning_ko": "심각",
+     "part_of_speech": "な형용사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "話{はな}し合{あ}いを重{かさ}ね、両社{りょうしゃ}はようやく和解{わかい}に至{いた}った。",
+     "meaning_ko": "논의를 거듭해 양사는 마침내 화해에 이르렀다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "事故{じこ}に至{いた}った経緯{けいい}を説明{せつめい}してください。",
+     "meaning_ko": "사고에 이르게 된 경위를 설명해 주세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "長{なが}い議論{ぎろん}の末{すえ}、計画{けいかく}は中止{ちゅうし}という結論{けつろん}に至{いた}った。",
+     "meaning_ko": "긴 논의 끝에 계획은 중지라는 결론에 이르렀다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}は服装{ふくそう}から言葉遣{ことばづか}いに至{いた}るまで気{き}を配{くば}っている。",
+     "meaning_ko": "그는 복장에서 말투에 이르기까지 신경을 쓴다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "事態{じたい}が深刻{しんこく}になるに至{いた}って、政府{せいふ}はやっと対策{たいさく}を発表{はっぴょう}した。",
+     "meaning_ko": "사태가 심각해지고 나서야 정부는 겨우 대책을 발표했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "全員{ぜんいん}遅刻{ちこく}した。田中{たなか}さんに至{いた}っては、まだ来{き}ていない。",
+     "meaning_ko": "모두 지각했다. 다나카 씨에 이르러서는 아직 오지도 않았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "細部{さいぶ}に至{いた}るまで丁寧{ていねい}に作{つく}られた作品{さくひん}だ。",
+     "meaning_ko": "세부에 이르기까지 정성스럽게 만들어진 작품이다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "小{ちい}さな誤解{ごかい}が、大{おお}きな争{あらそ}いに至{いた}ることもある。",
+     "meaning_ko": "작은 오해가 큰 다툼에 이르기도 한다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N1-02-Q1",
+     "type": "single_choice",
+     "prompt_ko": "「和解に至った」의 뜻",
+     "options": [
+      "(마침내) 화해에 이르렀다",
+      "화해를 거절했다",
+      "화해할 필요가 없었다",
+      "화해하기 위해 노력했다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "に至る = 이르다."
+    },
+    {
+     "id": "JP-N1-02-Q2",
+     "type": "single_choice",
+     "prompt_ko": "‘세부에 이르기까지’",
+     "options": [
+      "細部に至るまで",
+      "細部に至っては",
+      "細部に至って",
+      "細部に至った"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "범위 → に至るまで."
+    },
+    {
+     "id": "JP-N1-02-Q3",
+     "type": "single_choice",
+     "prompt_ko": "〜に至っては의 쓰임",
+     "options": [
+      "극단적인 예를 들 때",
+      "목적을 말할 때",
+      "허가를 구할 때",
+      "경험을 말할 때"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "에 이르러서는 = 극단적 예."
+    },
+    {
+     "id": "JP-N1-02-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「経緯」의 뜻은?",
+     "options": [
+      "경위",
+      "결론",
+      "사태",
+      "화해"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "経緯(けいい) = 경위."
+    },
+    {
+     "id": "JP-N1-02-Q5",
+     "type": "typing",
+     "prompt_ko": "「結論」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "ketsuron",
+     "accepted_answers": [
+      "ketsuron",
+      "keturon",
+      "ketsuronn"
+     ],
+     "explanation_ko": "結論 = けつろん (ketsuron)"
+    },
+    {
+     "id": "JP-N1-02-Q6",
+     "type": "typing",
+     "prompt_ko": "「深刻」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "shinkoku",
+     "accepted_answers": [
+      "shinkoku",
+      "sinkoku",
+      "shinnkoku"
+     ],
+     "explanation_ko": "深刻 = しんこく (shinkoku)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "JLPT_FORMAT"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-03",
+   "day_index": 3,
+   "week_index": 1,
+   "level": "N1",
+   "unit_id": "N1-W01",
+   "lesson_type": "new",
+   "title_ko": "〜いかんによっては / 〜いかんで",
+   "objective_ko": "내용 여하에 따라 결과가 달라짐을 격식 있게 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-02"
+   ],
+   "explanation_ko": "명사(の) + いかんによっては는 ‘~여하에 따라서는’으로, 그 내용에 따라 결과가 크게 달라질 수 있음을 나타내는 딱딱한 표현입니다. 〜いかんで(は)도 같은 뜻이고, 〜いかんにかかわらず / 〜いかんを問わず는 ‘~여하에 관계없이’.",
+   "usage_notes": [
+    "안내문·규정에서 자주 봅니다: 理由のいかんを問わず."
+   ],
+   "common_mistakes": [
+    "회화에서는 〜次第で가 더 자연스럽습니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N1-03-01",
+     "kind": "word",
+     "text": "成績{せいせき}",
+     "reading_kana": "せいせき",
+     "reading_romanized": "seiseki",
+     "meaning_ko": "성적",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-03-02",
+     "kind": "word",
+     "text": "交渉{こうしょう}",
+     "reading_kana": "こうしょう",
+     "reading_romanized": "koushou",
+     "meaning_ko": "협상",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-03-03",
+     "kind": "word",
+     "text": "処分{しょぶん}",
+     "reading_kana": "しょぶん",
+     "reading_romanized": "shobun",
+     "meaning_ko": "처분",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-03-04",
+     "kind": "word",
+     "text": "理由{りゆう}",
+     "reading_kana": "りゆう",
+     "reading_romanized": "riyuu",
+     "meaning_ko": "이유",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-03-05",
+     "kind": "word",
+     "text": "返金{へんきん}",
+     "reading_kana": "へんきん",
+     "reading_romanized": "henkin",
+     "meaning_ko": "환불",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-03-06",
+     "kind": "word",
+     "text": "進学{しんがく}",
+     "reading_kana": "しんがく",
+     "reading_romanized": "shingaku",
+     "meaning_ko": "진학",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "今後{こんご}の交渉{こうしょう}いかんによっては、契約{けいやく}が取{と}り消{け}される可能性{かのうせい}もある。",
+     "meaning_ko": "앞으로의 협상 여하에 따라서는 계약이 취소될 가능성도 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "成績{せいせき}いかんで、進学{しんがく}できる大学{だいがく}が決{き}まる。",
+     "meaning_ko": "성적 여하로 진학할 수 있는 대학이 정해진다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "理由{りゆう}のいかんによっては、返金{へんきん}に応{おう}じる場合{ばあい}もございます。",
+     "meaning_ko": "이유 여하에 따라서는 환불에 응하는 경우도 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "違反{いはん}の内容{ないよう}いかんでは、厳{きび}しい処分{しょぶん}が下{くだ}される。",
+     "meaning_ko": "위반 내용 여하에 따라서는 엄한 처분이 내려진다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "天候{てんこう}いかんによっては、イベントを中止{ちゅうし}することもあります。",
+     "meaning_ko": "날씨 여하에 따라서는 행사를 중지하기도 합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "理由{りゆう}のいかんにかかわらず、無断{むだん}欠席{けっせき}は認{みと}められない。",
+     "meaning_ko": "이유 여하에 관계없이 무단결석은 인정되지 않는다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "努力{どりょく}いかんで、結果{けっか}はいくらでも変{か}わる。",
+     "meaning_ko": "노력 여하로 결과는 얼마든지 바뀐다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "国籍{こくせき}のいかんを問{と}わず、どなたでも応募{おうぼ}できます。",
+     "meaning_ko": "국적 여하를 불문하고 누구나 응모할 수 있습니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N1-03-Q1",
+     "type": "single_choice",
+     "prompt_ko": "「交渉いかんによっては」의 뜻",
+     "options": [
+      "협상 여하에 따라서는",
+      "협상 덕분에",
+      "협상에도 불구하고",
+      "협상을 위해서"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "いかんによっては = 여하에 따라서는."
+    },
+    {
+     "id": "JP-N1-03-Q2",
+     "type": "single_choice",
+     "prompt_ko": "‘이유 여하에 관계없이’",
+     "options": [
+      "理由のいかんにかかわらず",
+      "理由のいかんによっては",
+      "理由いかんで",
+      "理由のいかんに至って"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "관계없이 → にかかわらず."
+    },
+    {
+     "id": "JP-N1-03-Q3",
+     "type": "single_choice",
+     "prompt_ko": "〜いかんによっては의 문체",
+     "options": [
+      "딱딱한 문어체",
+      "친구 사이 반말",
+      "어린아이 말투",
+      "감탄 표현"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "격식 표현."
+    },
+    {
+     "id": "JP-N1-03-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「返金」의 뜻은?",
+     "options": [
+      "환불",
+      "처분",
+      "진학",
+      "이유"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "返金(へんきん) = 환불."
+    },
+    {
+     "id": "JP-N1-03-Q5",
+     "type": "typing",
+     "prompt_ko": "「成績」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "seiseki",
+     "accepted_answers": [
+      "seiseki"
+     ],
+     "explanation_ko": "成績 = せいせき (seiseki)"
+    },
+    {
+     "id": "JP-N1-03-Q6",
+     "type": "typing",
+     "prompt_ko": "「交渉」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "koushou",
+     "accepted_answers": [
+      "koushou",
+      "kousyou",
+      "kosho",
+      "kosyo"
+     ],
+     "explanation_ko": "交渉 = こうしょう (koushou)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "JLPT_FORMAT"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-04",
+   "day_index": 4,
+   "week_index": 1,
+   "level": "N1",
+   "unit_id": "N1-W01",
+   "lesson_type": "new",
+   "title_ko": "〜と相まって",
+   "objective_ko": "두 요소가 함께 작용해 효과가 커짐을 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-03"
+   ],
+   "explanation_ko": "명사 + と相{あい}まって는 ‘~와 어우러져/맞물려’. 두 가지 요소가 함께 작용해 더 큰 효과·결과를 낼 때 씁니다. 〜も相まって 형태도 자주 씁니다.",
+   "usage_notes": [
+    "좋은 결과·나쁜 결과 모두에 씁니다: 疲れと緊張が相まって 体調を崩した."
+   ],
+   "common_mistakes": [
+    "단순한 나열(AとB)과 달리 상승효과를 강조합니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N1-04-01",
+     "kind": "word",
+     "text": "景色{けしき}",
+     "reading_kana": "けしき",
+     "reading_romanized": "keshiki",
+     "meaning_ko": "경치",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-04-02",
+     "kind": "word",
+     "text": "魅力{みりょく}",
+     "reading_kana": "みりょく",
+     "reading_romanized": "miryoku",
+     "meaning_ko": "매력",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-04-03",
+     "kind": "word",
+     "text": "演技{えんぎ}",
+     "reading_kana": "えんぎ",
+     "reading_romanized": "engi",
+     "meaning_ko": "연기",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-04-04",
+     "kind": "word",
+     "text": "人気{にんき}",
+     "reading_kana": "にんき",
+     "reading_romanized": "ninki",
+     "meaning_ko": "인기",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-04-05",
+     "kind": "word",
+     "text": "好天{こうてん}",
+     "reading_kana": "こうてん",
+     "reading_romanized": "kouten",
+     "meaning_ko": "좋은 날씨",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-04-06",
+     "kind": "word",
+     "text": "緊張{きんちょう}",
+     "reading_kana": "きんちょう",
+     "reading_romanized": "kinchou",
+     "meaning_ko": "긴장",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "美{うつく}しい景色{けしき}と相{あい}まって、料理{りょうり}がいっそうおいしく感{かん}じられた。",
+     "meaning_ko": "아름다운 경치와 어우러져 요리가 한층 맛있게 느껴졌다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "好天{こうてん}も相{あい}まって、会場{かいじょう}は大勢{おおぜい}の人{ひと}でにぎわった。",
+     "meaning_ko": "좋은 날씨까지 더해져 행사장은 많은 사람으로 붐볐다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "俳優{はいゆう}の演技{えんぎ}と音楽{おんがく}が相{あい}まって、感動的{かんどうてき}な場面{ばめん}になった。",
+     "meaning_ko": "배우의 연기와 음악이 어우러져 감동적인 장면이 되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "円安{えんやす}と相{あい}まって、外国人{がいこくじん}観光客{かんこうきゃく}が急増{きゅうぞう}している。",
+     "meaning_ko": "엔화 약세와 맞물려 외국인 관광객이 급증하고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}の誠実{せいじつ}な人柄{ひとがら}と相{あい}まって、その店{みせ}は地元{じもと}で人気{にんき}がある。",
+     "meaning_ko": "그의 성실한 인품과 어우러져 그 가게는 지역에서 인기가 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "疲{つか}れと緊張{きんちょう}が相{あい}まって、彼女{かのじょ}は体調{たいちょう}を崩{くず}した。",
+     "meaning_ko": "피로와 긴장이 겹쳐 그녀는 몸이 상했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "デザインの良{よ}さと使{つか}いやすさが相{あい}まって、その商品{しょうひん}は大{だい}ヒットした。",
+     "meaning_ko": "좋은 디자인과 사용 편의성이 맞물려 그 상품은 대히트했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "歴史{れきし}ある街並{まちな}みと豊{ゆた}かな自然{しぜん}が相{あい}まって、この町{まち}の魅力{みりょく}を高{たか}めている。",
+     "meaning_ko": "역사 있는 거리 풍경과 풍부한 자연이 어우러져 이 마을의 매력을 높이고 있다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N1-04-Q1",
+     "type": "single_choice",
+     "prompt_ko": "「好天も相まって、にぎわった」의 뜻",
+     "options": [
+      "좋은 날씨까지 더해져 붐볐다",
+      "좋은 날씨에도 불구하고 한산했다",
+      "좋은 날씨를 위해 붐볐다",
+      "좋은 날씨 대신 붐볐다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "相まって = 함께 작용해."
+    },
+    {
+     "id": "JP-N1-04-Q2",
+     "type": "single_choice",
+     "prompt_ko": "〜と相まって가 나타내는 것",
+     "options": [
+      "두 요소가 함께 작용해 효과가 커짐",
+      "앞 내용과 반대되는 결과",
+      "단순한 시간 순서",
+      "허가"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "상승효과."
+    },
+    {
+     "id": "JP-N1-04-Q3",
+     "type": "single_choice",
+     "prompt_ko": "演技と音楽___、感動的な場面になった。",
+     "options": [
+      "が相まって",
+      "を相まって",
+      "に相まって",
+      "で相まって"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "AとBが相まって."
+    },
+    {
+     "id": "JP-N1-04-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「魅力」의 뜻은?",
+     "options": [
+      "매력",
+      "경치",
+      "인기",
+      "연기"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "魅力(みりょく) = 매력."
+    },
+    {
+     "id": "JP-N1-04-Q5",
+     "type": "typing",
+     "prompt_ko": "「景色」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "keshiki",
+     "accepted_answers": [
+      "keshiki",
+      "kesiki"
+     ],
+     "explanation_ko": "景色 = けしき (keshiki)"
+    },
+    {
+     "id": "JP-N1-04-Q6",
+     "type": "typing",
+     "prompt_ko": "「人気」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "ninki",
+     "accepted_answers": [
+      "ninki",
+      "ninnki"
+     ],
+     "explanation_ko": "人気 = にんき (ninki)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "JLPT_FORMAT"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-05",
+   "day_index": 5,
+   "week_index": 1,
+   "level": "N1",
+   "unit_id": "N1-W01",
+   "lesson_type": "new",
+   "title_ko": "〜をもって",
+   "objective_ko": "수단·근거와 끝나는 시점을 격식 있게 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-04"
+   ],
+   "explanation_ko": "명사 + をもって는 ① ‘~로써(수단·근거)’: 書面をもって通知する, ② ‘~을 끝으로(시점)’: 本日をもって終了する. 공식 발표·인사에서 자주 쓰는 격식 표현입니다. 더 정중하게는 〜をもちまして.",
+   "usage_notes": [
+    "〜をもってすれば = ~로 하면(~라면)."
+   ],
+   "common_mistakes": [
+    "일상 회화의 ‘~로’에는 で를 씁니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N1-05-01",
+     "kind": "word",
+     "text": "本日{ほんじつ}",
+     "reading_kana": "ほんじつ",
+     "reading_romanized": "honjitsu",
+     "meaning_ko": "오늘(격식)",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-05-02",
+     "kind": "word",
+     "text": "書面{しょめん}",
+     "reading_kana": "しょめん",
+     "reading_romanized": "shomen",
+     "meaning_ko": "서면",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-05-03",
+     "kind": "word",
+     "text": "通知{つうち}",
+     "reading_kana": "つうち",
+     "reading_romanized": "tsuuchi",
+     "meaning_ko": "통지",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-05-04",
+     "kind": "word",
+     "text": "閉店{へいてん}",
+     "reading_kana": "へいてん",
+     "reading_romanized": "heiten",
+     "meaning_ko": "폐점",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-05-05",
+     "kind": "word",
+     "text": "退職{たいしょく}",
+     "reading_kana": "たいしょく",
+     "reading_romanized": "taishoku",
+     "meaning_ko": "퇴직",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-05-06",
+     "kind": "word",
+     "text": "拍手{はくしゅ}",
+     "reading_kana": "はくしゅ",
+     "reading_romanized": "hakushu",
+     "meaning_ko": "박수",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "本日{ほんじつ}をもって、当店{とうてん}は閉店{へいてん}いたします。",
+     "meaning_ko": "오늘을 끝으로 저희 가게는 폐점합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "3月{さんがつ}末日{まつじつ}をもって退職{たいしょく}することになりました。",
+     "meaning_ko": "3월 말일부로 퇴직하게 되었습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "合否{ごうひ}は書面{しょめん}をもって通知{つうち}いたします。",
+     "meaning_ko": "합격 여부는 서면으로 통지해 드립니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "これをもちまして、本日{ほんじつ}の会議{かいぎ}を終了{しゅうりょう}いたします。",
+     "meaning_ko": "이것으로 오늘 회의를 마치겠습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "皆様{みなさま}、盛大{せいだい}な拍手{はくしゅ}をもってお迎{むか}えください。",
+     "meaning_ko": "여러분, 성대한 박수로 맞이해 주십시오.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}の実力{じつりょく}をもってすれば、優勝{ゆうしょう}も夢{ゆめ}ではない。",
+     "meaning_ko": "그의 실력이라면 우승도 꿈이 아니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "以上{いじょう}をもちまして、ご報告{ほうこく}とさせていただきます。",
+     "meaning_ko": "이상으로 보고를 마치겠습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "受付{うけつけ}は定員{ていいん}に達{たっ}した時点{じてん}をもって締{し}め切{き}ります。",
+     "meaning_ko": "접수는 정원에 도달한 시점에 마감합니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N1-05-Q1",
+     "type": "single_choice",
+     "prompt_ko": "「本日をもって閉店いたします」의 뜻",
+     "options": [
+      "오늘을 끝으로 폐점합니다",
+      "오늘부터 개점합니다",
+      "오늘도 영업합니다",
+      "오늘 폐점할지 모릅니다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "시점의 をもって = ~을 끝으로."
+    },
+    {
+     "id": "JP-N1-05-Q2",
+     "type": "single_choice",
+     "prompt_ko": "「書面をもって通知する」에서 をもって의 뜻",
+     "options": [
+      "~로써(수단)",
+      "~을 끝으로(시점)",
+      "~에 따라서",
+      "~에도 불구하고"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "수단의 をもって."
+    },
+    {
+     "id": "JP-N1-05-Q3",
+     "type": "single_choice",
+     "prompt_ko": "‘이것으로 회의를 마치겠습니다’ (격식)",
+     "options": [
+      "これをもちまして、会議を終了いたします。",
+      "これによって、会議を終了いたします。",
+      "これについて、会議を終了いたします。",
+      "これにとって、会議を終了いたします。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜をもちまして = 〜をもって의 정중형."
+    },
+    {
+     "id": "JP-N1-05-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「退職」의 뜻은?",
+     "options": [
+      "퇴직",
+      "폐점",
+      "통지",
+      "박수"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "退職(たいしょく) = 퇴직."
+    },
+    {
+     "id": "JP-N1-05-Q5",
+     "type": "typing",
+     "prompt_ko": "「本日」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "honjitsu",
+     "accepted_answers": [
+      "honjitsu",
+      "honzitu",
+      "honnjitsu"
+     ],
+     "explanation_ko": "本日 = ほんじつ (honjitsu)"
+    },
+    {
+     "id": "JP-N1-05-Q6",
+     "type": "typing",
+     "prompt_ko": "「通知」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "tsuuchi",
+     "accepted_answers": [
+      "tsuuchi",
+      "tuuti",
+      "tsuchi",
+      "tuti"
+     ],
+     "explanation_ko": "通知 = つうち (tsuuchi)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "JLPT_FORMAT"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-06",
+   "day_index": 6,
+   "week_index": 1,
+   "level": "N1",
+   "unit_id": "N1-W01",
+   "lesson_type": "new",
+   "title_ko": "〜ならではの",
+   "objective_ko": "그것만이 가진 독특한 장점을 칭찬한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-05"
+   ],
+   "explanation_ko": "명사 + ならではの + 명사는 ‘~만의, ~이 아니면 안 되는’. 그 사람·장소·때에만 있는 독특한 장점을 칭찬할 때 씁니다.",
+   "usage_notes": [
+    "문장 끝에서 〜ならではだ도 씁니다: この味は老舗ならではだ."
+   ],
+   "common_mistakes": [
+    "부정적인 특징에는 잘 쓰지 않습니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N1-06-01",
+     "kind": "word",
+     "text": "地元{じもと}",
+     "reading_kana": "じもと",
+     "reading_romanized": "jimoto",
+     "meaning_ko": "현지, 그 고장",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-06-02",
+     "kind": "word",
+     "text": "職人{しょくにん}",
+     "reading_kana": "しょくにん",
+     "reading_romanized": "shokunin",
+     "meaning_ko": "장인",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-06-03",
+     "kind": "word",
+     "text": "技{わざ}",
+     "reading_kana": "わざ",
+     "reading_romanized": "waza",
+     "meaning_ko": "기술",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-06-04",
+     "kind": "word",
+     "text": "発想{はっそう}",
+     "reading_kana": "はっそう",
+     "reading_romanized": "hassou",
+     "meaning_ko": "발상",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-06-05",
+     "kind": "word",
+     "text": "雰囲気{ふんいき}",
+     "reading_kana": "ふんいき",
+     "reading_romanized": "funiki",
+     "meaning_ko": "분위기",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-06-06",
+     "kind": "word",
+     "text": "名物{めいぶつ}",
+     "reading_kana": "めいぶつ",
+     "reading_romanized": "meibutsu",
+     "meaning_ko": "명물",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "この料理{りょうり}は、地元{じもと}ならではの味{あじ}だ。",
+     "meaning_ko": "이 요리는 현지에서만 맛볼 수 있는 맛이다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "職人{しょくにん}ならではの技{わざ}が光{ひか}る作品{さくひん}だ。",
+     "meaning_ko": "장인만의 기술이 돋보이는 작품이다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "子{こ}どもならではの自由{じゆう}な発想{はっそう}に驚{おどろ}かされた。",
+     "meaning_ko": "아이만의 자유로운 발상에 놀랐다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この季節{きせつ}ならではの景色{けしき}を楽{たの}しんでください。",
+     "meaning_ko": "이 계절만의 경치를 즐겨 주세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "京都{きょうと}ならではの落{お}ち着{つ}いた雰囲気{ふんいき}がある。",
+     "meaning_ko": "교토만의 차분한 분위기가 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "手作{てづく}りならではの温{あたた}かさが感{かん}じられる。",
+     "meaning_ko": "손으로 만든 것만의 따뜻함이 느껴진다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "旅先{たびさき}ならではの出会{であ}いを大切{たいせつ}にしたい。",
+     "meaning_ko": "여행지에서만 있는 만남을 소중히 하고 싶다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "これはベテラン記者{きしゃ}ならではの鋭{するど}い分析{ぶんせき}だ。",
+     "meaning_ko": "이것은 베테랑 기자만의 날카로운 분석이다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N1-06-Q1",
+     "type": "single_choice",
+     "prompt_ko": "「地元ならではの味」의 뜻",
+     "options": [
+      "현지에서만 맛볼 수 있는 맛",
+      "현지와 상관없는 맛",
+      "현지에 맞지 않는 맛",
+      "현지 때문에 생긴 맛"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ならではの = ~만의."
+    },
+    {
+     "id": "JP-N1-06-Q2",
+     "type": "single_choice",
+     "prompt_ko": "〜ならではの가 주로 나타내는 평가",
+     "options": [
+      "칭찬(독특한 장점)",
+      "비난",
+      "의문",
+      "금지"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "긍정적 평가."
+    },
+    {
+     "id": "JP-N1-06-Q3",
+     "type": "single_choice",
+     "prompt_ko": "職人___技",
+     "options": [
+      "ならではの",
+      "ならでは",
+      "ならではに",
+      "ならではで"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "명사 앞 → ならではの."
+    },
+    {
+     "id": "JP-N1-06-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「雰囲気」의 뜻은?",
+     "options": [
+      "분위기",
+      "발상",
+      "현지",
+      "명물"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "雰囲気(ふんいき) = 분위기."
+    },
+    {
+     "id": "JP-N1-06-Q5",
+     "type": "typing",
+     "prompt_ko": "「職人」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "shokunin",
+     "accepted_answers": [
+      "shokunin",
+      "syokunin",
+      "shokuninn"
+     ],
+     "explanation_ko": "職人 = しょくにん (shokunin)"
+    },
+    {
+     "id": "JP-N1-06-Q6",
+     "type": "typing",
+     "prompt_ko": "「発想」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "hassou",
+     "accepted_answers": [
+      "hassou",
+      "hasso"
+     ],
+     "explanation_ko": "発想 = はっそう (hassou)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "JLPT_FORMAT"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-07",
+   "day_index": 7,
+   "week_index": 1,
+   "level": "N1",
+   "unit_id": "N1-W01",
+   "lesson_type": "checkpoint",
+   "title_ko": "1주 점검: 논설문 읽기",
+   "objective_ko": "N1 첫 주 문형을 지방 과소화 논설문에서 확인한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-06"
+   ],
+   "explanation_ko": "余儀なくされる・に至る・いかんによっては・と相まって・をもって・ならではの를 지방 과소화에 관한 논설문 속에서 다시 확인합니다.",
+   "usage_notes": [
+    "〜と言えよう = ~라고 할 수 있을 것이다(논설문 결론)."
+   ],
+   "common_mistakes": [],
+   "new_items": [
+    {
+     "id": "w-JP-N1-07-01",
+     "kind": "word",
+     "text": "地方{ちほう}",
+     "reading_kana": "ちほう",
+     "reading_romanized": "chihou",
+     "meaning_ko": "지방",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-07-02",
+     "kind": "word",
+     "text": "過疎化{かそか}",
+     "reading_kana": "かそか",
+     "reading_romanized": "kasoka",
+     "meaning_ko": "과소화(인구 감소)",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-07-03",
+     "kind": "word",
+     "text": "観光{かんこう}",
+     "reading_kana": "かんこう",
+     "reading_romanized": "kankou",
+     "meaning_ko": "관광",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-07-04",
+     "kind": "word",
+     "text": "活性化{かっせいか}",
+     "reading_kana": "かっせいか",
+     "reading_romanized": "kasseika",
+     "meaning_ko": "활성화",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-07-05",
+     "kind": "word",
+     "text": "取{と}り組{く}み",
+     "reading_kana": "とりくみ",
+     "reading_romanized": "torikumi",
+     "meaning_ko": "대처, 노력",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-07-06",
+     "kind": "word",
+     "text": "持続{じぞく}",
+     "reading_kana": "じぞく",
+     "reading_romanized": "jizoku",
+     "meaning_ko": "지속",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "過疎化{かそか}が進{すす}む地方{ちほう}では、学校{がっこう}の閉鎖{へいさ}を余儀{よぎ}なくされる地域{ちいき}も少{すく}なくない。",
+     "meaning_ko": "과소화가 진행되는 지방에서는 학교 폐쇄를 피할 수 없게 된 지역도 적지 않다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "人口{じんこう}減少{げんしょう}と高齢化{こうれいか}が相{あい}まって、問題{もんだい}は一層{いっそう}深刻{しんこく}になっている。",
+     "meaning_ko": "인구 감소와 고령화가 맞물려 문제는 한층 심각해지고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "一方{いっぽう}で、地方{ちほう}ならではの魅力{みりょく}を生{い}かした観光{かんこう}が注目{ちゅうもく}されている。",
+     "meaning_ko": "한편 지방만의 매력을 살린 관광이 주목받고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "住民{じゅうみん}の取{と}り組{く}みが実{みの}り、町{まち}の活性化{かっせいか}に至{いた}った例{れい}もある。",
+     "meaning_ko": "주민의 노력이 결실을 맺어 마을 활성화에 이른 예도 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "ただし、成果{せいか}は行政{ぎょうせい}の支援{しえん}いかんによって大{おお}きく変{か}わる。",
+     "meaning_ko": "다만 성과는 행정 지원 여하에 따라 크게 달라진다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "持続{じぞく}可能{かのう}な地域{ちいき}づくりには、長期的{ちょうきてき}な視点{してん}が欠{か}かせない。",
+     "meaning_ko": "지속 가능한 지역 만들기에는 장기적 시점이 빠질 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "ある村{むら}では、昨年度{さくねんど}をもって最後{さいご}の小学校{しょうがっこう}が閉校{へいこう}した。",
+     "meaning_ko": "어느 마을에서는 작년도를 끝으로 마지막 초등학교가 폐교했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "地域{ちいき}の未来{みらい}は、住民{じゅうみん}一人{ひとり}ひとりの選択{せんたく}にかかっていると言{い}えよう。",
+     "meaning_ko": "지역의 미래는 주민 한 사람 한 사람의 선택에 달려 있다고 할 수 있을 것이다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N1-07-Q1",
+     "type": "single_choice",
+     "prompt_ko": "글에서 문제를 더 심각하게 만든 두 요소는?",
+     "options": [
+      "인구 감소와 고령화",
+      "관광과 활성화",
+      "학교와 행정",
+      "선택과 미래"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "人口減少と高齢化が相まって."
+    },
+    {
+     "id": "JP-N1-07-Q2",
+     "type": "single_choice",
+     "prompt_ko": "「支援いかんによって」의 뜻",
+     "options": [
+      "지원 여하에 따라",
+      "지원 덕분에",
+      "지원에도 불구하고",
+      "지원을 끝으로"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "いかんによって = 여하에 따라."
+    },
+    {
+     "id": "JP-N1-07-Q3",
+     "type": "single_choice",
+     "prompt_ko": "「昨年度をもって閉校した」의 뜻",
+     "options": [
+      "작년도를 끝으로 폐교했다",
+      "작년도부터 개교했다",
+      "작년도에 폐교할 뻔했다",
+      "작년도까지 폐교하지 않았다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "시점의 をもって."
+    },
+    {
+     "id": "JP-N1-07-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「活性化」의 뜻은?",
+     "options": [
+      "활성화",
+      "과소화",
+      "지속",
+      "관광"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "活性化(かっせいか) = 활성화."
+    },
+    {
+     "id": "JP-N1-07-Q5",
+     "type": "typing",
+     "prompt_ko": "「観光」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kankou",
+     "accepted_answers": [
+      "kankou",
+      "kanko",
+      "kannkou"
+     ],
+     "explanation_ko": "観光 = かんこう (kankou)"
+    },
+    {
+     "id": "JP-N1-07-Q6",
+     "type": "typing",
+     "prompt_ko": "「地方」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "chihou",
+     "accepted_answers": [
+      "chihou",
+      "tihou",
+      "chiho",
+      "tiho"
+     ],
+     "explanation_ko": "地方 = ちほう (chihou)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "JLPT_FORMAT"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  }
+ ]
+}

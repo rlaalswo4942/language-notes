@@ -1,0 +1,1466 @@
+{
+ "course": "N5",
+ "schema_version": "1.0.0",
+ "authoring_policy": {
+  "not_official_jlpt_vocab_list": true,
+  "review_required_for_publish": true
+ },
+ "lessons": [
+  {
+   "id": "JP-N5-01",
+   "day_index": 1,
+   "week_index": 1,
+   "level": "N5",
+   "unit_id": "N5-W01",
+   "lesson_type": "new",
+   "title_ko": "자기소개: 〜は〜です",
+   "objective_ko": "‘A는 B입니다’ 문장으로 자기소개를 한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [],
+   "explanation_ko": "「AはBです」는 ‘A는 B입니다’. 주제 조사 は는 ‘wa’로 읽습니다. 부정은 〜じゃありません(〜ではありません), 질문은 문장 끝에 か를 붙입니다.",
+   "usage_notes": [
+    "처음 만났을 때: はじめまして。〜です。どうぞよろしくお願いします。"
+   ],
+   "common_mistakes": [
+    "주제 조사 は를 ‘ha’로 읽지 않습니다 → ‘wa’.",
+    "です는 끝의 u가 약하게 들려 ‘des’처럼 발음됩니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N5-01-01",
+     "kind": "word",
+     "text": "私{わたし}",
+     "reading_kana": "わたし",
+     "reading_romanized": "watashi",
+     "meaning_ko": "나, 저",
+     "part_of_speech": "대명사"
+    },
+    {
+     "id": "w-JP-N5-01-02",
+     "kind": "word",
+     "text": "学生{がくせい}",
+     "reading_kana": "がくせい",
+     "reading_romanized": "gakusei",
+     "meaning_ko": "학생",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-01-03",
+     "kind": "word",
+     "text": "先生{せんせい}",
+     "reading_kana": "せんせい",
+     "reading_romanized": "sensei",
+     "meaning_ko": "선생님",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-01-04",
+     "kind": "word",
+     "text": "会社員{かいしゃいん}",
+     "reading_kana": "かいしゃいん",
+     "reading_romanized": "kaishain",
+     "meaning_ko": "회사원",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-01-05",
+     "kind": "word",
+     "text": "韓国人{かんこくじん}",
+     "reading_kana": "かんこくじん",
+     "reading_romanized": "kankokujin",
+     "meaning_ko": "한국인",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-01-06",
+     "kind": "word",
+     "text": "名前{なまえ}",
+     "reading_kana": "なまえ",
+     "reading_romanized": "namae",
+     "meaning_ko": "이름",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "はじめまして。キムです。",
+     "meaning_ko": "처음 뵙겠습니다. 김입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "私{わたし}は 学生{がくせい}です。",
+     "meaning_ko": "저는 학생입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "私{わたし}は 韓国人{かんこくじん}です。",
+     "meaning_ko": "저는 한국인입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "田中{たなか}さんは 先生{せんせい}です。",
+     "meaning_ko": "다나카 씨는 선생님입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "私{わたし}は 会社員{かいしゃいん}じゃありません。",
+     "meaning_ko": "저는 회사원이 아닙니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "山田{やまだ}さんは 学生{がくせい}ですか。",
+     "meaning_ko": "야마다 씨는 학생입니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "はい、そうです。",
+     "meaning_ko": "네, 그렇습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "どうぞ よろしく お願{ねが}いします。",
+     "meaning_ko": "잘 부탁드립니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N5-01-Q1",
+     "type": "single_choice",
+     "prompt_ko": "「私は学生です」의 뜻은?",
+     "options": [
+      "저는 학생입니다.",
+      "저는 선생님입니다.",
+      "저는 학생이 아닙니다.",
+      "학생은 누구입니까?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "私 = 저, 学生 = 학생, です = 입니다."
+    },
+    {
+     "id": "JP-N5-01-Q2",
+     "type": "single_choice",
+     "prompt_ko": "주제를 나타내는 は의 읽기는?",
+     "options": [
+      "wa",
+      "ha",
+      "ba",
+      "e"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "조사 は는 wa로 읽습니다."
+    },
+    {
+     "id": "JP-N5-01-Q3",
+     "type": "single_choice",
+     "prompt_ko": "‘저는 회사원이 아닙니다.’",
+     "options": [
+      "私は会社員じゃありません。",
+      "私は会社員です。",
+      "私は会社員ですか。",
+      "私が会社員じゃです。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "부정은 〜じゃありません."
+    },
+    {
+     "id": "JP-N5-01-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「先生」의 뜻은?",
+     "options": [
+      "선생님",
+      "학생",
+      "회사원",
+      "이름"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "先生(せんせい) = 선생님."
+    },
+    {
+     "id": "JP-N5-01-Q5",
+     "type": "typing",
+     "prompt_ko": "「学生」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "gakusei",
+     "accepted_answers": [
+      "gakusei"
+     ],
+     "explanation_ko": "学生 = がくせい (gakusei)"
+    },
+    {
+     "id": "JP-N5-01-Q6",
+     "type": "typing",
+     "prompt_ko": "「名前」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "namae",
+     "accepted_answers": [
+      "namae"
+     ],
+     "explanation_ko": "名前 = なまえ (namae)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N5-02",
+   "day_index": 2,
+   "week_index": 1,
+   "level": "N5",
+   "unit_id": "N5-W01",
+   "lesson_type": "new",
+   "title_ko": "これ・それ・あれ / この・その・あの",
+   "objective_ko": "가리키는 말로 물건과 장소를 묻고 답한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N5-01"
+   ],
+   "explanation_ko": "가까운 정도에 따라 これ(말하는 사람 쪽), それ(듣는 사람 쪽), あれ(둘 다에서 먼 곳)를 씁니다. 명사 앞에서는 この・その・あの + 명사, 장소는 ここ・そこ・あそこ.",
+   "usage_notes": [
+    "‘누구의 것’은 명사 + の: 私のです(제 것입니다)."
+   ],
+   "common_mistakes": [
+    "これ 本(X) → この 本(O): 명사 앞에는 この를 씁니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N5-02-01",
+     "kind": "word",
+     "text": "本{ほん}",
+     "reading_kana": "ほん",
+     "reading_romanized": "hon",
+     "meaning_ko": "책",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-02-02",
+     "kind": "word",
+     "text": "傘{かさ}",
+     "reading_kana": "かさ",
+     "reading_romanized": "kasa",
+     "meaning_ko": "우산",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-02-03",
+     "kind": "word",
+     "text": "時計{とけい}",
+     "reading_kana": "とけい",
+     "reading_romanized": "tokei",
+     "meaning_ko": "시계",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-02-04",
+     "kind": "word",
+     "text": "かばん",
+     "reading_kana": "",
+     "reading_romanized": "kaban",
+     "meaning_ko": "가방",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-02-05",
+     "kind": "word",
+     "text": "誰{だれ}",
+     "reading_kana": "だれ",
+     "reading_romanized": "dare",
+     "meaning_ko": "누구",
+     "part_of_speech": "의문사"
+    },
+    {
+     "id": "w-JP-N5-02-06",
+     "kind": "word",
+     "text": "何{なん}",
+     "reading_kana": "なん",
+     "reading_romanized": "nan",
+     "meaning_ko": "무엇",
+     "part_of_speech": "의문사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "これは 本{ほん}です。",
+     "meaning_ko": "이것은 책입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "それは 何{なん}ですか。",
+     "meaning_ko": "그것은 무엇입니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "あれは 時計{とけい}です。",
+     "meaning_ko": "저것은 시계입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 傘{かさ}は 私{わたし}のです。",
+     "meaning_ko": "이 우산은 제 것입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "その かばんは 誰{だれ}のですか。",
+     "meaning_ko": "그 가방은 누구 것입니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "あの 人{ひと}は 先生{せんせい}です。",
+     "meaning_ko": "저 사람은 선생님입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "トイレは どこですか。",
+     "meaning_ko": "화장실은 어디입니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "あそこです。",
+     "meaning_ko": "저기입니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N5-02-Q1",
+     "type": "single_choice",
+     "prompt_ko": "상대방이 들고 있는 물건을 가리킬 때: ___は 何ですか。",
+     "options": [
+      "それ",
+      "これ",
+      "あれ",
+      "どれ"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "듣는 사람 쪽 → それ."
+    },
+    {
+     "id": "JP-N5-02-Q2",
+     "type": "single_choice",
+     "prompt_ko": "명사 앞에 붙는 형태: ___ 本は 私のです。(이 책)",
+     "options": [
+      "この",
+      "これ",
+      "ここ",
+      "こちら"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "명사 앞 → この."
+    },
+    {
+     "id": "JP-N5-02-Q3",
+     "type": "single_choice",
+     "prompt_ko": "「誰」의 뜻은?",
+     "options": [
+      "누구",
+      "무엇",
+      "어디",
+      "언제"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "誰(だれ) = 누구."
+    },
+    {
+     "id": "JP-N5-02-Q4",
+     "type": "single_choice",
+     "prompt_ko": "‘저기입니다.’",
+     "options": [
+      "あそこです。",
+      "あれです。",
+      "あのです。",
+      "そこです。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "장소(먼 곳) → あそこ."
+    },
+    {
+     "id": "JP-N5-02-Q5",
+     "type": "typing",
+     "prompt_ko": "「時計」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "tokei",
+     "accepted_answers": [
+      "tokei"
+     ],
+     "explanation_ko": "時計 = とけい (tokei)"
+    },
+    {
+     "id": "JP-N5-02-Q6",
+     "type": "typing",
+     "prompt_ko": "「傘」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kasa",
+     "accepted_answers": [
+      "kasa"
+     ],
+     "explanation_ko": "傘 = かさ (kasa)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N5-03",
+   "day_index": 3,
+   "week_index": 1,
+   "level": "N5",
+   "unit_id": "N5-W01",
+   "lesson_type": "new",
+   "title_ko": "동사 ます형",
+   "objective_ko": "정중한 동사 현재·부정·과거로 하루 일과를 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N5-02"
+   ],
+   "explanation_ko": "정중한 동사는 〜ます(현재·미래 긍정), 〜ません(부정), 〜ました(과거), 〜ませんでした(과거 부정)로 바뀝니다. 일본어 현재형은 습관이나 가까운 미래도 나타냅니다.",
+   "usage_notes": [
+    "시간 뒤에는 に: 6時に 起きます."
+   ],
+   "common_mistakes": [
+    "‘먹지 않았습니다’는 食べませんでした(食べませんでしたた X)."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N5-03-01",
+     "kind": "word",
+     "text": "食{た}べます",
+     "reading_kana": "たべます",
+     "reading_romanized": "tabemasu",
+     "meaning_ko": "먹습니다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N5-03-02",
+     "kind": "word",
+     "text": "飲{の}みます",
+     "reading_kana": "のみます",
+     "reading_romanized": "nomimasu",
+     "meaning_ko": "마십니다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N5-03-03",
+     "kind": "word",
+     "text": "行{い}きます",
+     "reading_kana": "いきます",
+     "reading_romanized": "ikimasu",
+     "meaning_ko": "갑니다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N5-03-04",
+     "kind": "word",
+     "text": "起{お}きます",
+     "reading_kana": "おきます",
+     "reading_romanized": "okimasu",
+     "meaning_ko": "일어납니다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N5-03-05",
+     "kind": "word",
+     "text": "寝{ね}ます",
+     "reading_kana": "ねます",
+     "reading_romanized": "nemasu",
+     "meaning_ko": "잡니다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N5-03-06",
+     "kind": "word",
+     "text": "毎朝{まいあさ}",
+     "reading_kana": "まいあさ",
+     "reading_romanized": "maiasa",
+     "meaning_ko": "매일 아침",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "毎朝{まいあさ} 6時{ろくじ}に 起{お}きます。",
+     "meaning_ko": "매일 아침 6시에 일어납니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "パンを 食{た}べます。",
+     "meaning_ko": "빵을 먹습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "コーヒーを 飲{の}みません。",
+     "meaning_ko": "커피를 마시지 않습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "明日{あした} 学校{がっこう}へ 行{い}きます。",
+     "meaning_ko": "내일 학교에 갑니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "昨日{きのう} 11時{じゅういちじ}に 寝{ね}ました。",
+     "meaning_ko": "어제 11시에 잤습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "週末{しゅうまつ}は どこへも 行{い}きませんでした。",
+     "meaning_ko": "주말에는 아무 데도 가지 않았습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "何{なに}を 飲{の}みますか。",
+     "meaning_ko": "무엇을 마십니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "お茶{ちゃ}を 飲{の}みます。",
+     "meaning_ko": "차를 마십니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N5-03-Q1",
+     "type": "single_choice",
+     "prompt_ko": "‘먹지 않았습니다’",
+     "options": [
+      "食べませんでした",
+      "食べません",
+      "食べました",
+      "食べます"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "과거 부정 → 〜ませんでした."
+    },
+    {
+     "id": "JP-N5-03-Q2",
+     "type": "single_choice",
+     "prompt_ko": "「行きます」의 뜻은?",
+     "options": [
+      "갑니다",
+      "옵니다",
+      "잡니다",
+      "먹습니다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "行きます = 갑니다."
+    },
+    {
+     "id": "JP-N5-03-Q3",
+     "type": "single_choice",
+     "prompt_ko": "昨日 映画を ___。(어제 영화를 봤습니다.)",
+     "options": [
+      "見ました",
+      "見ます",
+      "見ません",
+      "見ませんでした"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "과거 긍정 → 〜ました."
+    },
+    {
+     "id": "JP-N5-03-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「寝ます」의 뜻은?",
+     "options": [
+      "잡니다",
+      "일어납니다",
+      "마십니다",
+      "갑니다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "寝ます(ねます) = 잡니다."
+    },
+    {
+     "id": "JP-N5-03-Q5",
+     "type": "typing",
+     "prompt_ko": "「飲みます」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "nomimasu",
+     "accepted_answers": [
+      "nomimasu"
+     ],
+     "explanation_ko": "飲みます = のみます (nomimasu)"
+    },
+    {
+     "id": "JP-N5-03-Q6",
+     "type": "typing",
+     "prompt_ko": "「起きます」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "okimasu",
+     "accepted_answers": [
+      "okimasu"
+     ],
+     "explanation_ko": "起きます = おきます (okimasu)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N5-04",
+   "day_index": 4,
+   "week_index": 1,
+   "level": "N5",
+   "unit_id": "N5-W01",
+   "lesson_type": "new",
+   "title_ko": "조사 を・に・で・へ",
+   "objective_ko": "대상·시간·장소·방향을 조사로 구별한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N5-03"
+   ],
+   "explanation_ko": "を는 동작의 대상(~을/를, ‘o’로 읽음), に는 시간·도착점·존재 장소, で는 동작이 일어나는 장소·수단, へ는 방향(‘e’로 읽음)을 나타냅니다.",
+   "usage_notes": [
+    "会う(만나다)는 상대에 に를 씁니다: 友達に 会います."
+   ],
+   "common_mistakes": [
+    "‘도서관에서 공부합니다’는 図書館で(에서). 図書館に 勉強します(X)."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N5-04-01",
+     "kind": "word",
+     "text": "図書館{としょかん}",
+     "reading_kana": "としょかん",
+     "reading_romanized": "toshokan",
+     "meaning_ko": "도서관",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-04-02",
+     "kind": "word",
+     "text": "電車{でんしゃ}",
+     "reading_kana": "でんしゃ",
+     "reading_romanized": "densha",
+     "meaning_ko": "전철",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-04-03",
+     "kind": "word",
+     "text": "駅{えき}",
+     "reading_kana": "えき",
+     "reading_romanized": "eki",
+     "meaning_ko": "역",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-04-04",
+     "kind": "word",
+     "text": "公園{こうえん}",
+     "reading_kana": "こうえん",
+     "reading_romanized": "kouen",
+     "meaning_ko": "공원",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-04-05",
+     "kind": "word",
+     "text": "友達{ともだち}",
+     "reading_kana": "ともだち",
+     "reading_romanized": "tomodachi",
+     "meaning_ko": "친구",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-04-06",
+     "kind": "word",
+     "text": "買{か}います",
+     "reading_kana": "かいます",
+     "reading_romanized": "kaimasu",
+     "meaning_ko": "삽니다",
+     "part_of_speech": "동사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "図書館{としょかん}で 本{ほん}を 読{よ}みます。",
+     "meaning_ko": "도서관에서 책을 읽습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "電車{でんしゃ}で 会社{かいしゃ}へ 行{い}きます。",
+     "meaning_ko": "전철로 회사에 갑니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "7時{しちじ}に 駅{えき}に 着{つ}きます。",
+     "meaning_ko": "7시에 역에 도착합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "公園{こうえん}で 友達{ともだち}に 会{あ}います。",
+     "meaning_ko": "공원에서 친구를 만납니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "スーパーで 野菜{やさい}を 買{か}います。",
+     "meaning_ko": "슈퍼에서 채소를 삽니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "日本{にほん}へ 行{い}きたいです。",
+     "meaning_ko": "일본에 가고 싶습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "バスで 家{いえ}に 帰{かえ}ります。",
+     "meaning_ko": "버스로 집에 돌아갑니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "毎日{まいにち} 水{みず}を 飲{の}みます。",
+     "meaning_ko": "매일 물을 마십니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N5-04-Q1",
+     "type": "single_choice",
+     "prompt_ko": "図書館___ 勉強します。(도서관에서)",
+     "options": [
+      "で",
+      "に",
+      "を",
+      "へ"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "동작 장소 → で."
+    },
+    {
+     "id": "JP-N5-04-Q2",
+     "type": "single_choice",
+     "prompt_ko": "パン___ 食べます。",
+     "options": [
+      "を",
+      "で",
+      "に",
+      "へ"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "동작 대상 → を."
+    },
+    {
+     "id": "JP-N5-04-Q3",
+     "type": "single_choice",
+     "prompt_ko": "電車___ 行きます。(전철로)",
+     "options": [
+      "で",
+      "を",
+      "に",
+      "は"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "수단 → で."
+    },
+    {
+     "id": "JP-N5-04-Q4",
+     "type": "single_choice",
+     "prompt_ko": "조사 へ의 읽기는?",
+     "options": [
+      "e",
+      "he",
+      "ha",
+      "o"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "방향 조사 へ는 e로 읽습니다."
+    },
+    {
+     "id": "JP-N5-04-Q5",
+     "type": "typing",
+     "prompt_ko": "「駅」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "eki",
+     "accepted_answers": [
+      "eki"
+     ],
+     "explanation_ko": "駅 = えき (eki)"
+    },
+    {
+     "id": "JP-N5-04-Q6",
+     "type": "typing",
+     "prompt_ko": "「友達」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "tomodachi",
+     "accepted_answers": [
+      "tomodachi",
+      "tomodati"
+     ],
+     "explanation_ko": "友達 = ともだち (tomodachi)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N5-05",
+   "day_index": 5,
+   "week_index": 1,
+   "level": "N5",
+   "unit_id": "N5-W01",
+   "lesson_type": "new",
+   "title_ko": "い형용사",
+   "objective_ko": "い형용사의 수식·부정·과거로 물건과 날씨를 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N5-04"
+   ],
+   "explanation_ko": "い로 끝나는 형용사는 그대로 명사를 꾸미고(高い 山), 정중한 서술은 〜いです. 부정은 い→くないです, 과거는 い→かったです. 예외: いい → よくないです・よかったです.",
+   "usage_notes": [
+    "高い는 ‘높다’와 ‘비싸다’ 둘 다 뜻합니다."
+   ],
+   "common_mistakes": [
+    "高いじゃないです(X) → 高くないです(O)."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N5-05-01",
+     "kind": "word",
+     "text": "高{たか}い",
+     "reading_kana": "たかい",
+     "reading_romanized": "takai",
+     "meaning_ko": "높다, 비싸다",
+     "part_of_speech": "い형용사"
+    },
+    {
+     "id": "w-JP-N5-05-02",
+     "kind": "word",
+     "text": "安{やす}い",
+     "reading_kana": "やすい",
+     "reading_romanized": "yasui",
+     "meaning_ko": "싸다",
+     "part_of_speech": "い형용사"
+    },
+    {
+     "id": "w-JP-N5-05-03",
+     "kind": "word",
+     "text": "大{おお}きい",
+     "reading_kana": "おおきい",
+     "reading_romanized": "ookii",
+     "meaning_ko": "크다",
+     "part_of_speech": "い형용사"
+    },
+    {
+     "id": "w-JP-N5-05-04",
+     "kind": "word",
+     "text": "小{ちい}さい",
+     "reading_kana": "ちいさい",
+     "reading_romanized": "chiisai",
+     "meaning_ko": "작다",
+     "part_of_speech": "い형용사"
+    },
+    {
+     "id": "w-JP-N5-05-05",
+     "kind": "word",
+     "text": "新{あたら}しい",
+     "reading_kana": "あたらしい",
+     "reading_romanized": "atarashii",
+     "meaning_ko": "새롭다",
+     "part_of_speech": "い형용사"
+    },
+    {
+     "id": "w-JP-N5-05-06",
+     "kind": "word",
+     "text": "面白{おもしろ}い",
+     "reading_kana": "おもしろい",
+     "reading_romanized": "omoshiroi",
+     "meaning_ko": "재미있다",
+     "part_of_speech": "い형용사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "この 時計{とけい}は 高{たか}いです。",
+     "meaning_ko": "이 시계는 비쌉니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "あの 店{みせ}は 安{やす}いです。",
+     "meaning_ko": "저 가게는 쌉니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "大{おお}きい かばんを 買{か}いました。",
+     "meaning_ko": "큰 가방을 샀습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "私{わたし}の 部屋{へや}は 小{ちい}さいです。",
+     "meaning_ko": "제 방은 작습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 映画{えいが}は 面白{おもしろ}くないです。",
+     "meaning_ko": "이 영화는 재미있지 않습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "昨日{きのう}は 寒{さむ}かったです。",
+     "meaning_ko": "어제는 추웠습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "新{あたら}しい 車{くるま}ですね。",
+     "meaning_ko": "새 차네요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "天気{てんき}が よかったです。",
+     "meaning_ko": "날씨가 좋았습니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N5-05-Q1",
+     "type": "single_choice",
+     "prompt_ko": "高い의 정중한 부정형",
+     "options": [
+      "高くないです",
+      "高いじゃないです",
+      "高くです",
+      "高かないです"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "い → くないです."
+    },
+    {
+     "id": "JP-N5-05-Q2",
+     "type": "single_choice",
+     "prompt_ko": "いい의 정중한 과거형",
+     "options": [
+      "よかったです",
+      "いかったです",
+      "いいでした",
+      "よいでした"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "いい는 よ로 활용 → よかったです."
+    },
+    {
+     "id": "JP-N5-05-Q3",
+     "type": "single_choice",
+     "prompt_ko": "「安い」의 뜻은?",
+     "options": [
+      "싸다",
+      "비싸다",
+      "크다",
+      "새롭다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "安い(やすい) = 싸다."
+    },
+    {
+     "id": "JP-N5-05-Q4",
+     "type": "single_choice",
+     "prompt_ko": "‘큰 가방’",
+     "options": [
+      "大きいかばん",
+      "大きいのかばん",
+      "大きくかばん",
+      "大きなのかばん"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "い형용사는 그대로 명사를 꾸밉니다."
+    },
+    {
+     "id": "JP-N5-05-Q5",
+     "type": "typing",
+     "prompt_ko": "「新しい」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "atarashii",
+     "accepted_answers": [
+      "atarashii",
+      "atarasii",
+      "atarashi",
+      "atarasi"
+     ],
+     "explanation_ko": "新しい = あたらしい (atarashii)"
+    },
+    {
+     "id": "JP-N5-05-Q6",
+     "type": "typing",
+     "prompt_ko": "「小さい」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "chiisai",
+     "accepted_answers": [
+      "chiisai",
+      "tiisai",
+      "chisai",
+      "tisai"
+     ],
+     "explanation_ko": "小さい = ちいさい (chiisai)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N5-06",
+   "day_index": 6,
+   "week_index": 1,
+   "level": "N5",
+   "unit_id": "N5-W01",
+   "lesson_type": "practice",
+   "title_ko": "적용: 자기소개 글 읽기",
+   "objective_ko": "배운 문형으로 된 짧은 자기소개 글을 읽고 내용을 확인한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N5-05"
+   ],
+   "explanation_ko": "지금까지 배운 です・ます, 조사, 형용사로 짧은 자기소개 글을 읽고 내용을 확인합니다.",
+   "usage_notes": [
+    "〜ています는 다음 단계(N4)에서 자세히 배웁니다. 여기서는 ‘살고 있습니다/공부하고 있습니다’ 덩어리로 익힙니다."
+   ],
+   "common_mistakes": [],
+   "new_items": [
+    {
+     "id": "w-JP-N5-06-01",
+     "kind": "word",
+     "text": "趣味{しゅみ}",
+     "reading_kana": "しゅみ",
+     "reading_romanized": "shumi",
+     "meaning_ko": "취미",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-06-02",
+     "kind": "word",
+     "text": "料理{りょうり}",
+     "reading_kana": "りょうり",
+     "reading_romanized": "ryouri",
+     "meaning_ko": "요리",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-06-03",
+     "kind": "word",
+     "text": "大学{だいがく}",
+     "reading_kana": "だいがく",
+     "reading_romanized": "daigaku",
+     "meaning_ko": "대학",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-06-04",
+     "kind": "word",
+     "text": "住{す}んでいます",
+     "reading_kana": "すんでいます",
+     "reading_romanized": "sundeimasu",
+     "meaning_ko": "살고 있습니다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N5-06-05",
+     "kind": "word",
+     "text": "毎週{まいしゅう}",
+     "reading_kana": "まいしゅう",
+     "reading_romanized": "maishuu",
+     "meaning_ko": "매주",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-06-06",
+     "kind": "word",
+     "text": "好{す}きです",
+     "reading_kana": "すきです",
+     "reading_romanized": "sukidesu",
+     "meaning_ko": "좋아합니다",
+     "part_of_speech": "な형용사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "はじめまして。イ・ミナです。",
+     "meaning_ko": "처음 뵙겠습니다. 이미나입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "ソウルに 住{す}んでいます。",
+     "meaning_ko": "서울에 살고 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "大学{だいがく}で 日本語{にほんご}を 勉強{べんきょう}しています。",
+     "meaning_ko": "대학에서 일본어를 공부하고 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "趣味{しゅみ}は 料理{りょうり}です。",
+     "meaning_ko": "취미는 요리입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "毎週{まいしゅう} 土曜日{どようび}に 友達{ともだち}と 料理{りょうり}を 作{つく}ります。",
+     "meaning_ko": "매주 토요일에 친구와 요리를 만듭니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "日本{にほん}の 料理{りょうり}が 好{す}きです。",
+     "meaning_ko": "일본 요리를 좋아합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "いつか 日本{にほん}へ 行{い}きたいです。",
+     "meaning_ko": "언젠가 일본에 가고 싶습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "どうぞ よろしく お願{ねが}いします。",
+     "meaning_ko": "잘 부탁드립니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N5-06-Q1",
+     "type": "single_choice",
+     "prompt_ko": "미나 씨의 취미는?",
+     "options": [
+      "요리",
+      "독서",
+      "운동",
+      "여행"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "趣味は 料理です."
+    },
+    {
+     "id": "JP-N5-06-Q2",
+     "type": "single_choice",
+     "prompt_ko": "미나 씨는 어디에 살고 있나요?",
+     "options": [
+      "서울",
+      "도쿄",
+      "부산",
+      "오사카"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ソウルに 住んでいます."
+    },
+    {
+     "id": "JP-N5-06-Q3",
+     "type": "single_choice",
+     "prompt_ko": "毎週 何曜日に 料理を 作りますか。",
+     "options": [
+      "土曜日",
+      "日曜日",
+      "月曜日",
+      "金曜日"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "毎週 土曜日に 作ります."
+    },
+    {
+     "id": "JP-N5-06-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「好きです」의 뜻은?",
+     "options": [
+      "좋아합니다",
+      "싫어합니다",
+      "잘합니다",
+      "갑니다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "好きです = 좋아합니다."
+    },
+    {
+     "id": "JP-N5-06-Q5",
+     "type": "typing",
+     "prompt_ko": "「趣味」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "shumi",
+     "accepted_answers": [
+      "shumi",
+      "syumi"
+     ],
+     "explanation_ko": "趣味 = しゅみ (shumi)"
+    },
+    {
+     "id": "JP-N5-06-Q6",
+     "type": "typing",
+     "prompt_ko": "「料理」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "ryouri",
+     "accepted_answers": [
+      "ryouri",
+      "ryori"
+     ],
+     "explanation_ko": "料理 = りょうり (ryouri)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N5-07",
+   "day_index": 7,
+   "week_index": 1,
+   "level": "N5",
+   "unit_id": "N5-W01",
+   "lesson_type": "checkpoint",
+   "title_ko": "1주 점검: 일상 회화",
+   "objective_ko": "N5 첫 주 문형(です·こそあど·ます·조사·い형용사)을 종합 점검한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N5-06"
+   ],
+   "explanation_ko": "1주 차에 배운 です 문장, こそあど, ます형, 조사, い형용사를 짧은 대화 속에서 다시 확인합니다.",
+   "usage_notes": [
+    "〜ましょう = ~합시다(권유)."
+   ],
+   "common_mistakes": [
+    "家に 帰ります: 도착점 に(또는 방향 へ)."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N5-07-01",
+     "kind": "word",
+     "text": "朝{あさ}ご飯{はん}",
+     "reading_kana": "あさごはん",
+     "reading_romanized": "asagohan",
+     "meaning_ko": "아침밥",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-07-02",
+     "kind": "word",
+     "text": "昼{ひる}",
+     "reading_kana": "ひる",
+     "reading_romanized": "hiru",
+     "meaning_ko": "낮, 점심",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-07-03",
+     "kind": "word",
+     "text": "夜{よる}",
+     "reading_kana": "よる",
+     "reading_romanized": "yoru",
+     "meaning_ko": "밤",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-07-04",
+     "kind": "word",
+     "text": "天気{てんき}",
+     "reading_kana": "てんき",
+     "reading_romanized": "tenki",
+     "meaning_ko": "날씨",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-07-05",
+     "kind": "word",
+     "text": "暑{あつ}い",
+     "reading_kana": "あつい",
+     "reading_romanized": "atsui",
+     "meaning_ko": "덥다",
+     "part_of_speech": "い형용사"
+    },
+    {
+     "id": "w-JP-N5-07-06",
+     "kind": "word",
+     "text": "楽{たの}しい",
+     "reading_kana": "たのしい",
+     "reading_romanized": "tanoshii",
+     "meaning_ko": "즐겁다",
+     "part_of_speech": "い형용사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "今日{きょう}は 暑{あつ}いですね。",
+     "meaning_ko": "오늘은 덥네요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "朝{あさ}ご飯{はん}を 食{た}べましたか。",
+     "meaning_ko": "아침밥을 먹었습니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "いいえ、食{た}べませんでした。",
+     "meaning_ko": "아니요, 먹지 않았습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "これは 私{わたし}の 傘{かさ}じゃありません。",
+     "meaning_ko": "이것은 제 우산이 아닙니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "昼{ひる}は 会社{かいしゃ}の 近{ちか}くで 食{た}べます。",
+     "meaning_ko": "점심은 회사 근처에서 먹습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "夜{よる}、友達{ともだち}と 電話{でんわ}で 話{はな}しました。",
+     "meaning_ko": "밤에 친구와 전화로 이야기했습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "週末{しゅうまつ}は 楽{たの}しかったです。",
+     "meaning_ko": "주말은 즐거웠습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "天気{てんき}が いいですから、公園{こうえん}へ 行{い}きましょう。",
+     "meaning_ko": "날씨가 좋으니까 공원에 갑시다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N5-07-Q1",
+     "type": "single_choice",
+     "prompt_ko": "これは 私の 本___ ありません。",
+     "options": [
+      "じゃ",
+      "は",
+      "で",
+      "に"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "명사 부정 → 〜じゃありません."
+    },
+    {
+     "id": "JP-N5-07-Q2",
+     "type": "single_choice",
+     "prompt_ko": "楽しい의 정중한 과거형",
+     "options": [
+      "楽しかったです",
+      "楽しいでした",
+      "楽しくです",
+      "楽しかったでした"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "い → かったです."
+    },
+    {
+     "id": "JP-N5-07-Q3",
+     "type": "single_choice",
+     "prompt_ko": "家___ 帰ります。(집에)",
+     "options": [
+      "に",
+      "を",
+      "で",
+      "が"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "도착점 → に."
+    },
+    {
+     "id": "JP-N5-07-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「天気」의 뜻은?",
+     "options": [
+      "날씨",
+      "하늘",
+      "시간",
+      "전기"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "天気(てんき) = 날씨."
+    },
+    {
+     "id": "JP-N5-07-Q5",
+     "type": "typing",
+     "prompt_ko": "「今日」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kyou",
+     "accepted_answers": [
+      "kyou",
+      "kyo"
+     ],
+     "explanation_ko": "今日 = きょう (kyou)"
+    },
+    {
+     "id": "JP-N5-07-Q6",
+     "type": "typing",
+     "prompt_ko": "「昼」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "hiru",
+     "accepted_answers": [
+      "hiru"
+     ],
+     "explanation_ko": "昼 = ひる (hiru)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  }
+ ]
+}
