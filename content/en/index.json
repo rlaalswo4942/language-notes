@@ -5,5 +5,11 @@
   "TOEIC": 1,
   "TOEFL": 1
  },
- "sources": false
+ "sources": false,
+ "plus": [
+  "PRE-A1",
+  "B1",
+  "TOEIC",
+  "TOEFL"
+ ]
 }

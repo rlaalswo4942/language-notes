@@ -2,5 +2,8 @@
  "courses": {
   "INTRO": 31
  },
- "sources": true
+ "sources": true,
+ "plus": [
+  "INTRO"
+ ]
 }

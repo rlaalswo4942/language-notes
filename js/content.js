@@ -7,6 +7,7 @@ window.SITE = {
   icon: "📗",                             // 탭 아이콘(favicon)
   key: "langnote",                        // ★ 저장 키 — 다른 학습 사이트와 겹치지 않게
   syncApi: "https://ai-hackathon-sync.vercel.app/api/state", // 기존 동기화 API 재사용 (key 로 공간 분리)
+  daily: { minutes: 15, reviewCap: 15, plan: "복습 카드 4분 · 새 단어 4분 · 예문 2분 · 확인 문제 4분 · 쓰기 1분" }, // 하루 학습량 고정 (시간 선택 없음)
   autoUpdate: true,                       // 매일 새 레슨 자동 추가(Claude 루틴)가 실제로 돌아가면 true — 화면 안내 문구가 바뀜
   resetEpoch: "",                       // 값을 새로 바꾸면 각 기기에서 처음 열 때 기록을 한 번 초기화
   resetKeys: ""                           // "*" = 필기·포스트잇까지 전부, 빈 값 = 진도만 (아래 progressKeys)
@@ -14,12 +15,10 @@ window.SITE = {
 
 /* 언어 정의
  *  courses: 사이드바·레슨 목록·과정 선택에 쓰는 단계. 데이터 파일이 없으면 '추후 추가 예정'으로 표시 (가짜 레슨을 채우지 않음)
- *  minutes: 하루 학습 시간 모드 (설계서 기준) → 복습 권장 장수 reviewCap
  */
 window.LANGS = [
   {
     id: "en", name: "영어", native: "English", tts: "en-US",
-    minutes: [10, 25, 45], defMin: 25, reviewCap: { 10: 10, 25: 20, 45: 40 },
     courses: [
       { id: "PRE-A1", t: "Pre-A1", d: "알파벳·대명사·be동사·기본 어순" },
       { id: "A1", t: "A1", d: "일반동사 현재·3인칭 단수·can·현재진행" },
@@ -34,7 +33,6 @@ window.LANGS = [
   },
   {
     id: "ja", name: "일본어", native: "日本語", tts: "ja-JP",
-    minutes: [15, 30, 60], defMin: 30, reviewCap: { 15: 10, 30: 20, 60: 40 },
     courses: [
       { id: "INTRO", t: "입문", d: "히라가나·가타카나·박자·기초 문장" },
       { id: "N5", t: "N5", d: "자기소개·숫자·시간·장소·기초 일상" },

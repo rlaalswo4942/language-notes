@@ -195,7 +195,7 @@ body.no-furi rt { visibility: hidden; }
   .pick .lab { padding-top: 0; }
   .lesson .card { padding: 18px 16px; }
   .lesson .lhero h1 { font-size: 28px; }
-  .exrow { grid-template-columns: 1fr auto; }
+  .exrow { grid-template-columns: 1fr auto; row-gap: 2px; padding: 10px 0; }
   .exrow .ko { grid-column: 1; }
   .exrow .say { grid-row: 1; grid-column: 2; }
   .kgrid { grid-template-columns: 1fr; }
@@ -208,3 +208,10 @@ body.no-furi rt { visibility: hidden; }
   .wrow .m { grid-column: 1; }
   .qblock h3 { font-size: 17px; }
 }
+
+/* 하루 15분 고정 안내 · 보강 표시 */
+.plan { margin: 0 0 14px; font-size: 14px; color: var(--sub); line-height: 1.6; }
+.plan b { color: var(--ink); margin-right: 6px; }
+small.plus { display: block; font-size: 11.5px; color: var(--sub); margin-top: 2px; letter-spacing: 0; }
+.kcard small.plus { margin-top: 6px; }
+.kgrid.kana .kcard small.plus { text-align: center; }

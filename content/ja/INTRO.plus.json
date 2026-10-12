@@ -1,0 +1,2869 @@
+{
+ "course": "INTRO",
+ "note": "기존 레슨 보강(15분 기준). 원본 레슨은 그대로 두고 화면에서 합쳐 표시. 상태: AI 초안",
+ "content_status": "draft",
+ "lessons": {
+  "JP-INTRO-01": {
+   "examples": [
+    {
+     "japanese": "あい",
+     "reading_romanized": "ai",
+     "meaning_ko": "사랑",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "いえ",
+     "reading_romanized": "ie",
+     "meaning_ko": "집",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "うえ",
+     "reading_romanized": "ue",
+     "meaning_ko": "위",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "あお",
+     "reading_romanized": "ao",
+     "meaning_ko": "파랑",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "いいえ",
+     "reading_romanized": "iie",
+     "meaning_ko": "아니요",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "あおい",
+     "reading_romanized": "aoi",
+     "meaning_ko": "파랗다",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-INTRO-01-X1",
+     "type": "typing",
+     "prompt_ko": "「あい」(사랑)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "ai",
+     "accepted_answers": [
+      "ai"
+     ],
+     "explanation_ko": "あい = ai (사랑)"
+    },
+    {
+     "id": "JP-INTRO-01-X2",
+     "type": "typing",
+     "prompt_ko": "「いえ」(집)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "ie",
+     "accepted_answers": [
+      "ie"
+     ],
+     "explanation_ko": "いえ = ie (집)"
+    },
+    {
+     "id": "JP-INTRO-01-X3",
+     "type": "typing",
+     "prompt_ko": "「うえ」(위)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "ue",
+     "accepted_answers": [
+      "ue"
+     ],
+     "explanation_ko": "うえ = ue (위)"
+    },
+    {
+     "id": "JP-INTRO-01-X4",
+     "type": "single_choice",
+     "prompt_ko": "「あお」의 뜻은?",
+     "options": [
+      "파랑",
+      "사랑",
+      "집",
+      "위"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "あお(ao)는 '파랑'입니다."
+    },
+    {
+     "id": "JP-INTRO-01-X5",
+     "type": "single_choice",
+     "prompt_ko": "「いいえ」의 뜻은?",
+     "options": [
+      "아니요",
+      "사랑",
+      "집",
+      "위"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "いいえ(iie)는 '아니요'입니다."
+    }
+   ]
+  },
+  "JP-INTRO-02": {
+   "examples": [
+    {
+     "japanese": "かお",
+     "reading_romanized": "kao",
+     "meaning_ko": "얼굴",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "あき",
+     "reading_romanized": "aki",
+     "meaning_ko": "가을",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "えき",
+     "reading_romanized": "eki",
+     "meaning_ko": "역",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "いけ",
+     "reading_romanized": "ike",
+     "meaning_ko": "연못",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "こえ",
+     "reading_romanized": "koe",
+     "meaning_ko": "목소리",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "あかい",
+     "reading_romanized": "akai",
+     "meaning_ko": "빨갛다",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-INTRO-02-X1",
+     "type": "typing",
+     "prompt_ko": "「かお」(얼굴)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kao",
+     "accepted_answers": [
+      "kao"
+     ],
+     "explanation_ko": "かお = kao (얼굴)"
+    },
+    {
+     "id": "JP-INTRO-02-X2",
+     "type": "typing",
+     "prompt_ko": "「あき」(가을)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "aki",
+     "accepted_answers": [
+      "aki"
+     ],
+     "explanation_ko": "あき = aki (가을)"
+    },
+    {
+     "id": "JP-INTRO-02-X3",
+     "type": "typing",
+     "prompt_ko": "「えき」(역)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "eki",
+     "accepted_answers": [
+      "eki"
+     ],
+     "explanation_ko": "えき = eki (역)"
+    },
+    {
+     "id": "JP-INTRO-02-X4",
+     "type": "single_choice",
+     "prompt_ko": "「いけ」의 뜻은?",
+     "options": [
+      "연못",
+      "얼굴",
+      "가을",
+      "역"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "いけ(ike)는 '연못'입니다."
+    },
+    {
+     "id": "JP-INTRO-02-X5",
+     "type": "single_choice",
+     "prompt_ko": "「こえ」의 뜻은?",
+     "options": [
+      "목소리",
+      "얼굴",
+      "가을",
+      "역"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "こえ(koe)는 '목소리'입니다."
+    }
+   ]
+  },
+  "JP-INTRO-03": {
+   "examples": [
+    {
+     "japanese": "あさ",
+     "reading_romanized": "asa",
+     "meaning_ko": "아침",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "いす",
+     "reading_romanized": "isu",
+     "meaning_ko": "의자",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "しお",
+     "reading_romanized": "shio",
+     "meaning_ko": "소금",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "うし",
+     "reading_romanized": "ushi",
+     "meaning_ko": "소",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "おかし",
+     "reading_romanized": "okashi",
+     "meaning_ko": "과자",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "すき",
+     "reading_romanized": "suki",
+     "meaning_ko": "좋아함",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-INTRO-03-X1",
+     "type": "typing",
+     "prompt_ko": "「あさ」(아침)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "asa",
+     "accepted_answers": [
+      "asa"
+     ],
+     "explanation_ko": "あさ = asa (아침)"
+    },
+    {
+     "id": "JP-INTRO-03-X2",
+     "type": "typing",
+     "prompt_ko": "「いす」(의자)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "isu",
+     "accepted_answers": [
+      "isu"
+     ],
+     "explanation_ko": "いす = isu (의자)"
+    },
+    {
+     "id": "JP-INTRO-03-X3",
+     "type": "typing",
+     "prompt_ko": "「しお」(소금)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "shio",
+     "accepted_answers": [
+      "shio",
+      "sio"
+     ],
+     "explanation_ko": "しお = shio (소금)"
+    },
+    {
+     "id": "JP-INTRO-03-X4",
+     "type": "single_choice",
+     "prompt_ko": "「うし」의 뜻은?",
+     "options": [
+      "소",
+      "아침",
+      "의자",
+      "소금"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "うし(ushi)는 '소'입니다."
+    },
+    {
+     "id": "JP-INTRO-03-X5",
+     "type": "single_choice",
+     "prompt_ko": "「おかし」의 뜻은?",
+     "options": [
+      "과자",
+      "아침",
+      "의자",
+      "소금"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "おかし(okashi)는 '과자'입니다."
+    }
+   ]
+  },
+  "JP-INTRO-04": {
+   "examples": [
+    {
+     "japanese": "くち",
+     "reading_romanized": "kuchi",
+     "meaning_ko": "입",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "て",
+     "reading_romanized": "te",
+     "meaning_ko": "손",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "そと",
+     "reading_romanized": "soto",
+     "meaning_ko": "밖",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "した",
+     "reading_romanized": "shita",
+     "meaning_ko": "아래",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "とけい",
+     "reading_romanized": "tokei",
+     "meaning_ko": "시계",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "つくえ",
+     "reading_romanized": "tsukue",
+     "meaning_ko": "책상",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-INTRO-04-X1",
+     "type": "typing",
+     "prompt_ko": "「くち」(입)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kuchi",
+     "accepted_answers": [
+      "kuchi",
+      "kuti"
+     ],
+     "explanation_ko": "くち = kuchi (입)"
+    },
+    {
+     "id": "JP-INTRO-04-X2",
+     "type": "typing",
+     "prompt_ko": "「て」(손)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "te",
+     "accepted_answers": [
+      "te"
+     ],
+     "explanation_ko": "て = te (손)"
+    },
+    {
+     "id": "JP-INTRO-04-X3",
+     "type": "typing",
+     "prompt_ko": "「そと」(밖)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "soto",
+     "accepted_answers": [
+      "soto"
+     ],
+     "explanation_ko": "そと = soto (밖)"
+    },
+    {
+     "id": "JP-INTRO-04-X4",
+     "type": "single_choice",
+     "prompt_ko": "「した」의 뜻은?",
+     "options": [
+      "아래",
+      "입",
+      "손",
+      "밖"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "した(shita)는 '아래'입니다."
+    },
+    {
+     "id": "JP-INTRO-04-X5",
+     "type": "single_choice",
+     "prompt_ko": "「とけい」의 뜻은?",
+     "options": [
+      "시계",
+      "입",
+      "손",
+      "밖"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "とけい(tokei)는 '시계'입니다."
+    }
+   ]
+  },
+  "JP-INTRO-05": {
+   "examples": [
+    {
+     "japanese": "なつ",
+     "reading_romanized": "natsu",
+     "meaning_ko": "여름",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "にく",
+     "reading_romanized": "niku",
+     "meaning_ko": "고기",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "なか",
+     "reading_romanized": "naka",
+     "meaning_ko": "안",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "おかね",
+     "reading_romanized": "okane",
+     "meaning_ko": "돈",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "なに",
+     "reading_romanized": "nani",
+     "meaning_ko": "무엇",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "きのこ",
+     "reading_romanized": "kinoko",
+     "meaning_ko": "버섯",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-INTRO-05-X1",
+     "type": "typing",
+     "prompt_ko": "「なつ」(여름)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "natsu",
+     "accepted_answers": [
+      "natsu",
+      "natu"
+     ],
+     "explanation_ko": "なつ = natsu (여름)"
+    },
+    {
+     "id": "JP-INTRO-05-X2",
+     "type": "typing",
+     "prompt_ko": "「にく」(고기)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "niku",
+     "accepted_answers": [
+      "niku"
+     ],
+     "explanation_ko": "にく = niku (고기)"
+    },
+    {
+     "id": "JP-INTRO-05-X3",
+     "type": "typing",
+     "prompt_ko": "「なか」(안)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "naka",
+     "accepted_answers": [
+      "naka"
+     ],
+     "explanation_ko": "なか = naka (안)"
+    },
+    {
+     "id": "JP-INTRO-05-X4",
+     "type": "single_choice",
+     "prompt_ko": "「おかね」의 뜻은?",
+     "options": [
+      "돈",
+      "여름",
+      "고기",
+      "안"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "おかね(okane)는 '돈'입니다."
+    },
+    {
+     "id": "JP-INTRO-05-X5",
+     "type": "single_choice",
+     "prompt_ko": "「なに」의 뜻은?",
+     "options": [
+      "무엇",
+      "여름",
+      "고기",
+      "안"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "なに(nani)는 '무엇'입니다."
+    }
+   ]
+  },
+  "JP-INTRO-06": {
+   "examples": [
+    {
+     "japanese": "あした",
+     "reading_romanized": "ashita",
+     "meaning_ko": "내일",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "さかな",
+     "reading_romanized": "sakana",
+     "meaning_ko": "생선",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "こたえ",
+     "reading_romanized": "kotae",
+     "meaning_ko": "대답",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "おなか",
+     "reading_romanized": "onaka",
+     "meaning_ko": "배(신체)",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-INTRO-06-X1",
+     "type": "typing",
+     "prompt_ko": "「あした」(내일)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "ashita",
+     "accepted_answers": [
+      "ashita",
+      "asita"
+     ],
+     "explanation_ko": "あした = ashita (내일)"
+    },
+    {
+     "id": "JP-INTRO-06-X2",
+     "type": "typing",
+     "prompt_ko": "「さかな」(생선)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "sakana",
+     "accepted_answers": [
+      "sakana"
+     ],
+     "explanation_ko": "さかな = sakana (생선)"
+    },
+    {
+     "id": "JP-INTRO-06-X3",
+     "type": "typing",
+     "prompt_ko": "「こたえ」(대답)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kotae",
+     "accepted_answers": [
+      "kotae"
+     ],
+     "explanation_ko": "こたえ = kotae (대답)"
+    },
+    {
+     "id": "JP-INTRO-06-X4",
+     "type": "single_choice",
+     "prompt_ko": "「おなか」의 뜻은?",
+     "options": [
+      "배(신체)",
+      "내일",
+      "생선",
+      "대답"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "おなか(onaka)는 '배(신체)'입니다."
+    }
+   ]
+  },
+  "JP-INTRO-07": {
+   "examples": [
+    {
+     "japanese": "かお",
+     "reading_romanized": "kao",
+     "meaning_ko": "얼굴",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "えき",
+     "reading_romanized": "eki",
+     "meaning_ko": "역",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "いす",
+     "reading_romanized": "isu",
+     "meaning_ko": "의자",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "とけい",
+     "reading_romanized": "tokei",
+     "meaning_ko": "시계",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-INTRO-07-X1",
+     "type": "typing",
+     "prompt_ko": "「かお」(얼굴)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kao",
+     "accepted_answers": [
+      "kao"
+     ],
+     "explanation_ko": "かお = kao (얼굴)"
+    },
+    {
+     "id": "JP-INTRO-07-X2",
+     "type": "typing",
+     "prompt_ko": "「えき」(역)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "eki",
+     "accepted_answers": [
+      "eki"
+     ],
+     "explanation_ko": "えき = eki (역)"
+    },
+    {
+     "id": "JP-INTRO-07-X3",
+     "type": "typing",
+     "prompt_ko": "「いす」(의자)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "isu",
+     "accepted_answers": [
+      "isu"
+     ],
+     "explanation_ko": "いす = isu (의자)"
+    },
+    {
+     "id": "JP-INTRO-07-X4",
+     "type": "single_choice",
+     "prompt_ko": "「とけい」의 뜻은?",
+     "options": [
+      "시계",
+      "얼굴",
+      "역",
+      "의자"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "とけい(tokei)는 '시계'입니다."
+    }
+   ]
+  },
+  "JP-INTRO-08": {
+   "examples": [
+    {
+     "japanese": "ひと",
+     "reading_romanized": "hito",
+     "meaning_ko": "사람",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "ほし",
+     "reading_romanized": "hoshi",
+     "meaning_ko": "별",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "はこ",
+     "reading_romanized": "hako",
+     "meaning_ko": "상자",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "ふく",
+     "reading_romanized": "fuku",
+     "meaning_ko": "옷",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "ひこうき",
+     "reading_romanized": "hikouki",
+     "meaning_ko": "비행기",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "へそ",
+     "reading_romanized": "heso",
+     "meaning_ko": "배꼽",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-INTRO-08-X1",
+     "type": "typing",
+     "prompt_ko": "「ひと」(사람)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "hito",
+     "accepted_answers": [
+      "hito"
+     ],
+     "explanation_ko": "ひと = hito (사람)"
+    },
+    {
+     "id": "JP-INTRO-08-X2",
+     "type": "typing",
+     "prompt_ko": "「ほし」(별)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "hoshi",
+     "accepted_answers": [
+      "hoshi",
+      "hosi"
+     ],
+     "explanation_ko": "ほし = hoshi (별)"
+    },
+    {
+     "id": "JP-INTRO-08-X3",
+     "type": "typing",
+     "prompt_ko": "「はこ」(상자)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "hako",
+     "accepted_answers": [
+      "hako"
+     ],
+     "explanation_ko": "はこ = hako (상자)"
+    },
+    {
+     "id": "JP-INTRO-08-X4",
+     "type": "single_choice",
+     "prompt_ko": "「ふく」의 뜻은?",
+     "options": [
+      "옷",
+      "사람",
+      "별",
+      "상자"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ふく(fuku)는 '옷'입니다."
+    },
+    {
+     "id": "JP-INTRO-08-X5",
+     "type": "single_choice",
+     "prompt_ko": "「ひこうき」의 뜻은?",
+     "options": [
+      "비행기",
+      "사람",
+      "별",
+      "상자"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ひこうき(hikouki)는 '비행기'입니다."
+    }
+   ]
+  },
+  "JP-INTRO-09": {
+   "examples": [
+    {
+     "japanese": "うみ",
+     "reading_romanized": "umi",
+     "meaning_ko": "바다",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "みみ",
+     "reading_romanized": "mimi",
+     "meaning_ko": "귀",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "むし",
+     "reading_romanized": "mushi",
+     "meaning_ko": "벌레",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "もも",
+     "reading_romanized": "momo",
+     "meaning_ko": "복숭아",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "あたま",
+     "reading_romanized": "atama",
+     "meaning_ko": "머리",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "なまえ",
+     "reading_romanized": "namae",
+     "meaning_ko": "이름",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-INTRO-09-X1",
+     "type": "typing",
+     "prompt_ko": "「うみ」(바다)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "umi",
+     "accepted_answers": [
+      "umi"
+     ],
+     "explanation_ko": "うみ = umi (바다)"
+    },
+    {
+     "id": "JP-INTRO-09-X2",
+     "type": "typing",
+     "prompt_ko": "「みみ」(귀)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "mimi",
+     "accepted_answers": [
+      "mimi"
+     ],
+     "explanation_ko": "みみ = mimi (귀)"
+    },
+    {
+     "id": "JP-INTRO-09-X3",
+     "type": "typing",
+     "prompt_ko": "「むし」(벌레)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "mushi",
+     "accepted_answers": [
+      "mushi",
+      "musi"
+     ],
+     "explanation_ko": "むし = mushi (벌레)"
+    },
+    {
+     "id": "JP-INTRO-09-X4",
+     "type": "single_choice",
+     "prompt_ko": "「もも」의 뜻은?",
+     "options": [
+      "복숭아",
+      "바다",
+      "귀",
+      "벌레"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "もも(momo)는 '복숭아'입니다."
+    },
+    {
+     "id": "JP-INTRO-09-X5",
+     "type": "single_choice",
+     "prompt_ko": "「あたま」의 뜻은?",
+     "options": [
+      "머리",
+      "바다",
+      "귀",
+      "벌레"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "あたま(atama)는 '머리'입니다."
+    }
+   ]
+  },
+  "JP-INTRO-10": {
+   "examples": [
+    {
+     "japanese": "ゆき",
+     "reading_romanized": "yuki",
+     "meaning_ko": "눈(내리는 눈)",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "やすみ",
+     "reading_romanized": "yasumi",
+     "meaning_ko": "휴일",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "へや",
+     "reading_romanized": "heya",
+     "meaning_ko": "방",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "ふゆ",
+     "reading_romanized": "fuyu",
+     "meaning_ko": "겨울",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "やさい",
+     "reading_romanized": "yasai",
+     "meaning_ko": "채소",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "おゆ",
+     "reading_romanized": "oyu",
+     "meaning_ko": "뜨거운 물",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-INTRO-10-X1",
+     "type": "typing",
+     "prompt_ko": "「ゆき」(눈(내리는 눈))의 읽기를 로마자로 입력하세요.",
+     "answer_text": "yuki",
+     "accepted_answers": [
+      "yuki"
+     ],
+     "explanation_ko": "ゆき = yuki (눈(내리는 눈))"
+    },
+    {
+     "id": "JP-INTRO-10-X2",
+     "type": "typing",
+     "prompt_ko": "「やすみ」(휴일)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "yasumi",
+     "accepted_answers": [
+      "yasumi"
+     ],
+     "explanation_ko": "やすみ = yasumi (휴일)"
+    },
+    {
+     "id": "JP-INTRO-10-X3",
+     "type": "typing",
+     "prompt_ko": "「へや」(방)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "heya",
+     "accepted_answers": [
+      "heya"
+     ],
+     "explanation_ko": "へや = heya (방)"
+    },
+    {
+     "id": "JP-INTRO-10-X4",
+     "type": "single_choice",
+     "prompt_ko": "「ふゆ」의 뜻은?",
+     "options": [
+      "겨울",
+      "눈(내리는 눈)",
+      "휴일",
+      "방"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ふゆ(fuyu)는 '겨울'입니다."
+    },
+    {
+     "id": "JP-INTRO-10-X5",
+     "type": "single_choice",
+     "prompt_ko": "「やさい」의 뜻은?",
+     "options": [
+      "채소",
+      "눈(내리는 눈)",
+      "휴일",
+      "방"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "やさい(yasai)는 '채소'입니다."
+    }
+   ]
+  },
+  "JP-INTRO-11": {
+   "examples": [
+    {
+     "japanese": "よる",
+     "reading_romanized": "yoru",
+     "meaning_ko": "밤",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "はる",
+     "reading_romanized": "haru",
+     "meaning_ko": "봄",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "そら",
+     "reading_romanized": "sora",
+     "meaning_ko": "하늘",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "くすり",
+     "reading_romanized": "kusuri",
+     "meaning_ko": "약",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "いろ",
+     "reading_romanized": "iro",
+     "meaning_ko": "색",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "さくら",
+     "reading_romanized": "sakura",
+     "meaning_ko": "벚꽃",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-INTRO-11-X1",
+     "type": "typing",
+     "prompt_ko": "「よる」(밤)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "yoru",
+     "accepted_answers": [
+      "yoru"
+     ],
+     "explanation_ko": "よる = yoru (밤)"
+    },
+    {
+     "id": "JP-INTRO-11-X2",
+     "type": "typing",
+     "prompt_ko": "「はる」(봄)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "haru",
+     "accepted_answers": [
+      "haru"
+     ],
+     "explanation_ko": "はる = haru (봄)"
+    },
+    {
+     "id": "JP-INTRO-11-X3",
+     "type": "typing",
+     "prompt_ko": "「そら」(하늘)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "sora",
+     "accepted_answers": [
+      "sora"
+     ],
+     "explanation_ko": "そら = sora (하늘)"
+    },
+    {
+     "id": "JP-INTRO-11-X4",
+     "type": "single_choice",
+     "prompt_ko": "「くすり」의 뜻은?",
+     "options": [
+      "약",
+      "밤",
+      "봄",
+      "하늘"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "くすり(kusuri)는 '약'입니다."
+    },
+    {
+     "id": "JP-INTRO-11-X5",
+     "type": "single_choice",
+     "prompt_ko": "「いろ」의 뜻은?",
+     "options": [
+      "색",
+      "밤",
+      "봄",
+      "하늘"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "いろ(iro)는 '색'입니다."
+    }
+   ]
+  },
+  "JP-INTRO-12": {
+   "examples": [
+    {
+     "japanese": "わたし",
+     "reading_romanized": "watashi",
+     "meaning_ko": "나",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "にわ",
+     "reading_romanized": "niwa",
+     "meaning_ko": "정원",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "みかん",
+     "reading_romanized": "mikan",
+     "meaning_ko": "귤",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "せんせい",
+     "reading_romanized": "sensei",
+     "meaning_ko": "선생님",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "てんき",
+     "reading_romanized": "tenki",
+     "meaning_ko": "날씨",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "にほん",
+     "reading_romanized": "nihon",
+     "meaning_ko": "일본",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-INTRO-12-X1",
+     "type": "typing",
+     "prompt_ko": "「わたし」(나)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "watashi",
+     "accepted_answers": [
+      "watashi",
+      "watasi"
+     ],
+     "explanation_ko": "わたし = watashi (나)"
+    },
+    {
+     "id": "JP-INTRO-12-X2",
+     "type": "typing",
+     "prompt_ko": "「にわ」(정원)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "niwa",
+     "accepted_answers": [
+      "niwa"
+     ],
+     "explanation_ko": "にわ = niwa (정원)"
+    },
+    {
+     "id": "JP-INTRO-12-X3",
+     "type": "typing",
+     "prompt_ko": "「みかん」(귤)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "mikan",
+     "accepted_answers": [
+      "mikan",
+      "mikann"
+     ],
+     "explanation_ko": "みかん = mikan (귤)"
+    },
+    {
+     "id": "JP-INTRO-12-X4",
+     "type": "single_choice",
+     "prompt_ko": "「せんせい」의 뜻은?",
+     "options": [
+      "선생님",
+      "나",
+      "정원",
+      "귤"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "せんせい(sensei)는 '선생님'입니다."
+    },
+    {
+     "id": "JP-INTRO-12-X5",
+     "type": "single_choice",
+     "prompt_ko": "「てんき」의 뜻은?",
+     "options": [
+      "날씨",
+      "나",
+      "정원",
+      "귤"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "てんき(tenki)는 '날씨'입니다."
+    }
+   ]
+  },
+  "JP-INTRO-13": {
+   "examples": [
+    {
+     "japanese": "わたしの なまえ",
+     "reading_romanized": "watashino namae",
+     "meaning_ko": "내 이름",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "あかい くるま",
+     "reading_romanized": "akai kuruma",
+     "meaning_ko": "빨간 자동차",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "ほんを よむ",
+     "reading_romanized": "hono yomu",
+     "meaning_ko": "책을 읽다",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "さくらの はな",
+     "reading_romanized": "sakurano hana",
+     "meaning_ko": "벚꽃(벚나무의 꽃)",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-INTRO-13-X1",
+     "type": "typing",
+     "prompt_ko": "「わたしの なまえ」(내 이름)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "watashino namae",
+     "accepted_answers": [
+      "watashino namae",
+      "watashinonamae"
+     ],
+     "explanation_ko": "わたしの なまえ = watashino namae (내 이름)"
+    },
+    {
+     "id": "JP-INTRO-13-X2",
+     "type": "typing",
+     "prompt_ko": "「あかい くるま」(빨간 자동차)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "akai kuruma",
+     "accepted_answers": [
+      "akai kuruma",
+      "akaikuruma"
+     ],
+     "explanation_ko": "あかい くるま = akai kuruma (빨간 자동차)"
+    },
+    {
+     "id": "JP-INTRO-13-X3",
+     "type": "typing",
+     "prompt_ko": "「ほんを よむ」(책을 읽다)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "hono yomu",
+     "accepted_answers": [
+      "hono yomu",
+      "honoyomu"
+     ],
+     "explanation_ko": "ほんを よむ = hono yomu (책을 읽다)"
+    },
+    {
+     "id": "JP-INTRO-13-X4",
+     "type": "single_choice",
+     "prompt_ko": "「さくらの はな」의 뜻은?",
+     "options": [
+      "벚꽃(벚나무의 꽃)",
+      "내 이름",
+      "빨간 자동차",
+      "책을 읽다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "さくらの はな(sakuranohana)는 '벚꽃(벚나무의 꽃)'입니다."
+    }
+   ]
+  },
+  "JP-INTRO-14": {
+   "examples": [
+    {
+     "japanese": "うみ",
+     "reading_romanized": "umi",
+     "meaning_ko": "바다",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "そら",
+     "reading_romanized": "sora",
+     "meaning_ko": "하늘",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "よる",
+     "reading_romanized": "yoru",
+     "meaning_ko": "밤",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "みかん",
+     "reading_romanized": "mikan",
+     "meaning_ko": "귤",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-INTRO-14-X1",
+     "type": "typing",
+     "prompt_ko": "「うみ」(바다)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "umi",
+     "accepted_answers": [
+      "umi"
+     ],
+     "explanation_ko": "うみ = umi (바다)"
+    },
+    {
+     "id": "JP-INTRO-14-X2",
+     "type": "typing",
+     "prompt_ko": "「そら」(하늘)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "sora",
+     "accepted_answers": [
+      "sora"
+     ],
+     "explanation_ko": "そら = sora (하늘)"
+    },
+    {
+     "id": "JP-INTRO-14-X3",
+     "type": "typing",
+     "prompt_ko": "「よる」(밤)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "yoru",
+     "accepted_answers": [
+      "yoru"
+     ],
+     "explanation_ko": "よる = yoru (밤)"
+    },
+    {
+     "id": "JP-INTRO-14-X4",
+     "type": "single_choice",
+     "prompt_ko": "「みかん」의 뜻은?",
+     "options": [
+      "귤",
+      "바다",
+      "하늘",
+      "밤"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "みかん(mikan)는 '귤'입니다."
+    }
+   ]
+  },
+  "JP-INTRO-15": {
+   "examples": [
+    {
+     "japanese": "えいが",
+     "reading_romanized": "eiga",
+     "meaning_ko": "영화",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "ごはん",
+     "reading_romanized": "gohan",
+     "meaning_ko": "밥",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "たまご",
+     "reading_romanized": "tamago",
+     "meaning_ko": "달걀",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "にほんご",
+     "reading_romanized": "nihongo",
+     "meaning_ko": "일본어",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "てがみ",
+     "reading_romanized": "tegami",
+     "meaning_ko": "편지",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "ぎんこう",
+     "reading_romanized": "ginkou",
+     "meaning_ko": "은행",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-INTRO-15-X1",
+     "type": "typing",
+     "prompt_ko": "「えいが」(영화)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "eiga",
+     "accepted_answers": [
+      "eiga"
+     ],
+     "explanation_ko": "えいが = eiga (영화)"
+    },
+    {
+     "id": "JP-INTRO-15-X2",
+     "type": "typing",
+     "prompt_ko": "「ごはん」(밥)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "gohan",
+     "accepted_answers": [
+      "gohan",
+      "gohann"
+     ],
+     "explanation_ko": "ごはん = gohan (밥)"
+    },
+    {
+     "id": "JP-INTRO-15-X3",
+     "type": "typing",
+     "prompt_ko": "「たまご」(달걀)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "tamago",
+     "accepted_answers": [
+      "tamago"
+     ],
+     "explanation_ko": "たまご = tamago (달걀)"
+    },
+    {
+     "id": "JP-INTRO-15-X4",
+     "type": "single_choice",
+     "prompt_ko": "「にほんご」의 뜻은?",
+     "options": [
+      "일본어",
+      "영화",
+      "밥",
+      "달걀"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "にほんご(nihongo)는 '일본어'입니다."
+    },
+    {
+     "id": "JP-INTRO-15-X5",
+     "type": "single_choice",
+     "prompt_ko": "「てがみ」의 뜻은?",
+     "options": [
+      "편지",
+      "영화",
+      "밥",
+      "달걀"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "てがみ(tegami)는 '편지'입니다."
+    }
+   ]
+  },
+  "JP-INTRO-16": {
+   "examples": [
+    {
+     "japanese": "ちず",
+     "reading_romanized": "chizu",
+     "meaning_ko": "지도",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "かぜ",
+     "reading_romanized": "kaze",
+     "meaning_ko": "바람·감기",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "じかん",
+     "reading_romanized": "jikan",
+     "meaning_ko": "시간",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "ぞう",
+     "reading_romanized": "zou",
+     "meaning_ko": "코끼리",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "なぜ",
+     "reading_romanized": "naze",
+     "meaning_ko": "왜",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "ひざ",
+     "reading_romanized": "hiza",
+     "meaning_ko": "무릎",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-INTRO-16-X1",
+     "type": "typing",
+     "prompt_ko": "「ちず」(지도)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "chizu",
+     "accepted_answers": [
+      "chizu",
+      "tizu"
+     ],
+     "explanation_ko": "ちず = chizu (지도)"
+    },
+    {
+     "id": "JP-INTRO-16-X2",
+     "type": "typing",
+     "prompt_ko": "「かぜ」(바람·감기)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kaze",
+     "accepted_answers": [
+      "kaze"
+     ],
+     "explanation_ko": "かぜ = kaze (바람·감기)"
+    },
+    {
+     "id": "JP-INTRO-16-X3",
+     "type": "typing",
+     "prompt_ko": "「じかん」(시간)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "jikan",
+     "accepted_answers": [
+      "jikan",
+      "zikan",
+      "jikann"
+     ],
+     "explanation_ko": "じかん = jikan (시간)"
+    },
+    {
+     "id": "JP-INTRO-16-X4",
+     "type": "single_choice",
+     "prompt_ko": "「ぞう」의 뜻은?",
+     "options": [
+      "코끼리",
+      "지도",
+      "바람·감기",
+      "시간"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ぞう(zou)는 '코끼리'입니다."
+    },
+    {
+     "id": "JP-INTRO-16-X5",
+     "type": "single_choice",
+     "prompt_ko": "「なぜ」의 뜻은?",
+     "options": [
+      "왜",
+      "지도",
+      "바람·감기",
+      "시간"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "なぜ(naze)는 '왜'입니다."
+    }
+   ]
+  },
+  "JP-INTRO-17": {
+   "examples": [
+    {
+     "japanese": "でんわ",
+     "reading_romanized": "denwa",
+     "meaning_ko": "전화",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "だいがく",
+     "reading_romanized": "daigaku",
+     "meaning_ko": "대학교",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "ともだち",
+     "reading_romanized": "tomodachi",
+     "meaning_ko": "친구",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "どこ",
+     "reading_romanized": "doko",
+     "meaning_ko": "어디",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "からだ",
+     "reading_romanized": "karada",
+     "meaning_ko": "몸",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "そで",
+     "reading_romanized": "sode",
+     "meaning_ko": "소매",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-INTRO-17-X1",
+     "type": "typing",
+     "prompt_ko": "「でんわ」(전화)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "denwa",
+     "accepted_answers": [
+      "denwa",
+      "dennwa"
+     ],
+     "explanation_ko": "でんわ = denwa (전화)"
+    },
+    {
+     "id": "JP-INTRO-17-X2",
+     "type": "typing",
+     "prompt_ko": "「だいがく」(대학교)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "daigaku",
+     "accepted_answers": [
+      "daigaku"
+     ],
+     "explanation_ko": "だいがく = daigaku (대학교)"
+    },
+    {
+     "id": "JP-INTRO-17-X3",
+     "type": "typing",
+     "prompt_ko": "「ともだち」(친구)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "tomodachi",
+     "accepted_answers": [
+      "tomodachi",
+      "tomodati"
+     ],
+     "explanation_ko": "ともだち = tomodachi (친구)"
+    },
+    {
+     "id": "JP-INTRO-17-X4",
+     "type": "single_choice",
+     "prompt_ko": "「どこ」의 뜻은?",
+     "options": [
+      "어디",
+      "전화",
+      "대학교",
+      "친구"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "どこ(doko)는 '어디'입니다."
+    },
+    {
+     "id": "JP-INTRO-17-X5",
+     "type": "single_choice",
+     "prompt_ko": "「からだ」의 뜻은?",
+     "options": [
+      "몸",
+      "전화",
+      "대학교",
+      "친구"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "からだ(karada)는 '몸'입니다."
+    }
+   ]
+  },
+  "JP-INTRO-18": {
+   "examples": [
+    {
+     "japanese": "ぼうし",
+     "reading_romanized": "boushi",
+     "meaning_ko": "모자",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "くび",
+     "reading_romanized": "kubi",
+     "meaning_ko": "목",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "へび",
+     "reading_romanized": "hebi",
+     "meaning_ko": "뱀",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "かべ",
+     "reading_romanized": "kabe",
+     "meaning_ko": "벽",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "ぶどう",
+     "reading_romanized": "budou",
+     "meaning_ko": "포도",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "たべもの",
+     "reading_romanized": "tabemono",
+     "meaning_ko": "음식",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-INTRO-18-X1",
+     "type": "typing",
+     "prompt_ko": "「ぼうし」(모자)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "boushi",
+     "accepted_answers": [
+      "boushi",
+      "bousi",
+      "boshi",
+      "bosi"
+     ],
+     "explanation_ko": "ぼうし = boushi (모자)"
+    },
+    {
+     "id": "JP-INTRO-18-X2",
+     "type": "typing",
+     "prompt_ko": "「くび」(목)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kubi",
+     "accepted_answers": [
+      "kubi"
+     ],
+     "explanation_ko": "くび = kubi (목)"
+    },
+    {
+     "id": "JP-INTRO-18-X3",
+     "type": "typing",
+     "prompt_ko": "「へび」(뱀)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "hebi",
+     "accepted_answers": [
+      "hebi"
+     ],
+     "explanation_ko": "へび = hebi (뱀)"
+    },
+    {
+     "id": "JP-INTRO-18-X4",
+     "type": "single_choice",
+     "prompt_ko": "「かべ」의 뜻은?",
+     "options": [
+      "벽",
+      "모자",
+      "목",
+      "뱀"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "かべ(kabe)는 '벽'입니다."
+    },
+    {
+     "id": "JP-INTRO-18-X5",
+     "type": "single_choice",
+     "prompt_ko": "「ぶどう」의 뜻은?",
+     "options": [
+      "포도",
+      "모자",
+      "목",
+      "뱀"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ぶどう(budou)는 '포도'입니다."
+    }
+   ]
+  },
+  "JP-INTRO-19": {
+   "examples": [
+    {
+     "japanese": "えんぴつ",
+     "reading_romanized": "enpitsu",
+     "meaning_ko": "연필",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "さんぽ",
+     "reading_romanized": "sanpo",
+     "meaning_ko": "산책",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "てんぷら",
+     "reading_romanized": "tenpura",
+     "meaning_ko": "튀김",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "しんぱい",
+     "reading_romanized": "shinpai",
+     "meaning_ko": "걱정",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "かんぱい",
+     "reading_romanized": "kanpai",
+     "meaning_ko": "건배",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "ぴかぴか",
+     "reading_romanized": "pikapika",
+     "meaning_ko": "반짝반짝",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-INTRO-19-X1",
+     "type": "typing",
+     "prompt_ko": "「えんぴつ」(연필)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "enpitsu",
+     "accepted_answers": [
+      "enpitsu",
+      "enpitu",
+      "ennpitsu"
+     ],
+     "explanation_ko": "えんぴつ = enpitsu (연필)"
+    },
+    {
+     "id": "JP-INTRO-19-X2",
+     "type": "typing",
+     "prompt_ko": "「さんぽ」(산책)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "sanpo",
+     "accepted_answers": [
+      "sanpo",
+      "sannpo"
+     ],
+     "explanation_ko": "さんぽ = sanpo (산책)"
+    },
+    {
+     "id": "JP-INTRO-19-X3",
+     "type": "typing",
+     "prompt_ko": "「てんぷら」(튀김)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "tenpura",
+     "accepted_answers": [
+      "tenpura",
+      "tennpura"
+     ],
+     "explanation_ko": "てんぷら = tenpura (튀김)"
+    },
+    {
+     "id": "JP-INTRO-19-X4",
+     "type": "single_choice",
+     "prompt_ko": "「しんぱい」의 뜻은?",
+     "options": [
+      "걱정",
+      "연필",
+      "산책",
+      "튀김"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "しんぱい(shinpai)는 '걱정'입니다."
+    },
+    {
+     "id": "JP-INTRO-19-X5",
+     "type": "single_choice",
+     "prompt_ko": "「かんぱい」의 뜻은?",
+     "options": [
+      "건배",
+      "연필",
+      "산책",
+      "튀김"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "かんぱい(kanpai)는 '건배'입니다."
+    }
+   ]
+  },
+  "JP-INTRO-20": {
+   "examples": [
+    {
+     "japanese": "ぶどう",
+     "reading_romanized": "budou",
+     "meaning_ko": "포도",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "えんぴつ",
+     "reading_romanized": "enpitsu",
+     "meaning_ko": "연필",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "ともだち",
+     "reading_romanized": "tomodachi",
+     "meaning_ko": "친구",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "ごはん",
+     "reading_romanized": "gohan",
+     "meaning_ko": "밥",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-INTRO-20-X1",
+     "type": "typing",
+     "prompt_ko": "「ぶどう」(포도)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "budou",
+     "accepted_answers": [
+      "budou",
+      "budo"
+     ],
+     "explanation_ko": "ぶどう = budou (포도)"
+    },
+    {
+     "id": "JP-INTRO-20-X2",
+     "type": "typing",
+     "prompt_ko": "「えんぴつ」(연필)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "enpitsu",
+     "accepted_answers": [
+      "enpitsu",
+      "enpitu",
+      "ennpitsu"
+     ],
+     "explanation_ko": "えんぴつ = enpitsu (연필)"
+    },
+    {
+     "id": "JP-INTRO-20-X3",
+     "type": "typing",
+     "prompt_ko": "「ともだち」(친구)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "tomodachi",
+     "accepted_answers": [
+      "tomodachi",
+      "tomodati"
+     ],
+     "explanation_ko": "ともだち = tomodachi (친구)"
+    },
+    {
+     "id": "JP-INTRO-20-X4",
+     "type": "single_choice",
+     "prompt_ko": "「ごはん」의 뜻은?",
+     "options": [
+      "밥",
+      "포도",
+      "연필",
+      "친구"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ごはん(gohan)는 '밥'입니다."
+    }
+   ]
+  },
+  "JP-INTRO-21": {
+   "examples": [
+    {
+     "japanese": "でんわ",
+     "reading_romanized": "denwa",
+     "meaning_ko": "전화",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "ぼうし",
+     "reading_romanized": "boushi",
+     "meaning_ko": "모자",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "さんぽ",
+     "reading_romanized": "sanpo",
+     "meaning_ko": "산책",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "じかん",
+     "reading_romanized": "jikan",
+     "meaning_ko": "시간",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-INTRO-21-X1",
+     "type": "typing",
+     "prompt_ko": "「でんわ」(전화)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "denwa",
+     "accepted_answers": [
+      "denwa",
+      "dennwa"
+     ],
+     "explanation_ko": "でんわ = denwa (전화)"
+    },
+    {
+     "id": "JP-INTRO-21-X2",
+     "type": "typing",
+     "prompt_ko": "「ぼうし」(모자)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "boushi",
+     "accepted_answers": [
+      "boushi",
+      "bousi",
+      "boshi",
+      "bosi"
+     ],
+     "explanation_ko": "ぼうし = boushi (모자)"
+    },
+    {
+     "id": "JP-INTRO-21-X3",
+     "type": "typing",
+     "prompt_ko": "「さんぽ」(산책)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "sanpo",
+     "accepted_answers": [
+      "sanpo",
+      "sannpo"
+     ],
+     "explanation_ko": "さんぽ = sanpo (산책)"
+    },
+    {
+     "id": "JP-INTRO-21-X4",
+     "type": "single_choice",
+     "prompt_ko": "「じかん」의 뜻은?",
+     "options": [
+      "시간",
+      "전화",
+      "모자",
+      "산책"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "じかん(jikan)는 '시간'입니다."
+    }
+   ]
+  },
+  "JP-INTRO-22": {
+   "examples": [
+    {
+     "japanese": "きゃく",
+     "reading_romanized": "kyaku",
+     "meaning_ko": "손님",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "しゅくだい",
+     "reading_romanized": "shukudai",
+     "meaning_ko": "숙제",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "しょくどう",
+     "reading_romanized": "shokudou",
+     "meaning_ko": "식당",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "ちょきん",
+     "reading_romanized": "chokin",
+     "meaning_ko": "저금",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "いしゃ",
+     "reading_romanized": "isha",
+     "meaning_ko": "의사",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "じしょ",
+     "reading_romanized": "jisho",
+     "meaning_ko": "사전",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-INTRO-22-X1",
+     "type": "typing",
+     "prompt_ko": "「きゃく」(손님)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kyaku",
+     "accepted_answers": [
+      "kyaku"
+     ],
+     "explanation_ko": "きゃく = kyaku (손님)"
+    },
+    {
+     "id": "JP-INTRO-22-X2",
+     "type": "typing",
+     "prompt_ko": "「しゅくだい」(숙제)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "shukudai",
+     "accepted_answers": [
+      "shukudai",
+      "syukudai"
+     ],
+     "explanation_ko": "しゅくだい = shukudai (숙제)"
+    },
+    {
+     "id": "JP-INTRO-22-X3",
+     "type": "typing",
+     "prompt_ko": "「しょくどう」(식당)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "shokudou",
+     "accepted_answers": [
+      "shokudou",
+      "syokudou",
+      "shokudo",
+      "syokudo"
+     ],
+     "explanation_ko": "しょくどう = shokudou (식당)"
+    },
+    {
+     "id": "JP-INTRO-22-X4",
+     "type": "single_choice",
+     "prompt_ko": "「ちょきん」의 뜻은?",
+     "options": [
+      "저금",
+      "손님",
+      "숙제",
+      "식당"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ちょきん(chokin)는 '저금'입니다."
+    },
+    {
+     "id": "JP-INTRO-22-X5",
+     "type": "single_choice",
+     "prompt_ko": "「いしゃ」의 뜻은?",
+     "options": [
+      "의사",
+      "손님",
+      "숙제",
+      "식당"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "いしゃ(isha)는 '의사'입니다."
+    }
+   ]
+  },
+  "JP-INTRO-23": {
+   "examples": [
+    {
+     "japanese": "ひゃく",
+     "reading_romanized": "hyaku",
+     "meaning_ko": "백(100)",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "こんにゃく",
+     "reading_romanized": "konnyaku",
+     "meaning_ko": "곤약",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "にゅういん",
+     "reading_romanized": "nyuuin",
+     "meaning_ko": "입원",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "にゅうがく",
+     "reading_romanized": "nyuugaku",
+     "meaning_ko": "입학",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "ひょう",
+     "reading_romanized": "hyou",
+     "meaning_ko": "표(도표)",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "ひゃくえん",
+     "reading_romanized": "hyakuen",
+     "meaning_ko": "100엔",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-INTRO-23-X1",
+     "type": "typing",
+     "prompt_ko": "「ひゃく」(백(100))의 읽기를 로마자로 입력하세요.",
+     "answer_text": "hyaku",
+     "accepted_answers": [
+      "hyaku"
+     ],
+     "explanation_ko": "ひゃく = hyaku (백(100))"
+    },
+    {
+     "id": "JP-INTRO-23-X2",
+     "type": "typing",
+     "prompt_ko": "「こんにゃく」(곤약)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "konnyaku",
+     "accepted_answers": [
+      "konnyaku",
+      "konnnyaku"
+     ],
+     "explanation_ko": "こんにゃく = konnyaku (곤약)"
+    },
+    {
+     "id": "JP-INTRO-23-X3",
+     "type": "typing",
+     "prompt_ko": "「にゅういん」(입원)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "nyuuin",
+     "accepted_answers": [
+      "nyuuin",
+      "nyuin",
+      "nyuuinn"
+     ],
+     "explanation_ko": "にゅういん = nyuuin (입원)"
+    },
+    {
+     "id": "JP-INTRO-23-X4",
+     "type": "single_choice",
+     "prompt_ko": "「にゅうがく」의 뜻은?",
+     "options": [
+      "입학",
+      "백(100)",
+      "곤약",
+      "입원"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "にゅうがく(nyuugaku)는 '입학'입니다."
+    },
+    {
+     "id": "JP-INTRO-23-X5",
+     "type": "single_choice",
+     "prompt_ko": "「ひょう」의 뜻은?",
+     "options": [
+      "표(도표)",
+      "백(100)",
+      "곤약",
+      "입원"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ひょう(hyou)는 '표(도표)'입니다."
+    }
+   ]
+  },
+  "JP-INTRO-24": {
+   "examples": [
+    {
+     "japanese": "りょこう",
+     "reading_romanized": "ryokou",
+     "meaning_ko": "여행",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "りょうり",
+     "reading_romanized": "ryouri",
+     "meaning_ko": "요리",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "りゅう",
+     "reading_romanized": "ryuu",
+     "meaning_ko": "용",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "みょうじ",
+     "reading_romanized": "myouji",
+     "meaning_ko": "성(성씨)",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "みゃく",
+     "reading_romanized": "myaku",
+     "meaning_ko": "맥박",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "りょうしん",
+     "reading_romanized": "ryoushin",
+     "meaning_ko": "부모님",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-INTRO-24-X1",
+     "type": "typing",
+     "prompt_ko": "「りょこう」(여행)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "ryokou",
+     "accepted_answers": [
+      "ryokou",
+      "ryoko"
+     ],
+     "explanation_ko": "りょこう = ryokou (여행)"
+    },
+    {
+     "id": "JP-INTRO-24-X2",
+     "type": "typing",
+     "prompt_ko": "「りょうり」(요리)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "ryouri",
+     "accepted_answers": [
+      "ryouri",
+      "ryori"
+     ],
+     "explanation_ko": "りょうり = ryouri (요리)"
+    },
+    {
+     "id": "JP-INTRO-24-X3",
+     "type": "typing",
+     "prompt_ko": "「りゅう」(용)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "ryuu",
+     "accepted_answers": [
+      "ryuu",
+      "ryu"
+     ],
+     "explanation_ko": "りゅう = ryuu (용)"
+    },
+    {
+     "id": "JP-INTRO-24-X4",
+     "type": "single_choice",
+     "prompt_ko": "「みょうじ」의 뜻은?",
+     "options": [
+      "성(성씨)",
+      "여행",
+      "요리",
+      "용"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "みょうじ(myouji)는 '성(성씨)'입니다."
+    },
+    {
+     "id": "JP-INTRO-24-X5",
+     "type": "single_choice",
+     "prompt_ko": "「みゃく」의 뜻은?",
+     "options": [
+      "맥박",
+      "여행",
+      "요리",
+      "용"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "みゃく(myaku)는 '맥박'입니다."
+    }
+   ]
+  },
+  "JP-INTRO-25": {
+   "examples": [
+    {
+     "japanese": "ぎゅうにゅう",
+     "reading_romanized": "gyuunyuu",
+     "meaning_ko": "우유",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "じゅぎょう",
+     "reading_romanized": "jugyou",
+     "meaning_ko": "수업",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "じょうず",
+     "reading_romanized": "jouzu",
+     "meaning_ko": "능숙함",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "きんぎょ",
+     "reading_romanized": "kingyo",
+     "meaning_ko": "금붕어",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "にんぎょう",
+     "reading_romanized": "ningyou",
+     "meaning_ko": "인형",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "じゅんばん",
+     "reading_romanized": "junban",
+     "meaning_ko": "순서",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-INTRO-25-X1",
+     "type": "typing",
+     "prompt_ko": "「ぎゅうにゅう」(우유)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "gyuunyuu",
+     "accepted_answers": [
+      "gyuunyuu",
+      "gyunyu"
+     ],
+     "explanation_ko": "ぎゅうにゅう = gyuunyuu (우유)"
+    },
+    {
+     "id": "JP-INTRO-25-X2",
+     "type": "typing",
+     "prompt_ko": "「じゅぎょう」(수업)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "jugyou",
+     "accepted_answers": [
+      "jugyou",
+      "zyugyou",
+      "jugyo",
+      "zyugyo"
+     ],
+     "explanation_ko": "じゅぎょう = jugyou (수업)"
+    },
+    {
+     "id": "JP-INTRO-25-X3",
+     "type": "typing",
+     "prompt_ko": "「じょうず」(능숙함)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "jouzu",
+     "accepted_answers": [
+      "jouzu",
+      "zyouzu",
+      "jozu",
+      "zyozu"
+     ],
+     "explanation_ko": "じょうず = jouzu (능숙함)"
+    },
+    {
+     "id": "JP-INTRO-25-X4",
+     "type": "single_choice",
+     "prompt_ko": "「きんぎょ」의 뜻은?",
+     "options": [
+      "금붕어",
+      "우유",
+      "수업",
+      "능숙함"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "きんぎょ(kingyo)는 '금붕어'입니다."
+    },
+    {
+     "id": "JP-INTRO-25-X5",
+     "type": "single_choice",
+     "prompt_ko": "「にんぎょう」의 뜻은?",
+     "options": [
+      "인형",
+      "우유",
+      "수업",
+      "능숙함"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "にんぎょう(ningyou)는 '인형'입니다."
+    }
+   ]
+  },
+  "JP-INTRO-26": {
+   "examples": [
+    {
+     "japanese": "びょういん",
+     "reading_romanized": "byouin",
+     "meaning_ko": "병원",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "びょうき",
+     "reading_romanized": "byouki",
+     "meaning_ko": "병",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "さんびゃく",
+     "reading_romanized": "sanbyaku",
+     "meaning_ko": "삼백(300)",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "ぴょんぴょん",
+     "reading_romanized": "pyonpyon",
+     "meaning_ko": "깡충깡충",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "びょうどう",
+     "reading_romanized": "byoudou",
+     "meaning_ko": "평등",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-INTRO-26-X1",
+     "type": "typing",
+     "prompt_ko": "「びょういん」(병원)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "byouin",
+     "accepted_answers": [
+      "byouin",
+      "byoin",
+      "byouinn"
+     ],
+     "explanation_ko": "びょういん = byouin (병원)"
+    },
+    {
+     "id": "JP-INTRO-26-X2",
+     "type": "typing",
+     "prompt_ko": "「びょうき」(병)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "byouki",
+     "accepted_answers": [
+      "byouki",
+      "byoki"
+     ],
+     "explanation_ko": "びょうき = byouki (병)"
+    },
+    {
+     "id": "JP-INTRO-26-X3",
+     "type": "typing",
+     "prompt_ko": "「さんびゃく」(삼백(300))의 읽기를 로마자로 입력하세요.",
+     "answer_text": "sanbyaku",
+     "accepted_answers": [
+      "sanbyaku",
+      "sannbyaku"
+     ],
+     "explanation_ko": "さんびゃく = sanbyaku (삼백(300))"
+    },
+    {
+     "id": "JP-INTRO-26-X4",
+     "type": "single_choice",
+     "prompt_ko": "「ぴょんぴょん」의 뜻은?",
+     "options": [
+      "깡충깡충",
+      "병원",
+      "병",
+      "삼백(300)"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ぴょんぴょん(pyonpyon)는 '깡충깡충'입니다."
+    },
+    {
+     "id": "JP-INTRO-26-X5",
+     "type": "single_choice",
+     "prompt_ko": "「びょうどう」의 뜻은?",
+     "options": [
+      "평등",
+      "병원",
+      "병",
+      "삼백(300)"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "びょうどう(byoudou)는 '평등'입니다."
+    }
+   ]
+  },
+  "JP-INTRO-27": {
+   "examples": [
+    {
+     "japanese": "がっこう",
+     "reading_romanized": "gakkou",
+     "meaning_ko": "학교",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "ざっし",
+     "reading_romanized": "zasshi",
+     "meaning_ko": "잡지",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "おとうさん",
+     "reading_romanized": "otousan",
+     "meaning_ko": "아버지",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "ちょっと",
+     "reading_romanized": "chotto",
+     "meaning_ko": "조금",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "おばあさん",
+     "reading_romanized": "obaasan",
+     "meaning_ko": "할머니",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "せっけん",
+     "reading_romanized": "sekken",
+     "meaning_ko": "비누",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-INTRO-27-X1",
+     "type": "typing",
+     "prompt_ko": "「がっこう」(학교)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "gakkou",
+     "accepted_answers": [
+      "gakkou",
+      "gakko"
+     ],
+     "explanation_ko": "がっこう = gakkou (학교)"
+    },
+    {
+     "id": "JP-INTRO-27-X2",
+     "type": "typing",
+     "prompt_ko": "「ざっし」(잡지)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "zasshi",
+     "accepted_answers": [
+      "zasshi",
+      "zassi"
+     ],
+     "explanation_ko": "ざっし = zasshi (잡지)"
+    },
+    {
+     "id": "JP-INTRO-27-X3",
+     "type": "typing",
+     "prompt_ko": "「おとうさん」(아버지)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "otousan",
+     "accepted_answers": [
+      "otousan",
+      "otosan",
+      "otousann"
+     ],
+     "explanation_ko": "おとうさん = otousan (아버지)"
+    },
+    {
+     "id": "JP-INTRO-27-X4",
+     "type": "single_choice",
+     "prompt_ko": "「ちょっと」의 뜻은?",
+     "options": [
+      "조금",
+      "학교",
+      "잡지",
+      "아버지"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ちょっと(chotto)는 '조금'입니다."
+    },
+    {
+     "id": "JP-INTRO-27-X5",
+     "type": "single_choice",
+     "prompt_ko": "「おばあさん」의 뜻은?",
+     "options": [
+      "할머니",
+      "학교",
+      "잡지",
+      "아버지"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "おばあさん(obaasan)는 '할머니'입니다."
+    }
+   ]
+  },
+  "JP-INTRO-28": {
+   "examples": [
+    {
+     "japanese": "がっこう",
+     "reading_romanized": "gakkou",
+     "meaning_ko": "학교",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "びょういん",
+     "reading_romanized": "byouin",
+     "meaning_ko": "병원",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "りょこう",
+     "reading_romanized": "ryokou",
+     "meaning_ko": "여행",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "ともだち",
+     "reading_romanized": "tomodachi",
+     "meaning_ko": "친구",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-INTRO-28-X1",
+     "type": "typing",
+     "prompt_ko": "「がっこう」(학교)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "gakkou",
+     "accepted_answers": [
+      "gakkou",
+      "gakko"
+     ],
+     "explanation_ko": "がっこう = gakkou (학교)"
+    },
+    {
+     "id": "JP-INTRO-28-X2",
+     "type": "typing",
+     "prompt_ko": "「びょういん」(병원)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "byouin",
+     "accepted_answers": [
+      "byouin",
+      "byoin",
+      "byouinn"
+     ],
+     "explanation_ko": "びょういん = byouin (병원)"
+    },
+    {
+     "id": "JP-INTRO-28-X3",
+     "type": "typing",
+     "prompt_ko": "「りょこう」(여행)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "ryokou",
+     "accepted_answers": [
+      "ryokou",
+      "ryoko"
+     ],
+     "explanation_ko": "りょこう = ryokou (여행)"
+    },
+    {
+     "id": "JP-INTRO-28-X4",
+     "type": "single_choice",
+     "prompt_ko": "「ともだち」의 뜻은?",
+     "options": [
+      "친구",
+      "학교",
+      "병원",
+      "여행"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ともだち(tomodachi)는 '친구'입니다."
+    }
+   ]
+  },
+  "JP-INTRO-29": {
+   "examples": [],
+   "exercises": [
+    {
+     "id": "JP-INTRO-29-X1",
+     "type": "single_choice",
+     "prompt_ko": "가타카나 「ア」와 같은 소리의 히라가나는?",
+     "options": [
+      "あ",
+      "い",
+      "う",
+      "え"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ア와 あ는 같은 소리(a)입니다."
+    },
+    {
+     "id": "JP-INTRO-29-X2",
+     "type": "single_choice",
+     "prompt_ko": "가타카나 「イ」와 같은 소리의 히라가나는?",
+     "options": [
+      "い",
+      "あ",
+      "う",
+      "え"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "イ와 い는 같은 소리(i)입니다."
+    },
+    {
+     "id": "JP-INTRO-29-X3",
+     "type": "single_choice",
+     "prompt_ko": "가타카나 「ウ」와 같은 소리의 히라가나는?",
+     "options": [
+      "う",
+      "あ",
+      "い",
+      "え"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ウ와 う는 같은 소리(u)입니다."
+    },
+    {
+     "id": "JP-INTRO-29-X4",
+     "type": "single_choice",
+     "prompt_ko": "가타카나 「エ」와 같은 소리의 히라가나는?",
+     "options": [
+      "え",
+      "あ",
+      "い",
+      "う"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "エ와 え는 같은 소리(e)입니다."
+    },
+    {
+     "id": "JP-INTRO-29-X5",
+     "type": "single_choice",
+     "prompt_ko": "가타카나 「オ」와 같은 소리의 히라가나는?",
+     "options": [
+      "お",
+      "あ",
+      "い",
+      "う"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "オ와 お는 같은 소리(o)입니다."
+    }
+   ]
+  },
+  "JP-INTRO-30": {
+   "examples": [
+    {
+     "japanese": "カカオ",
+     "reading_romanized": "kakao",
+     "meaning_ko": "카카오",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "エコ",
+     "reading_romanized": "eko",
+     "meaning_ko": "에코(환경)",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "イカ",
+     "reading_romanized": "ika",
+     "meaning_ko": "오징어",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "コア",
+     "reading_romanized": "koa",
+     "meaning_ko": "코어(중심)",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-INTRO-30-X1",
+     "type": "typing",
+     "prompt_ko": "「カカオ」(카카오)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kakao",
+     "accepted_answers": [
+      "kakao"
+     ],
+     "explanation_ko": "カカオ = kakao (카카오)"
+    },
+    {
+     "id": "JP-INTRO-30-X2",
+     "type": "typing",
+     "prompt_ko": "「エコ」(에코(환경))의 읽기를 로마자로 입력하세요.",
+     "answer_text": "eko",
+     "accepted_answers": [
+      "eko"
+     ],
+     "explanation_ko": "エコ = eko (에코(환경))"
+    },
+    {
+     "id": "JP-INTRO-30-X3",
+     "type": "typing",
+     "prompt_ko": "「イカ」(오징어)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "ika",
+     "accepted_answers": [
+      "ika"
+     ],
+     "explanation_ko": "イカ = ika (오징어)"
+    },
+    {
+     "id": "JP-INTRO-30-X4",
+     "type": "single_choice",
+     "prompt_ko": "「コア」의 뜻은?",
+     "options": [
+      "코어(중심)",
+      "카카오",
+      "에코(환경)",
+      "오징어"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "コア(koa)는 '코어(중심)'입니다."
+    }
+   ]
+  },
+  "JP-INTRO-31": {
+   "examples": [
+    {
+     "japanese": "スキー",
+     "reading_romanized": "sukii",
+     "meaning_ko": "스키",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "ソース",
+     "reading_romanized": "soosu",
+     "meaning_ko": "소스",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "スイカ",
+     "reading_romanized": "suika",
+     "meaning_ko": "수박",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "ケース",
+     "reading_romanized": "keesu",
+     "meaning_ko": "케이스",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "シーソー",
+     "reading_romanized": "shiisoo",
+     "meaning_ko": "시소",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-INTRO-31-X1",
+     "type": "typing",
+     "prompt_ko": "「スキー」(스키)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "sukii",
+     "accepted_answers": [
+      "sukii",
+      "suki"
+     ],
+     "explanation_ko": "スキー = sukii (스키)"
+    },
+    {
+     "id": "JP-INTRO-31-X2",
+     "type": "typing",
+     "prompt_ko": "「ソース」(소스)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "soosu",
+     "accepted_answers": [
+      "soosu",
+      "sosu"
+     ],
+     "explanation_ko": "ソース = soosu (소스)"
+    },
+    {
+     "id": "JP-INTRO-31-X3",
+     "type": "typing",
+     "prompt_ko": "「スイカ」(수박)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "suika",
+     "accepted_answers": [
+      "suika"
+     ],
+     "explanation_ko": "スイカ = suika (수박)"
+    },
+    {
+     "id": "JP-INTRO-31-X4",
+     "type": "single_choice",
+     "prompt_ko": "「ケース」의 뜻은?",
+     "options": [
+      "케이스",
+      "스키",
+      "소스",
+      "수박"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ケース(keesu)는 '케이스'입니다."
+    },
+    {
+     "id": "JP-INTRO-31-X5",
+     "type": "single_choice",
+     "prompt_ko": "「シーソー」의 뜻은?",
+     "options": [
+      "시소",
+      "스키",
+      "소스",
+      "수박"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "シーソー(shiisoo)는 '시소'입니다."
+    }
+   ]
+  }
+ }
+}

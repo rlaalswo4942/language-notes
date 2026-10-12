@@ -1,0 +1,867 @@
+{
+ "course": "PRE-A1",
+ "note": "기존 레슨 보강(15분 기준). 원본 레슨은 그대로 두고 화면에서 합쳐 표시. 상태: AI 초안",
+ "review_status": "draft",
+ "lessons": {
+  "PRE-001": {
+   "vocabulary": [
+    {
+     "word": "we",
+     "part_of_speech": "대명사",
+     "meaning_ko": "우리",
+     "example_en": "We are friends.",
+     "example_ko": "우리는 친구예요."
+    },
+    {
+     "word": "they",
+     "part_of_speech": "대명사",
+     "meaning_ko": "그들",
+     "example_en": "They are students.",
+     "example_ko": "그들은 학생이에요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I am Mina.",
+     "ko": "나는 미나예요."
+    },
+    {
+     "en": "You are here.",
+     "ko": "너는 여기 있어요."
+    },
+    {
+     "en": "He is a student.",
+     "ko": "그는 학생이에요."
+    },
+    {
+     "en": "She is a teacher.",
+     "ko": "그녀는 선생님이에요."
+    },
+    {
+     "en": "We are friends.",
+     "ko": "우리는 친구예요."
+    },
+    {
+     "en": "They are students.",
+     "ko": "그들은 학생이에요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "‘그녀’를 나타내는 영어 단어는?",
+     "choices": [
+      "she",
+      "he",
+      "you",
+      "I"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "she는 여성 한 사람을 가리켜요.",
+     "error_tag": "pronoun",
+     "id": "PRE-001-X1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "빈칸: ___ are friends. (우리는 친구예요.)",
+     "choices": [
+      "We",
+      "He",
+      "She",
+      "I"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘우리’는 we입니다.",
+     "error_tag": "pronoun",
+     "id": "PRE-001-X2"
+    },
+    {
+     "type": "typing",
+     "stem": "‘그’(남성 한 사람)를 영어 한 단어로 쓰세요.",
+     "answer_text": "he",
+     "accepted_answers": [
+      "he"
+     ],
+     "explanation_ko": "he는 남성 한 사람을 가리켜요.",
+     "error_tag": "pronoun",
+     "id": "PRE-001-X3"
+    }
+   ]
+  },
+  "PRE-002": {
+   "vocabulary": [
+    {
+     "word": "sad",
+     "part_of_speech": "형용사",
+     "meaning_ko": "슬픈",
+     "example_en": "She is sad.",
+     "example_ko": "그녀는 슬퍼요."
+    },
+    {
+     "word": "sick",
+     "part_of_speech": "형용사",
+     "meaning_ko": "아픈",
+     "example_en": "He is sick.",
+     "example_ko": "그는 아파요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I am happy.",
+     "ko": "나는 행복해요."
+    },
+    {
+     "en": "You are tired.",
+     "ko": "너는 피곤해요."
+    },
+    {
+     "en": "She is sad.",
+     "ko": "그녀는 슬퍼요."
+    },
+    {
+     "en": "He is sick.",
+     "ko": "그는 아파요."
+    },
+    {
+     "en": "We are ready.",
+     "ko": "우리는 준비됐어요."
+    },
+    {
+     "en": "They are happy.",
+     "ko": "그들은 행복해요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "We ___ busy.",
+     "choices": [
+      "are",
+      "am",
+      "is"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "we 뒤에는 are를 씁니다.",
+     "error_tag": "be_verb",
+     "id": "PRE-002-X1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "She ___ sad.",
+     "choices": [
+      "is",
+      "are",
+      "am"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "she 뒤에는 is를 씁니다.",
+     "error_tag": "be_verb",
+     "id": "PRE-002-X2"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 be동사를 쓰세요: I ___ tired.",
+     "answer_text": "am",
+     "accepted_answers": [
+      "am"
+     ],
+     "explanation_ko": "I 뒤에는 am을 씁니다.",
+     "error_tag": "be_verb",
+     "id": "PRE-002-X3"
+    }
+   ]
+  },
+  "PRE-003": {
+   "vocabulary": [
+    {
+     "word": "sleepy",
+     "part_of_speech": "형용사",
+     "meaning_ko": "졸린",
+     "example_en": "I am not sleepy.",
+     "example_ko": "나는 졸리지 않아요."
+    },
+    {
+     "word": "angry",
+     "part_of_speech": "형용사",
+     "meaning_ko": "화난",
+     "example_en": "We are not angry.",
+     "example_ko": "우리는 화나지 않았어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I am not hungry.",
+     "ko": "나는 배고프지 않아요."
+    },
+    {
+     "en": "She is not cold.",
+     "ko": "그녀는 춥지 않아요."
+    },
+    {
+     "en": "He is not late.",
+     "ko": "그는 늦지 않았어요."
+    },
+    {
+     "en": "You are not sleepy.",
+     "ko": "너는 졸리지 않아요."
+    },
+    {
+     "en": "We are not angry.",
+     "ko": "우리는 화나지 않았어요."
+    },
+    {
+     "en": "He isn't late.",
+     "ko": "그는 늦지 않았어요. (is not = isn't)"
+    },
+    {
+     "en": "They aren't tired.",
+     "ko": "그들은 피곤하지 않아요. (are not = aren't)"
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "‘나는 졸리지 않아요.’에 맞는 문장은?",
+     "choices": [
+      "I am not sleepy.",
+      "I not am sleepy.",
+      "I is not sleepy.",
+      "Not I am sleepy."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "not은 be동사 바로 뒤에 옵니다.",
+     "error_tag": "negation",
+     "id": "PRE-003-X1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "is not의 줄임말은?",
+     "choices": [
+      "isn't",
+      "isnot",
+      "is'nt",
+      "isn"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "is not은 isn't로 줄여 씁니다.",
+     "error_tag": "contraction",
+     "id": "PRE-003-X2"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 be동사를 쓰세요: They ___ not late.",
+     "answer_text": "are",
+     "accepted_answers": [
+      "are"
+     ],
+     "explanation_ko": "they 뒤에는 are를 씁니다.",
+     "error_tag": "be_verb",
+     "id": "PRE-003-X3"
+    }
+   ]
+  },
+  "PRE-004": {
+   "vocabulary": [
+    {
+     "word": "here",
+     "part_of_speech": "부사",
+     "meaning_ko": "여기",
+     "example_en": "Is she here?",
+     "example_ko": "그녀는 여기 있니?"
+    },
+    {
+     "word": "now",
+     "part_of_speech": "부사",
+     "meaning_ko": "지금",
+     "example_en": "Are you busy now?",
+     "example_ko": "너 지금 바쁘니?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Are you okay?",
+     "ko": "너 괜찮아?"
+    },
+    {
+     "en": "Yes, I am.",
+     "ko": "응, 그래."
+    },
+    {
+     "en": "No, I am not.",
+     "ko": "아니, 그렇지 않아."
+    },
+    {
+     "en": "Is she here?",
+     "ko": "그녀는 여기 있니?"
+    },
+    {
+     "en": "Are they at home?",
+     "ko": "그들은 집에 있니?"
+    },
+    {
+     "en": "Am I late?",
+     "ko": "내가 늦었니?"
+    },
+    {
+     "en": "Are you busy now?",
+     "ko": "너 지금 바쁘니?"
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "Is he busy?에 부정으로 답하기",
+     "choices": [
+      "No, he isn't.",
+      "No, he is.",
+      "Yes, he isn't.",
+      "No, he aren't."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "부정 대답은 No, he isn't.입니다.",
+     "error_tag": "short_answer",
+     "id": "PRE-004-X1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "올바른 질문은?",
+     "choices": [
+      "Are you hungry?",
+      "Is you hungry?",
+      "Am you hungry?",
+      "Are hungry you?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "you와 함께 쓰는 be동사는 are이고, 질문은 be동사가 맨 앞에 옵니다.",
+     "error_tag": "word_order",
+     "id": "PRE-004-X2"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 단어를 쓰세요: ___ I late? (내가 늦었니?)",
+     "answer_text": "am",
+     "accepted_answers": [
+      "am"
+     ],
+     "explanation_ko": "I와 함께 쓰는 be동사는 am입니다.",
+     "error_tag": "be_verb",
+     "id": "PRE-004-X3"
+    }
+   ]
+  },
+  "PRE-005": {
+   "vocabulary": [
+    {
+     "word": "bus",
+     "part_of_speech": "명사",
+     "meaning_ko": "버스",
+     "example_en": "Two buses are here.",
+     "example_ko": "버스 두 대가 여기 있어요."
+    },
+    {
+     "word": "baby",
+     "part_of_speech": "명사",
+     "meaning_ko": "아기",
+     "example_en": "The babies are sleepy.",
+     "example_ko": "아기들이 졸려요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "One desk, two desks.",
+     "ko": "책상 하나, 책상 둘."
+    },
+    {
+     "en": "One bus, two buses.",
+     "ko": "버스 한 대, 버스 두 대."
+    },
+    {
+     "en": "One baby, two babies.",
+     "ko": "아기 하나, 아기 둘."
+    },
+    {
+     "en": "One child, two children.",
+     "ko": "아이 하나, 아이 둘."
+    },
+    {
+     "en": "I have three books.",
+     "ko": "나는 책이 세 권 있어요."
+    },
+    {
+     "en": "The boxes are here.",
+     "ko": "상자들이 여기 있어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "baby의 복수형은?",
+     "choices": [
+      "babies",
+      "babys",
+      "babyes",
+      "baby"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "자음+y로 끝나면 y를 i로 바꾸고 -es를 붙여요.",
+     "error_tag": "plural",
+     "id": "PRE-005-X1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "bus의 복수형은?",
+     "choices": [
+      "buses",
+      "buss",
+      "busies",
+      "bus"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "s로 끝나는 명사는 -es를 붙여요.",
+     "error_tag": "plural",
+     "id": "PRE-005-X2"
+    },
+    {
+     "type": "typing",
+     "stem": "desk의 복수형을 쓰세요.",
+     "answer_text": "desks",
+     "accepted_answers": [
+      "desks"
+     ],
+     "explanation_ko": "대부분의 명사는 -s를 붙여요.",
+     "error_tag": "plural",
+     "id": "PRE-005-X3"
+    }
+   ]
+  },
+  "PRE-006": {
+   "vocabulary": [
+    {
+     "word": "hour",
+     "part_of_speech": "명사",
+     "meaning_ko": "시간(1시간)",
+     "example_en": "It takes an hour.",
+     "example_ko": "한 시간 걸려요."
+    },
+    {
+     "word": "umbrella",
+     "part_of_speech": "명사",
+     "meaning_ko": "우산",
+     "example_en": "I need an umbrella.",
+     "example_ko": "나는 우산이 필요해요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "It is an egg.",
+     "ko": "그것은 달걀이에요."
+    },
+    {
+     "en": "He has a dog.",
+     "ko": "그는 개가 있어요."
+    },
+    {
+     "en": "I need an umbrella.",
+     "ko": "나는 우산이 필요해요."
+    },
+    {
+     "en": "It takes an hour.",
+     "ko": "한 시간 걸려요. (h가 소리 나지 않아 an)"
+    },
+    {
+     "en": "He is a university student.",
+     "ko": "그는 대학생이에요. (u가 ‘유’ 소리라 a)"
+    },
+    {
+     "en": "She has an orange.",
+     "ko": "그녀는 오렌지가 하나 있어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "___ umbrella",
+     "choices": [
+      "an",
+      "a"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "umbrella는 모음 소리로 시작해서 an을 씁니다.",
+     "error_tag": "article",
+     "id": "PRE-006-X1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "___ hour (h가 소리 나지 않음)",
+     "choices": [
+      "an",
+      "a"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "hour는 모음 소리로 시작해서 an을 씁니다.",
+     "error_tag": "article",
+     "id": "PRE-006-X2"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 a 또는 an을 쓰세요: She is ___ student.",
+     "answer_text": "a",
+     "accepted_answers": [
+      "a"
+     ],
+     "explanation_ko": "student는 자음 소리로 시작해서 a를 씁니다.",
+     "error_tag": "article",
+     "id": "PRE-006-X3"
+    }
+   ]
+  },
+  "PRE-007": {
+   "vocabulary": [
+    {
+     "word": "family",
+     "part_of_speech": "명사",
+     "meaning_ko": "가족",
+     "example_en": "We are a family.",
+     "example_ko": "우리는 가족이에요."
+    },
+    {
+     "word": "class",
+     "part_of_speech": "명사",
+     "meaning_ko": "수업·반",
+     "example_en": "We are in the same class.",
+     "example_ko": "우리는 같은 반이에요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Are you a student?",
+     "ko": "너는 학생이니?"
+    },
+    {
+     "en": "Yes, I am a student.",
+     "ko": "응, 나는 학생이야."
+    },
+    {
+     "en": "He is not a teacher.",
+     "ko": "그는 선생님이 아니에요."
+    },
+    {
+     "en": "We are in the same class.",
+     "ko": "우리는 같은 반이에요."
+    },
+    {
+     "en": "They are friends.",
+     "ko": "그들은 친구예요."
+    },
+    {
+     "en": "I have a question.",
+     "ko": "나는 질문이 하나 있어요."
+    },
+    {
+     "en": "An apple and two eggs.",
+     "ko": "사과 하나와 달걀 두 개."
+    },
+    {
+     "en": "We are a family.",
+     "ko": "우리는 가족이에요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "‘그들은 학생이 아니에요.’에 맞는 문장은?",
+     "choices": [
+      "They are not students.",
+      "They is not students.",
+      "They are not student.",
+      "They not are students."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "they + are + not, 여러 명이므로 students.",
+     "error_tag": "negation",
+     "id": "PRE-007-X1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "question의 복수형은?",
+     "choices": [
+      "questions",
+      "questiones",
+      "questionies",
+      "question"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "대부분의 명사는 -s를 붙여요.",
+     "error_tag": "plural",
+     "id": "PRE-007-X2"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 단어를 쓰세요: ___ you a teacher? (너는 선생님이니?)",
+     "answer_text": "are",
+     "accepted_answers": [
+      "are"
+     ],
+     "explanation_ko": "you와 함께 쓰는 be동사는 are입니다.",
+     "error_tag": "be_verb",
+     "id": "PRE-007-X3"
+    }
+   ]
+  },
+  "PRE-008": {
+   "vocabulary": [
+    {
+     "word": "table",
+     "part_of_speech": "명사",
+     "meaning_ko": "탁자",
+     "example_en": "This is a table.",
+     "example_ko": "이것은 탁자예요."
+    },
+    {
+     "word": "window",
+     "part_of_speech": "명사",
+     "meaning_ko": "창문",
+     "example_en": "That is a window.",
+     "example_ko": "저것은 창문이에요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "This is a book.",
+     "ko": "이것은 책이에요."
+    },
+    {
+     "en": "That is a window.",
+     "ko": "저것은 창문이에요."
+    },
+    {
+     "en": "Is this a cup?",
+     "ko": "이것은 컵이니?"
+    },
+    {
+     "en": "Is that a table?",
+     "ko": "저것은 탁자니?"
+    },
+    {
+     "en": "This is not a chair.",
+     "ko": "이것은 의자가 아니에요."
+    },
+    {
+     "en": "That is an apple.",
+     "ko": "저것은 사과예요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "‘이것은 탁자예요.’에 맞는 문장은?",
+     "choices": [
+      "This is a table.",
+      "That is a table.",
+      "This are a table.",
+      "These is a table."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "가까운 것 하나는 this, be동사는 is.",
+     "error_tag": "demonstrative",
+     "id": "PRE-008-X1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Is that a window?에 ‘응’으로 답하기",
+     "choices": [
+      "Yes, it is.",
+      "Yes, that are.",
+      "Yes, it are.",
+      "Yes, this am."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "this/that 질문에는 보통 it으로 답해요.",
+     "error_tag": "short_answer",
+     "id": "PRE-008-X2"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 단어를 쓰세요: ___ is a cup. (멀리 있는 컵 하나)",
+     "answer_text": "that",
+     "accepted_answers": [
+      "that"
+     ],
+     "explanation_ko": "멀리 있는 것 하나는 that입니다.",
+     "error_tag": "demonstrative",
+     "id": "PRE-008-X3"
+    }
+   ]
+  },
+  "PRE-009": {
+   "vocabulary": [
+    {
+     "word": "pencil",
+     "part_of_speech": "명사",
+     "meaning_ko": "연필",
+     "example_en": "These are pencils.",
+     "example_ko": "이것들은 연필이에요."
+    },
+    {
+     "word": "tree",
+     "part_of_speech": "명사",
+     "meaning_ko": "나무",
+     "example_en": "Those are trees.",
+     "example_ko": "저것들은 나무예요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "These are pencils.",
+     "ko": "이것들은 연필이에요."
+    },
+    {
+     "en": "Those are trees.",
+     "ko": "저것들은 나무예요."
+    },
+    {
+     "en": "Are these shoes new?",
+     "ko": "이 신발들은 새것이니?"
+    },
+    {
+     "en": "Those are not bags.",
+     "ko": "저것들은 가방이 아니에요."
+    },
+    {
+     "en": "These books are heavy.",
+     "ko": "이 책들은 무거워요."
+    },
+    {
+     "en": "Those doors are open.",
+     "ko": "저 문들은 열려 있어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "that의 복수형은?",
+     "choices": [
+      "those",
+      "thats",
+      "these",
+      "this"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "that → those (멀리 있는 여러 개).",
+     "error_tag": "demonstrative",
+     "id": "PRE-009-X1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "‘저것들은 나무예요.’에 맞는 문장은?",
+     "choices": [
+      "Those are trees.",
+      "Those is trees.",
+      "That are trees.",
+      "These are tree."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "those + are + 복수 명사.",
+     "error_tag": "demonstrative",
+     "id": "PRE-009-X2"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 단어를 쓰세요: ___ are pencils. (가까이 있는 연필 여러 자루)",
+     "answer_text": "these",
+     "accepted_answers": [
+      "these"
+     ],
+     "explanation_ko": "가까운 여러 개는 these입니다.",
+     "error_tag": "demonstrative",
+     "id": "PRE-009-X3"
+    }
+   ]
+  },
+  "PRE-010": {
+   "vocabulary": [
+    {
+     "word": "his",
+     "part_of_speech": "한정사",
+     "meaning_ko": "그의",
+     "example_en": "His phone is new.",
+     "example_ko": "그의 전화기는 새것이에요."
+    },
+    {
+     "word": "her",
+     "part_of_speech": "한정사",
+     "meaning_ko": "그녀의",
+     "example_en": "Her key is in the box.",
+     "example_ko": "그녀의 열쇠는 상자 안에 있어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "My name is Jun.",
+     "ko": "내 이름은 준이에요."
+    },
+    {
+     "en": "Your bag is here.",
+     "ko": "네 가방은 여기 있어요."
+    },
+    {
+     "en": "His phone is new.",
+     "ko": "그의 전화기는 새것이에요."
+    },
+    {
+     "en": "Her key is in the box.",
+     "ko": "그녀의 열쇠는 상자 안에 있어요."
+    },
+    {
+     "en": "Is this your pen?",
+     "ko": "이것은 네 펜이니?"
+    },
+    {
+     "en": "That is not my cup.",
+     "ko": "저것은 내 컵이 아니에요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "She has a key. It is ___ key.",
+     "choices": [
+      "her",
+      "his",
+      "my",
+      "your"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "그녀(she)의 것은 her.",
+     "error_tag": "possessive",
+     "id": "PRE-010-X1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "‘그의 이름’을 영어로?",
+     "choices": [
+      "his name",
+      "he name",
+      "him name",
+      "her name"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "he의 소유격은 his.",
+     "error_tag": "possessive",
+     "id": "PRE-010-X2"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 단어를 쓰세요: Is this ___ phone? (너의 전화기)",
+     "answer_text": "your",
+     "accepted_answers": [
+      "your"
+     ],
+     "explanation_ko": "you의 소유격은 your.",
+     "error_tag": "possessive",
+     "id": "PRE-010-X3"
+    }
+   ]
+  }
+ }
+}

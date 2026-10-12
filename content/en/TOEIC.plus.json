@@ -1,0 +1,92 @@
+{
+ "course": "TOEIC",
+ "note": "기존 레슨 보강(15분 기준). 원본 레슨은 그대로 두고 화면에서 합쳐 표시. 상태: AI 초안",
+ "review_status": "draft",
+ "lessons": {
+  "TOEIC-001": {
+   "vocabulary": [
+    {
+     "word": "client",
+     "part_of_speech": "명사",
+     "meaning_ko": "고객",
+     "example_en": "The client arrives at 10 a.m.",
+     "example_ko": "고객은 오전 10시에 도착해요."
+    },
+    {
+     "word": "deadline",
+     "part_of_speech": "명사",
+     "meaning_ko": "마감일",
+     "example_en": "The deadline is next Friday.",
+     "example_ko": "마감일은 다음 주 금요일이에요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The client arrives at 10 a.m.",
+     "ko": "고객은 오전 10시에 도착해요."
+    },
+    {
+     "en": "Our manager reviews every report.",
+     "ko": "우리 매니저는 모든 보고서를 검토해요."
+    },
+    {
+     "en": "The deadline is next Friday.",
+     "ko": "마감일은 다음 주 금요일이에요."
+    },
+    {
+     "en": "The new schedule starts in May.",
+     "ko": "새 일정은 5월에 시작해요."
+    },
+    {
+     "en": "Each employee has an ID card.",
+     "ko": "각 직원은 사원증이 있어요."
+    },
+    {
+     "en": "The reports are on the manager's desk.",
+     "ko": "보고서들은 매니저 책상 위에 있어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "Each employee ___ a parking card.",
+     "choices": [
+      "has",
+      "have",
+      "having",
+      "to have"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "each + 단수 명사는 단수 동사 has.",
+     "error_tag": "subject_verb",
+     "id": "TOEIC-001-X1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "The reports ___ ready for the meeting.",
+     "choices": [
+      "are",
+      "is",
+      "be",
+      "being"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "복수 주어 reports에는 are.",
+     "error_tag": "subject_verb",
+     "id": "TOEIC-001-X2"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 arrive의 알맞은 형태를 쓰세요: The client ___ at 10 a.m.",
+     "answer_text": "arrives",
+     "accepted_answers": [
+      "arrives"
+     ],
+     "explanation_ko": "3인칭 단수 현재는 -s를 붙여요.",
+     "error_tag": "subject_verb",
+     "id": "TOEIC-001-X3"
+    }
+   ]
+  }
+ }
+}

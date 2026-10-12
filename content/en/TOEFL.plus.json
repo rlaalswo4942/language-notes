@@ -1,0 +1,93 @@
+{
+ "course": "TOEFL",
+ "note": "기존 레슨 보강(15분 기준). 원본 레슨은 그대로 두고 화면에서 합쳐 표시. 상태: AI 초안",
+ "review_status": "draft",
+ "lessons": {
+  "TOEFL-001": {
+   "vocabulary": [
+    {
+     "word": "research",
+     "part_of_speech": "명사",
+     "meaning_ko": "연구",
+     "example_en": "The research topic is interesting.",
+     "example_ko": "연구 주제가 흥미로워요."
+    },
+    {
+     "word": "explain",
+     "part_of_speech": "동사",
+     "meaning_ko": "설명하다",
+     "example_en": "The professor explains the main idea.",
+     "example_ko": "교수는 중심 생각을 설명해요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The professor explains the main idea.",
+     "ko": "교수는 중심 생각을 설명해요."
+    },
+    {
+     "en": "Students read articles before class.",
+     "ko": "학생들은 수업 전에 글을 읽어요."
+    },
+    {
+     "en": "We meet in the library after lunch.",
+     "ko": "우리는 점심 후에 도서관에서 만나요."
+    },
+    {
+     "en": "The research topic is climate change.",
+     "ko": "연구 주제는 기후 변화예요."
+    },
+    {
+     "en": "Many students discuss the reading together.",
+     "ko": "많은 학생들이 읽기 자료를 함께 토론해요."
+    },
+    {
+     "en": "She asks a question about the lecture.",
+     "ko": "그녀는 강의에 대해 질문해요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "자연스러운 어순은?",
+     "choices": [
+      "We meet in the library.",
+      "We in the library meet.",
+      "Meet we in the library.",
+      "In meet the library we."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "주어 + 동사 + 장소 순서.",
+     "error_tag": "word_order",
+     "id": "TOEFL-001-X1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "‘교수는 중심 생각을 설명해요.’에 맞는 문장은?",
+     "choices": [
+      "The professor explains the main idea.",
+      "The professor explain the main idea.",
+      "The professor the main idea explains.",
+      "Explains the professor the main idea."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "3인칭 단수 주어 + explains + 목적어.",
+     "error_tag": "word_order",
+     "id": "TOEFL-001-X2"
+    },
+    {
+     "type": "typing",
+     "stem": "단어를 배열해 문장을 쓰세요: (the / students / topic / discuss)",
+     "answer_text": "Students discuss the topic.",
+     "accepted_answers": [
+      "Students discuss the topic.",
+      "The students discuss the topic."
+     ],
+     "explanation_ko": "주어(Students) + 동사(discuss) + 목적어(the topic).",
+     "error_tag": "word_order",
+     "id": "TOEFL-001-X3"
+    }
+   ]
+  }
+ }
+}

@@ -11,6 +11,7 @@
   const SITE = window.SITE, LANGS = window.LANGS;
   const LG = {}; LANGS.forEach(l => (LG[l.id] = l));
   const main = document.getElementById("main"), crumb = document.getElementById("crumb"), tabbar = document.getElementById("tabbar");
+  const DAILY = SITE.daily || { minutes: 15, reviewCap: 15, plan: "" }; // 하루 15분 고정
   const OFF = [1, 3, 7, 14, 30, 60, 120];     // 복습 간격(일) — 설계서의 초기값 D+1·3·7·14·30, 이후 연장
   const MAX_S = OFF.length - 1;
   const DATA = {};                              // 언어별 { courses:{과정:[레슨]}, lessons:{id:레슨}, items:{sid:카드}, qs:{qid:{q,L}}, sources:[] }
@@ -61,7 +62,7 @@
   const put = (k, lang, v) => Store.set(k + ":" + lang, v);
   function prefs(lang) {
     const p = get("prefs", lang, {}) || {}, L = LG[lang];
-    return { course: p.course || L.courses[0].id, min: L.minutes.includes(p.min) ? p.min : L.defMin, romaji: p.romaji != null ? p.romaji : true, furi: p.furi != null ? p.furi : true };
+    return { course: p.course || L.courses[0].id, romaji: p.romaji != null ? p.romaji : true, furi: p.furi != null ? p.furi : true };
   }
   function setPref(lang, k, v) { const p = get("prefs", lang, {}) || {}; p[k] = v; put("prefs", lang, p); }
   function logDay(lang, d, fn) { const g = get("log", lang, {}) || {}; const e = g[d] || { L: [], rv: 0, ok: 0, n: 0 }; fn(e); g[d] = e; put("log", lang, g); }
@@ -79,11 +80,14 @@
     D.ready = (async () => {
       const getJ = u => fetch(u, { cache: "no-cache" }).then(r => (r.ok ? r.json() : null)).catch(() => null);
       const idx = await getJ(`content/${lang}/index.json`), has = idx && idx.courses ? idx.courses : null; // 과정 목록 (tools/validate.py 가 만듦)
-      const [files, srcs] = await Promise.all([Promise.all(LG[lang].courses.map(c => !has || has[c.id] ? getJ(`content/${lang}/${c.id}.json`) : null)), !idx || idx.sources ? getJ(`content/${lang}/sources.json`) : null]);
+      const plusSet = new Set((idx && idx.plus) || []);
+      const [files, srcs, pluses] = await Promise.all([Promise.all(LG[lang].courses.map(c => !has || has[c.id] ? getJ(`content/${lang}/${c.id}.json`) : null)), !idx || idx.sources ? getJ(`content/${lang}/sources.json`) : null,
+        Promise.all(LG[lang].courses.map(c => plusSet.has(c.id) ? getJ(`content/${lang}/${c.id}.plus.json`) : null))]);
       const seen = {};
       if (srcs) Object.entries(srcs).forEach(([id, s]) => { if (!seen[s.url]) { seen[s.url] = 1; D.sources.push({ id, u: s.url, p: s.purpose || "", s: s.reuse || "" }); } });
       LG[lang].courses.forEach((c, i) => {
-        const raw = (files[i] && files[i].lessons) || [];
+        const add = (pluses[i] && pluses[i].lessons) || {};
+        const raw = ((files[i] && files[i].lessons) || []).map(r => withPlus(lang, r, add[r.id]));
         const list = raw.map(r => normalize(lang, r, c.id, srcs || {})).filter(L => L.status.k !== "hide").sort((a, b) => a.day - b.day);
         D.courses[c.id] = list;
         list.forEach(L => {
@@ -96,19 +100,29 @@
     })();
     return D.ready;
   }
+  /* 보강 파일(<과정>.plus.json)의 단어·예문·문제를 원본 레슨 뒤에 덧붙임 (원본 파일은 그대로) */
+  function withPlus(lang, r, add) {
+    if (!add) return r;
+    const o = Object.assign({}, r), mark = a => (a || []).map(x => Object.assign({ _plus: true }, x));
+    o.examples = (r.examples || []).concat(mark(add.examples));
+    if (lang === "ja") o.exercises = (r.exercises || []).concat(add.exercises || []);
+    else { o.vocabulary = (r.vocabulary || []).concat(mark(add.vocabulary)); o.questions = (r.questions || []).concat(add.questions || []); }
+    o._plus = true;
+    return o;
+  }
   function normalize(lang, r, course, srcs) {
     const st = STATUS[r.review_status || r.content_status] || STATUS.draft;
     const L = {
       id: r.id, lang, course, day: r.day_index || r.day || 0, type: r.lesson_type || "new", title: r.title_ko || r.id, objective: r.objective_ko || "",
       minutes: r.estimated_minutes || null, status: st, prereq: r.prerequisite_lesson_ids || [], editor: r.editor_note_ko || "",
-      explain: null, mistake: null, notes: [], items: [], examples: [], qs: [], output: null, sources: [], rev: r.revision || null
+      explain: null, mistake: null, notes: [], items: [], examples: [], qs: [], output: null, sources: [], rev: r.revision || null, plus: !!r._plus
     };
     if (lang === "ja") {
       L.explain = r.explanation_ko || null;
       L.notes = [].concat(r.usage_notes || [], r.common_mistakes || []);
       (r.new_items || []).forEach(it => L.items.push({ sid: (it.kind === "kana" ? "k:" : "w:") + it.text, kind: it.kind || "word", text: it.text, reading: it.reading_kana || "", roma: it.reading_romanized || "", meaning: it.meaning_ko || "", pos: it.part_of_speech || "" }));
       (r.examples || []).forEach(e => {
-        L.examples.push({ t: e.japanese, roma: e.reading_romanized || "", reading: e.reading_kana || "", ko: e.meaning_ko || "", note: e.explanation_ko || "" });
+        L.examples.push({ t: e.japanese, roma: e.reading_romanized || "", reading: e.reading_kana || "", ko: e.meaning_ko || "", note: e.explanation_ko || "", plus: !!e._plus });
         if (e.meaning_ko && !/[。、？！\s]/.test(plain(e.japanese)) && plain(e.japanese).length <= 8) // 단어 예시는 복습 카드로
           L.items.push({ sid: "w:" + plain(e.japanese), kind: "word", text: e.japanese, reading: e.reading_kana || "", roma: e.reading_romanized || "", meaning: e.meaning_ko, pos: "", fromEx: true });
       });
@@ -117,8 +131,8 @@
     } else {
       const g = r.grammar || {};
       L.explain = g.explanation_ko || null; L.mistake = g.common_mistake_ko || null;
-      (r.vocabulary || []).forEach(v => L.items.push({ sid: "w:" + v.word, kind: "word", text: v.word, reading: v.ipa || "", roma: "", meaning: v.meaning_ko || "", pos: v.part_of_speech || "", ex: v.example_en || "", exKo: v.example_ko || "" }));
-      (r.examples || []).forEach(e => L.examples.push({ t: e.en, ko: e.ko || "", note: e.note_ko || "" }));
+      (r.vocabulary || []).forEach(v => L.items.push({ sid: "w:" + v.word, kind: "word", text: v.word, reading: v.ipa || "", roma: "", meaning: v.meaning_ko || "", pos: v.part_of_speech || "", ex: v.example_en || "", exKo: v.example_ko || "", plus: !!v._plus }));
+      (r.examples || []).forEach(e => L.examples.push({ t: e.en, ko: e.ko || "", note: e.note_ko || "", plus: !!e._plus }));
       (r.questions || []).forEach(q => L.qs.push({ id: q.id, type: q.type === "typing" ? "typing" : "choice", prompt: q.stem, options: q.choices || [], answer: q.answer_index, accepted: [].concat(q.answer_text || [], q.accepted_answers || []), expl: q.explanation_ko || "", tag: q.error_tag || "" }));
       if (r.output_task) L.output = { prompt: r.output_task.prompt_ko, example: r.output_task.example_answer_en || "", note: r.output_task.note_ko || "" };
       (r.reference_sources || []).forEach(s => L.sources.push({ u: s.url, p: `${s.publisher || ""}${s.supports ? " — " + s.supports : ""}`, s: s.checked_at ? "확인 " + s.checked_at : "" }));
@@ -206,7 +220,7 @@
     LANGS.forEach(L => {
       const p = prefs(L.id), c = L.courses.find(c => c.id === p.course), s = stats(L.id), due = DATA[L.id] && DATA[L.id].items ? dueList(L.id).length : null;
       h += `<button class="lang-card" data-go="#${L.id}"><span class="native" lang="${L.id}">${esc(L.native)}</span><b>${esc(L.name)}</b>
-        <span class="meta">${esc(c ? c.t : "")} 과정 · 하루 ${p.min}분</span>
+        <span class="meta">${esc(c ? c.t : "")} 과정 · 하루 ${DAILY.minutes}분</span>
         <span class="mini"><span>연속 ${s.streak}일</span><span>익힌 항목 ${s.items}</span>${due != null ? `<span>복습 ${due}</span>` : ""}</span></button>`;
     });
     h += `</div><div class="notice">${SITE.autoUpdate ? "새 레슨은 매일 자동으로 추가됩니다." : "지금은 준비된 레슨을 순서대로 공부합니다. 매일 새 레슨 자동 추가는 연결 준비 중입니다."} 학습 기록은 이 기기에 자동 저장되고, 동기화 코드로 노트북·태블릿·휴대폰을 이을 수 있어요.</div></div>`;
@@ -217,27 +231,27 @@
   function renderToday(lang) {
     const L = LG[lang], p = prefs(lang), D = DATA[lang], d = today();
     const course = L.courses.find(c => c.id === p.course), list = D.courses[p.course] || [];
-    const nx = nextLesson(lang, p.course), td = doneToday(lang, p.course), due = dueList(lang), s = stats(lang), cap = L.reviewCap[p.min] || 20;
+    const nx = nextLesson(lang, p.course), td = doneToday(lang, p.course), due = dueList(lang), s = stats(lang), cap = DAILY.reviewCap;
     const heavy = due.length > 30 || (s.n >= 5 && s.acc < 70);
     const total = list.length, doneN = list.filter(x => (get("done", lang, {}) || {})[x.id]).length;
     let h = `<div class="home lhome"><p class="eyebrow" lang="${lang}">${esc(L.native)}</p><h1>${esc(L.name)}</h1>
       <p class="sub">${d.slice(5).replace("-", "월 ")}일 (${WD[wday(d)]}) · ${esc(L.week[(wday(d) + 6) % 7])}</p>
       <div class="pick"><span class="lab">과정</span><div class="chips">${L.courses.map(c => `<button class="${c.id === p.course ? "on" : ""}" data-course="${c.id}">${esc(c.t)}${(D.courses[c.id] || []).length ? "" : "<small> 준비 중</small>"}</button>`).join("")}</div></div>
-      <div class="pick"><span class="lab">하루</span><div class="chips">${L.minutes.map(m => `<button class="${m === p.min ? "on" : ""}" data-min="${m}">${m}분</button>`).join("")}</div></div>`;
+      <p class="plan"><b>하루 ${DAILY.minutes}분</b> ${esc(DAILY.plan)}</p>`;
     if (heavy) h += `<div class="notice">밀린 복습이 ${due.length}개${s.acc != null && s.acc < 70 ? `, 최근 7일 정답률 ${s.acc}%` : ""}예요. 오늘은 새 레슨보다 <b>복습을 먼저</b> 하는 걸 권해요.</div>`;
     h += `<div class="today">`;
     if (td.length) {
       h += `<div class="tcard done"><span class="tag">오늘의 레슨 · 완료</span>${td.map(x => `<b>${esc(x.title)}</b>`).join("")}<p>오늘 분량을 마쳤어요. 내일 새 레슨이 열립니다.</p>
         <div class="acts"><button class="pill ghost" data-go="#${lang}/lesson/${td[0].id}">다시 보기</button>${nx ? `<button class="pill ghost" data-go="#${lang}/lesson/${nx.id}">다음 레슨 미리 하기 ›</button>` : ""}</div></div>`;
     } else if (nx) {
-      h += `<div class="tcard"><span class="tag">오늘의 레슨 · ${esc(course.t)} ${nx.day}일차 · ${TYPE[nx.type] || nx.type}${nx.minutes ? ` · 약 ${nx.minutes}분` : ""}</span><b>${esc(nx.title)}</b><p>${esc(nx.objective)}</p>
+      h += `<div class="tcard"><span class="tag">오늘의 레슨 · ${esc(course.t)} ${nx.day}일차 · ${TYPE[nx.type] || nx.type}</span><b>${esc(nx.title)}</b><p>${esc(nx.objective)}</p>
         <span class="badge ${nx.status.k}">${esc(nx.status.lab)}</span><div class="acts"><button class="pill" data-go="#${lang}/lesson/${nx.id}">시작하기</button></div></div>`;
     } else {
       h += `<div class="tcard empty"><span class="tag">오늘의 레슨</span><b>${total ? "준비된 레슨을 모두 마쳤어요" : `${esc(course.t)} 과정은 추후 추가 예정`}</b>
         <p>${total ? "새 레슨이 추가되면 여기에 나타나요. 그동안 복습과 오답노트로 다져 두세요." : "아직 이 과정의 레슨이 없어요. 다른 과정을 고르거나 복습을 하세요."}</p></div>`;
     }
     h += `<div class="tcard"><span class="tag">복습</span><b>${due.length ? `오늘 복습할 카드 ${due.length}장` : "오늘 복습할 카드 없음"}</b>
-      <p>${due.length ? `하루 ${p.min}분 모드 권장 ${Math.min(cap, due.length)}장 · 간격 1·3·7·14·30일` : "레슨을 마치면 배운 글자·단어가 다음 날부터 복습 카드로 나와요."}</p>
+      <p>${due.length ? `오늘 권장 ${Math.min(cap, due.length)}장(약 4분) · 간격 1·3·7·14·30일` : "레슨을 마치면 배운 글자·단어가 다음 날부터 복습 카드로 나와요."}</p>
       <div class="acts">${due.length ? `<button class="pill" data-go="#${lang}/review">복습 시작</button>` : ""}${wrongList(lang).length ? `<button class="pill ghost" data-go="#${lang}/wrong">오답 ${wrongList(lang).length}개 다시 풀기</button>` : ""}</div></div></div>`;
     h += `<div class="stats st4"><div><small>연속 학습</small><b>${s.streak}일</b><span>누적 ${s.days}일</span></div><div><small>과정 진도</small><b>${doneN}/${total}</b><span>${esc(course.t)} 레슨</span></div>
       <div><small>익힌 항목</small><b>${s.items}</b><span>복습 카드</span></div><div><small>최근 7일 정답률</small><b>${s.acc != null ? s.acc + "%" : "—"}</b><span>${s.n ? `${s.ok}/${s.n}문항` : "기록 없음"}</span></div></div>`;
@@ -250,23 +264,23 @@
   function lessonHtml(lang, L) {
     const p = prefs(lang), done = (get("done", lang, {}) || {})[L.id], att = get("att", lang, {}) || {}, course = LG[lang].courses.find(c => c.id === L.course);
     const answered = L.qs.filter(q => att[q.id]).length;
-    let h = `<div class="hero lhero" id="top"><div class="k">${esc(course.t)} · ${L.day}일차 · ${TYPE[L.type] || esc(L.type)}${L.minutes ? ` · 약 ${L.minutes}분` : ""}</div>
+    let h = `<div class="hero lhero" id="top"><div class="k">${esc(course.t)} · ${L.day}일차 · ${TYPE[L.type] || esc(L.type)} · 하루 ${DAILY.minutes}분</div>
       <h1>${esc(L.title)}</h1><div class="en">${esc(L.objective)}</div>
-      <div class="hero-row"><span class="badge ${L.status.k}">${esc(L.status.lab)}</span>${done ? `<span class="badge ok">완료 ${esc(done.d)}${done.sc ? ` · ${done.sc[0]}/${done.sc[1]}` : ""}</span>` : ""}</div></div>`;
+      <div class="hero-row"><span class="badge ${L.status.k}">${esc(L.status.lab)}</span>${L.plus ? `<span class="badge draft">보강 예문·문제 포함 (AI 초안)</span>` : ""}${done ? `<span class="badge ok">완료 ${esc(done.d)}${done.sc ? ` · ${done.sc[0]}/${done.sc[1]}` : ""}</span>` : ""}</div></div>`;
     if (L.status.k === "draft") h += `<div class="card warnbox" id="draft"><b>${esc(L.status.lab)}</b> — 전문가 검수를 거치지 않은 교육용 자료예요. 의심스러운 부분은 출처 링크로 확인하세요.${L.editor ? `<small>${esc(L.editor)}</small>` : ""}</div>`;
     if (L.items.filter(i => !i.fromEx).length) {
       const its = L.items.filter(i => !i.fromEx);
       h += `<section class="card" id="items"><h2>새로 배우는 ${its.every(i => i.kind === "kana") ? "글자" : "단어"} <small>${its.length}개</small></h2><div class="kgrid ${its.every(i => i.kind === "kana") ? "kana" : ""}">`;
       its.forEach(i => (h += `<div class="kcard"><div class="big">${tx(lang, i.text)}</div>${i.reading ? `<div class="rd jp" lang="ja">${esc(i.reading)}</div>` : ""}${i.roma && p.romaji ? `<div class="rm">${esc(i.roma)}</div>` : ""}
-        ${i.meaning ? `<div class="mn">${i.pos ? `<i>${esc(i.pos)}</i> ` : ""}${esc(i.meaning)}</div>` : ""}${i.ex ? `<div class="ex">${tx(lang, i.ex)}<small>${esc(i.exKo)}</small></div>` : ""}${sayBtn(i.text)}</div>`));
+        ${i.meaning ? `<div class="mn">${i.pos ? `<i>${esc(i.pos)}</i> ` : ""}${esc(i.meaning)}</div>` : ""}${i.ex ? `<div class="ex">${tx(lang, i.ex)}<small>${esc(i.exKo)}</small></div>` : ""}${sayBtn(i.text)}${i.plus ? `<small class="plus">보강 · AI 초안</small>` : ""}</div>`));
       h += `</div></section>`;
     }
     if (L.explain || L.mistake || L.notes.length) {
       h += `<section class="card" id="explain"><h2>핵심 설명</h2>${L.explain ? `<p class="lead">${esc(L.explain)}</p>` : ""}${L.mistake ? `<div class="tip mistake">${esc(L.mistake)}</div>` : ""}${L.notes.map(n => `<p>${esc(n)}</p>`).join("")}</section>`;
     }
     if (L.examples.length) {
-      h += `<section class="card" id="examples"><h2>예문 <small>소리 내어 읽어 보세요</small></h2><div class="exlist">`;
-      L.examples.forEach(e => (h += `<div class="exrow"><div class="t">${tx(lang, e.t)}${e.reading ? `<small class="jp" lang="ja">${esc(e.reading)}</small>` : ""}${e.roma && p.romaji ? `<small class="rm">${esc(e.roma)}</small>` : ""}</div><div class="ko">${esc(e.ko)}${e.note && e.note !== "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다." ? `<small>${esc(e.note)}</small>` : ""}</div>${sayBtn(e.t)}</div>`));
+      h += `<section class="card" id="examples"><h2>예문 <small>${L.examples.length}개 · 소리 내어 읽어 보세요</small></h2><div class="exlist">`;
+      L.examples.forEach(e => (h += `<div class="exrow"><div class="t">${tx(lang, e.t)}${e.reading ? `<small class="jp" lang="ja">${esc(e.reading)}</small>` : ""}${e.roma && p.romaji ? `<small class="rm">${esc(e.roma)}</small>` : ""}</div><div class="ko">${esc(e.ko)}${e.note && !/^(읽기와 뜻을 함께 확인하고|소리 내어 읽고 뜻과)/.test(e.note) ? `<small>${esc(e.note)}</small>` : ""}${e.plus ? `<small class="plus">보강 · AI 초안</small>` : ""}</div>${sayBtn(e.t)}</div>`));
       h += `</div></section>`;
     }
     if (L.qs.length) {
@@ -369,7 +383,7 @@
 
   /* ───────── 복습 (간격 반복) ───────── */
   function startReview(lang) {
-    const due = dueList(lang), cap = LG[lang].reviewCap[prefs(lang).min] || 20;
+    const due = dueList(lang), cap = DAILY.reviewCap;
     RS = { lang, list: due.slice(0, cap), rest: due.length - Math.min(cap, due.length), i: 0, flip: false, n: 0, again: new Set() };
   }
   function renderReview(lang) {
@@ -382,7 +396,7 @@
     }
     if (RS.i >= RS.list.length) {
       h += `<p class="sub">이번 복습 ${RS.n}장 완료</p><div class="tcard done"><b>복습 끝!</b><p>${RS.rest > 0 ? `아직 ${RS.rest}장이 더 있어요. 시간이 되면 이어서 하세요.` : "오늘 예정된 카드를 모두 봤어요."}</p>
-        <div class="acts">${RS.rest > 0 ? `<button class="pill" data-rv="more">${Math.min(RS.rest, LG[lang].reviewCap[p.min] || 20)}장 더 하기</button>` : ""}<button class="pill ghost" data-go="#${lang}">오늘의 학습</button></div></div></div>`;
+        <div class="acts">${RS.rest > 0 ? `<button class="pill" data-rv="more">${Math.min(RS.rest, DAILY.reviewCap)}장 더 하기</button>` : ""}<button class="pill ghost" data-go="#${lang}">오늘의 학습</button></div></div></div>`;
       main.innerHTML = h; return;
     }
     const sid = RS.list[RS.i], it = D.items[sid], st = (get("srs", lang, {}) || {})[sid] || { s: 0 };
@@ -489,7 +503,7 @@
   function renderGuide() {
     main.innerHTML = `<div class="home guide"><h1>사용법</h1>
       <div class="howto"><h3>하루 공부 순서</h3>왼쪽 목차(휴대폰은 ☰)에서 <b>언어</b>를 누르면 그 언어의 메뉴가 펼쳐집니다.<br>
-      1. <b>오늘의 학습</b>에서 과정(난이도)과 하루 공부 시간을 고릅니다.<br>2. <b>복습</b> 카드부터 넘기고(밀린 게 많으면 복습 먼저 권해요), <b>오늘의 레슨</b>을 시작합니다.<br>
+      1. <b>오늘의 학습</b>에서 과정(난이도)을 고릅니다. 하루 분량은 15분(복습 4분·새 단어 4분·예문 2분·문제 4분·쓰기 1분)으로 고정돼 있어요.<br>2. <b>복습</b> 카드부터 넘기고(밀린 게 많으면 복습 먼저 권해요), <b>오늘의 레슨</b>을 시작합니다.<br>
       3. 레슨의 글자·단어·예문을 보고 <b>확인 문제</b>를 모두 푼 뒤 <b>레슨 완료하기</b>를 누르면, 배운 항목이 내일부터 1·3·7·14·30일 간격으로 복습 카드에 나옵니다.<br>
       4. 하루에 새 레슨은 하나씩 열립니다. 빠진 날의 레슨이 한꺼번에 몰려오지 않고 다음 날 이어서 나옵니다.</div>
       <div class="howto"><h3>기록 확인 · 복습</h3><b>학습 기록</b> 달력에서 날짜를 누르면 그날 공부한 레슨을 다시 열 수 있어요. <b>단어장</b>에는 익힌 항목과 다음 복습일이, <b>오답노트</b>에는 틀린 문제가 모여 있어 다시 풀 수 있어요.</div>
@@ -507,7 +521,6 @@
     const say = t.closest("[data-say]"); if (say) { speak(lang, say.dataset.say); return; }
     const go = t.closest("[data-go]"); if (go && !go.dataset.course) { location.hash = go.dataset.go; return; }
     const crs = t.closest("[data-course]"); if (crs) { setPref(lang, "course", crs.dataset.course); if (crs.dataset.back) location.hash = "#" + lang; else route(); return; }
-    const mn = t.closest("[data-min]"); if (mn) { setPref(lang, "min", Number(mn.dataset.min)); RS = null; route(); return; }
     const pf = t.closest("[data-pref]"); if (pf) { const k = pf.dataset.pref; setPref(lang, k, !prefs(lang)[k]); applyPrefs(); route(); return; }
     const op = t.closest(".choice[data-opt]");
     if (op && !op.disabled) { const block = op.closest(".qblock"), r = answer(lang, block.dataset.q, Number(op.dataset.opt)); if (r) { redrawQ(block, lang, r.q, r.a); if (parts()[1] === "wrong") renderSide(); } return; }

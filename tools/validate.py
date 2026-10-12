@@ -69,6 +69,7 @@ def main():
                 err.append(f"{lang}/{c}: 일차가 1부터 순서대로가 아님 {days}")
             order = {}
             taught = set()
+            taught_at = {}
             for i, l in enumerate(lessons):
                 lid = l.get("id")
                 if not lid:
@@ -93,6 +94,7 @@ def main():
                             err.append(f"{lid}: 새 항목 text 없음")
                         if it.get("kind") == "kana":
                             taught.update(it["text"])
+                    taught_at[lid] = set(taught)
                     if c == "INTRO":
                         for ex in l.get("examples") or []:
                             bad = [ch for ch in ex.get("japanese", "") if KANA(ch) and ch not in taught and ch != "ー"]
@@ -111,18 +113,53 @@ def main():
                         warn.append(f"{lid}: 출처 없음")
                     check_questions(lid, l.get("questions") or [], err, seen_q, False)
             report.append(f"{lang}/{c}: 레슨 {len(lessons)}개")
+            # 보강 파일(<과정>.plus.json): 기존 레슨에 예문·단어·문제를 더함 (원본은 그대로)
+            pp = os.path.join(ROOT, "content", lang, c + ".plus.json")
+            if os.path.exists(pp):
+                try:
+                    with open(pp, encoding="utf-8") as f:
+                        plus = json.load(f).get("lessons") or {}
+                except Exception as e:
+                    err.append(f"{lang}/{c}.plus: JSON 오류 {e}")
+                    plus = {}
+                for lid, add in plus.items():
+                    if lid not in order:
+                        err.append(f"{lang}/{c}.plus: 없는 레슨 {lid}")
+                        continue
+                    if ja:
+                        for ex in add.get("examples") or []:
+                            if not ex.get("japanese") or not ex.get("meaning_ko"):
+                                err.append(f"{lid}+: 예문 japanese/meaning_ko 누락")
+                            if c == "INTRO":
+                                bad = [ch for ch in ex.get("japanese", "") if KANA(ch) and ch not in taught_at.get(lid, set()) and ch != "ー"]
+                                if bad:
+                                    err.append(f"{lid}+: 예문 「{ex.get('japanese')}」에 아직 안 배운 가나 {''.join(bad)}")
+                        qs = add.get("exercises") or []
+                    else:
+                        for v in add.get("vocabulary") or []:
+                            if not v.get("word") or not v.get("meaning_ko"):
+                                err.append(f"{lid}+: 단어 word/meaning_ko 없음")
+                        for ex in add.get("examples") or []:
+                            if not ex.get("en") or not ex.get("ko"):
+                                err.append(f"{lid}+: 예문 en/ko 누락")
+                        qs = add.get("questions") or []
+                    if qs:
+                        check_questions(lid + "+", qs, err, seen_q, ja)
+                report.append(f"{lang}/{c}.plus: 보강 레슨 {len(plus)}개")
     # 과정 목록(index.json): 사이트가 있는 과정 파일만 불러오도록 — 레슨 추가 후 이 스크립트를 돌리면 갱신됨
     if not err:
         for lang, courses in COURSES.items():
-            idx = {}
+            idx, plus_list = {}, []
             for c in courses:
+                if os.path.exists(os.path.join(ROOT, "content", lang, c + ".plus.json")):
+                    plus_list.append(c)
                 p = os.path.join(ROOT, "content", lang, c + ".json")
                 if os.path.exists(p):
                     with open(p, encoding="utf-8") as f:
                         idx[c] = len(json.load(f).get("lessons") or [])
             with open(os.path.join(ROOT, "content", lang, "index.json"), "w", encoding="utf-8", newline="\n") as f:
                 has_src = os.path.exists(os.path.join(ROOT, "content", lang, "sources.json"))
-                json.dump({"courses": idx, "sources": has_src}, f, ensure_ascii=False, indent=1)
+                json.dump({"courses": idx, "sources": has_src, "plus": plus_list}, f, ensure_ascii=False, indent=1)
                 f.write("\n")
     print("\n".join(report))
     for w in warn:

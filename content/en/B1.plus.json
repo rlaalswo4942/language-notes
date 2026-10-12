@@ -1,0 +1,92 @@
+{
+ "course": "B1",
+ "note": "기존 레슨 보강(15분 기준). 원본 레슨은 그대로 두고 화면에서 합쳐 표시. 상태: AI 초안",
+ "review_status": "draft",
+ "lessons": {
+  "B1-001": {
+   "vocabulary": [
+    {
+     "word": "since",
+     "part_of_speech": "접속사",
+     "meaning_ko": "~이므로",
+     "example_en": "Since you are here, let's start.",
+     "example_ko": "당신이 왔으니 시작합시다."
+    },
+    {
+     "word": "even though",
+     "part_of_speech": "접속사",
+     "meaning_ko": "비록 ~이지만",
+     "example_en": "Even though it was late, the shop was open.",
+     "example_ko": "늦었지만 가게는 열려 있었어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "We stayed inside because it was raining.",
+     "ko": "비가 와서 우리는 안에 있었어요."
+    },
+    {
+     "en": "Although the test was difficult, she passed it.",
+     "ko": "시험이 어려웠지만 그녀는 합격했어요."
+    },
+    {
+     "en": "Because the weather was nice, we walked to work.",
+     "ko": "날씨가 좋아서 우리는 걸어서 출근했어요."
+    },
+    {
+     "en": "He kept working although he felt sick.",
+     "ko": "그는 아팠지만 계속 일했어요."
+    },
+    {
+     "en": "Even though it was late, the shop was still open.",
+     "ko": "늦었지만 가게는 아직 열려 있었어요."
+    },
+    {
+     "en": "Since you are here, let's start the meeting.",
+     "ko": "당신이 왔으니 회의를 시작합시다."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "___ it rained all day, the game was not canceled.",
+     "choices": [
+      "Although",
+      "Because",
+      "So",
+      "If"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "비가 왔는데도 취소되지 않았으니 대조의 although.",
+     "error_tag": "connector",
+     "id": "B1-001-X1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "He went to bed early ___ he was very tired.",
+     "choices": [
+      "because",
+      "although",
+      "but",
+      "or"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "피곤한 것이 일찍 잔 이유이므로 because.",
+     "error_tag": "connector",
+     "id": "B1-001-X2"
+    },
+    {
+     "type": "typing",
+     "stem": "‘비록 ~이지만’이라는 뜻의 두 단어 표현을 쓰세요. (e로 시작)",
+     "answer_text": "even though",
+     "accepted_answers": [
+      "even though"
+     ],
+     "explanation_ko": "even though는 although와 비슷하게 대조를 나타내요.",
+     "error_tag": "connector",
+     "id": "B1-001-X3"
+    }
+   ]
+  }
+ }
+}
