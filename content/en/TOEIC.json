@@ -116,6 +116,194 @@
     "version": 1,
     "last_revised": "2026-10-12"
    }
+  },
+  {
+   "id": "TOEIC-002",
+   "publish_date": "2026-10-13",
+   "level": "B1",
+   "track": "toeic",
+   "day": 2,
+   "title_ko": "TOEIC Part 5: 품사 자리 판단",
+   "objective_ko": "빈칸 주변을 보고 명사·형용사·부사 중 알맞은 품사를 고른다.",
+   "estimated_minutes": 15,
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/toeic/about/listening-reading.html",
+     "publisher": "ETS",
+     "checked_at": "2026-10-13",
+     "supports": "공식 시험 형식"
+    }
+   ],
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "grammar": {
+    "explanation_ko": "Reading Part 5는 빈칸에 알맞은 단어를 고르는 유형입니다. 빈칸 앞뒤를 보고 품사를 먼저 판단합니다. 명사 앞 → 형용사, 동사·문장 전체 수식 → 부사, be동사 뒤 → 형용사, 관사·소유격 뒤 → 명사(또는 형용사 + 명사). 이것은 ETS 공식 문항이 아닌 자체 연습문제입니다.",
+    "common_mistake_ko": "형용사를 동사 뒤에서 부사 대신 쓰는 실수: reviewed the proposal careful(X) → carefully(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "invoice",
+     "part_of_speech": "명사",
+     "meaning_ko": "청구서",
+     "example_en": "Please send the invoice today.",
+     "example_ko": "오늘 청구서를 보내 주세요."
+    },
+    {
+     "word": "reliable",
+     "part_of_speech": "형용사",
+     "meaning_ko": "믿을 수 있는",
+     "example_en": "We offer reliable service.",
+     "example_ko": "저희는 믿을 수 있는 서비스를 제공합니다."
+    },
+    {
+     "word": "promptly",
+     "part_of_speech": "부사",
+     "meaning_ko": "즉시, 신속히",
+     "example_en": "Please reply promptly.",
+     "example_ko": "신속히 회신해 주세요."
+    },
+    {
+     "word": "approval",
+     "part_of_speech": "명사",
+     "meaning_ko": "승인",
+     "example_en": "We need your approval.",
+     "example_ko": "귀하의 승인이 필요합니다."
+    },
+    {
+     "word": "extend",
+     "part_of_speech": "동사",
+     "meaning_ko": "연장하다",
+     "example_en": "The company will extend the deadline.",
+     "example_ko": "회사는 마감을 연장할 것입니다."
+    },
+    {
+     "word": "assistance",
+     "part_of_speech": "명사",
+     "meaning_ko": "도움",
+     "example_en": "Thank you for your assistance.",
+     "example_ko": "도와주셔서 감사합니다."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Please send the invoice to the finance team.",
+     "ko": "청구서를 재무팀에 보내 주세요."
+    },
+    {
+     "en": "The new software is very easy to use.",
+     "ko": "새 소프트웨어는 사용하기 아주 쉽습니다."
+    },
+    {
+     "en": "Our manager reviewed the proposal carefully.",
+     "ko": "우리 매니저는 제안서를 꼼꼼히 검토했습니다."
+    },
+    {
+     "en": "We offer reliable service to all customers.",
+     "ko": "저희는 모든 고객에게 믿을 수 있는 서비스를 제공합니다."
+    },
+    {
+     "en": "Please reply promptly to this email.",
+     "ko": "이 이메일에 신속히 회신해 주세요."
+    },
+    {
+     "en": "The director's approval is required.",
+     "ko": "이사님의 승인이 필요합니다."
+    },
+    {
+     "en": "The company will extend the deadline by two days.",
+     "ko": "회사는 마감을 이틀 연장할 것입니다."
+    },
+    {
+     "en": "Thank you for your assistance.",
+     "ko": "도와주셔서 감사합니다."
+    }
+   ],
+   "questions": [
+    {
+     "id": "T002-Q1",
+     "type": "single_choice",
+     "stem": "Our manager reviewed the proposal ___.",
+     "choices": [
+      "carefully",
+      "careful",
+      "care"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "동사 reviewed를 꾸미는 자리 → 부사 carefully.",
+     "error_tag": "part-of-speech"
+    },
+    {
+     "id": "T002-Q2",
+     "type": "single_choice",
+     "stem": "The new software is very ___ to use.",
+     "choices": [
+      "easy",
+      "easily",
+      "ease"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "be동사 뒤, very 뒤 → 형용사 easy.",
+     "error_tag": "part-of-speech"
+    },
+    {
+     "id": "T002-Q3",
+     "type": "single_choice",
+     "stem": "Ms. Park's ___ of the contract was announced yesterday.",
+     "choices": [
+      "approval",
+      "approve",
+      "approvable"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "소유격 뒤, of 앞 → 명사 approval.",
+     "error_tag": "part-of-speech"
+    },
+    {
+     "id": "T002-Q4",
+     "type": "single_choice",
+     "stem": "The company offers ___ service to all customers.",
+     "choices": [
+      "reliable",
+      "reliably",
+      "rely",
+      "reliability"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "명사 service 앞 → 형용사 reliable.",
+     "error_tag": "part-of-speech"
+    },
+    {
+     "id": "T002-Q5",
+     "type": "typing",
+     "stem": "prompt를 부사로 바꿔 쓰세요: Please reply ___.",
+     "answer_text": "promptly",
+     "accepted_answers": [
+      "promptly"
+     ],
+     "explanation_ko": "동사 reply를 꾸미는 부사 → promptly.",
+     "error_tag": "part-of-speech"
+    },
+    {
+     "id": "T002-Q6",
+     "type": "typing",
+     "stem": "assist의 명사형을 쓰세요(-ance): Thank you for your ___.",
+     "answer_text": "assistance",
+     "accepted_answers": [
+      "assistance"
+     ],
+     "explanation_ko": "소유격 your 뒤 → 명사 assistance.",
+     "error_tag": "part-of-speech"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "빈칸에 부사를 넣어 업무 메일의 한 문장을 써 보세요: Please check the schedule ___.",
+    "example_answer_en": "Please check the schedule carefully.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 배운 형태를 썼는지 확인하세요."
+   },
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-13"
+   }
   }
  ]
 }

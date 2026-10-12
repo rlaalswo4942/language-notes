@@ -115,6 +115,196 @@
     "version": 1,
     "last_revised": "2026-10-12"
    }
+  },
+  {
+   "id": "B1-002",
+   "publish_date": "2026-10-13",
+   "level": "B1",
+   "track": "general",
+   "day": 2,
+   "title_ko": "현재완료: 경험과 완료",
+   "objective_ko": "have/has + 과거분사로 경험과 막 끝난 일을 말한다.",
+   "estimated_minutes": 15,
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-13",
+     "supports": "B1-B2 문법 학습 주제"
+    }
+   ],
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "grammar": {
+    "explanation_ko": "현재완료는 have/has + 과거분사입니다. 경험(Have you ever been to Japan?)과 완료·결과(She has already finished.)를 나타냅니다. ever는 의문문의 '지금까지', never는 '한 번도 ~않다', already/just/yet는 완료 여부와 함께 씁니다. yesterday, last year처럼 끝난 시점을 나타내는 말과는 쓰지 않고 과거형을 씁니다.",
+    "common_mistake_ko": "I have seen him yesterday.(X) → I saw him yesterday. / He has recently changed jobs.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "ever",
+     "part_of_speech": "부사",
+     "meaning_ko": "지금까지, 한 번이라도",
+     "example_en": "Have you ever been to Japan?",
+     "example_ko": "일본에 가 본 적 있어요?"
+    },
+    {
+     "word": "never",
+     "part_of_speech": "부사",
+     "meaning_ko": "한 번도 ~않다",
+     "example_en": "I have never tried sushi.",
+     "example_ko": "나는 초밥을 먹어 본 적이 없어요."
+    },
+    {
+     "word": "already",
+     "part_of_speech": "부사",
+     "meaning_ko": "이미",
+     "example_en": "She has already finished her report.",
+     "example_ko": "그녀는 이미 보고서를 끝냈어요."
+    },
+    {
+     "word": "yet",
+     "part_of_speech": "부사",
+     "meaning_ko": "아직(부정문)·벌써(의문문)",
+     "example_en": "They haven't arrived yet.",
+     "example_ko": "그들은 아직 도착하지 않았어요."
+    },
+    {
+     "word": "just",
+     "part_of_speech": "부사",
+     "meaning_ko": "막, 방금",
+     "example_en": "We have just received the email.",
+     "example_ko": "우리는 방금 그 이메일을 받았어요."
+    },
+    {
+     "word": "recently",
+     "part_of_speech": "부사",
+     "meaning_ko": "최근에",
+     "example_en": "He has recently changed jobs.",
+     "example_ko": "그는 최근에 직장을 옮겼어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Have you ever been to Japan?",
+     "ko": "일본에 가 본 적 있어요?"
+    },
+    {
+     "en": "I have never tried sushi.",
+     "ko": "나는 초밥을 먹어 본 적이 없어요."
+    },
+    {
+     "en": "She has already finished her report.",
+     "ko": "그녀는 이미 보고서를 끝냈어요."
+    },
+    {
+     "en": "They haven't arrived yet.",
+     "ko": "그들은 아직 도착하지 않았어요."
+    },
+    {
+     "en": "We have just received the email.",
+     "ko": "우리는 방금 그 이메일을 받았어요."
+    },
+    {
+     "en": "I have visited Busan twice.",
+     "ko": "나는 부산에 두 번 가 봤어요."
+    },
+    {
+     "en": "He has recently changed jobs.",
+     "ko": "그는 최근에 직장을 옮겼어요."
+    },
+    {
+     "en": "Has the meeting started yet?",
+     "ko": "회의가 벌써 시작됐나요?"
+    }
+   ],
+   "questions": [
+    {
+     "id": "B1002-Q1",
+     "type": "single_choice",
+     "stem": "I have ___ eaten Thai food. (한 번도 먹어 본 적이 없다)",
+     "choices": [
+      "never",
+      "ever",
+      "already"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "'한 번도 ~않다'는 never입니다.",
+     "error_tag": "adverb"
+    },
+    {
+     "id": "B1002-Q2",
+     "type": "single_choice",
+     "stem": "___ you ever been to London?",
+     "choices": [
+      "Have",
+      "Did",
+      "Are",
+      "Do"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "경험을 묻는 현재완료 의문문은 Have + 주어 + 과거분사.",
+     "error_tag": "present-perfect"
+    },
+    {
+     "id": "B1002-Q3",
+     "type": "single_choice",
+     "stem": "She ___ the report yet.",
+     "choices": [
+      "hasn't finished",
+      "hasn't finish",
+      "haven't finished",
+      "don't finished"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "주어 She → has not + 과거분사.",
+     "error_tag": "present-perfect"
+    },
+    {
+     "id": "B1002-Q4",
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "I have seen that movie before.",
+      "I have seen that movie yesterday.",
+      "I have see that movie before.",
+      "I seen that movie before."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "yesterday처럼 끝난 시점과는 현재완료를 쓰지 않으며, have 뒤에는 과거분사(seen)를 씁니다.",
+     "error_tag": "present-perfect"
+    },
+    {
+     "id": "B1002-Q5",
+     "type": "typing",
+     "stem": "빈칸에 have 또는 has를 쓰세요: She ___ just left.",
+     "answer_text": "has",
+     "accepted_answers": [
+      "has"
+     ],
+     "explanation_ko": "She는 3인칭 단수 → has.",
+     "error_tag": "present-perfect"
+    },
+    {
+     "id": "B1002-Q6",
+     "type": "typing",
+     "stem": "eat의 과거분사를 쓰세요: I have ___ lunch already.",
+     "answer_text": "eaten",
+     "accepted_answers": [
+      "eaten"
+     ],
+     "explanation_ko": "eat - ate - eaten.",
+     "error_tag": "participle"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "지금까지 해 본 일 한 가지와 해 본 적 없는 일 한 가지를 현재완료로 써 보세요.",
+    "example_answer_en": "I have visited Jeju twice. I have never tried skiing.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 배운 형태를 썼는지 확인하세요."
+   },
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-13"
+   }
   }
  ]
 }

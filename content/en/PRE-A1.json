@@ -1169,6 +1169,385 @@
     "version": 1,
     "last_revised": "2026-10-12"
    }
+  },
+  {
+   "id": "PRE-011",
+   "publish_date": "2026-10-13",
+   "level": "Pre-A1",
+   "track": "foundation",
+   "day": 11,
+   "title_ko": "숫자와 나이 말하기",
+   "objective_ko": "1~20의 숫자를 알고 나이를 묻고 답한다.",
+   "estimated_minutes": 15,
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-13",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "grammar": {
+    "explanation_ko": "나이는 How old are you?로 묻고 I am twelve. 또는 I am twelve years old.로 답합니다. 나이 앞에는 have가 아니라 be동사(am/is/are)를 씁니다. 숫자: one two three four five six seven eight nine ten eleven twelve ... twenty.",
+    "common_mistake_ko": "I have twelve years.(X) → I am twelve.(O) 한국어 '열두 살'을 그대로 옮기지 않습니다."
+   },
+   "vocabulary": [
+    {
+     "word": "number",
+     "part_of_speech": "명사",
+     "meaning_ko": "숫자",
+     "example_en": "Ten is a number.",
+     "example_ko": "10은 숫자예요."
+    },
+    {
+     "word": "age",
+     "part_of_speech": "명사",
+     "meaning_ko": "나이",
+     "example_en": "What is your age?",
+     "example_ko": "당신의 나이는 몇이에요?"
+    },
+    {
+     "word": "old",
+     "part_of_speech": "형용사",
+     "meaning_ko": "나이 든, ~살의",
+     "example_en": "I am ten years old.",
+     "example_ko": "나는 열 살이에요."
+    },
+    {
+     "word": "year",
+     "part_of_speech": "명사",
+     "meaning_ko": "해, 년, 살",
+     "example_en": "She is twelve years old.",
+     "example_ko": "그녀는 열두 살이에요."
+    },
+    {
+     "word": "twelve",
+     "part_of_speech": "수사",
+     "meaning_ko": "열둘, 12",
+     "example_en": "My sister is twelve.",
+     "example_ko": "내 여동생은 열두 살이에요."
+    },
+    {
+     "word": "twenty",
+     "part_of_speech": "수사",
+     "meaning_ko": "스물, 20",
+     "example_en": "He is twenty.",
+     "example_ko": "그는 스무 살이에요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "How old are you?",
+     "ko": "몇 살이에요?"
+    },
+    {
+     "en": "I am twenty years old.",
+     "ko": "나는 스무 살이에요."
+    },
+    {
+     "en": "She is twelve.",
+     "ko": "그녀는 열두 살이에요."
+    },
+    {
+     "en": "He is ten years old.",
+     "ko": "그는 열 살이에요."
+    },
+    {
+     "en": "I am fifteen. How old are you?",
+     "ko": "나는 열다섯 살이에요. 당신은 몇 살이에요?"
+    },
+    {
+     "en": "My brother is seven years old.",
+     "ko": "내 남동생은 일곱 살이에요."
+    },
+    {
+     "en": "Is she eleven? No, she is twelve.",
+     "ko": "그녀는 열한 살이에요? 아니요, 열두 살이에요."
+    },
+    {
+     "en": "We are not old. We are twenty.",
+     "ko": "우리는 나이 들지 않았어요. 우리는 스무 살이에요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "P011-Q1",
+     "type": "single_choice",
+     "stem": "나이를 묻는 문장은?",
+     "choices": [
+      "How old are you?",
+      "How many are you?",
+      "What old are you?",
+      "Who old are you?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "나이를 물을 때는 How old ~?를 씁니다.",
+     "error_tag": "age"
+    },
+    {
+     "id": "P011-Q2",
+     "type": "single_choice",
+     "stem": "I ___ twelve years old.",
+     "choices": [
+      "am",
+      "is",
+      "are",
+      "have"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "주어 I → am. 나이에는 have를 쓰지 않습니다.",
+     "error_tag": "be-verb"
+    },
+    {
+     "id": "P011-Q3",
+     "type": "single_choice",
+     "stem": "She ___ fifteen.",
+     "choices": [
+      "is",
+      "am",
+      "are"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "주어 She → is.",
+     "error_tag": "be-verb"
+    },
+    {
+     "id": "P011-Q4",
+     "type": "single_choice",
+     "stem": "'열둘'은 영어로?",
+     "choices": [
+      "twelve",
+      "twenty",
+      "eleven",
+      "two"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "12는 twelve입니다.",
+     "error_tag": "number"
+    },
+    {
+     "id": "P011-Q5",
+     "type": "typing",
+     "stem": "'열(10)'을 영어 단어로 쓰세요.",
+     "answer_text": "ten",
+     "accepted_answers": [
+      "ten"
+     ],
+     "explanation_ko": "10 = ten.",
+     "error_tag": "number"
+    },
+    {
+     "id": "P011-Q6",
+     "type": "typing",
+     "stem": "빈칸에 알맞은 be동사를 쓰세요: He ___ nine years old.",
+     "answer_text": "is",
+     "accepted_answers": [
+      "is"
+     ],
+     "explanation_ko": "주어 He → is.",
+     "error_tag": "be-verb"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "나이를 넣어 자기소개 문장을 한 개 써 보세요.",
+    "example_answer_en": "I am twenty years old.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 배운 형태를 썼는지 확인하세요."
+   },
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-13"
+   }
+  },
+  {
+   "id": "PRE-012",
+   "publish_date": "2026-10-13",
+   "level": "Pre-A1",
+   "track": "foundation",
+   "day": 12,
+   "title_ko": "일반동사 기초: 주어 뒤에 동작 말하기",
+   "objective_ko": "주어 뒤에 일반동사를 바로 붙여 문장을 만든다.",
+   "estimated_minutes": 15,
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-13",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "grammar": {
+    "explanation_ko": "동작을 나타내는 말(일반동사)은 주어 바로 뒤에 둡니다: I eat rice. 이 단원에서는 I, you, we, they와 함께 쓰는 원형만 연습합니다. 일반동사 앞에는 be동사(am/is/are)를 겹쳐 쓰지 않습니다.",
+    "common_mistake_ko": "I am study English.(X) → I study English.(O) 동사를 두 개 겹쳐 쓰지 않습니다."
+   },
+   "vocabulary": [
+    {
+     "word": "eat",
+     "part_of_speech": "동사",
+     "meaning_ko": "먹다",
+     "example_en": "I eat breakfast at seven.",
+     "example_ko": "나는 7시에 아침을 먹어요."
+    },
+    {
+     "word": "drink",
+     "part_of_speech": "동사",
+     "meaning_ko": "마시다",
+     "example_en": "You drink water.",
+     "example_ko": "당신은 물을 마셔요."
+    },
+    {
+     "word": "read",
+     "part_of_speech": "동사",
+     "meaning_ko": "읽다",
+     "example_en": "We read books.",
+     "example_ko": "우리는 책을 읽어요."
+    },
+    {
+     "word": "play",
+     "part_of_speech": "동사",
+     "meaning_ko": "(놀이·운동을) 하다, 놀다",
+     "example_en": "They play soccer.",
+     "example_ko": "그들은 축구를 해요."
+    },
+    {
+     "word": "study",
+     "part_of_speech": "동사",
+     "meaning_ko": "공부하다",
+     "example_en": "I study English.",
+     "example_ko": "나는 영어를 공부해요."
+    },
+    {
+     "word": "live",
+     "part_of_speech": "동사",
+     "meaning_ko": "살다",
+     "example_en": "We live in Seoul.",
+     "example_ko": "우리는 서울에 살아요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I eat breakfast.",
+     "ko": "나는 아침을 먹어요."
+    },
+    {
+     "en": "You drink water.",
+     "ko": "당신은 물을 마셔요."
+    },
+    {
+     "en": "We read books.",
+     "ko": "우리는 책을 읽어요."
+    },
+    {
+     "en": "They play soccer.",
+     "ko": "그들은 축구를 해요."
+    },
+    {
+     "en": "I study English.",
+     "ko": "나는 영어를 공부해요."
+    },
+    {
+     "en": "We live in Seoul.",
+     "ko": "우리는 서울에 살아요."
+    },
+    {
+     "en": "They drink tea.",
+     "ko": "그들은 차를 마셔요."
+    },
+    {
+     "en": "You read a book.",
+     "ko": "당신은 책을 읽어요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "P012-Q1",
+     "type": "single_choice",
+     "stem": "I ___ English.",
+     "choices": [
+      "study",
+      "am study",
+      "studies"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "I 뒤에는 동사 원형 study를 바로 씁니다.",
+     "error_tag": "verb"
+    },
+    {
+     "id": "P012-Q2",
+     "type": "single_choice",
+     "stem": "We ___ in Busan.",
+     "choices": [
+      "live",
+      "lives",
+      "are live"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "We 뒤에는 원형 live. be동사를 겹쳐 쓰지 않습니다.",
+     "error_tag": "verb"
+    },
+    {
+     "id": "P012-Q3",
+     "type": "single_choice",
+     "stem": "'그들은 물을 마셔요'에 맞는 문장은?",
+     "choices": [
+      "They drink water.",
+      "They are drink water.",
+      "They drinks water.",
+      "Drink they water."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "주어(They) + 동사(drink) + 목적어(water) 순서입니다.",
+     "error_tag": "word-order"
+    },
+    {
+     "id": "P012-Q4",
+     "type": "single_choice",
+     "stem": "일반동사가 아닌 것은?",
+     "choices": [
+      "am",
+      "eat",
+      "play",
+      "read"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "am은 be동사이고, 나머지는 동작을 나타내는 일반동사입니다.",
+     "error_tag": "verb"
+    },
+    {
+     "id": "P012-Q5",
+     "type": "typing",
+     "stem": "빈칸에 알맞은 동사를 쓰세요: You ___ books. (읽어요)",
+     "answer_text": "read",
+     "accepted_answers": [
+      "read"
+     ],
+     "explanation_ko": "'읽다'는 read입니다.",
+     "error_tag": "vocabulary"
+    },
+    {
+     "id": "P012-Q6",
+     "type": "typing",
+     "stem": "빈칸에 알맞은 동사를 쓰세요: They ___ soccer. (축구를 해요)",
+     "answer_text": "play",
+     "accepted_answers": [
+      "play"
+     ],
+     "explanation_ko": "운동 경기를 '하다'는 play를 씁니다.",
+     "error_tag": "vocabulary"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "I 또는 We로 시작하는 일반동사 문장을 한 개 써 보세요.",
+    "example_answer_en": "We play soccer on Sunday.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 배운 형태를 썼는지 확인하세요."
+   },
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-13"
+   }
   }
  ]
 }

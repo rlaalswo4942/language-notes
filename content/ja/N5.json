@@ -1461,6 +1461,221 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N5-08",
+   "day_index": 8,
+   "week_index": 2,
+   "level": "N5",
+   "unit_id": "N5-W02",
+   "lesson_type": "new",
+   "title_ko": "な형용사",
+   "objective_ko": "な형용사로 사람·장소의 특징을 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N5-07"
+   ],
+   "explanation_ko": "な형용사는 명사를 꾸밀 때 〜な를 붙입니다(静かな 町). 서술은 〜です, 부정은 〜じゃありません(〜ではありません), 과거는 〜でした입니다. い형용사처럼 어미가 변하지 않고, 뒤에 です/じゃありません이 붙습니다.",
+   "usage_notes": [
+    "きれい・有名처럼 い로 끝나도 な형용사인 단어가 있습니다: きれいな 花, 有名な 店.",
+    "あまり는 뒤에 부정이 오면 ‘별로 ~않다’입니다."
+   ],
+   "common_mistakes": [
+    "静かい 町(X) → 静かな 町(O)",
+    "便利くないです(X) → 便利じゃありません(O): な형용사의 부정은 〜くない가 아닙니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N5-08-01",
+     "kind": "word",
+     "text": "静{しず}か",
+     "reading_kana": "しずか",
+     "reading_romanized": "shizuka",
+     "meaning_ko": "조용함, 조용하다",
+     "part_of_speech": "な형용사"
+    },
+    {
+     "id": "w-JP-N5-08-02",
+     "kind": "word",
+     "text": "きれい",
+     "reading_kana": "きれい",
+     "reading_romanized": "kirei",
+     "meaning_ko": "예쁘다, 깨끗하다",
+     "part_of_speech": "な형용사"
+    },
+    {
+     "id": "w-JP-N5-08-03",
+     "kind": "word",
+     "text": "有名{ゆうめい}",
+     "reading_kana": "ゆうめい",
+     "reading_romanized": "yuumei",
+     "meaning_ko": "유명함, 유명하다",
+     "part_of_speech": "な형용사"
+    },
+    {
+     "id": "w-JP-N5-08-04",
+     "kind": "word",
+     "text": "便利{べんり}",
+     "reading_kana": "べんり",
+     "reading_romanized": "benri",
+     "meaning_ko": "편리함, 편리하다",
+     "part_of_speech": "な형용사"
+    },
+    {
+     "id": "w-JP-N5-08-05",
+     "kind": "word",
+     "text": "親切{しんせつ}",
+     "reading_kana": "しんせつ",
+     "reading_romanized": "shinsetsu",
+     "meaning_ko": "친절함, 친절하다",
+     "part_of_speech": "な형용사"
+    },
+    {
+     "id": "w-JP-N5-08-06",
+     "kind": "word",
+     "text": "元気{げんき}",
+     "reading_kana": "げんき",
+     "reading_romanized": "genki",
+     "meaning_ko": "건강함, 활기참",
+     "part_of_speech": "な형용사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "この 町{まち}は 静{しず}かです。",
+     "meaning_ko": "이 동네는 조용합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "静{しず}かな 町{まち}に 住{す}んでいます。",
+     "meaning_ko": "조용한 동네에 살고 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "その 部屋{へや}は きれいです。",
+     "meaning_ko": "그 방은 깨끗합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "きれいな 花{はな}を 買{か}いました。",
+     "meaning_ko": "예쁜 꽃을 샀습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "あの 店{みせ}は 有名{ゆうめい}です。",
+     "meaning_ko": "저 가게는 유명합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "スマホは 便利{べんり}ですが、高{たか}いです。",
+     "meaning_ko": "스마트폰은 편리하지만 비쌉니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "田中{たなか}さんは 親切{しんせつ}な 人{ひと}です。",
+     "meaning_ko": "다나카 씨는 친절한 사람입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 町{まち}は あまり 有名{ゆうめい}じゃありません。",
+     "meaning_ko": "이 동네는 별로 유명하지 않습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "おばあさんは 元気{げんき}でした。",
+     "meaning_ko": "할머니는 건강하셨습니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N5-08-Q1",
+     "type": "single_choice",
+     "prompt_ko": "‘조용한 동네’를 바르게 나타낸 것은?",
+     "options": [
+      "静かな町",
+      "静かい町",
+      "静かの町",
+      "静かで町"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "な형용사가 명사를 꾸밀 때는 〜な."
+    },
+    {
+     "id": "JP-N5-08-Q2",
+     "type": "single_choice",
+     "prompt_ko": "‘친절하지 않습니다’를 바르게 나타낸 것은?",
+     "options": [
+      "親切じゃありません",
+      "親切くないです",
+      "親切ありません",
+      "親切なじゃありません"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "な형용사의 부정은 〜じゃありません."
+    },
+    {
+     "id": "JP-N5-08-Q3",
+     "type": "single_choice",
+     "prompt_ko": "な형용사인 것은?",
+     "options": [
+      "きれい",
+      "高い",
+      "安い",
+      "新しい"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "きれい는 い로 끝나지만 な형용사입니다(きれいな 花)."
+    },
+    {
+     "id": "JP-N5-08-Q4",
+     "type": "typing",
+     "prompt_ko": "「便利」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "benri",
+     "accepted_answers": [
+      "benri"
+     ],
+     "explanation_ko": "便利 = べんり (benri)"
+    },
+    {
+     "id": "JP-N5-08-Q5",
+     "type": "typing",
+     "prompt_ko": "「有名」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "yuumei",
+     "accepted_answers": [
+      "yuumei",
+      "yumei"
+     ],
+     "explanation_ko": "有名 = ゆうめい (yuumei)"
+    },
+    {
+     "id": "JP-N5-08-Q6",
+     "type": "single_choice",
+     "prompt_ko": "‘그 방은 깨끗했습니다.’",
+     "options": [
+      "その部屋はきれいでした",
+      "その部屋はきれいかったです",
+      "その部屋はきれいくなかったです",
+      "その部屋はきれいでしたない"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "な형용사의 과거는 〜でした."
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

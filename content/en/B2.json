@@ -1339,6 +1339,197 @@
     "version": 1,
     "last_revised": "2026-10-12"
    }
+  },
+  {
+   "id": "B2-008",
+   "publish_date": "2026-10-13",
+   "level": "B2",
+   "track": "general",
+   "day": 8,
+   "title_ko": "가정법 과거완료: If I had known ...",
+   "objective_ko": "과거 사실과 반대되는 가정과 그 결과를 말한다.",
+   "estimated_minutes": 15,
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-13",
+     "supports": "B1-B2 문법 학습 주제"
+    }
+   ],
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "grammar": {
+    "explanation_ko": "과거에 실제로는 일어나지 않은 일을 가정할 때 If + 주어 + had + 과거분사, 주어 + would/could/might + have + 과거분사를 씁니다. 격식 문어체에서는 if를 생략하고 Had + 주어 + 과거분사로 시작할 수 있습니다(Had I known, I would have called you).",
+    "common_mistake_ko": "If I would have known ...(X, 표준 문어체) → If I had known ... / if절에는 would have를 쓰지 않고 had + 과거분사를 씁니다."
+   },
+   "vocabulary": [
+    {
+     "word": "regret",
+     "part_of_speech": "동사/명사",
+     "meaning_ko": "후회(하다)",
+     "example_en": "I regret not calling her.",
+     "example_ko": "그녀에게 전화하지 않은 것을 후회해요."
+    },
+    {
+     "word": "opportunity",
+     "part_of_speech": "명사",
+     "meaning_ko": "기회",
+     "example_en": "She took the opportunity to study abroad.",
+     "example_ko": "그녀는 유학할 기회를 잡았어요."
+    },
+    {
+     "word": "deadline",
+     "part_of_speech": "명사",
+     "meaning_ko": "마감 기한",
+     "example_en": "They missed the deadline.",
+     "example_ko": "그들은 마감 기한을 놓쳤어요."
+    },
+    {
+     "word": "outcome",
+     "part_of_speech": "명사",
+     "meaning_ko": "결과",
+     "example_en": "The outcome was surprising.",
+     "example_ko": "결과는 놀라웠어요."
+    },
+    {
+     "word": "apologize",
+     "part_of_speech": "동사",
+     "meaning_ko": "사과하다",
+     "example_en": "He apologized for the mistake.",
+     "example_ko": "그는 실수를 사과했어요."
+    },
+    {
+     "word": "delay",
+     "part_of_speech": "명사",
+     "meaning_ko": "지연",
+     "example_en": "The delay lasted two hours.",
+     "example_ko": "지연은 두 시간 계속됐어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "If I had known about the delay, I would have left earlier.",
+     "ko": "지연을 알았더라면 더 일찍 출발했을 텐데."
+    },
+    {
+     "en": "If she had studied harder, she could have passed the exam.",
+     "ko": "그녀가 더 열심히 공부했더라면 시험에 붙을 수 있었을 텐데."
+    },
+    {
+     "en": "We might have won if we had played better.",
+     "ko": "더 잘 경기했더라면 우리가 이겼을지도 몰라요."
+    },
+    {
+     "en": "If they hadn't missed the deadline, they would have won the contract.",
+     "ko": "그들이 마감을 놓치지 않았더라면 계약을 따냈을 텐데."
+    },
+    {
+     "en": "Had I known, I would have called you.",
+     "ko": "내가 알았더라면 전화했을 텐데요."
+    },
+    {
+     "en": "If he hadn't apologized, she would have stayed angry.",
+     "ko": "그가 사과하지 않았더라면 그녀는 계속 화가 나 있었을 거예요."
+    },
+    {
+     "en": "I wouldn't have regretted it if I had taken the opportunity.",
+     "ko": "그 기회를 잡았더라면 후회하지 않았을 거예요."
+    },
+    {
+     "en": "If the outcome had been different, we would have celebrated.",
+     "ko": "결과가 달랐더라면 우리는 축하했을 거예요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "B2-008-Q1",
+     "type": "single_choice",
+     "stem": "If she ___ earlier, she would have caught the train.",
+     "choices": [
+      "had left",
+      "left",
+      "has left",
+      "would leave"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "if절에는 had + 과거분사(had left)를 씁니다.",
+     "error_tag": "conditional"
+    },
+    {
+     "id": "B2-008-Q2",
+     "type": "single_choice",
+     "stem": "If we had planned better, we ___ the deadline.",
+     "choices": [
+      "would have met",
+      "would meet",
+      "had met",
+      "will meet"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "주절에는 would have + 과거분사를 씁니다.",
+     "error_tag": "conditional"
+    },
+    {
+     "id": "B2-008-Q3",
+     "type": "single_choice",
+     "stem": "'그때 알았더라면 말해 줬을 텐데'에 맞는 문장은?",
+     "choices": [
+      "If I had known, I would have told you.",
+      "If I knew, I would have told you.",
+      "If I had known, I will tell you.",
+      "If I have known, I would tell you."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "과거 사실의 반대 가정 → had known / would have told.",
+     "error_tag": "conditional"
+    },
+    {
+     "id": "B2-008-Q4",
+     "type": "single_choice",
+     "stem": "Had they arrived on time, ... 와 같은 의미의 if절은?",
+     "choices": [
+      "If they had arrived on time,",
+      "If they arrive on time,",
+      "If they would arrive on time,",
+      "Unless they had arrived on time,"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Had + 주어 + 과거분사는 If + 주어 + had + 과거분사의 도치형입니다.",
+     "error_tag": "inversion"
+    },
+    {
+     "id": "B2-008-Q5",
+     "type": "typing",
+     "stem": "빈칸에 한 단어를 쓰세요: If you had asked me, I would ___ helped you.",
+     "answer_text": "have",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation_ko": "주절은 would have + 과거분사.",
+     "error_tag": "conditional"
+    },
+    {
+     "id": "B2-008-Q6",
+     "type": "typing",
+     "stem": "miss의 과거분사를 쓰세요: If she hadn't ___ the bus, she wouldn't have been late.",
+     "answer_text": "missed",
+     "accepted_answers": [
+      "missed"
+     ],
+     "explanation_ko": "hadn't + 과거분사(missed).",
+     "error_tag": "participle"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "'만약 ~했더라면 ~했을 텐데'로 과거의 일을 가정한 문장을 두 개 써 보세요.",
+    "example_answer_en": "If I had studied more, I would have passed. If I had left earlier, I wouldn't have missed the train.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 배운 형태를 썼는지 확인하세요."
+   },
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-13"
+   }
   }
  ]
 }

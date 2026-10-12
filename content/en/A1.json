@@ -1339,6 +1339,200 @@
     "version": 1,
     "last_revised": "2026-10-12"
    }
+  },
+  {
+   "id": "A1-008",
+   "publish_date": "2026-10-13",
+   "level": "A1",
+   "track": "foundation",
+   "day": 8,
+   "title_ko": "do / does 의문문과 부정문",
+   "objective_ko": "일반동사 현재형의 질문과 부정을 만든다.",
+   "estimated_minutes": 15,
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-13",
+     "supports": "A1-A2 문법 학습 주제"
+    }
+   ],
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "grammar": {
+    "explanation_ko": "일반동사 현재형의 질문은 Do/Does를 문장 앞에 놓고 동사는 원형으로 씁니다: Do you like tea? / Does she work here? 부정은 don't/doesn't + 동사원형입니다. 주어가 he/she/it(3인칭 단수)이면 does/doesn't를 씁니다. 짧은 대답: Yes, I do. / No, she doesn't.",
+    "common_mistake_ko": "Does she works here?(X) → Does she work here?(O) / She doesn't likes tea.(X) → She doesn't like tea.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "coffee",
+     "part_of_speech": "명사",
+     "meaning_ko": "커피",
+     "example_en": "Do you like coffee?",
+     "example_ko": "커피를 좋아해요?"
+    },
+    {
+     "word": "homework",
+     "part_of_speech": "명사",
+     "meaning_ko": "숙제",
+     "example_en": "He doesn't do his homework at night.",
+     "example_ko": "그는 밤에 숙제를 하지 않아요."
+    },
+    {
+     "word": "lunch",
+     "part_of_speech": "명사",
+     "meaning_ko": "점심",
+     "example_en": "My brother doesn't eat lunch at home.",
+     "example_ko": "내 남동생은 집에서 점심을 먹지 않아요."
+    },
+    {
+     "word": "bus",
+     "part_of_speech": "명사",
+     "meaning_ko": "버스",
+     "example_en": "Do they take the bus to school?",
+     "example_ko": "그들은 학교에 버스를 타고 가나요?"
+    },
+    {
+     "word": "cook",
+     "part_of_speech": "동사",
+     "meaning_ko": "요리하다",
+     "example_en": "Does she cook dinner?",
+     "example_ko": "그녀가 저녁을 요리하나요?"
+    },
+    {
+     "word": "speak",
+     "part_of_speech": "동사",
+     "meaning_ko": "말하다",
+     "example_en": "I don't speak French.",
+     "example_ko": "나는 프랑스어를 하지 못해요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Do you like coffee?",
+     "ko": "커피를 좋아해요?"
+    },
+    {
+     "en": "Yes, I do.",
+     "ko": "네, 좋아해요."
+    },
+    {
+     "en": "Does she cook dinner?",
+     "ko": "그녀가 저녁을 요리하나요?"
+    },
+    {
+     "en": "No, she doesn't.",
+     "ko": "아니요, 안 해요."
+    },
+    {
+     "en": "I don't speak French.",
+     "ko": "나는 프랑스어를 하지 못해요."
+    },
+    {
+     "en": "He doesn't do his homework at night.",
+     "ko": "그는 밤에 숙제를 하지 않아요."
+    },
+    {
+     "en": "Do they take the bus to school?",
+     "ko": "그들은 학교에 버스를 타고 가나요?"
+    },
+    {
+     "en": "My brother doesn't eat lunch at home.",
+     "ko": "내 남동생은 집에서 점심을 먹지 않아요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "A1-008-Q1",
+     "type": "single_choice",
+     "stem": "___ you like tea?",
+     "choices": [
+      "Do",
+      "Does",
+      "Are",
+      "Is"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "주어 you → Do + 동사원형.",
+     "error_tag": "do-does"
+    },
+    {
+     "id": "A1-008-Q2",
+     "type": "single_choice",
+     "stem": "___ he work on Sundays?",
+     "choices": [
+      "Does",
+      "Do",
+      "Is",
+      "Has"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "he는 3인칭 단수 → Does + 동사원형.",
+     "error_tag": "do-does"
+    },
+    {
+     "id": "A1-008-Q3",
+     "type": "single_choice",
+     "stem": "She ___ speak Japanese.",
+     "choices": [
+      "doesn't",
+      "don't",
+      "isn't",
+      "not"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "3인칭 단수 부정 → doesn't + 동사원형.",
+     "error_tag": "do-does"
+    },
+    {
+     "id": "A1-008-Q4",
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "Does she cook dinner?",
+      "Does she cooks dinner?",
+      "Do she cook dinner?",
+      "Is she cook dinner?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Does 뒤의 동사는 원형(cook)입니다.",
+     "error_tag": "do-does"
+    },
+    {
+     "id": "A1-008-Q5",
+     "type": "typing",
+     "stem": "빈칸에 알맞은 부정형을 쓰세요(축약형): They ___ eat meat. (고기를 먹지 않아요)",
+     "answer_text": "don't",
+     "accepted_answers": [
+      "don't",
+      "don’t",
+      "do not",
+      "dont"
+     ],
+     "explanation_ko": "주어 They → don't + 동사원형.",
+     "error_tag": "do-does"
+    },
+    {
+     "id": "A1-008-Q6",
+     "type": "typing",
+     "stem": "짧게 대답하세요: Does he live here? — Yes, he ___.",
+     "answer_text": "does",
+     "accepted_answers": [
+      "does"
+     ],
+     "explanation_ko": "Does로 물으면 does로 답합니다.",
+     "error_tag": "do-does"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "do 또는 does를 써서 친구에게 하는 질문을 한 개 써 보세요.",
+    "example_answer_en": "Do you drink coffee in the morning?",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 배운 형태를 썼는지 확인하세요."
+   },
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-13"
+   }
   }
  ]
 }

@@ -1460,6 +1460,214 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-08",
+   "day_index": 8,
+   "week_index": 2,
+   "level": "N4",
+   "unit_id": "N4-W02",
+   "lesson_type": "new",
+   "title_ko": "비교: 〜より・〜のほうが・いちばん",
+   "objective_ko": "두 가지를 비교하고 가장 ~한 것을 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-07"
+   ],
+   "explanation_ko": "AはBより〜です는 ‘A는 B보다 ~하다’. AよりBのほうが〜です는 ‘A보다 B 쪽이 더 ~하다’. 질문은 AとBと どちらが〜ですか, 대답은 Aのほうが〜です. 셋 이상 중 최고는 〜の中で Xが いちばん〜です.",
+   "usage_notes": [
+    "ずっと = 훨씬(차이가 클 때): 飛行機は 電車より ずっと 速いです."
+   ],
+   "common_mistakes": [
+    "AよりBのほうが 에서 より 앞이 기준(비교 대상)입니다. 電車より バスのほうが 速い = 버스가 더 빠르다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N4-08-01",
+     "kind": "word",
+     "text": "電車{でんしゃ}",
+     "reading_kana": "でんしゃ",
+     "reading_romanized": "densha",
+     "meaning_ko": "전철",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-08-02",
+     "kind": "word",
+     "text": "飛行機{ひこうき}",
+     "reading_kana": "ひこうき",
+     "reading_romanized": "hikouki",
+     "meaning_ko": "비행기",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-08-03",
+     "kind": "word",
+     "text": "速{はや}い",
+     "reading_kana": "はやい",
+     "reading_romanized": "hayai",
+     "meaning_ko": "(속도가) 빠르다",
+     "part_of_speech": "い형용사"
+    },
+    {
+     "id": "w-JP-N4-08-04",
+     "kind": "word",
+     "text": "遠{とお}い",
+     "reading_kana": "とおい",
+     "reading_romanized": "tooi",
+     "meaning_ko": "멀다",
+     "part_of_speech": "い형용사"
+    },
+    {
+     "id": "w-JP-N4-08-05",
+     "kind": "word",
+     "text": "夏{なつ}",
+     "reading_kana": "なつ",
+     "reading_romanized": "natsu",
+     "meaning_ko": "여름",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-08-06",
+     "kind": "word",
+     "text": "冬{ふゆ}",
+     "reading_kana": "ふゆ",
+     "reading_romanized": "fuyu",
+     "meaning_ko": "겨울",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "電車{でんしゃ}は バスより 速{はや}いです。",
+     "meaning_ko": "전철은 버스보다 빠릅니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "飛行機{ひこうき}は 電車{でんしゃ}より ずっと 速{はや}いです。",
+     "meaning_ko": "비행기는 전철보다 훨씬 빠릅니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "夏{なつ}と 冬{ふゆ}と どちらが 好{す}きですか。",
+     "meaning_ko": "여름과 겨울 중 어느 쪽을 좋아합니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "冬{ふゆ}の ほうが 好{す}きです。",
+     "meaning_ko": "겨울 쪽을 좋아합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "学校{がっこう}より 駅{えき}の ほうが 家{いえ}から 遠{とお}いです。",
+     "meaning_ko": "학교보다 역이 집에서 더 멉니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "一年{いちねん}の 中{なか}で 夏{なつ}が いちばん 暑{あつ}いです。",
+     "meaning_ko": "일 년 중에서 여름이 가장 덥습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "家族{かぞく}の 中{なか}で 母{はは}が いちばん 料理{りょうり}が 上手{じょうず}です。",
+     "meaning_ko": "가족 중에서 어머니가 요리를 가장 잘합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "バスより 電車{でんしゃ}の ほうが 便利{べんり}です。",
+     "meaning_ko": "버스보다 전철 쪽이 편리합니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N4-08-Q1",
+     "type": "single_choice",
+     "prompt_ko": "‘버스보다 전철이 빠르다’를 바르게 나타낸 것은?",
+     "options": [
+      "電車はバスより速いです",
+      "電車よりバスは速いです",
+      "電車はバスが速いです",
+      "電車はバスのほうより速いです"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "A는 B보다 → AはBより."
+    },
+    {
+     "id": "JP-N4-08-Q2",
+     "type": "single_choice",
+     "prompt_ko": "A: 夏と冬とどちらが好きですか。 B: ( )",
+     "options": [
+      "冬のほうが好きです",
+      "冬よりが好きです",
+      "冬はいちばんです",
+      "冬のほどが好きです"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "どちらが에는 〜のほうが로 대답합니다."
+    },
+    {
+     "id": "JP-N4-08-Q3",
+     "type": "single_choice",
+     "prompt_ko": "‘일 년 중에서 여름이 가장 덥다’",
+     "options": [
+      "一年の中で夏がいちばん暑いです",
+      "一年の中で夏がもっと暑いです",
+      "一年の中で夏のほうが暑いです",
+      "一年の中で夏よりいちばん暑いです"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "셋 이상 중 최고는 〜の中で 〜が いちばん."
+    },
+    {
+     "id": "JP-N4-08-Q4",
+     "type": "typing",
+     "prompt_ko": "「電車」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "densha",
+     "accepted_answers": [
+      "densha"
+     ],
+     "explanation_ko": "電車 = でんしゃ (densha)"
+    },
+    {
+     "id": "JP-N4-08-Q5",
+     "type": "typing",
+     "prompt_ko": "「飛行機」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "hikouki",
+     "accepted_answers": [
+      "hikouki",
+      "hikoki"
+     ],
+     "explanation_ko": "飛行機 = ひこうき (hikouki)"
+    },
+    {
+     "id": "JP-N4-08-Q6",
+     "type": "single_choice",
+     "prompt_ko": "「バスより 電車の ほうが 速いです。」 더 빠른 것은?",
+     "options": [
+      "전철",
+      "버스",
+      "둘 다 같다",
+      "알 수 없다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "より 앞(バス)이 비교 기준이고, のほう(電車)가 더 빠릅니다."
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

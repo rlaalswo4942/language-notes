@@ -103,6 +103,197 @@
     "version": 1,
     "last_revised": "2026-10-12"
    }
+  },
+  {
+   "id": "TOEFL-002",
+   "publish_date": "2026-10-13",
+   "level": "B1",
+   "track": "toefl",
+   "day": 2,
+   "title_ko": "TOEFL 2026 Write an Email 입문: 정중한 요청",
+   "objective_ko": "상황에 맞는 목적·요청·마무리가 있는 짧은 이메일 구조를 익힌다.",
+   "estimated_minutes": 15,
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/content/ets-org/language-master/ko/home/toefl/test-takers/ibt/about/content.html",
+     "publisher": "ETS",
+     "checked_at": "2026-10-13",
+     "supports": "공식 시험 형식"
+    }
+   ],
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "grammar": {
+    "explanation_ko": "2026-01-21 이후 TOEFL iBT Writing에는 Write an Email 유형이 있습니다(공식 안내 유형명). 이메일은 ① 인사(Dear Professor Kim,) ② 목적(I am writing to ...) ③ 구체적 요청(Could you please ...?) ④ 마무리(Thank you for your time. Best regards,) 순서로 씁니다. 다음은 유형을 참고해 새로 만든 비공식 연습입니다.",
+    "common_mistake_ko": "교수에게 명령문(Send me the list.)으로 쓰는 실수 → Could you please send me the list? 또는 I would appreciate it if ..."
+   },
+   "vocabulary": [
+    {
+     "word": "request",
+     "part_of_speech": "명사/동사",
+     "meaning_ko": "요청(하다)",
+     "example_en": "I have a request about the assignment.",
+     "example_ko": "과제에 관해 부탁드릴 것이 있습니다."
+    },
+    {
+     "word": "inquire",
+     "part_of_speech": "동사",
+     "meaning_ko": "문의하다",
+     "example_en": "I am writing to inquire about the schedule.",
+     "example_ko": "일정에 대해 문의드리려고 씁니다."
+    },
+    {
+     "word": "appreciate",
+     "part_of_speech": "동사",
+     "meaning_ko": "감사하다",
+     "example_en": "I would appreciate your help.",
+     "example_ko": "도와주시면 감사하겠습니다."
+    },
+    {
+     "word": "assignment",
+     "part_of_speech": "명사",
+     "meaning_ko": "과제",
+     "example_en": "When is the assignment due?",
+     "example_ko": "과제 제출 기한이 언제인가요?"
+    },
+    {
+     "word": "extension",
+     "part_of_speech": "명사",
+     "meaning_ko": "(기한) 연장",
+     "example_en": "May I ask for an extension?",
+     "example_ko": "기한 연장을 요청해도 될까요?"
+    },
+    {
+     "word": "clarify",
+     "part_of_speech": "동사",
+     "meaning_ko": "명확히 하다",
+     "example_en": "Could you clarify the instructions?",
+     "example_ko": "지시 사항을 명확히 설명해 주실 수 있나요?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Dear Professor Kim,",
+     "ko": "김 교수님께,"
+    },
+    {
+     "en": "I am writing to ask about the deadline for the assignment.",
+     "ko": "과제 마감일에 대해 여쭙고자 글을 씁니다."
+    },
+    {
+     "en": "Could you please send me the reading list?",
+     "ko": "읽기 목록을 보내 주실 수 있을까요?"
+    },
+    {
+     "en": "I would appreciate it if you could extend the deadline by two days.",
+     "ko": "마감을 이틀 연장해 주시면 감사하겠습니다."
+    },
+    {
+     "en": "May I ask for an extension?",
+     "ko": "기한 연장을 요청해도 될까요?"
+    },
+    {
+     "en": "Could you clarify the instructions for the project?",
+     "ko": "프로젝트 지시 사항을 명확히 설명해 주실 수 있나요?"
+    },
+    {
+     "en": "Thank you for your time.",
+     "ko": "시간 내 주셔서 감사합니다."
+    },
+    {
+     "en": "Best regards, Jisoo Park",
+     "ko": "박지수 드림"
+    }
+   ],
+   "questions": [
+    {
+     "id": "F002-Q1",
+     "type": "single_choice",
+     "stem": "목적을 밝히는 이메일 첫 문장으로 가장 알맞은 것은?",
+     "choices": [
+      "I am writing to ask about the deadline for the assignment.",
+      "Hey, what's up? Deadline?",
+      "Give me the deadline.",
+      "Why did you set that deadline?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "I am writing to ...는 이메일의 목적을 정중하게 밝히는 표현입니다.",
+     "error_tag": "register"
+    },
+    {
+     "id": "F002-Q2",
+     "type": "single_choice",
+     "stem": "교수님께 정중하게 부탁하는 문장은?",
+     "choices": [
+      "Could you please send me the reading list?",
+      "Send me the reading list now.",
+      "You must send the list.",
+      "I want the list."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Could you please ...?가 정중한 요청 표현입니다.",
+     "error_tag": "register"
+    },
+    {
+     "id": "F002-Q3",
+     "type": "single_choice",
+     "stem": "이메일 마무리로 가장 알맞은 것은?",
+     "choices": [
+      "Thank you for your time. Best regards, Jisoo",
+      "Bye bye",
+      "Whatever, thanks",
+      "Reply fast"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "감사 인사와 Best regards 같은 맺음말이 격식에 맞습니다.",
+     "error_tag": "register"
+    },
+    {
+     "id": "F002-Q4",
+     "type": "single_choice",
+     "stem": "기한 연장을 요청하는 가장 알맞은 문장은?",
+     "choices": [
+      "I would appreciate it if you could extend the deadline by two days.",
+      "Extend the deadline.",
+      "I will extend deadline.",
+      "The deadline is extension."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "I would appreciate it if you could ...는 정중한 요청입니다.",
+     "error_tag": "register"
+    },
+    {
+     "id": "F002-Q5",
+     "type": "typing",
+     "stem": "빈칸에 한 단어를 쓰세요: I am writing ___ ask about the schedule.",
+     "answer_text": "to",
+     "accepted_answers": [
+      "to"
+     ],
+     "explanation_ko": "목적을 나타내는 to + 동사원형.",
+     "error_tag": "grammar"
+    },
+    {
+     "id": "F002-Q6",
+     "type": "typing",
+     "stem": "빈칸에 전치사를 쓰세요: Thank you ___ your help.",
+     "answer_text": "for",
+     "accepted_answers": [
+      "for"
+     ],
+     "explanation_ko": "thank you for ~: ~에 대해 감사합니다.",
+     "error_tag": "grammar"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "교수님께 과제 기한 연장을 요청하는 이메일을 3문장으로 써 보세요.",
+    "example_answer_en": "Dear Professor Kim, I am writing to ask for an extension on the assignment. Could you please extend the deadline by two days? Thank you for your time.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 배운 형태를 썼는지 확인하세요."
+   },
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-13"
+   }
   }
  ]
 }

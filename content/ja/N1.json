@@ -1474,6 +1474,214 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-08",
+   "day_index": 8,
+   "week_index": 2,
+   "level": "N1",
+   "unit_id": "N1-W02",
+   "lesson_type": "new",
+   "title_ko": "〜を禁じ得ない",
+   "objective_ko": "억누를 수 없이 솟는 감정을 격식 있게 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-07"
+   ],
+   "explanation_ko": "감정을 나타내는 명사 + を禁{きん}じ得{え}ない는 ‘~을 금할 수 없다, 저절로 ~한 감정이 든다’. 同情・憤り・驚き・感慨・涙 같은 감정 명사에 접속하며, 논설문·보도·인사말 등 딱딱한 문어체입니다. 과거는 〜を禁じ得なかった.",
+   "usage_notes": [
+    "〜を禁じえない처럼 얻다(得)를 가나로 쓰기도 합니다."
+   ],
+   "common_mistakes": [
+    "동작 명사에는 쓰지 않습니다: 散歩を禁じ得ない(X). 앞에는 감정·반응을 나타내는 명사가 옵니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N1-08-01",
+     "kind": "word",
+     "text": "同情{どうじょう}",
+     "reading_kana": "どうじょう",
+     "reading_romanized": "doujou",
+     "meaning_ko": "동정",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-08-02",
+     "kind": "word",
+     "text": "憤{いきどお}り",
+     "reading_kana": "いきどおり",
+     "reading_romanized": "ikidoori",
+     "meaning_ko": "분노, 분개",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-08-03",
+     "kind": "word",
+     "text": "驚{おどろ}き",
+     "reading_kana": "おどろき",
+     "reading_romanized": "odoroki",
+     "meaning_ko": "놀람",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-08-04",
+     "kind": "word",
+     "text": "感慨{かんがい}",
+     "reading_kana": "かんがい",
+     "reading_romanized": "kangai",
+     "meaning_ko": "감회, 깊은 감동",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-08-05",
+     "kind": "word",
+     "text": "涙{なみだ}",
+     "reading_kana": "なみだ",
+     "reading_romanized": "namida",
+     "meaning_ko": "눈물",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-08-06",
+     "kind": "word",
+     "text": "悲劇{ひげき}",
+     "reading_kana": "ひげき",
+     "reading_romanized": "higeki",
+     "meaning_ko": "비극",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "被災者{ひさいしゃ}の苦労{くろう}を思{おも}うと、同情{どうじょう}を禁{きん}じ得{え}ない。",
+     "meaning_ko": "재해 피해자의 고생을 생각하면 동정을 금할 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "不正{ふせい}が繰{く}り返{かえ}されていたと知{し}り、憤{いきどお}りを禁{きん}じ得{え}ない。",
+     "meaning_ko": "부정이 되풀이되고 있었다는 것을 알고 분노를 금할 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}の突然{とつぜん}の引退{いんたい}には、驚{おどろ}きを禁{きん}じ得{え}なかった。",
+     "meaning_ko": "그의 갑작스러운 은퇴에는 놀라움을 금할 수 없었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "卒業{そつぎょう}から二十年{にじゅうねん}、変{か}わらない母校{ぼこう}の姿{すがた}に感慨{かんがい}を禁{きん}じ得{え}ない。",
+     "meaning_ko": "졸업한 지 이십 년, 변함없는 모교의 모습에 감회를 금할 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "映画{えいが}の最後{さいご}の場面{ばめん}では、涙{なみだ}を禁{きん}じ得{え}なかった。",
+     "meaning_ko": "영화의 마지막 장면에서는 눈물을 금할 수 없었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "その悲劇{ひげき}の報道{ほうどう}に接{せっ}し、憤{いきどお}りを禁{きん}じ得{え}ない人{ひと}も多{おお}かった。",
+     "meaning_ko": "그 비극의 보도를 접하고 분노를 금할 수 없었던 사람도 많았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "努力{どりょく}が報{むく}われなかった選手{せんしゅ}の姿{すがた}には、同情{どうじょう}を禁{きん}じ得{え}ない。",
+     "meaning_ko": "노력이 보상받지 못한 선수의 모습에는 동정을 금할 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "当局{とうきょく}の対応{たいおう}の遅{おく}れには、失望{しつぼう}を禁{きん}じ得{え}ない。",
+     "meaning_ko": "당국의 대응이 늦어진 데에는 실망을 금할 수 없다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N1-08-Q1",
+     "type": "single_choice",
+     "prompt_ko": "弱者を切り捨てる政策には、憤りを( )。",
+     "options": [
+      "禁じ得ない",
+      "禁じようとする",
+      "禁じておく",
+      "禁じられる"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "감정 명사 + を禁じ得ない."
+    },
+    {
+     "id": "JP-N1-08-Q2",
+     "type": "single_choice",
+     "prompt_ko": "「〜を禁じ得ない」의 뜻은?",
+     "options": [
+      "감정을 억누르기 어렵다",
+      "금지하고 싶다",
+      "금지되어 있지 않다",
+      "금지할 수 있다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "禁じ得ない = 금할 수 없다 = 억누르기 어렵다."
+    },
+    {
+     "id": "JP-N1-08-Q3",
+     "type": "single_choice",
+     "prompt_ko": "「〜を禁じ得ない」 앞에 오기 어려운 것은?",
+     "options": [
+      "散歩",
+      "涙",
+      "同情",
+      "怒り"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "동작을 나타내는 명사(散歩)에는 쓰지 않습니다."
+    },
+    {
+     "id": "JP-N1-08-Q4",
+     "type": "single_choice",
+     "prompt_ko": "彼の突然の死に、驚きを( )。(과거)",
+     "options": [
+      "禁じ得なかった",
+      "禁じ得ないだった",
+      "禁じ得ませんかった",
+      "禁じ得なくなかった"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "과거형은 〜を禁じ得なかった."
+    },
+    {
+     "id": "JP-N1-08-Q5",
+     "type": "typing",
+     "prompt_ko": "「同情」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "doujou",
+     "accepted_answers": [
+      "doujou",
+      "dojo"
+     ],
+     "explanation_ko": "同情 = どうじょう (doujou)"
+    },
+    {
+     "id": "JP-N1-08-Q6",
+     "type": "typing",
+     "prompt_ko": "「感慨」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kangai",
+     "accepted_answers": [
+      "kangai"
+     ],
+     "explanation_ko": "感慨 = かんがい (kangai)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "JLPT_FORMAT"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

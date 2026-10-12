@@ -1467,6 +1467,213 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-08",
+   "day_index": 8,
+   "week_index": 2,
+   "level": "N2",
+   "unit_id": "N2-W02",
+   "lesson_type": "new",
+   "title_ko": "〜に対して",
+   "objective_ko": "대상(~에 대해)과 대비(~인 데 비해)를 구별한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-07"
+   ],
+   "explanation_ko": "명사 + に対{たい}して는 ① 행동·태도·감정이 향하는 대상 ‘~에 대해, ~을 향해’(客に対して丁寧だ), ② AのにたいしてB의 형태로 두 사실을 견주는 ‘~인 데 비해’(兄は明るいのに対して、弟は静かだ). 명사 수식은 〜に対する + 명사(質問に対する答え).",
+   "usage_notes": [
+    "대상을 말할 때 に関して(~에 관해)와 달리 ‘향하는 상대’가 있는 말에 어울립니다."
+   ],
+   "common_mistakes": [
+    "質問に対して答え(X) → 質問に対する答え(O): 명사를 꾸밀 때는 〜に対する."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N2-08-01",
+     "kind": "word",
+     "text": "質問{しつもん}",
+     "reading_kana": "しつもん",
+     "reading_romanized": "shitsumon",
+     "meaning_ko": "질문",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-08-02",
+     "kind": "word",
+     "text": "態度{たいど}",
+     "reading_kana": "たいど",
+     "reading_romanized": "taido",
+     "meaning_ko": "태도",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-08-03",
+     "kind": "word",
+     "text": "反対{はんたい}",
+     "reading_kana": "はんたい",
+     "reading_romanized": "hantai",
+     "meaning_ko": "반대",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-08-04",
+     "kind": "word",
+     "text": "意見{いけん}",
+     "reading_kana": "いけん",
+     "reading_romanized": "iken",
+     "meaning_ko": "의견",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-08-05",
+     "kind": "word",
+     "text": "若者{わかもの}",
+     "reading_kana": "わかもの",
+     "reading_romanized": "wakamono",
+     "meaning_ko": "젊은이",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-08-06",
+     "kind": "word",
+     "text": "高齢者{こうれいしゃ}",
+     "reading_kana": "こうれいしゃ",
+     "reading_romanized": "koureisha",
+     "meaning_ko": "고령자",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "客{きゃく}に対{たい}して、丁寧{ていねい}な態度{たいど}で接{せっ}する。",
+     "meaning_ko": "손님에게 정중한 태도로 응대한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "質問{しつもん}に対{たい}する答{こた}えが不十分{ふじゅうぶん}だった。",
+     "meaning_ko": "질문에 대한 답이 불충분했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "その計画{けいかく}に対{たい}して、多{おお}くの住民{じゅうみん}が反対{はんたい}している。",
+     "meaning_ko": "그 계획에 대해 많은 주민이 반대하고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "兄{あに}は社交的{しゃこうてき}なのに対{たい}して、弟{おとうと}は内向的{ないこうてき}だ。",
+     "meaning_ko": "형은 사교적인 데 비해 동생은 내향적이다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "若者{わかもの}は賛成{さんせい}が多{おお}いのに対{たい}して、高齢者{こうれいしゃ}は反対{はんたい}が多{おお}い。",
+     "meaning_ko": "젊은이는 찬성이 많은 데 비해 고령자는 반대가 많다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "上司{じょうし}の意見{いけん}に対{たい}して、はっきり自分{じぶん}の考{かんが}えを述{の}べた。",
+     "meaning_ko": "상사의 의견에 대해 분명하게 자기 생각을 말했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "子{こ}どもに対{たい}する親{おや}の愛情{あいじょう}は深{ふか}い。",
+     "meaning_ko": "아이에 대한 부모의 애정은 깊다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "今年{ことし}の売{う}り上{あ}げは、前年{ぜんねん}に対{たい}して一〇%増{ふ}えた。",
+     "meaning_ko": "올해 매출은 전년에 비해 10% 늘었다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N2-08-Q1",
+     "type": "single_choice",
+     "prompt_ko": "お客様( )、失礼な態度をとってはいけない。",
+     "options": [
+      "に対して",
+      "によって",
+      "にとって",
+      "について"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "행동이 향하는 대상 → に対して."
+    },
+    {
+     "id": "JP-N2-08-Q2",
+     "type": "single_choice",
+     "prompt_ko": "兄は明るい( )、弟は静かだ。",
+     "options": [
+      "のに対して",
+      "のに関して",
+      "ばかりに",
+      "ように"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "두 사실을 견주는 ‘~인 데 비해’ → のに対して."
+    },
+    {
+     "id": "JP-N2-08-Q3",
+     "type": "single_choice",
+     "prompt_ko": "‘질문에 대한 답’을 바르게 나타낸 것은?",
+     "options": [
+      "質問に対する答え",
+      "質問に対して答え",
+      "質問に対しの答え",
+      "質問を対する答え"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "명사를 꾸밀 때는 〜に対する."
+    },
+    {
+     "id": "JP-N2-08-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「日本では米が主食であるのに対して、イタリアではパスタが多い」에서 に対して의 용법은?",
+     "options": [
+      "대비",
+      "원인",
+      "목적",
+      "조건"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "두 나라를 견주는 대비 용법입니다."
+    },
+    {
+     "id": "JP-N2-08-Q5",
+     "type": "typing",
+     "prompt_ko": "「質問」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "shitsumon",
+     "accepted_answers": [
+      "shitsumon"
+     ],
+     "explanation_ko": "質問 = しつもん (shitsumon)"
+    },
+    {
+     "id": "JP-N2-08-Q6",
+     "type": "typing",
+     "prompt_ko": "「反対」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "hantai",
+     "accepted_answers": [
+      "hantai"
+     ],
+     "explanation_ko": "反対 = はんたい (hantai)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }
