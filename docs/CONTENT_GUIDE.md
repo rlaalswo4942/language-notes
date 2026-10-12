@@ -9,10 +9,11 @@
 - 파일: `content/<언어>/<과정>.json` 의 `lessons` 배열 **끝에만** 추가. 기존 레슨은 고치지 않는다(학습 기록·필기 키가 레슨 id라서)
   - 영어 과정: `PRE-A1 A1 A2 B1 B2 TOEIC TOEFL` / 일본어 과정: `INTRO N5 N4 N3 N2 N1`
   - 새 과정 파일은 `{"course": "<과정>", "schema_version": "1.0", "lessons": []}` 로 시작
-- 얼마나: `content/schedule.json`
-  - `active` 에 적힌 과정만 늘린다
-  - 목표 레슨 수 = (오늘 - `start` 일수) + `ahead_days`. 현재 수가 목표보다 적으면 한 번에 과정당 최대 `max_per_run` 개까지 추가
-  - 과정이 로드맵 범위를 다 채우면 그 과정은 멈추고 보고에 적는다 (다음 과정 시작은 사람이 `active` 를 바꿔서 결정)
+- 얼마나: `content/schedule.json` (언어마다 따로 계산)
+  - 그 언어의 `sequence` 과정들의 레슨 수 합계 = 현재 비축량
+  - 목표 = (오늘(한국 시간) - `start` 일수) + `ahead_days`. 비축량이 목표보다 적으면 이번 실행에 그 언어에 최대 `max_per_run` 개 추가
+  - 추가할 곳 = `sequence` 에서 레슨 수가 `plan_days` 보다 적은 **첫 과정** (가장 낮은 단계부터). 그 과정이 차면 다음 과정 1일차부터 시작
+  - TOEIC·TOEFL 과정은 sequence 밖 — 사람이 요청할 때만 추가
 - 다 쓴 뒤 `python tools/validate.py` 실행 → 통과해야만 커밋 (index.json 도 이때 갱신됨)
 
 ## 레슨 형식
