@@ -7,7 +7,7 @@ window.SITE = {
   icon: "📗",                             // 탭 아이콘(favicon)
   key: "langnote",                        // ★ 저장 키 — 다른 학습 사이트와 겹치지 않게
   syncApi: "https://ai-hackathon-sync.vercel.app/api/state", // 기존 동기화 API 재사용 (key 로 공간 분리)
-  autoUpdate: false,                      // 매일 새 레슨 자동 추가(Claude 루틴)가 실제로 돌아가면 true — 화면 안내 문구가 바뀜
+  autoUpdate: true,                       // 매일 새 레슨 자동 추가(Claude 루틴)가 실제로 돌아가면 true — 화면 안내 문구가 바뀜
   resetEpoch: "",                       // 값을 새로 바꾸면 각 기기에서 처음 열 때 기록을 한 번 초기화
   resetKeys: ""                           // "*" = 필기·포스트잇까지 전부, 빈 값 = 진도만 (아래 progressKeys)
 };
