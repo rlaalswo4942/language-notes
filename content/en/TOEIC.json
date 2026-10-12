@@ -1,0 +1,121 @@
+{
+ "course": "TOEIC",
+ "schema_version": "1.0",
+ "description": "자체 제작 교육용 연습 레슨. 공식 ETS 문제 아님. verified는 프로젝트 내부 검토 상태이며 공인 인증 아님.",
+ "lessons": [
+  {
+   "id": "TOEIC-001",
+   "publish_date": "2026-10-12",
+   "level": "B1",
+   "track": "toeic",
+   "day": 1,
+   "title_ko": "TOEIC Part 5 맛보기: 주어와 동사",
+   "objective_ko": "업무 상황의 문장에서 주어에 맞는 현재형 동사를 선택한다.",
+   "estimated_minutes": 25,
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/toeic/about/listening-reading.html",
+     "publisher": "ETS",
+     "checked_at": "2026-10-12",
+     "supports": "공식 시험 형식"
+    }
+   ],
+   "content_kind": "original_practice",
+   "review_status": "verified",
+   "grammar": {
+    "explanation_ko": "TOEIC L&R의 Reading Part 5는 빈칸에 알맞은 표현을 고르는 유형입니다. 지금은 예시로 3인칭 단수 주어 뒤 현재형 동사의 -s를 복습합니다. 이것은 ETS 공식 문항이 아닌 자체 연습문제입니다.",
+    "common_mistake_ko": "현재형의 3인칭 단수 주어에서는 일반적으로 -s/-es 형태가 필요하지만, 조동사 뒤에는 원형이 옵니다."
+   },
+   "vocabulary": [
+    {
+     "word": "meeting",
+     "part_of_speech": "명사",
+     "meaning_ko": "회의",
+     "example_en": "The meeting starts at nine.",
+     "example_ko": "회의는 9시에 시작해요."
+    },
+    {
+     "word": "manager",
+     "part_of_speech": "명사",
+     "meaning_ko": "관리자",
+     "example_en": "The manager works here.",
+     "example_ko": "관리자는 여기서 일해요."
+    },
+    {
+     "word": "report",
+     "part_of_speech": "명사",
+     "meaning_ko": "보고서",
+     "example_en": "She reads the report.",
+     "example_ko": "그녀는 보고서를 읽어요."
+    },
+    {
+     "word": "schedule",
+     "part_of_speech": "명사",
+     "meaning_ko": "일정",
+     "example_en": "We check the schedule.",
+     "example_ko": "우리는 일정을 확인해요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The meeting starts at 9 a.m.",
+     "ko": "회의는 오전 9시에 시작해요."
+    },
+    {
+     "en": "Employees check their schedules.",
+     "ko": "직원들은 자신의 일정을 확인해요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "T001-Q1",
+     "type": "single_choice",
+     "stem": "The meeting ___ at nine every Monday.",
+     "choices": [
+      "start",
+      "starts",
+      "starting"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "The meeting은 3인칭 단수 주어이며 반복적 일정이므로 starts를 씁니다.",
+     "error_tag": "subject-verb-agreement"
+    },
+    {
+     "id": "T001-Q2",
+     "type": "single_choice",
+     "stem": "The manager ___ the report each morning.",
+     "choices": [
+      "review",
+      "reviews",
+      "reviewing"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "단수 주어 The manager에는 reviews가 맞습니다.",
+     "error_tag": "subject-verb-agreement"
+    },
+    {
+     "id": "T001-Q3",
+     "type": "single_choice",
+     "stem": "The employees ___ on time.",
+     "choices": [
+      "arrives",
+      "arrive",
+      "arriving"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "employees는 복수이므로 현재형 arrive를 사용합니다.",
+     "error_tag": "subject-verb-agreement"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "회사 회의 일정을 소개하는 영어 문장 한 개를 작성해 보세요.",
+    "example_answer_en": "",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 직접 만든 문장의 맥락을 확인하세요."
+   },
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-12"
+   }
+  }
+ ]
+}

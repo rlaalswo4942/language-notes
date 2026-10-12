@@ -1,0 +1,47 @@
+{
+ "JLPT_LEVELS": {
+  "url": "https://www.jlpt.jp/e/about/levelsummary.html",
+  "purpose": "JLPT 단계별 독해·청해 능력 기준",
+  "reuse": "metadata_only"
+ },
+ "JLPT_FAQ": {
+  "url": "https://www.jlpt.jp/e/faq/",
+  "purpose": "공식 어휘·문법 목록 부재, 시험 구성 및 말하기·쓰기 비평가 확인",
+  "reuse": "metadata_only"
+ },
+ "JLPT_FORMAT": {
+  "url": "https://www.jlpt.jp/e/guideline/testsections.html",
+  "purpose": "문항 종류와 시험 시간",
+  "reuse": "metadata_only"
+ },
+ "JLPT_SCORE": {
+  "url": "https://www.jlpt.jp/e/guideline/results.html",
+  "purpose": "합격 기준",
+  "reuse": "metadata_only"
+ },
+ "JLPT_SAMPLES": {
+  "url": "https://www.jlpt.jp/e/samples/sampleindex.html",
+  "purpose": "공식 예제·정답·음원, 사이트에는 링크만",
+  "reuse": "link_only"
+ },
+ "JF_HIRAGANA": {
+  "url": "https://www.minato-jf.jp/CourseDetail/Index/KC22_HRGS_A100_EN01",
+  "purpose": "국제교류기금 히라가나 입문 강좌",
+  "reuse": "reference_only"
+ },
+ "JF_KATAKANA": {
+  "url": "https://www.minato-jf.jp/CourseDetail/Index/KC26_KTKS_A100_EN01",
+  "purpose": "국제교류기금 가타카나 입문 강좌",
+  "reuse": "reference_only"
+ },
+ "JF_IRODORI": {
+  "url": "https://www.irodori.jpf.go.jp/en/starter/pdf.html",
+  "purpose": "생활 일본어·문형·음원",
+  "reuse": "link_or_licensed_use"
+ },
+ "TADOKU": {
+  "url": "https://tadoku.org/japanese/en/free-books-en/",
+  "purpose": "수준별 다독 자료",
+  "reuse": "link_only"
+ }
+}

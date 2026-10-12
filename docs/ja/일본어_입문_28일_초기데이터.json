@@ -1,0 +1,2726 @@
+{
+  "schema_version": "1.0.0",
+  "project": "Japanese Daily Learning - INTRO 28-day seed",
+  "authoring_policy": {
+    "not_official_jlpt_vocab_list": true,
+    "synthetic_audio_is_not_reference_pronunciation": true,
+    "review_required_for_publish": true,
+    "daily_release": "based_on_user_progress_not_calendar_date"
+  },
+  "sources": {
+    "JLPT_LEVELS": {
+      "url": "https://www.jlpt.jp/e/about/levelsummary.html",
+      "purpose": "JLPT 단계별 독해·청해 능력 기준",
+      "reuse": "metadata_only"
+    },
+    "JLPT_FAQ": {
+      "url": "https://www.jlpt.jp/e/faq/",
+      "purpose": "공식 어휘·문법 목록 부재, 시험 구성 및 말하기·쓰기 비평가 확인",
+      "reuse": "metadata_only"
+    },
+    "JLPT_FORMAT": {
+      "url": "https://www.jlpt.jp/e/guideline/testsections.html",
+      "purpose": "문항 종류와 시험 시간",
+      "reuse": "metadata_only"
+    },
+    "JLPT_SCORE": {
+      "url": "https://www.jlpt.jp/e/guideline/results.html",
+      "purpose": "합격 기준",
+      "reuse": "metadata_only"
+    },
+    "JLPT_SAMPLES": {
+      "url": "https://www.jlpt.jp/e/samples/sampleindex.html",
+      "purpose": "공식 예제·정답·음원, 사이트에는 링크만",
+      "reuse": "link_only"
+    },
+    "JF_HIRAGANA": {
+      "url": "https://www.minato-jf.jp/CourseDetail/Index/KC22_HRGS_A100_EN01",
+      "purpose": "국제교류기금 히라가나 입문 강좌",
+      "reuse": "reference_only"
+    },
+    "JF_KATAKANA": {
+      "url": "https://www.minato-jf.jp/CourseDetail/Index/KC26_KTKS_A100_EN01",
+      "purpose": "국제교류기금 가타카나 입문 강좌",
+      "reuse": "reference_only"
+    },
+    "JF_IRODORI": {
+      "url": "https://www.irodori.jpf.go.jp/en/starter/pdf.html",
+      "purpose": "생활 일본어·문형·음원",
+      "reuse": "link_or_licensed_use"
+    },
+    "TADOKU": {
+      "url": "https://tadoku.org/japanese/en/free-books-en/",
+      "purpose": "수준별 다독 자료",
+      "reuse": "link_only"
+    }
+  },
+  "lessons": [
+    {
+      "id": "JP-INTRO-01",
+      "day_index": 1,
+      "week_index": 1,
+      "level": "INTRO",
+      "unit_id": "INTRO-W01",
+      "lesson_type": "new",
+      "title_ko": "모음 5개",
+      "objective_ko": "일본어 모음은 다섯 개이며 한 글자씩 읽고 적는다.",
+      "estimated_minutes": 20,
+      "prerequisite_lesson_ids": [],
+      "new_items": [
+        {
+          "id": "kana-d01-01",
+          "kind": "kana",
+          "text": "あ",
+          "reading_romanized": "a",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d01-02",
+          "kind": "kana",
+          "text": "い",
+          "reading_romanized": "i",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d01-03",
+          "kind": "kana",
+          "text": "う",
+          "reading_romanized": "u",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d01-04",
+          "kind": "kana",
+          "text": "え",
+          "reading_romanized": "e",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d01-05",
+          "kind": "kana",
+          "text": "お",
+          "reading_romanized": "o",
+          "meaning_ko": null,
+          "romanization_alternatives": [
+            "wo"
+          ]
+        }
+      ],
+      "examples": [],
+      "exercises": [
+        {
+          "id": "JP-INTRO-01-Q1",
+          "type": "single_choice",
+          "prompt_ko": "「あ」의 일반적인 로마자 표기는 무엇인가요?",
+          "options": [
+            "a",
+            "i",
+            "u",
+            "e"
+          ],
+          "answer_index": 0,
+          "explanation_ko": "あ는 a로 표기합니다."
+        },
+        {
+          "id": "JP-INTRO-01-Q2",
+          "type": "typing",
+          "prompt_ko": "「い」를 일반적인 로마자로 입력하세요.",
+          "answer_text": "i",
+          "explanation_ko": "い → i",
+          "accepted_answers": [
+            "i"
+          ]
+        }
+      ],
+      "review_offsets_days": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "source_refs": [
+        "JF_HIRAGANA"
+      ],
+      "content_status": "linguistic_review_pending",
+      "schema_validation": "passed",
+      "editor_note_ko": "교육용 초안: 언어 교육자 검수 및 발음 음원 확인 후 publish 전환; 로마자 입력은 임시 보조용이며 2개월차 이후 표시를 점차 숨깁니다."
+    },
+    {
+      "id": "JP-INTRO-02",
+      "day_index": 2,
+      "week_index": 1,
+      "level": "INTRO",
+      "unit_id": "INTRO-W01",
+      "lesson_type": "new",
+      "title_ko": "か행 5개",
+      "objective_ko": "앞선 모음과 새 자음을 교차해서 판독한다.",
+      "estimated_minutes": 20,
+      "prerequisite_lesson_ids": [
+        "JP-INTRO-01"
+      ],
+      "new_items": [
+        {
+          "id": "kana-d02-01",
+          "kind": "kana",
+          "text": "か",
+          "reading_romanized": "ka",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d02-02",
+          "kind": "kana",
+          "text": "き",
+          "reading_romanized": "ki",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d02-03",
+          "kind": "kana",
+          "text": "く",
+          "reading_romanized": "ku",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d02-04",
+          "kind": "kana",
+          "text": "け",
+          "reading_romanized": "ke",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d02-05",
+          "kind": "kana",
+          "text": "こ",
+          "reading_romanized": "ko",
+          "meaning_ko": null
+        }
+      ],
+      "examples": [],
+      "exercises": [
+        {
+          "id": "JP-INTRO-02-Q1",
+          "type": "single_choice",
+          "prompt_ko": "「か」의 일반적인 로마자 표기는 무엇인가요?",
+          "options": [
+            "ka",
+            "ki",
+            "ku",
+            "ke"
+          ],
+          "answer_index": 0,
+          "explanation_ko": "か는 ka로 표기합니다."
+        },
+        {
+          "id": "JP-INTRO-02-Q2",
+          "type": "typing",
+          "prompt_ko": "「き」를 일반적인 로마자로 입력하세요.",
+          "answer_text": "ki",
+          "explanation_ko": "き → ki",
+          "accepted_answers": [
+            "ki"
+          ]
+        }
+      ],
+      "review_offsets_days": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "source_refs": [
+        "JF_HIRAGANA"
+      ],
+      "content_status": "linguistic_review_pending",
+      "schema_validation": "passed",
+      "editor_note_ko": "교육용 초안: 언어 교육자 검수 및 발음 음원 확인 후 publish 전환; 로마자 입력은 임시 보조용이며 2개월차 이후 표시를 점차 숨깁니다."
+    },
+    {
+      "id": "JP-INTRO-03",
+      "day_index": 3,
+      "week_index": 1,
+      "level": "INTRO",
+      "unit_id": "INTRO-W01",
+      "lesson_type": "new",
+      "title_ko": "さ행 5개",
+      "objective_ko": "し는 일반적으로 shi로 표기한다.",
+      "estimated_minutes": 20,
+      "prerequisite_lesson_ids": [
+        "JP-INTRO-02"
+      ],
+      "new_items": [
+        {
+          "id": "kana-d03-01",
+          "kind": "kana",
+          "text": "さ",
+          "reading_romanized": "sa",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d03-02",
+          "kind": "kana",
+          "text": "し",
+          "reading_romanized": "shi",
+          "meaning_ko": null,
+          "romanization_alternatives": [
+            "si"
+          ]
+        },
+        {
+          "id": "kana-d03-03",
+          "kind": "kana",
+          "text": "す",
+          "reading_romanized": "su",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d03-04",
+          "kind": "kana",
+          "text": "せ",
+          "reading_romanized": "se",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d03-05",
+          "kind": "kana",
+          "text": "そ",
+          "reading_romanized": "so",
+          "meaning_ko": null
+        }
+      ],
+      "examples": [],
+      "exercises": [
+        {
+          "id": "JP-INTRO-03-Q1",
+          "type": "single_choice",
+          "prompt_ko": "「さ」의 일반적인 로마자 표기는 무엇인가요?",
+          "options": [
+            "sa",
+            "shi",
+            "su",
+            "se"
+          ],
+          "answer_index": 0,
+          "explanation_ko": "さ는 sa로 표기합니다."
+        },
+        {
+          "id": "JP-INTRO-03-Q2",
+          "type": "typing",
+          "prompt_ko": "「し」를 일반적인 로마자로 입력하세요.",
+          "answer_text": "shi",
+          "explanation_ko": "し → shi",
+          "accepted_answers": [
+            "shi",
+            "si"
+          ]
+        }
+      ],
+      "review_offsets_days": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "source_refs": [
+        "JF_HIRAGANA"
+      ],
+      "content_status": "linguistic_review_pending",
+      "schema_validation": "passed",
+      "editor_note_ko": "교육용 초안: 언어 교육자 검수 및 발음 음원 확인 후 publish 전환; 로마자 입력은 임시 보조용이며 2개월차 이후 표시를 점차 숨깁니다."
+    },
+    {
+      "id": "JP-INTRO-04",
+      "day_index": 4,
+      "week_index": 1,
+      "level": "INTRO",
+      "unit_id": "INTRO-W01",
+      "lesson_type": "new",
+      "title_ko": "た행 5개",
+      "objective_ko": "ち와 つ의 발음을 다른 글자와 구별한다.",
+      "estimated_minutes": 20,
+      "prerequisite_lesson_ids": [
+        "JP-INTRO-03"
+      ],
+      "new_items": [
+        {
+          "id": "kana-d04-01",
+          "kind": "kana",
+          "text": "た",
+          "reading_romanized": "ta",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d04-02",
+          "kind": "kana",
+          "text": "ち",
+          "reading_romanized": "chi",
+          "meaning_ko": null,
+          "romanization_alternatives": [
+            "ti"
+          ]
+        },
+        {
+          "id": "kana-d04-03",
+          "kind": "kana",
+          "text": "つ",
+          "reading_romanized": "tsu",
+          "meaning_ko": null,
+          "romanization_alternatives": [
+            "tu"
+          ]
+        },
+        {
+          "id": "kana-d04-04",
+          "kind": "kana",
+          "text": "て",
+          "reading_romanized": "te",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d04-05",
+          "kind": "kana",
+          "text": "と",
+          "reading_romanized": "to",
+          "meaning_ko": null
+        }
+      ],
+      "examples": [],
+      "exercises": [
+        {
+          "id": "JP-INTRO-04-Q1",
+          "type": "single_choice",
+          "prompt_ko": "「た」의 일반적인 로마자 표기는 무엇인가요?",
+          "options": [
+            "ta",
+            "chi",
+            "tsu",
+            "te"
+          ],
+          "answer_index": 0,
+          "explanation_ko": "た는 ta로 표기합니다."
+        },
+        {
+          "id": "JP-INTRO-04-Q2",
+          "type": "typing",
+          "prompt_ko": "「ち」를 일반적인 로마자로 입력하세요.",
+          "answer_text": "chi",
+          "explanation_ko": "ち → chi",
+          "accepted_answers": [
+            "chi"
+          ]
+        }
+      ],
+      "review_offsets_days": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "source_refs": [
+        "JF_HIRAGANA"
+      ],
+      "content_status": "linguistic_review_pending",
+      "schema_validation": "passed",
+      "editor_note_ko": "교육용 초안: 언어 교육자 검수 및 발음 음원 확인 후 publish 전환; 로마자 입력은 임시 보조용이며 2개월차 이후 표시를 점차 숨깁니다."
+    },
+    {
+      "id": "JP-INTRO-05",
+      "day_index": 5,
+      "week_index": 1,
+      "level": "INTRO",
+      "unit_id": "INTRO-W01",
+      "lesson_type": "new",
+      "title_ko": "な행 5개",
+      "objective_ko": "문자별 소리와 글자 형태를 연결한다.",
+      "estimated_minutes": 20,
+      "prerequisite_lesson_ids": [
+        "JP-INTRO-04"
+      ],
+      "new_items": [
+        {
+          "id": "kana-d05-01",
+          "kind": "kana",
+          "text": "な",
+          "reading_romanized": "na",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d05-02",
+          "kind": "kana",
+          "text": "に",
+          "reading_romanized": "ni",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d05-03",
+          "kind": "kana",
+          "text": "ぬ",
+          "reading_romanized": "nu",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d05-04",
+          "kind": "kana",
+          "text": "ね",
+          "reading_romanized": "ne",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d05-05",
+          "kind": "kana",
+          "text": "の",
+          "reading_romanized": "no",
+          "meaning_ko": null
+        }
+      ],
+      "examples": [],
+      "exercises": [
+        {
+          "id": "JP-INTRO-05-Q1",
+          "type": "single_choice",
+          "prompt_ko": "「な」의 일반적인 로마자 표기는 무엇인가요?",
+          "options": [
+            "na",
+            "ni",
+            "nu",
+            "ne"
+          ],
+          "answer_index": 0,
+          "explanation_ko": "な는 na로 표기합니다."
+        },
+        {
+          "id": "JP-INTRO-05-Q2",
+          "type": "typing",
+          "prompt_ko": "「に」를 일반적인 로마자로 입력하세요.",
+          "answer_text": "ni",
+          "explanation_ko": "に → ni",
+          "accepted_answers": [
+            "ni"
+          ]
+        }
+      ],
+      "review_offsets_days": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "source_refs": [
+        "JF_HIRAGANA"
+      ],
+      "content_status": "linguistic_review_pending",
+      "schema_validation": "passed",
+      "editor_note_ko": "교육용 초안: 언어 교육자 검수 및 발음 음원 확인 후 publish 전환; 로마자 입력은 임시 보조용이며 2개월차 이후 표시를 점차 숨깁니다."
+    },
+    {
+      "id": "JP-INTRO-06",
+      "day_index": 6,
+      "week_index": 1,
+      "level": "INTRO",
+      "unit_id": "INTRO-W01",
+      "lesson_type": "practice",
+      "title_ko": "배운 글자로 단어 읽기",
+      "objective_ko": "앞서 등장한 히라가나로만 구성된 단어를 읽는다.",
+      "estimated_minutes": 20,
+      "prerequisite_lesson_ids": [
+        "JP-INTRO-05"
+      ],
+      "new_items": [],
+      "examples": [
+        {
+          "japanese": "いぬ",
+          "reading_romanized": "inu",
+          "meaning_ko": "개",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        },
+        {
+          "japanese": "ねこ",
+          "reading_romanized": "neko",
+          "meaning_ko": "고양이",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        },
+        {
+          "japanese": "すし",
+          "reading_romanized": "sushi",
+          "meaning_ko": "초밥",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        },
+        {
+          "japanese": "かさ",
+          "reading_romanized": "kasa",
+          "meaning_ko": "우산",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        },
+        {
+          "japanese": "つき",
+          "reading_romanized": "tsuki",
+          "meaning_ko": "달",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        },
+        {
+          "japanese": "たこ",
+          "reading_romanized": "tako",
+          "meaning_ko": "문어",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "JP-INTRO-06-WORD1",
+          "type": "typing",
+          "prompt_ko": "「いぬ」의 읽기를 로마자로 입력하세요.",
+          "answer_text": "inu",
+          "explanation_ko": "いぬ = inu (개)",
+          "accepted_answers": [
+            "inu"
+          ]
+        },
+        {
+          "id": "JP-INTRO-06-WORD2",
+          "type": "typing",
+          "prompt_ko": "「ねこ」의 읽기를 로마자로 입력하세요.",
+          "answer_text": "neko",
+          "explanation_ko": "ねこ = neko (고양이)",
+          "accepted_answers": [
+            "neko"
+          ]
+        },
+        {
+          "id": "JP-INTRO-06-WORD3",
+          "type": "typing",
+          "prompt_ko": "「すし」의 읽기를 로마자로 입력하세요.",
+          "answer_text": "sushi",
+          "explanation_ko": "すし = sushi (초밥)",
+          "accepted_answers": [
+            "sushi",
+            "susi"
+          ]
+        }
+      ],
+      "review_offsets_days": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "source_refs": [
+        "JF_HIRAGANA"
+      ],
+      "content_status": "linguistic_review_pending",
+      "schema_validation": "passed",
+      "editor_note_ko": "교육용 초안: 언어 교육자 검수 및 발음 음원 확인 후 publish 전환; 로마자 입력은 임시 보조용이며 2개월차 이후 표시를 점차 숨깁니다."
+    },
+    {
+      "id": "JP-INTRO-07",
+      "day_index": 7,
+      "week_index": 1,
+      "level": "INTRO",
+      "unit_id": "INTRO-W01",
+      "lesson_type": "checkpoint",
+      "title_ko": "1주차 확인 시험",
+      "objective_ko": "25개 히라가나 판독 및 단어 읽기 확인.",
+      "estimated_minutes": 25,
+      "prerequisite_lesson_ids": [
+        "JP-INTRO-06"
+      ],
+      "new_items": [],
+      "examples": [
+        {
+          "japanese": "いぬ",
+          "reading_romanized": "inu",
+          "meaning_ko": "개",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        },
+        {
+          "japanese": "ねこ",
+          "reading_romanized": "neko",
+          "meaning_ko": "고양이",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        },
+        {
+          "japanese": "つき",
+          "reading_romanized": "tsuki",
+          "meaning_ko": "달",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "JP-INTRO-07-WORD1",
+          "type": "typing",
+          "prompt_ko": "「いぬ」의 읽기를 로마자로 입력하세요.",
+          "answer_text": "inu",
+          "explanation_ko": "いぬ = inu (개)",
+          "accepted_answers": [
+            "inu"
+          ]
+        },
+        {
+          "id": "JP-INTRO-07-WORD2",
+          "type": "typing",
+          "prompt_ko": "「ねこ」의 읽기를 로마자로 입력하세요.",
+          "answer_text": "neko",
+          "explanation_ko": "ねこ = neko (고양이)",
+          "accepted_answers": [
+            "neko"
+          ]
+        },
+        {
+          "id": "JP-INTRO-07-WORD3",
+          "type": "typing",
+          "prompt_ko": "「つき」의 읽기를 로마자로 입력하세요.",
+          "answer_text": "tsuki",
+          "explanation_ko": "つき = tsuki (달)",
+          "accepted_answers": [
+            "tsuki",
+            "tuki"
+          ]
+        }
+      ],
+      "review_offsets_days": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "source_refs": [
+        "JF_HIRAGANA"
+      ],
+      "content_status": "linguistic_review_pending",
+      "schema_validation": "passed",
+      "editor_note_ko": "교육용 초안: 언어 교육자 검수 및 발음 음원 확인 후 publish 전환; 로마자 입력은 임시 보조용이며 2개월차 이후 표시를 점차 숨깁니다."
+    },
+    {
+      "id": "JP-INTRO-08",
+      "day_index": 8,
+      "week_index": 2,
+      "level": "INTRO",
+      "unit_id": "INTRO-W02",
+      "lesson_type": "new",
+      "title_ko": "は행 5개",
+      "objective_ko": "ふ는 통상 fu로 표기하며 발음은 영어 f와 완전히 같지 않다.",
+      "estimated_minutes": 20,
+      "prerequisite_lesson_ids": [
+        "JP-INTRO-07"
+      ],
+      "new_items": [
+        {
+          "id": "kana-d08-01",
+          "kind": "kana",
+          "text": "は",
+          "reading_romanized": "ha",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d08-02",
+          "kind": "kana",
+          "text": "ひ",
+          "reading_romanized": "hi",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d08-03",
+          "kind": "kana",
+          "text": "ふ",
+          "reading_romanized": "fu",
+          "meaning_ko": null,
+          "romanization_alternatives": [
+            "hu"
+          ]
+        },
+        {
+          "id": "kana-d08-04",
+          "kind": "kana",
+          "text": "へ",
+          "reading_romanized": "he",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d08-05",
+          "kind": "kana",
+          "text": "ほ",
+          "reading_romanized": "ho",
+          "meaning_ko": null
+        }
+      ],
+      "examples": [],
+      "exercises": [
+        {
+          "id": "JP-INTRO-08-Q1",
+          "type": "single_choice",
+          "prompt_ko": "「は」의 일반적인 로마자 표기는 무엇인가요?",
+          "options": [
+            "ha",
+            "hi",
+            "fu",
+            "he"
+          ],
+          "answer_index": 0,
+          "explanation_ko": "は는 ha로 표기합니다."
+        },
+        {
+          "id": "JP-INTRO-08-Q2",
+          "type": "typing",
+          "prompt_ko": "「ひ」를 일반적인 로마자로 입력하세요.",
+          "answer_text": "hi",
+          "explanation_ko": "ひ → hi",
+          "accepted_answers": [
+            "hi"
+          ]
+        }
+      ],
+      "review_offsets_days": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "source_refs": [
+        "JF_HIRAGANA"
+      ],
+      "content_status": "linguistic_review_pending",
+      "schema_validation": "passed",
+      "editor_note_ko": "교육용 초안: 언어 교육자 검수 및 발음 음원 확인 후 publish 전환; 로마자 입력은 임시 보조용이며 2개월차 이후 표시를 점차 숨깁니다."
+    },
+    {
+      "id": "JP-INTRO-09",
+      "day_index": 9,
+      "week_index": 2,
+      "level": "INTRO",
+      "unit_id": "INTRO-W02",
+      "lesson_type": "new",
+      "title_ko": "ま행 5개",
+      "objective_ko": "비슷한 획 구성을 비교해 판독한다.",
+      "estimated_minutes": 20,
+      "prerequisite_lesson_ids": [
+        "JP-INTRO-08"
+      ],
+      "new_items": [
+        {
+          "id": "kana-d09-01",
+          "kind": "kana",
+          "text": "ま",
+          "reading_romanized": "ma",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d09-02",
+          "kind": "kana",
+          "text": "み",
+          "reading_romanized": "mi",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d09-03",
+          "kind": "kana",
+          "text": "む",
+          "reading_romanized": "mu",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d09-04",
+          "kind": "kana",
+          "text": "め",
+          "reading_romanized": "me",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d09-05",
+          "kind": "kana",
+          "text": "も",
+          "reading_romanized": "mo",
+          "meaning_ko": null
+        }
+      ],
+      "examples": [],
+      "exercises": [
+        {
+          "id": "JP-INTRO-09-Q1",
+          "type": "single_choice",
+          "prompt_ko": "「ま」의 일반적인 로마자 표기는 무엇인가요?",
+          "options": [
+            "ma",
+            "mi",
+            "mu",
+            "me"
+          ],
+          "answer_index": 0,
+          "explanation_ko": "ま는 ma로 표기합니다."
+        },
+        {
+          "id": "JP-INTRO-09-Q2",
+          "type": "typing",
+          "prompt_ko": "「み」를 일반적인 로마자로 입력하세요.",
+          "answer_text": "mi",
+          "explanation_ko": "み → mi",
+          "accepted_answers": [
+            "mi"
+          ]
+        }
+      ],
+      "review_offsets_days": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "source_refs": [
+        "JF_HIRAGANA"
+      ],
+      "content_status": "linguistic_review_pending",
+      "schema_validation": "passed",
+      "editor_note_ko": "교육용 초안: 언어 교육자 검수 및 발음 음원 확인 후 publish 전환; 로마자 입력은 임시 보조용이며 2개월차 이후 표시를 점차 숨깁니다."
+    },
+    {
+      "id": "JP-INTRO-10",
+      "day_index": 10,
+      "week_index": 2,
+      "level": "INTRO",
+      "unit_id": "INTRO-W02",
+      "lesson_type": "new",
+      "title_ko": "や행 3개",
+      "objective_ko": "현대 표준 가나표에서 や행은 3글자를 우선 학습한다.",
+      "estimated_minutes": 20,
+      "prerequisite_lesson_ids": [
+        "JP-INTRO-09"
+      ],
+      "new_items": [
+        {
+          "id": "kana-d10-01",
+          "kind": "kana",
+          "text": "や",
+          "reading_romanized": "ya",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d10-02",
+          "kind": "kana",
+          "text": "ゆ",
+          "reading_romanized": "yu",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d10-03",
+          "kind": "kana",
+          "text": "よ",
+          "reading_romanized": "yo",
+          "meaning_ko": null
+        }
+      ],
+      "examples": [],
+      "exercises": [
+        {
+          "id": "JP-INTRO-10-Q1",
+          "type": "single_choice",
+          "prompt_ko": "「や」의 일반적인 로마자 표기는 무엇인가요?",
+          "options": [
+            "ya",
+            "yu",
+            "yo",
+            "ka"
+          ],
+          "answer_index": 0,
+          "explanation_ko": "や는 ya로 표기합니다."
+        },
+        {
+          "id": "JP-INTRO-10-Q2",
+          "type": "typing",
+          "prompt_ko": "「ゆ」를 일반적인 로마자로 입력하세요.",
+          "answer_text": "yu",
+          "explanation_ko": "ゆ → yu",
+          "accepted_answers": [
+            "yu"
+          ]
+        }
+      ],
+      "review_offsets_days": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "source_refs": [
+        "JF_HIRAGANA"
+      ],
+      "content_status": "linguistic_review_pending",
+      "schema_validation": "passed",
+      "editor_note_ko": "교육용 초안: 언어 교육자 검수 및 발음 음원 확인 후 publish 전환; 로마자 입력은 임시 보조용이며 2개월차 이후 표시를 점차 숨깁니다."
+    },
+    {
+      "id": "JP-INTRO-11",
+      "day_index": 11,
+      "week_index": 2,
+      "level": "INTRO",
+      "unit_id": "INTRO-W02",
+      "lesson_type": "new",
+      "title_ko": "ら행 5개",
+      "objective_ko": "ら행 자음은 한국어 ㄹ과 완전히 동일하지 않다.",
+      "estimated_minutes": 20,
+      "prerequisite_lesson_ids": [
+        "JP-INTRO-10"
+      ],
+      "new_items": [
+        {
+          "id": "kana-d11-01",
+          "kind": "kana",
+          "text": "ら",
+          "reading_romanized": "ra",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d11-02",
+          "kind": "kana",
+          "text": "り",
+          "reading_romanized": "ri",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d11-03",
+          "kind": "kana",
+          "text": "る",
+          "reading_romanized": "ru",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d11-04",
+          "kind": "kana",
+          "text": "れ",
+          "reading_romanized": "re",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d11-05",
+          "kind": "kana",
+          "text": "ろ",
+          "reading_romanized": "ro",
+          "meaning_ko": null
+        }
+      ],
+      "examples": [],
+      "exercises": [
+        {
+          "id": "JP-INTRO-11-Q1",
+          "type": "single_choice",
+          "prompt_ko": "「ら」의 일반적인 로마자 표기는 무엇인가요?",
+          "options": [
+            "ra",
+            "ri",
+            "ru",
+            "re"
+          ],
+          "answer_index": 0,
+          "explanation_ko": "ら는 ra로 표기합니다."
+        },
+        {
+          "id": "JP-INTRO-11-Q2",
+          "type": "typing",
+          "prompt_ko": "「り」를 일반적인 로마자로 입력하세요.",
+          "answer_text": "ri",
+          "explanation_ko": "り → ri",
+          "accepted_answers": [
+            "ri"
+          ]
+        }
+      ],
+      "review_offsets_days": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "source_refs": [
+        "JF_HIRAGANA"
+      ],
+      "content_status": "linguistic_review_pending",
+      "schema_validation": "passed",
+      "editor_note_ko": "교육용 초안: 언어 교육자 검수 및 발음 음원 확인 후 publish 전환; 로마자 입력은 임시 보조용이며 2개월차 이후 표시를 점차 숨깁니다."
+    },
+    {
+      "id": "JP-INTRO-12",
+      "day_index": 12,
+      "week_index": 2,
+      "level": "INTRO",
+      "unit_id": "INTRO-W02",
+      "lesson_type": "new",
+      "title_ko": "わ·を·ん",
+      "objective_ko": "조사 を는 보통 o로 발음된다. 역사적 로마자 표기로 wo도 볼 수 있다.",
+      "estimated_minutes": 20,
+      "prerequisite_lesson_ids": [
+        "JP-INTRO-11"
+      ],
+      "new_items": [
+        {
+          "id": "kana-d12-01",
+          "kind": "kana",
+          "text": "わ",
+          "reading_romanized": "wa",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d12-02",
+          "kind": "kana",
+          "text": "を",
+          "reading_romanized": "o",
+          "meaning_ko": null,
+          "romanization_alternatives": [
+            "wo"
+          ]
+        },
+        {
+          "id": "kana-d12-03",
+          "kind": "kana",
+          "text": "ん",
+          "reading_romanized": "n",
+          "meaning_ko": null
+        }
+      ],
+      "examples": [],
+      "exercises": [
+        {
+          "id": "JP-INTRO-12-Q1",
+          "type": "single_choice",
+          "prompt_ko": "「わ」의 일반적인 로마자 표기는 무엇인가요?",
+          "options": [
+            "wa",
+            "o",
+            "n",
+            "ka"
+          ],
+          "answer_index": 0,
+          "explanation_ko": "わ는 wa로 표기합니다."
+        },
+        {
+          "id": "JP-INTRO-12-Q2",
+          "type": "typing",
+          "prompt_ko": "「を」를 일반적인 로마자로 입력하세요.",
+          "answer_text": "o",
+          "explanation_ko": "を → o",
+          "accepted_answers": [
+            "o"
+          ]
+        }
+      ],
+      "review_offsets_days": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "source_refs": [
+        "JF_HIRAGANA"
+      ],
+      "content_status": "linguistic_review_pending",
+      "schema_validation": "passed",
+      "editor_note_ko": "교육용 초안: 언어 교육자 검수 및 발음 음원 확인 후 publish 전환; 로마자 입력은 임시 보조용이며 2개월차 이후 표시를 점차 숨깁니다."
+    },
+    {
+      "id": "JP-INTRO-13",
+      "day_index": 13,
+      "week_index": 2,
+      "level": "INTRO",
+      "unit_id": "INTRO-W02",
+      "lesson_type": "practice",
+      "title_ko": "기본 히라가나 단어",
+      "objective_ko": "기본 히라가나 46개의 읽기와 주요 단어의 의미를 익힌다.",
+      "estimated_minutes": 20,
+      "prerequisite_lesson_ids": [
+        "JP-INTRO-12"
+      ],
+      "new_items": [],
+      "examples": [
+        {
+          "japanese": "はな",
+          "reading_romanized": "hana",
+          "meaning_ko": "꽃",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        },
+        {
+          "japanese": "やま",
+          "reading_romanized": "yama",
+          "meaning_ko": "산",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        },
+        {
+          "japanese": "ゆめ",
+          "reading_romanized": "yume",
+          "meaning_ko": "꿈",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        },
+        {
+          "japanese": "ほん",
+          "reading_romanized": "hon",
+          "meaning_ko": "책",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        },
+        {
+          "japanese": "まち",
+          "reading_romanized": "machi",
+          "meaning_ko": "마을",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        },
+        {
+          "japanese": "くるま",
+          "reading_romanized": "kuruma",
+          "meaning_ko": "자동차",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        },
+        {
+          "japanese": "かわ",
+          "reading_romanized": "kawa",
+          "meaning_ko": "강",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        },
+        {
+          "japanese": "ふね",
+          "reading_romanized": "fune",
+          "meaning_ko": "배",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "JP-INTRO-13-WORD1",
+          "type": "typing",
+          "prompt_ko": "「はな」의 읽기를 로마자로 입력하세요.",
+          "answer_text": "hana",
+          "explanation_ko": "はな = hana (꽃)",
+          "accepted_answers": [
+            "hana"
+          ]
+        },
+        {
+          "id": "JP-INTRO-13-WORD2",
+          "type": "typing",
+          "prompt_ko": "「やま」의 읽기를 로마자로 입력하세요.",
+          "answer_text": "yama",
+          "explanation_ko": "やま = yama (산)",
+          "accepted_answers": [
+            "yama"
+          ]
+        },
+        {
+          "id": "JP-INTRO-13-WORD3",
+          "type": "typing",
+          "prompt_ko": "「ゆめ」의 읽기를 로마자로 입력하세요.",
+          "answer_text": "yume",
+          "explanation_ko": "ゆめ = yume (꿈)",
+          "accepted_answers": [
+            "yume"
+          ]
+        }
+      ],
+      "review_offsets_days": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "source_refs": [
+        "JF_HIRAGANA"
+      ],
+      "content_status": "linguistic_review_pending",
+      "schema_validation": "passed",
+      "editor_note_ko": "교육용 초안: 언어 교육자 검수 및 발음 음원 확인 후 publish 전환; 로마자 입력은 임시 보조용이며 2개월차 이후 표시를 점차 숨깁니다."
+    },
+    {
+      "id": "JP-INTRO-14",
+      "day_index": 14,
+      "week_index": 2,
+      "level": "INTRO",
+      "unit_id": "INTRO-W02",
+      "lesson_type": "checkpoint",
+      "title_ko": "2주차 확인 시험",
+      "objective_ko": "기본 히라가나 46글자 중 약점을 재평가한다.",
+      "estimated_minutes": 25,
+      "prerequisite_lesson_ids": [
+        "JP-INTRO-13"
+      ],
+      "new_items": [],
+      "examples": [
+        {
+          "japanese": "やま",
+          "reading_romanized": "yama",
+          "meaning_ko": "산",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        },
+        {
+          "japanese": "ほん",
+          "reading_romanized": "hon",
+          "meaning_ko": "책",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        },
+        {
+          "japanese": "くるま",
+          "reading_romanized": "kuruma",
+          "meaning_ko": "자동차",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "JP-INTRO-14-WORD1",
+          "type": "typing",
+          "prompt_ko": "「やま」의 읽기를 로마자로 입력하세요.",
+          "answer_text": "yama",
+          "explanation_ko": "やま = yama (산)",
+          "accepted_answers": [
+            "yama"
+          ]
+        },
+        {
+          "id": "JP-INTRO-14-WORD2",
+          "type": "typing",
+          "prompt_ko": "「ほん」의 읽기를 로마자로 입력하세요.",
+          "answer_text": "hon",
+          "explanation_ko": "ほん = hon (책)",
+          "accepted_answers": [
+            "hon"
+          ]
+        },
+        {
+          "id": "JP-INTRO-14-WORD3",
+          "type": "typing",
+          "prompt_ko": "「くるま」의 읽기를 로마자로 입력하세요.",
+          "answer_text": "kuruma",
+          "explanation_ko": "くるま = kuruma (자동차)",
+          "accepted_answers": [
+            "kuruma"
+          ]
+        }
+      ],
+      "review_offsets_days": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "source_refs": [
+        "JF_HIRAGANA"
+      ],
+      "content_status": "linguistic_review_pending",
+      "schema_validation": "passed",
+      "editor_note_ko": "교육용 초안: 언어 교육자 검수 및 발음 음원 확인 후 publish 전환; 로마자 입력은 임시 보조용이며 2개월차 이후 표시를 점차 숨깁니다."
+    },
+    {
+      "id": "JP-INTRO-15",
+      "day_index": 15,
+      "week_index": 3,
+      "level": "INTRO",
+      "unit_id": "INTRO-W03",
+      "lesson_type": "new",
+      "title_ko": "탁음 が행",
+      "objective_ko": "か행에 탁점(゛)을 붙인다.",
+      "estimated_minutes": 20,
+      "prerequisite_lesson_ids": [
+        "JP-INTRO-14"
+      ],
+      "new_items": [
+        {
+          "id": "kana-d15-01",
+          "kind": "kana",
+          "text": "が",
+          "reading_romanized": "ga",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d15-02",
+          "kind": "kana",
+          "text": "ぎ",
+          "reading_romanized": "gi",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d15-03",
+          "kind": "kana",
+          "text": "ぐ",
+          "reading_romanized": "gu",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d15-04",
+          "kind": "kana",
+          "text": "げ",
+          "reading_romanized": "ge",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d15-05",
+          "kind": "kana",
+          "text": "ご",
+          "reading_romanized": "go",
+          "meaning_ko": null
+        }
+      ],
+      "examples": [],
+      "exercises": [
+        {
+          "id": "JP-INTRO-15-Q1",
+          "type": "single_choice",
+          "prompt_ko": "「が」의 일반적인 로마자 표기는 무엇인가요?",
+          "options": [
+            "ga",
+            "gi",
+            "gu",
+            "ge"
+          ],
+          "answer_index": 0,
+          "explanation_ko": "が는 ga로 표기합니다."
+        },
+        {
+          "id": "JP-INTRO-15-Q2",
+          "type": "typing",
+          "prompt_ko": "「ぎ」를 일반적인 로마자로 입력하세요.",
+          "answer_text": "gi",
+          "explanation_ko": "ぎ → gi",
+          "accepted_answers": [
+            "gi"
+          ]
+        }
+      ],
+      "review_offsets_days": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "source_refs": [
+        "JF_HIRAGANA"
+      ],
+      "content_status": "linguistic_review_pending",
+      "schema_validation": "passed",
+      "editor_note_ko": "교육용 초안: 언어 교육자 검수 및 발음 음원 확인 후 publish 전환; 로마자 입력은 임시 보조용이며 2개월차 이후 표시를 점차 숨깁니다."
+    },
+    {
+      "id": "JP-INTRO-16",
+      "day_index": 16,
+      "week_index": 3,
+      "level": "INTRO",
+      "unit_id": "INTRO-W03",
+      "lesson_type": "new",
+      "title_ko": "탁음 ざ행",
+      "objective_ko": "じ는 일반적으로 ji로 표기한다.",
+      "estimated_minutes": 20,
+      "prerequisite_lesson_ids": [
+        "JP-INTRO-15"
+      ],
+      "new_items": [
+        {
+          "id": "kana-d16-01",
+          "kind": "kana",
+          "text": "ざ",
+          "reading_romanized": "za",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d16-02",
+          "kind": "kana",
+          "text": "じ",
+          "reading_romanized": "ji",
+          "meaning_ko": null,
+          "romanization_alternatives": [
+            "zi",
+            "di"
+          ]
+        },
+        {
+          "id": "kana-d16-03",
+          "kind": "kana",
+          "text": "ず",
+          "reading_romanized": "zu",
+          "meaning_ko": null,
+          "romanization_alternatives": [
+            "du"
+          ]
+        },
+        {
+          "id": "kana-d16-04",
+          "kind": "kana",
+          "text": "ぜ",
+          "reading_romanized": "ze",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d16-05",
+          "kind": "kana",
+          "text": "ぞ",
+          "reading_romanized": "zo",
+          "meaning_ko": null
+        }
+      ],
+      "examples": [],
+      "exercises": [
+        {
+          "id": "JP-INTRO-16-Q1",
+          "type": "single_choice",
+          "prompt_ko": "「ざ」의 일반적인 로마자 표기는 무엇인가요?",
+          "options": [
+            "za",
+            "ji",
+            "zu",
+            "ze"
+          ],
+          "answer_index": 0,
+          "explanation_ko": "ざ는 za로 표기합니다."
+        },
+        {
+          "id": "JP-INTRO-16-Q2",
+          "type": "typing",
+          "prompt_ko": "「じ」를 일반적인 로마자로 입력하세요.",
+          "answer_text": "ji",
+          "explanation_ko": "じ → ji",
+          "accepted_answers": [
+            "ji",
+            "zi"
+          ]
+        }
+      ],
+      "review_offsets_days": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "source_refs": [
+        "JF_HIRAGANA"
+      ],
+      "content_status": "linguistic_review_pending",
+      "schema_validation": "passed",
+      "editor_note_ko": "교육용 초안: 언어 교육자 검수 및 발음 음원 확인 후 publish 전환; 로마자 입력은 임시 보조용이며 2개월차 이후 표시를 점차 숨깁니다."
+    },
+    {
+      "id": "JP-INTRO-17",
+      "day_index": 17,
+      "week_index": 3,
+      "level": "INTRO",
+      "unit_id": "INTRO-W03",
+      "lesson_type": "new",
+      "title_ko": "탁음 だ행",
+      "objective_ko": "현대 표준어에서 ぢ·づ는 각각 じ·ず와 많은 환경에서 같은 소리로 발음된다. 표기는 단어별로 익힌다.",
+      "estimated_minutes": 20,
+      "prerequisite_lesson_ids": [
+        "JP-INTRO-16"
+      ],
+      "new_items": [
+        {
+          "id": "kana-d17-01",
+          "kind": "kana",
+          "text": "だ",
+          "reading_romanized": "da",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d17-02",
+          "kind": "kana",
+          "text": "ぢ",
+          "reading_romanized": "ji",
+          "meaning_ko": null,
+          "romanization_alternatives": [
+            "di"
+          ]
+        },
+        {
+          "id": "kana-d17-03",
+          "kind": "kana",
+          "text": "づ",
+          "reading_romanized": "zu",
+          "meaning_ko": null,
+          "romanization_alternatives": [
+            "du"
+          ]
+        },
+        {
+          "id": "kana-d17-04",
+          "kind": "kana",
+          "text": "で",
+          "reading_romanized": "de",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d17-05",
+          "kind": "kana",
+          "text": "ど",
+          "reading_romanized": "do",
+          "meaning_ko": null
+        }
+      ],
+      "examples": [],
+      "exercises": [
+        {
+          "id": "JP-INTRO-17-Q1",
+          "type": "single_choice",
+          "prompt_ko": "「だ」의 일반적인 로마자 표기는 무엇인가요?",
+          "options": [
+            "da",
+            "ji",
+            "zu",
+            "de"
+          ],
+          "answer_index": 0,
+          "explanation_ko": "だ는 da로 표기합니다."
+        },
+        {
+          "id": "JP-INTRO-17-Q2",
+          "type": "typing",
+          "prompt_ko": "「ぢ」를 일반적인 로마자로 입력하세요.",
+          "answer_text": "ji",
+          "explanation_ko": "ぢ → ji",
+          "accepted_answers": [
+            "ji",
+            "zi"
+          ]
+        }
+      ],
+      "review_offsets_days": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "source_refs": [
+        "JF_HIRAGANA"
+      ],
+      "content_status": "linguistic_review_pending",
+      "schema_validation": "passed",
+      "editor_note_ko": "교육용 초안: 언어 교육자 검수 및 발음 음원 확인 후 publish 전환; 로마자 입력은 임시 보조용이며 2개월차 이후 표시를 점차 숨깁니다."
+    },
+    {
+      "id": "JP-INTRO-18",
+      "day_index": 18,
+      "week_index": 3,
+      "level": "INTRO",
+      "unit_id": "INTRO-W03",
+      "lesson_type": "new",
+      "title_ko": "탁음 ば행",
+      "objective_ko": "は행에 탁점을 붙인다.",
+      "estimated_minutes": 20,
+      "prerequisite_lesson_ids": [
+        "JP-INTRO-17"
+      ],
+      "new_items": [
+        {
+          "id": "kana-d18-01",
+          "kind": "kana",
+          "text": "ば",
+          "reading_romanized": "ba",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d18-02",
+          "kind": "kana",
+          "text": "び",
+          "reading_romanized": "bi",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d18-03",
+          "kind": "kana",
+          "text": "ぶ",
+          "reading_romanized": "bu",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d18-04",
+          "kind": "kana",
+          "text": "べ",
+          "reading_romanized": "be",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d18-05",
+          "kind": "kana",
+          "text": "ぼ",
+          "reading_romanized": "bo",
+          "meaning_ko": null
+        }
+      ],
+      "examples": [],
+      "exercises": [
+        {
+          "id": "JP-INTRO-18-Q1",
+          "type": "single_choice",
+          "prompt_ko": "「ば」의 일반적인 로마자 표기는 무엇인가요?",
+          "options": [
+            "ba",
+            "bi",
+            "bu",
+            "be"
+          ],
+          "answer_index": 0,
+          "explanation_ko": "ば는 ba로 표기합니다."
+        },
+        {
+          "id": "JP-INTRO-18-Q2",
+          "type": "typing",
+          "prompt_ko": "「び」를 일반적인 로마자로 입력하세요.",
+          "answer_text": "bi",
+          "explanation_ko": "び → bi",
+          "accepted_answers": [
+            "bi"
+          ]
+        }
+      ],
+      "review_offsets_days": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "source_refs": [
+        "JF_HIRAGANA"
+      ],
+      "content_status": "linguistic_review_pending",
+      "schema_validation": "passed",
+      "editor_note_ko": "교육용 초안: 언어 교육자 검수 및 발음 음원 확인 후 publish 전환; 로마자 입력은 임시 보조용이며 2개월차 이후 표시를 점차 숨깁니다."
+    },
+    {
+      "id": "JP-INTRO-19",
+      "day_index": 19,
+      "week_index": 3,
+      "level": "INTRO",
+      "unit_id": "INTRO-W03",
+      "lesson_type": "new",
+      "title_ko": "반탁음 ぱ행",
+      "objective_ko": "は행에 반탁점(゜)을 붙인다.",
+      "estimated_minutes": 20,
+      "prerequisite_lesson_ids": [
+        "JP-INTRO-18"
+      ],
+      "new_items": [
+        {
+          "id": "kana-d19-01",
+          "kind": "kana",
+          "text": "ぱ",
+          "reading_romanized": "pa",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d19-02",
+          "kind": "kana",
+          "text": "ぴ",
+          "reading_romanized": "pi",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d19-03",
+          "kind": "kana",
+          "text": "ぷ",
+          "reading_romanized": "pu",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d19-04",
+          "kind": "kana",
+          "text": "ぺ",
+          "reading_romanized": "pe",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d19-05",
+          "kind": "kana",
+          "text": "ぽ",
+          "reading_romanized": "po",
+          "meaning_ko": null
+        }
+      ],
+      "examples": [],
+      "exercises": [
+        {
+          "id": "JP-INTRO-19-Q1",
+          "type": "single_choice",
+          "prompt_ko": "「ぱ」의 일반적인 로마자 표기는 무엇인가요?",
+          "options": [
+            "pa",
+            "pi",
+            "pu",
+            "pe"
+          ],
+          "answer_index": 0,
+          "explanation_ko": "ぱ는 pa로 표기합니다."
+        },
+        {
+          "id": "JP-INTRO-19-Q2",
+          "type": "typing",
+          "prompt_ko": "「ぴ」를 일반적인 로마자로 입력하세요.",
+          "answer_text": "pi",
+          "explanation_ko": "ぴ → pi",
+          "accepted_answers": [
+            "pi"
+          ]
+        }
+      ],
+      "review_offsets_days": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "source_refs": [
+        "JF_HIRAGANA"
+      ],
+      "content_status": "linguistic_review_pending",
+      "schema_validation": "passed",
+      "editor_note_ko": "교육용 초안: 언어 교육자 검수 및 발음 음원 확인 후 publish 전환; 로마자 입력은 임시 보조용이며 2개월차 이후 표시를 점차 숨깁니다."
+    },
+    {
+      "id": "JP-INTRO-20",
+      "day_index": 20,
+      "week_index": 3,
+      "level": "INTRO",
+      "unit_id": "INTRO-W03",
+      "lesson_type": "practice",
+      "title_ko": "탁음 단어 연습",
+      "objective_ko": "새로 익힌 탁음·반탁음을 실제 단어와 연결한다.",
+      "estimated_minutes": 20,
+      "prerequisite_lesson_ids": [
+        "JP-INTRO-19"
+      ],
+      "new_items": [],
+      "examples": [
+        {
+          "japanese": "がくせい",
+          "reading_romanized": "gakusei",
+          "meaning_ko": "학생",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        },
+        {
+          "japanese": "かぞく",
+          "reading_romanized": "kazoku",
+          "meaning_ko": "가족",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        },
+        {
+          "japanese": "ぶた",
+          "reading_romanized": "buta",
+          "meaning_ko": "돼지",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        },
+        {
+          "japanese": "かばん",
+          "reading_romanized": "kaban",
+          "meaning_ko": "가방",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        },
+        {
+          "japanese": "ぱん",
+          "reading_romanized": "pan",
+          "meaning_ko": "빵",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        },
+        {
+          "japanese": "みず",
+          "reading_romanized": "mizu",
+          "meaning_ko": "물",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        },
+        {
+          "japanese": "かぎ",
+          "reading_romanized": "kagi",
+          "meaning_ko": "열쇠",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        },
+        {
+          "japanese": "まど",
+          "reading_romanized": "mado",
+          "meaning_ko": "창문",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "JP-INTRO-20-WORD1",
+          "type": "typing",
+          "prompt_ko": "「がくせい」의 읽기를 로마자로 입력하세요.",
+          "answer_text": "gakusei",
+          "explanation_ko": "がくせい = gakusei (학생)",
+          "accepted_answers": [
+            "gakusei"
+          ]
+        },
+        {
+          "id": "JP-INTRO-20-WORD2",
+          "type": "typing",
+          "prompt_ko": "「かぞく」의 읽기를 로마자로 입력하세요.",
+          "answer_text": "kazoku",
+          "explanation_ko": "かぞく = kazoku (가족)",
+          "accepted_answers": [
+            "kazoku"
+          ]
+        },
+        {
+          "id": "JP-INTRO-20-WORD3",
+          "type": "typing",
+          "prompt_ko": "「ぶた」의 읽기를 로마자로 입력하세요.",
+          "answer_text": "buta",
+          "explanation_ko": "ぶた = buta (돼지)",
+          "accepted_answers": [
+            "buta"
+          ]
+        }
+      ],
+      "review_offsets_days": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "source_refs": [
+        "JF_HIRAGANA"
+      ],
+      "content_status": "linguistic_review_pending",
+      "schema_validation": "passed",
+      "editor_note_ko": "교육용 초안: 언어 교육자 검수 및 발음 음원 확인 후 publish 전환; 로마자 입력은 임시 보조용이며 2개월차 이후 표시를 점차 숨깁니다."
+    },
+    {
+      "id": "JP-INTRO-21",
+      "day_index": 21,
+      "week_index": 3,
+      "level": "INTRO",
+      "unit_id": "INTRO-W03",
+      "lesson_type": "checkpoint",
+      "title_ko": "3주차 확인 시험",
+      "objective_ko": "정확한 판독뿐 아니라 단어와 발음의 짝도 확인한다.",
+      "estimated_minutes": 25,
+      "prerequisite_lesson_ids": [
+        "JP-INTRO-20"
+      ],
+      "new_items": [],
+      "examples": [
+        {
+          "japanese": "かぞく",
+          "reading_romanized": "kazoku",
+          "meaning_ko": "가족",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        },
+        {
+          "japanese": "ぱん",
+          "reading_romanized": "pan",
+          "meaning_ko": "빵",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        },
+        {
+          "japanese": "みず",
+          "reading_romanized": "mizu",
+          "meaning_ko": "물",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "JP-INTRO-21-WORD1",
+          "type": "typing",
+          "prompt_ko": "「かぞく」의 읽기를 로마자로 입력하세요.",
+          "answer_text": "kazoku",
+          "explanation_ko": "かぞく = kazoku (가족)",
+          "accepted_answers": [
+            "kazoku"
+          ]
+        },
+        {
+          "id": "JP-INTRO-21-WORD2",
+          "type": "typing",
+          "prompt_ko": "「ぱん」의 읽기를 로마자로 입력하세요.",
+          "answer_text": "pan",
+          "explanation_ko": "ぱん = pan (빵)",
+          "accepted_answers": [
+            "pan"
+          ]
+        },
+        {
+          "id": "JP-INTRO-21-WORD3",
+          "type": "typing",
+          "prompt_ko": "「みず」의 읽기를 로마자로 입력하세요.",
+          "answer_text": "mizu",
+          "explanation_ko": "みず = mizu (물)",
+          "accepted_answers": [
+            "mizu"
+          ]
+        }
+      ],
+      "review_offsets_days": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "source_refs": [
+        "JF_HIRAGANA"
+      ],
+      "content_status": "linguistic_review_pending",
+      "schema_validation": "passed",
+      "editor_note_ko": "교육용 초안: 언어 교육자 검수 및 발음 음원 확인 후 publish 전환; 로마자 입력은 임시 보조용이며 2개월차 이후 표시를 점차 숨깁니다."
+    },
+    {
+      "id": "JP-INTRO-22",
+      "day_index": 22,
+      "week_index": 4,
+      "level": "INTRO",
+      "unit_id": "INTRO-W04",
+      "lesson_type": "new",
+      "title_ko": "요음 きゃ·しゃ·ちゃ",
+      "objective_ko": "작은 ゃ·ゅ·ょ는 앞 글자와 한 박자(모라)를 이룬다. きょう는 きょ＋う이다.",
+      "estimated_minutes": 20,
+      "prerequisite_lesson_ids": [
+        "JP-INTRO-21"
+      ],
+      "new_items": [
+        {
+          "id": "kana-d22-01",
+          "kind": "kana",
+          "text": "きゃ",
+          "reading_romanized": "kya",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d22-02",
+          "kind": "kana",
+          "text": "きゅ",
+          "reading_romanized": "kyu",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d22-03",
+          "kind": "kana",
+          "text": "きょ",
+          "reading_romanized": "kyo",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d22-04",
+          "kind": "kana",
+          "text": "しゃ",
+          "reading_romanized": "sha",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d22-05",
+          "kind": "kana",
+          "text": "しゅ",
+          "reading_romanized": "shu",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d22-06",
+          "kind": "kana",
+          "text": "しょ",
+          "reading_romanized": "sho",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d22-07",
+          "kind": "kana",
+          "text": "ちゃ",
+          "reading_romanized": "cha",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d22-08",
+          "kind": "kana",
+          "text": "ちゅ",
+          "reading_romanized": "chu",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d22-09",
+          "kind": "kana",
+          "text": "ちょ",
+          "reading_romanized": "cho",
+          "meaning_ko": null
+        }
+      ],
+      "examples": [
+        {
+          "japanese": "きょう",
+          "reading_romanized": "kyou",
+          "meaning_ko": "오늘",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        },
+        {
+          "japanese": "しゃしん",
+          "reading_romanized": "shashin",
+          "meaning_ko": "사진",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        },
+        {
+          "japanese": "おちゃ",
+          "reading_romanized": "ocha",
+          "meaning_ko": "차",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "JP-INTRO-22-Q1",
+          "type": "single_choice",
+          "prompt_ko": "「きゃ」의 일반적인 로마자 표기는 무엇인가요?",
+          "options": [
+            "kya",
+            "kyu",
+            "kyo",
+            "sha"
+          ],
+          "answer_index": 0,
+          "explanation_ko": "きゃ는 kya로 표기합니다."
+        },
+        {
+          "id": "JP-INTRO-22-Q2",
+          "type": "typing",
+          "prompt_ko": "「きゅ」를 일반적인 로마자로 입력하세요.",
+          "answer_text": "kyu",
+          "explanation_ko": "きゅ → kyu",
+          "accepted_answers": [
+            "kyu"
+          ]
+        },
+        {
+          "id": "JP-INTRO-22-WORD1",
+          "type": "typing",
+          "prompt_ko": "「きょう」의 읽기를 로마자로 입력하세요.",
+          "answer_text": "kyou",
+          "explanation_ko": "きょう = kyou (오늘)",
+          "accepted_answers": [
+            "kyou",
+            "kyō"
+          ]
+        },
+        {
+          "id": "JP-INTRO-22-WORD2",
+          "type": "typing",
+          "prompt_ko": "「しゃしん」의 읽기를 로마자로 입력하세요.",
+          "answer_text": "shashin",
+          "explanation_ko": "しゃしん = shashin (사진)",
+          "accepted_answers": [
+            "shashin",
+            "shasin"
+          ]
+        },
+        {
+          "id": "JP-INTRO-22-WORD3",
+          "type": "typing",
+          "prompt_ko": "「おちゃ」의 읽기를 로마자로 입력하세요.",
+          "answer_text": "ocha",
+          "explanation_ko": "おちゃ = ocha (차)",
+          "accepted_answers": [
+            "ocha"
+          ]
+        }
+      ],
+      "review_offsets_days": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "source_refs": [
+        "JF_HIRAGANA"
+      ],
+      "content_status": "linguistic_review_pending",
+      "schema_validation": "passed",
+      "editor_note_ko": "교육용 초안: 언어 교육자 검수 및 발음 음원 확인 후 publish 전환; 로마자 입력은 임시 보조용이며 2개월차 이후 표시를 점차 숨깁니다."
+    },
+    {
+      "id": "JP-INTRO-23",
+      "day_index": 23,
+      "week_index": 4,
+      "level": "INTRO",
+      "unit_id": "INTRO-W04",
+      "lesson_type": "new",
+      "title_ko": "요음 にゃ·ひゃ",
+      "objective_ko": "작은 글자 ゃ·ゅ·ょ와 큰 や·ゆ·よ를 구분한다.",
+      "estimated_minutes": 20,
+      "prerequisite_lesson_ids": [
+        "JP-INTRO-22"
+      ],
+      "new_items": [
+        {
+          "id": "kana-d23-01",
+          "kind": "kana",
+          "text": "にゃ",
+          "reading_romanized": "nya",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d23-02",
+          "kind": "kana",
+          "text": "にゅ",
+          "reading_romanized": "nyu",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d23-03",
+          "kind": "kana",
+          "text": "にょ",
+          "reading_romanized": "nyo",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d23-04",
+          "kind": "kana",
+          "text": "ひゃ",
+          "reading_romanized": "hya",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d23-05",
+          "kind": "kana",
+          "text": "ひゅ",
+          "reading_romanized": "hyu",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d23-06",
+          "kind": "kana",
+          "text": "ひょ",
+          "reading_romanized": "hyo",
+          "meaning_ko": null
+        }
+      ],
+      "examples": [],
+      "exercises": [
+        {
+          "id": "JP-INTRO-23-Q1",
+          "type": "single_choice",
+          "prompt_ko": "「にゃ」의 일반적인 로마자 표기는 무엇인가요?",
+          "options": [
+            "nya",
+            "nyu",
+            "nyo",
+            "hya"
+          ],
+          "answer_index": 0,
+          "explanation_ko": "にゃ는 nya로 표기합니다."
+        },
+        {
+          "id": "JP-INTRO-23-Q2",
+          "type": "typing",
+          "prompt_ko": "「にゅ」를 일반적인 로마자로 입력하세요.",
+          "answer_text": "nyu",
+          "explanation_ko": "にゅ → nyu",
+          "accepted_answers": [
+            "nyu"
+          ]
+        }
+      ],
+      "review_offsets_days": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "source_refs": [
+        "JF_HIRAGANA"
+      ],
+      "content_status": "linguistic_review_pending",
+      "schema_validation": "passed",
+      "editor_note_ko": "교육용 초안: 언어 교육자 검수 및 발음 음원 확인 후 publish 전환; 로마자 입력은 임시 보조용이며 2개월차 이후 표시를 점차 숨깁니다."
+    },
+    {
+      "id": "JP-INTRO-24",
+      "day_index": 24,
+      "week_index": 4,
+      "level": "INTRO",
+      "unit_id": "INTRO-W04",
+      "lesson_type": "new",
+      "title_ko": "요음 みゃ·りゃ",
+      "objective_ko": "같은 작은 글자 조합 규칙을 익혀 새로운 발음을 예측한다.",
+      "estimated_minutes": 20,
+      "prerequisite_lesson_ids": [
+        "JP-INTRO-23"
+      ],
+      "new_items": [
+        {
+          "id": "kana-d24-01",
+          "kind": "kana",
+          "text": "みゃ",
+          "reading_romanized": "mya",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d24-02",
+          "kind": "kana",
+          "text": "みゅ",
+          "reading_romanized": "myu",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d24-03",
+          "kind": "kana",
+          "text": "みょ",
+          "reading_romanized": "myo",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d24-04",
+          "kind": "kana",
+          "text": "りゃ",
+          "reading_romanized": "rya",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d24-05",
+          "kind": "kana",
+          "text": "りゅ",
+          "reading_romanized": "ryu",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d24-06",
+          "kind": "kana",
+          "text": "りょ",
+          "reading_romanized": "ryo",
+          "meaning_ko": null
+        }
+      ],
+      "examples": [],
+      "exercises": [
+        {
+          "id": "JP-INTRO-24-Q1",
+          "type": "single_choice",
+          "prompt_ko": "「みゃ」의 일반적인 로마자 표기는 무엇인가요?",
+          "options": [
+            "mya",
+            "myu",
+            "myo",
+            "rya"
+          ],
+          "answer_index": 0,
+          "explanation_ko": "みゃ는 mya로 표기합니다."
+        },
+        {
+          "id": "JP-INTRO-24-Q2",
+          "type": "typing",
+          "prompt_ko": "「みゅ」를 일반적인 로마자로 입력하세요.",
+          "answer_text": "myu",
+          "explanation_ko": "みゅ → myu",
+          "accepted_answers": [
+            "myu"
+          ]
+        }
+      ],
+      "review_offsets_days": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "source_refs": [
+        "JF_HIRAGANA"
+      ],
+      "content_status": "linguistic_review_pending",
+      "schema_validation": "passed",
+      "editor_note_ko": "교육용 초안: 언어 교육자 검수 및 발음 음원 확인 후 publish 전환; 로마자 입력은 임시 보조용이며 2개월차 이후 표시를 점차 숨깁니다."
+    },
+    {
+      "id": "JP-INTRO-25",
+      "day_index": 25,
+      "week_index": 4,
+      "level": "INTRO",
+      "unit_id": "INTRO-W04",
+      "lesson_type": "new",
+      "title_ko": "탁음 요음 ぎゃ·じゃ",
+      "objective_ko": "ぎ·じ에 작은 ゃ·ゅ·ょ를 결합한다.",
+      "estimated_minutes": 20,
+      "prerequisite_lesson_ids": [
+        "JP-INTRO-24"
+      ],
+      "new_items": [
+        {
+          "id": "kana-d25-01",
+          "kind": "kana",
+          "text": "ぎゃ",
+          "reading_romanized": "gya",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d25-02",
+          "kind": "kana",
+          "text": "ぎゅ",
+          "reading_romanized": "gyu",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d25-03",
+          "kind": "kana",
+          "text": "ぎょ",
+          "reading_romanized": "gyo",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d25-04",
+          "kind": "kana",
+          "text": "じゃ",
+          "reading_romanized": "ja",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d25-05",
+          "kind": "kana",
+          "text": "じゅ",
+          "reading_romanized": "ju",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d25-06",
+          "kind": "kana",
+          "text": "じょ",
+          "reading_romanized": "jo",
+          "meaning_ko": null
+        }
+      ],
+      "examples": [],
+      "exercises": [
+        {
+          "id": "JP-INTRO-25-Q1",
+          "type": "single_choice",
+          "prompt_ko": "「ぎゃ」의 일반적인 로마자 표기는 무엇인가요?",
+          "options": [
+            "gya",
+            "gyu",
+            "gyo",
+            "ja"
+          ],
+          "answer_index": 0,
+          "explanation_ko": "ぎゃ는 gya로 표기합니다."
+        },
+        {
+          "id": "JP-INTRO-25-Q2",
+          "type": "typing",
+          "prompt_ko": "「ぎゅ」를 일반적인 로마자로 입력하세요.",
+          "answer_text": "gyu",
+          "explanation_ko": "ぎゅ → gyu",
+          "accepted_answers": [
+            "gyu"
+          ]
+        }
+      ],
+      "review_offsets_days": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "source_refs": [
+        "JF_HIRAGANA"
+      ],
+      "content_status": "linguistic_review_pending",
+      "schema_validation": "passed",
+      "editor_note_ko": "교육용 초안: 언어 교육자 검수 및 발음 음원 확인 후 publish 전환; 로마자 입력은 임시 보조용이며 2개월차 이후 표시를 점차 숨깁니다."
+    },
+    {
+      "id": "JP-INTRO-26",
+      "day_index": 26,
+      "week_index": 4,
+      "level": "INTRO",
+      "unit_id": "INTRO-W04",
+      "lesson_type": "new",
+      "title_ko": "탁음·반탁음 요음 びゃ·ぴゃ",
+      "objective_ko": "び·ぴ에 작은 ゃ·ゅ·ょ를 결합한다.",
+      "estimated_minutes": 20,
+      "prerequisite_lesson_ids": [
+        "JP-INTRO-25"
+      ],
+      "new_items": [
+        {
+          "id": "kana-d26-01",
+          "kind": "kana",
+          "text": "びゃ",
+          "reading_romanized": "bya",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d26-02",
+          "kind": "kana",
+          "text": "びゅ",
+          "reading_romanized": "byu",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d26-03",
+          "kind": "kana",
+          "text": "びょ",
+          "reading_romanized": "byo",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d26-04",
+          "kind": "kana",
+          "text": "ぴゃ",
+          "reading_romanized": "pya",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d26-05",
+          "kind": "kana",
+          "text": "ぴゅ",
+          "reading_romanized": "pyu",
+          "meaning_ko": null
+        },
+        {
+          "id": "kana-d26-06",
+          "kind": "kana",
+          "text": "ぴょ",
+          "reading_romanized": "pyo",
+          "meaning_ko": null
+        }
+      ],
+      "examples": [],
+      "exercises": [
+        {
+          "id": "JP-INTRO-26-Q1",
+          "type": "single_choice",
+          "prompt_ko": "「びゃ」의 일반적인 로마자 표기는 무엇인가요?",
+          "options": [
+            "bya",
+            "byu",
+            "byo",
+            "pya"
+          ],
+          "answer_index": 0,
+          "explanation_ko": "びゃ는 bya로 표기합니다."
+        },
+        {
+          "id": "JP-INTRO-26-Q2",
+          "type": "typing",
+          "prompt_ko": "「びゅ」를 일반적인 로마자로 입력하세요.",
+          "answer_text": "byu",
+          "explanation_ko": "びゅ → byu",
+          "accepted_answers": [
+            "byu"
+          ]
+        }
+      ],
+      "review_offsets_days": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "source_refs": [
+        "JF_HIRAGANA"
+      ],
+      "content_status": "linguistic_review_pending",
+      "schema_validation": "passed",
+      "editor_note_ko": "교육용 초안: 언어 교육자 검수 및 발음 음원 확인 후 publish 전환; 로마자 입력은 임시 보조용이며 2개월차 이후 표시를 점차 숨깁니다."
+    },
+    {
+      "id": "JP-INTRO-27",
+      "day_index": 27,
+      "week_index": 4,
+      "level": "INTRO",
+      "unit_id": "INTRO-W04",
+      "lesson_type": "new",
+      "title_ko": "촉음과 장음 첫걸음",
+      "objective_ko": "작은 っ는 다음 자음 앞에서 한 박자의 폐쇄·쉼을 나타내며 단순한 묵음이 아니다. ー는 주로 가타카나에서 배운다. 장모음의 표기는 단어마다 다르다.",
+      "estimated_minutes": 20,
+      "prerequisite_lesson_ids": [
+        "JP-INTRO-26"
+      ],
+      "new_items": [
+        {
+          "id": "kana-d27-01",
+          "kind": "kana",
+          "text": "っ",
+          "reading_romanized": "(pause)",
+          "meaning_ko": null
+        }
+      ],
+      "examples": [
+        {
+          "japanese": "きって",
+          "reading_romanized": "kitte",
+          "meaning_ko": "우표",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        },
+        {
+          "japanese": "きっぷ",
+          "reading_romanized": "kippu",
+          "meaning_ko": "표·승차권",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        },
+        {
+          "japanese": "おかあさん",
+          "reading_romanized": "okaasan",
+          "meaning_ko": "어머니",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        },
+        {
+          "japanese": "きょう",
+          "reading_romanized": "kyou",
+          "meaning_ko": "오늘",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "JP-INTRO-27-Q1",
+          "type": "single_choice",
+          "prompt_ko": "「っ」의 일반적인 로마자 표기는 무엇인가요?",
+          "options": [
+            "(pause)",
+            "ka",
+            "ta",
+            "sa"
+          ],
+          "answer_index": 0,
+          "explanation_ko": "っ는 (pause)로 표기합니다."
+        },
+        {
+          "id": "JP-INTRO-27-WORD1",
+          "type": "typing",
+          "prompt_ko": "「きって」의 읽기를 로마자로 입력하세요.",
+          "answer_text": "kitte",
+          "explanation_ko": "きって = kitte (우표)",
+          "accepted_answers": [
+            "kitte"
+          ]
+        },
+        {
+          "id": "JP-INTRO-27-WORD2",
+          "type": "typing",
+          "prompt_ko": "「きっぷ」의 읽기를 로마자로 입력하세요.",
+          "answer_text": "kippu",
+          "explanation_ko": "きっぷ = kippu (표·승차권)",
+          "accepted_answers": [
+            "kippu"
+          ]
+        },
+        {
+          "id": "JP-INTRO-27-WORD3",
+          "type": "typing",
+          "prompt_ko": "「おかあさん」의 읽기를 로마자로 입력하세요.",
+          "answer_text": "okaasan",
+          "explanation_ko": "おかあさん = okaasan (어머니)",
+          "accepted_answers": [
+            "okaasan",
+            "okāsan"
+          ]
+        }
+      ],
+      "review_offsets_days": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "source_refs": [
+        "JF_HIRAGANA"
+      ],
+      "content_status": "linguistic_review_pending",
+      "schema_validation": "passed",
+      "editor_note_ko": "교육용 초안: 언어 교육자 검수 및 발음 음원 확인 후 publish 전환; 로마자 입력은 임시 보조용이며 2개월차 이후 표시를 점차 숨깁니다."
+    },
+    {
+      "id": "JP-INTRO-28",
+      "day_index": 28,
+      "week_index": 4,
+      "level": "INTRO",
+      "unit_id": "INTRO-W04",
+      "lesson_type": "checkpoint",
+      "title_ko": "히라가나 종합 평가",
+      "objective_ko": "정확도, 반응 속도, 듣기와 문자를 통합한 종합 진단.",
+      "estimated_minutes": 25,
+      "prerequisite_lesson_ids": [
+        "JP-INTRO-27"
+      ],
+      "new_items": [],
+      "examples": [
+        {
+          "japanese": "きって",
+          "reading_romanized": "kitte",
+          "meaning_ko": "우표",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        },
+        {
+          "japanese": "しゃしん",
+          "reading_romanized": "shashin",
+          "meaning_ko": "사진",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        },
+        {
+          "japanese": "おかあさん",
+          "reading_romanized": "okaasan",
+          "meaning_ko": "어머니",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        },
+        {
+          "japanese": "かぞく",
+          "reading_romanized": "kazoku",
+          "meaning_ko": "가족",
+          "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+        }
+      ],
+      "exercises": [
+        {
+          "id": "JP-INTRO-28-WORD1",
+          "type": "typing",
+          "prompt_ko": "「きって」의 읽기를 로마자로 입력하세요.",
+          "answer_text": "kitte",
+          "explanation_ko": "きって = kitte (우표)",
+          "accepted_answers": [
+            "kitte"
+          ]
+        },
+        {
+          "id": "JP-INTRO-28-WORD2",
+          "type": "typing",
+          "prompt_ko": "「しゃしん」의 읽기를 로마자로 입력하세요.",
+          "answer_text": "shashin",
+          "explanation_ko": "しゃしん = shashin (사진)",
+          "accepted_answers": [
+            "shashin",
+            "shasin"
+          ]
+        },
+        {
+          "id": "JP-INTRO-28-WORD3",
+          "type": "typing",
+          "prompt_ko": "「おかあさん」의 읽기를 로마자로 입력하세요.",
+          "answer_text": "okaasan",
+          "explanation_ko": "おかあさん = okaasan (어머니)",
+          "accepted_answers": [
+            "okaasan",
+            "okāsan"
+          ]
+        }
+      ],
+      "review_offsets_days": [
+        1,
+        3,
+        7,
+        14,
+        30
+      ],
+      "source_refs": [
+        "JF_HIRAGANA"
+      ],
+      "content_status": "linguistic_review_pending",
+      "schema_validation": "passed",
+      "editor_note_ko": "교육용 초안: 언어 교육자 검수 및 발음 음원 확인 후 publish 전환; 로마자 입력은 임시 보조용이며 2개월차 이후 표시를 점차 숨깁니다."
+    }
+  ]
+}

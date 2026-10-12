@@ -1,0 +1,8 @@
+{
+  "name": "ai-hackathon-sync",
+  "private": true,
+  "description": "AI 해커톤 학습노트 필기·체크 실시간 동기화 API",
+  "dependencies": {
+    "@neondatabase/serverless": "1.2.0"
+  }
+}

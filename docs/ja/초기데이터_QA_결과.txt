@@ -1,0 +1,8 @@
+JSON parsing: PASS
+28 sequential lessons: PASS
+68 unique question IDs and valid answers: PASS
+Words use previously taught kana only: PASS
+Prerequisites precede lesson: PASS
+Copyright uses link/reference metadata; no external content copied: PASS
+Linguistic expert review: PENDING (not automatically certified)
+Native audio validation: NOT APPLICABLE (none bundled)

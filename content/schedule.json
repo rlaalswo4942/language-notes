@@ -1,0 +1,10 @@
+{
+ "note": "매일 레슨 추가 루틴이 읽는 설정. active = 레슨을 늘릴 과정, start = 비축 계산 기준일, ahead_days = 기준일부터 지난 날수보다 이만큼 앞서 비축, max_per_run = 한 번 실행에 과정당 최대 추가 수",
+ "start": "2026-10-12",
+ "ahead_days": 60,
+ "max_per_run": 3,
+ "active": {
+  "en": ["PRE-A1"],
+  "ja": ["INTRO"]
+ }
+}

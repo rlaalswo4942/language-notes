@@ -1,0 +1,108 @@
+{
+ "course": "TOEFL",
+ "schema_version": "1.0",
+ "description": "자체 제작 교육용 연습 레슨. 공식 ETS 문제 아님. verified는 프로젝트 내부 검토 상태이며 공인 인증 아님.",
+ "lessons": [
+  {
+   "id": "TOEFL-001",
+   "publish_date": "2026-10-12",
+   "level": "B1",
+   "track": "toefl",
+   "day": 1,
+   "title_ko": "TOEFL 2026 Build a Sentence 입문",
+   "objective_ko": "흩어진 단어를 자연스러운 영어 문장으로 배열한다.",
+   "estimated_minutes": 25,
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/content/ets-org/language-master/ko/home/toefl/test-takers/ibt/about/content.html",
+     "publisher": "ETS",
+     "checked_at": "2026-10-12",
+     "supports": "공식 시험 형식"
+    }
+   ],
+   "content_kind": "original_practice",
+   "review_status": "verified",
+   "grammar": {
+    "explanation_ko": "2026-01-21 이후 TOEFL iBT Writing에는 Build a Sentence 유형이 포함됩니다. 다음은 유형을 참고해 새로 만든 비공식 연습문제입니다. 문장 기본 어순인 주어+동사+목적어를 확인합니다.",
+    "common_mistake_ko": "영어 어순은 한국어와 다를 수 있습니다. 단순 규칙으로 예외 없는 모든 문장을 설명할 수는 없습니다."
+   },
+   "vocabulary": [
+    {
+     "word": "student",
+     "part_of_speech": "명사",
+     "meaning_ko": "학생",
+     "example_en": "The student reads a book.",
+     "example_ko": "학생은 책을 읽어요."
+    },
+    {
+     "word": "discuss",
+     "part_of_speech": "동사",
+     "meaning_ko": "토론하다",
+     "example_en": "We discuss ideas.",
+     "example_ko": "우리는 아이디어를 토론해요."
+    },
+    {
+     "word": "library",
+     "part_of_speech": "명사",
+     "meaning_ko": "도서관",
+     "example_en": "They study in the library.",
+     "example_ko": "그들은 도서관에서 공부해요."
+    },
+    {
+     "word": "topic",
+     "part_of_speech": "명사",
+     "meaning_ko": "주제",
+     "example_en": "This topic is interesting.",
+     "example_ko": "이 주제는 흥미로워요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Students discuss ideas in class.",
+     "ko": "학생들은 수업에서 생각을 토론해요."
+    },
+    {
+     "en": "The teacher explains the topic.",
+     "ko": "선생님은 주제를 설명해요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "F001-Q1",
+     "type": "single_choice",
+     "stem": "자연스러운 영어 문장은?",
+     "choices": [
+      "Discuss students ideas.",
+      "Students discuss ideas.",
+      "Ideas students discuss."
+     ],
+     "answer_index": 1,
+     "explanation_ko": "Students(주어)+discuss(동사)+ideas(목적어) 순서입니다.",
+     "error_tag": "word-order"
+    },
+    {
+     "id": "F001-Q2",
+     "type": "single_choice",
+     "stem": "‘선생님은 주제를 설명해요.’에 맞는 문장은?",
+     "choices": [
+      "The teacher explains the topic.",
+      "Teacher the topic explains.",
+      "Explains the teacher topic."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "The teacher가 주어, explains가 동사, the topic이 목적어입니다.",
+     "error_tag": "word-order"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "아래 단어를 올바르게 배열하세요: the / students / library / in / study → Students study in the library. 정답은 화면에서 보기 전에 먼저 만들어 보세요.",
+    "example_answer_en": "",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 직접 만든 문장의 맥락을 확인하세요."
+   },
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-12"
+   }
+  }
+ ]
+}
