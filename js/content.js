@@ -6,7 +6,8 @@ window.SITE = {
   title: "언어 학습노트",                  // 홈 큰 제목 · 브라우저 탭 · 백업 파일 이름
   icon: "📗",                             // 탭 아이콘(favicon)
   key: "langnote",                        // ★ 저장 키 — 다른 학습 사이트와 겹치지 않게
-  syncApi: "https://ai-hackathon-sync.vercel.app/api/state", // 기존 동기화 API 재사용 (key 로 공간 분리)
+  syncApi: "https://ai-hackathon-sync.vercel.app/api/state", // 기존 동기화 API 재사용 (key 로 공간 분리) — 사용자별 기록·학습 현황판 저장
+  maxUsers: 4,                            // 사용자 수 제한 (이름 = 고유 아이디, 비밀번호 없음)
   daily: { minutes: 15, reviewCap: 15, plan: "복습 카드 4분 · 새 단어 4분 · 예문 2분 · 확인 문제 4분 · 쓰기 1분" }, // 하루 학습량 고정 (시간 선택 없음)
   autoUpdate: true,                       // 매일 새 레슨 자동 추가(Claude 루틴)가 실제로 돌아가면 true — 화면 안내 문구가 바뀜
   resetEpoch: "",                       // 값을 새로 바꾸면 각 기기에서 처음 열 때 기록을 한 번 초기화

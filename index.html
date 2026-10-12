@@ -18,7 +18,6 @@
     <nav id="side-nav"></nav>
     <div class="side-foot">
       <span id="sync-state"></span>
-      <button id="btn-sync" class="primary" title="같은 코드를 입력한 기기끼리 학습 기록을 실시간 공유">동기화 설정</button>
       <button id="btn-export" title="학습 기록을 파일로 저장">백업 저장</button>
       <button id="btn-import" title="백업 파일에서 불러오기">백업 불러오기</button>
       <input type="file" id="file-import" accept=".json,application/json" hidden>
@@ -33,16 +32,6 @@
     <main id="main"></main>
     <nav id="tabbar" hidden></nav>
   </div>
-</div>
-<div id="sync-modal" class="modal">
-  <form class="box" autocomplete="off">
-    <h3>기기 간 실시간 동기화</h3>
-    <p class="state"></p>
-    <p>노트북·태블릿·휴대폰 <b>모든 기기에 같은 동기화 코드</b>를 입력하면 진도·복습 일정·오답·필기가 몇 초 안에 공유됩니다. 처음이면 새 코드를 정해서 입력하세요.</p>
-    <input type="password" minlength="6" placeholder="동기화 코드 (6자 이상, 나만 아는 문구)" autocapitalize="off" autocorrect="off" spellcheck="false">
-    <p class="small">코드는 비밀번호처럼 다루세요. 서버에는 코드 대신 암호화된 해시만 전달됩니다. 이 기기에 있던 기록은 합쳐져서 올라갑니다.</p>
-    <div class="acts"><button type="button" class="ghost" data-off>동기화 끄기</button><span></span><button type="button" class="ghost" data-close>닫기</button><button type="submit">연결</button></div>
-  </form>
 </div>
 <div id="toast"></div>
 

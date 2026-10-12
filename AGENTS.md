@@ -12,6 +12,12 @@
 - 휴대폰(700px 미만)은 반응형 레이아웃, 노트북·태블릿은 1000px 고정폭 + 필기. 화면 바꾸면 세 크기 모두 확인
 - 확인: `학습노트_열기.bat`(포트 8781)
 
+## 사용자 · 현황판
+- 이름 = 아이디(NFKC·소문자·공백 정리), 비밀번호 없음, 최대 `SITE.maxUsers`(4). localStorage `langnote-user` = {id, name}
+- 개인 기록은 Store.syncConnect("user:" + 아이디) 공간. 로그아웃·다른 이름 로그인 때 `langnote:*` 로컬 키를 지우고 새로고침(기록 섞임 방지)
+- 현황판 공간 sha256("langnote:__board__"): `user:<아이디>` {name, created}, `sum:<아이디>` {name, at, en:{course, cdone, ctotal, lessons, streak, days, items, acc, today, last}, ja:{…}}
+- 정원 검사는 클라이언트에서만 함(서버 강제 아님). 테스트는 실제 서버 대신 API를 가로채서 할 것 — 실제 서버에 테스트 사용자를 만들면 정원을 차지함
+
 ## 저장 키 (localStorage `langnote:<키>` = `{t, v}`, 동기화 서버도 같은 형식)
 - `prefs:<언어>` {course, romaji, furi} (하루 15분 고정 — content.js SITE.daily) · `done:<언어>` {레슨id: {d, sc:[첫시도 정답, 문항수]}}
 - `att:<언어>` {문제id: {ok, a, n, first, t, L}} · `srs:<언어>` {항목id(k:글자/w:단어): {s 단계, due, ok, ng, at, L}}

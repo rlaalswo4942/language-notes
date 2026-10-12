@@ -220,3 +220,35 @@ small.plus { display: block; font-size: 11.5px; color: var(--sub); margin-top: 2
 body.no-furi .rd { display: none; }
 /* 복습 카드 앞면은 읽기를 가려서 먼저 떠올리게 함 (뒷면에서 확인) */
 .flash .front rt { visibility: hidden; }
+
+/* 이름 정하기(로그인) 화면 */
+body.gate #sidebar, body.gate #side-toggle { display: none; }
+.gate-box { max-width: 520px; padding-top: 56px; }
+.gate-form { display: flex; gap: 8px; margin: 8px 0 6px; }
+.gate-form input { flex: 1; min-width: 0; height: 50px; border: 1px solid var(--line); border-radius: 980px; padding: 0 20px; font: inherit; font-size: 17px; background: var(--panel); }
+.gate-form .pill { min-height: 50px; padding: 0 22px; font-size: 16px; }
+.gate-msg { min-height: 22px; font-size: 14px; color: var(--wrong); margin: 4px 4px 14px; }
+.gate-users { display: grid; gap: 8px; }
+.gate-users small { color: var(--sub); font-size: 13px; }
+#who { width: 100%; display: flex; align-items: center; gap: 6px; font-size: 14px; color: var(--ink); }
+#who b { font-weight: 700; }
+#who button { margin-left: auto; }
+
+/* 학습 현황판 */
+.board { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 12px; margin-bottom: 14px; }
+.board.mini { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+.bcard { background: var(--panel); border-radius: var(--radius); padding: 18px 20px; display: grid; gap: 12px; }
+.bcard.me { outline: 2px solid var(--ink); outline-offset: -2px; }
+.bhead { display: flex; align-items: center; gap: 8px; }
+.bhead b { font-size: 19px; }
+.bhead small { margin-left: auto; color: var(--sub); font-size: 12.5px; }
+.brow { display: grid; grid-template-columns: 46px 1fr auto; column-gap: 8px; row-gap: 4px; align-items: center; font-size: 14px; }
+.brow .bl { font-weight: 700; }
+.brow .bc { color: #424245; }
+.brow .bpct { font-weight: 700; }
+.brow .bbar { grid-column: 1 / -1; height: 4px; background: #e8e8ed; border-radius: 4px; overflow: hidden; }
+.brow .bbar i { display: block; height: 100%; background: var(--ink); }
+.brow .bstat { grid-column: 1 / -1; font-size: 12.5px; color: var(--sub); }
+.brow .bnone { grid-column: 2 / -1; color: var(--sub); }
+.tdone { font-style: normal; font-size: 11.5px; border: 1px solid var(--ink); border-radius: 980px; padding: 0 7px; margin-left: 4px; }
+@media (max-width: 699px) { .board, .board.mini { grid-template-columns: 1fr; } .gate-box { padding-top: 28px; } }

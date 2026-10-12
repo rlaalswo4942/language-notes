@@ -59,7 +59,7 @@
 
   /* ───────── 기록 ───────── */
   const get = (k, lang, d) => Store.get(k + ":" + lang, d);
-  const put = (k, lang, v) => Store.set(k + ":" + lang, v);
+  const put = (k, lang, v) => { Store.set(k + ":" + lang, v); queueSummary(); };
   function prefs(lang) {
     const p = get("prefs", lang, {}) || {}, L = LG[lang];
     return { course: p.course || L.courses[0].id, romaji: p.romaji != null ? p.romaji : true, furi: p.furi != null ? p.furi : true };
@@ -184,7 +184,8 @@
         h += `</div>`;
       }
     });
-    h += `<div class="side-group">도움말</div><button class="side-item ${a === "guide" ? "active" : ""}" data-go="#guide"><span class="txt"><span>사용법 · 동기화</span></span></button>`;
+    h += `<div class="side-group">함께</div><button class="side-item ${a === "board" ? "active" : ""}" data-go="#board"><span class="txt"><span>학습 현황</span></span>${BOARD ? `<em>${usersFrom(BOARD).length}/${MAX_USERS}</em>` : ""}</button>`;
+    h += `<div class="side-group">도움말</div><button class="side-item ${a === "guide" ? "active" : ""}" data-go="#guide"><span class="txt"><span>사용법</span></span></button>`;
     document.getElementById("side-nav").innerHTML = h;
   }
   document.getElementById("side-nav").addEventListener("click", e => {
@@ -223,7 +224,7 @@
         <span class="meta">${esc(c ? c.t : "")} 과정 · 하루 ${DAILY.minutes}분</span>
         <span class="mini"><span>연속 ${s.streak}일</span><span>익힌 항목 ${s.items}</span>${due != null ? `<span>복습 ${due}</span>` : ""}</span></button>`;
     });
-    h += `</div><div class="notice">${SITE.autoUpdate ? "새 레슨은 매일 자동으로 추가됩니다." : "지금은 준비된 레슨을 순서대로 공부합니다. 매일 새 레슨 자동 추가는 연결 준비 중입니다."} 학습 기록은 이 기기에 자동 저장되고, 동기화 코드로 노트북·태블릿·휴대폰을 이을 수 있어요.</div></div>`;
+    h += `</div><h2 class="grp">함께 공부 <small>실시간</small></h2><div id="board-mini">${boardHtml(true)}</div><div class="notice">${SITE.autoUpdate ? "새 레슨은 매일 자동으로 추가됩니다." : "지금은 준비된 레슨을 순서대로 공부합니다. 매일 새 레슨 자동 추가는 연결 준비 중입니다."} 학습 기록은 내 이름(아이디)으로 저장돼서, 노트북·태블릿·휴대폰 어디서든 같은 이름으로 들어오면 이어서 공부할 수 있어요.</div></div>`;
     main.innerHTML = h;
   }
 
@@ -508,7 +509,8 @@
       4. 하루에 새 레슨은 하나씩 열립니다. 빠진 날의 레슨이 한꺼번에 몰려오지 않고 다음 날 이어서 나옵니다.</div>
       <div class="howto"><h3>기록 확인 · 복습</h3><b>학습 기록</b> 달력에서 날짜를 누르면 그날 공부한 레슨을 다시 열 수 있어요. <b>단어장</b>에는 익힌 항목과 다음 복습일이, <b>오답노트</b>에는 틀린 문제가 모여 있어 다시 풀 수 있어요.</div>
       <div class="howto"><h3>자료 표시</h3><b>내부 검토</b>: 이 사이트에서 정답·문법을 점검한 자료 · <b>검수 전 초안</b> / <b>AI 초안</b>: 전문가 검수 전 교육용 자료입니다. 레벨은 사이트 자체 학습 단계이며 CEFR·JLPT 공식 등급이나 시험 점수가 아닙니다. 듣기 버튼은 브라우저 자동 음성(TTS)입니다.</div>
-      <div class="howto"><h3>기기 간 동기화</h3>목차 아래 <b>동기화 설정</b>에 같은 동기화 코드(6자 이상)를 노트북·태블릿·휴대폰에 입력하면 진도·복습 일정·오답·필기가 공유됩니다. 동기화 없이도 <b>백업 저장 / 불러오기</b>로 옮길 수 있어요.</div>
+      <div class="howto"><h3>이름(아이디)과 여러 기기</h3>처음 접속할 때 정한 <b>이름이 고유 아이디</b>예요(비밀번호 없음, 최대 ${MAX_USERS}명). 한 번 들어온 기기는 새로고침해도 로그인 상태가 유지되고, 다른 기기에서 <b>같은 이름</b>을 입력하면 진도·복습 일정·오답·필기를 그대로 이어서 공부할 수 있어요. 기기를 다른 사람에게 넘길 때는 목차 아래 <b>로그아웃</b>을 누르세요(서버의 기록은 그대로 남아요).</div>
+      <div class="howto"><h3>함께 공부 현황</h3><b>학습 현황</b>에서 모든 사용자의 언어별 과정·진도율·연속 학습일·익힌 항목·정답률을 실시간으로 볼 수 있어요. 비밀번호가 없어서 이름을 아는 사람은 그 계정으로 들어갈 수 있으니, 가까운 사람끼리만 쓰세요.</div>
       <div class="howto"><h3>필기 · 포스트잇 (노트북·태블릿)</h3>화면이 넓은 기기에서 레슨을 열면 필기 툴바(펜·형광펜·가림펜·지우개·포스트잇)가 나옵니다. 휴대폰에서는 글씨를 크게 보여 주기 위해 필기 없이 표시되고, 태블릿에서 쓴 필기는 태블릿·노트북에서 보입니다.</div></div>`;
   }
 
@@ -576,27 +578,159 @@
     } catch (err) { toast(`이 파일은 ${SITE.title} 백업 파일이 아니에요`); }
     e.target.value = "";
   });
-  const modal = document.getElementById("sync-modal");
-  document.getElementById("btn-sync").addEventListener("click", () => {
-    const on = Store.syncConnected();
-    modal.querySelector(".state").innerHTML = on ? "이 기기는 동기화 중입니다." : Store.syncAvailable() ? "이 기기는 아직 동기화되지 않았어요." : "이 주소에서는 동기화를 쓸 수 없어요 (https 웹 주소에서 열어 주세요).";
-    modal.querySelector("[data-off]").style.display = on ? "" : "none";
-    modal.querySelector("input").value = "";
-    modal.classList.add("show");
-    setTimeout(() => modal.querySelector("input").focus(), 50);
+  /* ───────── 사용자: 이름 = 고유 아이디 (비밀번호 없음, 최대 SITE.maxUsers명) ─────────
+   * 개인 기록: 동기화 공간 sha256(key + ":user:" + 아이디) — 같은 이름이면 어느 기기에서든 이어서 학습
+   * 현황판: 공용 공간 sha256(key + ":__board__") 의 user:<아이디>(등록) · sum:<아이디>(언어별 진도 요약) */
+  const API = SITE.syncApi, MAX_USERS = SITE.maxUsers || 4;
+  const USER_KEY = SITE.key + "-user", SPACE_KEY = SITE.key + "-sync-space";
+  const cleanName = n => String(n || "").normalize("NFKC").trim().replace(/\s+/g, " ");
+  const idOf = n => cleanName(n).toLowerCase();
+  function me() { try { return JSON.parse(localStorage.getItem(USER_KEY)); } catch (e) { return null; } }
+  async function sha(s) { const b = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(s)); return [...new Uint8Array(b)].map(x => x.toString(16).padStart(2, "0")).join(""); }
+  let boardSp = null, BOARD = null, boardTimer = null, boardAt = 0;
+  async function boardGet() {
+    boardSp = boardSp || await sha(SITE.key + ":__board__");
+    const r = await fetch(`${API}?space=${boardSp}&since=0`, { cache: "no-store" });
+    if (!r.ok) throw new Error("board " + r.status);
+    BOARD = (await r.json()).items || {}; boardAt = Date.now();
+    return BOARD;
+  }
+  async function boardPut(obj) {
+    boardSp = boardSp || await sha(SITE.key + ":__board__");
+    const t = Date.now(), body = {};
+    Object.keys(obj).forEach(k => (body[k] = { t, v: obj[k] }));
+    const r = await fetch(`${API}?space=${boardSp}`, { method: "PUT", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
+    if (!r.ok) throw new Error("board " + r.status);
+  }
+  const usersFrom = items => Object.keys(items || {}).filter(k => k.startsWith("user:") && items[k] && items[k].v).map(k => Object.assign({ id: k.slice(5) }, items[k].v)).sort((a, b) => a.created - b.created);
+
+  /* 처음 접속: 이름 정하기 (새 이름 = 새 아이디, 있는 이름 = 그 아이디로 이어서) */
+  function renderGate(msg) {
+    document.body.classList.add("gate"); tabbar.hidden = true; document.body.classList.remove("has-tabs");
+    crumb.innerHTML = esc(SITE.title);
+    main.innerHTML = `<div class="home gate-box"><p class="eyebrow">영어 · 일본어</p><h1>${esc(SITE.title)}</h1>
+      <p class="sub">처음 오셨다면 사용할 이름을 정해 주세요. 이 이름이 고유 아이디가 되고, 비밀번호는 없어요. 다른 기기에서도 같은 이름을 입력하면 이어서 공부할 수 있어요.</p>
+      <form class="gate-form" autocomplete="off"><input name="n" maxlength="12" placeholder="이름 (1~12자)" autocapitalize="off" spellcheck="false" enterkeyhint="go"><button class="pill">시작하기</button></form>
+      <p class="gate-msg" role="status">${msg || ""}</p><div class="gate-users"><small>등록된 사용자 확인 중…</small></div></div>`;
+    const box = main.querySelector(".gate-users");
+    boardGet().then(it => {
+      const us = usersFrom(it);
+      box.innerHTML = `<small>등록 ${us.length}/${MAX_USERS}명${us.length >= MAX_USERS ? " · 정원이 찼어요. 등록된 이름으로만 들어올 수 있어요" : ""}</small>` +
+        (us.length ? `<div class="chips">${us.map(u => `<button type="button" data-fill="${esc(u.name)}">${esc(u.name)}</button>`).join("")}</div><small>내 이름을 누르면 입력돼요. 다른 기기에서 쓰던 이름이면 그대로 이어서 학습해요.</small>` : "");
+    }).catch(() => { box.innerHTML = `<small>서버에 연결하지 못했어요. 인터넷 연결을 확인하고 새로고침해 주세요.</small>`; });
+    setTimeout(() => { const i = main.querySelector(".gate-form input"); if (i && window.innerWidth >= 700) i.focus(); }, 50);
+  }
+  main.addEventListener("submit", e => {
+    const f = e.target.closest(".gate-form"); if (!f) return;
+    e.preventDefault(); submitName(f.querySelector("input").value, f.querySelector("button"));
   });
-  modal.addEventListener("click", e => { if (e.target === modal || e.target.closest("[data-close]")) modal.classList.remove("show"); });
-  modal.querySelector("form").addEventListener("submit", async e => {
-    e.preventDefault();
-    const code = modal.querySelector("input").value.trim();
-    if (code.length < 6) { toast("코드는 6자 이상으로 정해 주세요"); return; }
-    const btn = modal.querySelector("[type=submit]"); btn.disabled = true; btn.textContent = "연결 중…";
-    const ok = await Store.syncConnect(code);
-    btn.disabled = false; btn.textContent = "연결";
-    if (ok) { modal.classList.remove("show"); RS = null; toast("동기화 연결! 다른 기기에서도 같은 코드를 입력하세요"); route(); }
-    else toast("동기화 서버에 연결하지 못했어요. 인터넷을 확인해 주세요");
+  main.addEventListener("click", e => {
+    const fb = e.target.closest("[data-fill]"); if (!fb) return;
+    const i = main.querySelector(".gate-form input"); if (i) { i.value = fb.dataset.fill; i.focus(); }
   });
-  modal.querySelector("[data-off]").addEventListener("click", () => { Store.syncDisconnect(); modal.classList.remove("show"); toast("동기화를 껐어요. 이 기기 기록은 그대로 남아요"); });
+  async function submitName(raw, btn) {
+    const say = t => { const m = main.querySelector(".gate-msg"); if (m) m.textContent = t; };
+    const name = cleanName(raw), id = idOf(raw);
+    if (!name || name.length > 12) return say("이름은 1~12자로 정해 주세요.");
+    if (/[:/\\#?]/.test(name)) return say("이름에 : / \\ # ? 는 쓸 수 없어요.");
+    if (!API || !(window.crypto && crypto.subtle)) return say("이 주소에서는 로그인할 수 없어요 (https 웹 주소에서 열어 주세요).");
+    btn.disabled = true; say("확인 중…");
+    try {
+      let us = usersFrom(await boardGet());
+      const ex = us.find(u => u.id === id);
+      if (ex) {
+        if (!confirm(`‘${ex.name}’ 이름이 이미 있어요. 이 이름으로 이어서 학습할까요?`)) { btn.disabled = false; return say("다른 이름을 입력해 주세요."); }
+        return await enter(ex.name, id);
+      }
+      if (us.length >= MAX_USERS) { btn.disabled = false; return say(`정원 ${MAX_USERS}명이 모두 찼어요. 이미 등록된 이름으로 들어와 주세요.`); }
+      await boardPut({ ["user:" + id]: { name, created: Date.now() } });
+      us = usersFrom(await boardGet()); // 거의 동시에 등록한 사람이 있으면 먼저 등록한 순서로 정원 판단
+      if (us.findIndex(u => u.id === id) >= MAX_USERS) { await boardPut({ ["user:" + id]: null }); btn.disabled = false; return say(`방금 정원 ${MAX_USERS}명이 찼어요.`); }
+      await enter(name, id);
+    } catch (err) { btn.disabled = false; say("서버에 연결하지 못했어요. 잠시 후 다시 시도해 주세요."); }
+  }
+  function localProgressKeys() {
+    const out = [], P = SITE.key + ":";
+    try { for (let i = 0; i < localStorage.length; i++) { const k = localStorage.key(i); if (k && k.startsWith(P)) out.push(k); } } catch (e) {}
+    return out;
+  }
+  function clearLocal() { localProgressKeys().forEach(k => { try { localStorage.removeItem(k); } catch (e) {} }); try { localStorage.removeItem(SPACE_KEY); } catch (e) {} }
+  async function enter(name, id) {
+    // 로그인 전부터 이 기기에 있던 기록: 옮길지 물어봄 (아니면 지워서 다른 사람 기록과 섞이지 않게)
+    const had = localProgressKeys().some(k => /:(done|att|srs|log):/.test(k));
+    if (had && !confirm(`이 기기에 이미 공부한 기록이 있어요. ‘${name}’ 계정으로 옮길까요?\n(취소하면 이 기기의 기록은 지우고 ‘${name}’의 기록을 불러옵니다)`)) clearLocal();
+    else { try { localStorage.removeItem(SPACE_KEY); } catch (e) {} }
+    localStorage.setItem(USER_KEY, JSON.stringify({ id, name }));
+    const ok = await Store.syncConnect("user:" + id);
+    if (!ok) { localStorage.removeItem(USER_KEY); throw new Error("connect"); }
+    await Store.flushNow();
+    location.hash = "#home"; location.reload();
+  }
+  async function logout() {
+    const u = me(); if (!u) return;
+    if (!confirm(`‘${u.name}’에서 로그아웃할까요?\n이 기기에 저장된 기록만 지워지고, 서버의 기록은 남아 있어 같은 이름으로 다시 들어오면 이어서 할 수 있어요.`)) return;
+    Ink.flushSave(); await Store.flushNow().catch(() => {});
+    clearLocal(); try { localStorage.removeItem(USER_KEY); } catch (e) {}
+    location.hash = ""; location.reload();
+  }
+  function renderWho() {
+    const u = me(), foot = document.querySelector(".side-foot");
+    let w = document.getElementById("who");
+    if (!w) { w = document.createElement("div"); w.id = "who"; foot.prepend(w); }
+    w.innerHTML = u ? `<b>${esc(u.name)}</b> 님<button id="btn-logout" type="button">로그아웃</button>` : "";
+    const lb = document.getElementById("btn-logout"); if (lb) lb.addEventListener("click", logout);
+  }
+
+  /* 진도 요약 → 현황판 (내 기록이 바뀔 때마다 몇 초 뒤 올림) */
+  let sumT = null;
+  function queueSummary() { if (!me() || !API) return; clearTimeout(sumT); sumT = setTimeout(pushSummary, 2500); }
+  async function pushSummary() {
+    const u = me(); if (!u) return;
+    await Promise.all(LANGS.map(l => load(l.id)));
+    const v = { name: u.name, at: Date.now() };
+    LANGS.forEach(L => (v[L.id] = summary(L.id)));
+    try { await boardPut({ ["sum:" + u.id]: v }); if (BOARD) BOARD["sum:" + u.id] = { t: v.at, v }; } catch (e) { /* 다음 변경 때 다시 올림 */ }
+  }
+  function summary(lang) {
+    const p = prefs(lang), D = DATA[lang], done = get("done", lang, {}) || {}, s = stats(lang), list = D.courses[p.course] || [];
+    const g = get("log", lang, {}) || {}, d = today();
+    const last = Object.keys(g).filter(k => (g[k].L || []).length || g[k].rv).sort().pop() || null;
+    return { course: p.course, cdone: list.filter(x => done[x.id]).length, ctotal: list.length, lessons: Object.keys(done).length, streak: s.streak, days: s.days, items: s.items, acc: s.acc, today: !!(g[d] && ((g[d].L || []).length || g[d].rv)), last };
+  }
+
+  /* 학습 현황판 (5초마다 새로 받아 실시간 표시) */
+  function startBoardPoll(fn) {
+    const tick = () => { if (!document.hidden) boardGet().then(() => { fn(); renderSide(); }).catch(() => {}); };
+    tick(); boardTimer = setInterval(tick, 5000);
+  }
+  function ago(d) { if (!d) return "기록 없음"; const n = diffDays(d, today()); return n <= 0 ? "오늘 공부함" : n === 1 ? "어제 공부함" : `${n}일 전 공부`; }
+  function boardHtml(compact) {
+    if (!BOARD) return `<p class="empty">현황을 불러오는 중…</p>`;
+    const u = me(), rows = usersFrom(BOARD);
+    if (!rows.length) return `<p class="empty">아직 등록된 사용자가 없어요.</p>`;
+    let h = `<div class="board ${compact ? "mini" : ""}">`;
+    rows.forEach(r => {
+      const s = (BOARD["sum:" + r.id] || {}).v || null, mine = u && u.id === r.id;
+      const last = s ? LANGS.map(L => s[L.id] && s[L.id].last).filter(Boolean).sort().pop() : null;
+      h += `<div class="bcard ${mine ? "me" : ""}"><div class="bhead"><b>${esc(r.name)}</b>${mine ? `<span class="badge ok">나</span>` : ""}<small>${ago(last)}</small></div>`;
+      LANGS.forEach(L => {
+        const x = s && s[L.id], c = x && L.courses.find(c => c.id === x.course);
+        if (!x || (!x.lessons && !x.items)) { h += `<div class="brow"><span class="bl">${esc(L.name)}</span><span class="bnone">아직 시작 전</span></div>`; return; }
+        const pct = x.ctotal ? Math.round(x.cdone / x.ctotal * 100) : 0;
+        h += `<div class="brow"><span class="bl">${esc(L.name)}</span><span class="bc">${esc(c ? c.t : x.course)} ${x.cdone}/${x.ctotal}${x.today ? ` <i class="tdone">오늘 완료</i>` : ""}</span><span class="bpct">${pct}%</span>
+          <span class="bbar"><i style="width:${pct}%"></i></span>${compact ? "" : `<span class="bstat">연속 ${x.streak}일 · 누적 ${x.days}일 · 완료 레슨 ${x.lessons} · 익힌 항목 ${x.items} · 정답률 ${x.acc != null ? x.acc + "%" : "—"}</span>`}</div>`;
+      });
+      h += `</div>`;
+    });
+    return h + `</div>`;
+  }
+  function renderBoard() {
+    const t = boardAt ? new Date(boardAt).toLocaleTimeString("ko-KR", { hour: "2-digit", minute: "2-digit", second: "2-digit" }) : "—";
+    const n = BOARD ? usersFrom(BOARD).length : 0;
+    main.innerHTML = `<div class="home lhome"><p class="eyebrow">함께 공부</p><h1>학습 현황</h1>
+      <p class="sub">등록 ${n}/${MAX_USERS}명 · 5초마다 자동 갱신 · 마지막 갱신 ${t}</p>${boardHtml(false)}
+      <p class="notice small">진도율은 각자 고른 과정의 레슨 완료 비율이에요. 기록이 바뀌면 몇 초 안에 모두에게 보여요.</p></div>`;
+  }
 
   /* ───────── 라우팅 ───────── */
   function parts() { return decodeURIComponent(location.hash).replace(/^#\/?/, "").split("/"); }
@@ -604,6 +738,9 @@
   async function route() {
     const n = ++routeN, [a, b, c] = parts();
     Ink.detach();
+    clearInterval(boardTimer); boardTimer = null;
+    if (!me()) { renderGate(); return; }
+    document.body.classList.remove("gate");
     if (ro) { ro.disconnect(); ro = null; }
     page = null; scaler = null; wideNow = null;
     main.scrollTop = 0;
@@ -627,13 +764,15 @@
     } else {
       RS = null; renderTabs(null);
       if (a === "guide") { crumb.innerHTML = "사용법"; renderGuide(); }
-      else { crumb.innerHTML = esc(SITE.title); renderHome(); }
+      else if (a === "board") { crumb.innerHTML = "학습 현황"; renderBoard(); startBoardPoll(renderBoard); }
+      else { crumb.innerHTML = esc(SITE.title); renderHome(); startBoardPoll(() => { const el = document.getElementById("board-mini"); if (el) el.innerHTML = boardHtml(true); }); }
     }
     renderSide();
   }
   window.addEventListener("hashchange", route);
   Store.onRemote(keys => {
     if (!keys.some(k => /^(prefs|done|att|srs|log):/.test(k))) return;
+    queueSummary();
     const [a, b] = parts();
     if (b === "lesson" || b === "review" || b === "wrong") { renderSide(); return; } // 공부 중인 화면은 그대로 두고 목차만 갱신
     if (document.activeElement && document.activeElement.closest && document.activeElement.closest("input, textarea")) { renderSide(); return; }
@@ -641,8 +780,14 @@
   });
 
   if (Store.get("sideOpen", window.innerWidth >= 1100) === false || window.innerWidth < 900) document.body.classList.add("side-closed");
-  const syncLabel = mode => mode === "sync" ? "실시간 동기화 중" : mode === "server" ? "기기 간 동기화 중 (노트북 서버)" : "이 기기에만 저장 · 동기화 설정으로 기기 연결";
+  const syncLabel = mode => mode === "sync" ? "실시간 동기화 중" : "서버 연결 중…";
+  renderWho();
   route();
-  LANGS.forEach(l => load(l.id).then(() => { renderSide(); if (!parts()[0] || parts()[0] === "home") renderHome(); }));
-  Store.init().then(mode => { document.getElementById("sync-state").textContent = syncLabel(mode); if (mode === "sync") route(); });
+  LANGS.forEach(l => load(l.id).then(() => { renderSide(); if (me() && (!parts()[0] || parts()[0] === "home")) renderHome(); }));
+  Store.init().then(async mode => {
+    const u = me();
+    if (u && mode !== "sync") mode = (await Store.syncConnect("user:" + u.id)) ? "sync" : mode; // 로그인한 기기인데 연결 정보가 없으면 다시 연결
+    document.getElementById("sync-state").textContent = u ? syncLabel(mode) : "";
+    if (u) { route(); queueSummary(); }
+  });
 })();
