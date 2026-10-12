@@ -2674,6 +2674,375 @@
    "content_status": "linguistic_review_pending",
    "schema_validation": "passed",
    "editor_note_ko": "교육용 초안: 언어 교육자 검수 및 발음 음원 확인 후 publish 전환; 로마자 입력은 임시 보조용이며 2개월차 이후 표시를 점차 숨깁니다."
+  },
+  {
+   "id": "JP-INTRO-29",
+   "day_index": 29,
+   "week_index": 5,
+   "level": "INTRO",
+   "unit_id": "INTRO-W05",
+   "lesson_type": "new",
+   "title_ko": "가타카나 ア행",
+   "objective_ko": "가타카나 ア·イ·ウ·エ·オ를 읽는다. 히라가나 あ행과 소리는 같고 모양만 다르다.",
+   "estimated_minutes": 20,
+   "prerequisite_lesson_ids": [
+    "JP-INTRO-28"
+   ],
+   "new_items": [
+    {
+     "id": "kana-d29-01",
+     "kind": "kana",
+     "text": "ア",
+     "reading_romanized": "a",
+     "meaning_ko": null
+    },
+    {
+     "id": "kana-d29-02",
+     "kind": "kana",
+     "text": "イ",
+     "reading_romanized": "i",
+     "meaning_ko": null
+    },
+    {
+     "id": "kana-d29-03",
+     "kind": "kana",
+     "text": "ウ",
+     "reading_romanized": "u",
+     "meaning_ko": null
+    },
+    {
+     "id": "kana-d29-04",
+     "kind": "kana",
+     "text": "エ",
+     "reading_romanized": "e",
+     "meaning_ko": null
+    },
+    {
+     "id": "kana-d29-05",
+     "kind": "kana",
+     "text": "オ",
+     "reading_romanized": "o",
+     "meaning_ko": null
+    }
+   ],
+   "examples": [],
+   "exercises": [
+    {
+     "id": "JP-INTRO-29-Q1",
+     "type": "single_choice",
+     "prompt_ko": "「ア」의 일반적인 로마자 표기는 무엇인가요?",
+     "options": [
+      "a",
+      "i",
+      "u",
+      "e"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ア는 a로 표기합니다."
+    },
+    {
+     "id": "JP-INTRO-29-Q2",
+     "type": "single_choice",
+     "prompt_ko": "「オ」의 일반적인 로마자 표기는 무엇인가요?",
+     "options": [
+      "a",
+      "o",
+      "u",
+      "e"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "オ는 o로 표기합니다."
+    },
+    {
+     "id": "JP-INTRO-29-Q3",
+     "type": "typing",
+     "prompt_ko": "「イ」를 일반적인 로마자로 입력하세요.",
+     "answer_text": "i",
+     "explanation_ko": "イ → i",
+     "accepted_answers": [
+      "i"
+     ]
+    },
+    {
+     "id": "JP-INTRO-29-Q4",
+     "type": "typing",
+     "prompt_ko": "「ウ」를 일반적인 로마자로 입력하세요.",
+     "answer_text": "u",
+     "explanation_ko": "ウ → u",
+     "accepted_answers": [
+      "u"
+     ]
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_KATAKANA"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전"
+  },
+  {
+   "id": "JP-INTRO-30",
+   "day_index": 30,
+   "week_index": 5,
+   "level": "INTRO",
+   "unit_id": "INTRO-W05",
+   "lesson_type": "new",
+   "title_ko": "가타카나 カ행",
+   "objective_ko": "가타카나 カ·キ·ク·ケ·コ를 읽고, 외래어 단어를 하나 읽는다.",
+   "estimated_minutes": 20,
+   "prerequisite_lesson_ids": [
+    "JP-INTRO-29"
+   ],
+   "new_items": [
+    {
+     "id": "kana-d30-01",
+     "kind": "kana",
+     "text": "カ",
+     "reading_romanized": "ka",
+     "meaning_ko": null
+    },
+    {
+     "id": "kana-d30-02",
+     "kind": "kana",
+     "text": "キ",
+     "reading_romanized": "ki",
+     "meaning_ko": null
+    },
+    {
+     "id": "kana-d30-03",
+     "kind": "kana",
+     "text": "ク",
+     "reading_romanized": "ku",
+     "meaning_ko": null
+    },
+    {
+     "id": "kana-d30-04",
+     "kind": "kana",
+     "text": "ケ",
+     "reading_romanized": "ke",
+     "meaning_ko": null
+    },
+    {
+     "id": "kana-d30-05",
+     "kind": "kana",
+     "text": "コ",
+     "reading_romanized": "ko",
+     "meaning_ko": null
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "ココア",
+     "reading_romanized": "kokoa",
+     "meaning_ko": "코코아",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-INTRO-30-Q1",
+     "type": "single_choice",
+     "prompt_ko": "「カ」의 일반적인 로마자 표기는 무엇인가요?",
+     "options": [
+      "ka",
+      "ki",
+      "ku",
+      "ko"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "カ는 ka로 표기합니다."
+    },
+    {
+     "id": "JP-INTRO-30-Q2",
+     "type": "single_choice",
+     "prompt_ko": "「ケ」의 일반적인 로마자 표기는 무엇인가요?",
+     "options": [
+      "ka",
+      "ke",
+      "ko",
+      "ku"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "ケ는 ke로 표기합니다."
+    },
+    {
+     "id": "JP-INTRO-30-Q3",
+     "type": "typing",
+     "prompt_ko": "「キ」를 일반적인 로마자로 입력하세요.",
+     "answer_text": "ki",
+     "explanation_ko": "キ → ki",
+     "accepted_answers": [
+      "ki"
+     ]
+    },
+    {
+     "id": "JP-INTRO-30-WORD1",
+     "type": "typing",
+     "prompt_ko": "「ココア」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kokoa",
+     "explanation_ko": "ココア = kokoa (코코아)",
+     "accepted_answers": [
+      "kokoa"
+     ]
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_KATAKANA"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전"
+  },
+  {
+   "id": "JP-INTRO-31",
+   "day_index": 31,
+   "week_index": 5,
+   "level": "INTRO",
+   "unit_id": "INTRO-W05",
+   "lesson_type": "new",
+   "title_ko": "가타카나 サ행",
+   "objective_ko": "가타카나 サ·シ·ス·セ·ソ를 읽고, 외래어 단어를 읽는다. シ는 shi로 표기한다.",
+   "estimated_minutes": 20,
+   "prerequisite_lesson_ids": [
+    "JP-INTRO-30"
+   ],
+   "new_items": [
+    {
+     "id": "kana-d31-01",
+     "kind": "kana",
+     "text": "サ",
+     "reading_romanized": "sa",
+     "meaning_ko": null
+    },
+    {
+     "id": "kana-d31-02",
+     "kind": "kana",
+     "text": "シ",
+     "reading_romanized": "shi",
+     "meaning_ko": null
+    },
+    {
+     "id": "kana-d31-03",
+     "kind": "kana",
+     "text": "ス",
+     "reading_romanized": "su",
+     "meaning_ko": null
+    },
+    {
+     "id": "kana-d31-04",
+     "kind": "kana",
+     "text": "セ",
+     "reading_romanized": "se",
+     "meaning_ko": null
+    },
+    {
+     "id": "kana-d31-05",
+     "kind": "kana",
+     "text": "ソ",
+     "reading_romanized": "so",
+     "meaning_ko": null
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "アイス",
+     "reading_romanized": "aisu",
+     "meaning_ko": "아이스(크림)",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "オアシス",
+     "reading_romanized": "oashisu",
+     "meaning_ko": "오아시스",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-INTRO-31-Q1",
+     "type": "single_choice",
+     "prompt_ko": "「サ」의 일반적인 로마자 표기는 무엇인가요?",
+     "options": [
+      "sa",
+      "su",
+      "se",
+      "so"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "サ는 sa로 표기합니다."
+    },
+    {
+     "id": "JP-INTRO-31-Q2",
+     "type": "single_choice",
+     "prompt_ko": "「シ」의 일반적인 로마자 표기는 무엇인가요?",
+     "options": [
+      "shi",
+      "sa",
+      "su",
+      "so"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "シ는 shi로 표기합니다."
+    },
+    {
+     "id": "JP-INTRO-31-Q3",
+     "type": "typing",
+     "prompt_ko": "「ス」를 일반적인 로마자로 입력하세요.",
+     "answer_text": "su",
+     "explanation_ko": "ス → su",
+     "accepted_answers": [
+      "su"
+     ]
+    },
+    {
+     "id": "JP-INTRO-31-WORD1",
+     "type": "typing",
+     "prompt_ko": "「アイス」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "aisu",
+     "explanation_ko": "アイス = aisu (아이스(크림))",
+     "accepted_answers": [
+      "aisu"
+     ]
+    },
+    {
+     "id": "JP-INTRO-31-WORD2",
+     "type": "typing",
+     "prompt_ko": "「オアシス」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "oashisu",
+     "explanation_ko": "オアシス = oashisu (오아시스)",
+     "accepted_answers": [
+      "oashisu"
+     ]
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_KATAKANA"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전"
   }
  ]
 }

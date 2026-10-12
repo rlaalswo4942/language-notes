@@ -810,6 +810,365 @@
     "version": 1,
     "last_revised": "2026-10-12"
    }
+  },
+  {
+   "id": "PRE-008",
+   "publish_date": "2026-10-12",
+   "level": "Pre-A1",
+   "track": "foundation",
+   "day": 8,
+   "title_ko": "this / that",
+   "objective_ko": "가까운 것과 먼 것을 this와 that으로 구별해 말한다.",
+   "estimated_minutes": 25,
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-12",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "grammar": {
+    "explanation_ko": "this는 가까이 있는 것, that은 멀리 있는 것을 가리킬 때 씁니다. 둘 다 '이것/저것'처럼 단수 하나를 가리키며, 뒤에 be동사 is를 붙여 This is ..., That is ... 로 말합니다.",
+    "common_mistake_ko": "this와 that은 한 개를 가리킬 때 쓰므로 This are ... 처럼 are와 함께 쓰지 않습니다. This is ... 가 맞습니다."
+   },
+   "vocabulary": [
+    {
+     "word": "this",
+     "part_of_speech": "대명사",
+     "meaning_ko": "이것",
+     "example_en": "This is my pen.",
+     "example_ko": "이것은 내 펜이에요."
+    },
+    {
+     "word": "that",
+     "part_of_speech": "대명사",
+     "meaning_ko": "저것",
+     "example_en": "That is a car.",
+     "example_ko": "저것은 자동차예요."
+    },
+    {
+     "word": "pen",
+     "part_of_speech": "명사",
+     "meaning_ko": "펜",
+     "example_en": "I have a pen.",
+     "example_ko": "나는 펜이 하나 있어요."
+    },
+    {
+     "word": "chair",
+     "part_of_speech": "명사",
+     "meaning_ko": "의자",
+     "example_en": "This is a chair.",
+     "example_ko": "이것은 의자예요."
+    },
+    {
+     "word": "cup",
+     "part_of_speech": "명사",
+     "meaning_ko": "컵",
+     "example_en": "That is a cup.",
+     "example_ko": "저것은 컵이에요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "This is a pen.",
+     "ko": "이것은 펜이에요."
+    },
+    {
+     "en": "That is a chair.",
+     "ko": "저것은 의자예요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "P008-Q1",
+     "type": "single_choice",
+     "stem": "___ is my cup. (내 손에 들고 있는 컵)",
+     "choices": [
+      "This",
+      "That"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "손에 들고 있어 가까이 있으므로 This를 씁니다.",
+     "error_tag": "demonstrative"
+    },
+    {
+     "id": "P008-Q2",
+     "type": "single_choice",
+     "stem": "___ is a car. (길 건너편에 있는 차)",
+     "choices": [
+      "This",
+      "That"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "멀리 있는 것은 That으로 가리킵니다.",
+     "error_tag": "demonstrative"
+    },
+    {
+     "id": "P008-Q3",
+     "type": "single_choice",
+     "stem": "That ___ a chair.",
+     "choices": [
+      "is",
+      "are",
+      "am"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "that은 단수이므로 is를 씁니다.",
+     "error_tag": "be-demonstrative"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "this와 that을 각각 사용한 문장을 한 개씩 작성해 보세요.",
+    "example_answer_en": "",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 직접 만든 문장의 맥락을 확인하세요."
+   },
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-12"
+   }
+  },
+  {
+   "id": "PRE-009",
+   "publish_date": "2026-10-12",
+   "level": "Pre-A1",
+   "track": "foundation",
+   "day": 9,
+   "title_ko": "these / those",
+   "objective_ko": "가까운 여러 개와 먼 여러 개를 these와 those로 구별해 말한다.",
+   "estimated_minutes": 25,
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-12",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "grammar": {
+    "explanation_ko": "these는 this의 복수로 가까이 있는 여러 개, those는 that의 복수로 멀리 있는 여러 개를 가리킵니다. 복수이므로 These are ..., Those are ... 로 말합니다.",
+    "common_mistake_ko": "These is ... 처럼 쓰지 않습니다. these와 those는 복수라서 are와 함께 씁니다."
+   },
+   "vocabulary": [
+    {
+     "word": "these",
+     "part_of_speech": "대명사",
+     "meaning_ko": "이것들",
+     "example_en": "These are my pens.",
+     "example_ko": "이것들은 내 펜들이에요."
+    },
+    {
+     "word": "those",
+     "part_of_speech": "대명사",
+     "meaning_ko": "저것들",
+     "example_en": "Those are cars.",
+     "example_ko": "저것들은 자동차들이에요."
+    },
+    {
+     "word": "bag",
+     "part_of_speech": "명사",
+     "meaning_ko": "가방",
+     "example_en": "This is a bag.",
+     "example_ko": "이것은 가방이에요."
+    },
+    {
+     "word": "shoe",
+     "part_of_speech": "명사",
+     "meaning_ko": "신발 한 짝",
+     "example_en": "That is a shoe.",
+     "example_ko": "저것은 신발 한 짝이에요."
+    },
+    {
+     "word": "door",
+     "part_of_speech": "명사",
+     "meaning_ko": "문",
+     "example_en": "Those are doors.",
+     "example_ko": "저것들은 문들이에요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "These are cups.",
+     "ko": "이것들은 컵들이에요."
+    },
+    {
+     "en": "Those are chairs.",
+     "ko": "저것들은 의자들이에요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "P009-Q1",
+     "type": "single_choice",
+     "stem": "___ are my bags. (바로 옆에 있는 가방 여러 개)",
+     "choices": [
+      "These",
+      "Those"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "가까이 있는 여러 개는 These를 씁니다.",
+     "error_tag": "demonstrative-plural"
+    },
+    {
+     "id": "P009-Q2",
+     "type": "single_choice",
+     "stem": "Those ___ doors.",
+     "choices": [
+      "is",
+      "are",
+      "am"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "those는 복수이므로 are를 씁니다.",
+     "error_tag": "be-demonstrative"
+    },
+    {
+     "id": "P009-Q3",
+     "type": "single_choice",
+     "stem": "this의 복수형은?",
+     "choices": [
+      "these",
+      "those",
+      "thats"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "가까운 것을 가리키는 this의 복수형은 these입니다.",
+     "error_tag": "demonstrative-plural"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "these와 those를 각각 사용한 문장을 한 개씩 작성해 보세요.",
+    "example_answer_en": "",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 직접 만든 문장의 맥락을 확인하세요."
+   },
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-12"
+   }
+  },
+  {
+   "id": "PRE-010",
+   "publish_date": "2026-10-12",
+   "level": "Pre-A1",
+   "track": "foundation",
+   "day": 10,
+   "title_ko": "소유격 my / your",
+   "objective_ko": "my와 your로 누구의 것인지 말한다.",
+   "estimated_minutes": 25,
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-12",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "grammar": {
+    "explanation_ko": "my는 '나의', your는 '너의/당신의'라는 뜻으로 명사 앞에 씁니다. my bag(내 가방), your phone(너의 휴대폰)처럼 a/an 없이 소유격만 붙입니다.",
+    "common_mistake_ko": "I bag처럼 대명사 I를 명사 앞에 쓰지 않습니다. '나의 가방'은 my bag입니다."
+   },
+   "vocabulary": [
+    {
+     "word": "my",
+     "part_of_speech": "소유격",
+     "meaning_ko": "나의",
+     "example_en": "This is my bag.",
+     "example_ko": "이것은 내 가방이에요."
+    },
+    {
+     "word": "your",
+     "part_of_speech": "소유격",
+     "meaning_ko": "너의, 당신의",
+     "example_en": "That is your pen.",
+     "example_ko": "저것은 당신의 펜이에요."
+    },
+    {
+     "word": "name",
+     "part_of_speech": "명사",
+     "meaning_ko": "이름",
+     "example_en": "My name is Mina.",
+     "example_ko": "내 이름은 미나예요."
+    },
+    {
+     "word": "phone",
+     "part_of_speech": "명사",
+     "meaning_ko": "휴대폰",
+     "example_en": "This is your phone.",
+     "example_ko": "이것은 당신의 휴대폰이에요."
+    },
+    {
+     "word": "key",
+     "part_of_speech": "명사",
+     "meaning_ko": "열쇠",
+     "example_en": "That is my key.",
+     "example_ko": "저것은 내 열쇠예요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "This is my phone.",
+     "ko": "이것은 내 휴대폰이에요."
+    },
+    {
+     "en": "That is your key.",
+     "ko": "저것은 당신의 열쇠예요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "P010-Q1",
+     "type": "single_choice",
+     "stem": "I am Mina. ___ name is Mina.",
+     "choices": [
+      "My",
+      "Your"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "말하는 사람(나)의 이름이므로 My를 씁니다.",
+     "error_tag": "possessive"
+    },
+    {
+     "id": "P010-Q2",
+     "type": "single_choice",
+     "stem": "You have a bag. It is ___ bag.",
+     "choices": [
+      "my",
+      "your",
+      "you"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "상대방(you)의 가방이므로 your를 씁니다.",
+     "error_tag": "possessive"
+    },
+    {
+     "id": "P010-Q3",
+     "type": "single_choice",
+     "stem": "This is ___ key. (내 열쇠)",
+     "choices": [
+      "I",
+      "my",
+      "am"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "명사 앞에는 소유격 my를 씁니다.",
+     "error_tag": "possessive"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "my와 your를 각각 사용한 문장을 한 개씩 작성해 보세요.",
+    "example_answer_en": "",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 직접 만든 문장의 맥락을 확인하세요."
+   },
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-12"
+   }
   }
  ]
 }
