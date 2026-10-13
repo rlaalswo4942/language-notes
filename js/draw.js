@@ -71,7 +71,7 @@
       if (a === "undo") undo();
       else if (a === "redo") redo();
       else if (a === "snap") { opts.snap = !opts.snap; saveOpts(); syncBar(); App.toast(opts.snap ? "스냅 켜짐: 형광펜·가림펜이 글자/그림 크기에 맞춰집니다" : "스냅 꺼짐: 그린 모양 그대로"); }
-      else if (a === "penOnly") { opts.penOnly = !opts.penOnly; saveOpts(); syncBar(); App.toast(opts.penOnly ? "펜 전용: 손가락으로는 스크롤, 펜으로만 필기" : "펜 전용 꺼짐: 손가락으로도 필기"); }
+      else if (a === "penOnly") { opts.penOnly = !opts.penOnly; saveOpts(); syncBar(); App.toast(opts.penOnly ? "펜 전용: 손가락으로는 스크롤·버튼 누르기, 펜으로만 필기" : "펜 전용 꺼짐: 손가락으로도 필기"); }
       else if (a === "note") addNote();
       else if (a === "reveal") revealAll();
       else if (a === "clear") clearPage();
@@ -301,20 +301,24 @@
   function onDown(e) {
     if (!C) return;
     if (e.pointerType === "mouse" && e.button !== 0) return;
+    if (e.pointerType === "touch" && G.pts.size >= 2) return; // 두·세 손가락 탭 제스처 중
     C.cap.setPointerCapture(e.pointerId);
-    if (opts.penOnly && e.pointerType === "touch") { C.scroll = { y: e.clientY, top: C.scroller.scrollTop, id: e.pointerId }; return; }
+    if (opts.penOnly && e.pointerType === "touch") { C.scroll = { x: e.clientX, y: e.clientY, top: C.scroller.scrollTop, id: e.pointerId, t0: performance.now(), moved: false }; return; }
     if (C.cur || C.erasing) return;
     const p = toPage(e);
-    if (opts.tool === "eraser") { C.erasing = { removed: [] }; eraseAt(p); moveDot(p); return; }
+    if (opts.tool === "eraser") { C.erasing = { removed: [], touch: e.pointerType === "touch" }; eraseAt(p); moveDot(p); return; }
     const o = opts[opts.tool];
-    C.cur = { pts: [p], t0: performance.now(), id: e.pointerId, path: null };
+    C.cur = { pts: [p], t0: performance.now(), id: e.pointerId, path: null, touch: e.pointerType === "touch" };
     const live = el("path", { class: "live", fill: "none", stroke: o.c, "stroke-width": o.w, "stroke-linecap": "round", "stroke-linejoin": "round", opacity: opts.tool === "pen" ? 1 : opts.tool === "hl" ? 0.5 : 0.85 });
     if (opts.tool === "hl") live.style.mixBlendMode = "multiply";
     C.svg.append(live); C.cur.path = live;
   }
   function onMove(e) {
     if (!C) return;
-    if (C.scroll && e.pointerId === C.scroll.id) { C.scroller.scrollTop = C.scroll.top - (e.clientY - C.scroll.y); return; }
+    if (C.scroll && e.pointerId === C.scroll.id) {
+      if (Math.hypot(e.clientX - C.scroll.x, e.clientY - C.scroll.y) > 8) C.scroll.moved = true;
+      C.scroller.scrollTop = C.scroll.top - (e.clientY - C.scroll.y); return;
+    }
     if (C.erasing) { const evs = e.getCoalescedEvents ? e.getCoalescedEvents() : [e]; evs.forEach(ev => eraseAt(toPage(ev))); moveDot(toPage(e)); return; }
     if (opts.tool === "eraser" && e.pointerType === "mouse") moveDot(toPage(e));
     if (!C.cur || e.pointerId !== C.cur.id) return;
@@ -328,7 +332,11 @@
   }
   function onUp(e) {
     if (!C) return;
-    if (C.scroll && e.pointerId === C.scroll.id) { C.scroll = null; return; }
+    if (C.scroll && e.pointerId === C.scroll.id) {
+      const s = C.scroll; C.scroll = null;
+      if (e.type === "pointerup" && !s.moved && G.max < 2 && performance.now() - s.t0 < 500) tapThrough(e);
+      return;
+    }
     if (C.erasing) {
       if (C.erasing.removed.length) { C.undo.push({ op: "del", items: C.erasing.removed }); C.redo = []; save(); }
       C.erasing = null; if (e.pointerType !== "mouse") dot.style.display = "none"; return;
@@ -352,6 +360,17 @@
     item.id = Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
     C.items.push(item); C.undo.push({ op: "add", item }); C.redo = [];
     renderAll(); save();
+  }
+  // 펜 전용 모드의 손가락 탭: 필기 레이어 아래 요소(읽음 버튼·링크·체크 등)에 클릭을 그대로 전달, 가림펜 위면 열고 닫기
+  function tapThrough(e) {
+    if (toggleAt(toPage(e))) return;
+    C.cap.style.display = "none";
+    const t = document.elementFromPoint(e.clientX, e.clientY);
+    C.cap.style.display = "";
+    if (!t) return;
+    const f = t.closest("input, textarea, select, [contenteditable]");
+    if (f) f.focus({ preventScroll: true });
+    t.dispatchEvent(new MouseEvent("click", { bubbles: true, cancelable: true, view: window, clientX: e.clientX, clientY: e.clientY }));
   }
   function moveDot(p) {
     const s = C.getScale(), r = 14;
@@ -394,16 +413,50 @@
   }
   function undo() {
     if (!C) return; const op = C.undo.pop(); if (!op) return App.toast("되돌릴 작업이 없어요");
+    if (op.op === "nink") { setNoteInk(op.id, op.before); C.redo.push(op); return; }
     if (op.op === "add") C.items = C.items.filter(i => i !== op.item);
     else C.items.push(...op.items);
     C.redo.push(op); renderAll(); save();
   }
   function redo() {
-    if (!C) return; const op = C.redo.pop(); if (!op) return;
+    if (!C) return; const op = C.redo.pop(); if (!op) return App.toast("다시 실행할 작업이 없어요");
+    if (op.op === "nink") { setNoteInk(op.id, op.after); C.undo.push(op); return; }
     if (op.op === "add") C.items.push(op.item);
     else C.items = C.items.filter(i => !op.items.includes(i));
     C.undo.push(op); renderAll(); save();
   }
+  /* ── 손가락 제스처 (클립 스튜디오 방식): 두 손가락 탭 = 실행취소, 세 손가락 탭 = 다시실행
+   *    필기 도구를 쓰는 중이거나 필기용 포스트잇 위에서만. 손가락이 300ms 안에 함께 닿고, 움직이지 않고, 0.5초 안에 떼야 탭으로 본다.
+   *    첫 손가락으로 시작된 획·지우개·스크롤은 취소한다. ── */
+  const G = { pts: new Map(), max: 0, t0: 0, moved: false };
+  const inGestureScope = e => C && (opts.tool !== "read" || (e.target.closest && e.target.closest(".postit.inkmode .pink")));
+  function cancelTouchInput() {
+    if (C.cur && C.cur.touch) { C.cur.path.remove(); C.cur = null; }
+    if (C.erasing && C.erasing.touch) { C.items.push(...C.erasing.removed); C.erasing = null; dot.style.display = "none"; renderAll(); }
+    C.scroll = null;
+    const d = N && N.ink;
+    if (d && d.touch) { N.ink = null; d.n.ink = d.before; drawNoteInk(d.el, d.n); }
+  }
+  document.addEventListener("pointerdown", e => {
+    if (e.pointerType !== "touch" || !inGestureScope(e)) return;
+    const now = performance.now();
+    if (!G.pts.size) { G.max = 0; G.t0 = now; G.moved = false; }
+    G.pts.set(e.pointerId, [e.clientX, e.clientY]);
+    if (G.pts.size >= 2 && now - G.t0 < 300) { G.max = Math.max(G.max, G.pts.size); cancelTouchInput(); }
+  }, true);
+  document.addEventListener("pointermove", e => {
+    const p = G.pts.get(e.pointerId);
+    if (p && Math.hypot(e.clientX - p[0], e.clientY - p[1]) > 14) G.moved = true;
+  }, true);
+  const gestureEnd = e => {
+    if (!G.pts.delete(e.pointerId) || G.pts.size) return;
+    if (e.type !== "pointerup" || G.moved || performance.now() - G.t0 > 500) return;
+    if (G.max === 2) { undo(); App.toast("↶ 실행취소"); }
+    else if (G.max === 3) { redo(); App.toast("↷ 다시실행"); }
+  };
+  document.addEventListener("pointerup", gestureEnd, true);
+  document.addEventListener("pointercancel", gestureEnd, true);
+
   function revealAll() {
     if (!C) return;
     const masks = C.items.filter(i => i.k === "mask" || i.k === "maskr");
@@ -552,7 +605,7 @@
   /* ── 포스트잇: 페이지 위 메모지. 위치는 섹션 기준 비율, 크기는 1000px 페이지 기준(화면 배율과 무관)
    *    위 막대 = 끌어서 이동 + 불투명도 조절바(카카오톡 채팅방 조절바 모양) / 왼쪽·오른쪽·아래 가장자리 = 끌어서 크기 조절 ── */
   const NOTE_COLORS = ["#fff6a8", "#ffffff", "#e8e8ed", "#ffdfe6", "#dcecff"];
-  const NOTE_MIN = { w: 140, h: 80 };
+  const NOTE_MIN = { w: 180, h: 80 };
   let noteTimer = null;
   function loadNotes() { return (Store.get("notes:" + C.key, []) || []).map(n => Object.assign({}, n)); }
   function saveNotes() { clearTimeout(noteTimer); noteTimer = setTimeout(flushNotes, 400); }
@@ -575,6 +628,10 @@
       el.querySelector("[data-op]").value = Math.round(n.op * 100);
       el.querySelector("[data-color]").style.background = n.c;
       const ta = el.querySelector("textarea"); if (document.activeElement !== ta && ta.value !== n.text) ta.value = n.text;
+      el.classList.toggle("inkmode", n.mode === "ink");
+      el.classList.toggle("mini", !!n.min);
+      ta.style.opacity = el.querySelector(".pink").style.opacity = n.op; // 투명도는 종이와 쓴 내용에 함께
+      if (!(N.ink && N.ink.n === n)) drawNoteInk(el, n);
     });
     N.layer.querySelectorAll(".postit").forEach(el => { if (!seen.has(el.dataset.id)) el.remove(); });
   }
@@ -584,9 +641,13 @@
     el.innerHTML = `<div class="pbar" title="끌어서 이동">
         <span class="grip"><svg viewBox="0 0 12 16" width="10" height="14"><g fill="currentColor"><circle cx="3" cy="3" r="1.3"/><circle cx="9" cy="3" r="1.3"/><circle cx="3" cy="8" r="1.3"/><circle cx="9" cy="8" r="1.3"/><circle cx="3" cy="13" r="1.3"/><circle cx="9" cy="13" r="1.3"/></g></svg></span>
         <input class="kslider" type="range" min="15" max="100" step="1" data-op title="불투명도" aria-label="불투명도">
+        <button class="pmode" data-mode title="필기용 / 타이핑용 전환" aria-label="필기·타이핑 전환"><span>T</span><span>✎</span></button>
         <button class="pc" data-color title="종이 색 바꾸기" aria-label="종이 색"></button>
+        <button class="pmin" data-min title="접기 — 작은 아이콘으로 (아이콘을 탭하면 펼침)" aria-label="접기">–</button>
         <button class="px" data-del title="포스트잇 삭제" aria-label="삭제">✕</button></div>
+      <div class="micon" title="탭하면 펼침 · 끌어서 이동">${ICO.note}</div>
       <textarea placeholder="메모를 입력하세요" spellcheck="false"></textarea>
+      <svg class="pink"></svg>
       <i class="rz l" data-rz="l"></i><i class="rz r" data-rz="r"></i><i class="rz b" data-rz="b"></i><i class="rz bl" data-rz="bl"></i><i class="rz br" data-rz="br"></i>`;
     const item = () => N && N.items.find(x => x.id === n.id);
     const front = () => { const it = item(); if (it && (it.z || 1) < topZ()) { it.z = topZ() + 1; el.style.zIndex = it.z; saveNotes(); } };
@@ -594,6 +655,7 @@
       front();
       const it = item(); if (!it) return;
       const rz = e.target.closest("[data-rz]");
+      if (el.classList.contains("mini")) return startDrag(e, it, el, "move"); // 아이콘: 탭 = 펼치기, 끌기 = 이동
       if (rz) return startDrag(e, it, el, rz.dataset.rz);
       if (e.target.closest(".pbar") && !e.target.closest("input, button")) return startDrag(e, it, el, "move");
     });
@@ -601,19 +663,85 @@
     ta.addEventListener("input", () => { const it = item(); if (it) { it.text = ta.value; saveNotes(); } });
     ta.addEventListener("blur", flushNotes);
     const sl = el.querySelector("[data-op]");
-    sl.addEventListener("input", () => { const it = item(); if (!it) return; it.op = +sl.value / 100; el.style.background = paper(it.c, it.op); saveNotes(); });
+    sl.addEventListener("input", () => { const it = item(); if (!it) return; it.op = +sl.value / 100; el.style.background = paper(it.c, it.op); ta.style.opacity = el.querySelector(".pink").style.opacity = it.op; saveNotes(); });
     el.querySelector("[data-color]").addEventListener("click", () => {
       const it = item(); if (!it) return;
       it.c = NOTE_COLORS[(NOTE_COLORS.indexOf(it.c) + 1) % NOTE_COLORS.length];
       el.style.background = paper(it.c, it.op); el.querySelector("[data-color]").style.background = it.c; saveNotes();
     });
+    el.querySelector("[data-min]").addEventListener("click", () => {
+      const it = item(); if (!it) return;
+      it.min = true; el.classList.add("mini"); ta.blur(); saveNotes();
+    });
+    el.querySelector("[data-mode]").addEventListener("click", () => {
+      const it = item(); if (!it) return;
+      it.mode = it.mode === "ink" ? "text" : "ink";
+      el.classList.toggle("inkmode", it.mode === "ink"); saveNotes();
+      if (it.mode === "ink") { ta.blur(); App.toast("필기용: 메모지 안에 펜으로 쓰기 (지우개 도구로 지우기)"); }
+      else { ta.focus({ preventScroll: true }); App.toast("타이핑용: 키보드로 입력"); }
+    });
+    const pk = el.querySelector(".pink");
+    pk.addEventListener("pointerdown", e => noteInkDown(e, item(), el, pk));
+    pk.addEventListener("pointermove", e => noteInkMove(e, pk));
+    pk.addEventListener("pointerup", e => noteInkUp(e));
+    pk.addEventListener("pointercancel", e => noteInkUp(e));
     el.querySelector("[data-del]").addEventListener("click", () => {
       const it = item(); if (!it) return;
       const now = Date.now();
-      if (it.text.trim() && (!el._armed || now - el._armed > 3000)) { el._armed = now; return App.toast("한 번 더 누르면 이 포스트잇을 지워요"); }
+      if ((it.text.trim() || (it.ink && it.ink.length)) && (!el._armed || now - el._armed > 3000)) { el._armed = now; return App.toast("한 번 더 누르면 이 포스트잇을 지워요"); }
       N.items = N.items.filter(x => x !== it); el.remove(); saveNotes();
     });
     return el;
+  }
+  /* 포스트잇 필기: 획은 메모지 기준 좌표(1000px 페이지 단위)로 n.ink = [{ c, w, pts }] 에 저장.
+   * 펜 색·굵기는 툴바의 펜 설정을 따르고, 툴바에서 지우개를 고르면 메모지 안 획을 지운다. */
+  const svgEl = (tag, attrs) => el(tag, attrs); // 아래 함수들의 el 매개변수(메모지 DOM)와 이름이 겹쳐서 별칭
+  function drawNoteInk(el, n) {
+    const pk = el.querySelector(".pink"); if (!pk) return;
+    pk.innerHTML = "";
+    (n.ink || []).forEach(s => pk.append(svgEl("path", { d: smooth(s.pts), fill: "none", stroke: s.c, "stroke-width": s.w, "stroke-linecap": "round", "stroke-linejoin": "round" })));
+  }
+  function notePt(e, pk) { const r = pk.getBoundingClientRect(), s = C.getScale(); return [Math.round((e.clientX - r.left) / s * 10) / 10, Math.round((e.clientY - r.top) / s * 10) / 10]; }
+  function noteInkDown(e, n, el, pk) {
+    if (!n || n.mode !== "ink" || N.ink) return;
+    if (e.pointerType === "mouse" && e.button !== 0) return;
+    if (e.pointerType === "touch" && (opts.penOnly || G.pts.size >= 2)) return;
+    e.preventDefault(); e.stopPropagation();
+    try { pk.setPointerCapture(e.pointerId); } catch (err) {}
+    const p = notePt(e, pk);
+    const base = { n, el, id: e.pointerId, touch: e.pointerType === "touch", before: (n.ink || []).slice() };
+    if (opts.tool === "eraser") { N.ink = Object.assign(base, { erase: true }); noteErase(n, el, p); return; }
+    const o = opts.pen;
+    const path = svgEl("path", { fill: "none", stroke: o.c, "stroke-width": o.w, "stroke-linecap": "round", "stroke-linejoin": "round" });
+    pk.append(path);
+    N.ink = Object.assign(base, { pts: [p], path, c: o.c, w: o.w });
+  }
+  function noteInkMove(e, pk) {
+    const d = N && N.ink; if (!d || e.pointerId !== d.id) return;
+    const evs = e.getCoalescedEvents ? e.getCoalescedEvents() : [e];
+    if (d.erase) { evs.forEach(ev => noteErase(d.n, d.el, notePt(ev, pk))); return; }
+    evs.forEach(ev => { const p = notePt(ev, pk), l = d.pts[d.pts.length - 1]; if (Math.hypot(p[0] - l[0], p[1] - l[1]) >= 1) d.pts.push(p); });
+    d.path.setAttribute("d", smooth(d.pts));
+  }
+  function noteInkUp(e) {
+    const d = N && N.ink; if (!d || e.pointerId !== d.id) return;
+    N.ink = null;
+    if (!d.erase) { d.n.ink = d.before.concat([{ c: d.c, w: d.w, pts: simplify(d.pts, 0.6) }]); drawNoteInk(d.el, d.n); }
+    if ((d.n.ink || []).length === d.before.length && d.erase) return; // 지운 게 없음
+    C.undo.push({ op: "nink", id: d.n.id, before: d.before, after: d.n.ink.slice() }); C.redo = [];
+    saveNotes();
+  }
+  function setNoteInk(id, ink) {
+    const n = N && N.items.find(x => x.id === id); if (!n) return;
+    n.ink = ink.slice();
+    const el = N.layer.querySelector(`.postit[data-id="${id}"]`); if (el) drawNoteInk(el, n);
+    saveNotes();
+  }
+  function noteErase(n, el, p) {
+    const before = (n.ink || []).length;
+    n.ink = (n.ink || []).filter(s => !(s.pts.length === 1 ? Math.hypot(p[0] - s.pts[0][0], p[1] - s.pts[0][1]) <= s.w / 2 + 8
+      : s.pts.some((q, i) => i && distSeg(p, s.pts[i - 1], q) <= s.w / 2 + 8)));
+    if (n.ink.length !== before) drawNoteInk(el, n);
   }
   function startDrag(e, n, el, mode) {
     e.preventDefault(); e.stopPropagation();
@@ -641,6 +769,7 @@
   function onNoteUp(e) {
     const d = N && N.drag; if (!d || e.pointerId !== d.id) return;
     N.drag = null; d.el.classList.remove("dragging");
+    if (d.n.min && e.type === "pointerup" && Math.hypot(e.clientX - d.cx, e.clientY - d.cy) < 6) { d.n.min = false; d.el.classList.remove("mini"); }
     setNoteRel(d.n, d.x, d.y); saveNotes();
   }
   function addNote() {

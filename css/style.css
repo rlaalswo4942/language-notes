@@ -506,3 +506,59 @@ body { word-break: keep-all; overflow-wrap: anywhere; }
 .postit:hover .rz::after, .postit.dragging .rz::after, .postit:focus-within .rz::after { opacity: 1; }
 @media (hover: none) { .postit .rz::after { opacity: 1; } }
 .postit .pbar { background: rgba(250, 250, 250, .94); }
+
+/* 코드 빈칸 문제(questions.json 의 code 필드) · 본문 정답 접기(<details>) */
+.qcode { background: #f5f5f7; border-radius: 12px; padding: 12px 14px; margin: 0 0 14px; font: 15px/1.55 ui-monospace, Consolas, monospace; white-space: pre; overflow-x: auto; tab-size: 4; }
+.choices.mono .choice { font-family: ui-monospace, Consolas, monospace; }
+details { margin: 10px 0; } details summary { cursor: pointer; font-weight: 700; }
+/* 포스트잇 필기/타이핑 전환 스위치 + 메모지 안 필기 레이어 */
+.postit .pmode { flex: none; display: flex; align-items: center; height: 20px; padding: 2px; border: 1px solid #c7c7cc; border-radius: 10px; background: #fff; gap: 0; }
+.postit .pmode span { width: 18px; height: 14px; border-radius: 7px; font-size: 10px; line-height: 14px; text-align: center; color: #8e8e93; font-weight: 700; }
+.postit:not(.inkmode) .pmode span:first-child, .postit.inkmode .pmode span:last-child { background: #1d1d1f; color: #fff; }
+.postit .pink { position: absolute; left: 0; right: 0; top: 30px; bottom: 0; width: 100%; height: calc(100% - 30px); overflow: hidden; pointer-events: none; }
+.postit.inkmode .pink { pointer-events: auto; touch-action: none; cursor: crosshair; }
+.postit.inkmode textarea { pointer-events: none; }
+/* 포스트잇 접기(아이콘화): 위 막대 – 버튼 → 46px 아이콘, 아이콘 탭 = 펼치기 · 끌기 = 이동 */
+.postit .pbar { gap: 6px; }
+.postit .pmin { flex: none; border: 0; background: none; color: #6e6e73; font-size: 17px; font-weight: 700; width: 22px; height: 22px; border-radius: 50%; padding: 0; line-height: 20px; }
+.postit .pmin:hover { background: rgba(0, 0, 0, .06); color: var(--ink); }
+.postit .micon { display: none; }
+.postit.mini { width: 46px !important; height: 46px !important; min-width: 0; min-height: 0; border-radius: 14px; cursor: pointer; box-shadow: 0 4px 14px rgba(0, 0, 0, .16), 0 0 0 1px rgba(0, 0, 0, .08); }
+.postit.mini > :not(.micon) { display: none !important; }
+.postit.mini .micon { display: grid; place-items: center; width: 100%; height: 100%; color: #3a3a3c; touch-action: none; }
+
+/* 검색 터미널: 오른쪽 사이드바 (목차와 같은 방식으로 접고 펼침) */
+:root { --search-w: 340px; }
+#searchpane { width: var(--search-w); flex: none; display: flex; flex-direction: column; background: #fbfbfd; border-left: 1px solid rgba(0, 0, 0, .08);
+  margin-right: calc(-1 * var(--search-w)); transition: margin-right .25s ease; z-index: 30; min-height: 0; }
+body.search-open #searchpane { margin-right: 0; }
+#searchpane { position: relative; }
+#searchpane .sp-grip { position: absolute; left: -6px; top: 0; bottom: 0; width: 12px; cursor: ew-resize; touch-action: none; z-index: 2; }
+#searchpane .sp-grip::after { content: ""; position: absolute; left: 4px; top: 50%; width: 4px; height: 40px; margin-top: -20px; border-radius: 4px; background: rgba(0, 0, 0, .18); opacity: 0; transition: opacity .15s; }
+#searchpane:hover .sp-grip::after, body.sp-resizing .sp-grip::after { opacity: 1; }
+@media (hover: none) { #searchpane .sp-grip::after { opacity: 1; } }
+body.sp-resizing, body.sp-resizing * { cursor: ew-resize !important; user-select: none; }
+body.sp-resizing #searchpane { transition: none; }
+body.search-open #drawbar { right: calc(var(--search-w) + 12px); }
+#search-toggle.on { background: var(--ink); color: #fff; border-color: var(--ink); }
+#searchpane .sp-head { display: flex; align-items: center; gap: 8px; padding: 14px 12px 10px 16px; border-bottom: 1px solid rgba(0, 0, 0, .06); }
+#searchpane .sp-head b { font-size: 17px; letter-spacing: -0.01em; }
+#searchpane .sp-net { flex: 1; font-size: 12px; color: var(--sub); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+#searchpane .sp-net::before { content: ""; display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: #34c759; margin-right: 5px; vertical-align: 1px; }
+#searchpane .sp-net.off::before { background: #ff3b30; }
+#searchpane .sp-log { flex: 1; overflow-y: auto; padding: 12px 14px; font-size: 13.5px; line-height: 1.6; color: var(--ink); -webkit-overflow-scrolling: touch; }
+#searchpane .ln { margin: 0 0 8px; white-space: pre-wrap; word-break: break-word; }
+#searchpane .ln.dim { color: var(--sub); }
+#searchpane .hit { display: block; margin: 0 0 8px; padding: 8px 10px; border-radius: 10px; background: #fff; border: 1px solid rgba(0, 0, 0, .07); color: var(--ink); text-decoration: none; font: inherit; text-align: left; width: 100%; cursor: pointer; }
+#searchpane .hit:hover { border-color: rgba(0, 0, 0, .25); }
+#searchpane .hit b { display: block; font-size: 12.5px; }
+#searchpane .lk { border: 0; background: none; padding: 0; margin-left: 6px; font: inherit; color: var(--ink); text-decoration: underline; cursor: pointer; }
+#searchpane .ln b { color: var(--ink); }
+#searchpane .sp-in { display: flex; align-items: center; gap: 8px; padding: 10px 12px calc(10px + env(safe-area-inset-bottom)); border-top: 1px solid rgba(0, 0, 0, .08); background: #fff; }
+#searchpane .sp-in span { font: 700 15px ui-monospace, Consolas, monospace; color: var(--sub); }
+#searchpane .sp-in input { flex: 1; min-width: 0; border: 1px solid rgba(0, 0, 0, .12); border-radius: 10px; height: 38px; padding: 0 10px; font: 14px ui-monospace, Consolas, monospace; background: #f5f5f7; outline: 0; }
+#searchpane .sp-in input:focus { border-color: var(--ink); background: #fff; }
+@media (max-width: 900px) {
+  #searchpane { position: absolute; right: 0; top: 0; height: 100%; z-index: 45; box-shadow: -6px 0 24px rgba(0, 0, 0, .15); max-width: 100vw; }
+  body.search-open #drawbar { right: 12px; }
+}

@@ -9,7 +9,7 @@
   const PREFIX = KEY + ":";
   const SPACE_KEY = KEY + "-sync-space";
   const API = window.SITE && SITE.syncApi;
-  const LOCAL_ONLY = new Set(["sideOpen", "inkopts", "quizSession"]); // 기기마다 다른 게 자연스러운 설정
+  const LOCAL_ONLY = new Set(["sideOpen", "inkopts", "quizSession", "searchOpen", "searchHist", "searchW"]); // 기기마다 다른 게 자연스러운 설정
   const POLL_MS = 3000;
   const mem = {};
   let mode = "local";

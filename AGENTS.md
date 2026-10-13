@@ -3,7 +3,7 @@
 영어·일본어 공부 사이트. 기능·구조는 README.md, 레슨 추가 규칙은 docs/CONTENT_GUIDE.md.
 
 ## 규칙
-- 공용 엔진 `js/store.js` `js/draw.js` `css/style.css` 는 `학습사이트_프레임`과 동일하게 유지. 고치면 프레임·다른 학습 사이트에도 같이 반영
+- 공용 엔진 `js/store.js` `js/draw.js` `js/search.js` `css/style.css` 는 `학습사이트_프레임`과 동일하게 유지. 고치면 프레임·다른 학습 사이트에도 같이 반영
 - 이 사이트 화면은 `js/lang.js` `css/lang.css`, 설정은 `js/content.js` 에서만 바꾼다 (frame 의 app.js 는 쓰지 않음)
 - 하루 분량은 15분 고정: 영어 단어 6·예문 8+·문제 6 / 일본어 예문 6+·문제 6 (docs/CONTENT_GUIDE.md 표)
 - 레슨은 과정 파일 `lessons` 끝에만 추가, 기존 레슨 id·내용을 바꾸지 않음 (완료·복습·필기 기록 키). 추가 후 `python tools/validate.py` 통과 필수
