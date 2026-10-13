@@ -294,6 +294,197 @@
     "version": 1,
     "last_revised": "2026-10-13"
    }
+  },
+  {
+   "id": "TOEFL-003",
+   "level": "B1",
+   "track": "toefl",
+   "day": 3,
+   "title_ko": "TOEFL 2026 Write for an Academic Discussion 입문: 의견·이유·예시",
+   "objective_ko": "토론 게시판 글에서 자기 의견, 이유, 예시를 순서대로 쓰고 다른 학생의 의견을 언급한다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/content/ets-org/language-master/ko/home/toefl/test-takers/ibt/about/content.html",
+     "publisher": "ETS",
+     "checked_at": "2026-10-14",
+     "supports": "공식 시험 형식"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "2026-01-21 이후 TOEFL iBT Writing에는 Write for an Academic Discussion 유형이 있습니다(공식 안내 유형명). 교수의 질문과 다른 학생들의 글을 읽고 토론에 참여하는 글을 쓰는 유형입니다. 기본 구조는 ① 의견(In my opinion, ...) ② 이유(One reason is that ...) ③ 예시(For instance, ...)이고, 다른 학생의 의견을 언급하면(I agree with Anna that ... / I disagree with Ben because ...) 토론에 참여한 글이 됩니다. 다음은 유형을 참고해 새로 만든 비공식 연습입니다.",
+    "common_mistake_ko": "질문에 답하지 않고 다른 학생의 글만 반복하는 실수 → 먼저 내 의견을 분명히 쓰고, 이유와 예시로 뒷받침합니다."
+   },
+   "vocabulary": [
+    {
+     "word": "opinion",
+     "part_of_speech": "명사",
+     "meaning_ko": "의견",
+     "example_en": "In my opinion, schools should start later.",
+     "example_ko": "내 의견으로는 학교가 더 늦게 시작해야 해요."
+    },
+    {
+     "word": "agree",
+     "part_of_speech": "동사",
+     "meaning_ko": "동의하다",
+     "example_en": "I agree with Anna that students need more breaks.",
+     "example_ko": "학생들에게 더 많은 휴식이 필요하다는 안나의 말에 동의해요."
+    },
+    {
+     "word": "disagree",
+     "part_of_speech": "동사",
+     "meaning_ko": "동의하지 않다",
+     "example_en": "I disagree with Ben because group work is useful.",
+     "example_ko": "조별 활동이 유용하기 때문에 벤의 의견에 동의하지 않아요."
+    },
+    {
+     "word": "reason",
+     "part_of_speech": "명사",
+     "meaning_ko": "이유",
+     "example_en": "One reason is that online lectures save time.",
+     "example_ko": "한 가지 이유는 온라인 강의가 시간을 절약해 준다는 것이에요."
+    },
+    {
+     "word": "benefit",
+     "part_of_speech": "명사",
+     "meaning_ko": "이점, 혜택",
+     "example_en": "Another benefit is that students can study at home.",
+     "example_ko": "또 다른 이점은 학생들이 집에서 공부할 수 있다는 것이에요."
+    },
+    {
+     "word": "for instance",
+     "part_of_speech": "표현",
+     "meaning_ko": "예를 들어",
+     "example_en": "For instance, I can watch a lecture again.",
+     "example_ko": "예를 들어 강의를 다시 볼 수 있어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "In my opinion, universities should offer online classes.",
+     "ko": "내 의견으로는 대학이 온라인 수업을 제공해야 해요."
+    },
+    {
+     "en": "I agree with Anna that students need more time to study.",
+     "ko": "학생들에게 공부할 시간이 더 필요하다는 안나의 말에 동의해요."
+    },
+    {
+     "en": "One reason is that online lectures save time.",
+     "ko": "한 가지 이유는 온라인 강의가 시간을 절약해 준다는 것이에요."
+    },
+    {
+     "en": "For instance, I can watch a lecture again if I miss a point.",
+     "ko": "예를 들어 놓친 부분이 있으면 강의를 다시 볼 수 있어요."
+    },
+    {
+     "en": "I disagree with Ben because group work helps students learn.",
+     "ko": "조별 활동이 학생들의 학습에 도움이 되기 때문에 벤의 의견에 동의하지 않아요."
+    },
+    {
+     "en": "Another benefit is that students can study at their own speed.",
+     "ko": "또 다른 이점은 학생들이 자기 속도로 공부할 수 있다는 것이에요."
+    },
+    {
+     "en": "Ben says that homework is not useful, but I think it helps students remember.",
+     "ko": "벤은 숙제가 유용하지 않다고 하지만, 저는 숙제가 기억하는 데 도움이 된다고 생각해요."
+    },
+    {
+     "en": "For these reasons, I think schools should offer both options.",
+     "ko": "이런 이유로 학교가 두 가지 방법을 모두 제공해야 한다고 생각해요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "F003-Q1",
+     "type": "single_choice",
+     "stem": "질문: 'Should universities require every student to take an art class?' 토론 글의 첫 문장으로 가장 알맞은 것은?",
+     "choices": [
+      "In my opinion, universities should require it because art helps students think creatively.",
+      "Dear Professor Kim, I am writing to ask about the deadline.",
+      "Yes.",
+      "I like pizza."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "토론 글은 먼저 질문에 대한 내 의견과 이유를 분명히 밝힙니다. 이메일 형식이나 한 단어 답은 알맞지 않습니다.",
+     "error_tag": "structure"
+    },
+    {
+     "id": "F003-Q2",
+     "type": "single_choice",
+     "stem": "다른 학생(Anna)의 의견에 동의하며 언급하는 표현은?",
+     "choices": [
+      "I agree with Anna that students need more breaks.",
+      "Anna is a student.",
+      "Dear Anna, thank you.",
+      "I wrote about Anna yesterday."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "I agree with + 사람 + that ...은 다른 학생의 의견에 동의하는 표현입니다.",
+     "error_tag": "structure"
+    },
+    {
+     "id": "F003-Q3",
+     "type": "single_choice",
+     "stem": "이유를 덧붙일 때 알맞은 표현은?",
+     "choices": [
+      "One reason is that online lectures save time.",
+      "One reason online lectures time.",
+      "Reason one save online.",
+      "One reasons is that online lectures save time."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "One reason is that + 절 형태로 이유를 소개합니다.",
+     "error_tag": "structure"
+    },
+    {
+     "id": "F003-Q4",
+     "type": "single_choice",
+     "stem": "예시를 드는 표현으로 가장 알맞은 것은?",
+     "choices": [
+      "For instance,",
+      "Therefore,",
+      "Although,",
+      "Dear,"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "For instance는 '예를 들어'라는 뜻으로 예시를 소개합니다.",
+     "error_tag": "structure"
+    },
+    {
+     "id": "F003-Q5",
+     "type": "typing",
+     "stem": "빈칸에 한 단어를 쓰세요: In my ___, schools should start later.",
+     "answer_text": "opinion",
+     "accepted_answers": [
+      "opinion"
+     ],
+     "explanation_ko": "'내 의견으로는'은 In my opinion입니다.",
+     "error_tag": "vocabulary"
+    },
+    {
+     "id": "F003-Q6",
+     "type": "typing",
+     "stem": "빈칸에 한 단어를 쓰세요: ___ instance, online lectures can be replayed.",
+     "answer_text": "For",
+     "accepted_answers": [
+      "for"
+     ],
+     "explanation_ko": "'예를 들어'는 For instance입니다.",
+     "error_tag": "structure"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "'Should students wear school uniforms?'에 대한 내 의견과 이유를 In my opinion과 One reason is that을 써서 두 문장으로 써 보세요.",
+    "example_answer_en": "In my opinion, students should wear school uniforms. One reason is that uniforms make mornings easier.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 의견과 이유가 분명한지 확인하세요. 비공식 연습이며 ETS 점수와 무관합니다."
+   },
+   "publish_date": "2026-10-14",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-14"
+   }
   }
  ]
 }

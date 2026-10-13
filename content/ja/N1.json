@@ -1682,6 +1682,212 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-09",
+   "day_index": 9,
+   "week_index": 2,
+   "level": "N1",
+   "unit_id": "N1-W02",
+   "lesson_type": "new",
+   "title_ko": "〜といえども: ~라 해도",
+   "objective_ko": "어떤 입장·조건이라도 예외가 아니라는 판단을 격식 있게 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-08"
+   ],
+   "explanation_ko": "〜といえども는 ‘~라고 해도, ~일지라도’로, 앞에 일반적으로 예상되는 입장·조건을 두고 그 경우에도 뒤의 판단은 달라지지 않는다고 말합니다. 명사 또는 보통형에 접속합니다(専門家といえども間違えることはある). 뒤에는 ‘예외가 아니다・책임이 있다・허용되지 않는다’ 같은 단정적인 판단이 자주 옵니다. 논설문・연설 같은 딱딱한 문어체입니다.",
+   "usage_notes": [
+    "一日といえども처럼 ‘단 하루라도’라는 최소 단위를 드는 용법도 있습니다.",
+    "いかなる + 명사 + といえども(어떤 ~라 해도)의 형태로 자주 씁니다."
+   ],
+   "common_mistakes": [
+    "〜といえども 뒤에 의지·권유 표현을 이어 쓰는 것은 부자연스러운 경우가 많습니다. 판단・사실을 나타내는 문장으로 맺습니다.",
+    "일상 회화에서는 〜といっても를 주로 쓰고, 〜といえども는 격식 있는 글에 어울립니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N1-09-01",
+     "kind": "word",
+     "text": "例外{れいがい}",
+     "reading_kana": "れいがい",
+     "reading_romanized": "reigai",
+     "meaning_ko": "예외",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-09-02",
+     "kind": "word",
+     "text": "責任{せきにん}",
+     "reading_kana": "せきにん",
+     "reading_romanized": "sekinin",
+     "meaning_ko": "책임",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-09-03",
+     "kind": "word",
+     "text": "未成年{みせいねん}",
+     "reading_kana": "みせいねん",
+     "reading_romanized": "miseinen",
+     "meaning_ko": "미성년",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-09-04",
+     "kind": "word",
+     "text": "専門家{せんもんか}",
+     "reading_kana": "せんもんか",
+     "reading_romanized": "senmonka",
+     "meaning_ko": "전문가",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-09-05",
+     "kind": "word",
+     "text": "油断{ゆだん}",
+     "reading_kana": "ゆだん",
+     "reading_romanized": "yudan",
+     "meaning_ko": "방심",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-09-06",
+     "kind": "word",
+     "text": "失敗{しっぱい}",
+     "reading_kana": "しっぱい",
+     "reading_romanized": "shippai",
+     "meaning_ko": "실패",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "子供{こども}といえども、自分{じぶん}の行動{こうどう}には責任{せきにん}がある。",
+     "meaning_ko": "어린아이라 해도 자신의 행동에는 책임이 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "専門家{せんもんか}といえども、間違{まちが}えることはある。",
+     "meaning_ko": "전문가라 해도 틀리는 일은 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "いかなる大企業{だいきぎょう}といえども、法律{ほうりつ}を守{まも}らなければならない。",
+     "meaning_ko": "어떤 대기업이라 해도 법률을 지켜야 한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "未成年{みせいねん}といえども、法律{ほうりつ}を守{まも}る義務{ぎむ}がある。",
+     "meaning_ko": "미성년이라 해도 법률을 지킬 의무가 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "経験{けいけん}豊富{ほうふ}なプロといえども、油断{ゆだん}すれば失敗{しっぱい}する。",
+     "meaning_ko": "경험이 풍부한 프로라 해도 방심하면 실패한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "一日{いちにち}といえども、無駄{むだ}にしたくない。",
+     "meaning_ko": "단 하루라도 낭비하고 싶지 않다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "社長{しゃちょう}といえども、例外{れいがい}ではない。",
+     "meaning_ko": "사장이라 해도 예외가 아니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "事情{じじょう}があったといえども、約束{やくそく}を破{やぶ}ったことは許{ゆる}されない。",
+     "meaning_ko": "사정이 있었다 해도 약속을 어긴 것은 용서받을 수 없다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N1-09-Q1",
+     "type": "single_choice",
+     "prompt_ko": "専門家（　）、間違えることはある。",
+     "options": [
+      "といえども",
+      "ならでは",
+      "をもって",
+      "と相まって"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘전문가라 해도’는 〜といえども."
+    },
+    {
+     "id": "JP-N1-09-Q2",
+     "type": "single_choice",
+     "prompt_ko": "「社長といえども、例外ではない」의 뜻은?",
+     "options": [
+      "사장이라 해도 예외가 아니다",
+      "사장이기 때문에 예외이다",
+      "사장이 예외를 만든다",
+      "사장이 되고 싶다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜といえども는 ‘~라 해도’이고, 예외가 아니라는 판단이 이어집니다."
+    },
+    {
+     "id": "JP-N1-09-Q3",
+     "type": "single_choice",
+     "prompt_ko": "〜といえども 뒤에 오는 내용으로 알맞은 것은?",
+     "options": [
+      "그 경우에도 달라지지 않는다는 단정적인 판단",
+      "단순한 시간의 순서",
+      "화자의 소망",
+      "물건의 가격"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "입장・조건이 달라도 판단은 바뀌지 않는다는 내용이 뒤에 옵니다."
+    },
+    {
+     "id": "JP-N1-09-Q4",
+     "type": "typing",
+     "prompt_ko": "「責任」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "sekinin",
+     "accepted_answers": [
+      "sekinin"
+     ],
+     "explanation_ko": "責任 = せきにん (sekinin)"
+    },
+    {
+     "id": "JP-N1-09-Q5",
+     "type": "typing",
+     "prompt_ko": "「油断」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "yudan",
+     "accepted_answers": [
+      "yudan"
+     ],
+     "explanation_ko": "油断 = ゆだん (yudan)"
+    },
+    {
+     "id": "JP-N1-09-Q6",
+     "type": "typing",
+     "prompt_ko": "「例外」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "reigai",
+     "accepted_answers": [
+      "reigai"
+     ],
+     "explanation_ko": "例外 = れいがい (reigai)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "JLPT_FORMAT"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

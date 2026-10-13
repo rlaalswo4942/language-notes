@@ -1674,6 +1674,215 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-09",
+   "day_index": 9,
+   "week_index": 2,
+   "level": "N2",
+   "unit_id": "N2-W02",
+   "lesson_type": "new",
+   "title_ko": "〜にもかかわらず: ~임에도 불구하고",
+   "objective_ko": "예상과 반대되는 사실을 격식 있게 이어서 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-08"
+   ],
+   "explanation_ko": "〜にもかかわらず는 ‘~임에도 불구하고’로, 앞의 사실에서 예상되는 것과 반대되는 일이 뒤에 옵니다. 명사는 そのまま(雨にもかかわらず), い형용사・동사는 보통형(忙しいにもかかわらず, 努力したにもかかわらず), な형용사는 〜である 또는 어간 + な에 접속합니다. 〜のに보다 격식 있는 말투라 글이나 공식적인 말에 어울립니다.",
+   "usage_notes": [
+    "뒤에는 예상과 다른 결과·사실이 옵니다. 의지·명령·권유 표현은 보통 이어지지 않습니다.",
+    "お越しいただき、ありがとうございます처럼 인사말에서 ‘바쁘신 중에도’라는 뜻으로 〜にもかかわらず를 자주 씁니다."
+   ],
+   "common_mistakes": [
+    "雨にもかかわらず、試合は中止になるはずだ(X): 예상대로의 내용이라 어색합니다. 예상과 반대의 결과가 와야 합니다.",
+    "명사에 の를 넣어 雨のにもかかわらず(X)라고 하지 않습니다. 雨にもかかわらず(O)."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N2-09-01",
+     "kind": "word",
+     "text": "悪天候{あくてんこう}",
+     "reading_kana": "あくてんこう",
+     "reading_romanized": "akutenkou",
+     "meaning_ko": "악천후",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-09-02",
+     "kind": "word",
+     "text": "努力{どりょく}",
+     "reading_kana": "どりょく",
+     "reading_romanized": "doryoku",
+     "meaning_ko": "노력",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-09-03",
+     "kind": "word",
+     "text": "開催{かいさい}",
+     "reading_kana": "かいさい",
+     "reading_romanized": "kaisai",
+     "meaning_ko": "개최",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-09-04",
+     "kind": "word",
+     "text": "欠席{けっせき}",
+     "reading_kana": "けっせき",
+     "reading_romanized": "kesseki",
+     "meaning_ko": "결석",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-09-05",
+     "kind": "word",
+     "text": "高齢{こうれい}",
+     "reading_kana": "こうれい",
+     "reading_romanized": "kourei",
+     "meaning_ko": "고령",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-09-06",
+     "kind": "word",
+     "text": "平日{へいじつ}",
+     "reading_kana": "へいじつ",
+     "reading_romanized": "heijitsu",
+     "meaning_ko": "평일",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "悪天候{あくてんこう}にもかかわらず、イベントは予定{よてい}どおり開催{かいさい}された。",
+     "meaning_ko": "악천후임에도 불구하고 행사는 예정대로 개최되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}は努力{どりょく}したにもかかわらず、試験{しけん}に合格{ごうかく}できなかった。",
+     "meaning_ko": "그는 노력했음에도 불구하고 시험에 합격하지 못했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "平日{へいじつ}にもかかわらず、店{みせ}は多{おお}くの客{きゃく}で混{こ}んでいた。",
+     "meaning_ko": "평일임에도 불구하고 가게는 많은 손님으로 붐볐다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "高齢{こうれい}にもかかわらず、祖父{そふ}は毎日{まいにち}散歩{さんぽ}している。",
+     "meaning_ko": "고령임에도 불구하고 할아버지는 매일 산책하고 계신다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "反対{はんたい}意見{いけん}が多{おお}かったにもかかわらず、計画{けいかく}は実行{じっこう}された。",
+     "meaning_ko": "반대 의견이 많았음에도 불구하고 계획은 실행되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "体調{たいちょう}が悪{わる}いにもかかわらず、彼女{かのじょ}は会議{かいぎ}に出席{しゅっせき}した。",
+     "meaning_ko": "몸 상태가 나쁜데도 불구하고 그녀는 회의에 출석했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "連絡{れんらく}があったにもかかわらず、彼{かれ}は欠席{けっせき}した。",
+     "meaning_ko": "연락이 있었음에도 불구하고 그는 결석했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "お忙{いそが}しいにもかかわらず、お越{こ}しいただき、ありがとうございます。",
+     "meaning_ko": "바쁘신데도 불구하고 와 주셔서 감사합니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N2-09-Q1",
+     "type": "single_choice",
+     "prompt_ko": "雨（　）、試合は行われた。",
+     "options": [
+      "にもかかわらず",
+      "のために",
+      "に伴って",
+      "をもとに"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "예상과 반대(비가 오는데도 경기가 열림)이므로 〜にもかかわらず."
+    },
+    {
+     "id": "JP-N2-09-Q2",
+     "type": "single_choice",
+     "prompt_ko": "「努力したにもかかわらず、合格できなかった」의 뜻은?",
+     "options": [
+      "노력했음에도 불구하고 합격하지 못했다",
+      "노력했기 때문에 합격했다",
+      "노력하지 않아서 합격하지 못했다",
+      "노력하면 합격할 것이다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜にもかかわらず는 예상과 반대의 결과를 이어 줍니다."
+    },
+    {
+     "id": "JP-N2-09-Q3",
+     "type": "single_choice",
+     "prompt_ko": "〜にもかかわらず 앞뒤의 관계는?",
+     "options": [
+      "예상과 반대되는 결과",
+      "이유와 결과",
+      "조건과 결과",
+      "목적과 수단"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "앞의 사실에서 예상되는 것과 다른 결과가 뒤에 옵니다."
+    },
+    {
+     "id": "JP-N2-09-Q4",
+     "type": "typing",
+     "prompt_ko": "「努力」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "doryoku",
+     "accepted_answers": [
+      "doryoku"
+     ],
+     "explanation_ko": "努力 = どりょく (doryoku)"
+    },
+    {
+     "id": "JP-N2-09-Q5",
+     "type": "typing",
+     "prompt_ko": "「欠席」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kesseki",
+     "accepted_answers": [
+      "kesseki"
+     ],
+     "explanation_ko": "欠席 = けっせき (kesseki)"
+    },
+    {
+     "id": "JP-N2-09-Q6",
+     "type": "single_choice",
+     "prompt_ko": "「欠席」의 뜻은?",
+     "options": [
+      "결석",
+      "출석",
+      "지각",
+      "조퇴"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "欠席은 ‘결석’, 出席는 ‘출석’입니다."
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

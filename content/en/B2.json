@@ -1530,6 +1530,199 @@
     "version": 1,
     "last_revised": "2026-10-13"
    }
+  },
+  {
+   "id": "B2-009",
+   "level": "B2",
+   "track": "general",
+   "day": 9,
+   "title_ko": "wish / If only: 현재의 아쉬움과 과거의 후회",
+   "objective_ko": "wish와 If only로 현재 사실과 다른 소망, 과거에 대한 후회, 타인의 행동에 대한 불만을 표현한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-14",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "① 현재 사실과 다른 소망: wish + 과거형 (I wish I had more free time.) — be동사는 격식 있는 글에서 were를 씁니다(I wish I were taller). ② 과거에 대한 후회: wish + had + 과거분사 (I wish I had studied harder.) ③ 타인의 행동·상황이 바뀌길 바람(불만): wish + 주어 + would + 동사원형 (I wish he would stop talking.). 일반적으로 자기 자신의 행동에는 wish ... would를 쓰지 않습니다. If only는 같은 구조를 더 강하게 쓰는 표현입니다(If only we had left earlier).",
+    "common_mistake_ko": "I wish I have more time.(X) → I wish I had more time.(O) / I wish I studied harder last year.(X, 과거 후회) → I wish I had studied harder last year.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "wish",
+     "part_of_speech": "동사",
+     "meaning_ko": "~이면 좋겠다고 바라다",
+     "example_en": "I wish I had more free time.",
+     "example_ko": "시간이 더 있으면 좋겠어요."
+    },
+    {
+     "word": "annoying",
+     "part_of_speech": "형용사",
+     "meaning_ko": "짜증나게 하는",
+     "example_en": "The noise next door is really annoying.",
+     "example_ko": "옆집 소음이 정말 짜증나요."
+    },
+    {
+     "word": "spare",
+     "part_of_speech": "형용사",
+     "meaning_ko": "여분의, 남는",
+     "example_en": "I don't have much spare time.",
+     "example_ko": "나는 남는 시간이 많지 않아요."
+    },
+    {
+     "word": "fluent",
+     "part_of_speech": "형용사",
+     "meaning_ko": "유창한",
+     "example_en": "She wishes she spoke French fluently.",
+     "example_ko": "그녀는 프랑스어를 유창하게 말하면 좋겠다고 바라요."
+    },
+    {
+     "word": "rely on",
+     "part_of_speech": "구동사",
+     "meaning_ko": "~에 의지하다, ~을 믿고 기대다",
+     "example_en": "You can rely on me.",
+     "example_ko": "저를 믿으셔도 돼요."
+    },
+    {
+     "word": "qualification",
+     "part_of_speech": "명사",
+     "meaning_ko": "자격, 자격증",
+     "example_en": "He wishes he had more qualifications.",
+     "example_ko": "그는 자격이 더 많으면 좋겠다고 바라요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I wish I had more free time.",
+     "ko": "시간이 더 있으면 좋겠어요."
+    },
+    {
+     "en": "I wish I lived closer to the office.",
+     "ko": "사무실에 더 가깝게 살면 좋겠어요."
+    },
+    {
+     "en": "She wishes she spoke French fluently.",
+     "ko": "그녀는 프랑스어를 유창하게 하면 좋겠다고 바라요."
+    },
+    {
+     "en": "I wish I had taken that job offer.",
+     "ko": "그 일자리 제안을 받아들였더라면 좋았을 텐데요."
+    },
+    {
+     "en": "He wishes he had saved more money.",
+     "ko": "그는 돈을 더 모아 두었더라면 하고 아쉬워해요."
+    },
+    {
+     "en": "If only we had left earlier, we wouldn't have missed the flight.",
+     "ko": "더 일찍 출발했더라면 비행기를 놓치지 않았을 텐데요."
+    },
+    {
+     "en": "I wish it would stop raining.",
+     "ko": "비가 그쳤으면 좋겠어요."
+    },
+    {
+     "en": "I wish my neighbors would turn the music down.",
+     "ko": "이웃들이 음악 소리를 줄여 주면 좋겠어요."
+    },
+    {
+     "en": "If only I were fluent in Spanish!",
+     "ko": "내가 스페인어에 유창하다면 얼마나 좋을까!"
+    }
+   ],
+   "questions": [
+    {
+     "id": "B2-009-Q1",
+     "type": "single_choice",
+     "stem": "I wish I ___ more free time. (지금 시간이 부족해서 아쉽다)",
+     "choices": [
+      "had",
+      "have",
+      "would have"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "현재 사실과 다른 소망은 wish + 과거형(had)입니다.",
+     "error_tag": "wish"
+    },
+    {
+     "id": "B2-009-Q2",
+     "type": "single_choice",
+     "stem": "I wish I ___ harder for the exam last month. (지난달 일에 대한 후회)",
+     "choices": [
+      "had studied",
+      "studied",
+      "would study"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "과거에 대한 후회는 wish + had + 과거분사입니다.",
+     "error_tag": "wish"
+    },
+    {
+     "id": "B2-009-Q3",
+     "type": "single_choice",
+     "stem": "'비가 그쳤으면 좋겠다'(상황이 바뀌길 바람)에 맞는 문장은?",
+     "choices": [
+      "I wish it would stop raining.",
+      "I wish it stops raining.",
+      "I wish it would to stop raining.",
+      "I wish it had stop raining."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "바라는 변화는 wish + 주어 + would + 동사원형으로 씁니다.",
+     "error_tag": "wish"
+    },
+    {
+     "id": "B2-009-Q4",
+     "type": "single_choice",
+     "stem": "'If only we had left earlier.'가 나타내는 의미는?",
+     "choices": [
+      "일찍 떠나지 않은 것을 후회한다",
+      "일찍 떠나서 다행이다",
+      "내일 일찍 떠날 계획이다",
+      "일찍 떠나라고 명령한다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "If only + had + 과거분사는 과거에 대한 강한 후회를 나타냅니다.",
+     "error_tag": "wish"
+    },
+    {
+     "id": "B2-009-Q5",
+     "type": "typing",
+     "stem": "빈칸에 쓰세요: I wish I ___ more money now. (have의 알맞은 형태)",
+     "answer_text": "had",
+     "accepted_answers": [
+      "had"
+     ],
+     "explanation_ko": "현재 사실과 다른 소망이므로 wish 뒤에 과거형 had를 씁니다.",
+     "error_tag": "wish"
+    },
+    {
+     "id": "B2-009-Q6",
+     "type": "typing",
+     "stem": "빈칸에 두 단어를 쓰세요: She wishes she ___ the invitation. (accept — 받아들이지 않은 것을 후회)",
+     "answer_text": "had accepted",
+     "accepted_answers": [
+      "had accepted"
+     ],
+     "explanation_ko": "과거에 대한 후회는 had + 과거분사(accepted)입니다.",
+     "error_tag": "wish"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "현재 아쉬운 점 한 가지와 과거에 후회되는 일 한 가지를 wish로 써 보세요.",
+    "example_answer_en": "I wish I had more free time. I wish I had started learning English earlier.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. wish 뒤의 시제(과거형 / had + 과거분사)를 확인하세요."
+   },
+   "publish_date": "2026-10-14",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-14"
+   }
   }
  ]
 }

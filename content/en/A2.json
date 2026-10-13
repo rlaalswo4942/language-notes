@@ -1532,6 +1532,194 @@
     "version": 1,
     "last_revised": "2026-10-13"
    }
+  },
+  {
+   "id": "A2-009",
+   "level": "A2",
+   "track": "foundation",
+   "day": 9,
+   "title_ko": "much / many / a lot of, a few / a little",
+   "objective_ko": "셀 수 있는 명사와 셀 수 없는 명사에 맞게 양을 나타내는 말을 고른다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-14",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "many는 셀 수 있는 복수 명사(many students), much는 셀 수 없는 명사(much time) 앞에 씁니다. 둘은 주로 부정문·의문문에 쓰고, 긍정문에서는 a lot of를 두 종류 모두에 쓸 수 있습니다. ‘적지만 있다’는 a few(셀 수 있는 명사)와 a little(셀 수 없는 명사)입니다. 수를 물을 때는 How many + 복수 명사, 양을 물을 때는 How much + 셀 수 없는 명사를 씁니다.",
+    "common_mistake_ko": "How much students are there?(X) → How many students are there?(O) / I have a few money.(X) → I have a little money.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "much",
+     "part_of_speech": "한정사",
+     "meaning_ko": "(양이) 많은",
+     "example_en": "We don't have much time.",
+     "example_ko": "우리는 시간이 많지 않아요."
+    },
+    {
+     "word": "many",
+     "part_of_speech": "한정사",
+     "meaning_ko": "(수가) 많은",
+     "example_en": "There aren't many chairs.",
+     "example_ko": "의자가 많지 않아요."
+    },
+    {
+     "word": "a lot of",
+     "part_of_speech": "한정사",
+     "meaning_ko": "많은",
+     "example_en": "She has a lot of friends.",
+     "example_ko": "그녀는 친구가 많아요."
+    },
+    {
+     "word": "a few",
+     "part_of_speech": "한정사",
+     "meaning_ko": "몇몇의, 조금 있는 (셀 수 있는 명사)",
+     "example_en": "I need a few vegetables.",
+     "example_ko": "나는 채소가 몇 개 필요해요."
+    },
+    {
+     "word": "a little",
+     "part_of_speech": "한정사",
+     "meaning_ko": "조금 있는 (셀 수 없는 명사)",
+     "example_en": "There is a little juice in the bottle.",
+     "example_ko": "병에 주스가 조금 있어요."
+    },
+    {
+     "word": "how many / how much",
+     "part_of_speech": "표현",
+     "meaning_ko": "몇 개 / 얼마나 많이",
+     "example_en": "How many eggs do we need?",
+     "example_ko": "우리는 달걀이 몇 개 필요해요?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "How many eggs do we need?",
+     "ko": "우리는 달걀이 몇 개 필요해요?"
+    },
+    {
+     "en": "How much milk do we need?",
+     "ko": "우리는 우유가 얼마나 필요해요?"
+    },
+    {
+     "en": "We don't have much time.",
+     "ko": "우리는 시간이 많지 않아요."
+    },
+    {
+     "en": "There aren't many chairs in the room.",
+     "ko": "방에 의자가 많지 않아요."
+    },
+    {
+     "en": "She has a lot of friends.",
+     "ko": "그녀는 친구가 많아요."
+    },
+    {
+     "en": "I drank a lot of water today.",
+     "ko": "나는 오늘 물을 많이 마셨어요."
+    },
+    {
+     "en": "I need a few vegetables.",
+     "ko": "나는 채소가 몇 개 필요해요."
+    },
+    {
+     "en": "There is a little juice in the bottle.",
+     "ko": "병에 주스가 조금 있어요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "A2-009-Q1",
+     "type": "single_choice",
+     "stem": "How ___ students are in your class?",
+     "choices": [
+      "many",
+      "much",
+      "a little"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "students는 셀 수 있는 복수 명사이므로 How many를 씁니다.",
+     "error_tag": "quantity"
+    },
+    {
+     "id": "A2-009-Q2",
+     "type": "single_choice",
+     "stem": "I don't have ___ money.",
+     "choices": [
+      "much",
+      "many",
+      "a few"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "money는 셀 수 없는 명사이므로 much를 씁니다.",
+     "error_tag": "quantity"
+    },
+    {
+     "id": "A2-009-Q3",
+     "type": "single_choice",
+     "stem": "병에 우유가 조금 있어요: There is ___ milk in the bottle.",
+     "choices": [
+      "a little",
+      "a few",
+      "many"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "milk는 셀 수 없는 명사이므로 a little을 씁니다.",
+     "error_tag": "quantity"
+    },
+    {
+     "id": "A2-009-Q4",
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "We have a lot of homework.",
+      "We have many of homework.",
+      "We have much homeworks.",
+      "We have a few homework."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "긍정문에서는 a lot of를 쓸 수 있고, homework는 셀 수 없는 명사라 복수형을 쓰지 않습니다.",
+     "error_tag": "quantity"
+    },
+    {
+     "id": "A2-009-Q5",
+     "type": "typing",
+     "stem": "빈칸에 many 또는 much를 쓰세요: How ___ water do you drink a day?",
+     "answer_text": "much",
+     "accepted_answers": [
+      "much"
+     ],
+     "explanation_ko": "water는 셀 수 없는 명사이므로 How much입니다.",
+     "error_tag": "quantity"
+    },
+    {
+     "id": "A2-009-Q6",
+     "type": "typing",
+     "stem": "빈칸에 알맞은 말을 쓰세요(a few 또는 a little): I have ___ friends in Busan. (몇 명 있어요)",
+     "answer_text": "a few",
+     "accepted_answers": [
+      "a few"
+     ],
+     "explanation_ko": "friends는 셀 수 있는 복수 명사이므로 a few입니다.",
+     "error_tag": "quantity"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "냉장고나 책상 위에 있는 것을 many, much, a few, a little 중 두 가지를 써서 문장으로 써 보세요.",
+    "example_answer_en": "There are a few apples. There is a little milk.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 명사의 종류에 맞는 말을 썼는지 확인하세요."
+   },
+   "publish_date": "2026-10-14",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-14"
+   }
   }
  ]
 }

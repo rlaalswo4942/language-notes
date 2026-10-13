@@ -1548,6 +1548,196 @@
     "version": 1,
     "last_revised": "2026-10-13"
    }
+  },
+  {
+   "id": "PRE-013",
+   "level": "Pre-A1",
+   "track": "foundation",
+   "day": 13,
+   "title_ko": "I like / I need: 좋아함과 필요 말하기",
+   "objective_ko": "like와 need 뒤에 명사를 붙여 좋아하는 것과 필요한 것을 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-14",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "좋아하는 것은 like, 필요한 것은 need 뒤에 명사를 바로 붙입니다: I like music. I need water. like와 need는 일반동사이므로 앞에 am/is/are를 쓰지 않습니다. 이 단원에서는 I, you, we, they와 함께 쓰는 원형만 연습합니다.",
+    "common_mistake_ko": "I am like music.(X) → I like music.(O) / I need to water.(X) → I need water.(O) 이 단원에서는 need 뒤에 명사만 씁니다."
+   },
+   "vocabulary": [
+    {
+     "word": "like",
+     "part_of_speech": "동사",
+     "meaning_ko": "좋아하다",
+     "example_en": "I like music.",
+     "example_ko": "나는 음악을 좋아해요."
+    },
+    {
+     "word": "need",
+     "part_of_speech": "동사",
+     "meaning_ko": "필요하다, 필요로 하다",
+     "example_en": "We need water.",
+     "example_ko": "우리는 물이 필요해요."
+    },
+    {
+     "word": "want",
+     "part_of_speech": "동사",
+     "meaning_ko": "원하다",
+     "example_en": "I want coffee.",
+     "example_ko": "나는 커피를 원해요."
+    },
+    {
+     "word": "bread",
+     "part_of_speech": "명사",
+     "meaning_ko": "빵",
+     "example_en": "They like bread.",
+     "example_ko": "그들은 빵을 좋아해요."
+    },
+    {
+     "word": "milk",
+     "part_of_speech": "명사",
+     "meaning_ko": "우유",
+     "example_en": "You need milk.",
+     "example_ko": "당신은 우유가 필요해요."
+    },
+    {
+     "word": "music",
+     "part_of_speech": "명사",
+     "meaning_ko": "음악",
+     "example_en": "We like music.",
+     "example_ko": "우리는 음악을 좋아해요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I like music.",
+     "ko": "나는 음악을 좋아해요."
+    },
+    {
+     "en": "I need water.",
+     "ko": "나는 물이 필요해요."
+    },
+    {
+     "en": "We like bread.",
+     "ko": "우리는 빵을 좋아해요."
+    },
+    {
+     "en": "You need milk.",
+     "ko": "당신은 우유가 필요해요."
+    },
+    {
+     "en": "They want coffee.",
+     "ko": "그들은 커피를 원해요."
+    },
+    {
+     "en": "I want a book.",
+     "ko": "나는 책을 원해요."
+    },
+    {
+     "en": "We need a pen.",
+     "ko": "우리는 펜이 필요해요."
+    },
+    {
+     "en": "You like my dog.",
+     "ko": "당신은 내 개를 좋아해요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "P013-Q1",
+     "type": "single_choice",
+     "stem": "I ___ music.",
+     "choices": [
+      "like",
+      "am like",
+      "are like"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "일반동사 like는 I 뒤에 바로 씁니다. be동사를 겹쳐 쓰지 않습니다.",
+     "error_tag": "verb"
+    },
+    {
+     "id": "P013-Q2",
+     "type": "single_choice",
+     "stem": "'우리는 우유가 필요해요'에 맞는 문장은?",
+     "choices": [
+      "We need milk.",
+      "We are need milk.",
+      "We milk need.",
+      "Need we milk."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "주어(We) + 동사(need) + 명사(milk) 순서입니다.",
+     "error_tag": "word-order"
+    },
+    {
+     "id": "P013-Q3",
+     "type": "single_choice",
+     "stem": "'나는 빵을 원해요'를 영어로 하면?",
+     "choices": [
+      "I want bread.",
+      "I like bread want.",
+      "I am want bread.",
+      "I bread want."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "'원하다'는 want이고, 주어 뒤에 바로 씁니다.",
+     "error_tag": "verb"
+    },
+    {
+     "id": "P013-Q4",
+     "type": "single_choice",
+     "stem": "'필요하다'는 뜻의 동사는?",
+     "choices": [
+      "need",
+      "like",
+      "play",
+      "live"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "need는 '필요하다'입니다. like는 '좋아하다'입니다.",
+     "error_tag": "vocabulary"
+    },
+    {
+     "id": "P013-Q5",
+     "type": "typing",
+     "stem": "빈칸에 알맞은 동사를 쓰세요: We ___ music. (좋아해요)",
+     "answer_text": "like",
+     "accepted_answers": [
+      "like"
+     ],
+     "explanation_ko": "'좋아하다'는 like입니다.",
+     "error_tag": "vocabulary"
+    },
+    {
+     "id": "P013-Q6",
+     "type": "typing",
+     "stem": "빈칸에 알맞은 동사를 쓰세요: I ___ water. (필요해요)",
+     "answer_text": "need",
+     "accepted_answers": [
+      "need"
+     ],
+     "explanation_ko": "'필요하다'는 need입니다.",
+     "error_tag": "vocabulary"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "I like 또는 I need로 시작하는 문장을 한 개 써 보세요.",
+    "example_answer_en": "I like music.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. like/need 뒤에 명사를 붙였는지 확인하세요."
+   },
+   "publish_date": "2026-10-14",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-14"
+   }
   }
  ]
 }

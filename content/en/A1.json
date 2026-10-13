@@ -1533,6 +1533,204 @@
     "version": 1,
     "last_revised": "2026-10-13"
    }
+  },
+  {
+   "id": "A1-009",
+   "level": "A1",
+   "track": "foundation",
+   "day": 9,
+   "title_ko": "have / has: 가지고 있는 것 말하기",
+   "objective_ko": "have와 has를 주어에 맞게 쓰고, 소유를 묻고 부정하는 문장을 만든다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-14",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "가지고 있는 것·가족·소유를 말할 때 have를 씁니다: I have a bike. 주어가 he/she/it(3인칭 단수)이면 has를 씁니다: She has a bike. 질문과 부정은 do/does + have 입니다: Do you have a bike? / She doesn't have a car. does/doesn't 뒤에서는 has가 아니라 원형 have를 씁니다.",
+    "common_mistake_ko": "She have a bike.(X) → She has a bike.(O) / Does she has a bike?(X) → Does she have a bike?(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "have",
+     "part_of_speech": "동사",
+     "meaning_ko": "가지고 있다, (가족이) 있다",
+     "example_en": "I have a brother.",
+     "example_ko": "나는 남자 형제가 한 명 있어요."
+    },
+    {
+     "word": "has",
+     "part_of_speech": "동사",
+     "meaning_ko": "가지고 있다 (3인칭 단수)",
+     "example_en": "She has a bike.",
+     "example_ko": "그녀는 자전거가 있어요."
+    },
+    {
+     "word": "brother",
+     "part_of_speech": "명사",
+     "meaning_ko": "형, 오빠, 남동생(남자 형제)",
+     "example_en": "My brother has a car.",
+     "example_ko": "내 남자 형제는 차가 있어요."
+    },
+    {
+     "word": "sister",
+     "part_of_speech": "명사",
+     "meaning_ko": "누나, 언니, 여동생(여자 형제)",
+     "example_en": "Do you have a sister?",
+     "example_ko": "당신은 여자 형제가 있어요?"
+    },
+    {
+     "word": "bike",
+     "part_of_speech": "명사",
+     "meaning_ko": "자전거",
+     "example_en": "We have two bikes.",
+     "example_ko": "우리는 자전거가 두 대 있어요."
+    },
+    {
+     "word": "apartment",
+     "part_of_speech": "명사",
+     "meaning_ko": "아파트, (집합 건물의) 집",
+     "example_en": "They have a small apartment.",
+     "example_ko": "그들은 작은 아파트에 살아요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I have a brother.",
+     "ko": "나는 남자 형제가 한 명 있어요."
+    },
+    {
+     "en": "She has a bike.",
+     "ko": "그녀는 자전거가 있어요."
+    },
+    {
+     "en": "They have a small apartment.",
+     "ko": "그들은 작은 아파트에 살아요."
+    },
+    {
+     "en": "He has a sister in Busan.",
+     "ko": "그는 부산에 여자 형제가 있어요."
+    },
+    {
+     "en": "Do you have a bike?",
+     "ko": "당신은 자전거가 있어요?"
+    },
+    {
+     "en": "Yes, I do.",
+     "ko": "네, 있어요."
+    },
+    {
+     "en": "Does she have a brother?",
+     "ko": "그녀는 남자 형제가 있어요?"
+    },
+    {
+     "en": "No, she doesn't.",
+     "ko": "아니요, 없어요."
+    },
+    {
+     "en": "We don't have a car.",
+     "ko": "우리는 차가 없어요."
+    },
+    {
+     "en": "He doesn't have a sister.",
+     "ko": "그는 여자 형제가 없어요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "A1-009-Q1",
+     "type": "single_choice",
+     "stem": "She ___ a bike.",
+     "choices": [
+      "has",
+      "have",
+      "haves"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "주어가 she(3인칭 단수)이므로 has를 씁니다.",
+     "error_tag": "subject-verb"
+    },
+    {
+     "id": "A1-009-Q2",
+     "type": "single_choice",
+     "stem": "They ___ a small apartment.",
+     "choices": [
+      "have",
+      "has",
+      "haves"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "They는 복수이므로 have를 씁니다.",
+     "error_tag": "subject-verb"
+    },
+    {
+     "id": "A1-009-Q3",
+     "type": "single_choice",
+     "stem": "___ he have a sister?",
+     "choices": [
+      "Does",
+      "Do",
+      "Is"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "he(3인칭 단수)의 질문은 Does로 시작하고 동사는 원형 have입니다.",
+     "error_tag": "question"
+    },
+    {
+     "id": "A1-009-Q4",
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "She doesn't have a brother.",
+      "She doesn't has a brother.",
+      "She don't have a brother.",
+      "She not have a brother."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "3인칭 단수의 부정은 doesn't + 동사원형(have)입니다.",
+     "error_tag": "negation"
+    },
+    {
+     "id": "A1-009-Q5",
+     "type": "typing",
+     "stem": "빈칸에 have 또는 has를 쓰세요: My brother ___ a bike.",
+     "answer_text": "has",
+     "accepted_answers": [
+      "has"
+     ],
+     "explanation_ko": "My brother는 3인칭 단수이므로 has입니다.",
+     "error_tag": "subject-verb"
+    },
+    {
+     "id": "A1-009-Q6",
+     "type": "typing",
+     "stem": "짧게 대답하세요(축약형): Do you have a sister? — No, I ___.",
+     "answer_text": "don't",
+     "accepted_answers": [
+      "don't",
+      "do not",
+      "dont"
+     ],
+     "explanation_ko": "Do로 물으면 do로 답합니다. 부정은 No, I don't.",
+     "error_tag": "short-answer"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "가족이나 가진 물건에 대해 have 또는 has를 써서 두 문장을 써 보세요.",
+    "example_answer_en": "I have a brother. He has a bike.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 주어에 맞게 have/has를 썼는지 확인하세요."
+   },
+   "publish_date": "2026-10-14",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-14"
+   }
   }
  ]
 }

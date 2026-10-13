@@ -1668,6 +1668,216 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-09",
+   "day_index": 9,
+   "week_index": 2,
+   "level": "N4",
+   "unit_id": "N4-W02",
+   "lesson_type": "new",
+   "title_ko": "〜たほうがいい・〜ないほうがいい: 충고",
+   "objective_ko": "상대에게 하는 편이 좋은 일과 하지 않는 편이 좋은 일을 권한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-08"
+   ],
+   "explanation_ko": "동사 た형 + ほうがいいです는 ‘~하는 편이 좋습니다’, ない형 + ほうがいいです는 ‘~하지 않는 편이 좋습니다’입니다. 상대에게 조언·충고할 때 씁니다. 〜ほうがいいですよ처럼 よ를 붙이면 부드러운 권유가 됩니다.",
+   "usage_notes": [
+    "긍정은 た형(飲んだ ほうが いい), 부정은 ない형(飲まない ほうが いい)에 접속합니다.",
+    "윗사람에게 직접 쓰면 강하게 들릴 수 있어 〜ほうがいいですよ로 부드럽게 말하는 경우가 많습니다."
+   ],
+   "common_mistakes": [
+    "飲むたほうがいい(X) → 飲んだほうがいい(O): た형으로 바꿔서 붙입니다.",
+    "飲んだないほうがいい(X) → 飲まないほうがいい(O): 부정은 ない형입니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N4-09-01",
+     "kind": "word",
+     "text": "薬{くすり}",
+     "reading_kana": "くすり",
+     "reading_romanized": "kusuri",
+     "meaning_ko": "약",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-09-02",
+     "kind": "word",
+     "text": "風邪{かぜ}",
+     "reading_kana": "かぜ",
+     "reading_romanized": "kaze",
+     "meaning_ko": "감기",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-09-03",
+     "kind": "word",
+     "text": "早{はや}く",
+     "reading_kana": "はやく",
+     "reading_romanized": "hayaku",
+     "meaning_ko": "일찍, 빨리",
+     "part_of_speech": "부사"
+    },
+    {
+     "id": "w-JP-N4-09-04",
+     "kind": "word",
+     "text": "病院{びょういん}",
+     "reading_kana": "びょういん",
+     "reading_romanized": "byouin",
+     "meaning_ko": "병원",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-09-05",
+     "kind": "word",
+     "text": "無理{むり}",
+     "reading_kana": "むり",
+     "reading_romanized": "muri",
+     "meaning_ko": "무리",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-09-06",
+     "kind": "word",
+     "text": "休{やす}む",
+     "reading_kana": "やすむ",
+     "reading_romanized": "yasumu",
+     "meaning_ko": "쉬다",
+     "part_of_speech": "동사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "風邪{かぜ}ですから、 薬{くすり}を 飲{の}んだ ほうが いいです。",
+     "meaning_ko": "감기니까 약을 먹는 편이 좋습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "今日{きょう}は 早{はや}く 寝{ね}た ほうが いいですよ。",
+     "meaning_ko": "오늘은 일찍 자는 편이 좋아요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "病院{びょういん}へ 行{い}った ほうが いいです。",
+     "meaning_ko": "병원에 가는 편이 좋습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "無理{むり}を しない ほうが いいです。",
+     "meaning_ko": "무리하지 않는 편이 좋습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "夜{よる}は コーヒーを 飲{の}まない ほうが いいです。",
+     "meaning_ko": "밤에는 커피를 마시지 않는 편이 좋습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "疲{つか}れて いますから、 休{やす}んだ ほうが いいです。",
+     "meaning_ko": "피곤하니까 쉬는 편이 좋습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "外{そと}は 寒{さむ}いですから、 コートを 着{き}た ほうが いいです。",
+     "meaning_ko": "밖은 추우니까 코트를 입는 편이 좋습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "ここで 写真{しゃしん}を 撮{と}らない ほうが いいです。",
+     "meaning_ko": "여기서 사진을 찍지 않는 편이 좋습니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N4-09-Q1",
+     "type": "single_choice",
+     "prompt_ko": "‘약을 먹는 편이 좋습니다’를 바르게 나타낸 것은?",
+     "options": [
+      "薬を飲んだほうがいいです",
+      "薬を飲みたほうがいいです",
+      "薬を飲んでほうがいいです",
+      "薬を飲ますほうがいいです"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "긍정의 충고는 た형 + ほうがいい. 飲む → 飲んだ."
+    },
+    {
+     "id": "JP-N4-09-Q2",
+     "type": "single_choice",
+     "prompt_ko": "‘밤에는 커피를 마시지 않는 편이 좋습니다’를 바르게 나타낸 것은?",
+     "options": [
+      "夜はコーヒーを飲まないほうがいいです",
+      "夜はコーヒーを飲んだないほうがいいです",
+      "夜はコーヒーを飲みないほうがいいです",
+      "夜はコーヒーを飲まないでほうがいいです"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "부정의 충고는 ない형 + ほうがいい. 飲む → 飲まない."
+    },
+    {
+     "id": "JP-N4-09-Q3",
+     "type": "single_choice",
+     "prompt_ko": "「無理を しない ほうが いいです。」의 뜻은?",
+     "options": [
+      "무리하지 않는 편이 좋다",
+      "무리하는 편이 좋다",
+      "무리했다",
+      "무리할 수 없다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ない형 + ほうがいい = ‘~하지 않는 편이 좋다’."
+    },
+    {
+     "id": "JP-N4-09-Q4",
+     "type": "typing",
+     "prompt_ko": "「薬」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kusuri",
+     "accepted_answers": [
+      "kusuri"
+     ],
+     "explanation_ko": "薬 = くすり (kusuri)"
+    },
+    {
+     "id": "JP-N4-09-Q5",
+     "type": "typing",
+     "prompt_ko": "「病院」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "byouin",
+     "accepted_answers": [
+      "byouin",
+      "byoin"
+     ],
+     "explanation_ko": "病院 = びょういん (byouin)"
+    },
+    {
+     "id": "JP-N4-09-Q6",
+     "type": "single_choice",
+     "prompt_ko": "「疲れて いますから、 休んだ ほうが いいです。」가 권하는 것은?",
+     "options": [
+      "쉬는 것",
+      "일하는 것",
+      "병원에 가는 것",
+      "약을 먹는 것"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "休んだ ほうが いい = 쉬는 편이 좋다."
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

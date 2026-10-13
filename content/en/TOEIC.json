@@ -304,6 +304,194 @@
     "version": 1,
     "last_revised": "2026-10-13"
    }
+  },
+  {
+   "id": "TOEIC-003",
+   "level": "B1",
+   "track": "toeic",
+   "day": 3,
+   "title_ko": "TOEIC Part 5: 시제 단서 찾기",
+   "objective_ko": "빈칸 앞뒤의 시간 표현을 보고 알맞은 동사 시제를 고른다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/toeic/about/listening-reading.html",
+     "publisher": "ETS",
+     "checked_at": "2026-10-14",
+     "supports": "공식 시험 형식"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "Reading Part 5에서 동사 시제 문제는 시간 표현이 단서입니다. every Monday·usually 같은 반복 표현은 현재형, yesterday·last Friday·two days ago는 과거형, next month·tomorrow는 will + 동사원형(미래), since 2020·for three years는 현재완료(have/has + 과거분사)와 잘 어울립니다. 시간 표현 없이 의미로 판단해야 하는 문제도 있습니다. 이것은 ETS 공식 문항이 아닌 자체 연습문제입니다.",
+    "common_mistake_ko": "last Friday와 현재완료를 함께 쓰는 실수: has sent last Friday(X) → sent last Friday(O). 끝난 과거 시점을 나타내는 말은 과거형과 씁니다."
+   },
+   "vocabulary": [
+    {
+     "word": "submit",
+     "part_of_speech": "동사",
+     "meaning_ko": "제출하다",
+     "example_en": "Ms. Lee submits the weekly report every Monday.",
+     "example_ko": "이 씨는 매주 월요일 주간 보고서를 제출합니다."
+    },
+    {
+     "word": "shipment",
+     "part_of_speech": "명사",
+     "meaning_ko": "배송(품), 선적",
+     "example_en": "The shipment arrived last Friday.",
+     "example_ko": "배송품이 지난 금요일에 도착했습니다."
+    },
+    {
+     "word": "receive",
+     "part_of_speech": "동사",
+     "meaning_ko": "받다",
+     "example_en": "We will receive the order next week.",
+     "example_ko": "우리는 다음 주에 주문품을 받을 것입니다."
+    },
+    {
+     "word": "branch",
+     "part_of_speech": "명사",
+     "meaning_ko": "지점",
+     "example_en": "Our new branch will open next month.",
+     "example_ko": "우리 새 지점은 다음 달에 문을 엽니다."
+    },
+    {
+     "word": "quarterly",
+     "part_of_speech": "형용사",
+     "meaning_ko": "분기별의",
+     "example_en": "The quarterly report is due on Friday.",
+     "example_ko": "분기 보고서는 금요일이 마감입니다."
+    },
+    {
+     "word": "attend",
+     "part_of_speech": "동사",
+     "meaning_ko": "참석하다",
+     "example_en": "All staff must attend the training session.",
+     "example_ko": "모든 직원은 교육에 참석해야 합니다."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The finance team sent the invoices last Friday.",
+     "ko": "재무팀은 지난 금요일에 청구서를 보냈습니다."
+    },
+    {
+     "en": "Ms. Lee submits the weekly report every Monday morning.",
+     "ko": "이 씨는 매주 월요일 아침에 주간 보고서를 제출합니다."
+    },
+    {
+     "en": "Our new branch will open next month.",
+     "ko": "우리 새 지점은 다음 달에 문을 엽니다."
+    },
+    {
+     "en": "The company has moved its office twice since 2020.",
+     "ko": "그 회사는 2020년 이후 사무실을 두 번 옮겼습니다."
+    },
+    {
+     "en": "We will receive the shipment next week.",
+     "ko": "우리는 다음 주에 배송품을 받을 것입니다."
+    },
+    {
+     "en": "The manager approved the budget yesterday.",
+     "ko": "관리자는 어제 예산을 승인했습니다."
+    },
+    {
+     "en": "Employees attend a safety meeting every quarter.",
+     "ko": "직원들은 분기마다 안전 회의에 참석합니다."
+    },
+    {
+     "en": "The quarterly report was submitted two days ago.",
+     "ko": "분기 보고서는 이틀 전에 제출되었습니다."
+    }
+   ],
+   "questions": [
+    {
+     "id": "T003-Q1",
+     "type": "single_choice",
+     "stem": "The finance team ___ the invoices last Friday.",
+     "choices": [
+      "sent",
+      "sends",
+      "will send",
+      "has sent"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "last Friday는 끝난 과거 시점이므로 과거형 sent입니다.",
+     "error_tag": "tense"
+    },
+    {
+     "id": "T003-Q2",
+     "type": "single_choice",
+     "stem": "Ms. Lee ___ the weekly report every Monday morning.",
+     "choices": [
+      "submits",
+      "submitted",
+      "will submit"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "every Monday morning은 반복되는 일이므로 현재형 submits입니다.",
+     "error_tag": "tense"
+    },
+    {
+     "id": "T003-Q3",
+     "type": "single_choice",
+     "stem": "Our new branch ___ next month.",
+     "choices": [
+      "will open",
+      "opened",
+      "has opened"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "next month는 미래이므로 will open입니다. 과거형·현재완료는 쓸 수 없습니다.",
+     "error_tag": "tense"
+    },
+    {
+     "id": "T003-Q4",
+     "type": "single_choice",
+     "stem": "The company ___ its office twice since 2020.",
+     "choices": [
+      "has moved",
+      "moves",
+      "will move"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "since 2020(2020년 이후 지금까지)은 현재완료 has moved와 어울립니다.",
+     "error_tag": "tense"
+    },
+    {
+     "id": "T003-Q5",
+     "type": "typing",
+     "stem": "빈칸에 과거형을 쓰세요: The manager ___ the budget yesterday. (approve)",
+     "answer_text": "approved",
+     "accepted_answers": [
+      "approved"
+     ],
+     "explanation_ko": "yesterday는 과거 시점이므로 approved입니다.",
+     "error_tag": "tense"
+    },
+    {
+     "id": "T003-Q6",
+     "type": "typing",
+     "stem": "빈칸에 두 단어를 쓰세요: We ___ the shipment next week. (receive, 미래)",
+     "answer_text": "will receive",
+     "accepted_answers": [
+      "will receive"
+     ],
+     "explanation_ko": "next week는 미래이므로 will + 동사원형(receive)입니다.",
+     "error_tag": "tense"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "시간 표현(every day, yesterday, next week 중 하나)을 넣어 업무 관련 문장을 한 개 써 보세요.",
+    "example_answer_en": "Our team will attend the meeting next week.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 시간 표현과 시제가 맞는지 확인하세요."
+   },
+   "publish_date": "2026-10-14",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-14"
+   }
   }
  ]
 }

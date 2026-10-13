@@ -305,6 +305,390 @@
     "version": 1,
     "last_revised": "2026-10-13"
    }
+  },
+  {
+   "id": "B1-003",
+   "level": "B1",
+   "track": "general",
+   "day": 3,
+   "title_ko": "제1조건문: If + 현재, will + 동사원형",
+   "objective_ko": "실현 가능한 조건과 그 결과를 If절과 unless로 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-14",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "앞으로 실제로 일어날 수 있는 조건과 결과는 If + 주어 + 현재형, 주어 + will + 동사원형으로 씁니다: If it rains, we will stay home. 미래의 일이어도 if절에는 will을 쓰지 않고 현재형을 씁니다. unless는 ‘~하지 않으면’(= if ... not)이라는 뜻이라 뒤에 부정을 또 쓰지 않습니다. If절이 문장 앞에 오면 쉼표를 찍습니다.",
+    "common_mistake_ko": "If it will rain tomorrow, we will stay home.(X) → If it rains tomorrow, ... / Unless you don't hurry ...(X) → Unless you hurry ..."
+   },
+   "vocabulary": [
+    {
+     "word": "unless",
+     "part_of_speech": "접속사",
+     "meaning_ko": "~하지 않으면",
+     "example_en": "Unless you hurry, you will miss the bus.",
+     "example_ko": "서두르지 않으면 버스를 놓칠 거예요."
+    },
+    {
+     "word": "cancel",
+     "part_of_speech": "동사",
+     "meaning_ko": "취소하다",
+     "example_en": "We will cancel the picnic if it rains.",
+     "example_ko": "비가 오면 우리는 소풍을 취소할 거예요."
+    },
+    {
+     "word": "forecast",
+     "part_of_speech": "명사",
+     "meaning_ko": "(날씨) 예보",
+     "example_en": "The forecast says it will be sunny.",
+     "example_ko": "예보에 따르면 날씨가 맑을 거예요."
+    },
+    {
+     "word": "umbrella",
+     "part_of_speech": "명사",
+     "meaning_ko": "우산",
+     "example_en": "Take an umbrella if the forecast says rain.",
+     "example_ko": "예보에 비가 온다고 하면 우산을 가져가세요."
+    },
+    {
+     "word": "pass",
+     "part_of_speech": "동사",
+     "meaning_ko": "(시험에) 합격하다, 통과하다",
+     "example_en": "If you study hard, you will pass the exam.",
+     "example_ko": "열심히 공부하면 시험에 합격할 거예요."
+    },
+    {
+     "word": "invite",
+     "part_of_speech": "동사",
+     "meaning_ko": "초대하다",
+     "example_en": "If they invite me, I will go.",
+     "example_ko": "그들이 나를 초대하면 갈 거예요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "If it rains tomorrow, we will cancel the picnic.",
+     "ko": "내일 비가 오면 우리는 소풍을 취소할 거예요."
+    },
+    {
+     "en": "If you study hard, you will pass the exam.",
+     "ko": "열심히 공부하면 시험에 합격할 거예요."
+    },
+    {
+     "en": "I will call you if I need help.",
+     "ko": "도움이 필요하면 전화할게요."
+    },
+    {
+     "en": "If she doesn't hurry, she will miss the bus.",
+     "ko": "그녀가 서두르지 않으면 버스를 놓칠 거예요."
+    },
+    {
+     "en": "Unless you leave now, you will be late.",
+     "ko": "지금 출발하지 않으면 늦을 거예요."
+    },
+    {
+     "en": "We will stay home unless the weather gets better.",
+     "ko": "날씨가 나아지지 않으면 우리는 집에 있을 거예요."
+    },
+    {
+     "en": "Take an umbrella if the forecast says rain.",
+     "ko": "예보에 비가 온다고 하면 우산을 가져가세요."
+    },
+    {
+     "en": "What will you do if you miss the train?",
+     "ko": "기차를 놓치면 어떻게 할 거예요?"
+    },
+    {
+     "en": "If they invite me, I will go.",
+     "ko": "그들이 나를 초대하면 갈 거예요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "B1003-Q1",
+     "type": "single_choice",
+     "stem": "If it ___ tomorrow, we will stay home.",
+     "choices": [
+      "rains",
+      "will rain",
+      "rained"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "if절에는 미래의 일이어도 현재형(rains)을 씁니다.",
+     "error_tag": "conditional"
+    },
+    {
+     "id": "B1003-Q2",
+     "type": "single_choice",
+     "stem": "If you ___ hard, you will pass the exam.",
+     "choices": [
+      "study",
+      "will study",
+      "studied"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "if절은 현재형(study), 결과절은 will + 동사원형입니다.",
+     "error_tag": "conditional"
+    },
+    {
+     "id": "B1003-Q3",
+     "type": "single_choice",
+     "stem": "Unless you hurry, you ___ the bus.",
+     "choices": [
+      "will miss",
+      "would miss",
+      "missed"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "실현 가능한 조건의 결과절은 will + 동사원형입니다.",
+     "error_tag": "conditional"
+    },
+    {
+     "id": "B1003-Q4",
+     "type": "single_choice",
+     "stem": "'If you don't hurry, you will be late.'와 같은 뜻의 문장은?",
+     "choices": [
+      "Unless you hurry, you will be late.",
+      "Unless you don't hurry, you will be late.",
+      "If you hurry, you will be late.",
+      "Unless you will hurry, you will be late."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "unless는 if ... not의 뜻이므로 뒤에 부정을 또 쓰지 않습니다.",
+     "error_tag": "unless"
+    },
+    {
+     "id": "B1003-Q5",
+     "type": "typing",
+     "stem": "괄호 속 동사를 알맞은 형태로 쓰세요: If he (call) me, I will answer.",
+     "answer_text": "calls",
+     "accepted_answers": [
+      "calls"
+     ],
+     "explanation_ko": "if절의 주어 he는 3인칭 단수이므로 현재형 calls입니다.",
+     "error_tag": "conditional"
+    },
+    {
+     "id": "B1003-Q6",
+     "type": "typing",
+     "stem": "빈칸에 한 단어를 쓰세요: We will cancel the trip ___ the weather improves. (~하지 않으면)",
+     "answer_text": "unless",
+     "accepted_answers": [
+      "unless"
+     ],
+     "explanation_ko": "'~하지 않으면'은 unless입니다.",
+     "error_tag": "unless"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "내일 날씨나 계획에 대해 If로 시작하는 문장을 두 개 써 보세요.",
+    "example_answer_en": "If it is sunny tomorrow, I will walk to work. If I finish early, I will call my friend.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. if절에 현재형, 결과절에 will을 썼는지 확인하세요."
+   },
+   "publish_date": "2026-10-14",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-14"
+   }
+  },
+  {
+   "id": "B1-004",
+   "level": "B1",
+   "track": "general",
+   "day": 4,
+   "title_ko": "수동태 기본: is made / was built",
+   "objective_ko": "행위자보다 대상이 중요할 때 현재·과거 수동태로 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-14",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "수동태는 be동사 + 과거분사입니다. 현재는 is/are + 과거분사(English is spoken in many countries), 과거는 was/were + 과거분사(This bridge was built in 1998)입니다. 누가 했는지가 중요하면 by + 행위자를 덧붙입니다(The cake was made by my sister). 행위자가 분명하지 않거나 중요하지 않을 때 수동태를 자주 씁니다.",
+    "common_mistake_ko": "English speaks in many countries.(X) → English is spoken in many countries.(O) / 과거분사가 아닌 원형을 쓰는 실수: The window was break.(X) → was broken"
+   },
+   "vocabulary": [
+    {
+     "word": "build",
+     "part_of_speech": "동사",
+     "meaning_ko": "짓다, 건설하다 (과거분사 built)",
+     "example_en": "The bridge was built in 1998.",
+     "example_ko": "그 다리는 1998년에 지어졌어요."
+    },
+    {
+     "word": "produce",
+     "part_of_speech": "동사",
+     "meaning_ko": "생산하다",
+     "example_en": "Cars are produced in this factory.",
+     "example_ko": "이 공장에서 자동차가 생산돼요."
+    },
+    {
+     "word": "repair",
+     "part_of_speech": "동사",
+     "meaning_ko": "수리하다",
+     "example_en": "The phone was repaired yesterday.",
+     "example_ko": "그 전화기는 어제 수리됐어요."
+    },
+    {
+     "word": "export",
+     "part_of_speech": "동사",
+     "meaning_ko": "수출하다",
+     "example_en": "Rice is exported to many countries.",
+     "example_ko": "쌀은 많은 나라로 수출돼요."
+    },
+    {
+     "word": "damage",
+     "part_of_speech": "동사",
+     "meaning_ko": "손상시키다",
+     "example_en": "The roof was damaged in the storm.",
+     "example_ko": "지붕이 폭풍에 손상됐어요."
+    },
+    {
+     "word": "invent",
+     "part_of_speech": "동사",
+     "meaning_ko": "발명하다",
+     "example_en": "The telephone was invented in the 19th century.",
+     "example_ko": "전화기는 19세기에 발명됐어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "English is spoken in many countries.",
+     "ko": "영어는 많은 나라에서 쓰입니다."
+    },
+    {
+     "en": "This bridge was built in 1998.",
+     "ko": "이 다리는 1998년에 지어졌어요."
+    },
+    {
+     "en": "The windows are cleaned every week.",
+     "ko": "창문은 매주 청소돼요."
+    },
+    {
+     "en": "The cake was made by my sister.",
+     "ko": "그 케이크는 내 여자 형제가 만들었어요."
+    },
+    {
+     "en": "Cars are produced in this factory.",
+     "ko": "이 공장에서 자동차가 생산돼요."
+    },
+    {
+     "en": "The old phone was repaired yesterday.",
+     "ko": "그 낡은 전화기는 어제 수리됐어요."
+    },
+    {
+     "en": "The roof was damaged in the storm.",
+     "ko": "지붕이 폭풍에 손상됐어요."
+    },
+    {
+     "en": "Rice is exported to many countries.",
+     "ko": "쌀은 많은 나라로 수출돼요."
+    },
+    {
+     "en": "The telephone was invented in the 19th century.",
+     "ko": "전화기는 19세기에 발명됐어요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "B1004-Q1",
+     "type": "single_choice",
+     "stem": "English ___ in many countries.",
+     "choices": [
+      "is spoken",
+      "speaks",
+      "is speaking"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "영어가 '사용되는' 대상이므로 수동태 is spoken입니다.",
+     "error_tag": "passive"
+    },
+    {
+     "id": "B1004-Q2",
+     "type": "single_choice",
+     "stem": "This bridge ___ in 1998.",
+     "choices": [
+      "was built",
+      "built",
+      "is built"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "과거 시점(1998)이므로 was + 과거분사입니다.",
+     "error_tag": "passive"
+    },
+    {
+     "id": "B1004-Q3",
+     "type": "single_choice",
+     "stem": "The windows ___ every week.",
+     "choices": [
+      "are cleaned",
+      "cleaned",
+      "are cleaning"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "창문은 '청소되는' 대상이고 반복되는 일이므로 현재 수동태 are cleaned입니다.",
+     "error_tag": "passive"
+    },
+    {
+     "id": "B1004-Q4",
+     "type": "single_choice",
+     "stem": "수동태 문장은?",
+     "choices": [
+      "The report was written by Ms. Kim.",
+      "Ms. Kim wrote the report.",
+      "Ms. Kim is writing the report.",
+      "Ms. Kim writes the report."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "was written(be + 과거분사)이 수동태입니다. 나머지는 모두 능동태입니다.",
+     "error_tag": "passive"
+    },
+    {
+     "id": "B1004-Q5",
+     "type": "typing",
+     "stem": "빈칸에 쓰세요: The phone ___ yesterday. (repair의 수동태, was + 과거분사)",
+     "answer_text": "was repaired",
+     "accepted_answers": [
+      "was repaired"
+     ],
+     "explanation_ko": "과거 수동태는 was + 과거분사(repaired)입니다.",
+     "error_tag": "passive"
+    },
+    {
+     "id": "B1004-Q6",
+     "type": "typing",
+     "stem": "빈칸에 과거분사를 쓰세요: Cars are ___ in this factory. (produce)",
+     "answer_text": "produced",
+     "accepted_answers": [
+      "produced"
+     ],
+     "explanation_ko": "produce의 과거분사는 produced입니다.",
+     "error_tag": "passive"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "우리 지역에서 만들어지거나 지어진 것 한 가지를 수동태로 써 보세요.",
+    "example_answer_en": "This school was built in 2005.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. be동사 + 과거분사를 썼는지 확인하세요."
+   },
+   "publish_date": "2026-10-14",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-14"
+   }
   }
  ]
 }
