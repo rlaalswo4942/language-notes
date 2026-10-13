@@ -147,10 +147,11 @@
     detach();
     if (!bar) buildBar();
     const svg = document.createElementNS(NS, "svg"); svg.setAttribute("class", "ink");
+    const hls = document.createElementNS(NS, "svg"); hls.setAttribute("class", "ink ink-hl"); // 형광펜 전용 층: 곱하기 합성으로 글자가 위에 보이게
     const cap = document.createElement("div"); cap.className = "ink-capture";
     const layer = document.createElement("div"); layer.className = "postit-layer";
-    page.append(svg, cap, dot, layer);
-    C = { page, svg, cap, key, getScale, scroller, items: load(key), undo: [], redo: [], cur: null, erasing: null, scroll: null, anchors: [], amap: {} };
+    page.append(hls, svg, cap, dot, layer);
+    C = { page, svg, hls, cap, key, getScale, scroller, items: load(key), undo: [], redo: [], cur: null, erasing: null, scroll: null, anchors: [], amap: {} };
     N = { layer, items: [], drag: null };
     buildAnchors(); migrate();
     N.items = loadNotes();
@@ -173,7 +174,7 @@
   function detach() {
     if (!C) return;
     flushSave(); flushNotes();
-    C.svg.remove(); C.cap.remove();
+    C.svg.remove(); C.hls.remove(); C.cap.remove();
     if (N) N.layer.remove();
     C = null; N = null;
     if (bar) { bar.classList.add("hidden"); hidePop(); }
@@ -182,8 +183,7 @@
   function resize() {
     if (!C) return;
     const h = C.page.offsetHeight;
-    C.svg.setAttribute("width", 1000); C.svg.setAttribute("height", h);
-    C.svg.setAttribute("viewBox", `0 0 1000 ${h}`);
+    for (const s of [C.svg, C.hls]) { s.setAttribute("width", 1000); s.setAttribute("height", h); s.setAttribute("viewBox", `0 0 1000 ${h}`); }
     buildAnchors(); renderAll(); renderNotes(); // 레이아웃이 바뀌면 비율 좌표를 다시 계산해 제자리에
   }
   function load(key) { return (Store.get("ink:" + key, []) || []).slice(); }
@@ -285,12 +285,13 @@
   }
   function renderAll() {
     if (!C) return;
-    const live = C.svg.querySelector(".live");
-    C.svg.innerHTML = "";
-    // 형광펜 → 가림 → 펜 순으로 쌓기
+    const live = C.svg.querySelector(".live"), hlLive = C.hls.querySelector(".live");
+    C.svg.innerHTML = ""; C.hls.innerHTML = "";
+    // 형광펜은 따로 아래 층(hls), 나머지는 가림 → 펜 순으로 쌓기
     const order = { hl: 0, hlr: 0, mask: 1, maskr: 1, pen: 2 };
-    C.items.slice().sort((a, b) => order[a.k] - order[b.k]).forEach(it => C.svg.append(renderItem(it)));
+    C.items.slice().sort((a, b) => order[a.k] - order[b.k]).forEach(it => (order[it.k] ? C.svg : C.hls).append(renderItem(it)));
     if (live) C.svg.append(live);
+    if (hlLive) C.hls.append(hlLive);
   }
 
   /* ── 입력 ── */
@@ -310,8 +311,7 @@
     const o = opts[opts.tool];
     C.cur = { pts: [p], t0: performance.now(), id: e.pointerId, path: null, touch: e.pointerType === "touch" };
     const live = el("path", { class: "live", fill: "none", stroke: o.c, "stroke-width": o.w, "stroke-linecap": "round", "stroke-linejoin": "round", opacity: opts.tool === "pen" ? 1 : opts.tool === "hl" ? 0.5 : 0.85 });
-    if (opts.tool === "hl") live.style.mixBlendMode = "multiply";
-    C.svg.append(live); C.cur.path = live;
+    (opts.tool === "hl" ? C.hls : C.svg).append(live); C.cur.path = live;
   }
   function onMove(e) {
     if (!C) return;
@@ -482,7 +482,7 @@
       const toClient = p => [pr.left + p[0] * s, pr.top + p[1] * s];
       const toPageRect = r => [(r.left - pr.left) / s, (r.top - pr.top) / s, r.width / s, r.height / s];
       const samples = resample(pts, 3);
-      C.cap.style.display = "none"; C.svg.style.display = "none";
+      C.cap.style.display = "none"; C.svg.style.display = "none"; C.hls.style.display = "none";
       const hits = new Map(); let textHits = 0, img = null;
       try {
         for (const p of samples) {
@@ -503,7 +503,7 @@
         }
         const mid = samples[Math.floor(samples.length / 2)], [mx, my] = toClient(mid);
         img = document.elementsFromPoint(mx, my).find(e => e.tagName === "IMG" && page.contains(e));
-      } finally { C.cap.style.display = ""; C.svg.style.display = ""; }
+      } finally { C.cap.style.display = ""; C.svg.style.display = ""; C.hls.style.display = ""; }
 
       if (textHits >= Math.max(2, samples.length * 0.3)) {
         let rects = [];

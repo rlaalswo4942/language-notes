@@ -159,7 +159,7 @@ body.side-closed #sidebar { margin-left: calc(-1 * var(--side-w)); }
 
 /* ── 필기 레이어 ── */
 .ink { position: absolute; left: 0; top: 0; overflow: visible; pointer-events: none; z-index: 5; }
-.ink .hl { mix-blend-mode: multiply; }
+.ink-hl { mix-blend-mode: multiply; } /* 층 전체를 곱하기 → 형광 아래 글자가 진하게 그대로 보임 */
 .ink .mask { pointer-events: auto; cursor: pointer; }
 .ink .mask.open { cursor: pointer; }
 .ink .live { pointer-events: none; }
