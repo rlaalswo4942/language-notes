@@ -1888,6 +1888,216 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-10",
+   "day_index": 10,
+   "week_index": 2,
+   "level": "N1",
+   "unit_id": "N1-W02",
+   "lesson_type": "new",
+   "title_ko": "〜をよそに: ~을 아랑곳하지 않고",
+   "objective_ko": "주위의 걱정・반대・기대를 개의치 않고 행동하는 모습을 격식 있게 나타낸다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-09"
+   ],
+   "explanation_ko": "〜をよそに는 ‘~을 아랑곳하지 않고, ~을 신경 쓰지 않고’라는 뜻입니다. 앞에는 걱정・반대・비판・기대・경고처럼 본래 마음에 두어야 할 것이 오고, 뒤에는 그것과 상관없이 하는 행동이 이어집니다(周囲の心配をよそに、一人で出発した). 명사에 접속하며, 동사는 〜のをよそに로 명사화해 씁니다(家族が心配しているのをよそに). 글이나 뉴스 같은 격식 있는 표현입니다.",
+   "usage_notes": [
+    "주로 제3자의 행동을 서술할 때 쓰며, 뒤에는 앞의 일과 무관하게 이어지는 행동・결과가 옵니다.",
+    "기대를 앞에 둘 때는 ‘기대와 달리’라는 뜻이 됩니다(期待をよそに敗れた).",
+    "동사에 접속할 때는 の를 넣어 명사화합니다."
+   ],
+   "common_mistakes": [
+    "친절한 조언을 따랐다는 흐름에는 쓰지 않습니다: 助言をよそに従った(X).",
+    "心配しているをよそに(X) → 心配しているのをよそに(O): 동사에 접속할 때는 の가 필요합니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N1-10-01",
+     "kind": "word",
+     "text": "心配{しんぱい}",
+     "reading_kana": "しんぱい",
+     "reading_romanized": "shinpai",
+     "meaning_ko": "걱정",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-10-02",
+     "kind": "word",
+     "text": "批判{ひはん}",
+     "reading_kana": "ひはん",
+     "reading_romanized": "hihan",
+     "meaning_ko": "비판",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-10-03",
+     "kind": "word",
+     "text": "期待{きたい}",
+     "reading_kana": "きたい",
+     "reading_romanized": "kitai",
+     "meaning_ko": "기대",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-10-04",
+     "kind": "word",
+     "text": "警告{けいこく}",
+     "reading_kana": "けいこく",
+     "reading_romanized": "keikoku",
+     "meaning_ko": "경고",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-10-05",
+     "kind": "word",
+     "text": "周囲{しゅうい}",
+     "reading_kana": "しゅうい",
+     "reading_romanized": "shuui",
+     "meaning_ko": "주위, 주변 사람들",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-10-06",
+     "kind": "word",
+     "text": "強行{きょうこう}する",
+     "reading_kana": "きょうこうする",
+     "reading_romanized": "kyoukou suru",
+     "meaning_ko": "강행하다",
+     "part_of_speech": "동사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "周囲{しゅうい}の心配{しんぱい}をよそに、彼{かれ}は一人{ひとり}で山{やま}に登{のぼ}った。",
+     "meaning_ko": "주위의 걱정을 아랑곳하지 않고 그는 혼자 산에 올랐다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "親{おや}の反対{はんたい}をよそに、彼女{かのじょ}は留学{りゅうがく}を決{き}めた。",
+     "meaning_ko": "부모의 반대를 아랑곳하지 않고 그녀는 유학을 정했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "住民{じゅうみん}の批判{ひはん}をよそに、工事{こうじ}は強行{きょうこう}された。",
+     "meaning_ko": "주민의 비판을 아랑곳하지 않고 공사는 강행되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "周囲{しゅうい}の期待{きたい}をよそに、チームは初戦{しょせん}で敗{やぶ}れた。",
+     "meaning_ko": "주위의 기대와는 달리 팀은 첫 경기에서 졌다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "専門家{せんもんか}の警告{けいこく}をよそに、人々{ひとびと}は海{うみ}で泳{およ}ぎ続{つづ}けた。",
+     "meaning_ko": "전문가의 경고를 아랑곳하지 않고 사람들은 바다에서 계속 수영했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "先生{せんせい}の注意{ちゅうい}をよそに、生徒{せいと}たちは騒{さわ}ぎ続{つづ}けた。",
+     "meaning_ko": "선생님의 주의를 아랑곳하지 않고 학생들은 계속 떠들었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "家族{かぞく}が心配{しんぱい}しているのをよそに、彼{かれ}は連絡{れんらく}もせずに旅{たび}に出{で}た。",
+     "meaning_ko": "가족이 걱정하는 것을 아랑곳하지 않고 그는 연락도 없이 여행을 떠났다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "世間{せけん}の冷{つめ}たい視線{しせん}をよそに、彼{かれ}は自分{じぶん}の信念{しんねん}を貫{つらぬ}いた。",
+     "meaning_ko": "세상의 차가운 시선을 아랑곳하지 않고 그는 자신의 신념을 관철했다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N1-10-Q1",
+     "type": "single_choice",
+     "prompt_ko": "周囲の心配（　）、彼は一人で山に登った。",
+     "options": [
+      "をもって",
+      "ならではの",
+      "をよそに",
+      "と相まって"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "‘걱정을 아랑곳하지 않고’는 〜をよそに."
+    },
+    {
+     "id": "JP-N1-10-Q2",
+     "type": "single_choice",
+     "prompt_ko": "「親の反対をよそに、留学を決めた」의 뜻은?",
+     "options": [
+      "부모의 반대 때문에 유학을 포기했다",
+      "부모의 반대를 아랑곳하지 않고 유학을 정했다",
+      "부모의 찬성 덕분에 유학을 정했다",
+      "부모의 반대를 받아들여 유학을 정했다"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "〜をよそに는 앞의 일(걱정・반대)을 개의치 않고 행동한다는 뜻입니다."
+    },
+    {
+     "id": "JP-N1-10-Q3",
+     "type": "single_choice",
+     "prompt_ko": "「〜をよそに」의 사용으로 자연스러운 것은?",
+     "options": [
+      "専門家の警告をよそに、人々は海で泳ぎ続けた。",
+      "専門家の警告をよそに、人々は警告に従って海へ行かなかった。",
+      "専門家の警告をよそに、昨日は雨が降った。",
+      "専門家の警告をよそに、私は鉛筆を買った。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "앞의 경고를 무시하고 행동하는 흐름이어야 자연스럽습니다. 경고에 따랐다면 〜をよそに와 모순됩니다."
+    },
+    {
+     "id": "JP-N1-10-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「世間の冷たい視線をよそに、自分の信念を貫いた」의 뜻은?",
+     "options": [
+      "세상의 시선 때문에 신념을 버렸다",
+      "세상의 차가운 시선 덕분에 신념이 강해졌다",
+      "세상의 차가운 시선을 아랑곳하지 않고 신념을 관철했다",
+      "세상의 시선을 의식해 조용히 있었다"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "貫く는 ‘관철하다’. 시선을 신경 쓰지 않았다는 흐름입니다."
+    },
+    {
+     "id": "JP-N1-10-Q5",
+     "type": "typing",
+     "prompt_ko": "「批判」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "hihan",
+     "accepted_answers": [
+      "hihan"
+     ],
+     "explanation_ko": "批判 = ひはん (hihan)"
+    },
+    {
+     "id": "JP-N1-10-Q6",
+     "type": "typing",
+     "prompt_ko": "「警告」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "keikoku",
+     "accepted_answers": [
+      "keikoku"
+     ],
+     "explanation_ko": "警告 = けいこく (keikoku)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "JLPT_FORMAT"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

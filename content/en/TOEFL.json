@@ -485,6 +485,203 @@
     "version": 1,
     "last_revised": "2026-10-14"
    }
+  },
+  {
+   "id": "TOEFL-004",
+   "level": "B1",
+   "track": "toefl",
+   "day": 4,
+   "title_ko": "TOEFL 2026 Listen and Choose a Response 입문: 알맞은 응답 고르기",
+   "objective_ko": "짧은 질문이나 제안을 보고 질문 유형에 맞는 응답을 고른다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/content/ets-org/language-master/ko/home/toefl/test-takers/ibt/about/content.html",
+     "publisher": "ETS",
+     "checked_at": "2026-10-15",
+     "supports": "공식 시험 형식"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "2026-01-21 이후 TOEFL iBT Listening에는 Listen and Choose a Response 유형이 있습니다(공식 안내 유형명). 짧은 말을 듣고 가장 알맞은 응답을 고르는 유형입니다. 이 사이트는 소리가 없으므로 아래는 문자로 읽는 비공식 연습입니다. 질문 유형을 먼저 파악하세요: Where → 장소, When → 시점, Could you ...? → 수락·거절, Why don't we ...? → 제안에 대한 수락·거절, Is/Do ...? → Yes/No와 보충 정보. 질문과 형태만 비슷한 응답이 아니라 질문에 실제로 답하는 응답을 고릅니다.",
+    "common_mistake_ko": "질문의 단어를 그대로 반복한 보기를 고르는 실수(예: 'Could you help me with this assignment?' → 'I have an assignment.') → 질문이 무엇을 요구하는지 먼저 판단합니다."
+   },
+   "vocabulary": [
+    {
+     "word": "response",
+     "part_of_speech": "명사",
+     "meaning_ko": "응답, 대답",
+     "example_en": "Choose the best response.",
+     "example_ko": "가장 알맞은 응답을 고르세요."
+    },
+    {
+     "word": "appropriate",
+     "part_of_speech": "형용사",
+     "meaning_ko": "알맞은, 적절한",
+     "example_en": "That is an appropriate answer.",
+     "example_ko": "그것은 알맞은 대답이에요."
+    },
+    {
+     "word": "suggest",
+     "part_of_speech": "동사",
+     "meaning_ko": "제안하다",
+     "example_en": "I suggest the second option.",
+     "example_ko": "나는 두 번째 선택지를 제안해요."
+    },
+    {
+     "word": "available",
+     "part_of_speech": "형용사",
+     "meaning_ko": "시간이 되는, 이용할 수 있는",
+     "example_en": "Is Professor Kim available today?",
+     "example_ko": "김 교수님은 오늘 시간이 되세요?"
+    },
+    {
+     "word": "borrow",
+     "part_of_speech": "동사",
+     "meaning_ko": "빌리다",
+     "example_en": "How can I borrow a book?",
+     "example_ko": "책은 어떻게 빌릴 수 있나요?"
+    },
+    {
+     "word": "reserve",
+     "part_of_speech": "동사",
+     "meaning_ko": "예약하다",
+     "example_en": "Do you want to reserve a study room?",
+     "example_ko": "스터디룸을 예약하고 싶어요?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Where is the library? — It's next to the science building.",
+     "ko": "도서관이 어디예요? — 과학관 옆에 있어요."
+    },
+    {
+     "en": "Could you help me with this assignment? — Sure, what do you need?",
+     "ko": "이 과제를 도와줄 수 있어요? — 물론이죠, 뭐가 필요해요?"
+    },
+    {
+     "en": "Why don't we study together tonight? — That sounds good. What time?",
+     "ko": "오늘 밤에 같이 공부할래요? — 좋아요. 몇 시에요?"
+    },
+    {
+     "en": "Is Professor Kim available today? — Yes, until three o'clock.",
+     "ko": "김 교수님은 오늘 시간이 되세요? — 네, 3시까지요."
+    },
+    {
+     "en": "How can I borrow a book? — Use your student card at the desk.",
+     "ko": "책은 어떻게 빌릴 수 있나요? — 데스크에서 학생증을 쓰세요."
+    },
+    {
+     "en": "When is the paper due? — It's due next Friday.",
+     "ko": "리포트는 언제까지예요? — 다음 주 금요일까지예요."
+    },
+    {
+     "en": "Do you want to reserve a study room? — Yes, for two hours, please.",
+     "ko": "스터디룸을 예약할래요? — 네, 두 시간으로 부탁해요."
+    },
+    {
+     "en": "What do you suggest? — I suggest the second option.",
+     "ko": "어떤 걸 추천해요? — 두 번째 선택지를 추천해요."
+    },
+    {
+     "en": "Choose the best response to the question.",
+     "ko": "질문에 가장 알맞은 응답을 고르세요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "F004-Q1",
+     "type": "single_choice",
+     "stem": "질문: 'When is the paper due?' 가장 알맞은 응답은?",
+     "choices": [
+      "In the library.",
+      "Yes, I am.",
+      "It's due next Friday.",
+      "Because it is long."
+     ],
+     "answer_index": 2,
+     "explanation_ko": "When 질문은 시점으로 답합니다: It's due next Friday.",
+     "error_tag": "response"
+    },
+    {
+     "id": "F004-Q2",
+     "type": "single_choice",
+     "stem": "질문: 'Could you help me with this assignment?' 가장 알맞은 응답은?",
+     "choices": [
+      "I have an assignment.",
+      "Sure, what do you need?",
+      "It was last night.",
+      "No, it is not."
+     ],
+     "answer_index": 1,
+     "explanation_ko": "도움을 청하는 요청에는 수락과 되묻기가 자연스럽습니다.",
+     "error_tag": "response"
+    },
+    {
+     "id": "F004-Q3",
+     "type": "single_choice",
+     "stem": "질문: 'Why don't we study together tonight?' 가장 알맞은 응답은?",
+     "choices": [
+      "She studies hard.",
+      "Yes, I did.",
+      "That sounds good. What time?",
+      "Twice a week."
+     ],
+     "answer_index": 2,
+     "explanation_ko": "Why don't we ...?는 제안이므로 수락이나 거절로 응답합니다.",
+     "error_tag": "response"
+    },
+    {
+     "id": "F004-Q4",
+     "type": "single_choice",
+     "stem": "질문: 'Is Professor Kim available today?' 가장 알맞은 응답은?",
+     "choices": [
+      "Yes, until three o'clock.",
+      "He is a professor.",
+      "By bus.",
+      "Two books."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "시간이 되는지 묻는 질문에는 가능 여부와 시간으로 답합니다.",
+     "error_tag": "response"
+    },
+    {
+     "id": "F004-Q5",
+     "type": "typing",
+     "stem": "빈칸에 한 단어를 쓰세요: Why ___ we study together? (제안하는 표현)",
+     "answer_text": "don't",
+     "accepted_answers": [
+      "don't",
+      "dont",
+      "do not"
+     ],
+     "explanation_ko": "'~하는 게 어때요?'는 Why don't we ...?입니다.",
+     "error_tag": "vocabulary"
+    },
+    {
+     "id": "F004-Q6",
+     "type": "typing",
+     "stem": "빈칸에 한 단어를 쓰세요: Use your student card to ___ a book. (빌리다)",
+     "answer_text": "borrow",
+     "accepted_answers": [
+      "borrow"
+     ],
+     "explanation_ko": "'빌리다'는 borrow입니다.",
+     "error_tag": "vocabulary"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "'When is the paper due?'에 대한 응답 한 문장과 'Why don't we study together?'에 대한 응답 한 문장을 써 보세요.",
+    "example_answer_en": "It's due next Friday. That sounds good.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 질문 유형에 맞는 응답인지 확인하세요. 비공식 연습이며 ETS 점수와 무관합니다."
+   },
+   "publish_date": "2026-10-15",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-15"
+   }
   }
  ]
 }

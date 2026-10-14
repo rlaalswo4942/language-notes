@@ -1878,6 +1878,223 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-10",
+   "day_index": 10,
+   "week_index": 2,
+   "level": "N4",
+   "unit_id": "N4-W02",
+   "lesson_type": "new",
+   "title_ko": "〜つもりです: 의도와 계획",
+   "objective_ko": "앞으로 할 생각(의도)과 하지 않을 생각을 말하고, 상대의 계획을 묻는다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-09"
+   ],
+   "explanation_ko": "동사 사전형 + つもりです는 ‘~할 생각입니다’라는 의도를 나타냅니다(行く → 行くつもりです). 하지 않을 생각은 ない형 + つもりです(飲まないつもりです)이고, 〜つもりはありません(~할 생각이 없습니다)이라고도 합니다. 질문은 〜つもりですか로, 상대의 계획을 묻습니다. 이미 정해진 일정보다 본인의 생각·마음가짐에 가까운 말입니다.",
+   "usage_notes": [
+    "사전형(行く)에 접속하고, ます형(行きます)에는 접속하지 않습니다.",
+    "부정은 つもりです 앞을 ない형으로 바꾸는 방법(行かないつもりです)과 つもりはありません의 두 가지가 있습니다.",
+    "来年・明日・卒業した後 같은 미래·시점 표현과 자주 함께 씁니다."
+   ],
+   "common_mistakes": [
+    "行きますつもりです(X) → 行くつもりです(O): 사전형에 접속합니다.",
+    "行くないつもりです(X) → 行かないつもりです(O): ない형으로 바꿉니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N4-10-01",
+     "kind": "word",
+     "text": "来年{らいねん}",
+     "reading_kana": "らいねん",
+     "reading_romanized": "rainen",
+     "meaning_ko": "내년",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-10-02",
+     "kind": "word",
+     "text": "卒業{そつぎょう}する",
+     "reading_kana": "そつぎょうする",
+     "reading_romanized": "sotsugyou suru",
+     "meaning_ko": "졸업하다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-10-03",
+     "kind": "word",
+     "text": "就職{しゅうしょく}する",
+     "reading_kana": "しゅうしょくする",
+     "reading_romanized": "shuushoku suru",
+     "meaning_ko": "취직하다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-10-04",
+     "kind": "word",
+     "text": "旅行{りょこう}",
+     "reading_kana": "りょこう",
+     "reading_romanized": "ryokou",
+     "meaning_ko": "여행",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-10-05",
+     "kind": "word",
+     "text": "日本語{にほんご}",
+     "reading_kana": "にほんご",
+     "reading_romanized": "nihongo",
+     "meaning_ko": "일본어",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-10-06",
+     "kind": "word",
+     "text": "続{つづ}ける",
+     "reading_kana": "つづける",
+     "reading_romanized": "tsuzukeru",
+     "meaning_ko": "계속하다",
+     "part_of_speech": "동사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "来年{らいねん}、 日本{にほん}へ 旅行{りょこう}に 行{い}く つもりです。",
+     "meaning_ko": "내년에 일본으로 여행을 갈 생각입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "来年{らいねん}、 大学{だいがく}を 卒業{そつぎょう}する つもりです。",
+     "meaning_ko": "내년에 대학을 졸업할 생각입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "卒業{そつぎょう}した 後{あと}、 東京{とうきょう}で 就職{しゅうしょく}する つもりです。",
+     "meaning_ko": "졸업한 뒤 도쿄에서 취직할 생각입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "日本語{にほんご}の 勉強{べんきょう}を 続{つづ}ける つもりです。",
+     "meaning_ko": "일본어 공부를 계속할 생각입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "今夜{こんや}は お酒{さけ}を 飲{の}まない つもりです。",
+     "meaning_ko": "오늘 밤은 술을 마시지 않을 생각입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "明日{あした}は どこへも 行{い}かない つもりです。",
+     "meaning_ko": "내일은 어디에도 가지 않을 생각입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "夏休{なつやす}みは 何{なに}を する つもりですか。",
+     "meaning_ko": "여름방학에는 무엇을 할 생각입니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "友達{ともだち}と 富士山{ふじさん}に 登{のぼ}る つもりです。",
+     "meaning_ko": "친구와 후지산에 오를 생각입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "旅行{りょこう}には 行{い}く つもりは ありません。",
+     "meaning_ko": "여행에는 갈 생각이 없습니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N4-10-Q1",
+     "type": "single_choice",
+     "prompt_ko": "‘내년에 졸업할 생각입니다’를 바르게 나타낸 것은?",
+     "options": [
+      "来年卒業ますつもりです",
+      "来年卒業するつもりです",
+      "来年卒業ましたつもりです",
+      "来年卒業ですつもりです"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "의도는 동사 사전형 + つもりです."
+    },
+    {
+     "id": "JP-N4-10-Q2",
+     "type": "single_choice",
+     "prompt_ko": "‘오늘 밤은 술을 마시지 않을 생각입니다’를 바르게 나타낸 것은?",
+     "options": [
+      "今夜はお酒を飲むないつもりです",
+      "今夜はお酒を飲んだないつもりです",
+      "今夜はお酒を飲まないつもりです",
+      "今夜はお酒を飲みないつもりです"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "‘~하지 않을 생각’은 ない형 + つもりです. 飲む → 飲まない."
+    },
+    {
+     "id": "JP-N4-10-Q3",
+     "type": "single_choice",
+     "prompt_ko": "「何を するつもりですか。」의 뜻은?",
+     "options": [
+      "무엇을 했습니까?",
+      "무엇을 하고 있습니까?",
+      "무엇을 할 수 있습니까?",
+      "무엇을 할 생각입니까?"
+     ],
+     "answer_index": 3,
+     "explanation_ko": "つもりですか는 상대의 의도·계획을 묻는 말입니다."
+    },
+    {
+     "id": "JP-N4-10-Q4",
+     "type": "typing",
+     "prompt_ko": "「来年」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "rainen",
+     "accepted_answers": [
+      "rainen"
+     ],
+     "explanation_ko": "来年 = らいねん (rainen)"
+    },
+    {
+     "id": "JP-N4-10-Q5",
+     "type": "typing",
+     "prompt_ko": "「就職」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "shuushoku",
+     "accepted_answers": [
+      "shuushoku",
+      "shushoku",
+      "syuusyoku"
+     ],
+     "explanation_ko": "就職 = しゅうしょく (shuushoku)"
+    },
+    {
+     "id": "JP-N4-10-Q6",
+     "type": "single_choice",
+     "prompt_ko": "「旅行には 行くつもりは ありません。」의 뜻은?",
+     "options": [
+      "여행에는 갈 생각이 없다",
+      "여행에 갈 생각이다",
+      "여행에 갔다",
+      "여행에 갈 수 없다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜つもりは ありません은 ‘~할 생각이 없다’는 뜻입니다."
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

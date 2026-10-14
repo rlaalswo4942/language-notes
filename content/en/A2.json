@@ -1720,6 +1720,205 @@
     "version": 1,
     "last_revised": "2026-10-14"
    }
+  },
+  {
+   "id": "A2-010",
+   "level": "A2",
+   "track": "foundation",
+   "day": 10,
+   "title_ko": "should / shouldn't: 충고하기",
+   "objective_ko": "should와 shouldn't로 상대에게 부드럽게 충고하고 조언을 묻는다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-15",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "should는 '~하는 게 좋다'는 충고를 할 때 씁니다. 주어가 he, she여도 shoulds가 되지 않고, 뒤에는 to 없이 동사원형이 옵니다: You should rest. She should see a doctor. 부정은 should not이고 줄여서 shouldn't라고 합니다: He shouldn't drink so much coffee. 질문은 Should + 주어 + 동사원형 ...?이며 Yes, you should. / No, you shouldn't.로 짧게 답합니다. should는 must보다 약한 조언입니다.",
+    "common_mistake_ko": "She shoulds go.(X) → She should go.(O) / You should to go.(X) → You should go.(O) / Do I should go?(X) → Should I go?(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "should",
+     "part_of_speech": "조동사",
+     "meaning_ko": "~하는 게 좋다, ~해야 한다(충고)",
+     "example_en": "You should see a doctor.",
+     "example_ko": "병원에 가 보는 게 좋겠어요."
+    },
+    {
+     "word": "shouldn't",
+     "part_of_speech": "조동사",
+     "meaning_ko": "~하지 않는 게 좋다 (should not)",
+     "example_en": "He shouldn't drink so much coffee.",
+     "example_ko": "그는 커피를 너무 많이 마시지 않는 게 좋겠어요."
+    },
+    {
+     "word": "doctor",
+     "part_of_speech": "명사",
+     "meaning_ko": "의사",
+     "example_en": "You should see a doctor.",
+     "example_ko": "병원에 가 보는 게 좋겠어요."
+    },
+    {
+     "word": "headache",
+     "part_of_speech": "명사",
+     "meaning_ko": "두통",
+     "example_en": "I have a headache.",
+     "example_ko": "머리가 아파요."
+    },
+    {
+     "word": "rest",
+     "part_of_speech": "동사·명사",
+     "meaning_ko": "쉬다; 휴식",
+     "example_en": "You should rest today.",
+     "example_ko": "오늘은 쉬는 게 좋겠어요."
+    },
+    {
+     "word": "healthy",
+     "part_of_speech": "형용사",
+     "meaning_ko": "건강한, 건강에 좋은",
+     "example_en": "We should eat healthy food.",
+     "example_ko": "우리는 건강한 음식을 먹는 게 좋아요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "You should see a doctor.",
+     "ko": "병원에 가 보는 게 좋겠어요."
+    },
+    {
+     "en": "I have a headache.",
+     "ko": "머리가 아파요."
+    },
+    {
+     "en": "You should rest today.",
+     "ko": "오늘은 쉬는 게 좋겠어요."
+    },
+    {
+     "en": "He shouldn't drink so much coffee.",
+     "ko": "그는 커피를 너무 많이 마시지 않는 게 좋겠어요."
+    },
+    {
+     "en": "Should I take a taxi?",
+     "ko": "택시를 타는 게 좋을까요?"
+    },
+    {
+     "en": "Yes, you should.",
+     "ko": "네, 그러는 게 좋아요."
+    },
+    {
+     "en": "No, you shouldn't.",
+     "ko": "아니요, 그러지 않는 게 좋아요."
+    },
+    {
+     "en": "We should eat healthy food.",
+     "ko": "우리는 건강한 음식을 먹는 게 좋아요."
+    },
+    {
+     "en": "She should go to bed early.",
+     "ko": "그녀는 일찍 자는 게 좋겠어요."
+    },
+    {
+     "en": "Students should read every day.",
+     "ko": "학생들은 매일 읽는 게 좋아요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "A2-010-Q1",
+     "type": "single_choice",
+     "stem": "She ___ see a doctor. She has a headache.",
+     "choices": [
+      "shoulds",
+      "should",
+      "should to"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "should는 주어가 바뀌어도 모양이 같고, 뒤에는 to 없이 동사원형이 옵니다.",
+     "error_tag": "modal"
+    },
+    {
+     "id": "A2-010-Q2",
+     "type": "single_choice",
+     "stem": "He ___ drink so much coffee. It is bad for his health.",
+     "choices": [
+      "should",
+      "shouldn't",
+      "doesn't should"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "건강에 나쁘다는 문맥이므로 '~하지 않는 게 좋다'인 shouldn't입니다.",
+     "error_tag": "modal"
+    },
+    {
+     "id": "A2-010-Q3",
+     "type": "single_choice",
+     "stem": "올바른 질문은?",
+     "choices": [
+      "Do I should take a taxi?",
+      "Should I take a taxi?",
+      "Should I to take a taxi?",
+      "Should I taking a taxi?"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "should 질문은 Should + 주어 + 동사원형입니다. do를 함께 쓰지 않습니다.",
+     "error_tag": "question"
+    },
+    {
+     "id": "A2-010-Q4",
+     "type": "single_choice",
+     "stem": "'당신은 일찍 자는 게 좋겠어요'에 맞는 문장은?",
+     "choices": [
+      "You should going to bed early.",
+      "You shoulds go to bed early.",
+      "You should go to bed early.",
+      "You should to go to bed early."
+     ],
+     "answer_index": 2,
+     "explanation_ko": "should + 동사원형(go)입니다.",
+     "error_tag": "modal"
+    },
+    {
+     "id": "A2-010-Q5",
+     "type": "typing",
+     "stem": "빈칸에 알맞은 말을 쓰세요: You ___ stay home today. (집에 있는 게 좋겠어요)",
+     "answer_text": "should",
+     "accepted_answers": [
+      "should"
+     ],
+     "explanation_ko": "충고를 말할 때는 should를 씁니다.",
+     "error_tag": "modal"
+    },
+    {
+     "id": "A2-010-Q6",
+     "type": "typing",
+     "stem": "축약형으로 쓰세요: You ___ eat too much sugar. (먹지 않는 게 좋겠어요)",
+     "answer_text": "shouldn't",
+     "accepted_answers": [
+      "shouldn't",
+      "should not",
+      "shouldnt"
+     ],
+     "explanation_ko": "부정은 should not이고, 줄이면 shouldn't입니다.",
+     "error_tag": "modal"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "친구 한 명에게 건강이나 공부에 대한 충고를 should 또는 shouldn't로 두 문장 써 보세요.",
+    "example_answer_en": "You should sleep more. You shouldn't drink too much coffee.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. should 뒤에 동사원형을 썼는지 확인하세요."
+   },
+   "publish_date": "2026-10-15",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-15"
+   }
   }
  ]
 }

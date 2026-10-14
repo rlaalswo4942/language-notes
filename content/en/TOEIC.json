@@ -492,6 +492,205 @@
     "version": 1,
     "last_revised": "2026-10-14"
    }
+  },
+  {
+   "id": "TOEIC-004",
+   "level": "B1",
+   "track": "toeic",
+   "day": 4,
+   "title_ko": "TOEIC Part 5: 전치사와 접속사 구별",
+   "objective_ko": "빈칸 뒤가 명사구인지 절(주어+동사)인지 보고 during/while, because of/because, despite/although를 구별한다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/toeic/about/listening-reading.html",
+     "publisher": "ETS",
+     "checked_at": "2026-10-15",
+     "supports": "공식 시험 형식"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "Reading Part 5에서는 뜻이 비슷한 전치사와 접속사를 구별하는 문제가 자주 나옵니다. 빈칸 뒤를 보세요. 명사(구)가 오면 전치사: during the meeting, because of the delay, despite the rain. 주어+동사가 오면 접속사: while the meeting is in progress, because the flight was delayed, although it rained. 같은 뜻이라도 뒤에 오는 모양이 달라 정답이 갈립니다. 이것은 ETS 공식 문항이 아닌 자체 연습문제입니다.",
+    "common_mistake_ko": "because of the server was down(X) → because the server was down(O) / despite the shipment was late(X) → although the shipment was late(O) 또는 despite the late shipment(O) / during the manager was away(X) → while the manager was away(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "during",
+     "part_of_speech": "전치사",
+     "meaning_ko": "~ 동안 (뒤에 명사)",
+     "example_en": "The office will close during the renovation.",
+     "example_ko": "사무실은 보수 공사 동안 문을 닫습니다."
+    },
+    {
+     "word": "while",
+     "part_of_speech": "접속사",
+     "meaning_ko": "~하는 동안 (뒤에 주어+동사)",
+     "example_en": "Please keep your phone off while the meeting is in progress.",
+     "example_ko": "회의가 진행되는 동안에는 휴대전화를 꺼 두세요."
+    },
+    {
+     "word": "because of",
+     "part_of_speech": "전치사구",
+     "meaning_ko": "~ 때문에 (뒤에 명사)",
+     "example_en": "The flight was delayed because of heavy snow.",
+     "example_ko": "폭설 때문에 항공편이 지연되었습니다."
+    },
+    {
+     "word": "despite",
+     "part_of_speech": "전치사",
+     "meaning_ko": "~에도 불구하고 (뒤에 명사)",
+     "example_en": "Despite the delay, the team finished on time.",
+     "example_ko": "지연에도 불구하고 팀은 제시간에 끝냈습니다."
+    },
+    {
+     "word": "although",
+     "part_of_speech": "접속사",
+     "meaning_ko": "~이지만 (뒤에 주어+동사)",
+     "example_en": "Although the delay was short, the manager sent an apology.",
+     "example_ko": "지연은 짧았지만 매니저는 사과문을 보냈습니다."
+    },
+    {
+     "word": "renovation",
+     "part_of_speech": "명사",
+     "meaning_ko": "보수·개조 공사",
+     "example_en": "The lobby is closed for renovation.",
+     "example_ko": "로비는 보수 공사로 닫혀 있습니다."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The office will close during the renovation.",
+     "ko": "사무실은 보수 공사 동안 문을 닫습니다."
+    },
+    {
+     "en": "Please keep your phone off while the meeting is in progress.",
+     "ko": "회의가 진행되는 동안에는 휴대전화를 꺼 두세요."
+    },
+    {
+     "en": "The flight was delayed because of heavy snow.",
+     "ko": "폭설 때문에 항공편이 지연되었습니다."
+    },
+    {
+     "en": "The flight was delayed because heavy snow fell overnight.",
+     "ko": "밤새 폭설이 내렸기 때문에 항공편이 지연되었습니다."
+    },
+    {
+     "en": "Despite the delay, the team finished on time.",
+     "ko": "지연에도 불구하고 팀은 제시간에 끝냈습니다."
+    },
+    {
+     "en": "Although the delay was short, the manager sent an apology.",
+     "ko": "지연은 짧았지만 매니저는 사과문을 보냈습니다."
+    },
+    {
+     "en": "The staff worked during the weekend.",
+     "ko": "직원들은 주말 동안 근무했습니다."
+    },
+    {
+     "en": "The staff worked while the manager was away.",
+     "ko": "직원들은 매니저가 자리를 비운 동안 근무했습니다."
+    },
+    {
+     "en": "The seminar was canceled because of low attendance.",
+     "ko": "세미나는 참석자가 적어서 취소되었습니다."
+    },
+    {
+     "en": "The lobby is closed for renovation.",
+     "ko": "로비는 보수 공사로 닫혀 있습니다."
+    }
+   ],
+   "questions": [
+    {
+     "id": "T004-Q1",
+     "type": "single_choice",
+     "stem": "The lobby will be closed ___ the renovation.",
+     "choices": [
+      "while",
+      "although",
+      "during",
+      "because"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "뒤에 명사구(the renovation)가 있으므로 전치사 during입니다. while·although·because는 뒤에 주어+동사가 와야 합니다.",
+     "error_tag": "preposition-conjunction"
+    },
+    {
+     "id": "T004-Q2",
+     "type": "single_choice",
+     "stem": "___ the manager was away, the assistant answered all calls.",
+     "choices": [
+      "During",
+      "While",
+      "Despite",
+      "Because of"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "뒤에 주어+동사(the manager was away)가 있으므로 접속사 While입니다. 나머지는 전치사라 명사만 받습니다.",
+     "error_tag": "preposition-conjunction"
+    },
+    {
+     "id": "T004-Q3",
+     "type": "single_choice",
+     "stem": "The shipment arrived late ___ heavy rain.",
+     "choices": [
+      "because",
+      "because of",
+      "although",
+      "while"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "뒤가 명사구(heavy rain)이므로 전치사구 because of입니다.",
+     "error_tag": "preposition-conjunction"
+    },
+    {
+     "id": "T004-Q4",
+     "type": "single_choice",
+     "stem": "___ the budget was small, the team finished the project.",
+     "choices": [
+      "Despite",
+      "Because of",
+      "Although",
+      "During"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "뒤에 절(the budget was small)이 있고 '~이지만'의 뜻이므로 접속사 Although입니다. Despite는 뒤에 명사만 옵니다.",
+     "error_tag": "preposition-conjunction"
+    },
+    {
+     "id": "T004-Q5",
+     "type": "typing",
+     "stem": "빈칸에 한 단어를 쓰세요: The seminar was canceled ___ of low attendance.",
+     "answer_text": "because",
+     "accepted_answers": [
+      "because"
+     ],
+     "explanation_ko": "뒤에 명사구(low attendance)가 오므로 because of 형태입니다.",
+     "error_tag": "preposition-conjunction"
+    },
+    {
+     "id": "T004-Q6",
+     "type": "typing",
+     "stem": "빈칸에 한 단어를 쓰세요: ___ the delay, the shipment arrived on Friday. (전치사, 명사 앞)",
+     "answer_text": "Despite",
+     "accepted_answers": [
+      "despite"
+     ],
+     "explanation_ko": "'~에도 불구하고'이고 뒤에 명사(the delay)가 오므로 전치사 Despite입니다.",
+     "error_tag": "preposition-conjunction"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "during, while, because of 중 하나를 넣어 업무 관련 문장을 한 개 써 보세요.",
+    "example_answer_en": "Please remain seated during the presentation.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 뒤에 명사구가 오는지 절이 오는지 확인하세요."
+   },
+   "publish_date": "2026-10-15",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-15"
+   }
   }
  ]
 }

@@ -1738,6 +1738,373 @@
     "version": 1,
     "last_revised": "2026-10-14"
    }
+  },
+  {
+   "id": "PRE-014",
+   "level": "Pre-A1",
+   "track": "foundation",
+   "day": 14,
+   "title_ko": "2주차 종합 복습",
+   "objective_ko": "8~13일차의 this/that, these/those, my/your, 숫자·나이, 일반동사, like/need를 섞어 다시 확인한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-15",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "2주차에 배운 내용을 한꺼번에 점검합니다. ① 가까이 있는 것은 this(한 개)·these(여러 개), 멀리 있는 것은 that(한 개)·those(여러 개). ② 내 것은 my, 당신 것은 your 뒤에 명사를 붙입니다. ③ 나이는 be동사로 말합니다: I am twelve years old. ④ 일반동사(study, eat, like, need)는 주어 바로 뒤에 쓰고 be동사와 함께 쓰지 않습니다. 틀린 문제는 해설을 읽고 해당 일차를 다시 보세요.",
+    "common_mistake_ko": "This are my shoes.(X) → These are my shoes.(O) / I am study English.(X) → I study English.(O) / Me name is Mina.(X) → My name is Mina.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "water",
+     "part_of_speech": "명사",
+     "meaning_ko": "물",
+     "example_en": "I need water.",
+     "example_ko": "나는 물이 필요해요."
+    },
+    {
+     "word": "family",
+     "part_of_speech": "명사",
+     "meaning_ko": "가족",
+     "example_en": "This is my family.",
+     "example_ko": "이쪽은 내 가족이에요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "This is my bag.",
+     "ko": "이것은 내 가방이에요."
+    },
+    {
+     "en": "That is your pen.",
+     "ko": "저것은 당신의 펜이에요."
+    },
+    {
+     "en": "These are my shoes.",
+     "ko": "이것들은 내 신발이에요."
+    },
+    {
+     "en": "Those are your keys.",
+     "ko": "저것들은 당신의 열쇠예요."
+    },
+    {
+     "en": "I am twelve years old.",
+     "ko": "나는 열두 살이에요."
+    },
+    {
+     "en": "You are twenty years old.",
+     "ko": "당신은 스무 살이에요."
+    },
+    {
+     "en": "I study English.",
+     "ko": "나는 영어를 공부해요."
+    },
+    {
+     "en": "We like music.",
+     "ko": "우리는 음악을 좋아해요."
+    },
+    {
+     "en": "I need water.",
+     "ko": "나는 물이 필요해요."
+    },
+    {
+     "en": "This is my family.",
+     "ko": "이쪽은 내 가족이에요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "P014-Q1",
+     "type": "single_choice",
+     "stem": "___ is my pen. (바로 가까이에 있는 한 개)",
+     "choices": [
+      "That",
+      "This",
+      "These"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "가까이 있는 한 개는 This, 멀리 있는 한 개는 That입니다. These는 가까이 있는 여러 개입니다.",
+     "error_tag": "demonstrative"
+    },
+    {
+     "id": "P014-Q2",
+     "type": "single_choice",
+     "stem": "___ are my shoes. (멀리 있는 여러 개)",
+     "choices": [
+      "That",
+      "Those",
+      "This",
+      "These"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "멀리 있는 여러 개는 Those입니다. These는 가까이 있는 여러 개입니다.",
+     "error_tag": "demonstrative"
+    },
+    {
+     "id": "P014-Q3",
+     "type": "single_choice",
+     "stem": "'당신은 스무 살이에요'에 맞는 문장은?",
+     "choices": [
+      "You is twenty years old.",
+      "You twenty years old am.",
+      "You are twenty years old.",
+      "Your are twenty years old."
+     ],
+     "answer_index": 2,
+     "explanation_ko": "You 뒤에는 are를 씁니다. 소유를 나타내는 Your와 헷갈리지 않습니다.",
+     "error_tag": "be-verb"
+    },
+    {
+     "id": "P014-Q4",
+     "type": "single_choice",
+     "stem": "'나는 물이 필요해요'에 맞는 문장은?",
+     "choices": [
+      "I am need water.",
+      "I need water.",
+      "I water need.",
+      "Need I water."
+     ],
+     "answer_index": 1,
+     "explanation_ko": "주어(I) + 동사(need) + 명사(water) 순서입니다. need 앞에 am을 쓰지 않습니다.",
+     "error_tag": "word-order"
+    },
+    {
+     "id": "P014-Q5",
+     "type": "typing",
+     "stem": "빈칸에 my 또는 your를 쓰세요: I am Mina. ___ name is Mina. (나의)",
+     "answer_text": "my",
+     "accepted_answers": [
+      "my"
+     ],
+     "explanation_ko": "'나의'는 my입니다. your는 '당신의'입니다.",
+     "error_tag": "possessive"
+    },
+    {
+     "id": "P014-Q6",
+     "type": "typing",
+     "stem": "빈칸에 알맞은 동사를 쓰세요: We ___ English. (공부해요)",
+     "answer_text": "study",
+     "accepted_answers": [
+      "study"
+     ],
+     "explanation_ko": "'공부하다'는 study입니다.",
+     "error_tag": "vocabulary"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "this/that 또는 these/those 중 하나와 like 또는 need를 사용해 두 문장을 써 보세요.",
+    "example_answer_en": "This is my bag. I need water.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 각 문장의 동사와 지시어를 확인하세요."
+   },
+   "publish_date": "2026-10-15",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-15"
+   }
+  },
+  {
+   "id": "PRE-015",
+   "level": "Pre-A1",
+   "track": "foundation",
+   "day": 15,
+   "title_ko": "he / she + 동사 -s: 3인칭 단수 현재",
+   "objective_ko": "주어가 he, she 또는 한 사람·한 개일 때 일반동사 끝에 -s를 붙여 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-15",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "일반동사 현재형은 I, you, we, they와 쓸 때 원형 그대로입니다: I work. They work. 그런데 주어가 he, she, 또는 한 사람·한 개(My mother, Tom)이면 동사 끝에 -s를 붙입니다: He works. She walks. 이 단원에서는 원형에 -s만 붙이는 동사(work, walk, sleep, cook, sing, ride)를 연습합니다. have → has, study → studies처럼 모양이 달라지는 동사는 앞으로 따로 배웁니다. 일반동사 앞에는 be동사(am/is/are)를 함께 쓰지 않습니다.",
+    "common_mistake_ko": "He work in Seoul.(X) → He works in Seoul.(O) / She is walks to school.(X) → She walks to school.(O) / They works in Seoul.(X) → They work in Seoul.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "work",
+     "part_of_speech": "동사",
+     "meaning_ko": "일하다",
+     "example_en": "He works in Seoul.",
+     "example_ko": "그는 서울에서 일해요."
+    },
+    {
+     "word": "walk",
+     "part_of_speech": "동사",
+     "meaning_ko": "걷다",
+     "example_en": "She walks to school.",
+     "example_ko": "그녀는 학교에 걸어가요."
+    },
+    {
+     "word": "sleep",
+     "part_of_speech": "동사",
+     "meaning_ko": "자다",
+     "example_en": "He sleeps at ten.",
+     "example_ko": "그는 10시에 자요."
+    },
+    {
+     "word": "cook",
+     "part_of_speech": "동사",
+     "meaning_ko": "요리하다",
+     "example_en": "My mother cooks dinner.",
+     "example_ko": "우리 어머니는 저녁을 요리해요."
+    },
+    {
+     "word": "sing",
+     "part_of_speech": "동사",
+     "meaning_ko": "노래하다",
+     "example_en": "She sings well.",
+     "example_ko": "그녀는 노래를 잘해요."
+    },
+    {
+     "word": "ride",
+     "part_of_speech": "동사",
+     "meaning_ko": "(자전거·말 등을) 타다",
+     "example_en": "My brother rides a bike.",
+     "example_ko": "내 남자 형제는 자전거를 타요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I work in Seoul.",
+     "ko": "나는 서울에서 일해요."
+    },
+    {
+     "en": "He works in Seoul.",
+     "ko": "그는 서울에서 일해요."
+    },
+    {
+     "en": "She walks to school.",
+     "ko": "그녀는 학교에 걸어가요."
+    },
+    {
+     "en": "They walk to school.",
+     "ko": "그들은 학교에 걸어가요."
+    },
+    {
+     "en": "He sleeps at ten.",
+     "ko": "그는 10시에 자요."
+    },
+    {
+     "en": "My mother cooks dinner.",
+     "ko": "우리 어머니는 저녁을 요리해요."
+    },
+    {
+     "en": "She sings well.",
+     "ko": "그녀는 노래를 잘해요."
+    },
+    {
+     "en": "My brother rides a bike.",
+     "ko": "내 남자 형제는 자전거를 타요."
+    },
+    {
+     "en": "He reads books.",
+     "ko": "그는 책을 읽어요."
+    },
+    {
+     "en": "She plays soccer.",
+     "ko": "그녀는 축구를 해요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "P015-Q1",
+     "type": "single_choice",
+     "stem": "She ___ to school.",
+     "choices": [
+      "walk",
+      "walks",
+      "walking"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "she는 3인칭 단수이므로 동사 끝에 -s를 붙여 walks로 씁니다.",
+     "error_tag": "subject-verb"
+    },
+    {
+     "id": "P015-Q2",
+     "type": "single_choice",
+     "stem": "They ___ in a hospital.",
+     "choices": [
+      "works",
+      "is work",
+      "work"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "They는 복수이므로 -s가 없는 원형 work를 씁니다.",
+     "error_tag": "subject-verb"
+    },
+    {
+     "id": "P015-Q3",
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "He cook dinner.",
+      "He is cooks dinner.",
+      "He cooks dinner.",
+      "He cooking dinner."
+     ],
+     "answer_index": 2,
+     "explanation_ko": "he 뒤의 일반동사에는 -s를 붙입니다. be동사와 함께 쓰지 않습니다.",
+     "error_tag": "subject-verb"
+    },
+    {
+     "id": "P015-Q4",
+     "type": "single_choice",
+     "stem": "'그녀는 노래를 잘해요'에 맞는 문장은?",
+     "choices": [
+      "She sing well.",
+      "She sings well.",
+      "She are sing well.",
+      "She singing well."
+     ],
+     "answer_index": 1,
+     "explanation_ko": "she + 동사 -s 형태인 sings를 씁니다.",
+     "error_tag": "subject-verb"
+    },
+    {
+     "id": "P015-Q5",
+     "type": "typing",
+     "stem": "빈칸에 알맞은 형태를 쓰세요: He ___ at ten. (sleep)",
+     "answer_text": "sleeps",
+     "accepted_answers": [
+      "sleeps"
+     ],
+     "explanation_ko": "he는 3인칭 단수이므로 sleep에 -s를 붙입니다.",
+     "error_tag": "subject-verb"
+    },
+    {
+     "id": "P015-Q6",
+     "type": "typing",
+     "stem": "빈칸에 알맞은 형태를 쓰세요: My brother ___ a bike. (ride)",
+     "answer_text": "rides",
+     "accepted_answers": [
+      "rides"
+     ],
+     "explanation_ko": "My brother는 he로 바꿀 수 있는 3인칭 단수이므로 rides입니다.",
+     "error_tag": "subject-verb"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "가족이나 친구가 매일 하는 일을 he 또는 she로 시작해 한 문장 써 보세요.",
+    "example_answer_en": "She works in Seoul.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 동사 끝에 -s를 붙였는지 확인하세요."
+   },
+   "publish_date": "2026-10-15",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-15"
+   }
   }
  ]
 }

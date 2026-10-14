@@ -3422,6 +3422,193 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전"
+  },
+  {
+   "id": "JP-INTRO-34",
+   "day_index": 34,
+   "week_index": 5,
+   "level": "INTRO",
+   "unit_id": "INTRO-W05",
+   "lesson_type": "new",
+   "title_ko": "가타카나 ハ행",
+   "objective_ko": "가타카나 ハ·ヒ·フ·ヘ·ホ를 읽고, 외래어 단어를 읽는다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-INTRO-33"
+   ],
+   "new_items": [
+    {
+     "id": "kana-d34-01",
+     "kind": "kana",
+     "text": "ハ",
+     "reading_romanized": "ha",
+     "meaning_ko": null
+    },
+    {
+     "id": "kana-d34-02",
+     "kind": "kana",
+     "text": "ヒ",
+     "reading_romanized": "hi",
+     "meaning_ko": null
+    },
+    {
+     "id": "kana-d34-03",
+     "kind": "kana",
+     "text": "フ",
+     "reading_romanized": "fu",
+     "meaning_ko": null
+    },
+    {
+     "id": "kana-d34-04",
+     "kind": "kana",
+     "text": "ヘ",
+     "reading_romanized": "he",
+     "meaning_ko": null
+    },
+    {
+     "id": "kana-d34-05",
+     "kind": "kana",
+     "text": "ホ",
+     "reading_romanized": "ho",
+     "meaning_ko": null
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "ハート",
+     "reading_romanized": "haato",
+     "meaning_ko": "하트",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "ホース",
+     "reading_romanized": "hoosu",
+     "meaning_ko": "호스",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "ヒーター",
+     "reading_romanized": "hiitaa",
+     "meaning_ko": "히터, 난방기",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "コーヒー",
+     "reading_romanized": "koohii",
+     "meaning_ko": "커피",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "ソフト",
+     "reading_romanized": "sofuto",
+     "meaning_ko": "소프트(부드러운), 소프트웨어",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "ナイフ",
+     "reading_romanized": "naifu",
+     "meaning_ko": "나이프, 칼",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "ヘア",
+     "reading_romanized": "hea",
+     "meaning_ko": "헤어, 머리카락",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    },
+    {
+     "japanese": "アイスコーヒー",
+     "reading_romanized": "aisukoohii",
+     "meaning_ko": "아이스커피",
+     "explanation_ko": "소리 내어 읽고 뜻과 함께 익혀요."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-INTRO-34-Q1",
+     "type": "single_choice",
+     "prompt_ko": "「ハ」의 일반적인 로마자 표기는 무엇인가요?",
+     "options": [
+      "ha",
+      "he",
+      "ho",
+      "hi"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ハ는 ha로 표기합니다."
+    },
+    {
+     "id": "JP-INTRO-34-Q2",
+     "type": "single_choice",
+     "prompt_ko": "「フ」의 일반적인 로마자 표기는 무엇인가요?",
+     "options": [
+      "ha",
+      "hi",
+      "fu",
+      "ho"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "フ는 fu로 표기합니다(hu로 쓰기도 합니다). 히라가나 ふ와 같은 소리입니다."
+    },
+    {
+     "id": "JP-INTRO-34-Q3",
+     "type": "typing",
+     "prompt_ko": "「ヒ」를 일반적인 로마자로 입력하세요.",
+     "answer_text": "hi",
+     "accepted_answers": [
+      "hi"
+     ],
+     "explanation_ko": "ヒ → hi"
+    },
+    {
+     "id": "JP-INTRO-34-Q4",
+     "type": "typing",
+     "prompt_ko": "「コーヒー」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "koohii",
+     "accepted_answers": [
+      "koohii",
+      "kohi"
+     ],
+     "explanation_ko": "コーヒー = koohii (커피)"
+    },
+    {
+     "id": "JP-INTRO-34-Q5",
+     "type": "single_choice",
+     "prompt_ko": "「ソフト」의 뜻은?",
+     "options": [
+      "세트",
+      "소프트",
+      "스프",
+      "소스"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "ソフト(sofuto)는 '소프트(soft)'입니다."
+    },
+    {
+     "id": "JP-INTRO-34-Q6",
+     "type": "typing",
+     "prompt_ko": "「ナイフ」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "naifu",
+     "accepted_answers": [
+      "naifu",
+      "naihu"
+     ],
+     "explanation_ko": "ナイフ = naifu (나이프)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_KATAKANA"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전"
   }
  ]
 }

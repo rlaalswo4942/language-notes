@@ -1888,6 +1888,222 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N3-10",
+   "day_index": 10,
+   "week_index": 2,
+   "level": "N3",
+   "unit_id": "N3-W02",
+   "lesson_type": "new",
+   "title_ko": "〜うちに: ~하는 동안에·~하기 전에",
+   "objective_ko": "상태가 이어지는 동안에 해 두는 일과, 상태가 바뀌기 전에 해야 하는 일을 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N3-09"
+   ],
+   "explanation_ko": "〜うちに는 ① 어떤 상태가 이어지는 동안에(若いうちに, 日本にいるうちに), ② ない형과 함께 상태가 바뀌기 전에(冷めないうちに, 忘れないうちに), ③ 〜ているうちに로 ‘~하는 사이에 어느새 변화가 생긴다’(読んでいるうちに眠くなった)를 나타냅니다. 접속은 명사 + の, い형용사 사전형, な형용사 + な, 동사 사전형・ている・ない형입니다. 뒤에는 ‘해 두다・하는 편이 좋다’ 같은 행동이 자주 옵니다.",
+   "usage_notes": [
+    "①②는 뒤에 의지적인 행동(〜ておく・〜たほうがいい 등)이 오는 경우가 많습니다.",
+    "③ 〜ているうちに 뒤에는 의도하지 않은 변화(〜てきた・〜てしまった 등)가 옵니다.",
+    "〜間に와 비슷하지만 〜うちに는 ‘그 상태가 끝나기 전에 해야 한다’는 느낌이 강합니다."
+   ],
+   "common_mistakes": [
+    "冷めたうちに食べる(X) → 冷めないうちに食べる(O): ‘식기 전’이므로 ない형을 씁니다.",
+    "静かうちに(X) → 静かなうちに(O): な형용사에는 な를 붙입니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N3-10-01",
+     "kind": "word",
+     "text": "若{わか}い",
+     "reading_kana": "わかい",
+     "reading_romanized": "wakai",
+     "meaning_ko": "젊다",
+     "part_of_speech": "い형용사"
+    },
+    {
+     "id": "w-JP-N3-10-02",
+     "kind": "word",
+     "text": "冷{さ}める",
+     "reading_kana": "さめる",
+     "reading_romanized": "sameru",
+     "meaning_ko": "식다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N3-10-03",
+     "kind": "word",
+     "text": "経験{けいけん}",
+     "reading_kana": "けいけん",
+     "reading_romanized": "keiken",
+     "meaning_ko": "경험",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-10-04",
+     "kind": "word",
+     "text": "暗{くら}い",
+     "reading_kana": "くらい",
+     "reading_romanized": "kurai",
+     "meaning_ko": "어둡다",
+     "part_of_speech": "い형용사"
+    },
+    {
+     "id": "w-JP-N3-10-05",
+     "kind": "word",
+     "text": "覚{おぼ}える",
+     "reading_kana": "おぼえる",
+     "reading_romanized": "oboeru",
+     "meaning_ko": "기억하다, 외우다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N3-10-06",
+     "kind": "word",
+     "text": "新鮮{しんせん}",
+     "reading_kana": "しんせん",
+     "reading_romanized": "shinsen",
+     "meaning_ko": "신선함",
+     "part_of_speech": "な형용사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "若{わか}いうちに、いろいろな経験{けいけん}をしておきたい。",
+     "meaning_ko": "젊을 때 여러 가지 경험을 해 두고 싶다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "スープが冷{さ}めないうちに、食{た}べてください。",
+     "meaning_ko": "수프가 식기 전에 드세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "暗{くら}くならないうちに、家{いえ}に帰{かえ}りましょう。",
+     "meaning_ko": "어두워지기 전에 집에 돌아갑시다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "忘{わす}れないうちに、メモしておきます。",
+     "meaning_ko": "잊어버리기 전에 메모해 두겠습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "新鮮{しんせん}なうちに、魚{さかな}を食{た}べたほうがいい。",
+     "meaning_ko": "신선할 때 생선을 먹는 편이 좋다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "日本{にほん}にいるうちに、富士山{ふじさん}に登{のぼ}ってみたい。",
+     "meaning_ko": "일본에 있는 동안에 후지산에 올라 보고 싶다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "本{ほん}を読{よ}んでいるうちに、眠{ねむ}くなってしまった。",
+     "meaning_ko": "책을 읽다 보니 어느새 졸려졌다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "毎日{まいにち}練習{れんしゅう}しているうちに、上手{じょうず}になってきた。",
+     "meaning_ko": "매일 연습하는 사이에 점점 능숙해졌다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "覚{おぼ}えているうちに、ノートに書{か}いておこう。",
+     "meaning_ko": "기억하고 있을 때 노트에 적어 두자.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N3-10-Q1",
+     "type": "single_choice",
+     "prompt_ko": "スープが冷め（　）うちに、食べてください。",
+     "options": [
+      "ない",
+      "た",
+      "ている",
+      "なかった"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘식기 전에’는 ない형 + うちに. 상태가 바뀌기 전을 나타냅니다."
+    },
+    {
+     "id": "JP-N3-10-Q2",
+     "type": "single_choice",
+     "prompt_ko": "若い（　）、いろいろな経験をしておきたい。",
+     "options": [
+      "ところに",
+      "うちに",
+      "ばかりに",
+      "せいで"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "‘젊은 동안에’는 若いうちに."
+    },
+    {
+     "id": "JP-N3-10-Q3",
+     "type": "single_choice",
+     "prompt_ko": "‘어두워지기 전에 집에 돌아갑시다’를 바르게 나타낸 것은?",
+     "options": [
+      "暗くなるうちに家に帰りましょう",
+      "暗くなったうちに家に帰りましょう",
+      "暗くならないうちに家に帰りましょう",
+      "暗いうちに家に帰りましょう"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "변화(어두워짐)가 일어나기 전은 〜ないうちに."
+    },
+    {
+     "id": "JP-N3-10-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「練習しているうちに、上手になってきた」의 뜻은?",
+     "options": [
+      "연습하는 동안 점점 능숙해졌다",
+      "연습하기 전에 이미 능숙했다",
+      "연습하지 않아서 서툴렀다",
+      "연습한 덕분에 시험에 합격했다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜ているうちに는 ‘~하는 사이에 (어느새) 변화가 생김’을 나타냅니다."
+    },
+    {
+     "id": "JP-N3-10-Q5",
+     "type": "typing",
+     "prompt_ko": "「若い」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "wakai",
+     "accepted_answers": [
+      "wakai"
+     ],
+     "explanation_ko": "若い = わかい (wakai)"
+    },
+    {
+     "id": "JP-N3-10-Q6",
+     "type": "typing",
+     "prompt_ko": "「新鮮」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "shinsen",
+     "accepted_answers": [
+      "shinsen",
+      "sinsen"
+     ],
+     "explanation_ko": "新鮮 = しんせん (shinsen)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

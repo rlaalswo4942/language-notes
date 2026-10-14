@@ -1731,6 +1731,205 @@
     "version": 1,
     "last_revised": "2026-10-14"
    }
+  },
+  {
+   "id": "A1-010",
+   "level": "A1",
+   "track": "foundation",
+   "day": 10,
+   "title_ko": "장소 전치사: in / on / under / next to / behind / between",
+   "objective_ko": "물건과 사람의 위치를 전치사로 정확하게 말하고 Where 질문에 답한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-15",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "위치는 'be동사 + 전치사 + 장소'로 말합니다. in은 공간 안(in the bag, in the park), on은 표면 위에 닿아 있을 때(on the table), under는 아래(under the bed), next to는 바로 옆, behind는 뒤, between A and B는 두 대상 사이입니다. 위치를 물을 때는 Where is/are ...?로 묻고 It is/They are + 전치사 + 장소로 답합니다. 앞에서 배운 there is/are와 함께 쓸 수도 있습니다: There is a lamp on the desk.",
+    "common_mistake_ko": "The book is in the table.(X) → The book is on the table.(O) / My bag is next the door.(X) → My bag is next to the door.(O) / The bank is between the school.(X) → between the school and the park.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "under",
+     "part_of_speech": "전치사",
+     "meaning_ko": "~ 아래에",
+     "example_en": "The cat is under the bed.",
+     "example_ko": "고양이는 침대 밑에 있어요."
+    },
+    {
+     "word": "behind",
+     "part_of_speech": "전치사",
+     "meaning_ko": "~ 뒤에",
+     "example_en": "The shoes are behind the door.",
+     "example_ko": "신발은 문 뒤에 있어요."
+    },
+    {
+     "word": "next to",
+     "part_of_speech": "전치사",
+     "meaning_ko": "~ 옆에",
+     "example_en": "My bag is next to the door.",
+     "example_ko": "내 가방은 문 옆에 있어요."
+    },
+    {
+     "word": "between",
+     "part_of_speech": "전치사",
+     "meaning_ko": "(둘) 사이에",
+     "example_en": "The bank is between the school and the park.",
+     "example_ko": "은행은 학교와 공원 사이에 있어요."
+    },
+    {
+     "word": "table",
+     "part_of_speech": "명사",
+     "meaning_ko": "탁자",
+     "example_en": "The book is on the table.",
+     "example_ko": "책은 탁자 위에 있어요."
+    },
+    {
+     "word": "bed",
+     "part_of_speech": "명사",
+     "meaning_ko": "침대",
+     "example_en": "My bed is next to the window.",
+     "example_ko": "내 침대는 창문 옆에 있어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The book is on the table.",
+     "ko": "책은 탁자 위에 있어요."
+    },
+    {
+     "en": "The cat is under the bed.",
+     "ko": "고양이는 침대 밑에 있어요."
+    },
+    {
+     "en": "My bag is next to the door.",
+     "ko": "내 가방은 문 옆에 있어요."
+    },
+    {
+     "en": "The bank is between the school and the park.",
+     "ko": "은행은 학교와 공원 사이에 있어요."
+    },
+    {
+     "en": "Is your phone in your bag?",
+     "ko": "당신의 휴대전화는 가방 안에 있어요?"
+    },
+    {
+     "en": "The shoes are behind the door.",
+     "ko": "신발은 문 뒤에 있어요."
+    },
+    {
+     "en": "There is a lamp on the desk.",
+     "ko": "책상 위에 램프가 하나 있어요."
+    },
+    {
+     "en": "Where is my key? — It is under the book.",
+     "ko": "내 열쇠가 어디 있어요? — 책 밑에 있어요."
+    },
+    {
+     "en": "The children are in the park.",
+     "ko": "아이들은 공원 안에 있어요."
+    },
+    {
+     "en": "My bed is next to the window.",
+     "ko": "내 침대는 창문 옆에 있어요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "A1-010-Q1",
+     "type": "single_choice",
+     "stem": "The cat is ___ the bed. (침대 밑에)",
+     "choices": [
+      "on",
+      "next to",
+      "under",
+      "between"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "'~ 밑에'는 under입니다.",
+     "error_tag": "preposition"
+    },
+    {
+     "id": "A1-010-Q2",
+     "type": "single_choice",
+     "stem": "The bank is ___ the school and the park. (학교와 공원 사이에)",
+     "choices": [
+      "between",
+      "under",
+      "in",
+      "on"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "두 대상 사이는 between A and B로 말합니다.",
+     "error_tag": "preposition"
+    },
+    {
+     "id": "A1-010-Q3",
+     "type": "single_choice",
+     "stem": "'책은 탁자 위에 있어요'에 맞는 문장은?",
+     "choices": [
+      "The book is in the table.",
+      "The book is on the table.",
+      "The book is under the table.",
+      "The book is between the table."
+     ],
+     "answer_index": 1,
+     "explanation_ko": "표면 위에 닿아 있을 때는 on을 씁니다.",
+     "error_tag": "preposition"
+    },
+    {
+     "id": "A1-010-Q4",
+     "type": "single_choice",
+     "stem": "Where is my key? 알맞은 대답은?",
+     "choices": [
+      "Yes, it is.",
+      "I am fine.",
+      "It is under the book.",
+      "At seven."
+     ],
+     "answer_index": 2,
+     "explanation_ko": "Where 질문에는 위치로 대답합니다: It is under the book.",
+     "error_tag": "question-answer"
+    },
+    {
+     "id": "A1-010-Q5",
+     "type": "typing",
+     "stem": "빈칸에 알맞은 말을 쓰세요: The shoes are ___ the door. (문 뒤에)",
+     "answer_text": "behind",
+     "accepted_answers": [
+      "behind"
+     ],
+     "explanation_ko": "'~ 뒤에'는 behind입니다.",
+     "error_tag": "preposition"
+    },
+    {
+     "id": "A1-010-Q6",
+     "type": "typing",
+     "stem": "빈칸에 알맞은 말을 쓰세요: My bag is next ___ the door. (문 옆에)",
+     "answer_text": "to",
+     "accepted_answers": [
+      "to"
+     ],
+     "explanation_ko": "'~ 옆에'는 next to입니다.",
+     "error_tag": "preposition"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "방 안의 물건 두 개의 위치를 전치사를 써서 두 문장으로 써 보세요.",
+    "example_answer_en": "The book is on the desk. The bag is under the chair.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 전치사가 위치에 맞는지 확인하세요."
+   },
+   "publish_date": "2026-10-15",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-15"
+   }
   }
  ]
 }

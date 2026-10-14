@@ -689,6 +689,204 @@
     "version": 1,
     "last_revised": "2026-10-14"
    }
+  },
+  {
+   "id": "B1-005",
+   "level": "B1",
+   "track": "general",
+   "day": 5,
+   "title_ko": "관계절 입문: who / which / that",
+   "objective_ko": "명사 뒤에 who, which, that으로 시작하는 절을 붙여 사람과 사물을 구체적으로 설명한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-15",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "관계절은 명사 바로 뒤에서 그 명사를 자세히 설명합니다. 사람을 설명할 때는 who(또는 that), 사물을 설명할 때는 which(또는 that)를 씁니다: The neighbor who lives upstairs is a doctor. / This is the tool which opens the box. 이 단원의 who/which/that은 관계절 안에서 주어 역할을 하므로 생략하지 않고, 뒤에 주어를 또 쓰지 않습니다. 관계절의 동사는 선행사에 맞춥니다: The woman who works here / The people who work here.",
+    "common_mistake_ko": "The woman who she works here is my sister.(X) → The woman who works here is my sister.(O) / The tool who opens the box...(X) → The tool which(that) opens the box...(O) / The people who works here...(X) → The people who work here...(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "neighbor",
+     "part_of_speech": "명사",
+     "meaning_ko": "이웃",
+     "example_en": "The neighbor who lives upstairs is a doctor.",
+     "example_ko": "위층에 사는 이웃은 의사예요."
+    },
+    {
+     "word": "customer",
+     "part_of_speech": "명사",
+     "meaning_ko": "고객, 손님",
+     "example_en": "A customer is a person who buys things from a shop.",
+     "example_ko": "고객은 가게에서 물건을 사는 사람이에요."
+    },
+    {
+     "word": "tool",
+     "part_of_speech": "명사",
+     "meaning_ko": "도구",
+     "example_en": "This is the tool which opens the box.",
+     "example_ko": "이것은 상자를 여는 도구예요."
+    },
+    {
+     "word": "device",
+     "part_of_speech": "명사",
+     "meaning_ko": "장치, 기기",
+     "example_en": "The device that controls the lights is on the wall.",
+     "example_ko": "조명을 조절하는 장치는 벽에 있어요."
+    },
+    {
+     "word": "employee",
+     "part_of_speech": "명사",
+     "meaning_ko": "직원",
+     "example_en": "The employee who answered the phone was very helpful.",
+     "example_ko": "전화를 받은 직원은 매우 친절했어요."
+    },
+    {
+     "word": "gift",
+     "part_of_speech": "명사",
+     "meaning_ko": "선물",
+     "example_en": "The gift which arrived yesterday is from my aunt.",
+     "example_ko": "어제 도착한 선물은 이모가 보낸 거예요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The neighbor who lives upstairs is a doctor.",
+     "ko": "위층에 사는 이웃은 의사예요."
+    },
+    {
+     "en": "A customer is a person who buys things from a shop.",
+     "ko": "고객은 가게에서 물건을 사는 사람이에요."
+    },
+    {
+     "en": "This is the tool which opens the box.",
+     "ko": "이것은 상자를 여는 도구예요."
+    },
+    {
+     "en": "I have a friend that speaks three languages.",
+     "ko": "나는 세 가지 언어를 말하는 친구가 있어요."
+    },
+    {
+     "en": "The device that controls the lights is on the wall.",
+     "ko": "조명을 조절하는 장치는 벽에 있어요."
+    },
+    {
+     "en": "The employee who answered the phone was very helpful.",
+     "ko": "전화를 받은 직원은 매우 친절했어요."
+    },
+    {
+     "en": "The gift which arrived yesterday is from my aunt.",
+     "ko": "어제 도착한 선물은 이모가 보낸 거예요."
+    },
+    {
+     "en": "People who exercise regularly usually sleep well.",
+     "ko": "규칙적으로 운동하는 사람들은 보통 잠을 잘 자요."
+    },
+    {
+     "en": "The woman who works here is my sister.",
+     "ko": "여기서 일하는 여자는 내 여자 형제예요."
+    },
+    {
+     "en": "A tool that cuts paper is called scissors.",
+     "ko": "종이를 자르는 도구는 가위라고 불려요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "B1005-Q1",
+     "type": "single_choice",
+     "stem": "The neighbor ___ lives upstairs is a doctor.",
+     "choices": [
+      "which",
+      "who",
+      "what"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "선행사 neighbor는 사람이므로 who를 씁니다.",
+     "error_tag": "relative-clause"
+    },
+    {
+     "id": "B1005-Q2",
+     "type": "single_choice",
+     "stem": "This is the tool ___ opens the box.",
+     "choices": [
+      "who",
+      "where",
+      "which"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "선행사 tool은 사물이므로 which(또는 that)를 씁니다.",
+     "error_tag": "relative-clause"
+    },
+    {
+     "id": "B1005-Q3",
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "The woman who she works here is my sister.",
+      "The woman who works here is my sister.",
+      "The woman who work here is my sister.",
+      "The woman which works here is my sister."
+     ],
+     "answer_index": 1,
+     "explanation_ko": "who가 이미 주어 역할을 하므로 she를 또 쓰지 않습니다. 선행사가 단수라 동사는 works이고, 사람이므로 which가 아니라 who입니다.",
+     "error_tag": "relative-clause"
+    },
+    {
+     "id": "B1005-Q4",
+     "type": "single_choice",
+     "stem": "A customer is a person ___ buys things from a shop.",
+     "choices": [
+      "that",
+      "what",
+      "whose"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "선행사 person을 받는 주격 관계대명사는 who 또는 that입니다. what과 whose는 이 문장에 맞지 않습니다.",
+     "error_tag": "relative-clause"
+    },
+    {
+     "id": "B1005-Q5",
+     "type": "typing",
+     "stem": "빈칸에 쓰세요: People ___ exercise regularly usually sleep well. (사람, who 또는 that)",
+     "answer_text": "who",
+     "accepted_answers": [
+      "who",
+      "that"
+     ],
+     "explanation_ko": "사람을 설명하는 주격 관계대명사는 who입니다. that도 쓸 수 있습니다.",
+     "error_tag": "relative-clause"
+    },
+    {
+     "id": "B1005-Q6",
+     "type": "typing",
+     "stem": "빈칸에 쓰세요: The device ___ controls the lights is on the wall. (사물, who는 쓰지 않음)",
+     "answer_text": "that",
+     "accepted_answers": [
+      "that",
+      "which"
+     ],
+     "explanation_ko": "사물을 설명하는 주격 관계대명사는 which 또는 that입니다.",
+     "error_tag": "relative-clause"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "who 또는 which/that을 사용해 주변 사람이나 물건을 설명하는 문장을 한 개 써 보세요.",
+    "example_answer_en": "I have a neighbor who plays the piano every evening.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 선행사에 맞는 관계대명사와 동사 형태를 확인하세요."
+   },
+   "publish_date": "2026-10-15",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-15"
+   }
   }
  ]
 }

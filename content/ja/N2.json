@@ -1883,6 +1883,218 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-10",
+   "day_index": 10,
+   "week_index": 2,
+   "level": "N2",
+   "unit_id": "N2-W02",
+   "lesson_type": "new",
+   "title_ko": "〜に基づいて: ~에 근거해",
+   "objective_ko": "조사・법률・사실 같은 근거를 바탕으로 판단하거나 행동한다고 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-09"
+   ],
+   "explanation_ko": "〜に基づいて는 ‘~에 근거해서, ~을 바탕으로’로, 법률・계약・데이터・사실・경험처럼 기준이 되는 것에 접속합니다. 명사 + に基づいて + 동작(調査に基づいて計画を立てた), 명사를 수식할 때는 に基づく / に基づいた(事実に基づく話), 문을 이을 때는 に基づき를 씁니다. 근거를 객관적으로 밝히는 격식 있는 표현으로 보고서・기사에서 자주 나옵니다.",
+   "usage_notes": [
+    "‘~에’에 해당하는 조사는 に입니다. を나 で로 바꾸지 않습니다.",
+    "명사 수식은 に基づく / に基づいた, 동사를 수식할 때는 に基づいて / に基づき를 씁니다.",
+    "단순한 재료를 나타내는 〜をもとに보다 규칙・사실 같은 기준이라는 느낌이 강합니다."
+   ],
+   "common_mistakes": [
+    "事実を基づいて判断する(X) → 事実に基づいて判断する(O)",
+    "統計に基づいて予測によると(X) → 統計に基づく予測によると(O): 뒤에 명사가 오면 基づく로 바꿉니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N2-10-01",
+     "kind": "word",
+     "text": "調査{ちょうさ}",
+     "reading_kana": "ちょうさ",
+     "reading_romanized": "chousa",
+     "meaning_ko": "조사",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-10-02",
+     "kind": "word",
+     "text": "事実{じじつ}",
+     "reading_kana": "じじつ",
+     "reading_romanized": "jijitsu",
+     "meaning_ko": "사실",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-10-03",
+     "kind": "word",
+     "text": "法律{ほうりつ}",
+     "reading_kana": "ほうりつ",
+     "reading_romanized": "houritsu",
+     "meaning_ko": "법률",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-10-04",
+     "kind": "word",
+     "text": "契約{けいやく}",
+     "reading_kana": "けいやく",
+     "reading_romanized": "keiyaku",
+     "meaning_ko": "계약",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-10-05",
+     "kind": "word",
+     "text": "統計{とうけい}",
+     "reading_kana": "とうけい",
+     "reading_romanized": "toukei",
+     "meaning_ko": "통계",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-10-06",
+     "kind": "word",
+     "text": "判断{はんだん}",
+     "reading_kana": "はんだん",
+     "reading_romanized": "handan",
+     "meaning_ko": "판단",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "調査{ちょうさ}の結果{けっか}に基{もと}づいて、新{あたら}しい計画{けいかく}を立{た}てた。",
+     "meaning_ko": "조사 결과에 근거해 새로운 계획을 세웠다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この映画{えいが}は、実際{じっさい}にあった事件{じけん}に基{もと}づいて作{つく}られた。",
+     "meaning_ko": "이 영화는 실제로 있었던 사건에 바탕을 두고 만들어졌다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "法律{ほうりつ}に基{もと}づいて、手続{てつづ}きを進{すす}める。",
+     "meaning_ko": "법률에 근거해 절차를 진행한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "契約{けいやく}に基{もと}づき、代金{だいきん}を支払{しはら}う。",
+     "meaning_ko": "계약에 따라 대금을 지불한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "統計{とうけい}に基{もと}づく予測{よそく}によると、人口{じんこう}は減少{げんしょう}するという。",
+     "meaning_ko": "통계에 근거한 예측에 따르면 인구는 감소한다고 한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "事実{じじつ}に基{もと}づいて判断{はんだん}することが大切{たいせつ}だ。",
+     "meaning_ko": "사실에 근거해 판단하는 것이 중요하다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "経験{けいけん}に基{もと}づいた意見{いけん}なので、説得力{せっとくりょく}がある。",
+     "meaning_ko": "경험에 바탕을 둔 의견이라 설득력이 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "データに基{もと}づいて、売{う}り上{あ}げの変化{へんか}を分析{ぶんせき}した。",
+     "meaning_ko": "데이터에 근거해 매출의 변화를 분석했다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N2-10-Q1",
+     "type": "single_choice",
+     "prompt_ko": "調査の結果（　）、計画を立てた。",
+     "options": [
+      "に対して",
+      "に基づいて",
+      "に伴って",
+      "にもかかわらず"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "근거가 되는 것을 나타내므로 〜に基づいて."
+    },
+    {
+     "id": "JP-N2-10-Q2",
+     "type": "single_choice",
+     "prompt_ko": "統計（　）予測によると、人口は減少するという。",
+     "options": [
+      "に基づいて",
+      "に基づけ",
+      "に基づく",
+      "に基づき"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "뒤의 명사(予測)를 수식할 때는 〜に基づく(또는 〜に基づいた)."
+    },
+    {
+     "id": "JP-N2-10-Q3",
+     "type": "single_choice",
+     "prompt_ko": "‘법률에 근거해 절차를 진행한다’를 바르게 나타낸 것은?",
+     "options": [
+      "法律を基づいて手続きを進める",
+      "法律に基づいて手続きを進める",
+      "法律に基づけて手続きを進める",
+      "法律で基づいて手続きを進める"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "근거가 되는 말에는 조사 に를 씁니다: 〜に基づいて."
+    },
+    {
+     "id": "JP-N2-10-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「事実に基づいて判断する」의 뜻은?",
+     "options": [
+      "사실에 반해서 판단한다",
+      "사실을 둘러싸고 판단한다",
+      "사실과 관계없이 판단한다",
+      "사실에 근거해 판단한다"
+     ],
+     "answer_index": 3,
+     "explanation_ko": "〜に基づいて는 ‘~에 근거해・바탕을 두고’."
+    },
+    {
+     "id": "JP-N2-10-Q5",
+     "type": "typing",
+     "prompt_ko": "「調査」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "chousa",
+     "accepted_answers": [
+      "chousa",
+      "chosa"
+     ],
+     "explanation_ko": "調査 = ちょうさ (chousa)"
+    },
+    {
+     "id": "JP-N2-10-Q6",
+     "type": "typing",
+     "prompt_ko": "「統計」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "toukei",
+     "accepted_answers": [
+      "toukei",
+      "tokei"
+     ],
+     "explanation_ko": "統計 = とうけい (toukei)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

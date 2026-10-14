@@ -1723,6 +1723,203 @@
     "version": 1,
     "last_revised": "2026-10-14"
    }
+  },
+  {
+   "id": "B2-010",
+   "level": "B2",
+   "track": "general",
+   "day": 10,
+   "title_ko": "사역 구문: have / get + 목적어 + 과거분사",
+   "objective_ko": "남에게 맡겨서 하는 일과 뜻하지 않게 당한 일을 have/get + 목적어 + 과거분사로 표현한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-15",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "have/get + 목적어 + 과거분사는 직접 하지 않고 다른 사람에게 시키거나 맡겨서 받는 일(I had my hair cut)을 말합니다. 목적어가 '~되는' 대상이어서 뒤에 과거분사를 씁니다. get은 구어체에서 자주 쓰입니다(She got her laptop repaired). 같은 구조가 원치 않는 일을 겪었을 때 '~당하다'는 뜻으로도 쓰입니다(They had their car stolen). 시제는 have/get을 바꿔 나타냅니다: I'm having the kitchen renovated.",
+    "common_mistake_ko": "I cut my hair yesterday.(미용실에서 잘랐다는 뜻이 아님) → I had my hair cut yesterday.(O) / I had my car repair.(X) → I had my car repaired.(O) / I had repaired my car.(과거완료, 직접 수리했었다는 뜻) → 맡겼다면 I had my car repaired."
+   },
+   "vocabulary": [
+    {
+     "word": "renovate",
+     "part_of_speech": "동사",
+     "meaning_ko": "(건물·방을) 개조하다, 보수하다",
+     "example_en": "We are having the kitchen renovated.",
+     "example_ko": "우리는 부엌을 리모델링받는 중이에요."
+    },
+    {
+     "word": "install",
+     "part_of_speech": "동사",
+     "meaning_ko": "설치하다",
+     "example_en": "He had a new alarm installed.",
+     "example_ko": "그는 새 경보기를 설치받았어요."
+    },
+    {
+     "word": "inspect",
+     "part_of_speech": "동사",
+     "meaning_ko": "점검하다, 검사하다",
+     "example_en": "You should get the brakes inspected.",
+     "example_ko": "브레이크를 점검받는 게 좋아요."
+    },
+    {
+     "word": "mechanic",
+     "part_of_speech": "명사",
+     "meaning_ko": "정비사",
+     "example_en": "A mechanic inspected the car.",
+     "example_ko": "정비사가 차를 점검했어요."
+    },
+    {
+     "word": "haircut",
+     "part_of_speech": "명사",
+     "meaning_ko": "이발, 머리 자르기",
+     "example_en": "I had my hair cut yesterday.",
+     "example_ko": "어제 머리를 잘랐어요(미용사에게)."
+    },
+    {
+     "word": "deliver",
+     "part_of_speech": "동사",
+     "meaning_ko": "배달하다",
+     "example_en": "I need to have this package delivered by Friday.",
+     "example_ko": "이 소포를 금요일까지 배달받아야 해요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I had my hair cut yesterday.",
+     "ko": "어제 머리를 잘랐어요(미용사에게 맡겨서)."
+    },
+    {
+     "en": "We are having the kitchen renovated.",
+     "ko": "우리는 부엌을 리모델링받는 중이에요."
+    },
+    {
+     "en": "She got her laptop repaired last week.",
+     "ko": "그녀는 지난주에 노트북을 수리받았어요."
+    },
+    {
+     "en": "He had a new alarm installed.",
+     "ko": "그는 새 경보기를 설치받았어요."
+    },
+    {
+     "en": "You should get the brakes inspected.",
+     "ko": "브레이크를 점검받는 게 좋아요."
+    },
+    {
+     "en": "I need to have this package delivered by Friday.",
+     "ko": "이 소포를 금요일까지 배달받아야 해요."
+    },
+    {
+     "en": "They had their car stolen last night.",
+     "ko": "그들은 지난밤에 차를 도난당했어요."
+    },
+    {
+     "en": "Have you had your eyes tested recently?",
+     "ko": "최근에 시력 검사를 받았어요?"
+    },
+    {
+     "en": "The company is having a new website designed.",
+     "ko": "그 회사는 새 웹사이트를 디자인받는 중이에요."
+    },
+    {
+     "en": "A mechanic inspected the car.",
+     "ko": "정비사가 차를 점검했어요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "B2-010-Q1",
+     "type": "single_choice",
+     "stem": "I ___ my hair cut yesterday.",
+     "choices": [
+      "did",
+      "had",
+      "cut"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "남에게 맡겨서 하는 일은 have + 목적어 + 과거분사 구조입니다. 과거이므로 had를 씁니다.",
+     "error_tag": "causative"
+    },
+    {
+     "id": "B2-010-Q2",
+     "type": "single_choice",
+     "stem": "We are having the kitchen ___.",
+     "choices": [
+      "renovate",
+      "renovating",
+      "renovated"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "have + 목적어 + 과거분사: 부엌이 '개조되는' 대상이므로 renovated입니다.",
+     "error_tag": "causative"
+    },
+    {
+     "id": "B2-010-Q3",
+     "type": "single_choice",
+     "stem": "'그는 새 경보기를 (남에게) 설치받았다'에 가장 알맞은 문장은?",
+     "choices": [
+      "He had a new alarm installed.",
+      "He had installed a new alarm.",
+      "He had a new alarm install.",
+      "He installs had a new alarm."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "had installed a new alarm은 '이전에 자신이 설치했었다'(과거완료)는 뜻입니다. 설치받았다는 had + 목적어 + 과거분사입니다.",
+     "error_tag": "causative"
+    },
+    {
+     "id": "B2-010-Q4",
+     "type": "single_choice",
+     "stem": "'그들은 지난밤 차를 도난당했다'에 맞는 문장은?",
+     "choices": [
+      "They stole their car last night.",
+      "They had their car stolen last night.",
+      "They had stolen their car last night.",
+      "They had their car steal last night."
+     ],
+     "answer_index": 1,
+     "explanation_ko": "have + 목적어 + 과거분사는 원치 않는 일을 '당하다'는 뜻으로도 쓰입니다. had stolen their car는 '자기 차를 훔쳤었다'가 됩니다.",
+     "error_tag": "causative"
+    },
+    {
+     "id": "B2-010-Q5",
+     "type": "typing",
+     "stem": "빈칸에 쓰세요: She got her laptop ___ last week. (repair)",
+     "answer_text": "repaired",
+     "accepted_answers": [
+      "repaired"
+     ],
+     "explanation_ko": "get + 목적어 + 과거분사입니다. repair의 과거분사는 repaired입니다.",
+     "error_tag": "causative"
+    },
+    {
+     "id": "B2-010-Q6",
+     "type": "typing",
+     "stem": "빈칸에 쓰세요: I need to have this package ___ by Friday. (deliver)",
+     "answer_text": "delivered",
+     "accepted_answers": [
+      "delivered"
+     ],
+     "explanation_ko": "have + 목적어(this package) + 과거분사 delivered입니다.",
+     "error_tag": "causative"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "직접 하지 않고 남에게 맡겨서 한 일(또는 맡길 계획)을 have/get + 과거분사로 한두 문장 써 보세요.",
+    "example_answer_en": "I had my bike repaired last week. I'm going to get my hair cut tomorrow.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 목적어 뒤에 과거분사를 썼는지 확인하세요."
+   },
+   "publish_date": "2026-10-15",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-15"
+   }
   }
  ]
 }
