@@ -3609,6 +3609,171 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전"
+  },
+  {
+   "id": "JP-INTRO-35",
+   "day_index": 35,
+   "week_index": 5,
+   "level": "INTRO",
+   "unit_id": "INTRO-W05",
+   "lesson_type": "checkpoint",
+   "title_ko": "가타카나 ア~ハ행 점검",
+   "objective_ko": "지금까지 배운 가타카나 ア·カ·サ·タ·ナ·ハ행 30자를 단어로 읽고 뜻과 연결한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-INTRO-34"
+   ],
+   "new_items": [],
+   "examples": [
+    {
+     "japanese": "アイス",
+     "reading_romanized": "aisu",
+     "meaning_ko": "아이스, 얼음",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "コーヒー",
+     "reading_romanized": "koohii",
+     "meaning_ko": "커피",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "ケーキ",
+     "reading_romanized": "keeki",
+     "meaning_ko": "케이크",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "テスト",
+     "reading_romanized": "tesuto",
+     "meaning_ko": "테스트, 시험",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "ノート",
+     "reading_romanized": "nooto",
+     "meaning_ko": "노트, 공책",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "ネクタイ",
+     "reading_romanized": "nekutai",
+     "meaning_ko": "넥타이",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "トースト",
+     "reading_romanized": "toosuto",
+     "meaning_ko": "토스트",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "セーター",
+     "reading_romanized": "seetaa",
+     "meaning_ko": "스웨터",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "スケート",
+     "reading_romanized": "sukeeto",
+     "meaning_ko": "스케이트",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "サイト",
+     "reading_romanized": "saito",
+     "meaning_ko": "사이트(웹사이트)",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-INTRO-35-Q1",
+     "type": "single_choice",
+     "prompt_ko": "「ケーキ」의 뜻은?",
+     "options": [
+      "케이크",
+      "커피",
+      "토스트",
+      "테스트"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ケーキ(keeki)는 '케이크'입니다."
+    },
+    {
+     "id": "JP-INTRO-35-Q2",
+     "type": "single_choice",
+     "prompt_ko": "「ネクタイ」의 읽기를 고르세요.",
+     "options": [
+      "nekutai",
+      "nikutai",
+      "nekotai",
+      "nakutai"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ネ=ne, ク=ku, タ=ta, イ=i → nekutai(넥타이)."
+    },
+    {
+     "id": "JP-INTRO-35-Q3",
+     "type": "single_choice",
+     "prompt_ko": "「セーター」의 뜻은?",
+     "options": [
+      "스웨터",
+      "셔츠",
+      "시트",
+      "센터"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "セーター(seetaa)는 '스웨터'입니다."
+    },
+    {
+     "id": "JP-INTRO-35-Q4",
+     "type": "typing",
+     "prompt_ko": "「テスト」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "tesuto",
+     "accepted_answers": [
+      "tesuto"
+     ],
+     "explanation_ko": "テスト = tesuto (테스트, 시험)"
+    },
+    {
+     "id": "JP-INTRO-35-Q5",
+     "type": "typing",
+     "prompt_ko": "「ノート」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "nooto",
+     "accepted_answers": [
+      "nooto",
+      "noto",
+      "nōto"
+     ],
+     "explanation_ko": "ノート = nooto (노트). 장음 ー는 oo로 씁니다."
+    },
+    {
+     "id": "JP-INTRO-35-Q6",
+     "type": "typing",
+     "prompt_ko": "「スケート」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "sukeeto",
+     "accepted_answers": [
+      "sukeeto",
+      "suketo",
+      "sukēto"
+     ],
+     "explanation_ko": "スケート = sukeeto (스케이트)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_KATAKANA"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전"
   }
  ]
 }

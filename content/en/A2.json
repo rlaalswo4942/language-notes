@@ -1919,6 +1919,206 @@
     "version": 1,
     "last_revised": "2026-10-15"
    }
+  },
+  {
+   "id": "A2-011",
+   "level": "A2",
+   "track": "foundation",
+   "day": 11,
+   "title_ko": "enjoy -ing / want to: 동사 뒤에 오는 동사의 모양",
+   "objective_ko": "enjoy, finish, practice 뒤에는 -ing를, want, decide, hope, learn 뒤에는 to + 동사원형을 쓴다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-16",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "한 문장에서 동사 뒤에 또 다른 동사가 올 때 앞 동사에 따라 모양이 정해집니다. enjoy, finish, practice 뒤에는 동사에 -ing를 붙입니다: I enjoy cooking. She finished doing her homework. want, decide, hope, learn, need 뒤에는 to + 동사원형을 씁니다: I want to visit Japan. They decided to stay home. 둘을 서로 바꿔 쓸 수 없습니다. 이 단원에서는 위의 동사들만 연습합니다(like, love처럼 둘 다 가능한 동사는 다루지 않습니다).",
+    "common_mistake_ko": "I enjoy to cook.(X) → I enjoy cooking.(O) / She wants going home.(X) → She wants to go home.(O) / I hope to seeing you.(X) → I hope to see you.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "enjoy",
+     "part_of_speech": "동사",
+     "meaning_ko": "즐기다 (+ -ing)",
+     "example_en": "I enjoy cooking.",
+     "example_ko": "나는 요리하는 것을 즐겨요."
+    },
+    {
+     "word": "finish",
+     "part_of_speech": "동사",
+     "meaning_ko": "끝내다 (+ -ing)",
+     "example_en": "He finished reading the book.",
+     "example_ko": "그는 그 책을 다 읽었어요."
+    },
+    {
+     "word": "practice",
+     "part_of_speech": "동사",
+     "meaning_ko": "연습하다 (+ -ing)",
+     "example_en": "We practice speaking English.",
+     "example_ko": "우리는 영어로 말하는 연습을 해요."
+    },
+    {
+     "word": "decide",
+     "part_of_speech": "동사",
+     "meaning_ko": "결정하다 (+ to)",
+     "example_en": "They decided to stay home.",
+     "example_ko": "그들은 집에 있기로 결정했어요."
+    },
+    {
+     "word": "hope",
+     "part_of_speech": "동사",
+     "meaning_ko": "바라다 (+ to)",
+     "example_en": "She hopes to pass the test.",
+     "example_ko": "그녀는 시험에 합격하기를 바라요."
+    },
+    {
+     "word": "learn",
+     "part_of_speech": "동사",
+     "meaning_ko": "배우다 (+ to)",
+     "example_en": "I am learning to drive.",
+     "example_ko": "나는 운전을 배우고 있어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I enjoy cooking.",
+     "ko": "나는 요리하는 것을 즐겨요."
+    },
+    {
+     "en": "She enjoys listening to music.",
+     "ko": "그녀는 음악 듣는 것을 즐겨요."
+    },
+    {
+     "en": "He finished doing his homework.",
+     "ko": "그는 숙제를 다 했어요."
+    },
+    {
+     "en": "We practice speaking English every day.",
+     "ko": "우리는 매일 영어로 말하는 연습을 해요."
+    },
+    {
+     "en": "I want to visit Japan.",
+     "ko": "나는 일본에 가 보고 싶어요."
+    },
+    {
+     "en": "They decided to stay at home.",
+     "ko": "그들은 집에 있기로 결정했어요."
+    },
+    {
+     "en": "She hopes to pass the test.",
+     "ko": "그녀는 시험에 합격하기를 바라요."
+    },
+    {
+     "en": "I am learning to drive.",
+     "ko": "나는 운전을 배우고 있어요."
+    },
+    {
+     "en": "My brother enjoys playing games.",
+     "ko": "내 남자 형제는 게임하는 것을 즐겨요."
+    },
+    {
+     "en": "We need to leave now.",
+     "ko": "우리는 지금 떠나야 해요."
+    },
+    {
+     "en": "He wants to buy a new phone.",
+     "ko": "그는 새 휴대폰을 사고 싶어 해요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "A2-011-Q1",
+     "type": "single_choice",
+     "stem": "I enjoy ___ English movies.",
+     "choices": [
+      "watch",
+      "watching",
+      "to watch"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "enjoy 뒤에는 동사 + -ing를 씁니다.",
+     "error_tag": "gerund-infinitive"
+    },
+    {
+     "id": "A2-011-Q2",
+     "type": "single_choice",
+     "stem": "She wants ___ a doctor.",
+     "choices": [
+      "be",
+      "being",
+      "to be"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "want 뒤에는 to + 동사원형을 씁니다.",
+     "error_tag": "gerund-infinitive"
+    },
+    {
+     "id": "A2-011-Q3",
+     "type": "single_choice",
+     "stem": "They decided ___ a taxi.",
+     "choices": [
+      "take",
+      "taking",
+      "to take"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "decide 뒤에는 to + 동사원형을 씁니다.",
+     "error_tag": "gerund-infinitive"
+    },
+    {
+     "id": "A2-011-Q4",
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "I finished to read the book.",
+      "I finished reading the book.",
+      "I finished read the book.",
+      "I finished reads the book."
+     ],
+     "answer_index": 1,
+     "explanation_ko": "finish 뒤에는 -ing 형태가 옵니다.",
+     "error_tag": "gerund-infinitive"
+    },
+    {
+     "id": "A2-011-Q5",
+     "type": "typing",
+     "stem": "괄호 안의 동사를 알맞은 모양으로 쓰세요: He enjoys ___ pictures. (take)",
+     "answer_text": "taking",
+     "accepted_answers": [
+      "taking"
+     ],
+     "explanation_ko": "enjoy 뒤에는 -ing를 씁니다. take는 e를 빼고 taking이 됩니다.",
+     "error_tag": "gerund-infinitive"
+    },
+    {
+     "id": "A2-011-Q6",
+     "type": "typing",
+     "stem": "빈칸에 알맞은 말을 쓰세요(두 단어): I hope ___ you again. (see)",
+     "answer_text": "to see",
+     "accepted_answers": [
+      "to see"
+     ],
+     "explanation_ko": "hope 뒤에는 to + 동사원형을 씁니다.",
+     "error_tag": "gerund-infinitive"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "enjoy -ing를 쓴 문장 한 개와 want to를 쓴 문장 한 개를 나에 대해 써 보세요.",
+    "example_answer_en": "I enjoy reading books. I want to travel to Japan.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. enjoy 뒤에 -ing, want 뒤에 to + 동사원형을 썼는지 확인하세요."
+   },
+   "publish_date": "2026-10-16",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-16"
+   }
   }
  ]
 }

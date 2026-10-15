@@ -2105,6 +2105,400 @@
     "version": 1,
     "last_revised": "2026-10-15"
    }
+  },
+  {
+   "id": "PRE-016",
+   "level": "Pre-A1",
+   "track": "foundation",
+   "day": 16,
+   "title_ko": "have / has: 가지고 있는 것 말하기",
+   "objective_ko": "I, you, we, they는 have, he, she, 한 사람·한 개는 has를 써서 가지고 있는 것을 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-16",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "have는 '가지고 있다, ~이 있다'는 뜻의 일반동사입니다. I, you, we, they와 복수 주어에는 have를 씁니다: I have a bike. They have a car. he, she, 또는 한 사람·한 개(My sister, Tom)가 주어이면 has를 씁니다: He has a bike. My sister has a cat. have가 has로 바뀌는 것은 어제 배운 -s 규칙의 특별한 경우입니다(haves라고 쓰지 않습니다). have/has도 일반동사이므로 앞에 am/is/are를 함께 쓰지 않습니다.",
+    "common_mistake_ko": "She have a bike.(X) → She has a bike.(O) / He haves a cat.(X) → He has a cat.(O) / He is has a cat.(X) → He has a cat.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "have",
+     "part_of_speech": "동사",
+     "meaning_ko": "가지고 있다",
+     "example_en": "I have a bike.",
+     "example_ko": "나는 자전거가 있어요."
+    },
+    {
+     "word": "has",
+     "part_of_speech": "동사",
+     "meaning_ko": "가지고 있다 (he/she/한 사람·한 개)",
+     "example_en": "She has a cat.",
+     "example_ko": "그녀는 고양이가 있어요."
+    },
+    {
+     "word": "bike",
+     "part_of_speech": "명사",
+     "meaning_ko": "자전거",
+     "example_en": "My brother has a bike.",
+     "example_ko": "내 남자 형제는 자전거가 있어요."
+    },
+    {
+     "word": "sister",
+     "part_of_speech": "명사",
+     "meaning_ko": "여자 형제 (언니·누나·여동생)",
+     "example_en": "I have a sister.",
+     "example_ko": "나는 여자 형제가 한 명 있어요."
+    },
+    {
+     "word": "brother",
+     "part_of_speech": "명사",
+     "meaning_ko": "남자 형제 (형·오빠·남동생)",
+     "example_en": "She has a brother.",
+     "example_ko": "그녀는 남자 형제가 한 명 있어요."
+    },
+    {
+     "word": "cat",
+     "part_of_speech": "명사",
+     "meaning_ko": "고양이",
+     "example_en": "We have a cat.",
+     "example_ko": "우리는 고양이가 있어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I have a bike.",
+     "ko": "나는 자전거가 있어요."
+    },
+    {
+     "en": "You have a cat.",
+     "ko": "당신은 고양이가 있어요."
+    },
+    {
+     "en": "He has a bike.",
+     "ko": "그는 자전거가 있어요."
+    },
+    {
+     "en": "She has a sister.",
+     "ko": "그녀는 여자 형제가 한 명 있어요."
+    },
+    {
+     "en": "We have a dog.",
+     "ko": "우리는 개가 있어요."
+    },
+    {
+     "en": "They have a car.",
+     "ko": "그들은 차가 있어요."
+    },
+    {
+     "en": "My brother has a cat.",
+     "ko": "내 남자 형제는 고양이가 있어요."
+    },
+    {
+     "en": "My sister has a book.",
+     "ko": "내 여자 형제는 책이 있어요."
+    },
+    {
+     "en": "Tom has a pen.",
+     "ko": "톰은 펜이 있어요."
+    },
+    {
+     "en": "I have two books.",
+     "ko": "나는 책이 두 권 있어요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "P016-Q1",
+     "type": "single_choice",
+     "stem": "She ___ a bike.",
+     "choices": [
+      "have",
+      "has",
+      "haves"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "she는 3인칭 단수이므로 has를 씁니다. haves라는 형태는 없습니다.",
+     "error_tag": "have-has"
+    },
+    {
+     "id": "P016-Q2",
+     "type": "single_choice",
+     "stem": "They ___ a dog.",
+     "choices": [
+      "has",
+      "have",
+      "are have"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "They는 복수이므로 have를 씁니다. 일반동사 have 앞에 are를 쓰지 않습니다.",
+     "error_tag": "have-has"
+    },
+    {
+     "id": "P016-Q3",
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "He have a cat.",
+      "He haves a cat.",
+      "He has a cat.",
+      "He is has a cat."
+     ],
+     "answer_index": 2,
+     "explanation_ko": "he 뒤에는 has를 씁니다. haves는 없는 형태이고, be동사를 함께 쓰지 않습니다.",
+     "error_tag": "have-has"
+    },
+    {
+     "id": "P016-Q4",
+     "type": "single_choice",
+     "stem": "'내 여자 형제는 자전거가 있어요'에 맞는 문장은?",
+     "choices": [
+      "My sister have a bike.",
+      "My sister has a bike.",
+      "My sister haves a bike.",
+      "My sister is a bike."
+     ],
+     "answer_index": 1,
+     "explanation_ko": "My sister는 she로 바꿀 수 있는 3인칭 단수이므로 has를 씁니다.",
+     "error_tag": "have-has"
+    },
+    {
+     "id": "P016-Q5",
+     "type": "typing",
+     "stem": "빈칸에 have 또는 has를 쓰세요: My brother ___ a cat.",
+     "answer_text": "has",
+     "accepted_answers": [
+      "has"
+     ],
+     "explanation_ko": "My brother는 he로 바꿀 수 있는 한 사람이므로 has입니다.",
+     "error_tag": "have-has"
+    },
+    {
+     "id": "P016-Q6",
+     "type": "typing",
+     "stem": "빈칸에 have 또는 has를 쓰세요: We ___ a car.",
+     "answer_text": "have",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation_ko": "We는 복수 주어이므로 have입니다.",
+     "error_tag": "have-has"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "가지고 있는 물건이나 가족을 I have로 시작해 한 문장, 가족이나 친구가 가진 것을 He/She has로 시작해 한 문장 써 보세요.",
+    "example_answer_en": "I have a bike. She has a sister.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 주어에 맞게 have/has를 골랐는지 확인하세요."
+   },
+   "publish_date": "2026-10-16",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-16"
+   }
+  },
+  {
+   "id": "PRE-017",
+   "level": "Pre-A1",
+   "track": "foundation",
+   "day": 17,
+   "title_ko": "do / does: 일반동사 의문문 입문",
+   "objective_ko": "일반동사 문장을 Do/Does로 시작하는 질문으로 바꾸고 Yes, I do. / Yes, he does.로 답한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-16",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "일반동사 문장을 질문으로 만들 때는 문장 맨 앞에 Do 또는 Does를 붙입니다. I, you, we, they(복수)에는 Do를, he, she, 한 사람·한 개에는 Does를 씁니다: Do you like pizza? Does he play soccer? 그리고 Does가 -s 역할을 대신하므로 뒤의 동사는 원형으로 돌아갑니다: He plays soccer. → Does he play soccer? 대답은 Yes, I do. / Yes, he does.처럼 Do/Does로 짧게 합니다. 부정 대답(No, I don't.)은 다음에 배웁니다.",
+    "common_mistake_ko": "Does he plays soccer?(X) → Does he play soccer?(O) / Do she like pizza?(X) → Does she like pizza?(O) / Are you like pizza?(X) → Do you like pizza?(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "do",
+     "part_of_speech": "조동사",
+     "meaning_ko": "(의문문을 만드는 말)",
+     "example_en": "Do you like pizza?",
+     "example_ko": "피자를 좋아해요?"
+    },
+    {
+     "word": "does",
+     "part_of_speech": "조동사",
+     "meaning_ko": "(의문문을 만드는 말: he/she용)",
+     "example_en": "Does she like pizza?",
+     "example_ko": "그녀는 피자를 좋아해요?"
+    },
+    {
+     "word": "soccer",
+     "part_of_speech": "명사",
+     "meaning_ko": "축구",
+     "example_en": "Do they play soccer?",
+     "example_ko": "그들은 축구를 해요?"
+    },
+    {
+     "word": "pizza",
+     "part_of_speech": "명사",
+     "meaning_ko": "피자",
+     "example_en": "Do you like pizza?",
+     "example_ko": "피자를 좋아해요?"
+    },
+    {
+     "word": "English",
+     "part_of_speech": "명사",
+     "meaning_ko": "영어",
+     "example_en": "Does he study English?",
+     "example_ko": "그는 영어를 공부해요?"
+    },
+    {
+     "word": "movie",
+     "part_of_speech": "명사",
+     "meaning_ko": "영화",
+     "example_en": "Does Tom like movies?",
+     "example_ko": "톰은 영화를 좋아해요?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Do you like pizza?",
+     "ko": "당신은 피자를 좋아해요?"
+    },
+    {
+     "en": "Yes, I do.",
+     "ko": "네, 좋아해요."
+    },
+    {
+     "en": "Does he play soccer?",
+     "ko": "그는 축구를 해요?"
+    },
+    {
+     "en": "Yes, he does.",
+     "ko": "네, 해요."
+    },
+    {
+     "en": "Do they study English?",
+     "ko": "그들은 영어를 공부해요?"
+    },
+    {
+     "en": "Does she cook dinner?",
+     "ko": "그녀는 저녁을 요리해요?"
+    },
+    {
+     "en": "Do you need a pen?",
+     "ko": "펜이 필요해요?"
+    },
+    {
+     "en": "Does your mother work in Seoul?",
+     "ko": "당신의 어머니는 서울에서 일해요?"
+    },
+    {
+     "en": "Do we need milk?",
+     "ko": "우리는 우유가 필요해요?"
+    },
+    {
+     "en": "Does Tom like movies?",
+     "ko": "톰은 영화를 좋아해요?"
+    }
+   ],
+   "questions": [
+    {
+     "id": "P017-Q1",
+     "type": "single_choice",
+     "stem": "___ you like pizza?",
+     "choices": [
+      "Do",
+      "Does",
+      "Are"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "you에는 Do를 씁니다. 일반동사 like 앞에 Are를 쓰지 않습니다.",
+     "error_tag": "do-does"
+    },
+    {
+     "id": "P017-Q2",
+     "type": "single_choice",
+     "stem": "___ she play soccer?",
+     "choices": [
+      "Do",
+      "Does",
+      "Is",
+      "Are"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "she에는 Does를 씁니다.",
+     "error_tag": "do-does"
+    },
+    {
+     "id": "P017-Q3",
+     "type": "single_choice",
+     "stem": "올바른 질문은?",
+     "choices": [
+      "Does he plays soccer?",
+      "Do he play soccer?",
+      "Does he play soccer?",
+      "Is he play soccer?"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "Does가 -s 역할을 하므로 뒤의 동사는 원형 play입니다. he에는 Does를 씁니다.",
+     "error_tag": "do-does"
+    },
+    {
+     "id": "P017-Q4",
+     "type": "single_choice",
+     "stem": "Does your mother ___ in Seoul?",
+     "choices": [
+      "work",
+      "works",
+      "working"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Does 뒤의 동사는 원형입니다.",
+     "error_tag": "do-does"
+    },
+    {
+     "id": "P017-Q5",
+     "type": "typing",
+     "stem": "빈칸에 Do 또는 Does를 쓰세요: ___ they study English?",
+     "answer_text": "Do",
+     "accepted_answers": [
+      "do"
+     ],
+     "explanation_ko": "they는 복수이므로 Do입니다.",
+     "error_tag": "do-does"
+    },
+    {
+     "id": "P017-Q6",
+     "type": "typing",
+     "stem": "대답을 완성하세요: Does she cook dinner? — Yes, she ___.",
+     "answer_text": "does",
+     "accepted_answers": [
+      "does"
+     ],
+     "explanation_ko": "Does로 묻는 질문에는 Yes, she does.로 답합니다.",
+     "error_tag": "do-does"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "Do you ...?로 시작하는 질문을 한 개, Does he/she ...?로 시작하는 질문을 한 개 써 보세요.",
+    "example_answer_en": "Do you like music? Does she play soccer?",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. Does 뒤에 동사 원형을 썼는지 확인하세요."
+   },
+   "publish_date": "2026-10-16",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-16"
+   }
   }
  ]
 }

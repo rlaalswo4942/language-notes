@@ -887,6 +887,204 @@
     "version": 1,
     "last_revised": "2026-10-15"
    }
+  },
+  {
+   "id": "B1-006",
+   "level": "B1",
+   "track": "general",
+   "day": 6,
+   "title_ko": "과거진행형과 단순과거: when / while",
+   "objective_ko": "과거진행형(was/were + -ing)으로 배경 상황을, 단순과거로 끼어든 사건을 나타낸다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-16",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "과거진행형(was/were + 동사-ing)은 과거의 어느 시점에 한창 진행 중이던 동작이나 배경 상황을 나타냅니다. 그 도중에 일어난 짧은 사건은 단순과거로 씁니다: I was cooking dinner when the phone rang. (요리 중 → 전화가 울림) 한창 하던 일 쪽에 while을 붙여 While I was walking home, it started to rain.처럼 쓰고, 짧은 사건 쪽에 when을 붙입니다. 같은 때 두 가지 동작이 나란히 진행되면 둘 다 과거진행형으로 씁니다: I was studying while my brother was playing games. 이어서 일어난 일(행동이 끝난 뒤 다음 일)은 단순과거로 씁니다.",
+    "common_mistake_ko": "I cooked dinner when the phone rang.(진행 중이던 일이면 X) → I was cooking dinner when the phone rang.(O) / She was cross the street.(X) → She was crossing the street.(O) / While I walked home, it was starting to rain.(역할이 뒤바뀜) → While I was walking home, it started to rain.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "suddenly",
+     "part_of_speech": "부사",
+     "meaning_ko": "갑자기",
+     "example_en": "Suddenly, the lights went out.",
+     "example_ko": "갑자기 불이 나갔어요."
+    },
+    {
+     "word": "ring",
+     "part_of_speech": "동사",
+     "meaning_ko": "(전화·벨이) 울리다",
+     "example_en": "The phone rang twice.",
+     "example_ko": "전화가 두 번 울렸어요."
+    },
+    {
+     "word": "cross",
+     "part_of_speech": "동사",
+     "meaning_ko": "건너다",
+     "example_en": "She was crossing the street.",
+     "example_ko": "그녀는 길을 건너고 있었어요."
+    },
+    {
+     "word": "accident",
+     "part_of_speech": "명사",
+     "meaning_ko": "사고",
+     "example_en": "He saw an accident on his way home.",
+     "example_ko": "그는 집에 가는 길에 사고를 봤어요."
+    },
+    {
+     "word": "interrupt",
+     "part_of_speech": "동사",
+     "meaning_ko": "말을 가로막다, 방해하다",
+     "example_en": "Someone interrupted her presentation.",
+     "example_ko": "누군가 그녀의 발표를 방해했어요."
+    },
+    {
+     "word": "arrive",
+     "part_of_speech": "동사",
+     "meaning_ko": "도착하다",
+     "example_en": "Our manager arrived at ten.",
+     "example_ko": "우리 부장님은 10시에 도착했어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I was cooking dinner when the phone rang.",
+     "ko": "전화가 울렸을 때 나는 저녁을 요리하고 있었어요."
+    },
+    {
+     "en": "While she was crossing the street, she dropped her bag.",
+     "ko": "그녀는 길을 건너다가 가방을 떨어뜨렸어요."
+    },
+    {
+     "en": "They were waiting for the bus when it started to rain.",
+     "ko": "그들이 버스를 기다리고 있을 때 비가 오기 시작했어요."
+    },
+    {
+     "en": "We were having lunch when our manager arrived.",
+     "ko": "우리가 점심을 먹고 있을 때 부장님이 도착했어요."
+    },
+    {
+     "en": "What were you doing at eight last night?",
+     "ko": "어젯밤 8시에 뭘 하고 있었어요?"
+    },
+    {
+     "en": "I was studying while my brother was playing games.",
+     "ko": "내가 공부하는 동안 내 남자 형제는 게임을 하고 있었어요."
+    },
+    {
+     "en": "He was driving home when he saw an accident.",
+     "ko": "그는 집으로 운전해 가다가 사고를 봤어요."
+    },
+    {
+     "en": "She was giving a presentation when someone interrupted her.",
+     "ko": "그녀가 발표를 하고 있을 때 누군가 그녀의 말을 가로막았어요."
+    },
+    {
+     "en": "It was raining when I left the house.",
+     "ko": "내가 집을 나섰을 때 비가 오고 있었어요."
+    },
+    {
+     "en": "The children were sleeping when we arrived.",
+     "ko": "우리가 도착했을 때 아이들은 자고 있었어요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "B1006-Q1",
+     "type": "single_choice",
+     "stem": "I ___ TV when the phone rang. (TV를 보던 중에)",
+     "choices": [
+      "watched",
+      "was watching",
+      "am watching"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "전화가 울린 시점에 진행 중이던 동작이므로 과거진행형 was watching입니다.",
+     "error_tag": "past-continuous"
+    },
+    {
+     "id": "B1006-Q2",
+     "type": "single_choice",
+     "stem": "We ___ lunch when our manager arrived. (점심을 먹던 중에)",
+     "choices": [
+      "have",
+      "had",
+      "were having",
+      "are having"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "부장님이 도착한 시점에 진행 중이던 동작이므로 were having입니다.",
+     "error_tag": "past-continuous"
+    },
+    {
+     "id": "B1006-Q3",
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "He was drive home when he saw an accident.",
+      "He was driving home when he saw an accident.",
+      "He driving home when he saw an accident.",
+      "He is driving home when he saw an accident."
+     ],
+     "answer_index": 1,
+     "explanation_ko": "과거진행형은 was/were + 동사-ing입니다.",
+     "error_tag": "past-continuous"
+    },
+    {
+     "id": "B1006-Q4",
+     "type": "single_choice",
+     "stem": "'어젯밤 8시에 뭘 하고 있었어요?'에 맞는 문장은?",
+     "choices": [
+      "What were you do at eight last night?",
+      "What were you doing at eight last night?",
+      "What are you doing at eight last night?",
+      "What do you do at eight last night?"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "과거 시점에 진행 중이던 일을 묻는 질문은 What were you doing ...?입니다.",
+     "error_tag": "past-continuous"
+    },
+    {
+     "id": "B1006-Q5",
+     "type": "typing",
+     "stem": "was 또는 were를 쓰세요: They ___ waiting for the bus when it started to rain.",
+     "answer_text": "were",
+     "accepted_answers": [
+      "were"
+     ],
+     "explanation_ko": "They는 복수이므로 과거진행형은 were + -ing입니다.",
+     "error_tag": "past-continuous"
+    },
+    {
+     "id": "B1006-Q6",
+     "type": "typing",
+     "stem": "괄호 안의 동사를 알맞은 모양으로 쓰세요: I was ___ dinner when the phone rang. (cook)",
+     "answer_text": "cooking",
+     "accepted_answers": [
+      "cooking"
+     ],
+     "explanation_ko": "was 뒤에는 동사-ing를 씁니다.",
+     "error_tag": "past-continuous"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "\"~하고 있었을 때 ...했다\"라는 뜻으로 과거진행형과 단순과거를 함께 쓴 문장을 한 개 써 보세요.",
+    "example_answer_en": "I was walking to school when I met my teacher.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 진행 중이던 동작에 was/were + -ing를 썼는지 확인하세요."
+   },
+   "publish_date": "2026-10-16",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-16"
+   }
   }
  ]
 }

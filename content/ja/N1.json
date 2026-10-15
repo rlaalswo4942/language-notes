@@ -2098,6 +2098,223 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-11",
+   "day_index": 11,
+   "week_index": 2,
+   "level": "N1",
+   "unit_id": "N1-W02",
+   "lesson_type": "new",
+   "title_ko": "〜が早いか: ~하자마자",
+   "objective_ko": "어떤 동작이 끝나자마자 곧바로 이어 일어나는 일을 〜が早いか로 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-10"
+   ],
+   "explanation_ko": "〜が早いか는 ‘~하자마자 곧바로’라는 뜻으로, 앞의 동작이 끝나기가 무섭게 뒤의 일이 일어난다는 느낌을 나타냅니다. 동사 사전형에 붙입니다: チャイムが鳴るが早いか、生徒たちは教室を駆け出した。 뒤에는 실제로 일어난 일(주로 과거의 사실)이 오며, 의지・희망・명령・권유 표현은 올 수 없습니다. 〜や否や와 뜻이 가깝고 문어적이며 기사나 이야기 글에 잘 쓰입니다.",
+   "usage_notes": [
+    "뒤 문장에는 〜たい, 〜ましょう, 〜なさい 같은 의지・희망・권유・명령을 쓰지 않습니다.",
+    "앞뒤 동작의 시간 차가 매우 짧다는 인상을 주며 놀라움이나 속도감을 표현할 때 어울립니다.",
+    "〜や否や로 바꿔 쓸 수 있는 경우가 많지만 〜が早いか는 더 문어적인 인상입니다."
+   ],
+   "common_mistakes": [
+    "合図が出るが早いか、入りましょう(X) → 合図が出るが早いか、客たちは入った(O): 뒤에는 의지・권유를 쓰지 않습니다.",
+    "帰るがはやいか(X) → 帰るが早いか(O): 早い는 한자로 씁니다.",
+    "合図が出るが早いか、客たちは殺到しろ(X) → ... 客たちは殺到した(O): 뒤에는 명령형을 쓰지 않고 실제로 일어난 일을 씁니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N1-11-01",
+     "kind": "word",
+     "text": "駆{か}け出{だ}す",
+     "reading_kana": "かけだす",
+     "reading_romanized": "kakedasu",
+     "meaning_ko": "뛰어나가다, 달려 나가다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N1-11-02",
+     "kind": "word",
+     "text": "一斉{いっせい}に",
+     "reading_kana": "いっせいに",
+     "reading_romanized": "issei ni",
+     "meaning_ko": "일제히, 한꺼번에",
+     "part_of_speech": "부사"
+    },
+    {
+     "id": "w-JP-N1-11-03",
+     "kind": "word",
+     "text": "殺到{さっとう}",
+     "reading_kana": "さっとう",
+     "reading_romanized": "sattou",
+     "meaning_ko": "쇄도",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-11-04",
+     "kind": "word",
+     "text": "号令{ごうれい}",
+     "reading_kana": "ごうれい",
+     "reading_romanized": "gourei",
+     "meaning_ko": "호령, 구령",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-11-05",
+     "kind": "word",
+     "text": "閉会{へいかい}",
+     "reading_kana": "へいかい",
+     "reading_romanized": "heikai",
+     "meaning_ko": "폐회",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-11-06",
+     "kind": "word",
+     "text": "合図{あいず}",
+     "reading_kana": "あいず",
+     "reading_romanized": "aizu",
+     "meaning_ko": "신호",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "終了{しゅうりょう}を告{つ}げるチャイムが鳴{な}るが早{はや}いか、生徒{せいと}たちは教室{きょうしつ}を駆{か}け出{だ}した。",
+     "meaning_ko": "끝을 알리는 종이 울리자마자 학생들은 교실을 뛰어나갔다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "開場{かいじょう}の合図{あいず}が出{で}るが早{はや}いか、客{きゃく}たちは一斉{いっせい}に入口{いりぐち}へ殺到{さっとう}した。",
+     "meaning_ko": "개장 신호가 나오자마자 손님들은 일제히 입구로 몰려들었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}は席{せき}に着{つ}くが早{はや}いか、書類{しょるい}を広{ひろ}げて仕事{しごと}を始{はじ}めた。",
+     "meaning_ko": "그는 자리에 앉자마자 서류를 펼치고 일을 시작했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "閉会{へいかい}が宣言{せんげん}されるが早{はや}いか、参加者{さんかしゃ}たちは会場{かいじょう}を後{あと}にした。",
+     "meaning_ko": "폐회가 선언되자마자 참가자들은 회장을 떠났다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "号令{ごうれい}がかかるが早{はや}いか、選手{せんしゅ}たちは一斉{いっせい}に駆{か}け出{だ}した。",
+     "meaning_ko": "구령이 떨어지자마자 선수들은 일제히 달려 나갔다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "子供{こども}は家{いえ}に帰{かえ}るが早{はや}いか、ランドセルを放{ほう}り出{だ}して遊{あそ}びに出{で}かけた。",
+     "meaning_ko": "아이는 집에 돌아오자마자 책가방을 내던지고 놀러 나갔다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "ドアが開{あ}くが早{はや}いか、乗客{じょうきゃく}たちが一斉{いっせい}に降{お}り始{はじ}めた。",
+     "meaning_ko": "문이 열리자마자 승객들이 일제히 내리기 시작했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼女{かのじょ}は電話{でんわ}を切{き}るが早{はや}いか、部屋{へや}を飛{と}び出{だ}していった。",
+     "meaning_ko": "그녀는 전화를 끊자마자 방을 뛰쳐나갔다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "試験{しけん}終了{しゅうりょう}の合図{あいず}を聞{き}くが早{はや}いか、彼{かれ}はペンを置{お}いた。",
+     "meaning_ko": "시험 종료 신호를 듣자마자 그는 펜을 내려놓았다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N1-11-Q1",
+     "type": "single_choice",
+     "prompt_ko": "チャイムが鳴る（　）、生徒たちは教室を駆け出した。",
+     "options": [
+      "が早いか",
+      "ばかりか",
+      "ともなると",
+      "かたわら"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘울리자마자’는 사전형 + が早いか입니다."
+    },
+    {
+     "id": "JP-N1-11-Q2",
+     "type": "single_choice",
+     "prompt_ko": "「席に着くが早いか、仕事を始めた」의 뜻은?",
+     "options": [
+      "자리에 앉자마자 일을 시작했다",
+      "자리에 앉기 전에 일을 시작했다",
+      "자리에 앉았지만 일을 시작하지 않았다",
+      "자리에 앉고 한참 뒤에 일을 시작했다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜が早いか는 ‘~하자마자’입니다."
+    },
+    {
+     "id": "JP-N1-11-Q3",
+     "type": "single_choice",
+     "prompt_ko": "〜が早いか의 뒤 문장으로 알맞은 것은?",
+     "options": [
+      "合図が出るが早いか、客たちは殺到した",
+      "合図が出るが早いか、客たちは殺到しなさい",
+      "合図が出るが早いか、客たちは殺到したい",
+      "合図が出るが早いか、客たちは殺到しましょう"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "뒤에는 실제로 일어난 일을 쓰며, 명령・희망・권유는 쓸 수 없습니다."
+    },
+    {
+     "id": "JP-N1-11-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「ドアが開くが早いか」와 가장 가까운 표현은?",
+     "options": [
+      "ドアが開くや否や",
+      "ドアが開くことなく",
+      "ドアが開かないまま",
+      "ドアが開くはずもなく"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜や否や도 ‘~하자마자’를 나타내는 비슷한 표현입니다."
+    },
+    {
+     "id": "JP-N1-11-Q5",
+     "type": "typing",
+     "prompt_ko": "「殺到」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "sattou",
+     "accepted_answers": [
+      "sattou",
+      "satto"
+     ],
+     "explanation_ko": "殺到 = さっとう (sattou)"
+    },
+    {
+     "id": "JP-N1-11-Q6",
+     "type": "typing",
+     "prompt_ko": "「合図」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "aizu",
+     "accepted_answers": [
+      "aizu"
+     ],
+     "explanation_ko": "合図 = あいず (aizu)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "JLPT_FORMAT"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

@@ -682,6 +682,205 @@
     "version": 1,
     "last_revised": "2026-10-15"
    }
+  },
+  {
+   "id": "TOEFL-005",
+   "level": "B1",
+   "track": "toefl",
+   "day": 5,
+   "title_ko": "TOEFL 2026 Complete the Words 입문: 빠진 글자 채우기",
+   "objective_ko": "문맥과 남아 있는 글자를 단서로 일부가 가려진 단어를 완성한다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/content/ets-org/language-master/ko/home/toefl/test-takers/ibt/about/content.html",
+     "publisher": "ETS",
+     "checked_at": "2026-10-16",
+     "supports": "공식 시험 형식"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "2026-01-21 이후 TOEFL iBT의 Reading 유형으로 Complete the Words가 안내되어 있습니다(공식 안내 유형명). 단어의 일부 글자가 빠진 글에서 알맞은 단어를 완성하는 유형입니다. 이 사이트의 아래 연습은 그 유형을 참고한 비공식 자체 연습이며 실제 문항 모양과 다를 수 있습니다. 풀이 순서: ① 앞뒤 문맥으로 빈칸의 품사와 뜻을 짐작한다. ② 남아 있는 글자로 가능한 단어를 좁힌다. ③ 주어의 수, 시제, many/the 같은 단서로 어미(-s, -ed, -ing)를 정한다. ④ 완성한 단어를 넣어 문장을 다시 읽어 본다.",
+    "common_mistake_ko": "남아 있는 글자만 보고 단어를 정하는 실수(문맥이 'many'인데 단수형으로 완성) → 문맥과 어미 단서를 함께 확인합니다. / 철자 하나가 틀린 단어(libery, geting)도 틀린 답이므로 완성한 뒤 철자를 확인합니다."
+   },
+   "vocabulary": [
+    {
+     "word": "context",
+     "part_of_speech": "명사",
+     "meaning_ko": "문맥",
+     "example_en": "Use the context to guess the word.",
+     "example_ko": "문맥을 이용해 단어를 짐작하세요."
+    },
+    {
+     "word": "missing",
+     "part_of_speech": "형용사",
+     "meaning_ko": "빠진, 없어진",
+     "example_en": "Two letters are missing.",
+     "example_ko": "글자 두 개가 빠져 있어요."
+    },
+    {
+     "word": "clue",
+     "part_of_speech": "명사",
+     "meaning_ko": "단서",
+     "example_en": "The first letters are a clue.",
+     "example_ko": "첫 글자들이 단서예요."
+    },
+    {
+     "word": "spelling",
+     "part_of_speech": "명사",
+     "meaning_ko": "철자",
+     "example_en": "Check the spelling of the word.",
+     "example_ko": "단어의 철자를 확인하세요."
+    },
+    {
+     "word": "ending",
+     "part_of_speech": "명사",
+     "meaning_ko": "(단어의) 어미, 끝부분",
+     "example_en": "The ending shows the tense.",
+     "example_ko": "어미가 시제를 보여 줘요."
+    },
+    {
+     "word": "passage",
+     "part_of_speech": "명사",
+     "meaning_ko": "(글의) 한 대목, 지문",
+     "example_en": "Read the passage carefully.",
+     "example_ko": "지문을 주의 깊게 읽으세요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Many stud___ study in the library after class.",
+     "ko": "정답 students — many 뒤에는 복수형이 어울립니다."
+    },
+    {
+     "en": "She wa___ for the bus every morning.",
+     "ko": "정답 waits — She(3인칭 단수) + every morning이므로 현재형 waits입니다."
+    },
+    {
+     "en": "The professor will give a lec___ on climate change tomorrow.",
+     "ko": "정답 lecture — a 뒤에 오는 명사로 '강의'입니다."
+    },
+    {
+     "en": "I need to ask for an exten___ on my assignment.",
+     "ko": "정답 extension — ask for an ~ on my assignment는 '연장'입니다."
+    },
+    {
+     "en": "He felt very tir___ after the long trip.",
+     "ko": "정답 tired — felt 뒤에 상태를 나타내는 형용사 tired가 옵니다."
+    },
+    {
+     "en": "The exper___ took three hours to finish.",
+     "ko": "정답 experiment — '실험이 세 시간 걸렸다'는 문맥입니다."
+    },
+    {
+     "en": "We discussed the topic in a small gr___.",
+     "ko": "정답 group — a small ~ 뒤에는 단수 명사가 옵니다."
+    },
+    {
+     "en": "The weather is get___ colder every day.",
+     "ko": "정답 getting — is 뒤 진행형이므로 getting입니다."
+    },
+    {
+     "en": "Students must submit the form before the dead___.",
+     "ko": "정답 deadline — 제출 전의 '마감'이라는 문맥입니다."
+    },
+    {
+     "en": "The museum is clo___ on Mondays.",
+     "ko": "정답 closed — is 뒤에서 상태를 나타내는 closed입니다."
+    }
+   ],
+   "questions": [
+    {
+     "id": "F005-Q1",
+     "type": "single_choice",
+     "stem": "빈칸에 들어갈 글자는? The libr___ is open until nine tonight.",
+     "choices": [
+      "ary",
+      "ery",
+      "ory",
+      "iry"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "library = libr + ary입니다.",
+     "error_tag": "complete-the-words"
+    },
+    {
+     "id": "F005-Q2",
+     "type": "single_choice",
+     "stem": "빈칸에 들어갈 글자는? Many stud___ study in the library after class.",
+     "choices": [
+      "ent",
+      "ents",
+      "enting",
+      "ented"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "Many 뒤에는 복수형이 와야 하므로 stud + ents = students입니다.",
+     "error_tag": "complete-the-words"
+    },
+    {
+     "id": "F005-Q3",
+     "type": "single_choice",
+     "stem": "빈칸에 들어갈 글자는? He felt very tir___ after the long trip.",
+     "choices": [
+      "ed",
+      "es",
+      "ing",
+      "s"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "felt very 뒤에 지친 상태를 나타내는 tired(tir + ed)가 옵니다.",
+     "error_tag": "complete-the-words"
+    },
+    {
+     "id": "F005-Q4",
+     "type": "single_choice",
+     "stem": "빈칸에 들어갈 글자는? The weather is get___ colder every day.",
+     "choices": [
+      "ting",
+      "ing",
+      "ed",
+      "s"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "get은 마지막 t를 겹쳐 getting이 됩니다. get + ting입니다.",
+     "error_tag": "complete-the-words"
+    },
+    {
+     "id": "F005-Q5",
+     "type": "typing",
+     "stem": "완성한 단어 전체를 쓰세요: Students must submit the form before the dead___.",
+     "answer_text": "deadline",
+     "accepted_answers": [
+      "deadline"
+     ],
+     "explanation_ko": "마감을 뜻하는 deadline입니다.",
+     "error_tag": "complete-the-words"
+    },
+    {
+     "id": "F005-Q6",
+     "type": "typing",
+     "stem": "완성한 단어 전체를 쓰세요: We discussed the topic in a small gr___.",
+     "answer_text": "group",
+     "accepted_answers": [
+      "group"
+     ],
+     "explanation_ko": "a small group(작은 모둠)입니다.",
+     "error_tag": "complete-the-words"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "수업이나 학교생활에 관한 영어 문장을 한 개 쓰고, 그중 한 단어의 끝 두세 글자를 ___로 가려 보세요.",
+    "example_answer_en": "The professor gave a lec___ about energy.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 문맥에서 정답이 하나로 정해지는 단어를 골랐는지 확인하세요. 비공식 연습이며 ETS 점수와 무관합니다."
+   },
+   "publish_date": "2026-10-16",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-16"
+   }
   }
  ]
 }

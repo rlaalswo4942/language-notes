@@ -2095,6 +2095,225 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-11",
+   "day_index": 11,
+   "week_index": 2,
+   "level": "N2",
+   "unit_id": "N2-W02",
+   "lesson_type": "new",
+   "title_ko": "〜ざるを得ない: ~할 수밖에 없다",
+   "objective_ko": "다른 선택이 없어 내키지 않아도 해야 하는 상황을 〜ざるを得ない로 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-10"
+   ],
+   "explanation_ko": "〜ざるを得ない는 ‘달리 방법이 없어 ~할 수밖에 없다’는 뜻입니다. 동사 ない형에서 ない를 뗀 형태에 ざるを得ない를 붙입니다: 行かない → 行かざるを得ない, 食べない → 食べざるを得ない. する는 しざる가 아니라 せざるを得ない가 됩니다. 말하는 사람이 원하지 않아도 사정(상황・규칙・상대)에 밀려 어쩔 수 없이 하게 되는 느낌이 있으며, 격식 차린 글과 말에서 쓰입니다. 〜ないわけにはいかない와 뜻이 가깝습니다.",
+   "usage_notes": [
+    "자기 의지로 기꺼이 하는 일에는 쓰지 않습니다.",
+    "〜ざるを得ない는 동사에만 붙고, 이미 일어난 일은 〜ざるを得なかった로 나타냅니다.",
+    "기쁘고 즐거운 일이나 좋아서 하는 일에는 어울리지 않습니다."
+   ],
+   "common_mistakes": [
+    "中止しざるを得ない(X) → 中止せざるを得ない(O): する는 せ가 됩니다.",
+    "食べるざるを得ない(X) → 食べざるを得ない(O): ない형에서 ない를 뗀 형태에 붙입니다.",
+    "買いざるを得ない(X) → 買わざるを得ない(O): 5단 동사는 ない형 어간(買わ)에 붙입니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N2-11-01",
+     "kind": "word",
+     "text": "残業{ざんぎょう}",
+     "reading_kana": "ざんぎょう",
+     "reading_romanized": "zangyou",
+     "meaning_ko": "잔업, 야근",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-11-02",
+     "kind": "word",
+     "text": "中止{ちゅうし}",
+     "reading_kana": "ちゅうし",
+     "reading_romanized": "chuushi",
+     "meaning_ko": "중지",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-11-03",
+     "kind": "word",
+     "text": "受{う}け入{い}れる",
+     "reading_kana": "うけいれる",
+     "reading_romanized": "ukeireru",
+     "meaning_ko": "받아들이다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N2-11-04",
+     "kind": "word",
+     "text": "認{みと}める",
+     "reading_kana": "みとめる",
+     "reading_romanized": "mitomeru",
+     "meaning_ko": "인정하다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N2-11-05",
+     "kind": "word",
+     "text": "諦{あきら}める",
+     "reading_kana": "あきらめる",
+     "reading_romanized": "akirameru",
+     "meaning_ko": "포기하다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N2-11-06",
+     "kind": "word",
+     "text": "休業{きゅうぎょう}",
+     "reading_kana": "きゅうぎょう",
+     "reading_romanized": "kyuugyou",
+     "meaning_ko": "휴업",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "台風{たいふう}のため、イベントを中止{ちゅうし}せざるを得なかった。",
+     "meaning_ko": "태풍 때문에 행사를 중지할 수밖에 없었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "上司{じょうし}の命令{めいれい}なので、休日{きゅうじつ}も残業{ざんぎょう}せざるを得ない。",
+     "meaning_ko": "상사의 명령이라 휴일에도 야근할 수밖에 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "資金{しきん}が足{た}りず、計画{けいかく}を諦{あきら}めざるを得なかった。",
+     "meaning_ko": "자금이 부족해 계획을 포기할 수밖에 없었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "客{きゃく}の数{かず}が減{へ}り、店{みせ}を休業{きゅうぎょう}せざるを得ない状況{じょうきょう}だ。",
+     "meaning_ko": "손님 수가 줄어 가게를 휴업할 수밖에 없는 상황이다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "証拠{しょうこ}が出{で}てきたので、自分{じぶん}の間違{まちが}いを認{みと}めざるを得なかった。",
+     "meaning_ko": "증거가 나왔기 때문에 자신의 잘못을 인정할 수밖에 없었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "相手{あいて}の条件{じょうけん}を受{う}け入{い}れざるを得なかった。",
+     "meaning_ko": "상대의 조건을 받아들일 수밖에 없었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "反対{はんたい}の意見{いけん}が多{おお}く、計画{けいかく}を見直{みなお}さざるを得ない。",
+     "meaning_ko": "반대 의견이 많아 계획을 재검토할 수밖에 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "値段{ねだん}が上{あ}がっても、買{か}わざるを得ない。",
+     "meaning_ko": "가격이 올라도 사지 않을 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "電車{でんしゃ}が止{と}まったので、歩{ある}いて帰{かえ}らざるを得なかった。",
+     "meaning_ko": "전철이 멈춰서 걸어서 돌아갈 수밖에 없었다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N2-11-Q1",
+     "type": "single_choice",
+     "prompt_ko": "台風のため、イベントを中止（　）ざるを得なかった。",
+     "options": [
+      "せ",
+      "し",
+      "さ",
+      "す"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "する는 せざるを得ない 형태가 됩니다. 中止する → 中止せざるを得ない."
+    },
+    {
+     "id": "JP-N2-11-Q2",
+     "type": "single_choice",
+     "prompt_ko": "値段が上がっても、買（　）ざるを得ない。",
+     "options": [
+      "わ",
+      "い",
+      "う",
+      "え"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "買う의 ない형 어간은 買わ입니다. → 買わざるを得ない."
+    },
+    {
+     "id": "JP-N2-11-Q3",
+     "type": "single_choice",
+     "prompt_ko": "「休日も残業せざるを得ない」의 뜻은?",
+     "options": [
+      "휴일에도 야근할 수밖에 없다",
+      "휴일에는 야근해서는 안 된다",
+      "휴일에 야근할 필요가 전혀 없다",
+      "휴일에 야근하고 싶어서 한다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜ざるを得ない는 ‘어쩔 수 없이 ~하다’입니다."
+    },
+    {
+     "id": "JP-N2-11-Q4",
+     "type": "single_choice",
+     "prompt_ko": "‘계획을 포기할 수밖에 없다’를 바르게 나타낸 것은?",
+     "options": [
+      "計画を諦めざるを得ない",
+      "計画を諦めるざるを得ない",
+      "計画を諦めたざるを得ない",
+      "計画を諦めてざるを得ない"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ない형에서 ない를 뗀 형태(諦め)에 ざるを得ない를 붙입니다."
+    },
+    {
+     "id": "JP-N2-11-Q5",
+     "type": "typing",
+     "prompt_ko": "「残業」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "zangyou",
+     "accepted_answers": [
+      "zangyou",
+      "zangyo"
+     ],
+     "explanation_ko": "残業 = ざんぎょう (zangyou)"
+    },
+    {
+     "id": "JP-N2-11-Q6",
+     "type": "typing",
+     "prompt_ko": "「休業」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kyuugyou",
+     "accepted_answers": [
+      "kyuugyou",
+      "kyugyo",
+      "kyuugyo"
+     ],
+     "explanation_ko": "休業 = きゅうぎょう (kyuugyou)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

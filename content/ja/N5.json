@@ -2107,6 +2107,222 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N5-11",
+   "day_index": 11,
+   "week_index": 2,
+   "level": "N5",
+   "unit_id": "N5-W02",
+   "lesson_type": "new",
+   "title_ko": "あります・います: 사물과 사람의 존재",
+   "objective_ko": "장소에 사물·식물은 あります, 사람·동물은 います로 있고 없음을 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N5-10"
+   ],
+   "explanation_ko": "‘~에 …이(가) 있습니다’는 장소 + に + 대상 + が + あります/います로 말합니다. 사물과 식물처럼 스스로 움직이지 않는 것에는 あります, 사람과 동물처럼 움직이는 생물에는 います를 씁니다. 부정은 ありません / いません입니다. 무엇이 있는지는 何が ありますか, 누가 있는지는 誰が いますか로 묻습니다. 위치를 나타내는 말(上, 中)은 机の 上に처럼 の를 붙여 장소를 만듭니다.",
+   "usage_notes": [
+    "존재를 말하는 장소에는 で가 아니라 に를 씁니다. (で는 동작이 이루어지는 장소)",
+    "나무와 꽃 같은 식물은 움직이지 않으므로 あります를 씁니다.",
+    "‘없다’고 말할 때는 〜は ありません / いません처럼 は를 쓰는 경우가 많습니다."
+   ],
+   "common_mistakes": [
+    "部屋で 猫が います(X) → 部屋に 猫が います(O): 존재하는 장소는 に입니다.",
+    "机の 上に 本が います(X) → 机の 上に 本が あります(O): 사물에는 あります를 씁니다.",
+    "公園に 木が います(X) → 公園に 木が あります(O): 식물은 あります입니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N5-11-01",
+     "kind": "word",
+     "text": "猫{ねこ}",
+     "reading_kana": "ねこ",
+     "reading_romanized": "neko",
+     "meaning_ko": "고양이",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-11-02",
+     "kind": "word",
+     "text": "机{つくえ}",
+     "reading_kana": "つくえ",
+     "reading_romanized": "tsukue",
+     "meaning_ko": "책상",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-11-03",
+     "kind": "word",
+     "text": "上{うえ}",
+     "reading_kana": "うえ",
+     "reading_romanized": "ue",
+     "meaning_ko": "위",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-11-04",
+     "kind": "word",
+     "text": "中{なか}",
+     "reading_kana": "なか",
+     "reading_romanized": "naka",
+     "meaning_ko": "안, 속",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-11-05",
+     "kind": "word",
+     "text": "木{き}",
+     "reading_kana": "き",
+     "reading_romanized": "ki",
+     "meaning_ko": "나무",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-11-06",
+     "kind": "word",
+     "text": "部屋{へや}",
+     "reading_kana": "へや",
+     "reading_romanized": "heya",
+     "meaning_ko": "방",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "机{つくえ}の 上{うえ}に 本{ほん}が あります。",
+     "meaning_ko": "책상 위에 책이 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "部屋{へや}に 猫{ねこ}が います。",
+     "meaning_ko": "방에 고양이가 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "かばんの 中{なか}に 何{なに}が ありますか。",
+     "meaning_ko": "가방 안에 무엇이 있습니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "かばんの 中{なか}に 傘{かさ}が あります。",
+     "meaning_ko": "가방 안에 우산이 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "木{き}の 下{した}に 犬{いぬ}が います。",
+     "meaning_ko": "나무 아래에 개가 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "公園{こうえん}に 木{き}が あります。",
+     "meaning_ko": "공원에 나무가 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "教室{きょうしつ}に 先生{せんせい}が います。",
+     "meaning_ko": "교실에 선생님이 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "部屋{へや}に 誰{だれ}が いますか。",
+     "meaning_ko": "방에 누가 있습니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 部屋{へや}に 猫{ねこ}は いません。",
+     "meaning_ko": "이 방에 고양이는 없습니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N5-11-Q1",
+     "type": "single_choice",
+     "prompt_ko": "‘방에 고양이가 있습니다’를 바르게 나타낸 것은?",
+     "options": [
+      "部屋に 猫が います。",
+      "部屋に 猫が あります。",
+      "部屋で 猫が います。",
+      "部屋に 猫を います。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "고양이는 동물이므로 います, 장소에는 に를 씁니다."
+    },
+    {
+     "id": "JP-N5-11-Q2",
+     "type": "single_choice",
+     "prompt_ko": "‘책상 위에 책이 있습니다’를 바르게 나타낸 것은?",
+     "options": [
+      "机の 上に 本が います。",
+      "机の 上に 本が あります。",
+      "机の 上で 本が あります。",
+      "机の 上に 本を あります。"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "책은 사물이므로 あります, 존재하는 장소에는 に를 씁니다."
+    },
+    {
+     "id": "JP-N5-11-Q3",
+     "type": "single_choice",
+     "prompt_ko": "‘공원에 나무가 있습니다’가 되도록 알맞은 말을 고르세요. 公園に 木が（　）。",
+     "options": [
+      "あります",
+      "います",
+      "ありません",
+      "いません"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "나무는 식물이므로 あります를 씁니다. 부정 표현은 뜻이 맞지 않습니다."
+    },
+    {
+     "id": "JP-N5-11-Q4",
+     "type": "single_choice",
+     "prompt_ko": "‘방에 개가 없습니다’가 되도록 알맞은 말을 고르세요. 部屋に 犬が（　）。",
+     "options": [
+      "いません",
+      "ありません",
+      "います",
+      "あります"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "개는 동물이므로 います의 부정 いません을 씁니다."
+    },
+    {
+     "id": "JP-N5-11-Q5",
+     "type": "typing",
+     "prompt_ko": "「猫」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "neko",
+     "accepted_answers": [
+      "neko"
+     ],
+     "explanation_ko": "猫 = ねこ (neko)"
+    },
+    {
+     "id": "JP-N5-11-Q6",
+     "type": "typing",
+     "prompt_ko": "「部屋」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "heya",
+     "accepted_answers": [
+      "heya"
+     ],
+     "explanation_ko": "部屋 = へや (heya)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

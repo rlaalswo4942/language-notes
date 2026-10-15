@@ -691,6 +691,205 @@
     "version": 1,
     "last_revised": "2026-10-15"
    }
+  },
+  {
+   "id": "TOEIC-005",
+   "level": "B1",
+   "track": "toeic",
+   "day": 5,
+   "title_ko": "TOEIC Part 5: 대명사의 격 판단",
+   "objective_ko": "빈칸의 위치(주어·명사 앞·목적어)를 보고 주격·소유격·목적격 대명사를 구별한다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/toeic/about/listening-reading.html",
+     "publisher": "ETS",
+     "checked_at": "2026-10-16",
+     "supports": "공식 시험 형식"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "Reading Part 5에서는 빈칸에 알맞은 대명사의 격을 고르는 문제가 나올 수 있습니다. 빈칸의 위치로 판단하세요. ① 동사 앞 주어 자리 → 주격(I, he, she, we, they): She manages the sales department. ② 명사 앞 → 소유격(my, his, her, our, their, its): Mr. Tan thanked his colleagues. ③ 동사나 전치사 뒤 목적어 자리 → 목적격(me, him, her, us, them): Please send me the invoice. 같은 her도 명사 앞이면 소유격, 동사 뒤에서 홀로 쓰이면 목적격입니다. 이것은 ETS 공식 문항이 아닌 자체 연습문제입니다.",
+    "common_mistake_ko": "Mr. Tan thanked he colleagues.(X) → Mr. Tan thanked his colleagues.(O) / Please send I the invoice.(X) → Please send me the invoice.(O) / Them will attend the meeting.(X) → They will attend the meeting.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "supervisor",
+     "part_of_speech": "명사",
+     "meaning_ko": "감독자, 상사",
+     "example_en": "Ms. Lee asked her supervisor for a day off.",
+     "example_ko": "이 씨는 상사에게 하루 휴가를 요청했습니다."
+    },
+    {
+     "word": "department",
+     "part_of_speech": "명사",
+     "meaning_ko": "부서",
+     "example_en": "Our department will move to the third floor.",
+     "example_ko": "우리 부서는 3층으로 옮깁니다."
+    },
+    {
+     "word": "applicant",
+     "part_of_speech": "명사",
+     "meaning_ko": "지원자",
+     "example_en": "The applicants will hear from us soon.",
+     "example_ko": "지원자들은 곧 우리에게서 연락을 받을 것입니다."
+    },
+    {
+     "word": "reimburse",
+     "part_of_speech": "동사",
+     "meaning_ko": "(비용을) 환급해 주다",
+     "example_en": "The company will reimburse employees for travel costs.",
+     "example_ko": "회사는 직원들에게 출장비를 환급해 줄 것입니다."
+    },
+    {
+     "word": "colleague",
+     "part_of_speech": "명사",
+     "meaning_ko": "동료",
+     "example_en": "Mr. Kim thanked his colleagues for their help.",
+     "example_ko": "김 씨는 동료들의 도움에 감사했습니다."
+    },
+    {
+     "word": "instruct",
+     "part_of_speech": "동사",
+     "meaning_ko": "지시하다",
+     "example_en": "The supervisor instructed him to update the schedule.",
+     "example_ko": "상사는 그에게 일정을 갱신하라고 지시했습니다."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The manager said she would review the report today.",
+     "ko": "매니저는 오늘 보고서를 검토하겠다고 말했습니다."
+    },
+    {
+     "en": "Please send me the invoice by Friday.",
+     "ko": "금요일까지 저에게 청구서를 보내 주세요."
+    },
+    {
+     "en": "Our department will move to the third floor next month.",
+     "ko": "우리 부서는 다음 달에 3층으로 옮깁니다."
+    },
+    {
+     "en": "Ms. Lee asked her supervisor for a day off.",
+     "ko": "이 씨는 상사에게 하루 휴가를 요청했습니다."
+    },
+    {
+     "en": "The applicants were told that they would hear from us soon.",
+     "ko": "지원자들은 곧 우리에게서 연락을 받을 것이라는 안내를 받았습니다."
+    },
+    {
+     "en": "The company will reimburse employees for their travel costs.",
+     "ko": "회사는 직원들에게 출장비를 환급해 줄 것입니다."
+    },
+    {
+     "en": "Mr. Kim thanked his colleagues for their help.",
+     "ko": "김 씨는 동료들의 도움에 감사했습니다."
+    },
+    {
+     "en": "I will meet them at the airport at noon.",
+     "ko": "저는 정오에 공항에서 그들을 만날 것입니다."
+    },
+    {
+     "en": "Please contact us if you have any questions.",
+     "ko": "질문이 있으시면 저희에게 연락해 주세요."
+    },
+    {
+     "en": "The supervisor instructed him to update the schedule.",
+     "ko": "상사는 그에게 일정을 갱신하라고 지시했습니다."
+    }
+   ],
+   "questions": [
+    {
+     "id": "T005-Q1",
+     "type": "single_choice",
+     "stem": "Ms. Park is a supervisor, and ___ manages the sales department.",
+     "choices": [
+      "she",
+      "her",
+      "hers",
+      "herself"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "빈칸이 동사 manages 앞 주어 자리이므로 주격 she입니다.",
+     "error_tag": "pronoun-case"
+    },
+    {
+     "id": "T005-Q2",
+     "type": "single_choice",
+     "stem": "Mr. Tan thanked ___ colleagues for the help.",
+     "choices": [
+      "he",
+      "him",
+      "his",
+      "himself"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "빈칸 뒤에 명사(colleagues)가 있으므로 소유격 his입니다.",
+     "error_tag": "pronoun-case"
+    },
+    {
+     "id": "T005-Q3",
+     "type": "single_choice",
+     "stem": "The company will reimburse employees for ___ travel costs.",
+     "choices": [
+      "them",
+      "they",
+      "their",
+      "theirs"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "명사(travel costs) 앞이므로 소유격 their입니다.",
+     "error_tag": "pronoun-case"
+    },
+    {
+     "id": "T005-Q4",
+     "type": "single_choice",
+     "stem": "Please send ___ the revised schedule by noon.",
+     "choices": [
+      "I",
+      "my",
+      "me",
+      "mine"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "동사 send 뒤 목적어 자리이므로 목적격 me입니다.",
+     "error_tag": "pronoun-case"
+    },
+    {
+     "id": "T005-Q5",
+     "type": "typing",
+     "stem": "빈칸에 알맞은 대명사를 한 단어로 쓰세요: The applicants were told that ___ would hear from us soon.",
+     "answer_text": "they",
+     "accepted_answers": [
+      "they"
+     ],
+     "explanation_ko": "빈칸이 동사 would 앞 주어 자리이고 the applicants를 가리키므로 주격 they입니다.",
+     "error_tag": "pronoun-case"
+    },
+    {
+     "id": "T005-Q6",
+     "type": "typing",
+     "stem": "빈칸에 알맞은 대명사를 한 단어로 쓰세요: The supervisor instructed ___ to update the schedule. (Mr. Cho를 가리킴)",
+     "answer_text": "him",
+     "accepted_answers": [
+      "him"
+     ],
+     "explanation_ko": "동사 instructed 뒤 목적어 자리이고 남성 한 명을 가리키므로 목적격 him입니다.",
+     "error_tag": "pronoun-case"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "me, him, their 중 하나 이상을 넣어 업무와 관련된 문장을 한 개 써 보세요.",
+    "example_answer_en": "Please send me their report by Friday.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 빈칸 위치에 맞는 격을 썼는지 확인하세요. 자체 연습이며 ETS 문항이 아닙니다."
+   },
+   "publish_date": "2026-10-16",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-16"
+   }
   }
  ]
 }

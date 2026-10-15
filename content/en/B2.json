@@ -1920,6 +1920,206 @@
     "version": 1,
     "last_revised": "2026-10-15"
    }
+  },
+  {
+   "id": "B2-011",
+   "level": "B2",
+   "track": "general",
+   "day": 11,
+   "title_ko": "혼합 조건문: 과거 사실이 지금 결과에 미치는 영향",
+   "objective_ko": "과거와 다른 사실을 가정하고 그 결과가 지금까지 이어지는 상황을 If + had p.p., would + 동사원형으로 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-16",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "혼합 조건문은 시점이 서로 다른 가정을 한 문장에 묶습니다. ① 과거 사실의 반대가 지금 결과에 영향: If + 과거완료(had p.p.), would + 동사원형(+ now) — If I had studied harder, I would have a better job now. (그때 열심히 공부했더라면 지금 더 좋은 직장이 있을 텐데) ② 현재의 성격·상태의 반대가 과거 결과에 영향: If + 과거형(were), would have + p.p. — If she were more careful, she wouldn't have lost her keys. (그녀가 더 신중한 사람이라면 열쇠를 잃어버리지 않았을 텐데) 어느 쪽이든 if절의 시제는 가정하는 시점을, 주절의 시제는 결과가 나타나는 시점을 따릅니다. 가정법 과거(B2-001)와 과거완료(B2-008)를 이미 배웠으니 둘을 한 문장에서 섞는 연습입니다.",
+    "common_mistake_ko": "If I would have studied harder, I would have a better job now.(X) → If I had studied harder, I would have a better job now.(O) / If I had studied harder, I would had a better job.(X) → ... I would have a better job.(O) / If I hadn't missed the train, I would have been at the office now.(now와 시제 불일치) → ... I would be at the office now.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "scholarship",
+     "part_of_speech": "명사",
+     "meaning_ko": "장학금",
+     "example_en": "He got a scholarship to study abroad.",
+     "example_ko": "그는 유학을 위한 장학금을 받았어요."
+    },
+    {
+     "word": "career",
+     "part_of_speech": "명사",
+     "meaning_ko": "직업 경력",
+     "example_en": "She has a successful career in finance.",
+     "example_ko": "그녀는 금융 분야에서 성공적인 경력을 쌓고 있어요."
+    },
+    {
+     "word": "graduate",
+     "part_of_speech": "동사",
+     "meaning_ko": "졸업하다",
+     "example_en": "He graduated from university in March.",
+     "example_ko": "그는 3월에 대학을 졸업했어요."
+    },
+    {
+     "word": "promote",
+     "part_of_speech": "동사",
+     "meaning_ko": "승진시키다, 홍보하다",
+     "example_en": "The company promoted her last year.",
+     "example_ko": "회사는 작년에 그녀를 승진시켰어요."
+    },
+    {
+     "word": "relocate",
+     "part_of_speech": "동사",
+     "meaning_ko": "이전하다, 이사하다",
+     "example_en": "Our office relocated to Busan.",
+     "example_ko": "우리 사무실은 부산으로 이전했어요."
+    },
+    {
+     "word": "apply",
+     "part_of_speech": "동사",
+     "meaning_ko": "지원하다, 신청하다",
+     "example_en": "She applied for the job online.",
+     "example_ko": "그녀는 온라인으로 그 일자리에 지원했어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "If I had studied harder, I would have a better job now.",
+     "ko": "그때 더 열심히 공부했더라면 지금 더 좋은 직장이 있을 텐데요."
+    },
+    {
+     "en": "If she had taken the job in Busan, she would live by the sea now.",
+     "ko": "그녀가 부산 일자리를 택했더라면 지금 바닷가에 살고 있을 텐데요."
+    },
+    {
+     "en": "If we had left earlier, we wouldn't be stuck in traffic now.",
+     "ko": "우리가 더 일찍 출발했더라면 지금 교통체증에 갇혀 있지 않을 텐데요."
+    },
+    {
+     "en": "If he had accepted the scholarship, he would be studying abroad now.",
+     "ko": "그가 장학금을 받아들였더라면 지금 유학 중일 텐데요."
+    },
+    {
+     "en": "If I weren't so shy, I would have asked her for help yesterday.",
+     "ko": "내가 이렇게 수줍음이 많지 않다면 어제 그녀에게 도움을 청했을 텐데요."
+    },
+    {
+     "en": "If you were more careful, you wouldn't have lost your wallet.",
+     "ko": "당신이 더 신중한 사람이라면 지갑을 잃어버리지 않았을 텐데요."
+    },
+    {
+     "en": "If they had saved more money, they would be able to afford a bigger house now.",
+     "ko": "그들이 돈을 더 모았더라면 지금 더 큰 집을 살 수 있을 텐데요."
+    },
+    {
+     "en": "If I had graduated last year, I would be working full-time now.",
+     "ko": "내가 작년에 졸업했더라면 지금 정규직으로 일하고 있을 텐데요."
+    },
+    {
+     "en": "If she had been promoted, she would have more responsibility now.",
+     "ko": "그녀가 승진했더라면 지금 더 많은 책임을 지고 있을 텐데요."
+    },
+    {
+     "en": "If I hadn't missed the train, I would be at the office now.",
+     "ko": "내가 기차를 놓치지 않았더라면 지금 사무실에 있을 텐데요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "B2-011-Q1",
+     "type": "single_choice",
+     "stem": "If I had taken the job, I ___ in Busan now.",
+     "choices": [
+      "would live",
+      "would have lived",
+      "lived",
+      "will live"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "과거 사실의 반대가 지금(now) 결과에 영향을 주므로 주절은 would + 동사원형입니다.",
+     "error_tag": "mixed-conditional"
+    },
+    {
+     "id": "B2-011-Q2",
+     "type": "single_choice",
+     "stem": "If we had left earlier, we ___ stuck in traffic now.",
+     "choices": [
+      "wouldn't be",
+      "wouldn't have been",
+      "won't be",
+      "didn't be"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "결과가 지금(now)이므로 주절은 would not + 동사원형입니다.",
+     "error_tag": "mixed-conditional"
+    },
+    {
+     "id": "B2-011-Q3",
+     "type": "single_choice",
+     "stem": "그녀는 평소 덜렁대는 사람이다. If she ___ more careful, she wouldn't have lost her keys yesterday.",
+     "choices": [
+      "is",
+      "were",
+      "will be",
+      "has been"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "현재의 성격·상태를 반대로 가정하므로 if절은 were입니다. 결과는 과거(yesterday)라 주절은 would not have + p.p.입니다.",
+     "error_tag": "mixed-conditional"
+    },
+    {
+     "id": "B2-011-Q4",
+     "type": "single_choice",
+     "stem": "'그때 더 열심히 공부했더라면 지금 더 좋은 직장이 있을 텐데'에 맞는 문장은?",
+     "choices": [
+      "If I would have studied harder, I would have a better job now.",
+      "If I had studied harder, I would have a better job now.",
+      "If I have studied harder, I would have a better job now.",
+      "If I had studied harder, I would had a better job now."
+     ],
+     "answer_index": 1,
+     "explanation_ko": "if절은 had + p.p., 주절은 would + 동사원형입니다. if절에는 would를 쓰지 않습니다.",
+     "error_tag": "mixed-conditional"
+    },
+    {
+     "id": "B2-011-Q5",
+     "type": "typing",
+     "stem": "빈칸에 알맞은 말을 쓰세요: If I hadn't missed the train, I ___ at the office now. (be)",
+     "answer_text": "would be",
+     "accepted_answers": [
+      "would be",
+      "'d be"
+     ],
+     "explanation_ko": "결과가 지금이므로 would + be입니다.",
+     "error_tag": "mixed-conditional"
+    },
+    {
+     "id": "B2-011-Q6",
+     "type": "typing",
+     "stem": "빈칸에 동사를 쓰세요: If she had taken the job in Busan, she would ___ by the sea now. (live)",
+     "answer_text": "live",
+     "accepted_answers": [
+      "live"
+     ],
+     "explanation_ko": "would 뒤에는 동사원형이 옵니다.",
+     "error_tag": "mixed-conditional"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "과거에 하지 않은 선택 하나를 떠올리고, 그랬다면 지금 어떨지 If + had p.p., would + 동사원형으로 한 문장 써 보세요.",
+    "example_answer_en": "If I had learned English earlier, I would speak more fluently now.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. if절에 had p.p., 주절에 would + 동사원형을 썼는지 확인하세요."
+   },
+   "publish_date": "2026-10-16",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-16"
+   }
   }
  ]
 }

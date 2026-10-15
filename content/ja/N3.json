@@ -2104,6 +2104,223 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N3-11",
+   "day_index": 11,
+   "week_index": 2,
+   "level": "N3",
+   "unit_id": "N3-W02",
+   "lesson_type": "new",
+   "title_ko": "〜ばかり: 막 ~했다・~만 하고 있다",
+   "objective_ko": "〜たばかり, 〜てばかりいる, 명사 + ばかり의 세 가지 쓰임을 구별해 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N3-10"
+   ],
+   "explanation_ko": "ばかり는 세 가지로 자주 쓰입니다. ① 동사 た형 + ばかりだ: ‘막 ~했다’. 시간의 길이와 관계없이 말하는 사람이 ‘아직 얼마 안 됐다’고 느낄 때 씁니다(先月入社したばかり). ② 동사 て형 + ばかりいる: ‘~만 하고 있다’. 같은 행동만 되풀이하는 것에 대한 불만이 담깁니다(ゲームをしてばかりいる). ③ 명사 + ばかり: ‘~만, 대부분 ~’(甘い物ばかり食べる). ②③은 だけ보다 ‘지나치다’는 비판의 느낌이 강합니다.",
+   "usage_notes": [
+    "〜たばかり는 ‘직후’를 느끼는 말하는 사람의 감각이 기준이라 한 달 전의 일에도 쓸 수 있습니다.",
+    "〜たところだ(N3-09)는 동작 직후의 순간을, 〜たばかり는 ‘얼마 안 됨’이라는 느낌을 나타냅니다.",
+    "〜てばかりいる에는 불만・비판이 담기므로 윗사람에게는 조심해서 씁니다."
+   ],
+   "common_mistakes": [
+    "入社するばかりです(X) → 入社したばかりです(O): ‘막 ~했다’는 た형을 씁니다.",
+    "ゲームをしばかり(X) → ゲームをしてばかり(O): ‘~만 하고 있다’는 て형 + ばかり입니다.",
+    "入社したばかりだ 대신 入社するばかりだ(X): ばかり 앞의 동사를 사전형으로 하면 ‘~할 일만 남았다’라는 다른 뜻이 됩니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N3-11-01",
+     "kind": "word",
+     "text": "入社{にゅうしゃ}",
+     "reading_kana": "にゅうしゃ",
+     "reading_romanized": "nyuusha",
+     "meaning_ko": "입사",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-11-02",
+     "kind": "word",
+     "text": "文句{もんく}",
+     "reading_kana": "もんく",
+     "reading_romanized": "monku",
+     "meaning_ko": "불평, 트집",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-11-03",
+     "kind": "word",
+     "text": "夜更{よふ}かし",
+     "reading_kana": "よふかし",
+     "reading_romanized": "yofukashi",
+     "meaning_ko": "밤늦게까지 깨어 있음",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-11-04",
+     "kind": "word",
+     "text": "甘{あま}い",
+     "reading_kana": "あまい",
+     "reading_romanized": "amai",
+     "meaning_ko": "달다",
+     "part_of_speech": "い형용사"
+    },
+    {
+     "id": "w-JP-N3-11-05",
+     "kind": "word",
+     "text": "愚痴{ぐち}",
+     "reading_kana": "ぐち",
+     "reading_romanized": "guchi",
+     "meaning_ko": "푸념, 넋두리",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-11-06",
+     "kind": "word",
+     "text": "運動{うんどう}",
+     "reading_kana": "うんどう",
+     "reading_romanized": "undou",
+     "meaning_ko": "운동",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "先月{せんげつ}入社{にゅうしゃ}したばかりで、まだ仕事{しごと}に慣{な}れていません。",
+     "meaning_ko": "지난달에 막 입사해서 아직 일에 익숙하지 않습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "先週{せんしゅう}引{ひ}っ越{こ}してきたばかりなので、近所{きんじょ}のことがよく分{わ}かりません。",
+     "meaning_ko": "지난주에 막 이사 와서 동네를 잘 모릅니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "弟{おとうと}はゲームをしてばかりいて、全然{ぜんぜん}勉強{べんきょう}しない。",
+     "meaning_ko": "남동생은 게임만 하고 있고 전혀 공부하지 않는다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}は文句{もんく}ばかり言{い}っている。",
+     "meaning_ko": "그는 불평만 하고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "夜更{よふ}かしばかりしていると、体{からだ}を壊{こわ}すよ。",
+     "meaning_ko": "밤늦게까지 깨어 있기만 하면 몸이 상해.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "甘{あま}い物{もの}ばかり食{た}べていると、太{ふと}りますよ。",
+     "meaning_ko": "단것만 먹고 있으면 살이 쪄요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "結婚{けっこん}したばかりの友達{ともだち}に、お祝{いわ}いを送{おく}った。",
+     "meaning_ko": "막 결혼한 친구에게 축하 선물을 보냈다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "愚痴{ぐち}ばかり言{い}わないで、少{すこ}しは行動{こうどう}しなさい。",
+     "meaning_ko": "푸념만 하지 말고 조금은 행동하세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "運動{うんどう}したばかりなので、のどが渇{かわ}いた。",
+     "meaning_ko": "막 운동했기 때문에 목이 말랐다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N3-11-Q1",
+     "type": "single_choice",
+     "prompt_ko": "先月入社した（　）で、まだ慣れていません。",
+     "options": [
+      "ばかり",
+      "だけ",
+      "ほど",
+      "ずつ"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘막 ~했다’는 た형 + ばかり입니다."
+    },
+    {
+     "id": "JP-N3-11-Q2",
+     "type": "single_choice",
+     "prompt_ko": "弟は ゲームを して（　）いる。",
+     "options": [
+      "ばかり",
+      "だけ",
+      "ずつ",
+      "ごろ"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘~만 하고 있다’는 て형 + ばかり + いる입니다."
+    },
+    {
+     "id": "JP-N3-11-Q3",
+     "type": "single_choice",
+     "prompt_ko": "「彼は文句ばかり言っている」의 뜻은?",
+     "options": [
+      "그는 불평만 하고 있다",
+      "그는 불평을 막 말했다",
+      "그는 불평을 전혀 하지 않는다",
+      "그는 불평 때문에 말을 못 한다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "명사 + ばかり는 ‘~만, 대부분’이고 문맥상 비판의 느낌이 있습니다."
+    },
+    {
+     "id": "JP-N3-11-Q4",
+     "type": "single_choice",
+     "prompt_ko": "‘지난주에 막 이사 왔다’를 바르게 나타낸 것은?",
+     "options": [
+      "先週引っ越してきたばかりだ",
+      "先週引っ越してきてばかりだ",
+      "先週引っ越してくるばかりだ",
+      "先週引っ越してきたばかりいる"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘막 ~했다’는 た형 + ばかりだ입니다. 〜てばかりいる와 혼동하지 않습니다."
+    },
+    {
+     "id": "JP-N3-11-Q5",
+     "type": "typing",
+     "prompt_ko": "「文句」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "monku",
+     "accepted_answers": [
+      "monku"
+     ],
+     "explanation_ko": "文句 = もんく (monku)"
+    },
+    {
+     "id": "JP-N3-11-Q6",
+     "type": "typing",
+     "prompt_ko": "「愚痴」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "guchi",
+     "accepted_answers": [
+      "guchi",
+      "guti"
+     ],
+     "explanation_ko": "愚痴 = ぐち (guchi)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }
