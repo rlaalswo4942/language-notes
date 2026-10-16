@@ -1085,6 +1085,207 @@
     "version": 1,
     "last_revised": "2026-10-16"
    }
+  },
+  {
+   "id": "B1-007",
+   "level": "B1",
+   "track": "general",
+   "day": 7,
+   "title_ko": "1주 복습: 접속사·현재완료·조건문·수동태·관계절·과거진행",
+   "objective_ko": "B1 1~6일차에서 배운 문법을 섞인 문제로 다시 확인한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-17",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "이번 주에 배운 여섯 가지를 한 번에 복습합니다. ① because는 이유, although는 대조(B1-001). ② 현재완료 have/has + p.p.는 경험·완료·결과(B1-002). ③ 제1조건문은 If + 현재, will + 동사원형이고, unless는 if ... not의 뜻(B1-003). ④ 수동태는 be + p.p.(B1-004). ⑤ 관계절은 사람 who, 사물 which, 둘 다 that(B1-005). ⑥ 과거진행형 was/were + -ing는 진행 중이던 배경, 그 도중의 짧은 사건은 단순과거(B1-006). 문제를 풀 때는 문장의 시간 단서(in 1998, when ..., tomorrow)와 동사 앞뒤의 단서(by, 목적어 유무)를 먼저 찾습니다.",
+    "common_mistake_ko": "She was late although the bus broke down.(X, 이유인데 대조 접속사) → because / I lost my keys. I can't open the door.(결과가 지금 이어지면 어색) → I have lost my keys. / This bridge built in 1998.(X) → This bridge was built in 1998.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "review",
+     "part_of_speech": "동사",
+     "meaning_ko": "복습하다, 검토하다",
+     "example_en": "Please review this week's grammar.",
+     "example_ko": "이번 주 문법을 복습해 보세요."
+    },
+    {
+     "word": "improve",
+     "part_of_speech": "동사",
+     "meaning_ko": "나아지다, 향상시키다",
+     "example_en": "Reviewing every day can improve your English.",
+     "example_ko": "매일 복습하면 영어가 나아질 수 있어요."
+    },
+    {
+     "word": "cancel",
+     "part_of_speech": "동사",
+     "meaning_ko": "취소하다",
+     "example_en": "We will cancel the picnic if it rains.",
+     "example_ko": "비가 오면 우리는 소풍을 취소할 거예요."
+    },
+    {
+     "word": "repair",
+     "part_of_speech": "동사",
+     "meaning_ko": "수리하다",
+     "example_en": "The bridge was repaired last year.",
+     "example_ko": "그 다리는 작년에 수리되었어요."
+    },
+    {
+     "word": "neighbor",
+     "part_of_speech": "명사",
+     "meaning_ko": "이웃",
+     "example_en": "The woman who lives next door is my neighbor.",
+     "example_ko": "옆집에 사는 여자분은 제 이웃이에요."
+    },
+    {
+     "word": "suddenly",
+     "part_of_speech": "부사",
+     "meaning_ko": "갑자기",
+     "example_en": "Suddenly, the phone rang.",
+     "example_ko": "갑자기 전화가 울렸어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I stayed home because it was raining.",
+     "ko": "비가 와서 나는 집에 있었어요."
+    },
+    {
+     "en": "Although she was tired, she finished the report.",
+     "ko": "그녀는 피곤했지만 보고서를 끝냈어요."
+    },
+    {
+     "en": "I have never been to Jeju Island.",
+     "ko": "나는 제주도에 가 본 적이 없어요."
+    },
+    {
+     "en": "We have already booked the hotel.",
+     "ko": "우리는 이미 호텔을 예약했어요."
+    },
+    {
+     "en": "If it rains tomorrow, we will cancel the picnic.",
+     "ko": "내일 비가 오면 우리는 소풍을 취소할 거예요."
+    },
+    {
+     "en": "Unless you hurry, you will miss the train.",
+     "ko": "서두르지 않으면 기차를 놓칠 거예요."
+    },
+    {
+     "en": "This bridge was built in 1998.",
+     "ko": "이 다리는 1998년에 지어졌어요."
+    },
+    {
+     "en": "English is spoken in many countries.",
+     "ko": "영어는 많은 나라에서 쓰여요."
+    },
+    {
+     "en": "The man who lives next door is a doctor.",
+     "ko": "옆집에 사는 남자는 의사예요."
+    },
+    {
+     "en": "I was reading a book when my friend called.",
+     "ko": "친구가 전화했을 때 나는 책을 읽고 있었어요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "B1007-Q1",
+     "type": "single_choice",
+     "stem": "She was late ___ the bus broke down.",
+     "choices": [
+      "because",
+      "although",
+      "unless"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "버스가 고장 난 것이 늦은 이유이므로 because입니다.",
+     "error_tag": "conjunction"
+    },
+    {
+     "id": "B1007-Q2",
+     "type": "single_choice",
+     "stem": "I ___ my keys. I can't open the door.",
+     "choices": [
+      "have lost",
+      "am losing",
+      "will lose",
+      "was losing"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "과거에 잃어버렸고 그 결과가 지금(문을 못 연다)까지 이어지므로 현재완료 have lost입니다.",
+     "error_tag": "present-perfect"
+    },
+    {
+     "id": "B1007-Q3",
+     "type": "single_choice",
+     "stem": "This bridge ___ in 1998.",
+     "choices": [
+      "was built",
+      "built",
+      "is building",
+      "has built"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "다리는 사람에 의해 지어진 대상이고 과거 시점(1998)이므로 수동태 과거 was built입니다.",
+     "error_tag": "passive"
+    },
+    {
+     "id": "B1007-Q4",
+     "type": "single_choice",
+     "stem": "I ___ dinner when my friend called. (저녁을 하던 중에)",
+     "choices": [
+      "was cooking",
+      "cooked",
+      "am cooking",
+      "have cooked"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "전화가 온 시점에 진행 중이던 동작이므로 과거진행형 was cooking입니다.",
+     "error_tag": "past-continuous"
+    },
+    {
+     "id": "B1007-Q5",
+     "type": "typing",
+     "stem": "빈칸에 who 또는 which를 쓰세요: The woman ___ lives next door is a doctor.",
+     "answer_text": "who",
+     "accepted_answers": [
+      "who",
+      "that"
+     ],
+     "explanation_ko": "사람을 꾸미는 관계대명사는 who입니다(that도 가능).",
+     "error_tag": "relative-clause"
+    },
+    {
+     "id": "B1007-Q6",
+     "type": "typing",
+     "stem": "빈칸에 알맞은 말을 쓰세요(will + 동사원형, 두 단어): If it rains tomorrow, we ___ the picnic. (cancel)",
+     "answer_text": "will cancel",
+     "accepted_answers": [
+      "will cancel",
+      "'ll cancel",
+      "’ll cancel"
+     ],
+     "explanation_ko": "제1조건문은 If + 현재, will + 동사원형입니다.",
+     "error_tag": "first-conditional"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "이번 주에 배운 문법 중 하나를 골라 그 문법을 쓴 문장을 한 개 써 보세요.",
+    "example_answer_en": "Although I was tired, I finished my homework.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 고른 문법의 형태(예: was + -ing, will + 동사원형)가 맞는지 확인하세요."
+   },
+   "publish_date": "2026-10-17",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-17"
+   }
   }
  ]
 }

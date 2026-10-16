@@ -2499,6 +2499,210 @@
     "version": 1,
     "last_revised": "2026-10-16"
    }
+  },
+  {
+   "id": "PRE-018",
+   "level": "Pre-A1",
+   "track": "foundation",
+   "day": 18,
+   "title_ko": "don't / doesn't: 일반동사 부정문",
+   "objective_ko": "일반동사 문장을 don't / doesn't + 동사원형으로 부정하는 말을 만든다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-17",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "일반동사 문장을 부정할 때는 동사 앞에 don't 또는 doesn't를 쓰고 동사는 원형으로 씁니다. I, you, we, they와 복수 주어에는 don't를 씁니다: I don't like fish. They don't play soccer. he, she, 한 사람·한 개(My sister, Tom)가 주어이면 doesn't를 씁니다: He doesn't eat meat. doesn't 뒤에서는 동사에 -s를 붙이지 않습니다(doesn't가 이미 3인칭 단수를 나타내기 때문). don't는 do not, doesn't는 does not의 줄임말입니다. 일반동사 문장에는 am/is/are의 부정(isn't, aren't)을 함께 쓰지 않습니다.",
+    "common_mistake_ko": "He don't like fish.(X) → He doesn't like fish.(O) / She doesn't eats meat.(X) → She doesn't eat meat.(O) / I isn't like coffee.(X) → I don't like coffee.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "don't",
+     "part_of_speech": "조동사",
+     "meaning_ko": "~하지 않다 (I, you, we, they)",
+     "example_en": "I don't drink coffee.",
+     "example_ko": "나는 커피를 마시지 않아요."
+    },
+    {
+     "word": "doesn't",
+     "part_of_speech": "조동사",
+     "meaning_ko": "~하지 않다 (he, she, 한 사람·한 개)",
+     "example_en": "She doesn't drink coffee.",
+     "example_ko": "그녀는 커피를 마시지 않아요."
+    },
+    {
+     "word": "meat",
+     "part_of_speech": "명사",
+     "meaning_ko": "고기",
+     "example_en": "He doesn't eat meat.",
+     "example_ko": "그는 고기를 먹지 않아요."
+    },
+    {
+     "word": "fish",
+     "part_of_speech": "명사",
+     "meaning_ko": "생선",
+     "example_en": "My brother doesn't eat fish.",
+     "example_ko": "내 남자 형제는 생선을 먹지 않아요."
+    },
+    {
+     "word": "rice",
+     "part_of_speech": "명사",
+     "meaning_ko": "밥, 쌀",
+     "example_en": "We don't need rice today.",
+     "example_ko": "우리는 오늘 쌀이 필요하지 않아요."
+    },
+    {
+     "word": "coffee",
+     "part_of_speech": "명사",
+     "meaning_ko": "커피",
+     "example_en": "I don't like coffee.",
+     "example_ko": "나는 커피를 좋아하지 않아요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I don't like coffee.",
+     "ko": "나는 커피를 좋아하지 않아요."
+    },
+    {
+     "en": "You don't need a bag.",
+     "ko": "당신은 가방이 필요하지 않아요."
+    },
+    {
+     "en": "He doesn't eat meat.",
+     "ko": "그는 고기를 먹지 않아요."
+    },
+    {
+     "en": "She doesn't drink coffee.",
+     "ko": "그녀는 커피를 마시지 않아요."
+    },
+    {
+     "en": "We don't have a car.",
+     "ko": "우리는 차가 없어요."
+    },
+    {
+     "en": "They don't play soccer.",
+     "ko": "그들은 축구를 하지 않아요."
+    },
+    {
+     "en": "My brother doesn't eat fish.",
+     "ko": "내 남자 형제는 생선을 먹지 않아요."
+    },
+    {
+     "en": "My sister doesn't want rice.",
+     "ko": "내 여자 형제는 밥을 원하지 않아요."
+    },
+    {
+     "en": "I don't study at night.",
+     "ko": "나는 밤에 공부하지 않아요."
+    },
+    {
+     "en": "Tom doesn't like movies.",
+     "ko": "톰은 영화를 좋아하지 않아요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "P018-Q1",
+     "type": "single_choice",
+     "stem": "I ___ like fish.",
+     "choices": [
+      "don't",
+      "doesn't",
+      "isn't",
+      "aren't"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "I에는 don't를 씁니다. 일반동사 like 앞에 isn't, aren't를 쓰지 않습니다.",
+     "error_tag": "do-negative"
+    },
+    {
+     "id": "P018-Q2",
+     "type": "single_choice",
+     "stem": "He ___ drink coffee.",
+     "choices": [
+      "doesn't",
+      "don't",
+      "isn't",
+      "aren't"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "he에는 doesn't를 씁니다.",
+     "error_tag": "do-negative"
+    },
+    {
+     "id": "P018-Q3",
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "She doesn't eat meat.",
+      "She doesn't eats meat.",
+      "She don't eat meat.",
+      "She isn't eat meat."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "doesn't 뒤의 동사는 원형입니다(-s를 붙이지 않음). she에는 doesn't를 씁니다.",
+     "error_tag": "do-negative"
+    },
+    {
+     "id": "P018-Q4",
+     "type": "single_choice",
+     "stem": "My brother doesn't ___ rice.",
+     "choices": [
+      "eat",
+      "eats",
+      "eating"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "doesn't 뒤에는 동사원형을 씁니다. doesn't가 이미 3인칭 단수를 나타냅니다.",
+     "error_tag": "do-negative"
+    },
+    {
+     "id": "P018-Q5",
+     "type": "typing",
+     "stem": "빈칸에 don't 또는 doesn't를 쓰세요: They ___ have a dog.",
+     "answer_text": "don't",
+     "accepted_answers": [
+      "don't",
+      "do not",
+      "don’t",
+      "dont"
+     ],
+     "explanation_ko": "they는 복수이므로 don't입니다.",
+     "error_tag": "do-negative"
+    },
+    {
+     "id": "P018-Q6",
+     "type": "typing",
+     "stem": "빈칸에 don't 또는 doesn't를 쓰세요: My sister ___ like meat.",
+     "answer_text": "doesn't",
+     "accepted_answers": [
+      "doesn't",
+      "does not",
+      "doesn’t",
+      "doesnt"
+     ],
+     "explanation_ko": "My sister는 한 사람(she)이므로 doesn't입니다.",
+     "error_tag": "do-negative"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "I don't ...로 시작하는 문장 한 개, He 또는 She doesn't ...로 시작하는 문장 한 개를 써 보세요.",
+    "example_answer_en": "I don't drink milk. She doesn't eat meat.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. doesn't 뒤에 동사원형을 썼는지 확인하세요."
+   },
+   "publish_date": "2026-10-17",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-17"
+   }
   }
  ]
 }

@@ -2321,6 +2321,231 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N3-12",
+   "day_index": 12,
+   "week_index": 2,
+   "level": "N3",
+   "unit_id": "N3-W02",
+   "lesson_type": "new",
+   "title_ko": "〜たびに: ~할 때마다",
+   "objective_ko": "동사 사전형・명사 + のたびに로 ‘~할 때마다 매번’ 일어나는 일을 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N3-11"
+   ],
+   "explanation_ko": "〜たびに는 ‘~할 때마다 (그때마다 어김없이)’라는 뜻입니다. 동사 사전형 또는 명사 + の에 붙입니다: この曲を聞くたびに / 出張のたびに. 앞의 일이 일어날 때마다 같은 일이나 감정이 되풀이된다는 느낌이며, 뒤에는 그때마다 생기는 행동・변화・감정이 옵니다: 思い出す, 感動する, 懐かしくなる 등. 〜とき가 한 번의 때를 가리킬 수도 있는 데 비해, 〜たびに는 ‘언제나 매번’이라는 반복을 강조합니다.",
+   "usage_notes": [
+    "앞에는 동사 사전형 또는 명사 + の를 씁니다. 과거형(〜た)에는 이어지지 않습니다.",
+    "뒤에는 그때마다 반복되는 일・감정・변화가 옵니다. 한 번뿐인 일에는 쓰지 않습니다.",
+    "‘~할 때마다’라는 비슷한 뜻으로 〜ごとに를 쓰기도 하지만, 감정이나 생각이 떠오르는 문장에는 〜たびに가 자연스럽습니다."
+   ],
+   "common_mistakes": [
+    "見たたびに(X) → 見るたびに(O): 앞은 사전형입니다.",
+    "出張たびに(X) → 出張のたびに(O): 명사에는 の가 필요합니다.",
+    "見るたびで(X) → 見るたびに(O): 조사는 に를 씁니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N3-12-01",
+     "kind": "word",
+     "text": "故郷{こきょう}",
+     "reading_kana": "こきょう",
+     "reading_romanized": "kokyou",
+     "meaning_ko": "고향",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-12-02",
+     "kind": "word",
+     "text": "出張{しゅっちょう}",
+     "reading_kana": "しゅっちょう",
+     "reading_romanized": "shucchou",
+     "meaning_ko": "출장",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-12-03",
+     "kind": "word",
+     "text": "思{おも}い出{だ}す",
+     "reading_kana": "おもいだす",
+     "reading_romanized": "omoidasu",
+     "meaning_ko": "떠올리다, 생각나다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N3-12-04",
+     "kind": "word",
+     "text": "懐{なつ}かしい",
+     "reading_kana": "なつかしい",
+     "reading_romanized": "natsukashii",
+     "meaning_ko": "그립다, 추억이 새롭다",
+     "part_of_speech": "い형용사"
+    },
+    {
+     "id": "w-JP-N3-12-05",
+     "kind": "word",
+     "text": "感動{かんどう}",
+     "reading_kana": "かんどう",
+     "reading_romanized": "kandou",
+     "meaning_ko": "감동",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-12-06",
+     "kind": "word",
+     "text": "上達{じょうたつ}",
+     "reading_kana": "じょうたつ",
+     "reading_romanized": "joutatsu",
+     "meaning_ko": "(실력이) 늚, 향상",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "この写真{しゃしん}を見{み}るたびに、故郷{こきょう}のことを思{おも}い出{だ}す。",
+     "meaning_ko": "이 사진을 볼 때마다 고향 생각이 난다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "出張{しゅっちょう}のたびに、家族{かぞく}にお土産{みやげ}を買{か}って帰{かえ}る。",
+     "meaning_ko": "출장 갈 때마다 가족에게 선물을 사서 돌아온다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}に会{あ}うたびに、日本語{にほんご}が上手{じょうず}になったと感{かん}じる。",
+     "meaning_ko": "그를 만날 때마다 일본어가 늘었다고 느낀다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この曲{きょく}を聞{き}くたびに、学生{がくせい}時代{じだい}が懐{なつ}かしくなる。",
+     "meaning_ko": "이 곡을 들을 때마다 학생 시절이 그리워진다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "母{はは}は電話{でんわ}をかけてくるたびに、体{からだ}に気{き}をつけるようにと言{い}う。",
+     "meaning_ko": "어머니는 전화를 걸어올 때마다 몸조심하라고 말씀하신다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "旅行{りょこう}のたびに、新{あたら}しい発見{はっけん}がある。",
+     "meaning_ko": "여행할 때마다 새로운 발견이 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼女{かのじょ}の演奏{えんそう}を聞{き}くたびに、深{ふか}く感動{かんどう}する。",
+     "meaning_ko": "그녀의 연주를 들을 때마다 깊이 감동한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "先生{せんせい}に質問{しつもん}するたびに、丁寧{ていねい}に教{おし}えてくださる。",
+     "meaning_ko": "선생님께 질문할 때마다 친절하게 가르쳐 주신다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "練習{れんしゅう}するたびに、少{すこ}しずつ上達{じょうたつ}している。",
+     "meaning_ko": "연습할 때마다 조금씩 늘고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "引{ひ}っ越{こ}しのたびに、荷物{にもつ}が増{ふ}える。",
+     "meaning_ko": "이사할 때마다 짐이 늘어난다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N3-12-Q1",
+     "type": "single_choice",
+     "prompt_ko": "‘이 사진을 볼 때마다 고향 생각이 난다’가 되도록 알맞은 말을 고르세요. この写真を見る（　）、故郷を思い出す。",
+     "options": [
+      "たびに",
+      "うちに",
+      "ところに",
+      "ばかりに"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘~할 때마다’는 동사 사전형 + たびに입니다."
+    },
+    {
+     "id": "JP-N3-12-Q2",
+     "type": "single_choice",
+     "prompt_ko": "‘출장 갈 때마다 선물을 산다’가 되도록 알맞은 말을 고르세요. 出張（　）たびに、お土産を買う。",
+     "options": [
+      "の",
+      "を",
+      "に",
+      "が"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "명사에는 の를 붙여 〜のたびに 형태로 씁니다."
+    },
+    {
+     "id": "JP-N3-12-Q3",
+     "type": "single_choice",
+     "prompt_ko": "‘볼 때마다’를 바르게 나타낸 것은?",
+     "options": [
+      "見るたびに",
+      "見たたびに",
+      "見てたびに",
+      "見ないたびに"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "たびに 앞은 동사 사전형입니다. 과거형(た)이나 て형은 쓰지 않습니다."
+    },
+    {
+     "id": "JP-N3-12-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「彼に会うたびに、日本語が上手になったと感じる」의 뜻은?",
+     "options": [
+      "그를 만날 때마다 일본어가 늘었다고 느낀다",
+      "그를 처음 만난 뒤 일본어가 늘었다고 느꼈다",
+      "그를 만나기 전에 일본어가 늘었다고 느낀다",
+      "그를 만나지 않으면 일본어가 늘었다고 느낀다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜たびに는 ‘~할 때마다 매번’입니다."
+    },
+    {
+     "id": "JP-N3-12-Q5",
+     "type": "typing",
+     "prompt_ko": "「出張」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "shucchou",
+     "accepted_answers": [
+      "shucchou",
+      "shuccho",
+      "syuttyou",
+      "syuccho"
+     ],
+     "explanation_ko": "出張 = しゅっちょう (shucchou)"
+    },
+    {
+     "id": "JP-N3-12-Q6",
+     "type": "typing",
+     "prompt_ko": "「故郷」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kokyou",
+     "accepted_answers": [
+      "kokyou",
+      "kokyo"
+     ],
+     "explanation_ko": "故郷 = こきょう (kokyou)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

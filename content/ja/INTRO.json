@@ -3774,6 +3774,218 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전"
+  },
+  {
+   "id": "JP-INTRO-36",
+   "day_index": 36,
+   "week_index": 6,
+   "level": "INTRO",
+   "unit_id": "INTRO-W06",
+   "lesson_type": "new",
+   "title_ko": "가타카나 マ행",
+   "objective_ko": "가타카나 マ·ミ·ム·メ·モ를 읽고, 외래어 단어를 읽는다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-INTRO-35"
+   ],
+   "new_items": [
+    {
+     "id": "kana-d36-01",
+     "kind": "kana",
+     "text": "マ",
+     "reading_romanized": "ma",
+     "meaning_ko": null
+    },
+    {
+     "id": "kana-d36-02",
+     "kind": "kana",
+     "text": "ミ",
+     "reading_romanized": "mi",
+     "meaning_ko": null
+    },
+    {
+     "id": "kana-d36-03",
+     "kind": "kana",
+     "text": "ム",
+     "reading_romanized": "mu",
+     "meaning_ko": null
+    },
+    {
+     "id": "kana-d36-04",
+     "kind": "kana",
+     "text": "メ",
+     "reading_romanized": "me",
+     "meaning_ko": null
+    },
+    {
+     "id": "kana-d36-05",
+     "kind": "kana",
+     "text": "モ",
+     "reading_romanized": "mo",
+     "meaning_ko": null
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "マスク",
+     "reading_romanized": "masuku",
+     "meaning_ko": "마스크",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "マイク",
+     "reading_romanized": "maiku",
+     "meaning_ko": "마이크",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "スマホ",
+     "reading_romanized": "sumaho",
+     "meaning_ko": "스마트폰(줄임말)",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "メモ",
+     "reading_romanized": "memo",
+     "meaning_ko": "메모",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "ミス",
+     "reading_romanized": "misu",
+     "meaning_ko": "실수, 미스",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "チーム",
+     "reading_romanized": "chiimu",
+     "meaning_ko": "팀",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "テーマ",
+     "reading_romanized": "teema",
+     "meaning_ko": "테마, 주제",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "ホーム",
+     "reading_romanized": "hoomu",
+     "meaning_ko": "홈, 승강장",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "トマト",
+     "reading_romanized": "tomato",
+     "meaning_ko": "토마토",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "モニター",
+     "reading_romanized": "monitaa",
+     "meaning_ko": "모니터",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "マナー",
+     "reading_romanized": "manaa",
+     "meaning_ko": "매너",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "ミキサー",
+     "reading_romanized": "mikisaa",
+     "meaning_ko": "믹서",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-INTRO-36-Q1",
+     "type": "single_choice",
+     "prompt_ko": "「マ」의 일반적인 로마자 표기는 무엇인가요?",
+     "options": [
+      "ma",
+      "mi",
+      "mu",
+      "me"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "マ는 ma로 표기합니다."
+    },
+    {
+     "id": "JP-INTRO-36-Q2",
+     "type": "single_choice",
+     "prompt_ko": "「ム」의 일반적인 로마자 표기는 무엇인가요?",
+     "options": [
+      "mo",
+      "mu",
+      "me",
+      "ma"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "ム는 mu로 표기합니다. 히라가나 む와 같은 소리입니다."
+    },
+    {
+     "id": "JP-INTRO-36-Q3",
+     "type": "typing",
+     "prompt_ko": "「ミ」를 일반적인 로마자로 입력하세요.",
+     "answer_text": "mi",
+     "accepted_answers": [
+      "mi"
+     ],
+     "explanation_ko": "ミ → mi"
+    },
+    {
+     "id": "JP-INTRO-36-Q4",
+     "type": "typing",
+     "prompt_ko": "「マスク」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "masuku",
+     "accepted_answers": [
+      "masuku"
+     ],
+     "explanation_ko": "マスク = masuku (마스크)"
+    },
+    {
+     "id": "JP-INTRO-36-Q5",
+     "type": "single_choice",
+     "prompt_ko": "「テーマ」의 뜻은?",
+     "options": [
+      "테마, 주제",
+      "팀",
+      "테이프",
+      "토마토"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "テーマ(teema)는 '테마(theme)'입니다. チーム(chiimu)는 '팀', トマト(tomato)는 '토마토'입니다."
+    },
+    {
+     "id": "JP-INTRO-36-Q6",
+     "type": "typing",
+     "prompt_ko": "「チーム」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "chiimu",
+     "accepted_answers": [
+      "chiimu",
+      "chimu",
+      "tiimu",
+      "timu"
+     ],
+     "explanation_ko": "チーム = chiimu (팀). 긴 소리 ー는 모음을 한 번 더 씁니다."
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_KATAKANA"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전"
   }
  ]
 }

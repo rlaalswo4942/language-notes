@@ -2323,6 +2323,228 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N5-12",
+   "day_index": 12,
+   "week_index": 2,
+   "level": "N5",
+   "unit_id": "N5-W02",
+   "lesson_type": "new",
+   "title_ko": "〜たいです: 하고 싶은 것 말하기",
+   "objective_ko": "동사 ます형에서 ます를 떼고 〜たいです를 붙여 하고 싶은 일을 말하고, 〜たくないです로 부정한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N5-11"
+   ],
+   "explanation_ko": "‘~하고 싶습니다’는 동사 ます형에서 ます를 뗀 형태에 たいです를 붙여 말합니다: 飲みます → 飲みたいです, 行きます → 行きたいです, します → したいです. 부정은 〜たくないです(‘~하고 싶지 않습니다’)이며 〜たくありません이라고도 합니다. 누구에게 무엇을 하고 싶은지 물을 때는 何を 食べたいですか처럼 〜たいですか를 씁니다. 목적어에는 보통 を를 쓰고, 〜が 飲みたいです처럼 が를 쓰기도 합니다. 가고 싶은 장소에는 へ 또는 に를 씁니다.",
+   "usage_notes": [
+    "〜たいです 앞은 ます형에서 ます를 뗀 모양입니다. 사전형이나 ます가 붙은 모양에는 연결하지 않습니다.",
+    "〜たい는 주로 말하는 사람(나)의 희망을 말하고, 질문에서는 듣는 사람의 희망을 묻습니다.",
+    "〜たい의 부정은 い를 く로 바꾸고 ないです를 붙입니다(たくないです)."
+   ],
+   "common_mistakes": [
+    "食べますたいです(X) → 食べたいです(O): ます를 떼고 たいです를 붙입니다.",
+    "日本へ 行くたいです(X) → 日本へ 行きたいです(O): 사전형이 아니라 ます형에서 ます를 뗀 形(行き)에 붙입니다.",
+    "食べたいじゃないです(X) → 食べたくないです(O): 부정은 たくないです입니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N5-12-01",
+     "kind": "word",
+     "text": "水{みず}",
+     "reading_kana": "みず",
+     "reading_romanized": "mizu",
+     "meaning_ko": "물",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-12-02",
+     "kind": "word",
+     "text": "海{うみ}",
+     "reading_kana": "うみ",
+     "reading_romanized": "umi",
+     "meaning_ko": "바다",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-12-03",
+     "kind": "word",
+     "text": "山{やま}",
+     "reading_kana": "やま",
+     "reading_romanized": "yama",
+     "meaning_ko": "산",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-12-04",
+     "kind": "word",
+     "text": "日本{にほん}",
+     "reading_kana": "にほん",
+     "reading_romanized": "nihon",
+     "meaning_ko": "일본",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-12-05",
+     "kind": "word",
+     "text": "お茶{ちゃ}",
+     "reading_kana": "おちゃ",
+     "reading_romanized": "ocha",
+     "meaning_ko": "차(마시는 차)",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-12-06",
+     "kind": "word",
+     "text": "今日{きょう}",
+     "reading_kana": "きょう",
+     "reading_romanized": "kyou",
+     "meaning_ko": "오늘",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "水{みず}を 飲{の}みたいです。",
+     "meaning_ko": "물을 마시고 싶습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "日本{にほん}へ 行{い}きたいです。",
+     "meaning_ko": "일본에 가고 싶습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "週末{しゅうまつ}に 山{やま}へ 行{い}きたいです。",
+     "meaning_ko": "주말에 산에 가고 싶습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "何{なに}を 食{た}べたいですか。",
+     "meaning_ko": "무엇을 먹고 싶습니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "私{わたし}は お茶{ちゃ}を 飲{の}みたいです。",
+     "meaning_ko": "저는 차를 마시고 싶습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "映画{えいが}は 見{み}たくないです。",
+     "meaning_ko": "영화는 보고 싶지 않습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "友達{ともだち}と 一緒{いっしょ}に 日本{にほん}へ 行{い}きたいです。",
+     "meaning_ko": "친구와 함께 일본에 가고 싶습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "今日{きょう}は 休{やす}みたいです。",
+     "meaning_ko": "오늘은 쉬고 싶습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "どこで 水{みず}を 買{か}いたいですか。",
+     "meaning_ko": "어디에서 물을 사고 싶습니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "海{うみ}へ 行{い}きたくないです。",
+     "meaning_ko": "바다에 가고 싶지 않습니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N5-12-Q1",
+     "type": "single_choice",
+     "prompt_ko": "‘물을 마시고 싶습니다’를 바르게 나타낸 것은?",
+     "options": [
+      "水を 飲みたいです。",
+      "水を 飲みました。",
+      "水を 飲みたくないです。",
+      "水を 飲んでいます。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ます형에서 ます를 떼고 たいです를 붙입니다. 飲みます → 飲みたいです."
+    },
+    {
+     "id": "JP-N5-12-Q2",
+     "type": "single_choice",
+     "prompt_ko": "‘일본에 가고 싶습니다’를 바르게 나타낸 것은?",
+     "options": [
+      "日本へ 行きたいです。",
+      "日本へ 行くたいです。",
+      "日本へ 行きますたいです。",
+      "日本へ 行ったいです。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "行きます에서 ます를 뗀 行き에 たいです를 붙여 行きたいです가 됩니다. 사전형(行く)이나 ます가 붙은 채로는 연결하지 않습니다."
+    },
+    {
+     "id": "JP-N5-12-Q3",
+     "type": "single_choice",
+     "prompt_ko": "‘영화는 보고 싶지 않습니다’가 되도록 알맞은 말을 고르세요. 映画は（　）。",
+     "options": [
+      "見たくないです",
+      "見たいないです",
+      "見ませんたいです",
+      "見ないたいです"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜たい의 부정은 〜たくないです입니다. たい는 い형용사처럼 い를 く로 바꾸고 ないです를 붙입니다."
+    },
+    {
+     "id": "JP-N5-12-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「何を 食べたいですか」의 뜻은?",
+     "options": [
+      "무엇을 먹고 싶습니까?",
+      "무엇을 먹었습니까?",
+      "누가 먹고 싶습니까?",
+      "어디에서 먹습니까?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "何を는 ‘무엇을’, 食べたいですか는 ‘먹고 싶습니까?’입니다."
+    },
+    {
+     "id": "JP-N5-12-Q5",
+     "type": "typing",
+     "prompt_ko": "「水」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "mizu",
+     "accepted_answers": [
+      "mizu"
+     ],
+     "explanation_ko": "水 = みず (mizu)"
+    },
+    {
+     "id": "JP-N5-12-Q6",
+     "type": "typing",
+     "prompt_ko": "「日本」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "nihon",
+     "accepted_answers": [
+      "nihon",
+      "nippon"
+     ],
+     "explanation_ko": "日本 = にほん (nihon). にっぽん(nippon)이라고도 읽습니다."
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

@@ -881,6 +881,202 @@
     "version": 1,
     "last_revised": "2026-10-16"
    }
+  },
+  {
+   "id": "TOEFL-006",
+   "level": "B1",
+   "track": "toefl",
+   "day": 6,
+   "title_ko": "TOEFL 2026 Read in Daily Life 입문: 공지문에서 세부정보 찾기",
+   "objective_ko": "일상생활 글(공지문)에서 질문과 관련된 숫자·요일·조건을 찾아 알맞은 보기를 고른다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/content/ets-org/language-master/ko/home/toefl/test-takers/ibt/about/content.html",
+     "publisher": "ETS",
+     "checked_at": "2026-10-17",
+     "supports": "공식 시험 형식"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "2026-01-21 이후 TOEFL iBT의 Reading 유형으로 Read in Daily Life가 안내되어 있습니다(공식 안내 유형명). 공지, 안내문 같은 일상생활 글을 읽고 질문에 답하는 유형입니다. 이 사이트의 아래 연습은 그 유형을 참고한 비공식 자체 연습이며 실제 문항 모양과 다를 수 있습니다. 풀이 순서: ① 질문을 먼저 읽고 찾을 정보(숫자, 요일, 사람, 조건)에 표시합니다. ② 공지문에서 같은 정보가 있는 문장을 찾습니다. ③ 보기는 공지문과 표현이 달라도 뜻이 같은 것을 고릅니다. ④ 공지문에 없는 내용은 추측으로 고르지 않습니다.",
+    "common_mistake_ko": "공지문의 단어가 그대로 들어 있다는 이유만으로 보기를 고르는 실수 → 질문이 묻는 내용과 맞는지 확인합니다. / 공지문에 없는 내용을 상식으로 추측해서 고르는 실수 → 공지문에 근거가 있는 보기만 고릅니다."
+   },
+   "vocabulary": [
+    {
+     "word": "notice",
+     "part_of_speech": "명사",
+     "meaning_ko": "공지, 안내문",
+     "example_en": "Read the notice carefully.",
+     "example_ko": "공지문을 주의 깊게 읽으세요."
+    },
+    {
+     "word": "reservation",
+     "part_of_speech": "명사",
+     "meaning_ko": "예약",
+     "example_en": "Each reservation is limited to two hours.",
+     "example_ko": "각 예약은 두 시간으로 제한돼요."
+    },
+    {
+     "word": "limit",
+     "part_of_speech": "동사",
+     "meaning_ko": "제한하다",
+     "example_en": "The library limits each reservation to two hours.",
+     "example_ko": "도서관은 각 예약을 두 시간으로 제한해요."
+    },
+    {
+     "word": "individual",
+     "part_of_speech": "형용사",
+     "meaning_ko": "개인의, 개별의",
+     "example_en": "Individual students may use the open tables.",
+     "example_ko": "개인 학생은 열린 테이블을 쓸 수 있어요."
+    },
+    {
+     "word": "detail",
+     "part_of_speech": "명사",
+     "meaning_ko": "세부 사항",
+     "example_en": "Find the detail that matches the question.",
+     "example_ko": "질문과 맞는 세부 사항을 찾으세요."
+    },
+    {
+     "word": "daily",
+     "part_of_speech": "형용사",
+     "meaning_ko": "일상의, 매일의",
+     "example_en": "A notice is a kind of daily-life text.",
+     "example_ko": "공지문은 일상생활 글의 한 종류예요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The notice says that rooms can be reserved online.",
+     "ko": "공지문은 방을 온라인으로 예약할 수 있다고 말해요."
+    },
+    {
+     "en": "Each reservation is limited to two hours.",
+     "ko": "각 예약은 두 시간으로 제한돼요."
+    },
+    {
+     "en": "Groups of two or more students may reserve a room.",
+     "ko": "두 명 이상의 학생 그룹은 방을 예약할 수 있어요."
+    },
+    {
+     "en": "Individual students may use the open tables.",
+     "ko": "개인 학생은 열린 테이블을 쓸 수 있어요."
+    },
+    {
+     "en": "Please cancel at least one hour before your time.",
+     "ko": "적어도 한 시간 전에는 취소해 주세요."
+    },
+    {
+     "en": "The rooms are open from 9 a.m. to 8 p.m.",
+     "ko": "방은 오전 9시부터 오후 8시까지 열려 있어요."
+    },
+    {
+     "en": "According to the notice, the rooms are closed on weekends.",
+     "ko": "공지문에 따르면 방은 주말에 문을 닫아요."
+    },
+    {
+     "en": "Look for numbers, days, and names when you search for details.",
+     "ko": "세부 정보를 찾을 때는 숫자, 요일, 이름을 찾으세요."
+    },
+    {
+     "en": "Read the question first, then find the matching sentence.",
+     "ko": "질문을 먼저 읽고 맞는 문장을 찾으세요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "F006-Q1",
+     "type": "single_choice",
+     "stem": "공지문: 'Library Study Rooms. Study rooms on the second floor can be reserved online. Each reservation is limited to two hours. Groups of two or more students may reserve a room. Individual students may use the open tables on the first floor. If you cannot come, please cancel at least one hour before your time. The rooms are open Monday to Friday, from 9 a.m. to 8 p.m.' 질문: How long can one reservation last?",
+     "choices": [
+      "One hour",
+      "Two hours",
+      "Three hours",
+      "All day"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "공지문의 Each reservation is limited to two hours.에서 확인할 수 있습니다.",
+     "error_tag": "read-daily-life"
+    },
+    {
+     "id": "F006-Q2",
+     "type": "single_choice",
+     "stem": "공지문: 'Library Study Rooms. Study rooms on the second floor can be reserved online. Each reservation is limited to two hours. Groups of two or more students may reserve a room. Individual students may use the open tables on the first floor. If you cannot come, please cancel at least one hour before your time. The rooms are open Monday to Friday, from 9 a.m. to 8 p.m.' 질문: Who can reserve a study room?",
+     "choices": [
+      "Groups of two or more students",
+      "Any single student",
+      "Only professors",
+      "Only first-year students"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Groups of two or more students may reserve a room.이라고 쓰여 있습니다.",
+     "error_tag": "read-daily-life"
+    },
+    {
+     "id": "F006-Q3",
+     "type": "single_choice",
+     "stem": "공지문: 'Library Study Rooms. Study rooms on the second floor can be reserved online. Each reservation is limited to two hours. Groups of two or more students may reserve a room. Individual students may use the open tables on the first floor. If you cannot come, please cancel at least one hour before your time. The rooms are open Monday to Friday, from 9 a.m. to 8 p.m.' 질문: What should a student do if the student cannot come?",
+     "choices": [
+      "Cancel at least one hour before",
+      "Come anyway",
+      "Call after the reserved time",
+      "Reserve the room again next week"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "please cancel at least one hour before your time이라고 안내합니다.",
+     "error_tag": "read-daily-life"
+    },
+    {
+     "id": "F006-Q4",
+     "type": "single_choice",
+     "stem": "공지문: 'Library Study Rooms. Study rooms on the second floor can be reserved online. Each reservation is limited to two hours. Groups of two or more students may reserve a room. Individual students may use the open tables on the first floor. If you cannot come, please cancel at least one hour before your time. The rooms are open Monday to Friday, from 9 a.m. to 8 p.m.' 질문: On which days are the rooms open?",
+     "choices": [
+      "Monday to Friday",
+      "Every day",
+      "Weekends only",
+      "Tuesday and Thursday"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "The rooms are open Monday to Friday라고 쓰여 있습니다.",
+     "error_tag": "read-daily-life"
+    },
+    {
+     "id": "F006-Q5",
+     "type": "typing",
+     "stem": "공지문: 'Library Study Rooms. Study rooms on the second floor can be reserved online. Each reservation is limited to two hours. Groups of two or more students may reserve a room. Individual students may use the open tables on the first floor. If you cannot come, please cancel at least one hour before your time. The rooms are open Monday to Friday, from 9 a.m. to 8 p.m.' 빈칸에 한 단어를 쓰세요: Individual students may use the open ___ on the first floor.",
+     "answer_text": "tables",
+     "accepted_answers": [
+      "tables"
+     ],
+     "explanation_ko": "공지문에 open tables on the first floor라고 쓰여 있습니다.",
+     "error_tag": "read-daily-life"
+    },
+    {
+     "id": "F006-Q6",
+     "type": "typing",
+     "stem": "공지문: 'Library Study Rooms. Study rooms on the second floor can be reserved online. Each reservation is limited to two hours. Groups of two or more students may reserve a room. Individual students may use the open tables on the first floor. If you cannot come, please cancel at least one hour before your time. The rooms are open Monday to Friday, from 9 a.m. to 8 p.m.' 빈칸에 숫자를 영어 단어로 쓰세요: Please cancel at least ___ hour before your time.",
+     "answer_text": "one",
+     "accepted_answers": [
+      "one",
+      "1"
+     ],
+     "explanation_ko": "at least one hour before에서 확인할 수 있습니다.",
+     "error_tag": "read-daily-life"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "학교나 도서관 공지문을 상상해서 숫자(시간·날짜) 하나가 들어간 영어 문장을 한 개 써 보세요.",
+    "example_answer_en": "The computer room is open until 6 p.m. on Fridays.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 질문으로 묻기 좋은 세부 정보(숫자·요일)가 들어 있는지 확인하세요. 비공식 연습이며 ETS 점수와 무관합니다."
+   },
+   "publish_date": "2026-10-17",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-17"
+   }
   }
  ]
 }

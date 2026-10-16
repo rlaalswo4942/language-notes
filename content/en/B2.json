@@ -2120,6 +2120,205 @@
     "version": 1,
     "last_revised": "2026-10-16"
    }
+  },
+  {
+   "id": "B2-012",
+   "level": "B2",
+   "track": "general",
+   "day": 12,
+   "title_ko": "보고화법: 남의 말을 전할 때의 시제와 어순",
+   "objective_ko": "said / told / asked로 남의 말을 전하고, 시제·대명사·시간 표현·어순을 알맞게 바꾼다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-17",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "남이 한 말을 그대로 인용하지 않고 내 말로 전하는 것이 보고화법(간접화법)입니다. 전달동사가 과거(said, told, asked)이면 말의 시제를 한 단계 과거로 옮기는 것이 기본입니다: am/is → was, will → would, can → could, 단순과거 → had + p.p. (\"I am tired.\" → She said that she was tired.) 대명사와 시간·장소 표현도 말하는 시점에 맞게 바꿉니다: I → he/she, tomorrow → the next day, last week → the week before, here → there. told는 뒤에 사람 목적어가 필요하고(told me), said는 바로 that절이 옵니다. 질문을 전할 때는 평서문 어순으로 씁니다: yes/no 질문은 if / whether, 의문사 질문은 의문사 + 주어 + 동사(She asked me where I lived.). 말한 내용이 지금도 사실이면 시제를 바꾸지 않을 수 있습니다.",
+    "common_mistake_ko": "She said me that she was tired.(X) → She told me that she was tired. / She said that she was tired.(O) / He asked me where did I live.(X) → He asked me where I lived.(O) / She said that she will come.(전달동사가 과거면 보통 X) → She said that she would come.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "announce",
+     "part_of_speech": "동사",
+     "meaning_ko": "발표하다",
+     "example_en": "The company announced that it would open a new branch.",
+     "example_ko": "그 회사는 새 지점을 열 것이라고 발표했어요."
+    },
+    {
+     "word": "admit",
+     "part_of_speech": "동사",
+     "meaning_ko": "인정하다",
+     "example_en": "He admitted that he had made a mistake.",
+     "example_ko": "그는 실수를 했다고 인정했어요."
+    },
+    {
+     "word": "mention",
+     "part_of_speech": "동사",
+     "meaning_ko": "언급하다",
+     "example_en": "She mentioned that she had lived in Canada.",
+     "example_ko": "그녀는 캐나다에서 산 적이 있다고 언급했어요."
+    },
+    {
+     "word": "claim",
+     "part_of_speech": "동사",
+     "meaning_ko": "주장하다",
+     "example_en": "They claimed that they had never seen the document.",
+     "example_ko": "그들은 그 서류를 본 적이 없다고 주장했어요."
+    },
+    {
+     "word": "reply",
+     "part_of_speech": "동사",
+     "meaning_ko": "대답하다",
+     "example_en": "She replied that she could not come.",
+     "example_ko": "그녀는 올 수 없다고 대답했어요."
+    },
+    {
+     "word": "insist",
+     "part_of_speech": "동사",
+     "meaning_ko": "강하게 주장하다",
+     "example_en": "He insisted that he was right.",
+     "example_ko": "그는 자기가 옳다고 강하게 주장했어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "She said that she was tired.",
+     "ko": "그녀는 피곤하다고 말했어요."
+    },
+    {
+     "en": "He told me that he would call me the next day.",
+     "ko": "그는 다음 날 나에게 전화하겠다고 말했어요."
+    },
+    {
+     "en": "He admitted that he had made a mistake.",
+     "ko": "그는 실수를 했다고 인정했어요."
+    },
+    {
+     "en": "The company announced that it would open a new branch.",
+     "ko": "그 회사는 새 지점을 열 것이라고 발표했어요."
+    },
+    {
+     "en": "She mentioned that she had lived in Canada.",
+     "ko": "그녀는 캐나다에서 산 적이 있다고 언급했어요."
+    },
+    {
+     "en": "They claimed that they had never seen the document.",
+     "ko": "그들은 그 서류를 본 적이 없다고 주장했어요."
+    },
+    {
+     "en": "I asked her if she was ready.",
+     "ko": "나는 그녀에게 준비가 됐는지 물었어요."
+    },
+    {
+     "en": "He asked me where I worked.",
+     "ko": "그는 나에게 어디에서 일하는지 물었어요."
+    },
+    {
+     "en": "She replied that she could not come.",
+     "ko": "그녀는 올 수 없다고 대답했어요."
+    },
+    {
+     "en": "He insisted that he was right.",
+     "ko": "그는 자기가 옳다고 강하게 주장했어요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "B2-012-Q1",
+     "type": "single_choice",
+     "stem": "\"I am busy,\" Tom said. → Tom said that he ___ busy. (시제를 한 단계 과거로)",
+     "choices": [
+      "was",
+      "is",
+      "will be",
+      "has been"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "전달동사가 과거(said)이면 현재형 am/is는 과거형 was로 바뀝니다.",
+     "error_tag": "reported-speech"
+    },
+    {
+     "id": "B2-012-Q2",
+     "type": "single_choice",
+     "stem": "\"I will help you,\" she told me. → She told me that she ___ help me.",
+     "choices": [
+      "would",
+      "will",
+      "did",
+      "had"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "will은 보고화법에서 would로 바뀝니다.",
+     "error_tag": "reported-speech"
+    },
+    {
+     "id": "B2-012-Q3",
+     "type": "single_choice",
+     "stem": "\"I saw the film last week,\" he said. → He said that he ___ the film the week before.",
+     "choices": [
+      "had seen",
+      "has seen",
+      "sees",
+      "would see"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "단순과거는 보고화법에서 과거완료(had + p.p.)로 바뀝니다. last week는 the week before가 됩니다.",
+     "error_tag": "reported-speech"
+    },
+    {
+     "id": "B2-012-Q4",
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "She asked me if I was ready.",
+      "She asked me if was I ready.",
+      "She asked me was I ready if.",
+      "She said me if I was ready."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "간접의문문은 if + 주어 + 동사 어순이고, 주어 앞에 be동사를 두지 않습니다. say 뒤에는 사람 목적어를 바로 쓰지 않습니다.",
+     "error_tag": "reported-speech"
+    },
+    {
+     "id": "B2-012-Q5",
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: \"I can swim,\" Ken said. → Ken said that he ___ swim.",
+     "answer_text": "could",
+     "accepted_answers": [
+      "could"
+     ],
+     "explanation_ko": "can은 보고화법에서 could로 바뀝니다.",
+     "error_tag": "reported-speech"
+    },
+    {
+     "id": "B2-012-Q6",
+     "type": "typing",
+     "stem": "괄호 안의 동사를 알맞은 모양으로 쓰세요: \"Where do you live?\" she asked me. → She asked me where I ___. (live)",
+     "answer_text": "lived",
+     "accepted_answers": [
+      "lived"
+     ],
+     "explanation_ko": "의문사 간접의문문은 의문사 + 주어 + 동사 어순이고, 전달동사가 과거이면 동사도 과거형이 됩니다(do를 쓰지 않음).",
+     "error_tag": "reported-speech"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "친구가 어제 한 말 하나를 떠올려 \"~라고 말했다\"는 보고화법 문장으로 써 보세요.",
+    "example_answer_en": "My friend said that he was busy the day before.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. said/told 뒤에서 시제를 한 단계 과거로 바꿨는지 확인하세요."
+   },
+   "publish_date": "2026-10-17",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-17"
+   }
   }
  ]
 }

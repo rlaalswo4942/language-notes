@@ -2315,6 +2315,223 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-12",
+   "day_index": 12,
+   "week_index": 2,
+   "level": "N1",
+   "unit_id": "N1-W02",
+   "lesson_type": "new",
+   "title_ko": "〜てやまない: 한없이 ~하다",
+   "objective_ko": "마음의 상태를 나타내는 동사에 〜てやまない를 붙여 오래 이어지는 강한 감정・소망을 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-11"
+   ],
+   "explanation_ko": "〜てやまない는 ‘~해 마지않다, 한없이 ~하다’라는 뜻으로, 어떤 감정이나 소망이 오랫동안 끊이지 않고 이어지는 것을 나타냅니다. 동사 て형에 붙이며, 感謝する・願う・祈る・期待する・信じる・愛する・尊敬する・悔やむ 같은 마음의 상태를 나타내는 동사에 한정됩니다: 成功を願ってやまない. 정중하게는 〜てやみません, 과거는 〜てやまなかった입니다. 격식 차린 글이나 인사말, 연설에서 많이 쓰며, 단순한 동작(食べる, 走る)에는 붙이지 않습니다. 〜てならない・〜てたまらない가 저절로 솟는 감정을 참을 수 없다는 느낌인 데 비해, 〜てやまない는 오래 이어지는 마음을 나타냅니다.",
+   "usage_notes": [
+    "감정・소망을 나타내는 일부 동사에만 쓰는 문어적 표현입니다.",
+    "‘멈추다’의 やむ를 부정한 말이므로 やまない・やみません・やまなかった로 활용합니다.",
+    "〜てやまない 뒤에 명사를 이어 수식할 수도 있습니다(信じてやまない母)."
+   ],
+   "common_mistakes": [
+    "食べてやまない(X) → 感謝してやまない(O): 단순한 동작 동사에는 쓰지 않습니다.",
+    "願ってやめない(X) → 願ってやまない(O): やめる(그만두다)가 아니라 やむ의 부정입니다.",
+    "感謝やまない(X) → 感謝してやまない(O): 명사 감사에는 する의 て형이 필요합니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N1-12-01",
+     "kind": "word",
+     "text": "尊敬{そんけい}",
+     "reading_kana": "そんけい",
+     "reading_romanized": "sonkei",
+     "meaning_ko": "존경",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-12-02",
+     "kind": "word",
+     "text": "悔{く}やむ",
+     "reading_kana": "くやむ",
+     "reading_romanized": "kuyamu",
+     "meaning_ko": "후회하다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N1-12-03",
+     "kind": "word",
+     "text": "願{ねが}う",
+     "reading_kana": "ねがう",
+     "reading_romanized": "negau",
+     "meaning_ko": "바라다, 기원하다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N1-12-04",
+     "kind": "word",
+     "text": "恩師{おんし}",
+     "reading_kana": "おんし",
+     "reading_romanized": "onshi",
+     "meaning_ko": "은사",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-12-05",
+     "kind": "word",
+     "text": "末永{すえなが}く",
+     "reading_kana": "すえながく",
+     "reading_romanized": "suenagaku",
+     "meaning_ko": "오래도록",
+     "part_of_speech": "부사"
+    },
+    {
+     "id": "w-JP-N1-12-06",
+     "kind": "word",
+     "text": "感謝{かんしゃ}",
+     "reading_kana": "かんしゃ",
+     "reading_romanized": "kansha",
+     "meaning_ko": "감사",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "恩師{おんし}の教{おし}えには、今{いま}でも感謝{かんしゃ}してやまない。",
+     "meaning_ko": "은사의 가르침에는 지금도 한없이 감사한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "二人{ふたり}が末永{すえなが}く幸{しあわ}せに暮{く}らすことを願{ねが}ってやまない。",
+     "meaning_ko": "두 사람이 오래도록 행복하게 살기를 간절히 바란다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "私{わたし}は父{ちち}の生{い}き方{かた}を尊敬{そんけい}してやまない。",
+     "meaning_ko": "나는 아버지의 삶의 방식을 한없이 존경한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "あの時{とき}、もっと勉強{べんきょう}しておけばよかったと悔{く}やんでやまない。",
+     "meaning_ko": "그때 더 공부해 둘걸 하고 끊임없이 후회하고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "若{わか}い選手{せんしゅ}たちの活躍{かつやく}を期待{きたい}してやまない。",
+     "meaning_ko": "젊은 선수들의 활약을 크게 기대해 마지않는다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼女{かのじょ}は生涯{しょうがい}、故郷{こきょう}の海{うみ}を愛{あい}してやまなかった。",
+     "meaning_ko": "그녀는 평생 고향의 바다를 사랑해 마지않았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "皆様{みなさま}のご健康{けんこう}とご多幸{ごたこう}を祈{いの}ってやみません。",
+     "meaning_ko": "여러분의 건강과 행복을 기원해 마지않습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "多{おお}くの人{ひと}に支{ささ}えられたことに、感謝{かんしゃ}してやまない。",
+     "meaning_ko": "많은 사람에게 도움받았다는 데 한없이 감사한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "息子{むすこ}の成功{せいこう}を信{しん}じてやまない母{はは}は、毎日{まいにち}神社{じんじゃ}に通{かよ}っている。",
+     "meaning_ko": "아들의 성공을 굳게 믿는 어머니는 매일 신사에 다니고 있다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N1-12-Q1",
+     "type": "single_choice",
+     "prompt_ko": "‘나는 아버지의 삶의 방식을 한없이 존경한다’가 되도록 알맞은 말을 고르세요. 父の生き方を尊敬し（　）やまない。",
+     "options": [
+      "て",
+      "た",
+      "ない",
+      "ます"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜てやまない는 동사 て형에 붙습니다. 尊敬する → 尊敬してやまない."
+    },
+    {
+     "id": "JP-N1-12-Q2",
+     "type": "single_choice",
+     "prompt_ko": "「ご多幸を祈ってやみません」의 뜻은?",
+     "options": [
+      "행복을 진심으로 계속 빌고 있다",
+      "행복을 비는 것을 그만두었다",
+      "행복을 빌 필요가 없다",
+      "행복을 빌어 달라고 부탁했다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜てやまない(やみません)는 ‘~해 마지않다’, 곧 그런 마음이 계속 이어진다는 뜻입니다."
+    },
+    {
+     "id": "JP-N1-12-Q3",
+     "type": "single_choice",
+     "prompt_ko": "〜てやまない 앞에 쓰기에 알맞은 동사는?",
+     "options": [
+      "感謝する",
+      "走る",
+      "食べる",
+      "開ける"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜てやまない는 감사・소망・존경・기대・후회처럼 마음의 상태를 나타내는 동사에 붙습니다. 단순한 동작에는 쓰지 않습니다."
+    },
+    {
+     "id": "JP-N1-12-Q4",
+     "type": "single_choice",
+     "prompt_ko": "‘끊임없이 후회했다’를 바르게 나타낸 것은?",
+     "options": [
+      "悔やんでやまなかった",
+      "悔やんでやめなかった",
+      "悔やんでやまなくだった",
+      "悔やみやまなかった"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "やまない(멈추지 않다)의 과거는 やまなかった입니다. やめる(그만두다)와 혼동하지 않습니다."
+    },
+    {
+     "id": "JP-N1-12-Q5",
+     "type": "typing",
+     "prompt_ko": "「尊敬」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "sonkei",
+     "accepted_answers": [
+      "sonkei"
+     ],
+     "explanation_ko": "尊敬 = そんけい (sonkei)"
+    },
+    {
+     "id": "JP-N1-12-Q6",
+     "type": "typing",
+     "prompt_ko": "「恩師」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "onshi",
+     "accepted_answers": [
+      "onshi",
+      "onsi"
+     ],
+     "explanation_ko": "恩師 = おんし (onshi)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "JLPT_FORMAT"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

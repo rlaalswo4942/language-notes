@@ -2314,6 +2314,228 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-12",
+   "day_index": 12,
+   "week_index": 2,
+   "level": "N2",
+   "unit_id": "N2-W02",
+   "lesson_type": "new",
+   "title_ko": "〜わけがない: ~할 리가 없다",
+   "objective_ko": "근거를 바탕으로 ‘~일 리가 없다’고 강하게 부정하는 〜わけがない를 쓴다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-11"
+   ],
+   "explanation_ko": "〜わけがない는 ‘~일 리가 없다, 도저히 ~할 수 없다’는 뜻으로, 말하는 사람이 근거나 상식을 바탕으로 어떤 일을 강하게 부정할 때 씁니다. 접속은 보통형이며, 명사는 〜のわけがない, な형용사는 〜なわけがない로 씁니다: 嘘をつくわけがない / 冷たいわけがない / 犯人のわけがない. 이미 지난 일은 〜わけがなかった, 정중하게는 〜わけがありません이라고 합니다. 〜はずがない와 뜻이 가깝지만 〜わけがない 쪽이 감정을 담아 강하게 부정하는 느낌이 있습니다.",
+   "usage_notes": [
+    "N2-01에서 배운 〜わけではない(부분 부정)와 혼동하지 않습니다. が와 は 하나의 차이로 뜻이 크게 달라집니다.",
+    "근거 있는 확신을 나타내므로 단순한 희망이나 의지에는 쓰지 않습니다.",
+    "대화에서는 〜わけない로 が를 줄여 말하기도 합니다."
+   ],
+   "common_mistakes": [
+    "犯人にわけがない(X) → 犯人のわけがない(O): 명사에는 の를 씁니다.",
+    "冷たいなわけがない(X) → 冷たいわけがない(O): い형용사에는 な를 붙이지 않습니다.",
+    "来るわけがあります(X) → 来るわけがありません(O): わけがあります는 ‘이유가 있다’는 다른 뜻이 됩니다. ‘~일 리가 없다’의 정중형은 わけがありません입니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N2-12-01",
+     "kind": "word",
+     "text": "嘘{うそ}",
+     "reading_kana": "うそ",
+     "reading_romanized": "uso",
+     "meaning_ko": "거짓말",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-12-02",
+     "kind": "word",
+     "text": "犯人{はんにん}",
+     "reading_kana": "はんにん",
+     "reading_romanized": "hannin",
+     "meaning_ko": "범인",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-12-03",
+     "kind": "word",
+     "text": "優勝{ゆうしょう}",
+     "reading_kana": "ゆうしょう",
+     "reading_romanized": "yuushou",
+     "meaning_ko": "우승",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-12-04",
+     "kind": "word",
+     "text": "完成{かんせい}",
+     "reading_kana": "かんせい",
+     "reading_romanized": "kansei",
+     "meaning_ko": "완성",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-12-05",
+     "kind": "word",
+     "text": "偶然{ぐうぜん}",
+     "reading_kana": "ぐうぜん",
+     "reading_romanized": "guuzen",
+     "meaning_ko": "우연",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-12-06",
+     "kind": "word",
+     "text": "絶対{ぜったい}",
+     "reading_kana": "ぜったい",
+     "reading_romanized": "zettai",
+     "meaning_ko": "절대, 반드시",
+     "part_of_speech": "부사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "彼{かれ}は正直{しょうじき}な人{ひと}だから、嘘{うそ}をつくわけがない。",
+     "meaning_ko": "그는 정직한 사람이라 거짓말을 할 리가 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "一日{いちにち}も練習{れんしゅう}していないのに、優勝{ゆうしょう}できるわけがない。",
+     "meaning_ko": "하루도 연습하지 않았는데 우승할 수 있을 리가 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "こんな短{みじか}い期間{きかん}で完成{かんせい}するわけがないと思{おも}う。",
+     "meaning_ko": "이렇게 짧은 기간에 완성될 리가 없다고 생각한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "鍵{かぎ}はかけたから、泥棒{どろぼう}に入{はい}られるわけがない。",
+     "meaning_ko": "열쇠는 잠갔으니 도둑이 들 리가 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "あの慎重{しんちょう}な彼{かれ}が、そんな大事{だいじ}な書類{しょるい}を忘{わす}れるわけがない。",
+     "meaning_ko": "그 신중한 그가 그렇게 중요한 서류를 잊을 리가 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}が犯人{はんにん}のわけがない。昨夜{さくや}はずっと私{わたし}と一緒{いっしょ}にいたのだから。",
+     "meaning_ko": "그가 범인일 리가 없다. 어젯밤은 계속 나와 함께 있었으니까.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "偶然{ぐうぜん}だけで、そんなに何度{なんど}も同{おな}じことが起{お}こるわけがない。",
+     "meaning_ko": "우연만으로 그렇게 여러 번 같은 일이 일어날 리가 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "基本{きほん}も分{わ}からない人{ひと}に、この問題{もんだい}が解{と}けるわけがありません。",
+     "meaning_ko": "기본도 모르는 사람이 이 문제를 풀 수 있을 리가 없습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "あんなに親切{しんせつ}な人{ひと}が、冷{つめ}たいわけがない。",
+     "meaning_ko": "그렇게 친절한 사람이 차가울 리가 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "昨日{きのう}は日曜日{にちようび}だったから、会社{かいしゃ}が開{あ}いているわけがなかった。",
+     "meaning_ko": "어제는 일요일이었으니 회사가 열려 있을 리가 없었다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N2-12-Q1",
+     "type": "single_choice",
+     "prompt_ko": "‘(그는 정직하니) 거짓말을 할 리가 없다’가 되도록 알맞은 말을 고르세요. 彼は正直だから、嘘をつく（　）。",
+     "options": [
+      "わけがない",
+      "わけではない",
+      "わけにはいかない",
+      "わけだ"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘~할 리가 없다’는 〜わけがない입니다. わけではない는 부분 부정, わけにはいかない는 ‘~할 수는 없다’입니다."
+    },
+    {
+     "id": "JP-N2-12-Q2",
+     "type": "single_choice",
+     "prompt_ko": "「練習していないのに、優勝できるわけがない」의 뜻은?",
+     "options": [
+      "연습하지 않았는데 우승할 수 있을 리가 없다",
+      "연습하지 않아도 반드시 우승할 수 있다",
+      "연습하지 않았지만 우승할 수도 있다",
+      "연습하지 않은 것은 아니다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜わけがない는 근거를 바탕으로 ‘~일 리가 없다’고 강하게 부정하는 표현입니다."
+    },
+    {
+     "id": "JP-N2-12-Q3",
+     "type": "single_choice",
+     "prompt_ko": "〜わけがない와 뜻이 가장 가까운 표현은?",
+     "options": [
+      "〜はずがない",
+      "〜わけではない",
+      "〜ざるを得ない",
+      "〜に応じて"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜はずがない도 ‘~일 리가 없다’를 나타냅니다. 〜わけがない 쪽이 더 강하게 부정하는 느낌이 있습니다."
+    },
+    {
+     "id": "JP-N2-12-Q4",
+     "type": "single_choice",
+     "prompt_ko": "‘그가 범인일 리가 없다’를 바르게 나타낸 것은?",
+     "options": [
+      "彼が犯人のわけがない",
+      "彼が犯人するわけがない",
+      "彼が犯人でわけがない",
+      "彼が犯人をわけがない"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "명사에는 の를 붙여 〜のわけがない 형태로 씁니다."
+    },
+    {
+     "id": "JP-N2-12-Q5",
+     "type": "typing",
+     "prompt_ko": "「嘘」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "uso",
+     "accepted_answers": [
+      "uso"
+     ],
+     "explanation_ko": "嘘 = うそ (uso)"
+    },
+    {
+     "id": "JP-N2-12-Q6",
+     "type": "typing",
+     "prompt_ko": "「偶然」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "guuzen",
+     "accepted_answers": [
+      "guuzen",
+      "guzen"
+     ],
+     "explanation_ko": "偶然 = ぐうぜん (guuzen)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }
