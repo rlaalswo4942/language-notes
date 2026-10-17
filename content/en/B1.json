@@ -1286,6 +1286,209 @@
     "version": 1,
     "last_revised": "2026-10-17"
    }
+  },
+  {
+   "id": "B1-008",
+   "level": "B1",
+   "track": "general",
+   "day": 8,
+   "title_ko": "used to: 과거의 습관과 상태",
+   "objective_ko": "used to로 지금은 하지 않는 과거의 습관·상태를 말하고, 부정문·의문문과 be used to를 구별한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-18",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "used to + 동사원형은 '예전에는 ~하곤 했다 / ~였다'라는 뜻으로, 지금은 그렇지 않다는 느낌을 줍니다: I used to play the piano. (지금은 치지 않음) She used to live in a small village. 반복된 습관(play)과 상태(live, be, have)에 모두 쓸 수 있습니다. 부정문은 didn't use to, 의문문은 Did you use to ...? 로 쓰며 did 뒤에서는 use(d가 없음)입니다. 한 번 일어난 일이나 지금의 습관에는 쓰지 않고, 지금의 습관은 usually, often 같은 현재시제로 말합니다. be used to + 명사/-ing는 '~에 익숙하다'로 전혀 다른 표현입니다: I am used to getting up early.",
+    "common_mistake_ko": "I use to play the piano.(X, 긍정문) → I used to play the piano.(O) / She didn't used to like coffee.(표준 문장에서는 didn't use to) → She didn't use to like coffee.(O) / I used to getting up early.(X) → I used to get up early.(예전 습관) / I am used to getting up early.(익숙하다)"
+   },
+   "vocabulary": [
+    {
+     "word": "used to",
+     "part_of_speech": "표현",
+     "meaning_ko": "예전에 ~하곤 했다",
+     "example_en": "I used to play the piano when I was a child.",
+     "example_ko": "나는 어렸을 때 피아노를 치곤 했어요."
+    },
+    {
+     "word": "habit",
+     "part_of_speech": "명사",
+     "meaning_ko": "습관",
+     "example_en": "Staying up late is a bad habit.",
+     "example_ko": "늦게까지 깨어 있는 것은 나쁜 습관이에요."
+    },
+    {
+     "word": "nowadays",
+     "part_of_speech": "부사",
+     "meaning_ko": "요즘에는",
+     "example_en": "Nowadays, most people use mobile phones.",
+     "example_ko": "요즘에는 대부분의 사람이 휴대전화를 써요."
+    },
+    {
+     "word": "village",
+     "part_of_speech": "명사",
+     "meaning_ko": "마을",
+     "example_en": "She grew up in a small village.",
+     "example_ko": "그녀는 작은 마을에서 자랐어요."
+    },
+    {
+     "word": "quit",
+     "part_of_speech": "동사",
+     "meaning_ko": "그만두다",
+     "example_en": "He quit his job last year.",
+     "example_ko": "그는 작년에 직장을 그만뒀어요."
+    },
+    {
+     "word": "strict",
+     "part_of_speech": "형용사",
+     "meaning_ko": "엄격한",
+     "example_en": "Our teacher was very strict.",
+     "example_ko": "우리 선생님은 아주 엄격했어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I used to play the piano when I was a child.",
+     "ko": "나는 어렸을 때 피아노를 치곤 했어요."
+    },
+    {
+     "en": "She used to live in a small village.",
+     "ko": "그녀는 예전에 작은 마을에 살았어요."
+    },
+    {
+     "en": "We didn't use to have a car.",
+     "ko": "우리는 예전에 차가 없었어요."
+    },
+    {
+     "en": "Did you use to walk to school?",
+     "ko": "너는 예전에 걸어서 학교에 다니곤 했니?"
+    },
+    {
+     "en": "Nowadays, most people use mobile phones.",
+     "ko": "요즘에는 대부분의 사람이 휴대전화를 써요."
+    },
+    {
+     "en": "My grandfather used to be a farmer.",
+     "ko": "우리 할아버지는 예전에 농부셨어요."
+    },
+    {
+     "en": "Our teacher used to be very strict.",
+     "ko": "우리 선생님은 예전에 아주 엄격하셨어요."
+    },
+    {
+     "en": "He quit his job last year.",
+     "ko": "그는 작년에 직장을 그만뒀어요."
+    },
+    {
+     "en": "Staying up late is a bad habit.",
+     "ko": "늦게까지 깨어 있는 것은 나쁜 습관이에요."
+    },
+    {
+     "en": "There used to be a bakery on this street.",
+     "ko": "이 거리에는 예전에 빵집이 있었어요."
+    },
+    {
+     "en": "I am used to getting up early.",
+     "ko": "나는 일찍 일어나는 것에 익숙해요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "B1008-Q1",
+     "type": "single_choice",
+     "stem": "I ___ play the piano when I was a child, but now I don't.",
+     "choices": [
+      "used to",
+      "use to",
+      "am used to",
+      "was use to"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "지금은 하지 않는 과거의 습관이므로 used to + 동사원형입니다.",
+     "error_tag": "used-to"
+    },
+    {
+     "id": "B1008-Q2",
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "She didn't use to like coffee.",
+      "She not use to like coffee.",
+      "She doesn't use to like coffee.",
+      "She didn't use to liking coffee."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "부정문은 didn't use to + 동사원형입니다. 과거를 나타내므로 doesn't는 쓰지 않습니다.",
+     "error_tag": "used-to"
+    },
+    {
+     "id": "B1008-Q3",
+     "type": "single_choice",
+     "stem": "I am used to ___ up early. (일찍 일어나는 것에 익숙하다)",
+     "choices": [
+      "getting",
+      "get",
+      "got",
+      "gets"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "be used to 뒤에는 명사 또는 -ing가 옵니다.",
+     "error_tag": "be-used-to"
+    },
+    {
+     "id": "B1008-Q4",
+     "type": "single_choice",
+     "stem": "지금은 마을에 살지 않는다는 뜻의 문장은?",
+     "choices": [
+      "I used to live in a village.",
+      "I live in a village.",
+      "I am going to live in a village.",
+      "I'm living in a village."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "used to는 예전에는 그랬지만 지금은 아니라는 뜻입니다. 나머지는 현재나 미래입니다.",
+     "error_tag": "used-to"
+    },
+    {
+     "id": "B1008-Q5",
+     "type": "typing",
+     "stem": "빈칸에 두 단어를 쓰세요: When we were young, we ___ play outside every day. (과거의 습관)",
+     "answer_text": "used to",
+     "accepted_answers": [
+      "used to"
+     ],
+     "explanation_ko": "과거의 습관은 used to + 동사원형으로 말합니다.",
+     "error_tag": "used-to"
+    },
+    {
+     "id": "B1008-Q6",
+     "type": "typing",
+     "stem": "빈칸에 한 단어를 쓰세요: Did you ___ to live in Seoul?",
+     "answer_text": "use",
+     "accepted_answers": [
+      "use"
+     ],
+     "explanation_ko": "did 뒤의 의문문에서는 use to(d 없음)를 씁니다.",
+     "error_tag": "used-to"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "어렸을 때는 했지만 지금은 하지 않는 일을 used to를 넣어 영어 문장 두 개로 써 보세요.",
+    "example_answer_en": "I used to be afraid of dogs. I used to go to bed at nine.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. used to 뒤에 동사원형을 썼는지, 지금은 하지 않는 일인지 확인하세요."
+   },
+   "publish_date": "2026-10-18",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-18"
+   }
   }
  ]
 }

@@ -2536,6 +2536,227 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-13",
+   "day_index": 13,
+   "week_index": 2,
+   "level": "N4",
+   "unit_id": "N4-W02",
+   "lesson_type": "practice",
+   "title_ko": "적용: 병원에서 증상 말하기",
+   "objective_ko": "지금까지 배운 문형으로 병원 접수·진찰 대화를 읽고 내용을 확인한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-12"
+   ],
+   "explanation_ko": "〜たほうがいい・〜ないほうがいい, 〜てもいいです, 〜てはいけません, 〜てから, 〜たことがあります, 〜と思います 등 N4에서 배운 문형으로 병원에서의 대화를 읽고 내용을 확인합니다. 증상은 が로 말합니다(頭が 痛いです, 熱が あります).",
+   "usage_notes": [
+    "痛{いた}い는 ‘아프다’입니다. 頭{あたま}が 痛{いた}いです처럼 아픈 부위 뒤에 が를 씁니다.",
+    "〜てから는 ‘~하고 나서’, 〜たほうがいい는 ‘~하는 편이 좋다’입니다."
+   ],
+   "common_mistakes": [],
+   "new_items": [
+    {
+     "id": "w-JP-N4-13-01",
+     "kind": "word",
+     "text": "熱{ねつ}",
+     "reading_kana": "ねつ",
+     "reading_romanized": "netsu",
+     "meaning_ko": "열",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-13-02",
+     "kind": "word",
+     "text": "咳{せき}",
+     "reading_kana": "せき",
+     "reading_romanized": "seki",
+     "meaning_ko": "기침",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-13-03",
+     "kind": "word",
+     "text": "喉{のど}",
+     "reading_kana": "のど",
+     "reading_romanized": "nodo",
+     "meaning_ko": "목(목구멍)",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-13-04",
+     "kind": "word",
+     "text": "痛{いた}い",
+     "reading_kana": "いたい",
+     "reading_romanized": "itai",
+     "meaning_ko": "아프다",
+     "part_of_speech": "い형용사"
+    },
+    {
+     "id": "w-JP-N4-13-05",
+     "kind": "word",
+     "text": "頭{あたま}",
+     "reading_kana": "あたま",
+     "reading_romanized": "atama",
+     "meaning_ko": "머리",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-13-06",
+     "kind": "word",
+     "text": "受付{うけつけ}",
+     "reading_kana": "うけつけ",
+     "reading_romanized": "uketsuke",
+     "meaning_ko": "접수, 접수처",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "受付{うけつけ}で 名前{なまえ}を 言{い}って ください。",
+     "meaning_ko": "접수처에서 이름을 말해 주세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "どう しましたか。",
+     "meaning_ko": "어디가 불편하십니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "昨日{きのう}から 頭{あたま}が 痛{いた}いです。",
+     "meaning_ko": "어제부터 머리가 아픕니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "熱{ねつ}も あります。",
+     "meaning_ko": "열도 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "咳{せき}も 出{で}ますか。",
+     "meaning_ko": "기침도 납니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "はい、少{すこ}し 出{で}ます。 喉{のど}も 痛{いた}いです。",
+     "meaning_ko": "네, 조금 납니다. 목도 아픕니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "今日{きょう}は 早{はや}く 寝{ね}たほうが いいです。",
+     "meaning_ko": "오늘은 일찍 자는 편이 좋습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "薬{くすり}を 飲{の}んでから、休{やす}んで ください。",
+     "meaning_ko": "약을 먹고 나서 쉬세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "コーヒーは 飲{の}まないほうが いいです。",
+     "meaning_ko": "커피는 마시지 않는 편이 좋습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "明日{あした}は 会社{かいしゃ}を 休{やす}んでも いいですか。",
+     "meaning_ko": "내일은 회사를 쉬어도 됩니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "はい、いいです。 でも、運転{うんてん}しては いけません。",
+     "meaning_ko": "네, 됩니다. 하지만 운전해서는 안 됩니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N4-13-Q1",
+     "type": "single_choice",
+     "prompt_ko": "「早く 寝たほうが いいです」의 뜻은?",
+     "options": [
+      "일찍 자는 편이 좋습니다",
+      "일찍 자도 됩니다",
+      "일찍 자면 안 됩니다",
+      "일찍 잔 적이 있습니다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜たほうがいい는 ‘~하는 편이 좋다’(충고)입니다."
+    },
+    {
+     "id": "JP-N4-13-Q2",
+     "type": "single_choice",
+     "prompt_ko": "「運転しては いけません」의 뜻은?",
+     "options": [
+      "운전해서는 안 됩니다",
+      "운전해도 됩니다",
+      "운전한 적이 있습니다",
+      "운전할 수 있습니다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜てはいけません은 금지(~해서는 안 된다)입니다."
+    },
+    {
+     "id": "JP-N4-13-Q3",
+     "type": "single_choice",
+     "prompt_ko": "‘내일은 회사를 쉬어도 됩니까?’를 바르게 나타낸 것은?",
+     "options": [
+      "明日は 会社を 休んでも いいですか。",
+      "明日は 会社を 休んでは いけませんか。",
+      "明日は 会社を 休んだことが ありますか。",
+      "明日は 会社を 休みながら いいですか。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "허가를 구할 때는 〜てもいいですか를 씁니다."
+    },
+    {
+     "id": "JP-N4-13-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「薬を 飲んでから、休んで ください」에서 먼저 하는 일은?",
+     "options": [
+      "약을 먹는다",
+      "쉰다",
+      "병원에 간다",
+      "물을 마신다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜てから는 앞의 동작을 먼저 하고 나서 뒤의 동작을 한다는 뜻입니다. 먼저 薬を 飲みます."
+    },
+    {
+     "id": "JP-N4-13-Q5",
+     "type": "typing",
+     "prompt_ko": "「熱」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "netsu",
+     "accepted_answers": [
+      "netsu"
+     ],
+     "explanation_ko": "熱 = ねつ (netsu)"
+    },
+    {
+     "id": "JP-N4-13-Q6",
+     "type": "typing",
+     "prompt_ko": "「喉」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "nodo",
+     "accepted_answers": [
+      "nodo"
+     ],
+     "explanation_ko": "喉 = のど (nodo)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

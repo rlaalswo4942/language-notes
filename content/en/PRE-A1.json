@@ -2703,6 +2703,205 @@
     "version": 1,
     "last_revised": "2026-10-17"
    }
+  },
+  {
+   "id": "PRE-019",
+   "level": "Pre-A1",
+   "track": "foundation",
+   "day": 19,
+   "title_ko": "go / come: 장소로 가고 오기",
+   "objective_ko": "go와 come으로 어디에 가고 오는지 말하고, 장소 앞의 to와 3인칭 단수 형태를 알맞게 쓴다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-18",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "go는 '가다', come은 '오다'입니다. 장소로 갈 때는 장소 앞에 to를 씁니다: I go to school. She goes to the park. They come to my house. 단, home, here, there 앞에는 to를 쓰지 않습니다: go home, come here. he / she / it이 주어이면 go는 goes, come은 comes로 바꿉니다. 부정문은 don't go / doesn't come, 의문문은 Do you go ...? / Does she come ...? 입니다. doesn't나 Does 뒤에서는 동사가 원래 모양(go, come)으로 돌아옵니다. school 앞에는 보통 관사 없이 go to school이라고 말합니다.",
+    "common_mistake_ko": "He go home.(X) → He goes home.(O) / She goes to home.(X) → She goes home.(O) / I go school.(X) → I go to school.(O) / She doesn't goes to the park.(X) → She doesn't go to the park.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "go",
+     "part_of_speech": "동사",
+     "meaning_ko": "가다",
+     "example_en": "I go to school.",
+     "example_ko": "나는 학교에 가요."
+    },
+    {
+     "word": "come",
+     "part_of_speech": "동사",
+     "meaning_ko": "오다",
+     "example_en": "They come to my house.",
+     "example_ko": "그들은 우리 집에 와요."
+    },
+    {
+     "word": "school",
+     "part_of_speech": "명사",
+     "meaning_ko": "학교",
+     "example_en": "My brother goes to school.",
+     "example_ko": "내 남동생은 학교에 가요."
+    },
+    {
+     "word": "park",
+     "part_of_speech": "명사",
+     "meaning_ko": "공원",
+     "example_en": "She goes to the park.",
+     "example_ko": "그녀는 공원에 가요."
+    },
+    {
+     "word": "store",
+     "part_of_speech": "명사",
+     "meaning_ko": "가게",
+     "example_en": "We go to the store today.",
+     "example_ko": "우리는 오늘 가게에 가요."
+    },
+    {
+     "word": "today",
+     "part_of_speech": "부사",
+     "meaning_ko": "오늘",
+     "example_en": "I don't go to the park today.",
+     "example_ko": "나는 오늘 공원에 가지 않아요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I go to school.",
+     "ko": "나는 학교에 가요."
+    },
+    {
+     "en": "She goes to the park.",
+     "ko": "그녀는 공원에 가요."
+    },
+    {
+     "en": "They come to my house.",
+     "ko": "그들은 우리 집에 와요."
+    },
+    {
+     "en": "We go to the store today.",
+     "ko": "우리는 오늘 가게에 가요."
+    },
+    {
+     "en": "He goes home at six.",
+     "ko": "그는 6시에 집에 가요."
+    },
+    {
+     "en": "Come here, please.",
+     "ko": "여기로 와 주세요."
+    },
+    {
+     "en": "Do you go to school?",
+     "ko": "너는 학교에 가니?"
+    },
+    {
+     "en": "My friend comes to school by bus.",
+     "ko": "내 친구는 버스로 학교에 와요."
+    },
+    {
+     "en": "I don't go to the park today.",
+     "ko": "나는 오늘 공원에 가지 않아요."
+    },
+    {
+     "en": "She doesn't come to the store.",
+     "ko": "그녀는 가게에 오지 않아요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "P019-Q1",
+     "type": "single_choice",
+     "stem": "She ___ to school every day.",
+     "choices": [
+      "goes",
+      "go",
+      "going",
+      "gos"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "주어가 she(3인칭 단수)이므로 go가 goes로 바뀝니다.",
+     "error_tag": "third-person-s"
+    },
+    {
+     "id": "P019-Q2",
+     "type": "single_choice",
+     "stem": "I ___ to the park today.",
+     "choices": [
+      "go",
+      "goes",
+      "am go",
+      "going"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "주어가 I이므로 동사 원형 go를 씁니다.",
+     "error_tag": "verb-form"
+    },
+    {
+     "id": "P019-Q3",
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "He goes home.",
+      "He goes to home.",
+      "He go home.",
+      "He going home."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "home 앞에는 to를 쓰지 않고, he 뒤에서는 goes를 씁니다.",
+     "error_tag": "go-to"
+    },
+    {
+     "id": "P019-Q4",
+     "type": "single_choice",
+     "stem": "___ you come to the store?",
+     "choices": [
+      "Do",
+      "Does",
+      "Are",
+      "Is"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "주어가 you인 일반동사 의문문은 Do로 시작합니다.",
+     "error_tag": "do-question"
+    },
+    {
+     "id": "P019-Q5",
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: My brother ___ to school by bus. (go)",
+     "answer_text": "goes",
+     "accepted_answers": [
+      "goes"
+     ],
+     "explanation_ko": "주어가 My brother(3인칭 단수)이므로 goes입니다.",
+     "error_tag": "third-person-s"
+    },
+    {
+     "id": "P019-Q6",
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Please ___ here. (오세요)",
+     "answer_text": "come",
+     "accepted_answers": [
+      "come"
+     ],
+     "explanation_ko": "'여기로 오세요'는 Please come here.이며 here 앞에는 to를 쓰지 않습니다.",
+     "error_tag": "verb-form"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "go나 come을 넣어 오늘 어디에 가는지(또는 누가 오는지) 영어 문장을 한 개 써 보세요.",
+    "example_answer_en": "I go to the park today.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 장소 앞에 to를 썼는지, he / she 뒤에서 goes / comes를 썼는지 확인하세요."
+   },
+   "publish_date": "2026-10-18",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-18"
+   }
   }
  ]
 }

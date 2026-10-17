@@ -2546,6 +2546,219 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N3-13",
+   "day_index": 13,
+   "week_index": 2,
+   "level": "N3",
+   "unit_id": "N3-W02",
+   "lesson_type": "practice",
+   "title_ko": "적용: 절약 습관에 대한 글 읽기",
+   "objective_ko": "N3에서 배운 문형이 들어 있는 짧은 글을 읽고 내용과 문형의 뜻을 확인한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N3-12"
+   ],
+   "explanation_ko": "〜ようにする・〜ために・〜べき・〜たびに・〜うちに・〜ことにする・〜ところだ・〜おかげで 등 지금까지 배운 문형이 들어 있는 절약 습관에 대한 글을 읽고 내용과 문형의 뜻을 확인합니다.",
+   "usage_notes": [
+    "〜ところだ는 앞의 동사 형태에 따라 ‘하려는 참(辞書形)・하는 중(ている)・막 끝난 참(た形)’이 됩니다. 여기서는 帰ってきたところだ = 막 돌아온 참입니다.",
+    "〜たびに = ~할 때마다, 〜うちに = ~하는 사이에(변화가 생김)."
+   ],
+   "common_mistakes": [],
+   "new_items": [
+    {
+     "id": "w-JP-N3-13-01",
+     "kind": "word",
+     "text": "環境{かんきょう}",
+     "reading_kana": "かんきょう",
+     "reading_romanized": "kankyou",
+     "meaning_ko": "환경",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-13-02",
+     "kind": "word",
+     "text": "節約{せつやく}",
+     "reading_kana": "せつやく",
+     "reading_romanized": "setsuyaku",
+     "meaning_ko": "절약",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N3-13-03",
+     "kind": "word",
+     "text": "努力{どりょく}",
+     "reading_kana": "どりょく",
+     "reading_romanized": "doryoku",
+     "meaning_ko": "노력",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N3-13-04",
+     "kind": "word",
+     "text": "以前{いぜん}",
+     "reading_kana": "いぜん",
+     "reading_romanized": "izen",
+     "meaning_ko": "이전, 예전",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-13-05",
+     "kind": "word",
+     "text": "最近{さいきん}",
+     "reading_kana": "さいきん",
+     "reading_romanized": "saikin",
+     "meaning_ko": "최근",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-13-06",
+     "kind": "word",
+     "text": "効果{こうか}",
+     "reading_kana": "こうか",
+     "reading_romanized": "kouka",
+     "meaning_ko": "효과",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "最近{さいきん}、環境{かんきょう}のために、マイバッグを持{も}ち歩{ある}くようにしている。",
+     "meaning_ko": "최근 환경을 위해 에코백을 들고 다니려고 노력하고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "以前{いぜん}は、買{か}い物{もの}のたびに袋{ふくろ}をもらっていた。",
+     "meaning_ko": "예전에는 쇼핑할 때마다 봉투를 받았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "節約{せつやく}の効果{こうか}は小{ちい}さいはずだと思{おも}っていた。",
+     "meaning_ko": "절약의 효과는 작을 거라고 생각했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "しかし、毎日{まいにち}続{つづ}けるうちに、少{すこ}しずつ習慣{しゅうかん}になった。",
+     "meaning_ko": "하지만 매일 계속하는 사이에 조금씩 습관이 되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "家族{かぞく}にも協力{きょうりょく}してもらうことにした。",
+     "meaning_ko": "가족에게도 협력해 달라고 하기로 했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "今日{きょう}も、買{か}い物{もの}から帰{かえ}ってきたところだ。",
+     "meaning_ko": "오늘도 장을 보고 막 돌아온 참이다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "環境{かんきょう}を守{まも}るために、私{わたし}たちもできることから始{はじ}めるべきだ。",
+     "meaning_ko": "환경을 지키기 위해 우리도 할 수 있는 것부터 시작해야 한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "努力{どりょく}したおかげで、今月{こんげつ}は電気代{でんきだい}が安{やす}くなった。",
+     "meaning_ko": "노력한 덕분에 이번 달은 전기 요금이 싸졌다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "近所{きんじょ}の人{ひと}も、同{おな}じことを始{はじ}めたらしい。",
+     "meaning_ko": "이웃 사람들도 같은 일을 시작한 것 같다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N3-13-Q1",
+     "type": "single_choice",
+     "prompt_ko": "「買い物のたびに袋をもらっていた」의 뜻은?",
+     "options": [
+      "쇼핑할 때마다 봉투를 받았다",
+      "쇼핑한 직후에 봉투를 받았다",
+      "쇼핑하는 동안 봉투를 받았다",
+      "쇼핑할 수 없어서 봉투를 받았다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜たびに = ~할 때마다."
+    },
+    {
+     "id": "JP-N3-13-Q2",
+     "type": "single_choice",
+     "prompt_ko": "「毎日続けるうちに、習慣になった」의 뜻은?",
+     "options": [
+      "매일 계속하는 사이에 습관이 되었다",
+      "매일 계속한 후에 습관이 되었다",
+      "매일 계속하지만 습관이 되지 않았다",
+      "매일 계속하기 위해 습관을 만들었다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜うちに = ~하는 사이에(그 동안에 변화가 생김)."
+    },
+    {
+     "id": "JP-N3-13-Q3",
+     "type": "single_choice",
+     "prompt_ko": "「買い物から帰ってきたところだ」의 뜻은?",
+     "options": [
+      "장을 보고 막 돌아온 참이다",
+      "장을 보러 가려는 참이다",
+      "장을 보고 돌아오는 중이다",
+      "장을 보고 돌아오지 않았다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "동사 た形 + ところだ는 ‘막 ~한 참’입니다."
+    },
+    {
+     "id": "JP-N3-13-Q4",
+     "type": "single_choice",
+     "prompt_ko": "環境を守る（　）、私たちもできることから始めるべきだ。",
+     "options": [
+      "ために",
+      "せいで",
+      "ばかり",
+      "ところ"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "목적을 나타내는 ために가 알맞습니다. せいで는 나쁜 원인, ばかり는 ‘~만’입니다."
+    },
+    {
+     "id": "JP-N3-13-Q5",
+     "type": "typing",
+     "prompt_ko": "「環境」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kankyou",
+     "accepted_answers": [
+      "kankyou",
+      "kankyo",
+      "kankyoo"
+     ],
+     "explanation_ko": "環境 = かんきょう (kankyou)"
+    },
+    {
+     "id": "JP-N3-13-Q6",
+     "type": "typing",
+     "prompt_ko": "「節約」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "setsuyaku",
+     "accepted_answers": [
+      "setsuyaku"
+     ],
+     "explanation_ko": "節約 = せつやく (setsuyaku)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

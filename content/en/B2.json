@@ -2319,6 +2319,209 @@
     "version": 1,
     "last_revised": "2026-10-17"
    }
+  },
+  {
+   "id": "B2-013",
+   "level": "B2",
+   "track": "general",
+   "day": 13,
+   "title_ko": "보고 동사 + to부정사 / 동명사: refuse to, deny -ing, advise sb to",
+   "objective_ko": "refuse·offer·deny·suggest·advise·warn 뒤에 오는 동사의 형태를 구별하여 남의 말과 행동을 전한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-18",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "보고 동사는 뒤에 오는 형태가 동사마다 정해져 있습니다. ① 동사 + to부정사: refuse to sign, offer to help, promise to call, agree to wait. ② 동사 + 동명사(-ing): deny deleting, suggest taking, admit making, recommend hiring. ③ 동사 + 목적어 + to부정사: advise him to drink, tell her to close, warn us not to swim. 부정은 to 앞에 not을 둡니다(not to swim). suggest는 suggest sb to do 형태로 쓸 수 없고, suggest taking 또는 suggest that + 주어 + (should) + 동사원형을 씁니다: She suggested that he (should) see a doctor.",
+    "common_mistake_ko": "He refused signing the contract.(X) → He refused to sign the contract.(O) / She denied to delete the file.(X) → She denied deleting the file.(O) / Tom suggested me to take a taxi.(X) → Tom suggested taking a taxi.(O) / The guide warned us swim in the river.(X) → The guide warned us not to swim in the river.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "refuse",
+     "part_of_speech": "동사",
+     "meaning_ko": "거절하다",
+     "example_en": "He refused to sign the contract.",
+     "example_ko": "그는 계약서에 서명하기를 거절했어요."
+    },
+    {
+     "word": "deny",
+     "part_of_speech": "동사",
+     "meaning_ko": "부인하다",
+     "example_en": "She denied deleting the file.",
+     "example_ko": "그녀는 파일을 삭제했다는 것을 부인했어요."
+    },
+    {
+     "word": "suggest",
+     "part_of_speech": "동사",
+     "meaning_ko": "제안하다",
+     "example_en": "Tom suggested taking a taxi.",
+     "example_ko": "톰은 택시를 타자고 제안했어요."
+    },
+    {
+     "word": "advise",
+     "part_of_speech": "동사",
+     "meaning_ko": "조언하다, 권고하다",
+     "example_en": "The doctor advised him to drink more water.",
+     "example_ko": "의사는 그에게 물을 더 마시라고 조언했어요."
+    },
+    {
+     "word": "warn",
+     "part_of_speech": "동사",
+     "meaning_ko": "경고하다",
+     "example_en": "The guide warned us not to swim in the river.",
+     "example_ko": "가이드는 우리에게 강에서 수영하지 말라고 경고했어요."
+    },
+    {
+     "word": "offer",
+     "part_of_speech": "동사",
+     "meaning_ko": "제안하다, 해 주겠다고 하다",
+     "example_en": "She offered to help me with my luggage.",
+     "example_ko": "그녀는 내 짐을 도와주겠다고 했어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "He refused to sign the contract.",
+     "ko": "그는 계약서에 서명하기를 거절했어요."
+    },
+    {
+     "en": "She denied deleting the file.",
+     "ko": "그녀는 파일을 삭제했다는 것을 부인했어요."
+    },
+    {
+     "en": "Tom suggested taking a taxi.",
+     "ko": "톰은 택시를 타자고 제안했어요."
+    },
+    {
+     "en": "The doctor advised him to drink more water.",
+     "ko": "의사는 그에게 물을 더 마시라고 조언했어요."
+    },
+    {
+     "en": "The guide warned us not to swim in the river.",
+     "ko": "가이드는 우리에게 강에서 수영하지 말라고 경고했어요."
+    },
+    {
+     "en": "She offered to help me with my luggage.",
+     "ko": "그녀는 내 짐을 도와주겠다고 했어요."
+    },
+    {
+     "en": "They promised to call us after the meeting.",
+     "ko": "그들은 회의 후에 우리에게 전화하겠다고 약속했어요."
+    },
+    {
+     "en": "He admitted making a mistake.",
+     "ko": "그는 실수를 했다고 인정했어요."
+    },
+    {
+     "en": "The manager recommended hiring a new assistant.",
+     "ko": "매니저는 새 비서를 채용하자고 권했어요."
+    },
+    {
+     "en": "She told him to close the window.",
+     "ko": "그녀는 그에게 창문을 닫으라고 말했어요."
+    },
+    {
+     "en": "Anna suggested that he should see a doctor.",
+     "ko": "애나는 그에게 병원에 가 보라고 제안했어요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "B2-013-Q1",
+     "type": "single_choice",
+     "stem": "He refused ___ the contract.",
+     "choices": [
+      "to sign",
+      "signing",
+      "sign",
+      "signed"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "refuse는 to부정사를 뒤에 씁니다.",
+     "error_tag": "reporting-verb"
+    },
+    {
+     "id": "B2-013-Q2",
+     "type": "single_choice",
+     "stem": "She denied ___ the file.",
+     "choices": [
+      "deleting",
+      "to delete",
+      "delete",
+      "deleted"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "deny는 동명사(-ing)를 뒤에 씁니다.",
+     "error_tag": "reporting-verb"
+    },
+    {
+     "id": "B2-013-Q3",
+     "type": "single_choice",
+     "stem": "The doctor advised him ___ more water.",
+     "choices": [
+      "to drink",
+      "drinking",
+      "drink",
+      "that drink"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "advise + 목적어(him) + to부정사 구조입니다.",
+     "error_tag": "reporting-verb"
+    },
+    {
+     "id": "B2-013-Q4",
+     "type": "single_choice",
+     "stem": "Tom suggested ___ a taxi.",
+     "choices": [
+      "taking",
+      "to take",
+      "take",
+      "to taking"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "suggest는 동명사(-ing)를 쓰며 suggest to take 형태는 쓰지 않습니다.",
+     "error_tag": "reporting-verb"
+    },
+    {
+     "id": "B2-013-Q5",
+     "type": "typing",
+     "stem": "빈칸에 알맞은 말을 쓰세요(두 단어): She offered ___ me with my luggage. (help)",
+     "answer_text": "to help",
+     "accepted_answers": [
+      "to help"
+     ],
+     "explanation_ko": "offer는 to부정사를 뒤에 씁니다.",
+     "error_tag": "reporting-verb"
+    },
+    {
+     "id": "B2-013-Q6",
+     "type": "typing",
+     "stem": "빈칸에 알맞은 말을 쓰세요(세 단어): He warned us ___ in the river. (수영하지 말라고)",
+     "answer_text": "not to swim",
+     "accepted_answers": [
+      "not to swim"
+     ],
+     "explanation_ko": "warn + 목적어 + not to부정사로 '~하지 말라고 경고하다'를 나타냅니다.",
+     "error_tag": "reporting-verb"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "refuse to, suggest -ing, advise sb to 중 두 가지를 써서 남이 한 말이나 행동을 전하는 문장을 두 개 써 보세요.",
+    "example_answer_en": "My friend suggested going to the beach. The teacher advised us to study every day.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 동사 뒤의 형태(to부정사 / -ing / 목적어 + to부정사)가 맞는지 확인하세요."
+   },
+   "publish_date": "2026-10-18",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-18"
+   }
   }
  ]
 }

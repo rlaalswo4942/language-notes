@@ -2536,6 +2536,217 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-13",
+   "day_index": 13,
+   "week_index": 2,
+   "level": "N2",
+   "unit_id": "N2-W02",
+   "lesson_type": "practice",
+   "title_ko": "적용: 재개발 기사 읽기",
+   "objective_ko": "N2에서 배운 문형이 들어 있는 짧은 기사를 읽고 내용과 문형의 뜻을 확인한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-12"
+   ],
+   "explanation_ko": "〜をめぐって・〜に伴って・〜に対して・〜に基づいて・〜わけではない・〜にもかかわらず・〜ざるを得ない・〜わけがない・〜に応じて 등 N2에서 배운 문형이 들어 있는 역 앞 재개발 기사를 읽고 내용을 확인합니다.",
+   "usage_notes": [
+    "〜わけではない는 부분 부정, 〜わけがない는 ‘~할 리가 없다’로 서로 뜻이 다릅니다.",
+    "〜にもかかわらず = ~임에도 불구하고(앞뒤 내용이 기대와 다를 때)."
+   ],
+   "common_mistakes": [],
+   "new_items": [
+    {
+     "id": "w-JP-N2-13-01",
+     "kind": "word",
+     "text": "再開発{さいかいはつ}",
+     "reading_kana": "さいかいはつ",
+     "reading_romanized": "saikaihatsu",
+     "meaning_ko": "재개발",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N2-13-02",
+     "kind": "word",
+     "text": "賛否{さんぴ}",
+     "reading_kana": "さんぴ",
+     "reading_romanized": "sanpi",
+     "meaning_ko": "찬반",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-13-03",
+     "kind": "word",
+     "text": "説明会{せつめいかい}",
+     "reading_kana": "せつめいかい",
+     "reading_romanized": "setsumeikai",
+     "meaning_ko": "설명회",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-13-04",
+     "kind": "word",
+     "text": "負担{ふたん}",
+     "reading_kana": "ふたん",
+     "reading_romanized": "futan",
+     "meaning_ko": "부담",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N2-13-05",
+     "kind": "word",
+     "text": "見直{みなお}す",
+     "reading_kana": "みなおす",
+     "reading_romanized": "minaosu",
+     "meaning_ko": "재검토하다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N2-13-06",
+     "kind": "word",
+     "text": "影響{えいきょう}",
+     "reading_kana": "えいきょう",
+     "reading_romanized": "eikyou",
+     "meaning_ko": "영향",
+     "part_of_speech": "명사・する동사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "駅前{えきまえ}の再開発{さいかいはつ}計画{けいかく}をめぐって、住民{じゅうみん}の賛否{さんぴ}が分{わ}かれている。",
+     "meaning_ko": "역 앞 재개발 계획을 둘러싸고 주민들의 찬반이 갈리고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "計画{けいかく}に伴{ともな}って、商店街{しょうてんがい}の一部{いちぶ}は移転{いてん}せざるを得{え}ない。",
+     "meaning_ko": "계획에 따라 상점가 일부는 이전할 수밖에 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "負担{ふたん}が大{おお}きいため、店主{てんしゅ}の中{なか}には反対{はんたい}する人{ひと}も少{すく}なくない。",
+     "meaning_ko": "부담이 크기 때문에 가게 주인 중에는 반대하는 사람도 적지 않다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "市{し}は住民{じゅうみん}に対{たい}して、説明会{せつめいかい}を三回{さんかい}開{ひら}く予定{よてい}だ。",
+     "meaning_ko": "시는 주민들에게 설명회를 세 번 열 예정이다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "説明会{せつめいかい}では、調査{ちょうさ}に基{もと}づいて、工事{こうじ}の影響{えいきょう}が説明{せつめい}された。",
+     "meaning_ko": "설명회에서는 조사에 근거하여 공사의 영향이 설명되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "しかし、全員{ぜんいん}が納得{なっとく}したわけではない。",
+     "meaning_ko": "하지만 모두가 납득한 것은 아니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "計画{けいかく}の見直{みなお}しを求{もと}める声{こえ}が強{つよ}いにもかかわらず、市{し}は予定{よてい}を変{か}えていない。",
+     "meaning_ko": "계획 재검토를 요구하는 목소리가 강함에도 불구하고 시는 예정을 바꾸지 않고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "反対派{はんたいは}は「この計画{けいかく}が地元{じもと}の人{ひと}のためになるわけがない」と話{はな}している。",
+     "meaning_ko": "반대파는 '이 계획이 지역 사람들을 위한 것일 리가 없다'고 말하고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "状況{じょうきょう}に応{おう}じて、市{し}は計画{けいかく}を見直{みなお}す可能性{かのうせい}がある。",
+     "meaning_ko": "상황에 따라 시는 계획을 재검토할 가능성이 있다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N2-13-Q1",
+     "type": "single_choice",
+     "prompt_ko": "기사에서 주민들의 반응은 어떠한가?",
+     "options": [
+      "찬반이 갈리고 있다",
+      "모두 찬성한다",
+      "모두 반대한다",
+      "관심이 없다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "住民の賛否が分かれている."
+    },
+    {
+     "id": "JP-N2-13-Q2",
+     "type": "single_choice",
+     "prompt_ko": "「全員が納得したわけではない」의 뜻은?",
+     "options": [
+      "모두가 납득한 것은 아니다(납득하지 않은 사람도 있다)",
+      "아무도 납득하지 않았다",
+      "모두가 납득했다",
+      "납득할 수 없다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜わけではない는 부분 부정입니다."
+    },
+    {
+     "id": "JP-N2-13-Q3",
+     "type": "single_choice",
+     "prompt_ko": "「移転せざるを得ない」의 뜻은?",
+     "options": [
+      "이전할 수밖에 없다",
+      "이전해도 된다",
+      "이전할 리가 없다",
+      "이전한 적이 없다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜ざるを得ない = ~하지 않을 수 없다, ~할 수밖에 없다."
+    },
+    {
+     "id": "JP-N2-13-Q4",
+     "type": "single_choice",
+     "prompt_ko": "시는 주민 설명회를 몇 번 열 예정인가?",
+     "options": [
+      "세 번",
+      "한 번",
+      "다섯 번",
+      "열지 않는다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "説明会を三回開く予定だ."
+    },
+    {
+     "id": "JP-N2-13-Q5",
+     "type": "typing",
+     "prompt_ko": "「再開発」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "saikaihatsu",
+     "accepted_answers": [
+      "saikaihatsu"
+     ],
+     "explanation_ko": "再開発 = さいかいはつ (saikaihatsu)"
+    },
+    {
+     "id": "JP-N2-13-Q6",
+     "type": "typing",
+     "prompt_ko": "「負担」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "futan",
+     "accepted_answers": [
+      "futan"
+     ],
+     "explanation_ko": "負担 = ふたん (futan)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

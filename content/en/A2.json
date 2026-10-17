@@ -2316,6 +2316,209 @@
     "version": 1,
     "last_revised": "2026-10-17"
    }
+  },
+  {
+   "id": "A2-013",
+   "level": "A2",
+   "track": "foundation",
+   "day": 13,
+   "title_ko": "형용사와 부사: quick / quickly, good / well",
+   "objective_ko": "동사를 꾸미는 부사를 알맞게 만들고, 형용사와 같은 모양인 부사(fast, hard)와 good / well을 구별한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-18",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "형용사는 명사를 꾸미거나 be동사 뒤에서 상태를 말합니다: a quick answer, She is quick. 부사는 동사를 꾸며 '어떻게' 하는지 말합니다: She answers quickly. 대부분의 부사는 형용사 + -ly입니다: slow → slowly, careful → carefully, loud → loudly. 끝이 y이면 i로 바꾸고 -ly를 붙입니다: easy → easily. 예외가 있습니다. ① good(형용사)의 부사는 well입니다: She is a good singer. She sings well. ② fast, hard는 형용사와 부사의 모양이 같습니다: a fast car / He runs fast. 그는 열심히 일해요: He works hard. hardly는 '거의 ~않는'이라는 다른 뜻이므로 hard의 부사로 쓰지 않습니다.",
+    "common_mistake_ko": "She speaks quick.(X) → She speaks quickly.(O) / He is a careful driver. He drives careful.(X) → He drives carefully.(O) / Anna sings very good.(X) → Anna sings very well.(O) / He runs fastly.(X) → He runs fast.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "quickly",
+     "part_of_speech": "부사",
+     "meaning_ko": "빠르게",
+     "example_en": "She answers quickly.",
+     "example_ko": "그녀는 빠르게 대답해요."
+    },
+    {
+     "word": "slowly",
+     "part_of_speech": "부사",
+     "meaning_ko": "천천히",
+     "example_en": "Please speak slowly.",
+     "example_ko": "천천히 말해 주세요."
+    },
+    {
+     "word": "carefully",
+     "part_of_speech": "부사",
+     "meaning_ko": "조심해서, 주의 깊게",
+     "example_en": "Please carry the glasses carefully.",
+     "example_ko": "유리잔을 조심해서 옮겨 주세요."
+    },
+    {
+     "word": "loudly",
+     "part_of_speech": "부사",
+     "meaning_ko": "큰 소리로",
+     "example_en": "The children talk loudly.",
+     "example_ko": "아이들이 큰 소리로 이야기해요."
+    },
+    {
+     "word": "easily",
+     "part_of_speech": "부사",
+     "meaning_ko": "쉽게",
+     "example_en": "I can open this box easily.",
+     "example_ko": "나는 이 상자를 쉽게 열 수 있어요."
+    },
+    {
+     "word": "hard",
+     "part_of_speech": "부사/형용사",
+     "meaning_ko": "열심히 / 어려운, 단단한",
+     "example_en": "She works hard every day.",
+     "example_ko": "그녀는 매일 열심히 일해요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "She answers quickly.",
+     "ko": "그녀는 빠르게 대답해요."
+    },
+    {
+     "en": "Please speak slowly.",
+     "ko": "천천히 말해 주세요."
+    },
+    {
+     "en": "Please carry the glasses carefully.",
+     "ko": "유리잔을 조심해서 옮겨 주세요."
+    },
+    {
+     "en": "The children talk loudly.",
+     "ko": "아이들이 큰 소리로 이야기해요."
+    },
+    {
+     "en": "I can open this box easily.",
+     "ko": "나는 이 상자를 쉽게 열 수 있어요."
+    },
+    {
+     "en": "She works hard every day.",
+     "ko": "그녀는 매일 열심히 일해요."
+    },
+    {
+     "en": "He is a careful driver.",
+     "ko": "그는 조심스러운 운전자예요."
+    },
+    {
+     "en": "Anna sings very well.",
+     "ko": "애나는 노래를 아주 잘 불러요."
+    },
+    {
+     "en": "This is a quick answer.",
+     "ko": "이것은 빠른 대답이에요."
+    },
+    {
+     "en": "He runs fast.",
+     "ko": "그는 빠르게 달려요."
+    },
+    {
+     "en": "The test was easy, so I finished it easily.",
+     "ko": "시험이 쉬워서 나는 쉽게 끝냈어요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "A2-013-Q1",
+     "type": "single_choice",
+     "stem": "Please carry the glasses ___.",
+     "choices": [
+      "carefully",
+      "careful",
+      "care",
+      "carefulness"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "동사 carry를 꾸미는 '조심해서'는 부사 carefully입니다.",
+     "error_tag": "adverb"
+    },
+    {
+     "id": "A2-013-Q2",
+     "type": "single_choice",
+     "stem": "He is a ___ driver.",
+     "choices": [
+      "careful",
+      "carefully",
+      "care",
+      "carefulness"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "명사 driver를 꾸미므로 형용사 careful입니다.",
+     "error_tag": "adjective-adverb"
+    },
+    {
+     "id": "A2-013-Q3",
+     "type": "single_choice",
+     "stem": "Anna sings very ___.",
+     "choices": [
+      "well",
+      "good",
+      "goodly",
+      "best"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "동사 sings를 꾸미는 '잘'은 well입니다. good은 형용사입니다.",
+     "error_tag": "good-well"
+    },
+    {
+     "id": "A2-013-Q4",
+     "type": "single_choice",
+     "stem": "He runs ___.",
+     "choices": [
+      "fast",
+      "fastly",
+      "quickily",
+      "fasten"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "fast는 형용사와 부사의 모양이 같습니다. fastly라는 말은 쓰지 않습니다.",
+     "error_tag": "adverb"
+    },
+    {
+     "id": "A2-013-Q5",
+     "type": "typing",
+     "stem": "빈칸에 알맞은 형태를 쓰세요: The children talk ___. (loud)",
+     "answer_text": "loudly",
+     "accepted_answers": [
+      "loudly"
+     ],
+     "explanation_ko": "동사 talk를 꾸미므로 loud에 -ly를 붙인 loudly입니다.",
+     "error_tag": "adverb"
+    },
+    {
+     "id": "A2-013-Q6",
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: He is a good player. He plays ___.",
+     "answer_text": "well",
+     "accepted_answers": [
+      "well"
+     ],
+     "explanation_ko": "good의 부사는 well입니다.",
+     "error_tag": "good-well"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "quickly, slowly, carefully, well, hard 중 두 개를 넣어 자신이 어떻게 하는지 영어 문장을 두 개 써 보세요.",
+    "example_answer_en": "I walk slowly. I study hard.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 동사를 꾸미는 자리에 부사를 썼는지 확인하세요."
+   },
+   "publish_date": "2026-10-18",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-18"
+   }
   }
  ]
 }

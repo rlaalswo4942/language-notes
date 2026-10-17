@@ -2532,6 +2532,226 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-13",
+   "day_index": 13,
+   "week_index": 2,
+   "level": "N1",
+   "unit_id": "N1-W02",
+   "lesson_type": "practice",
+   "title_ko": "적용: 노포 여관의 폐업 읽기",
+   "objective_ko": "N1에서 배운 문형이 들어 있는 짧은 글을 읽고 내용과 문형의 뜻을 확인한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-12"
+   ],
+   "explanation_ko": "〜を余儀なくされる・〜と相まって・〜をもって・〜ならでは・〜が早いか・〜を禁じ得ない・〜といえども・〜をよそに・〜てやまない 등 N1에서 배운 문형이 들어 있는 노포 여관 폐업에 관한 글을 읽고 내용과 문형의 뜻을 확인합니다.",
+   "usage_notes": [
+    "〜をもって = ~로써, ~를 끝으로(시점・수단). 閉店・終了의 안내문에 자주 쓰입니다.",
+    "〜を禁じ得ない = ~한 감정을 억누를 수 없다(문어체)."
+   ],
+   "common_mistakes": [],
+   "new_items": [
+    {
+     "id": "w-JP-N1-13-01",
+     "kind": "word",
+     "text": "老舗{しにせ}",
+     "reading_kana": "しにせ",
+     "reading_romanized": "shinise",
+     "meaning_ko": "노포(대대로 이어 온 오래된 가게)",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-13-02",
+     "kind": "word",
+     "text": "後継者{こうけいしゃ}",
+     "reading_kana": "こうけいしゃ",
+     "reading_romanized": "koukeisha",
+     "meaning_ko": "후계자",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-13-03",
+     "kind": "word",
+     "text": "老朽化{ろうきゅうか}",
+     "reading_kana": "ろうきゅうか",
+     "reading_romanized": "roukyuuka",
+     "meaning_ko": "노후화",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N1-13-04",
+     "kind": "word",
+     "text": "伝統{でんとう}",
+     "reading_kana": "でんとう",
+     "reading_romanized": "dentou",
+     "meaning_ko": "전통",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-13-05",
+     "kind": "word",
+     "text": "継承{けいしょう}",
+     "reading_kana": "けいしょう",
+     "reading_romanized": "keishou",
+     "meaning_ko": "계승",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N1-13-06",
+     "kind": "word",
+     "text": "常連客{じょうれんきゃく}",
+     "reading_kana": "じょうれんきゃく",
+     "reading_romanized": "jourenkyaku",
+     "meaning_ko": "단골손님",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "創業{そうぎょう}百年{ひゃくねん}を超{こ}える老舗{しにせ}旅館{りょかん}が、後継者{こうけいしゃ}不足{ぶそく}のため閉業{へいぎょう}を余儀{よぎ}なくされた。",
+     "meaning_ko": "창업 백 년을 넘은 노포 여관이 후계자 부족으로 폐업을 피할 수 없게 되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "宿泊客{しゅくはくきゃく}の減少{げんしょう}と建物{たてもの}の老朽化{ろうきゅうか}が相{あい}まって、経営{けいえい}は厳{きび}しさを増{ま}していた。",
+     "meaning_ko": "숙박객 감소와 건물 노후화가 맞물려 경영은 어려움이 더해지고 있었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "女将{おかみ}は「今月末{こんげつまつ}をもって営業{えいぎょう}を終了{しゅうりょう}いたします」と語{かた}った。",
+     "meaning_ko": "여주인은 '이달 말로 영업을 종료하겠습니다'라고 말했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この旅館{りょかん}ならではのもてなしを惜{お}しむ声{こえ}が、全国{ぜんこく}から寄{よ}せられている。",
+     "meaning_ko": "이 여관만의 환대를 아쉬워하는 목소리가 전국에서 들어오고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "閉業{へいぎょう}が発表{はっぴょう}されるが早{はや}いか、予約{よやく}の電話{でんわ}が殺到{さっとう}した。",
+     "meaning_ko": "폐업이 발표되자마자 예약 전화가 쇄도했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "長年{ながねん}の常連客{じょうれんきゃく}は、寂{さび}しさを禁{きん}じ得{え}ないと話{はな}す。",
+     "meaning_ko": "오랜 단골손님은 쓸쓸함을 금할 수 없다고 말한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "伝統{でんとう}ある旅館{りょかん}といえども、時代{じだい}の変化{へんか}には逆{さか}らえなかった。",
+     "meaning_ko": "전통 있는 여관이라 해도 시대의 변화에는 거스를 수 없었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "周囲{しゅうい}の期待{きたい}をよそに、女将{おかみ}は静{しず}かに暖簾{のれん}を下{お}ろした。",
+     "meaning_ko": "주위의 기대를 아랑곳하지 않고 여주인은 조용히 포렴을 내렸다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "伝統{でんとう}の継承{けいしょう}が途絶{とだ}えれば、地域{ちいき}の文化{ぶんか}も失{うしな}われてしまう。",
+     "meaning_ko": "전통의 계승이 끊기면 지역 문화도 사라져 버린다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この旅館{りょかん}の技{わざ}が、どこかで受{う}け継{つ}がれることを願{ねが}ってやまない。",
+     "meaning_ko": "이 여관의 기술이 어딘가에서 이어지기를 한없이 바란다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N1-13-Q1",
+     "type": "single_choice",
+     "prompt_ko": "글에서 여관이 문을 닫게 된 이유로 나온 것은?",
+     "options": [
+      "후계자 부족, 숙박객 감소, 건물 노후화",
+      "화재와 지진",
+      "땅값 상승",
+      "여주인의 건강 악화"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "後継者不足, 宿泊客の減少, 建物の老朽化가 본문에 나옵니다."
+    },
+    {
+     "id": "JP-N1-13-Q2",
+     "type": "single_choice",
+     "prompt_ko": "「閉業が発表されるが早いか、予約の電話が殺到した」의 뜻은?",
+     "options": [
+      "폐업이 발표되자마자 예약 전화가 쇄도했다",
+      "폐업이 발표되기 전에 예약 전화가 쇄도했다",
+      "폐업이 발표되었지만 예약 전화는 오지 않았다",
+      "폐업이 발표되면 예약 전화가 쇄도할 것이다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜が早いか = ~하자마자."
+    },
+    {
+     "id": "JP-N1-13-Q3",
+     "type": "single_choice",
+     "prompt_ko": "「周囲の期待をよそに」의 뜻은?",
+     "options": [
+      "주위의 기대를 아랑곳하지 않고",
+      "주위의 기대에 부응하여",
+      "주위의 기대 덕분에",
+      "주위의 기대를 끝으로"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜をよそに = ~를 아랑곳하지 않고."
+    },
+    {
+     "id": "JP-N1-13-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「寂しさを禁じ得ない」의 뜻은?",
+     "options": [
+      "쓸쓸함을 금할 수 없다",
+      "쓸쓸함을 금지한다",
+      "쓸쓸하지 않다",
+      "쓸쓸하게 해서는 안 된다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜を禁じ得ない = ~한 감정을 억누를 수 없다."
+    },
+    {
+     "id": "JP-N1-13-Q5",
+     "type": "typing",
+     "prompt_ko": "「老舗」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "shinise",
+     "accepted_answers": [
+      "shinise",
+      "sinise"
+     ],
+     "explanation_ko": "老舗 = しにせ (shinise). 특수한 읽기입니다."
+    },
+    {
+     "id": "JP-N1-13-Q6",
+     "type": "typing",
+     "prompt_ko": "「継承」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "keishou",
+     "accepted_answers": [
+      "keishou",
+      "keisho",
+      "keisyou",
+      "keishoo"
+     ],
+     "explanation_ko": "継承 = けいしょう (keishou)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "JLPT_FORMAT"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

@@ -1089,6 +1089,205 @@
     "version": 1,
     "last_revised": "2026-10-17"
    }
+  },
+  {
+   "id": "TOEIC-007",
+   "level": "B1",
+   "track": "toeic",
+   "day": 7,
+   "title_ko": "1주 복습: TOEIC Part 5 주어·품사·시제·전치사/접속사·대명사·태",
+   "objective_ko": "TOEIC Part 5 1~6일차의 풀이 단서(주어 동사 일치, 품사 자리, 시제 단서, 전치사와 접속사, 대명사의 격, 능동/수동)를 섞인 문제로 다시 확인한다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/toeic/about/listening-reading.html",
+     "publisher": "ETS",
+     "checked_at": "2026-10-18",
+     "supports": "공식 시험 형식"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "이번 주에 배운 여섯 가지를 한 번에 복습합니다. ① 주어가 3인칭 단수이면 현재시제 동사에 -s(TOEIC-001). ② 빈칸이 동사를 꾸미면 부사, 명사를 꾸미면 형용사, 관사·소유격 뒤에서 목적어 자리면 명사(TOEIC-002). ③ yesterday, last week는 과거, tomorrow, next month는 미래를 가리키는 시제 단서(TOEIC-003). ④ 전치사(during, despite, because of) 뒤에는 명사구, 접속사(while, although, because) 뒤에는 주어 + 동사(TOEIC-004). ⑤ 명사 앞에는 소유격(her, their), 동사 뒤 목적어에는 목적격(her, them)(TOEIC-005). ⑥ 빈칸 뒤에 목적어가 없고 주어가 동작을 받으면 be + p.p.(TOEIC-006). 풀 때는 빈칸 앞뒤 단어와 시간 단서를 먼저 확인합니다. 이것은 ETS 공식 문항이 아닌 자체 연습문제입니다.",
+    "common_mistake_ko": "The manager lead the meeting.(X) → The manager leads the meeting.(O) / Reply prompt.(X) → Reply promptly.(O) / The shipment will arrive yesterday.(X) → The shipment arrived yesterday.(O) / Because the heavy rain, ...(X) → Despite / Because of the heavy rain, ...(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "meeting",
+     "part_of_speech": "명사",
+     "meaning_ko": "회의",
+     "example_en": "The meeting starts at nine.",
+     "example_ko": "회의는 9시에 시작해요."
+    },
+    {
+     "word": "manager",
+     "part_of_speech": "명사",
+     "meaning_ko": "관리자, 매니저",
+     "example_en": "The manager leads the weekly meeting.",
+     "example_ko": "매니저가 주간 회의를 이끌어요."
+    },
+    {
+     "word": "report",
+     "part_of_speech": "명사",
+     "meaning_ko": "보고서",
+     "example_en": "The report is on your desk.",
+     "example_ko": "보고서는 당신 책상 위에 있어요."
+    },
+    {
+     "word": "schedule",
+     "part_of_speech": "명사",
+     "meaning_ko": "일정",
+     "example_en": "Please check the schedule before Friday.",
+     "example_ko": "금요일 전에 일정을 확인해 주세요."
+    },
+    {
+     "word": "invoice",
+     "part_of_speech": "명사",
+     "meaning_ko": "청구서",
+     "example_en": "The invoice is attached to this e-mail.",
+     "example_ko": "청구서는 이 이메일에 첨부되어 있습니다."
+    },
+    {
+     "word": "submit",
+     "part_of_speech": "동사",
+     "meaning_ko": "제출하다",
+     "example_en": "Applicants must submit a résumé.",
+     "example_ko": "지원자는 이력서를 제출해야 합니다."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The manager leads the weekly meeting every Monday.",
+     "ko": "매니저는 매주 월요일 주간 회의를 이끕니다."
+    },
+    {
+     "en": "Please reply promptly so that we can finish the schedule today.",
+     "ko": "오늘 일정을 마무리할 수 있도록 신속히 회신해 주세요."
+    },
+    {
+     "en": "The shipment arrived yesterday afternoon.",
+     "ko": "물품은 어제 오후에 도착했습니다."
+    },
+    {
+     "en": "Despite the heavy rain, the outdoor event was held as planned.",
+     "ko": "폭우에도 불구하고 야외 행사는 계획대로 열렸습니다."
+    },
+    {
+     "en": "Ms. Lee asked her assistant to send the invoice.",
+     "ko": "이 씨는 비서에게 청구서를 보내 달라고 요청했습니다."
+    },
+    {
+     "en": "The contract must be signed before Friday.",
+     "ko": "계약서는 금요일 전에 서명되어야 합니다."
+    },
+    {
+     "en": "The report was submitted by the finance team.",
+     "ko": "보고서는 재무팀에 의해 제출되었습니다."
+    },
+    {
+     "en": "Because of the construction, the entrance is closed.",
+     "ko": "공사 때문에 입구는 닫혀 있습니다."
+    },
+    {
+     "en": "While the manager was away, her assistant answered the calls.",
+     "ko": "매니저가 자리를 비운 동안 비서가 전화를 받았습니다."
+    },
+    {
+     "en": "Their department will move to a new office next month.",
+     "ko": "그들의 부서는 다음 달에 새 사무실로 옮길 것입니다."
+    }
+   ],
+   "questions": [
+    {
+     "id": "T007-Q1",
+     "type": "single_choice",
+     "stem": "The manager ___ the weekly meeting every Monday.",
+     "choices": [
+      "lead",
+      "leads",
+      "leading",
+      "to lead"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "주어 The manager는 3인칭 단수이고 every Monday가 현재의 습관을 나타내므로 leads입니다.",
+     "error_tag": "subject-verb"
+    },
+    {
+     "id": "T007-Q2",
+     "type": "single_choice",
+     "stem": "Please reply ___ so that we can finish the schedule today.",
+     "choices": [
+      "prompt",
+      "promptly",
+      "promptness",
+      "prompting"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "동사 reply를 꾸미는 자리이므로 부사 promptly입니다.",
+     "error_tag": "part-of-speech"
+    },
+    {
+     "id": "T007-Q3",
+     "type": "single_choice",
+     "stem": "The shipment ___ yesterday afternoon.",
+     "choices": [
+      "arrives",
+      "will arrive",
+      "arrived",
+      "is arriving"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "yesterday afternoon은 과거 시점이므로 과거형 arrived입니다.",
+     "error_tag": "tense"
+    },
+    {
+     "id": "T007-Q4",
+     "type": "single_choice",
+     "stem": "___ the heavy rain, the outdoor event was held as planned.",
+     "choices": [
+      "Despite",
+      "Although",
+      "Because",
+      "While"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "빈칸 뒤가 명사구(the heavy rain)이므로 전치사 Despite입니다. Although, Because, While 뒤에는 주어 + 동사가 옵니다.",
+     "error_tag": "preposition-conjunction"
+    },
+    {
+     "id": "T007-Q5",
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Ms. Lee asked ___ assistant to send the invoice.",
+     "answer_text": "her",
+     "accepted_answers": [
+      "her"
+     ],
+     "explanation_ko": "명사 assistant 앞이므로 Ms. Lee의 소유격 her입니다.",
+     "error_tag": "pronoun-case"
+    },
+    {
+     "id": "T007-Q6",
+     "type": "typing",
+     "stem": "빈칸에 알맞은 말을 쓰세요(두 단어): The contract must ___ before Friday. (sign)",
+     "answer_text": "be signed",
+     "accepted_answers": [
+      "be signed"
+     ],
+     "explanation_ko": "계약서는 서명되는 대상이고 목적어가 없으므로 수동태 be signed입니다.",
+     "error_tag": "voice"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "이번 주에 배운 단서 중 하나(시제 단서, 품사 자리, 수동태 등)를 골라 업무와 관련된 영어 문장을 한 개 써 보세요.",
+    "example_answer_en": "The schedule will be updated by Friday.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 자체 연습이며 ETS 문항이 아닙니다."
+   },
+   "publish_date": "2026-10-18",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-18"
+   }
   }
  ]
 }

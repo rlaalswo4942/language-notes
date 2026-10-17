@@ -2545,6 +2545,221 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N5-13",
+   "day_index": 13,
+   "week_index": 2,
+   "level": "N5",
+   "unit_id": "N5-W02",
+   "lesson_type": "practice",
+   "title_ko": "적용: 주말 계획 읽기",
+   "objective_ko": "지금까지 배운 문형으로 된 짧은 주말 계획 글을 읽고 내용을 확인한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N5-12"
+   ],
+   "explanation_ko": "지금까지 배운 ます형, 조사(を・に・で・へ), 〜ませんか・〜ましょう, あります・います, 〜たいです로 된 주말 계획 글을 읽고 내용을 확인합니다. 요일과 때를 나타내는 말(土曜日, 午前, 午後, 夕方)에는 に를 붙여 ‘언제’를 말합니다.",
+   "usage_notes": [
+    "午前・午後・夕方는 ‘오전・오후・저녁 무렵’입니다. 午前に 公園で 散歩します처럼 때를 나타내는 말 뒤에 に를 쓸 수 있습니다."
+   ],
+   "common_mistakes": [],
+   "new_items": [
+    {
+     "id": "w-JP-N5-13-01",
+     "kind": "word",
+     "text": "午前{ごぜん}",
+     "reading_kana": "ごぜん",
+     "reading_romanized": "gozen",
+     "meaning_ko": "오전",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-13-02",
+     "kind": "word",
+     "text": "午後{ごご}",
+     "reading_kana": "ごご",
+     "reading_romanized": "gogo",
+     "meaning_ko": "오후",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-13-03",
+     "kind": "word",
+     "text": "土曜日{どようび}",
+     "reading_kana": "どようび",
+     "reading_romanized": "doyoubi",
+     "meaning_ko": "토요일",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-13-04",
+     "kind": "word",
+     "text": "日曜日{にちようび}",
+     "reading_kana": "にちようび",
+     "reading_romanized": "nichiyoubi",
+     "meaning_ko": "일요일",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-13-05",
+     "kind": "word",
+     "text": "映画館{えいがかん}",
+     "reading_kana": "えいがかん",
+     "reading_romanized": "eigakan",
+     "meaning_ko": "영화관",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-13-06",
+     "kind": "word",
+     "text": "夕方{ゆうがた}",
+     "reading_kana": "ゆうがた",
+     "reading_romanized": "yuugata",
+     "meaning_ko": "저녁 무렵",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "土曜日{どようび}に 友達{ともだち}と 映画館{えいがかん}へ 行{い}きます。",
+     "meaning_ko": "토요일에 친구와 영화관에 갑니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "午前{ごぜん}に 公園{こうえん}で 散歩{さんぽ}します。",
+     "meaning_ko": "오전에 공원에서 산책합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "午後{ごご}は 喫茶店{きっさてん}で お茶{ちゃ}を 飲{の}みます。",
+     "meaning_ko": "오후에는 찻집에서 차를 마십니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "夕方{ゆうがた}に 一緒{いっしょ}に 買{か}い物{もの}を しませんか。",
+     "meaning_ko": "저녁 무렵에 같이 쇼핑하지 않겠습니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "映画館{えいがかん}に 友達{ともだち}が います。",
+     "meaning_ko": "영화관에 친구가 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "日曜日{にちようび}は 何{なに}を しますか。",
+     "meaning_ko": "일요일에는 무엇을 합니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "日曜日{にちようび}は 部屋{へや}で 休{やす}みたいです。",
+     "meaning_ko": "일요일에는 방에서 쉬고 싶습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "土曜日{どようび}は 海{うみ}へ 行{い}きたくないです。",
+     "meaning_ko": "토요일에는 바다에 가고 싶지 않습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "日曜日{にちようび}に 公園{こうえん}で 散歩{さんぽ}しましょう。",
+     "meaning_ko": "일요일에 공원에서 산책합시다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "昨日{きのう}は 映画{えいが}を 見{み}ました。",
+     "meaning_ko": "어제는 영화를 봤습니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N5-13-Q1",
+     "type": "single_choice",
+     "prompt_ko": "‘토요일에 친구와 영화관에 갑니다’를 바르게 나타낸 것은?",
+     "options": [
+      "土曜日に 友達と 映画館へ 行きます。",
+      "土曜日に 友達と 映画館へ 行きました。",
+      "土曜日に 友達と 映画館へ 行きたくないです。",
+      "土曜日に 友達と 映画館が います。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘갑니다’는 行きます입니다. 行きました는 과거(갔습니다), 行きたくないです는 ‘가고 싶지 않습니다’입니다."
+    },
+    {
+     "id": "JP-N5-13-Q2",
+     "type": "single_choice",
+     "prompt_ko": "「日曜日は 何を しますか」의 뜻은?",
+     "options": [
+      "일요일에는 무엇을 합니까?",
+      "일요일에는 어디에 갑니까?",
+      "일요일에는 누가 있습니까?",
+      "일요일에 무엇을 했습니까?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "何を는 ‘무엇을’, しますか는 ‘합니까?’입니다."
+    },
+    {
+     "id": "JP-N5-13-Q3",
+     "type": "single_choice",
+     "prompt_ko": "「午後」의 읽기는?",
+     "options": [
+      "ごご",
+      "ごぜん",
+      "ゆうがた",
+      "ひる"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "午後 = ごご(오후), 午前 = ごぜん(오전)입니다."
+    },
+    {
+     "id": "JP-N5-13-Q4",
+     "type": "single_choice",
+     "prompt_ko": "‘저녁 무렵에 같이 쇼핑하지 않겠습니까?’를 바르게 나타낸 것은?",
+     "options": [
+      "夕方に 一緒に 買い物を しませんか。",
+      "夕方に 一緒に 買い物を しました。",
+      "夕方に 一緒に 買い物を したくないです。",
+      "夕方に 一緒に 買い物が あります。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "권유(~하지 않겠습니까?)는 ます형의 ませんか입니다."
+    },
+    {
+     "id": "JP-N5-13-Q5",
+     "type": "typing",
+     "prompt_ko": "「午前」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "gozen",
+     "accepted_answers": [
+      "gozen"
+     ],
+     "explanation_ko": "午前 = ごぜん (gozen)"
+    },
+    {
+     "id": "JP-N5-13-Q6",
+     "type": "typing",
+     "prompt_ko": "「映画館」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "eigakan",
+     "accepted_answers": [
+      "eigakan"
+     ],
+     "explanation_ko": "映画館 = えいがかん (eigakan)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

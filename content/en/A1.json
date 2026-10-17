@@ -2327,6 +2327,209 @@
     "version": 1,
     "last_revised": "2026-10-17"
    }
+  },
+  {
+   "id": "A1-013",
+   "level": "A1",
+   "track": "foundation",
+   "day": 13,
+   "title_ko": "소유격 's와 소유 형용사 his / her / our / their",
+   "objective_ko": "사람의 소유물을 's 또는 his / her / our / their로 말하고, 주어 대명사와 구별한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-18",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "누구의 것인지 말할 때는 명사 앞에 소유 표현을 둡니다. ① 이름·사람 명사 + 's: Anna's bag(애나의 가방), my sister's room(내 여동생의 방). ② 소유 형용사: my(나의), your(너의), his(그의), her(그녀의), our(우리의), their(그들의). 소유 형용사는 반드시 뒤에 명사가 옵니다: his bike, her cat, our house, their dog. 주어 대명사(he, she, we, they)와 모양이 다르니 구별하세요. 남자 한 명이면 his, 여자 한 명이면 her, 여러 사람이면 their입니다. his와 Tom's는 같은 뜻입니다(Tom's book = his book).",
+    "common_mistake_ko": "This is Anna bag.(X) → This is Anna's bag.(O) / He bike is new.(X) → His bike is new.(O) / They dog is big.(X) → Their dog is big.(O) / We house is small.(X) → Our house is small.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "parents",
+     "part_of_speech": "명사(복수)",
+     "meaning_ko": "부모님",
+     "example_en": "My parents live in Busan.",
+     "example_ko": "우리 부모님은 부산에 살아요."
+    },
+    {
+     "word": "uncle",
+     "part_of_speech": "명사",
+     "meaning_ko": "삼촌, 외삼촌, 이모부",
+     "example_en": "Her uncle is a doctor.",
+     "example_ko": "그녀의 삼촌은 의사예요."
+    },
+    {
+     "word": "aunt",
+     "part_of_speech": "명사",
+     "meaning_ko": "이모, 고모",
+     "example_en": "My aunt's house is near the park.",
+     "example_ko": "이모(고모)의 집은 공원 근처에 있어요."
+    },
+    {
+     "word": "grandmother",
+     "part_of_speech": "명사",
+     "meaning_ko": "할머니",
+     "example_en": "Our grandmother cooks for us.",
+     "example_ko": "우리 할머니는 우리에게 요리를 해 주세요."
+    },
+    {
+     "word": "grandfather",
+     "part_of_speech": "명사",
+     "meaning_ko": "할아버지",
+     "example_en": "His grandfather's bike is old.",
+     "example_ko": "그의 할아버지의 자전거는 낡았어요."
+    },
+    {
+     "word": "cousin",
+     "part_of_speech": "명사",
+     "meaning_ko": "사촌",
+     "example_en": "Tom's cousin lives in Seoul.",
+     "example_ko": "톰의 사촌은 서울에 살아요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "This is Anna's bag.",
+     "ko": "이것은 애나의 가방이에요."
+    },
+    {
+     "en": "Tom is my friend. His bike is new.",
+     "ko": "톰은 내 친구예요. 그의 자전거는 새것이에요."
+    },
+    {
+     "en": "Anna has a cat. Her cat is white.",
+     "ko": "애나는 고양이가 있어요. 그녀의 고양이는 하얘요."
+    },
+    {
+     "en": "We live here. Our house is small.",
+     "ko": "우리는 여기에 살아요. 우리 집은 작아요."
+    },
+    {
+     "en": "Mr. and Mrs. Kim have a dog. Their dog is big.",
+     "ko": "김 씨 부부는 개가 있어요. 그들의 개는 커요."
+    },
+    {
+     "en": "My parents live in Busan.",
+     "ko": "우리 부모님은 부산에 살아요."
+    },
+    {
+     "en": "Her uncle is a doctor.",
+     "ko": "그녀의 삼촌은 의사예요."
+    },
+    {
+     "en": "My sister's room is next to the kitchen.",
+     "ko": "내 여동생의 방은 부엌 옆에 있어요."
+    },
+    {
+     "en": "Tom's cousin lives in Seoul.",
+     "ko": "톰의 사촌은 서울에 살아요."
+    },
+    {
+     "en": "Our grandmother cooks for us.",
+     "ko": "우리 할머니는 우리에게 요리를 해 주세요."
+    },
+    {
+     "en": "Their parents work at the store.",
+     "ko": "그들의 부모님은 가게에서 일해요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "A1-013-Q1",
+     "type": "single_choice",
+     "stem": "This is ___ bag.",
+     "choices": [
+      "Anna's",
+      "Annas",
+      "Anna",
+      "Annas'"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "사람 이름 뒤에 's를 붙여 '애나의'라는 소유를 나타냅니다.",
+     "error_tag": "possessive"
+    },
+    {
+     "id": "A1-013-Q2",
+     "type": "single_choice",
+     "stem": "Tom is my friend. ___ bike is new.",
+     "choices": [
+      "His",
+      "He",
+      "Him",
+      "Her"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "남자 한 명의 소유이고 뒤에 명사(bike)가 오므로 소유 형용사 his입니다.",
+     "error_tag": "possessive-adjective"
+    },
+    {
+     "id": "A1-013-Q3",
+     "type": "single_choice",
+     "stem": "My sister and I live here. ___ house is small.",
+     "choices": [
+      "Our",
+      "We",
+      "Us",
+      "Their"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "나와 여동생(우리)의 소유이므로 our입니다.",
+     "error_tag": "possessive-adjective"
+    },
+    {
+     "id": "A1-013-Q4",
+     "type": "single_choice",
+     "stem": "Mr. and Mrs. Kim have a dog. ___ dog is big.",
+     "choices": [
+      "Their",
+      "Them",
+      "They",
+      "His"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "여러 사람의 소유이고 뒤에 명사가 오므로 their입니다.",
+     "error_tag": "possessive-adjective"
+    },
+    {
+     "id": "A1-013-Q5",
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Anna has a cat. ___ cat is white.",
+     "answer_text": "her",
+     "accepted_answers": [
+      "her"
+     ],
+     "explanation_ko": "여자 한 명(Anna)의 소유이므로 her입니다.",
+     "error_tag": "possessive-adjective"
+    },
+    {
+     "id": "A1-013-Q6",
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: This is Tom's book. = This is ___ book.",
+     "answer_text": "his",
+     "accepted_answers": [
+      "his"
+     ],
+     "explanation_ko": "Tom's는 '톰의'이고 남자 한 명의 소유 형용사 his와 같은 뜻입니다.",
+     "error_tag": "possessive-adjective"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "가족이나 친구의 물건을 소개하는 문장을 's나 his / her / their를 넣어 두 개 써 보세요.",
+    "example_answer_en": "This is my mother's bag. Her bag is red.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 소유 표현 뒤에 명사가 있는지 확인하세요."
+   },
+   "publish_date": "2026-10-18",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-18"
+   }
   }
  ]
 }

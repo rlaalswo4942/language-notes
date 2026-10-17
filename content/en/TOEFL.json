@@ -1077,6 +1077,205 @@
     "version": 1,
     "last_revised": "2026-10-17"
    }
+  },
+  {
+   "id": "TOEFL-007",
+   "level": "B1",
+   "track": "toefl",
+   "day": 7,
+   "title_ko": "TOEFL 2026 1주 복습: 문장 만들기·이메일·토론·응답·단어 완성·공지문",
+   "objective_ko": "TOEFL 2026 형식을 참고한 입문 1~6일차 유형(Build a Sentence, Write an Email, Academic Discussion, 응답 고르기, Complete the Words, Read in Daily Life)을 섞어 다시 연습한다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/content/ets-org/language-master/ko/home/toefl/test-takers/ibt/about/content.html",
+     "publisher": "ETS",
+     "checked_at": "2026-10-18",
+     "supports": "공식 시험 형식"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "2026-01-21 이후 TOEFL iBT 형식을 참고해 이번 주 여섯 가지 유형을 한 번에 복습합니다(공식 안내 유형명). ① 문장 만들기: 주어 + 동사 + 목적어 어순. ② 이메일: 인사, 목적(I am writing to ...), 정중한 요청(Could you please ...?), 마무리. ③ 토론: 의견(In my opinion, ...) + 이유(One reason is that ...) + 예시(For instance, ...). ④ 응답 고르기: Where → 장소, When → 시점, Could you ...? → 수락·거절. ⑤ 단어 완성: 앞뒤 문맥과 남은 글자로 단어를 정합니다. ⑥ 일상 글 읽기: 질문의 숫자·요일·조건을 공지문에서 찾습니다. 아래 연습은 유형을 참고한 비공식 자체 연습이며 실제 문항 모양과 다를 수 있고 ETS 점수와 무관합니다.",
+    "common_mistake_ko": "Helps the librarian students find books.(X, 어순) → The librarian helps students find books.(O) / Send me the office hours.(교수에게 무례함) → Could you please tell me the office hours?(O) / 질문 Where ...?에 Yes로 답하기(X) → 장소로 답하기(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "discuss",
+     "part_of_speech": "동사",
+     "meaning_ko": "논의하다",
+     "example_en": "We discussed the topic in a small group.",
+     "example_ko": "우리는 작은 그룹에서 그 주제를 논의했어요."
+    },
+    {
+     "word": "request",
+     "part_of_speech": "명사/동사",
+     "meaning_ko": "요청 / 요청하다",
+     "example_en": "I would like to make a request.",
+     "example_ko": "요청을 하나 드리고 싶어요."
+    },
+    {
+     "word": "opinion",
+     "part_of_speech": "명사",
+     "meaning_ko": "의견",
+     "example_en": "In my opinion, schools should start later.",
+     "example_ko": "제 의견으로는 학교가 더 늦게 시작해야 해요."
+    },
+    {
+     "word": "suggest",
+     "part_of_speech": "동사",
+     "meaning_ko": "제안하다",
+     "example_en": "I suggest that we study together.",
+     "example_ko": "함께 공부하자고 제안해요."
+    },
+    {
+     "word": "available",
+     "part_of_speech": "형용사",
+     "meaning_ko": "이용할 수 있는, 시간이 되는",
+     "example_en": "Is the room available today?",
+     "example_ko": "그 방은 오늘 이용할 수 있나요?"
+    },
+    {
+     "word": "notice",
+     "part_of_speech": "명사",
+     "meaning_ko": "공지, 안내문",
+     "example_en": "Please read the notice on the door.",
+     "example_ko": "문에 붙은 안내문을 읽어 주세요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The librarian helps students find books.",
+     "ko": "사서는 학생들이 책을 찾는 것을 도와줘요."
+    },
+    {
+     "en": "Could you please tell me when the office hours are?",
+     "ko": "면담 시간이 언제인지 알려 주시겠어요?"
+    },
+    {
+     "en": "I am writing to ask about the schedule.",
+     "ko": "일정에 대해 문의하려고 이 글을 씁니다."
+    },
+    {
+     "en": "Thank you for your time. Best regards, Jisoo",
+     "ko": "시간 내 주셔서 감사합니다. 지수 드림"
+    },
+    {
+     "en": "In my opinion, phones can help students in class.",
+     "ko": "제 의견으로는 휴대전화가 수업에서 학생들에게 도움이 될 수 있어요."
+    },
+    {
+     "en": "One reason is that phones can distract students.",
+     "ko": "한 가지 이유는 휴대전화가 학생들의 집중을 방해할 수 있다는 것이에요."
+    },
+    {
+     "en": "For instance, students may read messages during the lesson.",
+     "ko": "예를 들어 학생들은 수업 중에 메시지를 읽을 수 있어요."
+    },
+    {
+     "en": "I agree with Ben that students need more breaks.",
+     "ko": "저는 학생들에게 더 많은 휴식이 필요하다는 벤의 말에 동의해요."
+    },
+    {
+     "en": "Question: Where can I return this book? Answer: At the desk by the entrance.",
+     "ko": "질문: 이 책을 어디에 반납할 수 있나요? 응답: 입구 옆 데스크에서요."
+    },
+    {
+     "en": "The pool is open from 7 a.m. to 9 p.m.",
+     "ko": "수영장은 오전 7시부터 오후 9시까지 열려 있어요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "F007-Q1",
+     "type": "single_choice",
+     "stem": "자연스러운 영어 문장은?",
+     "choices": [
+      "The librarian helps students find books.",
+      "Helps the librarian students books find.",
+      "Students the librarian find helps books.",
+      "Books helps the students librarian."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "주어(The librarian) + 동사(helps) + 목적어(students) 순서가 자연스럽습니다.",
+     "error_tag": "word-order"
+    },
+    {
+     "id": "F007-Q2",
+     "type": "single_choice",
+     "stem": "교수님께 정중하게 부탁하는 문장은?",
+     "choices": [
+      "Could you please tell me when the office hours are?",
+      "Tell me your office hours.",
+      "I need office hours now.",
+      "Office hours, what?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Could you please ...?는 정중한 요청 표현입니다.",
+     "error_tag": "email"
+    },
+    {
+     "id": "F007-Q3",
+     "type": "single_choice",
+     "stem": "질문: 'Should students use phones in class?' 이유를 덧붙이는 문장으로 가장 알맞은 것은?",
+     "choices": [
+      "One reason is that phones can distract students.",
+      "One reason phones distract.",
+      "Reason is phones that.",
+      "One reasons are phones distract."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "One reason is that + 주어 + 동사가 이유를 말하는 완전한 문장입니다.",
+     "error_tag": "discussion"
+    },
+    {
+     "id": "F007-Q4",
+     "type": "single_choice",
+     "stem": "질문: 'Where can I return this book?' 가장 알맞은 응답은?",
+     "choices": [
+      "At the desk by the entrance.",
+      "Yes, you can.",
+      "Last Monday.",
+      "Because it is heavy."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Where 질문에는 장소로 답합니다.",
+     "error_tag": "response"
+    },
+    {
+     "id": "F007-Q5",
+     "type": "typing",
+     "stem": "완성한 단어 전체를 쓰세요: The library offers a quiet pl___ to study.",
+     "answer_text": "place",
+     "accepted_answers": [
+      "place"
+     ],
+     "explanation_ko": "'조용한 공부할 장소'라는 문맥에 맞는 단어는 place입니다.",
+     "error_tag": "complete-words"
+    },
+    {
+     "id": "F007-Q6",
+     "type": "typing",
+     "stem": "공지문: 'The pool is open from 7 a.m. to 9 p.m. Children under ten must be with an adult.' 빈칸에 한 단어를 쓰세요: Children under ten must be with an ___.",
+     "answer_text": "adult",
+     "accepted_answers": [
+      "adult"
+     ],
+     "explanation_ko": "공지문에 must be with an adult라고 쓰여 있습니다.",
+     "error_tag": "read-daily-life"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "이번 주 유형 중 하나(이메일 요청, 토론 의견 등)를 골라 영어 문장을 한 개 써 보세요.",
+    "example_answer_en": "In my opinion, schools should have more art classes.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 비공식 연습이며 ETS 점수와 무관합니다."
+   },
+   "publish_date": "2026-10-18",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-18"
+   }
   }
  ]
 }
