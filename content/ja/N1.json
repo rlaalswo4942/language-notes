@@ -2752,6 +2752,222 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-14",
+   "day_index": 14,
+   "week_index": 2,
+   "level": "N1",
+   "unit_id": "N1-W02",
+   "lesson_type": "checkpoint",
+   "title_ko": "2주 점검: 지역 축제의 위기",
+   "objective_ko": "N1 둘째 주 문형(〜を禁じ得ない・〜といえども・〜をよそに・〜が早いか・〜てやまない)을 지역 축제에 관한 글 속에서 종합 점검한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-13"
+   ],
+   "explanation_ko": "2주 차에 배운 〜を禁じ得ない(~을 금할 수 없다), 〜といえども(~라 해도), 〜をよそに(~을 아랑곳하지 않고), 〜が早いか(~하자마자), 〜てやまない(한없이 ~하다)를 지역 축제에 관한 짧은 글 속에서 다시 확인합니다.",
+   "usage_notes": [
+    "〜を禁じ得ない는 驚き・憤り・同情처럼 감정을 나타내는 말과 함께 쓰는 문어체 표현입니다.",
+    "〜が早いか는 동사 사전형에 붙어 ‘~하자마자’를 나타내며, 뒤에는 이어서 일어난 동작이 옵니다.",
+    "〜てやまない는 願う・期待する・思う 같은 마음을 나타내는 동사에 붙습니다."
+   ],
+   "common_mistakes": [
+    "鳴ったが早いか(X) → 鳴るが早いか(O): 〜が早いか는 사전형에 붙습니다.",
+    "願うてやまない(X) → 願ってやまない(O): て형은 願って입니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N1-14-01",
+     "kind": "word",
+     "text": "衰退{すいたい}",
+     "reading_kana": "すいたい",
+     "reading_romanized": "suitai",
+     "meaning_ko": "쇠퇴",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N1-14-02",
+     "kind": "word",
+     "text": "存続{そんぞく}",
+     "reading_kana": "そんぞく",
+     "reading_romanized": "sonzoku",
+     "meaning_ko": "존속",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N1-14-03",
+     "kind": "word",
+     "text": "担{にな}い手{て}",
+     "reading_kana": "にないて",
+     "reading_romanized": "ninaite",
+     "meaning_ko": "담당자, 짊어질 사람",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-14-04",
+     "kind": "word",
+     "text": "危機{きき}",
+     "reading_kana": "きき",
+     "reading_romanized": "kiki",
+     "meaning_ko": "위기",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-14-05",
+     "kind": "word",
+     "text": "賑{にぎ}わい",
+     "reading_kana": "にぎわい",
+     "reading_romanized": "nigiwai",
+     "meaning_ko": "북적임, 번화함",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-14-06",
+     "kind": "word",
+     "text": "行事{ぎょうじ}",
+     "reading_kana": "ぎょうじ",
+     "reading_romanized": "gyouji",
+     "meaning_ko": "행사",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "地方{ちほう}の祭{まつ}りは担{にな}い手{て}不足{ぶそく}により、存続{そんぞく}の危機{きき}に直面{ちょくめん}している。",
+     "meaning_ko": "지방의 축제는 일손 부족으로 존속의 위기에 직면해 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "行事{ぎょうじ}が次々{つぎつぎ}と中止{ちゅうし}になる現状{げんじょう}には、驚{おどろ}きを禁{きん}じ得{え}ない。",
+     "meaning_ko": "행사가 잇따라 중지되는 현재 상황에는 놀라움을 금할 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "伝統{でんとう}ある行事{ぎょうじ}といえども、担{にな}い手{て}がいなければ続{つづ}けられない。",
+     "meaning_ko": "전통 있는 행사라 해도 담당자가 없으면 계속할 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "周囲{しゅうい}の心配{しんぱい}をよそに、若{わか}い職人{しょくにん}は新{あたら}しい祭{まつ}りを始{はじ}めた。",
+     "meaning_ko": "주위의 걱정을 아랑곳하지 않고 젊은 장인은 새 축제를 시작했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "開会{かいかい}の合図{あいず}が鳴{な}るが早{はや}いか、人々{ひとびと}は屋台{やたい}に駆{か}け寄{よ}った。",
+     "meaning_ko": "개막 신호가 울리자마자 사람들은 포장마차로 달려갔다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "祭{まつ}りが末永{すえなが}く続{つづ}くことを願{ねが}ってやまない。",
+     "meaning_ko": "축제가 오래도록 이어지기를 한없이 바란다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "地元{じもと}の若者{わかもの}が行事{ぎょうじ}に参加{さんか}することが、存続{そんぞく}の鍵{かぎ}となる。",
+     "meaning_ko": "지역 청년들이 행사에 참여하는 것이 존속의 열쇠가 된다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "雨天{うてん}のため、今年{ことし}の行事{ぎょうじ}は中止{ちゅうし}を余儀{よぎ}なくされた。",
+     "meaning_ko": "우천 때문에 올해 행사는 어쩔 수 없이 중지되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "かつての賑{にぎ}わいを知{し}る者{もの}には、衰退{すいたい}の様子{ようす}が痛々{いたいた}しく見{み}える。",
+     "meaning_ko": "옛 북적임을 아는 사람에게는 쇠퇴한 모습이 안쓰럽게 보인다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N1-14-Q1",
+     "type": "single_choice",
+     "prompt_ko": "周囲の心配（　）、若い職人は新しい祭りを始めた。",
+     "options": [
+      "をよそに",
+      "といえども",
+      "てやまない",
+      "が早いか"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "걱정을 아랑곳하지 않고 행동했다는 뜻이므로 〜をよそに입니다."
+    },
+    {
+     "id": "JP-N1-14-Q2",
+     "type": "single_choice",
+     "prompt_ko": "開会の合図が鳴る（　）、人々は屋台に駆け寄った。",
+     "options": [
+      "が早いか",
+      "といえども",
+      "をよそに",
+      "を禁じ得ない"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "신호가 울리자마자 이어서 일어난 동작이므로 〜が早いか(~하자마자)입니다."
+    },
+    {
+     "id": "JP-N1-14-Q3",
+     "type": "single_choice",
+     "prompt_ko": "伝統ある行事（　）、担い手がいなければ続けられない。",
+     "options": [
+      "といえども",
+      "が早いか",
+      "をよそに",
+      "てやまない"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘전통이 있다 해도’라는 양보의 뜻이므로 〜といえども입니다."
+    },
+    {
+     "id": "JP-N1-14-Q4",
+     "type": "single_choice",
+     "prompt_ko": "祭りが末永く続くことを願って（　）。",
+     "options": [
+      "やまない",
+      "いえども",
+      "よそに",
+      "得ない"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "願う + て + やまない는 ‘한없이 바란다’입니다."
+    },
+    {
+     "id": "JP-N1-14-Q5",
+     "type": "typing",
+     "prompt_ko": "「存続」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "sonzoku",
+     "accepted_answers": [
+      "sonzoku"
+     ],
+     "explanation_ko": "存続 = そんぞく (sonzoku)"
+    },
+    {
+     "id": "JP-N1-14-Q6",
+     "type": "typing",
+     "prompt_ko": "「行事」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "gyouji",
+     "accepted_answers": [
+      "gyouji",
+      "gyoji"
+     ],
+     "explanation_ko": "行事 = ぎょうじ (gyouji)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "JLPT_FORMAT"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

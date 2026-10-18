@@ -1276,6 +1276,198 @@
     "version": 1,
     "last_revised": "2026-10-18"
    }
+  },
+  {
+   "id": "TOEFL-008",
+   "level": "B1",
+   "track": "toefl",
+   "day": 8,
+   "title_ko": "TOEFL 2026 Listen to a Conversation 입문: 캠퍼스 대화의 목적과 해결책 찾기",
+   "objective_ko": "짧은 캠퍼스 대화에서 대화의 목적, 문제, 제안된 해결책, 세부 정보를 구별해서 찾는다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/content/ets-org/language-master/ko/home/toefl/test-takers/ibt/about/content.html",
+     "publisher": "ETS",
+     "checked_at": "2026-10-19",
+     "supports": "2026 형식 유형명"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "2026-01-21 이후 TOEFL iBT Listening에는 Listen to a Conversation 유형이 안내되어 있습니다(공식 안내 유형명). 학생과 직원·교수의 대화를 듣고 질문에 답하는 유형입니다. 이 사이트는 소리가 없으므로 아래는 대화문을 글로 읽는 비공식 자체 연습입니다. 대화를 들을 때는 네 가지를 차례로 찾습니다. ① 목적: 학생이 왜 찾아왔는가. ② 문제: 무엇이 안 되거나 불편한가. ③ 해결책: 상대가 무엇을 제안했는가. ④ 세부 정보: 시간, 요일, 비용, 다음 행동. 대화에서 들은 단어만 보고 고르지 말고 질문이 묻는 것이 목적인지 문제인지 해결책인지 먼저 구별하세요.",
+    "common_mistake_ko": "대화에 나온 단어가 들어 있다는 이유만으로 보기를 고르는 실수 → 질문이 묻는 것(목적·이유·제안·세부 정보)과 맞는지 확인합니다. / 목적과 이유를 같은 것으로 생각하는 실수 → 목적은 찾아온 까닭, 이유는 세부적인 불만입니다."
+   },
+   "vocabulary": [
+    {
+     "word": "conversation",
+     "part_of_speech": "명사",
+     "meaning_ko": "대화",
+     "example_en": "Listen to the conversation.",
+     "example_ko": "대화를 들으세요."
+    },
+    {
+     "word": "advisor",
+     "part_of_speech": "명사",
+     "meaning_ko": "지도 교수, 상담 담당자",
+     "example_en": "The advisor helps students choose classes.",
+     "example_ko": "상담 담당자가 학생들의 수업 선택을 도와줘요."
+    },
+    {
+     "word": "problem",
+     "part_of_speech": "명사",
+     "meaning_ko": "문제",
+     "example_en": "What is the student's problem?",
+     "example_ko": "학생의 문제는 무엇인가요?"
+    },
+    {
+     "word": "solution",
+     "part_of_speech": "명사",
+     "meaning_ko": "해결책",
+     "example_en": "The advisor offers a solution.",
+     "example_ko": "상담 담당자가 해결책을 제안해요."
+    },
+    {
+     "word": "appointment",
+     "part_of_speech": "명사",
+     "meaning_ko": "면담 약속, 예약",
+     "example_en": "I have an appointment with my advisor.",
+     "example_ko": "저는 상담 담당자와 면담 약속이 있어요."
+    },
+    {
+     "word": "fee",
+     "part_of_speech": "명사",
+     "meaning_ko": "수수료, 요금",
+     "example_en": "There is no fee for this change.",
+     "example_ko": "이 변경에는 수수료가 없어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The student wants to change a class schedule.",
+     "ko": "학생은 수업 시간표를 바꾸고 싶어 해요."
+    },
+    {
+     "en": "The online form isn't working.",
+     "ko": "온라인 양식이 작동하지 않아요."
+    },
+    {
+     "en": "Biology 101 starts at 8 a.m.",
+     "ko": "생물학 101은 오전 8시에 시작해요."
+    },
+    {
+     "en": "The student cannot wake up that early.",
+     "ko": "학생은 그렇게 일찍 일어날 수 없어요."
+    },
+    {
+     "en": "The advisor suggests the afternoon section.",
+     "ko": "상담 담당자는 오후반을 제안해요."
+    },
+    {
+     "en": "The afternoon section meets on Tuesdays and Thursdays at 2 p.m.",
+     "ko": "오후반은 화요일과 목요일 오후 2시에 수업해요."
+    },
+    {
+     "en": "There's no fee if the student changes this week.",
+     "ko": "이번 주에 바꾸면 수수료가 없어요."
+    },
+    {
+     "en": "The advisor says to check the email for confirmation.",
+     "ko": "상담 담당자는 확인 이메일을 보라고 말해요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "대화(글로 읽는 연습): 'Student: Hi, I need to change my class schedule, but the online form isn't working. Advisor: I see. Which class do you want to drop? Student: Biology 101. It starts at 8 a.m., and I can't wake up that early. Advisor: You can still switch to the afternoon section. It meets on Tuesdays and Thursdays at 2 p.m. There's no fee if you change this week. Student: That works for me. Advisor: Okay, I'll make the change now. Please check your email for confirmation.' 질문: Why is the student talking to the advisor?",
+     "choices": [
+      "To change a class schedule",
+      "To pay a library fee",
+      "To ask about a job",
+      "To return a book"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "학생이 첫 말에서 수업 시간표를 바꿔야 한다고 말했으므로 대화의 목적은 시간표 변경입니다.",
+     "error_tag": "purpose",
+     "id": "F008-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "대화(글로 읽는 연습): 'Student: Hi, I need to change my class schedule, but the online form isn't working. Advisor: I see. Which class do you want to drop? Student: Biology 101. It starts at 8 a.m., and I can't wake up that early. Advisor: You can still switch to the afternoon section. It meets on Tuesdays and Thursdays at 2 p.m. There's no fee if you change this week. Student: That works for me. Advisor: Okay, I'll make the change now. Please check your email for confirmation.' 질문: Why does the student want to leave the morning section?",
+     "choices": [
+      "The class starts too early.",
+      "The class is too expensive.",
+      "The professor is strict.",
+      "The room is far away."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "학생이 오전 8시에 시작해서 그렇게 일찍 일어날 수 없다고 말했습니다.",
+     "error_tag": "detail",
+     "id": "F008-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "대화(글로 읽는 연습): 'Student: Hi, I need to change my class schedule, but the online form isn't working. Advisor: I see. Which class do you want to drop? Student: Biology 101. It starts at 8 a.m., and I can't wake up that early. Advisor: You can still switch to the afternoon section. It meets on Tuesdays and Thursdays at 2 p.m. There's no fee if you change this week. Student: That works for me. Advisor: Okay, I'll make the change now. Please check your email for confirmation.' 질문: What does the advisor suggest?",
+     "choices": [
+      "Switching to the afternoon section",
+      "Dropping all classes",
+      "Waiting until next semester",
+      "Paying a fee"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "상담 담당자는 오후반으로 바꿀 수 있다고 제안했습니다.",
+     "error_tag": "solution",
+     "id": "F008-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "대화(글로 읽는 연습): 'Student: Hi, I need to change my class schedule, but the online form isn't working. Advisor: I see. Which class do you want to drop? Student: Biology 101. It starts at 8 a.m., and I can't wake up that early. Advisor: You can still switch to the afternoon section. It meets on Tuesdays and Thursdays at 2 p.m. There's no fee if you change this week. Student: That works for me. Advisor: Okay, I'll make the change now. Please check your email for confirmation.' 질문: When does the afternoon section meet?",
+     "choices": [
+      "Tuesdays and Thursdays at 2 p.m.",
+      "Mondays at 8 a.m.",
+      "Fridays at 2 p.m.",
+      "Every day at noon"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "오후반은 화요일과 목요일 오후 2시에 수업합니다.",
+     "error_tag": "detail",
+     "id": "F008-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "대화: 'Student: Hi, I need to change my class schedule, but the online form isn't working. Advisor: I see. Which class do you want to drop? Student: Biology 101. It starts at 8 a.m., and I can't wake up that early. Advisor: You can still switch to the afternoon section. It meets on Tuesdays and Thursdays at 2 p.m. There's no fee if you change this week. Student: That works for me. Advisor: Okay, I'll make the change now. Please check your email for confirmation.' 빈칸에 한 단어를 쓰세요: There is no ___ if you change this week. (수수료)",
+     "answer_text": "fee",
+     "accepted_answers": [
+      "fee"
+     ],
+     "explanation_ko": "대화에서 There's no fee if you change this week.라고 말했습니다.",
+     "error_tag": "detail",
+     "id": "F008-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "대화: 'Student: Hi, I need to change my class schedule, but the online form isn't working. Advisor: I see. Which class do you want to drop? Student: Biology 101. It starts at 8 a.m., and I can't wake up that early. Advisor: You can still switch to the afternoon section. It meets on Tuesdays and Thursdays at 2 p.m. There's no fee if you change this week. Student: That works for me. Advisor: Okay, I'll make the change now. Please check your email for confirmation.' 빈칸에 숫자를 쓰세요: Biology 101 starts at ___ a.m.",
+     "answer_text": "8",
+     "accepted_answers": [
+      "8",
+      "eight"
+     ],
+     "explanation_ko": "대화에서 It starts at 8 a.m.이라고 말했습니다.",
+     "error_tag": "detail",
+     "id": "F008-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "학생과 상담 담당자 사이에 일어날 수 있는 문제 하나와 해결책 하나를 영어 문장 두 개로 써 보세요.",
+    "example_answer_en": "The student cannot find a class. The advisor suggests another section.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 문제와 해결책이 구별되는지 확인하세요. 비공식 연습이며 ETS 점수와 무관합니다."
+   },
+   "publish_date": "2026-10-19",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-19"
+   }
   }
  ]
 }

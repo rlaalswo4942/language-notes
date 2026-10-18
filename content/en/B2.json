@@ -2522,6 +2522,205 @@
     "version": 1,
     "last_revised": "2026-10-18"
    }
+  },
+  {
+   "id": "B2-014",
+   "level": "B2",
+   "track": "general",
+   "day": 14,
+   "title_ko": "2주 복습: 가정법·wish·사역·혼합 조건·보고화법",
+   "objective_ko": "8~13일차에 배운 가정법 과거완료, wish / If only, 사역 구문, 혼합 조건문, 보고화법, 보고 동사 패턴을 섞어서 다시 확인한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-19",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "이번 주에 배운 여섯 가지를 한 번에 복습합니다. ① 과거 사실의 반대: If + 과거완료, would have + 과거분사: If I had known, I would have come. ② 현재의 아쉬움: I wish + 과거형: I wish I had more time. 과거의 후회: If only + 과거완료: If only I had listened! ③ 남이 해 주는 일: have + 목적어 + 과거분사: I had my car repaired. ④ 혼합 조건문: If + 과거완료, would + 동사원형(과거의 원인이 지금의 결과): If I had studied harder, I would be a doctor now. ⑤ 보고화법은 시제를 한 단계 과거로: She said that she had received the invitation. ⑥ 보고 동사 패턴: refuse to, deny -ing, advise sb to.",
+    "common_mistake_ko": "If I knew about the party, I would have come.(X) → If I had known ...(O) / I wish I have more time.(X) → I wish I had more time.(O) / He denied to break the window.(X) → He denied breaking the window.(O) / She refused forgiving him.(X) → She refused to forgive him.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "recommend",
+     "part_of_speech": "동사",
+     "meaning_ko": "추천하다",
+     "example_en": "Can you recommend a good tutor?",
+     "example_ko": "좋은 개인 교사를 추천해 줄 수 있나요?"
+    },
+    {
+     "word": "invitation",
+     "part_of_speech": "명사",
+     "meaning_ko": "초대(장)",
+     "example_en": "I received an invitation to the wedding.",
+     "example_ko": "저는 결혼식 초대장을 받았어요."
+    },
+    {
+     "word": "tutor",
+     "part_of_speech": "명사",
+     "meaning_ko": "개인 교사",
+     "example_en": "My tutor helps me with English.",
+     "example_ko": "제 개인 교사가 영어를 도와줘요."
+    },
+    {
+     "word": "forgive",
+     "part_of_speech": "동사",
+     "meaning_ko": "용서하다",
+     "example_en": "Please forgive me for being late.",
+     "example_ko": "늦은 것을 용서해 주세요."
+    },
+    {
+     "word": "deserve",
+     "part_of_speech": "동사",
+     "meaning_ko": "~할 자격이 있다",
+     "example_en": "You deserve a long holiday.",
+     "example_ko": "당신은 긴 휴가를 누릴 자격이 있어요."
+    },
+    {
+     "word": "overcome",
+     "part_of_speech": "동사",
+     "meaning_ko": "극복하다",
+     "example_en": "She overcame many difficulties.",
+     "example_ko": "그녀는 많은 어려움을 극복했어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "If I had known about the party, I would have come.",
+     "ko": "파티에 대해 알았더라면 갔을 텐데요."
+    },
+    {
+     "en": "I wish I had more free time.",
+     "ko": "시간이 더 있으면 좋겠어요."
+    },
+    {
+     "en": "If only I had listened to my tutor!",
+     "ko": "개인 교사의 말을 들었더라면 좋았을 텐데!"
+    },
+    {
+     "en": "I had my car repaired last week.",
+     "ko": "저는 지난주에 차를 수리받았어요."
+    },
+    {
+     "en": "If I had studied harder, I would be a doctor now.",
+     "ko": "더 열심히 공부했다면 지금 의사일 텐데요."
+    },
+    {
+     "en": "She said that she had received the invitation.",
+     "ko": "그녀는 초대장을 받았다고 말했어요."
+    },
+    {
+     "en": "He asked me if I could recommend a good tutor.",
+     "ko": "그는 내가 좋은 개인 교사를 추천해 줄 수 있는지 물었어요."
+    },
+    {
+     "en": "The manager advised us to overcome the problem step by step.",
+     "ko": "매니저는 우리에게 문제를 한 단계씩 극복하라고 조언했어요."
+    },
+    {
+     "en": "She refused to forgive him.",
+     "ko": "그녀는 그를 용서하기를 거부했어요."
+    },
+    {
+     "en": "He denied breaking the window.",
+     "ko": "그는 창문을 깼다는 것을 부인했어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "If I ___ about the party, I would have come.",
+     "choices": [
+      "had known",
+      "knew",
+      "have known",
+      "would know"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "과거 사실의 반대를 말하는 가정법 과거완료이므로 if절에 had known을 씁니다.",
+     "error_tag": "third-conditional",
+     "id": "B2-014-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "I wish I ___ more free time. (지금 시간이 부족하다)",
+     "choices": [
+      "had",
+      "have",
+      "would have",
+      "had had"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "현재의 아쉬움은 wish + 과거형입니다.",
+     "error_tag": "wish",
+     "id": "B2-014-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "I ___ my car repaired last week.",
+     "choices": [
+      "had",
+      "made",
+      "did",
+      "was"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "남이 해 주는 일은 have + 목적어 + 과거분사이며, 과거이므로 had입니다.",
+     "error_tag": "causative",
+     "id": "B2-014-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "She said, \"I received the invitation.\" → She said that she ___ the invitation.",
+     "choices": [
+      "had received",
+      "has received",
+      "receives",
+      "will receive"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "보고화법에서는 시제를 한 단계 과거로 옮기므로 단순과거 received가 had received가 됩니다.",
+     "error_tag": "reported-speech",
+     "id": "B2-014-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요(-ing형): He denied ___ the window. (break)",
+     "answer_text": "breaking",
+     "accepted_answers": [
+      "breaking"
+     ],
+     "explanation_ko": "deny 뒤에는 동명사(-ing)가 옵니다.",
+     "error_tag": "reporting-verb",
+     "id": "B2-014-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: She refused ___ forgive him.",
+     "answer_text": "to",
+     "accepted_answers": [
+      "to"
+     ],
+     "explanation_ko": "refuse 뒤에는 to부정사가 옵니다.",
+     "error_tag": "reporting-verb",
+     "id": "B2-014-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "이번 주에 배운 표현 중 두 가지를 골라, 과거에 대한 아쉬움이나 남에게 맡긴 일을 영어 문장 두 개로 써 보세요.",
+    "example_answer_en": "I wish I had more time. I had my hair cut yesterday.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-19",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-19"
+   }
   }
  ]
 }

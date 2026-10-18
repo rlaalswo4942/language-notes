@@ -2757,6 +2757,221 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-14",
+   "day_index": 14,
+   "week_index": 2,
+   "level": "N4",
+   "unit_id": "N4-W02",
+   "lesson_type": "checkpoint",
+   "title_ko": "2주 점검: 여행 계획 회화",
+   "objective_ko": "N4 둘째 주 문형(비교·〜たほうがいい・〜つもり・〜てから/前に・〜と思います)을 여행 계획 속에서 종합 점검한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-13"
+   ],
+   "explanation_ko": "2주 차에 배운 비교(〜より・いちばん), 충고(〜たほうがいい・〜ないほうがいい), 의도(〜つもりです), 순서(〜てから・〜前に), 생각(〜と思います)을 여행 계획 이야기 속에서 다시 확인합니다.",
+   "usage_notes": [
+    "〜たほうがいい는 동사 た형, 부정은 ない형 + ほうがいい입니다. 荷物が 多いですから、タクシーに 乗ったほうがいいです.",
+    "〜てから는 앞의 일을 하고 난 뒤, 〜前に는 아직 하지 않은 일을 하기 전(동사 사전형 + 前に)입니다.",
+    "泊まる는 ‘묵다, 숙박하다’이고 장소 + に 泊まる로 씁니다."
+   ],
+   "common_mistakes": [
+    "旅館に 泊まったつもりです(X) → 旅館に 泊まるつもりです(O): 앞으로의 의도는 사전형 + つもりです.",
+    "行く 前に 薬を 買って(X) → 行く 前に 薬を 買います(O): 〜前に 앞은 사전형입니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N4-14-01",
+     "kind": "word",
+     "text": "予定{よてい}",
+     "reading_kana": "よてい",
+     "reading_romanized": "yotei",
+     "meaning_ko": "예정, 계획",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-14-02",
+     "kind": "word",
+     "text": "荷物{にもつ}",
+     "reading_kana": "にもつ",
+     "reading_romanized": "nimotsu",
+     "meaning_ko": "짐",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-14-03",
+     "kind": "word",
+     "text": "帰{かえ}る",
+     "reading_kana": "かえる",
+     "reading_romanized": "kaeru",
+     "meaning_ko": "돌아가다, 돌아오다",
+     "part_of_speech": "동사(1그룹)"
+    },
+    {
+     "id": "w-JP-N4-14-04",
+     "kind": "word",
+     "text": "乗{の}る",
+     "reading_kana": "のる",
+     "reading_romanized": "noru",
+     "meaning_ko": "타다",
+     "part_of_speech": "동사(1그룹)"
+    },
+    {
+     "id": "w-JP-N4-14-05",
+     "kind": "word",
+     "text": "泊{と}まる",
+     "reading_kana": "とまる",
+     "reading_romanized": "tomaru",
+     "meaning_ko": "묵다, 숙박하다",
+     "part_of_speech": "동사(1그룹)"
+    },
+    {
+     "id": "w-JP-N4-14-06",
+     "kind": "word",
+     "text": "楽{たの}しみ",
+     "reading_kana": "たのしみ",
+     "reading_romanized": "tanoshimi",
+     "meaning_ko": "기대, 즐거움",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "電車{でんしゃ}は バスより 速{はや}いと 思{おも}います。",
+     "meaning_ko": "전철은 버스보다 빠르다고 생각합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "来週{らいしゅう}の 予定{よてい}は まだ ありません。",
+     "meaning_ko": "다음 주 예정은 아직 없습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "旅行{りょこう}に 行{い}く 前{まえ}に、薬{くすり}を 買{か}います。",
+     "meaning_ko": "여행을 가기 전에 약을 삽니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "荷物{にもつ}が 多{おお}いですから、タクシーに 乗{の}ったほうがいいです。",
+     "meaning_ko": "짐이 많으니까 택시를 타는 편이 좋습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "旅館{りょかん}に 着{つ}いてから、温泉{おんせん}に 入{はい}ります。",
+     "meaning_ko": "여관에 도착하고 나서 온천에 들어갑니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "私{わたし}は 日曜日{にちようび}に 家{いえ}へ 帰{かえ}るつもりです。",
+     "meaning_ko": "저는 일요일에 집에 돌아갈 생각입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "旅行{りょこう}が 楽{たの}しみです。",
+     "meaning_ko": "여행이 기대됩니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "富士山{ふじさん}は 日本{にほん}で いちばん 高{たか}い 山{やま}です。",
+     "meaning_ko": "후지산은 일본에서 가장 높은 산입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "風邪{かぜ}ですから、温泉{おんせん}に 入{はい}らないほうがいいです。",
+     "meaning_ko": "감기니까 온천에 들어가지 않는 편이 좋습니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N4-14-Q1",
+     "type": "single_choice",
+     "prompt_ko": "電車は バス（　）速いと 思います。(전철은 버스보다 빠르다고 생각합니다.)",
+     "options": [
+      "より",
+      "まで",
+      "から",
+      "にも"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "비교의 기준은 〜より(~보다)로 나타냅니다."
+    },
+    {
+     "id": "JP-N4-14-Q2",
+     "type": "single_choice",
+     "prompt_ko": "荷物が 多いですから、タクシーに 乗った（　）いいです。",
+     "options": [
+      "ほうが",
+      "より",
+      "ながら",
+      "つもり"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "충고는 동사 た형 + ほうがいいです입니다. 乗る(のる) = 타다."
+    },
+    {
+     "id": "JP-N4-14-Q3",
+     "type": "single_choice",
+     "prompt_ko": "旅館に 着いて（　）、温泉に 入ります。(도착하고 나서)",
+     "options": [
+      "から",
+      "前に",
+      "ながら",
+      "より"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘~하고 나서’는 て형 + から입니다. 前に는 사전형 뒤에 붙습니다."
+    },
+    {
+     "id": "JP-N4-14-Q4",
+     "type": "single_choice",
+     "prompt_ko": "‘일요일에 집에 돌아갈 생각입니다’를 바르게 나타낸 것은?",
+     "options": [
+      "日曜日に 家へ 帰るつもりです。",
+      "日曜日に 家へ 帰りましたつもりです。",
+      "日曜日に 家へ 帰るでしょうです。",
+      "日曜日に 家へ 帰りながらです。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "앞으로의 의도는 동사 사전형 + つもりです입니다. 帰る = かえる(돌아가다)."
+    },
+    {
+     "id": "JP-N4-14-Q5",
+     "type": "typing",
+     "prompt_ko": "「荷物」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "nimotsu",
+     "accepted_answers": [
+      "nimotsu"
+     ],
+     "explanation_ko": "荷物 = にもつ (nimotsu)"
+    },
+    {
+     "id": "JP-N4-14-Q6",
+     "type": "typing",
+     "prompt_ko": "「予定」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "yotei",
+     "accepted_answers": [
+      "yotei"
+     ],
+     "explanation_ko": "予定 = よてい (yotei)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

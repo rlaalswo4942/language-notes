@@ -2902,6 +2902,211 @@
     "version": 1,
     "last_revised": "2026-10-18"
    }
+  },
+  {
+   "id": "PRE-020",
+   "level": "Pre-A1",
+   "track": "foundation",
+   "day": 20,
+   "title_ko": "짧은 생활 대화: 인사와 일상 질문",
+   "objective_ko": "만났을 때 인사하고, 이름과 좋아하는 것을 묻고 답하는 짧은 대화를 한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-19",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "지금까지 배운 be동사와 do 의문문으로 짧은 대화를 이어 갑니다. ① 안부: How are you?(잘 지내요?) → I am fine, thanks. And you?(잘 지내요, 고마워요. 당신은요?) ② 이름: What is your name?(이름이 뭐예요?) → My name is Mina.(제 이름은 미나예요.) ③ be동사 질문에는 be동사로 답합니다: Are you a student? → Yes, I am. / No, I am not. ④ do 질문에는 do로 답합니다: Do you like coffee? → Yes, I do. / No, I don't. 질문에 쓴 동사(are/do)를 대답에서도 같게 쓰면 틀리지 않습니다. 아침 인사는 Good morning., 부탁은 Please ..., 사과는 Sorry.",
+    "common_mistake_ko": "Are you a student? — Yes, I do.(X) → Yes, I am.(O) / Do you like coffee? — Yes, I am.(X) → Yes, I do.(O) / What your name?(X) → What is your name?(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "hello",
+     "part_of_speech": "감탄사",
+     "meaning_ko": "안녕하세요",
+     "example_en": "Hello! How are you?",
+     "example_ko": "안녕하세요! 잘 지내세요?"
+    },
+    {
+     "word": "morning",
+     "part_of_speech": "명사",
+     "meaning_ko": "아침",
+     "example_en": "Good morning, Mina.",
+     "example_ko": "좋은 아침이에요, 미나."
+    },
+    {
+     "word": "fine",
+     "part_of_speech": "형용사",
+     "meaning_ko": "잘 지내는, 괜찮은",
+     "example_en": "I am fine, thanks.",
+     "example_ko": "잘 지내요, 고마워요."
+    },
+    {
+     "word": "thanks",
+     "part_of_speech": "감탄사",
+     "meaning_ko": "고마워요",
+     "example_en": "Thanks for the coffee.",
+     "example_ko": "커피 고마워요."
+    },
+    {
+     "word": "please",
+     "part_of_speech": "부사",
+     "meaning_ko": "부탁합니다, ~해 주세요",
+     "example_en": "Please sit here.",
+     "example_ko": "여기 앉아 주세요."
+    },
+    {
+     "word": "sorry",
+     "part_of_speech": "형용사",
+     "meaning_ko": "미안한",
+     "example_en": "Sorry, I am late.",
+     "example_ko": "미안해요, 늦었어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Hello! How are you?",
+     "ko": "안녕하세요! 잘 지내세요?"
+    },
+    {
+     "en": "I am fine, thanks. And you?",
+     "ko": "잘 지내요, 고마워요. 당신은요?"
+    },
+    {
+     "en": "Good morning. I am Tom.",
+     "ko": "좋은 아침이에요. 저는 톰이에요."
+    },
+    {
+     "en": "What is your name?",
+     "ko": "이름이 뭐예요?"
+    },
+    {
+     "en": "My name is Mina.",
+     "ko": "제 이름은 미나예요."
+    },
+    {
+     "en": "Are you a student?",
+     "ko": "학생이에요?"
+    },
+    {
+     "en": "Yes, I am. I study English.",
+     "ko": "네, 맞아요. 저는 영어를 공부해요."
+    },
+    {
+     "en": "Do you like coffee?",
+     "ko": "커피를 좋아해요?"
+    },
+    {
+     "en": "No, I don't. I like milk.",
+     "ko": "아니요, 안 좋아해요. 저는 우유를 좋아해요."
+    },
+    {
+     "en": "Sorry, I am late.",
+     "ko": "미안해요, 늦었어요."
+    },
+    {
+     "en": "Please come in.",
+     "ko": "들어오세요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "\"Hello! How are you?\"에 알맞은 대답은?",
+     "choices": [
+      "I am fine, thanks.",
+      "My name is Tom.",
+      "Yes, I do.",
+      "It is a pen."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "How are you?는 안부를 묻는 말이므로 I am fine, thanks.로 답합니다.",
+     "error_tag": "greeting",
+     "id": "P020-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "\"What is your name?\"에 알맞은 대답은?",
+     "choices": [
+      "My name is Mina.",
+      "I am fine.",
+      "Yes, I am.",
+      "I like coffee."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "이름을 물었으므로 My name is ...로 답합니다.",
+     "error_tag": "greeting",
+     "id": "P020-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "\"Are you a student?\"에 \"아니요, 학생이 아니에요\"라고 답하는 말은?",
+     "choices": [
+      "No, I'm not.",
+      "No, I don't.",
+      "No, I no.",
+      "No, I isn't."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "be동사(Are) 질문에는 be동사로 답합니다. No, I am not. = No, I'm not.",
+     "error_tag": "short-answer",
+     "id": "P020-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "아침에 만났을 때 하는 인사는?",
+     "choices": [
+      "Good morning.",
+      "Good night.",
+      "Goodbye.",
+      "Thank you."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Good morning.은 아침 인사입니다. Good night.은 밤 인사, Goodbye.는 헤어질 때, Thank you.는 고마움을 말할 때 씁니다.",
+     "error_tag": "greeting",
+     "id": "P020-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 말을 쓰세요: Do you like coffee? — No, I ___.",
+     "answer_text": "don't",
+     "accepted_answers": [
+      "don't",
+      "do not",
+      "dont"
+     ],
+     "explanation_ko": "do 질문에는 do로 답하므로 No, I don't.입니다.",
+     "error_tag": "short-answer",
+     "id": "P020-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: What ___ your name?",
+     "answer_text": "is",
+     "accepted_answers": [
+      "is"
+     ],
+     "explanation_ko": "your name은 단수이므로 What is your name?입니다.",
+     "error_tag": "be-verb",
+     "id": "P020-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "인사하고 이름과 좋아하는 것을 말하는 짧은 대화를 두세 문장으로 써 보세요.",
+    "example_answer_en": "Hello! My name is Jun. I like music. Do you like music?",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-19",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-19"
+   }
   }
  ]
 }

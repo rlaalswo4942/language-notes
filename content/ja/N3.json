@@ -2759,6 +2759,226 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N3-14",
+   "day_index": 14,
+   "week_index": 2,
+   "level": "N3",
+   "unit_id": "N3-W02",
+   "lesson_type": "checkpoint",
+   "title_ko": "2주 점검: 생활 습관 이야기",
+   "objective_ko": "N3 둘째 주 문형(〜ことにする/〜ことになる・〜ところだ・〜うちに・〜ばかり・〜たびに)을 생활 습관 이야기 속에서 종합 점검한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N3-13"
+   ],
+   "explanation_ko": "2주 차에 배운 〜ことにする(스스로 정함)/〜ことになる(그렇게 정해짐), 〜ところだ(동작의 단계), 〜うちに(~하는 동안에), 〜ばかり(~만 하고 있다), 〜たびに(~할 때마다)를 생활 습관에 관한 짧은 글 속에서 다시 확인합니다.",
+   "usage_notes": [
+    "〜ことにする는 자신이 정하는 것, 〜ことになる는 회사나 주변의 사정으로 정해지는 것입니다.",
+    "〜うちに는 ‘그 상태가 계속되는 동안에’이고, 〜たびに는 ‘~할 때마다 반복해서’입니다. 문장의 뜻에 따라 구별합니다.",
+    "気をつける는 ‘조심하다, 신경 쓰다’이고 〜に 気をつける 꼴로 씁니다."
+   ],
+   "common_mistakes": [
+    "来月から大阪で働くことにした(X: 회사의 결정일 때) → 働くことになった(O)",
+    "休みの日は ゲームばかりだ(X: 계속 하고 있다는 뜻일 때) → ゲームばかりしている(O)"
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N3-14-01",
+     "kind": "word",
+     "text": "生活{せいかつ}",
+     "reading_kana": "せいかつ",
+     "reading_romanized": "seikatsu",
+     "meaning_ko": "생활",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N3-14-02",
+     "kind": "word",
+     "text": "方法{ほうほう}",
+     "reading_kana": "ほうほう",
+     "reading_romanized": "houhou",
+     "meaning_ko": "방법",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-14-03",
+     "kind": "word",
+     "text": "増{ふ}える",
+     "reading_kana": "ふえる",
+     "reading_romanized": "fueru",
+     "meaning_ko": "늘다, 증가하다",
+     "part_of_speech": "동사(2그룹)"
+    },
+    {
+     "id": "w-JP-N3-14-04",
+     "kind": "word",
+     "text": "特{とく}に",
+     "reading_kana": "とくに",
+     "reading_romanized": "tokuni",
+     "meaning_ko": "특히",
+     "part_of_speech": "부사"
+    },
+    {
+     "id": "w-JP-N3-14-05",
+     "kind": "word",
+     "text": "疲{つか}れる",
+     "reading_kana": "つかれる",
+     "reading_romanized": "tsukareru",
+     "meaning_ko": "피곤해지다",
+     "part_of_speech": "동사(2그룹)"
+    },
+    {
+     "id": "w-JP-N3-14-06",
+     "kind": "word",
+     "text": "気{き}をつける",
+     "reading_kana": "きをつける",
+     "reading_romanized": "ki o tsukeru",
+     "meaning_ko": "조심하다, 신경 쓰다",
+     "part_of_speech": "동사구"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "来月{らいげつ}から、早{はや}く起{お}きることにした。",
+     "meaning_ko": "다음 달부터 일찍 일어나기로 했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "会社{かいしゃ}の都合{つごう}で、来月{らいげつ}から大阪{おおさか}で働{はたら}くことになった。",
+     "meaning_ko": "회사 사정으로 다음 달부터 오사카에서 일하게 되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "今{いま}、ちょうど出{で}かけるところだ。",
+     "meaning_ko": "지금 마침 나가려는 참이다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "若{わか}いうちに、いろいろな経験{けいけん}をしたほうがいい。",
+     "meaning_ko": "젊을 때 여러 가지 경험을 해 두는 편이 좋다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}は休{やす}みの日{ひ}は、ゲームばかりしている。",
+     "meaning_ko": "그는 쉬는 날에는 게임만 하고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "運動{うんどう}するたびに、気分{きぶん}がよくなる。",
+     "meaning_ko": "운동할 때마다 기분이 좋아진다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "最近{さいきん}、忙{いそが}しくて、疲{つか}れることが増{ふ}えた。",
+     "meaning_ko": "최근 바빠서 피곤한 일이 늘었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "健康{けんこう}のために、食事{しょくじ}に気{き}をつけるようにしている。",
+     "meaning_ko": "건강을 위해 식사에 신경 쓰려고 하고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "特{とく}に夜{よる}は、甘{あま}い物{もの}を食{た}べないほうがいい。",
+     "meaning_ko": "특히 밤에는 단것을 먹지 않는 편이 좋다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "新{あたら}しい生活{せいかつ}を始{はじ}める方法{ほうほう}を調{しら}べているところだ。",
+     "meaning_ko": "새로운 생활을 시작하는 방법을 조사하고 있는 중이다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N3-14-Q1",
+     "type": "single_choice",
+     "prompt_ko": "会社の都合で、来月から大阪で働く（　）なった。(~하게 되었다)",
+     "options": [
+      "ことに",
+      "ところに",
+      "うちに",
+      "たびに"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "주변의 사정으로 정해진 일은 〜ことになった(~하게 되었다)로 나타냅니다."
+    },
+    {
+     "id": "JP-N3-14-Q2",
+     "type": "single_choice",
+     "prompt_ko": "今、ちょうど出かける（　）だ。(지금 마침 나가려는 참이다)",
+     "options": [
+      "ところ",
+      "たび",
+      "ため",
+      "せい"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "동사 사전형 + ところだ는 ‘막 ~하려는 참’입니다."
+    },
+    {
+     "id": "JP-N3-14-Q3",
+     "type": "single_choice",
+     "prompt_ko": "運動する（　）、気分がよくなる。(운동할 때마다)",
+     "options": [
+      "たびに",
+      "ところ",
+      "せいで",
+      "べき"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "반복되는 일은 〜たびに(~할 때마다)로 나타냅니다."
+    },
+    {
+     "id": "JP-N3-14-Q4",
+     "type": "single_choice",
+     "prompt_ko": "若い（　）に、いろいろな経験をしたほうがいい。(젊을 때)",
+     "options": [
+      "うち",
+      "ところ",
+      "たび",
+      "ばかり"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘그 상태인 동안에’는 〜うちに입니다. 若い(わかい) = 젊다."
+    },
+    {
+     "id": "JP-N3-14-Q5",
+     "type": "typing",
+     "prompt_ko": "「生活」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "seikatsu",
+     "accepted_answers": [
+      "seikatsu"
+     ],
+     "explanation_ko": "生活 = せいかつ (seikatsu)"
+    },
+    {
+     "id": "JP-N3-14-Q6",
+     "type": "typing",
+     "prompt_ko": "「増える」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "fueru",
+     "accepted_answers": [
+      "fueru"
+     ],
+     "explanation_ko": "増える = ふえる (fueru)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

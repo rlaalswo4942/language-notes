@@ -1489,6 +1489,205 @@
     "version": 1,
     "last_revised": "2026-10-18"
    }
+  },
+  {
+   "id": "B1-009",
+   "level": "B1",
+   "track": "general",
+   "day": 9,
+   "title_ko": "현재완료: for와 since로 기간 말하기",
+   "objective_ko": "for와 since를 구별해서 지금까지 계속된 상태의 기간을 현재완료로 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-19",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "과거에 시작해서 지금까지 이어지는 상태는 현재완료(have/has + 과거분사)로 말하고, 기간은 for 또는 since로 나타냅니다. ① for + 기간의 길이: for five years, for two months, for several days. ② since + 시작 시점: since 2019, since March, since I was a child. ③ 기간을 묻는 질문은 How long have you + 과거분사 ...?입니다. ④ 이 용법은 live, know, work, be, have, own처럼 상태를 나타내는 동사와 자주 씁니다. ⑤ 과거의 한 시점이 분명하면(last year, in 2019) 현재완료가 아니라 단순과거를 씁니다: I lived here in 2019.",
+    "common_mistake_ko": "I live here for five years.(X) → I have lived here for five years.(O) / She has worked here since three years.(X) → for three years(O) / I have known him since five years.(X) → for five years(O) / I have lived here in 2019.(X) → I have lived here since 2019.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "member",
+     "part_of_speech": "명사",
+     "meaning_ko": "회원, 구성원",
+     "example_en": "He is a member of the club.",
+     "example_ko": "그는 그 동호회의 회원이에요."
+    },
+    {
+     "word": "company",
+     "part_of_speech": "명사",
+     "meaning_ko": "회사",
+     "example_en": "She works for a small company.",
+     "example_ko": "그녀는 작은 회사에서 일해요."
+    },
+    {
+     "word": "several",
+     "part_of_speech": "형용사",
+     "meaning_ko": "여러, 몇몇의",
+     "example_en": "I waited for several hours.",
+     "example_ko": "저는 몇 시간 동안 기다렸어요."
+    },
+    {
+     "word": "own",
+     "part_of_speech": "동사",
+     "meaning_ko": "소유하다",
+     "example_en": "My uncle owns a bakery.",
+     "example_ko": "제 삼촌은 빵집을 소유하고 있어요."
+    },
+    {
+     "word": "hobby",
+     "part_of_speech": "명사",
+     "meaning_ko": "취미",
+     "example_en": "Reading is my favorite hobby.",
+     "example_ko": "독서는 제가 가장 좋아하는 취미예요."
+    },
+    {
+     "word": "retire",
+     "part_of_speech": "동사",
+     "meaning_ko": "은퇴하다",
+     "example_en": "My grandfather retired two years ago.",
+     "example_ko": "제 할아버지는 2년 전에 은퇴하셨어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I have lived in this city for five years.",
+     "ko": "저는 이 도시에서 5년째 살고 있어요."
+    },
+    {
+     "en": "She has worked for the company since 2019.",
+     "ko": "그녀는 2019년부터 그 회사에서 일해 왔어요."
+    },
+    {
+     "en": "We have known each other for several years.",
+     "ko": "우리는 몇 년째 서로 알고 지내요."
+    },
+    {
+     "en": "He has been a member of the club since March.",
+     "ko": "그는 3월부터 그 동호회 회원이에요."
+    },
+    {
+     "en": "How long have you owned this car?",
+     "ko": "이 차를 얼마나 오래 가지고 있나요?"
+    },
+    {
+     "en": "I have owned it for two months.",
+     "ko": "두 달 동안 가지고 있어요."
+    },
+    {
+     "en": "They have had the same hobby since they were children.",
+     "ko": "그들은 어릴 때부터 같은 취미를 가져 왔어요."
+    },
+    {
+     "en": "My uncle retired in 2024, and he has had more free time since then.",
+     "ko": "제 삼촌은 2024년에 은퇴했고, 그때부터 자유 시간이 더 많아졌어요."
+    },
+    {
+     "en": "I haven't seen him for several days.",
+     "ko": "저는 그를 며칠째 못 봤어요."
+    },
+    {
+     "en": "How long have you lived here?",
+     "ko": "여기에 얼마나 오래 사셨어요?"
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "She has worked here ___ 2019.",
+     "choices": [
+      "since",
+      "for",
+      "from",
+      "during"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "2019는 시작 시점이므로 since를 씁니다. for 뒤에는 기간의 길이가 옵니다.",
+     "error_tag": "for-since",
+     "id": "B1009-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "I have lived in Seoul ___ ten years.",
+     "choices": [
+      "for",
+      "since",
+      "at",
+      "ago"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ten years는 기간의 길이이므로 for입니다.",
+     "error_tag": "for-since",
+     "id": "B1009-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "How long ___ you known him?",
+     "choices": [
+      "have",
+      "did",
+      "are",
+      "do"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "기간을 묻는 현재완료 질문이므로 How long have you known ...?입니다.",
+     "error_tag": "present-perfect",
+     "id": "B1009-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "\"2018년부터 서로 알고 지냈다\"를 바르게 나타낸 문장은?",
+     "choices": [
+      "We have known each other since 2018.",
+      "We know each other since 2018.",
+      "We knew each other since 2018.",
+      "We are knowing each other since 2018."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "since와 함께 지금까지 이어지는 상태는 현재완료로 말합니다. know는 진행형으로 잘 쓰지 않습니다.",
+     "error_tag": "present-perfect",
+     "id": "B1009-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: He has been a member ___ March. (3월부터)",
+     "answer_text": "since",
+     "accepted_answers": [
+      "since"
+     ],
+     "explanation_ko": "March는 시작 시점이므로 since입니다.",
+     "error_tag": "for-since",
+     "id": "B1009-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: I have owned this phone ___ three months. (3개월 동안)",
+     "answer_text": "for",
+     "accepted_answers": [
+      "for"
+     ],
+     "explanation_ko": "three months는 기간의 길이이므로 for입니다.",
+     "error_tag": "for-since",
+     "id": "B1009-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "내가 오래 하고 있는 것(사는 곳, 일, 취미 등) 두 가지를 for와 since를 하나씩 써서 문장으로 써 보세요.",
+    "example_answer_en": "I have lived here for six years. I have played the guitar since 2020.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-19",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-19"
+   }
   }
  ]
 }

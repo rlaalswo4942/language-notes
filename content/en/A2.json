@@ -2519,6 +2519,205 @@
     "version": 1,
     "last_revised": "2026-10-18"
    }
+  },
+  {
+   "id": "A2-014",
+   "level": "A2",
+   "track": "foundation",
+   "day": 14,
+   "title_ko": "2주 복습: some·any, 수량, 충고, 동사 뒤 모양, 의무, 부사",
+   "objective_ko": "8~13일차에 배운 some/any, much/many, should, enjoy -ing/want to, must/have to, 형용사와 부사를 섞어서 다시 확인한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-19",
+     "supports": "A1-A2 문법 학습 주제"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "이번 주에 배운 여섯 가지를 한 번에 복습합니다. ① 긍정문은 some, 부정문·의문문은 any: There is some sugar, but there isn't any milk. ② 셀 수 있는 명사는 many/a few, 셀 수 없는 명사는 much/a little: How much luggage do you have? ③ 충고는 should/shouldn't + 동사원형: You should exercise. ④ enjoy 뒤에는 -ing, want 뒤에는 to + 동사원형: I enjoy cooking. I want to pack. ⑤ 의무는 must/have to, 불필요는 don't have to(mustn't는 금지): You don't have to pack today. ⑥ 형용사는 명사를 꾸미고, 부사(-ly)는 동사를 꾸밉니다: a careful driver / drive carefully.",
+    "common_mistake_ko": "We don't have some milk.(X) → We don't have any milk.(O) / How many luggage do you have?(X) → How much luggage do you have?(O) / I enjoy to swim.(X) → I enjoy swimming.(O) / He drives careful.(X) → He drives carefully.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "sugar",
+     "part_of_speech": "명사",
+     "meaning_ko": "설탕",
+     "example_en": "There is some sugar in the cup.",
+     "example_ko": "컵에 설탕이 조금 있어요."
+    },
+    {
+     "word": "exercise",
+     "part_of_speech": "동사",
+     "meaning_ko": "운동하다",
+     "example_en": "You should exercise every day.",
+     "example_ko": "매일 운동하는 게 좋아요."
+    },
+    {
+     "word": "careful",
+     "part_of_speech": "형용사",
+     "meaning_ko": "조심하는",
+     "example_en": "She is a careful driver.",
+     "example_ko": "그녀는 조심스러운 운전자예요."
+    },
+    {
+     "word": "luggage",
+     "part_of_speech": "명사",
+     "meaning_ko": "짐(수하물)",
+     "example_en": "How much luggage do you have?",
+     "example_ko": "짐이 얼마나 있어요?"
+    },
+    {
+     "word": "fresh",
+     "part_of_speech": "형용사",
+     "meaning_ko": "신선한",
+     "example_en": "The vegetables are fresh.",
+     "example_ko": "채소가 신선해요."
+    },
+    {
+     "word": "pack",
+     "part_of_speech": "동사",
+     "meaning_ko": "짐을 싸다",
+     "example_en": "I want to pack my bag tonight.",
+     "example_ko": "오늘 밤에 가방을 싸고 싶어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "There is some sugar, but there isn't any milk.",
+     "ko": "설탕은 좀 있지만 우유는 전혀 없어요."
+    },
+    {
+     "en": "How much luggage do you have?",
+     "ko": "짐이 얼마나 있어요?"
+    },
+    {
+     "en": "I have a few bags and a little money.",
+     "ko": "가방이 몇 개 있고 돈이 조금 있어요."
+    },
+    {
+     "en": "You should exercise every day.",
+     "ko": "매일 운동하는 게 좋아요."
+    },
+    {
+     "en": "You shouldn't eat too much sugar.",
+     "ko": "설탕을 너무 많이 먹지 않는 게 좋아요."
+    },
+    {
+     "en": "She enjoys cooking fresh vegetables.",
+     "ko": "그녀는 신선한 채소 요리하기를 즐겨요."
+    },
+    {
+     "en": "I want to pack my luggage tonight.",
+     "ko": "오늘 밤에 짐을 싸고 싶어요."
+    },
+    {
+     "en": "You must wear a helmet.",
+     "ko": "헬멧을 써야 해요."
+    },
+    {
+     "en": "You don't have to pack today.",
+     "ko": "오늘 짐을 쌀 필요는 없어요."
+    },
+    {
+     "en": "Please drive carefully. She is a careful driver.",
+     "ko": "조심해서 운전해 주세요. 그녀는 조심스러운 운전자예요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "We don't have ___ milk. Can you buy some?",
+     "choices": [
+      "any",
+      "some",
+      "a",
+      "many"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "부정문에서는 some 대신 any를 씁니다. milk는 셀 수 없는 명사라 a나 many도 쓸 수 없습니다.",
+     "error_tag": "some-any",
+     "id": "A2-014-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "How ___ luggage do you have?",
+     "choices": [
+      "much",
+      "many",
+      "few",
+      "a few"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "luggage는 셀 수 없는 명사이므로 how much입니다.",
+     "error_tag": "quantity",
+     "id": "A2-014-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "You ___ eat so much sugar. It's bad for you.",
+     "choices": [
+      "shouldn't",
+      "should",
+      "must to",
+      "don't should"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "몸에 나쁘니 먹지 않는 게 좋다는 충고이므로 shouldn't입니다.",
+     "error_tag": "should",
+     "id": "A2-014-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "I enjoy ___ in the evening.",
+     "choices": [
+      "swimming",
+      "to swim",
+      "swim",
+      "swam"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "enjoy 뒤에는 동사의 -ing 형태가 옵니다.",
+     "error_tag": "verb-pattern",
+     "id": "A2-014-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요(have to를 완성): You ___ to wear a uniform at school. It is the rule.",
+     "answer_text": "have",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation_ko": "you 뒤에서 의무를 나타내는 have to이므로 have입니다.",
+     "error_tag": "have-to",
+     "id": "A2-014-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: She is a careful driver. She drives ___. (조심스럽게)",
+     "answer_text": "carefully",
+     "accepted_answers": [
+      "carefully"
+     ],
+     "explanation_ko": "동사 drives를 꾸미므로 형용사 careful에 -ly를 붙인 부사 carefully입니다.",
+     "error_tag": "adverb",
+     "id": "A2-014-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "이번 주에 배운 표현 두 가지 이상을 써서 여행 준비에 대한 문장을 두 개 써 보세요.",
+    "example_answer_en": "I want to pack my bag. I should bring some water.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-19",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-19"
+   }
   }
  ]
 }

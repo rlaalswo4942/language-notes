@@ -2530,6 +2530,205 @@
     "version": 1,
     "last_revised": "2026-10-18"
    }
+  },
+  {
+   "id": "A1-014",
+   "level": "A1",
+   "track": "foundation",
+   "day": 14,
+   "title_ko": "2주 복습: 의문문·소유·장소·의문사·대명사",
+   "objective_ko": "8~13일차에 배운 do/does 의문문, have/has, 장소 전치사, 의문사, 목적격 대명사, 소유 표현을 섞어서 다시 확인한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-19",
+     "supports": "A1-A2 문법 학습 주제"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "이번 주에 배운 여섯 가지를 한 번에 복습합니다. ① 일반동사 의문문은 Do/Does + 주어 + 동사원형(3인칭 단수는 Does): Does she like tea? ② have는 I/you/we/they, has는 he/she/it: She has a notebook. ③ 장소 전치사 in/on/under/next to/behind/between: The cat is under the table. ④ 의문사 who/what/where/when/why/how를 문장 맨 앞에: Where is the bakery? ⑤ 목적격 대명사 me/you/him/her/it/us/them은 동사 뒤: Please call her. ⑥ 소유는 's 또는 my/his/her/our/their: Anna's bag, her bag.",
+    "common_mistake_ko": "Does she likes tea?(X) → Does she like tea?(O) / He have a bike.(X) → He has a bike.(O) / I call he.(X) → I call him.(O) / She bag is red.(X) → Her bag is red.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "market",
+     "part_of_speech": "명사",
+     "meaning_ko": "시장",
+     "example_en": "We often go to the market together.",
+     "example_ko": "우리는 종종 함께 시장에 가요."
+    },
+    {
+     "word": "bakery",
+     "part_of_speech": "명사",
+     "meaning_ko": "빵집",
+     "example_en": "The bakery is next to the market.",
+     "example_ko": "빵집은 시장 옆에 있어요."
+    },
+    {
+     "word": "notebook",
+     "part_of_speech": "명사",
+     "meaning_ko": "공책",
+     "example_en": "Tom has a notebook in his bag.",
+     "example_ko": "톰은 가방에 공책이 있어요."
+    },
+    {
+     "word": "bring",
+     "part_of_speech": "동사",
+     "meaning_ko": "가져오다",
+     "example_en": "Please bring your notebook.",
+     "example_ko": "공책을 가져오세요."
+    },
+    {
+     "word": "together",
+     "part_of_speech": "부사",
+     "meaning_ko": "함께",
+     "example_en": "Let's study together.",
+     "example_ko": "함께 공부해요."
+    },
+    {
+     "word": "ask",
+     "part_of_speech": "동사",
+     "meaning_ko": "묻다",
+     "example_en": "Why do you ask?",
+     "example_ko": "왜 물어요?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Does your sister like tea? No, she doesn't.",
+     "ko": "네 여동생은 차를 좋아해? 아니, 안 좋아해."
+    },
+    {
+     "en": "Tom has a notebook in his bag.",
+     "ko": "톰은 가방에 공책이 있어요."
+    },
+    {
+     "en": "The cat is under the table.",
+     "ko": "고양이는 탁자 아래에 있어요."
+    },
+    {
+     "en": "Where is the bakery? It is next to the market.",
+     "ko": "빵집이 어디에 있어요? 시장 옆에 있어요."
+    },
+    {
+     "en": "Who is that man? He is my uncle.",
+     "ko": "저 남자는 누구예요? 제 삼촌이에요."
+    },
+    {
+     "en": "Please call her. She is at home.",
+     "ko": "그녀에게 전화해 주세요. 집에 있어요."
+    },
+    {
+     "en": "We often go to the market together.",
+     "ko": "우리는 종종 함께 시장에 가요."
+    },
+    {
+     "en": "They don't have their tickets.",
+     "ko": "그들은 표를 가지고 있지 않아요."
+    },
+    {
+     "en": "My sister brings her notebook every day.",
+     "ko": "내 여동생은 매일 공책을 가져와요."
+    },
+    {
+     "en": "Why do you ask?",
+     "ko": "왜 물어요?"
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "___ your brother have a bike?",
+     "choices": [
+      "Does",
+      "Do",
+      "Is",
+      "Has"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "your brother는 3인칭 단수이고 일반동사 have의 의문문이므로 Does를 씁니다.",
+     "error_tag": "do-does",
+     "id": "A1-014-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "책은 책상 위에 있어요: The book is ___ the desk.",
+     "choices": [
+      "on",
+      "under",
+      "behind",
+      "between"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "접촉한 채 위에 있을 때는 on입니다. under는 아래, behind는 뒤, between은 둘 사이입니다.",
+     "error_tag": "preposition",
+     "id": "A1-014-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "___ is the bakery? — It is next to the market.",
+     "choices": [
+      "Where",
+      "Who",
+      "Why",
+      "When"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "대답이 장소(next to the market)이므로 Where입니다.",
+     "error_tag": "wh-question",
+     "id": "A1-014-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "I like Tom. I often call ___.",
+     "choices": [
+      "him",
+      "he",
+      "his",
+      "her"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "동사 call 뒤 목적어 자리이고 남자 한 명이므로 목적격 him입니다.",
+     "error_tag": "object-pronoun",
+     "id": "A1-014-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: This is my sister. ___ name is Mina.",
+     "answer_text": "her",
+     "accepted_answers": [
+      "her"
+     ],
+     "explanation_ko": "여자 한 명의 소유이고 뒤에 명사(name)가 오므로 her입니다.",
+     "error_tag": "possessive-adjective",
+     "id": "A1-014-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: She ___ a notebook in her bag. (have)",
+     "answer_text": "has",
+     "accepted_answers": [
+      "has"
+     ],
+     "explanation_ko": "she는 3인칭 단수이므로 have가 has로 바뀝니다.",
+     "error_tag": "have-has",
+     "id": "A1-014-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "이번 주에 배운 표현 중 두 가지 이상을 써서 친구나 가족에 대한 문장을 두 개 써 보세요.",
+    "example_answer_en": "My brother has a bike. Where is his bike? It is behind the house.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-19",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-19"
+   }
   }
  ]
 }

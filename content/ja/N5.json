@@ -2760,6 +2760,226 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N5-14",
+   "day_index": 14,
+   "week_index": 2,
+   "level": "N5",
+   "unit_id": "N5-W02",
+   "lesson_type": "checkpoint",
+   "title_ko": "2주 점검: 주말 회화",
+   "objective_ko": "N5 둘째 주 문형(な형용사·과거형·ませんか/ましょう·あります/います·〜たいです)을 종합 점검한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N5-13"
+   ],
+   "explanation_ko": "2주 차에 배운 な형용사, 과거형(〜ました・〜ませんでした), 권유(〜ませんか・〜ましょう), 존재(あります・います), 희망(〜たいです)을 짧은 주말 대화 속에서 다시 확인합니다.",
+   "usage_notes": [
+    "사물・식물은 あります, 사람・동물은 います를 씁니다. 책상 위의 표는 あります, 역의 친구는 います입니다.",
+    "〜ませんか는 ‘~하지 않겠습니까?’라는 권유이고, 승낙은 はい、〜ましょう(네, ~합시다)로 합니다.",
+    "な형용사의 부정은 〜じゃありません(〜ではありません)입니다. 静かです → 静かじゃありません."
+   ],
+   "common_mistakes": [
+    "机の 上に 切符が います(X) → 机の 上に 切符が あります(O): 사물은 あります.",
+    "その 店は 静かくないです(X) → その 店は 静かじゃありません(O): な형용사는 〜くない를 쓰지 않습니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N5-14-01",
+     "kind": "word",
+     "text": "魚{さかな}",
+     "reading_kana": "さかな",
+     "reading_romanized": "sakana",
+     "meaning_ko": "생선, 물고기",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-14-02",
+     "kind": "word",
+     "text": "肉{にく}",
+     "reading_kana": "にく",
+     "reading_romanized": "niku",
+     "meaning_ko": "고기",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-14-03",
+     "kind": "word",
+     "text": "店{みせ}",
+     "reading_kana": "みせ",
+     "reading_romanized": "mise",
+     "meaning_ko": "가게",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-14-04",
+     "kind": "word",
+     "text": "切符{きっぷ}",
+     "reading_kana": "きっぷ",
+     "reading_romanized": "kippu",
+     "meaning_ko": "표(승차권)",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-14-05",
+     "kind": "word",
+     "text": "今週{こんしゅう}",
+     "reading_kana": "こんしゅう",
+     "reading_romanized": "konshuu",
+     "meaning_ko": "이번 주",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-14-06",
+     "kind": "word",
+     "text": "一人{ひとり}",
+     "reading_kana": "ひとり",
+     "reading_romanized": "hitori",
+     "meaning_ko": "한 명, 혼자",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "昨日{きのう}は 店{みせ}で 魚{さかな}を 買{か}いました。",
+     "meaning_ko": "어제는 가게에서 생선을 샀습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "今週{こんしゅう}の 日曜日{にちようび}、一緒{いっしょ}に 映画{えいが}を 見{み}ませんか。",
+     "meaning_ko": "이번 주 일요일에 같이 영화를 보지 않겠습니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "はい、見{み}ましょう。",
+     "meaning_ko": "네, 봅시다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 店{みせ}は 静{しず}かです。",
+     "meaning_ko": "이 가게는 조용합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "その 店{みせ}は 有名{ゆうめい}じゃありません。",
+     "meaning_ko": "그 가게는 유명하지 않습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "机{つくえ}の 上{うえ}に 切符{きっぷ}が あります。",
+     "meaning_ko": "책상 위에 표가 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "駅{えき}に 友達{ともだち}が います。",
+     "meaning_ko": "역에 친구가 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "私{わたし}は 魚{さかな}が 好{す}きです。",
+     "meaning_ko": "저는 생선을 좋아합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "今日{きょう}は 一人{ひとり}で 料理{りょうり}を 作{つく}りたいです。",
+     "meaning_ko": "오늘은 혼자서 요리를 만들고 싶습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "昨日{きのう}は 肉{にく}を 食{た}べませんでした。",
+     "meaning_ko": "어제는 고기를 먹지 않았습니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N5-14-Q1",
+     "type": "single_choice",
+     "prompt_ko": "‘어제는 가게에서 생선을 샀습니다’를 바르게 나타낸 것은?",
+     "options": [
+      "昨日は 店で 魚を 買いました。",
+      "昨日は 店で 魚を 買います。",
+      "昨日は 店で 魚を 買いたいです。",
+      "昨日は 店で 魚を 買いませんでした。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘샀습니다’는 買いました입니다. 買います는 현재, 買いたいです는 ‘사고 싶습니다’, 買いませんでした는 ‘사지 않았습니다’입니다."
+    },
+    {
+     "id": "JP-N5-14-Q2",
+     "type": "single_choice",
+     "prompt_ko": "その 店は 静か（　）。(그 가게는 조용하지 않습니다.)",
+     "options": [
+      "じゃありません",
+      "くないです",
+      "じゃないません",
+      "ではないます"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "な형용사의 부정은 〜じゃありません입니다. 〜くないです는 い형용사에 씁니다."
+    },
+    {
+     "id": "JP-N5-14-Q3",
+     "type": "single_choice",
+     "prompt_ko": "机の 上に 切符が（　）。(책상 위에 표가 있습니다.)",
+     "options": [
+      "あります",
+      "います",
+      "ありました",
+      "いません"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "표는 사물이므로 あります입니다. います는 사람・동물에 씁니다."
+    },
+    {
+     "id": "JP-N5-14-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「今週の 日曜日、一緒に 映画を 見ませんか」에 승낙하는 대답은?",
+     "options": [
+      "はい、見ましょう。",
+      "はい、見ました。",
+      "いいえ、見ましょう。",
+      "はい、見たいですか。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "권유(〜ませんか)에 승낙할 때는 はい、〜ましょう로 답합니다."
+    },
+    {
+     "id": "JP-N5-14-Q5",
+     "type": "typing",
+     "prompt_ko": "「魚」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "sakana",
+     "accepted_answers": [
+      "sakana"
+     ],
+     "explanation_ko": "魚 = さかな (sakana)"
+    },
+    {
+     "id": "JP-N5-14-Q6",
+     "type": "typing",
+     "prompt_ko": "「切符」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kippu",
+     "accepted_answers": [
+      "kippu"
+     ],
+     "explanation_ko": "切符 = きっぷ (kippu). 작은 っ 뒤에서 p를 겹쳐 씁니다."
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

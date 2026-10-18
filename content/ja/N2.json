@@ -2747,6 +2747,221 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-14",
+   "day_index": 14,
+   "week_index": 2,
+   "level": "N2",
+   "unit_id": "N2-W02",
+   "lesson_type": "checkpoint",
+   "title_ko": "2주 점검: 사내 규칙 변경 이야기",
+   "objective_ko": "N2 둘째 주 문형(〜に対して・〜にもかかわらず・〜に基づいて・〜ざるを得ない・〜わけがない)을 사내 규칙 변경 이야기 속에서 종합 점검한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-13"
+   ],
+   "explanation_ko": "2주 차에 배운 〜に対して(~에 대해), 〜にもかかわらず(~임에도 불구하고), 〜に基づいて(~에 근거해), 〜ざるを得ない(~할 수밖에 없다), 〜わけがない(~할 리가 없다)를 사내 규칙 변경에 관한 짧은 글 속에서 다시 확인합니다.",
+   "usage_notes": [
+    "〜ざるを得ない는 동사 ない형에서 ない를 떼고 붙입니다. 従う → 従わざるを得ない. する는 せざるを得ない로 바뀝니다.",
+    "〜わけがない는 ‘~할 리가 없다’로 강한 부정입니다. 〜わけではない(부분 부정)와 구별합니다.",
+    "〜に基づいて는 ‘근거로 삼아서’, 〜に対して는 ‘대상을 향해’입니다."
+   ],
+   "common_mistakes": [
+    "従うざるを得ない(X) → 従わざるを得ない(O)",
+    "賛成するわけではない(X: ‘리가 없다’의 뜻일 때) → 賛成するわけがない(O)"
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N2-14-01",
+     "kind": "word",
+     "text": "規則{きそく}",
+     "reading_kana": "きそく",
+     "reading_romanized": "kisoku",
+     "meaning_ko": "규칙",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-14-02",
+     "kind": "word",
+     "text": "改正{かいせい}",
+     "reading_kana": "かいせい",
+     "reading_romanized": "kaisei",
+     "meaning_ko": "개정",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N2-14-03",
+     "kind": "word",
+     "text": "従{したが}う",
+     "reading_kana": "したがう",
+     "reading_romanized": "shitagau",
+     "meaning_ko": "따르다",
+     "part_of_speech": "동사(1그룹)"
+    },
+    {
+     "id": "w-JP-N2-14-04",
+     "kind": "word",
+     "text": "理解{りかい}",
+     "reading_kana": "りかい",
+     "reading_romanized": "rikai",
+     "meaning_ko": "이해",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N2-14-05",
+     "kind": "word",
+     "text": "反発{はんぱつ}",
+     "reading_kana": "はんぱつ",
+     "reading_romanized": "hanpatsu",
+     "meaning_ko": "반발",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N2-14-06",
+     "kind": "word",
+     "text": "周知{しゅうち}",
+     "reading_kana": "しゅうち",
+     "reading_romanized": "shuuchi",
+     "meaning_ko": "주지, 널리 알림",
+     "part_of_speech": "명사・する동사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "新{あたら}しい規則{きそく}に基{もと}づいて、来月{らいげつ}から勤務{きんむ}時間{じかん}が変{か}わる。",
+     "meaning_ko": "새 규칙에 근거해 다음 달부터 근무 시간이 바뀐다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "規則{きそく}の改正{かいせい}に対{たい}して、社員{しゃいん}の一部{いちぶ}から反発{はんぱつ}の声{こえ}が上{あ}がった。",
+     "meaning_ko": "규칙 개정에 대해 일부 사원들에게서 반발의 목소리가 나왔다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "十分{じゅうぶん}に周知{しゅうち}されたにもかかわらず、守{まも}らない人{ひと}がいる。",
+     "meaning_ko": "충분히 널리 알려졌음에도 불구하고 지키지 않는 사람이 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "会社{かいしゃ}が決{き}めた規則{きそく}には、従{したが}わざるを得{え}ない。",
+     "meaning_ko": "회사가 정한 규칙에는 따를 수밖에 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "全員{ぜんいん}がこの内容{ないよう}に賛成{さんせい}するわけがない。",
+     "meaning_ko": "모두가 이 내용에 찬성할 리가 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "説明{せつめい}を聞{き}けば、理解{りかい}できないわけではない。",
+     "meaning_ko": "설명을 들으면 이해하지 못하는 것은 아니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "規則{きそく}を守{まも}ってもらうためには、まず理解{りかい}してもらう必要{ひつよう}がある。",
+     "meaning_ko": "규칙을 지키게 하려면 먼저 이해시킬 필요가 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "雨{あめ}にもかかわらず、多{おお}くの人{ひと}が会場{かいじょう}に集{あつ}まった。",
+     "meaning_ko": "비가 오는데도 많은 사람이 행사장에 모였다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "調査{ちょうさ}の結果{けっか}に基{もと}づいて、規則{きそく}をもう一度{いちど}見直{みなお}すことになった。",
+     "meaning_ko": "조사 결과에 근거해 규칙을 다시 한번 재검토하게 되었다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N2-14-Q1",
+     "type": "single_choice",
+     "prompt_ko": "規則の改正（　）、社員の一部から反発の声が上がった。",
+     "options": [
+      "に対して",
+      "に基づいて",
+      "にもかかわらず",
+      "わけがない"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "반발의 대상을 나타내므로 〜に対して(~에 대해)입니다."
+    },
+    {
+     "id": "JP-N2-14-Q2",
+     "type": "single_choice",
+     "prompt_ko": "十分に周知された（　）、守らない人がいる。",
+     "options": [
+      "にもかかわらず",
+      "に基づいて",
+      "に対して",
+      "わけがない"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "기대와 다른 결과(알렸는데도 안 지킴)이므로 〜にもかかわらず(~임에도 불구하고)입니다."
+    },
+    {
+     "id": "JP-N2-14-Q3",
+     "type": "single_choice",
+     "prompt_ko": "会社が決めた規則には、従わ（　）。(따를 수밖에 없다)",
+     "options": [
+      "ざるを得ない",
+      "わけがない",
+      "にもかかわらず",
+      "に対して"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "従う → 従わ + ざるを得ない(~할 수밖에 없다)입니다."
+    },
+    {
+     "id": "JP-N2-14-Q4",
+     "type": "single_choice",
+     "prompt_ko": "全員がこの内容に賛成する（　）。(찬성할 리가 없다)",
+     "options": [
+      "わけがない",
+      "ざるを得ない",
+      "に基づいて",
+      "にもかかわらず"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘~할 리가 없다’는 〜わけがない입니다."
+    },
+    {
+     "id": "JP-N2-14-Q5",
+     "type": "typing",
+     "prompt_ko": "「規則」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kisoku",
+     "accepted_answers": [
+      "kisoku"
+     ],
+     "explanation_ko": "規則 = きそく (kisoku)"
+    },
+    {
+     "id": "JP-N2-14-Q6",
+     "type": "typing",
+     "prompt_ko": "「理解」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "rikai",
+     "accepted_answers": [
+      "rikai"
+     ],
+     "explanation_ko": "理解 = りかい (rikai)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }
