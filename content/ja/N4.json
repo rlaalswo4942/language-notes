@@ -2972,6 +2972,228 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-15",
+   "day_index": 15,
+   "week_index": 3,
+   "level": "N4",
+   "unit_id": "N4-W03",
+   "lesson_type": "new",
+   "title_ko": "〜から・〜ので: 이유 말하기",
+   "objective_ko": "から와 ので로 이유를 말하고, 앞에 오는 말의 형태를 구별한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-14"
+   ],
+   "explanation_ko": "‘~이니까, ~해서’라는 이유는 〜から 또는 〜ので로 말합니다. ① 〜から: 보통형 또는 공손형(〜です・〜ます) 뒤에 붙습니다: 忙しいですから / 忙しいから. 말하는 사람의 판단을 분명하게 말하는 느낌이며, 뒤에 의지・권유・부탁이 와도 자연스럽습니다. ② 〜ので: 보통형 뒤에 붙으며, 명사와 な형용사는 だ 대신 な를 씁니다: 日曜日なので / 静かなので. 부드럽고 객관적으로 이유를 말하는 느낌이어서 부탁이나 사과 앞에 자주 쓰입니다. ③ 이유만 대답할 때는 〜からです로 끝냅니다: どうして 遅れましたか — 電車が 止まったからです.",
+   "usage_notes": [
+    "〜ので 앞에서 명사와 な형용사는 だ가 아니라 な를 씁니다(日曜日なので).",
+    "い형용사와 동사는 보통형 그대로 ので에 연결합니다(寒いので, 行くので).",
+    "〜ので 뒤에는 강한 명령이 잘 어울리지 않고, 〜から 뒤에는 의지・권유・명령이 모두 올 수 있습니다."
+   ],
+   "common_mistakes": [
+    "日曜日だので(X) → 日曜日なので(O): 명사에는 な를 씁니다.",
+    "静かだので(X) → 静かなので(O): な형용사에도 な를 씁니다.",
+    "寒いなので(X) → 寒いので(O): い형용사에는 な를 붙이지 않습니다.",
+    "電車が 止まったので です(X) → 電車が 止まったからです(O): 이유만 대답할 때는 からです를 씁니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N4-15-01",
+     "kind": "word",
+     "text": "忙{いそが}しい",
+     "reading_kana": "いそがしい",
+     "reading_romanized": "isogashii",
+     "meaning_ko": "바쁘다",
+     "part_of_speech": "い형용사"
+    },
+    {
+     "id": "w-JP-N4-15-02",
+     "kind": "word",
+     "text": "寒{さむ}い",
+     "reading_kana": "さむい",
+     "reading_romanized": "samui",
+     "meaning_ko": "춥다",
+     "part_of_speech": "い형용사"
+    },
+    {
+     "id": "w-JP-N4-15-03",
+     "kind": "word",
+     "text": "眠{ねむ}い",
+     "reading_kana": "ねむい",
+     "reading_romanized": "nemui",
+     "meaning_ko": "졸리다",
+     "part_of_speech": "い형용사"
+    },
+    {
+     "id": "w-JP-N4-15-04",
+     "kind": "word",
+     "text": "危{あぶ}ない",
+     "reading_kana": "あぶない",
+     "reading_romanized": "abunai",
+     "meaning_ko": "위험하다",
+     "part_of_speech": "い형용사"
+    },
+    {
+     "id": "w-JP-N4-15-05",
+     "kind": "word",
+     "text": "電気{でんき}",
+     "reading_kana": "でんき",
+     "reading_romanized": "denki",
+     "meaning_ko": "전기, 전등",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-15-06",
+     "kind": "word",
+     "text": "急{いそ}ぐ",
+     "reading_kana": "いそぐ",
+     "reading_romanized": "isogu",
+     "meaning_ko": "서두르다",
+     "part_of_speech": "동사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "雨{あめ}が 降{ふ}って いるから、傘{かさ}を 持{も}って 行{い}きます。",
+     "meaning_ko": "비가 내리고 있으니까 우산을 가지고 갑니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "今日{きょう}は 忙{いそが}しいですから、行{い}けません。",
+     "meaning_ko": "오늘은 바빠서 갈 수 없습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "寒{さむ}いので、窓{まど}を 閉{し}めて ください。",
+     "meaning_ko": "추우니까 창문을 닫아 주세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "眠{ねむ}いから、早{はや}く 寝{ね}ます。",
+     "meaning_ko": "졸려서 일찍 잡니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "危{あぶ}ないので、走{はし}らないで ください。",
+     "meaning_ko": "위험하니까 뛰지 마세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "日曜日{にちようび}なので、会社{かいしゃ}は 休{やす}みです。",
+     "meaning_ko": "일요일이라서 회사는 쉽니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 店{みせ}は 安{やす}くて 有名{ゆうめい}なので、いつも 人{ひと}が 多{おお}いです。",
+     "meaning_ko": "이 가게는 싸고 유명해서 항상 사람이 많습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "どうして 遅{おく}れましたか。—電車{でんしゃ}が 止{と}まったからです。",
+     "meaning_ko": "왜 늦었습니까? — 전철이 멈췄기 때문입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "急{いそ}ぐので、タクシーで 行{い}きます。",
+     "meaning_ko": "서두르니까 택시로 갑니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "暗{くら}いですから、電気{でんき}を つけましょう。",
+     "meaning_ko": "어두우니까 불을 켭시다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "‘추워서 창문을 닫아 주세요’가 되도록 알맞은 말을 고르세요. 寒い（　）、窓を 閉めて ください。",
+     "options": [
+      "ので",
+      "なので",
+      "だので",
+      "のから"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "い형용사는 보통형 그대로 ので에 연결합니다. なので・だので는 い형용사에 쓰지 않습니다.",
+     "id": "JP-N4-15-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "‘일요일이라서 회사는 쉽니다’가 되도록 알맞은 말을 고르세요. 日曜日（　）、会社は 休みです。",
+     "options": [
+      "なので",
+      "ので",
+      "だので",
+      "いので"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "명사에 ので가 이어질 때는 だ 대신 な를 써서 なので가 됩니다.",
+     "id": "JP-N4-15-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「どうして 遅れましたか」에 이유만 대답하는 알맞은 문장은? 電車が 止まった（　）。",
+     "options": [
+      "からです",
+      "のでです",
+      "ですからです",
+      "ままです"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "이유만 대답할 때는 〜からです로 끝냅니다.",
+     "id": "JP-N4-15-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「危ないので、走らないで ください」의 뜻은?",
+     "options": [
+      "위험하니까 뛰지 마세요.",
+      "위험하지만 뛰세요.",
+      "위험하지 않으니 뛰세요.",
+      "뛰어서 위험합니다."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "危ないので는 ‘위험하니까’, 走らないで ください는 ‘뛰지 마세요’입니다.",
+     "id": "JP-N4-15-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「忙しい」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "isogashii",
+     "accepted_answers": [
+      "isogashii"
+     ],
+     "explanation_ko": "忙しい = いそがしい (isogashii)",
+     "id": "JP-N4-15-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「電気」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "denki",
+     "accepted_answers": [
+      "denki"
+     ],
+     "explanation_ko": "電気 = でんき (denki)",
+     "id": "JP-N4-15-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

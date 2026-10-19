@@ -2729,6 +2729,201 @@
     "version": 1,
     "last_revised": "2026-10-19"
    }
+  },
+  {
+   "id": "A1-015",
+   "level": "A1",
+   "track": "foundation",
+   "day": 15,
+   "title_ko": "Would you like ...? / I'd like ...: 정중하게 권하고 요청하기",
+   "objective_ko": "식당·가게에서 Would you like와 I'd like로 정중하게 권하고 주문한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-20",
+     "supports": "A1-A2 문법 학습 주제"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "I'd like ...는 I would like ...의 줄임말로 '~을 원해요/주세요'라는 정중한 요청입니다. I want보다 부드럽게 들립니다. ① 명사: I'd like a cup of tea. ② to + 동사원형: I'd like to order now. ③ 권유 질문: Would you like some water?(물 좀 드시겠어요?) / Would you like to see the menu?(메뉴를 보시겠어요?) ④ 대답: Yes, please.(네, 부탁해요) / No, thank you.(아니요, 괜찮아요) Would 뒤에는 주어 다음에 like가 오고, like 뒤의 동사 앞에는 to를 붙입니다.",
+    "common_mistake_ko": "I'd like to eating soup.(X) → I'd like to eat soup.(O) / Do you would like tea?(X) → Would you like tea?(O) / Yes, I like.(X) → Yes, please.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "menu",
+     "part_of_speech": "명사",
+     "meaning_ko": "메뉴, 차림표",
+     "example_en": "Can I see the menu?",
+     "example_ko": "메뉴를 볼 수 있을까요?"
+    },
+    {
+     "word": "order",
+     "part_of_speech": "동사",
+     "meaning_ko": "주문하다",
+     "example_en": "We'd like to order now.",
+     "example_ko": "지금 주문하고 싶어요."
+    },
+    {
+     "word": "sandwich",
+     "part_of_speech": "명사",
+     "meaning_ko": "샌드위치",
+     "example_en": "She'd like a sandwich.",
+     "example_ko": "그녀는 샌드위치를 원해요."
+    },
+    {
+     "word": "soup",
+     "part_of_speech": "명사",
+     "meaning_ko": "수프",
+     "example_en": "I'd like the soup, please.",
+     "example_ko": "수프 주세요."
+    },
+    {
+     "word": "tea",
+     "part_of_speech": "명사",
+     "meaning_ko": "차",
+     "example_en": "Would you like some tea?",
+     "example_ko": "차 좀 드시겠어요?"
+    },
+    {
+     "word": "bill",
+     "part_of_speech": "명사",
+     "meaning_ko": "계산서",
+     "example_en": "Can I have the bill, please?",
+     "example_ko": "계산서 좀 주시겠어요?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I'd like a cup of tea.",
+     "ko": "차 한 잔 주세요."
+    },
+    {
+     "en": "Would you like some water?",
+     "ko": "물 좀 드시겠어요?"
+    },
+    {
+     "en": "Yes, please.",
+     "ko": "네, 부탁해요."
+    },
+    {
+     "en": "No, thank you.",
+     "ko": "아니요, 괜찮아요."
+    },
+    {
+     "en": "I'd like the soup, please.",
+     "ko": "수프 주세요."
+    },
+    {
+     "en": "Would you like to see the menu?",
+     "ko": "메뉴를 보시겠어요?"
+    },
+    {
+     "en": "We'd like to order now.",
+     "ko": "지금 주문하고 싶어요."
+    },
+    {
+     "en": "Can I have the bill, please?",
+     "ko": "계산서 좀 주시겠어요?"
+    },
+    {
+     "en": "She'd like a sandwich.",
+     "ko": "그녀는 샌드위치를 원해요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "점원이 \"Would you like some tea?\"라고 물었습니다. 정중하게 받아들이는 대답은?",
+     "choices": [
+      "Yes, please.",
+      "Yes, I do like.",
+      "Yes, I am.",
+      "Yes, it is."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Would you like ...?에는 Yes, please.로 받아들이거나 No, thank you.로 정중히 거절합니다.",
+     "error_tag": "would-like",
+     "id": "A1-015-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'샌드위치를 하나 주세요'를 정중하게 말한 문장은?",
+     "choices": [
+      "I'd like a sandwich, please.",
+      "I like a sandwich please.",
+      "I'd like eat a sandwich.",
+      "I would liking a sandwich."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "I'd like + 명사 + please가 정중한 주문 표현입니다. like는 '좋아하다'라는 뜻이라 주문에는 어색합니다.",
+     "error_tag": "would-like",
+     "id": "A1-015-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Would you like ___ see the menu?",
+     "choices": [
+      "to",
+      "at",
+      "of",
+      "in"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Would you like 뒤에 동사가 오면 to + 동사원형입니다.",
+     "error_tag": "to-infinitive",
+     "id": "A1-015-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "___ you like a cup of tea? (정중하게 권하기)",
+     "choices": [
+      "Would",
+      "Are",
+      "Does",
+      "Is"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "권유 질문은 Would you like ...?로 시작합니다.",
+     "error_tag": "would-like",
+     "id": "A1-015-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: I'd ___ a glass of water.",
+     "answer_text": "like",
+     "accepted_answers": [
+      "like"
+     ],
+     "explanation_ko": "I'd like는 I would like의 줄임말입니다.",
+     "error_tag": "would-like",
+     "id": "A1-015-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Would you like some water? — Yes, ___. (정중하게 받아들이기)",
+     "answer_text": "please",
+     "accepted_answers": [
+      "please"
+     ],
+     "explanation_ko": "권유를 받아들일 때는 Yes, please.라고 합니다.",
+     "error_tag": "would-like",
+     "id": "A1-015-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "식당에서 점원에게 음식 하나를 주문하는 문장과 물을 권하는 질문 하나를 써 보세요.",
+    "example_answer_en": "I'd like a sandwich, please. Would you like some water?",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-20",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-20"
+   }
   }
  ]
 }

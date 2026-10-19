@@ -1468,6 +1468,199 @@
     "version": 1,
     "last_revised": "2026-10-19"
    }
+  },
+  {
+   "id": "TOEFL-009",
+   "level": "B1",
+   "track": "toefl",
+   "day": 9,
+   "title_ko": "TOEFL 2026 Listen to an Announcement 입문: 공지의 목적과 변경 사항 찾기",
+   "objective_ko": "짧은 캠퍼스 공지에서 목적, 변경된 내용, 이유, 대안, 세부 정보를 구별해서 찾는다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/content/ets-org/language-master/ko/home/toefl/test-takers/ibt/about/content.html",
+     "publisher": "ETS",
+     "checked_at": "2026-10-20",
+     "supports": "2026 형식 유형명"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "2026-01-21 이후 TOEFL iBT Listening에는 Listen to an Announcement 유형이 안내되어 있습니다(공식 안내 유형명). 캠퍼스 방송이나 안내문을 듣고 질문에 답하는 유형입니다. 이 사이트는 소리가 없으므로 아래는 공지문을 글로 읽는 비공식 자체 연습입니다. 공지를 들을 때는 다섯 가지를 차례로 찾습니다. ① 목적: 무엇을 알리는가. ② 변경 사항: 무엇이 어떻게 바뀌는가(시간, 장소, 날짜). ③ 이유: 왜 바뀌는가. ④ 대안·조건: 대신 쓸 수 있는 곳, 예외가 적용되는 사람. ⑤ 세부 정보: 시간, 요일, 장소. 숫자와 요일이 여러 번 나오므로 어느 숫자가 무엇에 대한 것인지 구별하며 읽으세요.",
+    "common_mistake_ko": "공지에 나온 시간을 보이는 대로 고르는 실수 → 10 p.m.은 원래 시간, 6 p.m.은 바뀐 시간입니다. / 조건을 놓치는 실수 → 2층 스터디룸은 온라인으로 예약한 학생만 쓸 수 있습니다."
+   },
+   "vocabulary": [
+    {
+     "word": "announcement",
+     "part_of_speech": "명사",
+     "meaning_ko": "공지, 안내 방송",
+     "example_en": "The announcement is about library hours.",
+     "example_ko": "그 공지는 도서관 운영 시간에 관한 거예요."
+    },
+    {
+     "word": "staff",
+     "part_of_speech": "명사",
+     "meaning_ko": "직원들",
+     "example_en": "A staff meeting will be held on Friday.",
+     "example_ko": "금요일에 직원 회의가 열려요."
+    },
+    {
+     "word": "regular",
+     "part_of_speech": "형용사",
+     "meaning_ko": "평소의, 정규의",
+     "example_en": "The library returns to its regular hours.",
+     "example_ko": "도서관은 평소 운영 시간으로 돌아가요."
+    },
+    {
+     "word": "instead of",
+     "part_of_speech": "전치사구",
+     "meaning_ko": "~ 대신에",
+     "example_en": "It closes at 6 p.m. instead of 10 p.m.",
+     "example_ko": "10시 대신 6시에 닫아요."
+    },
+    {
+     "word": "reserved",
+     "part_of_speech": "형용사",
+     "meaning_ko": "예약된",
+     "example_en": "Only reserved rooms stay open.",
+     "example_ko": "예약된 방만 열려 있어요."
+    },
+    {
+     "word": "midnight",
+     "part_of_speech": "명사",
+     "meaning_ko": "자정",
+     "example_en": "The center is open until midnight.",
+     "example_ko": "그 센터는 자정까지 열려 있어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The library will close early this Friday.",
+     "ko": "도서관은 이번 금요일에 일찍 닫아요."
+    },
+    {
+     "en": "The reason is a staff meeting.",
+     "ko": "이유는 직원 회의예요."
+    },
+    {
+     "en": "It will close at 6 p.m. instead of 10 p.m.",
+     "ko": "10시 대신 6시에 닫아요."
+    },
+    {
+     "en": "The second-floor study rooms stay open until 8 p.m.",
+     "ko": "2층 스터디룸은 8시까지 열려 있어요."
+    },
+    {
+     "en": "Only students who reserved a room online can use it.",
+     "ko": "온라인으로 방을 예약한 학생만 쓸 수 있어요."
+    },
+    {
+     "en": "The Student Center will be open until midnight.",
+     "ko": "학생회관은 자정까지 열려 있어요."
+    },
+    {
+     "en": "Students can study there after 6 p.m.",
+     "ko": "학생들은 6시 이후에 거기서 공부할 수 있어요."
+    },
+    {
+     "en": "The library returns to regular hours on Saturday.",
+     "ko": "도서관은 토요일에 평소 시간으로 돌아가요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "공지(글로 읽는 연습): 'Attention, students. The campus library will close early this Friday because of a staff meeting. Instead of 10 p.m., it will close at 6 p.m. The study rooms on the second floor will stay open until 8 p.m. only for students who reserved them online. Students who need a quiet place after 6 p.m. can use the Student Center, which will be open until midnight. The library will return to its regular hours on Saturday.' 질문: What is the main purpose of the announcement?",
+     "choices": [
+      "To announce a change in library hours",
+      "To invite students to a meeting",
+      "To ask for volunteers",
+      "To explain a new library fee"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "공지 첫 부분에서 이번 금요일 도서관이 일찍 닫는다고 알렸으므로 목적은 운영 시간 변경입니다.",
+     "error_tag": "purpose",
+     "id": "F009-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "공지(글로 읽는 연습): 'Attention, students. The campus library will close early this Friday because of a staff meeting. Instead of 10 p.m., it will close at 6 p.m. The study rooms on the second floor will stay open until 8 p.m. only for students who reserved them online. Students who need a quiet place after 6 p.m. can use the Student Center, which will be open until midnight. The library will return to its regular hours on Saturday.' 질문: Why will the library close early?",
+     "choices": [
+      "A staff meeting will be held.",
+      "The building will be repaired.",
+      "There will be a holiday.",
+      "The study rooms are full."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "because of a staff meeting이 이유입니다.",
+     "error_tag": "reason",
+     "id": "F009-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "공지(글로 읽는 연습): 'Attention, students. The campus library will close early this Friday because of a staff meeting. Instead of 10 p.m., it will close at 6 p.m. The study rooms on the second floor will stay open until 8 p.m. only for students who reserved them online. Students who need a quiet place after 6 p.m. can use the Student Center, which will be open until midnight. The library will return to its regular hours on Saturday.' 질문: What time will the library close on Friday?",
+     "choices": [
+      "6 p.m.",
+      "8 p.m.",
+      "10 p.m.",
+      "Midnight"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "원래는 10시이지만 instead of 10 p.m., 6 p.m.에 닫는다고 했습니다.",
+     "error_tag": "detail",
+     "id": "F009-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "공지(글로 읽는 연습): 'Attention, students. The campus library will close early this Friday because of a staff meeting. Instead of 10 p.m., it will close at 6 p.m. The study rooms on the second floor will stay open until 8 p.m. only for students who reserved them online. Students who need a quiet place after 6 p.m. can use the Student Center, which will be open until midnight. The library will return to its regular hours on Saturday.' 질문: Who can use the second-floor study rooms until 8 p.m.?",
+     "choices": [
+      "Students who reserved them online",
+      "All students",
+      "Only library staff",
+      "Students who arrive after 6 p.m."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "only for students who reserved them online이라는 조건이 있습니다.",
+     "error_tag": "detail",
+     "id": "F009-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "공지(글로 읽는 연습): 'Attention, students. The campus library will close early this Friday because of a staff meeting. Instead of 10 p.m., it will close at 6 p.m. The study rooms on the second floor will stay open until 8 p.m. only for students who reserved them online. Students who need a quiet place after 6 p.m. can use the Student Center, which will be open until midnight. The library will return to its regular hours on Saturday.' 질문: Where can students study after 6 p.m. if they need a quiet place? (영어로 두 단어)",
+     "answer_text": "Student Center",
+     "accepted_answers": [
+      "student center",
+      "the student center",
+      "Student Center"
+     ],
+     "explanation_ko": "Student Center가 자정까지 열려 있다고 안내했습니다.",
+     "error_tag": "detail",
+     "id": "F009-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "공지(글로 읽는 연습): 'Attention, students. The campus library will close early this Friday because of a staff meeting. Instead of 10 p.m., it will close at 6 p.m. The study rooms on the second floor will stay open until 8 p.m. only for students who reserved them online. Students who need a quiet place after 6 p.m. can use the Student Center, which will be open until midnight. The library will return to its regular hours on Saturday.' 질문: On which day will the library return to its regular hours? (영어 한 단어)",
+     "answer_text": "Saturday",
+     "accepted_answers": [
+      "saturday"
+     ],
+     "explanation_ko": "마지막 문장에서 토요일에 평소 시간으로 돌아간다고 했습니다.",
+     "error_tag": "detail",
+     "id": "F009-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "공지를 듣고 목적과 이유를 적는다고 생각하고, 오늘 공지의 목적과 이유를 영어로 한 문장씩 써 보세요.",
+    "example_answer_en": "The announcement is about early closing. The reason is a staff meeting.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-20",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-20"
+   }
   }
  ]
 }

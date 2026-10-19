@@ -4370,6 +4370,190 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전"
+  },
+  {
+   "id": "JP-INTRO-39",
+   "day_index": 39,
+   "week_index": 6,
+   "level": "INTRO",
+   "unit_id": "INTRO-W06",
+   "lesson_type": "new",
+   "title_ko": "가타카나 ワ·ヲ·ン",
+   "objective_ko": "가타카나 ワ·ヲ·ン을 읽고, 외래어 단어를 읽는다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-INTRO-38"
+   ],
+   "new_items": [
+    {
+     "id": "kana-d39-01",
+     "kind": "kana",
+     "text": "ワ",
+     "reading_romanized": "wa",
+     "meaning_ko": null
+    },
+    {
+     "id": "kana-d39-02",
+     "kind": "kana",
+     "text": "ヲ",
+     "reading_romanized": "wo",
+     "meaning_ko": null
+    },
+    {
+     "id": "kana-d39-03",
+     "kind": "kana",
+     "text": "ン",
+     "reading_romanized": "n",
+     "meaning_ko": null
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "ワイン",
+     "reading_romanized": "wain",
+     "meaning_ko": "와인",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "ワニ",
+     "reading_romanized": "wani",
+     "meaning_ko": "악어",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "ワンタン",
+     "reading_romanized": "wantan",
+     "meaning_ko": "완탕(중국식 만두 수프)",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "ラーメン",
+     "reading_romanized": "raamen",
+     "meaning_ko": "라면",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "コイン",
+     "reading_romanized": "koin",
+     "meaning_ko": "동전",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "ランチ",
+     "reading_romanized": "ranchi",
+     "meaning_ko": "런치, 점심 식사",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "インク",
+     "reading_romanized": "inku",
+     "meaning_ko": "잉크",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "ライン",
+     "reading_romanized": "rain",
+     "meaning_ko": "라인, 선",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "テント",
+     "reading_romanized": "tento",
+     "meaning_ko": "텐트",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "ホームラン",
+     "reading_romanized": "hoomuran",
+     "meaning_ko": "홈런",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「ワ」의 일반적인 로마자 표기는 무엇인가요?",
+     "options": [
+      "wa",
+      "ra",
+      "ru",
+      "wo"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ワ는 wa로 표기합니다. 히라가나 わ와 같은 소리입니다. ラ(ra)와 모양을 구별하세요.",
+     "id": "JP-INTRO-39-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「ン」의 일반적인 로마자 표기는 무엇인가요?",
+     "options": [
+      "n",
+      "nu",
+      "mu",
+      "no"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ン은 n으로 표기합니다. 히라가나 ん과 같은 소리이며 단어 끝이나 다른 글자 뒤에서 받침처럼 읽습니다.",
+     "id": "JP-INTRO-39-Q2"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「ヲ」를 로마자로 입력하세요. (を와 같은 소리)",
+     "answer_text": "wo",
+     "accepted_answers": [
+      "wo",
+      "o"
+     ],
+     "explanation_ko": "ヲ → wo. 히라가나 を처럼 o로 소리 나지만 가타카나 단어에서는 거의 쓰이지 않습니다.",
+     "id": "JP-INTRO-39-Q3"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「ワイン」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "wain",
+     "accepted_answers": [
+      "wain"
+     ],
+     "explanation_ko": "ワイン = wain (와인)",
+     "id": "JP-INTRO-39-Q4"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「ラーメン」의 뜻은?",
+     "options": [
+      "라면",
+      "카레",
+      "빵",
+      "우유"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ラーメン(raamen)은 '라면'입니다. カレー(karee)는 카레, ミルク(miruku)는 우유입니다.",
+     "id": "JP-INTRO-39-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「コイン」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "koin",
+     "accepted_answers": [
+      "koin"
+     ],
+     "explanation_ko": "コイン = koin (동전)",
+     "id": "JP-INTRO-39-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_KATAKANA"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전"
   }
  ]
 }

@@ -1688,6 +1688,202 @@
     "version": 1,
     "last_revised": "2026-10-19"
    }
+  },
+  {
+   "id": "B1-010",
+   "level": "B1",
+   "track": "general",
+   "day": 10,
+   "title_ko": "간접 의문문: Could you tell me where ... is?",
+   "objective_ko": "직접 의문문을 정중한 간접 의문문으로 바꾸고 어순(평서문 어순)을 지킨다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-20",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "Could you tell me ...? / Do you know ...? / I wonder ... 뒤에 오는 질문을 간접 의문문이라고 하며, 더 정중하게 들립니다. 핵심은 어순입니다. 직접 의문문은 Where is the station?처럼 동사가 앞에 오지만, 간접 의문문은 평서문 어순(의문사 + 주어 + 동사)을 씁니다: Could you tell me where the station is? ① do/does/did를 쓰지 않습니다: What time does it open? → Do you know what time it opens? (동사에 -s/-ed가 붙습니다) ② 의문사가 없는 예/아니요 질문은 if 또는 whether를 씁니다: Does she like coffee? → I wonder if she likes coffee. ③ 문장 끝은 물음표인 경우(Could you tell me ...?)와 마침표인 경우(I don't know ...)가 있습니다.",
+    "common_mistake_ko": "Could you tell me where is the station?(X) → Could you tell me where the station is?(O) / Do you know what time does it open?(X) → Do you know what time it opens?(O) / I wonder what does she want.(X) → I wonder what she wants.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "whether",
+     "part_of_speech": "접속사",
+     "meaning_ko": "~인지 아닌지",
+     "example_en": "I don't know whether she will come.",
+     "example_ko": "나는 그녀가 올지 안 올지 몰라요."
+    },
+    {
+     "word": "wonder",
+     "part_of_speech": "동사",
+     "meaning_ko": "궁금해하다",
+     "example_en": "I wonder what time the shop opens.",
+     "example_ko": "그 가게가 몇 시에 여는지 궁금해요."
+    },
+    {
+     "word": "entrance",
+     "part_of_speech": "명사",
+     "meaning_ko": "입구",
+     "example_en": "Do you know where the entrance is?",
+     "example_ko": "입구가 어디인지 아세요?"
+    },
+    {
+     "word": "direction",
+     "part_of_speech": "명사",
+     "meaning_ko": "방향, 길 안내",
+     "example_en": "Could you give me directions?",
+     "example_ko": "길 좀 알려 주시겠어요?"
+    },
+    {
+     "word": "reception",
+     "part_of_speech": "명사",
+     "meaning_ko": "접수처, 안내 데스크",
+     "example_en": "Do you know where the reception is?",
+     "example_ko": "접수처가 어디인지 아세요?"
+    },
+    {
+     "word": "politely",
+     "part_of_speech": "부사",
+     "meaning_ko": "정중하게",
+     "example_en": "He asked politely.",
+     "example_ko": "그는 정중하게 물었어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Could you tell me where the station is?",
+     "ko": "역이 어디인지 알려 주시겠어요?"
+    },
+    {
+     "en": "I wonder what time the shop opens.",
+     "ko": "그 가게가 몇 시에 여는지 궁금해요."
+    },
+    {
+     "en": "Do you know how much this jacket costs?",
+     "ko": "이 재킷이 얼마인지 아세요?"
+    },
+    {
+     "en": "Can you tell me if the bus stops here?",
+     "ko": "이 버스가 여기에 서는지 알려 주시겠어요?"
+    },
+    {
+     "en": "I don't know whether she will come.",
+     "ko": "나는 그녀가 올지 안 올지 몰라요."
+    },
+    {
+     "en": "Could you tell me how I can get to the entrance?",
+     "ko": "입구에 어떻게 가는지 알려 주시겠어요?"
+    },
+    {
+     "en": "Do you know when the meeting starts?",
+     "ko": "회의가 언제 시작하는지 아세요?"
+    },
+    {
+     "en": "I'd like to know why the flight was delayed.",
+     "ko": "비행기가 왜 지연되었는지 알고 싶어요."
+    },
+    {
+     "en": "Excuse me, do you know where the reception is?",
+     "ko": "실례합니다, 접수처가 어디인지 아세요?"
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "Could you tell me where ___?",
+     "choices": [
+      "the library is",
+      "is the library",
+      "does the library",
+      "the library does"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "간접 의문문은 의문사 뒤에 주어 + 동사 순서를 씁니다: where the library is.",
+     "error_tag": "indirect-question",
+     "id": "B1010-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "I wonder ___ she likes coffee. (그녀가 커피를 좋아하는지)",
+     "choices": [
+      "if",
+      "what",
+      "where",
+      "who"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "예/아니요 질문을 간접 의문문으로 바꿀 때는 if 또는 whether를 씁니다.",
+     "error_tag": "indirect-question",
+     "id": "B1010-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "Do you know what time the train leaves?",
+      "Do you know what time does the train leave?",
+      "Do you know what time leaves the train?",
+      "Do you know what time the train does leave?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "간접 의문문에서는 do/does를 쓰지 않고 평서문 어순으로 what time the train leaves라고 합니다.",
+     "error_tag": "indirect-question",
+     "id": "B1010-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'How much is it?'을 정중하게 바꾼 문장은?",
+     "choices": [
+      "Could you tell me how much it is?",
+      "Could you tell me how much is it?",
+      "Could you tell me how much does it cost?",
+      "Could you tell me how much it is it?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "how much 뒤에 주어 + 동사(it is) 순서로 씁니다. 동사가 앞에 오면 직접 의문문 어순입니다.",
+     "error_tag": "indirect-question",
+     "id": "B1010-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 형태를 쓰세요: Do you know where he ___? (live)",
+     "answer_text": "lives",
+     "accepted_answers": [
+      "lives"
+     ],
+     "explanation_ko": "간접 의문문은 평서문 어순이므로 주어 he 뒤의 동사에 -s를 붙여 lives입니다.",
+     "error_tag": "indirect-question",
+     "id": "B1010-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: I don't know ___ it will rain tomorrow. (if 또는 whether)",
+     "answer_text": "whether",
+     "accepted_answers": [
+      "whether",
+      "if"
+     ],
+     "explanation_ko": "'~인지 아닌지'는 whether 또는 if로 표현합니다.",
+     "error_tag": "indirect-question",
+     "id": "B1010-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "Could you tell me ...로 시작하는 정중한 질문을 두 개 써 보세요.",
+    "example_answer_en": "Could you tell me where the bus stop is? Could you tell me what time the museum opens?",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-20",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-20"
+   }
   }
  ]
 }

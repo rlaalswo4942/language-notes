@@ -2962,6 +2962,229 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-15",
+   "day_index": 15,
+   "week_index": 3,
+   "level": "N2",
+   "unit_id": "N2-W03",
+   "lesson_type": "new",
+   "title_ko": "〜に違いない: 틀림없이 ~일 것이다",
+   "objective_ko": "근거를 바탕으로 ‘틀림없이 ~일 것이다’라고 확신하는 〜に違いない를 쓴다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-14"
+   ],
+   "explanation_ko": "〜に違いない는 ‘틀림없이 ~일 것이다’라는 뜻으로, 말하는 사람이 근거를 바탕으로 강하게 확신할 때 씁니다. 접속은 동사・い형용사는 보통형, 명사・な형용사는 だ 없이 어간에 바로 붙입니다: 合格するに違いない / おいしいに違いない / 男に違いない / 上手に違いない. 과거 추측은 〜たに違いない, 정중하게는 〜に違いありません입니다. 〜かもしれない가 ‘그럴 수도 있다’는 가능성을 나타내는 데 비해, 〜に違いない는 거의 확실하다고 보는 판단입니다. 〜はずだ와 뜻이 가깝지만 〜に違いない는 말하는 사람의 주관적인 확신이 강하고 다소 격식 차린 느낌이 있습니다.",
+   "usage_notes": [
+    "명사와 な형용사 뒤에는 だ를 붙이지 않습니다(男だに違いない는 틀림).",
+    "근거나 단서가 있을 때 쓰는 말이므로 근거 없는 희망에는 어울리지 않습니다.",
+    "자신이 직접 한 행동에는 쓰지 않고, 상대나 제3자의 일, 사실에 대한 판단에 씁니다."
+   ],
+   "common_mistakes": [
+    "男だに違いない(X) → 男に違いない(O): 명사에는 だ 없이 붙입니다.",
+    "上手だに違いない(X) → 上手に違いない(O): な형용사에도 だ를 붙이지 않습니다.",
+    "行きますに違いない(X) → 行くに違いない(O): 공손형이 아니라 보통형에 붙입니다.",
+    "違いありません을 違いがあります로 바꾸기(X): ‘틀림없다’의 정중형은 違いありません입니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N2-15-01",
+     "kind": "word",
+     "text": "証拠{しょうこ}",
+     "reading_kana": "しょうこ",
+     "reading_romanized": "shouko",
+     "meaning_ko": "증거",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-15-02",
+     "kind": "word",
+     "text": "足跡{あしあと}",
+     "reading_kana": "あしあと",
+     "reading_romanized": "ashiato",
+     "meaning_ko": "발자국",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-15-03",
+     "kind": "word",
+     "text": "当選{とうせん}",
+     "reading_kana": "とうせん",
+     "reading_romanized": "tousen",
+     "meaning_ko": "당선",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-15-04",
+     "kind": "word",
+     "text": "成功{せいこう}",
+     "reading_kana": "せいこう",
+     "reading_romanized": "seikou",
+     "meaning_ko": "성공",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-15-05",
+     "kind": "word",
+     "text": "遅刻{ちこく}",
+     "reading_kana": "ちこく",
+     "reading_romanized": "chikoku",
+     "meaning_ko": "지각",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-15-06",
+     "kind": "word",
+     "text": "偽物{にせもの}",
+     "reading_kana": "にせもの",
+     "reading_romanized": "nisemono",
+     "meaning_ko": "가짜",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "この足跡{あしあと}は大{おお}きいから、犯人{はんにん}は男{おとこ}に違{ちが}いない。",
+     "meaning_ko": "이 발자국은 크니까 범인은 남자임이 틀림없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}は毎日{まいにち}勉強{べんきょう}しているから、試験{しけん}に合格{ごうかく}するに違{ちが}いない。",
+     "meaning_ko": "그는 매일 공부하고 있으니 시험에 합격할 것이 틀림없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "あんなに安{やす}いのは、偽物{にせもの}に違{ちが}いない。",
+     "meaning_ko": "그렇게 싼 것은 가짜임이 틀림없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "電気{でんき}がついているから、まだ誰{だれ}かいるに違{ちが}いない。",
+     "meaning_ko": "불이 켜져 있으니 아직 누군가 있을 것이 틀림없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼女{かのじょ}は有名{ゆうめい}な画家{がか}の娘{むすめ}だから、絵{え}が上手{じょうず}に違{ちが}いない。",
+     "meaning_ko": "그녀는 유명한 화가의 딸이니 그림을 잘 그릴 것이 틀림없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "二人{ふたり}は会議{かいぎ}に来{き}ていない。遅刻{ちこく}したに違{ちが}いない。",
+     "meaning_ko": "두 사람은 회의에 오지 않았다. 지각한 것이 틀림없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "証拠{しょうこ}はないが、私{わたし}はあの人{ひと}が犯人{はんにん}に違{ちが}いないと思{おも}う。",
+     "meaning_ko": "증거는 없지만 나는 그 사람이 범인임이 틀림없다고 생각한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "あの店{みせ}は行列{ぎょうれつ}ができているから、おいしいに違{ちが}いない。",
+     "meaning_ko": "저 가게는 줄이 늘어서 있으니 맛있을 것이 틀림없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "成功{せいこう}するに違{ちが}いないと信{しん}じて、努力{どりょく}を続{つづ}けた。",
+     "meaning_ko": "성공할 것이 틀림없다고 믿고 노력을 계속했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "これだけ人気{にんき}があれば、当選{とうせん}するに違{ちが}いない。",
+     "meaning_ko": "이만큼 인기가 있다면 당선될 것이 틀림없다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "‘그녀는 그림을 잘 그릴 것이 틀림없다’가 되도록 알맞은 말을 고르세요. 彼女は絵が上手（　）違いない。",
+     "options": [
+      "に",
+      "だに",
+      "なに",
+      "のに"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "な형용사는 だ 없이 어간에 바로 に違いない를 붙입니다. 上手に違いない.",
+     "id": "JP-N2-15-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "‘저 가게는 맛있을 것이 틀림없다’가 되도록 알맞은 말을 고르세요. あの店は おいしい（　）。",
+     "options": [
+      "に違いない",
+      "だに違いない",
+      "なに違いない",
+      "ので違いない"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "い형용사는 보통형 그대로 に違いない에 연결합니다.",
+     "id": "JP-N2-15-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「遅刻したに違いない」의 뜻은?",
+     "options": [
+      "지각한 것이 틀림없다.",
+      "지각할지도 모른다.",
+      "지각하지 않았다.",
+      "지각하면 안 된다."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜たに違いない는 과거 일에 대한 확신입니다.",
+     "id": "JP-N2-15-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "‘틀림없이 ~일 것이다’처럼 거의 확실하다고 보는 표현은?",
+     "options": [
+      "〜に違いない",
+      "〜かもしれない",
+      "〜ことがある",
+      "〜つもりだ"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜かもしれない는 가능성, 〜に違いない는 거의 확실하다는 판단입니다.",
+     "id": "JP-N2-15-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「証拠」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "shouko",
+     "accepted_answers": [
+      "shouko",
+      "shoko"
+     ],
+     "explanation_ko": "証拠 = しょうこ (shouko)",
+     "id": "JP-N2-15-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「足跡」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "ashiato",
+     "accepted_answers": [
+      "ashiato"
+     ],
+     "explanation_ko": "足跡 = あしあと (ashiato)",
+     "id": "JP-N2-15-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

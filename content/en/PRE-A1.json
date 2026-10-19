@@ -3107,6 +3107,179 @@
     "version": 1,
     "last_revised": "2026-10-19"
    }
+  },
+  {
+   "id": "PRE-021",
+   "level": "Pre-A1",
+   "track": "foundation",
+   "day": 21,
+   "title_ko": "3주차 종합 복습",
+   "objective_ko": "15~20일차의 he/she + 동사 -s, have/has, do/does, don't/doesn't, 짧은 대화를 섞어 다시 확인한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-20",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "3주차에 배운 내용을 한꺼번에 점검합니다. ① he/she/it 뒤의 일반동사에는 -s를 붙입니다: She likes tea. ② have의 3인칭 단수는 has입니다: He has a bike. ③ 일반동사 질문은 Do/Does로 시작하고, 주어가 he/she이면 Does를 씁니다. Does를 쓰면 동사는 원래 모양입니다: Does she like tea? ④ 부정문은 don't/doesn't를 동사 앞에 씁니다: We don't like milk. She doesn't like milk. ⑤ 대답은 질문의 do/does를 그대로 씁니다: Does she have a pen? — No, she doesn't. 틀린 문제는 해설을 읽고 해당 일차를 다시 보세요.",
+    "common_mistake_ko": "She like tea.(X) → She likes tea.(O) / Does she likes tea?(X) → Does she like tea?(O) / He have a bike.(X) → He has a bike.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "tea",
+     "part_of_speech": "명사",
+     "meaning_ko": "차",
+     "example_en": "She drinks tea.",
+     "example_ko": "그녀는 차를 마셔요."
+    },
+    {
+     "word": "friend",
+     "part_of_speech": "명사",
+     "meaning_ko": "친구",
+     "example_en": "He has a friend.",
+     "example_ko": "그에게는 친구가 한 명 있어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "She likes tea.",
+     "ko": "그녀는 차를 좋아해요."
+    },
+    {
+     "en": "He has a new bike.",
+     "ko": "그는 새 자전거가 있어요."
+    },
+    {
+     "en": "Does she like tea?",
+     "ko": "그녀는 차를 좋아해요?"
+    },
+    {
+     "en": "Do you have a friend?",
+     "ko": "친구가 있어요?"
+    },
+    {
+     "en": "We don't like milk.",
+     "ko": "우리는 우유를 좋아하지 않아요."
+    },
+    {
+     "en": "She doesn't like milk.",
+     "ko": "그녀는 우유를 좋아하지 않아요."
+    },
+    {
+     "en": "Does she have a pen?",
+     "ko": "그녀는 펜이 있어요?"
+    },
+    {
+     "en": "No, she doesn't.",
+     "ko": "아니요, 없어요."
+    },
+    {
+     "en": "I go to school.",
+     "ko": "나는 학교에 가요."
+    },
+    {
+     "en": "Please come in.",
+     "ko": "들어오세요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "She ___ English every day.",
+     "choices": [
+      "study",
+      "studies",
+      "is study",
+      "studys"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "주어가 she일 때 study는 y를 i로 바꾸고 -es를 붙여 studies가 됩니다.",
+     "error_tag": "third-person",
+     "id": "P021-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "My brother ___ a new bike.",
+     "choices": [
+      "have",
+      "has",
+      "haves",
+      "is have"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "주어가 3인칭 단수(my brother)이면 have는 has가 됩니다.",
+     "error_tag": "have-has",
+     "id": "P021-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "___ he like tea?",
+     "choices": [
+      "Do",
+      "Does",
+      "Is",
+      "Are"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "주어가 he일 때 일반동사 질문은 Does로 시작합니다.",
+     "error_tag": "do-does",
+     "id": "P021-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'우리는 우유를 좋아하지 않아요'에 맞는 문장은?",
+     "choices": [
+      "We don't like milk.",
+      "We doesn't like milk.",
+      "We aren't like milk.",
+      "We no like milk."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "주어가 we이므로 don't를 쓰고, like는 원래 모양을 씁니다.",
+     "error_tag": "negative",
+     "id": "P021-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 말을 쓰세요: She ___ coffee. (like)",
+     "answer_text": "likes",
+     "accepted_answers": [
+      "likes"
+     ],
+     "explanation_ko": "she 뒤의 일반동사에는 -s를 붙여 likes가 됩니다.",
+     "error_tag": "third-person",
+     "id": "P021-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 말을 쓰세요: Does she have a pen? — No, she ___.",
+     "answer_text": "doesn't",
+     "accepted_answers": [
+      "doesn't",
+      "does not",
+      "doesnt"
+     ],
+     "explanation_ko": "does 질문에는 does로 답하므로 No, she doesn't.입니다.",
+     "error_tag": "short-answer",
+     "id": "P021-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "he 또는 she를 주어로 하여 have/has를 쓴 문장 하나와 doesn't를 쓴 문장 하나를 써 보세요.",
+    "example_answer_en": "My friend has a bike. She doesn't like tea.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-20",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-20"
+   }
   }
  ]
 }

@@ -2718,6 +2718,205 @@
     "version": 1,
     "last_revised": "2026-10-19"
    }
+  },
+  {
+   "id": "A2-015",
+   "level": "A2",
+   "track": "foundation",
+   "day": 15,
+   "title_ko": "시간 표현: ago / last / next / in + 기간",
+   "objective_ko": "ago, last, next, in을 구별해 과거와 미래의 시점을 정확히 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-20",
+     "supports": "A1-A2 문법 학습 주제"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "시간 표현은 과거인지 미래인지에 따라 달라집니다. ① ago는 '지금부터 거슬러 올라가 ~ 전에'이며 기간 뒤에 씁니다: two weeks ago(2주 전에). 동사는 과거형입니다. ② last + 시간은 '지난 ~'입니다: last year, last night. ③ next + 시간은 '다음 ~'입니다: next month, next week. ④ in + 기간은 '지금부터 ~ 뒤에'입니다: in ten minutes(10분 뒤에). 주로 미래 문장에 씁니다. last/next/ago 앞에는 on, in, at 같은 전치사를 붙이지 않습니다.",
+    "common_mistake_ko": "I met him before two days.(X) → I met him two days ago.(O) / I will go in next month.(X) → I will go next month.(O) / The class starts after ten minutes.(X) → The class starts in ten minutes.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "month",
+     "part_of_speech": "명사",
+     "meaning_ko": "달, 개월",
+     "example_en": "I will return next month.",
+     "example_ko": "나는 다음 달에 돌아올 거예요."
+    },
+    {
+     "word": "year",
+     "part_of_speech": "명사",
+     "meaning_ko": "해, 년",
+     "example_en": "She moved here three years ago.",
+     "example_ko": "그녀는 3년 전에 여기로 이사 왔어요."
+    },
+    {
+     "word": "soon",
+     "part_of_speech": "부사",
+     "meaning_ko": "곧",
+     "example_en": "Please call me soon.",
+     "example_ko": "곧 전화해 주세요."
+    },
+    {
+     "word": "later",
+     "part_of_speech": "부사",
+     "meaning_ko": "나중에",
+     "example_en": "I'll see you later.",
+     "example_ko": "나중에 봐요."
+    },
+    {
+     "word": "return",
+     "part_of_speech": "동사",
+     "meaning_ko": "돌아오다",
+     "example_en": "He will return in two days.",
+     "example_ko": "그는 이틀 뒤에 돌아올 거예요."
+    },
+    {
+     "word": "airport",
+     "part_of_speech": "명사",
+     "meaning_ko": "공항",
+     "example_en": "My flight leaves in two hours.",
+     "example_ko": "내 비행기는 두 시간 뒤에 출발해요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I visited my aunt two weeks ago.",
+     "ko": "나는 2주 전에 이모를 찾아갔어요."
+    },
+    {
+     "en": "She moved here three years ago.",
+     "ko": "그녀는 3년 전에 여기로 이사 왔어요."
+    },
+    {
+     "en": "We went to the beach last summer.",
+     "ko": "우리는 지난여름에 해변에 갔어요."
+    },
+    {
+     "en": "He called me last night.",
+     "ko": "그는 어젯밤에 나에게 전화했어요."
+    },
+    {
+     "en": "The train leaves in ten minutes.",
+     "ko": "기차는 10분 뒤에 출발해요."
+    },
+    {
+     "en": "I will return next month.",
+     "ko": "나는 다음 달에 돌아올 거예요."
+    },
+    {
+     "en": "My flight leaves in two hours.",
+     "ko": "내 비행기는 두 시간 뒤에 출발해요."
+    },
+    {
+     "en": "Please call me soon.",
+     "ko": "곧 전화해 주세요."
+    },
+    {
+     "en": "They started the course a year ago.",
+     "ko": "그들은 1년 전에 그 과정을 시작했어요."
+    },
+    {
+     "en": "I'll see you later.",
+     "ko": "나중에 봐요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "I met Tom three days ___.",
+     "choices": [
+      "ago",
+      "last",
+      "next",
+      "in"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "기간(three days) 뒤에서 '~ 전에'를 뜻하는 말은 ago입니다.",
+     "error_tag": "time-expressions",
+     "id": "A2-015-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "She went to Japan ___ year. (작년에)",
+     "choices": [
+      "last",
+      "ago",
+      "in",
+      "next"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "'작년'은 last year입니다. ago는 기간 뒤에 씁니다(a year ago).",
+     "error_tag": "time-expressions",
+     "id": "A2-015-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "The class starts ___ ten minutes. (10분 뒤에)",
+     "choices": [
+      "in",
+      "ago",
+      "last",
+      "at"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "지금부터 ~ 뒤에는 in + 기간을 씁니다.",
+     "error_tag": "time-expressions",
+     "id": "A2-015-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "We will visit Grandma ___ weekend. (다음 주말에)",
+     "choices": [
+      "next",
+      "last",
+      "ago",
+      "in"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "다음 주말은 next weekend입니다. 앞에 전치사를 붙이지 않습니다.",
+     "error_tag": "time-expressions",
+     "id": "A2-015-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: He left two hours ___. (두 시간 전에)",
+     "answer_text": "ago",
+     "accepted_answers": [
+      "ago"
+     ],
+     "explanation_ko": "기간 뒤에서 '~ 전에'는 ago입니다. 동사는 과거형 left입니다.",
+     "error_tag": "time-expressions",
+     "id": "A2-015-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: I will call you ___ five minutes. (5분 뒤에)",
+     "answer_text": "in",
+     "accepted_answers": [
+      "in"
+     ],
+     "explanation_ko": "지금부터 ~ 뒤에는 in + 기간입니다.",
+     "error_tag": "time-expressions",
+     "id": "A2-015-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "ago를 쓴 과거 문장 하나와 next 또는 in을 쓴 미래 문장 하나를 써 보세요.",
+    "example_answer_en": "I started this course a week ago. I will take a test next month.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-20",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-20"
+   }
   }
  ]
 }

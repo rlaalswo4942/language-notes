@@ -2721,6 +2721,202 @@
     "version": 1,
     "last_revised": "2026-10-19"
    }
+  },
+  {
+   "id": "B2-015",
+   "level": "B2",
+   "track": "general",
+   "day": 15,
+   "title_ko": "대조·양보: despite / in spite of / although / whereas",
+   "objective_ko": "despite·in spite of 뒤에는 명사(구), although·whereas 뒤에는 절을 쓴다는 차이를 구별한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "checked_at": "2026-10-20",
+     "supports": "문법 학습 주제"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "'~에도 불구하고'와 '반면에'를 나타내는 표현은 뒤에 오는 형태가 다릅니다. ① despite / in spite of + 명사(구) 또는 -ing: Despite the rain, we played. / In spite of being tired, she worked. (despite of는 틀린 형태입니다) 절을 바로 이어 쓰려면 despite the fact that + 절을 씁니다. ② although / even though + 절(주어 + 동사): Although it was raining, we played. ③ whereas / while + 절은 두 사실을 대조합니다: Urban areas are crowded, whereas rural areas are quiet. while이 문장 앞에 오면 쉼표로 나눕니다. ④ nevertheless는 앞 문장과 뒤 문장을 이어 주는 부사로 문장 사이에서 씁니다: The plan was expensive. Nevertheless, the board approved it.",
+    "common_mistake_ko": "Despite he was ill, he came.(X) → Despite being ill, he came. / Although he was ill, he came.(O) / Despite of the rain(X) → Despite the rain / In spite of the rain(O) / Although the noise, he worked.(X) → Despite the noise, he worked.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "contrast",
+     "part_of_speech": "명사",
+     "meaning_ko": "대조, 차이",
+     "example_en": "There is a clear contrast between the two cities.",
+     "example_ko": "두 도시 사이에는 뚜렷한 차이가 있어요."
+    },
+    {
+     "word": "whereas",
+     "part_of_speech": "접속사",
+     "meaning_ko": "반면에",
+     "example_en": "He likes tea, whereas she likes coffee.",
+     "example_ko": "그는 차를 좋아하는 반면 그녀는 커피를 좋아해요."
+    },
+    {
+     "word": "despite",
+     "part_of_speech": "전치사",
+     "meaning_ko": "~에도 불구하고",
+     "example_en": "Despite the delay, we arrived on time.",
+     "example_ko": "지연에도 불구하고 우리는 제시간에 도착했어요."
+    },
+    {
+     "word": "in spite of",
+     "part_of_speech": "전치사구",
+     "meaning_ko": "~에도 불구하고",
+     "example_en": "In spite of the cost, they bought it.",
+     "example_ko": "비용에도 불구하고 그들은 그것을 샀어요."
+    },
+    {
+     "word": "nevertheless",
+     "part_of_speech": "부사",
+     "meaning_ko": "그럼에도 불구하고",
+     "example_en": "The plan was risky. Nevertheless, we tried it.",
+     "example_ko": "그 계획은 위험했어요. 그럼에도 우리는 시도했어요."
+    },
+    {
+     "word": "urban",
+     "part_of_speech": "형용사",
+     "meaning_ko": "도시의",
+     "example_en": "Urban areas are crowded.",
+     "example_ko": "도시 지역은 붐벼요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Despite the heavy rain, the match went ahead.",
+     "ko": "폭우에도 불구하고 경기는 진행되었어요."
+    },
+    {
+     "en": "In spite of being tired, she finished the report.",
+     "ko": "피곤했지만 그녀는 보고서를 끝냈어요."
+    },
+    {
+     "en": "Although the rent is high, many people want to live downtown.",
+     "ko": "임대료가 비싼데도 많은 사람이 도심에 살고 싶어 해요."
+    },
+    {
+     "en": "Even though he studied hard, he failed the exam.",
+     "ko": "열심히 공부했지만 그는 시험에 떨어졌어요."
+    },
+    {
+     "en": "Urban areas are crowded, whereas rural areas are quiet.",
+     "ko": "도시 지역은 붐비는 반면 시골 지역은 조용해요."
+    },
+    {
+     "en": "While my sister prefers cities, I like the countryside.",
+     "ko": "내 여동생은 도시를 선호하는 반면 나는 시골이 좋아요."
+    },
+    {
+     "en": "The plan was expensive. Nevertheless, the board approved it.",
+     "ko": "그 계획은 비쌌어요. 그럼에도 이사회는 그것을 승인했어요."
+    },
+    {
+     "en": "Despite the fact that prices rose, sales increased.",
+     "ko": "가격이 올랐다는 사실에도 불구하고 매출은 늘었어요."
+    },
+    {
+     "en": "She speaks three languages, whereas her brother speaks only one.",
+     "ko": "그녀는 세 언어를 하는 반면 그녀의 오빠는 한 언어만 해요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "___ the noise, he kept working.",
+     "choices": [
+      "Despite",
+      "Although",
+      "Whereas",
+      "Even though"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "the noise는 명사구이므로 뒤에 명사를 받는 Despite를 씁니다. 나머지는 뒤에 절이 옵니다.",
+     "error_tag": "concession",
+     "id": "B2-015-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "___ it was raining, we went out.",
+     "choices": [
+      "Although",
+      "Despite",
+      "In spite of",
+      "Nevertheless"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "it was raining은 절이므로 접속사 Although를 씁니다. Nevertheless는 문장 사이에서 쓰는 부사입니다.",
+     "error_tag": "concession",
+     "id": "B2-015-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "City life is fast, ___ village life is slow.",
+     "choices": [
+      "whereas",
+      "despite",
+      "in spite of",
+      "unless"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "두 사실을 대조하는 절을 잇는 말은 whereas입니다.",
+     "error_tag": "contrast",
+     "id": "B2-015-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "In spite of being ill, he came to work.",
+      "In spite of he was ill, he came to work.",
+      "Despite he was ill, he came to work.",
+      "Despite of being ill, he came to work."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "in spite of 뒤에는 명사나 -ing가 옵니다. despite는 of 없이 씁니다.",
+     "error_tag": "concession",
+     "id": "B2-015-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: ___ the delay, we arrived on time. (~에도 불구하고)",
+     "answer_text": "Despite",
+     "accepted_answers": [
+      "despite"
+     ],
+     "explanation_ko": "the delay는 명사구이므로 Despite를 씁니다.",
+     "error_tag": "concession",
+     "id": "B2-015-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: He is rich, ___ his brother is poor. (대조)",
+     "answer_text": "whereas",
+     "accepted_answers": [
+      "whereas",
+      "while"
+     ],
+     "explanation_ko": "두 절의 대조는 whereas 또는 while로 나타냅니다.",
+     "error_tag": "contrast",
+     "id": "B2-015-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "despite 또는 in spite of를 쓴 문장 하나와 whereas를 쓴 문장 하나를 써 보세요.",
+    "example_answer_en": "Despite the cold weather, we went hiking. I like summer, whereas my friend likes winter.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-20",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-20"
+   }
   }
  ]
 }

@@ -2979,6 +2979,222 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N3-15",
+   "day_index": 15,
+   "week_index": 3,
+   "level": "N3",
+   "unit_id": "N3-W03",
+   "lesson_type": "new",
+   "title_ko": "〜(よ)うとする: ~하려고 하다",
+   "objective_ko": "동사 의지형 + とする로 ‘~하려고 하다’와 ‘~하려고 하지 않는다’를 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N3-14"
+   ],
+   "explanation_ko": "〜(よ)うとする는 ‘~하려고 하다’라는 뜻으로, 동작을 시작하려는 순간이나 시도를 나타냅니다. 동사 의지형에 とする를 붙입니다. 의지형 만드는 법: ① 그룹1은 어미 う단을 お단으로 바꾸고 う를 붙입니다(書く→書こう, 飲む→飲もう, 話す→話そう, 待つ→待とう, 買う→買おう). ② 그룹2는 る를 떼고 よう를 붙입니다(食べる→食べよう, 見る→見よう). ③ する→しよう, 来る→来よう. 〜ようとしたとき・〜ようとしたら는 ‘~하려고 했을 때’, 〜ようとしたが、できなかった는 ‘~하려고 했지만 못 했다’, 〜ようとしない는 ‘~하려고 하지 않는다’(의욕이 없다)입니다.",
+   "usage_notes": [
+    "〜ようとしたとき 뒤에는 그 순간에 일어난 뜻밖의 일이 자주 옵니다(電話が鳴った).",
+    "〜ようとしない는 사람이나 동물이 하려는 모습을 보이지 않을 때 씁니다. 물건에는 〜ようとしない를 쓰지 않습니다.",
+    "〜ようとする 앞에는 의지형이 오고, 〜ようにする(습관・노력)와 형태가 비슷하므로 구별합니다."
+   ],
+   "common_mistakes": [
+    "出かけるとしたとき(X) → 出かけようとしたとき(O): とする 앞은 의지형입니다.",
+    "飲むうとする(X) → 飲もうとする(O): 그룹1의 의지형은 お단 + う입니다.",
+    "食べろうとする(X) → 食べようとする(O): 그룹2는 る를 떼고 よう를 붙입니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N3-15-01",
+     "kind": "word",
+     "text": "出{で}かける",
+     "reading_kana": "でかける",
+     "reading_romanized": "dekakeru",
+     "meaning_ko": "외출하다, 나가다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N3-15-02",
+     "kind": "word",
+     "text": "鳴{な}る",
+     "reading_kana": "なる",
+     "reading_romanized": "naru",
+     "meaning_ko": "울리다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N3-15-03",
+     "kind": "word",
+     "text": "逃{に}げる",
+     "reading_kana": "にげる",
+     "reading_romanized": "nigeru",
+     "meaning_ko": "도망치다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N3-15-04",
+     "kind": "word",
+     "text": "手伝{てつだ}う",
+     "reading_kana": "てつだう",
+     "reading_romanized": "tetsudau",
+     "meaning_ko": "돕다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N3-15-05",
+     "kind": "word",
+     "text": "立{た}ち上{あ}がる",
+     "reading_kana": "たちあがる",
+     "reading_romanized": "tachiagaru",
+     "meaning_ko": "일어서다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N3-15-06",
+     "kind": "word",
+     "text": "眠{ねむ}る",
+     "reading_kana": "ねむる",
+     "reading_romanized": "nemuru",
+     "meaning_ko": "잠들다",
+     "part_of_speech": "동사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "出{で}かけようとしたとき、電話{でんわ}が鳴{な}った。",
+     "meaning_ko": "나가려고 했을 때 전화가 울렸다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "眠{ねむ}ろうとしたが、隣{となり}の部屋{へや}がうるさくて眠{ねむ}れなかった。",
+     "meaning_ko": "잠들려고 했지만 옆방이 시끄러워서 잠들 수 없었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "犯人{はんにん}は警察{けいさつ}を見{み}て、逃{に}げようとした。",
+     "meaning_ko": "범인은 경찰을 보고 도망치려고 했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "立{た}ち上{あ}がろうとしたら、足{あし}が痛{いた}くて動{うご}けなかった。",
+     "meaning_ko": "일어서려고 했더니 발이 아파서 움직일 수 없었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "母{はは}を手伝{てつだ}おうとしたが、断{ことわ}られた。",
+     "meaning_ko": "어머니를 도우려고 했지만 거절당했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "弟{おとうと}は野菜{やさい}を食{た}べようとしない。",
+     "meaning_ko": "남동생은 채소를 먹으려고 하지 않는다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "うちの猫{ねこ}は呼{よ}んでも来{こ}ようとしない。",
+     "meaning_ko": "우리 고양이는 불러도 오려고 하지 않는다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "ドアを開{あ}けようとしたら、鍵{かぎ}がかかっていた。",
+     "meaning_ko": "문을 열려고 했더니 잠겨 있었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}は何{なに}も話{はな}そうとしなかった。",
+     "meaning_ko": "그는 아무것도 말하려고 하지 않았다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "‘나가려고 했을 때 전화가 울렸다’가 되도록 알맞은 말을 고르세요. 出かけ（　）としたとき、電話が鳴った。",
+     "options": [
+      "よう",
+      "る",
+      "た",
+      "ない"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜とする 앞에는 의지형을 씁니다. 出かける는 그룹2이므로 出かけよう가 됩니다.",
+     "id": "JP-N3-15-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "‘남동생은 채소를 먹으려고 하지 않는다’가 되도록 알맞은 말을 고르세요. 弟は野菜を食べ（　）。",
+     "options": [
+      "ようとしない",
+      "ようとしている",
+      "ようとした",
+      "ようにする"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘~하려고 하지 않는다’는 〜ようとしない입니다. ようとしている는 ‘하려고 하고 있다’입니다.",
+     "id": "JP-N3-15-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「飲む」의 의지형은?",
+     "options": [
+      "飲もう",
+      "飲まう",
+      "飲むう",
+      "飲みよう"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "그룹1 동사는 어미 む를 お단 も로 바꾸고 う를 붙여 飲もう가 됩니다.",
+     "id": "JP-N3-15-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「食べる」의 의지형은?",
+     "options": [
+      "食べよう",
+      "食べろう",
+      "食べおう",
+      "食べるよう"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "그룹2 동사는 る를 떼고 よう를 붙여 食べよう가 됩니다.",
+     "id": "JP-N3-15-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「逃げる」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "nigeru",
+     "accepted_answers": [
+      "nigeru"
+     ],
+     "explanation_ko": "逃げる = にげる (nigeru)",
+     "id": "JP-N3-15-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「手伝う」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "tetsudau",
+     "accepted_answers": [
+      "tetsudau"
+     ],
+     "explanation_ko": "手伝う = てつだう (tetsudau)",
+     "id": "JP-N3-15-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

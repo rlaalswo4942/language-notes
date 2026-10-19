@@ -2980,6 +2980,228 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N5-15",
+   "day_index": 15,
+   "week_index": 3,
+   "level": "N5",
+   "unit_id": "N5-W03",
+   "lesson_type": "new",
+   "title_ko": "〜てください: 동사 て형으로 부탁하기",
+   "objective_ko": "동사를 て형으로 바꾸고 〜てください로 '~해 주세요'라고 부탁한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N5-14"
+   ],
+   "explanation_ko": "‘~해 주세요’는 동사 て형에 ください를 붙입니다. て형 만드는 법은 동사 그룹에 따라 다릅니다. ① 그룹1(う단으로 끝나는 동사): 끝이 う・つ・る → って(買う→買って, 待つ→待って, 帰る→帰って) / む・ぶ・ぬ → んで(読む→読んで, 飲む→飲んで) / く → いて(書く→書いて, 聞く→聞いて) / ぐ → いで(泳ぐ→泳いで) / す → して(話す→話して). 예외로 行く는 行って가 됩니다. ② 그룹2(る를 떼는 동사): る를 떼고 て(食べる→食べて, 見る→見て, 教える→教えて). ③ 그룹3(불규칙): する→して, 来る→来て(き). 부탁할 때 ちょっと(잠깐)나 すみません을 앞에 붙이면 더 부드럽습니다.",
+   "usage_notes": [
+    "て형은 ます형이 아니라 사전형에서 만듭니다. 그룹을 먼저 구별하세요.",
+    "〜てください는 윗사람에게도 쓸 수 있지만, 더 정중하게는 〜てくださいませんか 같은 표현이 있습니다(지금은 〜てください만 익힙니다).",
+    "여러 동사를 쓸 때는 마지막 동사만 ください로 끝내고, 앞의 동사는 て형으로 잇습니다."
+   ],
+   "common_mistakes": [
+    "書きてください(X) → 書いてください(O): く로 끝나는 그룹1은 いて가 됩니다.",
+    "行いてください(X) → 行ってください(O): 行く는 예외로 って가 됩니다.",
+    "読むてください(X) → 読んでください(O): む로 끝나면 んで가 됩니다.",
+    "食べってください(X) → 食べてください(O): 그룹2는 る를 떼고 て를 붙입니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N5-15-01",
+     "kind": "word",
+     "text": "窓{まど}",
+     "reading_kana": "まど",
+     "reading_romanized": "mado",
+     "meaning_ko": "창문",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-15-02",
+     "kind": "word",
+     "text": "名前{なまえ}",
+     "reading_kana": "なまえ",
+     "reading_romanized": "namae",
+     "meaning_ko": "이름",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-15-03",
+     "kind": "word",
+     "text": "住所{じゅうしょ}",
+     "reading_kana": "じゅうしょ",
+     "reading_romanized": "juusho",
+     "meaning_ko": "주소",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-15-04",
+     "kind": "word",
+     "text": "少{すこ}し",
+     "reading_kana": "すこし",
+     "reading_romanized": "sukoshi",
+     "meaning_ko": "조금",
+     "part_of_speech": "부사"
+    },
+    {
+     "id": "w-JP-N5-15-05",
+     "kind": "word",
+     "text": "ゆっくり",
+     "reading_kana": "ゆっくり",
+     "reading_romanized": "yukkuri",
+     "meaning_ko": "천천히",
+     "part_of_speech": "부사"
+    },
+    {
+     "id": "w-JP-N5-15-06",
+     "kind": "word",
+     "text": "教{おし}える",
+     "reading_kana": "おしえる",
+     "reading_romanized": "oshieru",
+     "meaning_ko": "가르치다, 알려 주다",
+     "part_of_speech": "동사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "ちょっと 見{み}て ください。",
+     "meaning_ko": "잠깐 봐 주세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "ここに 名前{なまえ}を 書{か}いて ください。",
+     "meaning_ko": "여기에 이름을 써 주세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "窓{まど}を 開{あ}けて ください。",
+     "meaning_ko": "창문을 열어 주세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "もう 一度{いちど} 言{い}って ください。",
+     "meaning_ko": "한 번 더 말해 주세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "ゆっくり 話{はな}して ください。",
+     "meaning_ko": "천천히 말해 주세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 本{ほん}を 読{よ}んで ください。",
+     "meaning_ko": "이 책을 읽어 주세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "少{すこ}し 待{ま}って ください。",
+     "meaning_ko": "조금 기다려 주세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "明日{あした} 九時{くじ}に 来{き}て ください。",
+     "meaning_ko": "내일 9시에 와 주세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "住所{じゅうしょ}を 教{おし}えて ください。",
+     "meaning_ko": "주소를 알려 주세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "ドアを 閉{し}めて ください。",
+     "meaning_ko": "문을 닫아 주세요.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "‘여기에 이름을 써 주세요’를 바르게 나타낸 것은?",
+     "options": [
+      "名前を 書いて ください。",
+      "名前を 書きて ください。",
+      "名前を 書くて ください。",
+      "名前を 書いで ください。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "書く는 く로 끝나는 그룹1이므로 いて가 되어 書いて가 됩니다.",
+     "id": "JP-N5-15-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "‘기다려 주세요’를 바르게 나타낸 것은?",
+     "options": [
+      "待って ください。",
+      "待ちて ください。",
+      "待んで ください。",
+      "待いて ください。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "待つ는 つ로 끝나므로 って가 되어 待って가 됩니다.",
+     "id": "JP-N5-15-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "‘이 책을 읽어 주세요’가 되도록 알맞은 말을 고르세요. この 本を（　）ください。",
+     "options": [
+      "読んで",
+      "読って",
+      "読いて",
+      "読して"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "読む는 む로 끝나므로 んで가 되어 読んで가 됩니다.",
+     "id": "JP-N5-15-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「ゆっくり 話して ください」의 뜻은?",
+     "options": [
+      "천천히 말해 주세요.",
+      "천천히 걸어 주세요.",
+      "빨리 말해 주세요.",
+      "천천히 먹어 주세요."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ゆっくり는 ‘천천히’, 話して ください는 ‘말해 주세요’입니다.",
+     "id": "JP-N5-15-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「窓」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "mado",
+     "accepted_answers": [
+      "mado"
+     ],
+     "explanation_ko": "窓 = まど (mado)",
+     "id": "JP-N5-15-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「食べます」의 て형을 로마자로 입력하세요.",
+     "answer_text": "tabete",
+     "accepted_answers": [
+      "tabete"
+     ],
+     "explanation_ko": "食べる는 그룹2이므로 る를 떼고 て를 붙여 食べて(tabete)가 됩니다.",
+     "id": "JP-N5-15-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }
