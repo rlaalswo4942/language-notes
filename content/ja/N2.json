@@ -3185,6 +3185,228 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-16",
+   "day_index": 16,
+   "week_index": 3,
+   "level": "N2",
+   "unit_id": "N2-W03",
+   "lesson_type": "new",
+   "title_ko": "〜かねない・〜かねる: ~할 수도 있다 / ~하기 어렵다",
+   "objective_ko": "〜かねない로 좋지 않은 일의 가능성을, 〜かねる로 정중한 거절을 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-15"
+   ],
+   "explanation_ko": "〜かねない는 동사 ます형 어간 + かねない로, ‘(좋지 않은 일이) ~할 수도 있다, ~할 우려가 있다’라는 뜻입니다. 〜かねる는 ます형 어간 + かねる로 ‘~하기 어렵다, ~할 수 없다’는 뜻이며, 업무나 접객에서 정중하게 거절할 때 〜かねます 형태로 자주 씁니다. 〜かねない는 〜かねる의 부정형이라서 ‘~하지 못하는 것은 아니다 → ~할 수도 있다’가 됩니다. ① このまま放置すれば、大きな事故になりかねない。 ② 私一人では判断しかねます。 〜かねない는 나쁜 결과의 가능성에 쓰고 좋은 결과에는 쓰지 않습니다.",
+   "usage_notes": [
+    "〜かねない는 부정적인 결과(사고, 오해, 손해 등)의 가능성에 씁니다. 좋은 일에는 쓰지 않습니다(×成功しかねない).",
+    "〜かねる는 ‘할 수 없다’를 부드럽게 돌려 말하는 정중한 거절입니다. お答えしかねます처럼 경어와 함께 자주 쓰입니다.",
+    "접속은 동사 ます형 어간이며, 명사나 형용사에는 붙지 않습니다."
+   ],
+   "common_mistakes": [
+    "言うかねない(X) → 言いかねない(O): ます형 어간(言い)에 붙입니다.",
+    "お答えできかねます(X) → お答えしかねます(O): 경어 ‘お〜する’ 형태에 かねます를 붙입니다.",
+    "彼ならやりかねる(X) → 彼ならやりかねない(O): ‘~할 수도 있다’는 かねない이고, かねる는 ‘~하기 어렵다’입니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N2-16-01",
+     "kind": "word",
+     "text": "事故{じこ}",
+     "reading_kana": "じこ",
+     "reading_romanized": "jiko",
+     "meaning_ko": "사고",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-16-02",
+     "kind": "word",
+     "text": "危険{きけん}",
+     "reading_kana": "きけん",
+     "reading_romanized": "kiken",
+     "meaning_ko": "위험",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-16-03",
+     "kind": "word",
+     "text": "責任{せきにん}",
+     "reading_kana": "せきにん",
+     "reading_romanized": "sekinin",
+     "meaning_ko": "책임",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-16-04",
+     "kind": "word",
+     "text": "放置{ほうち}",
+     "reading_kana": "ほうち",
+     "reading_romanized": "houchi",
+     "meaning_ko": "방치",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-16-05",
+     "kind": "word",
+     "text": "混乱{こんらん}",
+     "reading_kana": "こんらん",
+     "reading_romanized": "konran",
+     "meaning_ko": "혼란",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-16-06",
+     "kind": "word",
+     "text": "信用{しんよう}",
+     "reading_kana": "しんよう",
+     "reading_romanized": "shinyou",
+     "meaning_ko": "신용, 신뢰",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "このまま放置{ほうち}すると、大{おお}きな事故{じこ}になりかねない。",
+     "meaning_ko": "이대로 방치하면 큰 사고가 될 수도 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "睡眠不足{すいみんぶそく}のまま運転{うんてん}すると、事故{じこ}を起{お}こしかねない。",
+     "meaning_ko": "수면 부족인 채로 운전하면 사고를 일으킬 수도 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "そんな言{い}い方{かた}をしたら、誤解{ごかい}されかねない。",
+     "meaning_ko": "그런 식으로 말하면 오해받을 수도 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "あの人{ひと}なら、嘘{うそ}をつきかねない。",
+     "meaning_ko": "저 사람이라면 거짓말을 할지도 모른다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "情報{じょうほう}が混乱{こんらん}すると、信用{しんよう}を失{うしな}いかねない。",
+     "meaning_ko": "정보가 혼란스러우면 신용을 잃을 수도 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "申{もう}し訳{わけ}ございませんが、その件{けん}については、お答{こた}えしかねます。",
+     "meaning_ko": "죄송하지만 그 건에 대해서는 답변드리기 어렵습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "私{わたし}一人{ひとり}では判断{はんだん}しかねます。",
+     "meaning_ko": "저 혼자서는 판단하기 어렵습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この条件{じょうけん}では、賛成{さんせい}しかねる。",
+     "meaning_ko": "이 조건으로는 찬성하기 어렵다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "危険{きけん}な場所{ばしょ}で遊{あそ}ぶと、けがをしかねない。",
+     "meaning_ko": "위험한 곳에서 놀면 다칠 수도 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "その責任{せきにん}は私{わたし}一人{ひとり}では負{お}いかねます。",
+     "meaning_ko": "그 책임은 저 혼자서는 지기 어렵습니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 このまま放置すると、大きな事故に（　）。",
+     "options": [
+      "なりかねる",
+      "なりかけない",
+      "なりかねない",
+      "なりかねた"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "‘~될 수도 있다’는 〜かねない입니다. なりかねる는 ‘되기 어렵다’가 됩니다.",
+     "id": "JP-N2-16-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「お答えしかねます」의 뜻은?",
+     "options": [
+      "답변드릴 수도 있습니다",
+      "답변드리기 어렵습니다",
+      "답변드리고 싶습니다",
+      "답변드릴 필요가 없습니다"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "〜かねます는 ‘~하기 어렵습니다’라는 정중한 거절입니다.",
+     "id": "JP-N2-16-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「言う」に かねない를 붙인 올바른 형태는?",
+     "options": [
+      "言うかねない",
+      "言わかねない",
+      "言ってかねない",
+      "言いかねない"
+     ],
+     "answer_index": 3,
+     "explanation_ko": "ます형 어간(言い)에 かねない를 붙여 言いかねない가 됩니다.",
+     "id": "JP-N2-16-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「誤解されかねない」의 뜻은?",
+     "options": [
+      "오해받기 어렵다",
+      "오해받고 싶다",
+      "오해받을 수도 있다",
+      "오해받지 않는다"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "〜かねない는 좋지 않은 일이 일어날 수도 있다는 뜻입니다.",
+     "id": "JP-N2-16-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「放置」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "houchi",
+     "accepted_answers": [
+      "houchi",
+      "hochi"
+     ],
+     "explanation_ko": "放置 = ほうち (houchi)",
+     "id": "JP-N2-16-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「責任」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "sekinin",
+     "accepted_answers": [
+      "sekinin"
+     ],
+     "explanation_ko": "責任 = せきにん (sekinin)",
+     "id": "JP-N2-16-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

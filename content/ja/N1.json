@@ -3184,6 +3184,230 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-16",
+   "day_index": 16,
+   "week_index": 3,
+   "level": "N1",
+   "unit_id": "N1-W03",
+   "lesson_type": "new",
+   "title_ko": "〜までもない: ~할 필요도 없다",
+   "objective_ko": "동사 사전형 + までもない로 ‘굳이 ~할 필요도 없다’고 판단을 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-15"
+   ],
+   "explanation_ko": "〜までもない는 동사 사전형 + までもない로 ‘~할 필요도 없다, 굳이 ~할 것까지도 없다’는 뜻입니다. 이미 분명하거나 간단해서 일부러 하지 않아도 된다는 판단을 나타냅니다. 〜までもなく는 ‘~할 것도 없이’로, 뒤에 분명한 결론이 이어집니다. ① 彼の実力は、改めて説明するまでもない。 ② 結果は一目瞭然で、調べるまでもなかった。 ③ 言うまでもなく、健康が何より大切だ。 앞에는 言う・説明する・確かめる・調べる・聞く처럼 확인·전달의 동작이 자주 옵니다. 문어적이며 논설문이나 설명문에서 자주 쓰입니다.",
+   "usage_notes": [
+    "문말의 〜までもない 앞에는 言う・説明する・確かめる・調べる 같은 확인·전달의 동작이 자주 옵니다.",
+    "〜までもなく 뒤에는 이미 분명한 결론이 와서 ‘말할 것도 없이 ~’라는 흐름이 됩니다.",
+    "필요 없다는 판단을 나타내므로 앞은 사전형입니다. 이미 한 동작에는 쓰지 않습니다(×言ったまでもない)."
+   ],
+   "common_mistakes": [
+    "言ったまでもない(X) → 言うまでもない(O): 사전형에 붙습니다.",
+    "説明しますまでもない(X) → 説明するまでもない(O): 정중형(ます형)에는 붙지 않습니다.",
+    "言うまでもありません(O)와 言うまでもあります(X): ‘필요가 없다’는 뜻이므로 ない 계열로 끝납니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N1-16-01",
+     "kind": "word",
+     "text": "自明{じめい}",
+     "reading_kana": "じめい",
+     "reading_romanized": "jimei",
+     "meaning_ko": "자명함",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-16-02",
+     "kind": "word",
+     "text": "周知{しゅうち}",
+     "reading_kana": "しゅうち",
+     "reading_romanized": "shuuchi",
+     "meaning_ko": "주지(널리 알려짐)",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-16-03",
+     "kind": "word",
+     "text": "明白{めいはく}",
+     "reading_kana": "めいはく",
+     "reading_romanized": "meihaku",
+     "meaning_ko": "명백함",
+     "part_of_speech": "な형용사"
+    },
+    {
+     "id": "w-JP-N1-16-04",
+     "kind": "word",
+     "text": "承知{しょうち}",
+     "reading_kana": "しょうち",
+     "reading_romanized": "shouchi",
+     "meaning_ko": "알고 있음, 승낙",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-16-05",
+     "kind": "word",
+     "text": "一目瞭然{いちもくりょうぜん}",
+     "reading_kana": "いちもくりょうぜん",
+     "reading_romanized": "ichimokuryouzen",
+     "meaning_ko": "한눈에 분명함",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-16-06",
+     "kind": "word",
+     "text": "再三{さいさん}",
+     "reading_kana": "さいさん",
+     "reading_romanized": "saisan",
+     "meaning_ko": "재삼, 몇 번이고",
+     "part_of_speech": "부사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "彼{かれ}の実力{じつりょく}は、改{あらた}めて説明{せつめい}するまでもない。",
+     "meaning_ko": "그의 실력은 새삼 설명할 필요도 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "結果{けっか}は一目瞭然{いちもくりょうぜん}で、調{しら}べるまでもなかった。",
+     "meaning_ko": "결과는 한눈에 분명해서 조사할 필요도 없었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "言{い}うまでもなく、健康{けんこう}が何{なに}より大切{たいせつ}だ。",
+     "meaning_ko": "말할 것도 없이 건강이 무엇보다 중요하다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "その危険性{きけんせい}は、専門家{せんもんか}に聞{き}くまでもなく明白{めいはく}である。",
+     "meaning_ko": "그 위험성은 전문가에게 물을 것도 없이 명백하다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この問題{もんだい}の深刻{しんこく}さは周知{しゅうち}の事実{じじつ}であり、今更{いまさら}言{い}うまでもない。",
+     "meaning_ko": "이 문제의 심각성은 널리 알려진 사실이며 새삼 말할 필요도 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}は規則{きそく}を承知{しょうち}しているので、改{あらた}めて教{おし}えるまでもない。",
+     "meaning_ko": "그는 규칙을 알고 있으므로 새삼 가르쳐 줄 필요도 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "再三{さいさん}の説明{せつめい}を待{ま}つまでもなく、事態{じたい}の重大{じゅうだい}さは誰{だれ}の目{め}にも明{あき}らかだった。",
+     "meaning_ko": "거듭된 설명을 기다릴 것도 없이 사태의 중대함은 누구의 눈에도 분명했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "自明{じめい}の理{り}なので、証明{しょうめい}するまでもない。",
+     "meaning_ko": "자명한 이치이므로 증명할 필요도 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "わざわざ現地{げんち}へ行{い}くまでもなく、電話{でんわ}で確認{かくにん}できる。",
+     "meaning_ko": "굳이 현지에 갈 것도 없이 전화로 확인할 수 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "そんなことは、人{ひと}に聞{き}くまでもなく、自分{じぶん}で分{わ}かるはずだ。",
+     "meaning_ko": "그런 일은 남에게 물을 것도 없이 스스로 알 수 있을 것이다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「言うまでもない」の 意味は？",
+     "options": [
+      "말할 필요도 없다",
+      "말하고 싶지 않다",
+      "말하지 않을 수 없다",
+      "말한 적이 없다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜までもない는 ‘~할 필요도 없다’입니다.",
+     "id": "JP-N1-16-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る 形を 選んで ください。 説明（　）までもない。",
+     "options": [
+      "した",
+      "する",
+      "します",
+      "して"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "〜までもない는 동사 사전형에 붙습니다. 説明するまでもない。",
+     "id": "JP-N1-16-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 結果は明らかで、調べる（　）。",
+     "options": [
+      "ずにはいられなかった",
+      "ざるを得なかった",
+      "てやまなかった",
+      "までもなかった"
+     ],
+     "answer_index": 3,
+     "explanation_ko": "‘조사할 필요도 없었다’는 調べるまでもなかった입니다. ずにはいられない는 ない형에 붙으므로 調べる에는 이어지지 않습니다.",
+     "id": "JP-N1-16-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 そんなことは、人に聞く（　）、自分で分かるはずだ。",
+     "options": [
+      "をよそに",
+      "ならではの",
+      "ずにはいられず",
+      "までもなく"
+     ],
+     "answer_index": 3,
+     "explanation_ko": "‘물을 것도 없이’는 聞くまでもなく입니다. 聞くをよそに・聞くならではの는 형태가 맞지 않습니다.",
+     "id": "JP-N1-16-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「自明」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "jimei",
+     "accepted_answers": [
+      "jimei",
+      "zimei"
+     ],
+     "explanation_ko": "自明 = じめい (jimei)",
+     "id": "JP-N1-16-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「承知」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "shouchi",
+     "accepted_answers": [
+      "shouchi",
+      "shochi",
+      "syouti"
+     ],
+     "explanation_ko": "承知 = しょうち (shouchi)",
+     "id": "JP-N1-16-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "JLPT_FORMAT"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

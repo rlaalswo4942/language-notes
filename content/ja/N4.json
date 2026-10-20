@@ -3194,6 +3194,224 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-16",
+   "day_index": 16,
+   "week_index": 3,
+   "level": "N4",
+   "unit_id": "N4-W03",
+   "lesson_type": "new",
+   "title_ko": "〜て あげる・〜て もらう・〜て くれる: 해 주고받기",
+   "objective_ko": "あげる・もらう・くれる를 て형에 붙여 해 주고받는 행동을 구별해 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-15"
+   ],
+   "explanation_ko": "행동을 ‘해 주고받는’ 표현은 동사 て형에 あげる・もらう・くれる를 붙입니다. ① 〜て あげる: 내가(또는 내 쪽 사람이) 남에게 ~해 주다. 私は 友達に 本を 貸して あげました。 ② 〜て もらう: 남에게 ~해 받다. 해 준 사람은 に로 나타냅니다. 私は 友達に 傘を 貸して もらいました。 ③ 〜て くれる: 남이 나(또는 내 쪽 사람)에게 ~해 주다. 해 준 사람이 주어이므로 が를 씁니다. 友達が 傘を 貸して くれました。 같은 일이라도 ②는 받은 내가, ③은 해 준 사람이 중심이 됩니다. 가족이 나에게 해 주는 경우도 くれる를 씁니다(母が ケーキを 作って くれました).",
+   "usage_notes": [
+    "남이 나에게 해 줄 때는 あげる가 아니라 くれる를 씁니다.",
+    "손윗사람에게 직접 「〜て あげます」라고 하면 은혜를 베푸는 느낌이 나서 실례가 될 수 있습니다. 이럴 때는 「〜ましょうか」처럼 말합니다.",
+    "〜て もらう는 해 준 사람을 に로, 〜て くれる는 해 준 사람을 が로 나타냅니다."
+   ],
+   "common_mistakes": [
+    "友達が 私に 傘を 貸して あげました(X) → 友達が 傘を 貸して くれました(O): 남이 나에게 해 줄 때는 くれる입니다.",
+    "友達が 傘を 貸して もらいました(X) → 友達に 傘を 貸して もらいました(O): もらう 문장에서 해 준 사람은 に입니다.",
+    "母は 私に 料理を 作って あげました(X) → 母は 私に 料理を 作って くれました(O): 가족이 나에게 해 줄 때도 くれる를 씁니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N4-16-01",
+     "kind": "word",
+     "text": "貸{か}す",
+     "reading_kana": "かす",
+     "reading_romanized": "kasu",
+     "meaning_ko": "빌려주다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-16-02",
+     "kind": "word",
+     "text": "借{か}りる",
+     "reading_kana": "かりる",
+     "reading_romanized": "kariru",
+     "meaning_ko": "빌리다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-16-03",
+     "kind": "word",
+     "text": "送{おく}る",
+     "reading_kana": "おくる",
+     "reading_romanized": "okuru",
+     "meaning_ko": "보내다, 바래다주다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-16-04",
+     "kind": "word",
+     "text": "手伝{てつだ}う",
+     "reading_kana": "てつだう",
+     "reading_romanized": "tetsudau",
+     "meaning_ko": "돕다, 거들다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-16-05",
+     "kind": "word",
+     "text": "誕生日{たんじょうび}",
+     "reading_kana": "たんじょうび",
+     "reading_romanized": "tanjoubi",
+     "meaning_ko": "생일",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-16-06",
+     "kind": "word",
+     "text": "プレゼント",
+     "reading_kana": "",
+     "reading_romanized": "purezento",
+     "meaning_ko": "선물",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "私{わたし}は 友達{ともだち}に 本{ほん}を 貸{か}して あげました。",
+     "meaning_ko": "저는 친구에게 책을 빌려주었습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "友達{ともだち}が 私{わたし}に 傘{かさ}を 貸{か}して くれました。",
+     "meaning_ko": "친구가 저에게 우산을 빌려주었습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "私{わたし}は 友達{ともだち}に 傘{かさ}を 貸{か}して もらいました。",
+     "meaning_ko": "저는 친구에게 우산을 빌렸습니다(빌려 받았습니다).",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "田中{たなか}さんが 駅{えき}まで 送{おく}って くれました。",
+     "meaning_ko": "다나카 씨가 역까지 바래다주었습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "母{はは}が 誕生日{たんじょうび}に ケーキを 作{つく}って くれました。",
+     "meaning_ko": "어머니가 생일에 케이크를 만들어 주었습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "私{わたし}は 妹{いもうと}の 宿題{しゅくだい}を 手伝{てつだ}って あげました。",
+     "meaning_ko": "저는 여동생의 숙제를 도와주었습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "先生{せんせい}に 日本語{にほんご}を 教{おし}えて もらいました。",
+     "meaning_ko": "선생님께 일본어를 가르침 받았습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "友達{ともだち}の 誕生日{たんじょうび}に プレゼントを 買{か}って あげました。",
+     "meaning_ko": "친구 생일에 선물을 사 주었습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "駅{えき}で 道{みち}を 教{おし}えて もらいました。",
+     "meaning_ko": "역에서 길을 안내받았습니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "‘친구가 저에게 우산을 빌려주었습니다’를 바르게 나타낸 것은?",
+     "options": [
+      "友達が 傘を 貸して くれました。",
+      "友達が 傘を 貸して あげました。",
+      "友達が 傘を 貸して もらいました。",
+      "友達を 傘を 貸して くれました。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "남이 나에게 해 줄 때는 〜て くれました를 쓰고, 해 준 사람은 が로 나타냅니다.",
+     "id": "JP-N4-16-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ことばを 選んで ください。 私は 友達（　）宿題を 手伝って もらいました。",
+     "options": [
+      "が",
+      "を",
+      "に",
+      "で"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "〜て もらう에서는 해 준 사람을 に로 나타냅니다.",
+     "id": "JP-N4-16-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ことばを 選んで ください。 母は 私に ケーキを 作って（　）。",
+     "options": [
+      "いきました",
+      "あげました",
+      "もらいました",
+      "くれました"
+     ],
+     "answer_index": 3,
+     "explanation_ko": "가족이 나에게 해 줄 때는 〜て くれました입니다. 해 준 사람이 母は(주어)이므로 もらいました는 맞지 않습니다.",
+     "id": "JP-N4-16-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「私は 妹の 宿題を 手伝って あげました」의 뜻은?",
+     "options": [
+      "여동생이 제 숙제를 도와주었습니다.",
+      "저는 여동생의 숙제를 도와주었습니다.",
+      "저는 여동생에게 숙제를 도움받았습니다.",
+      "저는 여동생과 숙제를 했습니다."
+     ],
+     "answer_index": 1,
+     "explanation_ko": "〜て あげる는 내가 남에게 해 주는 것입니다. 해 준 사람은 ‘저’입니다.",
+     "id": "JP-N4-16-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「誕生日」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "tanjoubi",
+     "accepted_answers": [
+      "tanjoubi",
+      "tanjobi",
+      "tanzyoubi"
+     ],
+     "explanation_ko": "誕生日 = たんじょうび (tanjoubi)",
+     "id": "JP-N4-16-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「送る」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "okuru",
+     "accepted_answers": [
+      "okuru"
+     ],
+     "explanation_ko": "送る = おくる (okuru)",
+     "id": "JP-N4-16-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

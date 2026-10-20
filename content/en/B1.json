@@ -1884,6 +1884,205 @@
     "version": 1,
     "last_revised": "2026-10-20"
    }
+  },
+  {
+   "id": "B1-011",
+   "level": "B1",
+   "track": "general",
+   "day": 11,
+   "title_ko": "too와 enough: 너무 ~해서 / 충분히 ~한",
+   "objective_ko": "too와 enough의 뜻과 위치를 구별해 문장을 만든다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-21"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "too와 enough는 정도를 나타내지만 위치와 뜻이 다릅니다. ① too + 형용사/부사: '너무 ~해서 (좋지 않다/할 수 없다)'. 뒤에 for + 사람, to + 동사원형을 붙일 수 있습니다: This box is too heavy for me to lift. ② 형용사/부사 + enough: '~할 만큼 충분히'. enough는 형용사 뒤에 옵니다: She is old enough to drive. ③ enough + 명사: '충분한 ~'. enough는 명사 앞에 옵니다: We have enough chairs. ④ 부정은 not + 형용사 + enough입니다: It isn't warm enough to swim. very는 단순히 '매우'이고, too는 '지나쳐서 문제가 된다'는 느낌이 있습니다.",
+    "common_mistake_ko": "The bag is enough big.(X) → big enough(O) / The room is too much crowded.(X) → too crowded(O) / It is very cold to swim.(X) → too cold to swim(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "enough",
+     "part_of_speech": "형용사/부사",
+     "meaning_ko": "충분한, 충분히",
+     "example_en": "Do we have enough time?",
+     "example_ko": "우리 시간이 충분한가요?"
+    },
+    {
+     "word": "heavy",
+     "part_of_speech": "형용사",
+     "meaning_ko": "무거운",
+     "example_en": "This suitcase is too heavy.",
+     "example_ko": "이 여행 가방은 너무 무거워요."
+    },
+    {
+     "word": "lift",
+     "part_of_speech": "동사",
+     "meaning_ko": "들어 올리다",
+     "example_en": "I can't lift this box.",
+     "example_ko": "나는 이 상자를 들어 올릴 수 없어요."
+    },
+    {
+     "word": "tight",
+     "part_of_speech": "형용사",
+     "meaning_ko": "꽉 끼는",
+     "example_en": "These shoes are too tight.",
+     "example_ko": "이 신발은 너무 꽉 껴요."
+    },
+    {
+     "word": "crowded",
+     "part_of_speech": "형용사",
+     "meaning_ko": "붐비는",
+     "example_en": "The train was too crowded to sit down.",
+     "example_ko": "기차가 너무 붐벼서 앉을 수 없었어요."
+    },
+    {
+     "word": "reasonable",
+     "part_of_speech": "형용사",
+     "meaning_ko": "합리적인, 적당한",
+     "example_en": "The price is reasonable.",
+     "example_ko": "가격이 합리적이에요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "This suitcase is too heavy for me to lift.",
+     "ko": "이 여행 가방은 내가 들기에는 너무 무거워요."
+    },
+    {
+     "en": "The coffee is too hot to drink.",
+     "ko": "커피가 너무 뜨거워서 마실 수 없어요."
+    },
+    {
+     "en": "She is old enough to drive.",
+     "ko": "그녀는 운전할 만한 나이예요."
+    },
+    {
+     "en": "We don't have enough time.",
+     "ko": "우리는 시간이 충분하지 않아요."
+    },
+    {
+     "en": "Is the room big enough for ten people?",
+     "ko": "그 방은 열 명이 쓰기에 충분히 큰가요?"
+    },
+    {
+     "en": "These shoes are too tight.",
+     "ko": "이 신발은 너무 꽉 껴요."
+    },
+    {
+     "en": "It's too cold to swim today.",
+     "ko": "오늘은 너무 추워서 수영할 수 없어요."
+    },
+    {
+     "en": "He didn't study hard enough to pass the test.",
+     "ko": "그는 시험에 통과할 만큼 열심히 공부하지 않았어요."
+    },
+    {
+     "en": "The train was too crowded to sit down.",
+     "ko": "기차가 너무 붐벼서 앉을 수 없었어요."
+    },
+    {
+     "en": "The price is reasonable.",
+     "ko": "가격이 합리적이에요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "This bag is ___ heavy for me to carry. (너무 무거워서 못 든다)",
+     "choices": [
+      "too",
+      "enough",
+      "much",
+      "more"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "too + 형용사 + (for 사람) + to + 동사원형은 '너무 ~해서 …할 수 없다'입니다.",
+     "error_tag": "too-enough",
+     "id": "B1-011-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "She is tall ___ to reach the shelf. (손이 닿을 만큼 키가 크다)",
+     "choices": [
+      "too",
+      "very",
+      "enough",
+      "much"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "형용사 뒤에 enough를 쓰면 '~할 만큼 충분히 …하다'입니다. tall enough to reach.",
+     "error_tag": "too-enough",
+     "id": "B1-011-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "He is enough old to drive.",
+      "He is old enough to drive.",
+      "He is enough old for driving.",
+      "He is too old enough to drive."
+     ],
+     "answer_index": 1,
+     "explanation_ko": "enough는 형용사 뒤에 옵니다. old enough to drive가 맞습니다.",
+     "error_tag": "enough-position",
+     "id": "B1-011-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'수프가 너무 뜨거워서 먹을 수 없어요'에 맞는 문장은?",
+     "choices": [
+      "The soup is enough hot to eat.",
+      "The soup is too hot eating.",
+      "The soup is hot enough to eat.",
+      "The soup is too hot to eat."
+     ],
+     "answer_index": 3,
+     "explanation_ko": "too + 형용사 + to + 동사원형이 '너무 ~해서 …할 수 없다'입니다. hot enough to eat는 '먹기에 충분히 뜨겁다'로 뜻이 다릅니다.",
+     "error_tag": "too-enough",
+     "id": "B1-011-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: The room is ___ small for ten people. (너무 작다)",
+     "answer_text": "too",
+     "accepted_answers": [
+      "too"
+     ],
+     "explanation_ko": "부정적인 결과(열 명이 들어가기에 너무 작다)에는 too를 씁니다.",
+     "error_tag": "too-enough",
+     "id": "B1-011-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Do you have ___ money for the ticket? (충분한)",
+     "answer_text": "enough",
+     "accepted_answers": [
+      "enough"
+     ],
+     "explanation_ko": "enough가 명사 앞에 오면 '충분한 ~'입니다. enough money.",
+     "error_tag": "enough-position",
+     "id": "B1-011-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "too와 enough를 하나씩 써서 나의 상황을 문장으로 써 보세요.",
+    "example_answer_en": "My bag is too small for my laptop. I am old enough to travel alone.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-21",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-21"
+   }
   }
  ]
 }

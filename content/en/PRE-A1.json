@@ -3280,6 +3280,201 @@
     "version": 1,
     "last_revised": "2026-10-20"
    }
+  },
+  {
+   "id": "PRE-022",
+   "level": "Pre-A1",
+   "track": "foundation",
+   "day": 22,
+   "title_ko": "장소 표현: in / on / under",
+   "objective_ko": "in, on, under로 물건이 어디에 있는지 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-21"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "물건이 어디에 있는지 말할 때는 'be동사 + 전치사 + 장소'를 씁니다. ① in은 '~ 안에'입니다: The cat is in the box. ② on은 '~ 위에(표면에 닿아서)'입니다: The pen is on the desk. ③ under는 '~ 아래에'입니다: The ball is under the chair. 질문은 Where is ...?로 하고 It is ...로 대답합니다: Where is my bag? — It is under the desk. 물건이 둘 이상이면 be동사가 are로 바뀝니다: The keys are in my bag.",
+    "common_mistake_ko": "The cat is on the box.(상자 속에 있는데 on을 쓴 경우 X) → The cat is in the box.(O) / The ball is in the chair under.(X) → The ball is under the chair.(O) / The keys is in my bag.(X) → The keys are in my bag.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "table",
+     "part_of_speech": "명사",
+     "meaning_ko": "탁자, 테이블",
+     "example_en": "The cup is on the table.",
+     "example_ko": "컵은 탁자 위에 있어요."
+    },
+    {
+     "word": "bed",
+     "part_of_speech": "명사",
+     "meaning_ko": "침대",
+     "example_en": "The cat is on the bed.",
+     "example_ko": "고양이는 침대 위에 있어요."
+    },
+    {
+     "word": "shelf",
+     "part_of_speech": "명사",
+     "meaning_ko": "선반",
+     "example_en": "The books are on the shelf.",
+     "example_ko": "책들은 선반 위에 있어요."
+    },
+    {
+     "word": "floor",
+     "part_of_speech": "명사",
+     "meaning_ko": "바닥",
+     "example_en": "My bag is on the floor.",
+     "example_ko": "내 가방은 바닥에 있어요."
+    },
+    {
+     "word": "lamp",
+     "part_of_speech": "명사",
+     "meaning_ko": "전등, 램프",
+     "example_en": "The lamp is on the desk.",
+     "example_ko": "전등은 책상 위에 있어요."
+    },
+    {
+     "word": "basket",
+     "part_of_speech": "명사",
+     "meaning_ko": "바구니",
+     "example_en": "The apples are in the basket.",
+     "example_ko": "사과들은 바구니 안에 있어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The cat is in the box.",
+     "ko": "고양이는 상자 안에 있어요."
+    },
+    {
+     "en": "The pen is on the desk.",
+     "ko": "펜은 책상 위에 있어요."
+    },
+    {
+     "en": "The ball is under the chair.",
+     "ko": "공은 의자 아래에 있어요."
+    },
+    {
+     "en": "Where is my phone?",
+     "ko": "내 전화기는 어디에 있어요?"
+    },
+    {
+     "en": "It is on the table.",
+     "ko": "그것은 탁자 위에 있어요."
+    },
+    {
+     "en": "The keys are in my bag.",
+     "ko": "열쇠들은 내 가방 안에 있어요."
+    },
+    {
+     "en": "The dog is under the bed.",
+     "ko": "개는 침대 아래에 있어요."
+    },
+    {
+     "en": "The books are on the shelf.",
+     "ko": "책들은 선반 위에 있어요."
+    },
+    {
+     "en": "Is the cup on the table? — No, it is under the table.",
+     "ko": "컵은 탁자 위에 있나요? — 아니요, 탁자 아래에 있어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "The cat is ___ the box. (상자 안에)",
+     "choices": [
+      "in",
+      "on",
+      "under",
+      "to"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "in은 '~ 안에'입니다. 고양이가 상자 속에 있으므로 in the box입니다.",
+     "error_tag": "place-preposition",
+     "id": "P022-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "The book is ___ the table. (탁자 위에)",
+     "choices": [
+      "under",
+      "in",
+      "on",
+      "of"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "on은 '~ 위에(닿아서)'입니다. 탁자 위에 놓인 책은 on the table입니다.",
+     "error_tag": "place-preposition",
+     "id": "P022-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "The ball is ___ the chair. (의자 아래에)",
+     "choices": [
+      "on",
+      "in",
+      "at",
+      "under"
+     ],
+     "answer_index": 3,
+     "explanation_ko": "under는 '~ 아래에'입니다. 의자 아래에 있는 공은 under the chair입니다.",
+     "error_tag": "place-preposition",
+     "id": "P022-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'Where is my bag?'에 알맞은 대답은?",
+     "choices": [
+      "It is under the desk.",
+      "It is a desk.",
+      "Yes, it is.",
+      "I am under the desk."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Where로 장소를 물으면 'It is + 전치사 + 장소'로 대답합니다. 'It is a desk.'는 물건이 무엇인지 말하는 문장입니다.",
+     "error_tag": "where-question",
+     "id": "P022-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: The apples are ___ the basket. (바구니 안에)",
+     "answer_text": "in",
+     "accepted_answers": [
+      "in"
+     ],
+     "explanation_ko": "바구니 속에 들어 있으므로 in입니다.",
+     "error_tag": "place-preposition",
+     "id": "P022-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Where is the dog? — It is ___ the bed. (침대 아래에)",
+     "answer_text": "under",
+     "accepted_answers": [
+      "under"
+     ],
+     "explanation_ko": "침대 아래에 있다는 뜻이므로 under입니다.",
+     "error_tag": "place-preposition",
+     "id": "P022-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "방 안의 물건 두 개가 어디에 있는지 영어 문장으로 써 보세요.",
+    "example_answer_en": "My bag is on the chair. My shoes are under the bed.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-21",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-21"
+   }
   }
  ]
 }

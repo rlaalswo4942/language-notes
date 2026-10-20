@@ -3195,6 +3195,229 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N3-16",
+   "day_index": 16,
+   "week_index": 3,
+   "level": "N3",
+   "unit_id": "N3-W03",
+   "lesson_type": "new",
+   "title_ko": "〜だけでなく〜も・〜ばかりでなく〜も: ~뿐 아니라 ~도",
+   "objective_ko": "〜だけでなく〜も로 A에 B를 더해 말하고, 앞에 오는 말의 형태를 구별한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N3-15"
+   ],
+   "explanation_ko": "〜だけでなく〜も는 ‘A뿐 아니라 B도’라는 뜻으로, A에 B를 더할 때 씁니다. 〜ばかりでなく〜も도 같은 뜻이며 조금 더 딱딱한 느낌입니다. 접속: ① 명사: 英語だけでなく、中国語も話せる。 ② 동사·い형용사(보통형): 歌うだけでなく、踊ることもできる。/ 安いだけでなく、おいしい。 ③ な형용사: 어간 + なだけでなく(親切なだけでなく、仕事もできる)。 뒤에는 보통 も가 와서 ‘A에 더해 B도’를 나타내며, 동사로 이어질 때는 踊ることも처럼 こと를 넣습니다. A와 B는 같은 방향(둘 다 좋은 일이거나 둘 다 나쁜 일)으로 나란히 놓는 것이 자연스럽습니다.",
+   "usage_notes": [
+    "B 부분에는 보통 も가 와서 ‘A에 더해 B도’를 나타냅니다.",
+    "〜だけでなく는 구어에서도 널리 쓰이고, 〜ばかりでなく는 약간 딱딱한 말투입니다. 뜻은 거의 같습니다.",
+    "A와 B는 같은 성격의 내용(둘 다 좋은 점, 둘 다 나쁜 점)을 나란히 놓는 것이 자연스럽습니다."
+   ],
+   "common_mistakes": [
+    "彼は英語だけでなく、中国語話せる(X) → 中国語も話せる(O): B 부분에는 も가 필요합니다.",
+    "彼は親切だだけでなく(X) → 親切なだけでなく(O): な형용사는 어간 + な에 연결합니다.",
+    "歌うだけでなく、踊るもできる(X) → 踊ることもできる(O): 동사에 も를 붙일 때는 こと를 넣어 명사처럼 만듭니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N3-16-01",
+     "kind": "word",
+     "text": "才能{さいのう}",
+     "reading_kana": "さいのう",
+     "reading_romanized": "sainou",
+     "meaning_ko": "재능",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-16-02",
+     "kind": "word",
+     "text": "技術{ぎじゅつ}",
+     "reading_kana": "ぎじゅつ",
+     "reading_romanized": "gijutsu",
+     "meaning_ko": "기술",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-16-03",
+     "kind": "word",
+     "text": "優{やさ}しい",
+     "reading_kana": "やさしい",
+     "reading_romanized": "yasashii",
+     "meaning_ko": "상냥하다, 다정하다",
+     "part_of_speech": "い형용사"
+    },
+    {
+     "id": "w-JP-N3-16-04",
+     "kind": "word",
+     "text": "丁寧{ていねい}",
+     "reading_kana": "ていねい",
+     "reading_romanized": "teinei",
+     "meaning_ko": "정중함, 꼼꼼함",
+     "part_of_speech": "な형용사"
+    },
+    {
+     "id": "w-JP-N3-16-05",
+     "kind": "word",
+     "text": "踊{おど}る",
+     "reading_kana": "おどる",
+     "reading_romanized": "odoru",
+     "meaning_ko": "춤추다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N3-16-06",
+     "kind": "word",
+     "text": "必要{ひつよう}",
+     "reading_kana": "ひつよう",
+     "reading_romanized": "hitsuyou",
+     "meaning_ko": "필요",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "彼女{かのじょ}は歌{うた}が上手{じょうず}なだけでなく、ダンスもうまい。",
+     "meaning_ko": "그녀는 노래를 잘할 뿐 아니라 춤도 잘 춘다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この店{みせ}は安{やす}いだけでなく、料理{りょうり}もおいしい。",
+     "meaning_ko": "이 가게는 쌀 뿐 아니라 음식도 맛있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "田中{たなか}さんは英語{えいご}だけでなく、中国語{ちゅうごくご}も話{はな}せる。",
+     "meaning_ko": "다나카 씨는 영어뿐 아니라 중국어도 말할 수 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}は優{やさ}しいばかりでなく、仕事{しごと}もよくできる。",
+     "meaning_ko": "그는 상냥할 뿐만 아니라 일도 잘한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この町{まち}は景色{けしき}がきれいなだけでなく、食{た}べ物{もの}もおいしい。",
+     "meaning_ko": "이 동네는 경치가 아름다울 뿐 아니라 음식도 맛있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "毎日{まいにち}練習{れんしゅう}するだけでなく、休{やす}みの日{ひ}にも練習{れんしゅう}している。",
+     "meaning_ko": "매일 연습할 뿐 아니라 쉬는 날에도 연습하고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼女{かのじょ}は丁寧{ていねい}なだけでなく、仕事{しごと}も早{はや}い。",
+     "meaning_ko": "그녀는 꼼꼼할 뿐 아니라 일도 빠르다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "子{こ}どもだけでなく、大人{おとな}も楽{たの}しめるイベントです。",
+     "meaning_ko": "아이들뿐 아니라 어른도 즐길 수 있는 이벤트입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この仕事{しごと}は技術{ぎじゅつ}だけでなく、才能{さいのう}も必要{ひつよう}だ。",
+     "meaning_ko": "이 일은 기술뿐 아니라 재능도 필요하다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼女{かのじょ}は歌{うた}うだけでなく、踊{おど}ることもできる。",
+     "meaning_ko": "그녀는 노래할 뿐 아니라 춤출 수도 있다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 田中さんは英語（　）、中国語も話せる。",
+     "options": [
+      "だけでなく",
+      "だけでも",
+      "ほどなく",
+      "ばかりに"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘영어뿐 아니라 중국어도’는 〜だけでなく〜も입니다.",
+     "id": "JP-N3-16-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "正しい 文を 選んで ください。",
+     "options": [
+      "この店は安いだけでなく、料理おいしい。",
+      "この店は安いなだけでなく、料理もおいしい。",
+      "この店は安いだけでなく、料理もおいしい。",
+      "この店は安いにだけでなく、料理もおいしい。"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "い형용사는 보통형(安い)에 そのまま 연결하고, 뒤에는 も를 씁니다. 安いな・安いに는 틀린 형태입니다.",
+     "id": "JP-N3-16-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 彼女は親切（　）だけでなく、仕事もできる。",
+     "options": [
+      "だ",
+      "な",
+      "の",
+      "に"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "な형용사는 어간 + なだけでなく입니다. 親切なだけでなく。",
+     "id": "JP-N3-16-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「子どもだけでなく、大人も楽しめる」의 뜻은?",
+     "options": [
+      "아이는 즐길 수 있지만 어른은 즐길 수 없다",
+      "아이뿐 아니라 어른도 즐길 수 있다",
+      "아이만 즐길 수 있다",
+      "어른만 즐길 수 있다"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "〜だけでなく〜も는 ‘~뿐 아니라 ~도’입니다.",
+     "id": "JP-N3-16-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「才能」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "sainou",
+     "accepted_answers": [
+      "sainou",
+      "saino"
+     ],
+     "explanation_ko": "才能 = さいのう (sainou)",
+     "id": "JP-N3-16-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「技術」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "gijutsu",
+     "accepted_answers": [
+      "gijutsu",
+      "gizyutu"
+     ],
+     "explanation_ko": "技術 = ぎじゅつ (gijutsu)",
+     "id": "JP-N3-16-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

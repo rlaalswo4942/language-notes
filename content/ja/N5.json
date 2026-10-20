@@ -3202,6 +3202,226 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N5-16",
+   "day_index": 16,
+   "week_index": 3,
+   "level": "N5",
+   "unit_id": "N5-W03",
+   "lesson_type": "new",
+   "title_ko": "〜が 好きです・上手です: 좋아하는 것과 잘하는 것",
+   "objective_ko": "が로 좋아하는 것·잘하는 것·싫은 것을 말하고 정도를 나타낸다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N5-15"
+   ],
+   "explanation_ko": "좋아하는 것·잘하는 것·싫은 것 같은 ‘대상’에는 を가 아니라 が를 씁니다. ① Aは Bが 好きです: A는 B를 좋아합니다(私は 音楽が 好きです). ② Bが 上手です / 下手です: B를 잘합니다 / 못합니다(友達は 歌が 上手です). ③ 부정은 好き가 な형용사이므로 〜じゃ ありません입니다(野菜が 好きじゃ ありません). あまり(별로)・とても(매우)를 앞에 붙여 정도를 나타냅니다. ④ 질문은 何が 好きですか。로 하고, 대답은 〜が 好きです입니다. ⑤ わかります(이해합니다, 알아듣습니다)도 대상에 が를 씁니다(日本語が わかります).",
+   "usage_notes": [
+    "「〜を 好きです」가 아니라 「〜が 好きです」가 기본입니다. 한국어 ‘~을/를 좋아하다’와 조사가 다릅니다.",
+    "好き・上手・下手는 な형용사입니다. 부정은 好きじゃ ありません・上手じゃ ありません이 됩니다.",
+    "상대의 실력을 칭찬할 때는 お上手ですね라고 말합니다."
+   ],
+   "common_mistakes": [
+    "ピアノを 好きです(X) → ピアノが 好きです(O): 좋아하는 대상에는 が를 씁니다.",
+    "料理が 好きいです(X) → 料理が 好きです(O): 好き는 い형용사가 아니라 な형용사입니다.",
+    "野菜が 好きくないです(X) → 野菜が 好きじゃ ありません(O): な형용사의 부정은 じゃ ありません입니다.",
+    "日本語を わかります(X) → 日本語が わかります(O): わかる의 대상에도 が를 씁니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N5-16-01",
+     "kind": "word",
+     "text": "上手{じょうず}",
+     "reading_kana": "じょうず",
+     "reading_romanized": "jouzu",
+     "meaning_ko": "능숙함, 잘함",
+     "part_of_speech": "な형용사"
+    },
+    {
+     "id": "w-JP-N5-16-02",
+     "kind": "word",
+     "text": "下手{へた}",
+     "reading_kana": "へた",
+     "reading_romanized": "heta",
+     "meaning_ko": "서투름, 못함",
+     "part_of_speech": "な형용사"
+    },
+    {
+     "id": "w-JP-N5-16-03",
+     "kind": "word",
+     "text": "音楽{おんがく}",
+     "reading_kana": "おんがく",
+     "reading_romanized": "ongaku",
+     "meaning_ko": "음악",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-16-04",
+     "kind": "word",
+     "text": "スポーツ",
+     "reading_kana": "",
+     "reading_romanized": "supootsu",
+     "meaning_ko": "스포츠",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-16-05",
+     "kind": "word",
+     "text": "野菜{やさい}",
+     "reading_kana": "やさい",
+     "reading_romanized": "yasai",
+     "meaning_ko": "채소",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-16-06",
+     "kind": "word",
+     "text": "歌{うた}",
+     "reading_kana": "うた",
+     "reading_romanized": "uta",
+     "meaning_ko": "노래",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "私{わたし}は 音楽{おんがく}が 好{す}きです。",
+     "meaning_ko": "저는 음악을 좋아합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "田中{たなか}さんは スポーツが 好{す}きです。",
+     "meaning_ko": "다나카 씨는 스포츠를 좋아합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "私{わたし}は 野菜{やさい}が あまり 好{す}きじゃ ありません。",
+     "meaning_ko": "저는 채소를 별로 좋아하지 않습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "何{なに}が 好{す}きですか。",
+     "meaning_ko": "무엇을 좋아합니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "私{わたし}は 料理{りょうり}が 好{す}きです。",
+     "meaning_ko": "저는 요리를 좋아합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "キムさんは 歌{うた}が 上手{じょうず}です。",
+     "meaning_ko": "김 씨는 노래를 잘합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "友達{ともだち}は スポーツが とても 上手{じょうず}です。",
+     "meaning_ko": "친구는 스포츠를 아주 잘합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "私{わたし}は 料理{りょうり}が 下手{へた}です。",
+     "meaning_ko": "저는 요리를 못합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "日本語{にほんご}が 少{すこ}し わかります。",
+     "meaning_ko": "일본어를 조금 알아듣습니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "‘저는 음악을 좋아합니다’를 바르게 나타낸 것은?",
+     "options": [
+      "私は 音楽が 好きです。",
+      "私は 音楽を 好きです。",
+      "私は 音楽が 好きいです。",
+      "私は 音楽に 好きです。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "좋아하는 대상에는 が를 씁니다. 好き는 な형용사라서 好きいです라고 하지 않습니다.",
+     "id": "JP-N5-16-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ことばを 選んで ください。 友達は 歌（　）上手です。",
+     "options": [
+      "を",
+      "に",
+      "が",
+      "で"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "上手です의 대상(잘하는 것)에는 が를 씁니다. 友達は 歌が 上手です。",
+     "id": "JP-N5-16-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "‘채소를 별로 좋아하지 않습니다’를 바르게 나타낸 것은?",
+     "options": [
+      "野菜が あまり 好きくないです。",
+      "野菜が あまり 好きじゃ ありません。",
+      "野菜が あまり 好きです。",
+      "野菜が あまり 好きいません。"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "好き는 な형용사이므로 부정은 好きじゃ ありません입니다. あまり는 부정과 함께 ‘별로’의 뜻이 됩니다.",
+     "id": "JP-N5-16-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「料理が 下手です」의 뜻은?",
+     "options": [
+      "요리를 좋아합니다.",
+      "요리를 잘합니다.",
+      "요리를 싫어합니다.",
+      "요리를 못합니다."
+     ],
+     "answer_index": 3,
+     "explanation_ko": "下手는 ‘서투르다, 못한다’입니다. 上手(잘한다)와 반대입니다.",
+     "id": "JP-N5-16-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「音楽」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "ongaku",
+     "accepted_answers": [
+      "ongaku"
+     ],
+     "explanation_ko": "音楽 = おんがく (ongaku)",
+     "id": "JP-N5-16-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「上手」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "jouzu",
+     "accepted_answers": [
+      "jouzu",
+      "jozu",
+      "zyouzu",
+      "zyozu"
+     ],
+     "explanation_ko": "上手 = じょうず (jouzu)",
+     "id": "JP-N5-16-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

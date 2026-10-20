@@ -1661,6 +1661,202 @@
     "version": 1,
     "last_revised": "2026-10-20"
    }
+  },
+  {
+   "id": "TOEFL-010",
+   "level": "B1",
+   "track": "toefl",
+   "day": 10,
+   "title_ko": "TOEFL 2026 Listen to an Academic Talk 입문: 강의의 주제·정의·예시·이유 찾기",
+   "objective_ko": "짧은 강의에서 주제, 정의, 예시, 이유를 구별해서 찾는다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/content/ets-org/language-master/ko/home/toefl/test-takers/ibt/about/content.html",
+     "publisher": "ETS",
+     "supports": "2026 형식 유형명",
+     "checked_at": "2026-10-21"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "2026-01-21 이후 TOEFL iBT Listening에는 Listen to an Academic Talk 유형이 안내되어 있습니다(공식 안내 유형명). 학술 강의 일부를 듣고 질문에 답하는 유형입니다. 이 사이트는 소리가 없으므로 아래는 짧은 강의를 글로 읽는 비공식 자체 연습입니다. 강의를 들을 때는 네 가지를 차례로 찾습니다. ① 주제: 오늘 무엇을 이야기하는가(보통 첫 부분). ② 정의: X means ..., in other words. ③ 예시: For example, for instance 뒤에 나옵니다. ④ 이유와 결론: The main reason is ..., But ... is worth it. 숫자가 나오면 무엇에 대한 숫자인지 함께 메모하세요.",
+    "common_mistake_ko": "예시에 나온 시간 숫자만 보고 고르는 실수 → 20분은 하루 공부 시간이고, 총 시간은 20분 × 5일 = 100분입니다. / 예시를 주제로 착각하는 실수 → 주제는 분산 학습이고, 어휘 공부는 그것을 설명하는 예시입니다."
+   },
+   "vocabulary": [
+    {
+     "word": "lecture",
+     "part_of_speech": "명사",
+     "meaning_ko": "강의",
+     "example_en": "The lecture is about study habits.",
+     "example_ko": "그 강의는 공부 습관에 관한 거예요."
+    },
+    {
+     "word": "professor",
+     "part_of_speech": "명사",
+     "meaning_ko": "교수",
+     "example_en": "The professor gave an example.",
+     "example_ko": "교수는 예를 하나 들었어요."
+    },
+    {
+     "word": "session",
+     "part_of_speech": "명사",
+     "meaning_ko": "(한 번의) 학습 시간, 세션",
+     "example_en": "She has a short study session every day.",
+     "example_ko": "그녀는 매일 짧은 학습 시간을 가져요."
+    },
+    {
+     "word": "retrieve",
+     "part_of_speech": "동사",
+     "meaning_ko": "(기억을) 떠올리다, 꺼내다",
+     "example_en": "Try to retrieve the answer from memory.",
+     "example_ko": "기억에서 답을 떠올려 보세요."
+    },
+    {
+     "word": "memory",
+     "part_of_speech": "명사",
+     "meaning_ko": "기억",
+     "example_en": "Reviewing makes the memory stronger.",
+     "example_ko": "복습하면 기억이 더 강해져요."
+    },
+    {
+     "word": "schedule",
+     "part_of_speech": "명사",
+     "meaning_ko": "일정, 계획표",
+     "example_en": "You need to make a schedule.",
+     "example_ko": "계획표를 만들어야 해요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Today we're going to talk about a study habit.",
+     "ko": "오늘은 공부 습관에 대해 이야기할 거예요."
+    },
+    {
+     "en": "Spaced practice means studying in several short sessions.",
+     "ko": "분산 학습은 여러 번의 짧은 시간에 나누어 공부하는 것을 뜻해요."
+    },
+    {
+     "en": "For example, a student studies for twenty minutes on five days.",
+     "ko": "예를 들어, 한 학생이 닷새 동안 20분씩 공부해요."
+    },
+    {
+     "en": "The main reason is that the brain retrieves the information again.",
+     "ko": "주된 이유는 뇌가 정보를 다시 떠올리기 때문이에요."
+    },
+    {
+     "en": "Retrieving information makes the memory stronger.",
+     "ko": "정보를 떠올리면 기억이 더 강해져요."
+    },
+    {
+     "en": "Spaced practice takes planning.",
+     "ko": "분산 학습은 계획이 필요해요."
+    },
+    {
+     "en": "You need to make a schedule.",
+     "ko": "계획표를 만들어야 해요."
+    },
+    {
+     "en": "The extra planning is usually worth it.",
+     "ko": "추가로 계획하는 수고는 대개 그럴 만한 가치가 있어요."
+    },
+    {
+     "en": "In other words, short sessions on many days can work better than one long session.",
+     "ko": "다시 말해, 여러 날에 걸친 짧은 학습이 한 번의 긴 학습보다 효과적일 수 있어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "강의(글로 읽는 연습): Professor: 'Today we're going to talk about a study habit called spaced practice. Spaced practice means studying the same material in several short sessions over many days instead of in one long session. For example, a student who studies vocabulary for twenty minutes on each of five days will usually remember more words next month than a student who studies for one hundred minutes the night before a test. The main reason is that each new session makes the brain retrieve the information again, and retrieving it makes the memory stronger. Of course, spaced practice takes planning. You need to start earlier and make a schedule. But the extra planning is usually worth it.' 질문: What is the lecture mainly about?",
+     "choices": [
+      "A study habit called spaced practice",
+      "How to take notes in class",
+      "Why tests make students nervous",
+      "How to choose a major"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "교수는 첫 문장에서 spaced practice라는 공부 습관을 이야기하겠다고 말했습니다.",
+     "error_tag": "main-topic",
+     "id": "F010-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "강의(글로 읽는 연습): Professor: 'Today we're going to talk about a study habit called spaced practice. Spaced practice means studying the same material in several short sessions over many days instead of in one long session. For example, a student who studies vocabulary for twenty minutes on each of five days will usually remember more words next month than a student who studies for one hundred minutes the night before a test. The main reason is that each new session makes the brain retrieve the information again, and retrieving it makes the memory stronger. Of course, spaced practice takes planning. You need to start earlier and make a schedule. But the extra planning is usually worth it.' 질문: According to the professor, what does spaced practice mean?",
+     "choices": [
+      "Studying for one long session the night before a test",
+      "Studying with a friend every day",
+      "Studying the same material in several short sessions over many days",
+      "Studying several subjects at the same time"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "정의는 'studying the same material in several short sessions over many days'입니다. 정의 뒤에는 보통 예시가 이어집니다.",
+     "error_tag": "definition",
+     "id": "F010-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "강의(글로 읽는 연습): Professor: 'Today we're going to talk about a study habit called spaced practice. Spaced practice means studying the same material in several short sessions over many days instead of in one long session. For example, a student who studies vocabulary for twenty minutes on each of five days will usually remember more words next month than a student who studies for one hundred minutes the night before a test. The main reason is that each new session makes the brain retrieve the information again, and retrieving it makes the memory stronger. Of course, spaced practice takes planning. You need to start earlier and make a schedule. But the extra planning is usually worth it.' 질문: In the professor's example, how many minutes in total did the first student study vocabulary?",
+     "choices": [
+      "20 minutes",
+      "120 minutes",
+      "50 minutes",
+      "100 minutes"
+     ],
+     "answer_index": 3,
+     "explanation_ko": "20분씩 5일이므로 모두 100분입니다. 두 번째 학생도 100분 공부했으므로 비교의 핵심은 시간이 아니라 공부를 나눈 방식입니다.",
+     "error_tag": "detail",
+     "id": "F010-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "강의(글로 읽는 연습): Professor: 'Today we're going to talk about a study habit called spaced practice. Spaced practice means studying the same material in several short sessions over many days instead of in one long session. For example, a student who studies vocabulary for twenty minutes on each of five days will usually remember more words next month than a student who studies for one hundred minutes the night before a test. The main reason is that each new session makes the brain retrieve the information again, and retrieving it makes the memory stronger. Of course, spaced practice takes planning. You need to start earlier and make a schedule. But the extra planning is usually worth it.' 질문: Why does spaced practice help memory, according to the professor?",
+     "choices": [
+      "It makes tests easier to schedule.",
+      "Each new session makes the brain retrieve the information again.",
+      "It lets students avoid reviewing.",
+      "It reduces the number of words to learn."
+     ],
+     "answer_index": 1,
+     "explanation_ko": "'The main reason is that each new session makes the brain retrieve the information again.'라고 이유를 직접 말했습니다.",
+     "error_tag": "reason",
+     "id": "F010-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "강의(글로 읽는 연습): Professor: 'Today we're going to talk about a study habit called spaced practice. Spaced practice means studying the same material in several short sessions over many days instead of in one long session. For example, a student who studies vocabulary for twenty minutes on each of five days will usually remember more words next month than a student who studies for one hundred minutes the night before a test. The main reason is that each new session makes the brain retrieve the information again, and retrieving it makes the memory stronger. Of course, spaced practice takes planning. You need to start earlier and make a schedule. But the extra planning is usually worth it.' 질문: What does the professor say spaced practice takes? (영어로 한 단어)",
+     "answer_text": "planning",
+     "accepted_answers": [
+      "planning"
+     ],
+     "explanation_ko": "'Spaced practice takes planning.'이라고 말했습니다.",
+     "error_tag": "detail",
+     "id": "F010-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "강의(글로 읽는 연습): Professor: 'Today we're going to talk about a study habit called spaced practice. Spaced practice means studying the same material in several short sessions over many days instead of in one long session. For example, a student who studies vocabulary for twenty minutes on each of five days will usually remember more words next month than a student who studies for one hundred minutes the night before a test. The main reason is that each new session makes the brain retrieve the information again, and retrieving it makes the memory stronger. Of course, spaced practice takes planning. You need to start earlier and make a schedule. But the extra planning is usually worth it.' 질문: In the example, on how many days did the first student study? (숫자로)",
+     "answer_text": "5",
+     "accepted_answers": [
+      "5",
+      "five"
+     ],
+     "explanation_ko": "예시에서 첫 번째 학생은 five days 동안 매일 20분씩 공부했습니다.",
+     "error_tag": "detail",
+     "id": "F010-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "공부 습관 하나를 정해 'X means ...'와 'For example, ...' 문장을 영어로 써 보세요.",
+    "example_answer_en": "Daily reading means reading a little every day. For example, I read ten pages after dinner.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-21",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-21"
+   }
   }
  ]
 }
