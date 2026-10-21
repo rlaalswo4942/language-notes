@@ -3112,6 +3112,206 @@
     "version": 1,
     "last_revised": "2026-10-21"
    }
+  },
+  {
+   "id": "B2-017",
+   "level": "B2",
+   "track": "general",
+   "day": 17,
+   "title_ko": "강조 구문(분열문): It was ... that ... / What ... is ...",
+   "objective_ko": "It is/was ... that ...과 What ... is ...로 문장의 한 부분을 강조한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-22"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "문장의 한 부분을 강조하는 구문을 분열문(cleft sentence)이라고 합니다. ① It + be + 강조할 말 + that/who + 나머지: 주어 강조 — It was Mia who suggested the new schedule. 목적어 강조 — It was the schedule that Mia suggested. 때·장소 강조 — It was in March that the company revealed its plan. 사람이면 who나 that, 그 밖에는 that을 씁니다. ② not A but B 강조: It was not the price but the quality that convinced us. ③ What + 주어 + 동사 + be + 강조할 말: What I need is a longer deadline. (내게 필요한 것은 ~이다) ④ It was only after ... that ...: ~하고 나서야 비로소. be동사의 시제는 문맥에 맞추고, that 뒤는 평서문 어순을 유지합니다. 일상 대화보다는 설명문·발표에서 중요한 점을 짚을 때 자주 씁니다.",
+    "common_mistake_ko": "It was Tom what broke the window.(X) → It was Tom who/that broke the window.(O) / It was a longer deadline what I needed.(X) → What I needed was a longer deadline.(O) / It was Mia that did she suggest it.(X) → It was Mia that suggested it.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "emphasize",
+     "part_of_speech": "동사",
+     "meaning_ko": "강조하다",
+     "example_en": "She emphasized the importance of safety.",
+     "example_ko": "그녀는 안전의 중요성을 강조했어요."
+    },
+    {
+     "word": "responsible",
+     "part_of_speech": "형용사",
+     "meaning_ko": "책임이 있는",
+     "example_en": "Who is responsible for this project?",
+     "example_ko": "이 프로젝트는 누가 책임지고 있나요?"
+    },
+    {
+     "word": "reveal",
+     "part_of_speech": "동사",
+     "meaning_ko": "밝히다, 드러내다",
+     "example_en": "The company revealed its new plan in March.",
+     "example_ko": "회사는 3월에 새 계획을 밝혔어요."
+    },
+    {
+     "word": "deadline",
+     "part_of_speech": "명사",
+     "meaning_ko": "마감 기한",
+     "example_en": "The deadline is next Friday.",
+     "example_ko": "마감 기한은 다음 주 금요일이에요."
+    },
+    {
+     "word": "complaint",
+     "part_of_speech": "명사",
+     "meaning_ko": "불만, 항의",
+     "example_en": "We received a complaint about the delay.",
+     "example_ko": "우리는 지연에 대한 불만을 받았어요."
+    },
+    {
+     "word": "delay",
+     "part_of_speech": "명사",
+     "meaning_ko": "지연",
+     "example_en": "The delay caused a lot of trouble.",
+     "example_ko": "그 지연은 많은 문제를 일으켰어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "It was Mia who suggested the new schedule.",
+     "ko": "새 일정을 제안한 사람은 미아였어요."
+    },
+    {
+     "en": "It was the delay that caused the complaint.",
+     "ko": "불만을 일으킨 것은 지연이었어요."
+    },
+    {
+     "en": "It was in March that the company revealed its plan.",
+     "ko": "회사가 계획을 밝힌 것은 3월이었어요."
+    },
+    {
+     "en": "It is the manager who is responsible for the decision.",
+     "ko": "그 결정에 책임이 있는 사람은 매니저예요."
+    },
+    {
+     "en": "What I need is a longer deadline.",
+     "ko": "내게 필요한 것은 더 긴 마감 기한이에요."
+    },
+    {
+     "en": "What surprised me was the speed of the reply.",
+     "ko": "나를 놀라게 한 것은 답장의 속도였어요."
+    },
+    {
+     "en": "It was not the price but the quality that convinced us.",
+     "ko": "우리를 설득한 것은 가격이 아니라 품질이었어요."
+    },
+    {
+     "en": "It was only after the meeting that I understood the problem.",
+     "ko": "회의가 끝나고 나서야 나는 문제를 이해했어요."
+    },
+    {
+     "en": "Was it your team that submitted the report?",
+     "ko": "보고서를 제출한 것은 당신 팀이었나요?"
+    },
+    {
+     "en": "She emphasized that it was the process, not the result, that mattered.",
+     "ko": "그녀는 중요한 것은 결과가 아니라 과정이라고 강조했어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "'Tom broke the window.'에서 Tom을 강조한 문장은?",
+     "choices": [
+      "It was Tom what broke the window.",
+      "Tom was who broke the window.",
+      "It Tom was who broke the window.",
+      "It was Tom who broke the window."
+     ],
+     "answer_index": 3,
+     "explanation_ko": "주어를 강조할 때는 It was + 강조할 말 + who/that + 동사입니다. what은 쓰지 않습니다.",
+     "error_tag": "cleft",
+     "id": "B2-017-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "It was in Paris ___ they first met.",
+     "choices": [
+      "that",
+      "what",
+      "whom",
+      "whose"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "장소·때를 강조하는 분열문에서는 that을 씁니다.",
+     "error_tag": "cleft",
+     "id": "B2-017-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "___ I need is a long holiday. (내게 필요한 것은)",
+     "choices": [
+      "That",
+      "What",
+      "It",
+      "Which"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "'~하는 것'을 주어로 하는 강조문은 What + 주어 + 동사 + be ...입니다.",
+     "error_tag": "wh-cleft",
+     "id": "B2-017-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'우리를 설득한 것은 가격이 아니라 품질이었다'에 맞는 문장은?",
+     "choices": [
+      "It was not the price but the quality what convinced us.",
+      "It not was the price but the quality that convinced us.",
+      "It was not the price but the quality that convinced us.",
+      "Not the price it was but the quality convinced us."
+     ],
+     "answer_index": 2,
+     "explanation_ko": "It was not A but B that ...의 어순입니다. 관계사는 that이고 It was not 어순을 유지합니다.",
+     "error_tag": "cleft",
+     "id": "B2-017-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: It was my sister ___ called me last night. (사람이 주어일 때)",
+     "answer_text": "who",
+     "accepted_answers": [
+      "who",
+      "that"
+     ],
+     "explanation_ko": "사람을 강조한 분열문에서는 who 또는 that을 씁니다.",
+     "error_tag": "cleft",
+     "id": "B2-017-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: ___ surprised me was the price. (나를 놀라게 한 것은)",
+     "answer_text": "What",
+     "accepted_answers": [
+      "what"
+     ],
+     "explanation_ko": "'~한 것'이 주어인 강조문은 What으로 시작합니다.",
+     "error_tag": "wh-cleft",
+     "id": "B2-017-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "It was ... that ... 구문 하나와 What ... is ... 구문 하나를 써 보세요.",
+    "example_answer_en": "It was my manager who gave me the idea. What I need is more time.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-22",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-22"
+   }
   }
  ]
 }

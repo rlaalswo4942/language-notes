@@ -3412,6 +3412,230 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-17",
+   "day_index": 17,
+   "week_index": 3,
+   "level": "N4",
+   "unit_id": "N4-W03",
+   "lesson_type": "new",
+   "title_ko": "〜かもしれません: ~일지도 모릅니다",
+   "objective_ko": "かもしれません으로 확실하지 않은 추측을 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-16"
+   ],
+   "explanation_ko": "〜かもしれません은 ‘~일지도 모릅니다’라고 확실하지 않은 추측을 나타냅니다(가능성이 반반이거나 그보다 낮을 때). ① 동사·い형용사: 보통형 + かもしれません (降る → 降るかもしれません, 難しい → 難しいかもしれません) ② な형용사·명사: 어간 + かもしれません (暇かもしれません, 先生かもしれません). だ를 붙이지 않습니다. ③ 부정: 来ないかもしれません(오지 않을지도 모릅니다) ④ 과거의 추측: 間違えたかもしれません(실수했을지도 모릅니다) ⑤ 대답으로 そうかもしれません(그럴지도 모릅니다)도 자주 씁니다. 같은 추측이라도 〜と思います는 자기 생각을, 〜でしょう는 더 높은 확신을 나타냅니다. 앞에 たぶん을 붙이면 ‘아마’라는 느낌이 더해집니다.",
+   "usage_notes": [
+    "な형용사와 명사에는 だ를 붙이지 않습니다(×先生だかもしれません → 先生かもしれません).",
+    "かもしれません은 확실하지 않을 때 씁니다. 확실한 사실에는 쓰지 않습니다.",
+    "보통형의 과거 + かもしれません으로 ‘~했을지도 모릅니다’를 말할 수 있습니다."
+   ],
+   "common_mistakes": [
+    "あの 人は 先生だかもしれません(X) → あの 人は 先生かもしれません(O): 명사 뒤에 だ를 붙이지 않습니다.",
+    "田中さんは 来ませんかもしれません(X) → 田中さんは 来ないかもしれません(O): 보통형(来ない)에 붙입니다.",
+    "明日は 雨が 降るもしれません(X) → 明日は 雨が 降るかもしれません(O): 「か」를 빠뜨리지 않습니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N4-17-01",
+     "kind": "word",
+     "text": "多分{たぶん}",
+     "reading_kana": "たぶん",
+     "reading_romanized": "tabun",
+     "meaning_ko": "아마",
+     "part_of_speech": "부사"
+    },
+    {
+     "id": "w-JP-N4-17-02",
+     "kind": "word",
+     "text": "雪{ゆき}",
+     "reading_kana": "ゆき",
+     "reading_romanized": "yuki",
+     "meaning_ko": "눈",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-17-03",
+     "kind": "word",
+     "text": "台風{たいふう}",
+     "reading_kana": "たいふう",
+     "reading_romanized": "taifuu",
+     "meaning_ko": "태풍",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-17-04",
+     "kind": "word",
+     "text": "間違{まちが}える",
+     "reading_kana": "まちがえる",
+     "reading_romanized": "machigaeru",
+     "meaning_ko": "틀리다, 실수하다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-17-05",
+     "kind": "word",
+     "text": "暇{ひま}",
+     "reading_kana": "ひま",
+     "reading_romanized": "hima",
+     "meaning_ko": "한가함",
+     "part_of_speech": "な형용사"
+    },
+    {
+     "id": "w-JP-N4-17-06",
+     "kind": "word",
+     "text": "来週{らいしゅう}",
+     "reading_kana": "らいしゅう",
+     "reading_romanized": "raishuu",
+     "meaning_ko": "다음 주",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "明日{あした}は 雨{あめ}が 降{ふ}るかもしれません。",
+     "meaning_ko": "내일은 비가 올지도 모릅니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "今夜{こんや}は 雪{ゆき}が 降{ふ}るかもしれません。",
+     "meaning_ko": "오늘 밤은 눈이 올지도 모릅니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "台風{たいふう}が 来{く}るかもしれません。",
+     "meaning_ko": "태풍이 올지도 모릅니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "田中{たなか}さんは 今日{きょう} 来{こ}ないかもしれません。",
+     "meaning_ko": "다나카 씨는 오늘 오지 않을지도 모릅니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 問題{もんだい}は 難{むずか}しいかもしれません。",
+     "meaning_ko": "이 문제는 어려울지도 모릅니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "山田{やまだ}さんは 暇{ひま}かもしれません。",
+     "meaning_ko": "야마다 씨는 한가할지도 모릅니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "あの 人{ひと}は 先生{せんせい}かもしれません。",
+     "meaning_ko": "저 사람은 선생님일지도 모릅니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "私{わたし}は 道{みち}を 間違{まちが}えたかもしれません。",
+     "meaning_ko": "저는 길을 잘못 들었을지도 모릅니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "多分{たぶん} 来週{らいしゅう}は 忙{いそが}しいかもしれません。",
+     "meaning_ko": "아마 다음 주는 바쁠지도 모릅니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "「パーティーに 行{い}きますか。」「まだ わかりません。行{い}くかもしれません。」",
+     "meaning_ko": "“파티에 갑니까?” “아직 모르겠습니다. 갈지도 모릅니다.”",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N4-17-Q1",
+     "type": "single_choice",
+     "prompt_ko": "‘내일은 비가 올지도 모릅니다’를 바르게 나타낸 것은?",
+     "options": [
+      "明日は 雨が 降るもしれません。",
+      "明日は 雨が 降るかもしれません。",
+      "明日は 雨が 降るでしょうません。",
+      "明日は 雨が 降りますかもしれません。"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "보통형(降る) + かもしれません입니다. 「か」를 빼먹거나 ます형에 붙이지 않습니다."
+    },
+    {
+     "id": "JP-N4-17-Q2",
+     "type": "single_choice",
+     "prompt_ko": "正しい 文を 選んで ください。",
+     "options": [
+      "あの 人は 先生だかもしれません。",
+      "あの 人は 先生なかもしれません。",
+      "あの 人は 先生のかもしれません。",
+      "あの 人は 先生かもしれません。"
+     ],
+     "answer_index": 3,
+     "explanation_ko": "명사에는 だ・な・の를 붙이지 않고 そのまま かもしれません을 붙입니다."
+    },
+    {
+     "id": "JP-N4-17-Q3",
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 ‘오지 않을지도 모릅니다’: 田中さんは 来（　）かもしれません。",
+     "options": [
+      "ない",
+      "ません",
+      "ないです",
+      "なくて"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "보통형의 부정 来ない에 かもしれません이 붙습니다."
+    },
+    {
+     "id": "JP-N4-17-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「道を 間違えたかもしれません」의 뜻은?",
+     "options": [
+      "길을 잘못 들 것입니다.",
+      "길을 틀림없이 잘못 들었습니다.",
+      "길을 잘못 들었을지도 모릅니다.",
+      "길을 잘못 들면 안 됩니다."
+     ],
+     "answer_index": 2,
+     "explanation_ko": "〜たかもしれません은 ‘~했을지도 모릅니다’라는 과거의 추측입니다."
+    },
+    {
+     "id": "JP-N4-17-Q5",
+     "type": "typing",
+     "prompt_ko": "「多分」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "tabun",
+     "accepted_answers": [
+      "tabun"
+     ],
+     "explanation_ko": "多分 = たぶん (tabun, 아마)"
+    },
+    {
+     "id": "JP-N4-17-Q6",
+     "type": "single_choice",
+     "prompt_ko": "다음 중 ‘확실하지 않은 추측’을 나타내는 문장은?",
+     "options": [
+      "明日は 雨です。",
+      "明日は 雨が 降りました。",
+      "明日は 雨じゃ ありません。",
+      "明日は 雨かもしれません。"
+     ],
+     "answer_index": 3,
+     "explanation_ko": "かもしれません은 ‘~일지도 모릅니다’라는 불확실한 추측입니다. 나머지는 사실을 말하는 문장입니다."
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

@@ -1878,6 +1878,197 @@
     "version": 1,
     "last_revised": "2026-10-21"
    }
+  },
+  {
+   "id": "TOEIC-011",
+   "level": "B1",
+   "track": "toeic",
+   "day": 11,
+   "title_ko": "TOEIC Part 6 맛보기: 문장 사이를 잇는 연결어 고르기",
+   "objective_ko": "앞뒤 문장의 관계(대조·추가·결과·예시·조건)를 보고 알맞은 연결어를 고른다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/toeic/about/listening-reading.html",
+     "publisher": "ETS",
+     "supports": "공식 시험 형식",
+     "checked_at": "2026-10-22"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "TOEIC Reading의 Part 6은 짧은 이메일·공지 같은 지문 속 빈칸을 채우는 유형입니다(공식 형식 안내 기준, 아래 지문은 자체 연습). 빈칸 한 문장만 보지 말고 앞 문장과 뒤 문장의 관계를 먼저 판단하세요. ① However: 앞과 반대·대조 (발송했다. 그러나 아직 도착하지 않았다) ② In addition / Moreover: 같은 방향의 내용을 더함 (게다가) ③ Therefore / As a result: 앞 문장이 원인, 뒤 문장이 결과 (그러므로, 그 결과) ④ For example: 앞의 말을 예로 설명 ⑤ Otherwise: '그렇지 않으면'. 앞에 지시·조건이 나오고 뒤에 나쁜 결과가 이어집니다. 이 말들은 접속사가 아니라 부사이므로 보통 앞 문장을 마침표로 끝내고 새 문장 처음에 쓰며 뒤에 쉼표를 찍습니다.",
+    "common_mistake_ko": "앞 문장은 '발송됨', 뒤 문장은 '아직 도착 안 함'인데 Therefore를 고르는 실수 → 반대 관계이므로 However입니다. / '악천후 때문에 열차 취소' 뒤에 However를 고르는 실수 → 원인과 결과이므로 As a result입니다. / 빈칸 문장만 읽고 고르는 실수 → 반드시 앞뒤 문장을 함께 읽습니다."
+   },
+   "vocabulary": [
+    {
+     "word": "shipment",
+     "part_of_speech": "명사",
+     "meaning_ko": "배송(품), 선적",
+     "example_en": "The shipment will arrive on Friday.",
+     "example_ko": "배송품은 금요일에 도착할 예정입니다."
+    },
+    {
+     "word": "apologize",
+     "part_of_speech": "동사",
+     "meaning_ko": "사과하다",
+     "example_en": "We apologize for the delay.",
+     "example_ko": "지연에 대해 사과드립니다."
+    },
+    {
+     "word": "refund",
+     "part_of_speech": "명사",
+     "meaning_ko": "환불",
+     "example_en": "You will get a full refund.",
+     "example_ko": "전액 환불을 받으실 수 있습니다."
+    },
+    {
+     "word": "confirm",
+     "part_of_speech": "동사",
+     "meaning_ko": "확인하다, 확정하다",
+     "example_en": "Please confirm your address by Friday.",
+     "example_ko": "금요일까지 주소를 확인해 주세요."
+    },
+    {
+     "word": "replacement",
+     "part_of_speech": "명사",
+     "meaning_ko": "교체(품), 대체품",
+     "example_en": "We will send a replacement free of charge.",
+     "example_ko": "교체품을 무료로 보내 드리겠습니다."
+    },
+    {
+     "word": "inconvenience",
+     "part_of_speech": "명사",
+     "meaning_ko": "불편",
+     "example_en": "We are sorry for the inconvenience.",
+     "example_ko": "불편을 드려 죄송합니다."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Your order was shipped on May 3. However, it has not arrived yet.",
+     "ko": "주문품은 5월 3일에 발송되었습니다. 그러나 아직 도착하지 않았습니다."
+    },
+    {
+     "en": "We apologize for the inconvenience.",
+     "ko": "불편을 드려 죄송합니다."
+    },
+    {
+     "en": "In addition, we will send a replacement free of charge.",
+     "ko": "또한 교체품을 무료로 보내 드리겠습니다."
+    },
+    {
+     "en": "The shipment was delayed by bad weather. As a result, all deliveries will be one day late.",
+     "ko": "악천후로 배송이 지연되었습니다. 그 결과 모든 배송이 하루 늦어집니다."
+    },
+    {
+     "en": "Please confirm your address by Friday. Otherwise, we cannot send the package.",
+     "ko": "금요일까지 주소를 확인해 주세요. 그렇지 않으면 소포를 보낼 수 없습니다."
+    },
+    {
+     "en": "We offer several services. For example, we provide free gift wrapping.",
+     "ko": "저희는 여러 서비스를 제공합니다. 예를 들어 무료 선물 포장을 해 드립니다."
+    },
+    {
+     "en": "The item was damaged. Therefore, we will give you a full refund.",
+     "ko": "상품이 손상되었습니다. 그러므로 전액 환불해 드리겠습니다."
+    },
+    {
+     "en": "The hotel is close to the station. Moreover, breakfast is included.",
+     "ko": "호텔은 역에서 가깝습니다. 게다가 조식이 포함되어 있습니다."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "Part 6 형식 연습(자체 작성): Dear Ms. Lee, Your order was shipped on May 3. ------, it has not arrived yet. We are checking with the delivery company. — 빈칸에 알맞은 말은?",
+     "choices": [
+      "However",
+      "Therefore",
+      "For example",
+      "In addition"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "앞은 '발송됨', 뒤는 '아직 도착하지 않음'으로 반대 관계이므로 However입니다.",
+     "error_tag": "connective-contrast",
+     "id": "T011-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Part 6 형식 연습(자체 작성): Because of the storm, the 8:00 train was cancelled. ------, many passengers arrived at work late. — 빈칸에 알맞은 말은?",
+     "choices": [
+      "However",
+      "Otherwise",
+      "As a result",
+      "For example"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "열차 취소가 원인, 지각이 결과이므로 As a result입니다.",
+     "error_tag": "connective-result",
+     "id": "T011-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Part 6 형식 연습(자체 작성): Please bring your ID card to the front desk. ------, you will not be able to enter the building. — 빈칸에 알맞은 말은?",
+     "choices": [
+      "Moreover",
+      "Therefore",
+      "Otherwise",
+      "For example"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "'신분증을 가져오라. 그렇지 않으면 들어갈 수 없다'는 뜻이므로 Otherwise입니다.",
+     "error_tag": "connective-otherwise",
+     "id": "T011-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Part 6 형식 연습(자체 작성): Our fitness center offers many classes. ------, a yoga class is held every Monday morning. — 빈칸에 알맞은 말은?",
+     "choices": [
+      "Otherwise",
+      "However",
+      "As a result",
+      "For example"
+     ],
+     "answer_index": 3,
+     "explanation_ko": "뒤 문장이 앞 문장의 구체적인 예이므로 For example입니다.",
+     "error_tag": "connective-example",
+     "id": "T011-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "Part 6 형식 연습(자체 작성): The hotel is quiet and clean. ------, breakfast is included in the price. — 빈칸에 '게다가'에 해당하는 한 단어를 쓰세요. (M으로 시작)",
+     "answer_text": "Moreover",
+     "accepted_answers": [
+      "moreover"
+     ],
+     "explanation_ko": "같은 방향의 내용을 더하는 연결어이므로 Moreover입니다.",
+     "error_tag": "connective-addition",
+     "id": "T011-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "Part 6 형식 연습(자체 작성): The printer is broken. ------, we cannot print the reports today. — 빈칸에 '그러므로'에 해당하는 한 단어를 쓰세요. (T로 시작)",
+     "answer_text": "Therefore",
+     "accepted_answers": [
+      "therefore"
+     ],
+     "explanation_ko": "프린터 고장이 원인, 출력 불가가 결과이므로 Therefore입니다.",
+     "error_tag": "connective-result",
+     "id": "T011-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "However와 In addition을 하나씩 사용해 업무 이메일 속 문장 두 개를 써 보세요.",
+    "example_answer_en": "We received your request. However, the item is out of stock. In addition, a new shipment will arrive next week.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-22",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-22"
+   }
   }
  ]
 }

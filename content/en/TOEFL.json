@@ -1857,6 +1857,201 @@
     "version": 1,
     "last_revised": "2026-10-21"
    }
+  },
+  {
+   "id": "TOEFL-011",
+   "level": "B1",
+   "track": "toefl",
+   "day": 11,
+   "title_ko": "TOEFL 2026 Read an Academic Passage 입문: 주제·세부정보·어휘·글의 흐름 찾기",
+   "objective_ko": "짧은 학술 글에서 주제, 세부정보, 문맥 속 단어 뜻, 글의 흐름을 찾는다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/content/ets-org/language-master/ko/home/toefl/test-takers/ibt/about/content.html",
+     "publisher": "ETS",
+     "supports": "2026 형식 유형명",
+     "checked_at": "2026-10-22"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "2026-01-21 이후 TOEFL iBT Reading에는 Read an Academic Passage 유형이 안내되어 있습니다(공식 안내 유형명). 학술 성격의 글을 읽고 질문에 답하는 유형입니다. 아래는 형식에 익숙해지기 위한 비공식 자체 연습이며 실제 시험의 길이·문항 수와 다를 수 있습니다. 다음 순서로 읽으세요. ① 주제: 첫 문장과 글 전체에서 반복되는 말을 보고 무엇에 관한 글인지 잡습니다. ② 글의 구조: One benefit / Another benefit처럼 장점이 나열되고, However 뒤에서 어려움이나 반대 내용이 나옵니다. ③ 세부정보: 질문의 핵심 단어를 글에서 찾아 그 문장을 다시 읽고 대조합니다. ④ 문맥 속 어휘: 모르는 단어는 앞뒤 문장(여기서는 'cooler than a bare roof')으로 뜻을 추측합니다. 글에 없는 내용이나 지나치게 넓은 말은 오답입니다.",
+    "common_mistake_ko": "글에 나온 단어가 들어 있다는 이유만으로 보기를 고르는 실수 → 보기의 의미가 글의 내용과 같은지 확인합니다. / 장점만 읽고 However 뒤의 어려움을 놓치는 실수 → 주제는 장점과 어려움 모두입니다. / 어휘 문제를 사전 뜻만으로 푸는 실수 → bare는 이 글에서 '식물 같은 덮개가 없는'이라는 뜻입니다."
+   },
+   "vocabulary": [
+    {
+     "word": "benefit",
+     "part_of_speech": "명사",
+     "meaning_ko": "이점, 장점",
+     "example_en": "One benefit of exercise is better sleep.",
+     "example_ko": "운동의 한 가지 이점은 더 나은 수면이에요."
+    },
+    {
+     "word": "container",
+     "part_of_speech": "명사",
+     "meaning_ko": "용기, 화분",
+     "example_en": "She grows herbs in a small container.",
+     "example_ko": "그녀는 작은 화분에서 허브를 길러요."
+    },
+    {
+     "word": "release",
+     "part_of_speech": "동사",
+     "meaning_ko": "내놓다, 방출하다",
+     "example_en": "Plants release water vapor.",
+     "example_ko": "식물은 수증기를 내놓아요."
+    },
+    {
+     "word": "reduce",
+     "part_of_speech": "동사",
+     "meaning_ko": "줄이다",
+     "example_en": "Trees can reduce the heat in a city.",
+     "example_ko": "나무는 도시의 열기를 줄일 수 있어요."
+    },
+    {
+     "word": "regular",
+     "part_of_speech": "형용사",
+     "meaning_ko": "규칙적인, 정기적인",
+     "example_en": "The garden needs regular care.",
+     "example_ko": "정원은 정기적인 관리가 필요해요."
+    },
+    {
+     "word": "drain",
+     "part_of_speech": "명사",
+     "meaning_ko": "배수구",
+     "example_en": "Rainwater flows into the drain.",
+     "example_ko": "빗물은 배수구로 흘러 들어가요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Rooftop gardens are becoming more common in large cities.",
+     "ko": "옥상 정원은 큰 도시에서 점점 흔해지고 있어요."
+    },
+    {
+     "en": "A rooftop garden is a space on top of a building where plants grow.",
+     "ko": "옥상 정원은 건물 꼭대기에 식물이 자라는 공간이에요."
+    },
+    {
+     "en": "One benefit is cooling.",
+     "ko": "한 가지 이점은 열을 식혀 주는 것이에요."
+    },
+    {
+     "en": "Plants release water vapor, so a green roof stays cooler than a bare roof.",
+     "ko": "식물은 수증기를 내놓아서 녹색 지붕은 덮개 없는 지붕보다 시원하게 유지돼요."
+    },
+    {
+     "en": "Another benefit is rainwater control.",
+     "ko": "또 다른 이점은 빗물을 조절하는 것이에요."
+    },
+    {
+     "en": "Soil and plants hold some of the rain.",
+     "ko": "흙과 식물은 비의 일부를 붙잡아 둬요."
+    },
+    {
+     "en": "This reduces the amount of water that rushes into city drains.",
+     "ko": "이것은 도시 배수구로 몰려드는 물의 양을 줄여요."
+    },
+    {
+     "en": "However, rooftop gardens are not simple to build.",
+     "ko": "그러나 옥상 정원은 만들기가 간단하지 않아요."
+    },
+    {
+     "en": "The roof must be strong enough to hold the weight of wet soil.",
+     "ko": "지붕은 젖은 흙의 무게를 버틸 만큼 튼튼해야 해요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "글(글로 읽는 연습, 자체 작성): 'Rooftop gardens are becoming more common in large cities. A rooftop garden is a space on top of a building where plants grow in soil or in containers. One benefit is cooling. Plants take in sunlight and release water vapor, so a green roof stays cooler than a bare roof, and the rooms below need less air conditioning. Another benefit is rainwater control. Soil and plants hold some of the rain, which reduces the amount of water that rushes into city drains during a storm. However, rooftop gardens are not simple to build. The roof must be strong enough to hold the weight of wet soil, and the garden needs regular care.' 질문: What is the passage mainly about?",
+     "choices": [
+      "The history of city drains",
+      "The benefits and difficulties of rooftop gardens",
+      "How plants grow without soil",
+      "Why cities use more air conditioning"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "글은 옥상 정원의 이점(냉각·빗물 조절)을 설명하고 However 뒤에서 만들기의 어려움을 말합니다.",
+     "error_tag": "main-idea",
+     "id": "F011-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "글(글로 읽는 연습, 자체 작성): 'Rooftop gardens are becoming more common in large cities. A rooftop garden is a space on top of a building where plants grow in soil or in containers. One benefit is cooling. Plants take in sunlight and release water vapor, so a green roof stays cooler than a bare roof, and the rooms below need less air conditioning. Another benefit is rainwater control. Soil and plants hold some of the rain, which reduces the amount of water that rushes into city drains during a storm. However, rooftop gardens are not simple to build. The roof must be strong enough to hold the weight of wet soil, and the garden needs regular care.' 질문: According to the passage, why does a green roof stay cooler than a bare roof?",
+     "choices": [
+      "Soil blocks the wind.",
+      "Plants release water vapor.",
+      "The containers are painted white.",
+      "The roof is built higher."
+     ],
+     "answer_index": 1,
+     "explanation_ko": "'Plants take in sunlight and release water vapor, so a green roof stays cooler'에서 이유를 확인할 수 있습니다.",
+     "error_tag": "detail",
+     "id": "F011-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "글(글로 읽는 연습, 자체 작성): 'Rooftop gardens are becoming more common in large cities. A rooftop garden is a space on top of a building where plants grow in soil or in containers. One benefit is cooling. Plants take in sunlight and release water vapor, so a green roof stays cooler than a bare roof, and the rooms below need less air conditioning. Another benefit is rainwater control. Soil and plants hold some of the rain, which reduces the amount of water that rushes into city drains during a storm. However, rooftop gardens are not simple to build. The roof must be strong enough to hold the weight of wet soil, and the garden needs regular care.' 질문: The word 'bare' in the passage is closest in meaning to",
+     "choices": [
+      "covered with plants",
+      "very large",
+      "without a covering",
+      "recently built"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "green roof와 대비되는 bare roof는 식물 같은 덮개가 없는 지붕입니다. 따라서 without a covering입니다.",
+     "error_tag": "vocabulary-in-context",
+     "id": "F011-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "글(글로 읽는 연습, 자체 작성): 'Rooftop gardens are becoming more common in large cities. A rooftop garden is a space on top of a building where plants grow in soil or in containers. One benefit is cooling. Plants take in sunlight and release water vapor, so a green roof stays cooler than a bare roof, and the rooms below need less air conditioning. Another benefit is rainwater control. Soil and plants hold some of the rain, which reduces the amount of water that rushes into city drains during a storm. However, rooftop gardens are not simple to build. The roof must be strong enough to hold the weight of wet soil, and the garden needs regular care.' 질문: What does the passage say about building a rooftop garden?",
+     "choices": [
+      "The building must have no air conditioning.",
+      "The garden must not use soil.",
+      "The roof must be strong enough to hold wet soil.",
+      "The city must stop all rain."
+     ],
+     "answer_index": 2,
+     "explanation_ko": "마지막 부분에서 'The roof must be strong enough to hold the weight of wet soil'이라고 합니다.",
+     "error_tag": "detail",
+     "id": "F011-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "글(글로 읽는 연습, 자체 작성): 'Rooftop gardens are becoming more common in large cities. A rooftop garden is a space on top of a building where plants grow in soil or in containers. One benefit is cooling. Plants take in sunlight and release water vapor, so a green roof stays cooler than a bare roof, and the rooms below need less air conditioning. Another benefit is rainwater control. Soil and plants hold some of the rain, which reduces the amount of water that rushes into city drains during a storm. However, rooftop gardens are not simple to build. The roof must be strong enough to hold the weight of wet soil, and the garden needs regular care.' 질문: Soil and plants hold some of the ___ during a storm. (지문 속 한 단어)",
+     "answer_text": "rain",
+     "accepted_answers": [
+      "rain"
+     ],
+     "explanation_ko": "'Soil and plants hold some of the rain'에서 빈칸은 rain입니다.",
+     "error_tag": "detail",
+     "id": "F011-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "글(글로 읽는 연습, 자체 작성): 'Rooftop gardens are becoming more common in large cities. A rooftop garden is a space on top of a building where plants grow in soil or in containers. One benefit is cooling. Plants take in sunlight and release water vapor, so a green roof stays cooler than a bare roof, and the rooms below need less air conditioning. Another benefit is rainwater control. Soil and plants hold some of the rain, which reduces the amount of water that rushes into city drains during a storm. However, rooftop gardens are not simple to build. The roof must be strong enough to hold the weight of wet soil, and the garden needs regular care.' 질문: Which word at the start of a sentence introduces the difficulties after the benefits? (지문 속 한 단어)",
+     "answer_text": "However",
+     "accepted_answers": [
+      "however"
+     ],
+     "explanation_ko": "However는 앞의 이점과 반대되는 내용(만들기의 어려움)을 이끕니다.",
+     "error_tag": "text-structure",
+     "id": "F011-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "글의 내용을 한 문장으로 요약해 써 보세요. (영어)",
+    "example_answer_en": "Rooftop gardens help cool buildings and control rainwater, but they need a strong roof and regular care.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-22",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-22"
+   }
   }
  ]
 }

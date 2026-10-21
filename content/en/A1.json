@@ -3126,6 +3126,208 @@
     "version": 1,
     "last_revised": "2026-10-21"
    }
+  },
+  {
+   "id": "A1-017",
+   "level": "A1",
+   "track": "foundation",
+   "day": 17,
+   "title_ko": "Let's / Why don't we / How about: 제안하고 대답하기",
+   "objective_ko": "Let's, Why don't we, How about으로 함께 하자고 제안하고 대답한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "A1-A2 문법 학습 주제",
+     "checked_at": "2026-10-22"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "함께 하자고 제안하는 표현은 세 가지가 있습니다. ① Let's + 동사원형: ~하자. Let's go to the park. ② Why don't we + 동사원형 ...?: ~하는 게 어때? Why don't we watch a movie? ③ How about + 명사 / 동사-ing ...?: ~은 어때? How about a picnic? / How about going to the library? 하지 말자는 Let's not + 동사원형입니다: Let's not stay home. 대답은 수락 Good idea! / Sure. / OK. , 거절 Sorry, I can't. / Sorry, I'm busy.처럼 합니다. 세 표현 모두 to를 넣지 않고 Let's 뒤에는 동사원형을 씁니다.",
+    "common_mistake_ko": "Let's to go to the park.(X) → Let's go to the park.(O) / How about go to the zoo?(X) → How about going to the zoo?(O) / Why don't we to eat lunch?(X) → Why don't we eat lunch?(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "idea",
+     "part_of_speech": "명사",
+     "meaning_ko": "생각, 아이디어",
+     "example_en": "That is a good idea.",
+     "example_ko": "그거 좋은 생각이에요."
+    },
+    {
+     "word": "picnic",
+     "part_of_speech": "명사",
+     "meaning_ko": "소풍",
+     "example_en": "We have a picnic on Sunday.",
+     "example_ko": "우리는 일요일에 소풍을 가요."
+    },
+    {
+     "word": "movie",
+     "part_of_speech": "명사",
+     "meaning_ko": "영화",
+     "example_en": "I watch a movie on Friday.",
+     "example_ko": "나는 금요일에 영화를 봐요."
+    },
+    {
+     "word": "join",
+     "part_of_speech": "동사",
+     "meaning_ko": "함께하다, 가입하다",
+     "example_en": "Can you join us?",
+     "example_ko": "우리와 함께할 수 있어요?"
+    },
+    {
+     "word": "later",
+     "part_of_speech": "부사",
+     "meaning_ko": "나중에",
+     "example_en": "I can call you later.",
+     "example_ko": "나중에 전화할 수 있어요."
+    },
+    {
+     "word": "busy",
+     "part_of_speech": "형용사",
+     "meaning_ko": "바쁜",
+     "example_en": "I am busy today.",
+     "example_ko": "나는 오늘 바빠요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Let's go to the park.",
+     "ko": "공원에 가자."
+    },
+    {
+     "en": "Let's have lunch together.",
+     "ko": "점심 같이 먹자."
+    },
+    {
+     "en": "Good idea!",
+     "ko": "좋은 생각이야!"
+    },
+    {
+     "en": "Why don't we watch a movie?",
+     "ko": "영화 보는 게 어때?"
+    },
+    {
+     "en": "Sure. What time?",
+     "ko": "좋아. 몇 시에?"
+    },
+    {
+     "en": "How about a picnic on Sunday?",
+     "ko": "일요일에 소풍은 어때요?"
+    },
+    {
+     "en": "How about going to the library?",
+     "ko": "도서관에 가는 건 어때요?"
+    },
+    {
+     "en": "Sorry, I'm busy today.",
+     "ko": "미안해요, 오늘은 바빠요."
+    },
+    {
+     "en": "Let's not stay home.",
+     "ko": "집에 있지 말자."
+    },
+    {
+     "en": "Can you join us later?",
+     "ko": "나중에 우리와 함께할 수 있어요?"
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "___ play tennis after school. (같이 하자고 제안)",
+     "choices": [
+      "Let's to",
+      "We let's",
+      "Let's",
+      "Lets"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "함께 하자는 제안은 Let's + 동사원형입니다. Let's play ...입니다.",
+     "error_tag": "suggestion",
+     "id": "A1-017-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "How about ___ to the zoo?",
+     "choices": [
+      "go",
+      "going",
+      "goes",
+      "to go"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "How about 뒤에는 명사나 동사-ing를 씁니다. How about going ...?입니다.",
+     "error_tag": "how-about",
+     "id": "A1-017-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Why don't we ___ a pizza?",
+     "choices": [
+      "ordering",
+      "to order",
+      "order",
+      "orders"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "Why don't we 뒤에는 동사원형을 씁니다. Why don't we order ...?입니다.",
+     "error_tag": "suggestion",
+     "id": "A1-017-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'Let's go to the beach.'에 알맞은 대답은?",
+     "choices": [
+      "I do.",
+      "Good idea!",
+      "It is a beach.",
+      "I am going."
+     ],
+     "answer_index": 1,
+     "explanation_ko": "제안에는 Good idea! / Sure.처럼 수락하거나 Sorry, I can't.처럼 거절하며 대답합니다.",
+     "error_tag": "suggestion-reply",
+     "id": "A1-017-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 말을 쓰세요: ___ have lunch together. (~하자)",
+     "answer_text": "Let's",
+     "accepted_answers": [
+      "let's",
+      "let’s",
+      "lets",
+      "let us"
+     ],
+     "explanation_ko": "함께 하자는 제안은 Let's + 동사원형입니다.",
+     "error_tag": "suggestion",
+     "id": "A1-017-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 형태로 쓰세요: How about ___ a movie tonight? (watch)",
+     "answer_text": "watching",
+     "accepted_answers": [
+      "watching"
+     ],
+     "explanation_ko": "How about 뒤에 동사를 쓸 때는 -ing 형태입니다. How about watching a movie?",
+     "error_tag": "how-about",
+     "id": "A1-017-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "친구에게 주말에 함께 하자고 제안하는 문장 두 개를 써 보세요.",
+    "example_answer_en": "Let's go to the park on Saturday. How about a picnic?",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-22",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-22"
+   }
   }
  ]
 }

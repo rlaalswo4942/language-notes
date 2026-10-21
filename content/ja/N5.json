@@ -3422,6 +3422,226 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N5-17",
+   "day_index": 17,
+   "week_index": 3,
+   "level": "N5",
+   "unit_id": "N5-W03",
+   "lesson_type": "new",
+   "title_ko": "〜から 〜まで: 시작과 끝 말하기",
+   "objective_ko": "から로 시작, まで로 끝을 나타내 시간·장소·요일의 범위를 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N5-16"
+   ],
+   "explanation_ko": "시작점은 から, 끝점은 まで로 나타냅니다. ① 시간: 会社は 9時から 5時までです(회사는 9시부터 5시까지입니다). ② 요일: 月曜日から 金曜日まで 学校へ 行きます. ③ 장소(이동의 출발과 도착): うちから 学校まで バスで 行きます. ④ 질문은 何時から 何時までですか。로 합니다. ⑤ から나 まで 중 하나만 써도 됩니다: 9時から 始まります(9시부터 시작합니다) / 5時まで 働きます(5시까지 일합니다). から는 ‘~부터’, まで는 ‘~까지’이고 순서는 から → まで 입니다.",
+   "usage_notes": [
+    "「から」는 시작, 「まで」는 끝입니다. 한국어 ‘~부터 ~까지’와 같은 순서로 말하면 됩니다.",
+    "「まで」는 그 시점까지 계속되는 일에 씁니다(5時まで 働きます). 그 시점 안에 끝내야 하는 기한을 나타내는 「までに」는 다른 표현이므로 여기서는 まで만 씁니다.",
+    "시간·요일·장소 모두 같은 틀(AからBまで)로 말할 수 있습니다."
+   ],
+   "common_mistakes": [
+    "9時まで 5時から 働きます(X) → 9時から 5時まで 働きます(O): 시작이 から, 끝이 まで입니다.",
+    "会社は 9時から 5時までに です(X) → 会社は 9時から 5時までです(O): 범위를 말할 때는 までに가 아니라 まで입니다.",
+    "9時で 5時で 働きます(X) → 9時から 5時まで 働きます(O): 시작과 끝은 で가 아니라 から・まで로 말합니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N5-17-01",
+     "kind": "word",
+     "text": "学校{がっこう}",
+     "reading_kana": "がっこう",
+     "reading_romanized": "gakkou",
+     "meaning_ko": "학교",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-17-02",
+     "kind": "word",
+     "text": "会社{かいしゃ}",
+     "reading_kana": "かいしゃ",
+     "reading_romanized": "kaisha",
+     "meaning_ko": "회사",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-17-03",
+     "kind": "word",
+     "text": "仕事{しごと}",
+     "reading_kana": "しごと",
+     "reading_romanized": "shigoto",
+     "meaning_ko": "일, 직장 일",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-17-04",
+     "kind": "word",
+     "text": "毎日{まいにち}",
+     "reading_kana": "まいにち",
+     "reading_romanized": "mainichi",
+     "meaning_ko": "매일",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-17-05",
+     "kind": "word",
+     "text": "休{やす}み",
+     "reading_kana": "やすみ",
+     "reading_romanized": "yasumi",
+     "meaning_ko": "쉼, 휴일",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-17-06",
+     "kind": "word",
+     "text": "何時{なんじ}",
+     "reading_kana": "なんじ",
+     "reading_romanized": "nanji",
+     "meaning_ko": "몇 시",
+     "part_of_speech": "의문사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "会社{かいしゃ}は 9時{くじ}から 5時{ごじ}までです。",
+     "meaning_ko": "회사는 9시부터 5시까지입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "学校{がっこう}は 8時{はちじ}から 3時{さんじ}までです。",
+     "meaning_ko": "학교는 8시부터 3시까지입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "毎日{まいにち} 9時{くじ}から 5時{ごじ}まで 仕事{しごと}を します。",
+     "meaning_ko": "매일 9시부터 5시까지 일을 합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "昼{ひる}休{やす}みは 12時{じゅうにじ}から 1時{いちじ}までです。",
+     "meaning_ko": "점심시간은 12시부터 1시까지입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "月曜日{げつようび}から 金曜日{きんようび}まで 学校{がっこう}へ 行{い}きます。",
+     "meaning_ko": "월요일부터 금요일까지 학교에 갑니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "うちから 学校{がっこう}まで バスで 行{い}きます。",
+     "meaning_ko": "집에서 학교까지 버스로 갑니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "何時{なんじ}から 何時{なんじ}までですか。",
+     "meaning_ko": "몇 시부터 몇 시까지입니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "日曜日{にちようび}は 会社{かいしゃ}が 休{やす}みです。",
+     "meaning_ko": "일요일은 회사가 쉽니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "3時{さんじ}から 5時{ごじ}まで 図書館{としょかん}で 勉強{べんきょう}します。",
+     "meaning_ko": "3시부터 5시까지 도서관에서 공부합니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N5-17-Q1",
+     "type": "single_choice",
+     "prompt_ko": "‘회사는 9시부터 5시까지입니다’를 바르게 나타낸 것은?",
+     "options": [
+      "会社は 9時まで 5時からです。",
+      "会社は 9時から 5時からです。",
+      "会社は 9時から 5時までです。",
+      "会社は 9時まで 5時までです。"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "시작은 から, 끝은 まで입니다. 9時から 5時までです。"
+    },
+    {
+     "id": "JP-N5-17-Q2",
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ことばを 選んで ください。 学校は 8時（　）3時までです。",
+     "options": [
+      "を",
+      "から",
+      "で",
+      "に"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "시작 시각 뒤에는 から를 씁니다. 8時から 3時までです。"
+    },
+    {
+     "id": "JP-N5-17-Q3",
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ことばを 選んで ください。 うち（　）学校まで バスで 行きます。",
+     "options": [
+      "で",
+      "を",
+      "から",
+      "が"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "출발점 뒤에는 から를 씁니다. うちから 学校まで。"
+    },
+    {
+     "id": "JP-N5-17-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「何時から 何時までですか。」의 뜻은?",
+     "options": [
+      "몇 시에 갑니까?",
+      "몇 시부터 몇 시까지입니까?",
+      "몇 시에 일어납니까?",
+      "지금 몇 시입니까?"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "何時から 何時まで는 ‘몇 시부터 몇 시까지’를 묻는 말입니다."
+    },
+    {
+     "id": "JP-N5-17-Q5",
+     "type": "single_choice",
+     "prompt_ko": "‘월요일부터 금요일까지’를 바르게 나타낸 것은?",
+     "options": [
+      "月曜日まで 金曜日から",
+      "月曜日を 金曜日に",
+      "月曜日から 金曜日まで",
+      "月曜日で 金曜日へ"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "AからBまで의 순서입니다. 月曜日から 金曜日まで。"
+    },
+    {
+     "id": "JP-N5-17-Q6",
+     "type": "typing",
+     "prompt_ko": "「会社」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kaisha",
+     "accepted_answers": [
+      "kaisha",
+      "kaisya"
+     ],
+     "explanation_ko": "会社 = かいしゃ (kaisha)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

@@ -2083,6 +2083,205 @@
     "version": 1,
     "last_revised": "2026-10-21"
    }
+  },
+  {
+   "id": "B1-012",
+   "level": "B1",
+   "track": "general",
+   "day": 12,
+   "title_ko": "재귀대명사와 each other: myself / yourself / each other",
+   "objective_ko": "재귀대명사와 each other의 쓰임을 구별해 문장을 만든다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-22"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "주어와 목적어가 같은 사람일 때는 재귀대명사(myself, yourself, himself, herself, itself, ourselves, yourselves, themselves)를 씁니다. ① 동작이 자기에게 돌아올 때: I cut myself. She looked at herself in the mirror. ② by + 재귀대명사: 혼자서, 도움 없이. The kids made lunch by themselves. ③ 강조: '직접'. The manager himself answered the phone. ④ 관용: enjoy oneself(즐거운 시간을 보내다), introduce oneself(자기소개하다), teach oneself(독학하다). ⑤ each other는 '서로'입니다. They help each other. (= 한 사람이 다른 사람을 돕는다) 반면 They help themselves.는 각자 자기 자신을 돕는다는 뜻입니다. feel, relax 같은 동사 뒤에는 보통 재귀대명사를 붙이지 않습니다: I feel nervous.",
+    "common_mistake_ko": "She looked at her in the mirror.(X) → She looked at herself in the mirror.(O) / He did it by hisself.(X) → He did it by himself.(O) / We enjoyed at the party.(X) → We enjoyed ourselves at the party.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "hurt",
+     "part_of_speech": "동사",
+     "meaning_ko": "다치게 하다, 다치다",
+     "example_en": "Be careful, or you will hurt yourself.",
+     "example_ko": "조심하지 않으면 다칠 거예요."
+    },
+    {
+     "word": "mirror",
+     "part_of_speech": "명사",
+     "meaning_ko": "거울",
+     "example_en": "She looked at herself in the mirror.",
+     "example_ko": "그녀는 거울 속의 자신을 봤어요."
+    },
+    {
+     "word": "introduce",
+     "part_of_speech": "동사",
+     "meaning_ko": "소개하다",
+     "example_en": "Please introduce yourself.",
+     "example_ko": "자기소개를 해 주세요."
+    },
+    {
+     "word": "blame",
+     "part_of_speech": "동사",
+     "meaning_ko": "탓하다",
+     "example_en": "Don't blame yourself for the mistake.",
+     "example_ko": "실수를 자신의 탓으로 돌리지 마세요."
+    },
+    {
+     "word": "proud",
+     "part_of_speech": "형용사",
+     "meaning_ko": "자랑스러워하는",
+     "example_en": "He is proud of himself.",
+     "example_ko": "그는 스스로를 자랑스러워해요."
+    },
+    {
+     "word": "alone",
+     "part_of_speech": "형용사/부사",
+     "meaning_ko": "혼자, 홀로",
+     "example_en": "She lives alone in Seoul.",
+     "example_ko": "그녀는 서울에서 혼자 살아요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I cut myself while cooking.",
+     "ko": "나는 요리하다가 베였어요."
+    },
+    {
+     "en": "She looked at herself in the mirror.",
+     "ko": "그녀는 거울 속의 자신을 봤어요."
+    },
+    {
+     "en": "Please introduce yourself.",
+     "ko": "자기소개를 해 주세요."
+    },
+    {
+     "en": "He taught himself to play the guitar.",
+     "ko": "그는 기타 연주를 독학했어요."
+    },
+    {
+     "en": "We enjoyed ourselves at the party.",
+     "ko": "우리는 파티에서 즐거운 시간을 보냈어요."
+    },
+    {
+     "en": "They help each other with homework.",
+     "ko": "그들은 서로 숙제를 도와요."
+    },
+    {
+     "en": "The kids made lunch by themselves.",
+     "ko": "아이들은 스스로 점심을 만들었어요."
+    },
+    {
+     "en": "Don't blame yourself.",
+     "ko": "자신을 탓하지 마세요."
+    },
+    {
+     "en": "He is proud of himself.",
+     "ko": "그는 스스로를 자랑스러워해요."
+    },
+    {
+     "en": "The manager himself answered the phone.",
+     "ko": "매니저가 직접 전화를 받았어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "She looked at ___ in the mirror.",
+     "choices": [
+      "her",
+      "herself",
+      "hers",
+      "she"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "주어(She)와 보는 대상이 같은 사람이므로 재귀대명사 herself를 씁니다.",
+     "error_tag": "reflexive",
+     "id": "B1-012-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "We enjoyed ___ at the concert.",
+     "choices": [
+      "us",
+      "ourself",
+      "ourselves",
+      "we"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "enjoy oneself는 '즐거운 시간을 보내다'입니다. we의 재귀대명사는 ourselves입니다.",
+     "error_tag": "reflexive",
+     "id": "B1-012-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Tom and Ann write to ___ every week. (서로에게)",
+     "choices": [
+      "themselves",
+      "each other",
+      "them self",
+      "other"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "두 사람이 서로에게 쓴다는 뜻이므로 each other입니다. themselves는 각자 자기 자신에게라는 뜻이 됩니다.",
+     "error_tag": "each-other",
+     "id": "B1-012-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "The boy got dressed ___. (도움 없이 혼자서)",
+     "choices": [
+      "by him",
+      "by his",
+      "by himself",
+      "himself by"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "'혼자서, 도움 없이'는 by + 재귀대명사입니다. by himself.",
+     "error_tag": "by-oneself",
+     "id": "B1-012-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: He talks to ___ when he is nervous. (그 자신에게)",
+     "answer_text": "himself",
+     "accepted_answers": [
+      "himself"
+     ],
+     "explanation_ko": "주어 He와 대상이 같으므로 himself입니다.",
+     "error_tag": "reflexive",
+     "id": "B1-012-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 두 단어를 쓰세요: My sister and I help ___ with homework. (서로)",
+     "answer_text": "each other",
+     "accepted_answers": [
+      "each other"
+     ],
+     "explanation_ko": "둘이 서로 돕는다는 뜻은 each other입니다.",
+     "error_tag": "each-other",
+     "id": "B1-012-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "myself 같은 재귀대명사를 쓴 문장 하나와 each other를 쓴 문장 하나를 써 보세요.",
+    "example_answer_en": "I taught myself to cook. My brother and I help each other.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-22",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-22"
+   }
   }
  ]
 }

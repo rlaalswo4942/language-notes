@@ -3408,6 +3408,233 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-17",
+   "day_index": 17,
+   "week_index": 3,
+   "level": "N1",
+   "unit_id": "N1-W03",
+   "lesson_type": "new",
+   "title_ko": "〜にかたくない: 쉽게 ~할 수 있다",
+   "objective_ko": "명사 + にかたくない로 ‘~하기 어렵지 않다, 쉽게 ~할 수 있다’고 판단을 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-16"
+   ],
+   "explanation_ko": "〜にかたくない(〜に難くない)는 ‘~하기 어렵지 않다, 충분히 ~할 수 있다’는 뜻의 격식 있는 문어 표현입니다. 앞에는 想像・理解・予想・推察처럼 생각·판단을 나타내는 명사나, 察する 같은 동사의 사전형이 옵니다. ① 彼の失望は想像に難くない。 ② 当時の苦労を思えば、彼の怒りは理解に難くない。 ③ 彼が苦境に立たされていたことは、察するに難くない。 ‘~ことは想像に難くない’처럼 문장 앞에 ‘~라는 것’을 두는 형태로도 자주 씁니다. 슬픔·불안·실망·어려움 같은 부정적 상황의 심정을 헤아릴 때 많이 쓰이며, 신문·논설문에서 자주 나옵니다.",
+   "usage_notes": [
+    "앞에 오는 말은 想像・理解・予想・推察 같은 생각·판단 명사나 察する입니다. 食事 같은 일반 명사에는 쓰지 않습니다.",
+    "‘쉽게 ~할 수 있다’는 뜻으로 일상 회화보다 글이나 격식 있는 말에서 씁니다.",
+    "문말은 〜に難くない로 끝내며, 〜ことは想像に難くない의 형태가 자주 나옵니다."
+   ],
+   "common_mistakes": [
+    "想像にかたいない(X) → 想像に難くない(O): かたくない는 형용사 難い의 부정형입니다.",
+    "想像できにかたくない(X) → 想像に難くない(O): できる를 넣지 않고 명사에 바로 붙입니다.",
+    "食事に難くない(X) → 理解に難くない(O): 생각·판단을 나타내는 명사에 붙습니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N1-17-01",
+     "kind": "word",
+     "text": "苦境{くきょう}",
+     "reading_kana": "くきょう",
+     "reading_romanized": "kukyou",
+     "meaning_ko": "곤경",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-17-02",
+     "kind": "word",
+     "text": "心情{しんじょう}",
+     "reading_kana": "しんじょう",
+     "reading_romanized": "shinjou",
+     "meaning_ko": "심정",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-17-03",
+     "kind": "word",
+     "text": "惨状{さんじょう}",
+     "reading_kana": "さんじょう",
+     "reading_romanized": "sanjou",
+     "meaning_ko": "참상",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-17-04",
+     "kind": "word",
+     "text": "失望{しつぼう}",
+     "reading_kana": "しつぼう",
+     "reading_romanized": "shitsubou",
+     "meaning_ko": "실망",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-17-05",
+     "kind": "word",
+     "text": "動揺{どうよう}",
+     "reading_kana": "どうよう",
+     "reading_romanized": "douyou",
+     "meaning_ko": "동요",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-17-06",
+     "kind": "word",
+     "text": "推察{すいさつ}",
+     "reading_kana": "すいさつ",
+     "reading_romanized": "suisatsu",
+     "meaning_ko": "추측, 헤아림",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "長年{ながねん}の夢{ゆめ}を失{うしな}った彼{かれ}の失望{しつぼう}は、想像{そうぞう}に難{かた}くない。",
+     "meaning_ko": "오랜 꿈을 잃은 그의 실망은 쉽게 상상할 수 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "突然{とつぜん}の解雇{かいこ}に、彼女{かのじょ}が動揺{どうよう}したことは想像{そうぞう}に難{かた}くない。",
+     "meaning_ko": "갑작스러운 해고에 그녀가 동요했으리라는 것은 쉽게 상상할 수 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "災害{さいがい}の惨状{さんじょう}を目{ま}の当{あ}たりにした人々{ひとびと}の心情{しんじょう}は、理解{りかい}に難{かた}くない。",
+     "meaning_ko": "재해의 참상을 목격한 사람들의 심정은 이해하기 어렵지 않다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}が苦境{くきょう}に立{た}たされていたことは、察{さっ}するに難{かた}くない。",
+     "meaning_ko": "그가 곤경에 처해 있었음은 쉽게 짐작할 수 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この状況{じょうきょう}が続{つづ}けば、経営{けいえい}がさらに悪化{あっか}することは予想{よそう}に難{かた}くない。",
+     "meaning_ko": "이 상황이 계속되면 경영이 더 악화될 것임은 쉽게 예상할 수 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "家族{かぞく}と離{はな}れて暮{く}らす彼{かれ}の寂{さび}しさは、推察{すいさつ}に難{かた}くない。",
+     "meaning_ko": "가족과 떨어져 사는 그의 쓸쓸함은 쉽게 헤아릴 수 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "試合{しあい}に負{ま}けた選手{せんしゅ}たちが悔{くや}しがっていることは、想像{そうぞう}に難{かた}くない。",
+     "meaning_ko": "시합에 진 선수들이 분해하고 있음은 쉽게 상상할 수 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "長時間{ちょうじかん}の交渉{こうしょう}の末{すえ}、双方{そうほう}が疲{つか}れ切{き}っていたことは想像{そうぞう}に難{かた}くない。",
+     "meaning_ko": "장시간 교섭 끝에 쌍방이 지쳐 있었음은 쉽게 상상할 수 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "当時{とうじ}の苦労{くろう}を思{おも}えば、彼{かれ}の怒{いか}りは理解{りかい}に難{かた}くない。",
+     "meaning_ko": "당시의 고생을 생각하면 그의 분노는 이해하기 어렵지 않다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "親{おや}を亡{な}くした子{こ}どもの悲{かな}しみは、察{さっ}するに難{かた}くない。",
+     "meaning_ko": "부모를 여읜 아이의 슬픔은 헤아리기 어렵지 않다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N1-17-Q1",
+     "type": "single_choice",
+     "prompt_ko": "「想像に難くない」の 意味は？",
+     "options": [
+      "상상하기 힘들다",
+      "상상해서는 안 된다",
+      "쉽게 상상할 수 있다",
+      "상상할 필요가 없다"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "〜にかたくない는 ‘~하기 어렵지 않다, 쉽게 ~할 수 있다’는 뜻입니다."
+    },
+    {
+     "id": "JP-N1-17-Q2",
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ことばを 選んで ください。 彼の 失望は 想像（　）難くない。",
+     "options": [
+      "を",
+      "に",
+      "で",
+      "が"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "〜にかたくない에서 に는 想像 뒤에 붙습니다. 想像に難くない。"
+    },
+    {
+     "id": "JP-N1-17-Q3",
+     "type": "single_choice",
+     "prompt_ko": "〜にかたくない の 形として 正しい ものは どれですか。",
+     "options": [
+      "理解を 難くない",
+      "理解で 難くない",
+      "理解に 難いない",
+      "理解に 難くない"
+     ],
+     "answer_index": 3,
+     "explanation_ko": "〜に難くない(難い의 부정형 難くない)가 올바른 형태입니다."
+    },
+    {
+     "id": "JP-N1-17-Q4",
+     "type": "single_choice",
+     "prompt_ko": "〜にかたくない の 前に 来にくい ものは どれですか。",
+     "options": [
+      "想像",
+      "推察",
+      "食事",
+      "予想"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "〜にかたくない 앞에는 想像・推察・予想 같은 생각·판단 명사가 옵니다. 食事는 어울리지 않습니다."
+    },
+    {
+     "id": "JP-N1-17-Q5",
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 彼の 悲しみは 察するに（　）くない。",
+     "options": [
+      "易",
+      "弱",
+      "難",
+      "悪"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "察するに難くない는 ‘쉽게 짐작할 수 있다’는 뜻입니다. 難(かた)く의 한자는 難입니다."
+    },
+    {
+     "id": "JP-N1-17-Q6",
+     "type": "typing",
+     "prompt_ko": "「惨状」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "sanjou",
+     "accepted_answers": [
+      "sanjou",
+      "sanjo",
+      "sanzyou",
+      "sanzyo"
+     ],
+     "explanation_ko": "惨状 = さんじょう (sanjou)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "JLPT_FORMAT"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }
