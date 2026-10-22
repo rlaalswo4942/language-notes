@@ -2069,6 +2069,203 @@
     "version": 1,
     "last_revised": "2026-10-22"
    }
+  },
+  {
+   "id": "TOEIC-012",
+   "level": "B1",
+   "track": "toeic",
+   "day": 12,
+   "title_ko": "TOEIC Part 5: 관계대명사 who / which / whose / whom",
+   "objective_ko": "선행사와 관계절 안의 역할을 보고 알맞은 관계대명사를 고른다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/toeic/about/listening-reading.html",
+     "publisher": "ETS",
+     "supports": "공식 시험 형식",
+     "checked_at": "2026-10-23"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "TOEIC Reading의 Part 5는 빈칸이 있는 문장을 완성하는 유형입니다(공식 형식 안내 기준, 아래 문제는 자체 연습). 관계대명사는 앞의 명사(선행사)와 관계절 안에서의 역할로 고릅니다. ① 선행사가 사람이고 빈칸 뒤에 바로 동사가 오면 who(또는 that): The manager who approved the budget ... ② 선행사가 사물·동물이면 which(또는 that): The software which our staff uses ... ③ 빈칸 바로 뒤에 명사가 오고 '~의'라는 소유 관계이면 whose: Ms. Park, whose department won the award, ... ④ 사람이 관계절의 목적어이고 뒤에 '주어 + 동사'가 이어지면 whom(격식, 흔히 who나 생략도 가능): The applicants whom we interviewed ... ⑤ 사람에 which를, 사물에 who를 쓰지 않습니다. 선행사가 없는 명사절(what)은 이 문제 유형과 구별하세요.",
+    "common_mistake_ko": "빈칸 뒤에 명사(department)가 오는데 who를 고르는 실수 → '~의' 관계이므로 whose입니다. / 사람(manager) 뒤에 which를 고르는 실수 → 사람이므로 who입니다. / 빈칸 뒤에 '주어 + 동사'가 오는데 who를 고르는 실수(격식 시험 문제) → 목적격 whom이 맞는 자리입니다."
+   },
+   "vocabulary": [
+    {
+     "word": "vacancy",
+     "part_of_speech": "명사",
+     "meaning_ko": "빈 자리, 공석",
+     "example_en": "There is a vacancy in the sales team.",
+     "example_ko": "영업팀에 공석이 있습니다."
+    },
+    {
+     "word": "contractor",
+     "part_of_speech": "명사",
+     "meaning_ko": "계약업자, 도급업체",
+     "example_en": "The contractor finished the repair on time.",
+     "example_ko": "계약업자는 제때 수리를 마쳤습니다."
+    },
+    {
+     "word": "feedback",
+     "part_of_speech": "명사",
+     "meaning_ko": "의견, 피드백",
+     "example_en": "We value customer feedback.",
+     "example_ko": "저희는 고객의 의견을 소중히 여깁니다."
+    },
+    {
+     "word": "workshop",
+     "part_of_speech": "명사",
+     "meaning_ko": "워크숍, 연수",
+     "example_en": "The workshop is open to all staff.",
+     "example_ko": "그 워크숍은 모든 직원에게 열려 있습니다."
+    },
+    {
+     "word": "expand",
+     "part_of_speech": "동사",
+     "meaning_ko": "확장하다, 늘리다",
+     "example_en": "The company plans to expand next year.",
+     "example_ko": "회사는 내년에 규모를 확장할 계획입니다."
+    },
+    {
+     "word": "candidate",
+     "part_of_speech": "명사",
+     "meaning_ko": "후보자",
+     "example_en": "The candidate has five years of experience.",
+     "example_ko": "그 후보자는 5년의 경력이 있습니다."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The employee who handles complaints is on leave today.",
+     "ko": "불만 사항을 처리하는 직원은 오늘 휴가입니다."
+    },
+    {
+     "en": "We are looking for a candidate who has experience in sales.",
+     "ko": "저희는 영업 경력이 있는 후보자를 찾고 있습니다."
+    },
+    {
+     "en": "The workshop that starts at 10 A.M. is open to all staff.",
+     "ko": "오전 10시에 시작하는 워크숍은 모든 직원에게 열려 있습니다."
+    },
+    {
+     "en": "The report which Mr. Kim wrote was sent to the client.",
+     "ko": "김 씨가 쓴 보고서는 고객에게 발송되었습니다."
+    },
+    {
+     "en": "Ms. Lopez, whose team expanded last year, will lead the project.",
+     "ko": "팀 규모가 작년에 커진 로페즈 씨가 프로젝트를 이끌 것입니다."
+    },
+    {
+     "en": "The contractor whom we hired finished the work early.",
+     "ko": "저희가 고용한 계약업자는 작업을 일찍 끝냈습니다."
+    },
+    {
+     "en": "There is a vacancy that needs to be filled by March.",
+     "ko": "3월까지 채워야 하는 공석이 있습니다."
+    },
+    {
+     "en": "Please read the feedback that customers left online.",
+     "ko": "고객들이 온라인에 남긴 의견을 읽어 주십시오."
+    },
+    {
+     "en": "Customers who register early will receive a discount.",
+     "ko": "일찍 등록하는 고객은 할인을 받게 됩니다."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "Part 5 형식 연습(자체 작성): The manager ------ approved the budget will announce the new plan on Monday.",
+     "choices": [
+      "who",
+      "which",
+      "whose",
+      "whom"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "선행사가 사람(manager)이고 빈칸 뒤에 바로 동사 approved가 오므로 주격 who입니다.",
+     "error_tag": "relative-who",
+     "id": "T012-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Part 5 형식 연습(자체 작성): The software ------ our staff uses every day was updated yesterday.",
+     "choices": [
+      "who",
+      "which",
+      "whose",
+      "whom"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "선행사가 사물(software)이고 관계절의 목적어 자리이므로 which입니다.",
+     "error_tag": "relative-which",
+     "id": "T012-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Part 5 형식 연습(자체 작성): Ms. Park, ------ department won the award, will give a short speech.",
+     "choices": [
+      "who",
+      "which",
+      "whose",
+      "whom"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "빈칸 뒤에 명사(department)가 오고 '박 씨의 부서'라는 소유 관계이므로 whose입니다.",
+     "error_tag": "relative-whose",
+     "id": "T012-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Part 5 형식 연습(자체 작성): The applicants ------ we interviewed last week will receive a call by Friday.",
+     "choices": [
+      "whom",
+      "whose",
+      "which",
+      "what"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "사람(applicants)이 관계절의 목적어이고 뒤에 we interviewed(주어+동사)가 이어지므로 whom입니다.",
+     "error_tag": "relative-whom",
+     "id": "T012-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "Part 5 형식 연습(자체 작성): The package ------ arrived this morning contains the samples. — 빈칸에 알맞은 관계대명사 한 단어를 쓰세요. (사물 선행사)",
+     "answer_text": "which",
+     "accepted_answers": [
+      "which",
+      "that"
+     ],
+     "explanation_ko": "선행사가 사물(package)이므로 which(또는 that)입니다.",
+     "error_tag": "relative-which",
+     "id": "T012-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "Part 5 형식 연습(자체 작성): Employees ------ work overtime must fill out a form. — 빈칸에 알맞은 관계대명사 한 단어를 쓰세요. (사람 선행사)",
+     "answer_text": "who",
+     "accepted_answers": [
+      "who",
+      "that"
+     ],
+     "explanation_ko": "선행사가 사람(Employees)이고 뒤에 동사가 오므로 who(또는 that)입니다.",
+     "error_tag": "relative-who",
+     "id": "T012-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "who와 which를 하나씩 사용해 업무 이메일 속 문장 두 개를 써 보세요.",
+    "example_answer_en": "The manager who reviewed the proposal approved it. Please send the file which you prepared yesterday.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-23",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-23"
+   }
   }
  ]
 }

@@ -3315,6 +3315,205 @@
     "version": 1,
     "last_revised": "2026-10-22"
    }
+  },
+  {
+   "id": "A2-018",
+   "level": "A2",
+   "track": "foundation",
+   "day": 18,
+   "title_ko": "as ... as: 같은 정도로 비교하기",
+   "objective_ko": "as + 형용사/부사 + as로 둘이 같은 정도임을, not as ... as로 한쪽이 덜함을 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "A1-A2 문법 학습 주제",
+     "checked_at": "2026-10-23"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "두 대상이 같은 정도일 때는 as + 형용사/부사 + as를 씁니다. ① 긍정: 같은 정도. My brother is as tall as my father.(형은 아버지만큼 키가 커요.) She runs as fast as her sister. ② 부정: not as ... as는 '~만큼 ...하지 않다'로, 앞사람이 더 덜하다는 뜻입니다. The new phone is not as cheap as the old one.(새 휴대전화는 예전 것만큼 싸지 않아요 = 예전 것이 더 싸요.) ③ 가운데 단어는 원급(tall, fast)을 그대로 씁니다. taller, more expensive 같은 비교급을 넣지 않습니다. ④ 뒤의 as 다음에는 비교 대상(명사·대명사)이 옵니다: as tall as me(또는 as I am). ⑤ the same as ...는 '~와 똑같은'입니다: Her bag is the same as mine. 비교급 than과 섞어 쓰지 않습니다.",
+    "common_mistake_ko": "She is as taller as me.(X) → She is as tall as me.(O) / He is as tall than his father.(X) → He is as tall as his father.(O) / This bag is not as more heavy as that one.(X) → This bag is not as heavy as that one.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "tall",
+     "part_of_speech": "형용사",
+     "meaning_ko": "키가 큰",
+     "example_en": "My brother is very tall.",
+     "example_ko": "내 형은 키가 아주 커요."
+    },
+    {
+     "word": "heavy",
+     "part_of_speech": "형용사",
+     "meaning_ko": "무거운",
+     "example_en": "This box is heavy.",
+     "example_ko": "이 상자는 무거워요."
+    },
+    {
+     "word": "same",
+     "part_of_speech": "형용사",
+     "meaning_ko": "같은",
+     "example_en": "We have the same teacher.",
+     "example_ko": "우리는 같은 선생님이 있어요."
+    },
+    {
+     "word": "strong",
+     "part_of_speech": "형용사",
+     "meaning_ko": "힘이 센, 강한",
+     "example_en": "He is strong enough to lift it.",
+     "example_ko": "그는 그것을 들 만큼 힘이 세요."
+    },
+    {
+     "word": "quiet",
+     "part_of_speech": "형용사",
+     "meaning_ko": "조용한",
+     "example_en": "The library is quiet.",
+     "example_ko": "도서관은 조용해요."
+    },
+    {
+     "word": "popular",
+     "part_of_speech": "형용사",
+     "meaning_ko": "인기 있는",
+     "example_en": "This song is popular.",
+     "example_ko": "이 노래는 인기가 있어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "My brother is as tall as my father.",
+     "ko": "형은 아버지만큼 키가 커요."
+    },
+    {
+     "en": "This bag is as heavy as that one.",
+     "ko": "이 가방은 저것만큼 무거워요."
+    },
+    {
+     "en": "The new phone is not as cheap as the old one.",
+     "ko": "새 휴대전화는 예전 것만큼 싸지 않아요."
+    },
+    {
+     "en": "She runs as fast as her sister.",
+     "ko": "그녀는 언니만큼 빨리 달려요."
+    },
+    {
+     "en": "I'm not as strong as my brother.",
+     "ko": "나는 형만큼 힘이 세지 않아요."
+    },
+    {
+     "en": "This room is as quiet as a library.",
+     "ko": "이 방은 도서관만큼 조용해요."
+    },
+    {
+     "en": "Is the film as interesting as the book? — I think the book is better.",
+     "ko": "그 영화는 책만큼 재미있어요? — 책이 더 낫다고 생각해요."
+    },
+    {
+     "en": "Tom speaks English as well as Ken.",
+     "ko": "톰은 켄만큼 영어를 잘해요."
+    },
+    {
+     "en": "Her bag is the same as mine.",
+     "ko": "그녀의 가방은 내 것과 똑같아요."
+    },
+    {
+     "en": "This park is as popular as the zoo.",
+     "ko": "이 공원은 동물원만큼 인기가 있어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "Jim is ___ tall as his brother. (형만큼 키가 커요)",
+     "choices": [
+      "as",
+      "than",
+      "so",
+      "more"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "같은 정도는 as + 형용사 + as입니다. Jim is as tall as his brother.",
+     "error_tag": "as-as",
+     "id": "A2-018-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "This box is not ___ heavy as that one. (저것만큼 무겁지 않아요)",
+     "choices": [
+      "more",
+      "as",
+      "than",
+      "very"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "부정도 not as + 형용사 + as의 틀입니다. more, than은 쓰지 않습니다.",
+     "error_tag": "not-as-as",
+     "id": "A2-018-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Ann is not as tall as Beth. 누가 더 키가 큰가요?",
+     "choices": [
+      "Ann",
+      "Beth",
+      "둘이 같다",
+      "알 수 없다"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "Ann이 Beth만큼 크지 않다는 뜻이므로 Beth가 더 큽니다.",
+     "error_tag": "not-as-as",
+     "id": "A2-018-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "바른 문장은?",
+     "choices": [
+      "She is as taller as me.",
+      "She is as tall as me.",
+      "She is as tall than me.",
+      "She is tall as as me."
+     ],
+     "answer_index": 1,
+     "explanation_ko": "as와 as 사이에는 비교급이 아니라 원급(tall)을 씁니다.",
+     "error_tag": "as-as-form",
+     "id": "A2-018-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Dan runs as fast ___ Sam. (샘만큼 빨리)",
+     "answer_text": "as",
+     "accepted_answers": [
+      "as"
+     ],
+     "explanation_ko": "as fast as 틀의 두 번째 as입니다.",
+     "error_tag": "as-as",
+     "id": "A2-018-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: This room is as ___ as a library. (조용한, q로 시작)",
+     "answer_text": "quiet",
+     "accepted_answers": [
+      "quiet"
+     ],
+     "explanation_ko": "'조용한'은 quiet입니다. as quiet as a library.",
+     "error_tag": "as-as",
+     "id": "A2-018-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "as ... as를 써서 두 사람이나 두 물건을 비교하는 문장 두 개를 써 보세요.",
+    "example_answer_en": "My sister is as tall as me. This bag is not as heavy as that one.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-23",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-23"
+   }
   }
  ]
 }

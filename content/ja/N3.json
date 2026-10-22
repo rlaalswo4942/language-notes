@@ -3644,6 +3644,232 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N3-18",
+   "day_index": 18,
+   "week_index": 3,
+   "level": "N3",
+   "unit_id": "N3-W03",
+   "lesson_type": "new",
+   "title_ko": "〜について・〜にとって・〜として: 화제·입장·자격",
+   "objective_ko": "〜について로 화제를, 〜にとって로 평가하는 입장을, 〜として로 자격·입장을 나타내 구별한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N3-17"
+   ],
+   "explanation_ko": "세 표현은 모양이 비슷하지만 역할이 다릅니다. ① 〜について: ‘~에 대해’. 話す・考える・調べる・相談する 등의 대상(화제)을 나타냅니다. 日本の文化について調べています。 명사를 꾸밀 때는 〜についての+명사: 環境問題についての意見。 ② 〜にとって: ‘~에게 있어서’. 그 사람의 입장에서 본 평가·판단을 말하며 뒤에 大切だ・難しい・必要だ 같은 평가 표현이 옵니다. 私にとって、家族は何より大切だ。 ③ 〜として: ‘~로서’. 자격·입장·역할을 나타냅니다. 彼は留学生として日本に来た。 親の立場としては、子どもの安全が心配だ。 정리하면 ‘무엇에 대해 말하나’는 について, ‘누구에게 어떠한가’는 にとって, ‘어떤 자격으로’는 として입니다.",
+   "usage_notes": [
+    "〜にとって 뒤에는 평가·판단(大切だ・難しい・必要だ)이 오고, 話す・調べる 같은 행동 동사는 오지 않습니다.",
+    "〜として는 ‘자격’이므로 앞에 학생・代表・親처럼 신분·역할을 나타내는 명사가 옵니다.",
+    "〜について는 話す・考える・書く・調べる・聞く 등 말·생각·조사 동사와 함께 쓰이는 일이 많습니다."
+   ],
+   "common_mistakes": [
+    "友達にとって、手紙を書いた(X) → 友達に手紙を書いた(O): にとって 뒤에는 평가를 말하며 행동에는 쓰지 않습니다.",
+    "日本の文化にとって調べる(X) → 日本の文化について調べる(O): 조사 대상은 について입니다.",
+    "彼は留学生について日本に来た(X) → 彼は留学生として日本に来た(O): 자격은 として입니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N3-18-01",
+     "kind": "word",
+     "text": "問題{もんだい}",
+     "reading_kana": "もんだい",
+     "reading_romanized": "mondai",
+     "meaning_ko": "문제",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-18-02",
+     "kind": "word",
+     "text": "立場{たちば}",
+     "reading_kana": "たちば",
+     "reading_romanized": "tachiba",
+     "meaning_ko": "입장",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-18-03",
+     "kind": "word",
+     "text": "文化{ぶんか}",
+     "reading_kana": "ぶんか",
+     "reading_romanized": "bunka",
+     "meaning_ko": "문화",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-18-04",
+     "kind": "word",
+     "text": "資格{しかく}",
+     "reading_kana": "しかく",
+     "reading_romanized": "shikaku",
+     "meaning_ko": "자격",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-18-05",
+     "kind": "word",
+     "text": "大切{たいせつ}",
+     "reading_kana": "たいせつ",
+     "reading_romanized": "taisetsu",
+     "meaning_ko": "소중함, 중요함",
+     "part_of_speech": "な형용사"
+    },
+    {
+     "id": "w-JP-N3-18-06",
+     "kind": "word",
+     "text": "代表{だいひょう}",
+     "reading_kana": "だいひょう",
+     "reading_romanized": "daihyou",
+     "meaning_ko": "대표",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "日本{にほん}の文化{ぶんか}について調{しら}べています。",
+     "meaning_ko": "일본 문화에 대해 조사하고 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "将来{しょうらい}について友達{ともだち}に相談{そうだん}した。",
+     "meaning_ko": "장래에 대해 친구에게 상담했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "私{わたし}にとって、家族{かぞく}は何{なに}より大切{たいせつ}だ。",
+     "meaning_ko": "나에게 있어 가족은 무엇보다 소중하다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "子{こ}どもにとって、遊{あそ}ぶことは大切{たいせつ}な勉強{べんきょう}だ。",
+     "meaning_ko": "아이에게 있어 노는 것은 중요한 공부다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "外国人{がいこくじん}にとって、漢字{かんじ}は難{むずか}しい。",
+     "meaning_ko": "외국인에게 있어 한자는 어렵다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}は留学生{りゅうがくせい}として日本{にほん}に来{き}た。",
+     "meaning_ko": "그는 유학생으로서 일본에 왔다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼女{かのじょ}はクラスの代表{だいひょう}として発表{はっぴょう}した。",
+     "meaning_ko": "그녀는 반 대표로서 발표했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "会議{かいぎ}では、環境{かんきょう}問題{もんだい}についての意見{いけん}が出{で}た。",
+     "meaning_ko": "회의에서는 환경 문제에 대한 의견이 나왔다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "親{おや}の立場{たちば}としては、子{こ}どもの安全{あんぜん}が心配{しんぱい}だ。",
+     "meaning_ko": "부모의 입장으로서는 아이의 안전이 걱정이다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この資格{しかく}は、仕事{しごと}にとって必要{ひつよう}だ。",
+     "meaning_ko": "이 자격은 일에 있어서 필요하다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 日本の文化（　）調べています。",
+     "options": [
+      "について",
+      "にとって",
+      "として",
+      "によって"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "조사하는 대상(화제)은 〜について입니다.",
+     "id": "JP-N3-18-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 私（　）、家族は何より大切だ。",
+     "options": [
+      "について",
+      "にとって",
+      "によって",
+      "に対して"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "‘나에게 있어서’라는 입장에서의 평가는 〜にとって입니다. 뒤의 大切だ가 평가 표현입니다.",
+     "id": "JP-N3-18-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 彼は留学生（　）日本に来た。",
+     "options": [
+      "にとって",
+      "について",
+      "として",
+      "によって"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "‘유학생으로서’라는 자격은 〜として입니다.",
+     "id": "JP-N3-18-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "〜にとって의 쓰임이 올바른 문장은?",
+     "options": [
+      "子どもにとって、遊ぶことは大切だ。",
+      "日本語にとって、先生と話した。",
+      "友達にとって、手紙を書いた。",
+      "駅にとって、電車に乗った。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜にとって 뒤에는 평가 표현(大切だ)이 옵니다. 나머지는 행동 동사와 함께 쓰여 어색합니다.",
+     "id": "JP-N3-18-Q4"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「将来について相談する」의 뜻은?",
+     "options": [
+      "장래에 대해 상담하다",
+      "장래로서 상담하다",
+      "장래에게 있어 상담하다",
+      "장래 때문에 상담하다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜について는 ‘~에 대해’입니다.",
+     "id": "JP-N3-18-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「代表」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "daihyou",
+     "accepted_answers": [
+      "daihyou",
+      "daihyo",
+      "daihyoo"
+     ],
+     "explanation_ko": "代表 = だいひょう (daihyou)",
+     "id": "JP-N3-18-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

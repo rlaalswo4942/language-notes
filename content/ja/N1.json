@@ -3635,6 +3635,226 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-18",
+   "day_index": 18,
+   "week_index": 3,
+   "level": "N1",
+   "unit_id": "N1-W03",
+   "lesson_type": "new",
+   "title_ko": "〜ともなると・〜ともなれば: ~쯤 되면",
+   "objective_ko": "신분・시기・규모가 일정 수준에 이르면 그에 걸맞은 상태가 됨을 〜ともなると로 나타낸다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-17"
+   ],
+   "explanation_ko": "〜ともなると・〜ともなれば는 명사에 붙어 ‘~쯤 되면, ~ 정도 되면 당연히’라는 뜻을 나타내는 표현입니다. 그 신분・연령・시기・규모에 이르면 당연히 그에 걸맞은 상태나 행동이 따른다는 판단을 말합니다. ① 社長ともなると、一日の予定は分刻みだ。 ② プロの選手ともなれば、体調管理も仕事のうちだ。 ③ 年末ともなると、繁華街はどこも人であふれる。 앞에는 社長・部長・プロ・大人・年末・決算期처럼 어떤 지위나 때를 나타내는 명사가 오고, 뒤에는 그 수준이면 당연한 상태・변화가 옵니다. ともなれば는 조금 더 가정적인 느낌이며 뜻은 거의 같습니다. 화자의 의지・희망・명령・권유는 뒤에 오지 않습니다.",
+   "usage_notes": [
+    "앞에는 높은 지위나 특별한 시기를 나타내는 명사가 오고, 뒤에는 그에 걸맞은 당연한 상태가 옵니다.",
+    "뒤에 〜たい・〜てください・〜ましょう 같은 의지・명령・권유는 오지 않습니다.",
+    "신문・논설문에서 상황의 차이를 짚을 때도 자주 쓰이는 문어적 표현입니다."
+   ],
+   "common_mistakes": [
+    "社長ともなると、一緒に昼ご飯を食べましょう(X) → 社長ともなると、昼ご飯を食べる時間もない(O): 권유 표현은 오지 않습니다.",
+    "年末ともなるば、繁華街は混む(X) → 年末ともなれば、繁華街は混む(O): ともなれば의 형태를 정확히 씁니다.",
+    "昨日ともなると、人が多い(X) → 年末ともなると、人が多い(O): 앞에는 지위나 시기처럼 ‘그 수준에 이르면’이라고 말할 수 있는 명사가 오며, 단순한 과거 시점에는 쓰지 않습니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N1-18-01",
+     "kind": "word",
+     "text": "年末{ねんまつ}",
+     "reading_kana": "ねんまつ",
+     "reading_romanized": "nenmatsu",
+     "meaning_ko": "연말",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-18-02",
+     "kind": "word",
+     "text": "繁華街{はんかがい}",
+     "reading_kana": "はんかがい",
+     "reading_romanized": "hankagai",
+     "meaning_ko": "번화가",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-18-03",
+     "kind": "word",
+     "text": "分刻{ふんきざ}み",
+     "reading_kana": "ふんきざみ",
+     "reading_romanized": "funkizami",
+     "meaning_ko": "분 단위로 촘촘함",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-18-04",
+     "kind": "word",
+     "text": "水準{すいじゅん}",
+     "reading_kana": "すいじゅん",
+     "reading_romanized": "suijun",
+     "meaning_ko": "수준",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-18-05",
+     "kind": "word",
+     "text": "決算期{けっさんき}",
+     "reading_kana": "けっさんき",
+     "reading_romanized": "kessanki",
+     "meaning_ko": "결산기",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-18-06",
+     "kind": "word",
+     "text": "受験生{じゅけんせい}",
+     "reading_kana": "じゅけんせい",
+     "reading_romanized": "jukensei",
+     "meaning_ko": "수험생",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "社長{しゃちょう}ともなると、一日{いちにち}の予定{よてい}は分刻{ふんきざ}みだ。",
+     "meaning_ko": "사장쯤 되면 하루 일정이 분 단위로 빽빽하다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "プロの選手{せんしゅ}ともなれば、体調{たいちょう}管理{かんり}も仕事{しごと}のうちだ。",
+     "meaning_ko": "프로 선수쯤 되면 컨디션 관리도 일의 일부다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "年末{ねんまつ}ともなると、繁華街{はんかがい}はどこも人{ひと}であふれる。",
+     "meaning_ko": "연말쯤 되면 번화가는 어디나 사람으로 넘친다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "大人{おとな}ともなれば、自分{じぶん}の行動{こうどう}に責任{せきにん}を持{も}つべきだ。",
+     "meaning_ko": "어른쯤 되면 자신의 행동에 책임을 져야 한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "一流{いちりゅう}ホテルともなると、サービスの水準{すいじゅん}が違{ちが}う。",
+     "meaning_ko": "일류 호텔쯤 되면 서비스 수준이 다르다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "部長{ぶちょう}ともなると、部下{ぶか}の失敗{しっぱい}にも責任{せきにん}を負{お}わなければならない。",
+     "meaning_ko": "부장쯤 되면 부하의 실수에도 책임을 져야 한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "受験生{じゅけんせい}ともなると、冬休{ふゆやす}みも遊{あそ}んではいられない。",
+     "meaning_ko": "수험생쯤 되면 겨울방학에도 놀고만 있을 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "決算期{けっさんき}ともなれば、深夜{しんや}まで残業{ざんぎょう}が続{つづ}く。",
+     "meaning_ko": "결산기쯤 되면 심야까지 야근이 이어진다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "世界大会{せかいたいかい}ともなると、各国{かっこく}の代表{だいひょう}が集{あつ}まる。",
+     "meaning_ko": "세계 대회쯤 되면 각국 대표가 모인다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「社長ともなると、予定は分刻みだ」의 뜻에 가장 가까운 것은?",
+     "options": [
+      "사장쯤 되면 일정이 분 단위로 빽빽하다",
+      "사장이 되려면 일정을 짜야 한다",
+      "사장이 아니면 일정이 빽빽하지 않다",
+      "사장이 일정을 바꿀 수는 없다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜ともなると는 ‘~쯤 되면 당연히’라는 뜻입니다.",
+     "id": "JP-N1-18-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 年末（　）、繁華街は人であふれる。",
+     "options": [
+      "ともなると",
+      "ずにはいられない",
+      "までもない",
+      "てやまない"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘연말쯤 되면’이라는 뜻이 되는 것은 〜ともなると입니다.",
+     "id": "JP-N1-18-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "자연스럽지 않은 문장은?",
+     "options": [
+      "大人ともなれば、責任を持つべきだ。",
+      "部長ともなると、忙しいのが当然だ。",
+      "社長ともなると、毎日の予定は分刻みだ。",
+      "社長ともなると、一緒に昼ご飯を食べましょう。"
+     ],
+     "answer_index": 3,
+     "explanation_ko": "〜ともなると 뒤에는 권유(〜ましょう) 같은 화자의 의지 표현이 오지 않습니다.",
+     "id": "JP-N1-18-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「受験生ともなると」의 뜻은?",
+     "options": [
+      "수험생쯤 되면",
+      "수험생이 되려면",
+      "수험생이 아니라면",
+      "수험생이라 해도"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜ともなると는 ‘~쯤 되면’입니다.",
+     "id": "JP-N1-18-Q4"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "〜ともなれば 앞에 오는 말로 알맞은 것은?",
+     "options": [
+      "신분・시기・규모가 일정 수준에 이른 명사",
+      "동사의 ます형",
+      "い형용사의 어간",
+      "의문사"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "社長・部長・プロ・年末처럼 지위나 때를 나타내는 명사에 붙습니다.",
+     "id": "JP-N1-18-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「水準」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "suijun",
+     "accepted_answers": [
+      "suijun",
+      "suizyun"
+     ],
+     "explanation_ko": "水準 = すいじゅん (suijun)",
+     "id": "JP-N1-18-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "JLPT_FORMAT"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

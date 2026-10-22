@@ -3636,6 +3636,225 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-18",
+   "day_index": 18,
+   "week_index": 3,
+   "level": "N4",
+   "unit_id": "N4-W03",
+   "lesson_type": "new",
+   "title_ko": "〜すぎる: 너무 ~하다",
+   "objective_ko": "동사·형용사에 すぎる를 붙여 ‘지나치게 ~하다’를 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-17"
+   ],
+   "explanation_ko": "〜すぎる는 ‘정도가 지나치다, 너무 ~하다’라는 뜻으로 대체로 좋지 않다는 느낌을 줍니다. ① 동사: ます형에서 ます를 뗀 형태 + すぎる (食べます → 食べすぎる, 飲みます → 飲みすぎる) ② い형용사: 어간(い를 뺀 형태) + すぎる (高い → 高すぎる, 重い → 重すぎる, 多い → 多すぎる). いい는 よすぎる가 됩니다. ③ な형용사: 어간 + すぎる (静か → 静かすぎる) ④ すぎる는 る동사처럼 활용합니다: 食べすぎます / 食べすぎました / 食べすぎない / 食べすぎて. ⑤ 동사 형태에서 すぎ를 명사처럼 써서 食べすぎ(과식), 飲みすぎ(과음)라고도 합니다.",
+   "usage_notes": [
+    "い형용사는 い를 빼고, な형용사는 な 없이 어간에 바로 붙입니다(高すぎる・静かすぎる).",
+    "동사는 ます형 어간에 붙습니다(食べすぎる). 사전형(食べる)에 붙이지 않습니다.",
+    "‘너무 많이 먹었다’처럼 정도가 지나쳤다는 뜻이므로 칭찬하는 문맥에는 보통 쓰지 않습니다."
+   ],
+   "common_mistakes": [
+    "この かばんは 重いすぎます(X) → 重すぎます(O): い형용사는 い를 뺍니다.",
+    "ケーキを 食べるすぎました(X) → 食べすぎました(O): 동사는 ます형 어간에 붙입니다.",
+    "この 部屋は 静かだすぎます(X) → 静かすぎます(O): な형용사에 だ를 넣지 않습니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N4-18-01",
+     "kind": "word",
+     "text": "多{おお}い",
+     "reading_kana": "おおい",
+     "reading_romanized": "ooi",
+     "meaning_ko": "많다",
+     "part_of_speech": "い형용사"
+    },
+    {
+     "id": "w-JP-N4-18-02",
+     "kind": "word",
+     "text": "重{おも}い",
+     "reading_kana": "おもい",
+     "reading_romanized": "omoi",
+     "meaning_ko": "무겁다",
+     "part_of_speech": "い형용사"
+    },
+    {
+     "id": "w-JP-N4-18-03",
+     "kind": "word",
+     "text": "遅{おそ}い",
+     "reading_kana": "おそい",
+     "reading_romanized": "osoi",
+     "meaning_ko": "늦다, 느리다",
+     "part_of_speech": "い형용사"
+    },
+    {
+     "id": "w-JP-N4-18-04",
+     "kind": "word",
+     "text": "甘{あま}い",
+     "reading_kana": "あまい",
+     "reading_romanized": "amai",
+     "meaning_ko": "달다",
+     "part_of_speech": "い형용사"
+    },
+    {
+     "id": "w-JP-N4-18-05",
+     "kind": "word",
+     "text": "太{ふと}る",
+     "reading_kana": "ふとる",
+     "reading_romanized": "futoru",
+     "meaning_ko": "살찌다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-18-06",
+     "kind": "word",
+     "text": "値段{ねだん}",
+     "reading_kana": "ねだん",
+     "reading_romanized": "nedan",
+     "meaning_ko": "값, 가격",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "昨日{きのう}は ケーキを 食{た}べすぎました。",
+     "meaning_ko": "어제는 케이크를 너무 많이 먹었습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この かばんは 重{おも}すぎます。",
+     "meaning_ko": "이 가방은 너무 무겁습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 店{みせ}は 値段{ねだん}が 高{たか}すぎます。",
+     "meaning_ko": "이 가게는 가격이 너무 비쌉니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この コーヒーは 甘{あま}すぎます。",
+     "meaning_ko": "이 커피는 너무 답니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "宿題{しゅくだい}が 多{おお}すぎて、寝{ね}る 時間{じかん}が ありません。",
+     "meaning_ko": "숙제가 너무 많아서 잘 시간이 없습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この エレベーターは 遅{おそ}すぎます。",
+     "meaning_ko": "이 엘리베이터는 너무 느립니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 部屋{へや}は 静{しず}かすぎて、ちょっと さびしいです。",
+     "meaning_ko": "이 방은 너무 조용해서 조금 쓸쓸합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "毎日{まいにち} 食{た}べすぎると、太{ふと}りますよ。",
+     "meaning_ko": "매일 과식하면 살이 쪄요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "お酒{さけ}を 飲{の}みすぎない ほうが いいです。",
+     "meaning_ko": "술을 너무 많이 마시지 않는 편이 좋습니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "‘케이크를 너무 많이 먹었습니다’를 바르게 나타낸 것은?",
+     "options": [
+      "ケーキを 食べすぎました。",
+      "ケーキを 食べるすぎました。",
+      "ケーキを 食べますすぎました。",
+      "ケーキを 食べいすぎました。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "동사는 ます형 어간 + すぎる입니다. 食べすぎました。",
+     "id": "JP-N4-18-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 この かばんは（　）。",
+     "options": [
+      "重すぎます",
+      "重いすぎます",
+      "重くすぎます",
+      "重だすぎます"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "い형용사는 い를 빼고 すぎる를 붙입니다. 重すぎます。",
+     "id": "JP-N4-18-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 この 部屋は（　）、さびしいです。",
+     "options": [
+      "静かすぎて",
+      "静かいすぎて",
+      "静かだすぎて",
+      "静かくすぎて"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "な형용사는 어간 + すぎる입니다. 静かすぎて의 て형은 すぎて입니다.",
+     "id": "JP-N4-18-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「甘すぎます」의 뜻은?",
+     "options": [
+      "너무 답니다",
+      "별로 달지 않습니다",
+      "조금 답니다",
+      "달았습니다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜すぎます는 ‘너무 ~합니다’입니다. 甘すぎます = 너무 답니다.",
+     "id": "JP-N4-18-Q4"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "‘과식’을 뜻하는 말은?",
+     "options": [
+      "食べすぎ",
+      "食べたい",
+      "食べない",
+      "食べます"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "食べすぎ는 ‘너무 많이 먹음’, 즉 과식입니다.",
+     "id": "JP-N4-18-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「値段」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "nedan",
+     "accepted_answers": [
+      "nedan"
+     ],
+     "explanation_ko": "値段 = ねだん (nedan)",
+     "id": "JP-N4-18-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

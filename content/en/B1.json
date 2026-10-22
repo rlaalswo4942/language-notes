@@ -2282,6 +2282,201 @@
     "version": 1,
     "last_revised": "2026-10-22"
    }
+  },
+  {
+   "id": "B1-013",
+   "level": "B1",
+   "track": "general",
+   "day": 13,
+   "title_ko": "so와 such: so + 형용사, such (a) + 명사",
+   "objective_ko": "so와 such를 구별하고 so ... that / such ... that으로 결과를 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-23"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "'너무 ~해서 …하다'는 so / such ... that으로 말합니다. ① so + 형용사/부사 + that: It was so cold that we stayed inside. She walked so quickly that I couldn't keep up. ② such + (a/an) + (형용사) + 명사 + that: It was such a long movie that I fell asleep. ③ 복수명사와 불가산명사에는 a/an이 없습니다: such good friends, such bad weather. ④ 명사가 있으면 such, 형용사·부사만 있으면 so입니다. 형용사 뒤에 명사가 이어지면 so가 아니라 such a ... 의 틀을 씁니다. ⑤ that은 일상 대화에서 생략되기도 합니다. ⑥ 목적을 나타내는 so that(~하기 위해)과는 다릅니다: I left early so that I could catch the train. ⑦ too는 '~해서 …할 수 없다'(too tired to go), so ... that은 결과를 문장으로 말합니다(so tired that I couldn't go).",
+    "common_mistake_ko": "It was so a good film.(X) → It was such a good film. / It was so good.(O) / He is such tired.(X) → He is so tired.(O) / We had such bad weathers.(X) → We had such bad weather.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "noisy",
+     "part_of_speech": "형용사",
+     "meaning_ko": "시끄러운",
+     "example_en": "The street was too noisy to sleep.",
+     "example_ko": "그 거리는 너무 시끄러워서 잘 수 없었어요."
+    },
+    {
+     "word": "huge",
+     "part_of_speech": "형용사",
+     "meaning_ko": "거대한",
+     "example_en": "They live in a huge house.",
+     "example_ko": "그들은 거대한 집에 살아요."
+    },
+    {
+     "word": "disappointed",
+     "part_of_speech": "형용사",
+     "meaning_ko": "실망한",
+     "example_en": "She was disappointed with the result.",
+     "example_ko": "그녀는 결과에 실망했어요."
+    },
+    {
+     "word": "traffic",
+     "part_of_speech": "명사",
+     "meaning_ko": "교통(량)",
+     "example_en": "The traffic was bad this morning.",
+     "example_ko": "오늘 아침 교통 상황이 나빴어요."
+    },
+    {
+     "word": "patient",
+     "part_of_speech": "형용사",
+     "meaning_ko": "참을성 있는",
+     "example_en": "The teacher is very patient.",
+     "example_ko": "그 선생님은 아주 참을성이 있어요."
+    },
+    {
+     "word": "asleep",
+     "part_of_speech": "형용사",
+     "meaning_ko": "잠든",
+     "example_en": "The baby fell asleep at nine.",
+     "example_ko": "아기는 9시에 잠들었어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "It was so cold that we stayed inside.",
+     "ko": "너무 추워서 우리는 안에 있었어요."
+    },
+    {
+     "en": "She walked so quickly that I couldn't keep up.",
+     "ko": "그녀가 너무 빨리 걸어서 나는 따라갈 수 없었어요."
+    },
+    {
+     "en": "He is such a kind person that everyone likes him.",
+     "ko": "그는 아주 친절한 사람이라서 모두가 그를 좋아해요."
+    },
+    {
+     "en": "It was such a noisy street that I couldn't sleep.",
+     "ko": "너무 시끄러운 거리여서 나는 잘 수 없었어요."
+    },
+    {
+     "en": "They are such good friends that they never argue.",
+     "ko": "그들은 아주 좋은 친구라서 절대 싸우지 않아요."
+    },
+    {
+     "en": "We had such bad weather that the trip was cancelled.",
+     "ko": "날씨가 너무 나빠서 여행이 취소되었어요."
+    },
+    {
+     "en": "The traffic was so heavy that I arrived late.",
+     "ko": "교통이 너무 막혀서 나는 늦게 도착했어요."
+    },
+    {
+     "en": "I was so tired that I fell asleep on the sofa.",
+     "ko": "너무 피곤해서 나는 소파에서 잠들었어요."
+    },
+    {
+     "en": "The cake was so huge that we couldn't finish it.",
+     "ko": "케이크가 너무 커서 우리는 다 먹을 수 없었어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "The soup was ___ hot that I couldn't eat it.",
+     "choices": [
+      "so",
+      "such",
+      "too",
+      "very"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "뒤에 명사 없이 형용사(hot)만 있고 결과 that절이 이어지므로 so입니다.",
+     "error_tag": "so-such",
+     "id": "B1-013-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "It was ___ a long meeting that everyone felt tired.",
+     "choices": [
+      "so",
+      "such",
+      "too",
+      "very"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "a long meeting처럼 'a + 형용사 + 명사'가 오면 such a ... 입니다.",
+     "error_tag": "so-such",
+     "id": "B1-013-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "They are ___ nice neighbors. (아주 좋은 이웃이에요)",
+     "choices": [
+      "so",
+      "such a",
+      "such",
+      "too"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "neighbors는 복수명사이므로 a 없이 such nice neighbors입니다.",
+     "error_tag": "such-plural",
+     "id": "B1-013-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "바른 문장은?",
+     "choices": [
+      "She is so a talented singer.",
+      "She is such talented singer.",
+      "She is such a talented singer.",
+      "She is so talented singer."
+     ],
+     "answer_index": 2,
+     "explanation_ko": "'형용사 + 단수 명사' 앞에는 such a를 씁니다. 형용사만 쓰면 She is so talented.입니다.",
+     "error_tag": "such-a",
+     "id": "B1-013-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: He was ___ patient that he waited for three hours.",
+     "answer_text": "so",
+     "accepted_answers": [
+      "so"
+     ],
+     "explanation_ko": "형용사 patient만 있으므로 so ... that 틀입니다.",
+     "error_tag": "so-such",
+     "id": "B1-013-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: We had ___ noisy neighbors that we moved.",
+     "answer_text": "such",
+     "accepted_answers": [
+      "such"
+     ],
+     "explanation_ko": "neighbors(명사)가 뒤에 있으므로 such ... that 틀입니다.",
+     "error_tag": "so-such",
+     "id": "B1-013-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "so ... that 문장 하나와 such ... that 문장 하나를 써 보세요.",
+    "example_answer_en": "I was so hungry that I ate two sandwiches. It was such a good book that I read it twice.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-23",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-23"
+   }
   }
  ]
 }

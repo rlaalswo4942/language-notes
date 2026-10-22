@@ -3312,6 +3312,201 @@
     "version": 1,
     "last_revised": "2026-10-22"
    }
+  },
+  {
+   "id": "B2-018",
+   "level": "B2",
+   "track": "general",
+   "day": 18,
+   "title_ko": "도치 조건문: Had I known ... / Were I ... / Should you ...",
+   "objective_ko": "if를 생략하고 Had, Were, Should를 앞으로 보내는 격식 있는 조건문을 이해하고 쓴다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-23"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "격식 있는 글이나 말에서는 if를 빼고 조동사·be동사를 주어 앞으로 보내 조건을 나타냅니다. ① 가정법 과거완료: If I had known → Had I known about the traffic, I would have left earlier. ② 가정법 과거(be동사): If I were you → Were I you, I would accept the offer. ③ 미래의 가능성(만일 ~하면): If you should need help → Should you need any assistance, please contact us. 이때 주절에는 명령문이나 will도 올 수 있습니다. ④ 부정은 not을 주어 뒤에 둡니다: Had she not missed the train, she would have arrived on time. Hadn't she ...처럼 줄임말을 앞에 쓰지 않습니다. ⑤ Were it not for ...(~이 없다면)도 같은 틀입니다: Were it not for the rain, we would go hiking. 도치된 문장 안의 동사는 원래 if절과 같은 형태(Had + 과거분사, Were, Should + 동사원형)입니다.",
+    "common_mistake_ko": "Had I knew about it, I would have called.(X) → Had I known about it, I would have called.(O) / Should you needs help, call us.(X) → Should you need help, call us.(O) / Hadn't she missed the train, she would have arrived.(X) → Had she not missed the train, she would have arrived.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "assistance",
+     "part_of_speech": "명사",
+     "meaning_ko": "도움, 지원",
+     "example_en": "Please call us if you need assistance.",
+     "example_ko": "도움이 필요하시면 전화해 주세요."
+    },
+    {
+     "word": "hesitate",
+     "part_of_speech": "동사",
+     "meaning_ko": "망설이다",
+     "example_en": "Do not hesitate to ask questions.",
+     "example_ko": "질문하는 것을 망설이지 마세요."
+    },
+    {
+     "word": "contact",
+     "part_of_speech": "동사",
+     "meaning_ko": "연락하다",
+     "example_en": "Please contact the office by Friday.",
+     "example_ko": "금요일까지 사무실로 연락해 주세요."
+    },
+    {
+     "word": "overlook",
+     "part_of_speech": "동사",
+     "meaning_ko": "간과하다, 못 보고 넘어가다",
+     "example_en": "We overlooked a small error in the report.",
+     "example_ko": "우리는 보고서의 작은 오류를 못 보고 넘어갔어요."
+    },
+    {
+     "word": "urgent",
+     "part_of_speech": "형용사",
+     "meaning_ko": "긴급한",
+     "example_en": "This is an urgent message.",
+     "example_ko": "이것은 긴급한 메시지예요."
+    },
+    {
+     "word": "anticipate",
+     "part_of_speech": "동사",
+     "meaning_ko": "예상하다, 내다보다",
+     "example_en": "They anticipated a rise in prices.",
+     "example_ko": "그들은 가격 상승을 예상했어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Had I known about the traffic, I would have left earlier.",
+     "ko": "교통 상황을 알았더라면 더 일찍 출발했을 거예요."
+    },
+    {
+     "en": "Had she not missed the train, she would have arrived on time.",
+     "ko": "그녀가 기차를 놓치지 않았더라면 제시간에 도착했을 거예요."
+    },
+    {
+     "en": "Were I in your position, I would accept the offer.",
+     "ko": "내가 당신 입장이라면 그 제안을 받아들일 거예요."
+    },
+    {
+     "en": "Were he more careful, he wouldn't overlook so many errors.",
+     "ko": "그가 더 신중하다면 그렇게 많은 오류를 놓치지 않을 거예요."
+    },
+    {
+     "en": "Should you need any assistance, please do not hesitate to contact us.",
+     "ko": "도움이 필요하시면 주저하지 말고 연락해 주세요."
+    },
+    {
+     "en": "Should the meeting be postponed, we will let you know.",
+     "ko": "회의가 연기되면 알려 드리겠습니다."
+    },
+    {
+     "en": "Had we anticipated the demand, we would have hired more staff.",
+     "ko": "수요를 예상했더라면 직원을 더 뽑았을 거예요."
+    },
+    {
+     "en": "Were it not for the rain, we would go hiking.",
+     "ko": "비가 오지 않는다면 우리는 등산을 갈 텐데요."
+    },
+    {
+     "en": "Should you find any errors, please inform us immediately.",
+     "ko": "혹시 오류를 발견하시면 즉시 알려 주세요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "___ I known about the delay, I would have called you.",
+     "choices": [
+      "Had",
+      "Have",
+      "Did",
+      "If"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "if I had known의 if를 생략하면 Had I known이 됩니다.",
+     "error_tag": "inverted-conditional",
+     "id": "B2-018-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "___ you need further information, please contact us.",
+     "choices": [
+      "Should",
+      "Would",
+      "Did",
+      "Could"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "If you should need ...에서 if를 생략하면 Should you need ...입니다.",
+     "error_tag": "inverted-conditional",
+     "id": "B2-018-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'If I were you, I would apply.'와 같은 뜻의 문장은?",
+     "choices": [
+      "Were I you, I would apply.",
+      "Was I you, I would apply.",
+      "Did I be you, I would apply.",
+      "Should I you, I would apply."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "if I were you → Were I you입니다. 도치할 때 be동사는 Were를 씁니다.",
+     "error_tag": "inverted-were",
+     "id": "B2-018-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Had she not ___ the email, she wouldn't have known about the change.",
+     "choices": [
+      "read",
+      "reading",
+      "reads",
+      "to read"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Had + 주어 + not + 과거분사의 틀입니다. read는 과거분사도 read입니다.",
+     "error_tag": "inverted-negative",
+     "id": "B2-018-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Had I not been so tired, I ___ have joined you. (w로 시작, ~했을 텐데)",
+     "answer_text": "would",
+     "accepted_answers": [
+      "would"
+     ],
+     "explanation_ko": "과거완료 조건문의 주절은 would have + 과거분사입니다.",
+     "error_tag": "inverted-conditional",
+     "id": "B2-018-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: ___ I in your position, I would say yes. (if 대신 be동사 도치)",
+     "answer_text": "Were",
+     "accepted_answers": [
+      "were"
+     ],
+     "explanation_ko": "if I were in your position → Were I in your position입니다.",
+     "error_tag": "inverted-were",
+     "id": "B2-018-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "Had I ... 로 시작하는 문장 하나와 Should you ... 로 시작하는 문장 하나를 써 보세요.",
+    "example_answer_en": "Had I known about the meeting, I would have prepared a report. Should you have any questions, please call me.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-23",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-23"
+   }
   }
  ]
 }

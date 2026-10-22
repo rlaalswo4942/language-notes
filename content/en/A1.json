@@ -3328,6 +3328,202 @@
     "version": 1,
     "last_revised": "2026-10-22"
    }
+  },
+  {
+   "id": "A1-018",
+   "level": "A1",
+   "track": "foundation",
+   "day": 18,
+   "title_ko": "like / love / hate + -ing: 좋아하고 싫어하는 것 말하기",
+   "objective_ko": "like, love, hate 뒤에 명사나 동사-ing를 써서 좋아하고 싫어하는 것을 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "A1-A2 문법 학습 주제",
+     "checked_at": "2026-10-23"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "좋고 싫음은 like(좋아하다), love(아주 좋아하다), hate(몹시 싫어하다)로 말합니다. ① 명사가 올 때: I like sports. ② 동작이 올 때는 동사-ing: I like swimming. (like to swim도 쓰지만 이 레슨은 -ing로 익힙니다.) ③ 부정: 주어 + don't / doesn't + like ... 주어가 he, she이면 doesn't를 쓰고 like에는 -s를 붙이지 않습니다: He doesn't like cooking. ④ 긍정에서 3인칭 단수는 likes / loves / hates입니다: She loves dancing. ⑤ 질문: Do / Does + 주어 + like ...? Do you like painting? — Yes, I do. / No, I don't. -ing 만들기: swim → swimming, run → running, get → getting처럼 짧은 모음 하나+자음 하나로 끝나면 자음을 한 번 더 쓰고, dance → dancing처럼 e로 끝나면 e를 빼고 ing를 붙입니다.",
+    "common_mistake_ko": "I like swim.(X) → I like swimming.(O) / She like cooking.(X) → She likes cooking.(O) / He doesn't likes dancing.(X) → He doesn't like dancing.(O) / Do you likes sports?(X) → Do you like sports?(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "hobby",
+     "part_of_speech": "명사",
+     "meaning_ko": "취미",
+     "example_en": "My hobby is painting.",
+     "example_ko": "내 취미는 그림 그리기예요."
+    },
+    {
+     "word": "dance",
+     "part_of_speech": "동사",
+     "meaning_ko": "춤추다",
+     "example_en": "She loves to dance.",
+     "example_ko": "그녀는 춤추는 것을 아주 좋아해요."
+    },
+    {
+     "word": "paint",
+     "part_of_speech": "동사",
+     "meaning_ko": "(물감으로) 그리다",
+     "example_en": "I paint flowers on Sundays.",
+     "example_ko": "나는 일요일마다 꽃을 그려요."
+    },
+    {
+     "word": "sport",
+     "part_of_speech": "명사",
+     "meaning_ko": "스포츠, 운동",
+     "example_en": "My brother likes sports.",
+     "example_ko": "내 남동생은 스포츠를 좋아해요."
+    },
+    {
+     "word": "hate",
+     "part_of_speech": "동사",
+     "meaning_ko": "몹시 싫어하다",
+     "example_en": "I hate rainy days.",
+     "example_ko": "나는 비 오는 날이 정말 싫어요."
+    },
+    {
+     "word": "music",
+     "part_of_speech": "명사",
+     "meaning_ko": "음악",
+     "example_en": "We listen to music after dinner.",
+     "example_ko": "우리는 저녁 식사 후에 음악을 들어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I like swimming.",
+     "ko": "나는 수영하는 것을 좋아해요."
+    },
+    {
+     "en": "She loves dancing.",
+     "ko": "그녀는 춤추는 것을 아주 좋아해요."
+    },
+    {
+     "en": "My brother likes sports.",
+     "ko": "내 남동생은 스포츠를 좋아해요."
+    },
+    {
+     "en": "We don't like running in the rain.",
+     "ko": "우리는 빗속에서 달리는 것을 좋아하지 않아요."
+    },
+    {
+     "en": "He doesn't like cooking.",
+     "ko": "그는 요리하는 것을 좋아하지 않아요."
+    },
+    {
+     "en": "Do you like painting? — Yes, I do.",
+     "ko": "그림 그리는 것을 좋아해요? — 네, 좋아해요."
+    },
+    {
+     "en": "What is your hobby? — I like listening to music.",
+     "ko": "당신의 취미는 뭐예요? — 나는 음악 듣는 것을 좋아해요."
+    },
+    {
+     "en": "My sister hates getting up early.",
+     "ko": "내 여동생은 일찍 일어나는 것을 몹시 싫어해요."
+    },
+    {
+     "en": "Does she like dancing? — No, she doesn't.",
+     "ko": "그녀는 춤추는 것을 좋아해요? — 아니요, 좋아하지 않아요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "I like ___ pictures. (그림 그리는 것을 좋아해요)",
+     "choices": [
+      "paint",
+      "painting",
+      "to painting",
+      "paints"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "like 뒤에 동작을 쓸 때는 동사-ing입니다. I like painting pictures.",
+     "error_tag": "like-ing",
+     "id": "A1-018-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "She ___ swimming. (그녀는 수영을 좋아해요)",
+     "choices": [
+      "like",
+      "likes",
+      "is like",
+      "do like"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "주어가 she이므로 긍정문의 like에 -s를 붙입니다. She likes swimming.",
+     "error_tag": "third-person",
+     "id": "A1-018-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "He doesn't ___ cooking. (그는 요리를 좋아하지 않아요)",
+     "choices": [
+      "likes",
+      "like",
+      "liking",
+      "to like"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "doesn't 뒤에는 동사원형입니다. He doesn't like cooking.",
+     "error_tag": "negative",
+     "id": "A1-018-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'나는 일찍 일어나는 것을 몹시 싫어해요'를 바르게 쓴 것은?",
+     "choices": [
+      "I hate get up early.",
+      "I hate getting up early.",
+      "I hating get up early.",
+      "I hates getting up early."
+     ],
+     "answer_index": 1,
+     "explanation_ko": "hate 뒤에 동작을 쓰면 동사-ing입니다. 주어가 I이므로 hate에는 -s를 붙이지 않습니다.",
+     "error_tag": "hate-ing",
+     "id": "A1-018-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 형태로 쓰세요: I love ___ to music. (listen)",
+     "answer_text": "listening",
+     "accepted_answers": [
+      "listening"
+     ],
+     "explanation_ko": "love 뒤에 동작을 쓰므로 listen에 -ing를 붙입니다. I love listening to music.",
+     "error_tag": "like-ing",
+     "id": "A1-018-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: My sister ___ dancing. (좋아해요)",
+     "answer_text": "likes",
+     "accepted_answers": [
+      "likes",
+      "loves"
+     ],
+     "explanation_ko": "주어가 My sister이므로 -s를 붙인 likes입니다. loves도 맞는 표현입니다.",
+     "error_tag": "third-person",
+     "id": "A1-018-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "내가 좋아하는 활동과 싫어하는 활동을 하나씩 영어로 써 보세요.",
+    "example_answer_en": "I like swimming. I hate getting up early.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-23",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-23"
+   }
   }
  ]
 }
