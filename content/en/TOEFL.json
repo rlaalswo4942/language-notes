@@ -2247,6 +2247,202 @@
     "version": 1,
     "last_revised": "2026-10-23"
    }
+  },
+  {
+   "id": "TOEFL-013",
+   "level": "B1",
+   "track": "toefl",
+   "day": 13,
+   "title_ko": "TOEFL 2026 Listen and Repeat 입문: 들은 문장을 그대로 따라 말하기",
+   "objective_ko": "짧은 문장을 듣고 단어를 바꾸거나 빼지 않고 끊어서 그대로 따라 말하는 연습을 한다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/content/ets-org/language-master/ko/home/toefl/test-takers/ibt/about/content.html",
+     "publisher": "ETS",
+     "supports": "2026 형식 유형명",
+     "checked_at": "2026-10-24"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "TOEFL iBT 2026 Speaking의 Listen and Repeat는 들은 문장을 그대로 따라 말하는 유형입니다. 이 사이트에는 음원이 없으므로, 아래 문장을 눈으로 읽은 뒤 소리 내어 따라 말하는 방식으로 연습합니다. ① 들은 말을 바꾸지 않고 단어를 그대로 말합니다. ② 의미 덩어리(chunk)로 끊어서 기억합니다: The library closes / at ten o'clock / tonight. ③ 내용어(명사·동사·형용사)를 조금 더 강하게 말하고, 끝에서 억양을 자연스럽게 내립니다. ④ 한 단어를 놓쳐도 멈추지 말고 끝까지 자연스럽게 말합니다. ⑤ 연습할 때는 문장을 소리 내어 읽고, 가린 뒤 다시 말해 보세요. 공식 문항의 수·시간은 ETS 안내를 확인하세요. 이 레슨의 점수나 합격 가능성 예측은 없습니다.",
+    "common_mistake_ko": "단어를 비슷한 말로 바꾸어 말한다(closes → ends) → 들은 단어 그대로 / 한 단어를 놓치고 멈춘다 → 계속 이어서 말한다 / 모든 단어를 같은 세기로 또박또박 읽는다 → 중요한 단어를 더 강하게."
+   },
+   "vocabulary": [
+    {
+     "word": "repeat",
+     "part_of_speech": "동사",
+     "meaning_ko": "따라 말하다, 반복하다",
+     "example_en": "Please repeat the sentence after the speaker.",
+     "example_ko": "화자를 따라 문장을 말해 주세요."
+    },
+    {
+     "word": "accurately",
+     "part_of_speech": "부사",
+     "meaning_ko": "정확하게",
+     "example_en": "Try to repeat the words accurately.",
+     "example_ko": "단어를 정확하게 따라 말해 보세요."
+    },
+    {
+     "word": "chunk",
+     "part_of_speech": "명사",
+     "meaning_ko": "의미 덩어리",
+     "example_en": "Remember the sentence in chunks.",
+     "example_ko": "문장을 의미 덩어리로 기억하세요."
+    },
+    {
+     "word": "stress",
+     "part_of_speech": "명사",
+     "meaning_ko": "강세",
+     "example_en": "Put stress on the important words.",
+     "example_ko": "중요한 단어에 강세를 두세요."
+    },
+    {
+     "word": "pause",
+     "part_of_speech": "명사",
+     "meaning_ko": "잠깐 멈춤",
+     "example_en": "Take a short pause between chunks.",
+     "example_ko": "덩어리 사이에서 잠깐 쉬세요."
+    },
+    {
+     "word": "intonation",
+     "part_of_speech": "명사",
+     "meaning_ko": "억양",
+     "example_en": "Good intonation makes your speech natural.",
+     "example_ko": "좋은 억양은 말을 자연스럽게 만듭니다."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The library closes at ten o'clock tonight.",
+     "ko": "도서관은 오늘 밤 10시에 문을 닫습니다."
+    },
+    {
+     "en": "Please return the book to the front desk by Friday.",
+     "ko": "금요일까지 책을 안내 데스크에 반납해 주세요."
+    },
+    {
+     "en": "The lab is on the second floor.",
+     "ko": "실험실은 2층에 있습니다."
+    },
+    {
+     "en": "Students must show their ID cards at the entrance.",
+     "ko": "학생은 입구에서 학생증을 보여 주어야 합니다."
+    },
+    {
+     "en": "The bookstore is having a sale this week.",
+     "ko": "서점이 이번 주에 할인 행사를 합니다."
+    },
+    {
+     "en": "You can pick up your schedule at the office.",
+     "ko": "사무실에서 시간표를 받아 갈 수 있습니다."
+    },
+    {
+     "en": "The study room is available until nine in the evening.",
+     "ko": "스터디룸은 저녁 9시까지 이용할 수 있습니다."
+    },
+    {
+     "en": "Please turn off your phone during the lecture.",
+     "ko": "강의 중에는 휴대폰을 꺼 주세요."
+    },
+    {
+     "en": "The registration deadline has been extended to next Monday.",
+     "ko": "등록 마감일이 다음 주 월요일로 연장되었습니다."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "You hear: \"The library closes at ten o'clock tonight.\" Which repetition is best?",
+     "choices": [
+      "The library closes at ten o'clock tonight.",
+      "The library ends at ten o'clock tonight.",
+      "The library closes at ten tonight.",
+      "The library closes at ten o'clock tomorrow."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "단어를 바꾸거나(ends) 빼거나(o'clock) 다른 말(tomorrow)을 넣지 않고 그대로 말한 것이 가장 좋습니다.",
+     "error_tag": "repeat-exact",
+     "id": "F013-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "\"Please return the book to the front desk by Friday.\" 문장을 의미 덩어리로 가장 잘 끊은 것은?",
+     "choices": [
+      "Please return the book / to the front desk / by Friday",
+      "Please / return the / book to the / front desk by / Friday",
+      "Please return / the / book to / the front / desk by Friday",
+      "Please return the book to the front desk by / Friday"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "의미가 이어지는 덩어리(행동 / 장소 / 기한)로 끊으면 기억하기 쉽습니다.",
+     "error_tag": "repeat-chunk",
+     "id": "F013-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "따라 말하는 도중에 한 단어를 놓쳤다면 어떻게 하는 것이 좋을까요?",
+     "choices": [
+      "멈추지 않고 문장을 끝까지 자연스럽게 말한다",
+      "처음부터 계속 다시 시작한다",
+      "끝날 때까지 아무 말도 하지 않는다",
+      "나머지를 한국어로 말한다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "짧은 문장을 끊김 없이 끝까지 말하는 것이 중요합니다. 놓친 단어에 멈추지 않습니다.",
+     "error_tag": "repeat-recover",
+     "id": "F013-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'accurately'의 뜻으로 알맞은 것은?",
+     "choices": [
+      "정확하게",
+      "빠르게",
+      "조용히",
+      "자주"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "accurately = 정확하게. repeat accurately는 정확히 따라 말하는 것입니다.",
+     "error_tag": "repeat-vocab",
+     "id": "F013-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "다음 문장을 눈으로 읽고 가린 뒤 그대로 써 보세요: The lab is on the second floor.",
+     "answer_text": "The lab is on the second floor",
+     "accepted_answers": [
+      "The lab is on the second floor",
+      "the lab is on the second floor"
+     ],
+     "explanation_ko": "들은 문장을 그대로 기억해 낸 것입니다. 끝의 마침표는 무시됩니다.",
+     "error_tag": "repeat-exact",
+     "id": "F013-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Students must ___ their ID cards at the entrance.",
+     "answer_text": "show",
+     "accepted_answers": [
+      "show"
+     ],
+     "explanation_ko": "학습한 문장의 그대로입니다. Students must show their ID cards at the entrance.",
+     "error_tag": "repeat-exact",
+     "id": "F013-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "Listen and Repeat 연습으로 아래 문장을 소리 내어 세 번 따라 말한 뒤, 덩어리를 / 로 나누어 써 보세요: The study room is available until nine.",
+    "example_answer_en": "The study room / is available / until nine.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-24",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-24"
+   }
   }
  ]
 }

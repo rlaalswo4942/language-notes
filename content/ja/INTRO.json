@@ -5046,6 +5046,193 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전"
+  },
+  {
+   "id": "JP-INTRO-43",
+   "day_index": 43,
+   "week_index": 7,
+   "level": "INTRO",
+   "unit_id": "INTRO-W07",
+   "lesson_type": "new",
+   "title_ko": "가타카나 탁음 ザ행",
+   "objective_ko": "가타카나 サ행에 탁점(゛)을 붙인 ザ·ジ·ズ·ゼ·ゾ를 읽고, 외래어 단어를 읽는다.",
+   "new_items": [
+    {
+     "id": "w-JP-INTRO-43-01",
+     "kind": "kana",
+     "text": "ザ",
+     "reading_romanized": "za",
+     "meaning_ko": null
+    },
+    {
+     "id": "w-JP-INTRO-43-02",
+     "kind": "kana",
+     "text": "ジ",
+     "reading_romanized": "ji",
+     "meaning_ko": null
+    },
+    {
+     "id": "w-JP-INTRO-43-03",
+     "kind": "kana",
+     "text": "ズ",
+     "reading_romanized": "zu",
+     "meaning_ko": null
+    },
+    {
+     "id": "w-JP-INTRO-43-04",
+     "kind": "kana",
+     "text": "ゼ",
+     "reading_romanized": "ze",
+     "meaning_ko": null
+    },
+    {
+     "id": "w-JP-INTRO-43-05",
+     "kind": "kana",
+     "text": "ゾ",
+     "reading_romanized": "zo",
+     "meaning_ko": null
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "ゼロ",
+     "reading_romanized": "zero",
+     "meaning_ko": "영, 0",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "ジム",
+     "reading_romanized": "jimu",
+     "meaning_ko": "체육관, 헬스장",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "ジーンズ",
+     "reading_romanized": "jiinzu",
+     "meaning_ko": "청바지",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "ゼリー",
+     "reading_romanized": "zerii",
+     "meaning_ko": "젤리",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "アザラシ",
+     "reading_romanized": "azarashi",
+     "meaning_ko": "바다표범",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "ズーム",
+     "reading_romanized": "zuumu",
+     "meaning_ko": "줌, 확대",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "ゾーン",
+     "reading_romanized": "zoon",
+     "meaning_ko": "구역, 존",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "ゾウ",
+     "reading_romanized": "zou",
+     "meaning_ko": "코끼리",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「ザ」의 일반적인 로마자 표기는 무엇인가요?",
+     "options": [
+      "za",
+      "sa",
+      "ji",
+      "zu"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ザ는 za로 표기합니다. サ(sa)에 탁점(゛)이 붙은 글자입니다.",
+     "id": "JP-INTRO-43-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「ゾ」의 일반적인 로마자 표기는 무엇인가요?",
+     "options": [
+      "so",
+      "zo",
+      "za",
+      "zu"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "ゾ는 zo로 표기합니다. ソ(so)에 탁점이 붙은 글자입니다.",
+     "id": "JP-INTRO-43-Q2"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「ジ」를 로마자로 입력하세요.",
+     "answer_text": "ji",
+     "accepted_answers": [
+      "ji",
+      "zi"
+     ],
+     "explanation_ko": "ジ → ji (シ shi + 탁점). 훈령식으로는 zi라고도 씁니다.",
+     "id": "JP-INTRO-43-Q3"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「ゼロ」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "zero",
+     "accepted_answers": [
+      "zero"
+     ],
+     "explanation_ko": "ゼロ = zero (영, 0)",
+     "id": "JP-INTRO-43-Q4"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「ゾウ」의 뜻은?",
+     "options": [
+      "코끼리",
+      "사자",
+      "고래",
+      "바다표범"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ゾウ(zou)는 '코끼리'입니다.",
+     "id": "JP-INTRO-43-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「ジーンズ」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "jiinzu",
+     "accepted_answers": [
+      "jiinzu",
+      "jinzu"
+     ],
+     "explanation_ko": "ジーンズ = jiinzu (청바지). ー는 앞의 모음을 길게 늘여 읽습니다.",
+     "id": "JP-INTRO-43-Q6"
+    }
+   ],
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-INTRO-42"
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_KATAKANA"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전"
   }
  ]
 }

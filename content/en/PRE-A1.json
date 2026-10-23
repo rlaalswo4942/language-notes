@@ -3868,6 +3868,202 @@
     "version": 1,
     "last_revised": "2026-10-23"
    }
+  },
+  {
+   "id": "PRE-025",
+   "level": "Pre-A1",
+   "track": "foundation",
+   "day": 25,
+   "title_ko": "there is / there are: 있는 것 말하기",
+   "objective_ko": "there is와 there are로 어떤 장소에 무엇이 있는지 말하고 묻는다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-24"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "there is / there are는 '~이(가) 있다'고 장소에 무엇이 있는지 말할 때 씁니다. ① 하나일 때: There is a clock on the wall.(벽에 시계가 하나 있어요.) ② 둘 이상일 때: There are two windows in my room.(내 방에 창문이 두 개 있어요.) 뒤에 오는 명사가 하나인지 여러 개인지에 따라 is / are를 고릅니다. ③ 부정: There isn't a sofa in the room. / There aren't any pens on the desk.(any는 '하나도'라는 뜻으로 복수 부정문에 씁니다.) ④ 질문은 is / are를 앞으로 보냅니다. Is there a cat on the sofa? — Yes, there is. / No, there isn't. Are there two windows? — Yes, there are. / No, there aren't. 이때 there는 '거기'라는 뜻이 아니라 '있다'는 문장의 시작 부분이어서 우리말로 따로 옮기지 않습니다. There's는 There is의 줄임말입니다.",
+    "common_mistake_ko": "There are a clock on the wall.(X) → There is a clock on the wall.(O) / There is two windows.(X) → There are two windows.(O) / Is there two windows in the room?(X) → Are there two windows in the room?(O) / Have a clock in the room.(X) → There is a clock in the room.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "room",
+     "part_of_speech": "명사",
+     "meaning_ko": "방",
+     "example_en": "There is a bed in my room.",
+     "example_ko": "내 방에는 침대가 있어요."
+    },
+    {
+     "word": "window",
+     "part_of_speech": "명사",
+     "meaning_ko": "창문",
+     "example_en": "There are two windows in the kitchen.",
+     "example_ko": "부엌에는 창문이 두 개 있어요."
+    },
+    {
+     "word": "clock",
+     "part_of_speech": "명사",
+     "meaning_ko": "시계(벽·탁상용)",
+     "example_en": "The clock is on the shelf.",
+     "example_ko": "시계는 선반 위에 있어요."
+    },
+    {
+     "word": "sofa",
+     "part_of_speech": "명사",
+     "meaning_ko": "소파",
+     "example_en": "The cat is on the sofa.",
+     "example_ko": "고양이가 소파 위에 있어요."
+    },
+    {
+     "word": "wall",
+     "part_of_speech": "명사",
+     "meaning_ko": "벽",
+     "example_en": "There is a map on the wall.",
+     "example_ko": "벽에 지도가 하나 있어요."
+    },
+    {
+     "word": "picture",
+     "part_of_speech": "명사",
+     "meaning_ko": "그림, 사진",
+     "example_en": "There is a picture on the door.",
+     "example_ko": "문에 그림이 하나 붙어 있어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "There is a clock on the wall.",
+     "ko": "벽에 시계가 하나 있어요."
+    },
+    {
+     "en": "There is a sofa in the room.",
+     "ko": "방에 소파가 하나 있어요."
+    },
+    {
+     "en": "There are two windows in my room.",
+     "ko": "내 방에는 창문이 두 개 있어요."
+    },
+    {
+     "en": "There are three books on the desk.",
+     "ko": "책상 위에 책이 세 권 있어요."
+    },
+    {
+     "en": "There is a dog under the table.",
+     "ko": "탁자 밑에 개가 한 마리 있어요."
+    },
+    {
+     "en": "Is there a cat on the sofa? — Yes, there is.",
+     "ko": "소파 위에 고양이가 있어요? — 네, 있어요."
+    },
+    {
+     "en": "Are there two chairs in the room? — No, there aren't.",
+     "ko": "방에 의자가 두 개 있어요? — 아니요, 없어요."
+    },
+    {
+     "en": "There isn't a picture on the wall.",
+     "ko": "벽에는 그림이 없어요."
+    },
+    {
+     "en": "There aren't any pens on the desk.",
+     "ko": "책상 위에는 펜이 하나도 없어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "___ a clock on the wall. (벽에 시계가 하나 있어요)",
+     "choices": [
+      "There is",
+      "There are",
+      "There am",
+      "There be"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "시계는 하나(단수)이므로 There is를 씁니다.",
+     "error_tag": "there-is",
+     "id": "P025-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "___ three books on the desk. (책상 위에 책이 세 권 있어요)",
+     "choices": [
+      "There is",
+      "There are",
+      "Is there",
+      "Are there"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "책이 세 권(복수)이므로 There are를 씁니다. 평서문이므로 어순은 There + are입니다.",
+     "error_tag": "there-are",
+     "id": "P025-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'방에 의자가 있어요?'를 영어로 바르게 말한 것은?",
+     "choices": [
+      "Is there a chair in the room?",
+      "Are there a chair in the room?",
+      "There is a chair in the room?",
+      "Is a chair there in the room?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "단수이므로 Is there ...?로 묻습니다. is가 there 앞으로 나옵니다.",
+     "error_tag": "there-question",
+     "id": "P025-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Are there two windows in the room? 에 '아니요, 없어요'라고 대답하면?",
+     "choices": [
+      "No, there aren't.",
+      "No, there isn't.",
+      "No, there don't.",
+      "No, there not."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Are there ...? 질문에는 there are / there aren't로 대답합니다.",
+     "error_tag": "there-answer",
+     "id": "P025-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 두 단어를 쓰세요: ___ a sofa in my room. (내 방에는 소파가 하나 있어요)",
+     "answer_text": "There is",
+     "accepted_answers": [
+      "There is",
+      "There's"
+     ],
+     "explanation_ko": "소파가 하나이므로 There is(= There's)입니다.",
+     "error_tag": "there-is",
+     "id": "P025-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Is there a bed in the room? — Yes, there ___.",
+     "answer_text": "is",
+     "accepted_answers": [
+      "is"
+     ],
+     "explanation_ko": "Is there ...?에 긍정으로 대답할 때는 Yes, there is.입니다.",
+     "error_tag": "there-answer",
+     "id": "P025-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "내 방에 있는 것 두 가지를 There is / There are로 써 보세요.",
+    "example_answer_en": "There is a bed in my room. There are two windows.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-24",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-24"
+   }
   }
  ]
 }

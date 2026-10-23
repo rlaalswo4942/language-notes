@@ -2477,6 +2477,205 @@
     "version": 1,
     "last_revised": "2026-10-23"
    }
+  },
+  {
+   "id": "B1-014",
+   "level": "B1",
+   "track": "general",
+   "day": 14,
+   "title_ko": "2주 복습: used to·for/since·간접 의문문·too/enough·재귀대명사·so/such",
+   "objective_ko": "B1 둘째 주에 배운 여섯 가지 문법(B1-008~013)을 섞어서 문제에 적용한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-24"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "이번 주에 배운 여섯 가지를 한 번에 복습합니다. ① used to + 동사원형은 지금은 아닌 과거의 습관·상태(B1-008). ② 현재완료에서 for는 기간(for ten years), since는 시작 시점(since 2019)(B1-009). ③ 간접 의문문은 의문사 뒤를 평서문 어순으로 씁니다: Could you tell me where the post office is?(B1-010) ④ too + 형용사는 '너무 ~해서 못 한다', 형용사 + enough는 '~할 만큼 충분히'(B1-011). ⑤ 주어와 목적어가 같으면 재귀대명사(hurt myself), 서로에게 하는 행동은 each other(B1-012). ⑥ so + 형용사 / such (a) + 명사로 정도를 강조하고 뒤에 that절로 결과를 말합니다(B1-013). 문제를 풀 때는 시간 단서(since, for, 예전에), 어순(의문사 뒤 주어+동사), 뒤에 오는 말(형용사인지 명사인지)을 먼저 확인합니다.",
+    "common_mistake_ko": "I use to play tennis.(X) → I used to play tennis.(O) / She has lived here since five years.(X) → for five years(O) / Do you know where is the bank?(X) → where the bank is(O) / It was so a good movie.(X) → such a good movie(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "childhood",
+     "part_of_speech": "명사",
+     "meaning_ko": "어린 시절",
+     "example_en": "I used to live by the sea in my childhood.",
+     "example_ko": "나는 어린 시절에 바닷가에 살았어요."
+    },
+    {
+     "word": "shy",
+     "part_of_speech": "형용사",
+     "meaning_ko": "수줍음 많은",
+     "example_en": "She used to be shy, but now she loves speaking.",
+     "example_ko": "그녀는 수줍음이 많았지만 지금은 말하기를 좋아해요."
+    },
+    {
+     "word": "exhibition",
+     "part_of_speech": "명사",
+     "meaning_ko": "전시회",
+     "example_en": "I have lived near the exhibition hall since 2020.",
+     "example_ko": "나는 2020년부터 전시장 근처에 살고 있어요."
+    },
+    {
+     "word": "explain",
+     "part_of_speech": "동사",
+     "meaning_ko": "설명하다",
+     "example_en": "Could you explain how to use this machine?",
+     "example_ko": "이 기계 사용법을 설명해 주실 수 있나요?"
+    },
+    {
+     "word": "nearby",
+     "part_of_speech": "부사",
+     "meaning_ko": "근처에",
+     "example_en": "I don't know where the nearby cafe is.",
+     "example_ko": "나는 근처 카페가 어디인지 몰라요."
+    },
+    {
+     "word": "pleased",
+     "part_of_speech": "형용사",
+     "meaning_ko": "기쁜, 만족한",
+     "example_en": "She was so pleased with the result that she hugged her friends.",
+     "example_ko": "그녀는 결과에 너무 만족해서 친구들을 껴안았어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "We used to play outside every day when we were children.",
+     "ko": "우리는 어렸을 때 매일 밖에서 놀곤 했어요."
+    },
+    {
+     "en": "I have known her for ten years.",
+     "ko": "나는 그녀를 10년째 알고 있어요."
+    },
+    {
+     "en": "He has worked here since 2019.",
+     "ko": "그는 2019년부터 여기서 일하고 있어요."
+    },
+    {
+     "en": "Could you tell me where the post office is?",
+     "ko": "우체국이 어디에 있는지 알려 주시겠어요?"
+    },
+    {
+     "en": "Do you know what time the exhibition starts?",
+     "ko": "전시회가 몇 시에 시작하는지 아세요?"
+    },
+    {
+     "en": "The soup is too hot to drink.",
+     "ko": "그 수프는 너무 뜨거워서 마실 수 없어요."
+    },
+    {
+     "en": "She is tall enough to reach the shelf.",
+     "ko": "그녀는 선반에 닿을 만큼 키가 충분히 커요."
+    },
+    {
+     "en": "Be careful! You will hurt yourself.",
+     "ko": "조심해요! 다칠 거예요."
+    },
+    {
+     "en": "They help each other with their homework.",
+     "ko": "그들은 서로 숙제를 도와줘요."
+    },
+    {
+     "en": "It was such a good movie that we watched it twice.",
+     "ko": "정말 좋은 영화여서 우리는 그것을 두 번 봤어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "I ___ live in a small village, but now I live in a big city.",
+     "choices": [
+      "used to",
+      "use to",
+      "am used to",
+      "used to be to"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "지금은 아닌 과거의 상태는 used to + 동사원형입니다.",
+     "error_tag": "used-to",
+     "id": "B1-014-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "She has lived in Busan ___ 2015.",
+     "choices": [
+      "since",
+      "for",
+      "during",
+      "from"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "2015처럼 시작 시점 앞에는 since를 씁니다. 기간(ten years)이면 for입니다.",
+     "error_tag": "since-for",
+     "id": "B1-014-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Could you tell me ___?",
+     "choices": [
+      "where the library is",
+      "where is the library",
+      "where the library does",
+      "where does the library"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "간접 의문문은 의문사 뒤를 '주어 + 동사' 어순으로 씁니다.",
+     "error_tag": "indirect-question",
+     "id": "B1-014-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "The bag is ___ heavy for me to carry.",
+     "choices": [
+      "too",
+      "enough",
+      "so",
+      "such"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "'너무 ~해서 …할 수 없다'는 too + 형용사 + (for 사람) + to 동사입니다.",
+     "error_tag": "too-enough",
+     "id": "B1-014-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: The test was ___ difficult that nobody finished it.",
+     "answer_text": "so",
+     "accepted_answers": [
+      "so"
+     ],
+     "explanation_ko": "형용사 difficult 앞에는 so를 씁니다. so + 형용사 + that절.",
+     "error_tag": "so-such",
+     "id": "B1-014-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 두 단어를 쓰세요: My sister and I help ___ with homework.",
+     "answer_text": "each other",
+     "accepted_answers": [
+      "each other"
+     ],
+     "explanation_ko": "둘이 서로 돕는 것은 each other입니다.",
+     "error_tag": "each-other",
+     "id": "B1-014-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "어렸을 때 자주 했던 일을 used to를 써서 영어로 한 문장 써 보세요.",
+    "example_answer_en": "I used to play soccer every day when I was a child.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-24",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-24"
+   }
   }
  ]
 }

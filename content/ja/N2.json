@@ -3851,6 +3851,222 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-19",
+   "day_index": 19,
+   "week_index": 3,
+   "level": "N2",
+   "unit_id": "N2-W03",
+   "lesson_type": "new",
+   "title_ko": "〜をはじめ(として): ~을 비롯해",
+   "objective_ko": "〜をはじめ로 대표적인 하나를 들어 ‘~을 비롯해 여럿이’라고 말하고, 〜はもちろん과 구별한다.",
+   "explanation_ko": "〜をはじめ는 ‘~을 비롯해’라는 뜻으로, 같은 종류 가운데 대표적인 것을 먼저 들고 뒤에 나머지를 함께 말합니다. ① 형태: 명사 + をはじめ(として)、같은 종류의 명사 + など. 社長をはじめ、社員全員が出席した。(사장을 비롯해 사원 전원이 출석했다.) ② 앞에는 그룹의 대표·중심이 되는 것을 놓고, 뒤에는 같은 그룹의 여러 대상이 옵니다. 京都には、清水寺をはじめ、多くの有名な寺がある。 ③ 〜はもちろん은 ‘~은 말할 것도 없고 ~도’로 두 가지를 나란히 말합니다. 夏はもちろん、冬も観光客が多い。 〜をはじめ는 같은 무리의 대표, 〜はもちろん은 당연한 것에 더하는 것이라는 점이 다릅니다.",
+   "usage_notes": [
+    "「〜をはじめ」 앞에는 뒤에 오는 여러 대상과 같은 종류의 대표적인 것을 둡니다.",
+    "뒤에는 「多くの〜」「さまざまな〜」처럼 여럿을 나타내는 말이 자주 옵니다.",
+    "「〜はもちろん」은 ‘당연한 것 + 그 이상’을 말할 때 쓰고, 대표 예시를 드는 「〜をはじめ」와 구별합니다."
+   ],
+   "common_mistakes": [
+    "雨をはじめ、傘を持って行った(X) → 雨なので傘を持って行った(O): 이유는 をはじめ로 말하지 않습니다.",
+    "夏をはじめ、冬も観光客が多い(X) → 夏はもちろん、冬も観光客が多い(O): 두 가지를 나란히 말할 때는 〜はもちろん.",
+    "市長をはじめ、駅へ行った(X) → 市長をはじめ、多くの市民が参加した(O): 뒤에 같은 종류의 여러 대상이 와야 합니다."
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "参加者{さんかしゃ}",
+     "reading_kana": "さんかしゃ",
+     "reading_romanized": "sankasha",
+     "meaning_ko": "참가자",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-19-01"
+    },
+    {
+     "kind": "word",
+     "text": "各国{かっこく}",
+     "reading_kana": "かっこく",
+     "reading_romanized": "kakkoku",
+     "meaning_ko": "각국",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-19-02"
+    },
+    {
+     "kind": "word",
+     "text": "製品{せいひん}",
+     "reading_kana": "せいひん",
+     "reading_romanized": "seihin",
+     "meaning_ko": "제품",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-19-03"
+    },
+    {
+     "kind": "word",
+     "text": "開発{かいはつ}",
+     "reading_kana": "かいはつ",
+     "reading_romanized": "kaihatsu",
+     "meaning_ko": "개발",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-19-04"
+    },
+    {
+     "kind": "word",
+     "text": "来場者{らいじょうしゃ}",
+     "reading_kana": "らいじょうしゃ",
+     "reading_romanized": "raijousha",
+     "meaning_ko": "내장객, 방문객",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-19-05"
+    },
+    {
+     "kind": "word",
+     "text": "展示{てんじ}",
+     "reading_kana": "てんじ",
+     "reading_romanized": "tenji",
+     "meaning_ko": "전시",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-19-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "社長{しゃちょう}をはじめ、社員{しゃいん}全員{ぜんいん}が会議{かいぎ}に出席{しゅっせき}した。",
+     "meaning_ko": "사장을 비롯해 사원 전원이 회의에 출석했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "京都{きょうと}には、清水寺{きよみずでら}をはじめ、多{おお}くの有名{ゆうめい}な寺{てら}がある。",
+     "meaning_ko": "교토에는 기요미즈데라를 비롯해 많은 유명한 절이 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この展覧会{てんらんかい}には、日本{にほん}をはじめ、各国{かっこく}の作品{さくひん}が展示{てんじ}されている。",
+     "meaning_ko": "이 전람회에는 일본을 비롯해 각국의 작품이 전시되어 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "市長{しちょう}をはじめ、多{おお}くの市民{しみん}が参加{さんか}した。",
+     "meaning_ko": "시장을 비롯해 많은 시민이 참가했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "当社{とうしゃ}は、スマートフォンをはじめ、さまざまな製品{せいひん}を開発{かいはつ}している。",
+     "meaning_ko": "저희 회사는 스마트폰을 비롯해 다양한 제품을 개발하고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "このイベントは、子{こ}どもをはじめ、お年寄{としよ}りにも人気{にんき}がある。",
+     "meaning_ko": "이 이벤트는 어린이를 비롯해 노인에게도 인기가 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "日本{にほん}の食文化{しょくぶんか}は、すしをはじめ、世界{せかい}中{じゅう}で親{した}しまれている。",
+     "meaning_ko": "일본의 식문화는 초밥을 비롯해 전 세계에서 사랑받고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼女{かのじょ}は英語{えいご}をはじめ、数{すう}か国語{こくご}を話{はな}せる。",
+     "meaning_ko": "그녀는 영어를 비롯해 몇 개 국어를 할 수 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この町{まち}は、夏{なつ}はもちろん、冬{ふゆ}も観光客{かんこうきゃく}が多{おお}い。",
+     "meaning_ko": "이 마을은 여름은 물론이고 겨울에도 관광객이 많다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 京都には、清水寺（　）、多くの寺がある。",
+     "options": [
+      "をはじめ",
+      "をめぐって",
+      "に伴って",
+      "にもかかわらず"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "대표적인 하나를 들고 ‘~을 비롯해’라고 말할 때는 〜をはじめ입니다.",
+     "id": "JP-N2-19-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「社長をはじめ」의 뜻은?",
+     "options": [
+      "사장을 비롯해",
+      "사장 때문에",
+      "사장에 대해",
+      "사장 덕분에"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜をはじめ는 ‘~을 비롯해’입니다.",
+     "id": "JP-N2-19-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "〜をはじめ의 쓰임이 올바른 문장은?",
+     "options": [
+      "市長をはじめ、多くの市民が参加した。",
+      "雨をはじめ、傘を持って行った。",
+      "昨日をはじめ、映画を見た。",
+      "机をはじめ、大きい。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "대표(市長) 뒤에 같은 무리의 여러 대상(多くの市民)이 오는 문장이 올바릅니다.",
+     "id": "JP-N2-19-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 夏（　）、冬も観光客が多い。",
+     "options": [
+      "はもちろん",
+      "をはじめ",
+      "をめぐって",
+      "に対して"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘여름은 물론이고 겨울도’는 〜はもちろん입니다.",
+     "id": "JP-N2-19-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「製品」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "seihin",
+     "accepted_answers": [
+      "seihin"
+     ],
+     "explanation_ko": "製品 = せいひん (seihin)",
+     "id": "JP-N2-19-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「開発」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kaihatsu",
+     "accepted_answers": [
+      "kaihatsu"
+     ],
+     "explanation_ko": "開発 = かいはつ (kaihatsu)",
+     "id": "JP-N2-19-Q6"
+    }
+   ],
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-18"
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

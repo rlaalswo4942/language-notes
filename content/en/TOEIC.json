@@ -2266,6 +2266,204 @@
     "version": 1,
     "last_revised": "2026-10-23"
    }
+  },
+  {
+   "id": "TOEIC-013",
+   "level": "B1",
+   "track": "toeic",
+   "day": 13,
+   "title_ko": "TOEIC Part 7 맛보기: 이메일·공지에서 목적과 세부 정보 찾기",
+   "objective_ko": "짧은 이메일과 공지에서 글의 목적, 날짜·장소·준비물 같은 세부 정보를 찾고 언급되지 않은 내용을 가려낸다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/toeic/about/listening-reading.html",
+     "publisher": "ETS",
+     "supports": "공식 시험 형식",
+     "checked_at": "2026-10-24"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "TOEIC L&R의 Part 7은 이메일, 공지, 광고, 문자 메시지 같은 실용문을 읽고 묻는 말에 답하는 독해 파트입니다. 이 레슨은 자체 제작한 짧은 지문으로 풀이 순서를 연습합니다. ① 질문과 보기를 먼저 읽고 무엇을 찾을지 정합니다. ② 글의 목적은 보통 첫 문장이나 첫 문단(I am writing to ... 등)에 나타납니다. ③ 날짜·시간·장소·방법 같은 세부 정보는 지문에서 해당 부분을 찾아 그대로 대조합니다. ④ 'What is NOT mentioned ...?'는 보기를 하나씩 지문과 맞춰 보며 지문에 없는 것을 고릅니다. ⑤ 지문의 표현이 보기에서는 다른 말로 바뀌는 경우가 많습니다(예: moved → changed). 이 파트는 점수 예측이 아니라 읽는 순서 연습용입니다.",
+    "common_mistake_ko": "지문을 처음부터 끝까지 다 읽고 나서 질문을 보면 시간이 부족합니다 → 질문을 먼저 읽습니다. / 보기에 지문과 같은 단어가 있다고 바로 고르면 함정에 빠지기 쉽습니다 → 의미가 지문과 맞는지 확인합니다. / NOT 문제에서 '있는 것'을 고르는 실수 → 지문에 없는 것을 고릅니다."
+   },
+   "vocabulary": [
+    {
+     "word": "inquiry",
+     "part_of_speech": "명사",
+     "meaning_ko": "문의",
+     "example_en": "Thank you for your inquiry about our services.",
+     "example_ko": "저희 서비스에 대한 문의 감사합니다."
+    },
+    {
+     "word": "enclose",
+     "part_of_speech": "동사",
+     "meaning_ko": "동봉하다",
+     "example_en": "Please find the invoice enclosed with this letter.",
+     "example_ko": "이 편지에 동봉된 청구서를 확인해 주세요."
+    },
+    {
+     "word": "register",
+     "part_of_speech": "동사",
+     "meaning_ko": "등록하다",
+     "example_en": "To register, please visit our website.",
+     "example_ko": "등록하시려면 저희 웹사이트를 방문해 주세요."
+    },
+    {
+     "word": "venue",
+     "part_of_speech": "명사",
+     "meaning_ko": "(행사) 장소",
+     "example_en": "The venue has changed from Room A to Room C.",
+     "example_ko": "장소가 A실에서 C실로 바뀌었습니다."
+    },
+    {
+     "word": "agenda",
+     "part_of_speech": "명사",
+     "meaning_ko": "안건, 일정표",
+     "example_en": "The agenda for tomorrow's meeting is attached.",
+     "example_ko": "내일 회의의 안건이 첨부되어 있습니다."
+    },
+    {
+     "word": "regarding",
+     "part_of_speech": "전치사",
+     "meaning_ko": "~에 관하여",
+     "example_en": "Regarding your request, we will reply by Friday.",
+     "example_ko": "요청하신 건에 관해서는 금요일까지 답변드리겠습니다."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I am writing to inquire about the price of your office chairs.",
+     "ko": "사무용 의자 가격에 대해 문의하려고 이메일을 씁니다."
+    },
+    {
+     "en": "Please find the invoice enclosed.",
+     "ko": "청구서를 동봉했으니 확인해 주세요."
+    },
+    {
+     "en": "The workshop will be held at the Grand Hall on March 5.",
+     "ko": "워크숍은 3월 5일 그랜드홀에서 열립니다."
+    },
+    {
+     "en": "To register, please visit our website before February 28.",
+     "ko": "등록하시려면 2월 28일 전에 저희 웹사이트를 방문해 주세요."
+    },
+    {
+     "en": "Regarding your request, we will reply by Friday.",
+     "ko": "요청하신 건에 관해서는 금요일까지 답변드리겠습니다."
+    },
+    {
+     "en": "The agenda for tomorrow's meeting is attached.",
+     "ko": "내일 회의의 안건이 첨부되어 있습니다."
+    },
+    {
+     "en": "Employees must submit their forms by 5 P.M. on Monday.",
+     "ko": "직원은 월요일 오후 5시까지 서식을 제출해야 합니다."
+    },
+    {
+     "en": "The venue has changed from Room A to Room C.",
+     "ko": "장소가 A실에서 C실로 바뀌었습니다."
+    },
+    {
+     "en": "Lunch will be provided for all participants.",
+     "ko": "모든 참가자에게 점심이 제공됩니다."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "Dear Ms. Park, I am writing to ask about the price of your conference room. We would like to hold a meeting there on June 10. Please let me know if it is available. Sincerely, Tom Reed — What is the main purpose of the e-mail?",
+     "choices": [
+      "To ask about using a room",
+      "To cancel a meeting",
+      "To apply for a job",
+      "To order office chairs"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "I am writing to ask about the price of your conference room.에서 회의실 이용에 대한 문의임을 알 수 있습니다.",
+     "error_tag": "part7-purpose",
+     "id": "T013-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "NOTICE: The staff meeting on Tuesday has been moved from 2 P.M. to 4 P.M. The new location is Room 305. Please bring your monthly sales report. — When will the staff meeting begin?",
+     "choices": [
+      "At 4 P.M. on Tuesday",
+      "At 2 P.M. on Tuesday",
+      "At 3 P.M. on Wednesday",
+      "At 5 P.M. on Tuesday"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "has been moved from 2 P.M. to 4 P.M.이므로 바뀐 시간은 4시입니다. 2시는 이전 시간이라 함정입니다.",
+     "error_tag": "part7-detail",
+     "id": "T013-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "NOTICE: The staff meeting on Tuesday has been moved from 2 P.M. to 4 P.M. The new location is Room 305. Please bring your monthly sales report. — What should staff members bring?",
+     "choices": [
+      "Their monthly sales reports",
+      "A lunch box",
+      "A laptop computer",
+      "A name card"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Please bring your monthly sales report.에 해당합니다.",
+     "error_tag": "part7-detail",
+     "id": "T013-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Registration for the workshop opens on March 1. Participants must register online and pay the fee by March 15. Lunch will be provided. — What is NOT mentioned about the workshop?",
+     "choices": [
+      "Where it will be held",
+      "When registration opens",
+      "How to register",
+      "That lunch will be provided"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "장소는 지문에 나오지 않습니다. 등록 시작일(March 1), 등록 방법(online), 점심 제공은 모두 언급되어 있습니다.",
+     "error_tag": "part7-not",
+     "id": "T013-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "Registration for the workshop opens on March 1. Participants must register online and pay the fee by March 15. Lunch will be provided. — 참가비를 내야 하는 마지막 날짜를 영어로 쓰세요. (예: May 1)",
+     "answer_text": "March 15",
+     "accepted_answers": [
+      "March 15",
+      "March 15th",
+      "15 March",
+      "15th March"
+     ],
+     "explanation_ko": "pay the fee by March 15에서 마감일은 March 15입니다.",
+     "error_tag": "part7-detail",
+     "id": "T013-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어(enclose의 과거분사)를 쓰세요: Please find the invoice ___ with this letter.",
+     "answer_text": "enclosed",
+     "accepted_answers": [
+      "enclosed"
+     ],
+     "explanation_ko": "'동봉된'이라는 뜻의 과거분사는 enclosed입니다.",
+     "error_tag": "part7-vocab",
+     "id": "T013-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "이메일의 목적을 알리는 문장을 I am writing to ...로 시작해 한 문장 써 보세요.",
+    "example_answer_en": "I am writing to ask about the date of the workshop.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-24",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-24"
+   }
   }
  ]
 }

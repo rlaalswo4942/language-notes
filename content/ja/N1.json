@@ -3855,6 +3855,226 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-19",
+   "day_index": 19,
+   "week_index": 3,
+   "level": "N1",
+   "unit_id": "N1-W03",
+   "lesson_type": "new",
+   "title_ko": "〜ようにも〜ない: ~하려 해도 ~할 수 없다",
+   "objective_ko": "동사 의지형 + にも + 같은 동사의 가능 부정으로, 하려는 마음이 있어도 사정 때문에 할 수 없음을 말한다.",
+   "explanation_ko": "〜ようにも〜ない는 ‘~하려고 해도 ~할 수 없다’는 뜻입니다. 하고 싶은 마음이 있지만 어떤 사정이 막고 있을 때 씁니다. ① 형태: 동사 의지형(〜(よ)う) + にも + 같은 동사의 가능 부정(〜(ら)れない・できない) 또는 〜ようがない. 行こうにも行けない。連絡しようにもできない。探そうにも探しようがない。 ② 앞뒤에 같은 동사를 반복하는 것이 기본입니다. 한 단어 동사에는 의지형, する동사에는 しようにもできない로 만듭니다. ③ 뒤에는 할 수 없다는 내용이 오며, 그 이유(정보가 없다·시간이 없다·몸이 움직이지 않는다 등)가 앞이나 뒤에 나타납니다. 事情が分からなければ、助けようにも助けられない。",
+   "usage_notes": [
+    "앞의 동사는 의지형(行こう・起きよう・連絡しよう), 뒤는 같은 동사의 가능 부정이 기본입니다.",
+    "‘할 수 없는 이유’를 앞뒤에서 함께 말해 상황이 분명하게 하는 일이 많습니다.",
+    "뒤에는 반드시 ‘할 수 없다’는 내용이 오며, ‘~하고 싶다’ 같은 의지 표현은 오지 않습니다."
+   ],
+   "common_mistakes": [
+    "起きようにも起きたくなかった(X) → 起きようにも体が動かなかった(O): 뒤에는 할 수 없다는 내용이 와야 합니다.",
+    "行くにも行けない(X) → 行こうにも行けない(O): にも 앞은 사전형이 아니라 의지형입니다.",
+    "連絡するようにも連絡できない(X) → 連絡しようにも連絡できない(O): する의 의지형은 しよう입니다."
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "事情{じじょう}",
+     "reading_kana": "じじょう",
+     "reading_romanized": "jijou",
+     "meaning_ko": "사정",
+     "part_of_speech": "명사",
+     "id": "w-JP-N1-19-01"
+    },
+    {
+     "kind": "word",
+     "text": "手段{しゅだん}",
+     "reading_kana": "しゅだん",
+     "reading_romanized": "shudan",
+     "meaning_ko": "수단",
+     "part_of_speech": "명사",
+     "id": "w-JP-N1-19-02"
+    },
+    {
+     "kind": "word",
+     "text": "身動{みうご}き",
+     "reading_kana": "みうごき",
+     "reading_romanized": "miugoki",
+     "meaning_ko": "몸을 움직임",
+     "part_of_speech": "명사",
+     "id": "w-JP-N1-19-03"
+    },
+    {
+     "kind": "word",
+     "text": "見当{けんとう}",
+     "reading_kana": "けんとう",
+     "reading_romanized": "kentou",
+     "meaning_ko": "짐작, 가늠",
+     "part_of_speech": "명사",
+     "id": "w-JP-N1-19-04"
+    },
+    {
+     "kind": "word",
+     "text": "連絡先{れんらくさき}",
+     "reading_kana": "れんらくさき",
+     "reading_romanized": "renrakusaki",
+     "meaning_ko": "연락처",
+     "part_of_speech": "명사",
+     "id": "w-JP-N1-19-05"
+    },
+    {
+     "kind": "word",
+     "text": "打開{だかい}",
+     "reading_kana": "だかい",
+     "reading_romanized": "dakai",
+     "meaning_ko": "타개",
+     "part_of_speech": "명사",
+     "id": "w-JP-N1-19-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "道{みち}が分{わ}からず、地図{ちず}もないので、目的地{もくてきち}へ行{い}こうにも行{い}けない。",
+     "meaning_ko": "길을 모르고 지도도 없어서 목적지에 가려 해도 갈 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "連絡先{れんらくさき}が分{わ}からず、連絡{れんらく}しようにもできない。",
+     "meaning_ko": "연락처를 몰라서 연락하려 해도 할 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "満員{まんいん}電車{でんしゃ}の中{なか}では、降{お}りようにも降{お}りられず、身動{みうご}きが取{と}れなかった。",
+     "meaning_ko": "만원 전철 안에서는 내리려 해도 내릴 수 없고 몸을 움직일 수도 없었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "熱{ねつ}があって、起{お}きようにも体{からだ}が動{うご}かなかった。",
+     "meaning_ko": "열이 나서 일어나려 해도 몸이 움직이지 않았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "手段{しゅだん}が限{かぎ}られていて、打開{だかい}しようにもできない。",
+     "meaning_ko": "수단이 한정되어 있어서 타개하려 해도 할 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "事情{じじょう}が分{わ}からなければ、助{たす}けようにも助{たす}けられない。",
+     "meaning_ko": "사정을 모르면 도우려 해도 도울 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "雪{ゆき}で電車{でんしゃ}が止{と}まり、帰{かえ}ろうにも帰{かえ}れなかった。",
+     "meaning_ko": "눈 때문에 전철이 멈춰서 돌아가려 해도 돌아갈 수 없었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "資料{しりょう}が手元{てもと}にないので、確認{かくにん}しようにもできない。",
+     "meaning_ko": "자료가 수중에 없어서 확인하려 해도 할 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "どこに落{お}としたのか見当{けんとう}もつかず、探{さが}そうにも探{さが}しようがなかった。",
+     "meaning_ko": "어디에 떨어뜨렸는지 짐작도 가지 않아 찾으려 해도 찾을 방법이 없었다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 連絡先が分からなくて、連絡（　）にも連絡できない。",
+     "options": [
+      "しよう",
+      "した",
+      "して",
+      "する"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜ようにも 앞은 의지형입니다. する의 의지형은 しよう입니다.",
+     "id": "JP-N1-19-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「行こうにも行けない」의 뜻은?",
+     "options": [
+      "가려 해도 갈 수 없다",
+      "가고 싶지 않다",
+      "가면 갈 수 있다",
+      "가려고 했지만 가지 않았다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜ようにも〜ない는 ‘하려 해도 할 수 없다’입니다.",
+     "id": "JP-N1-19-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "〜ようにも의 쓰임이 올바른 문장은?",
+     "options": [
+      "熱があって、起きようにも体が動かなかった。",
+      "起きようにも起きたくなかった。",
+      "食べようにも食べたいです。",
+      "行くにも行けない。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "하려는 마음이 있지만 사정(열) 때문에 할 수 없는 내용이 오는 문장이 올바릅니다.",
+     "id": "JP-N1-19-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 どこに落としたのか見当もつかず、（　）にも探しようがなかった。",
+     "options": [
+      "探そう",
+      "探した",
+      "探して",
+      "探さない"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜ようにも 앞은 의지형입니다. 探す의 의지형은 探そう입니다.",
+     "id": "JP-N1-19-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「事情」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "jijou",
+     "accepted_answers": [
+      "jijou",
+      "jijo",
+      "jijoo",
+      "zijou"
+     ],
+     "explanation_ko": "事情 = じじょう (jijou)",
+     "id": "JP-N1-19-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「手段」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "shudan",
+     "accepted_answers": [
+      "shudan",
+      "syudan"
+     ],
+     "explanation_ko": "手段 = しゅだん (shudan)",
+     "id": "JP-N1-19-Q6"
+    }
+   ],
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-18"
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "JLPT_FORMAT"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

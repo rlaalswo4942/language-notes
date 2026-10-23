@@ -3524,6 +3524,201 @@
     "version": 1,
     "last_revised": "2026-10-23"
    }
+  },
+  {
+   "id": "A1-019",
+   "level": "A1",
+   "track": "foundation",
+   "day": 19,
+   "title_ko": "How old / How tall / How far / How long / How often: 정도 묻기",
+   "objective_ko": "How 뒤에 형용사나 부사를 붙여 나이·키·거리·길이·횟수를 묻고 대답한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "A1-A2 문법 학습 주제",
+     "checked_at": "2026-10-24"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "How 뒤에 형용사나 부사를 붙이면 '얼마나 ~한가요?'라는 정도를 묻는 질문이 됩니다. ① How old ...? 나이나 오래된 정도: How old is your sister? — She is ten. ② How tall ...? 키나 높이: How tall is your brother? — He is 180 centimeters tall. ③ How far ...? 거리: How far is the station? — It's about two kilometers. ④ How long ...? 길이나 시간의 길이: How long is the movie? — It's two hours long. ⑤ How often ...? 얼마나 자주(횟수): How often do you study English? — Twice a week. 어순은 'How + 형용사 + be동사 + 주어'이고, How often은 일반동사 문장이므로 'How often + do / does + 주어 + 동사원형'입니다. 횟수는 once a week(주 1회), twice a week(주 2회), three times a week(주 3회)처럼 말합니다.",
+    "common_mistake_ko": "How is old your sister?(X) → How old is your sister?(O) / How often you study English?(X) → How often do you study English?(O) / How often does she goes there?(X) → How often does she go there?(O) / How far the station is?(X) → How far is the station?(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "tall",
+     "part_of_speech": "형용사",
+     "meaning_ko": "키가 큰, 높은",
+     "example_en": "My father is very tall.",
+     "example_ko": "우리 아버지는 키가 아주 커요."
+    },
+    {
+     "word": "far",
+     "part_of_speech": "형용사/부사",
+     "meaning_ko": "먼, 멀리",
+     "example_en": "The airport is far from here.",
+     "example_ko": "공항은 여기서 멀어요."
+    },
+    {
+     "word": "long",
+     "part_of_speech": "형용사",
+     "meaning_ko": "긴, 오래 걸리는",
+     "example_en": "The film is two hours long.",
+     "example_ko": "그 영화는 두 시간짜리예요."
+    },
+    {
+     "word": "once",
+     "part_of_speech": "부사",
+     "meaning_ko": "한 번",
+     "example_en": "I visit my grandmother once a month.",
+     "example_ko": "나는 한 달에 한 번 할머니를 찾아뵈어요."
+    },
+    {
+     "word": "twice",
+     "part_of_speech": "부사",
+     "meaning_ko": "두 번",
+     "example_en": "She swims twice a week.",
+     "example_ko": "그녀는 일주일에 두 번 수영해요."
+    },
+    {
+     "word": "week",
+     "part_of_speech": "명사",
+     "meaning_ko": "주, 일주일",
+     "example_en": "I have English class every week.",
+     "example_ko": "나는 매주 영어 수업이 있어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "How old are you? — I'm twenty-five.",
+     "ko": "몇 살이에요? — 스물다섯 살이에요."
+    },
+    {
+     "en": "How tall is your brother? — He is 180 centimeters tall.",
+     "ko": "네 형(남동생)은 키가 얼마예요? — 180센티미터예요."
+    },
+    {
+     "en": "How far is the station? — It's about two kilometers.",
+     "ko": "역은 얼마나 멀어요? — 약 2킬로미터예요."
+    },
+    {
+     "en": "How far is your school from here? — It's ten minutes by bus.",
+     "ko": "학교는 여기서 얼마나 멀어요? — 버스로 10분이에요."
+    },
+    {
+     "en": "How long is the movie? — It's two hours long.",
+     "ko": "그 영화는 얼마나 길어요? — 두 시간이에요."
+    },
+    {
+     "en": "How long is the river? — It's 300 kilometers long.",
+     "ko": "그 강은 얼마나 길어요? — 300킬로미터예요."
+    },
+    {
+     "en": "How often do you study English? — Twice a week.",
+     "ko": "영어 공부를 얼마나 자주 해요? — 일주일에 두 번이요."
+    },
+    {
+     "en": "How often does she go to the gym? — Once a week.",
+     "ko": "그녀는 체육관에 얼마나 자주 가요? — 일주일에 한 번이요."
+    },
+    {
+     "en": "How old is your house? — It's ten years old.",
+     "ko": "당신의 집은 지은 지 얼마나 됐어요? — 10년 됐어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "___ is your brother? — He is 180 centimeters tall.",
+     "choices": [
+      "How tall",
+      "How old",
+      "How far",
+      "How often"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "키를 묻는 말은 How tall입니다.",
+     "error_tag": "how-tall",
+     "id": "A1-019-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "How ___ do you play tennis? — Twice a week.",
+     "choices": [
+      "often",
+      "long",
+      "far",
+      "old"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "횟수(얼마나 자주)를 묻는 말은 How often입니다.",
+     "error_tag": "how-often",
+     "id": "A1-019-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'학교는 여기서 얼마나 멀어요?'를 영어로 바르게 말한 것은?",
+     "choices": [
+      "How far is the school from here?",
+      "How is far the school from here?",
+      "How far the school is from here?",
+      "How much far is the school?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "How far 뒤에 be동사와 주어가 이어집니다. How far is the school from here?",
+     "error_tag": "how-far",
+     "id": "A1-019-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "How long is the movie? 에 어울리는 대답은?",
+     "choices": [
+      "It's two hours long.",
+      "It's twice a week.",
+      "I'm twenty years old.",
+      "It's five dollars."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "How long은 길이나 시간의 길이를 묻습니다. 영화의 길이는 two hours long으로 대답합니다.",
+     "error_tag": "how-long",
+     "id": "A1-019-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: How ___ does she cook? — Three times a week.",
+     "answer_text": "often",
+     "accepted_answers": [
+      "often"
+     ],
+     "explanation_ko": "횟수를 묻는 질문이므로 How often입니다.",
+     "error_tag": "how-often",
+     "id": "A1-019-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: How ___ is your house? — It's ten years old.",
+     "answer_text": "old",
+     "accepted_answers": [
+      "old"
+     ],
+     "explanation_ko": "집이 지은 지 얼마나 됐는지는 How old로 묻습니다.",
+     "error_tag": "how-old",
+     "id": "A1-019-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "영어 공부를 얼마나 자주 하는지 영어로 한 문장 써 보세요.",
+    "example_answer_en": "I study English three times a week.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-24",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-24"
+   }
   }
  ]
 }

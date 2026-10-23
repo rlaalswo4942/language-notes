@@ -3514,6 +3514,201 @@
     "version": 1,
     "last_revised": "2026-10-23"
    }
+  },
+  {
+   "id": "A2-019",
+   "level": "A2",
+   "track": "foundation",
+   "day": 19,
+   "title_ko": "구동사 입문: turn on / turn off / look for / put on / take off / pick up",
+   "objective_ko": "동사 + 전치사·부사로 이루어진 구동사의 뜻을 익히고, 목적어가 대명사일 때의 어순을 지킨다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "A1-A2 문법 학습 주제",
+     "checked_at": "2026-10-24"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "구동사(phrasal verb)는 동사 뒤에 on, off, for, up 같은 작은 말이 붙어 하나의 뜻을 만드는 표현입니다. turn on(켜다) / turn off(끄다) / look for(찾다) / put on(입다, 쓰다, 신다) / take off(벗다) / pick up(집어 올리다)이 대표적입니다. ① turn on, turn off, put on, take off, pick up은 목적어를 가운데에 넣을 수 있습니다. turn on the light = turn the light on. ② 목적어가 it, them, him 같은 대명사이면 반드시 가운데에 둡니다. Turn it on. (O) / Turn on it. (X) ③ look for는 붙여서 쓰며 가운데에 넣지 않습니다. I'm looking for my keys. / I'm looking for them. 동사 부분만 보고 뜻을 짐작하기 어려우므로 덩어리로 외우는 것이 좋습니다.",
+    "common_mistake_ko": "Turn on it.(X) → Turn it on.(O) / I look my keys.(X) → I look for my keys.(O) / Put on it.(X) → Put it on.(O) / Take off your shoes at door.(X) → Take off your shoes at the door.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "turn on",
+     "part_of_speech": "구동사",
+     "meaning_ko": "켜다",
+     "example_en": "Please turn on the light.",
+     "example_ko": "불을 켜 주세요."
+    },
+    {
+     "word": "turn off",
+     "part_of_speech": "구동사",
+     "meaning_ko": "끄다",
+     "example_en": "Turn off the TV before bed.",
+     "example_ko": "자기 전에 TV를 꺼요."
+    },
+    {
+     "word": "look for",
+     "part_of_speech": "구동사",
+     "meaning_ko": "~을 찾다",
+     "example_en": "I'm looking for my keys.",
+     "example_ko": "나는 열쇠를 찾고 있어요."
+    },
+    {
+     "word": "put on",
+     "part_of_speech": "구동사",
+     "meaning_ko": "(옷·모자·신발을) 입다, 쓰다, 신다",
+     "example_en": "Put on your coat. It's cold outside.",
+     "example_ko": "외투를 입어요. 밖이 추워요."
+    },
+    {
+     "word": "take off",
+     "part_of_speech": "구동사",
+     "meaning_ko": "(옷·모자·신발을) 벗다",
+     "example_en": "Take off your shoes at the door.",
+     "example_ko": "문 앞에서 신발을 벗어 주세요."
+    },
+    {
+     "word": "pick up",
+     "part_of_speech": "구동사",
+     "meaning_ko": "집어 올리다",
+     "example_en": "Can you pick up the box?",
+     "example_ko": "그 상자를 집어 올려 줄래요?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Please turn on the light.",
+     "ko": "불을 켜 주세요."
+    },
+    {
+     "en": "Turn off the TV before bed.",
+     "ko": "자기 전에 TV를 끄세요."
+    },
+    {
+     "en": "I'm looking for my keys.",
+     "ko": "나는 열쇠를 찾고 있어요."
+    },
+    {
+     "en": "I'm looking for a hotel near the station.",
+     "ko": "나는 역 근처의 호텔을 찾고 있어요."
+    },
+    {
+     "en": "Put on your coat. It's cold outside.",
+     "ko": "외투를 입으세요. 밖이 추워요."
+    },
+    {
+     "en": "Take off your shoes at the door.",
+     "ko": "문 앞에서 신발을 벗으세요."
+    },
+    {
+     "en": "Can you pick up the box?",
+     "ko": "그 상자를 집어 올려 줄래요?"
+    },
+    {
+     "en": "She picked up her bag and left.",
+     "ko": "그녀는 가방을 집어 들고 떠났어요."
+    },
+    {
+     "en": "He turned the radio off. — He turned it off.",
+     "ko": "그는 라디오를 껐어요. — 그는 그것을 껐어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "It's dark. Please ___ the light.",
+     "choices": [
+      "turn on",
+      "turn off",
+      "turn in",
+      "turn for"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "어두우니 불을 켜야 합니다. turn on = 켜다.",
+     "error_tag": "phrasal-turn",
+     "id": "A2-019-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "I can't find my phone. I'm ___ it.",
+     "choices": [
+      "looking for",
+      "looking at",
+      "looking after",
+      "looking up"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "찾고 있다는 뜻은 look for입니다.",
+     "error_tag": "phrasal-look-for",
+     "id": "A2-019-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "TV가 시끄러워서 '그것을 꺼 주세요'라고 말하려면?",
+     "choices": [
+      "Turn it off.",
+      "Turn off it.",
+      "Turn off him.",
+      "Off turn it."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "목적어가 대명사 it이면 turn과 off 사이에 둡니다. Turn it off.",
+     "error_tag": "phrasal-pronoun",
+     "id": "A2-019-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'Take off your hat.'의 뜻은?",
+     "choices": [
+      "모자를 벗으세요.",
+      "모자를 쓰세요.",
+      "모자를 찾으세요.",
+      "모자를 집어 올리세요."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "take off는 옷이나 모자를 벗는 것입니다.",
+     "error_tag": "phrasal-take-off",
+     "id": "A2-019-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: It's cold. Put ___ your coat.",
+     "answer_text": "on",
+     "accepted_answers": [
+      "on"
+     ],
+     "explanation_ko": "입는다는 뜻의 구동사는 put on입니다.",
+     "error_tag": "phrasal-put-on",
+     "id": "A2-019-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Your bag is on the floor. Please pick it ___.",
+     "answer_text": "up",
+     "accepted_answers": [
+      "up"
+     ],
+     "explanation_ko": "집어 올리는 동작은 pick up이고, 대명사 it은 가운데에 둡니다. pick it up.",
+     "error_tag": "phrasal-pickup",
+     "id": "A2-019-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "집을 나서기 전에 하는 일을 구동사(turn off, put on 등)를 하나 써서 영어로 말해 보세요.",
+    "example_answer_en": "I turn off the light and put on my shoes.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-24",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-24"
+   }
   }
  ]
 }

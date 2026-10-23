@@ -3855,6 +3855,227 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-19",
+   "day_index": 19,
+   "week_index": 3,
+   "level": "N4",
+   "unit_id": "N4-W03",
+   "lesson_type": "new",
+   "title_ko": "〜やすい・〜にくい: 하기 쉽다·하기 어렵다",
+   "objective_ko": "동사 ます형 어간 + やすい / にくい로 ‘하기 쉽다·하기 어렵다’를 말한다.",
+   "explanation_ko": "동사의 ます를 뺀 형태에 やすい를 붙이면 ‘~하기 쉽다·편하다’, にくい를 붙이면 ‘~하기 어렵다·불편하다’가 됩니다. ① 書きます→書きやすい(쓰기 쉽다), 書きにくい(쓰기 어렵다). 読みます→読みやすい・読みにくい. 歩きます→歩きやすい・歩きにくい. ② 만들어진 말은 い형용사처럼 활용합니다. 書きやすいです(현재), 書きやすかったです(과거), 書きやすくないです(부정). ③ 앞의 명사에는 は나 が를 씁니다. このペンは 書きやすいです。 ④ 이유를 말할 때는 ので와 함께 씁니다. 字が小さいので、読みにくいです。 사람의 성격이나 능력이 아니라 물건·방법의 성질을 말할 때 자주 씁니다.",
+   "usage_notes": [
+    "「やすい・にくい」 앞에는 ます를 뺀 형태를 씁니다. 書くやすい가 아니라 書きやすい입니다.",
+    "만들어진 말은 い형용사이므로 과거는 書きやすかったです, 부정은 書きやすくないです입니다.",
+    "「このペンは 書きやすいです」처럼 は 앞에는 쓰는 물건이 옵니다."
+   ],
+   "common_mistakes": [
+    "書くやすいです(X) → 書きやすいです(O): 사전형이 아니라 ます를 뺀 형태에 붙입니다.",
+    "書きやすいでした(X) → 書きやすかったです(O): い형용사의 과거형으로 바꿉니다.",
+    "書きにくくないでした(X) → 書きにくくなかったです(O): 부정의 과거도 い형용사처럼 활용합니다."
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "書{か}く",
+     "reading_kana": "かく",
+     "reading_romanized": "kaku",
+     "meaning_ko": "쓰다",
+     "part_of_speech": "동사",
+     "id": "w-JP-N4-19-01"
+    },
+    {
+     "kind": "word",
+     "text": "読{よ}む",
+     "reading_kana": "よむ",
+     "reading_romanized": "yomu",
+     "meaning_ko": "읽다",
+     "part_of_speech": "동사",
+     "id": "w-JP-N4-19-02"
+    },
+    {
+     "kind": "word",
+     "text": "字{じ}",
+     "reading_kana": "じ",
+     "reading_romanized": "ji",
+     "meaning_ko": "글자",
+     "part_of_speech": "명사",
+     "id": "w-JP-N4-19-03"
+    },
+    {
+     "kind": "word",
+     "text": "靴{くつ}",
+     "reading_kana": "くつ",
+     "reading_romanized": "kutsu",
+     "meaning_ko": "신발",
+     "part_of_speech": "명사",
+     "id": "w-JP-N4-19-04"
+    },
+    {
+     "kind": "word",
+     "text": "説明{せつめい}",
+     "reading_kana": "せつめい",
+     "reading_romanized": "setsumei",
+     "meaning_ko": "설명",
+     "part_of_speech": "명사",
+     "id": "w-JP-N4-19-05"
+    },
+    {
+     "kind": "word",
+     "text": "わかる",
+     "reading_kana": "わかる",
+     "reading_romanized": "wakaru",
+     "meaning_ko": "알다, 이해하다",
+     "part_of_speech": "동사",
+     "id": "w-JP-N4-19-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "この ペンは 書{か}きやすいです。",
+     "meaning_ko": "이 펜은 쓰기 편합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "あの ペンは 書{か}きにくいです。",
+     "meaning_ko": "저 펜은 쓰기 불편합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "字{じ}が 小{ちい}さいので、この 本{ほん}は 読{よ}みにくいです。",
+     "meaning_ko": "글자가 작아서 이 책은 읽기 어렵습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "山田{やまだ}さんの 字{じ}は きれいで、読{よ}みやすいです。",
+     "meaning_ko": "야마다 씨의 글씨는 깔끔해서 읽기 쉽습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 靴{くつ}は 歩{ある}きやすいです。",
+     "meaning_ko": "이 신발은 걷기 편합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 靴{くつ}は 重{おも}いので、歩{ある}きにくいです。",
+     "meaning_ko": "이 신발은 무거워서 걷기 불편합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "先生{せんせい}の 説明{せつめい}は わかりやすいです。",
+     "meaning_ko": "선생님의 설명은 이해하기 쉽습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "日本語{にほんご}の 説明{せつめい}は わかりにくかったです。",
+     "meaning_ko": "일본어 설명은 이해하기 어려웠습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 地図{ちず}は 見{み}やすいです。",
+     "meaning_ko": "이 지도는 보기 쉽습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この スマホは 使{つか}いやすいです。",
+     "meaning_ko": "이 스마트폰은 사용하기 편합니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "‘이 펜은 쓰기 편합니다’를 바르게 나타낸 것은?",
+     "options": [
+      "この ペンは 書きやすいです。",
+      "この ペンは 書きにくいです。",
+      "この ペンは 書きたいです。",
+      "この ペンは 書きすぎです。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘~하기 쉽다·편하다’는 ます를 뺀 형태 + やすい입니다.",
+     "id": "JP-N4-19-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「読みにくい」의 뜻은?",
+     "options": [
+      "읽기 어렵다",
+      "읽기 쉽다",
+      "읽고 싶다",
+      "읽지 않는다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜にくい는 ‘~하기 어렵다·불편하다’입니다.",
+     "id": "JP-N4-19-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ことばを 選んで ください。 字が 小さいので、この 本は（　）です。",
+     "options": [
+      "読みにくい",
+      "読みやすい",
+      "読みたい",
+      "読みましょう"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "글자가 작아서 읽기 어렵다는 뜻이므로 読みにくい가 알맞습니다.",
+     "id": "JP-N4-19-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「書きやすい」의 과거형(‘쓰기 쉬웠습니다’)은?",
+     "options": [
+      "書きやすかったです",
+      "書きやすいでした",
+      "書きやすくないです",
+      "書きやすくでした"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "い형용사처럼 い를 かった로 바꾸어 書きやすかったです가 됩니다.",
+     "id": "JP-N4-19-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「説明」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "setsumei",
+     "accepted_answers": [
+      "setsumei"
+     ],
+     "explanation_ko": "説明 = せつめい (setsumei)",
+     "id": "JP-N4-19-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「書きやすい」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kakiyasui",
+     "accepted_answers": [
+      "kakiyasui"
+     ],
+     "explanation_ko": "書きやすい = かきやすい (kakiyasui)",
+     "id": "JP-N4-19-Q6"
+    }
+   ],
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-18"
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

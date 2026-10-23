@@ -3870,6 +3870,225 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N3-19",
+   "day_index": 19,
+   "week_index": 3,
+   "level": "N3",
+   "unit_id": "N3-W03",
+   "lesson_type": "new",
+   "title_ko": "受身形(〜られる): 누군가에게 ~을 당하다·받다",
+   "objective_ko": "동사의 수동형을 만들고, 행위자를 に로 나타내어 칭찬·부탁·피해의 수동을 말한다.",
+   "explanation_ko": "수동형은 ‘누군가에게 ~을 당하다·받다’를 나타냅니다. ① 만드는 법: 1그룹(う단 동사)은 어미를 あ단으로 바꾸고 れる를 붙입니다. 叱る→叱られる, 頼む→頼まれる, 盗む→盗まれる, 言う→言われる. 2그룹(る동사)은 る를 빼고 られる를 붙입니다. ほめる→ほめられる. する는 される(注意する→注意される), 来る는 来られる입니다. ② 행위를 한 사람은 に로 나타냅니다. 先生にほめられた。(선생님께 칭찬받았다.) ③ 피해의 수동: 일어난 일로 곤란했음을 나타낼 때도 씁니다. 電車で財布を盗まれた。雨に降られた。 ④ 행위자가 중요하지 않은 사물 중심의 수동: この本は世界中で読まれている。",
+   "usage_notes": [
+    "행위를 한 사람은 に로 나타내며, 先生にほめられた처럼 ‘받은 사람’이 주어가 됩니다.",
+    "雨に降られた처럼 자동사로도 ‘곤란했다’는 피해의 수동을 만들 수 있습니다.",
+    "사물이 주어인 수동(読まれている)은 누가 했는지가 중요하지 않을 때 씁니다."
+   ],
+   "common_mistakes": [
+    "母に叱った(X, 어머니께 야단맞았다) → 母に叱られた(O): 야단맞은 쪽이 주어이므로 수동형을 씁니다.",
+    "電車で財布を盗んだ(X, 도둑맞았다) → 電車で財布を盗まれた(O): 당한 일은 수동형으로 말합니다.",
+    "先生が私をほめられた(X) → 先生にほめられた(O): 행위자는 が가 아니라 に로 나타냅니다."
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "ほめる",
+     "reading_kana": "ほめる",
+     "reading_romanized": "homeru",
+     "meaning_ko": "칭찬하다",
+     "part_of_speech": "동사",
+     "id": "w-JP-N3-19-01"
+    },
+    {
+     "kind": "word",
+     "text": "叱{しか}る",
+     "reading_kana": "しかる",
+     "reading_romanized": "shikaru",
+     "meaning_ko": "꾸짖다, 야단치다",
+     "part_of_speech": "동사",
+     "id": "w-JP-N3-19-02"
+    },
+    {
+     "kind": "word",
+     "text": "頼{たの}む",
+     "reading_kana": "たのむ",
+     "reading_romanized": "tanomu",
+     "meaning_ko": "부탁하다",
+     "part_of_speech": "동사",
+     "id": "w-JP-N3-19-03"
+    },
+    {
+     "kind": "word",
+     "text": "注意{ちゅうい}",
+     "reading_kana": "ちゅうい",
+     "reading_romanized": "chuui",
+     "meaning_ko": "주의, 주의를 주다",
+     "part_of_speech": "명사",
+     "id": "w-JP-N3-19-04"
+    },
+    {
+     "kind": "word",
+     "text": "招待{しょうたい}",
+     "reading_kana": "しょうたい",
+     "reading_romanized": "shoutai",
+     "meaning_ko": "초대",
+     "part_of_speech": "명사",
+     "id": "w-JP-N3-19-05"
+    },
+    {
+     "kind": "word",
+     "text": "盗{ぬす}む",
+     "reading_kana": "ぬすむ",
+     "reading_romanized": "nusumu",
+     "meaning_ko": "훔치다",
+     "part_of_speech": "동사",
+     "id": "w-JP-N3-19-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "子供{こども}のとき、よく母{はは}に叱{しか}られた。",
+     "meaning_ko": "어렸을 때 자주 어머니께 야단맞았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "先生{せんせい}に作文{さくぶん}をほめられて、うれしかった。",
+     "meaning_ko": "선생님께 작문을 칭찬받아서 기뻤다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "友達{ともだち}に引{ひ}っ越{こ}しの手伝{てつだ}いを頼{たの}まれた。",
+     "meaning_ko": "친구에게 이사 도움을 부탁받았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "来月{らいげつ}、友達{ともだち}の結婚式{けっこんしき}に招待{しょうたい}された。",
+     "meaning_ko": "다음 달에 친구의 결혼식에 초대받았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "電車{でんしゃ}の中{なか}で財布{さいふ}を盗{ぬす}まれた。",
+     "meaning_ko": "전철 안에서 지갑을 도둑맞았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "雨{あめ}に降{ふ}られて、服{ふく}がぬれてしまった。",
+     "meaning_ko": "비를 맞아서 옷이 젖어 버렸다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この本{ほん}は、世界中{せかいじゅう}で読{よ}まれている。",
+     "meaning_ko": "이 책은 전 세계에서 읽히고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "先生{せんせい}に遅刻{ちこく}を注意{ちゅうい}された。",
+     "meaning_ko": "선생님께 지각에 대해 주의를 들었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "隣{となり}の人{ひと}に大{おお}きな声{こえ}で話{はな}されて、集中{しゅうちゅう}できなかった。",
+     "meaning_ko": "옆 사람이 큰 소리로 말해서 집중할 수 없었다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「叱る」의 수동형은?",
+     "options": [
+      "叱られる",
+      "叱らせる",
+      "叱れる",
+      "叱せる"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "1그룹 동사는 어미 る→ら를 만들고 れる를 붙여 叱られる가 됩니다.",
+     "id": "JP-N3-19-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 先生にほめ（　）。",
+     "options": [
+      "られた",
+      "された",
+      "させた",
+      "えた"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "2그룹 동사 ほめる는 る를 빼고 られる를 붙여 ほめられた가 됩니다.",
+     "id": "JP-N3-19-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 電車で財布を（　）。",
+     "options": [
+      "盗まれた",
+      "盗んだ",
+      "盗ませた",
+      "盗めた"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘도둑맞았다’는 수동형 盗まれた입니다.",
+     "id": "JP-N3-19-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「雨に降られた」의 뜻에 가장 가까운 것은?",
+     "options": [
+      "비를 맞아서 곤란했다",
+      "비를 내리게 했다",
+      "비가 그쳐서 기뻤다",
+      "비를 기다렸다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "자동사의 수동은 일어난 일로 곤란했음을 나타내는 피해의 수동입니다.",
+     "id": "JP-N3-19-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「招待」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "shoutai",
+     "accepted_answers": [
+      "shoutai",
+      "shootai",
+      "shotai"
+     ],
+     "explanation_ko": "招待 = しょうたい (shoutai)",
+     "id": "JP-N3-19-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「注意」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "chuui",
+     "accepted_answers": [
+      "chuui",
+      "tyuui"
+     ],
+     "explanation_ko": "注意 = ちゅうい (chuui)",
+     "id": "JP-N3-19-Q6"
+    }
+   ],
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N3-18"
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

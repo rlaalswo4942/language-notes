@@ -3507,6 +3507,207 @@
     "version": 1,
     "last_revised": "2026-10-23"
    }
+  },
+  {
+   "id": "B2-019",
+   "level": "B2",
+   "track": "general",
+   "day": 19,
+   "title_ko": "would rather와 It's time: 선호와 '이제 ~할 때' 표현",
+   "objective_ko": "would rather로 선호를, It's time + 주어 + 과거형으로 '이제 ~해야 할 때'를 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-24"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "① would rather + 동사원형은 '차라리 ~하겠다, ~하는 편이 낫다'입니다. I'd rather stay home than go out.(외출하느니 집에 있겠어요.) 부정은 would rather not + 동사원형: She'd rather not discuss it. ② 주어가 서로 다르면 would rather + 주어 + 과거형을 씁니다. 현재나 미래의 일인데도 과거형을 쓰는 점이 가정법과 같습니다. I'd rather you didn't open the window.(창문을 열지 않았으면 해요.) 이미 지난 일에 대한 바람은 과거완료입니다. I'd rather you hadn't told him.(그에게 말하지 않았다면 좋았을 텐데요.) ③ It's time + 주어 + 과거형은 '이제 ~할 때다'이고, It's about time / high time은 '진작 했어야 하는데 늦었다'는 뉘앙스를 더합니다. It's time we left.(이제 떠날 시간이에요.) 주어가 같을 때 일반적으로 말하면 It's time to leave.를 씁니다.",
+    "common_mistake_ko": "I'd rather to stay home.(X) → I'd rather stay home.(O) / I'd rather you to stay.(X) → I'd rather you stayed.(O) / It's time we to go.(X) → It's time we went.(O) / She'd rather not to go.(X) → She'd rather not go.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "overdue",
+     "part_of_speech": "형용사",
+     "meaning_ko": "기한이 지난, 밀린",
+     "example_en": "The report is two weeks overdue.",
+     "example_ko": "그 보고서는 기한이 2주 지났어요."
+    },
+    {
+     "word": "tidy",
+     "part_of_speech": "형용사/동사",
+     "meaning_ko": "정돈된 / 정리하다",
+     "example_en": "It's about time you tidied your room.",
+     "example_ko": "이제 네 방을 정리할 때가 됐어."
+    },
+    {
+     "word": "rush",
+     "part_of_speech": "동사",
+     "meaning_ko": "서두르다, 성급히 하다",
+     "example_en": "Don't rush the decision.",
+     "example_ko": "결정을 서두르지 마세요."
+    },
+    {
+     "word": "settle",
+     "part_of_speech": "동사",
+     "meaning_ko": "해결하다, 정착하다",
+     "example_en": "They settled the dispute without going to court.",
+     "example_ko": "그들은 법정에 가지 않고 분쟁을 해결했어요."
+    },
+    {
+     "word": "resign",
+     "part_of_speech": "동사",
+     "meaning_ko": "사임하다",
+     "example_en": "He resigned from his job last month.",
+     "example_ko": "그는 지난달에 직장을 그만두었어요."
+    },
+    {
+     "word": "handle",
+     "part_of_speech": "동사",
+     "meaning_ko": "다루다, 처리하다",
+     "example_en": "She can handle difficult customers.",
+     "example_ko": "그녀는 까다로운 고객을 잘 다룰 수 있어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I'd rather stay at home tonight than go out.",
+     "ko": "나는 오늘 밤 외출하느니 집에 있겠어요."
+    },
+    {
+     "en": "She'd rather not discuss the matter now.",
+     "ko": "그녀는 지금은 그 문제를 논의하지 않는 편을 택하겠다고 해요."
+    },
+    {
+     "en": "I'd rather you didn't smoke here.",
+     "ko": "여기서는 담배를 피우지 않으셨으면 합니다."
+    },
+    {
+     "en": "Would you rather we met on Friday?",
+     "ko": "금요일에 만나는 편이 좋으세요?"
+    },
+    {
+     "en": "It's time we left; the last train is at eleven.",
+     "ko": "이제 떠날 시간이에요. 막차가 11시에 있어요."
+    },
+    {
+     "en": "It's about time you tidied your room.",
+     "ko": "이제 네 방을 정리할 때도 됐어."
+    },
+    {
+     "en": "It's high time the company settled the overdue payment.",
+     "ko": "회사가 밀린 대금을 진작 해결했어야 할 때입니다."
+    },
+    {
+     "en": "I'd rather you hadn't told him.",
+     "ko": "당신이 그에게 말하지 않았다면 좋았을 텐데요."
+    },
+    {
+     "en": "He would rather resign than apologize for something he didn't do.",
+     "ko": "그는 하지 않은 일에 대해 사과하느니 사임하겠다고 합니다."
+    },
+    {
+     "en": "It's time the government did something about this.",
+     "ko": "이제 정부가 이 문제에 대해 무언가를 할 때입니다."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "I'd rather ___ at home than go out tonight.",
+     "choices": [
+      "stay",
+      "to stay",
+      "staying",
+      "stayed"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "would rather 뒤에는 to 없이 동사원형이 옵니다.",
+     "error_tag": "would-rather",
+     "id": "B2-019-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "I'd rather you ___ open the window. It's cold.",
+     "choices": [
+      "didn't",
+      "won't",
+      "didn't to",
+      "weren't"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "주어가 다를 때는 would rather + 주어 + 과거형입니다. 부정은 didn't.",
+     "error_tag": "would-rather-past",
+     "id": "B2-019-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "It's time we ___. The meeting starts in five minutes.",
+     "choices": [
+      "left",
+      "leaving",
+      "to leaving",
+      "have left"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "It's time + 주어 + 과거형. 과거형이지만 뜻은 '지금 떠날 때'입니다.",
+     "error_tag": "its-time",
+     "id": "B2-019-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'It's high time you found a job.'의 뜻에 가장 가까운 것은?",
+     "choices": [
+      "이제 일자리를 구할 때가 한참 지났다.",
+      "너는 어제 일자리를 구했다.",
+      "너는 일자리를 구하고 싶어 하지 않는다.",
+      "일자리를 구하는 것은 불가능하다."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "high time은 '진작 했어야 하는데 늦었다'는 뉘앙스입니다.",
+     "error_tag": "high-time",
+     "id": "B2-019-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어(go의 알맞은 형태)를 쓰세요: It's time the children ___ to bed.",
+     "answer_text": "went",
+     "accepted_answers": [
+      "went"
+     ],
+     "explanation_ko": "It's time + 주어 + 과거형이므로 went입니다.",
+     "error_tag": "its-time",
+     "id": "B2-019-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어(줄임말)를 쓰세요: I'd rather she ___ come with us. (그녀가 같이 가지 않았으면 해요)",
+     "answer_text": "didn't",
+     "accepted_answers": [
+      "didn't",
+      "didn’t",
+      "did not"
+     ],
+     "explanation_ko": "would rather + 다른 주어 + 과거형. 부정은 didn't입니다.",
+     "error_tag": "would-rather-past",
+     "id": "B2-019-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "I'd rather ... 또는 It's time ...으로 시작하는 문장을 영어로 하나 써 보세요.",
+    "example_answer_en": "I'd rather stay home than go out on a rainy day.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-24",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-24"
+   }
   }
  ]
 }
