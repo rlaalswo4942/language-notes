@@ -2443,6 +2443,201 @@
     "version": 1,
     "last_revised": "2026-10-24"
    }
+  },
+  {
+   "id": "TOEFL-014",
+   "level": "B1",
+   "track": "toefl",
+   "day": 14,
+   "title_ko": "TOEFL 2026 2주 복습: 대화·공지·강의·지문·인터뷰·따라 말하기",
+   "objective_ko": "TOEFL 2026 형식을 참고한 8~13일차 유형(대화, 공지, 강의, 학술 지문, 인터뷰, 따라 말하기)을 섞어 다시 연습한다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/content/ets-org/language-master/ko/home/toefl/test-takers/ibt/about/content.html",
+     "publisher": "ETS",
+     "supports": "2026 형식 유형명",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "이번 주 여섯 가지 유형을 복습합니다(공식 안내 유형명). ① Listen to a Conversation: 학생의 문제와 해결책을 찾습니다. ② Listen to an Announcement: 목적과 바뀐 점(날짜, 장소, 운행 여부)을 찾습니다. ③ Listen to an Academic Talk: 주제, 정의, 예시를 찾습니다. ④ Read an Academic Passage: 세부 정보와 문장 흐름을 찾습니다. ⑤ Take an Interview: 질문에 직접 답하고 이유를 덧붙입니다. ⑥ Listen and Repeat: 들은 문장을 바꾸지 않고 그대로 말합니다. 이 사이트에는 음원이 없으므로 지문을 눈으로 읽고 연습합니다. 비공식 자체 연습이며 ETS 점수와 무관하고 점수 예측도 없습니다.",
+    "common_mistake_ko": "질문과 상관없는 내용으로 답하기 → 질문에 먼저 직접 답하기 / 해결책 대신 문제만 고르기 → 누가 무엇을 하기로 했는지 확인하기 / 듣기 문장의 단어를 바꿔 말하기 → 그대로 말하기"
+   },
+   "vocabulary": [
+    {
+     "word": "penalty",
+     "part_of_speech": "명사",
+     "meaning_ko": "벌점, 불이익",
+     "example_en": "There is a small penalty for late work.",
+     "example_ko": "늦은 과제에는 작은 불이익이 있어요."
+    },
+    {
+     "word": "shuttle",
+     "part_of_speech": "명사",
+     "meaning_ko": "셔틀버스",
+     "example_en": "The shuttle runs every twenty minutes.",
+     "example_ko": "셔틀버스는 20분마다 운행해요."
+    },
+    {
+     "word": "habitat",
+     "part_of_speech": "명사",
+     "meaning_ko": "서식지",
+     "example_en": "A coral reef is a habitat for many fish.",
+     "example_ko": "산호초는 많은 물고기의 서식지예요."
+    },
+    {
+     "word": "definition",
+     "part_of_speech": "명사",
+     "meaning_ko": "정의",
+     "example_en": "The professor gave a clear definition.",
+     "example_ko": "교수님은 명확한 정의를 말씀하셨어요."
+    },
+    {
+     "word": "prefer",
+     "part_of_speech": "동사",
+     "meaning_ko": "더 좋아하다",
+     "example_en": "I prefer studying in the morning.",
+     "example_ko": "저는 아침에 공부하는 것을 더 좋아해요."
+    },
+    {
+     "word": "extend",
+     "part_of_speech": "동사",
+     "meaning_ko": "연장하다",
+     "example_en": "The library extended its opening hours.",
+     "example_ko": "도서관이 개관 시간을 연장했어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I missed the deadline for the lab report.",
+     "ko": "저는 실험 보고서 마감을 놓쳤어요."
+    },
+    {
+     "en": "You can submit it by Friday with a small penalty.",
+     "ko": "작은 불이익과 함께 금요일까지 제출할 수 있어요."
+    },
+    {
+     "en": "The shuttle to the east campus will not run on Saturday because of road work.",
+     "ko": "도로 공사 때문에 토요일에는 동쪽 캠퍼스행 셔틀이 운행하지 않습니다."
+    },
+    {
+     "en": "Please use the city bus instead.",
+     "ko": "대신 시내버스를 이용해 주세요."
+    },
+    {
+     "en": "A habitat is the natural place where an animal or plant lives.",
+     "ko": "서식지는 동물이나 식물이 사는 자연 환경입니다."
+    },
+    {
+     "en": "For example, a coral reef is a habitat for many fish.",
+     "ko": "예를 들어 산호초는 많은 물고기의 서식지입니다."
+    },
+    {
+     "en": "Photosynthesis is the process by which plants make food from sunlight.",
+     "ko": "광합성은 식물이 햇빛으로 양분을 만드는 과정입니다."
+    },
+    {
+     "en": "I prefer studying alone because I can focus better.",
+     "ko": "집중이 더 잘 되어서 혼자 공부하는 것을 더 좋아해요."
+    },
+    {
+     "en": "Please turn off your phone during the lecture.",
+     "ko": "강의 중에는 휴대폰을 꺼 주세요."
+    }
+   ],
+   "questions": [
+    {
+     "id": "F014-Q1",
+     "type": "single_choice",
+     "stem": "대화: Student: 'I missed the deadline for the lab report.' Professor: 'You can submit it by Friday with a small penalty.' 교수의 해결책은?",
+     "choices": [
+      "Submit late by Friday with a small penalty.",
+      "Cancel the lab report.",
+      "Ask another student to write it.",
+      "Get extra credit instead."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "교수가 by Friday with a small penalty로 늦게 제출하도록 했습니다.",
+     "error_tag": "conversation"
+    },
+    {
+     "id": "F014-Q2",
+     "type": "single_choice",
+     "stem": "공지: 'The shuttle to the east campus will not run on Saturday because of road work. Please use the city bus instead.' 바뀐 점은?",
+     "choices": [
+      "The shuttle will not run on Saturday.",
+      "The shuttle will run more often.",
+      "The city bus will stop on Saturday.",
+      "The east campus will close."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "토요일에 셔틀이 운행하지 않는다는 것이 바뀐 점입니다.",
+     "error_tag": "announcement"
+    },
+    {
+     "id": "F014-Q3",
+     "type": "single_choice",
+     "stem": "강의: 'A habitat is the natural place where an animal or plant lives. For example, a coral reef is a habitat for many fish.' 서식지의 예시로 든 것은?",
+     "choices": [
+      "A coral reef",
+      "A desert road",
+      "A city park bench",
+      "A school garden"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "For example 뒤에 coral reef가 나옵니다.",
+     "error_tag": "academic-talk"
+    },
+    {
+     "id": "F014-Q4",
+     "type": "single_choice",
+     "stem": "인터뷰 질문: 'Do you prefer studying alone or with others?' 가장 알맞은 답은?",
+     "choices": [
+      "I prefer studying alone because I can focus better.",
+      "Studying is good.",
+      "Yes, I do.",
+      "I like pizza."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "질문에 직접 답하고 이유를 덧붙인 답입니다.",
+     "error_tag": "interview"
+    },
+    {
+     "id": "F014-Q5",
+     "type": "typing",
+     "stem": "따라 말하기 문장의 빈칸에 한 단어를 쓰세요: Please turn ___ your phone during the lecture.",
+     "answer_text": "off",
+     "accepted_answers": [
+      "off"
+     ],
+     "explanation_ko": "학습한 문장 그대로 turn off입니다.",
+     "error_tag": "repeat-exact"
+    },
+    {
+     "id": "F014-Q6",
+     "type": "typing",
+     "stem": "지문: 'Photosynthesis is the process by which plants make food from sunlight.' 빈칸에 한 단어를 쓰세요: Plants make food from ___.",
+     "answer_text": "sunlight",
+     "accepted_answers": [
+      "sunlight"
+     ],
+     "explanation_ko": "지문에 from sunlight라고 쓰여 있습니다.",
+     "error_tag": "academic-passage"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "이번 주 유형 중 하나를 골라, 질문에 직접 답하고 이유를 덧붙이는 영어 문장을 두 개 써 보세요.",
+    "example_answer_en": "I prefer morning classes. I can focus better early in the day.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 비공식 연습이며 ETS 점수와 무관합니다."
+   },
+   "publish_date": "2026-10-25",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-25"
+   }
   }
  ]
 }

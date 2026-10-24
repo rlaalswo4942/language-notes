@@ -4090,6 +4090,226 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N5-20",
+   "day_index": 20,
+   "week_index": 3,
+   "level": "N5",
+   "unit_id": "N5-W03",
+   "lesson_type": "practice",
+   "title_ko": "적용: 심부름 다니는 하루 읽기",
+   "objective_ko": "지금까지 배운 문형(〜に 行きます, 〜を ください, 〜ましょう 등)으로 된 심부름 하루 글을 읽고 내용을 확인한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N5-19"
+   ],
+   "explanation_ko": "이번 주에 배운 〜に 行きます(목적), 〜を ください, 〜から 〜まで, いくらですか, 〜ましょう를 섞어 심부름 하는 하루 글을 읽습니다. ‘장소へ + 목적に + 行きます’ 순서를 다시 확인하세요. 手紙を 出す(편지를 부치다)는 出します를 쓰고, 약은 먹는다는 뜻으로 飲みます를 씁니다.",
+   "usage_notes": [
+    "手紙を 出しに 行きます: 出します에서 ます를 뺀 出し에 に를 붙입니다.",
+    "약을 ‘먹다’는 食べます가 아니라 飲みます를 씁니다."
+   ],
+   "common_mistakes": [
+    "手紙を 出すに 行きます(X) → 手紙を 出しに 行きます(O): に 앞에는 ます를 뺀 형태를 씁니다.",
+    "薬を 食べます(X) → 薬を 飲みます(O)"
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N5-20-01",
+     "kind": "word",
+     "text": "手紙{てがみ}",
+     "reading_kana": "てがみ",
+     "reading_romanized": "tegami",
+     "meaning_ko": "편지",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-20-02",
+     "kind": "word",
+     "text": "切手{きって}",
+     "reading_kana": "きって",
+     "reading_romanized": "kitte",
+     "meaning_ko": "우표",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-20-03",
+     "kind": "word",
+     "text": "牛乳{ぎゅうにゅう}",
+     "reading_kana": "ぎゅうにゅう",
+     "reading_romanized": "gyuunyuu",
+     "meaning_ko": "우유",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-20-04",
+     "kind": "word",
+     "text": "薬{くすり}",
+     "reading_kana": "くすり",
+     "reading_romanized": "kusuri",
+     "meaning_ko": "약",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-20-05",
+     "kind": "word",
+     "text": "荷物{にもつ}",
+     "reading_kana": "にもつ",
+     "reading_romanized": "nimotsu",
+     "meaning_ko": "짐",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-20-06",
+     "kind": "word",
+     "text": "出{だ}します",
+     "reading_kana": "だします",
+     "reading_romanized": "dashimasu",
+     "meaning_ko": "내다, 부치다",
+     "part_of_speech": "동사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "日曜日{にちようび}の 午前{ごぜん}、郵便局{ゆうびんきょく}へ 手紙{てがみ}を 出{だ}しに 行{い}きます。",
+     "meaning_ko": "일요일 오전에 우체국에 편지를 부치러 갑니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "すみません、切手{きって}を ください。",
+     "meaning_ko": "실례합니다, 우표를 주세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "午後{ごご}は スーパーへ 牛乳{ぎゅうにゅう}を 買{か}いに 行{い}きます。",
+     "meaning_ko": "오후에는 슈퍼마켓에 우유를 사러 갑니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "牛乳{ぎゅうにゅう}は いくらですか。",
+     "meaning_ko": "우유는 얼마입니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "夕方{ゆうがた}に 薬{くすり}を 飲{の}みます。",
+     "meaning_ko": "저녁 무렵에 약을 먹습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "荷物{にもつ}が 部屋{へや}に あります。",
+     "meaning_ko": "짐이 방에 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "友達{ともだち}が 遊{あそ}びに 来{き}ます。一緒{いっしょ}に お茶{ちゃ}を 飲{の}みましょう。",
+     "meaning_ko": "친구가 놀러 옵니다. 같이 차를 마십시다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "五時{ごじ}に 学校{がっこう}から 帰{かえ}ります。",
+     "meaning_ko": "5시에 학교에서 돌아갑니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "手紙{てがみ}を 書{か}きたいです。",
+     "meaning_ko": "편지를 쓰고 싶습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "銀行{ぎんこう}は 九時{くじ}から 三時{さんじ}までです。",
+     "meaning_ko": "은행은 9시부터 3시까지입니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N5-20-Q1",
+     "type": "single_choice",
+     "prompt_ko": "‘우체국에 편지를 부치러 갑니다’를 바르게 나타낸 것은?",
+     "options": [
+      "郵便局へ 手紙を 出しに 行きます。",
+      "郵便局へ 手紙を 出すに 行きます。",
+      "郵便局へ 手紙を 出します行きます。",
+      "郵便局を 手紙に 出して 行きます。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "出します에서 ます를 뺀 出し에 に를 붙이고 行きます를 씁니다."
+    },
+    {
+     "id": "JP-N5-20-Q2",
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ことばを 選んで ください。 牛乳を 買い（　）行きます。",
+     "options": [
+      "に",
+      "を",
+      "が",
+      "で"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘사러 갑니다’는 買い에 목적을 나타내는 に를 붙인 買いに 行きます입니다."
+    },
+    {
+     "id": "JP-N5-20-Q3",
+     "type": "single_choice",
+     "prompt_ko": "「切手を ください」의 뜻은?",
+     "options": [
+      "우표를 주세요.",
+      "편지를 주세요.",
+      "우표를 샀습니다.",
+      "우표는 얼마입니까?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "切手는 ‘우표’, 〜を ください는 ‘~을 주세요’입니다."
+    },
+    {
+     "id": "JP-N5-20-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「夕方に 薬を 飲みます」의 뜻은?",
+     "options": [
+      "저녁 무렵에 약을 먹습니다.",
+      "아침에 약을 먹습니다.",
+      "저녁 무렵에 약을 삽니다.",
+      "저녁 무렵에 약을 먹고 싶습니다."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "夕方는 저녁 무렵, 飲みます는 ‘마시다·(약을) 먹다’입니다."
+    },
+    {
+     "id": "JP-N5-20-Q5",
+     "type": "typing",
+     "prompt_ko": "「手紙」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "tegami",
+     "accepted_answers": [
+      "tegami"
+     ],
+     "explanation_ko": "手紙 = てがみ (tegami)"
+    },
+    {
+     "id": "JP-N5-20-Q6",
+     "type": "typing",
+     "prompt_ko": "「荷物」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "nimotsu",
+     "accepted_answers": [
+      "nimotsu",
+      "nimotu"
+     ],
+     "explanation_ko": "荷物 = にもつ (nimotsu)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

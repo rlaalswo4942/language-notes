@@ -4075,6 +4075,219 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-20",
+   "day_index": 20,
+   "week_index": 3,
+   "level": "N1",
+   "unit_id": "N1-W03",
+   "lesson_type": "practice",
+   "title_ko": "적용: 재해 뒤 대피소 읽기",
+   "objective_ko": "N1 3주차에서 배운 문형이 들어 있는 짧은 글을 읽고 내용과 문형의 뜻을 확인한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-19"
+   ],
+   "explanation_ko": "〜ずにはいられない・〜までもない・〜にかたくない・〜ともなると・〜ようにも〜ない 등 3주차에서 배운 문형이 들어 있는 재해 뒤 대피소 이야기를 읽고 내용과 문형의 뜻을 확인합니다.",
+   "usage_notes": [
+    "〜にかたくない = 쉽게 ~할 수 있다(想像・理解 등과 함께).",
+    "〜ともなれば = ~쯤 되면(그 입장에서는 당연히 ~하다)."
+   ],
+   "common_mistakes": [],
+   "new_items": [
+    {
+     "id": "w-JP-N1-20-01",
+     "kind": "word",
+     "text": "避難所{ひなんじょ}",
+     "reading_kana": "ひなんじょ",
+     "reading_romanized": "hinanjo",
+     "meaning_ko": "대피소",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-20-02",
+     "kind": "word",
+     "text": "氾濫{はんらん}",
+     "reading_kana": "はんらん",
+     "reading_romanized": "hanran",
+     "meaning_ko": "범람",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N1-20-03",
+     "kind": "word",
+     "text": "停電{ていでん}",
+     "reading_kana": "ていでん",
+     "reading_romanized": "teiden",
+     "meaning_ko": "정전",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N1-20-04",
+     "kind": "word",
+     "text": "近隣{きんりん}",
+     "reading_kana": "きんりん",
+     "reading_romanized": "kinrin",
+     "meaning_ko": "이웃, 인근",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-20-05",
+     "kind": "word",
+     "text": "毛布{もうふ}",
+     "reading_kana": "もうふ",
+     "reading_romanized": "moufu",
+     "meaning_ko": "담요",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-20-06",
+     "kind": "word",
+     "text": "高齢者{こうれいしゃ}",
+     "reading_kana": "こうれいしゃ",
+     "reading_romanized": "koureisha",
+     "meaning_ko": "고령자",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "夜中{よなか}に川{かわ}が氾濫{はんらん}した時{とき}の近隣{きんりん}住民{じゅうみん}の不安{ふあん}は、想像{そうぞう}にかたくない。",
+     "meaning_ko": "한밤중에 강이 범람했을 때 이웃 주민들의 불안은 쉽게 상상할 수 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "道路{どうろ}が水{みず}に浸{つ}かり、避難{ひなん}しようにも身動{みうご}きが取{と}れない家族{かぞく}もいた。",
+     "meaning_ko": "도로가 물에 잠겨 대피하려 해도 움직일 수 없는 가족도 있었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "停電{ていでん}が続{つづ}き、携帯電話{けいたいでんわ}の電池{でんち}も切{き}れて、家族{かぞく}に連絡{れんらく}しようにもできなかった。",
+     "meaning_ko": "정전이 이어지고 휴대전화 배터리도 떨어져서 가족에게 연락하려 해도 할 수 없었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "避難所{ひなんじょ}ともなると、限{かぎ}られた水{みず}や食料{しょくりょう}をどう分{わ}けるかが大{おお}きな問題{もんだい}になる。",
+     "meaning_ko": "대피소쯤 되면 한정된 물과 식량을 어떻게 나눌지가 큰 문제가 된다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "高齢者{こうれいしゃ}が寒{さむ}そうにしているのを見{み}ると、毛布{もうふ}を渡{わた}さずにはいられなかった。",
+     "meaning_ko": "고령자가 추워 보이는 것을 보니 담요를 건네지 않고는 있을 수 없었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "ボランティアは、説明{せつめい}を受{う}けるまでもなく、自分{じぶん}の仕事{しごと}を見{み}つけて動{うご}き出{だ}した。",
+     "meaning_ko": "자원봉사자는 설명을 들을 필요도 없이 자기 일을 찾아서 움직이기 시작했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "冬{ふゆ}ともなれば、体育館{たいいくかん}の寒{さむ}さは厳{きび}しさを増{ま}す。",
+     "meaning_ko": "겨울쯤 되면 체육관의 추위는 혹독함이 더해진다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "いつ家{いえ}に戻{もど}れるのか見当{けんとう}もつかず、先{さき}の計画{けいかく}を立{た}てようにも立{た}てられない。",
+     "meaning_ko": "언제 집에 돌아갈 수 있을지 짐작도 가지 않아 앞으로의 계획을 세우려 해도 세울 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "住民{じゅうみん}の助{たす}け合{あ}いには、感謝{かんしゃ}せずにはいられないと市長{しちょう}は語{かた}った。",
+     "meaning_ko": "주민들의 상부상조에는 감사하지 않고는 있을 수 없다고 시장은 말했다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N1-20-Q1",
+     "type": "single_choice",
+     "prompt_ko": "「想像にかたくない」의 뜻은?",
+     "options": [
+      "쉽게 상상할 수 있다",
+      "상상할 수 없다",
+      "상상하고 싶지 않다",
+      "상상할 필요도 없다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜にかたくない = 쉽게 ~할 수 있다."
+    },
+    {
+     "id": "JP-N1-20-Q2",
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 家族に連絡（　）にもできなかった。",
+     "options": [
+      "しよう",
+      "した",
+      "する",
+      "している"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜ようにも 앞은 의지형입니다. する의 의지형은 しよう."
+    },
+    {
+     "id": "JP-N1-20-Q3",
+     "type": "single_choice",
+     "prompt_ko": "「毛布を渡さずにはいられなかった」의 뜻은?",
+     "options": [
+      "담요를 건네지 않고는 있을 수 없었다",
+      "담요를 건네지 않았다",
+      "담요를 건넬 필요가 없었다",
+      "담요를 건넬 수 없었다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜ずにはいられない = ~하지 않고는 견딜 수 없다."
+    },
+    {
+     "id": "JP-N1-20-Q4",
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 冬（　）、体育館の寒さは厳しさを増す。",
+     "options": [
+      "ともなれば",
+      "をよそに",
+      "が早いか",
+      "までもなく"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘겨울쯤 되면’은 〜ともなれば."
+    },
+    {
+     "id": "JP-N1-20-Q5",
+     "type": "typing",
+     "prompt_ko": "「避難所」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "hinanjo",
+     "accepted_answers": [
+      "hinanjo",
+      "hinanzyo",
+      "hinanjyo"
+     ],
+     "explanation_ko": "避難所 = ひなんじょ (hinanjo)"
+    },
+    {
+     "id": "JP-N1-20-Q6",
+     "type": "typing",
+     "prompt_ko": "「氾濫」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "hanran",
+     "accepted_answers": [
+      "hanran"
+     ],
+     "explanation_ko": "氾濫 = はんらん (hanran)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "JLPT_FORMAT"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

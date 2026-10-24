@@ -4064,6 +4064,201 @@
     "version": 1,
     "last_revised": "2026-10-24"
    }
+  },
+  {
+   "id": "PRE-026",
+   "level": "Pre-A1",
+   "track": "foundation",
+   "day": 26,
+   "title_ko": "현재진행형 입문: be + -ing",
+   "objective_ko": "be동사 + 동사-ing로 지금 하고 있는 일을 말하고 묻는다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "'지금 ~하고 있어요'는 be동사(am/is/are) + 동사-ing로 말합니다. ① 긍정: I am reading a book.(나는 책을 읽고 있어요.) She is cooking dinner.(그녀는 저녁을 만들고 있어요.) They are waiting for the bus.(그들은 버스를 기다리고 있어요.) ② 부정은 be동사 뒤에 not: He is not running. / We aren't sleeping. ③ 질문은 be동사를 앞으로 보냅니다: Are you listening? — Yes, I am. / No, I'm not. ④ 동사 뒤에 -ing를 붙이는 것이 기본입니다(read → reading, cook → cooking). e로 끝나는 동사는 e를 빼고 -ing(write → writing), 짧은 동사 run은 n을 하나 더 써서 running이 됩니다. 일반동사 현재형(I read books every day: 매일 읽는 습관)과 달리 '지금 이 순간'의 일에 씁니다.",
+    "common_mistake_ko": "I reading a book.(X) → I am reading a book.(O) / She is cook dinner.(X) → She is cooking dinner.(O) / He is writeing a letter.(X) → He is writing a letter.(O) / Do you listening?(X) → Are you listening?(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "read",
+     "part_of_speech": "동사",
+     "meaning_ko": "읽다",
+     "example_en": "I am reading a book now.",
+     "example_ko": "나는 지금 책을 읽고 있어요."
+    },
+    {
+     "word": "cook",
+     "part_of_speech": "동사",
+     "meaning_ko": "요리하다",
+     "example_en": "My mother is cooking dinner.",
+     "example_ko": "어머니는 저녁을 만들고 계세요."
+    },
+    {
+     "word": "run",
+     "part_of_speech": "동사",
+     "meaning_ko": "달리다",
+     "example_en": "The boy is running in the park.",
+     "example_ko": "그 소년은 공원에서 달리고 있어요."
+    },
+    {
+     "word": "wait",
+     "part_of_speech": "동사",
+     "meaning_ko": "기다리다",
+     "example_en": "We are waiting for the bus.",
+     "example_ko": "우리는 버스를 기다리고 있어요."
+    },
+    {
+     "word": "listen",
+     "part_of_speech": "동사",
+     "meaning_ko": "듣다, 귀 기울이다",
+     "example_en": "Are you listening to music?",
+     "example_ko": "음악을 듣고 있어요?"
+    },
+    {
+     "word": "write",
+     "part_of_speech": "동사",
+     "meaning_ko": "쓰다",
+     "example_en": "He is writing a letter.",
+     "example_ko": "그는 편지를 쓰고 있어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I am reading a book.",
+     "ko": "나는 책을 읽고 있어요."
+    },
+    {
+     "en": "She is cooking dinner.",
+     "ko": "그녀는 저녁을 만들고 있어요."
+    },
+    {
+     "en": "He is running in the park.",
+     "ko": "그는 공원에서 달리고 있어요."
+    },
+    {
+     "en": "They are waiting for the bus.",
+     "ko": "그들은 버스를 기다리고 있어요."
+    },
+    {
+     "en": "We are listening to music.",
+     "ko": "우리는 음악을 듣고 있어요."
+    },
+    {
+     "en": "He is writing a letter.",
+     "ko": "그는 편지를 쓰고 있어요."
+    },
+    {
+     "en": "Are you listening? — Yes, I am.",
+     "ko": "듣고 있어요? — 네, 듣고 있어요."
+    },
+    {
+     "en": "Is she cooking? — No, she isn't.",
+     "ko": "그녀는 요리하고 있어요? — 아니요, 아니에요."
+    },
+    {
+     "en": "I am not running.",
+     "ko": "나는 달리고 있지 않아요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "I ___ a book now. (나는 지금 책을 읽고 있어요)",
+     "choices": [
+      "am reading",
+      "is reading",
+      "reading",
+      "read am"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "주어 I에는 am을 쓰고 reading을 붙입니다.",
+     "error_tag": "be-ing",
+     "id": "P026-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "She ___ dinner. (그녀는 저녁을 만들고 있어요)",
+     "choices": [
+      "is cooking",
+      "are cooking",
+      "cooking",
+      "cooks is"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "주어 She에는 is를 쓰고 cooking을 붙입니다.",
+     "error_tag": "be-ing",
+     "id": "P026-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'그들은 버스를 기다리고 있어요'를 영어로 바르게 말한 것은?",
+     "choices": [
+      "They are waiting for the bus.",
+      "They is waiting for the bus.",
+      "They waiting for the bus.",
+      "They are wait for the bus."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "복수 주어 They에는 are를 쓰고 동사에 -ing를 붙입니다.",
+     "error_tag": "be-ing",
+     "id": "P026-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'너 듣고 있니?'를 영어로 바르게 말한 것은?",
+     "choices": [
+      "Are you listening?",
+      "Do you listening?",
+      "You are listening?",
+      "Is you listening?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "질문은 be동사를 주어 앞으로 보내 Are you ...ing?로 만듭니다.",
+     "error_tag": "be-ing-question",
+     "id": "P026-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: He is ___ a letter. (write)",
+     "answer_text": "writing",
+     "accepted_answers": [
+      "writing"
+     ],
+     "explanation_ko": "write는 e를 빼고 -ing를 붙여 writing이 됩니다.",
+     "error_tag": "spelling-ing",
+     "id": "P026-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: The boy is ___ in the park. (run)",
+     "answer_text": "running",
+     "accepted_answers": [
+      "running"
+     ],
+     "explanation_ko": "run은 n을 하나 더 써서 running이 됩니다.",
+     "error_tag": "spelling-ing",
+     "id": "P026-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "지금 하고 있는 일을 be + -ing로 한 문장 써 보세요.",
+    "example_answer_en": "I am reading an English lesson.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-25",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-25"
+   }
   }
  ]
 }

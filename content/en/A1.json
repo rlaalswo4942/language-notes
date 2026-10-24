@@ -3719,6 +3719,201 @@
     "version": 1,
     "last_revised": "2026-10-24"
    }
+  },
+  {
+   "id": "A1-020",
+   "level": "A1",
+   "track": "foundation",
+   "day": 20,
+   "title_ko": "was / were: be동사 과거형",
+   "objective_ko": "was와 were로 과거의 상태와 장소를 말하고 묻는다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "be동사(am/is/are)의 과거형은 was와 were입니다. ① I, he, she, it(단수)에는 was: I was tired yesterday. She was at home. ② you, we, they(복수)에는 were: They were in Seoul last week. You were late. ③ 부정은 was not(wasn't), were not(weren't): He wasn't at school. We weren't hungry. ④ 질문은 was / were를 주어 앞으로: Were you at home last night? — Yes, I was. / No, I wasn't. Was it cold? — Yes, it was. ⑤ yesterday(어제), last night(어젯밤), last week(지난주), ago(~전에) 같은 과거 시간 표현과 자주 함께 씁니다: I was there two days ago.",
+    "common_mistake_ko": "I were tired yesterday.(X) → I was tired yesterday.(O) / They was at home.(X) → They were at home.(O) / Did you were late?(X) → Were you late?(O) / She not was here.(X) → She wasn't here.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "yesterday",
+     "part_of_speech": "부사",
+     "meaning_ko": "어제",
+     "example_en": "I was at home yesterday.",
+     "example_ko": "나는 어제 집에 있었어요."
+    },
+    {
+     "word": "tired",
+     "part_of_speech": "형용사",
+     "meaning_ko": "피곤한",
+     "example_en": "We were tired after the trip.",
+     "example_ko": "우리는 여행 후에 피곤했어요."
+    },
+    {
+     "word": "late",
+     "part_of_speech": "형용사/부사",
+     "meaning_ko": "늦은, 늦게",
+     "example_en": "You were late for class.",
+     "example_ko": "너는 수업에 늦었어요."
+    },
+    {
+     "word": "hungry",
+     "part_of_speech": "형용사",
+     "meaning_ko": "배고픈",
+     "example_en": "The children were hungry.",
+     "example_ko": "아이들은 배가 고팠어요."
+    },
+    {
+     "word": "last night",
+     "part_of_speech": "부사구",
+     "meaning_ko": "어젯밤",
+     "example_en": "Where were you last night?",
+     "example_ko": "어젯밤에 어디에 있었어요?"
+    },
+    {
+     "word": "ago",
+     "part_of_speech": "부사",
+     "meaning_ko": "~ 전에",
+     "example_en": "He was here two hours ago.",
+     "example_ko": "그는 두 시간 전에 여기에 있었어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I was tired yesterday.",
+     "ko": "나는 어제 피곤했어요."
+    },
+    {
+     "en": "She was at home last night.",
+     "ko": "그녀는 어젯밤에 집에 있었어요."
+    },
+    {
+     "en": "They were in Seoul last week.",
+     "ko": "그들은 지난주에 서울에 있었어요."
+    },
+    {
+     "en": "You were late for class.",
+     "ko": "너는 수업에 늦었어요."
+    },
+    {
+     "en": "The children were hungry.",
+     "ko": "아이들은 배가 고팠어요."
+    },
+    {
+     "en": "He wasn't at school yesterday.",
+     "ko": "그는 어제 학교에 없었어요."
+    },
+    {
+     "en": "We weren't tired.",
+     "ko": "우리는 피곤하지 않았어요."
+    },
+    {
+     "en": "Were you at home last night? — Yes, I was.",
+     "ko": "어젯밤에 집에 있었어요? — 네, 있었어요."
+    },
+    {
+     "en": "Was it cold? — No, it wasn't.",
+     "ko": "추웠어요? — 아니요, 춥지 않았어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "I ___ tired yesterday.",
+     "choices": [
+      "was",
+      "were",
+      "am",
+      "is"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "I의 과거형은 was입니다.",
+     "error_tag": "was-were",
+     "id": "A1-020-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "They ___ in Seoul last week.",
+     "choices": [
+      "were",
+      "was",
+      "are",
+      "be"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "They는 복수이므로 과거형은 were이고, last week는 과거입니다.",
+     "error_tag": "was-were",
+     "id": "A1-020-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'그는 어제 학교에 없었어요'를 영어로 바르게 말한 것은?",
+     "choices": [
+      "He wasn't at school yesterday.",
+      "He weren't at school yesterday.",
+      "He didn't was at school yesterday.",
+      "He not was at school yesterday."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "He에는 was를 쓰고 부정은 wasn't입니다.",
+     "error_tag": "was-negative",
+     "id": "A1-020-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Were you at home last night? 에 '네, 있었어요'라고 대답하면?",
+     "choices": [
+      "Yes, I was.",
+      "Yes, I were.",
+      "Yes, I did.",
+      "Yes, I am."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Were you ...?에 대답하는 I의 과거형은 was입니다.",
+     "error_tag": "was-answer",
+     "id": "A1-020-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: We ___ hungry after the game. (우리는 경기 후에 배가 고팠어요)",
+     "answer_text": "were",
+     "accepted_answers": [
+      "were"
+     ],
+     "explanation_ko": "We는 복수이므로 were입니다.",
+     "error_tag": "was-were",
+     "id": "A1-020-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: ___ it cold yesterday? — Yes, it was.",
+     "answer_text": "Was",
+     "accepted_answers": [
+      "Was"
+     ],
+     "explanation_ko": "it은 단수이므로 질문은 Was it ...?입니다.",
+     "error_tag": "was-question",
+     "id": "A1-020-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "어제 어디에 있었는지 was / were로 한 문장 써 보세요.",
+    "example_answer_en": "I was at home yesterday.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-25",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-25"
+   }
   }
  ]
 }

@@ -2464,6 +2464,204 @@
     "version": 1,
     "last_revised": "2026-10-24"
    }
+  },
+  {
+   "id": "TOEIC-014",
+   "level": "B1",
+   "track": "toeic",
+   "day": 14,
+   "title_ko": "2주 복습: TOEIC Part 5 수량·비교·동명사/to부정사·연결어·관계대명사와 Part 7 이메일",
+   "objective_ko": "TOEIC 8~13일차의 풀이 단서(수량 표현, 비교급, 동명사/to부정사, Part 6 연결어, 관계대명사, Part 7 목적·세부 정보)를 섞어 다시 확인한다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/toeic/about/listening-reading.html",
+     "publisher": "ETS",
+     "supports": "공식 시험 형식",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "이번 주에 배운 여섯 가지를 복습합니다. ① each/every + 단수 명사 + 단수 동사, many + 복수 가산명사, much + 불가산명사(TOEIC-008). ② 비교급은 than과 함께 쓰고 -er/more, 최상급은 the -est/most(TOEIC-009). ③ suggest, enjoy, avoid 뒤에는 동명사, decide, plan, hope 뒤에는 to부정사(TOEIC-010). ④ Part 6에서는 앞뒤 문장의 관계(결과, 대조, 예시)를 보고 연결어를 고릅니다(TOEIC-011). ⑤ 사람 뒤 who, 사물 뒤 which, 소유 관계는 whose(TOEIC-012). ⑥ Part 7은 질문을 먼저 읽고 지문에서 날짜·장소 같은 세부 정보를 대조합니다(TOEIC-013). 자체 제작 연습이며 ETS 공식 문항이 아닙니다.",
+    "common_mistake_ko": "Each employees ...(X) → Each employee ...(O) / more faster(X) → faster(O) / suggested to move(X) → suggested moving(O) / The woman who desk(X) → The woman whose desk(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "employee",
+     "part_of_speech": "명사",
+     "meaning_ko": "직원",
+     "example_en": "Each employee must wear a badge.",
+     "example_ko": "모든 직원은 배지를 착용해야 해요."
+    },
+    {
+     "word": "badge",
+     "part_of_speech": "명사",
+     "meaning_ko": "배지, 신분증",
+     "example_en": "Please show your badge at the door.",
+     "example_ko": "문에서 배지를 보여 주세요."
+    },
+    {
+     "word": "suggest",
+     "part_of_speech": "동사",
+     "meaning_ko": "제안하다",
+     "example_en": "I suggest moving the meeting.",
+     "example_ko": "회의를 옮기자고 제안합니다."
+    },
+    {
+     "word": "delay",
+     "part_of_speech": "명사/동사",
+     "meaning_ko": "지연 / 지연시키다",
+     "example_en": "The storm delayed the shipment.",
+     "example_ko": "폭풍이 배송을 지연시켰어요."
+    },
+    {
+     "word": "refund",
+     "part_of_speech": "명사",
+     "meaning_ko": "환불",
+     "example_en": "You will receive a full refund.",
+     "example_ko": "전액 환불받으실 거예요."
+    },
+    {
+     "word": "postpone",
+     "part_of_speech": "동사",
+     "meaning_ko": "연기하다",
+     "example_en": "They postponed the event until May.",
+     "example_ko": "그들은 행사를 5월로 연기했어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Each employee must wear an ID badge.",
+     "ko": "모든 직원은 신분증 배지를 착용해야 합니다."
+    },
+    {
+     "en": "Many customers have asked about the new service.",
+     "ko": "많은 고객이 새 서비스에 대해 문의했어요."
+    },
+    {
+     "en": "This printer is faster than the old one.",
+     "ko": "이 프린터는 예전 것보다 빨라요."
+    },
+    {
+     "en": "It is the most popular item in our store.",
+     "ko": "이것은 저희 가게에서 가장 인기 있는 상품입니다."
+    },
+    {
+     "en": "The manager suggested moving the meeting to Thursday.",
+     "ko": "매니저는 회의를 목요일로 옮기자고 제안했어요."
+    },
+    {
+     "en": "We decided to postpone the event.",
+     "ko": "우리는 행사를 연기하기로 결정했어요."
+    },
+    {
+     "en": "The shipment was delayed by a storm. As a result, the customer will receive a refund.",
+     "ko": "배송이 폭풍으로 지연되었습니다. 그 결과 고객은 환불을 받게 됩니다."
+    },
+    {
+     "en": "The woman whose desk is near the window is our new manager.",
+     "ko": "창가에 책상이 있는 여성이 우리 새 매니저예요."
+    },
+    {
+     "en": "I am writing to ask about the date of the workshop.",
+     "ko": "워크숍 날짜를 문의하려고 이메일을 씁니다."
+    }
+   ],
+   "questions": [
+    {
+     "id": "T014-Q1",
+     "type": "single_choice",
+     "stem": "___ employee must wear an ID badge.",
+     "choices": [
+      "Each",
+      "All",
+      "Many",
+      "Several"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "뒤에 단수 명사 employee와 단수 취급이 오므로 Each입니다.",
+     "error_tag": "quantity"
+    },
+    {
+     "id": "T014-Q2",
+     "type": "single_choice",
+     "stem": "This printer is ___ than the old one.",
+     "choices": [
+      "fast",
+      "faster",
+      "fastest",
+      "more fast"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "than이 있으므로 비교급 faster입니다.",
+     "error_tag": "comparative"
+    },
+    {
+     "id": "T014-Q3",
+     "type": "single_choice",
+     "stem": "The manager suggested ___ the meeting to Thursday.",
+     "choices": [
+      "move",
+      "to move",
+      "moving",
+      "moved"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "suggest 뒤에는 동명사가 옵니다.",
+     "error_tag": "gerund-infinitive"
+    },
+    {
+     "id": "T014-Q4",
+     "type": "single_choice",
+     "stem": "The shipment was delayed by a storm. ___, the customer will receive a refund.",
+     "choices": [
+      "However",
+      "As a result",
+      "For example",
+      "In contrast"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "지연이 원인이고 환불이 결과이므로 As a result입니다.",
+     "error_tag": "connector"
+    },
+    {
+     "id": "T014-Q5",
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: The woman ___ desk is near the window is our new manager.",
+     "answer_text": "whose",
+     "accepted_answers": [
+      "whose"
+     ],
+     "explanation_ko": "뒤에 명사 desk가 오고 소유 관계이므로 whose입니다.",
+     "error_tag": "relative-pronoun"
+    },
+    {
+     "id": "T014-Q6",
+     "type": "typing",
+     "stem": "공지: 'The staff meeting has moved from Room A to Room C. It will start at 9 A.M.' 회의가 열리는 방의 알파벳 한 글자를 쓰세요.",
+     "answer_text": "C",
+     "accepted_answers": [
+      "C",
+      "c",
+      "Room C",
+      "room c"
+     ],
+     "explanation_ko": "공지에 moved from Room A to Room C라고 쓰여 있으므로 새 장소는 C입니다.",
+     "error_tag": "part7-detail"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "이번 주에 배운 것 중 하나(수량, 비교급, suggest + -ing, whose 등)를 골라 업무와 관련된 영어 문장을 한 개 써 보세요.",
+    "example_answer_en": "Each manager suggested moving the deadline.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 자체 연습이며 ETS 문항이 아닙니다."
+   },
+   "publish_date": "2026-10-25",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-25"
+   }
   }
  ]
 }

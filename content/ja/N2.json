@@ -4067,6 +4067,222 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-20",
+   "day_index": 20,
+   "week_index": 3,
+   "level": "N2",
+   "unit_id": "N2-W03",
+   "lesson_type": "practice",
+   "title_ko": "적용: 상점가의 변화 읽기",
+   "objective_ko": "N2 3주차에서 배운 문형이 들어 있는 짧은 글을 읽고 내용과 문형의 뜻을 확인한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-19"
+   ],
+   "explanation_ko": "〜に違いない・〜かねない・〜かねる・〜つつある・〜つつ・〜どころか・〜をはじめ 등 3주차에서 배운 문형과 〜に対して가 들어 있는 상점가 이야기를 읽고 내용과 문형의 뜻을 확인합니다.",
+   "usage_notes": [
+    "〜かねない = ~할 수도 있다(좋지 않은 일), 〜かねる = ~하기 어렵다. 형태는 비슷하지만 뜻이 반대 방향입니다.",
+    "〜つつある = 변화가 진행 중, 〜つつ = ~하면서(동시 동작)."
+   ],
+   "common_mistakes": [],
+   "new_items": [
+    {
+     "id": "w-JP-N2-20-01",
+     "kind": "word",
+     "text": "商店街{しょうてんがい}",
+     "reading_kana": "しょうてんがい",
+     "reading_romanized": "shoutengai",
+     "meaning_ko": "상점가",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-20-02",
+     "kind": "word",
+     "text": "家賃{やちん}",
+     "reading_kana": "やちん",
+     "reading_romanized": "yachin",
+     "meaning_ko": "집세, 임대료",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-20-03",
+     "kind": "word",
+     "text": "店主{てんしゅ}",
+     "reading_kana": "てんしゅ",
+     "reading_romanized": "tenshu",
+     "meaning_ko": "가게 주인",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-20-04",
+     "kind": "word",
+     "text": "補助金{ほじょきん}",
+     "reading_kana": "ほじょきん",
+     "reading_romanized": "hojokin",
+     "meaning_ko": "보조금",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-20-05",
+     "kind": "word",
+     "text": "進出{しんしゅつ}",
+     "reading_kana": "しんしゅつ",
+     "reading_romanized": "shinshutsu",
+     "meaning_ko": "진출",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N2-20-06",
+     "kind": "word",
+     "text": "来店{らいてん}",
+     "reading_kana": "らいてん",
+     "reading_romanized": "raiten",
+     "meaning_ko": "내점, 가게에 옴",
+     "part_of_speech": "명사・する동사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "大型店{おおがたてん}の進出{しんしゅつ}によって、商店街{しょうてんがい}への来店{らいてん}は減{へ}りつつある。",
+     "meaning_ko": "대형점의 진출로 상점가를 찾는 손님은 줄고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "昔{むかし}は、八百屋{やおや}をはじめ、魚屋{さかなや}や肉屋{にくや}など、多{おお}くの店{みせ}が並{なら}んでいた。",
+     "meaning_ko": "옛날에는 채소가게를 비롯해 생선가게나 정육점 등 많은 가게가 늘어서 있었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "最近{さいきん}は利益{りえき}どころか、家賃{やちん}を払{はら}うのも難{むずか}しい店{みせ}がある。",
+     "meaning_ko": "요즘은 이익은커녕 집세를 내기도 어려운 가게가 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "このままでは、商店街{しょうてんがい}そのものがなくなってしまいかねない。",
+     "meaning_ko": "이대로라면 상점가 자체가 사라져 버릴 수도 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "高齢{こうれい}の店主{てんしゅ}には、新{あたら}しい試{こころ}みを始{はじ}めるのは負担{ふたん}が大{おお}きいに違{ちが}いない。",
+     "meaning_ko": "고령의 가게 주인에게는 새로운 시도를 시작하는 것이 부담이 클 것임에 틀림없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "市{し}は、商店街{しょうてんがい}の組合{くみあい}に対{たい}して、補助金{ほじょきん}を出{だ}すことを決{き}めた。",
+     "meaning_ko": "시는 상점가 조합에 대해 보조금을 내기로 정했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "組合長{くみあいちょう}をはじめ、地元{じもと}の学生{がくせい}も、週末{しゅうまつ}の市{いち}に協力{きょうりょく}している。",
+     "meaning_ko": "조합장을 비롯해 지역 학생들도 주말 장터에 협력하고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "店主{てんしゅ}たちは、伝統{でんとう}を守{まも}りつつ、新{あたら}しい商品{しょうひん}も取{と}り入{い}れている。",
+     "meaning_ko": "가게 주인들은 전통을 지키면서 새로운 상품도 들여오고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "店主{てんしゅ}の高齢化{こうれいか}が進{すす}み、今後{こんご}のことは一人{ひとり}では決{き}めかねると話{はな}す人{ひと}も多{おお}い。",
+     "meaning_ko": "가게 주인의 고령화가 진행되어 앞으로의 일은 혼자서는 결정하기 어렵다고 말하는 사람도 많다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N2-20-Q1",
+     "type": "single_choice",
+     "prompt_ko": "본문에서 상점가를 찾는 손님이 줄고 있는 이유로 나온 것은?",
+     "options": [
+      "대형점의 진출",
+      "지진 피해",
+      "집세 인하",
+      "학생 수 증가"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "大型店の進出によって来店が減りつつあると나옵니다."
+    },
+    {
+     "id": "JP-N2-20-Q2",
+     "type": "single_choice",
+     "prompt_ko": "「利益どころか、家賃を払うのも難しい」의 뜻은?",
+     "options": [
+      "이익은커녕 집세를 내기도 어렵다",
+      "이익이 있어서 집세를 낼 수 있다",
+      "이익 때문에 집세를 올렸다",
+      "이익도 집세도 필요 없다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜どころか = ~은커녕."
+    },
+    {
+     "id": "JP-N2-20-Q3",
+     "type": "single_choice",
+     "prompt_ko": "「なくなってしまいかねない」의 뜻은?",
+     "options": [
+      "사라져 버릴 수도 있다",
+      "사라지지 않을 것이다",
+      "사라지게 하고 싶다",
+      "사라질 리가 없다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜かねない = ~할 수도 있다(좋지 않은 일)."
+    },
+    {
+     "id": "JP-N2-20-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「一人では決めかねる」의 뜻은?",
+     "options": [
+      "혼자서는 결정하기 어렵다",
+      "혼자서도 결정할 수 있다",
+      "혼자서 결정해 버렸다",
+      "혼자서 결정할 필요가 없다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜かねる = ~하기 어렵다."
+    },
+    {
+     "id": "JP-N2-20-Q5",
+     "type": "typing",
+     "prompt_ko": "「店主」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "tenshu",
+     "accepted_answers": [
+      "tenshu",
+      "tensyu"
+     ],
+     "explanation_ko": "店主 = てんしゅ (tenshu)"
+    },
+    {
+     "id": "JP-N2-20-Q6",
+     "type": "typing",
+     "prompt_ko": "「補助金」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "hojokin",
+     "accepted_answers": [
+      "hojokin",
+      "hozyokin",
+      "hojyokin",
+      "hojoukin",
+      "hozyoukin"
+     ],
+     "explanation_ko": "補助金 = ほじょきん (hojokin)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "JLPT_FORMAT"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

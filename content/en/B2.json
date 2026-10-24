@@ -3708,6 +3708,205 @@
     "version": 1,
     "last_revised": "2026-10-24"
    }
+  },
+  {
+   "id": "B2-020",
+   "level": "B2",
+   "track": "general",
+   "day": 20,
+   "title_ko": "used to / be used to / get used to: 과거의 습관과 익숙함",
+   "objective_ko": "과거의 습관(used to), 익숙한 상태(be used to -ing), 익숙해지는 과정(get used to -ing)을 구별해 쓴다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-25"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "① used to + 동사원형: 지금은 하지 않는 과거의 습관이나 상태. I used to smoke.(예전에는 담배를 피웠어요.) 부정과 의문은 didn't use to / Did you use to ...? ② be used to + 명사/-ing: '~에 익숙하다'(현재의 상태). I'm used to getting up early.(일찍 일어나는 데 익숙해요.) 이때 to는 전치사라서 뒤에 동사원형이 아니라 -ing가 옵니다. ③ get used to + 명사/-ing: '~에 익숙해지다'(과정). It took me a month to get used to the noise.(소음에 익숙해지는 데 한 달 걸렸어요.) be동사 대신 get/become을 쓰면 변화를 나타냅니다. 세 표현 모두 used가 들어 있지만 쓰임이 다릅니다. 과거 습관은 used to 뒤 동사원형, 익숙함은 to 뒤 -ing로 구별하세요.",
+    "common_mistake_ko": "I'm used to get up early.(X) → I'm used to getting up early.(O) / I used to getting up early.(X) → I used to get up early.(O, 과거 습관) / Did you used to live here?(X) → Did you use to live here?(O) / She didn't used to like it.(X) → She didn't use to like it.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "routine",
+     "part_of_speech": "명사",
+     "meaning_ko": "일상, 정해진 일과",
+     "example_en": "I'm used to my morning routine.",
+     "example_ko": "저는 아침 일과에 익숙해요."
+    },
+    {
+     "word": "adapt",
+     "part_of_speech": "동사",
+     "meaning_ko": "적응하다",
+     "example_en": "It takes time to adapt to a new city.",
+     "example_ko": "새 도시에 적응하려면 시간이 걸려요."
+    },
+    {
+     "word": "accustomed",
+     "part_of_speech": "형용사",
+     "meaning_ko": "익숙한",
+     "example_en": "She is accustomed to working late.",
+     "example_ko": "그녀는 늦게까지 일하는 데 익숙해요."
+    },
+    {
+     "word": "habit",
+     "part_of_speech": "명사",
+     "meaning_ko": "습관",
+     "example_en": "Biting nails is a bad habit.",
+     "example_ko": "손톱을 깨무는 것은 나쁜 습관이에요."
+    },
+    {
+     "word": "commute",
+     "part_of_speech": "동사",
+     "meaning_ko": "통근하다",
+     "example_en": "He used to commute by bus.",
+     "example_ko": "그는 예전에 버스로 통근했어요."
+    },
+    {
+     "word": "unfamiliar",
+     "part_of_speech": "형용사",
+     "meaning_ko": "낯선, 익숙하지 않은",
+     "example_en": "The food was unfamiliar to me at first.",
+     "example_ko": "그 음식은 처음에 나에게 낯설었어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I used to play football every day after school.",
+     "ko": "나는 예전에 방과 후 매일 축구를 했어요."
+    },
+    {
+     "en": "She didn't use to like coffee, but now she drinks it daily.",
+     "ko": "그녀는 예전에는 커피를 좋아하지 않았지만 지금은 매일 마셔요."
+    },
+    {
+     "en": "Did you use to live near the sea?",
+     "ko": "예전에 바닷가 근처에 살았나요?"
+    },
+    {
+     "en": "I'm used to getting up at six.",
+     "ko": "나는 6시에 일어나는 데 익숙해요."
+    },
+    {
+     "en": "He isn't used to driving on the left.",
+     "ko": "그는 좌측통행으로 운전하는 데 익숙하지 않아요."
+    },
+    {
+     "en": "It took me a few weeks to get used to the new routine.",
+     "ko": "새 일과에 익숙해지는 데 몇 주가 걸렸어요."
+    },
+    {
+     "en": "You'll soon get used to working from home.",
+     "ko": "곧 재택근무에 익숙해질 거예요."
+    },
+    {
+     "en": "We used to commute together, but now I work remotely.",
+     "ko": "우리는 예전에 같이 통근했지만 지금 저는 원격으로 일해요."
+    },
+    {
+     "en": "Living in a big city was unfamiliar to her, but she adapted quickly.",
+     "ko": "대도시 생활은 그녀에게 낯설었지만 빠르게 적응했어요."
+    },
+    {
+     "en": "Are you accustomed to the cold weather here?",
+     "ko": "여기 추운 날씨에 익숙하세요?"
+    }
+   ],
+   "questions": [
+    {
+     "id": "B2-020-Q1",
+     "type": "single_choice",
+     "stem": "I'm not used to ___ up so early.",
+     "choices": [
+      "get",
+      "getting",
+      "got",
+      "to get"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "be used to의 to는 전치사이므로 뒤에 -ing가 옵니다.",
+     "error_tag": "be-used-to"
+    },
+    {
+     "id": "B2-020-Q2",
+     "type": "single_choice",
+     "stem": "When I was a child, I ___ play football every day after school.",
+     "choices": [
+      "used to",
+      "am used to",
+      "was used to",
+      "get used to"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "used to + 동사원형은 지금은 하지 않는 과거의 습관입니다. 나머지는 뒤에 -ing가 와야 합니다.",
+     "error_tag": "used-to"
+    },
+    {
+     "id": "B2-020-Q3",
+     "type": "single_choice",
+     "stem": "She has lived alone for ten years, so she is ___ alone.",
+     "choices": [
+      "used to living",
+      "used to live",
+      "use to living",
+      "getting use"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "'익숙하다'는 be used to + -ing입니다.",
+     "error_tag": "be-used-to"
+    },
+    {
+     "id": "B2-020-Q4",
+     "type": "single_choice",
+     "stem": "'I used to smoke.'의 뜻에 가장 가까운 것은?",
+     "choices": [
+      "예전에는 담배를 피웠지만 지금은 피우지 않는다.",
+      "나는 담배를 피우는 데 익숙하다.",
+      "나는 담배에 익숙해지고 있다.",
+      "나는 담배를 피우려고 한다."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "used to + 동사원형은 과거의 습관이고 현재는 그렇지 않음을 나타냅니다.",
+     "error_tag": "used-to"
+    },
+    {
+     "id": "B2-020-Q5",
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어(drive의 -ing형)를 쓰세요: It took me a while to get used to ___ on the left.",
+     "answer_text": "driving",
+     "accepted_answers": [
+      "driving"
+     ],
+     "explanation_ko": "get used to 뒤에는 -ing가 옵니다.",
+     "error_tag": "get-used-to"
+    },
+    {
+     "id": "B2-020-Q6",
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: We didn't ___ to have a car, but now we have two. (예전에는 차가 없었다)",
+     "answer_text": "use",
+     "accepted_answers": [
+      "use"
+     ],
+     "explanation_ko": "didn't 뒤에서는 used가 아니라 use to입니다.",
+     "error_tag": "used-to-negative"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "used to 또는 be used to로 자신의 과거 습관이나 지금 익숙한 것을 영어로 한 문장 써 보세요.",
+    "example_answer_en": "I used to walk to school, but now I'm used to taking the bus.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-25",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-25"
+   }
   }
  ]
 }

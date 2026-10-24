@@ -4089,6 +4089,223 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N3-20",
+   "day_index": 20,
+   "week_index": 3,
+   "level": "N3",
+   "unit_id": "N3-W03",
+   "lesson_type": "practice",
+   "title_ko": "적용: 발표 준비 이야기 읽기",
+   "objective_ko": "3주차에 배운 문형이 들어 있는 발표 준비 이야기를 읽고 뜻을 확인한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N3-19"
+   ],
+   "explanation_ko": "〜(よ)うとする, 〜だけでなく〜も, 〜によると〜そうだ, 〜について・〜にとって・〜として, 受身形 을 발표 준비 장면의 짧은 글에서 복습합니다. 문형이 어떤 의미(전해 들음, 입장, 화제, 피해·받음)를 나타내는지 확인하세요.",
+   "usage_notes": [
+    "〜によると〜そうだ는 전해 들은 정보를 말합니다. 정보의 출처 뒤에 によると를 씁니다.",
+    "〜として는 자격·입장, 〜にとって는 ‘~에게 있어’, 〜について는 화제를 나타냅니다."
+   ],
+   "common_mistakes": [],
+   "new_items": [
+    {
+     "id": "w-JP-N3-20-01",
+     "kind": "word",
+     "text": "相談{そうだん}",
+     "reading_kana": "そうだん",
+     "reading_romanized": "soudan",
+     "meaning_ko": "상담, 상의",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N3-20-02",
+     "kind": "word",
+     "text": "経験{けいけん}",
+     "reading_kana": "けいけん",
+     "reading_romanized": "keiken",
+     "meaning_ko": "경험",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N3-20-03",
+     "kind": "word",
+     "text": "参加{さんか}",
+     "reading_kana": "さんか",
+     "reading_romanized": "sanka",
+     "meaning_ko": "참가",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N3-20-04",
+     "kind": "word",
+     "text": "発表{はっぴょう}",
+     "reading_kana": "はっぴょう",
+     "reading_romanized": "happyou",
+     "meaning_ko": "발표",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N3-20-05",
+     "kind": "word",
+     "text": "準備{じゅんび}",
+     "reading_kana": "じゅんび",
+     "reading_romanized": "junbi",
+     "meaning_ko": "준비",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N3-20-06",
+     "kind": "word",
+     "text": "緊張{きんちょう}",
+     "reading_kana": "きんちょう",
+     "reading_romanized": "kinchou",
+     "meaning_ko": "긴장",
+     "part_of_speech": "명사・する동사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "先生{せんせい}によると、来週{らいしゅう}の発表会{はっぴょうかい}は午前{ごぜん}に始{はじ}まるそうだ。",
+     "meaning_ko": "선생님 말씀으로는 다음 주 발표회는 오전에 시작한다고 한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "私{わたし}にとって、人前{ひとまえ}で話{はな}す経験{けいけん}は大切{たいせつ}だ。",
+     "meaning_ko": "나에게 있어 사람들 앞에서 말하는 경험은 중요하다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "日本{にほん}の文化{ぶんか}について発表{はっぴょう}することになった。",
+     "meaning_ko": "일본 문화에 대해 발표하게 되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "先生{せんせい}に準備{じゅんび}が足{た}りないと注意{ちゅうい}された。",
+     "meaning_ko": "선생님께 준비가 부족하다고 주의를 들었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "緊張{きんちょう}して、話{はな}そうとしても声{こえ}が出{で}なかった。",
+     "meaning_ko": "긴장해서 말하려 해도 목소리가 나오지 않았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "資料{しりょう}を作{つく}るだけでなく、練習{れんしゅう}もしなければならない。",
+     "meaning_ko": "자료를 만들 뿐 아니라 연습도 해야 한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "留学生{りゅうがくせい}として、国{くに}の紹介{しょうかい}を頼{たの}まれた。",
+     "meaning_ko": "유학생으로서 나라 소개를 부탁받았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "参加{さんか}した人{ひと}たちに質問{しつもん}されて、うまく答{こた}えられなかった。",
+     "meaning_ko": "참가한 사람들에게 질문을 받아 잘 대답하지 못했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "先輩{せんぱい}に相談{そうだん}したおかげで、少{すこ}し安心{あんしん}できた。",
+     "meaning_ko": "선배에게 상담한 덕분에 조금 안심할 수 있었다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N3-20-Q1",
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 天気予報（　）、明日は雨が降るそうだ。",
+     "options": [
+      "によると",
+      "にとって",
+      "について",
+      "として"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "전해 들은 정보의 출처는 によると로 나타냅니다."
+    },
+    {
+     "id": "JP-N3-20-Q2",
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 留学生（　）、国を紹介した。",
+     "options": [
+      "として",
+      "によると",
+      "にとって",
+      "について"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "자격·입장은 として입니다."
+    },
+    {
+     "id": "JP-N3-20-Q3",
+     "type": "single_choice",
+     "prompt_ko": "「先生に注意された」의 뜻은?",
+     "options": [
+      "선생님께 주의를 들었다",
+      "선생님께 주의를 주었다",
+      "선생님이 주의를 받았다",
+      "선생님과 함께 주의했다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "수동형이며 행위자는 に입니다. 주의를 받은 쪽이 주어입니다."
+    },
+    {
+     "id": "JP-N3-20-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「話そうとしても声が出なかった」의 뜻은?",
+     "options": [
+      "말하려 해도 목소리가 나오지 않았다",
+      "말할 필요가 없었다",
+      "말하고 나서 목소리가 나왔다",
+      "말하지 않아서 목소리가 나오지 않았다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜(よ)うとする는 ‘~하려고 하다’입니다."
+    },
+    {
+     "id": "JP-N3-20-Q5",
+     "type": "typing",
+     "prompt_ko": "「発表」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "happyou",
+     "accepted_answers": [
+      "happyou",
+      "happyo",
+      "happyoo"
+     ],
+     "explanation_ko": "発表 = はっぴょう (happyou)"
+    },
+    {
+     "id": "JP-N3-20-Q6",
+     "type": "typing",
+     "prompt_ko": "「緊張」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kinchou",
+     "accepted_answers": [
+      "kinchou",
+      "kintyou",
+      "kincho",
+      "kintyo",
+      "kinchoo"
+     ],
+     "explanation_ko": "緊張 = きんちょう (kinchou)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

@@ -4076,6 +4076,217 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-20",
+   "day_index": 20,
+   "week_index": 3,
+   "level": "N4",
+   "unit_id": "N4-W03",
+   "lesson_type": "practice",
+   "title_ko": "적용: 신발 가게에서 쇼핑하기",
+   "objective_ko": "3주차에 배운 문형으로 쇼핑 장면의 문장을 읽고 뜻을 확인한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-19"
+   ],
+   "explanation_ko": "〜から・〜ので, 〜て あげる・もらう・くれる, 〜かもしれません, 〜すぎる, 〜やすい・〜にくい 를 신발 가게 장면에서 복습합니다. 이유는 ので, 해 주고받기는 주는 사람·받는 사람에 맞는 조사(に/が)를 확인하세요.",
+   "usage_notes": [
+    "〜て もらう는 해 준 사람을 に로, 〜て くれる는 が로 나타냅니다. 友達に 選んで もらいました = 友達が 選んで くれました.",
+    "〜すぎる는 い형용사의 い를 빼고 붙입니다: 小さい → 小さすぎる."
+   ],
+   "common_mistakes": [],
+   "new_items": [
+    {
+     "id": "w-JP-N4-20-01",
+     "kind": "word",
+     "text": "サイズ",
+     "reading_kana": "サイズ",
+     "reading_romanized": "saizu",
+     "meaning_ko": "사이즈, 크기",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-20-02",
+     "kind": "word",
+     "text": "値段{ねだん}",
+     "reading_kana": "ねだん",
+     "reading_romanized": "nedan",
+     "meaning_ko": "가격",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-20-03",
+     "kind": "word",
+     "text": "色{いろ}",
+     "reading_kana": "いろ",
+     "reading_romanized": "iro",
+     "meaning_ko": "색",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-20-04",
+     "kind": "word",
+     "text": "選{えら}ぶ",
+     "reading_kana": "えらぶ",
+     "reading_romanized": "erabu",
+     "meaning_ko": "고르다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-20-05",
+     "kind": "word",
+     "text": "似合{にあ}う",
+     "reading_kana": "にあう",
+     "reading_romanized": "niau",
+     "meaning_ko": "어울리다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-20-06",
+     "kind": "word",
+     "text": "小{ちい}さい",
+     "reading_kana": "ちいさい",
+     "reading_romanized": "chiisai",
+     "meaning_ko": "작다",
+     "part_of_speech": "い형용사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "この 靴{くつ}は サイズが 小{ちい}さすぎます。",
+     "meaning_ko": "이 신발은 사이즈가 너무 작습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "値段{ねだん}が 高{たか}いので、買{か}いません。",
+     "meaning_ko": "가격이 비싸서 사지 않습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "友達{ともだち}に 靴{くつ}を 選{えら}んで もらいました。",
+     "meaning_ko": "친구가 신발을 골라 주었습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "私{わたし}は 妹{いもうと}に 本{ほん}を 買{か}って あげました。",
+     "meaning_ko": "나는 여동생에게 책을 사 주었습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 色{いろ}は あなたに 似合{にあ}うかもしれません。",
+     "meaning_ko": "이 색은 당신에게 어울릴지도 모릅니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 靴{くつ}は 軽{かる}いので、歩{ある}きやすいです。",
+     "meaning_ko": "이 신발은 가벼워서 걷기 편합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "店員{てんいん}さんが サイズを 教{おし}えて くれました。",
+     "meaning_ko": "점원이 사이즈를 알려 주었습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "色{いろ}が 多{おお}すぎて、選{えら}びにくいです。",
+     "meaning_ko": "색이 너무 많아서 고르기 어렵습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 店{みせ}の 靴{くつ}は 高{たか}くないかもしれません。",
+     "meaning_ko": "이 가게의 신발은 비싸지 않을지도 모릅니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N4-20-Q1",
+     "type": "single_choice",
+     "prompt_ko": "‘친구가 (나를 위해) 골라 주었습니다’를 바르게 나타낸 것은?",
+     "options": [
+      "友達が 選んで くれました。",
+      "友達に 選んで あげました。",
+      "友達を 選んで もらいました。",
+      "友達が 選んで もらいました。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "くれる는 주는 사람을 が로, 나에게 해 준 일을 나타냅니다."
+    },
+    {
+     "id": "JP-N4-20-Q2",
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ことばを 選んで ください。 サイズが（　）ので、この 靴は 買いません。",
+     "options": [
+      "小さすぎる",
+      "小さくすぎる",
+      "小さいすぎる",
+      "小さすぎ"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "い형용사는 い를 빼고 すぎる를 붙여 小さすぎる가 됩니다."
+    },
+    {
+     "id": "JP-N4-20-Q3",
+     "type": "single_choice",
+     "prompt_ko": "「似合うかもしれません」의 뜻은?",
+     "options": [
+      "어울릴지도 모릅니다",
+      "반드시 어울립니다",
+      "어울리지 않았습니다",
+      "어울리고 싶습니다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜かもしれません은 ‘~일지도 모릅니다’입니다."
+    },
+    {
+     "id": "JP-N4-20-Q4",
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ことばを 選んで ください。 この 靴は 軽いので、（　）です。",
+     "options": [
+      "歩きやすい",
+      "歩きにくい",
+      "歩くやすい",
+      "歩きましたい"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "가벼워서 걷기 편하다는 뜻이므로 歩きやすい입니다. やすい 앞은 ます를 뺀 형태입니다."
+    },
+    {
+     "id": "JP-N4-20-Q5",
+     "type": "typing",
+     "prompt_ko": "「値段」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "nedan",
+     "accepted_answers": [
+      "nedan"
+     ],
+     "explanation_ko": "値段 = ねだん (nedan)"
+    },
+    {
+     "id": "JP-N4-20-Q6",
+     "type": "typing",
+     "prompt_ko": "「選ぶ」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "erabu",
+     "accepted_answers": [
+      "erabu"
+     ],
+     "explanation_ko": "選ぶ = えらぶ (erabu)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }
