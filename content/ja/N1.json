@@ -4288,6 +4288,222 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-21",
+   "day_index": 21,
+   "week_index": 3,
+   "level": "N1",
+   "unit_id": "N1-W03",
+   "lesson_type": "checkpoint",
+   "title_ko": "3주 점검: 마을 학교의 폐교 읽기",
+   "objective_ko": "N1 셋째 주 문형(〜ずにはいられない・〜までもない・〜にかたくない・〜ともなると・〜ようにも〜ない)을 폐교 이야기 속에서 종합 점검한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-20"
+   ],
+   "explanation_ko": "3주 차에 배운 〜ずにはいられない(~하지 않고는 견딜 수 없다), 〜までもない(~할 필요도 없다), 〜にかたくない(쉽게 ~할 수 있다), 〜ともなると・〜ともなれば(~쯤 되면), 〜ようにも〜ない(~하려 해도 ~할 수 없다)를 마을 학교의 폐교에 관한 글 속에서 다시 확인합니다.",
+   "usage_notes": [
+    "〜ずにはいられない는 동사 ない형에서 ない를 뺀 꼴에 붙입니다(流す → 流さずにはいられない). する는 せずにはいられない입니다.",
+    "〜にかたくない는 ‘상상하기 어렵지 않다 = 쉽게 상상할 수 있다’는 뜻으로, 想像・理解 같은 말과 자주 쓰입니다.",
+    "〜ようにも〜ない는 의지형 + にも + 가능 부정 꼴로, 하고 싶어도 사정이 허락하지 않음을 나타냅니다."
+   ],
+   "common_mistakes": [
+    "涙を流さないにはいられなかった(X) → 涙を流さずにはいられなかった(O)",
+    "説明するまでもあった(X) → 説明するまでもない(O): 〜までもない는 부정의 꼴로 씁니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N1-21-01",
+     "kind": "word",
+     "text": "閉校{へいこう}",
+     "reading_kana": "へいこう",
+     "reading_romanized": "heikou",
+     "meaning_ko": "폐교",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N1-21-02",
+     "kind": "word",
+     "text": "統合{とうごう}",
+     "reading_kana": "とうごう",
+     "reading_romanized": "tougou",
+     "meaning_ko": "통합",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N1-21-03",
+     "kind": "word",
+     "text": "同窓生{どうそうせい}",
+     "reading_kana": "どうそうせい",
+     "reading_romanized": "dousousei",
+     "meaning_ko": "동창생",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-21-04",
+     "kind": "word",
+     "text": "惜{お}しむ",
+     "reading_kana": "おしむ",
+     "reading_romanized": "oshimu",
+     "meaning_ko": "아쉬워하다",
+     "part_of_speech": "동사(1그룹)"
+    },
+    {
+     "id": "w-JP-N1-21-05",
+     "kind": "word",
+     "text": "決断{けつだん}",
+     "reading_kana": "けつだん",
+     "reading_romanized": "ketsudan",
+     "meaning_ko": "결단",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N1-21-06",
+     "kind": "word",
+     "text": "想像{そうぞう}",
+     "reading_kana": "そうぞう",
+     "reading_romanized": "souzou",
+     "meaning_ko": "상상",
+     "part_of_speech": "명사・する동사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "母校{ぼこう}が閉校{へいこう}になると聞{き}いて、涙{なみだ}を流{なが}さずにはいられなかった。",
+     "meaning_ko": "모교가 폐교된다는 말을 듣고 눈물을 흘리지 않을 수 없었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "少子化{しょうしか}が進{すす}んでいることは、今更{いまさら}説明{せつめい}するまでもない。",
+     "meaning_ko": "저출산이 진행되고 있다는 것은 새삼 설명할 필요도 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "閉校{へいこう}を惜{お}しむ同窓生{どうそうせい}の気持{きも}ちは、想像{そうぞう}に難{かた}くない。",
+     "meaning_ko": "폐교를 아쉬워하는 동창생의 마음은 쉽게 상상할 수 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "校長{こうちょう}ともなると、学校{がっこう}の将来{しょうらい}を決断{けつだん}しなければならない。",
+     "meaning_ko": "교장쯤 되면 학교의 장래를 결단해야 한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "学校{がっこう}を残{のこ}そうにも、生徒{せいと}がいなくては残{のこ}せない。",
+     "meaning_ko": "학교를 남기려 해도 학생이 없으면 남길 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "卒業{そつぎょう}アルバムを見{み}ると、当時{とうじ}を思{おも}い出{だ}さずにはいられない。",
+     "meaning_ko": "졸업 앨범을 보면 그 시절을 떠올리지 않을 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "結果{けっか}は明{あき}らかで、議論{ぎろん}するまでもなかった。",
+     "meaning_ko": "결과는 분명해서 논의할 필요도 없었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "住民{じゅうみん}の不安{ふあん}は、想像{そうぞう}に難{かた}くない。",
+     "meaning_ko": "주민의 불안은 쉽게 상상할 수 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "町長{ちょうちょう}ともなれば、一{ひと}つの決断{けつだん}が町{まち}の未来{みらい}を左右{さゆう}する。",
+     "meaning_ko": "읍장쯤 되면 하나의 결단이 마을의 미래를 좌우한다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N1-21-Q1",
+     "type": "single_choice",
+     "prompt_ko": "母校が閉校になると聞いて、涙を流さ（　）いられなかった。",
+     "options": [
+      "ずには",
+      "ないでは",
+      "ずに",
+      "ないで"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜ずにはいられない는 ない형에서 ない를 뺀 꼴 + ずにはいられない로 씁니다."
+    },
+    {
+     "id": "JP-N1-21-Q2",
+     "type": "single_choice",
+     "prompt_ko": "少子化が進んでいることは、説明する（　）。(설명할 필요도 없다)",
+     "options": [
+      "までもない",
+      "ようがない",
+      "ずにはいられない",
+      "にかたくない"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘~할 필요도 없다’는 〜までもない로 나타냅니다."
+    },
+    {
+     "id": "JP-N1-21-Q3",
+     "type": "single_choice",
+     "prompt_ko": "閉校を惜しむ人の気持ちは、想像に（　）。(쉽게 상상할 수 있다)",
+     "options": [
+      "かたくない",
+      "いられない",
+      "までもない",
+      "ともなる"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "想像に難くない는 ‘쉽게 상상할 수 있다’는 관용 표현입니다."
+    },
+    {
+     "id": "JP-N1-21-Q4",
+     "type": "single_choice",
+     "prompt_ko": "校長（　）、学校の将来を決断しなければならない。(교장쯤 되면)",
+     "options": [
+      "ともなると",
+      "ようにも",
+      "ずには",
+      "までもなく"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "지위나 단계가 올라간 때를 말할 때는 〜ともなると를 씁니다."
+    },
+    {
+     "id": "JP-N1-21-Q5",
+     "type": "typing",
+     "prompt_ko": "「閉校」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "heikou",
+     "accepted_answers": [
+      "heikou",
+      "heiko"
+     ],
+     "explanation_ko": "閉校 = へいこう (heikou)"
+    },
+    {
+     "id": "JP-N1-21-Q6",
+     "type": "typing",
+     "prompt_ko": "「決断」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "ketsudan",
+     "accepted_answers": [
+      "ketsudan"
+     ],
+     "explanation_ko": "決断 = けつだん (ketsudan)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "JLPT_FORMAT"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

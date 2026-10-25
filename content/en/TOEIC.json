@@ -2662,6 +2662,201 @@
     "version": 1,
     "last_revised": "2026-10-25"
    }
+  },
+  {
+   "id": "TOEIC-015",
+   "level": "B1",
+   "track": "toeic",
+   "day": 15,
+   "title_ko": "TOEIC Part 5: 시간·조건 부사절의 현재시제",
+   "objective_ko": "if, when, as soon as, before, once 같은 부사절에서는 미래의 일도 현재시제로 쓴다는 단서를 문제에 적용한다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/toeic/about/listening-reading.html",
+     "publisher": "ETS",
+     "supports": "공식 시험 형식",
+     "checked_at": "2026-10-26"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "Part 5에서 빈칸이 if, when, as soon as, before, after, once, unless 같은 접속사가 이끄는 절 안에 있으면, 내용이 미래여도 동사는 현재시제를 씁니다. ① 주절은 will + 동사원형: If the shipment arrives on time, we will open the store on Monday. ② 부사절에 will을 넣지 않습니다: as soon as the meeting ends(O) / as soon as the meeting will end(X). ③ unless는 '~하지 않는 한(= if ... not)'이라 뒤에 부정어를 또 쓰지 않습니다. ④ 부사절이 문장 앞에 오면 쉼표로 주절과 나눕니다. 자체 제작 연습이며 ETS 공식 문항이 아닙니다.",
+    "common_mistake_ko": "when all guests will arrive(X) → when all guests arrive(O) / Unless you don't confirm(X) → Unless you confirm(O) / once the manager will approve(X) → once the manager approves(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "receipt",
+     "part_of_speech": "명사",
+     "meaning_ko": "영수증",
+     "example_en": "Please keep your receipt.",
+     "example_ko": "영수증을 보관해 주세요."
+    },
+    {
+     "word": "approve",
+     "part_of_speech": "동사",
+     "meaning_ko": "승인하다",
+     "example_en": "The manager will approve the budget.",
+     "example_ko": "매니저가 예산을 승인할 거예요."
+    },
+    {
+     "word": "reservation",
+     "part_of_speech": "명사",
+     "meaning_ko": "예약",
+     "example_en": "I have a reservation for two.",
+     "example_ko": "두 명 예약했어요."
+    },
+    {
+     "word": "enroll",
+     "part_of_speech": "동사",
+     "meaning_ko": "등록하다, 가입하다",
+     "example_en": "Students can enroll online.",
+     "example_ko": "학생들은 온라인으로 등록할 수 있어요."
+    },
+    {
+     "word": "deadline",
+     "part_of_speech": "명사",
+     "meaning_ko": "마감 기한",
+     "example_en": "The deadline is next Friday.",
+     "example_ko": "마감 기한은 다음 주 금요일이에요."
+    },
+    {
+     "word": "contract",
+     "part_of_speech": "명사",
+     "meaning_ko": "계약서",
+     "example_en": "Please sign the contract before you leave.",
+     "example_ko": "나가기 전에 계약서에 서명해 주세요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "If the shipment arrives on time, we will open the store on Monday.",
+     "ko": "배송이 제때 도착하면 월요일에 매장을 열겠습니다."
+    },
+    {
+     "en": "I will call you as soon as the meeting ends.",
+     "ko": "회의가 끝나는 대로 전화하겠습니다."
+    },
+    {
+     "en": "Please sign the contract before you leave the office.",
+     "ko": "사무실을 나가기 전에 계약서에 서명해 주세요."
+    },
+    {
+     "en": "We will begin the tour when all guests arrive.",
+     "ko": "모든 손님이 도착하면 투어를 시작하겠습니다."
+    },
+    {
+     "en": "Once the manager approves the budget, the team will start the project.",
+     "ko": "매니저가 예산을 승인하면 팀이 프로젝트를 시작할 거예요."
+    },
+    {
+     "en": "Unless you confirm your reservation by Friday, it will be cancelled.",
+     "ko": "금요일까지 예약을 확정하지 않으면 취소됩니다."
+    },
+    {
+     "en": "After the invoice is paid, we will send the receipt.",
+     "ko": "청구서가 결제된 후에 영수증을 보내 드리겠습니다."
+    },
+    {
+     "en": "The workshop will start after everyone has registered.",
+     "ko": "모두 등록을 마친 뒤에 워크숍이 시작됩니다."
+    },
+    {
+     "en": "Call me if you need help.",
+     "ko": "도움이 필요하면 전화하세요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "If the shipment ___ on time, we will open the store on Monday.",
+     "choices": [
+      "arrives",
+      "will arrive",
+      "arriving",
+      "is arrived"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "if절에서는 미래의 일도 현재시제로 쓰므로 arrives입니다.",
+     "error_tag": "time-clause",
+     "id": "T015-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "I will call you as soon as the meeting ___.",
+     "choices": [
+      "ends",
+      "will end",
+      "ended",
+      "ending"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "as soon as 절에는 will을 쓰지 않고 현재시제 ends를 씁니다.",
+     "error_tag": "time-clause",
+     "id": "T015-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Once the manager ___ the budget, the team will start the project.",
+     "choices": [
+      "approves",
+      "will approve",
+      "approved",
+      "approving"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Once가 이끄는 부사절은 현재시제를 쓰고, 주어 the manager에는 -s를 붙입니다.",
+     "error_tag": "time-clause",
+     "id": "T015-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "___ you confirm your reservation by Friday, it will be cancelled.",
+     "choices": [
+      "Unless",
+      "If",
+      "Although",
+      "Because"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "'확정하지 않으면 취소된다'는 뜻이므로 부정의 의미를 가진 Unless입니다.",
+     "error_tag": "conditional-conjunction",
+     "id": "T015-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: We will begin the tour when all guests ___. (arrive)",
+     "answer_text": "arrive",
+     "accepted_answers": [
+      "arrive"
+     ],
+     "explanation_ko": "when 절은 현재시제이고 all guests는 복수이므로 arrive입니다.",
+     "error_tag": "time-clause",
+     "id": "T015-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Please sign the contract ___ you leave the office. (~하기 전에)",
+     "answer_text": "before",
+     "accepted_answers": [
+      "before"
+     ],
+     "explanation_ko": "'~하기 전에'는 접속사 before입니다.",
+     "error_tag": "conjunction",
+     "id": "T015-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "미래 계획을 as soon as, when, if 중 하나를 써서 업무 문장으로 만들어 보세요.",
+    "example_answer_en": "I will send the report as soon as the manager approves it.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다.자체 연습이며 ETS 문항이 아닙니다."
+   },
+   "publish_date": "2026-10-26",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-26"
+   }
   }
  ]
 }

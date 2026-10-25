@@ -2638,6 +2638,201 @@
     "version": 1,
     "last_revised": "2026-10-25"
    }
+  },
+  {
+   "id": "TOEFL-015",
+   "level": "B1",
+   "track": "toefl",
+   "day": 15,
+   "title_ko": "TOEFL 2026 Build a Sentence 2: 간접 의문문과 의문문 어순",
+   "objective_ko": "Build a Sentence에서 의문문과 간접 의문문의 어순을 구별해 단어를 올바르게 배열한다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/content/ets-org/language-master/ko/home/toefl/test-takers/ibt/about/content.html",
+     "publisher": "ETS",
+     "supports": "2026 형식 유형명",
+     "checked_at": "2026-10-26"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "Build a Sentence는 2026-01-21 이후 TOEFL iBT Writing에 포함된 유형명입니다(비공식 자체 연습입니다). 어순 단서를 확인합니다. ① 직접 의문문: 의문사 + 조동사 + 주어 + 동사 — Where did you reserve the study room? ② 간접 의문문(문장 안에 들어간 질문): 의문사 + 주어 + 동사 — Could you tell me where the library is? 조동사를 주어 앞으로 보내지 않습니다. ③ whether / if는 '~인지'를 뜻합니다: The professor asked whether we had finished the reading. ④ 빈도부사는 일반동사 앞에 둡니다: She always submits her assignment on time. ⑤ 시간·장소 표현은 보통 문장 끝에 놓입니다. ETS 점수와 무관하며 점수 예측도 없습니다.",
+    "common_mistake_ko": "Could you tell me where is the library?(X) → ...where the library is?(O) / I wonder what time does the lecture start.(X) → ...what time the lecture starts.(O) / She submits always her assignment.(X) → She always submits her assignment.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "register",
+     "part_of_speech": "동사",
+     "meaning_ko": "등록하다, 수강 신청하다",
+     "example_en": "How can I register for the course?",
+     "example_ko": "그 과목은 어떻게 수강 신청하나요?"
+    },
+    {
+     "word": "syllabus",
+     "part_of_speech": "명사",
+     "meaning_ko": "강의 계획서",
+     "example_en": "The syllabus lists every reading.",
+     "example_ko": "강의 계획서에 모든 읽기 과제가 나와 있어요."
+    },
+    {
+     "word": "textbook",
+     "part_of_speech": "명사",
+     "meaning_ko": "교과서",
+     "example_en": "Please bring your textbook to class.",
+     "example_ko": "수업에 교과서를 가져오세요."
+    },
+    {
+     "word": "tutor",
+     "part_of_speech": "명사",
+     "meaning_ko": "개인 지도 교사, 튜터",
+     "example_en": "My tutor helps me every Tuesday.",
+     "example_ko": "튜터가 매주 화요일에 저를 도와줘요."
+    },
+    {
+     "word": "deadline",
+     "part_of_speech": "명사",
+     "meaning_ko": "마감 기한",
+     "example_en": "The deadline for the essay is Friday.",
+     "example_ko": "에세이 마감 기한은 금요일이에요."
+    },
+    {
+     "word": "whether",
+     "part_of_speech": "접속사",
+     "meaning_ko": "~인지 (아닌지)",
+     "example_en": "I don't know whether he is in his office.",
+     "example_ko": "그가 사무실에 있는지 모르겠어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Could you tell me where the library is?",
+     "ko": "도서관이 어디에 있는지 알려 주시겠어요?"
+    },
+    {
+     "en": "I wonder what time the lecture starts.",
+     "ko": "강의가 몇 시에 시작하는지 궁금해요."
+    },
+    {
+     "en": "Do you know how I can register for the course?",
+     "ko": "그 과목을 어떻게 수강 신청할 수 있는지 아세요?"
+    },
+    {
+     "en": "She always submits her assignment on time.",
+     "ko": "그녀는 항상 과제를 제때 제출해요."
+    },
+    {
+     "en": "The professor asked whether we had finished the reading.",
+     "ko": "교수님은 우리가 읽기 과제를 끝냈는지 물으셨어요."
+    },
+    {
+     "en": "Where did you reserve the study room?",
+     "ko": "스터디룸을 어디에서 예약했어요?"
+    },
+    {
+     "en": "I would like to know when the office opens.",
+     "ko": "사무실이 언제 여는지 알고 싶어요."
+    },
+    {
+     "en": "Can you explain why the schedule changed?",
+     "ko": "일정이 왜 바뀌었는지 설명해 주시겠어요?"
+    },
+    {
+     "en": "My tutor helps me every Tuesday afternoon.",
+     "ko": "튜터가 매주 화요일 오후에 저를 도와줘요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "어순이 올바른 문장은?",
+     "choices": [
+      "Could you tell me where the library is?",
+      "Could you tell me where is the library?",
+      "Could you tell me where the is library?",
+      "Could you tell me is where the library?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "문장 안에 들어간 질문(간접 의문문)은 의문사 + 주어 + 동사 순서입니다.",
+     "error_tag": "indirect-question",
+     "id": "F015-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "I wonder ___.",
+     "choices": [
+      "what time the lecture starts",
+      "what time does the lecture start",
+      "what the lecture time starts",
+      "does what time the lecture start"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "I wonder 뒤의 간접 의문문은 what time + 주어 + 동사 순서이고 does를 쓰지 않습니다.",
+     "error_tag": "indirect-question",
+     "id": "F015-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Where ___ you reserve the study room?",
+     "choices": [
+      "did",
+      "are",
+      "were",
+      "have"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "과거의 일을 묻는 직접 의문문은 의문사 + did + 주어 + 동사원형입니다. reserve가 원형이므로 did입니다.",
+     "error_tag": "question-order",
+     "id": "F015-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "다음 단어를 올바르게 배열한 문장은? (the office / opens / when / I'd like to know)",
+     "choices": [
+      "I'd like to know when the office opens.",
+      "I'd like to know when opens the office.",
+      "When the office opens I'd like to know.",
+      "I'd like to know the office when opens."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "I'd like to know 뒤에 when + 주어(the office) + 동사(opens)가 옵니다.",
+     "error_tag": "word-order",
+     "id": "F015-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Do you know how I can ___ for the course? (수강 신청하다)",
+     "answer_text": "register",
+     "accepted_answers": [
+      "register"
+     ],
+     "explanation_ko": "'수강 신청하다'는 register for입니다.",
+     "error_tag": "vocabulary",
+     "id": "F015-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Can you explain why the schedule ___? (change의 과거형)",
+     "answer_text": "changed",
+     "accepted_answers": [
+      "changed"
+     ],
+     "explanation_ko": "간접 의문문 안에서 주어 뒤에 동사가 오고, 과거의 일이므로 changed입니다.",
+     "error_tag": "indirect-question",
+     "id": "F015-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "간접 의문문을 하나 만들어 보세요. (예: Could you tell me ... / I wonder ...)",
+    "example_answer_en": "Could you tell me when the assignment is due?",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다.비공식 자체 연습이며 ETS 문항이 아닙니다."
+   },
+   "publish_date": "2026-10-26",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-26"
+   }
   }
  ]
 }

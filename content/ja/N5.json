@@ -4310,6 +4310,222 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N5-21",
+   "day_index": 21,
+   "week_index": 3,
+   "level": "N5",
+   "unit_id": "N5-W03",
+   "lesson_type": "checkpoint",
+   "title_ko": "3주 점검: 장보기와 외출",
+   "objective_ko": "N5 셋째 주 문형(〜てください・〜が 好きです/上手です・〜から 〜まで・〜を ください/いくらですか・〜に 行きます)을 종합 점검한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N5-20"
+   ],
+   "explanation_ko": "3주 차에 배운 부탁(〜てください), 좋아함・능숙함(〜が 好きです・上手です), 시작과 끝(〜から 〜まで), 물건 사기(〜を ください・いくらですか), 목적을 말하며 오가기(〜に 行きます)를 장보기와 외출 이야기 속에서 다시 확인합니다.",
+   "usage_notes": [
+    "〜てください는 동사 て형에 붙여 ‘~해 주세요’라는 부탁을 나타냅니다. 開ける → 開けてください.",
+    "好きです・上手です 앞의 대상에는 を가 아니라 が를 씁니다. 料理が 上手です.",
+    "〜から 〜まで는 시작과 끝을 나타내며, 시간・장소 모두에 쓸 수 있습니다."
+   ],
+   "common_mistakes": [
+    "牛乳を 好きです(X) → 牛乳が 好きです(O): 좋아하는 대상에는 が를 씁니다.",
+    "窓を 開けますください(X) → 窓を 開けてください(O): ください 앞에는 て형을 씁니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N5-21-01",
+     "kind": "word",
+     "text": "果物{くだもの}",
+     "reading_kana": "くだもの",
+     "reading_romanized": "kudamono",
+     "meaning_ko": "과일",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-21-02",
+     "kind": "word",
+     "text": "野菜{やさい}",
+     "reading_kana": "やさい",
+     "reading_romanized": "yasai",
+     "meaning_ko": "채소",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-21-03",
+     "kind": "word",
+     "text": "銀行{ぎんこう}",
+     "reading_kana": "ぎんこう",
+     "reading_romanized": "ginkou",
+     "meaning_ko": "은행",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-21-04",
+     "kind": "word",
+     "text": "牛乳{ぎゅうにゅう}",
+     "reading_kana": "ぎゅうにゅう",
+     "reading_romanized": "gyuunyuu",
+     "meaning_ko": "우유",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-21-05",
+     "kind": "word",
+     "text": "開{あ}ける",
+     "reading_kana": "あける",
+     "reading_romanized": "akeru",
+     "meaning_ko": "열다",
+     "part_of_speech": "동사(2그룹)"
+    },
+    {
+     "id": "w-JP-N5-21-06",
+     "kind": "word",
+     "text": "休{やす}み",
+     "reading_kana": "やすみ",
+     "reading_romanized": "yasumi",
+     "meaning_ko": "휴일, 쉬는 날",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "すみません、窓{まど}を 開{あ}けて ください。",
+     "meaning_ko": "죄송합니다, 창문을 열어 주세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "私{わたし}は 果物{くだもの}が 好{す}きです。",
+     "meaning_ko": "저는 과일을 좋아합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "妹{いもうと}は 料理{りょうり}が 上手{じょうず}です。",
+     "meaning_ko": "여동생은 요리를 잘합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "銀行{ぎんこう}は 九時{くじ}から 三時{さんじ}までです。",
+     "meaning_ko": "은행은 9시부터 3시까지입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "牛乳{ぎゅうにゅう}を ください。",
+     "meaning_ko": "우유를 주세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 野菜{やさい}は いくらですか。",
+     "meaning_ko": "이 채소는 얼마입니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "友達{ともだち}と 買{か}い物{もの}に 行{い}きます。",
+     "meaning_ko": "친구와 쇼핑하러 갑니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "日曜日{にちようび}は 休{やす}みです。",
+     "meaning_ko": "일요일은 휴일입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "ゆっくり 話{はな}して ください。",
+     "meaning_ko": "천천히 말해 주세요.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N5-21-Q1",
+     "type": "single_choice",
+     "prompt_ko": "窓を（　）ください。(창문을 열어 주세요)",
+     "options": [
+      "開けて",
+      "開けます",
+      "開けた",
+      "開ける"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜てください는 동사 て형에 붙입니다. 開ける의 て형은 開けて입니다."
+    },
+    {
+     "id": "JP-N5-21-Q2",
+     "type": "single_choice",
+     "prompt_ko": "妹は 料理（　）上手です。(여동생은 요리를 잘합니다)",
+     "options": [
+      "が",
+      "を",
+      "に",
+      "で"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "上手です 앞의 대상에는 が를 씁니다."
+    },
+    {
+     "id": "JP-N5-21-Q3",
+     "type": "single_choice",
+     "prompt_ko": "銀行は 九時（　）三時までです。(9시부터 3시까지)",
+     "options": [
+      "から",
+      "まで",
+      "に",
+      "で"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "시작은 〜から, 끝은 〜まで로 나타냅니다."
+    },
+    {
+     "id": "JP-N5-21-Q4",
+     "type": "single_choice",
+     "prompt_ko": "「牛乳を ください」의 뜻은?",
+     "options": [
+      "우유를 주세요",
+      "우유를 마십니다",
+      "우유는 얼마입니까",
+      "우유를 샀습니다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜を ください는 물건을 달라고 할 때 쓰는 ‘~을 주세요’입니다."
+    },
+    {
+     "id": "JP-N5-21-Q5",
+     "type": "typing",
+     "prompt_ko": "「果物」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kudamono",
+     "accepted_answers": [
+      "kudamono"
+     ],
+     "explanation_ko": "果物 = くだもの (kudamono)"
+    },
+    {
+     "id": "JP-N5-21-Q6",
+     "type": "typing",
+     "prompt_ko": "「銀行」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "ginkou",
+     "accepted_answers": [
+      "ginkou",
+      "ginko"
+     ],
+     "explanation_ko": "銀行 = ぎんこう (ginkou)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

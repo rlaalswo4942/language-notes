@@ -2871,6 +2871,201 @@
     "version": 1,
     "last_revised": "2026-10-25"
    }
+  },
+  {
+   "id": "B1-016",
+   "level": "B1",
+   "track": "general",
+   "day": 16,
+   "title_ko": "현재완료: just / already / yet",
+   "objective_ko": "just, already, yet을 현재완료와 함께 써서 방금 한 일, 이미 끝난 일, 아직 하지 않은 일을 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-26"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "현재완료(have / has + 과거분사)에서 시간 부사로 진행 상황을 말합니다. ① just: '방금'. have와 과거분사 사이에 둡니다: I have just finished my report. ② already: '이미'. 긍정문에서 have와 과거분사 사이에 둡니다: She has already left. ③ yet: '아직(부정문)', '벌써(의문문)'. 문장 끝에 둡니다: I haven't received the email yet. / Have you eaten lunch yet? — Not yet. yet은 긍정문에는 쓰지 않습니다. 정확한 과거 시점(yesterday, two hours ago)을 말할 때는 현재완료가 아닌 단순과거를 씁니다.",
+    "common_mistake_ko": "I have finished yet.(X) → I have already finished.(O) / She has left yesterday.(X) → She left yesterday.(O) / I didn't receive it already.(X) → I haven't received it yet.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "submit",
+     "part_of_speech": "동사",
+     "meaning_ko": "제출하다",
+     "example_en": "He hasn't submitted the form yet.",
+     "example_ko": "그는 아직 서류를 제출하지 않았어요."
+    },
+    {
+     "word": "receive",
+     "part_of_speech": "동사",
+     "meaning_ko": "받다",
+     "example_en": "I haven't received the email yet.",
+     "example_ko": "나는 아직 그 이메일을 받지 못했어요."
+    },
+    {
+     "word": "deliver",
+     "part_of_speech": "동사",
+     "meaning_ko": "배달하다",
+     "example_en": "They delivered the parcel this morning.",
+     "example_ko": "그들은 오늘 아침에 소포를 배달했어요."
+    },
+    {
+     "word": "decide",
+     "part_of_speech": "동사",
+     "meaning_ko": "결정하다",
+     "example_en": "We have already decided on a date.",
+     "example_ko": "우리는 이미 날짜를 정했어요."
+    },
+    {
+     "word": "report",
+     "part_of_speech": "명사",
+     "meaning_ko": "보고서",
+     "example_en": "I have just finished my report.",
+     "example_ko": "나는 방금 보고서를 끝냈어요."
+    },
+    {
+     "word": "form",
+     "part_of_speech": "명사",
+     "meaning_ko": "양식, 서류",
+     "example_en": "Please fill in this form.",
+     "example_ko": "이 양식을 작성해 주세요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I have just finished my report.",
+     "ko": "나는 방금 보고서를 끝냈어요."
+    },
+    {
+     "en": "She has already left the office.",
+     "ko": "그녀는 이미 사무실을 떠났어요."
+    },
+    {
+     "en": "Have you eaten lunch yet? — Not yet.",
+     "ko": "점심 먹었어요? — 아직이요."
+    },
+    {
+     "en": "I haven't received the email yet.",
+     "ko": "나는 아직 그 이메일을 받지 못했어요."
+    },
+    {
+     "en": "They have just arrived at the airport.",
+     "ko": "그들은 방금 공항에 도착했어요."
+    },
+    {
+     "en": "We have already decided on a date.",
+     "ko": "우리는 이미 날짜를 정했어요."
+    },
+    {
+     "en": "He hasn't submitted the form yet.",
+     "ko": "그는 아직 서류를 제출하지 않았어요."
+    },
+    {
+     "en": "Has the train left yet? — Yes, it has just left.",
+     "ko": "기차가 벌써 떠났나요? — 네, 방금 떠났어요."
+    },
+    {
+     "en": "Have you finished already? That was quick!",
+     "ko": "벌써 끝냈어요? 빠르네요!"
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "I have ___ finished my homework. (방금)",
+     "choices": [
+      "just",
+      "yet",
+      "ago",
+      "since"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "방금 끝난 일은 have와 과거분사 사이에 just를 둡니다.",
+     "error_tag": "just",
+     "id": "B1-016-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Have you called her ___?",
+     "choices": [
+      "yet",
+      "just",
+      "already",
+      "ago"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "의문문 끝에서 '벌써 ~했나요?'는 yet을 씁니다.",
+     "error_tag": "yet",
+     "id": "B1-016-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "I haven't received the package ___.",
+     "choices": [
+      "yet",
+      "already",
+      "just",
+      "ever"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "부정문 끝에서 '아직 ~하지 않았다'는 yet을 씁니다.",
+     "error_tag": "yet",
+     "id": "B1-016-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'그녀는 이미 떠났어요'를 영어로 바르게 말한 것은?",
+     "choices": [
+      "She has already left.",
+      "She has left yet.",
+      "She has just already left.",
+      "She is already left."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "이미 끝난 일은 have / has와 과거분사 사이에 already를 둡니다.",
+     "error_tag": "already",
+     "id": "B1-016-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: We haven't decided ___. (우리는 아직 결정하지 않았어요)",
+     "answer_text": "yet",
+     "accepted_answers": [
+      "yet"
+     ],
+     "explanation_ko": "부정문 끝의 '아직'은 yet입니다.",
+     "error_tag": "yet",
+     "id": "B1-016-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: He has ___ arrived. He is at the door now. (방금)",
+     "answer_text": "just",
+     "accepted_answers": [
+      "just"
+     ],
+     "explanation_ko": "방금 일어난 일은 just입니다.",
+     "error_tag": "just",
+     "id": "B1-016-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "오늘 이미 끝낸 일 하나와 아직 하지 않은 일 하나를 현재완료로 써 보세요.",
+    "example_answer_en": "I have already finished my homework. I haven't cooked dinner yet.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-26",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-26"
+   }
   }
  ]
 }

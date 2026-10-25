@@ -4306,6 +4306,224 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N3-21",
+   "day_index": 21,
+   "week_index": 3,
+   "level": "N3",
+   "unit_id": "N3-W03",
+   "lesson_type": "checkpoint",
+   "title_ko": "3주 점검: 도서관 이야기",
+   "objective_ko": "N3 셋째 주 문형(〜(よ)うとする・〜だけでなく〜も・〜によると〜そうだ・〜について/にとって/として・受身形)을 도서관 이야기 속에서 종합 점검한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N3-20"
+   ],
+   "explanation_ko": "3주 차에 배운 〜(よ)うとする(~하려고 하다), 〜だけでなく〜も(~뿐 아니라 ~도), 〜によると〜そうだ(전해 들은 정보), 〜について・〜にとって・〜として(화제・입장・자격), 受身形(~당하다・받다)을 도서관에 관한 짧은 글 속에서 다시 확인합니다.",
+   "usage_notes": [
+    "〜(よ)うとする는 의지형 + とする로 ‘~하려고 하다’입니다. 과거형 〜(よ)うとしたが는 ‘하려고 했지만 (잘 안 됐다)’는 뜻으로 자주 쓰입니다.",
+    "〜によると〜そうだ는 들은 정보를 전하는 말로, 끝은 ‘~라고 한다’의 そうだ를 씁니다.",
+    "受身形은 ‘~당하다・~받다’입니다. 1그룹은 ない형 어미를 あ단으로 바꿔 れる(話す → 話される), 2그룹은 られる(ほめる → ほめられる)를 붙입니다."
+   ],
+   "common_mistakes": [
+    "先生の話によって、来月から変わるそうだ(X) → 先生の話によると、来月から変わるそうだ(O): 전해 들은 정보의 근거는 〜によると.",
+    "先生がほめて、うれしかった(X: 내가 칭찬을 받은 경우) → 先生にほめられて、うれしかった(O)"
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N3-21-01",
+     "kind": "word",
+     "text": "図書館{としょかん}",
+     "reading_kana": "としょかん",
+     "reading_romanized": "toshokan",
+     "meaning_ko": "도서관",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-21-02",
+     "kind": "word",
+     "text": "資料{しりょう}",
+     "reading_kana": "しりょう",
+     "reading_romanized": "shiryou",
+     "meaning_ko": "자료",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-21-03",
+     "kind": "word",
+     "text": "研究{けんきゅう}",
+     "reading_kana": "けんきゅう",
+     "reading_romanized": "kenkyuu",
+     "meaning_ko": "연구",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N3-21-04",
+     "kind": "word",
+     "text": "参加{さんか}",
+     "reading_kana": "さんか",
+     "reading_romanized": "sanka",
+     "meaning_ko": "참가",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N3-21-05",
+     "kind": "word",
+     "text": "利用{りよう}",
+     "reading_kana": "りよう",
+     "reading_romanized": "riyou",
+     "meaning_ko": "이용",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N3-21-06",
+     "kind": "word",
+     "text": "注意{ちゅうい}",
+     "reading_kana": "ちゅうい",
+     "reading_romanized": "chuui",
+     "meaning_ko": "주의",
+     "part_of_speech": "명사・する동사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "図書館{としょかん}で資料{しりょう}を探{さが}そうとしたが、見{み}つからなかった。",
+     "meaning_ko": "도서관에서 자료를 찾으려고 했지만 찾지 못했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この図書館{としょかん}は本{ほん}だけでなく、雑誌{ざっし}も借{か}りられる。",
+     "meaning_ko": "이 도서관은 책뿐 아니라 잡지도 빌릴 수 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "先生{せんせい}の話{はなし}によると、来月{らいげつ}から利用{りよう}時間{じかん}が変{か}わるそうだ。",
+     "meaning_ko": "선생님 말씀에 따르면 다음 달부터 이용 시간이 바뀐다고 한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "私{わたし}にとって、図書館{としょかん}は大切{たいせつ}な場所{ばしょ}だ。",
+     "meaning_ko": "나에게 도서관은 소중한 장소다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}は研究者{けんきゅうしゃ}として、この問題{もんだい}について調{しら}べている。",
+     "meaning_ko": "그는 연구자로서 이 문제에 대해 조사하고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "子供{こども}のとき、先生{せんせい}にほめられて、うれしかった。",
+     "meaning_ko": "어릴 때 선생님께 칭찬받아서 기뻤다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "電車{でんしゃ}の中{なか}で、知{し}らない人{ひと}に話{はな}しかけられた。",
+     "meaning_ko": "전철 안에서 모르는 사람이 말을 걸어왔다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "このイベントには、学生{がくせい}だけでなく社会人{しゃかいじん}も参加{さんか}できる。",
+     "meaning_ko": "이 행사에는 학생뿐 아니라 직장인도 참가할 수 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "図書館{としょかん}では、大{おお}きな声{こえ}で話{はな}すと注意{ちゅうい}される。",
+     "meaning_ko": "도서관에서는 큰 소리로 말하면 주의를 받는다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N3-21-Q1",
+     "type": "single_choice",
+     "prompt_ko": "資料を探（　）としたが、見つからなかった。(찾으려고 했지만)",
+     "options": [
+      "そう",
+      "した",
+      "して",
+      "す"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "探す의 의지형은 探そう이고, 〜(よ)うとした로 ‘하려고 했다’를 나타냅니다."
+    },
+    {
+     "id": "JP-N3-21-Q2",
+     "type": "single_choice",
+     "prompt_ko": "この図書館は本（　）、雑誌も借りられる。(책뿐 아니라)",
+     "options": [
+      "だけでなく",
+      "だけで",
+      "ばかりに",
+      "しか"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘~뿐 아니라 ~도’는 〜だけでなく〜も로 나타냅니다."
+    },
+    {
+     "id": "JP-N3-21-Q3",
+     "type": "single_choice",
+     "prompt_ko": "先生の話（　）、来月から時間が変わるそうだ。",
+     "options": [
+      "によると",
+      "について",
+      "にとって",
+      "として"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "전해 들은 정보의 근거는 〜によると로 나타냅니다. について는 화제, にとって는 입장, として는 자격입니다."
+    },
+    {
+     "id": "JP-N3-21-Q4",
+     "type": "single_choice",
+     "prompt_ko": "子供のとき、先生に（　）、うれしかった。(칭찬받아서)",
+     "options": [
+      "ほめられて",
+      "ほめて",
+      "ほめさせて",
+      "ほめれて"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "칭찬을 받은 쪽이 주어이므로 受身形 ほめられて를 씁니다."
+    },
+    {
+     "id": "JP-N3-21-Q5",
+     "type": "typing",
+     "prompt_ko": "「資料」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "shiryou",
+     "accepted_answers": [
+      "shiryou",
+      "shiryo",
+      "siryou",
+      "siryo"
+     ],
+     "explanation_ko": "資料 = しりょう (shiryou)"
+    },
+    {
+     "id": "JP-N3-21-Q6",
+     "type": "typing",
+     "prompt_ko": "「参加」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "sanka",
+     "accepted_answers": [
+      "sanka"
+     ],
+     "explanation_ko": "参加 = さんか (sanka)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

@@ -4259,6 +4259,206 @@
     "version": 1,
     "last_revised": "2026-10-25"
    }
+  },
+  {
+   "id": "PRE-027",
+   "level": "Pre-A1",
+   "track": "foundation",
+   "day": 27,
+   "title_ko": "내 일상 5문장: 배운 문장 통합",
+   "objective_ko": "지금까지 배운 be동사·일반동사·can으로 하루 일과를 다섯 문장으로 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-26"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "하루 일과는 '주어 + 동사 + 시간·장소' 순서로 말합니다. ① 일어나는 때: I wake up at seven. ② 먹는 것: I eat breakfast at home. ③ 가는 곳: I go to school by bus. ④ 하는 일: I do my homework after school. ⑤ 자는 때: I go to bed at ten. 부정은 don't, 질문은 Do you ...?로 만듭니다: I don't eat breakfast. / Do you walk to school? — No, I don't. 주어가 he / she이면 동사에 -s를 붙입니다: She goes to school by bus. 다섯 문장을 시간 순서로 이으면 짧은 일상 소개가 됩니다.",
+    "common_mistake_ko": "I am wake up at seven.(X) → I wake up at seven.(O) / She go to school.(X) → She goes to school.(O) / I not eat breakfast.(X) → I don't eat breakfast.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "wake up",
+     "part_of_speech": "동사구",
+     "meaning_ko": "일어나다, 잠에서 깨다",
+     "example_en": "I wake up at seven.",
+     "example_ko": "나는 7시에 일어나요."
+    },
+    {
+     "word": "breakfast",
+     "part_of_speech": "명사",
+     "meaning_ko": "아침 식사",
+     "example_en": "I eat breakfast at home.",
+     "example_ko": "나는 집에서 아침을 먹어요."
+    },
+    {
+     "word": "bus",
+     "part_of_speech": "명사",
+     "meaning_ko": "버스",
+     "example_en": "I go to school by bus.",
+     "example_ko": "나는 버스로 학교에 가요."
+    },
+    {
+     "word": "homework",
+     "part_of_speech": "명사",
+     "meaning_ko": "숙제",
+     "example_en": "I do my homework after school.",
+     "example_ko": "나는 방과 후에 숙제를 해요."
+    },
+    {
+     "word": "dinner",
+     "part_of_speech": "명사",
+     "meaning_ko": "저녁 식사",
+     "example_en": "I eat dinner at six.",
+     "example_ko": "나는 6시에 저녁을 먹어요."
+    },
+    {
+     "word": "every day",
+     "part_of_speech": "부사구",
+     "meaning_ko": "매일",
+     "example_en": "I study English every day.",
+     "example_ko": "나는 매일 영어를 공부해요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I wake up at seven.",
+     "ko": "나는 7시에 일어나요."
+    },
+    {
+     "en": "I eat breakfast at home.",
+     "ko": "나는 집에서 아침을 먹어요."
+    },
+    {
+     "en": "I go to school by bus.",
+     "ko": "나는 버스로 학교에 가요."
+    },
+    {
+     "en": "I like English class.",
+     "ko": "나는 영어 수업을 좋아해요."
+    },
+    {
+     "en": "I do my homework after school.",
+     "ko": "나는 방과 후에 숙제를 해요."
+    },
+    {
+     "en": "I can play the guitar.",
+     "ko": "나는 기타를 칠 수 있어요."
+    },
+    {
+     "en": "I go to bed at ten.",
+     "ko": "나는 10시에 잠자리에 들어요."
+    },
+    {
+     "en": "She goes to school by bus.",
+     "ko": "그녀는 버스로 학교에 가요."
+    },
+    {
+     "en": "Do you walk to school? — No, I don't.",
+     "ko": "학교에 걸어가요? — 아니요, 안 걸어가요."
+    },
+    {
+     "en": "I don't eat breakfast.",
+     "ko": "나는 아침을 먹지 않아요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "'나는 7시에 일어나요'를 영어로 바르게 말한 것은?",
+     "choices": [
+      "I wake up at seven.",
+      "I wakes up at seven.",
+      "I am wake up at seven.",
+      "I waking up at seven."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "I 뒤에는 동사원형 wake up을 씁니다. am이나 -ing를 붙이지 않습니다.",
+     "error_tag": "present-simple",
+     "id": "P027-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "She ___ to school by bus.",
+     "choices": [
+      "goes",
+      "go",
+      "going",
+      "is go"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "주어 She는 3인칭 단수이므로 go에 -es를 붙여 goes가 됩니다.",
+     "error_tag": "third-person-s",
+     "id": "P027-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "I ___ my homework after school.",
+     "choices": [
+      "do",
+      "does",
+      "am",
+      "is"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "주어 I에는 do를 씁니다. does는 he / she / it에 씁니다.",
+     "error_tag": "do-does",
+     "id": "P027-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'나는 아침을 먹지 않아요'를 영어로 바르게 말한 것은?",
+     "choices": [
+      "I don't eat breakfast.",
+      "I doesn't eat breakfast.",
+      "I not eat breakfast.",
+      "I'm not eat breakfast."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "일반동사의 부정은 don't + 동사원형입니다. 주어 I에는 doesn't를 쓰지 않습니다.",
+     "error_tag": "negation",
+     "id": "P027-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: I go to ___ at ten. (나는 10시에 잠자리에 들어요)",
+     "answer_text": "bed",
+     "accepted_answers": [
+      "bed"
+     ],
+     "explanation_ko": "'잠자리에 들다'는 go to bed입니다.",
+     "error_tag": "vocabulary",
+     "id": "P027-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: ___ you walk to school? — No, I don't.",
+     "answer_text": "Do",
+     "accepted_answers": [
+      "Do",
+      "do"
+     ],
+     "explanation_ko": "you가 주어인 일반동사 질문은 Do you ...?로 시작합니다.",
+     "error_tag": "question",
+     "id": "P027-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "하루 일과를 다섯 문장으로 써 보세요. (일어나는 때, 먹는 것, 가는 곳, 하는 일, 자는 때)",
+    "example_answer_en": "I wake up at seven. I eat breakfast at home. I go to school by bus. I do my homework after school. I go to bed at ten.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-26",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-26"
+   }
   }
  ]
 }

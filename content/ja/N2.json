@@ -4283,6 +4283,224 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-21",
+   "day_index": 21,
+   "week_index": 3,
+   "level": "N2",
+   "unit_id": "N2-W03",
+   "lesson_type": "checkpoint",
+   "title_ko": "3주 점검: 도시 교통 이야기",
+   "objective_ko": "N2 셋째 주 문형(〜に違いない・〜かねない/〜かねる・〜つつある/〜つつ・〜どころか/〜どころではない・〜をはじめ)을 도시 교통 이야기 속에서 종합 점검한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-20"
+   ],
+   "explanation_ko": "3주 차에 배운 〜に違いない(틀림없이 ~일 것이다), 〜かねない・〜かねる(~할 수도 있다・~하기 어렵다), 〜つつある・〜つつ(변화의 진행・동시 동작), 〜どころか・〜どころではない(~는커녕・~할 상황이 아니다), 〜をはじめ(~을 비롯해)를 도시 교통에 관한 글 속에서 다시 확인합니다.",
+   "usage_notes": [
+    "〜かねない는 ‘좋지 않은 일이 일어날 수도 있다’, 〜かねる는 ‘~하기 어렵다’로 뜻이 거의 반대입니다. 모양이 비슷하니 문장의 뜻으로 구별합니다.",
+    "〜つつある는 변화가 계속 진행되고 있음을, 〜つつ는 동시에 하는 동작(~하면서)을 나타냅니다.",
+    "〜どころか는 ‘~는커녕 오히려’, 〜どころではない는 ‘~할 상황이 아니다’입니다."
+   ],
+   "common_mistakes": [
+    "賛成しかねない(X: 찬성하기 어렵다는 뜻일 때) → 賛成しかねる(O)",
+    "問題が深刻になりかねる(X) → 問題が深刻になりかねない(O): ‘~할 수도 있다’는 かねない."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N2-21-01",
+     "kind": "word",
+     "text": "渋滞{じゅうたい}",
+     "reading_kana": "じゅうたい",
+     "reading_romanized": "juutai",
+     "meaning_ko": "정체(교통)",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N2-21-02",
+     "kind": "word",
+     "text": "交通{こうつう}",
+     "reading_kana": "こうつう",
+     "reading_romanized": "koutsuu",
+     "meaning_ko": "교통",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-21-03",
+     "kind": "word",
+     "text": "対策{たいさく}",
+     "reading_kana": "たいさく",
+     "reading_romanized": "taisaku",
+     "meaning_ko": "대책",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-21-04",
+     "kind": "word",
+     "text": "課題{かだい}",
+     "reading_kana": "かだい",
+     "reading_romanized": "kadai",
+     "meaning_ko": "과제",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-21-05",
+     "kind": "word",
+     "text": "深刻{しんこく}",
+     "reading_kana": "しんこく",
+     "reading_romanized": "shinkoku",
+     "meaning_ko": "심각함",
+     "part_of_speech": "な형용사"
+    },
+    {
+     "id": "w-JP-N2-21-06",
+     "kind": "word",
+     "text": "利用{りよう}",
+     "reading_kana": "りよう",
+     "reading_romanized": "riyou",
+     "meaning_ko": "이용",
+     "part_of_speech": "명사・する동사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "朝{あさ}の道路{どうろ}は、渋滞{じゅうたい}しているに違{ちが}いない。",
+     "meaning_ko": "아침 도로는 틀림없이 정체되고 있을 것이다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "対策{たいさく}を急{いそ}がなければ、問題{もんだい}が深刻{しんこく}になりかねない。",
+     "meaning_ko": "대책을 서두르지 않으면 문제가 심각해질 수도 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "その案{あん}には、私{わたし}は賛成{さんせい}しかねる。",
+     "meaning_ko": "그 안에는 나는 찬성하기 어렵다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "自転車{じてんしゃ}を利用{りよう}する人{ひと}が、少{すこ}しずつ増{ふ}えつつある。",
+     "meaning_ko": "자전거를 이용하는 사람이 조금씩 늘고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "地図{ちず}を見{み}つつ、道{みち}を確認{かくにん}した。",
+     "meaning_ko": "지도를 보면서 길을 확인했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "道路{どうろ}が空{す}くどころか、昨日{きのう}よりもっと混{こ}んでいる。",
+     "meaning_ko": "도로가 한산해지기는커녕 어제보다 더 붐빈다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "今{いま}は旅行{りょこう}どころではない。仕事{しごと}が忙{いそが}しすぎる。",
+     "meaning_ko": "지금은 여행할 상황이 아니다. 일이 너무 바쁘다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "東京{とうきょう}をはじめ、多{おお}くの都市{とし}で交通{こうつう}の課題{かだい}が話{はな}し合{あ}われている。",
+     "meaning_ko": "도쿄를 비롯해 많은 도시에서 교통 과제가 논의되고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}が遅{おく}れているのは、電車{でんしゃ}が止{と}まったからに違{ちが}いない。",
+     "meaning_ko": "그가 늦는 것은 전철이 멈췄기 때문임이 틀림없다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N2-21-Q1",
+     "type": "single_choice",
+     "prompt_ko": "彼は まだ 来ない。電車が 止まった（　）。(틀림없다)",
+     "options": [
+      "に違いない",
+      "かねない",
+      "つつある",
+      "どころではない"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "근거를 바탕으로 확신할 때는 〜に違いない를 씁니다."
+    },
+    {
+     "id": "JP-N2-21-Q2",
+     "type": "single_choice",
+     "prompt_ko": "対策を急がなければ、問題が深刻になり（　）。(될 수도 있다)",
+     "options": [
+      "かねない",
+      "かねる",
+      "つつある",
+      "どころか"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "좋지 않은 일이 일어날 가능성은 〜かねない로 나타냅니다. かねる는 ‘~하기 어렵다’입니다."
+    },
+    {
+     "id": "JP-N2-21-Q3",
+     "type": "single_choice",
+     "prompt_ko": "その案には賛成し（　）。(찬성하기 어렵다)",
+     "options": [
+      "かねる",
+      "かねない",
+      "つつある",
+      "に違いない"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘~하기 어렵다(~할 수 없다)’는 〜かねる로 나타냅니다."
+    },
+    {
+     "id": "JP-N2-21-Q4",
+     "type": "single_choice",
+     "prompt_ko": "自転車を利用する人が増え（　）。(늘고 있다)",
+     "options": [
+      "つつある",
+      "かねない",
+      "どころか",
+      "をはじめ"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "변화가 진행 중임은 〜つつある로 나타냅니다."
+    },
+    {
+     "id": "JP-N2-21-Q5",
+     "type": "typing",
+     "prompt_ko": "「渋滞」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "juutai",
+     "accepted_answers": [
+      "juutai",
+      "jutai",
+      "zyuutai",
+      "zyutai"
+     ],
+     "explanation_ko": "渋滞 = じゅうたい (juutai)"
+    },
+    {
+     "id": "JP-N2-21-Q6",
+     "type": "typing",
+     "prompt_ko": "「対策」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "taisaku",
+     "accepted_answers": [
+      "taisaku"
+     ],
+     "explanation_ko": "対策 = たいさく (taisaku)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

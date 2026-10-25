@@ -5421,6 +5421,194 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전"
+  },
+  {
+   "id": "JP-INTRO-45",
+   "day_index": 45,
+   "week_index": 7,
+   "level": "INTRO",
+   "unit_id": "INTRO-W07",
+   "lesson_type": "new",
+   "title_ko": "가타카나 탁음 バ행",
+   "objective_ko": "가타카나 ハ행에 탁점(゛)을 붙인 バ·ビ·ブ·ベ·ボ를 읽고, 외래어 단어를 읽는다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-INTRO-44"
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-INTRO-45-01",
+     "kind": "kana",
+     "text": "バ",
+     "reading_romanized": "ba",
+     "meaning_ko": null
+    },
+    {
+     "id": "w-JP-INTRO-45-02",
+     "kind": "kana",
+     "text": "ビ",
+     "reading_romanized": "bi",
+     "meaning_ko": null
+    },
+    {
+     "id": "w-JP-INTRO-45-03",
+     "kind": "kana",
+     "text": "ブ",
+     "reading_romanized": "bu",
+     "meaning_ko": null
+    },
+    {
+     "id": "w-JP-INTRO-45-04",
+     "kind": "kana",
+     "text": "ベ",
+     "reading_romanized": "be",
+     "meaning_ko": null
+    },
+    {
+     "id": "w-JP-INTRO-45-05",
+     "kind": "kana",
+     "text": "ボ",
+     "reading_romanized": "bo",
+     "meaning_ko": null
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "バス",
+     "reading_romanized": "basu",
+     "meaning_ko": "버스",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "ビル",
+     "reading_romanized": "biru",
+     "meaning_ko": "빌딩",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "ブーツ",
+     "reading_romanized": "buutsu",
+     "meaning_ko": "부츠",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "ベランダ",
+     "reading_romanized": "beranda",
+     "meaning_ko": "베란다",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "ボール",
+     "reading_romanized": "booru",
+     "meaning_ko": "공",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "バナナ",
+     "reading_romanized": "banana",
+     "meaning_ko": "바나나",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "ボタン",
+     "reading_romanized": "botan",
+     "meaning_ko": "단추",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    },
+    {
+     "japanese": "ビデオ",
+     "reading_romanized": "bideo",
+     "meaning_ko": "비디오",
+     "explanation_ko": "읽기와 뜻을 함께 확인하고 소리 내어 말해 봅니다."
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「バ」의 일반적인 로마자 표기는 무엇인가요?",
+     "options": [
+      "ba",
+      "pa",
+      "ha",
+      "da"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "バ는 ba로 표기합니다. ハ(ha)에 탁점(゛)이 붙은 글자입니다.",
+     "id": "JP-INTRO-45-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「ボ」의 일반적인 로마자 표기는 무엇인가요?",
+     "options": [
+      "ho",
+      "bo",
+      "po",
+      "do"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "ボ는 bo입니다. ホ(ho)에 탁점이 붙은 글자입니다.",
+     "id": "JP-INTRO-45-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「バナナ」의 뜻은?",
+     "options": [
+      "바나나",
+      "버스",
+      "공",
+      "단추"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "バナナ(banana)는 '바나나'입니다. 버스는 バス, 공은 ボール, 단추는 ボタン입니다.",
+     "id": "JP-INTRO-45-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「ボール」의 뜻은?",
+     "options": [
+      "공",
+      "빌딩",
+      "부츠",
+      "비디오"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ボール(booru)는 '공'입니다. 빌딩은 ビル, 부츠는 ブーツ입니다.",
+     "id": "JP-INTRO-45-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「バス」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "basu",
+     "accepted_answers": [
+      "basu"
+     ],
+     "explanation_ko": "バス = basu (버스)",
+     "id": "JP-INTRO-45-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「ビル」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "biru",
+     "accepted_answers": [
+      "biru"
+     ],
+     "explanation_ko": "ビル = biru (빌딩)",
+     "id": "JP-INTRO-45-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_KATAKANA"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전"
   }
  ]
 }

@@ -3904,6 +3904,205 @@
     "version": 1,
     "last_revised": "2026-10-25"
    }
+  },
+  {
+   "id": "A2-021",
+   "level": "A2",
+   "track": "foundation",
+   "day": 21,
+   "title_ko": "3주 복습: 시간 표현·목적 to·정중한 부탁·as ... as·구동사·제안",
+   "objective_ko": "15~20일차 표현(ago/next/in, 목적 to, Could you, as ... as, 구동사, Why don't we)을 섞어 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-26"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "이번 주 여섯 가지를 복습합니다. ① 시간 표현: ago는 지난 일(three days ago), last는 지난(last week), next는 다음(next month), in + 기간은 지금부터 그만큼 뒤(in ten minutes)입니다. ② 목적 to + 동사원형: She went to the market to buy fruit.(과일을 사려고) ③ Could you ...? / Can I ...?: 정중한 부탁과 허락 구하기입니다. ④ as + 형용사 + as: 같은 정도 비교이고, 부정은 not as ... as입니다. ⑤ 구동사: turn on / turn off / pick up처럼 동사 + 부사가 한 덩어리입니다. ⑥ 제안: Let's / Why don't we / How about -ing.",
+    "common_mistake_ko": "I visited Busan before three days.(X) → I visited Busan three days ago.(O) / She went to the bank for get money.(X) → She went to the bank to get money.(O) / He is as taller as me.(X) → He is as tall as me.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "borrow",
+     "part_of_speech": "동사",
+     "meaning_ko": "빌리다",
+     "example_en": "Can I borrow your pen?",
+     "example_ko": "펜을 빌려도 될까요?"
+    },
+    {
+     "word": "lend",
+     "part_of_speech": "동사",
+     "meaning_ko": "빌려주다",
+     "example_en": "Could you lend me your umbrella?",
+     "example_ko": "우산을 빌려주실 수 있나요?"
+    },
+    {
+     "word": "appointment",
+     "part_of_speech": "명사",
+     "meaning_ko": "(병원 등의) 예약, 약속",
+     "example_en": "I have a doctor's appointment at three.",
+     "example_ko": "나는 3시에 병원 예약이 있어요."
+    },
+    {
+     "word": "comfortable",
+     "part_of_speech": "형용사",
+     "meaning_ko": "편안한",
+     "example_en": "This chair is very comfortable.",
+     "example_ko": "이 의자는 매우 편해요."
+    },
+    {
+     "word": "airport",
+     "part_of_speech": "명사",
+     "meaning_ko": "공항",
+     "example_en": "We are going to the airport by taxi.",
+     "example_ko": "우리는 택시로 공항에 가요."
+    },
+    {
+     "word": "wallet",
+     "part_of_speech": "명사",
+     "meaning_ko": "지갑",
+     "example_en": "I can't find my wallet.",
+     "example_ko": "지갑을 찾을 수 없어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I met her two days ago.",
+     "ko": "나는 이틀 전에 그녀를 만났어요."
+    },
+    {
+     "en": "We are going to travel next month.",
+     "ko": "우리는 다음 달에 여행을 갈 거예요."
+    },
+    {
+     "en": "I'll call you in ten minutes.",
+     "ko": "10분 뒤에 전화할게요."
+    },
+    {
+     "en": "She went to the market to buy fruit.",
+     "ko": "그녀는 과일을 사려고 시장에 갔어요."
+    },
+    {
+     "en": "Could you open the window, please?",
+     "ko": "창문을 열어 주시겠어요?"
+    },
+    {
+     "en": "Can I borrow your pen? — Sure.",
+     "ko": "펜을 빌려도 될까요? — 물론이죠."
+    },
+    {
+     "en": "My brother is as tall as my father.",
+     "ko": "내 형(남동생)은 아버지만큼 키가 커요."
+    },
+    {
+     "en": "This bag isn't as expensive as that one.",
+     "ko": "이 가방은 저것만큼 비싸지 않아요."
+    },
+    {
+     "en": "Please turn off your phone.",
+     "ko": "휴대폰을 꺼 주세요."
+    },
+    {
+     "en": "Why don't we take a taxi to the airport?",
+     "ko": "공항까지 택시를 타는 게 어때요?"
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "I visited Busan three days ___.",
+     "choices": [
+      "ago",
+      "last",
+      "next",
+      "before"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "지금부터 거슬러 올라가 '~ 전에'는 기간 뒤에 ago를 씁니다.",
+     "error_tag": "time-expression",
+     "id": "A2-021-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "She went to the bank ___ get some money.",
+     "choices": [
+      "to",
+      "for",
+      "in",
+      "at"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "목적(~하려고)은 to + 동사원형으로 말합니다. for 뒤에는 동사원형을 쓸 수 없습니다.",
+     "error_tag": "purpose-to",
+     "id": "A2-021-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Could you ___ me your pen?",
+     "choices": [
+      "lend",
+      "borrow",
+      "borrowed",
+      "lending"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Could you lend me ...?는 '~을 빌려주실 수 있나요?'입니다. borrow는 빌리는 쪽이 쓰고 me를 바로 뒤에 두지 않습니다.",
+     "error_tag": "lend-borrow",
+     "id": "A2-021-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "This chair is ___ comfortable as that sofa. (같은 정도)",
+     "choices": [
+      "as",
+      "than",
+      "more",
+      "the"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "같은 정도는 as + 형용사 + as로 말합니다.",
+     "error_tag": "as-as",
+     "id": "A2-021-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: We are going to visit my aunt ___ month. (다음 달에)",
+     "answer_text": "next",
+     "accepted_answers": [
+      "next"
+     ],
+     "explanation_ko": "앞으로 올 달은 next month입니다.",
+     "error_tag": "time-expression",
+     "id": "A2-021-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Why don't we ___ a taxi? (택시를 타다)",
+     "answer_text": "take",
+     "accepted_answers": [
+      "take"
+     ],
+     "explanation_ko": "Why don't we 뒤에는 동사원형이 오고, 택시를 타다는 take a taxi입니다.",
+     "error_tag": "suggestion",
+     "id": "A2-021-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "이번 주 표현 중 두 가지 이상을 써서 다음 주 계획이나 부탁을 영어로 써 보세요.",
+    "example_answer_en": "I'm going to go to the airport next week to meet my friend. Could you lend me your suitcase?",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-26",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-26"
+   }
   }
  ]
 }

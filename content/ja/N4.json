@@ -4287,6 +4287,231 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-21",
+   "day_index": 21,
+   "week_index": 3,
+   "level": "N4",
+   "unit_id": "N4-W03",
+   "lesson_type": "checkpoint",
+   "title_ko": "3주 점검: 선물과 생활 이야기",
+   "objective_ko": "N4 셋째 주 문형(〜から・〜ので, あげる・もらう・くれる, 〜かもしれません, 〜すぎる, 〜やすい・〜にくい)을 종합 점검한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-20"
+   ],
+   "explanation_ko": "3주 차에 배운 이유(〜から・〜ので), 주고받기(あげる・もらう・くれる), 추측(〜かもしれません), 정도가 지나침(〜すぎる), 하기 쉬움・어려움(〜やすい・〜にくい)을 선물과 생활 이야기 속에서 다시 확인합니다.",
+   "usage_notes": [
+    "あげる는 내가 남에게 주는 일, くれる는 남이 나에게 주는 일, もらう는 내가 받는 일입니다. 같은 일도 누구의 입장인지에 따라 동사가 달라집니다.",
+    "〜すぎる는 い형용사는 어미 い를 빼고(小さい → 小さすぎる), 동사는 ます형에 붙입니다(食べます → 食べすぎる).",
+    "〜やすい・〜にくい는 동사 ます형에 붙습니다(使います → 使いやすい・使いにくい)."
+   ],
+   "common_mistakes": [
+    "友達が 私に 傘を あげました(X) → 友達が 私に 傘を くれました(O): 받는 사람이 나일 때는 くれる를 씁니다.",
+    "小さいすぎます(X) → 小さすぎます(O): い형용사는 い를 빼고 すぎる를 붙입니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N4-21-01",
+     "kind": "word",
+     "text": "誕生日{たんじょうび}",
+     "reading_kana": "たんじょうび",
+     "reading_romanized": "tanjoubi",
+     "meaning_ko": "생일",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-21-02",
+     "kind": "word",
+     "text": "辞書{じしょ}",
+     "reading_kana": "じしょ",
+     "reading_romanized": "jisho",
+     "meaning_ko": "사전",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-21-03",
+     "kind": "word",
+     "text": "傘{かさ}",
+     "reading_kana": "かさ",
+     "reading_romanized": "kasa",
+     "meaning_ko": "우산",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-21-04",
+     "kind": "word",
+     "text": "説明{せつめい}",
+     "reading_kana": "せつめい",
+     "reading_romanized": "setsumei",
+     "meaning_ko": "설명",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N4-21-05",
+     "kind": "word",
+     "text": "字{じ}",
+     "reading_kana": "じ",
+     "reading_romanized": "ji",
+     "meaning_ko": "글자",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-21-06",
+     "kind": "word",
+     "text": "貸{か}す",
+     "reading_kana": "かす",
+     "reading_romanized": "kasu",
+     "meaning_ko": "빌려주다",
+     "part_of_speech": "동사(1그룹)"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "友達{ともだち}が 誕生日{たんじょうび}に 傘{かさ}を くれました。",
+     "meaning_ko": "친구가 생일에 우산을 주었습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "私{わたし}は 妹{いもうと}に 辞書{じしょ}を あげました。",
+     "meaning_ko": "저는 여동생에게 사전을 주었습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "先生{せんせい}に 日本語{にほんご}を 教{おし}えて もらいました。",
+     "meaning_ko": "선생님께 일본어를 배웠습니다. (가르쳐 받았습니다)",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "雨{あめ}が 降{ふ}るかもしれませんから、傘{かさ}を 持{も}って 行{い}きます。",
+     "meaning_ko": "비가 올지도 모르니까 우산을 가지고 갑니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 字{じ}は 小{ちい}さすぎて、読{よ}めません。",
+     "meaning_ko": "이 글자는 너무 작아서 읽을 수 없습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 辞書{じしょ}は 軽{かる}くて、使{つか}いやすいです。",
+     "meaning_ko": "이 사전은 가벼워서 쓰기 쉽습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 説明{せつめい}は 短{みじか}くて、分{わ}かりやすいです。",
+     "meaning_ko": "이 설명은 짧아서 알기 쉽습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "友達{ともだち}に 傘{かさ}を 貸{か}して あげました。",
+     "meaning_ko": "친구에게 우산을 빌려주었습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "疲{つか}れましたから、今日{きょう}は 早{はや}く 寝{ね}ます。",
+     "meaning_ko": "피곤하니까 오늘은 일찍 잡니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}は 来{こ}ないかもしれません。",
+     "meaning_ko": "그는 오지 않을지도 모릅니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "id": "JP-N4-21-Q1",
+     "type": "single_choice",
+     "prompt_ko": "友達が 私に 傘を（　）。(친구가 나에게 우산을 주었습니다)",
+     "options": [
+      "くれました",
+      "あげました",
+      "もらいました",
+      "いただきました"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "남이 나에게 주었을 때는 くれました를 씁니다. あげました는 내가 남에게 줄 때입니다."
+    },
+    {
+     "id": "JP-N4-21-Q2",
+     "type": "single_choice",
+     "prompt_ko": "私は 妹に 辞書を（　）。(여동생에게 사전을 주었습니다)",
+     "options": [
+      "あげました",
+      "くれました",
+      "もらいました",
+      "ありました"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "내가 남에게 주었으므로 あげました입니다."
+    },
+    {
+     "id": "JP-N4-21-Q3",
+     "type": "single_choice",
+     "prompt_ko": "この 字は 小さ（　）、読めません。(너무 작아서)",
+     "options": [
+      "すぎて",
+      "やすくて",
+      "にくくて",
+      "かもしれなくて"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "い형용사 小さい는 い를 빼고 〜すぎる를 붙여 小さすぎて가 됩니다."
+    },
+    {
+     "id": "JP-N4-21-Q4",
+     "type": "single_choice",
+     "prompt_ko": "この 辞書は 軽くて、使い（　）です。(쓰기 쉽습니다)",
+     "options": [
+      "やすい",
+      "にくい",
+      "すぎる",
+      "かもしれない"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘하기 쉽다’는 ます형 + やすい입니다. にくい는 ‘하기 어렵다’입니다."
+    },
+    {
+     "id": "JP-N4-21-Q5",
+     "type": "typing",
+     "prompt_ko": "「誕生日」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "tanjoubi",
+     "accepted_answers": [
+      "tanjoubi",
+      "tanjobi",
+      "tanjyoubi",
+      "tanzyoubi"
+     ],
+     "explanation_ko": "誕生日 = たんじょうび (tanjoubi)"
+    },
+    {
+     "id": "JP-N4-21-Q6",
+     "type": "typing",
+     "prompt_ko": "「辞書」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "jisho",
+     "accepted_answers": [
+      "jisho",
+      "jisyo",
+      "zisyo"
+     ],
+     "explanation_ko": "辞書 = じしょ (jisho)"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

@@ -3907,6 +3907,207 @@
     "version": 1,
     "last_revised": "2026-10-25"
    }
+  },
+  {
+   "id": "B2-021",
+   "level": "B2",
+   "track": "general",
+   "day": 21,
+   "title_ko": "3주 복습: 대조·도치·강조·도치 조건문·선호·익숙함",
+   "objective_ko": "15~20일차 표현(despite/although/whereas, 부정 부사 도치, 분열문, Had I ..., would rather/It's time, used to 계열)을 섞어 확인한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-26"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "이번 주 여섯 가지를 복습합니다. ① 대조·양보: despite / in spite of + 명사(구), although + 절, whereas는 두 사실의 대비입니다. ② 부정 부사 도치: Rarely does she complain.처럼 부정 부사가 앞에 오면 조동사가 주어 앞으로 갑니다. ③ 분열문: It was my sister who called me. / What I need is a quiet place. ④ 도치 조건문: Had I known ..., I would have ...(= If I had known ...). ⑤ would rather(= 차라리 ~하겠다)와 It's time + 주어 + 과거형(이제 ~할 때다). ⑥ used to + 동사원형(과거 습관), be / get used to + -ing(익숙하다 / 익숙해지다).",
+    "common_mistake_ko": "Despite he was tired(X) → Despite being tired / Although he was tired(O) / Rarely she complains(X) → Rarely does she complain(O) / I'm used to get up early(X) → I'm used to getting up early(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "tendency",
+     "part_of_speech": "명사",
+     "meaning_ko": "경향",
+     "example_en": "There is a tendency to work longer hours.",
+     "example_ko": "더 오래 일하는 경향이 있어요."
+    },
+    {
+     "word": "adapt",
+     "part_of_speech": "동사",
+     "meaning_ko": "적응하다, 맞추다",
+     "example_en": "It took me a month to adapt to the new job.",
+     "example_ko": "새 일에 적응하는 데 한 달이 걸렸어요."
+    },
+    {
+     "word": "rarely",
+     "part_of_speech": "부사",
+     "meaning_ko": "좀처럼 ~하지 않는",
+     "example_en": "Rarely does he arrive late.",
+     "example_ko": "그는 좀처럼 늦게 도착하지 않아요."
+    },
+    {
+     "word": "whereas",
+     "part_of_speech": "접속사",
+     "meaning_ko": "~인 반면에",
+     "example_en": "She likes tea, whereas he likes coffee.",
+     "example_ko": "그녀는 차를 좋아하는 반면 그는 커피를 좋아해요."
+    },
+    {
+     "word": "reluctant",
+     "part_of_speech": "형용사",
+     "meaning_ko": "꺼리는",
+     "example_en": "He was reluctant to speak in public.",
+     "example_ko": "그는 사람들 앞에서 말하기를 꺼렸어요."
+    },
+    {
+     "word": "accustomed",
+     "part_of_speech": "형용사",
+     "meaning_ko": "익숙한",
+     "example_en": "I am accustomed to the noise now.",
+     "example_ko": "이제는 소음에 익숙해졌어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Despite the heavy rain, the match went ahead.",
+     "ko": "폭우에도 불구하고 경기는 그대로 진행되었어요."
+    },
+    {
+     "en": "Although he was exhausted, he kept working.",
+     "ko": "그는 몹시 지쳤지만 계속 일했어요."
+    },
+    {
+     "en": "She prefers tea, whereas her brother prefers coffee.",
+     "ko": "그녀는 차를 더 좋아하는 반면 오빠(남동생)는 커피를 더 좋아해요."
+    },
+    {
+     "en": "Rarely does she complain about her workload.",
+     "ko": "그녀는 업무량에 대해 좀처럼 불평하지 않아요."
+    },
+    {
+     "en": "Never have I seen such a crowded station.",
+     "ko": "그렇게 붐비는 역은 본 적이 없어요."
+    },
+    {
+     "en": "It was the manager who suggested the change.",
+     "ko": "그 변경을 제안한 사람은 바로 매니저였어요."
+    },
+    {
+     "en": "Had I known about the delay, I would have left earlier.",
+     "ko": "지연을 알았더라면 더 일찍 출발했을 거예요."
+    },
+    {
+     "en": "I'd rather you didn't smoke here.",
+     "ko": "여기서는 담배를 피우지 않았으면 해요."
+    },
+    {
+     "en": "It's time we went home.",
+     "ko": "이제 집에 갈 시간이에요."
+    },
+    {
+     "en": "It took me months to get used to the noise.",
+     "ko": "그 소음에 익숙해지는 데 몇 달이 걸렸어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "___ the heavy traffic, we arrived on time.",
+     "choices": [
+      "Despite",
+      "Although",
+      "Whereas",
+      "However"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "뒤에 명사구(the heavy traffic)가 오므로 Despite입니다. Although는 절이 와야 합니다.",
+     "error_tag": "contrast",
+     "id": "B2-021-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Rarely ___ she complain about her workload.",
+     "choices": [
+      "does",
+      "do",
+      "is",
+      "has"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Rarely가 문장 앞에 오면 조동사가 주어 앞으로 가고, 주어 she에는 does를 씁니다.",
+     "error_tag": "inversion",
+     "id": "B2-021-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "___ I known about the delay, I would have left earlier.",
+     "choices": [
+      "Had",
+      "Have",
+      "Did",
+      "If"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "If I had known의 if를 생략하면 Had I known이 됩니다.",
+     "error_tag": "inverted-conditional",
+     "id": "B2-021-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "It's time we ___ home. (이제 집에 갈 시간이에요)",
+     "choices": [
+      "went",
+      "going",
+      "to go",
+      "will go"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "It's time + 주어 + 과거형으로 '이제 ~할 때'를 말합니다.",
+     "error_tag": "its-time",
+     "id": "B2-021-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: I'm not ___ to getting up early yet. (아직 일찍 일어나는 데 익숙하지 않아요)",
+     "answer_text": "used",
+     "accepted_answers": [
+      "used",
+      "accustomed"
+     ],
+     "explanation_ko": "be used to + -ing는 '~에 익숙하다'입니다. accustomed to도 같은 뜻입니다.",
+     "error_tag": "used-to",
+     "id": "B2-021-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: It was my sister ___ called me first. (먼저 전화한 사람은 내 여동생이었어요)",
+     "answer_text": "who",
+     "accepted_answers": [
+      "who",
+      "that"
+     ],
+     "explanation_ko": "분열문 It was ... who / that ...에서 사람은 who 또는 that을 씁니다.",
+     "error_tag": "cleft",
+     "id": "B2-021-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "이번 주 표현 중 두 가지 이상을 써서 최근 달라진 생활을 영어로 써 보세요.",
+    "example_answer_en": "Although I used to dislike mornings, I'm getting used to getting up early. It's time I started exercising.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-26",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-26"
+   }
   }
  ]
 }

@@ -3914,6 +3914,210 @@
     "version": 1,
     "last_revised": "2026-10-25"
    }
+  },
+  {
+   "id": "A1-021",
+   "level": "A1",
+   "track": "foundation",
+   "day": 21,
+   "title_ko": "3주 복습: 정중한 요청·가격·제안·좋아함·정도·be동사 과거",
+   "objective_ko": "15~20일차 표현(Would you like, How much, Let's, like -ing, How old/far/often, was/were)을 섞어 말하고 이해한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-26"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "이번 주 여섯 가지를 복습합니다. ① Would you like ...? / I'd like ...: 정중하게 권하고 요청합니다(Would you like some tea? / I'd like a coffee, please). ② How much is / are ...?: 단수는 is, 복수는 are로 가격을 묻습니다. ③ Let's / Why don't we / How about -ing: 함께 하자고 제안합니다. ④ like / love / hate + -ing: 좋고 싫은 활동을 말합니다. ⑤ How old / tall / far / long / often: 나이·키·거리·길이·빈도를 묻습니다. ⑥ was / were: I·he·she·it에는 was, you·we·they에는 were를 씁니다.",
+    "common_mistake_ko": "Do you like some tea?(X) → Would you like some tea?(O) / How much are this bag?(X) → How much is this bag?(O) / How about watch a movie?(X) → How about watching a movie?(O) / They was at home.(X) → They were at home.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "menu",
+     "part_of_speech": "명사",
+     "meaning_ko": "메뉴, 차림표",
+     "example_en": "Can I see the menu, please?",
+     "example_ko": "메뉴를 볼 수 있을까요?"
+    },
+    {
+     "word": "cheap",
+     "part_of_speech": "형용사",
+     "meaning_ko": "값싼",
+     "example_en": "These shoes are cheap.",
+     "example_ko": "이 신발은 값이 싸요."
+    },
+    {
+     "word": "expensive",
+     "part_of_speech": "형용사",
+     "meaning_ko": "비싼",
+     "example_en": "That coat is very expensive.",
+     "example_ko": "저 코트는 매우 비싸요."
+    },
+    {
+     "word": "far",
+     "part_of_speech": "형용사/부사",
+     "meaning_ko": "먼, 멀리",
+     "example_en": "Is the station far from here?",
+     "example_ko": "역은 여기서 멀어요?"
+    },
+    {
+     "word": "invite",
+     "part_of_speech": "동사",
+     "meaning_ko": "초대하다",
+     "example_en": "I want to invite you to dinner.",
+     "example_ko": "당신을 저녁 식사에 초대하고 싶어요."
+    },
+    {
+     "word": "favorite",
+     "part_of_speech": "형용사",
+     "meaning_ko": "가장 좋아하는",
+     "example_en": "Soccer is my favorite sport.",
+     "example_ko": "축구는 내가 가장 좋아하는 운동이에요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Would you like some tea? — Yes, please.",
+     "ko": "차 좀 드시겠어요? — 네, 주세요."
+    },
+    {
+     "en": "I'd like a cup of coffee, please.",
+     "ko": "커피 한 잔 주세요."
+    },
+    {
+     "en": "How much is this bag? — It's twenty dollars.",
+     "ko": "이 가방은 얼마예요? — 20달러예요."
+    },
+    {
+     "en": "How much are these shoes?",
+     "ko": "이 신발은 얼마예요?"
+    },
+    {
+     "en": "Let's go to the park.",
+     "ko": "공원에 가요."
+    },
+    {
+     "en": "Why don't we eat out tonight?",
+     "ko": "오늘 밤 외식하는 게 어때요?"
+    },
+    {
+     "en": "How about watching a movie?",
+     "ko": "영화를 보는 게 어때요?"
+    },
+    {
+     "en": "I love cooking, but I hate washing dishes.",
+     "ko": "나는 요리하는 것은 아주 좋아하지만 설거지는 싫어해요."
+    },
+    {
+     "en": "How far is the station? — It's about two kilometers.",
+     "ko": "역은 얼마나 멀어요? — 약 2킬로미터예요."
+    },
+    {
+     "en": "How often do you exercise? — Twice a week.",
+     "ko": "얼마나 자주 운동해요? — 일주일에 두 번이요."
+    },
+    {
+     "en": "Where were you last night? — I was at the library.",
+     "ko": "어젯밤에 어디에 있었어요? — 도서관에 있었어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "___ you like some water?",
+     "choices": [
+      "Would",
+      "Do",
+      "Are",
+      "Did"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "정중하게 권할 때는 Would you like ...?를 씁니다.",
+     "error_tag": "would-like",
+     "id": "A1-021-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "How ___ is this bag? — It's twenty dollars.",
+     "choices": [
+      "much",
+      "many",
+      "old",
+      "far"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "가격을 물을 때는 How much를 씁니다.",
+     "error_tag": "how-much",
+     "id": "A1-021-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'영화를 보는 게 어때요?'를 영어로 바르게 말한 것은?",
+     "choices": [
+      "How about watching a movie?",
+      "How about watch a movie?",
+      "How about to watch a movie?",
+      "How about watched a movie?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "How about 뒤에는 동사-ing를 씁니다.",
+     "error_tag": "suggestion",
+     "id": "A1-021-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "I hate ___ early on Monday morning.",
+     "choices": [
+      "getting up",
+      "get up",
+      "to getting up",
+      "got up"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "hate 뒤에 활동을 말할 때는 동사-ing를 씁니다.",
+     "error_tag": "like-ing",
+     "id": "A1-021-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: ___ often do you go to the gym? — Twice a week.",
+     "answer_text": "How",
+     "accepted_answers": [
+      "How",
+      "how"
+     ],
+     "explanation_ko": "빈도를 묻는 말은 How often입니다.",
+     "error_tag": "how-often",
+     "id": "A1-021-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: We ___ at the library last night. (우리는 어젯밤 도서관에 있었어요)",
+     "answer_text": "were",
+     "accepted_answers": [
+      "were"
+     ],
+     "explanation_ko": "We는 복수이므로 과거형은 were입니다.",
+     "error_tag": "was-were",
+     "id": "A1-021-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "이번 주 표현 중 두 가지 이상을 써서 친구에게 제안하는 짧은 글을 써 보세요.",
+    "example_answer_en": "Let's go to a café. Would you like some coffee? How about 3 o'clock?",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-26",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-26"
+   }
   }
  ]
 }
