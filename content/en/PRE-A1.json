@@ -4459,6 +4459,205 @@
     "version": 1,
     "last_revised": "2026-10-26"
    }
+  },
+  {
+   "id": "PRE-028",
+   "level": "Pre-A1",
+   "track": "foundation",
+   "day": 28,
+   "title_ko": "4주차 종합 복습",
+   "objective_ko": "장소·시간 전치사, can/can't, there is/are, 현재진행형을 한꺼번에 점검한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-27"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "4주차에 배운 내용을 점검합니다. ① 장소: in(안), on(위), under(아래) — The cat is under the chair. ② 시간: 시각에는 at(at seven), 요일에는 on(on Monday), 달에는 in(in May). ③ can/can't: 뒤에는 동사 원형 — He can swim. He can't run fast. ④ there is(하나) / there are(둘 이상): There is a window. There are three books. ⑤ 현재진행형: be + 동사-ing — She is cooking. I am studying English now. 틀린 문제는 해당 일차를 다시 보세요.",
+    "common_mistake_ko": "The book is in the table.(X) → The book is on the table.(O) / I get up on seven.(X) → I get up at seven.(O) / He can swims.(X) → He can swim.(O) / There is three books.(X) → There are three books.(O) / She cooking.(X) → She is cooking.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "kitchen",
+     "part_of_speech": "명사",
+     "meaning_ko": "부엌",
+     "example_en": "She is cooking in the kitchen.",
+     "example_ko": "그녀는 부엌에서 요리하고 있어요."
+    },
+    {
+     "word": "window",
+     "part_of_speech": "명사",
+     "meaning_ko": "창문",
+     "example_en": "There is a window in the kitchen.",
+     "example_ko": "부엌에 창문이 하나 있어요."
+    },
+    {
+     "word": "morning",
+     "part_of_speech": "명사",
+     "meaning_ko": "아침",
+     "example_en": "I get up at seven in the morning.",
+     "example_ko": "나는 아침 7시에 일어나요."
+    },
+    {
+     "word": "swim",
+     "part_of_speech": "동사",
+     "meaning_ko": "수영하다",
+     "example_en": "He can swim, but he can't run fast.",
+     "example_ko": "그는 수영은 할 수 있지만 빨리 달리지는 못해요."
+    },
+    {
+     "word": "desk",
+     "part_of_speech": "명사",
+     "meaning_ko": "책상",
+     "example_en": "There are three books on the desk.",
+     "example_ko": "책상 위에 책이 세 권 있어요."
+    },
+    {
+     "word": "fast",
+     "part_of_speech": "부사",
+     "meaning_ko": "빨리",
+     "example_en": "She can run fast.",
+     "example_ko": "그녀는 빨리 달릴 수 있어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The book is on the table.",
+     "ko": "책은 탁자 위에 있어요."
+    },
+    {
+     "en": "The cat is under the chair.",
+     "ko": "고양이는 의자 아래에 있어요."
+    },
+    {
+     "en": "I get up at seven.",
+     "ko": "나는 7시에 일어나요."
+    },
+    {
+     "en": "We have English on Monday.",
+     "ko": "우리는 월요일에 영어 수업이 있어요."
+    },
+    {
+     "en": "My birthday is in May.",
+     "ko": "내 생일은 5월이에요."
+    },
+    {
+     "en": "He can swim, but he can't run fast.",
+     "ko": "그는 수영은 할 수 있지만 빨리 달리지는 못해요."
+    },
+    {
+     "en": "There is a window in the kitchen.",
+     "ko": "부엌에 창문이 하나 있어요."
+    },
+    {
+     "en": "There are three books on the desk.",
+     "ko": "책상 위에 책이 세 권 있어요."
+    },
+    {
+     "en": "She is cooking in the kitchen.",
+     "ko": "그녀는 부엌에서 요리하고 있어요."
+    },
+    {
+     "en": "I am studying English now.",
+     "ko": "나는 지금 영어를 공부하고 있어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "The cat is ___ the table. (고양이는 탁자 아래에 있어요)",
+     "choices": [
+      "under",
+      "on",
+      "at",
+      "is"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "'~ 아래에'는 under입니다.",
+     "error_tag": "prepositions",
+     "id": "P028-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "I get up ___ seven o'clock.",
+     "choices": [
+      "at",
+      "on",
+      "in",
+      "under"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "시각 앞에는 at을 씁니다.",
+     "error_tag": "time-prepositions",
+     "id": "P028-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "He ___ play the piano. (그는 피아노를 칠 수 없어요)",
+     "choices": [
+      "can't",
+      "don't",
+      "isn't",
+      "not can"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "할 수 없다는 can't + 동사 원형으로 말합니다.",
+     "error_tag": "can-cant",
+     "id": "P028-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "___ two books on the desk.",
+     "choices": [
+      "There are",
+      "There is",
+      "It is",
+      "She is"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "책이 두 권(복수)이므로 There are를 씁니다.",
+     "error_tag": "there-is-are",
+     "id": "P028-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: They are ___ TV now. (watch)",
+     "answer_text": "watching",
+     "accepted_answers": [
+      "watching"
+     ],
+     "explanation_ko": "be동사 뒤에는 동사-ing를 씁니다: watching.",
+     "error_tag": "be-ing",
+     "id": "P028-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: I have a class ___ Monday.",
+     "answer_text": "on",
+     "accepted_answers": [
+      "on"
+     ],
+     "explanation_ko": "요일 앞에는 on을 씁니다.",
+     "error_tag": "time-prepositions",
+     "id": "P028-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "이번 주 배운 것 중 두 가지 이상을 써서 우리 집 부엌을 영어로 두세 문장 소개해 보세요.",
+    "example_answer_en": "There is a window in the kitchen. My mother is cooking now. I can help her.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-27",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-27"
+   }
   }
  ]
 }

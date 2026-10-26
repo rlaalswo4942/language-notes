@@ -3066,6 +3066,201 @@
     "version": 1,
     "last_revised": "2026-10-26"
    }
+  },
+  {
+   "id": "B1-017",
+   "level": "B1",
+   "track": "general",
+   "day": 17,
+   "title_ko": "현재완료와 단순과거: 언제 했는지가 중요한가",
+   "objective_ko": "현재완료와 단순과거를 시점 단서(ago, last, in 2020)에 따라 구별해 쓴다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-27"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "둘 다 지난 일을 말하지만 초점이 다릅니다. ① 단순과거: 끝난 시점이 분명할 때 씁니다(yesterday, last week, in 2022, two years ago, when ...). I visited Japan in 2022. ② 현재완료: 시점보다 지금과의 연결·경험·결과가 중요할 때 씁니다. I have visited Japan twice. ③ 과거 시점을 나타내는 말(yesterday, last year, ago)과는 현재완료를 쓰지 않습니다. ④ When did you ...?처럼 '언제'를 묻는 질문은 단순과거입니다(When have you ...?는 쓰지 않습니다). ⑤ 경험을 물을 때는 Have you ever ...?로 시작하고, 이어서 자세히 말할 때는 단순과거로 바꿉니다: Yes, I have. I went there two years ago.",
+    "common_mistake_ko": "I have seen her last week.(X) → I saw her last week.(O) / When have you started the job?(X) → When did you start the job?(O) / Have you ever been abroad? — Yes, I have. I have gone there in 2021.(X) → I went there in 2021.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "experience",
+     "part_of_speech": "명사",
+     "meaning_ko": "경험",
+     "example_en": "I have experience in teaching.",
+     "example_ko": "나는 가르친 경험이 있어요."
+    },
+    {
+     "word": "journey",
+     "part_of_speech": "명사",
+     "meaning_ko": "여행, 여정",
+     "example_en": "The journey took three hours.",
+     "example_ko": "그 여정은 세 시간 걸렸어요."
+    },
+    {
+     "word": "tourist",
+     "part_of_speech": "명사",
+     "meaning_ko": "관광객",
+     "example_en": "Many tourists visited the museum.",
+     "example_ko": "많은 관광객이 그 박물관을 방문했어요."
+    },
+    {
+     "word": "museum",
+     "part_of_speech": "명사",
+     "meaning_ko": "박물관",
+     "example_en": "I visited the museum in 2021.",
+     "example_ko": "나는 2021년에 그 박물관을 방문했어요."
+    },
+    {
+     "word": "festival",
+     "part_of_speech": "명사",
+     "meaning_ko": "축제",
+     "example_en": "She attended the festival last Saturday.",
+     "example_ko": "그녀는 지난 토요일에 그 축제에 참석했어요."
+    },
+    {
+     "word": "attend",
+     "part_of_speech": "동사",
+     "meaning_ko": "참석하다",
+     "example_en": "She has attended three festivals so far.",
+     "example_ko": "그녀는 지금까지 축제에 세 번 참석했어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I have visited Japan twice.",
+     "ko": "나는 일본에 두 번 가 본 적이 있어요."
+    },
+    {
+     "en": "I visited Japan in 2022.",
+     "ko": "나는 2022년에 일본을 방문했어요."
+    },
+    {
+     "en": "She has attended three festivals so far.",
+     "ko": "그녀는 지금까지 축제에 세 번 참석했어요."
+    },
+    {
+     "en": "She attended the festival last Saturday.",
+     "ko": "그녀는 지난 토요일에 그 축제에 참석했어요."
+    },
+    {
+     "en": "Have you ever been abroad?",
+     "ko": "해외에 가 본 적 있어요?"
+    },
+    {
+     "en": "Yes, I have. I went to Canada two years ago.",
+     "ko": "네, 있어요. 2년 전에 캐나다에 갔어요."
+    },
+    {
+     "en": "When did you visit the museum?",
+     "ko": "박물관은 언제 방문했어요?"
+    },
+    {
+     "en": "He has recently started a new job.",
+     "ko": "그는 최근에 새 일을 시작했어요."
+    },
+    {
+     "en": "He started a new job last month.",
+     "ko": "그는 지난달에 새 일을 시작했어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "I ___ the museum in 2021.",
+     "choices": [
+      "visited",
+      "have visited",
+      "visit",
+      "am visiting"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "in 2021처럼 과거 시점이 분명하면 단순과거를 씁니다.",
+     "error_tag": "present-perfect-vs-past",
+     "id": "B1-017-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Have you ever ___ abroad?",
+     "choices": [
+      "been",
+      "went",
+      "go",
+      "was"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Have you ever 뒤에는 과거분사 been을 씁니다.",
+     "error_tag": "present-perfect",
+     "id": "B1-017-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "When ___ you start your new job?",
+     "choices": [
+      "did",
+      "have",
+      "do",
+      "are"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "'언제'를 묻는 질문은 단순과거(did)로 합니다.",
+     "error_tag": "when-question",
+     "id": "B1-017-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "I saw her last week.",
+      "I have seen her last week.",
+      "I have saw her last week.",
+      "I see her last week."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "last week는 끝난 과거 시점이므로 단순과거 saw를 씁니다.",
+     "error_tag": "present-perfect-vs-past",
+     "id": "B1-017-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: She ___ the festival last Saturday. (attend의 과거형)",
+     "answer_text": "attended",
+     "accepted_answers": [
+      "attended"
+     ],
+     "explanation_ko": "last Saturday는 과거 시점이므로 attended입니다.",
+     "error_tag": "past-simple",
+     "id": "B1-017-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: He ___ recently started a new job. (have)",
+     "answer_text": "has",
+     "accepted_answers": [
+      "has"
+     ],
+     "explanation_ko": "주어 He에는 has를 쓰고 started가 과거분사로 이어집니다.",
+     "error_tag": "present-perfect",
+     "id": "B1-017-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "Have you ever ...?로 경험을 한 문장 묻고, 단순과거로 자세히 대답해 써 보세요.",
+    "example_answer_en": "Have you ever been abroad? Yes, I have. I went to Canada two years ago.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-27",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-27"
+   }
   }
  ]
 }

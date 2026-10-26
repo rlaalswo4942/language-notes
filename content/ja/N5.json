@@ -4526,6 +4526,225 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N5-22",
+   "day_index": 22,
+   "week_index": 4,
+   "level": "N5",
+   "unit_id": "N5-W04",
+   "lesson_type": "new",
+   "title_ko": "〜く・〜に なります: 변화 말하기",
+   "objective_ko": "い형용사(〜く)・な형용사(〜に)・명사(〜に) + なります로 ‘~해지다·~이 되다’의 변화를 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N5-21"
+   ],
+   "explanation_ko": "변화는 ‘~く/に + なります’로 말합니다. ① い형용사: 끝의 い를 く로 바꿉니다(暑い → 暑く なります, 短い → 短く なります). いい는 よく なります. ② な형용사: 〜に なります(静かに なります, 元気に なります). ③ 명사: 〜に なります(医者に なります: 의사가 됩니다). 과거는 なりました(~해졌습니다·~이 되었습니다), 질문은 どう なりましたか(어떻게 되었습니까?)입니다. 희망은 〜に なりたいです(~이 되고 싶습니다)로 말합니다.",
+   "usage_notes": [
+    "い형용사는 い를 く로, な형용사와 명사는 に를 붙인 뒤 なります를 씁니다.",
+    "변화의 결과는 조사 に가 아니라 형용사 활용(〜く) 또는 〜に로 나타내므로, ‘を’나 ‘が’를 결과 쪽에 붙이지 않습니다.",
+    "〜に なりたいです는 ‘~이 되고 싶습니다’로, 앞에서 배운 〜たいです와 같은 형태입니다."
+   ],
+   "common_mistakes": [
+    "寒いに なります(X) → 寒く なります(O): い형용사는 い를 く로 바꿉니다.",
+    "静かく なります(X) → 静かに なります(O): な형용사에는 〜に를 씁니다.",
+    "医者を なりました(X) → 医者に なりました(O): 되는 결과에는 に를 씁니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N5-22-01",
+     "kind": "word",
+     "text": "短{みじか}い",
+     "reading_kana": "みじかい",
+     "reading_romanized": "mijikai",
+     "meaning_ko": "짧다",
+     "part_of_speech": "い형용사"
+    },
+    {
+     "id": "w-JP-N5-22-02",
+     "kind": "word",
+     "text": "医者{いしゃ}",
+     "reading_kana": "いしゃ",
+     "reading_romanized": "isha",
+     "meaning_ko": "의사",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-22-03",
+     "kind": "word",
+     "text": "掃除{そうじ}",
+     "reading_kana": "そうじ",
+     "reading_romanized": "souji",
+     "meaning_ko": "청소",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N5-22-04",
+     "kind": "word",
+     "text": "涼{すず}しい",
+     "reading_kana": "すずしい",
+     "reading_romanized": "suzushii",
+     "meaning_ko": "시원하다",
+     "part_of_speech": "い형용사"
+    },
+    {
+     "id": "w-JP-N5-22-05",
+     "kind": "word",
+     "text": "二十歳{はたち}",
+     "reading_kana": "はたち",
+     "reading_romanized": "hatachi",
+     "meaning_ko": "스무 살",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-22-06",
+     "kind": "word",
+     "text": "病気{びょうき}",
+     "reading_kana": "びょうき",
+     "reading_romanized": "byouki",
+     "meaning_ko": "병, 아픔",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "だんだん 暑{あつ}く なります。",
+     "meaning_ko": "점점 더워집니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "夜{よる}は 静{しず}かに なります。",
+     "meaning_ko": "밤에는 조용해집니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "兄{あに}は 医者{いしゃ}に なりました。",
+     "meaning_ko": "형은 의사가 되었습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "冬{ふゆ}は 日{ひ}が 短{みじか}く なります。",
+     "meaning_ko": "겨울에는 해가 짧아집니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "薬{くすり}を 飲{の}んで、元気{げんき}に なりました。",
+     "meaning_ko": "약을 먹고 건강해졌습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "毎日{まいにち}、部屋{へや}を 掃除{そうじ}して、きれいに なりました。",
+     "meaning_ko": "매일 방을 청소해서 깨끗해졌습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "秋{あき}は 涼{すず}しく なります。",
+     "meaning_ko": "가을은 시원해집니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "来年{らいねん}、私{わたし}は 二十歳{はたち}に なります。",
+     "meaning_ko": "내년에 저는 스무 살이 됩니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "病気{びょうき}が よく なりました。",
+     "meaning_ko": "병이 나았습니다(좋아졌습니다).",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "寒（　）なります。(추워집니다)",
+     "options": [
+      "く",
+      "に",
+      "な",
+      "だ"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "寒い는 い형용사이므로 い를 く로 바꿔 寒く なります가 됩니다.",
+     "id": "JP-N5-22-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "夜は 静か（　）なります。(밤에는 조용해집니다)",
+     "options": [
+      "に",
+      "く",
+      "な",
+      "で"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "静か는 な형용사이므로 〜に なります를 씁니다.",
+     "id": "JP-N5-22-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "兄は 医者（　）なりました。(형은 의사가 되었습니다)",
+     "options": [
+      "に",
+      "を",
+      "で",
+      "へ"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "되는 결과(명사)에는 に를 붙여 〜に なります라고 합니다.",
+     "id": "JP-N5-22-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「天気が よく なりました」의 뜻은?",
+     "options": [
+      "날씨가 좋아졌습니다",
+      "날씨가 나빴습니다",
+      "날씨가 좋습니다",
+      "날씨가 좋지 않습니다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "いい의 변화형은 よく なります이고, なりました는 과거이므로 ‘좋아졌습니다’입니다.",
+     "id": "JP-N5-22-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「医者」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "isha",
+     "accepted_answers": [
+      "isha"
+     ],
+     "explanation_ko": "医者 = いしゃ = isha (의사)",
+     "id": "JP-N5-22-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「掃除」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "souji",
+     "accepted_answers": [
+      "souji",
+      "sooji",
+      "sōji",
+      "sou ji"
+     ],
+     "explanation_ko": "掃除 = そうじ = souji (청소)",
+     "id": "JP-N5-22-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

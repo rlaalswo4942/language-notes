@@ -4501,6 +4501,217 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-22",
+   "day_index": 22,
+   "week_index": 4,
+   "level": "N2",
+   "unit_id": "N2-W04",
+   "lesson_type": "new",
+   "title_ko": "〜からには: ~한 이상은",
+   "objective_ko": "〜からには(~한 이상은)로 앞의 일을 전제로 한 의무・결의・판단을 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-21"
+   ],
+   "explanation_ko": "〜からには(〜からは)는 ‘이미 그렇게 된 이상, 당연히 ~’라는 뜻으로, 앞의 사정을 이유로 뒤에 의무・결의・판단을 말합니다. ① 접속: 동사・い형용사 보통형, な형용사 어간+である, 명사+である에 붙습니다(引き受けたからには, プロであるからには). ② 뒤에는 〜べきだ・〜なければならない・〜つもりだ・〜たい 같은 의무・결의・판단이 옵니다. ③ 단순한 사실이나 우연한 결과는 뒤에 쓰기 어렵습니다. 비슷한 표현 〜以上(は)와 바꿔 쓸 수 있습니다.",
+   "usage_notes": [
+    "앞의 일은 이미 일어난 일이나 정해진 일이어야 하고, 뒤에는 의무・결의・당연한 판단이 옵니다.",
+    "주로 문어체이며, 회화에서는 〜以上は, 〜からには이 비슷하게 쓰입니다.",
+    "뒤에 단순한 사실(今日は雨だ)이나 의외의 결과를 두면 어색해집니다."
+   ],
+   "common_mistakes": [
+    "引き受けたからには、天気が悪い(X) → 引き受けたからには、最後までやるつもりだ(O): 뒤에는 의무・결의・판단이 옵니다.",
+    "約束するからには守る(△) → 約束したからには、必ず守るべきだ(O): 이미 약속한 것을 전제로 합니다.",
+    "日本に住むからに(X) → 日本に住むからには(O)"
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N2-22-01",
+     "kind": "word",
+     "text": "約束{やくそく}",
+     "reading_kana": "やくそく",
+     "reading_romanized": "yakusoku",
+     "meaning_ko": "약속",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N2-22-02",
+     "kind": "word",
+     "text": "上達{じょうたつ}",
+     "reading_kana": "じょうたつ",
+     "reading_romanized": "joutatsu",
+     "meaning_ko": "실력이 늚",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N2-22-03",
+     "kind": "word",
+     "text": "目指{めざ}す",
+     "reading_kana": "めざす",
+     "reading_romanized": "mezasu",
+     "meaning_ko": "목표로 하다",
+     "part_of_speech": "동사(1그룹)"
+    },
+    {
+     "id": "w-JP-N2-22-04",
+     "kind": "word",
+     "text": "結果{けっか}",
+     "reading_kana": "けっか",
+     "reading_romanized": "kekka",
+     "meaning_ko": "결과",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-22-05",
+     "kind": "word",
+     "text": "途中{とちゅう}",
+     "reading_kana": "とちゅう",
+     "reading_romanized": "tochuu",
+     "meaning_ko": "도중",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-22-06",
+     "kind": "word",
+     "text": "引{ひ}き受{う}ける",
+     "reading_kana": "ひきうける",
+     "reading_romanized": "hikiukeru",
+     "meaning_ko": "떠맡다, 인수하다",
+     "part_of_speech": "동사(2그룹)"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "引{ひ}き受{う}けたからには、最後{さいご}まで責任{せきにん}を持{も}ってやり遂{と}げるつもりだ。",
+     "meaning_ko": "맡은 이상 끝까지 책임지고 해낼 생각이다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "日本{にほん}に住{す}むからには、日本語{にほんご}を上達{じょうたつ}させたい。",
+     "meaning_ko": "일본에 사는 이상 일본어 실력을 늘리고 싶다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "約束{やくそく}したからには、必{かなら}ず守{まも}るべきだ。",
+     "meaning_ko": "약속한 이상 반드시 지켜야 한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "試合{しあい}に出{で}るからには、勝{か}つことを目指{めざ}したい。",
+     "meaning_ko": "시합에 나가는 이상 이기는 것을 목표로 하고 싶다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "プロになったからには、結果{けっか}を出{だ}さなければならない。",
+     "meaning_ko": "프로가 된 이상 결과를 내야 한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "留学{りゅうがく}を決{き}めたからには、途中{とちゅう}で諦{あきら}めるわけにはいかない。",
+     "meaning_ko": "유학을 결심한 이상 도중에 포기할 수는 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "社会人{しゃかいじん}であるからには、時間{じかん}を守{まも}る責任{せきにん}がある。",
+     "meaning_ko": "사회인인 이상 시간을 지킬 책임이 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "やると言{い}ったからには、言{い}い訳{わけ}は許{ゆる}されない。",
+     "meaning_ko": "한다고 말한 이상 변명은 용납되지 않는다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "引き受けた（　）、最後まで責任を持ってやり遂げるつもりだ。",
+     "options": [
+      "からには",
+      "ものの",
+      "にもかかわらず",
+      "どころか"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "앞의 사정을 전제로 결의를 말하므로 〜からには가 알맞습니다.",
+     "id": "JP-N2-22-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「日本に住むからには、日本語を上達させたい」의 뜻은?",
+     "options": [
+      "일본에 사는 이상 일본어 실력을 늘리고 싶다",
+      "일본에 살지만 일본어를 늘리고 싶지 않다",
+      "일본에 살기 때문에 일본어는 필요 없다",
+      "일본에 사는 것은 좋지만 어렵다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜からには는 ‘~한 이상은’이며 뒤에는 결의가 옵니다.",
+     "id": "JP-N2-22-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「〜からには、（　）」의 뒤에 가장 알맞은 것은?",
+     "options": [
+      "最後までやるべきだ",
+      "昨日は雨だった",
+      "眠くなってきた",
+      "駅は近い"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜からには 뒤에는 의무・결의・판단이 옵니다. 나머지는 단순한 사실입니다.",
+     "id": "JP-N2-22-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「プロである（　）、結果を出さなければならない」에 알맞은 것은?",
+     "options": [
+      "からには",
+      "というよりは",
+      "わけではなく",
+      "とはいえ"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "명사 + である + からには로 ‘프로인 이상’을 나타냅니다.",
+     "id": "JP-N2-22-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「約束」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "yakusoku",
+     "accepted_answers": [
+      "yakusoku"
+     ],
+     "explanation_ko": "約束 = やくそく = yakusoku (약속)",
+     "id": "JP-N2-22-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「結果」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kekka",
+     "accepted_answers": [
+      "kekka"
+     ],
+     "explanation_ko": "結果 = けっか = kekka (결과)",
+     "id": "JP-N2-22-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

@@ -4118,6 +4118,205 @@
     "version": 1,
     "last_revised": "2026-10-26"
    }
+  },
+  {
+   "id": "A1-022",
+   "level": "A1",
+   "track": "foundation",
+   "day": 22,
+   "title_ko": "규칙동사 과거형 -ed: 어제 한 일 말하기",
+   "objective_ko": "규칙동사의 과거형(-ed)을 만들고, didn't와 Did로 부정문·의문문을 만든다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-27"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "과거에 끝난 일은 동사 과거형으로 말합니다. ① 기본: 동사 + -ed (clean → cleaned, visit → visited). ② e로 끝나면 -d만 붙입니다 (like → liked). ③ 자음 + y는 y를 i로 바꾸고 -ed (carry → carried). ④ 짧은 동사는 끝 자음을 한 번 더 씁니다 (stop → stopped). ⑤ 부정문은 didn't + 동사 원형 (I didn't visit him), 의문문은 Did + 주어 + 동사 원형 (Did you visit him?). 과거 표시 말: yesterday, last night, last week.",
+    "common_mistake_ko": "I clean my room yesterday.(X) → I cleaned my room yesterday.(O) / He carryed the box.(X) → He carried the box.(O) / She didn't visited me.(X) → She didn't visit me.(O) / Did you visited her?(X) → Did you visit her?(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "wash",
+     "part_of_speech": "동사",
+     "meaning_ko": "씻다, 닦다",
+     "example_en": "She washed the dishes after dinner.",
+     "example_ko": "그녀는 저녁 식사 후 설거지를 했어요."
+    },
+    {
+     "word": "clean",
+     "part_of_speech": "동사",
+     "meaning_ko": "청소하다",
+     "example_en": "She cleaned the kitchen last night.",
+     "example_ko": "그녀는 어젯밤 부엌을 청소했어요."
+    },
+    {
+     "word": "stay",
+     "part_of_speech": "동사",
+     "meaning_ko": "머무르다",
+     "example_en": "We stayed at a small hotel.",
+     "example_ko": "우리는 작은 호텔에 머물렀어요."
+    },
+    {
+     "word": "carry",
+     "part_of_speech": "동사",
+     "meaning_ko": "나르다, 들고 가다",
+     "example_en": "He carried the box to the car.",
+     "example_ko": "그는 상자를 차까지 날랐어요."
+    },
+    {
+     "word": "stop",
+     "part_of_speech": "동사",
+     "meaning_ko": "멈추다",
+     "example_en": "The bus stopped at the station.",
+     "example_ko": "버스가 역에서 멈췄어요."
+    },
+    {
+     "word": "arrive",
+     "part_of_speech": "동사",
+     "meaning_ko": "도착하다",
+     "example_en": "We arrived at the station at nine.",
+     "example_ko": "우리는 9시에 역에 도착했어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I visited my grandmother yesterday.",
+     "ko": "나는 어제 할머니를 방문했어요."
+    },
+    {
+     "en": "She cleaned the kitchen last night.",
+     "ko": "그녀는 어젯밤 부엌을 청소했어요."
+    },
+    {
+     "en": "We stayed at a small hotel.",
+     "ko": "우리는 작은 호텔에 머물렀어요."
+    },
+    {
+     "en": "He carried the box to the car.",
+     "ko": "그는 상자를 차까지 날랐어요."
+    },
+    {
+     "en": "The bus stopped at the station.",
+     "ko": "버스가 역에서 멈췄어요."
+    },
+    {
+     "en": "I liked the movie.",
+     "ko": "나는 그 영화가 마음에 들었어요."
+    },
+    {
+     "en": "They didn't visit us last week.",
+     "ko": "그들은 지난주에 우리를 방문하지 않았어요."
+    },
+    {
+     "en": "Did you clean your room yesterday?",
+     "ko": "어제 방을 청소했나요?"
+    },
+    {
+     "en": "Yes, I did. I cleaned it in the morning.",
+     "ko": "네, 했어요. 아침에 청소했어요."
+    },
+    {
+     "en": "My brother didn't stay at home.",
+     "ko": "내 남동생은 집에 있지 않았어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "I ___ my room yesterday.",
+     "choices": [
+      "cleaned",
+      "clean",
+      "cleaning",
+      "cleans"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "yesterday는 과거이므로 clean의 과거형 cleaned를 씁니다.",
+     "error_tag": "past-ed",
+     "id": "A1-022-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "She ___ in Busan last week.",
+     "choices": [
+      "stayed",
+      "stay",
+      "stays",
+      "staying"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "last week는 과거이므로 stayed입니다.",
+     "error_tag": "past-ed",
+     "id": "A1-022-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Did you ___ your grandmother?",
+     "choices": [
+      "visit",
+      "visited",
+      "visits",
+      "visiting"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Did 뒤에는 동사 원형을 씁니다.",
+     "error_tag": "did-question",
+     "id": "A1-022-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'그는 어제 상자를 날랐어요'를 영어로 바르게 말한 것은?",
+     "choices": [
+      "He carried the box yesterday.",
+      "He carryed the box yesterday.",
+      "He carries the box yesterday.",
+      "He carry the box yesterday."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "자음 + y로 끝나는 carry는 y를 i로 바꾸고 -ed를 붙여 carried가 됩니다.",
+     "error_tag": "spelling-ed",
+     "id": "A1-022-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: The bus ___ at the station. (stop의 과거형)",
+     "answer_text": "stopped",
+     "accepted_answers": [
+      "stopped"
+     ],
+     "explanation_ko": "stop은 끝 자음 p를 한 번 더 쓰고 -ed를 붙여 stopped가 됩니다.",
+     "error_tag": "spelling-ed",
+     "id": "A1-022-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: We didn't ___ the park yesterday. (visit)",
+     "answer_text": "visit",
+     "accepted_answers": [
+      "visit"
+     ],
+     "explanation_ko": "didn't 뒤에는 동사 원형을 씁니다.",
+     "error_tag": "didnt",
+     "id": "A1-022-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "어제 한 일을 과거형으로 두 문장 써 보세요.",
+    "example_answer_en": "I cleaned my room yesterday. I studied English in the evening.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-27",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-27"
+   }
   }
  ]
 }

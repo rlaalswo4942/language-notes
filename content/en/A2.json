@@ -4103,6 +4103,203 @@
     "version": 1,
     "last_revised": "2026-10-26"
    }
+  },
+  {
+   "id": "A2-022",
+   "level": "A2",
+   "track": "foundation",
+   "day": 22,
+   "title_ko": "순서 표현: First / Then / Next / After that / Finally",
+   "objective_ko": "순서 표현을 써서 만드는 방법이나 하루 일의 과정을 차례대로 설명한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-27"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "일의 순서는 순서 표현으로 이어서 말합니다. ① 시작: First, / First of all, (먼저) ② 중간: Then (그다음에) · Next, (다음으로) · After that, (그 후에) ③ 마지막: Finally, (마지막으로) / Lastly, ④ 문장 앞의 First, Next, After that, Finally 뒤에는 보통 쉼표를 씁니다. Then은 쉼표 없이 쓰는 경우가 많습니다. ⑤ 같은 표현을 되풀이하기보다 순서 표현을 바꿔 가며 쓰면 자연스럽습니다. 요리법이나 사용 설명에서 명령문과 함께 자주 씁니다: First, boil the water. Then pour it into a cup.",
+    "common_mistake_ko": "Finally, boil the water. Then add the pasta. First, serve it.(X: 순서가 뒤바뀜) → First, boil the water. Then add the pasta. Finally, serve it.(O) / First boil the water.(△) → First, boil the water.(O: 순서 표현 뒤에 쉼표) / Then, pour the water. Then, add tea. Then, drink it.(△) → Then, 하나만 쓰지 말고 Next, After that으로 바꿉니다."
+   },
+   "vocabulary": [
+    {
+     "word": "recipe",
+     "part_of_speech": "명사",
+     "meaning_ko": "요리법",
+     "example_en": "First, read the recipe.",
+     "example_ko": "먼저 요리법을 읽으세요."
+    },
+    {
+     "word": "boil",
+     "part_of_speech": "동사",
+     "meaning_ko": "끓이다",
+     "example_en": "First, boil the water.",
+     "example_ko": "먼저 물을 끓이세요."
+    },
+    {
+     "word": "mix",
+     "part_of_speech": "동사",
+     "meaning_ko": "섞다",
+     "example_en": "Next, mix the eggs and milk.",
+     "example_ko": "다음으로 달걀과 우유를 섞으세요."
+    },
+    {
+     "word": "pour",
+     "part_of_speech": "동사",
+     "meaning_ko": "붓다",
+     "example_en": "Then pour the water into a cup.",
+     "example_ko": "그다음 물을 컵에 부으세요."
+    },
+    {
+     "word": "slice",
+     "part_of_speech": "동사",
+     "meaning_ko": "얇게 썰다",
+     "example_en": "After that, slice the bread.",
+     "example_ko": "그 후에 빵을 얇게 써세요."
+    },
+    {
+     "word": "serve",
+     "part_of_speech": "동사",
+     "meaning_ko": "(음식을) 내놓다",
+     "example_en": "Finally, serve the soup hot.",
+     "example_ko": "마지막으로 수프를 뜨겁게 내놓으세요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "First, boil the water.",
+     "ko": "먼저 물을 끓이세요."
+    },
+    {
+     "en": "Then pour the water into a cup.",
+     "ko": "그다음 물을 컵에 부으세요."
+    },
+    {
+     "en": "Next, add a tea bag.",
+     "ko": "다음으로 티백을 넣으세요."
+    },
+    {
+     "en": "After that, wait for three minutes.",
+     "ko": "그 후에 3분 동안 기다리세요."
+    },
+    {
+     "en": "Finally, enjoy your tea.",
+     "ko": "마지막으로 차를 즐기세요."
+    },
+    {
+     "en": "First of all, read the recipe.",
+     "ko": "우선 요리법을 읽으세요."
+    },
+    {
+     "en": "Next, mix the eggs and milk.",
+     "ko": "다음으로 달걀과 우유를 섞으세요."
+    },
+    {
+     "en": "After that, slice the bread.",
+     "ko": "그 후에 빵을 얇게 써세요."
+    },
+    {
+     "en": "Finally, serve the soup hot.",
+     "ko": "마지막으로 수프를 뜨겁게 내놓으세요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "___, boil the water. Then pour it into a cup. (먼저)",
+     "choices": [
+      "First",
+      "Finally",
+      "After that",
+      "Lastly"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "일의 시작은 First로 말하고, 마지막에는 Finally를 씁니다.",
+     "error_tag": "sequence",
+     "id": "A2-022-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "First, I made a salad. ___, I made soup. Finally, I set the table.",
+     "choices": [
+      "Next",
+      "Finally",
+      "First",
+      "Last of all"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "중간 단계는 Next로 이어 말합니다. Finally는 이미 마지막에 쓰였습니다.",
+     "error_tag": "sequence",
+     "id": "A2-022-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "순서가 자연스러운 것은?",
+     "choices": [
+      "First, boil the water. Then add the pasta. Finally, serve it.",
+      "Finally, boil the water. Then add the pasta. First, serve it.",
+      "Then, boil the water. First, add the pasta. Finally, serve it.",
+      "First, serve it. Then add the pasta. Finally, boil the water."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "물을 끓이고 → 파스타를 넣고 → 내놓는 순서가 자연스럽습니다.",
+     "error_tag": "sequence",
+     "id": "A2-022-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'먼저 요리법을 읽으세요'를 영어로 바르게 말한 것은?",
+     "choices": [
+      "First, read the recipe.",
+      "Finally, read the recipe.",
+      "Then, read the recipe finally.",
+      "After that, read the recipe first."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "첫 단계에는 First,를 쓰고 쉼표를 붙입니다.",
+     "error_tag": "sequence",
+     "id": "A2-022-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: First, boil the water. ___ pour it into a cup. (그다음에)",
+     "answer_text": "then",
+     "accepted_answers": [
+      "then",
+      "next"
+     ],
+     "explanation_ko": "앞 단계 다음에는 Then 또는 Next로 이어 말합니다.",
+     "error_tag": "sequence",
+     "id": "A2-022-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: ___, serve the soup hot. (마지막으로)",
+     "answer_text": "finally",
+     "accepted_answers": [
+      "finally",
+      "lastly"
+     ],
+     "explanation_ko": "마지막 단계는 Finally 또는 Lastly로 말합니다.",
+     "error_tag": "sequence",
+     "id": "A2-022-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "좋아하는 음식이나 차를 만드는 방법을 순서 표현을 써서 네 문장으로 써 보세요.",
+    "example_answer_en": "First, boil the water. Then pour it into a cup. Next, add a tea bag. Finally, enjoy your tea.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-27",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-27"
+   }
   }
  ]
 }

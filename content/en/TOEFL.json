@@ -2833,6 +2833,201 @@
     "version": 1,
     "last_revised": "2026-10-26"
    }
+  },
+  {
+   "id": "TOEFL-016",
+   "level": "B1",
+   "track": "toefl",
+   "day": 16,
+   "title_ko": "TOEFL 2026 Write an Email 2: 목적·요청·마무리 구성하기",
+   "objective_ko": "이메일을 인사·목적·이유·구체적 요청·마무리 순서로 구성하고 정중한 표현을 고른다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/content/ets-org/language-master/ko/home/toefl/test-takers/ibt/about/content.html",
+     "publisher": "ETS",
+     "supports": "2026 형식 유형명",
+     "checked_at": "2026-10-27"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "Write an Email은 2026-01-21 이후 TOEFL iBT Writing에 포함된 유형명입니다(비공식 자체 연습입니다). 이메일은 다음 순서로 구성하면 읽는 사람이 이해하기 쉽습니다. ① 인사: Dear Professor Kim, ② 목적 한 문장: I am writing to ask whether I can ... ③ 이유·배경: 상황을 짧게 설명 ④ 구체적 요청: Could you please let me know ...? ⑤ 마무리: Thank you for your time. + Sincerely, 이름. 교수나 직원에게는 Hey, Tell me 같은 표현 대신 정중한 표현을 씁니다. 과제가 요구한 내용을 빠뜨리지 않는지 확인합니다. ETS 점수와 무관하며 점수 예측도 없습니다.",
+    "common_mistake_ko": "Hey professor, give me more time.(X) → Dear Professor Kim, I am writing to ask whether I can have an extension.(O) / Tell me the time.(X) → Could you please confirm the time?(O) / I am write to ask.(X) → I am writing to ask.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "rescheduling",
+     "part_of_speech": "명사",
+     "meaning_ko": "일정 변경",
+     "example_en": "Thank you for the rescheduling.",
+     "example_ko": "일정을 변경해 주셔서 감사합니다."
+    },
+    {
+     "word": "inconvenience",
+     "part_of_speech": "명사",
+     "meaning_ko": "불편",
+     "example_en": "I apologize for any inconvenience.",
+     "example_ko": "불편을 드려 죄송합니다."
+    },
+    {
+     "word": "grateful",
+     "part_of_speech": "형용사",
+     "meaning_ko": "감사하는",
+     "example_en": "I would be grateful if you could reply by Friday.",
+     "example_ko": "금요일까지 답장해 주시면 감사하겠습니다."
+    },
+    {
+     "word": "confirm",
+     "part_of_speech": "동사",
+     "meaning_ko": "확인하다",
+     "example_en": "Could you please confirm the meeting time?",
+     "example_ko": "회의 시간을 확인해 주시겠어요?"
+    },
+    {
+     "word": "advise",
+     "part_of_speech": "동사",
+     "meaning_ko": "조언하다, 안내하다",
+     "example_en": "Could you advise me on which course to take?",
+     "example_ko": "어느 강의를 들으면 좋을지 조언해 주시겠어요?"
+    },
+    {
+     "word": "availability",
+     "part_of_speech": "명사",
+     "meaning_ko": "(시간) 가능 여부",
+     "example_en": "Please let me know your availability next week.",
+     "example_ko": "다음 주에 가능한 시간을 알려 주세요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Dear Professor Kim,",
+     "ko": "김 교수님께,"
+    },
+    {
+     "en": "I am writing to ask for an extension on the assignment.",
+     "ko": "과제 기한 연장을 요청드리려고 글을 씁니다."
+    },
+    {
+     "en": "I have been sick since Monday, so I could not finish it.",
+     "ko": "월요일부터 아파서 과제를 끝내지 못했습니다."
+    },
+    {
+     "en": "Could you please confirm the meeting time?",
+     "ko": "회의 시간을 확인해 주시겠어요?"
+    },
+    {
+     "en": "Please let me know your availability next week.",
+     "ko": "다음 주에 가능한 시간을 알려 주세요."
+    },
+    {
+     "en": "I would be grateful if you could reply by Friday.",
+     "ko": "금요일까지 답장해 주시면 감사하겠습니다."
+    },
+    {
+     "en": "I apologize for any inconvenience.",
+     "ko": "불편을 드려 죄송합니다."
+    },
+    {
+     "en": "Thank you for your time, and I look forward to your reply.",
+     "ko": "시간 내 주셔서 감사하며 답장을 기다리겠습니다."
+    },
+    {
+     "en": "Sincerely, Minji Park",
+     "ko": "감사합니다. 박민지 드림"
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "교수에게 보내는 이메일의 목적 문장으로 가장 알맞은 것은?",
+     "choices": [
+      "I am writing to ask whether I can have an extension.",
+      "Give me more time.",
+      "I want to talk about stuff.",
+      "Hey, what's up?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "정중하게 목적을 밝히는 표현은 I am writing to ask ...입니다.",
+     "error_tag": "email-purpose",
+     "id": "F016-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "구체적 요청으로 가장 알맞은 표현은?",
+     "choices": [
+      "Could you please let me know your availability next week?",
+      "Tell me when you are free.",
+      "You must answer today.",
+      "Free next week?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Could you please ...?는 정중한 요청 표현입니다.",
+     "error_tag": "email-request",
+     "id": "F016-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "이메일 마무리로 가장 알맞은 것은?",
+     "choices": [
+      "Thank you for your time, and I look forward to your reply.",
+      "That is all I wanted to say, bye.",
+      "Reply now.",
+      "I am writing to ask a question."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "마무리에서는 감사 인사와 답장을 기대한다는 표현을 씁니다.",
+     "error_tag": "email-closing",
+     "id": "F016-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "이메일의 구성 순서로 가장 자연스러운 것은?",
+     "choices": [
+      "인사 → 목적 → 이유 → 구체적 요청 → 마무리",
+      "마무리 → 인사 → 요청 → 목적 → 이유",
+      "요청 → 인사 → 마무리 → 이유 → 목적",
+      "이유 → 마무리 → 인사 → 요청 → 목적"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "인사로 시작해 목적과 이유를 말하고 요청한 뒤 마무리합니다.",
+     "error_tag": "email-structure",
+     "id": "F016-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: I would be ___ if you could confirm the time. (감사하는)",
+     "answer_text": "grateful",
+     "accepted_answers": [
+      "grateful"
+     ],
+     "explanation_ko": "I would be grateful if you could ...는 정중한 부탁 표현입니다.",
+     "error_tag": "email-politeness",
+     "id": "F016-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: I am ___ to ask whether the office is open on Friday. (write의 -ing형)",
+     "answer_text": "writing",
+     "accepted_answers": [
+      "writing"
+     ],
+     "explanation_ko": "I am writing to ...로 이메일의 목적을 밝힙니다. write는 e를 빼고 -ing를 붙입니다.",
+     "error_tag": "email-purpose",
+     "id": "F016-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "교수에게 수업 시간을 확인하는 짧은 이메일을 인사·목적·요청·마무리 순서로 써 보세요.",
+    "example_answer_en": "Dear Professor Kim, I am writing to ask about the class time. Could you please confirm it? Thank you for your time. Sincerely, Minji",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다.비공식 자체 연습이며 ETS 문항이 아닙니다."
+   },
+   "publish_date": "2026-10-27",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-27"
+   }
   }
  ]
 }

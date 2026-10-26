@@ -4524,6 +4524,223 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N3-22",
+   "day_index": 22,
+   "week_index": 4,
+   "level": "N3",
+   "unit_id": "N3-W04",
+   "lesson_type": "new",
+   "title_ko": "使役形(〜させる): ~하게 하다·시키다",
+   "objective_ko": "동사 사역형(〜せる・〜させる)과 조사 に・を의 쓰임을 이해하고 ‘~하게 하다’를 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N3-21"
+   ],
+   "explanation_ko": "사역형은 누군가에게 어떤 행동을 하게 할 때 씁니다. ① 만드는 법: 1그룹은 ない형의 ない를 せる로 바꿉니다(書く → 書かせる, 笑う → 笑わせる, 行く → 行かせる). 2그룹은 る를 떼고 させる(食べる → 食べさせる). する → させる, 来る → 来させる. ② 조사: 대상이 하는 행동에 목적어(を)가 있으면 사람에는 に를 씁니다(母は子供に野菜を食べさせた). 목적어가 없는 자동사 행동이면 사람에 を를 씁니다(部長は新人を出張に行かせた, 話はみんなを笑わせた). ③ 시키는 쪽의 강제와 허가 모두 문맥으로 판단합니다.",
+   "usage_notes": [
+    "사역형은 ‘~가 …에게 ~을 하게 하다’이므로 시키는 사람이 주어가 됩니다.",
+    "목적어가 있는 문장은 〜に〜を〜させる, 자동사 문장은 〜を〜させる로 말합니다.",
+    "사역형 문장에서는 감정·소리·표정 같은 행동도 ‘~하게 만들다’의 뜻이 됩니다(笑わせる, 驚かせる)."
+   ],
+   "common_mistakes": [
+    "母は子供を野菜を食べさせた(X) → 母は子供に野菜を食べさせた(O): 목적어 を가 이미 있으면 사람에는 に를 씁니다.",
+    "笑わさせる(X) → 笑わせる(O): 1그룹은 〜せる를 붙입니다.",
+    "先生は学生を作文を書かせた(X) → 先生は学生に作文を書かせた(O)"
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N3-22-01",
+     "kind": "word",
+     "text": "作文{さくぶん}",
+     "reading_kana": "さくぶん",
+     "reading_romanized": "sakubun",
+     "meaning_ko": "작문",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-22-02",
+     "kind": "word",
+     "text": "冗談{じょうだん}",
+     "reading_kana": "じょうだん",
+     "reading_romanized": "joudan",
+     "meaning_ko": "농담",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-22-03",
+     "kind": "word",
+     "text": "新人{しんじん}",
+     "reading_kana": "しんじん",
+     "reading_romanized": "shinjin",
+     "meaning_ko": "신입, 신인",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-22-04",
+     "kind": "word",
+     "text": "担当{たんとう}",
+     "reading_kana": "たんとう",
+     "reading_romanized": "tantou",
+     "meaning_ko": "담당",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N3-22-05",
+     "kind": "word",
+     "text": "心配{しんぱい}",
+     "reading_kana": "しんぱい",
+     "reading_romanized": "shinpai",
+     "meaning_ko": "걱정",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N3-22-06",
+     "kind": "word",
+     "text": "掃除{そうじ}",
+     "reading_kana": "そうじ",
+     "reading_romanized": "souji",
+     "meaning_ko": "청소",
+     "part_of_speech": "명사・する동사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "母{はは}は子供{こども}に野菜{やさい}を食{た}べさせた。",
+     "meaning_ko": "어머니는 아이에게 채소를 먹게 했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "先生{せんせい}は学生{がくせい}に作文{さくぶん}を書{か}かせた。",
+     "meaning_ko": "선생님은 학생에게 작문을 쓰게 했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "部長{ぶちょう}は新人{しんじん}を一人{ひとり}で出張{しゅっちょう}に行{い}かせた。",
+     "meaning_ko": "부장은 신입을 혼자서 출장 가게 했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "その話{はなし}はみんなを笑{わら}わせた。",
+     "meaning_ko": "그 이야기는 모두를 웃게 했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}は冗談{じょうだん}で友達{ともだち}を驚{おどろ}かせた。",
+     "meaning_ko": "그는 농담으로 친구를 놀라게 했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "私{わたし}は弟{おとうと}に部屋{へや}を掃除{そうじ}させた。",
+     "meaning_ko": "나는 남동생에게 방을 청소하게 했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "店長{てんちょう}はアルバイトに毎日{まいにち}レジを担当{たんとう}させている。",
+     "meaning_ko": "점장은 아르바이트생에게 매일 계산대를 담당하게 하고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "子供{こども}を一人{ひとり}で行{い}かせるのは心配{しんぱい}だ。",
+     "meaning_ko": "아이를 혼자 가게 하는 것은 걱정이다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "コーチは選手{せんしゅ}を毎朝{まいあさ}走{はし}らせた。",
+     "meaning_ko": "코치는 선수를 매일 아침 달리게 했다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "母は子供に野菜を（　）。(채소를 먹게 했다)",
+     "options": [
+      "食べさせた",
+      "食べられた",
+      "食べさせられた",
+      "食べた"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "食べる(2그룹)의 사역형은 食べさせる이고, 과거는 食べさせた입니다.",
+     "id": "JP-N3-22-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「笑う」의 사역형은?",
+     "options": [
+      "笑わせる",
+      "笑わさせる",
+      "笑らせる",
+      "笑わせれる"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "1그룹은 ない형 笑わない의 ない를 せる로 바꿔 笑わせる가 됩니다.",
+     "id": "JP-N3-22-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "先生は学生（　）作文を書かせた。(학생에게 작문을 쓰게 했다)",
+     "options": [
+      "に",
+      "が",
+      "は",
+      "で"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "목적어(作文を)가 있으므로 시키는 대상에는 に를 씁니다.",
+     "id": "JP-N3-22-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「部長は新人を出張に行かせた」의 뜻은?",
+     "options": [
+      "부장은 신입을 출장 가게 했다",
+      "부장은 신입에게 출장을 보내졌다",
+      "신입이 부장을 출장 보냈다",
+      "부장은 신입과 출장 갔다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜を 行かせる는 ‘~를 가게 하다’이고, 시키는 사람은 부장입니다.",
+     "id": "JP-N3-22-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「作文」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "sakubun",
+     "accepted_answers": [
+      "sakubun"
+     ],
+     "explanation_ko": "作文 = さくぶん = sakubun (작문)",
+     "id": "JP-N3-22-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「心配」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "shinpai",
+     "accepted_answers": [
+      "shinpai",
+      "sinpai"
+     ],
+     "explanation_ko": "心配 = しんぱい = shinpai (걱정)",
+     "id": "JP-N3-22-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

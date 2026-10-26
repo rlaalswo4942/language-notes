@@ -4504,6 +4504,217 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-22",
+   "day_index": 22,
+   "week_index": 4,
+   "level": "N1",
+   "unit_id": "N1-W04",
+   "lesson_type": "new",
+   "title_ko": "〜んばかり(に): 당장이라도 ~할 듯한",
+   "objective_ko": "〜んばかり(に)로 실제로는 하지 않았지만 그렇게 보일 정도의 모습을 묘사한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-21"
+   ],
+   "explanation_ko": "〜んばかりだ・〜んばかりに・〜んばかりの는 ‘실제로 하지는 않았지만, 당장이라도 ~할 것 같은 상태’를 묘사합니다. ① 접속: 동사 ない형의 ない를 ん으로 바꿔 ばかり를 붙입니다(泣かない → 泣かんばかり, 言わない → 言わんばかり). する는 せんばかり가 됩니다. ② 쓰임: 〜んばかりの + 명사(割れんばかりの拍手), 〜んばかりに + 동사(言わんばかりに見た), 〜んばかりだ. ③ 자주 쓰이는 짝: 泣く・倒れる・溢れる・割れる・言う 같은 극단적 모습의 동사입니다. 문어체나 소설체에 많습니다.",
+   "usage_notes": [
+    "실제로 일어난 일이 아니라 ‘그렇게 보일 만큼’의 비유적 묘사이므로 사실 보고에는 쓰지 않습니다.",
+    "주로 감정・소리・태도의 정도를 강조할 때 쓰며, 뒤에 오는 명사를 꾸밀 때는 〜んばかりの를 씁니다.",
+    "〜と言わんばかりに는 ‘마치 ~라고 말하려는 듯이’라는 관용적인 표현입니다."
+   ],
+   "common_mistakes": [
+    "泣きんばかり(X) → 泣かんばかり(O): ない형을 바탕으로 ん을 붙입니다.",
+    "割れるんばかりの拍手(X) → 割れんばかりの拍手(O): 2그룹도 ない형(割れない)의 ない를 ん으로 바꿉니다.",
+    "昨日、彼は泣かんばかりに会議で発表した(X) → 彼は泣かんばかりの顔で発表した(O): 사실 보고가 아니라 모습의 정도를 묘사할 때 씁니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N1-22-01",
+     "kind": "word",
+     "text": "態度{たいど}",
+     "reading_kana": "たいど",
+     "reading_romanized": "taido",
+     "meaning_ko": "태도",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-22-02",
+     "kind": "word",
+     "text": "歓声{かんせい}",
+     "reading_kana": "かんせい",
+     "reading_romanized": "kansei",
+     "meaning_ko": "환성",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-22-03",
+     "kind": "word",
+     "text": "瞬間{しゅんかん}",
+     "reading_kana": "しゅんかん",
+     "reading_romanized": "shunkan",
+     "meaning_ko": "순간",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-22-04",
+     "kind": "word",
+     "text": "溢{あふ}れる",
+     "reading_kana": "あふれる",
+     "reading_romanized": "afureru",
+     "meaning_ko": "넘치다",
+     "part_of_speech": "동사(2그룹)"
+    },
+    {
+     "id": "w-JP-N1-22-05",
+     "kind": "word",
+     "text": "睨{にら}む",
+     "reading_kana": "にらむ",
+     "reading_romanized": "niramu",
+     "meaning_ko": "노려보다",
+     "part_of_speech": "동사(1그룹)"
+    },
+    {
+     "id": "w-JP-N1-22-06",
+     "kind": "word",
+     "text": "駆{か}け寄{よ}る",
+     "reading_kana": "かけよる",
+     "reading_romanized": "kakeyoru",
+     "meaning_ko": "달려가 다가서다",
+     "part_of_speech": "동사(1그룹)"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "彼女{かのじょ}は今{いま}にも泣{な}かんばかりの顔{かお}で謝{あやま}った。",
+     "meaning_ko": "그녀는 당장이라도 울 듯한 얼굴로 사과했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "会場{かいじょう}は割{わ}れんばかりの拍手{はくしゅ}に包{つつ}まれた。",
+     "meaning_ko": "회장은 터질 듯한 박수에 휩싸였다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "母{はは}は早{はや}く帰{かえ}れと言{い}わんばかりに時計{とけい}を見{み}た。",
+     "meaning_ko": "어머니는 빨리 돌아가라고 말하려는 듯 시계를 보았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}は出{で}て行{い}けと言{い}わんばかりの態度{たいど}で私{わたし}を睨{にら}んだ。",
+     "meaning_ko": "그는 나가라고 말하려는 듯한 태도로 나를 노려보았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "子供{こども}は溢{あふ}れんばかりの笑顔{えがお}で駆{か}け寄{よ}ってきた。",
+     "meaning_ko": "아이는 넘칠 듯한 웃음으로 달려왔다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}は倒{たお}れんばかりに疲{つか}れ切{き}っていた。",
+     "meaning_ko": "그는 쓰러질 듯이 지쳐 있었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "部長{ぶちょう}はこれで終{お}わりだと言{い}わんばかりに書類{しょるい}を閉{と}じた。",
+     "meaning_ko": "부장은 이걸로 끝이라고 말하려는 듯 서류를 덮었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "試合{しあい}終了{しゅうりょう}の瞬間{しゅんかん}、スタジアムは揺{ゆ}れんばかりの歓声{かんせい}に包{つつ}まれた。",
+     "meaning_ko": "경기 종료 순간 경기장은 흔들릴 듯한 환성에 휩싸였다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "彼女は今にも泣（　）んばかりの顔で謝った。",
+     "options": [
+      "か",
+      "き",
+      "く",
+      "け"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "泣く의 ない형은 泣かない이므로 泣かんばかり가 됩니다.",
+     "id": "JP-N1-22-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「言う」에 〜んばかりに를 붙인 올바른 형태는?",
+     "options": [
+      "言わんばかりに",
+      "言いんばかりに",
+      "言うんばかりに",
+      "言えんばかりに"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "言う의 ない형은 言わない이므로 言わんばかりに입니다.",
+     "id": "JP-N1-22-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「割れんばかりの拍手」의 뜻은?",
+     "options": [
+      "깨질 듯이 큰 박수",
+      "박수가 깨졌다",
+      "박수가 없었다",
+      "작은 박수"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜んばかりの는 ‘당장이라도 ~할 듯한’이라는 정도를 강조하는 표현입니다.",
+     "id": "JP-N1-22-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "〜んばかりに가 나타내는 것은?",
+     "options": [
+      "실제로 하지는 않았지만 ~할 것처럼 보이는 모습",
+      "실제로 일어난 사실만",
+      "미래의 예정",
+      "금지"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜んばかりに는 실제 행동이 아니라 그렇게 보일 정도의 모습을 묘사합니다.",
+     "id": "JP-N1-22-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「態度」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "taido",
+     "accepted_answers": [
+      "taido"
+     ],
+     "explanation_ko": "態度 = たいど = taido (태도)",
+     "id": "JP-N1-22-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「歓声」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kansei",
+     "accepted_answers": [
+      "kansei"
+     ],
+     "explanation_ko": "歓声 = かんせい = kansei (환성)",
+     "id": "JP-N1-22-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "JLPT_FORMAT"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

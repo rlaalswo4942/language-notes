@@ -4512,6 +4512,227 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-22",
+   "day_index": 22,
+   "week_index": 4,
+   "level": "N4",
+   "unit_id": "N4-W04",
+   "lesson_type": "new",
+   "title_ko": "〜なければ なりません・〜なくても いいです: 의무와 불필요",
+   "objective_ko": "동사 ない형 + なければ なりません(~해야 합니다), ない형 + なくても いいです(~하지 않아도 됩니다)를 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-21"
+   ],
+   "explanation_ko": "의무와 불필요는 동사의 ない형을 바탕으로 말합니다. ① ない형: 1그룹은 마지막 う단을 あ단으로 바꾸고 ない를 붙입니다(飲む → 飲まない, 返す → 返さない, 脱ぐ → 脱がない, 買う → 買わない). 2그룹은 る를 떼고 ない(起きる → 起きない), する → しない, 来る → 来ない. ② 〜ない형의 い를 없애고 なければ なりません: 飲まなければ なりません(마셔야 합니다). ③ 〜ない형의 い를 없애고 なくても いいです: 来なくても いいです(오지 않아도 됩니다). 질문은 〜なければ なりませんか / 〜なくても いいですか입니다.",
+   "usage_notes": [
+    "〜なければ なりません은 ‘~해야 합니다’로 규칙이나 필요를 말하고, 〜なくても いいです는 ‘~하지 않아도 됩니다’로 불필요를 말합니다.",
+    "1그룹 동사 중 끝이 う인 동사는 わ로 바뀝니다(買う → 買わない, 会う → 会わない).",
+    "〜てはいけません(금지)과 〜なくても いいです(불필요)는 뜻이 다르므로 구별합니다."
+   ],
+   "common_mistakes": [
+    "薬を 飲みなければ なりません(X) → 薬を 飲まなければ なりません(O): 1그룹은 ない형(飲まない)을 바탕으로 합니다.",
+    "早く 起きなくても いいです(O: 일찍 일어나지 않아도 됩니다) / 早く 起きては いけません(O: 일찍 일어나면 안 됩니다): 불필요와 금지를 혼동하지 않습니다.",
+    "本を 返さなければ いいです(X) → 本を 返さなければ なりません(O): ‘해야 한다’는 なければ なりません입니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N4-22-01",
+     "kind": "word",
+     "text": "返{かえ}す",
+     "reading_kana": "かえす",
+     "reading_romanized": "kaesu",
+     "meaning_ko": "돌려주다, 반납하다",
+     "part_of_speech": "동사(1그룹)"
+    },
+    {
+     "id": "w-JP-N4-22-02",
+     "kind": "word",
+     "text": "脱{ぬ}ぐ",
+     "reading_kana": "ぬぐ",
+     "reading_romanized": "nugu",
+     "meaning_ko": "벗다",
+     "part_of_speech": "동사(1그룹)"
+    },
+    {
+     "id": "w-JP-N4-22-03",
+     "kind": "word",
+     "text": "起{お}きる",
+     "reading_kana": "おきる",
+     "reading_romanized": "okiru",
+     "meaning_ko": "일어나다",
+     "part_of_speech": "동사(2그룹)"
+    },
+    {
+     "id": "w-JP-N4-22-04",
+     "kind": "word",
+     "text": "荷物{にもつ}",
+     "reading_kana": "にもつ",
+     "reading_romanized": "nimotsu",
+     "meaning_ko": "짐",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-22-05",
+     "kind": "word",
+     "text": "申{もう}し込{こ}み",
+     "reading_kana": "もうしこみ",
+     "reading_romanized": "moushikomi",
+     "meaning_ko": "신청",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-22-06",
+     "kind": "word",
+     "text": "予約{よやく}",
+     "reading_kana": "よやく",
+     "reading_romanized": "yoyaku",
+     "meaning_ko": "예약",
+     "part_of_speech": "명사・する동사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "明日{あした}は 早{はや}く 起{お}きなければ なりません。",
+     "meaning_ko": "내일은 일찍 일어나야 합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "薬{くすり}を 飲{の}まなければ なりません。",
+     "meaning_ko": "약을 먹어야 합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "宿題{しゅくだい}を しなければ なりません。",
+     "meaning_ko": "숙제를 해야 합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "日曜日{にちようび}は 会社{かいしゃ}へ 行{い}かなくても いいです。",
+     "meaning_ko": "일요일은 회사에 가지 않아도 됩니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "ここでは 靴{くつ}を 脱{ぬ}がなくても いいです。",
+     "meaning_ko": "여기서는 신발을 벗지 않아도 됩니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "駅{えき}で 友達{ともだち}を 待{ま}たなければ なりません。",
+     "meaning_ko": "역에서 친구를 기다려야 합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 本{ほん}は 今日{きょう}、返{かえ}さなければ なりません。",
+     "meaning_ko": "이 책은 오늘 반납해야 합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "荷物{にもつ}は 持{も}たなくても いいです。",
+     "meaning_ko": "짐은 들지 않아도 됩니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "申{もう}し込{こ}みは 明日{あした}までに しなければ なりません。",
+     "meaning_ko": "신청은 내일까지 해야 합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "レストランの 予約{よやく}は しなくても いいです。",
+     "meaning_ko": "식당 예약은 하지 않아도 됩니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "薬を 飲（　）なければ なりません。(약을 먹어야 합니다)",
+     "options": [
+      "ま",
+      "み",
+      "む",
+      "め"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "飲む는 1그룹이므로 ない형이 飲まない이고, 飲まなければ なりません이 됩니다.",
+     "id": "JP-N4-22-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "日曜日は 行かなくても（　）です。(일요일은 가지 않아도 됩니다)",
+     "options": [
+      "いい",
+      "ない",
+      "だめ",
+      "ます"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜なくても いいです로 ‘~하지 않아도 됩니다’를 나타냅니다.",
+     "id": "JP-N4-22-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「早く 寝なければ なりません」의 뜻은?",
+     "options": [
+      "일찍 자야 합니다",
+      "일찍 자도 됩니다",
+      "일찍 자면 안 됩니다",
+      "일찍 자고 싶습니다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜なければ なりません은 ‘~해야 합니다’(의무)입니다.",
+     "id": "JP-N4-22-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「ここでは 靴を 脱がなくても いいです」의 뜻은?",
+     "options": [
+      "신발을 벗지 않아도 됩니다",
+      "신발을 벗어야 합니다",
+      "신발을 벗으면 안 됩니다",
+      "신발을 벗고 싶습니다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜なくても いいです는 불필요(~하지 않아도 됩니다)를 나타냅니다.",
+     "id": "JP-N4-22-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「荷物」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "nimotsu",
+     "accepted_answers": [
+      "nimotsu"
+     ],
+     "explanation_ko": "荷物 = にもつ = nimotsu (짐)",
+     "id": "JP-N4-22-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「予約」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "yoyaku",
+     "accepted_answers": [
+      "yoyaku"
+     ],
+     "explanation_ko": "予約 = よやく = yoyaku (예약)",
+     "id": "JP-N4-22-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }
