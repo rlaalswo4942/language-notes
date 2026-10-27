@@ -5809,6 +5809,238 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전"
+  },
+  {
+   "id": "JP-INTRO-47",
+   "day_index": 47,
+   "week_index": 7,
+   "level": "INTRO",
+   "unit_id": "INTRO-W07",
+   "lesson_type": "new",
+   "title_ko": "가타카나 요음 キャ·シャ·チャ행",
+   "objective_ko": "가타카나 キ·シ·チ에 작은 ャ·ュ·ョ를 붙인 요음 9개를 읽고, 외래어 단어를 읽는다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-INTRO-46"
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-INTRO-47-01",
+     "kind": "kana",
+     "text": "キャ",
+     "reading_romanized": "kya",
+     "meaning_ko": null
+    },
+    {
+     "id": "w-JP-INTRO-47-02",
+     "kind": "kana",
+     "text": "キュ",
+     "reading_romanized": "kyu",
+     "meaning_ko": null
+    },
+    {
+     "id": "w-JP-INTRO-47-03",
+     "kind": "kana",
+     "text": "キョ",
+     "reading_romanized": "kyo",
+     "meaning_ko": null
+    },
+    {
+     "id": "w-JP-INTRO-47-04",
+     "kind": "kana",
+     "text": "シャ",
+     "reading_romanized": "sha",
+     "meaning_ko": null
+    },
+    {
+     "id": "w-JP-INTRO-47-05",
+     "kind": "kana",
+     "text": "シュ",
+     "reading_romanized": "shu",
+     "meaning_ko": null
+    },
+    {
+     "id": "w-JP-INTRO-47-06",
+     "kind": "kana",
+     "text": "ショ",
+     "reading_romanized": "sho",
+     "meaning_ko": null
+    },
+    {
+     "id": "w-JP-INTRO-47-07",
+     "kind": "kana",
+     "text": "チャ",
+     "reading_romanized": "cha",
+     "meaning_ko": null
+    },
+    {
+     "id": "w-JP-INTRO-47-08",
+     "kind": "kana",
+     "text": "チュ",
+     "reading_romanized": "chu",
+     "meaning_ko": null
+    },
+    {
+     "id": "w-JP-INTRO-47-09",
+     "kind": "kana",
+     "text": "チョ",
+     "reading_romanized": "cho",
+     "meaning_ko": null
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "シャツ",
+     "reading_romanized": "shatsu",
+     "meaning_ko": "셔츠",
+     "explanation_ko": "シャ(sha) + ツ(tsu)입니다."
+    },
+    {
+     "japanese": "チョコ",
+     "reading_romanized": "choko",
+     "meaning_ko": "초콜릿",
+     "explanation_ko": "チョ(cho) + コ(ko)입니다."
+    },
+    {
+     "japanese": "キャンプ",
+     "reading_romanized": "kyanpu",
+     "meaning_ko": "캠프",
+     "explanation_ko": "キャ(kya) + ン + プ입니다."
+    },
+    {
+     "japanese": "シャワー",
+     "reading_romanized": "shawaa",
+     "meaning_ko": "샤워",
+     "explanation_ko": "シャ(sha) + ワ + 장음 ー(길게 늘임)입니다."
+    },
+    {
+     "japanese": "キャベツ",
+     "reading_romanized": "kyabetsu",
+     "meaning_ko": "양배추",
+     "explanation_ko": "キャ(kya) + ベ + ツ입니다."
+    },
+    {
+     "japanese": "シャンプー",
+     "reading_romanized": "shanpuu",
+     "meaning_ko": "샴푸",
+     "explanation_ko": "シャ(sha) + ン + プ + 장음 ー입니다."
+    },
+    {
+     "japanese": "キャラメル",
+     "reading_romanized": "kyarameru",
+     "meaning_ko": "캐러멜",
+     "explanation_ko": "キャ(kya) + ラ + メ + ル입니다."
+    },
+    {
+     "japanese": "シュークリーム",
+     "reading_romanized": "shuukuriimu",
+     "meaning_ko": "슈크림",
+     "explanation_ko": "シュ(shu) + 장음 ー가 있고, 크림 부분의 ー도 길게 읽습니다."
+    },
+    {
+     "japanese": "チョコレート",
+     "reading_romanized": "chokoreeto",
+     "meaning_ko": "초콜릿(바)",
+     "explanation_ko": "チョ(cho) + コ + レ + 장음 ー + ト입니다."
+    },
+    {
+     "japanese": "チャーハン",
+     "reading_romanized": "chaahan",
+     "meaning_ko": "볶음밥",
+     "explanation_ko": "チャ(cha) + 장음 ー + ハ + ン입니다."
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「キャ」의 일반적인 로마자 표기는 무엇인가요?",
+     "options": [
+      "kya",
+      "sha",
+      "cha",
+      "kyo"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "キ(ki)에 작은 ャ를 붙인 キャ는 kya입니다.",
+     "id": "JP-INTRO-47-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「ショ」의 일반적인 로마자 표기는 무엇인가요?",
+     "options": [
+      "cho",
+      "sho",
+      "kyo",
+      "shu"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "シ에 작은 ョ를 붙인 ショ는 sho입니다. cho는 チョ입니다.",
+     "id": "JP-INTRO-47-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「シャツ」의 뜻은?",
+     "options": [
+      "샤워",
+      "셔츠",
+      "샴푸",
+      "초콜릿"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "シャツ(shatsu)는 '셔츠'입니다. 샤워는 シャワー, 샴푸는 シャンプー, 초콜릿은 チョコ입니다.",
+     "id": "JP-INTRO-47-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「キャンプ」의 뜻은?",
+     "options": [
+      "양배추",
+      "캐러멜",
+      "캠프",
+      "볶음밥"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "キャンプ(kyanpu)는 '캠프'입니다. 양배추는 キャベツ, 캐러멜은 キャラメル, 볶음밥은 チャーハン입니다.",
+     "id": "JP-INTRO-47-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「チョコ」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "choko",
+     "accepted_answers": [
+      "choko",
+      "tyoko"
+     ],
+     "explanation_ko": "チョコ = choko (초콜릿)",
+     "id": "JP-INTRO-47-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「シャワー」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "shawaa",
+     "accepted_answers": [
+      "shawaa",
+      "shawa",
+      "syawaa",
+      "syawa"
+     ],
+     "explanation_ko": "シャワー = shawaa (샤워). ー는 앞의 모음을 길게 읽습니다.",
+     "id": "JP-INTRO-47-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_KATAKANA"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전"
   }
  ]
 }

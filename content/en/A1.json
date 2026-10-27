@@ -4317,6 +4317,205 @@
     "version": 1,
     "last_revised": "2026-10-27"
    }
+  },
+  {
+   "id": "A1-023",
+   "level": "A1",
+   "track": "foundation",
+   "day": 23,
+   "title_ko": "불규칙동사 과거형: went / had / saw / ate / bought / made",
+   "objective_ko": "자주 쓰는 불규칙동사의 과거형을 말하고, didn't와 Did로 부정문·의문문을 만든다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-28"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "불규칙동사는 -ed를 붙이지 않고 모양이 바뀝니다. go → went, have → had, see → saw, eat → ate, buy → bought, make → made, get → got. 모양은 외워 두어야 하며, 규칙동사처럼 yesterday, last week 같은 과거 표시 말과 함께 씁니다. 부정문과 의문문은 규칙동사와 같습니다: didn't + 동사 원형(I didn't go), Did + 주어 + 동사 원형?(Did you see it?). didn't나 Did 뒤에서는 과거형이 아니라 원형을 씁니다.",
+    "common_mistake_ko": "I goed to the market.(X) → I went to the market.(O) / She buyed a bag.(X) → She bought a bag.(O) / I didn't went there.(X) → I didn't go there.(O) / Did you saw him?(X) → Did you see him?(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "go (went)",
+     "part_of_speech": "동사",
+     "meaning_ko": "가다 (과거형 went)",
+     "example_en": "I went to the market yesterday.",
+     "example_ko": "나는 어제 시장에 갔어요."
+    },
+    {
+     "word": "buy (bought)",
+     "part_of_speech": "동사",
+     "meaning_ko": "사다 (과거형 bought)",
+     "example_en": "She bought a new bag last week.",
+     "example_ko": "그녀는 지난주에 새 가방을 샀어요."
+    },
+    {
+     "word": "eat (ate)",
+     "part_of_speech": "동사",
+     "meaning_ko": "먹다 (과거형 ate)",
+     "example_en": "We ate pizza for dinner.",
+     "example_ko": "우리는 저녁으로 피자를 먹었어요."
+    },
+    {
+     "word": "see (saw)",
+     "part_of_speech": "동사",
+     "meaning_ko": "보다 (과거형 saw)",
+     "example_en": "He saw his friend at the station.",
+     "example_ko": "그는 역에서 친구를 봤어요."
+    },
+    {
+     "word": "make (made)",
+     "part_of_speech": "동사",
+     "meaning_ko": "만들다 (과거형 made)",
+     "example_en": "They made a cake for her birthday.",
+     "example_ko": "그들은 그녀의 생일에 케이크를 만들었어요."
+    },
+    {
+     "word": "get (got)",
+     "part_of_speech": "동사",
+     "meaning_ko": "받다, 얻다 (과거형 got)",
+     "example_en": "I got a message from Tom.",
+     "example_ko": "나는 Tom에게서 메시지를 받았어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I went to the market yesterday.",
+     "ko": "나는 어제 시장에 갔어요."
+    },
+    {
+     "en": "She bought a new bag last week.",
+     "ko": "그녀는 지난주에 새 가방을 샀어요."
+    },
+    {
+     "en": "We ate pizza for dinner.",
+     "ko": "우리는 저녁으로 피자를 먹었어요."
+    },
+    {
+     "en": "He saw his friend at the station.",
+     "ko": "그는 역에서 친구를 봤어요."
+    },
+    {
+     "en": "They made a cake for her birthday.",
+     "ko": "그들은 그녀의 생일에 케이크를 만들었어요."
+    },
+    {
+     "en": "I got a message from Tom.",
+     "ko": "나는 Tom에게서 메시지를 받았어요."
+    },
+    {
+     "en": "I had a big breakfast yesterday.",
+     "ko": "나는 어제 아침을 많이 먹었어요."
+    },
+    {
+     "en": "Did you go to school yesterday?",
+     "ko": "어제 학교에 갔어요?"
+    },
+    {
+     "en": "No, I didn't. I stayed at home.",
+     "ko": "아니요, 안 갔어요. 집에 있었어요."
+    },
+    {
+     "en": "She didn't see the movie.",
+     "ko": "그녀는 그 영화를 보지 않았어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "We ___ to the park last Sunday.",
+     "choices": [
+      "went",
+      "go",
+      "goed",
+      "gone"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "go의 과거형은 went입니다. goed는 없는 형태입니다.",
+     "error_tag": "irregular-past",
+     "id": "A1-023-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "She ___ a new bag yesterday.",
+     "choices": [
+      "bought",
+      "buyed",
+      "buys",
+      "buy"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "buy의 과거형은 bought입니다.",
+     "error_tag": "irregular-past",
+     "id": "A1-023-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Did you ___ the movie?",
+     "choices": [
+      "see",
+      "saw",
+      "seen",
+      "sees"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Did 뒤에는 동사 원형을 씁니다.",
+     "error_tag": "did-question",
+     "id": "A1-023-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "I ___ eggs for breakfast yesterday.",
+     "choices": [
+      "ate",
+      "eat",
+      "eated",
+      "eating"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "yesterday는 과거이고 eat의 과거형은 ate입니다.",
+     "error_tag": "irregular-past",
+     "id": "A1-023-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: He ___ a cake for her birthday. (make의 과거형)",
+     "answer_text": "made",
+     "accepted_answers": [
+      "made"
+     ],
+     "explanation_ko": "make의 과거형은 made입니다.",
+     "error_tag": "irregular-past",
+     "id": "A1-023-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: They didn't ___ the news. (see)",
+     "answer_text": "see",
+     "accepted_answers": [
+      "see"
+     ],
+     "explanation_ko": "didn't 뒤에는 동사 원형을 씁니다.",
+     "error_tag": "didnt",
+     "id": "A1-023-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "어제 한 일을 불규칙동사 과거형으로 두 문장 써 보세요.",
+    "example_answer_en": "I went to the library yesterday. I bought a book there.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-28",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-28"
+   }
   }
  ]
 }

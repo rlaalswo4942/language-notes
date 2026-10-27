@@ -4741,6 +4741,224 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N3-23",
+   "day_index": 23,
+   "week_index": 4,
+   "level": "N3",
+   "unit_id": "N3-W04",
+   "lesson_type": "new",
+   "title_ko": "〜ほど: 정도 말하기 (~할 정도・~만큼 ~하지 않다)",
+   "objective_ko": "〜ほど로 정도를 말하고, 〜ほど〜ない・〜ば〜ほど의 쓰임을 구별한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N3-22"
+   ],
+   "explanation_ko": "ほど는 정도를 나타냅니다. ① 〜ほど + 서술: ‘~할 정도로’라고 정도를 구체적으로 보여 줍니다(涙が出るほど笑った). ② AはBほど〜ない: ‘A는 B만큼 ~하지 않다’로, 뒤에 부정 표현이 옵니다(今年の夏は去年ほど暑くない). ③ 〜ば〜ほど: ‘~하면 할수록’입니다(練習すればするほど上達する). ④ 〜ほどの + 명사: ‘~할 만한’의 뜻입니다(驚くほどの結果). ほど 앞에는 동사의 보통형이나 명사가 옵니다.",
+   "usage_notes": [
+    "AはBほど〜ない는 비교 대상 B보다 정도가 낮다는 뜻입니다. 긍정문에서 ‘만큼 ~하다’는 ほど가 아니라 くらい・ぐらい나 同じくらい로 말합니다.",
+    "〜ば〜ほど는 같은 동사를 반복해 ‘정도가 커질수록’을 나타냅니다.",
+    "〜ほど는 실제 사건이 아니라 ‘그 정도로 ~했다’는 과장된 정도를 보여 줄 때 자주 씁니다."
+   ],
+   "common_mistakes": [
+    "兄は私ほど背が高い(X) → 兄は私ほど背が高くない(O) / 兄は私と同じくらい背が高い(O): ほど는 부정과 함께 씁니다.",
+    "今年の夏は去年ほど暑かった(X) → 今年の夏は去年ほど暑くなかった(O): AはBほど〜ない처럼 ほど는 부정과 짝을 이룹니다.",
+    "練習すれば上手になるほど(X) → 練習すればするほど上手になる(O): ‘~할수록’은 같은 동사를 반복하는 〜ば〜ほど 형태로 말합니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N3-23-01",
+     "kind": "word",
+     "text": "涙{なみだ}",
+     "reading_kana": "なみだ",
+     "reading_romanized": "namida",
+     "meaning_ko": "눈물",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-23-02",
+     "kind": "word",
+     "text": "緊張{きんちょう}",
+     "reading_kana": "きんちょう",
+     "reading_romanized": "kinchou",
+     "meaning_ko": "긴장",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N3-23-03",
+     "kind": "word",
+     "text": "期待{きたい}",
+     "reading_kana": "きたい",
+     "reading_romanized": "kitai",
+     "meaning_ko": "기대",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N3-23-04",
+     "kind": "word",
+     "text": "上達{じょうたつ}",
+     "reading_kana": "じょうたつ",
+     "reading_romanized": "joutatsu",
+     "meaning_ko": "실력이 늚",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N3-23-05",
+     "kind": "word",
+     "text": "汗{あせ}",
+     "reading_kana": "あせ",
+     "reading_romanized": "ase",
+     "meaning_ko": "땀",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-23-06",
+     "kind": "word",
+     "text": "気温{きおん}",
+     "reading_kana": "きおん",
+     "reading_romanized": "kion",
+     "meaning_ko": "기온",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "涙{なみだ}が出{で}るほど笑{わら}った。",
+     "meaning_ko": "눈물이 날 만큼 웃었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "今年{ことし}の夏{なつ}は去年{きょねん}ほど暑{あつ}くない。",
+     "meaning_ko": "올해 여름은 작년만큼 덥지 않다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "練習{れんしゅう}すればするほど、上達{じょうたつ}する。",
+     "meaning_ko": "연습하면 할수록 실력이 는다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "声{こえ}が震{ふる}えるほど緊張{きんちょう}した。",
+     "meaning_ko": "목소리가 떨릴 만큼 긴장했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}の日本語{にほんご}は私{わたし}ほど上手{じょうず}ではない。",
+     "meaning_ko": "그의 일본어는 나만큼 능숙하지 않다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "汗{あせ}が出{で}るほど走{はし}った。",
+     "meaning_ko": "땀이 날 만큼 달렸다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "今日{きょう}は昨日{きのう}ほど気温{きおん}が高{たか}くない。",
+     "meaning_ko": "오늘은 어제만큼 기온이 높지 않다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "期待{きたい}していたほど、料理{りょうり}はおいしくなかった。",
+     "meaning_ko": "기대했던 만큼 요리는 맛있지 않았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "疲{つか}れて、動{うご}けないほどだ。",
+     "meaning_ko": "피곤해서 움직일 수 없을 정도다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "今年の夏は去年（　）暑くない。(작년만큼 덥지 않다)",
+     "options": [
+      "ほど",
+      "より",
+      "ばかり",
+      "ごろ"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘~만큼 ~하지 않다’는 〜ほど〜ない로 말합니다.",
+     "id": "JP-N3-23-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "練習すれば（　）、上手になる。(연습하면 할수록)",
+     "options": [
+      "するほど",
+      "するより",
+      "したほど",
+      "するだけ"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘~하면 할수록’은 〜ば〜ほど이므로 練習すればするほど가 됩니다.",
+     "id": "JP-N3-23-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "涙が出る（　）笑った。(눈물이 날 만큼)",
+     "options": [
+      "ほど",
+      "ので",
+      "のに",
+      "ながら"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "정도를 나타내는 ほど가 알맞습니다.",
+     "id": "JP-N3-23-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "兄は私ほど背が（　）。(오빠는 나만큼 키가 크지 않다)",
+     "options": [
+      "高くない",
+      "高い",
+      "高かった",
+      "高いです"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜ほど는 뒤에 부정 표현이 오므로 高くない입니다.",
+     "id": "JP-N3-23-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「涙」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "namida",
+     "accepted_answers": [
+      "namida"
+     ],
+     "explanation_ko": "涙 = なみだ = namida (눈물)",
+     "id": "JP-N3-23-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「緊張」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kinchou",
+     "accepted_answers": [
+      "kinchou",
+      "kintyou",
+      "kinchoo"
+     ],
+     "explanation_ko": "緊張 = きんちょう = kinchou (긴장)",
+     "id": "JP-N3-23-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

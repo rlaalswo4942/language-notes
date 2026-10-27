@@ -4733,6 +4733,223 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-23",
+   "day_index": 23,
+   "week_index": 4,
+   "level": "N4",
+   "unit_id": "N4-W04",
+   "lesson_type": "new",
+   "title_ko": "〜たら: ~하면 (조건·가정)",
+   "objective_ko": "동사・형용사・명사의 た형 + ら로 ‘~하면’의 조건과 가정을 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-22"
+   ],
+   "explanation_ko": "〜たら는 ‘~하면, ~한다면’이라는 조건·가정을 나타내며, 과거형(た형)에 ら를 붙여 만듭니다. ① 동사: た형 + ら(降る → 降ったら, 飲む → 飲んだら, 着く → 着いたら, する → したら, 来る → 来たら). ② い형용사: 〜かったら(安い → 安かったら). ③ な형용사・명사: 〜だったら(休みだったら). ④ 부정: 〜なかったら(行かなかったら). 뒤에는 의지・부탁・권유・판단 등을 자유롭게 쓸 수 있습니다(連絡{れんらく}して ください). 정중한 권유로 よかったら(괜찮으시다면)도 자주 씁니다.",
+   "usage_notes": [
+    "〜たら 앞에서는 시제와 상관없이 항상 た형을 바탕으로 만듭니다. 〜たら 자체가 과거라는 뜻은 아닙니다.",
+    "い형용사는 〜かったら, な형용사・명사는 〜だったら입니다.",
+    "もし(만약)를 앞에 붙이면 가정의 뜻이 더 분명해집니다."
+   ],
+   "common_mistakes": [
+    "雨が 降るたら(X) → 雨が 降ったら(O): 동사는 た형에 ら를 붙입니다.",
+    "安いだったら(X) → 安かったら(O): い형용사는 〜かったら입니다.",
+    "行きたら(X) → 行ったら(O): 行く의 た형은 行った입니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N4-23-01",
+     "kind": "word",
+     "text": "都合{つごう}",
+     "reading_kana": "つごう",
+     "reading_romanized": "tsugou",
+     "meaning_ko": "사정, 형편",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-23-02",
+     "kind": "word",
+     "text": "連絡{れんらく}",
+     "reading_kana": "れんらく",
+     "reading_romanized": "renraku",
+     "meaning_ko": "연락",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N4-23-03",
+     "kind": "word",
+     "text": "合格{ごうかく}",
+     "reading_kana": "ごうかく",
+     "reading_romanized": "goukaku",
+     "meaning_ko": "합격",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N4-23-04",
+     "kind": "word",
+     "text": "遅{おく}れる",
+     "reading_kana": "おくれる",
+     "reading_romanized": "okureru",
+     "meaning_ko": "늦다, 늦어지다",
+     "part_of_speech": "동사(2그룹)"
+    },
+    {
+     "id": "w-JP-N4-23-05",
+     "kind": "word",
+     "text": "熱{ねつ}",
+     "reading_kana": "ねつ",
+     "reading_romanized": "netsu",
+     "meaning_ko": "열",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-23-06",
+     "kind": "word",
+     "text": "下{さ}がる",
+     "reading_kana": "さがる",
+     "reading_romanized": "sagaru",
+     "meaning_ko": "내려가다, 내리다",
+     "part_of_speech": "동사(1그룹)"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "雨{あめ}が 降{ふ}ったら、出{で}かけません。",
+     "meaning_ko": "비가 오면 외출하지 않습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "時間{じかん}が あったら、手伝{てつだ}って ください。",
+     "meaning_ko": "시간이 있으면 도와 주세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "都合{つごう}が よかったら、一緒{いっしょ}に 行{い}きましょう。",
+     "meaning_ko": "사정이 괜찮으시다면 함께 갑시다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "駅{えき}に 着{つ}いたら、連絡{れんらく}して ください。",
+     "meaning_ko": "역에 도착하면 연락해 주세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "熱{ねつ}が 下{さ}がらなかったら、病院{びょういん}へ 行{い}きます。",
+     "meaning_ko": "열이 내리지 않으면 병원에 갑니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "試験{しけん}に 合格{ごうかく}したら、旅行{りょこう}に 行{い}きたいです。",
+     "meaning_ko": "시험에 합격하면 여행을 가고 싶습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "もし 明日{あした}が 休{やす}みだったら、海{うみ}へ 行{い}きます。",
+     "meaning_ko": "만약 내일이 휴일이면 바다에 갑니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "もっと 安{やす}かったら、買{か}います。",
+     "meaning_ko": "좀 더 싸면 사겠습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "電車{でんしゃ}が 遅{おく}れたら、先{さき}に 行{い}って ください。",
+     "meaning_ko": "전철이 늦어지면 먼저 가 주세요.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "雨が（　）、行きません。(비가 오면 가지 않습니다)",
+     "options": [
+      "降ったら",
+      "降るたら",
+      "降いたら",
+      "降ったり"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "降る의 た형은 降った이므로 降ったら가 됩니다.",
+     "id": "JP-N4-23-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "安い를 〜たら로 바꾼 것은? （　）、買います。",
+     "options": [
+      "安かったら",
+      "安いたら",
+      "安だったら",
+      "安くたら"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "い형용사는 い를 かったら로 바꿔 安かったら가 됩니다.",
+     "id": "JP-N4-23-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "駅に 着（　）、連絡して ください。(역에 도착하면)",
+     "options": [
+      "いたら",
+      "きたら",
+      "ったら",
+      "んだら"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "着く의 た형은 着いた이므로 着いたら가 됩니다.",
+     "id": "JP-N4-23-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「明日が 休みだったら」의 뜻은?",
+     "options": [
+      "내일이 휴일이면",
+      "내일이 휴일이어서",
+      "내일 쉬고 싶어서",
+      "내일 쉬지 않으면"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "명사 + だったら는 ‘~이라면’이므로 ‘내일이 휴일이면’입니다.",
+     "id": "JP-N4-23-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「連絡」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "renraku",
+     "accepted_answers": [
+      "renraku"
+     ],
+     "explanation_ko": "連絡 = れんらく = renraku (연락)",
+     "id": "JP-N4-23-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「合格」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "goukaku",
+     "accepted_answers": [
+      "goukaku",
+      "gookaku"
+     ],
+     "explanation_ko": "合格 = ごうかく = goukaku (합격)",
+     "id": "JP-N4-23-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

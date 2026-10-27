@@ -4712,6 +4712,225 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-23",
+   "day_index": 23,
+   "week_index": 4,
+   "level": "N2",
+   "unit_id": "N2-W04",
+   "lesson_type": "new",
+   "title_ko": "〜に関して・〜に関する: ~에 관해",
+   "objective_ko": "〜に関して・〜に関する・〜に関しては로 화제를 격식 있게 제시한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-22"
+   ],
+   "explanation_ko": "〜に関{かん}して는 ‘~에 관해’라는 뜻으로, 화제를 밝히는 격식 있는 표현입니다. ① 〜に関して + 서술: この件に関して、説明会を開く. ② 〜に関する + 명사: 명사를 꾸밀 때는 に関する를 씁니다(個人情報に関する規約). ③ 〜に関しては: 다른 것과 구별해 그 화제를 따로 다룰 때 씁니다(費用に関しては、後日ご連絡します). 앞에는 명사가 오며, 뜻은 〜について와 비슷하지만 공지문・보고서・회의 같은 격식 있는 장면에 더 어울립니다.",
+   "usage_notes": [
+    "〜に関して 앞에는 명사(또는 ‘~こと’로 명사화한 말)가 옵니다.",
+    "뒤에 명사가 이어지면 〜に関して가 아니라 〜に関する를 씁니다.",
+    "〜に関しては는 ‘~에 대해서만큼은’ 하고 그 화제를 따로 다루는 느낌을 줍니다."
+   ],
+   "common_mistakes": [
+    "環境に関して調査(X) → 環境に関する調査(O): 명사를 꾸밀 때는 に関する를 씁니다.",
+    "日本へ行くに関して(X) → 日本へ行くことに関して(O): 동사는 こと로 명사화합니다.",
+    "この件に関するは、担当者に聞いてください(X) → この件に関しては、担当者に聞いてください(O): 따로 다룰 때는 に関しては입니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N2-23-01",
+     "kind": "word",
+     "text": "規約{きやく}",
+     "reading_kana": "きやく",
+     "reading_romanized": "kiyaku",
+     "meaning_ko": "규약, 약관",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-23-02",
+     "kind": "word",
+     "text": "調査{ちょうさ}",
+     "reading_kana": "ちょうさ",
+     "reading_romanized": "chousa",
+     "meaning_ko": "조사",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N2-23-03",
+     "kind": "word",
+     "text": "見解{けんかい}",
+     "reading_kana": "けんかい",
+     "reading_romanized": "kenkai",
+     "meaning_ko": "견해",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-23-04",
+     "kind": "word",
+     "text": "個人情報{こじんじょうほう}",
+     "reading_kana": "こじんじょうほう",
+     "reading_romanized": "kojinjouhou",
+     "meaning_ko": "개인정보",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-23-05",
+     "kind": "word",
+     "text": "説明会{せつめいかい}",
+     "reading_kana": "せつめいかい",
+     "reading_romanized": "setsumeikai",
+     "meaning_ko": "설명회",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-23-06",
+     "kind": "word",
+     "text": "問{と}い合{あ}わせ",
+     "reading_kana": "といあわせ",
+     "reading_romanized": "toiawase",
+     "meaning_ko": "문의",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "新{あたら}しい制度{せいど}に関{かん}して、説明会{せつめいかい}を開{ひら}く。",
+     "meaning_ko": "새 제도에 관해 설명회를 연다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "個人情報{こじんじょうほう}に関{かん}する規約{きやく}が改正{かいせい}された。",
+     "meaning_ko": "개인정보에 관한 규약이 개정되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この件{けん}に関{かん}しては、担当者{たんとうしゃ}にお問{と}い合{あ}わせください。",
+     "meaning_ko": "이 건에 관해서는 담당자에게 문의해 주십시오.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "環境問題{かんきょうもんだい}に関{かん}する調査{ちょうさ}の結果{けっか}が発表{はっぴょう}された。",
+     "meaning_ko": "환경 문제에 관한 조사 결과가 발표되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "その問題{もんだい}に関{かん}して、私{わたし}の見解{けんかい}を述{の}べたい。",
+     "meaning_ko": "그 문제에 관해 내 견해를 말하고 싶다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "料金{りょうきん}に関{かん}する質問{しつもん}は、窓口{まどぐち}で受{う}け付{つ}けている。",
+     "meaning_ko": "요금에 관한 질문은 창구에서 받고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "費用{ひよう}に関{かん}しては、後日{ごじつ}あらためてご連絡{れんらく}します。",
+     "meaning_ko": "비용에 관해서는 후일 다시 연락드리겠습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "研究{けんきゅう}に関{かん}する資料{しりょう}を集{あつ}める。",
+     "meaning_ko": "연구에 관한 자료를 모은다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "契約{けいやく}に関{かん}して、不明{ふめい}な点{てん}があれば確認{かくにん}してください。",
+     "meaning_ko": "계약에 관해 불분명한 점이 있으면 확인해 주십시오.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "環境問題（　）調査の結果が発表された。",
+     "options": [
+      "に関する",
+      "に関して",
+      "に関し",
+      "に関した"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "뒤에 명사(調査)가 이어지므로 に関する를 씁니다.",
+     "id": "JP-N2-23-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「個人情報（　）規約」(개인정보에 관한 규약)에 알맞은 형태는?",
+     "options": [
+      "に関する",
+      "に関してに",
+      "に関しない",
+      "に関するの"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "명사를 꾸밀 때는 に関する가 가장 기본적인 형태입니다.",
+     "id": "JP-N2-23-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「その問題に関して意見を述べる」와 가장 가까운 뜻의 문장은?",
+     "options": [
+      "その問題について意見を述べる",
+      "その問題を除いて意見を述べる",
+      "その問題に反して意見を述べる",
+      "その問題に伴って意見を述べる"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜に関して는 〜について와 가까운 뜻입니다.",
+     "id": "JP-N2-23-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「費用に関しては、後日ご連絡します」의 뜻은?",
+     "options": [
+      "비용에 관해서는 후일 연락드리겠습니다",
+      "비용을 이유로 후일 연락드리겠습니다",
+      "비용이 들어서 후일 연락드리겠습니다",
+      "비용을 내므로 후일 연락드리겠습니다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜に関しては는 ‘~에 관해서는’입니다.",
+     "id": "JP-N2-23-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「規約」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kiyaku",
+     "accepted_answers": [
+      "kiyaku"
+     ],
+     "explanation_ko": "規約 = きやく = kiyaku (규약)",
+     "id": "JP-N2-23-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「調査」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "chousa",
+     "accepted_answers": [
+      "chousa",
+      "tyousa",
+      "chosa",
+      "choosa"
+     ],
+     "explanation_ko": "調査 = ちょうさ = chousa (조사)",
+     "id": "JP-N2-23-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

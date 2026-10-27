@@ -4300,6 +4300,205 @@
     "version": 1,
     "last_revised": "2026-10-27"
    }
+  },
+  {
+   "id": "A2-023",
+   "level": "A2",
+   "track": "foundation",
+   "day": 23,
+   "title_ko": "which / whose와 소유대명사: mine / yours / hers / theirs",
+   "objective_ko": "어느 것인지, 누구의 것인지 묻고 소유대명사로 대답한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-28"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "① Which + 명사: 정해진 몇 개 중에서 어느 것인지 묻습니다 — Which bag is yours? ② Whose + 명사: 누구의 것인지 묻습니다 — Whose umbrella is this? ③ 소유대명사 mine, yours, his, hers, ours, theirs는 '~의 것'이라는 뜻이며 뒤에 명사를 쓰지 않습니다. my umbrella = mine, her wallet = hers. This umbrella is mine. 소유 형용사(my, her)는 명사 앞에, 소유대명사(mine, hers)는 단독으로 씁니다.",
+    "common_mistake_ko": "It is mine umbrella.(X) → It is my umbrella. / It is mine.(O) / The wallet is her.(X) → The wallet is hers.(O) / Who umbrella is this?(X) → Whose umbrella is this?(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "umbrella",
+     "part_of_speech": "명사",
+     "meaning_ko": "우산",
+     "example_en": "Whose umbrella is this?",
+     "example_ko": "이건 누구 우산이에요?"
+    },
+    {
+     "word": "scarf",
+     "part_of_speech": "명사",
+     "meaning_ko": "스카프",
+     "example_en": "Is this scarf yours or hers?",
+     "example_ko": "이 스카프는 네 거예요, 그녀 거예요?"
+    },
+    {
+     "word": "jacket",
+     "part_of_speech": "명사",
+     "meaning_ko": "재킷",
+     "example_en": "Which jacket do you like?",
+     "example_ko": "어느 재킷이 마음에 들어요?"
+    },
+    {
+     "word": "passport",
+     "part_of_speech": "명사",
+     "meaning_ko": "여권",
+     "example_en": "His passport is new, but mine is old.",
+     "example_ko": "그의 여권은 새것이지만 내 것은 낡았어요."
+    },
+    {
+     "word": "suitcase",
+     "part_of_speech": "명사",
+     "meaning_ko": "여행 가방",
+     "example_en": "Those suitcases are theirs.",
+     "example_ko": "저 여행 가방들은 그들의 것이에요."
+    },
+    {
+     "word": "charger",
+     "part_of_speech": "명사",
+     "meaning_ko": "충전기",
+     "example_en": "Whose charger is on the desk?",
+     "example_ko": "책상 위에 있는 건 누구 충전기예요?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Which bag is yours?",
+     "ko": "어느 가방이 네 거야?"
+    },
+    {
+     "en": "The blue one is mine.",
+     "ko": "파란 것이 내 거야."
+    },
+    {
+     "en": "Whose umbrella is this?",
+     "ko": "이건 누구 우산이에요?"
+    },
+    {
+     "en": "It's hers.",
+     "ko": "그녀의 것이에요."
+    },
+    {
+     "en": "Which jacket do you like?",
+     "ko": "어느 재킷이 마음에 들어요?"
+    },
+    {
+     "en": "This ticket is mine, and that one is yours.",
+     "ko": "이 표는 내 것이고 저 표는 네 거예요."
+    },
+    {
+     "en": "Those suitcases are theirs.",
+     "ko": "저 여행 가방들은 그들의 것이에요."
+    },
+    {
+     "en": "Our car is old, but theirs is new.",
+     "ko": "우리 차는 낡았지만 그들의 차는 새것이에요."
+    },
+    {
+     "en": "Is this wallet his or hers?",
+     "ko": "이 지갑은 그의 것이에요, 그녀의 것이에요?"
+    },
+    {
+     "en": "Whose charger is on the desk?",
+     "ko": "책상 위에 있는 건 누구 충전기예요?"
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "(이건 누구 우산이에요?) ___ umbrella is this?",
+     "choices": [
+      "Whose",
+      "Which",
+      "Who",
+      "Where"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "누구의 것인지 물을 때는 Whose + 명사를 씁니다.",
+     "error_tag": "whose",
+     "id": "A2-023-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "This is not my jacket. It's ___. (그녀의 것)",
+     "choices": [
+      "hers",
+      "her",
+      "she",
+      "herself"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "뒤에 명사가 없으므로 소유대명사 hers를 씁니다.",
+     "error_tag": "possessive-pronoun",
+     "id": "A2-023-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "___ do you want, the red one or the green one?",
+     "choices": [
+      "Which",
+      "Whose",
+      "Who",
+      "Where"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "정해진 둘 중에서 고르는 질문에는 Which를 씁니다.",
+     "error_tag": "which",
+     "id": "A2-023-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Our house is old, but ___ is new. (그들의 집)",
+     "choices": [
+      "theirs",
+      "their",
+      "they",
+      "them"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "뒤에 명사가 없으므로 소유대명사 theirs를 씁니다.",
+     "error_tag": "possessive-pronoun",
+     "id": "A2-023-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: This pen is ___. (내 것)",
+     "answer_text": "mine",
+     "accepted_answers": [
+      "mine"
+     ],
+     "explanation_ko": "'나의 것'은 mine입니다.",
+     "error_tag": "possessive-pronoun",
+     "id": "A2-023-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: ___ keys are these? (누구의)",
+     "answer_text": "whose",
+     "accepted_answers": [
+      "whose"
+     ],
+     "explanation_ko": "누구의 것인지 물을 때는 Whose입니다.",
+     "error_tag": "whose",
+     "id": "A2-023-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "가방이나 우산처럼 물건 두 가지를 두고 which나 whose로 묻고 소유대명사로 답하는 대화를 써 보세요.",
+    "example_answer_en": "Whose bag is this? It's mine. Which one is yours? The black one is yours.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-28",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-28"
+   }
   }
  ]
 }

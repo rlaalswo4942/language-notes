@@ -3261,6 +3261,201 @@
     "version": 1,
     "last_revised": "2026-10-27"
    }
+  },
+  {
+   "id": "B1-018",
+   "level": "B1",
+   "track": "general",
+   "day": 18,
+   "title_ko": "관계절 whose / where: 소유와 장소 연결하기",
+   "objective_ko": "whose로 소유 관계를, where로 장소를 설명하는 관계절을 만든다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-28"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "관계절로 명사를 더 자세히 설명할 때 ① whose + 명사는 '그 사람(것)의 ~'라는 소유를 나타냅니다: the man whose car was stolen(차를 도난당한 남자). whose 바로 뒤에 명사가 오고, his/her를 또 쓰지 않습니다. ② where는 장소 명사 뒤에서 '그곳에서'를 뜻합니다: the town where I grew up. where 뒤에는 주어 + 동사가 오고, 문장 끝에 in을 다시 붙이지 않습니다. 소유자가 사람이든 사물이든 whose를 쓸 수 있습니다.",
+    "common_mistake_ko": "The man who his car was stolen called the police.(X) → The man whose car was stolen called the police.(O) / The woman whose her son is a doctor...(X) → The woman whose son is a doctor...(O) / The village where I was born in...(X) → The village where I was born...(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "landlord",
+     "part_of_speech": "명사",
+     "meaning_ko": "집주인",
+     "example_en": "The landlord whose house we rent lives abroad.",
+     "example_ko": "우리가 세 들어 사는 집의 주인은 해외에 살아요."
+    },
+    {
+     "word": "countryside",
+     "part_of_speech": "명사",
+     "meaning_ko": "시골",
+     "example_en": "I love the countryside where my grandparents live.",
+     "example_ko": "나는 조부모님이 사시는 시골을 좋아해요."
+    },
+    {
+     "word": "author",
+     "part_of_speech": "명사",
+     "meaning_ko": "작가",
+     "example_en": "That is the author whose books I love.",
+     "example_ko": "저분이 내가 좋아하는 책을 쓴 작가예요."
+    },
+    {
+     "word": "owner",
+     "part_of_speech": "명사",
+     "meaning_ko": "주인",
+     "example_en": "The owner whose shop closed is looking for a new place.",
+     "example_ko": "가게 문을 닫은 주인은 새 장소를 찾고 있어요."
+    },
+    {
+     "word": "hometown",
+     "part_of_speech": "명사",
+     "meaning_ko": "고향",
+     "example_en": "I visited the town where my father grew up.",
+     "example_ko": "나는 아버지가 자란 마을을 방문했어요."
+    },
+    {
+     "word": "steal",
+     "part_of_speech": "동사",
+     "meaning_ko": "훔치다",
+     "example_en": "The man whose bike was stolen went to the police.",
+     "example_ko": "자전거를 도난당한 남자는 경찰서에 갔어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I met a woman whose daughter studies in Canada.",
+     "ko": "나는 딸이 캐나다에서 공부하는 여성을 만났어요."
+    },
+    {
+     "en": "The man whose car was stolen called the police.",
+     "ko": "차를 도난당한 남자가 경찰에 전화했어요."
+    },
+    {
+     "en": "That is the author whose books I love.",
+     "ko": "저분이 내가 좋아하는 책을 쓴 작가예요."
+    },
+    {
+     "en": "The village where my grandmother lives is very quiet.",
+     "ko": "할머니가 사시는 마을은 아주 조용해요."
+    },
+    {
+     "en": "This is the hospital where I was born.",
+     "ko": "여기가 내가 태어난 병원이에요."
+    },
+    {
+     "en": "I visited the town where my father grew up.",
+     "ko": "나는 아버지가 자란 마을을 방문했어요."
+    },
+    {
+     "en": "She has a neighbor whose dog barks all night.",
+     "ko": "그녀에게는 개가 밤새 짖는 이웃이 있어요."
+    },
+    {
+     "en": "Do you know a restaurant where we can eat late?",
+     "ko": "우리가 늦게까지 먹을 수 있는 식당을 아세요?"
+    },
+    {
+     "en": "The owner whose shop closed is looking for a new place.",
+     "ko": "가게 문을 닫은 주인은 새 장소를 찾고 있어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "The woman ___ son is a doctor lives next door.",
+     "choices": [
+      "whose",
+      "who",
+      "which",
+      "where"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "'그녀의 아들'이라는 소유 관계이므로 whose입니다.",
+     "error_tag": "relative-whose",
+     "id": "B1-018-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "This is the town ___ I grew up.",
+     "choices": [
+      "where",
+      "whose",
+      "who",
+      "whom"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "장소를 설명하므로 where를 씁니다.",
+     "error_tag": "relative-where",
+     "id": "B1-018-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "문장이 바른 것은?",
+     "choices": [
+      "The man whose car was stolen called the police.",
+      "The man who his car was stolen called the police.",
+      "The man whose his car was stolen called the police.",
+      "The man where car was stolen called the police."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "소유를 나타내는 whose 바로 뒤에 명사가 옵니다. his를 다시 쓰지 않습니다.",
+     "error_tag": "relative-whose",
+     "id": "B1-018-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Do you know a café ___ we can study quietly?",
+     "choices": [
+      "where",
+      "whose",
+      "whom",
+      "who"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "장소(a café)를 설명하므로 where입니다.",
+     "error_tag": "relative-where",
+     "id": "B1-018-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: I know a writer ___ books are very popular.",
+     "answer_text": "whose",
+     "accepted_answers": [
+      "whose"
+     ],
+     "explanation_ko": "'그 작가의 책'이라는 소유 관계이므로 whose입니다.",
+     "error_tag": "relative-whose",
+     "id": "B1-018-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: The house ___ I lived as a child is now a museum.",
+     "answer_text": "where",
+     "accepted_answers": [
+      "where"
+     ],
+     "explanation_ko": "장소 명사 the house를 설명하므로 where입니다.",
+     "error_tag": "relative-where",
+     "id": "B1-018-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "whose나 where를 써서 아는 사람이나 장소를 설명하는 문장을 두 개 써 보세요.",
+    "example_answer_en": "I have a friend whose brother is a pilot. This is the café where we often study.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-28",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-28"
+   }
   }
  ]
 }

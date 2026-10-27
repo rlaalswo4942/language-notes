@@ -4715,6 +4715,223 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-23",
+   "day_index": 23,
+   "week_index": 4,
+   "level": "N1",
+   "unit_id": "N1-W04",
+   "lesson_type": "new",
+   "title_ko": "〜なくして(は)〜ない: ~없이는 ~할 수 없다",
+   "objective_ko": "〜なくして(は)로 ‘그것이 없다면 불가능하다’는 필요 조건을 격식 있게 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-22"
+   ],
+   "explanation_ko": "〜なくして(は)〜ない는 ‘~없이는 ~할 수 없다’는 뜻으로, 어떤 것이 꼭 필요하다는 점을 강조하는 문어체 표현입니다. ① 접속: 명사 + なくして(は). 조사 は를 붙여 〜なくしては로 강조하기도 합니다. ② 뒤에는 부정・불가능 표현이 옵니다(ない・できない・ありえない・成り立たない・望めない). ③ 동사는 〜ことなくして로 명사화해 이을 수 있습니다(努力することなくして). ④ 논설문・연설・신문 기사에서 필요성을 강조할 때 자주 씁니다.",
+   "usage_notes": [
+    "〜なくして 뒤에는 반드시 부정이나 불가능을 나타내는 말이 와야 합니다. ‘~이 없으면 ~한다’는 긍정으로는 말하지 않습니다.",
+    "앞에는 보통 조사 없이 명사를 직접 붙입니다.",
+    "일상 회화보다는 글이나 연설에서 쓰는 격식 있는 표현이며, ‘~がなければ〜できない’로 바꿔 말할 수 있습니다."
+   ],
+   "common_mistakes": [
+    "努力なくして成功する(X) → 努力なくして成功はありえない(O): 뒤에 부정・불가능 표현이 와야 합니다.",
+    "協力なくして、計画は成功した(X) → 協力なくして、計画は成功しない(O): 과거의 사실이 아니라 필요 조건을 말합니다.",
+    "努力なくしても成功できる(X) → 努力なしでは成功できない(O): 〜なくして는 〜なくても(없어도)와 뜻이 다릅니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N1-23-01",
+     "kind": "word",
+     "text": "継続{けいぞく}",
+     "reading_kana": "けいぞく",
+     "reading_romanized": "keizoku",
+     "meaning_ko": "계속, 지속",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N1-23-02",
+     "kind": "word",
+     "text": "信頼{しんらい}",
+     "reading_kana": "しんらい",
+     "reading_romanized": "shinrai",
+     "meaning_ko": "신뢰",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N1-23-03",
+     "kind": "word",
+     "text": "改革{かいかく}",
+     "reading_kana": "かいかく",
+     "reading_romanized": "kaikaku",
+     "meaning_ko": "개혁",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N1-23-04",
+     "kind": "word",
+     "text": "成立{せいりつ}",
+     "reading_kana": "せいりつ",
+     "reading_romanized": "seiritsu",
+     "meaning_ko": "성립",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N1-23-05",
+     "kind": "word",
+     "text": "繁栄{はんえい}",
+     "reading_kana": "はんえい",
+     "reading_romanized": "hanei",
+     "meaning_ko": "번영",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N1-23-06",
+     "kind": "word",
+     "text": "習得{しゅうとく}",
+     "reading_kana": "しゅうとく",
+     "reading_romanized": "shuutoku",
+     "meaning_ko": "습득",
+     "part_of_speech": "명사・する동사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "努力{どりょく}なくして成功{せいこう}はありえない。",
+     "meaning_ko": "노력 없이는 성공이 있을 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "信頼{しんらい}なくして、良{よ}い人間関係{にんげんかんけい}は築{きず}けない。",
+     "meaning_ko": "신뢰 없이는 좋은 인간관계를 쌓을 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "住民{じゅうみん}の協力{きょうりょく}なくしては、この計画{けいかく}は成立{せいりつ}しない。",
+     "meaning_ko": "주민의 협력 없이는 이 계획은 성립하지 않는다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "継続的{けいぞくてき}な改革{かいかく}なくして、組織{そしき}の繁栄{はんえい}はない。",
+     "meaning_ko": "지속적인 개혁 없이는 조직의 번영은 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "先人{せんじん}の努力{どりょく}なくして、今{いま}の暮{く}らしは実現{じつげん}しなかっただろう。",
+     "meaning_ko": "선인들의 노력 없이는 지금의 생활은 실현되지 않았을 것이다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "基礎{きそ}の習得{しゅうとく}なくして、応用{おうよう}はできない。",
+     "meaning_ko": "기초의 습득 없이는 응용은 할 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "十分{じゅうぶん}な準備{じゅんび}なくしては、大会{たいかい}での勝利{しょうり}は望{のぞ}めない。",
+     "meaning_ko": "충분한 준비 없이는 대회에서의 승리는 기대할 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "対話{たいわ}なくして、問題{もんだい}の解決{かいけつ}はありえない。",
+     "meaning_ko": "대화 없이는 문제의 해결은 있을 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "平和{へいわ}なくして、経済{けいざい}の発展{はってん}は望{のぞ}めない。",
+     "meaning_ko": "평화 없이는 경제의 발전은 기대할 수 없다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "努力（　）成功はありえない。(노력 없이는)",
+     "options": [
+      "なくして",
+      "なくても",
+      "なくなって",
+      "なければ"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘~없이는 불가능하다’는 〜なくして〜ない로 말합니다. なくても는 ‘없어도’라는 뜻입니다.",
+     "id": "JP-N1-23-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "信頼なくして、良い関係は（　）。(쌓을 수 없다)",
+     "options": [
+      "築けない",
+      "築ける",
+      "築いた",
+      "築きたい"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜なくして 뒤에는 불가능을 나타내는 築けない가 옵니다.",
+     "id": "JP-N1-23-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「〜なくして〜ない」의 뜻은?",
+     "options": [
+      "~없이는 ~할 수 없다",
+      "~이 없어서 ~했다",
+      "~이 없어도 괜찮다",
+      "~이 있어야만 ~하고 싶다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "필요 조건을 강조하는 ‘~없이는 ~할 수 없다’입니다.",
+     "id": "JP-N1-23-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "문장으로 바른 것은?",
+     "options": [
+      "協力なくして、プロジェクトの成功はありえない。",
+      "協力なくして、プロジェクトは成功する。",
+      "協力なくして、プロジェクトは成功した。",
+      "協力なくして、プロジェクトは成功したい。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜なくして 뒤에는 부정・불가능 표현이 와야 합니다.",
+     "id": "JP-N1-23-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「信頼」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "shinrai",
+     "accepted_answers": [
+      "shinrai",
+      "sinrai"
+     ],
+     "explanation_ko": "信頼 = しんらい = shinrai (신뢰)",
+     "id": "JP-N1-23-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「繁栄」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "hanei",
+     "accepted_answers": [
+      "hanei"
+     ],
+     "explanation_ko": "繁栄 = はんえい = hanei (번영)",
+     "id": "JP-N1-23-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "JLPT_FORMAT"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

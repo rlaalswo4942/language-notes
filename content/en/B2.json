@@ -4303,6 +4303,201 @@
     "version": 1,
     "last_revised": "2026-10-27"
    }
+  },
+  {
+   "id": "B2-023",
+   "level": "B2",
+   "track": "general",
+   "day": 23,
+   "title_ko": "상관접속사: both … and / either … or / neither … nor / not only … but also",
+   "objective_ko": "짝을 이루는 접속사를 병렬 구조에 맞게 쓰고, 동사의 수 일치를 확인한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-28"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "상관접속사는 두 부분이 짝을 이루어 같은 형태의 표현을 연결합니다. ① both A and B: A와 B 둘 다 — 복수로 취급합니다. ② either A or B: A나 B 중 하나 / neither A nor B: A도 B도 아닌 — 동사는 B(가까운 쪽)에 일치시킵니다: Neither the manager nor the employees were aware. ③ not only A but also B: A뿐 아니라 B도 — 동사는 B에 일치시킵니다. 짝 접속사 다음에 오는 A와 B는 형태가 같아야 합니다(형용사와 형용사, 동사구와 동사구). not only가 문장 맨 앞에 오면 주어와 조동사 순서가 바뀝니다: Not only did she win, but she also set a record.",
+    "common_mistake_ko": "She is both smart and works hard.(X) → She is both smart and hardworking.(O) / Either tea and coffee is fine.(X) → Either tea or coffee is fine.(O) / Neither Tom nor his parents was home.(X) → Neither Tom nor his parents were home.(O) / Not only she won...(X) → Not only did she win...(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "applicant",
+     "part_of_speech": "명사",
+     "meaning_ko": "지원자",
+     "example_en": "Both applicants passed the first interview.",
+     "example_ko": "지원자 둘 다 1차 면접을 통과했어요."
+    },
+    {
+     "word": "flexible",
+     "part_of_speech": "형용사",
+     "meaning_ko": "유연한",
+     "example_en": "The schedule is both flexible and affordable.",
+     "example_ko": "그 일정은 유연하고 비용도 알맞아요."
+    },
+    {
+     "word": "versatile",
+     "part_of_speech": "형용사",
+     "meaning_ko": "다재다능한",
+     "example_en": "She is not only creative but also versatile.",
+     "example_ko": "그녀는 창의적일 뿐 아니라 다재다능해요."
+    },
+    {
+     "word": "candidate",
+     "part_of_speech": "명사",
+     "meaning_ko": "후보자",
+     "example_en": "Neither candidate answered the question directly.",
+     "example_ko": "어느 후보도 질문에 직접 답하지 않았어요."
+    },
+    {
+     "word": "mandatory",
+     "part_of_speech": "형용사",
+     "meaning_ko": "필수의",
+     "example_en": "Attendance is either mandatory or optional, depending on the course.",
+     "example_ko": "출석은 강의에 따라 필수이거나 선택이에요."
+    },
+    {
+     "word": "record",
+     "part_of_speech": "명사",
+     "meaning_ko": "기록",
+     "example_en": "Not only did she win, but she also set a new record.",
+     "example_ko": "그녀는 우승했을 뿐 아니라 신기록도 세웠어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "She speaks both English and Japanese fluently.",
+     "ko": "그녀는 영어와 일본어를 둘 다 유창하게 말해요."
+    },
+    {
+     "en": "The schedule is both flexible and affordable.",
+     "ko": "그 일정은 유연하고 비용도 알맞아요."
+    },
+    {
+     "en": "You can submit the form either online or in person.",
+     "ko": "서식은 온라인이나 직접 방문으로 제출할 수 있어요."
+    },
+    {
+     "en": "Either Mina or her brothers are going to help.",
+     "ko": "미나나 그녀의 남자 형제들이 도와줄 거예요."
+    },
+    {
+     "en": "Neither the manager nor the employees were aware of the change.",
+     "ko": "매니저도 직원들도 그 변경을 알지 못했어요."
+    },
+    {
+     "en": "Neither candidate answered the question directly.",
+     "ko": "어느 후보도 질문에 직접 답하지 않았어요."
+    },
+    {
+     "en": "He is not only skilled but also reliable.",
+     "ko": "그는 숙련됐을 뿐 아니라 믿음직해요."
+    },
+    {
+     "en": "Not only did she win, but she also set a new record.",
+     "ko": "그녀는 우승했을 뿐 아니라 신기록도 세웠어요."
+    },
+    {
+     "en": "Both applicants passed the first interview.",
+     "ko": "지원자 둘 다 1차 면접을 통과했어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "She speaks ___ English and Japanese fluently.",
+     "choices": [
+      "both",
+      "either",
+      "neither",
+      "not only"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "and와 짝을 이루는 것은 both입니다.",
+     "error_tag": "correlative",
+     "id": "B2-023-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "You can ___ pay by card or pay in cash.",
+     "choices": [
+      "either",
+      "both",
+      "neither",
+      "whether"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "or와 짝을 이루는 것은 either입니다.",
+     "error_tag": "correlative",
+     "id": "B2-023-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Neither the manager nor the employees ___ aware of the change.",
+     "choices": [
+      "were",
+      "was",
+      "is",
+      "has been"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "neither … nor에서는 가까운 쪽 주어(employees, 복수)에 맞춰 were를 씁니다.",
+     "error_tag": "agreement",
+     "id": "B2-023-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "병렬 구조가 바른 문장은?",
+     "choices": [
+      "He is not only talented but also hardworking.",
+      "He is not only talented but also works hard.",
+      "He is not only talented but also he works hard.",
+      "He not only is talented but also hardworking."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "not only A but also B에서 A와 B는 같은 형태(형용사와 형용사)여야 합니다.",
+     "error_tag": "parallel",
+     "id": "B2-023-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Neither Tom ___ his sister knows the answer.",
+     "answer_text": "nor",
+     "accepted_answers": [
+      "nor"
+     ],
+     "explanation_ko": "neither와 짝을 이루는 것은 nor입니다.",
+     "error_tag": "correlative",
+     "id": "B2-023-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: She is both clever ___ kind.",
+     "answer_text": "and",
+     "accepted_answers": [
+      "and"
+     ],
+     "explanation_ko": "both와 짝을 이루는 것은 and입니다.",
+     "error_tag": "correlative",
+     "id": "B2-023-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "both … and 또는 either … or를 써서 자신에 대한 문장을 두 개 써 보세요.",
+    "example_answer_en": "I am both busy and happy this month. I can meet you either on Friday or on Saturday.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-28",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-28"
+   }
   }
  ]
 }

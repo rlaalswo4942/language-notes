@@ -4658,6 +4658,205 @@
     "version": 1,
     "last_revised": "2026-10-27"
    }
+  },
+  {
+   "id": "PRE-029",
+   "level": "Pre-A1",
+   "track": "foundation",
+   "day": 29,
+   "title_ko": "약한 개념 보강: 자주 틀리는 네 가지 다시 보기",
+   "objective_ko": "be동사, a/an, 3인칭 단수 -s, does/doesn't 뒤 동사 원형, this/these를 오답 중심으로 다시 점검한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-28"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "최근에 자주 틀리는 개념을 다시 봅니다. ① be동사: I am, he/she/it is, you/we/they are. ② a/an: 뒤 단어의 소리가 모음이면 an(an apple, an egg), 자음이면 a(a book). ③ 3인칭 단수 현재: he/she + 동사-s (She likes music). ④ Does/doesn't 뒤에는 동사 원형: Does she work here? She doesn't work here. ⑤ 가까운 하나는 this, 여럿은 these: This is my friend. These are my books. 틀린 문제의 번호를 적어 두었다가 해당 일차를 다시 보세요.",
+    "common_mistake_ko": "My friend are a doctor.(X) → My friend is a doctor.(O) / I have a apple.(X) → I have an apple.(O) / She like music.(X) → She likes music.(O) / Does she works here?(X) → Does she work here?(O) / This are my books.(X) → These are my books.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "doctor",
+     "part_of_speech": "명사",
+     "meaning_ko": "의사",
+     "example_en": "My father is a doctor.",
+     "example_ko": "우리 아버지는 의사예요."
+    },
+    {
+     "word": "hospital",
+     "part_of_speech": "명사",
+     "meaning_ko": "병원",
+     "example_en": "She works at a hospital.",
+     "example_ko": "그녀는 병원에서 일해요."
+    },
+    {
+     "word": "library",
+     "part_of_speech": "명사",
+     "meaning_ko": "도서관",
+     "example_en": "The library is near my house.",
+     "example_ko": "도서관은 우리 집 가까이에 있어요."
+    },
+    {
+     "word": "water",
+     "part_of_speech": "명사",
+     "meaning_ko": "물",
+     "example_en": "He drinks water every day.",
+     "example_ko": "그는 매일 물을 마셔요."
+    },
+    {
+     "word": "friend",
+     "part_of_speech": "명사",
+     "meaning_ko": "친구",
+     "example_en": "My friend likes music.",
+     "example_ko": "내 친구는 음악을 좋아해요."
+    },
+    {
+     "word": "music",
+     "part_of_speech": "명사",
+     "meaning_ko": "음악",
+     "example_en": "I like music.",
+     "example_ko": "나는 음악을 좋아해요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I am a student.",
+     "ko": "나는 학생이에요."
+    },
+    {
+     "en": "She is a doctor.",
+     "ko": "그녀는 의사예요."
+    },
+    {
+     "en": "They are my friends.",
+     "ko": "그들은 내 친구예요."
+    },
+    {
+     "en": "I have an apple and a book.",
+     "ko": "나는 사과 한 개와 책 한 권이 있어요."
+    },
+    {
+     "en": "She likes music.",
+     "ko": "그녀는 음악을 좋아해요."
+    },
+    {
+     "en": "He drinks water every day.",
+     "ko": "그는 매일 물을 마셔요."
+    },
+    {
+     "en": "Does she work at a hospital?",
+     "ko": "그녀는 병원에서 일해요?"
+    },
+    {
+     "en": "She doesn't work at a library.",
+     "ko": "그녀는 도서관에서 일하지 않아요."
+    },
+    {
+     "en": "This is my friend.",
+     "ko": "이 사람은 내 친구예요."
+    },
+    {
+     "en": "These are my books.",
+     "ko": "이것들은 내 책이에요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "My friend ___ a doctor.",
+     "choices": [
+      "is",
+      "am",
+      "are",
+      "be"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "friend는 3인칭 단수이므로 is를 씁니다.",
+     "error_tag": "be-verb",
+     "id": "P029-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "I have ___ apple.",
+     "choices": [
+      "an",
+      "a",
+      "two",
+      "many"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "apple은 모음 소리로 시작하므로 an을 씁니다. two와 many 뒤에는 복수형(apples)이 와야 합니다.",
+     "error_tag": "a-an",
+     "id": "P029-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "She ___ music.",
+     "choices": [
+      "likes",
+      "like",
+      "liking",
+      "to like"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "she는 3인칭 단수이므로 동사에 -s를 붙여 likes입니다.",
+     "error_tag": "third-person-s",
+     "id": "P029-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Does he ___ at a hospital?",
+     "choices": [
+      "work",
+      "works",
+      "working",
+      "to work"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Does 뒤에는 동사 원형을 씁니다.",
+     "error_tag": "does-base-verb",
+     "id": "P029-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: ___ are my books. (이것들은)",
+     "answer_text": "these",
+     "accepted_answers": [
+      "these"
+     ],
+     "explanation_ko": "책이 여러 권이고 가까이 있으므로 These입니다.",
+     "error_tag": "demonstratives",
+     "id": "P029-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: She ___ water every day. (drink)",
+     "answer_text": "drinks",
+     "accepted_answers": [
+      "drinks"
+     ],
+     "explanation_ko": "she 뒤 일반동사에는 -s를 붙여 drinks입니다.",
+     "error_tag": "third-person-s",
+     "id": "P029-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "나 또는 친구를 소개하는 문장을 세 개 써 보세요. (be동사와 3인칭 -s를 포함)",
+    "example_answer_en": "My friend is a doctor. She works at a hospital. She likes music.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-28",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-28"
+   }
   }
  ]
 }

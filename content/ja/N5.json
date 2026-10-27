@@ -4745,6 +4745,222 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N5-23",
+   "day_index": 23,
+   "week_index": 4,
+   "level": "N5",
+   "unit_id": "N5-W04",
+   "lesson_type": "new",
+   "title_ko": "수를 세는 말: 〜つ・〜人・〜枚",
+   "objective_ko": "〜つ・〜人・〜枚로 물건과 사람의 수를 세어 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N5-22"
+   ],
+   "explanation_ko": "수를 셀 때는 세는 말을 붙입니다. ① 〜つ(일반 물건): 一{ひと}つ, 二{ふた}つ, 三{みっ}つ, 四{よっ}つ, 五{いつ}つ. ② 〜人(사람): 一人{ひとり}, 二人{ふたり}, 三人{さんにん}, 四人{よにん}. ③ 〜枚(종이·표·접시처럼 얇고 평평한 것): 一枚{いちまい}, 二枚{にまい}, 三枚{さんまい}. ④ 어순은 ‘물건을 + 수량 + 동사’이며 수량 뒤에는 조사를 붙이지 않습니다(りんごを 三つ 買います). ⑤ 질문은 いくつ(몇 개), 何人{なんにん}(몇 명), 何枚{なんまい}(몇 장)입니다.",
+   "usage_notes": [
+    "‘한 사람’과 ‘두 사람’은 ひとり·ふたり로 읽는 특별한 형태이고, 세 사람부터 〜にん을 붙입니다.",
+    "수량 뒤에는 を나 が를 다시 붙이지 않고 ‘물건을 수량 동사’ 순서로 말합니다.",
+    "표·종이·접시처럼 얇고 평평한 것은 〜つ가 아니라 〜枚를 씁니다."
+   ],
+   "common_mistakes": [
+    "りんごを 二つを 買います(X) → りんごを 二つ 買います(O): 수량 뒤에 を를 붙이지 않습니다.",
+    "一人を 「いちにん」(X) → 「ひとり」(O): 한 사람은 ひとり로 읽습니다.",
+    "切手を 二つ ください(X) → 切手を 二枚 ください(O): 얇고 평평한 것은 〜枚를 씁니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N5-23-01",
+     "kind": "word",
+     "text": "切手{きって}",
+     "reading_kana": "きって",
+     "reading_romanized": "kitte",
+     "meaning_ko": "우표",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-23-02",
+     "kind": "word",
+     "text": "卵{たまご}",
+     "reading_kana": "たまご",
+     "reading_romanized": "tamago",
+     "meaning_ko": "달걀",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-23-03",
+     "kind": "word",
+     "text": "紙{かみ}",
+     "reading_kana": "かみ",
+     "reading_romanized": "kami",
+     "meaning_ko": "종이",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-23-04",
+     "kind": "word",
+     "text": "皿{さら}",
+     "reading_kana": "さら",
+     "reading_romanized": "sara",
+     "meaning_ko": "접시",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-23-05",
+     "kind": "word",
+     "text": "切符{きっぷ}",
+     "reading_kana": "きっぷ",
+     "reading_romanized": "kippu",
+     "meaning_ko": "표, 승차권",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-23-06",
+     "kind": "word",
+     "text": "子供{こども}",
+     "reading_kana": "こども",
+     "reading_romanized": "kodomo",
+     "meaning_ko": "아이",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "りんごを 三{みっ}つ 買{か}います。",
+     "meaning_ko": "사과를 세 개 삽니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "切手{きって}を 二枚{にまい} ください。",
+     "meaning_ko": "우표를 두 장 주세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "朝{あさ}ごはんに 卵{たまご}を 二{ふた}つ 食{た}べました。",
+     "meaning_ko": "아침에 달걀을 두 개 먹었습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "家{うち}に 子供{こども}が 二人{ふたり}います。",
+     "meaning_ko": "집에 아이가 두 명 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "駅{えき}で 切符{きっぷ}を 三枚{さんまい} 買{か}いました。",
+     "meaning_ko": "역에서 표를 세 장 샀습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "紙{かみ}を 一枚{いちまい} ください。",
+     "meaning_ko": "종이를 한 장 주세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "テーブルに 皿{さら}が 四{よっ}つ あります。",
+     "meaning_ko": "테이블에 접시가 네 개 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "友達{ともだち}が 四人{よにん} 来{き}ました。",
+     "meaning_ko": "친구가 네 명 왔습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "みかんを いくつ 買{か}いましたか。",
+     "meaning_ko": "귤을 몇 개 샀습니까?",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "りんごを 三（　）買います。(사과를 세 개 삽니다)",
+     "options": [
+      "つ",
+      "人",
+      "枚",
+      "回"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "물건을 세는 일반적인 말은 〜つ이며 三つ는 みっつ로 읽습니다.",
+     "id": "JP-N5-23-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「二人」의 읽기는?",
+     "options": [
+      "ふたり",
+      "ににん",
+      "にじん",
+      "ふたつ"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "두 사람은 ふたり로 읽는 특별한 형태입니다.",
+     "id": "JP-N5-23-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "切手を 二（　）ください。(우표를 두 장 주세요)",
+     "options": [
+      "枚",
+      "人",
+      "回",
+      "時"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "우표처럼 얇고 평평한 것은 〜枚로 셉니다.",
+     "id": "JP-N5-23-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「四人」의 읽기는?",
+     "options": [
+      "よにん",
+      "よんにん",
+      "しにん",
+      "よつにん"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "네 사람은 よにん으로 읽습니다.",
+     "id": "JP-N5-23-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「切手」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kitte",
+     "accepted_answers": [
+      "kitte"
+     ],
+     "explanation_ko": "切手 = きって = kitte (우표)",
+     "id": "JP-N5-23-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「卵」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "tamago",
+     "accepted_answers": [
+      "tamago"
+     ],
+     "explanation_ko": "卵 = たまご = tamago (달걀)",
+     "id": "JP-N5-23-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

@@ -3028,6 +3028,201 @@
     "version": 1,
     "last_revised": "2026-10-27"
    }
+  },
+  {
+   "id": "TOEFL-017",
+   "level": "B1",
+   "track": "toefl",
+   "day": 17,
+   "title_ko": "TOEFL 2026 Write for an Academic Discussion 2: 동료 의견에 반응하며 내 생각 더하기",
+   "objective_ko": "동료의 글에 동의하거나 정중하게 다른 의견을 밝히고, 새로운 아이디어를 하나 덧붙인다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/content/ets-org/language-master/ko/home/toefl/test-takers/ibt/about/content.html",
+     "publisher": "ETS",
+     "supports": "2026 형식 유형명",
+     "checked_at": "2026-10-28"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "Write for an Academic Discussion은 2026-01-21 이후 TOEFL iBT Writing에 포함된 유형명입니다(비공식 자체 연습입니다). 교수의 질문과 동료 학생의 글을 읽고 내 글을 올리는 형식입니다. 답글은 ① 내 의견 ② 이유 ③ 구체적 예 ④ 동료 의견 언급 ⑤ 새 아이디어 순서로 쓰면 좋습니다. 동료에게 동의할 때: I agree with Mia that ... 다른 의견일 때: I see Ben's point, but I think ... / Unlike Ben, I believe ... 새 아이디어: Another point to consider is ... 동료 글을 그대로 반복하지 말고 내 이유와 예를 더하세요. ETS 점수와 무관하며 점수 예측도 없습니다.",
+    "common_mistake_ko": "Ben is wrong.(X) → I see Ben's point, but I think group work teaches more.(O) / I am agree with Mia.(X) → I agree with Mia.(O) / Mia said students save time. I also say that.(X: 반복) → Another point to consider is that students save travel time.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "perspective",
+     "part_of_speech": "명사",
+     "meaning_ko": "관점",
+     "example_en": "From my perspective, group work is more useful.",
+     "example_ko": "내 관점에서는 조별 활동이 더 유용해요."
+    },
+    {
+     "word": "argue",
+     "part_of_speech": "동사",
+     "meaning_ko": "주장하다",
+     "example_en": "Mia argues that online classes are more flexible.",
+     "example_ko": "Mia는 온라인 수업이 더 유연하다고 주장해요."
+    },
+    {
+     "word": "valid",
+     "part_of_speech": "형용사",
+     "meaning_ko": "타당한",
+     "example_en": "Ben makes a valid point about cost.",
+     "example_ko": "Ben은 비용에 대해 타당한 지적을 해요."
+    },
+    {
+     "word": "advantage",
+     "part_of_speech": "명사",
+     "meaning_ko": "장점",
+     "example_en": "One advantage of online classes is flexibility.",
+     "example_ko": "온라인 수업의 한 가지 장점은 유연성이에요."
+    },
+    {
+     "word": "drawback",
+     "part_of_speech": "명사",
+     "meaning_ko": "단점",
+     "example_en": "A drawback is that some students do less work.",
+     "example_ko": "단점은 일을 덜 하는 학생이 있다는 거예요."
+    },
+    {
+     "word": "alternative",
+     "part_of_speech": "명사",
+     "meaning_ko": "대안",
+     "example_en": "An alternative is to study alone first.",
+     "example_ko": "대안은 먼저 혼자 공부하는 거예요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I agree with Mia that online classes are more flexible.",
+     "ko": "나는 온라인 수업이 더 유연하다는 Mia의 말에 동의해요."
+    },
+    {
+     "en": "I see Ben's point, but I think group work teaches more.",
+     "ko": "Ben의 말도 이해하지만 나는 조별 활동이 더 많이 가르쳐 준다고 생각해요."
+    },
+    {
+     "en": "Unlike Ben, I believe students learn more from discussion.",
+     "ko": "Ben과 달리 나는 학생들이 토론에서 더 많이 배운다고 믿어요."
+    },
+    {
+     "en": "From my perspective, group work is more useful.",
+     "ko": "내 관점에서는 조별 활동이 더 유용해요."
+    },
+    {
+     "en": "One benefit of group work is learning from classmates.",
+     "ko": "조별 활동의 한 가지 이점은 급우에게서 배우는 거예요."
+    },
+    {
+     "en": "Another point to consider is that students save travel time.",
+     "ko": "또 하나 생각할 점은 학생들이 이동 시간을 아낀다는 거예요."
+    },
+    {
+     "en": "Ben makes a valid point about cost.",
+     "ko": "Ben은 비용에 대해 타당한 지적을 해요."
+    },
+    {
+     "en": "A drawback is that some students do less work.",
+     "ko": "단점은 일을 덜 하는 학생이 있다는 거예요."
+    },
+    {
+     "en": "For example, my team finished a project faster by sharing tasks.",
+     "ko": "예를 들어 우리 팀은 일을 나눠서 프로젝트를 더 빨리 끝냈어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "동료의 의견에 동의하며 시작하는 문장으로 가장 알맞은 것은?",
+     "choices": [
+      "I agree with Mia that online classes are more flexible.",
+      "Mia is wrong and silly.",
+      "Online classes. Mia.",
+      "I am agree with Mia."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "I agree with ... that ...은 정중하고 문법적으로 바른 표현입니다. be동사 없이 agree를 씁니다.",
+     "error_tag": "discussion-agree",
+     "id": "F017-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "다른 의견을 정중하게 밝히는 문장은?",
+     "choices": [
+      "I see Ben's point, but I think group work teaches more.",
+      "Ben is wrong.",
+      "Ben point no good.",
+      "You are wrong, Ben."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "상대 의견을 인정한 뒤 but으로 내 생각을 말하는 것이 정중합니다.",
+     "error_tag": "discussion-disagree",
+     "id": "F017-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "새 아이디어를 덧붙이는 문장으로 가장 알맞은 것은?",
+     "choices": [
+      "Another point to consider is that students save travel time.",
+      "Mia said that students save travel time.",
+      "I agree with Mia and say the same thing again.",
+      "Students save travel time, Mia said."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Another point to consider is ...는 동료가 말하지 않은 새 생각을 더할 때 씁니다. 나머지는 동료의 말을 반복합니다.",
+     "error_tag": "discussion-new-idea",
+     "id": "F017-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Academic Discussion 답글에서 가장 피해야 할 것은?",
+     "choices": [
+      "동료의 글을 그대로 베껴 쓰기",
+      "내 의견에 이유를 쓰기",
+      "구체적인 예를 들기",
+      "교수의 질문에 답하기"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "동료의 글을 반복하지 말고 내 이유와 예를 더해야 합니다.",
+     "error_tag": "discussion-structure",
+     "id": "F017-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: I ___ with Mia that students need more time.",
+     "answer_text": "agree",
+     "accepted_answers": [
+      "agree"
+     ],
+     "explanation_ko": "'~에 동의하다'는 agree with입니다.",
+     "error_tag": "discussion-agree",
+     "id": "F017-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: ___ Ben, I think group work is more useful. (~와 달리)",
+     "answer_text": "unlike",
+     "accepted_answers": [
+      "unlike"
+     ],
+     "explanation_ko": "'~와 달리'는 Unlike입니다.",
+     "error_tag": "discussion-disagree",
+     "id": "F017-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "'온라인 수업과 대면 수업 중 무엇이 더 좋은가'에 대해 동료 한 명의 의견을 언급하고 내 생각을 두세 문장으로 써 보세요.",
+    "example_answer_en": "I agree with Mia that online classes are flexible. However, I think face-to-face classes help students ask questions. Another point to consider is that students can make friends.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 비공식 자체 연습이며 ETS 문항이 아닙니다."
+   },
+   "publish_date": "2026-10-28",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-28"
+   }
   }
  ]
 }
