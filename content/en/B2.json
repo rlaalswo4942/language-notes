@@ -4498,6 +4498,205 @@
     "version": 1,
     "last_revised": "2026-10-28"
    }
+  },
+  {
+   "id": "B2-024",
+   "level": "B2",
+   "track": "general",
+   "day": 24,
+   "title_ko": "복합관계사: whatever / whoever / whenever / wherever / however",
+   "objective_ko": "'무엇을·누가·언제·어디서·아무리 ~하든'을 뜻하는 복합관계사로 양보 표현을 만든다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-29"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "복합관계사는 'no matter + 의문사'와 비슷한 뜻으로 어떤 경우든 결과가 같음을 나타냅니다. ① whatever: 무엇을 ~하든 — Whatever you decide to do, I will support you. ② whoever: 누가 ~하든 / ~하는 사람은 누구든 — Whoever wins will receive the trophy. ③ whenever: 언제 ~하든, ~할 때마다 — Call me whenever you need help. ④ wherever: 어디서 ~하든 — Wherever she goes, she takes her camera. ⑤ however + 형용사/부사 + 주어 + 동사: 아무리 ~해도 — However busy you are, please reply by Friday. ⑥ whichever + 명사: 어느 ~이든 — Whichever approach you choose, set a clear goal. however는 바로 뒤에 형용사·부사가 붙는 점에 주의하세요.",
+    "common_mistake_ko": "However you are busy, ...(X) → However busy you are, ...(O) / Whatever difficult the exam is...(X) → However difficult the exam is...(O) / Whoever you decide to do...(X) → Whatever you decide to do...(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "obstacle",
+     "part_of_speech": "명사",
+     "meaning_ko": "장애물",
+     "example_en": "However big the obstacle is, we will find a way.",
+     "example_ko": "장애물이 아무리 커도 우리는 방법을 찾을 거예요."
+    },
+    {
+     "word": "adapt",
+     "part_of_speech": "동사",
+     "meaning_ko": "적응하다",
+     "example_en": "Whatever happens, you must learn to adapt.",
+     "example_ko": "무슨 일이 생기든 적응하는 법을 배워야 해요."
+    },
+    {
+     "word": "regardless",
+     "part_of_speech": "부사",
+     "meaning_ko": "상관없이 (regardless of ~)",
+     "example_en": "She finished the race regardless of the heavy rain.",
+     "example_ko": "그녀는 폭우에도 상관없이 경주를 끝냈어요."
+    },
+    {
+     "word": "approach",
+     "part_of_speech": "명사",
+     "meaning_ko": "접근 방식",
+     "example_en": "Whichever approach you choose, set a clear goal.",
+     "example_ko": "어떤 접근 방식을 고르든 분명한 목표를 세우세요."
+    },
+    {
+     "word": "tolerate",
+     "part_of_speech": "동사",
+     "meaning_ko": "참다, 용인하다",
+     "example_en": "I can't tolerate noise, however small it is.",
+     "example_ko": "나는 소음이 아무리 작아도 참을 수 없어요."
+    },
+    {
+     "word": "deadline",
+     "part_of_speech": "명사",
+     "meaning_ko": "마감 기한",
+     "example_en": "We must meet the deadline, however difficult it seems.",
+     "example_ko": "아무리 어려워 보여도 우리는 마감을 지켜야 해요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Whatever you decide, I will support you.",
+     "ko": "무엇을 결정하든 나는 당신을 지지할 거예요."
+    },
+    {
+     "en": "Whoever wins the game will receive the trophy.",
+     "ko": "경기에서 이기는 사람은 누구든 트로피를 받을 거예요."
+    },
+    {
+     "en": "You can call me whenever you need help.",
+     "ko": "도움이 필요할 때는 언제든 전화해도 돼요."
+    },
+    {
+     "en": "Wherever she goes, she takes her camera.",
+     "ko": "그녀는 어디를 가든 카메라를 가져가요."
+    },
+    {
+     "en": "However hard he tried, he couldn't open the door.",
+     "ko": "그는 아무리 애를 써도 문을 열 수 없었어요."
+    },
+    {
+     "en": "However busy you are, please reply by Friday.",
+     "ko": "아무리 바쁘더라도 금요일까지 답장해 주세요."
+    },
+    {
+     "en": "Whatever the weather, the match will take place.",
+     "ko": "날씨가 어떻든 경기는 열릴 거예요."
+    },
+    {
+     "en": "Whoever you ask, the answer will be the same.",
+     "ko": "누구에게 물어도 답은 같을 거예요."
+    },
+    {
+     "en": "Whenever I visit that city, I stay at the same hotel.",
+     "ko": "나는 그 도시를 찾을 때마다 같은 호텔에 묵어요."
+    },
+    {
+     "en": "Whichever approach you choose, set a clear goal.",
+     "ko": "어떤 접근 방식을 고르든 분명한 목표를 세우세요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "___ you decide to do, I will support you.",
+     "choices": [
+      "Whatever",
+      "Whoever",
+      "Wherever",
+      "However"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "decide to do의 목적어가 되는 '무엇을 ~하든'이므로 Whatever입니다.",
+     "error_tag": "wh-ever",
+     "id": "B2-024-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "___ difficult the exam is, she never gives up.",
+     "choices": [
+      "However",
+      "Whatever",
+      "Whenever",
+      "Whoever"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "however 바로 뒤에 형용사가 오는 '아무리 어려워도' 구조입니다.",
+     "error_tag": "however-adjective",
+     "id": "B2-024-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Please put your bag ___ there is space.",
+     "choices": [
+      "wherever",
+      "whoever",
+      "whatever",
+      "whenever"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "장소를 나타내는 '공간이 있는 어디든'이므로 wherever입니다.",
+     "error_tag": "wh-ever",
+     "id": "B2-024-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "___ wins the game will get the trophy.",
+     "choices": [
+      "Whoever",
+      "Whomever",
+      "Whenever",
+      "Wherever"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "wins의 주어 역할을 하는 '이기는 사람은 누구든'이므로 Whoever입니다.",
+     "error_tag": "wh-ever",
+     "id": "B2-024-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: ___ she goes, she takes her camera. (그녀가 어디에 가든)",
+     "answer_text": "wherever",
+     "accepted_answers": [
+      "wherever"
+     ],
+     "explanation_ko": "'어디에 가든'은 wherever입니다.",
+     "error_tag": "wh-ever",
+     "id": "B2-024-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: ___ busy he is, he always replies quickly. (아무리 바빠도)",
+     "answer_text": "however",
+     "accepted_answers": [
+      "however"
+     ],
+     "explanation_ko": "however + 형용사 + 주어 + 동사 구조입니다.",
+     "error_tag": "however-adjective",
+     "id": "B2-024-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "복합관계사(whatever, whenever, however 등)를 하나 이상 넣어 나의 다짐이나 조언을 두 문장 써 보세요.",
+    "example_answer_en": "Whatever happens, I will keep studying English. However tired I am, I read one page every night.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-29",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-29"
+   }
   }
  ]
 }

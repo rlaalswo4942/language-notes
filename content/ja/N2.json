@@ -4931,6 +4931,223 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-24",
+   "day_index": 24,
+   "week_index": 4,
+   "level": "N2",
+   "unit_id": "N2-W04",
+   "lesson_type": "new",
+   "title_ko": "〜に際して・〜にあたって: ~할 때에, ~을 맞이하여",
+   "objective_ko": "새로운 일이나 중요한 일을 시작할 때를 〜に際して・〜にあたって로 격식 있게 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-23"
+   ],
+   "explanation_ko": "〜に際{さい}して・〜にあたって는 ‘~할 때에, ~을 맞이하여’라는 뜻으로, 새롭고 중요한 일을 시작하거나 할 때를 말하는 격식 있는 표현입니다. ① 명사 + に際して / にあたって(契約{けいやく}に際{さい}して、開業{かいぎょう}にあたって). ② 동사 사전형 + に際して / にあたって(留学{りゅうがく}するにあたって). ③ 뒤에 명사가 이어지면 〜に際しての / 〜にあたっての + 명사(入学{にゅうがく}に際しての手続{てつづ}き). ④ 글에서는 〜に際し / 〜にあたり로 문장을 이어 쓰기도 합니다(工事{こうじ}の開始{かいし}にあたり). 앞에는 입학・계약・출발・개업처럼 중요한 계기가 옵니다.",
+   "usage_notes": [
+    "일상의 사소한 동작(식사, 세수 등)에는 쓰지 않습니다. 계약・입학・출발 같은 큰 계기에 씁니다.",
+    "뒤에는 확인・준비・주의 같은 해야 할 일이 오는 경우가 많습니다.",
+    "두 표현은 대부분 서로 바꿔 쓸 수 있으며, 모두 격식 있는 말입니다."
+   ],
+   "common_mistakes": [
+    "昼ご飯を食べるに際して、手を洗った(X) → 昼ご飯の前に手を洗った(O): 일상의 사소한 동작에는 쓰지 않습니다.",
+    "入学に際した手続き(X) → 入学に際しての手続き(O): 명사를 꾸밀 때는 〜に際しての를 씁니다.",
+    "留学したにあたって(X) → 留学するにあたって(O): 앞의 동사는 사전형으로 씁니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N2-24-01",
+     "kind": "word",
+     "text": "契約{けいやく}",
+     "reading_kana": "けいやく",
+     "reading_romanized": "keiyaku",
+     "meaning_ko": "계약",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N2-24-02",
+     "kind": "word",
+     "text": "申請{しんせい}",
+     "reading_kana": "しんせい",
+     "reading_romanized": "shinsei",
+     "meaning_ko": "신청",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N2-24-03",
+     "kind": "word",
+     "text": "開業{かいぎょう}",
+     "reading_kana": "かいぎょう",
+     "reading_romanized": "kaigyou",
+     "meaning_ko": "개업",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N2-24-04",
+     "kind": "word",
+     "text": "留意{りゅうい}",
+     "reading_kana": "りゅうい",
+     "reading_romanized": "ryuui",
+     "meaning_ko": "유의",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N2-24-05",
+     "kind": "word",
+     "text": "入居{にゅうきょ}",
+     "reading_kana": "にゅうきょ",
+     "reading_romanized": "nyuukyo",
+     "meaning_ko": "입주",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N2-24-06",
+     "kind": "word",
+     "text": "手続{てつづ}き",
+     "reading_kana": "てつづき",
+     "reading_romanized": "tetsuzuki",
+     "meaning_ko": "절차, 수속",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "契約{けいやく}に際{さい}して、書類{しょるい}をよくお読{よ}みください。",
+     "meaning_ko": "계약할 때는 서류를 잘 읽어 주십시오.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "開業{かいぎょう}にあたって、多{おお}くの方{かた}にご協力{きょうりょく}いただいた。",
+     "meaning_ko": "개업을 맞이하여 많은 분께 협력을 받았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "入居{にゅうきょ}に際{さい}しては、管理人{かんりにん}にご挨拶{あいさつ}をお願{ねが}いします。",
+     "meaning_ko": "입주할 때는 관리인에게 인사를 부탁드립니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "留学{りゅうがく}するにあたって、ビザの申請{しんせい}が必要{ひつよう}だ。",
+     "meaning_ko": "유학을 가는 데 있어 비자 신청이 필요하다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "サービスの利用{りよう}を開始{かいし}するに際{さい}し、利用規約{りようきやく}をお読{よ}みください。",
+     "meaning_ko": "서비스 이용을 시작할 때는 이용 약관을 읽어 주십시오.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "新{あたら}しい事業{じぎょう}を始{はじ}めるにあたっての注意点{ちゅういてん}をまとめた。",
+     "meaning_ko": "새 사업을 시작하는 데 있어서의 주의점을 정리했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "入学{にゅうがく}に際{さい}しての手続{てつづ}きは、次{つぎ}のとおりです。",
+     "meaning_ko": "입학할 때의 절차는 다음과 같습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "出発{しゅっぱつ}に際{さい}して、全員{ぜんいん}で安全{あんぜん}を確認{かくにん}した。",
+     "meaning_ko": "출발할 때 전원이 안전을 확인했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "工事{こうじ}の開始{かいし}にあたり、近隣{きんりん}の住民{じゅうみん}に説明{せつめい}を行{おこな}った。",
+     "meaning_ko": "공사를 시작함에 있어 인근 주민에게 설명을 했다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "契約（　）、書類をよく読んでください。(계약할 때는)",
+     "options": [
+      "に際して",
+      "に反して",
+      "にもかかわらず",
+      "ように"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "중요한 계기를 말하는 ‘~할 때는’은 に際して입니다.",
+     "id": "JP-N2-24-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "留学する（　）、ビザの申請が必要だ。(유학을 가는 데 있어)",
+     "options": [
+      "にあたって",
+      "にかけて",
+      "にしては",
+      "に応じて"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "동사 사전형 + にあたって로 ‘~하는 데 있어서’를 나타냅니다.",
+     "id": "JP-N2-24-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「〜に際して」를 쓰는 것이 부자연스러운 문장은?",
+     "options": [
+      "昼ご飯を食べるに際して、手を洗った。",
+      "入学に際して、書類を提出した。",
+      "開業にあたって、挨拶状を送った。",
+      "工事の開始にあたり、説明会を開いた。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "점심 식사 같은 일상의 사소한 동작에는 に際して를 쓰지 않습니다. 나머지는 중요한 계기입니다.",
+     "id": "JP-N2-24-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「入学に際しての手続き」의 뜻은?",
+     "options": [
+      "입학할 때의 절차",
+      "입학한 뒤의 절차",
+      "입학에 반대하는 절차",
+      "입학 때문에 생긴 절차"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜に際しての는 ‘~할 때의’라는 뜻으로 명사를 꾸밉니다.",
+     "id": "JP-N2-24-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「契約」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "keiyaku",
+     "accepted_answers": [
+      "keiyaku"
+     ],
+     "explanation_ko": "契約 = けいやく = keiyaku (계약)",
+     "id": "JP-N2-24-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「申請」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "shinsei",
+     "accepted_answers": [
+      "shinsei",
+      "sinsei"
+     ],
+     "explanation_ko": "申請 = しんせい = shinsei (신청)",
+     "id": "JP-N2-24-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

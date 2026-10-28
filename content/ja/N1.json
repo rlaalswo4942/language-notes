@@ -4932,6 +4932,222 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-24",
+   "day_index": 24,
+   "week_index": 4,
+   "level": "N1",
+   "unit_id": "N1-W04",
+   "lesson_type": "new",
+   "title_ko": "〜と思いきや: ~라고 생각했는데 (예상 밖의 결과)",
+   "objective_ko": "예상이 빗나간 의외의 결과를 〜と思いきや로 이어 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-23"
+   ],
+   "explanation_ko": "〜と思{おも}いきや는 ‘~라고 생각했는데 (예상과 달리) ~이었다’는 뜻으로, 예상이 빗나간 의외의 결과를 이어서 말하는 표현입니다. ① 보통형 + と思いきや(勝{か}てると思{おも}いきや). 명사는 〜かと思いきや로도 씁니다(遅刻{ちこく}かと思{おも}いきや). ② 뒤에는 예상과 다른 사실이나 결과가 오며, 문장 끝은 과거형인 경우가 많습니다. ③ 앞의 예상은 화자나 주변 사람이 한 것입니다. ④ 〜と思ったら와 비슷하지만, 예상이 빗나갔다는 점이 핵심입니다.",
+   "usage_notes": [
+    "뒤에는 예상이 빗나간 결과가 옵니다. 예상대로의 결과나 의지・희망・명령 표현은 올 수 없습니다.",
+    "이미 일어난 일을 돌아보며 말할 때 쓰므로 문장 끝이 과거형인 경우가 많습니다.",
+    "‘생각하자마자’가 아니라 ‘생각했는데 의외로’라는 뜻입니다."
+   ],
+   "common_mistakes": [
+    "簡単だと思いきや、本当に簡単だった(X) → 簡単だと思いきや、意外に難しかった(O): 예상과 다른 결과가 와야 합니다.",
+    "雨がやんだと思いきや、傘を持って行こう(X) → 雨がやんだと思いきや、すぐにまた降り出した(O): 의지 표현은 뒤에 올 수 없습니다.",
+    "好調だと思いきや、好調が続いた(X) → 好調だと思いきや、後半に一転して失速した(O): 예상과 반대의 전개를 씁니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N1-24-01",
+     "kind": "word",
+     "text": "意外{いがい}",
+     "reading_kana": "いがい",
+     "reading_romanized": "igai",
+     "meaning_ko": "의외",
+     "part_of_speech": "な형용사・명사"
+    },
+    {
+     "id": "w-JP-N1-24-02",
+     "kind": "word",
+     "text": "会計{かいけい}",
+     "reading_kana": "かいけい",
+     "reading_romanized": "kaikei",
+     "meaning_ko": "계산, 회계",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N1-24-03",
+     "kind": "word",
+     "text": "逆転{ぎゃくてん}",
+     "reading_kana": "ぎゃくてん",
+     "reading_romanized": "gyakuten",
+     "meaning_ko": "역전",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N1-24-04",
+     "kind": "word",
+     "text": "油断{ゆだん}",
+     "reading_kana": "ゆだん",
+     "reading_romanized": "yudan",
+     "meaning_ko": "방심",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N1-24-05",
+     "kind": "word",
+     "text": "好調{こうちょう}",
+     "reading_kana": "こうちょう",
+     "reading_romanized": "kouchou",
+     "meaning_ko": "호조, 순조로움",
+     "part_of_speech": "명사・な형용사"
+    },
+    {
+     "id": "w-JP-N1-24-06",
+     "kind": "word",
+     "text": "一転{いってん}",
+     "reading_kana": "いってん",
+     "reading_romanized": "itten",
+     "meaning_ko": "일변, 확 바뀜",
+     "part_of_speech": "명사・する동사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "簡単{かんたん}だと思{おも}いきや、意外{いがい}に難{むずか}しかった。",
+     "meaning_ko": "쉽다고 생각했는데 의외로 어려웠다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "勝{か}てると思{おも}いきや、最後{さいご}に逆転{ぎゃくてん}された。",
+     "meaning_ko": "이길 수 있다고 생각했는데 마지막에 역전당했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "安{やす}いと思{おも}いきや、会計{かいけい}で予想{よそう}より高{たか}い金額{きんがく}を請求{せいきゅう}された。",
+     "meaning_ko": "싸다고 생각했는데 계산할 때 예상보다 비싼 금액을 청구받았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "好調{こうちょう}だと思{おも}いきや、後半{こうはん}に一転{いってん}して失速{しっそく}した。",
+     "meaning_ko": "순조롭다고 생각했는데 후반에 확 바뀌어 속도가 떨어졌다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "雨{あめ}がやんだと思{おも}いきや、すぐにまた降{ふ}り出{だ}した。",
+     "meaning_ko": "비가 그쳤다고 생각했는데 곧 다시 내리기 시작했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}は反対{はんたい}すると思{おも}いきや、あっさり賛成{さんせい}してくれた。",
+     "meaning_ko": "그는 반대할 줄 알았는데 선뜻 찬성해 주었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "契約{けいやく}は問題{もんだい}なく進{すす}むと思{おも}いきや、直前{ちょくぜん}で白紙{はくし}に戻{もど}った。",
+     "meaning_ko": "계약은 문제없이 진행될 줄 알았는데 직전에 백지로 돌아갔다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "遅刻{ちこく}かと思{おも}いきや、電車{でんしゃ}が遅{おく}れていて間{ま}に合{あ}った。",
+     "meaning_ko": "지각인 줄 알았는데 전철이 늦어서 시간에 맞았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "油断{ゆだん}して負{ま}けたかと思{おも}いきや、実{じつ}は作戦{さくせん}だった。",
+     "meaning_ko": "방심해서 진 줄 알았는데 사실은 작전이었다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "簡単だと（　）、意外に難しかった。",
+     "options": [
+      "思いきや",
+      "思うばかり",
+      "思うまでもなく",
+      "思ってやまず"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "예상이 빗나간 결과를 잇는 표현은 〜と思いきや입니다.",
+     "id": "JP-N1-24-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "勝てると思いきや、最後に（　）。",
+     "options": [
+      "逆転された",
+      "予想どおり勝った",
+      "勝ちたい",
+      "勝つべきだ"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜と思いきや 뒤에는 예상과 다른 결과가 오므로 逆転された가 알맞습니다.",
+     "id": "JP-N1-24-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「〜と思いきや」의 뜻은?",
+     "options": [
+      "생각했는데 예상과 다르게 ~였다",
+      "~라고 생각했으므로 ~했다",
+      "생각하는 대로 ~였다",
+      "생각해도 ~할 수 없다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜と思いきや는 예상이 빗나간 의외의 결과를 말합니다.",
+     "id": "JP-N1-24-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "문장으로 바른 것은?",
+     "options": [
+      "雨がやんだと思いきや、すぐにまた降り出した。",
+      "雨がやんだと思いきや、予想どおり晴れた。",
+      "雨がやんだと思いきや、傘をたたもう。",
+      "雨がやんだと思いきや、散歩に行きたい。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "예상 밖의 결과가 오는 첫 번째 문장이 바릅니다. 예상대로의 결과나 의지・희망은 쓰지 않습니다.",
+     "id": "JP-N1-24-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「逆転」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "gyakuten",
+     "accepted_answers": [
+      "gyakuten"
+     ],
+     "explanation_ko": "逆転 = ぎゃくてん = gyakuten (역전)",
+     "id": "JP-N1-24-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「油断」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "yudan",
+     "accepted_answers": [
+      "yudan"
+     ],
+     "explanation_ko": "油断 = ゆだん = yudan (방심)",
+     "id": "JP-N1-24-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "JLPT_FORMAT"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

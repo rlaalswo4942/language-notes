@@ -4499,6 +4499,201 @@
     "version": 1,
     "last_revised": "2026-10-28"
    }
+  },
+  {
+   "id": "A2-024",
+   "level": "A2",
+   "track": "foundation",
+   "day": 24,
+   "title_ko": "이동 전치사: into / out of / through / across / along / past",
+   "objective_ko": "움직임의 방향과 경로를 나타내는 전치사를 구별해서 쓴다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-29"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "움직이는 방향이나 길을 말할 때 쓰는 전치사입니다. ① into: 안으로 들어가는 움직임 — The cat jumped into the box. ② out of: 안에서 밖으로 — She took her phone out of her bag. ③ through: 무언가의 안을 통과해서 — The train went through a tunnel. ④ across: 한쪽에서 다른 쪽으로 가로질러 — We walked across the bridge. ⑤ along: 길이 있는 것(길·강·해변)을 따라 — We walked along the river. ⑥ past: 어떤 곳 옆을 지나쳐서 — The bus went past the gate without stopping. 명사 앞에 오며 뒤에 동작이 이어지는 장면이 많습니다.",
+    "common_mistake_ko": "She took her phone from of her bag.(X) → She took her phone out of her bag.(O) / We walked through the bridge.(X) → We walked across the bridge.(O) / The cat jumped in to the box.(X) → The cat jumped into the box.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "bridge",
+     "part_of_speech": "명사",
+     "meaning_ko": "다리",
+     "example_en": "We walked across the bridge.",
+     "example_ko": "우리는 다리를 걸어서 건넜어요."
+    },
+    {
+     "word": "tunnel",
+     "part_of_speech": "명사",
+     "meaning_ko": "터널",
+     "example_en": "The train went through a long tunnel.",
+     "example_ko": "기차는 긴 터널을 통과했어요."
+    },
+    {
+     "word": "corner",
+     "part_of_speech": "명사",
+     "meaning_ko": "모퉁이",
+     "example_en": "Turn left at the corner.",
+     "example_ko": "모퉁이에서 왼쪽으로 도세요."
+    },
+    {
+     "word": "path",
+     "part_of_speech": "명사",
+     "meaning_ko": "작은 길, 오솔길",
+     "example_en": "We walked along the path by the river.",
+     "example_ko": "우리는 강가의 오솔길을 따라 걸었어요."
+    },
+    {
+     "word": "gate",
+     "part_of_speech": "명사",
+     "meaning_ko": "문, 출입구",
+     "example_en": "The bus went past the gate without stopping.",
+     "example_ko": "버스는 서지 않고 출입구를 지나쳤어요."
+    },
+    {
+     "word": "road",
+     "part_of_speech": "명사",
+     "meaning_ko": "도로",
+     "example_en": "Look left and right before you walk across the road.",
+     "example_ko": "길을 건너기 전에 좌우를 살피세요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The cat jumped into the box.",
+     "ko": "고양이가 상자 안으로 뛰어들었어요."
+    },
+    {
+     "en": "She took her phone out of her bag.",
+     "ko": "그녀는 가방에서 휴대폰을 꺼냈어요."
+    },
+    {
+     "en": "The train went through a long tunnel.",
+     "ko": "기차는 긴 터널을 통과했어요."
+    },
+    {
+     "en": "We walked across the bridge.",
+     "ko": "우리는 다리를 걸어서 건넜어요."
+    },
+    {
+     "en": "We walked along the path by the river.",
+     "ko": "우리는 강가의 오솔길을 따라 걸었어요."
+    },
+    {
+     "en": "The bus went past the gate without stopping.",
+     "ko": "버스는 서지 않고 출입구를 지나쳤어요."
+    },
+    {
+     "en": "Turn left at the corner and walk along the road.",
+     "ko": "모퉁이에서 왼쪽으로 돌아 도로를 따라 걸으세요."
+    },
+    {
+     "en": "The children ran out of the house.",
+     "ko": "아이들이 집 밖으로 뛰어나왔어요."
+    },
+    {
+     "en": "He walked into the room and sat down.",
+     "ko": "그는 방 안으로 걸어 들어가 앉았어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "The bus didn't stop at our station. It went ___ it without stopping.",
+     "choices": [
+      "past",
+      "into",
+      "out of",
+      "across"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "어떤 곳 옆을 멈추지 않고 지나칠 때는 past입니다.",
+     "error_tag": "motion-prepositions",
+     "id": "A2-024-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "She put her phone ___ her bag.",
+     "choices": [
+      "into",
+      "out of",
+      "across",
+      "past"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "가방 안으로 넣는 움직임은 into입니다.",
+     "error_tag": "motion-prepositions",
+     "id": "A2-024-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "We walked ___ the river for an hour and enjoyed the trees.",
+     "choices": [
+      "along",
+      "across",
+      "through",
+      "into"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "강을 따라 걷는다는 뜻이므로 along입니다.",
+     "error_tag": "motion-prepositions",
+     "id": "A2-024-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "바른 문장은 어느 것인가요?",
+     "choices": [
+      "The children ran out of the house.",
+      "The children ran out the of house.",
+      "The children ran of out the house.",
+      "The children ran out from of the house."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "'~ 밖으로'는 out of를 한 덩어리로 씁니다.",
+     "error_tag": "out-of",
+     "id": "A2-024-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: The cat jumped ___ the box. (상자 안으로)",
+     "answer_text": "into",
+     "accepted_answers": [
+      "into"
+     ],
+     "explanation_ko": "안으로 들어가는 움직임은 into입니다.",
+     "error_tag": "motion-prepositions",
+     "id": "A2-024-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: We drove ___ a long tunnel. (터널을 통과해)",
+     "answer_text": "through",
+     "accepted_answers": [
+      "through"
+     ],
+     "explanation_ko": "무언가의 안을 통과해서 지나갈 때는 through입니다.",
+     "error_tag": "motion-prepositions",
+     "id": "A2-024-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "오늘 집이나 학교에서 움직인 길을 이동 전치사를 하나 이상 넣어 두 문장 써 보세요.",
+    "example_answer_en": "I walked along the road to school. Then I went into the classroom.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-29",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-29"
+   }
   }
  ]
 }

@@ -4516,6 +4516,209 @@
     "version": 1,
     "last_revised": "2026-10-28"
    }
+  },
+  {
+   "id": "A1-024",
+   "level": "A1",
+   "track": "foundation",
+   "day": 24,
+   "title_ko": "과거 의문사 의문문: Where / What / Who / When / Why + did",
+   "objective_ko": "의문사와 did를 함께 써서 지난 일을 자세히 묻고 과거형으로 답한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-29"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "지난 일을 자세히 물을 때는 의문사 + did + 주어 + 동사 원형 순서로 씁니다. ① Where did you go? (어디에 갔어요?) ② What did she buy? (무엇을 샀어요?) ③ Who did you meet? (누구를 만났어요?) ④ When did the concert start? (언제 시작했어요?) ⑤ Why did he leave early? (왜 일찍 떠났어요?) did가 이미 과거를 나타내므로 뒤 동사는 원형입니다. 대답은 과거형으로 합니다: I went to the museum. I met my cousin.",
+    "common_mistake_ko": "Where did you went?(X) → Where did you go?(O) / What you did eat?(X) → What did you eat?(O) / When did they arrived?(X) → When did they arrive?(O) / Who did you met?(X) → Who did you meet?(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "weekend",
+     "part_of_speech": "명사",
+     "meaning_ko": "주말",
+     "example_en": "Where did you go last weekend?",
+     "example_ko": "지난 주말에 어디에 갔어요?"
+    },
+    {
+     "word": "museum",
+     "part_of_speech": "명사",
+     "meaning_ko": "박물관",
+     "example_en": "I went to the museum with my sister.",
+     "example_ko": "나는 여동생과 박물관에 갔어요."
+    },
+    {
+     "word": "concert",
+     "part_of_speech": "명사",
+     "meaning_ko": "콘서트, 연주회",
+     "example_en": "The concert started at seven.",
+     "example_ko": "콘서트는 7시에 시작했어요."
+    },
+    {
+     "word": "trip",
+     "part_of_speech": "명사",
+     "meaning_ko": "여행",
+     "example_en": "What did she take on the trip?",
+     "example_ko": "그녀는 여행에 무엇을 가져갔어요?"
+    },
+    {
+     "word": "meet (met)",
+     "part_of_speech": "동사",
+     "meaning_ko": "만나다 (과거형 met)",
+     "example_en": "I met my cousin at the concert.",
+     "example_ko": "나는 콘서트에서 사촌을 만났어요."
+    },
+    {
+     "word": "take (took)",
+     "part_of_speech": "동사",
+     "meaning_ko": "가져가다 (과거형 took)",
+     "example_en": "She took a camera.",
+     "example_ko": "그녀는 카메라를 가져갔어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Where did you go last weekend?",
+     "ko": "지난 주말에 어디에 갔어요?"
+    },
+    {
+     "en": "I went to the museum with my sister.",
+     "ko": "나는 여동생과 박물관에 갔어요."
+    },
+    {
+     "en": "What did you see there?",
+     "ko": "거기서 무엇을 봤어요?"
+    },
+    {
+     "en": "We saw some old photos.",
+     "ko": "우리는 오래된 사진 몇 장을 봤어요."
+    },
+    {
+     "en": "Who did you meet at the concert?",
+     "ko": "콘서트에서 누구를 만났어요?"
+    },
+    {
+     "en": "I met my cousin.",
+     "ko": "나는 사촌을 만났어요."
+    },
+    {
+     "en": "When did the concert start?",
+     "ko": "콘서트는 언제 시작했어요?"
+    },
+    {
+     "en": "It started at seven.",
+     "ko": "7시에 시작했어요."
+    },
+    {
+     "en": "Why did you leave early?",
+     "ko": "왜 일찍 떠났어요?"
+    },
+    {
+     "en": "What did she take on the trip?",
+     "ko": "그녀는 여행에 무엇을 가져갔어요?"
+    },
+    {
+     "en": "She took a camera.",
+     "ko": "그녀는 카메라를 가져갔어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "A: ___ did you go last weekend? B: I went to the museum.",
+     "choices": [
+      "Where",
+      "Who",
+      "When",
+      "Why"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "대답이 장소(the museum)이므로 Where로 묻습니다.",
+     "error_tag": "past-wh-question",
+     "id": "A1-024-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "What did she ___ on the trip?",
+     "choices": [
+      "take",
+      "took",
+      "takes",
+      "taking"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "did 뒤에는 동사 원형을 씁니다.",
+     "error_tag": "did-base-verb",
+     "id": "A1-024-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "A: ___ did you meet at the concert? B: I met my cousin.",
+     "choices": [
+      "Who",
+      "When",
+      "Why",
+      "How"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "대답이 사람(my cousin)이므로 Who로 묻습니다.",
+     "error_tag": "past-wh-question",
+     "id": "A1-024-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "바른 문장은 어느 것인가요?",
+     "choices": [
+      "When did the concert start?",
+      "When did the concert started?",
+      "When the concert did start?",
+      "When does the concert started?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "의문사 + did + 주어 + 동사 원형 순서이며, did 뒤 동사는 원형(start)입니다.",
+     "error_tag": "past-wh-order",
+     "id": "A1-024-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: ___ did you go yesterday? — I went to the park.",
+     "answer_text": "where",
+     "accepted_answers": [
+      "where"
+     ],
+     "explanation_ko": "대답이 장소이므로 Where입니다.",
+     "error_tag": "past-wh-question",
+     "id": "A1-024-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: What did he ___ for lunch? (eat)",
+     "answer_text": "eat",
+     "accepted_answers": [
+      "eat"
+     ],
+     "explanation_ko": "did 뒤에는 동사 원형 eat입니다.",
+     "error_tag": "did-base-verb",
+     "id": "A1-024-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "지난 주말에 한 일을 영어로 두 문장 써 보세요. (친구가 What did you do? 하고 물었다고 생각하세요.)",
+    "example_answer_en": "I went to a concert. I met my friend there.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-29",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-29"
+   }
   }
  ]
 }

@@ -4950,6 +4950,223 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-24",
+   "day_index": 24,
+   "week_index": 4,
+   "level": "N4",
+   "unit_id": "N4-W04",
+   "lesson_type": "new",
+   "title_ko": "〜そうです: 보기에 ~일 것 같다 (양태)",
+   "objective_ko": "눈으로 본 모습이나 징후를 〜そうです로 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-23"
+   ],
+   "explanation_ko": "〜そうです(양태)는 눈으로 본 모습이나 느낌으로 ‘~일 것 같다, ~해 보인다’고 말할 때 씁니다. ① 동사: ます형에서 ます를 뺀 형태 + そうです(降{ふ}ります → 降{ふ}りそうです, 落{お}ちます → 落{お}ちそうです). ② い형용사: 끝의 い를 빼고 そうです(おいしい → おいしそうです, 重{おも}い → 重{おも}そうです). ③ な형용사: 어간 + そうです(元気{げんき} → 元気{げんき}そうです). ④ 예외: いい는 よさそうです, ない는 なさそうです가 됩니다. ⑤ 명사를 꾸밀 때는 〜そうな + 명사(おいしそうな ケーキ)입니다.",
+   "usage_notes": [
+    "들은 정보를 전하는 〜そうです(雨が 降るそうです)는 보통형에 붙고 뜻도 ‘~라고 합니다’로 다릅니다. 양태의 〜そうです는 어간이나 ます형에 붙습니다.",
+    "눈앞의 모습이나 곧 일어날 일의 징후를 보고 말할 때 씁니다.",
+    "いい는 いいそうです가 아니라 よさそうです가 되고, ない는 なさそうです가 됩니다."
+   ],
+   "common_mistakes": [
+    "おいしいそうです(X) → おいしそうです(O): い형용사는 い를 빼고 そう를 붙입니다.",
+    "元気なそうです(X) → 元気そうです(O): な형용사는 어간에 바로 そう를 붙입니다.",
+    "降るそうです(비가 올 것 같다는 뜻으로는 X) → 降りそうです(O): 보이는 징후를 말할 때는 ます형 어간에 붙입니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N4-24-01",
+     "kind": "word",
+     "text": "空{そら}",
+     "reading_kana": "そら",
+     "reading_romanized": "sora",
+     "meaning_ko": "하늘",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-24-02",
+     "kind": "word",
+     "text": "重{おも}い",
+     "reading_kana": "おもい",
+     "reading_romanized": "omoi",
+     "meaning_ko": "무겁다",
+     "part_of_speech": "い형용사"
+    },
+    {
+     "id": "w-JP-N4-24-03",
+     "kind": "word",
+     "text": "落{お}ちる",
+     "reading_kana": "おちる",
+     "reading_romanized": "ochiru",
+     "meaning_ko": "떨어지다",
+     "part_of_speech": "동사(2그룹)"
+    },
+    {
+     "id": "w-JP-N4-24-04",
+     "kind": "word",
+     "text": "倒{たお}れる",
+     "reading_kana": "たおれる",
+     "reading_romanized": "taoreru",
+     "meaning_ko": "쓰러지다",
+     "part_of_speech": "동사(2그룹)"
+    },
+    {
+     "id": "w-JP-N4-24-05",
+     "kind": "word",
+     "text": "忙{いそが}しい",
+     "reading_kana": "いそがしい",
+     "reading_romanized": "isogashii",
+     "meaning_ko": "바쁘다",
+     "part_of_speech": "い형용사"
+    },
+    {
+     "id": "w-JP-N4-24-06",
+     "kind": "word",
+     "text": "暗{くら}い",
+     "reading_kana": "くらい",
+     "reading_romanized": "kurai",
+     "meaning_ko": "어둡다",
+     "part_of_speech": "い형용사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "空{そら}が 暗{くら}いですね。雨{あめ}が 降{ふ}りそうです。",
+     "meaning_ko": "하늘이 어둡네요. 비가 올 것 같습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この ケーキは おいしそうですね。",
+     "meaning_ko": "이 케이크는 맛있어 보이네요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "その かばんは 重{おも}そうですね。",
+     "meaning_ko": "그 가방은 무거워 보이네요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "箱{はこ}が 落{お}ちそうです。",
+     "meaning_ko": "상자가 떨어질 것 같습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "あの 木{き}は 倒{たお}れそうです。",
+     "meaning_ko": "저 나무는 쓰러질 것 같습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "山田{やまだ}さんは 元気{げんき}そうです。",
+     "meaning_ko": "야마다 씨는 건강해 보입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "先生{せんせい}は 忙{いそが}しそうです。",
+     "meaning_ko": "선생님은 바빠 보입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "よさそうな 本{ほん}ですね。",
+     "meaning_ko": "좋아 보이는 책이네요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "おいしそうな りんごを 買{か}いました。",
+     "meaning_ko": "맛있어 보이는 사과를 샀습니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "空が 暗いです。雨が（　）。(비가 올 것 같습니다)",
+     "options": [
+      "降りそうです",
+      "降りますそうです",
+      "降いそうです",
+      "降っそうです"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "동사는 ます형에서 ます를 빼고 そうです를 붙여 降りそうです가 됩니다.",
+     "id": "JP-N4-24-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "この ケーキは（　）ですね。(맛있어 보이네요)",
+     "options": [
+      "おいしそう",
+      "おいしいそう",
+      "おいしくそう",
+      "おいしだそう"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "い형용사는 い를 빼고 そう를 붙여 おいしそう가 됩니다.",
+     "id": "JP-N4-24-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "山田さんは（　）です。(건강해 보입니다)",
+     "options": [
+      "元気そう",
+      "元気なそう",
+      "元気くそう",
+      "元気のそう"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "な형용사는 어간에 바로 そう를 붙여 元気そう가 됩니다.",
+     "id": "JP-N4-24-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「箱が 落ちそうです」의 뜻은?",
+     "options": [
+      "상자가 떨어질 것 같습니다",
+      "상자가 떨어졌다고 합니다",
+      "상자를 떨어뜨리고 싶습니다",
+      "상자가 떨어지지 않았습니다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "落ちそうです는 눈앞의 모습으로 ‘떨어질 것 같다’고 말하는 표현입니다.",
+     "id": "JP-N4-24-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「空」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "sora",
+     "accepted_answers": [
+      "sora"
+     ],
+     "explanation_ko": "空 = そら = sora (하늘)",
+     "id": "JP-N4-24-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「忙しい」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "isogashii",
+     "accepted_answers": [
+      "isogashii",
+      "isogasii"
+     ],
+     "explanation_ko": "忙しい = いそがしい = isogashii (바쁘다)",
+     "id": "JP-N4-24-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

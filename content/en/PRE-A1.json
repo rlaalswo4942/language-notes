@@ -4857,6 +4857,209 @@
     "version": 1,
     "last_revised": "2026-10-28"
    }
+  },
+  {
+   "id": "PRE-030",
+   "level": "Pre-A1",
+   "track": "foundation",
+   "day": 30,
+   "title_ko": "다음 단계 준비: 내 영어 점검과 계획 세우기",
+   "objective_ko": "30일 동안 배운 문장 틀을 되돌아보고, 다음 단계를 위한 학습 계획을 쉬운 영어로 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-29"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "30일 동안 배운 문장 틀을 정리합니다. ① be동사: I am / She is / They are. ② 가리키기: This is ... / These are ... ③ 좋아함·필요: I like music. I need more practice. ④ 3인칭 단수: She practices English. ⑤ 부정·의문: I don't have a plan. Do you have a plan? ⑥ 능력·존재·진행: I can say my name. There are many lessons here. I am studying English now. 다음 단계(A1)를 준비하려면 틀린 문제가 많았던 일차를 다시 보고, 매일 연습할 시간을 정해 두세요.",
+    "common_mistake_ko": "She practice English every day.(X) → She practices English every day.(O) / I doesn't have a plan.(X) → I don't have a plan.(O) / These is my goal.(X) → This is my goal.(O) / I am plan.(X) → I have a plan.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "goal",
+     "part_of_speech": "명사",
+     "meaning_ko": "목표",
+     "example_en": "This is my goal.",
+     "example_ko": "이것이 내 목표예요."
+    },
+    {
+     "word": "plan",
+     "part_of_speech": "명사",
+     "meaning_ko": "계획",
+     "example_en": "I have a plan for Sunday.",
+     "example_ko": "나는 일요일 계획이 있어요."
+    },
+    {
+     "word": "practice",
+     "part_of_speech": "명사/동사",
+     "meaning_ko": "연습; 연습하다",
+     "example_en": "I practice English every day.",
+     "example_ko": "나는 매일 영어를 연습해요."
+    },
+    {
+     "word": "level",
+     "part_of_speech": "명사",
+     "meaning_ko": "단계, 수준",
+     "example_en": "This is my level.",
+     "example_ko": "이것이 내 수준이에요."
+    },
+    {
+     "word": "ready",
+     "part_of_speech": "형용사",
+     "meaning_ko": "준비가 된",
+     "example_en": "I am ready for the next level.",
+     "example_ko": "나는 다음 단계를 맞을 준비가 됐어요."
+    },
+    {
+     "word": "next",
+     "part_of_speech": "형용사",
+     "meaning_ko": "다음의",
+     "example_en": "My next lesson is on Monday.",
+     "example_ko": "내 다음 수업은 월요일이에요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I am ready for the next level.",
+     "ko": "나는 다음 단계를 맞을 준비가 됐어요."
+    },
+    {
+     "en": "I have a plan.",
+     "ko": "나는 계획이 있어요."
+    },
+    {
+     "en": "This is my goal.",
+     "ko": "이것이 내 목표예요."
+    },
+    {
+     "en": "I practice English every day.",
+     "ko": "나는 매일 영어를 연습해요."
+    },
+    {
+     "en": "She practices English in the morning.",
+     "ko": "그녀는 아침에 영어를 연습해요."
+    },
+    {
+     "en": "I need more practice.",
+     "ko": "나는 연습이 더 필요해요."
+    },
+    {
+     "en": "I can say my name in English.",
+     "ko": "나는 영어로 내 이름을 말할 수 있어요."
+    },
+    {
+     "en": "There are many lessons here.",
+     "ko": "여기에 수업이 많이 있어요."
+    },
+    {
+     "en": "Is your plan good?",
+     "ko": "당신의 계획은 좋은가요?"
+    },
+    {
+     "en": "My next lesson is on Monday.",
+     "ko": "내 다음 수업은 월요일이에요."
+    },
+    {
+     "en": "I don't have a plan for Sunday.",
+     "ko": "나는 일요일 계획이 없어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "I am ___ for the next level.",
+     "choices": [
+      "ready",
+      "goal",
+      "plan",
+      "practice"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "'I am + 형용사'로 상태를 말합니다. ready(준비가 된)가 형용사입니다.",
+     "error_tag": "be-verb",
+     "id": "P030-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "She ___ English every day.",
+     "choices": [
+      "practices",
+      "practice",
+      "practicing",
+      "to practice"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "she는 3인칭 단수이므로 동사에 -s를 붙여 practices입니다.",
+     "error_tag": "third-person-s",
+     "id": "P030-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "(일요일 계획이 없어요) I ___ a plan for Sunday.",
+     "choices": [
+      "don't have",
+      "doesn't have",
+      "am not have",
+      "not have"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "I 뒤 일반동사 부정은 don't + 동사 원형입니다.",
+     "error_tag": "dont-doesnt",
+     "id": "P030-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "(이것이 내 목표예요) ___ is my goal.",
+     "choices": [
+      "This",
+      "These",
+      "Those",
+      "Them"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "가까운 하나를 가리킬 때는 This is ... 입니다.",
+     "error_tag": "demonstratives",
+     "id": "P030-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: I need more ___. (연습)",
+     "answer_text": "practice",
+     "accepted_answers": [
+      "practice"
+     ],
+     "explanation_ko": "'더 많은 연습'은 more practice입니다.",
+     "error_tag": "vocabulary",
+     "id": "P030-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: He ___ English in the morning. (practice)",
+     "answer_text": "practices",
+     "accepted_answers": [
+      "practices"
+     ],
+     "explanation_ko": "he는 3인칭 단수이므로 practices입니다.",
+     "error_tag": "third-person-s",
+     "id": "P030-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "다음 단계를 위한 내 계획을 영어로 세 문장 써 보세요.",
+    "example_answer_en": "I have a plan. I practice English every day. I am ready for the next level.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-29",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-29"
+   }
   }
  ]
 }

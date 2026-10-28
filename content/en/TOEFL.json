@@ -3223,6 +3223,201 @@
     "version": 1,
     "last_revised": "2026-10-28"
    }
+  },
+  {
+   "id": "TOEFL-018",
+   "level": "B1",
+   "track": "toefl",
+   "day": 18,
+   "title_ko": "TOEFL 2026 Complete the Words 2: 남은 글자와 문맥으로 단어 완성하기",
+   "objective_ko": "단어의 앞부분 글자와 문맥, 품사 단서로 빠진 글자를 찾아 단어를 완성한다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/content/ets-org/language-master/ko/home/toefl/test-takers/ibt/about/content.html",
+     "publisher": "ETS",
+     "supports": "2026 형식 유형명",
+     "checked_at": "2026-10-29"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "Complete the Words는 2026-01-21 이후 TOEFL iBT Reading에 포함된 유형명입니다(비공식 자체 연습입니다). 문단 속 일부 단어의 뒷부분 글자가 지워져 있어 완성하는 방식입니다. 전략: ① 빈칸 앞뒤 문맥을 먼저 읽고 필요한 품사와 뜻을 예상합니다. ② 남은 앞부분 글자에 어떤 끝부분이 붙을 수 있는지 떠올립니다 (-ing, -ed, -ful, -ly, -tion 등). ③ 완성한 단어를 문장에 넣어 읽고 의미와 철자를 확인합니다. ④ 문장 하나만이 아니라 문단 전체의 주제와 맞는지도 확인합니다. ETS 점수와 무관하며 점수 예측도 없습니다.",
+    "common_mistake_ko": "Water freezes at a low temperatur.(X) → temperature(O): 끝 철자를 빼먹지 않습니다. / They worked careful.(X) → They worked carefully.(O): 동사를 꾸미면 부사입니다. / 'The lecture was us___ for notes' 를 useless로 채움(X) → useful(O): 문맥 의미를 먼저 확인합니다."
+   },
+   "vocabulary": [
+    {
+     "word": "harvest",
+     "part_of_speech": "동사/명사",
+     "meaning_ko": "수확하다; 수확",
+     "example_en": "Farmers plant seeds in spring and harvest the crops in autumn.",
+     "example_ko": "농부들은 봄에 씨를 뿌리고 가을에 작물을 수확해요."
+    },
+    {
+     "word": "temperature",
+     "part_of_speech": "명사",
+     "meaning_ko": "온도, 기온",
+     "example_en": "Water freezes at a low temperature.",
+     "example_ko": "물은 낮은 온도에서 얼어요."
+    },
+    {
+     "word": "protect",
+     "part_of_speech": "동사",
+     "meaning_ko": "보호하다",
+     "example_en": "Many parks protect rare animals and plants.",
+     "example_ko": "많은 공원이 희귀한 동식물을 보호해요."
+    },
+    {
+     "word": "survey",
+     "part_of_speech": "명사",
+     "meaning_ko": "설문 조사",
+     "example_en": "The students completed a survey about campus life.",
+     "example_ko": "학생들이 캠퍼스 생활에 관한 설문 조사를 마쳤어요."
+    },
+    {
+     "word": "species",
+     "part_of_speech": "명사",
+     "meaning_ko": "(생물의) 종",
+     "example_en": "This species lives only on one small island.",
+     "example_ko": "이 종은 작은 섬 한 곳에만 살아요."
+    },
+    {
+     "word": "habitat",
+     "part_of_speech": "명사",
+     "meaning_ko": "서식지",
+     "example_en": "A forest is a habitat for many birds.",
+     "example_ko": "숲은 많은 새의 서식지예요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Farmers plant seeds in spring and harvest the crops in autumn.",
+     "ko": "농부들은 봄에 씨를 뿌리고 가을에 작물을 수확해요."
+    },
+    {
+     "en": "Water freezes at a low temperature.",
+     "ko": "물은 낮은 온도에서 얼어요."
+    },
+    {
+     "en": "Many parks protect rare animals and plants.",
+     "ko": "많은 공원이 희귀한 동식물을 보호해요."
+    },
+    {
+     "en": "The students completed a survey about campus life.",
+     "ko": "학생들이 캠퍼스 생활에 관한 설문 조사를 마쳤어요."
+    },
+    {
+     "en": "This species lives only on one small island.",
+     "ko": "이 종은 작은 섬 한 곳에만 살아요."
+    },
+    {
+     "en": "A forest is a habitat for many birds.",
+     "ko": "숲은 많은 새의 서식지예요."
+    },
+    {
+     "en": "The researchers recorded the temperature every hour.",
+     "ko": "연구자들은 한 시간마다 기온을 기록했어요."
+    },
+    {
+     "en": "Scientists protect the habitat of the rare species.",
+     "ko": "과학자들은 그 희귀한 종의 서식지를 보호해요."
+    },
+    {
+     "en": "The survey showed that most students use the library.",
+     "ko": "설문 조사는 대부분의 학생이 도서관을 이용한다는 것을 보여 주었어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "The results were surpris___, so the team repeated the test. 빈칸에 알맞은 끝부분은?",
+     "choices": [
+      "ing",
+      "ed",
+      "ly",
+      "ness"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "results(결과)는 '놀라운' 것이므로 surprising입니다. surprised는 놀란 사람에게 씁니다.",
+     "error_tag": "complete-suffix",
+     "id": "F018-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "The lecture was us___ for their research, so the students took many notes. 알맞은 단어는?",
+     "choices": [
+      "useful",
+      "useless",
+      "usually",
+      "usual"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "필기를 많이 했다는 문맥으로 보아 '유용했다'는 useful입니다.",
+     "error_tag": "complete-context",
+     "id": "F018-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "They need to prot___ the forest from fire. 알맞은 단어는?",
+     "choices": [
+      "protect",
+      "protein",
+      "protest",
+      "protocol"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "from fire와 어울리는 동사는 '보호하다' protect입니다.",
+     "error_tag": "complete-context",
+     "id": "F018-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Complete the Words에서 가장 먼저 할 일로 알맞은 것은?",
+     "choices": [
+      "앞뒤 문맥으로 빈칸의 품사와 뜻을 예상한다",
+      "남은 글자만 보고 가장 먼저 떠오른 단어를 쓴다",
+      "첫 문장만 읽고 모든 빈칸을 채운다",
+      "철자가 길면 무조건 명사로 본다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "문맥으로 품사와 뜻을 먼저 정하면 남은 글자와 맞는 단어를 쉽게 찾을 수 있습니다.",
+     "error_tag": "complete-strategy",
+     "id": "F018-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 단어 전체를 쓰세요: The farmers plant seeds in spring and har____ the crops in autumn.",
+     "answer_text": "harvest",
+     "accepted_answers": [
+      "harvest"
+     ],
+     "explanation_ko": "씨를 뿌린 뒤 가을에 하는 일이므로 harvest(수확하다)입니다.",
+     "error_tag": "complete-context",
+     "id": "F018-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 단어 전체를 쓰세요: Water freezes at a low temper_____.",
+     "answer_text": "temperature",
+     "accepted_answers": [
+      "temperature"
+     ],
+     "explanation_ko": "물이 어는 낮은 온도이므로 temperature입니다.",
+     "error_tag": "complete-spelling",
+     "id": "F018-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "오늘 배운 단어 harvest, temperature, protect, survey, species, habitat 중 세 개로 짧은 학술 문장을 써 보세요.",
+    "example_answer_en": "Scientists protect the habitat of this species. They also record the temperature every day.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-29",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-29"
+   }
   }
  ]
 }

@@ -6041,6 +6041,229 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전"
+  },
+  {
+   "id": "JP-INTRO-48",
+   "day_index": 48,
+   "week_index": 7,
+   "level": "INTRO",
+   "unit_id": "INTRO-W07",
+   "lesson_type": "new",
+   "title_ko": "가타카나 요음 ジャ·ギャ·リャ행",
+   "objective_ko": "가타카나 ジ·ギ·リ에 작은 ャ·ュ·ョ를 붙인 요음 9개를 읽고, 외래어 단어를 읽는다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-INTRO-47"
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-INTRO-48-01",
+     "kind": "kana",
+     "text": "ジャ",
+     "reading_romanized": "ja",
+     "meaning_ko": null
+    },
+    {
+     "id": "w-JP-INTRO-48-02",
+     "kind": "kana",
+     "text": "ジュ",
+     "reading_romanized": "ju",
+     "meaning_ko": null
+    },
+    {
+     "id": "w-JP-INTRO-48-03",
+     "kind": "kana",
+     "text": "ジョ",
+     "reading_romanized": "jo",
+     "meaning_ko": null
+    },
+    {
+     "id": "w-JP-INTRO-48-04",
+     "kind": "kana",
+     "text": "ギャ",
+     "reading_romanized": "gya",
+     "meaning_ko": null
+    },
+    {
+     "id": "w-JP-INTRO-48-05",
+     "kind": "kana",
+     "text": "ギュ",
+     "reading_romanized": "gyu",
+     "meaning_ko": null
+    },
+    {
+     "id": "w-JP-INTRO-48-06",
+     "kind": "kana",
+     "text": "ギョ",
+     "reading_romanized": "gyo",
+     "meaning_ko": null
+    },
+    {
+     "id": "w-JP-INTRO-48-07",
+     "kind": "kana",
+     "text": "リャ",
+     "reading_romanized": "rya",
+     "meaning_ko": null
+    },
+    {
+     "id": "w-JP-INTRO-48-08",
+     "kind": "kana",
+     "text": "リュ",
+     "reading_romanized": "ryu",
+     "meaning_ko": null
+    },
+    {
+     "id": "w-JP-INTRO-48-09",
+     "kind": "kana",
+     "text": "リョ",
+     "reading_romanized": "ryo",
+     "meaning_ko": null
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "ジャム",
+     "reading_romanized": "jamu",
+     "meaning_ko": "잼",
+     "explanation_ko": "ジャ(ja) + ム(mu)입니다."
+    },
+    {
+     "japanese": "ジュース",
+     "reading_romanized": "juusu",
+     "meaning_ko": "주스",
+     "explanation_ko": "ジュ(ju) + 장음 ー + ス(su)입니다."
+    },
+    {
+     "japanese": "ジャンプ",
+     "reading_romanized": "janpu",
+     "meaning_ko": "점프",
+     "explanation_ko": "ジャ(ja) + ン + プ(pu)입니다."
+    },
+    {
+     "japanese": "ジャズ",
+     "reading_romanized": "jazu",
+     "meaning_ko": "재즈",
+     "explanation_ko": "ジャ(ja) + ズ(zu)입니다."
+    },
+    {
+     "japanese": "ジョギング",
+     "reading_romanized": "jogingu",
+     "meaning_ko": "조깅",
+     "explanation_ko": "ジョ(jo) + ギ(gi) + ン + グ(gu)입니다."
+    },
+    {
+     "japanese": "ギャグ",
+     "reading_romanized": "gyagu",
+     "meaning_ko": "개그",
+     "explanation_ko": "ギャ(gya) + グ(gu)입니다."
+    },
+    {
+     "japanese": "ギョーザ",
+     "reading_romanized": "gyooza",
+     "meaning_ko": "군만두(교자)",
+     "explanation_ko": "ギョ(gyo) + 장음 ー + ザ(za)입니다."
+    },
+    {
+     "japanese": "ジャングル",
+     "reading_romanized": "janguru",
+     "meaning_ko": "정글",
+     "explanation_ko": "ジャ(ja) + ン + グ(gu) + ル(ru)입니다."
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「ジャ」의 일반적인 로마자 표기는 무엇인가요?",
+     "options": [
+      "ja",
+      "gya",
+      "rya",
+      "jo"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ジ(ji)에 작은 ャ를 붙인 ジャ는 ja입니다.",
+     "id": "JP-INTRO-48-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「リュ」의 일반적인 로마자 표기는 무엇인가요?",
+     "options": [
+      "ryu",
+      "gyu",
+      "ju",
+      "rya"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "リ(ri)에 작은 ュ를 붙인 リュ는 ryu입니다. gyu는 ギュ, ju는 ジュ입니다.",
+     "id": "JP-INTRO-48-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「ジョギング」의 뜻은?",
+     "options": [
+      "조깅",
+      "점프",
+      "잼",
+      "재즈"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ジョギング(jogingu)는 '조깅'입니다. 점프는 ジャンプ, 잼은 ジャム, 재즈는 ジャズ입니다.",
+     "id": "JP-INTRO-48-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「ジャングル」의 뜻은?",
+     "options": [
+      "정글",
+      "주스",
+      "개그",
+      "군만두"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ジャングル(janguru)는 '정글'입니다. 주스는 ジュース, 개그는 ギャグ, 군만두는 ギョーザ입니다.",
+     "id": "JP-INTRO-48-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「ジャム」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "jamu",
+     "accepted_answers": [
+      "jamu",
+      "jyamu",
+      "zyamu"
+     ],
+     "explanation_ko": "ジャム = jamu (잼)",
+     "id": "JP-INTRO-48-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「ジュース」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "juusu",
+     "accepted_answers": [
+      "juusu",
+      "jusu",
+      "jyuusu",
+      "jyusu",
+      "zyuusu",
+      "zyusu"
+     ],
+     "explanation_ko": "ジュース = juusu (주스). ー는 앞의 모음을 길게 읽습니다.",
+     "id": "JP-INTRO-48-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_KATAKANA"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전"
   }
  ]
 }
