@@ -4697,6 +4697,205 @@
     "version": 1,
     "last_revised": "2026-10-29"
    }
+  },
+  {
+   "id": "B2-025",
+   "level": "B2",
+   "track": "general",
+   "day": 25,
+   "title_ko": "과거에 대한 추측: must have / can't have / might have + 과거분사",
+   "objective_ko": "과거의 일에 대해 확신의 정도에 따라 must have, can't have, might have를 골라 추측한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-30"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "지금 보이는 단서로 과거에 일어난 일을 추측할 때 조동사 + have + 과거분사를 씁니다. ① must have + 과거분사: 거의 확실하다고 생각할 때 — The streets are wet. It must have rained. ② can't / couldn't have + 과거분사: 거의 불가능하다고 생각할 때 — He can't have seen my message; he never replied. ③ might / may / could have + 과거분사: 가능성이 있지만 확신은 없을 때 — She might have missed the bus. ④ 확신의 강도는 must have > might have > can't have(부정 쪽 확신) 순으로 구별합니다. ⑤ 과거에 대한 가능성의 부정은 might not have + 과거분사: She might not have known about the meeting. 지금 상황에 대한 추측은 must be / can't be를 씁니다.",
+    "common_mistake_ko": "He must has left early.(X) → He must have left early.(O) / She can't have went there.(X) → She can't have gone there.(O) / '비가 왔을 리가 없다'를 mustn't have rained로 쓰기(X) → can't have rained(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "evidence",
+     "part_of_speech": "명사",
+     "meaning_ko": "증거",
+     "example_en": "There is no evidence that he was there.",
+     "example_ko": "그가 거기 있었다는 증거는 없어요."
+    },
+    {
+     "word": "conclude",
+     "part_of_speech": "동사",
+     "meaning_ko": "결론짓다",
+     "example_en": "The police concluded that the fire was an accident.",
+     "example_ko": "경찰은 그 화재가 사고였다고 결론지었어요."
+    },
+    {
+     "word": "puzzled",
+     "part_of_speech": "형용사",
+     "meaning_ko": "어리둥절한",
+     "example_en": "I was puzzled by his sudden silence.",
+     "example_ko": "나는 그의 갑작스러운 침묵에 어리둥절했어요."
+    },
+    {
+     "word": "obvious",
+     "part_of_speech": "형용사",
+     "meaning_ko": "분명한, 명백한",
+     "example_en": "It's obvious that she hasn't slept.",
+     "example_ko": "그녀가 잠을 자지 못한 것이 분명해요."
+    },
+    {
+     "word": "misplace",
+     "part_of_speech": "동사",
+     "meaning_ko": "(둔 곳을 잊어) 잃어버리다",
+     "example_en": "I must have misplaced my glasses.",
+     "example_ko": "내가 안경을 어디 두었는지 잊어버렸나 봐요."
+    },
+    {
+     "word": "absent",
+     "part_of_speech": "형용사",
+     "meaning_ko": "결석한, 자리에 없는",
+     "example_en": "Two students were absent yesterday.",
+     "example_ko": "어제 학생 두 명이 결석했어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The streets are wet. It must have rained during the night.",
+     "ko": "거리가 젖어 있어요. 밤사이 비가 왔음이 틀림없어요."
+    },
+    {
+     "en": "He can't have seen my message; he never replied.",
+     "ko": "그는 내 메시지를 봤을 리가 없어요. 답장을 하지 않았거든요."
+    },
+    {
+     "en": "She might have missed the bus, so she is late.",
+     "ko": "그녀는 버스를 놓쳤을지도 몰라요. 그래서 늦는 거예요."
+    },
+    {
+     "en": "Tom isn't answering his phone. He may have left it at home.",
+     "ko": "톰이 전화를 받지 않아요. 집에 두고 나왔을지도 몰라요."
+    },
+    {
+     "en": "They can't have finished already. They only started an hour ago.",
+     "ko": "그들이 벌써 끝냈을 리가 없어요. 한 시간 전에 시작했을 뿐이에요."
+    },
+    {
+     "en": "You must have been exhausted after the long flight.",
+     "ko": "긴 비행 뒤에 많이 지쳤겠어요."
+    },
+    {
+     "en": "I can't find my keys. I must have misplaced them.",
+     "ko": "열쇠를 못 찾겠어요. 어디 둔 건지 잊어버렸나 봐요."
+    },
+    {
+     "en": "The package could have been delivered to the wrong address.",
+     "ko": "소포가 엉뚱한 주소로 배달되었을 수도 있어요."
+    },
+    {
+     "en": "She was absent yesterday. She might not have known about the meeting.",
+     "ko": "그녀는 어제 결석했어요. 회의에 대해 몰랐을지도 몰라요."
+    },
+    {
+     "en": "The window is open, so someone must have entered the room.",
+     "ko": "창문이 열려 있으니 누군가 방에 들어왔음이 틀림없어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "The floor is wet. Someone ___ spilled water.",
+     "choices": [
+      "must have",
+      "must",
+      "had must",
+      "has must"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "단서로 보아 거의 확실한 과거 추측이므로 must have + 과거분사입니다.",
+     "error_tag": "modal-perfect",
+     "id": "B2-025-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "She ___ heard the news before — she looked really surprised.",
+     "choices": [
+      "can't have",
+      "must have",
+      "should have",
+      "would have"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "놀란 표정으로 보아 전에 들었을 리가 없다는 뜻이므로 can't have + 과거분사입니다.",
+     "error_tag": "modal-perfect",
+     "id": "B2-025-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'확신은 없지만 가능성이 있다'는 뜻으로 알맞은 것은? I'm not sure why he is late. He ___ missed the train.",
+     "choices": [
+      "might have",
+      "can't have",
+      "must be",
+      "would be"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "가능성만 있는 과거 추측은 might have + 과거분사입니다.",
+     "error_tag": "modal-perfect",
+     "id": "B2-025-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "과거에 대해 '~했을 리가 없다'를 뜻하는 문장은?",
+     "choices": [
+      "He can't have taken the money.",
+      "He must have taken the money.",
+      "He might have taken the money.",
+      "He has to take the money."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "can't have + 과거분사가 과거에 대한 강한 부정 추측입니다.",
+     "error_tag": "modal-perfect",
+     "id": "B2-025-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: It's very quiet. Everyone must have ___ home. (go의 과거분사)",
+     "answer_text": "gone",
+     "accepted_answers": [
+      "gone"
+     ],
+     "explanation_ko": "go-went-gone이므로 과거분사는 gone입니다.",
+     "error_tag": "past-participle",
+     "id": "B2-025-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: She is smiling. She ___ have passed the test! (강한 확신)",
+     "answer_text": "must",
+     "accepted_answers": [
+      "must"
+     ],
+     "explanation_ko": "웃는 단서로 보아 거의 확실하다고 추측하므로 must have입니다.",
+     "error_tag": "modal-perfect",
+     "id": "B2-025-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "방이 어질러져 있거나 친구가 늦는 상황을 하나 정하고, 과거 추측 문장을 두 개 써 보세요.",
+    "example_answer_en": "The kitchen is a mess. Someone must have cooked here. My friend is late; he might have missed the bus.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-30",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-30"
+   }
   }
  ]
 }

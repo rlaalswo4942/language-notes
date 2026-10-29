@@ -4694,6 +4694,213 @@
     "version": 1,
     "last_revised": "2026-10-29"
    }
+  },
+  {
+   "id": "A2-025",
+   "level": "A2",
+   "track": "foundation",
+   "day": 25,
+   "title_ko": "a / an / the / 무관사: 처음 말하는 것과 이미 말한 것",
+   "objective_ko": "처음 언급하는 것과 이미 알고 있는 것을 구별해 a / an / the를 고르고, 관사가 필요 없는 경우를 안다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-30"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "관사는 명사 앞에서 '어떤 것인지'를 알려 줍니다. ① 처음 말하는 셀 수 있는 단수 명사에는 a / an: I saw a dog in the park. ② 이미 말했거나 서로 아는 것에는 the: The dog was very big. Please close the door. ③ 세상에 하나뿐인 것에도 the: the sun, the moon, the sky. ④ a와 an은 철자가 아니라 첫 소리로 고릅니다: a university(유-로 시작), an hour(h를 읽지 않음), an umbrella. ⑤ 복수나 셀 수 없는 명사로 일반적인 이야기를 할 때는 관사가 없습니다: Dogs are friendly. I like music. ⑥ 굳어진 표현: go to school, have lunch, go by bus.",
+    "common_mistake_ko": "I saw a bird. A bird was singing.(앞의 그 새를 가리킬 때 X) → ... The bird was singing.(O) / She studies at an university.(X) → a university(O) / I like the music.(음악 일반을 말할 때 X) → I like music.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "island",
+     "part_of_speech": "명사",
+     "meaning_ko": "섬",
+     "example_en": "They live on an island.",
+     "example_ko": "그들은 섬에 살아요."
+    },
+    {
+     "word": "university",
+     "part_of_speech": "명사",
+     "meaning_ko": "대학교",
+     "example_en": "My sister studies at a university in Busan.",
+     "example_ko": "내 여동생은 부산에 있는 대학교에 다녀요."
+    },
+    {
+     "word": "hour",
+     "part_of_speech": "명사",
+     "meaning_ko": "한 시간",
+     "example_en": "We waited for an hour.",
+     "example_ko": "우리는 한 시간 동안 기다렸어요."
+    },
+    {
+     "word": "moon",
+     "part_of_speech": "명사",
+     "meaning_ko": "달",
+     "example_en": "The moon is very bright tonight.",
+     "example_ko": "오늘 밤은 달이 아주 밝아요."
+    },
+    {
+     "word": "sky",
+     "part_of_speech": "명사",
+     "meaning_ko": "하늘",
+     "example_en": "There are no clouds in the sky.",
+     "example_ko": "하늘에 구름이 없어요."
+    },
+    {
+     "word": "uniform",
+     "part_of_speech": "명사",
+     "meaning_ko": "제복, 교복",
+     "example_en": "He wears a uniform to work.",
+     "example_ko": "그는 제복을 입고 출근해요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I saw a dog in the park.",
+     "ko": "나는 공원에서 개 한 마리를 봤어요."
+    },
+    {
+     "en": "The dog was very big.",
+     "ko": "그 개는 아주 컸어요."
+    },
+    {
+     "en": "She has an umbrella in her bag.",
+     "ko": "그녀는 가방에 우산이 하나 있어요."
+    },
+    {
+     "en": "My sister studies at a university in Busan.",
+     "ko": "내 여동생은 부산에 있는 대학교에 다녀요."
+    },
+    {
+     "en": "We waited for an hour.",
+     "ko": "우리는 한 시간 동안 기다렸어요."
+    },
+    {
+     "en": "The sun is bright today.",
+     "ko": "오늘은 해가 밝아요."
+    },
+    {
+     "en": "Please close the door.",
+     "ko": "문 좀 닫아 주세요."
+    },
+    {
+     "en": "Dogs are friendly animals.",
+     "ko": "개는 친근한 동물이에요."
+    },
+    {
+     "en": "I like music.",
+     "ko": "나는 음악을 좋아해요."
+    },
+    {
+     "en": "They live on an island.",
+     "ko": "그들은 섬에 살아요."
+    },
+    {
+     "en": "I go to school by bus.",
+     "ko": "나는 버스를 타고 학교에 가요."
+    },
+    {
+     "en": "We have lunch at noon.",
+     "ko": "우리는 정오에 점심을 먹어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "I waited for ___ hour.",
+     "choices": [
+      "an",
+      "a",
+      "some",
+      "two"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "hour는 h를 읽지 않고 모음 소리로 시작하므로 an을 씁니다.",
+     "error_tag": "article-a-an",
+     "id": "A2-025-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'I saw a bird in the garden. ___ bird was singing.' (앞에서 말한 그 새)",
+     "choices": [
+      "The",
+      "A",
+      "An",
+      "Many"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "이미 말한 특정한 새를 다시 가리키므로 the를 씁니다.",
+     "error_tag": "article-the",
+     "id": "A2-025-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "___ sun rises in the east.",
+     "choices": [
+      "The",
+      "A",
+      "An",
+      "—(관사 없음)"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "세상에 하나뿐인 해에는 the를 씁니다.",
+     "error_tag": "article-the",
+     "id": "A2-025-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "바른 문장은 어느 것인가요?",
+     "choices": [
+      "I like music.",
+      "I like a music.",
+      "I like musics.",
+      "I like an music."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "music은 셀 수 없는 명사이고 일반적인 이야기이므로 관사 없이 씁니다.",
+     "error_tag": "article-zero",
+     "id": "A2-025-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: She studies at ___ university. (a / an)",
+     "answer_text": "a",
+     "accepted_answers": [
+      "a"
+     ],
+     "explanation_ko": "university는 '유'로 시작하는 소리이므로 a입니다.",
+     "error_tag": "article-a-an",
+     "id": "A2-025-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Please close ___ door. (우리 둘 다 아는 그 문)",
+     "answer_text": "the",
+     "accepted_answers": [
+      "the"
+     ],
+     "explanation_ko": "서로 아는 특정한 문이므로 the입니다.",
+     "error_tag": "article-the",
+     "id": "A2-025-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "오늘 본 것 두 가지를 a / an / the를 구별해 두 문장으로 써 보세요. (처음 말할 때와 다시 말할 때)",
+    "example_answer_en": "I saw a cat in the street. The cat was black.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-30",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-30"
+   }
   }
  ]
 }

@@ -4719,6 +4719,205 @@
     "version": 1,
     "last_revised": "2026-10-29"
    }
+  },
+  {
+   "id": "A1-025",
+   "level": "A1",
+   "track": "foundation",
+   "day": 25,
+   "title_ko": "there was / there were: 과거의 장소 묘사",
+   "objective_ko": "과거에 어떤 곳에 무엇이 있었는지 there was / there were로 말하고 묻는다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-30"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "지금 있는 것은 there is / there are로, 과거에 있었던 것은 there was / there were로 말합니다. ① 단수·셀 수 없는 명사: There was a bench near the lake. / There was some water in the bottle. ② 복수 명사: There were many people at the park. ③ 부정: There wasn't a bus. / There weren't any cars. ④ 의문: Was there a bench? Were there any cars? 대답은 Yes, there was. / No, there wasn't. / Yes, there were. / No, there weren't. 로 합니다. 뒤에 오는 명사가 단수인지 복수인지에 따라 was와 were를 고릅니다.",
+    "common_mistake_ko": "There were a bench near the lake.(X) → There was a bench near the lake.(O) / There was two birds on the roof.(X) → There were two birds on the roof.(O) / Was there any cars?(X) → Were there any cars?(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "street",
+     "part_of_speech": "명사",
+     "meaning_ko": "거리, 길",
+     "example_en": "There were many shops on the street.",
+     "example_ko": "그 거리에는 가게가 많이 있었어요."
+    },
+    {
+     "word": "bench",
+     "part_of_speech": "명사",
+     "meaning_ko": "벤치",
+     "example_en": "There was a bench under the tree.",
+     "example_ko": "나무 아래에 벤치가 하나 있었어요."
+    },
+    {
+     "word": "lake",
+     "part_of_speech": "명사",
+     "meaning_ko": "호수",
+     "example_en": "There was a small lake near the hotel.",
+     "example_ko": "호텔 근처에 작은 호수가 하나 있었어요."
+    },
+    {
+     "word": "empty",
+     "part_of_speech": "형용사",
+     "meaning_ko": "비어 있는",
+     "example_en": "The room was empty.",
+     "example_ko": "방은 비어 있었어요."
+    },
+    {
+     "word": "crowd",
+     "part_of_speech": "명사",
+     "meaning_ko": "군중, 사람들 무리",
+     "example_en": "There was a big crowd at the station.",
+     "example_ko": "역에 사람들이 많이 모여 있었어요."
+    },
+    {
+     "word": "balloon",
+     "part_of_speech": "명사",
+     "meaning_ko": "풍선",
+     "example_en": "There were five red balloons on the table.",
+     "example_ko": "탁자 위에 빨간 풍선이 다섯 개 있었어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "There was a bench near the lake.",
+     "ko": "호수 근처에 벤치가 하나 있었어요."
+    },
+    {
+     "en": "There were many people at the park.",
+     "ko": "공원에 사람들이 많이 있었어요."
+    },
+    {
+     "en": "There wasn't a bus at the stop.",
+     "ko": "정류장에 버스가 없었어요."
+    },
+    {
+     "en": "There weren't any cars on the street.",
+     "ko": "거리에는 자동차가 한 대도 없었어요."
+    },
+    {
+     "en": "Was there a cafe near your hotel?",
+     "ko": "호텔 근처에 카페가 있었어요?"
+    },
+    {
+     "en": "Yes, there was.",
+     "ko": "네, 있었어요."
+    },
+    {
+     "en": "Were there any tickets left?",
+     "ko": "남은 표가 있었어요?"
+    },
+    {
+     "en": "No, there weren't.",
+     "ko": "아니요, 없었어요."
+    },
+    {
+     "en": "There was some milk in the kitchen yesterday.",
+     "ko": "어제 부엌에 우유가 조금 있었어요."
+    },
+    {
+     "en": "There were two balloons and a cake on the table.",
+     "ko": "탁자 위에 풍선 두 개와 케이크가 있었어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "___ a bench near the lake yesterday.",
+     "choices": [
+      "There was",
+      "There were",
+      "There is",
+      "There are"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "단수 명사(a bench)이고 과거(yesterday)이므로 There was입니다.",
+     "error_tag": "there-was-were",
+     "id": "A1-025-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "There ___ three birds on the roof last night.",
+     "choices": [
+      "were",
+      "was",
+      "is",
+      "are"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "복수 명사(three birds)이고 과거이므로 There were입니다.",
+     "error_tag": "there-was-were",
+     "id": "A1-025-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Were there any cars on the street? — No, ___.",
+     "choices": [
+      "there weren't",
+      "there wasn't",
+      "there isn't",
+      "there don't"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Were there ...?에는 Yes, there were. / No, there weren't.로 대답합니다.",
+     "error_tag": "there-short-answer",
+     "id": "A1-025-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "바른 문장은 어느 것인가요?",
+     "choices": [
+      "There was a lot of water in the lake.",
+      "There were a lot of water in the lake.",
+      "There is a lot of water in the lake yesterday.",
+      "There was a lot of waters in the lake."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "water는 셀 수 없는 명사라 단수 취급하여 was를 쓰고, 복수형 waters를 쓰지 않습니다.",
+     "error_tag": "there-uncountable",
+     "id": "A1-025-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: ___ there any milk in the fridge? — No, there wasn't.",
+     "answer_text": "was",
+     "accepted_answers": [
+      "was"
+     ],
+     "explanation_ko": "milk는 셀 수 없는 명사이므로 Was there ...?로 묻습니다.",
+     "error_tag": "there-was-were",
+     "id": "A1-025-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: There ___ two balloons on the table. (과거)",
+     "answer_text": "were",
+     "accepted_answers": [
+      "were"
+     ],
+     "explanation_ko": "복수 명사(two balloons)이므로 were입니다.",
+     "error_tag": "there-was-were",
+     "id": "A1-025-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "어제 갔던 곳을 떠올리며 there was / there were를 넣어 두 문장 써 보세요.",
+    "example_answer_en": "There was a big park near my house. There were many children there.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-30",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-30"
+   }
   }
  ]
 }

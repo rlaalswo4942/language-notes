@@ -5148,6 +5148,227 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-25",
+   "day_index": 25,
+   "week_index": 4,
+   "level": "N2",
+   "unit_id": "N2-W04",
+   "lesson_type": "new",
+   "title_ko": "〜おそれがある: ~할 우려가 있다",
+   "objective_ko": "좋지 않은 일이 일어날 가능성이 있음을 〜おそれがある로 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-24"
+   ],
+   "explanation_ko": "〜おそれがある(恐{おそ}れがある)는 ‘~할 우려가 있다’라는 뜻으로, 좋지 않은 일이 일어날 가능성을 나타냅니다. ① 동사 사전형・ない형 + おそれがある(大雨{おおあめ}になるおそれがある、台風{たいふう}が来{こ}ないおそれはない). ② 명사 + の + おそれがある(被害{ひがい}のおそれがある). ③ 뉴스・공지・보고서 같은 글에서 자주 쓰는 딱딱한 표현입니다. ④ 정중하게는 おそれがあります, 명사를 꾸밀 때는 〜おそれのある + 명사(事故{じこ}の おそれのある 場所{ばしょ})입니다.",
+   "usage_notes": [
+    "일어나는 내용이 나쁜 것일 때만 씁니다. 합격・당첨 같은 좋은 일에는 쓰지 않습니다.",
+    "명사 앞에서는 の를 넣어 被害のおそれ처럼 씁니다.",
+    "〜かもしれない보다 딱딱하며, 주의를 주는 글에서 쓰입니다."
+   ],
+   "common_mistakes": [
+    "試験に合格するおそれがある(X) → 合格する可能性がある(O): 좋은 일에는 おそれ를 쓰지 않습니다.",
+    "被害がおそれがある(X) → 被害のおそれがある(O): 명사 뒤에는 の를 넣습니다.",
+    "大雨になったおそれがある(X) → 大雨になるおそれがある(O): 앞으로의 가능성이므로 사전형을 씁니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N2-25-01",
+     "kind": "word",
+     "text": "恐{おそ}れ",
+     "reading_kana": "おそれ",
+     "reading_romanized": "osore",
+     "meaning_ko": "우려, 염려",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-25-02",
+     "kind": "word",
+     "text": "警報{けいほう}",
+     "reading_kana": "けいほう",
+     "reading_romanized": "keihou",
+     "meaning_ko": "경보",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-25-03",
+     "kind": "word",
+     "text": "被害{ひがい}",
+     "reading_kana": "ひがい",
+     "reading_romanized": "higai",
+     "meaning_ko": "피해",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-25-04",
+     "kind": "word",
+     "text": "発生{はっせい}",
+     "reading_kana": "はっせい",
+     "reading_romanized": "hassei",
+     "meaning_ko": "발생",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N2-25-05",
+     "kind": "word",
+     "text": "拡大{かくだい}",
+     "reading_kana": "かくだい",
+     "reading_romanized": "kakudai",
+     "meaning_ko": "확대",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N2-25-06",
+     "kind": "word",
+     "text": "避難{ひなん}",
+     "reading_kana": "ひなん",
+     "reading_romanized": "hinan",
+     "meaning_ko": "피난",
+     "part_of_speech": "명사・する동사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "台風{たいふう}が近{ちか}づいているため、大雨{おおあめ}になるおそれがある。",
+     "meaning_ko": "태풍이 다가오고 있어서 큰비가 올 우려가 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "このまま雨{あめ}が続{つづ}くと、川{かわ}があふれるおそれがある。",
+     "meaning_ko": "이대로 비가 계속되면 강이 넘칠 우려가 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "強{つよ}い風{かぜ}のため、電車{でんしゃ}が止{と}まるおそれがあります。",
+     "meaning_ko": "강한 바람 때문에 전철이 멈출 우려가 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "火事{かじ}が拡大{かくだい}するおそれがあるので、すぐに避難{ひなん}してください。",
+     "meaning_ko": "불이 번질 우려가 있으니 바로 피난해 주세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "高波{たかなみ}による被害{ひがい}のおそれがあるため、海岸{かいがん}に近{ちか}づかないでください。",
+     "meaning_ko": "높은 파도로 인한 피해의 우려가 있으니 해안에 가까이 가지 마세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "薬{くすり}を飲{の}まないと、病気{びょうき}が悪{わる}くなるおそれがある。",
+     "meaning_ko": "약을 먹지 않으면 병이 나빠질 우려가 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "台風{たいふう}で、明日{あした}の試合{しあい}は中止{ちゅうし}になるおそれがある。",
+     "meaning_ko": "태풍으로 내일 경기는 중지될 우려가 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "避難{ひなん}が遅{おく}れると、被害{ひがい}が大{おお}きくなるおそれがある。",
+     "meaning_ko": "피난이 늦어지면 피해가 커질 우려가 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "夜{よる}には大雪{おおゆき}になるおそれがあるため、早{はや}めに帰{かえ}ってください。",
+     "meaning_ko": "밤에는 큰 눈이 올 우려가 있으니 일찍 돌아가 주세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "事故{じこ}が発生{はっせい}するおそれがあるので、作業{さぎょう}を止{と}めた。",
+     "meaning_ko": "사고가 발생할 우려가 있어서 작업을 멈췄다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "明日は 大雨に（　）おそれがある。(내일은 큰비가 올 우려가 있다)",
+     "options": [
+      "なる",
+      "なった",
+      "なります",
+      "なって"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "앞으로의 가능성이므로 동사 사전형 + おそれがある입니다.",
+     "id": "JP-N2-25-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「事故が起こるおそれがある」의 뜻은?",
+     "options": [
+      "사고가 일어날 우려가 있다",
+      "사고가 일어나기를 바란다",
+      "사고가 일어난 것이 틀림없다",
+      "사고는 일어나지 않을 것이다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "おそれがある는 좋지 않은 일이 일어날 우려를 나타냅니다.",
+     "id": "JP-N2-25-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "〜おそれがある를 쓰기에 알맞은 문장은?",
+     "options": [
+      "台風で電車が止まるおそれがある。",
+      "明日は晴れるおそれがある。",
+      "試験に合格するおそれがある。",
+      "宝くじが当たるおそれがある。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "おそれ는 좋지 않은 일에만 씁니다. 전철이 멈추는 것은 나쁜 일이므로 알맞습니다.",
+     "id": "JP-N2-25-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "高波による被害（　）おそれがある。(높은 파도로 인한 피해의 우려가 있다)",
+     "options": [
+      "の",
+      "が",
+      "を",
+      "に"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "명사 뒤에는 の를 넣어 被害のおそれがある라고 합니다.",
+     "id": "JP-N2-25-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「被害」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "higai",
+     "accepted_answers": [
+      "higai"
+     ],
+     "explanation_ko": "被害 = ひがい = higai (피해)",
+     "id": "JP-N2-25-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「避難」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "hinan",
+     "accepted_answers": [
+      "hinan"
+     ],
+     "explanation_ko": "避難 = ひなん = hinan (피난)",
+     "id": "JP-N2-25-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

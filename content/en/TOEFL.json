@@ -3418,6 +3418,204 @@
     "version": 1,
     "last_revised": "2026-10-29"
    }
+  },
+  {
+   "id": "TOEFL-019",
+   "level": "B1",
+   "track": "toefl",
+   "day": 19,
+   "title_ko": "TOEFL 2026 Read in Daily Life 2: 숫자와 조건을 찾아 세부 정보 묻는 문제 풀기",
+   "objective_ko": "안내문에서 숫자·시간·조건을 찾아 세부 정보 문제와 간단한 계산 문제에 답한다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/content/ets-org/language-master/ko/home/toefl/test-takers/ibt/about/content.html",
+     "publisher": "ETS",
+     "supports": "2026 형식 유형명",
+     "checked_at": "2026-10-30"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "Read in Daily Life는 2026-01-21 이후 TOEFL iBT Reading에 포함된 유형명입니다(비공식 자체 연습입니다). 공지·안내문·게시글 같은 일상 글을 읽고 세부 정보를 묻는 문제에 답합니다. 전략: ① 제목과 첫 줄로 글의 목적을 파악합니다. ② 숫자, 시간, 금액과 조건 표현(must, only, if, unless)에 표시하며 읽습니다. ③ 문제의 핵심어를 지문에서 찾아 앞뒤 문장을 비교합니다. 선택지는 지문과 다른 말로 바꿔 쓴(paraphrase) 경우가 많습니다. ④ 계산 문제는 지문의 단위(시간당 요금 등)에 맞춰 풉니다. ⑤ TRUE 문제는 선택지를 하나씩 지문과 대조합니다. ETS 점수와 무관하며 점수 예측도 없습니다.",
+    "common_mistake_ko": "요금이 '시간당'인데 총액으로 착각하기(X) → 단위(per hour)를 먼저 확인(O) / 지문의 한 단어만 같은 선택지를 고르기(X) → 문장 전체의 뜻을 비교(O) / 지문에 없는 내용을 상식으로 정답 처리(X) → 지문에 근거가 있는지 확인(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "station",
+     "part_of_speech": "명사",
+     "meaning_ko": "정거장, 대여소",
+     "example_en": "You can return the bike at any station.",
+     "example_ko": "어느 대여소에서든 자전거를 반납할 수 있어요."
+    },
+    {
+     "word": "helmet",
+     "part_of_speech": "명사",
+     "meaning_ko": "헬멧",
+     "example_en": "Helmets are free at the front desk.",
+     "example_ko": "헬멧은 안내 데스크에서 무료예요."
+    },
+    {
+     "word": "deposit",
+     "part_of_speech": "명사",
+     "meaning_ko": "보증금",
+     "example_en": "The shop asks for a deposit of ten dollars.",
+     "example_ko": "그 가게는 10달러의 보증금을 요구해요."
+    },
+    {
+     "word": "require",
+     "part_of_speech": "동사",
+     "meaning_ko": "요구하다, 필요로 하다",
+     "example_en": "The service requires a valid student ID.",
+     "example_ko": "그 서비스는 유효한 학생증을 요구해요."
+    },
+    {
+     "word": "overdue",
+     "part_of_speech": "형용사",
+     "meaning_ko": "기한이 지난",
+     "example_en": "An overdue bike costs two dollars per hour.",
+     "example_ko": "반납이 늦은 자전거는 시간당 2달러예요."
+    },
+    {
+     "word": "eligible",
+     "part_of_speech": "형용사",
+     "meaning_ko": "자격이 있는",
+     "example_en": "Only students are eligible for the free pass.",
+     "example_ko": "학생만 무료 이용권을 받을 자격이 있어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "You can return the bike at any station.",
+     "ko": "어느 대여소에서든 자전거를 반납할 수 있어요."
+    },
+    {
+     "en": "Helmets are free at the front desk.",
+     "ko": "헬멧은 안내 데스크에서 무료예요."
+    },
+    {
+     "en": "The shop asks for a deposit of ten dollars.",
+     "ko": "그 가게는 10달러의 보증금을 요구해요."
+    },
+    {
+     "en": "The service requires a valid student ID.",
+     "ko": "그 서비스는 유효한 학생증을 요구해요."
+    },
+    {
+     "en": "An overdue bike costs two dollars per hour.",
+     "ko": "반납이 늦은 자전거는 시간당 2달러예요."
+    },
+    {
+     "en": "Only students are eligible for the free pass.",
+     "ko": "학생만 무료 이용권을 받을 자격이 있어요."
+    },
+    {
+     "en": "The service is closed during heavy rain.",
+     "ko": "폭우가 오는 동안에는 서비스가 중단돼요."
+    },
+    {
+     "en": "Read the numbers and conditions in a notice carefully.",
+     "ko": "안내문의 숫자와 조건을 꼼꼼히 읽으세요."
+    },
+    {
+     "en": "Students must return the bikes by eight o'clock.",
+     "ko": "학생들은 8시까지 자전거를 반납해야 해요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "Notice — Campus Bike Share: Students can borrow a bike with a valid student ID. Bikes must be returned to any station by 8 p.m. A late return costs $2 per hour. Helmets are free at the front desk. The service is closed during heavy rain. 질문: What is required to borrow a bike?",
+     "choices": [
+      "A valid student ID",
+      "A $2 deposit",
+      "A helmet of one's own",
+      "A teacher's permission"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "지문 첫 문장에 'with a valid student ID'라고 나와 있습니다.",
+     "error_tag": "daily-detail",
+     "id": "TOEFL-019-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "(위 Campus Bike Share 안내문 기준) A student returns a bike at 10 p.m. How much is the late fee?",
+     "choices": [
+      "$4",
+      "$2",
+      "$8",
+      "Nothing"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "반납 시한 8시보다 2시간 늦었고 요금이 시간당 $2이므로 $4입니다.",
+     "error_tag": "daily-calculation",
+     "id": "TOEFL-019-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "(위 안내문 기준) Which statement is true?",
+     "choices": [
+      "Helmets are free at the front desk.",
+      "Bikes must be returned to the station where they were borrowed.",
+      "The service runs during heavy rain.",
+      "Late returns are free."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "헬멧이 안내 데스크에서 무료라고 지문에 나와 있습니다. 나머지는 지문과 다릅니다(any station, closed during heavy rain, $2 per hour).",
+     "error_tag": "daily-true",
+     "id": "TOEFL-019-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "안내문의 숫자·조건 문제를 풀 때 가장 알맞은 방법은?",
+     "choices": [
+      "핵심어를 지문에서 찾아 앞뒤 문장과 단위까지 확인한다",
+      "첫 문장만 읽고 가장 길어 보이는 선택지를 고른다",
+      "지문과 같은 단어가 있는 선택지를 바로 고른다",
+      "상식으로 가장 그럴듯한 답을 고른다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "정답의 근거는 지문 안에 있으므로 핵심어 주변의 숫자·조건·단위를 확인합니다.",
+     "error_tag": "daily-strategy",
+     "id": "TOEFL-019-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 한 단어를 쓰세요: (위 안내문 기준) Helmets are free at the front ____.",
+     "answer_text": "desk",
+     "accepted_answers": [
+      "desk"
+     ],
+     "explanation_ko": "지문에 'free at the front desk'라고 나와 있습니다.",
+     "error_tag": "daily-detail",
+     "id": "TOEFL-019-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "숫자로 답하세요: (위 안내문 기준) How many dollars is the late fee per hour?",
+     "answer_text": "2",
+     "accepted_answers": [
+      "2",
+      "$2",
+      "two",
+      "2 dollars"
+     ],
+     "explanation_ko": "지문에 'A late return costs $2 per hour.'라고 나와 있습니다.",
+     "error_tag": "daily-detail",
+     "id": "TOEFL-019-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "오늘 배운 단어 station, helmet, deposit, require, overdue, eligible 중 세 개로 짧은 안내문 문장을 써 보세요.",
+    "example_answer_en": "Students must return books by Friday. An overdue book costs one dollar per day.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-30",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-30"
+   }
   }
  ]
 }

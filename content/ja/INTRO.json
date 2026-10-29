@@ -6264,6 +6264,164 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전"
+  },
+  {
+   "id": "JP-INTRO-49",
+   "day_index": 49,
+   "week_index": 7,
+   "level": "INTRO",
+   "unit_id": "INTRO-W07",
+   "lesson_type": "checkpoint",
+   "title_ko": "가타카나 ザ~パ행·요음 점검",
+   "objective_ko": "이번 주에 배운 가타카나 ザ·ダ·バ·パ행과 요음(キャ·シャ·チャ·ジャ행 등)을 단어로 읽고 뜻과 연결한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-INTRO-48"
+   ],
+   "new_items": [],
+   "examples": [
+    {
+     "japanese": "ピザ",
+     "reading_romanized": "piza",
+     "meaning_ko": "피자",
+     "explanation_ko": "ピ(pi) + ザ(za)입니다. ザ에는 탁점 두 개가 붙어 있습니다."
+    },
+    {
+     "japanese": "バス",
+     "reading_romanized": "basu",
+     "meaning_ko": "버스",
+     "explanation_ko": "バ(ba) + ス(su)입니다. ハ행에 탁점이 붙으면 バ행입니다."
+    },
+    {
+     "japanese": "パン",
+     "reading_romanized": "pan",
+     "meaning_ko": "빵",
+     "explanation_ko": "パ는 ハ에 반탁점(동그라미)이 붙은 글자이고, 끝의 ン은 n입니다."
+    },
+    {
+     "japanese": "ダンス",
+     "reading_romanized": "dansu",
+     "meaning_ko": "댄스",
+     "explanation_ko": "ダ(da) + ン(n) + ス(su)입니다."
+    },
+    {
+     "japanese": "ゼロ",
+     "reading_romanized": "zero",
+     "meaning_ko": "제로, 0",
+     "explanation_ko": "ゼ(ze) + ロ(ro)입니다."
+    },
+    {
+     "japanese": "シャツ",
+     "reading_romanized": "shatsu",
+     "meaning_ko": "셔츠",
+     "explanation_ko": "シャ(sha) + ツ(tsu)입니다. 작은 ャ는 앞 글자와 합쳐 한 박자로 읽습니다."
+    },
+    {
+     "japanese": "チョコレート",
+     "reading_romanized": "chokoreeto",
+     "meaning_ko": "초콜릿",
+     "explanation_ko": "チョ(cho) + コ(ko) + レ(re) + ー(길게) + ト(to)입니다."
+    },
+    {
+     "japanese": "キャンプ",
+     "reading_romanized": "kyanpu",
+     "meaning_ko": "캠프, 캠핑",
+     "explanation_ko": "キャ(kya) + ン(n) + プ(pu)입니다."
+    },
+    {
+     "japanese": "ジュース",
+     "reading_romanized": "juusu",
+     "meaning_ko": "주스",
+     "explanation_ko": "ジュ(ju) + ー(길게) + ス(su)입니다."
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「バス」의 뜻은?",
+     "options": [
+      "버스",
+      "빵",
+      "피자",
+      "댄스"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "バス(basu)는 '버스'입니다. 빵은 パン(pan)입니다.",
+     "id": "JP-INTRO-49-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「シャツ」의 읽기를 고르세요.",
+     "options": [
+      "shatsu",
+      "satsu",
+      "shitsu",
+      "chatsu"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "シャ=sha, ツ=tsu → shatsu(셔츠).",
+     "id": "JP-INTRO-49-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「ピザ」의 읽기를 고르세요.",
+     "options": [
+      "piza",
+      "biza",
+      "pisa",
+      "pija"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ピ=pi, ザ=za → piza(피자).",
+     "id": "JP-INTRO-49-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「チョコレート」의 뜻은?",
+     "options": [
+      "초콜릿",
+      "주스",
+      "캠프",
+      "제로"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "チョコレート(chokoreeto)는 '초콜릿'입니다. 주스는 ジュース입니다.",
+     "id": "JP-INTRO-49-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「パン」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "pan",
+     "accepted_answers": [
+      "pan"
+     ],
+     "explanation_ko": "パン = pan (빵). ン은 n으로 씁니다.",
+     "id": "JP-INTRO-49-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「キャンプ」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kyanpu",
+     "accepted_answers": [
+      "kyanpu"
+     ],
+     "explanation_ko": "キャンプ = kyanpu (캠프)",
+     "id": "JP-INTRO-49-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_KATAKANA"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전"
   }
  ]
 }

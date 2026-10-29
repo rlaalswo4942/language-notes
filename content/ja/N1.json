@@ -5148,6 +5148,228 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-25",
+   "day_index": 25,
+   "week_index": 4,
+   "level": "N1",
+   "unit_id": "N1-W04",
+   "lesson_type": "new",
+   "title_ko": "〜たりとも〜ない: 단 ~라도 ~않다",
+   "objective_ko": "가장 작은 단위를 들어 ‘조금도 ~하지 않는다’는 강한 부정을 〜たりとも〜ない로 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-24"
+   ],
+   "explanation_ko": "〜たりとも〜ない는 ‘단 ~라도 ~않다, 조금도 ~않다’라는 뜻의 문어적인 강한 부정 표현입니다. ① 一秒{いちびょう}・一円{いちえん}・一人{ひとり}・一瞬{いっしゅん}・一日{いちにち}・一歩{いっぽ}처럼 ‘하나’를 포함한 가장 작은 단위의 말에 붙입니다. ② 뒤에는 항상 부정(〜ない、〜できない、〜してはならない)이 옵니다. ③ 그 최소 단위조차 허용하지 않는다는 화자의 강한 의지나 결의, 또는 사실의 강조를 나타냅니다. ④ 회화체보다는 연설・문장・결의 표명에서 씁니다.",
+   "usage_notes": [
+    "〜たりとも는 ‘一’이 붙은 최소 단위의 말에 쓰며, 십 엔・백 명 같은 큰 단위에는 쓰지 않습니다.",
+    "뒤에는 반드시 부정 표현이 옵니다. 긍정문에는 쓰지 않습니다.",
+    "一秒でも 無駄に できない보다 강한 느낌으로, 단 하나도 허용하지 않는다는 뜻입니다."
+   ],
+   "common_mistakes": [
+    "一秒たりとも無駄にする(X) → 無駄にできない / 無駄にしない(O): 뒤에는 부정이 옵니다.",
+    "百人たりとも逃がさない(X) → 一人たりとも逃がさない(O): 최소 단위(一〜)에 붙입니다.",
+    "一円たりとも払わなければならない(X) → 一円たりとも払わない(O): 부정의 뜻과 호응해야 합니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N1-25-01",
+     "kind": "word",
+     "text": "怠{おこた}る",
+     "reading_kana": "おこたる",
+     "reading_romanized": "okotaru",
+     "meaning_ko": "게을리하다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N1-25-02",
+     "kind": "word",
+     "text": "疎{おろそ}か",
+     "reading_kana": "おろそか",
+     "reading_romanized": "orosoka",
+     "meaning_ko": "소홀함",
+     "part_of_speech": "な형용사"
+    },
+    {
+     "id": "w-JP-N1-25-03",
+     "kind": "word",
+     "text": "妥協{だきょう}",
+     "reading_kana": "だきょう",
+     "reading_romanized": "dakyou",
+     "meaning_ko": "타협",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N1-25-04",
+     "kind": "word",
+     "text": "譲{ゆず}る",
+     "reading_kana": "ゆずる",
+     "reading_romanized": "yuzuru",
+     "meaning_ko": "양보하다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N1-25-05",
+     "kind": "word",
+     "text": "無駄{むだ}",
+     "reading_kana": "むだ",
+     "reading_romanized": "muda",
+     "meaning_ko": "헛됨, 낭비",
+     "part_of_speech": "명사・な형용사"
+    },
+    {
+     "id": "w-JP-N1-25-06",
+     "kind": "word",
+     "text": "一瞬{いっしゅん}",
+     "reading_kana": "いっしゅん",
+     "reading_romanized": "isshun",
+     "meaning_ko": "한순간",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "一秒{いちびょう}たりとも無駄{むだ}にできない。",
+     "meaning_ko": "단 1초도 낭비할 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼女{かのじょ}は一日{いちにち}たりとも練習{れんしゅう}を怠{おこた}らなかった。",
+     "meaning_ko": "그녀는 단 하루도 연습을 게을리하지 않았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "一円{いちえん}たりとも、無駄{むだ}遣{づか}いは許{ゆる}されない。",
+     "meaning_ko": "단 1엔의 낭비도 허용되지 않는다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "一瞬{いっしゅん}たりとも、気{き}を抜{ぬ}くことはできない。",
+     "meaning_ko": "한순간도 긴장을 늦출 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "試合{しあい}の間{あいだ}、彼{かれ}は一瞬{いっしゅん}たりとも目{め}を離{はな}さなかった。",
+     "meaning_ko": "경기 동안 그는 한순간도 눈을 떼지 않았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この件{けん}では、一歩{いっぽ}たりとも譲{ゆず}らない。",
+     "meaning_ko": "이 건에서는 한 걸음도 양보하지 않는다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "基礎{きそ}の練習{れんしゅう}を一日{いちにち}たりとも疎{おろそ}かにしなかった。",
+     "meaning_ko": "기초 연습을 단 하루도 소홀히 하지 않았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "一人{ひとり}たりとも、逃{に}がしてはならない。",
+     "meaning_ko": "한 사람도 놓쳐서는 안 된다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}は約束{やくそく}を一度{いちど}たりとも破{やぶ}ったことがない。",
+     "meaning_ko": "그는 약속을 단 한 번도 어긴 적이 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "品質{ひんしつ}に関{かん}しては、一点{いってん}たりとも妥協{だきょう}しない。",
+     "meaning_ko": "품질에 관해서는 단 하나도 타협하지 않는다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "一秒（　）無駄にできない。(단 1초도 낭비할 수 없다)",
+     "options": [
+      "たりとも",
+      "だけでなく",
+      "ばかりか",
+      "ならではの"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "가장 작은 단위 뒤에 붙는 강한 부정 표현은 〜たりとも〜ない입니다.",
+     "id": "JP-N1-25-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「一円たりとも払わない」의 뜻은?",
+     "options": [
+      "단 1엔도 내지 않는다",
+      "1엔 정도는 낼 수 있다",
+      "1엔만 내고 끝낸다",
+      "1엔도 내야 한다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜たりとも〜ない는 ‘단 ~라도 ~않다’입니다.",
+     "id": "JP-N1-25-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "〜たりとも의 쓰임으로 알맞은 문장은?",
+     "options": [
+      "彼は一日たりとも練習を休まなかった。",
+      "彼は一日たりとも練習を休んだ。",
+      "彼は百人たりとも練習を休まなかった。",
+      "彼は一日たりとも練習を休むでしょう。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜たりとも 뒤에는 부정이 와야 하고, 최소 단위(一日)에 붙입니다.",
+     "id": "JP-N1-25-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "一瞬（　）、目を離さなかった。(한순간도 눈을 떼지 않았다)",
+     "options": [
+      "たりとも",
+      "ごとき",
+      "ずくめ",
+      "がてら"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "一瞬 뒤에서 강한 부정과 호응하는 것은 たりとも입니다.",
+     "id": "JP-N1-25-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「怠る」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "okotaru",
+     "accepted_answers": [
+      "okotaru"
+     ],
+     "explanation_ko": "怠る = おこたる = okotaru (게을리하다)",
+     "id": "JP-N1-25-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「妥協」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "dakyou",
+     "accepted_answers": [
+      "dakyou",
+      "dakyo"
+     ],
+     "explanation_ko": "妥協 = だきょう = dakyou (타협)",
+     "id": "JP-N1-25-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "JLPT_FORMAT"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

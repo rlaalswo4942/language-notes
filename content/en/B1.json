@@ -3651,6 +3651,205 @@
     "version": 1,
     "last_revised": "2026-10-29"
    }
+  },
+  {
+   "id": "B1-020",
+   "level": "B1",
+   "track": "general",
+   "day": 20,
+   "title_ko": "make / let / allow: 시키기와 허락하기",
+   "objective_ko": "make, let, allow 뒤의 동사 모양을 구별해 강제와 허락을 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-30"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "누가 무엇을 하게 하는지에 따라 동사와 뒤의 모양이 달라집니다. ① make + 목적어 + 동사원형(시키다·~하게 만들다): My boss made us work late. The movie made me cry. ② let + 목적어 + 동사원형(허락하다): My parents let me stay out until ten. ③ allow + 목적어 + to + 동사원형(허락하다): The school allows students to use phones at lunch. ④ 수동으로 말할 때는 be allowed to + 동사원형: We aren't allowed to take photos here. ⑤ make를 수동으로 바꾸면 to가 붙습니다: He was made to wait outside.",
+    "common_mistake_ko": "My mom made me to clean my room.(X) → made me clean(O) / He let me to go.(X) → He let me go.(O) / The school allows us use phones.(X) → allows us to use(O) / We don't allowed to enter.(X) → We aren't allowed to enter.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "permission",
+     "part_of_speech": "명사",
+     "meaning_ko": "허락, 허가",
+     "example_en": "You need permission to use this room.",
+     "example_ko": "이 방을 쓰려면 허락이 필요해요."
+    },
+    {
+     "word": "curfew",
+     "part_of_speech": "명사",
+     "meaning_ko": "귀가 시간 제한",
+     "example_en": "My curfew is ten o'clock on weekdays.",
+     "example_ko": "평일 내 귀가 시간 제한은 10시예요."
+    },
+    {
+     "word": "allow",
+     "part_of_speech": "동사",
+     "meaning_ko": "허락하다, 허용하다",
+     "example_en": "The school allows students to use phones at lunch.",
+     "example_ko": "학교는 학생들이 점심시간에 전화기를 쓰는 것을 허용해요."
+    },
+    {
+     "word": "force",
+     "part_of_speech": "동사",
+     "meaning_ko": "강제하다, 어쩔 수 없이 ~하게 하다",
+     "example_en": "The storm forced us to cancel the trip.",
+     "example_ko": "폭풍 때문에 우리는 여행을 취소할 수밖에 없었어요."
+    },
+    {
+     "word": "forbid (forbidden)",
+     "part_of_speech": "동사",
+     "meaning_ko": "금지하다 (과거분사 forbidden)",
+     "example_en": "Smoking is forbidden in this building.",
+     "example_ko": "이 건물에서는 흡연이 금지되어 있어요."
+    },
+    {
+     "word": "obey",
+     "part_of_speech": "동사",
+     "meaning_ko": "따르다, 복종하다",
+     "example_en": "Children should obey the rules.",
+     "example_ko": "아이들은 규칙을 지켜야 해요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "My boss made us work late last night.",
+     "ko": "어젯밤 상사가 우리를 늦게까지 일하게 했어요."
+    },
+    {
+     "en": "The movie made me cry.",
+     "ko": "그 영화는 나를 울게 만들었어요."
+    },
+    {
+     "en": "My parents let me stay out until ten.",
+     "ko": "부모님은 내가 10시까지 밖에 있는 것을 허락해 주셨어요."
+    },
+    {
+     "en": "Let me help you with your bags.",
+     "ko": "가방 드는 것을 도와 드릴게요."
+    },
+    {
+     "en": "The school allows students to use phones at lunch.",
+     "ko": "학교는 학생들이 점심시간에 전화기를 쓰도록 허용해요."
+    },
+    {
+     "en": "We aren't allowed to take photos in the museum.",
+     "ko": "우리는 박물관에서 사진을 찍을 수 없어요."
+    },
+    {
+     "en": "Visitors need permission to park here.",
+     "ko": "방문객은 여기에 주차하려면 허락이 필요해요."
+    },
+    {
+     "en": "He was made to wait outside in the rain.",
+     "ko": "그는 비 오는 밖에서 기다려야 했어요."
+    },
+    {
+     "en": "They don't let their children watch TV after nine.",
+     "ko": "그들은 아이들이 9시 이후에 텔레비전을 보도록 두지 않아요."
+    },
+    {
+     "en": "The storm forced us to cancel the trip.",
+     "ko": "폭풍 때문에 우리는 여행을 취소할 수밖에 없었어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "My parents ___ me stay out until ten on Fridays.",
+     "choices": [
+      "let",
+      "allow",
+      "asked",
+      "told"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "허락할 때 let 뒤에는 목적어 + 동사원형이 옵니다. allow·ask·tell 뒤에는 to가 필요합니다.",
+     "error_tag": "make-let-allow",
+     "id": "B1-020-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "The teacher ___ us to finish the test in an hour.",
+     "choices": [
+      "allowed",
+      "let",
+      "made",
+      "enjoyed"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "allow는 '목적어 + to + 동사원형'을 씁니다. let과 made 뒤에는 to 없이 동사원형이 옵니다.",
+     "error_tag": "make-let-allow",
+     "id": "B1-020-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "My boss made me ___ the report again.",
+     "choices": [
+      "rewrite",
+      "to rewrite",
+      "rewriting",
+      "rewrote"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "능동태 made 뒤에는 목적어 + 동사원형(to 없음)입니다.",
+     "error_tag": "make-base-verb",
+     "id": "B1-020-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "바른 문장은 어느 것인가요?",
+     "choices": [
+      "We aren't allowed to take photos here.",
+      "We aren't allowed take photos here.",
+      "We don't allowed to take photos here.",
+      "We aren't allow to take photos here."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "수동태는 be + allowed + to + 동사원형입니다. 부정문은 be동사에 not을 붙입니다.",
+     "error_tag": "be-allowed-to",
+     "id": "B1-020-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Don't worry. I'll ___ you use my laptop. (허락하다, 동사원형)",
+     "answer_text": "let",
+     "accepted_answers": [
+      "let"
+     ],
+     "explanation_ko": "to 없이 쓰는 허락의 동사는 let입니다.",
+     "error_tag": "make-let-allow",
+     "id": "B1-020-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: He was made ___ wait outside in the rain.",
+     "answer_text": "to",
+     "accepted_answers": [
+      "to"
+     ],
+     "explanation_ko": "make를 수동태로 바꾸면 뒤에 to + 동사원형이 붙습니다.",
+     "error_tag": "make-passive-to",
+     "id": "B1-020-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "우리 집이나 학교의 규칙을 let / allow / be allowed to를 넣어 두 문장 써 보세요.",
+    "example_answer_en": "My parents let me use my phone after dinner. We aren't allowed to eat in the classroom.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-30",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-30"
+   }
   }
  ]
 }

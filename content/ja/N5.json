@@ -5178,6 +5178,229 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N5-25",
+   "day_index": 25,
+   "week_index": 4,
+   "level": "N5",
+   "unit_id": "N5-W04",
+   "lesson_type": "new",
+   "title_ko": "〜月〜日: 날짜 말하기",
+   "objective_ko": "월과 일을 읽고 〜は 〜月〜日です로 날짜와 생일을 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N5-24"
+   ],
+   "explanation_ko": "날짜는 ‘〜月{がつ} 〜日{にち}’로 말합니다. ① 월: 一月{いちがつ}, 二月{にがつ}, 三月{さんがつ}, 四月{しがつ}, 五月{ごがつ}, 六月{ろくがつ}, 七月{しちがつ}, 八月{はちがつ}, 九月{くがつ}, 十月{じゅうがつ}, 十一月{じゅういちがつ}, 十二月{じゅうにがつ}. 四月・七月・九月는 읽기에 주의합니다. ② 일: 1일부터 10일과 14일・20일・24일은 특별한 읽기입니다 — 一日{ついたち}, 二日{ふつか}, 三日{みっか}, 四日{よっか}, 五日{いつか}, 六日{むいか}, 七日{なのか}, 八日{ようか}, 九日{ここのか}, 十日{とおか}, 十四日{じゅうよっか}, 二十日{はつか}, 二十四日{にじゅうよっか}. 그 밖의 날은 숫자 + 日{にち}입니다(十一日{じゅういちにち}, 三十日{さんじゅうにち}). ③ ‘〜は 〜月〜日です’로 날짜를 말하고, 묻을 때는 何月{なんがつ} 何日{なんにち}ですか 또는 いつですか라고 합니다. ④ 날짜에 ‘~에’를 붙일 때는 〜に를 씁니다(五月{ごがつ}五日{いつか}に 行{い}きます).",
+   "usage_notes": [
+    "四月・七月・九月는 よんがつ・ななつき・きゅうがつ가 아니라 しがつ・しちがつ・くがつ로 읽습니다.",
+    "1일부터 10일, 14일, 20일, 24일은 ‘숫자 + にち’가 아니라 특별한 읽기를 외웁니다.",
+    "何日는 ‘며칠’이라는 날짜를 물을 때 なんにち로 읽습니다."
+   ],
+   "common_mistakes": [
+    "四月を よんがつと 読む(X) → しがつ(O): 四月는 しがつ입니다.",
+    "二十日を にじゅうにちと 読む(X) → はつか(O): 20일은 はつか입니다.",
+    "三日を さんにちと 読む(X) → みっか(O): 3일은 みっか입니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N5-25-01",
+     "kind": "word",
+     "text": "誕生日{たんじょうび}",
+     "reading_kana": "たんじょうび",
+     "reading_romanized": "tanjoubi",
+     "meaning_ko": "생일",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-25-02",
+     "kind": "word",
+     "text": "何月{なんがつ}",
+     "reading_kana": "なんがつ",
+     "reading_romanized": "nangatsu",
+     "meaning_ko": "몇 월",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-25-03",
+     "kind": "word",
+     "text": "何日{なんにち}",
+     "reading_kana": "なんにち",
+     "reading_romanized": "nannichi",
+     "meaning_ko": "며칠",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-25-04",
+     "kind": "word",
+     "text": "一日{ついたち}",
+     "reading_kana": "ついたち",
+     "reading_romanized": "tsuitachi",
+     "meaning_ko": "1일",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-25-05",
+     "kind": "word",
+     "text": "二日{ふつか}",
+     "reading_kana": "ふつか",
+     "reading_romanized": "futsuka",
+     "meaning_ko": "2일",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-25-06",
+     "kind": "word",
+     "text": "二十日{はつか}",
+     "reading_kana": "はつか",
+     "reading_romanized": "hatsuka",
+     "meaning_ko": "20일",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "今日{きょう}は 何月{なんがつ} 何日{なんにち}ですか。",
+     "meaning_ko": "오늘은 몇 월 며칠입니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "今日{きょう}は 十月{じゅうがつ} 三十日{さんじゅうにち}です。",
+     "meaning_ko": "오늘은 10월 30일입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "私{わたし}の 誕生日{たんじょうび}は 四月{しがつ} 二日{ふつか}です。",
+     "meaning_ko": "내 생일은 4월 2일입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "友達{ともだち}の 誕生日{たんじょうび}は 七月{しちがつ} 二十日{はつか}です。",
+     "meaning_ko": "친구의 생일은 7월 20일입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "学校{がっこう}の 休{やす}みは 八月{はちがつ} 一日{ついたち}から 三十一日{さんじゅういちにち}までです。",
+     "meaning_ko": "학교 방학은 8월 1일부터 31일까지입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "五月{ごがつ} 五日{いつか}に 日本{にほん}へ 行{い}きます。",
+     "meaning_ko": "5월 5일에 일본에 갑니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "映画{えいが}は 十二月{じゅうにがつ} 二十四日{にじゅうよっか}です。",
+     "meaning_ko": "영화는 12월 24일입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "昨日{きのう}は 十月{じゅうがつ} 二十九日{にじゅうくにち}でした。",
+     "meaning_ko": "어제는 10월 29일이었습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "九月{くがつ} 一日{ついたち}に 友達{ともだち}に 会{あ}います。",
+     "meaning_ko": "9월 1일에 친구를 만납니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「四月」의 읽기는?",
+     "options": [
+      "しがつ",
+      "よんがつ",
+      "しげつ",
+      "よつき"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "四月는 しがつ입니다. 7월은 しちがつ, 9월은 くがつ로 읽습니다.",
+     "id": "JP-N5-25-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「二十日」의 읽기는?",
+     "options": [
+      "はつか",
+      "にじゅうにち",
+      "ふつか",
+      "にじゅうか"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "20일은 はつか입니다. ふつか는 2일입니다.",
+     "id": "JP-N5-25-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「四月二日」의 읽기는?",
+     "options": [
+      "しがつ ふつか",
+      "しがつ にち",
+      "よんがつ ふつか",
+      "しがつ ついたち"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "4월은 しがつ, 2일은 ふつか입니다.",
+     "id": "JP-N5-25-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「私の 誕生日は 十二月 二十四日です。」의 뜻은?",
+     "options": [
+      "내 생일은 12월 24일입니다",
+      "내 생일은 12월 14일입니다",
+      "내 생일은 11월 24일입니다",
+      "내 생일은 2월 24일입니다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "十二月는 12월, 二十四日는 24일입니다.",
+     "id": "JP-N5-25-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「誕生日」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "tanjoubi",
+     "accepted_answers": [
+      "tanjoubi",
+      "tanjobi",
+      "tanjyoubi",
+      "tanzyoubi",
+      "tanzyobi"
+     ],
+     "explanation_ko": "誕生日 = たんじょうび = tanjoubi (생일)",
+     "id": "JP-N5-25-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「一日」(1일)의 읽기를 로마자로 입력하세요.",
+     "answer_text": "tsuitachi",
+     "accepted_answers": [
+      "tsuitachi",
+      "tuitachi",
+      "tsuitati",
+      "tuitati"
+     ],
+     "explanation_ko": "一日(1일) = ついたち = tsuitachi",
+     "id": "JP-N5-25-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }
