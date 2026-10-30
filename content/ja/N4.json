@@ -5388,6 +5388,228 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-26",
+   "day_index": 26,
+   "week_index": 4,
+   "level": "N4",
+   "unit_id": "N4-W04",
+   "lesson_type": "new",
+   "title_ko": "〜始める・〜終わる・〜続ける: 시작·끝·계속",
+   "objective_ko": "동사 ます형에 始める・終わる・続ける를 붙여 동작의 시작, 끝, 계속을 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-25"
+   ],
+   "explanation_ko": "동사 ます형에서 ます를 뺀 모양에 〜始{はじ}める・〜終{お}わる・〜続{つづ}ける를 붙여 동작의 단계를 나타냅니다. ① 〜始める: ~하기 시작하다(雨{あめ}が 降{ふ}り始{はじ}めました — 비가 내리기 시작했습니다, 日本語{にほんご}を 勉強{べんきょう}し始{はじ}めました). ② 〜終わる: ~하는 것을 끝내다, 다 ~하다(宿題{しゅくだい}を 書{か}き終{お}わりました — 숙제를 다 썼습니다, 本{ほん}を 読{よ}み終{お}わりました). ③ 〜続ける: 계속 ~하다(三時間{さんじかん}、待{ま}ち続{つづ}けました — 세 시간 동안 계속 기다렸습니다). ④ 활용은 뒤의 동사가 합니다: 食{た}べ始{はじ}めます・食{た}べ始{はじ}めました・食{た}べ終{お}わって から. ⑤ する 동사는 勉強{べんきょう}し始{はじ}める처럼 し에 붙입니다.",
+   "usage_notes": [
+    "앞 동사는 ます형에서 ます를 뺀 모양(食べ、読み、書き、待ち)입니다. 사전형(食べる)에는 붙지 않습니다.",
+    "〜終わる는 ‘끝까지 다 하다’는 뜻이므로 書き終わる(다 쓰다)처럼 끝이 있는 동작에 씁니다.",
+    "〜続ける는 같은 동작이 이어질 때 쓰고, 시간을 나타내는 말(三時間、ずっと)과 자주 함께 나옵니다."
+   ],
+   "common_mistakes": [
+    "食べる始めました(X) → 食べ始めました(O): ます형에서 ます를 뺀 모양에 붙입니다.",
+    "宿題を 書き始まりました(X) → 書き始めました(O): ‘시작하다’는 始める(타동사)입니다.",
+    "勉強するつづけました(X) → 勉強し続けました(O): する 동사는 し에 붙입니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N4-26-01",
+     "kind": "word",
+     "text": "始{はじ}める",
+     "reading_kana": "はじめる",
+     "reading_romanized": "hajimeru",
+     "meaning_ko": "시작하다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-26-02",
+     "kind": "word",
+     "text": "終{お}わる",
+     "reading_kana": "おわる",
+     "reading_romanized": "owaru",
+     "meaning_ko": "끝나다, 끝내다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-26-03",
+     "kind": "word",
+     "text": "続{つづ}ける",
+     "reading_kana": "つづける",
+     "reading_romanized": "tsuzukeru",
+     "meaning_ko": "계속하다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-26-04",
+     "kind": "word",
+     "text": "降{ふ}る",
+     "reading_kana": "ふる",
+     "reading_romanized": "furu",
+     "meaning_ko": "(비·눈이) 내리다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-26-05",
+     "kind": "word",
+     "text": "急{きゅう}に",
+     "reading_kana": "きゅうに",
+     "reading_romanized": "kyuuni",
+     "meaning_ko": "갑자기",
+     "part_of_speech": "부사"
+    },
+    {
+     "id": "w-JP-N4-26-06",
+     "kind": "word",
+     "text": "宿題{しゅくだい}",
+     "reading_kana": "しゅくだい",
+     "reading_romanized": "shukudai",
+     "meaning_ko": "숙제",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "雨{あめ}が 降{ふ}り始{はじ}めました。",
+     "meaning_ko": "비가 내리기 시작했습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "先月{せんげつ}から 日本語{にほんご}を 勉強{べんきょう}し始{はじ}めました。",
+     "meaning_ko": "지난달부터 일본어 공부를 시작했습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "宿題{しゅくだい}を 書{か}き終{お}わりました。",
+     "meaning_ko": "숙제를 다 썼습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 本{ほん}を もう 読{よ}み終{お}わりましたか。",
+     "meaning_ko": "이 책을 벌써 다 읽었습니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "食{た}べ終{お}わってから、買{か}い物{もの}に 行{い}きます。",
+     "meaning_ko": "다 먹고 나서 쇼핑하러 갑니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "毎日{まいにち} 日本語{にほんご}を 勉強{べんきょう}し続{つづ}けて います。",
+     "meaning_ko": "매일 일본어를 계속 공부하고 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}は 三時間{さんじかん}、歌{うた}い続{つづ}けました。",
+     "meaning_ko": "그는 세 시간 동안 계속 노래했습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "子供{こども}が 急{きゅう}に 泣{な}き始{はじ}めました。",
+     "meaning_ko": "아이가 갑자기 울기 시작했습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "まだ 食{た}べ終{お}わって いません。",
+     "meaning_ko": "아직 다 먹지 않았습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "ずっと 待{ま}ち続{つづ}けましたが、友達{ともだち}は 来{き}ませんでした。",
+     "meaning_ko": "계속 기다렸지만 친구는 오지 않았습니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「雨が 降り___。」(비가 내리기 시작했습니다)",
+     "options": [
+      "始めました",
+      "終わりました",
+      "続けました",
+      "始めるました"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘시작하다’는 ます형 + 始めました입니다. 降り終わりました는 비가 다 내렸다는 뜻입니다.",
+     "id": "JP-N4-26-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「宿題を 書き___ました。」(다 썼습니다)",
+     "options": [
+      "終わり",
+      "始め",
+      "続け",
+      "始まり"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘다 하다’는 〜終わる이므로 書き終わりました가 됩니다.",
+     "id": "JP-N4-26-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「三時間 ずっと 待ち___。」(계속 기다렸습니다)",
+     "options": [
+      "続けました",
+      "終わりました",
+      "始めました",
+      "続きました"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "같은 동작이 이어졌으므로 待ち続けました입니다.",
+     "id": "JP-N4-26-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「日本語を 勉強し始めました」의 뜻은?",
+     "options": [
+      "일본어 공부를 시작했습니다",
+      "일본어 공부를 끝냈습니다",
+      "일본어 공부를 계속하고 있습니다",
+      "일본어 공부를 그만뒀습니다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜始めました는 ‘~하기 시작했습니다’입니다.",
+     "id": "JP-N4-26-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「始める」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "hajimeru",
+     "accepted_answers": [
+      "hajimeru"
+     ],
+     "explanation_ko": "始める = はじめる = hajimeru (시작하다)",
+     "id": "JP-N4-26-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「続ける」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "tsuzukeru",
+     "accepted_answers": [
+      "tsuzukeru",
+      "tuzukeru"
+     ],
+     "explanation_ko": "続ける = つづける = tsuzukeru (계속하다)",
+     "id": "JP-N4-26-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

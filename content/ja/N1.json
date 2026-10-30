@@ -5370,6 +5370,222 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-26",
+   "day_index": 26,
+   "week_index": 4,
+   "level": "N1",
+   "unit_id": "N1-W04",
+   "lesson_type": "new",
+   "title_ko": "〜極まりない: 더할 나위 없이 ~하다",
+   "objective_ko": "な형용사 어간・명사에 極まりない를 붙여 부정적 평가를 강하게 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-25"
+   ],
+   "explanation_ko": "〜極{きわ}まりない는 ‘극히 ~하다, 더할 나위 없이 ~하다’라는 뜻으로, 어떤 성질이 최고조에 이르렀다고 강조하는 문어적 표현입니다. ① な형용사 어간・명사 + 極まりない(失礼{しつれい}極{きわ}まりない、危険{きけん}極{きわ}まりない、迷惑{めいわく}極{きわ}まりない). ② 명사를 꾸밀 때는 〜極まりない + 명사 또는 〜極まる + 명사로 말합니다(失礼{しつれい}極{きわ}まりない態度{たいど}、無礼{ぶれい}極{きわ}まる態度{たいど}). ③ 失礼・無礼・迷惑・危険・不愉快{ふゆかい}・不誠実{ふせいじつ}처럼 주로 부정적인 평가를 하는 말에 붙고, 화자의 강한 비난이나 우려를 나타냅니다. ④ 〜極まりない로 문장을 끝내거나 뒤에 〜行為{こうい}・〜話{はなし}처럼 명사를 이을 수 있습니다.",
+   "usage_notes": [
+    "부정적인 평가를 나타내는 말에 주로 붙으며, 긍정적인 말에 쓰는 일은 드뭅니다.",
+    "な형용사에는 な를 넣지 않고 어간에 바로 붙입니다(危険な極まりない가 아님).",
+    "〜極まる는 명사를 꾸미는 말(無礼極まる態度)로 자주 쓰이고, 문장 끝에서는 〜極まりない가 일반적입니다."
+   ],
+   "common_mistakes": [
+    "危険な極まりない(X) → 危険極まりない(O): な형용사의 な를 빼고 어간에 붙입니다.",
+    "失礼極まらない(X) → 失礼極まりない(O): ない까지 한 덩어리의 표현입니다.",
+    "親切極まりない(△) → 非常に親切だ(O): 긍정적인 말에는 보통 쓰지 않습니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N1-26-01",
+     "kind": "word",
+     "text": "失礼{しつれい}",
+     "reading_kana": "しつれい",
+     "reading_romanized": "shitsurei",
+     "meaning_ko": "실례, 무례",
+     "part_of_speech": "な형용사"
+    },
+    {
+     "id": "w-JP-N1-26-02",
+     "kind": "word",
+     "text": "危険{きけん}",
+     "reading_kana": "きけん",
+     "reading_romanized": "kiken",
+     "meaning_ko": "위험",
+     "part_of_speech": "な형용사"
+    },
+    {
+     "id": "w-JP-N1-26-03",
+     "kind": "word",
+     "text": "迷惑{めいわく}",
+     "reading_kana": "めいわく",
+     "reading_romanized": "meiwaku",
+     "meaning_ko": "민폐, 폐",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-26-04",
+     "kind": "word",
+     "text": "無礼{ぶれい}",
+     "reading_kana": "ぶれい",
+     "reading_romanized": "burei",
+     "meaning_ko": "무례",
+     "part_of_speech": "な형용사"
+    },
+    {
+     "id": "w-JP-N1-26-05",
+     "kind": "word",
+     "text": "態度{たいど}",
+     "reading_kana": "たいど",
+     "reading_romanized": "taido",
+     "meaning_ko": "태도",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-26-06",
+     "kind": "word",
+     "text": "不愉快{ふゆかい}",
+     "reading_kana": "ふゆかい",
+     "reading_romanized": "fuyukai",
+     "meaning_ko": "불쾌함",
+     "part_of_speech": "な형용사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "約束{やくそく}の時間{じかん}に遅{おく}れて連絡{れんらく}もしないとは、失礼{しつれい}極{きわ}まりない。",
+     "meaning_ko": "약속 시간에 늦고 연락도 하지 않다니 더할 나위 없이 무례하다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "信号{しんごう}を無視{むし}して道路{どうろ}を渡{わた}るのは、危険{きけん}極{きわ}まりない行為{こうい}だ。",
+     "meaning_ko": "신호를 무시하고 길을 건너는 것은 극히 위험한 행위다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "深夜{しんや}に大音量{だいおんりょう}で音楽{おんがく}を流{なが}すとは、近所{きんじょ}にとって迷惑{めいわく}極{きわ}まりない話{はなし}だ。",
+     "meaning_ko": "한밤중에 큰 소리로 음악을 틀다니 이웃에게는 더할 나위 없는 민폐다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "客{きゃく}に対{たい}してあのような態度{たいど}を取{と}るのは、無礼{ぶれい}極{きわ}まりない。",
+     "meaning_ko": "손님에게 그런 태도를 취하는 것은 극히 무례하다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "その発言{はつげん}は、不愉快{ふゆかい}極{きわ}まりないと言{い}わざるを得{え}ない。",
+     "meaning_ko": "그 발언은 더할 나위 없이 불쾌하다고 말하지 않을 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "狭{せま}い山道{やまみち}を大型{おおがた}トラックが走{はし}るのは、危険{きけん}極{きわ}まりない。",
+     "meaning_ko": "좁은 산길을 대형 트럭이 달리는 것은 극히 위험하다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "突然{とつぜん}の契約{けいやく}変更{へんこう}は、取引先{とりひきさき}にとって迷惑{めいわく}極{きわ}まりないことだろう。",
+     "meaning_ko": "갑작스러운 계약 변경은 거래처에게 더할 나위 없는 민폐일 것이다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "責任者{せきにんしゃ}が会議{かいぎ}を欠席{けっせき}するとは、不誠実{ふせいじつ}極{きわ}まりない。",
+     "meaning_ko": "책임자가 회의에 결석하다니 극히 불성실하다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "無礼{ぶれい}極{きわ}まる態度{たいど}に、客{きゃく}は怒{おこ}って帰{かえ}ってしまった。",
+     "meaning_ko": "극히 무례한 태도에 손님은 화를 내며 돌아가 버렸다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「失礼___。」(더할 나위 없이 무례하다)",
+     "options": [
+      "極まりない",
+      "極まらない",
+      "極めない",
+      "極まって"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜極まりない는 한 덩어리의 표현입니다.",
+     "id": "JP-N1-26-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「〜極まりない」 앞에 올 수 있는 모양은?",
+     "options": [
+      "危険",
+      "危険な",
+      "危険だ",
+      "危険に"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "な형용사는 な 없이 어간에 바로 붙입니다.",
+     "id": "JP-N1-26-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「迷惑極まりない」의 뜻은?",
+     "options": [
+      "더할 나위 없이 민폐다",
+      "조금도 민폐가 아니다",
+      "민폐일 수도 있다",
+      "민폐를 끼치지 않으려 한다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜極まりない는 ‘극히 ~하다’는 뜻의 강조 표현입니다.",
+     "id": "JP-N1-26-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「無礼」의 읽기는?",
+     "options": [
+      "ぶれい",
+      "むれい",
+      "ぶらい",
+      "なれい"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "無礼는 ぶれい입니다.",
+     "id": "JP-N1-26-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「迷惑」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "meiwaku",
+     "accepted_answers": [
+      "meiwaku"
+     ],
+     "explanation_ko": "迷惑 = めいわく = meiwaku (민폐)",
+     "id": "JP-N1-26-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「態度」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "taido",
+     "accepted_answers": [
+      "taido"
+     ],
+     "explanation_ko": "態度 = たいど = taido (태도)",
+     "id": "JP-N1-26-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "JLPT_FORMAT"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

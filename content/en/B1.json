@@ -3850,6 +3850,177 @@
     "version": 1,
     "last_revised": "2026-10-30"
    }
+  },
+  {
+   "id": "B1-021",
+   "level": "B1",
+   "track": "general",
+   "day": 21,
+   "title_ko": "3주 복습: 제2조건문·just/already/yet·현재완료와 과거·관계절·과거완료·make/let/allow",
+   "objective_ko": "B1 셋째 주에 배운 여섯 가지 문법(B1-015~020)을 섞어서 문제에 적용한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-31"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "이번 주에 배운 여섯 가지를 한 번에 복습합니다. ① 제2조건문은 현실과 다른 상상을 If + 과거형, would + 동사원형으로 말합니다: If I had more time, I would travel more.(B1-015) ② 현재완료에서 just는 방금, already는 이미(긍정문), yet은 아직(부정문)·벌써(의문문)이며 yet은 문장 끝에 둡니다.(B1-016) ③ 과거의 구체적인 시점(yesterday, last year)이 있으면 단순과거를 쓰고, 시점 없이 경험이나 지금과의 연결을 말하면 현재완료를 씁니다.(B1-017) ④ whose는 소유(the man whose car was stolen), where는 장소(the town where I grew up)를 잇습니다.(B1-018) ⑤ 과거완료는 had + 과거분사로, 과거의 어느 시점보다 먼저 일어난 일을 말합니다.(B1-019) ⑥ make / let + 목적어 + 동사원형, allow + 목적어 + to + 동사원형입니다.(B1-020) 문제를 풀 때는 시간 단서(yesterday, yet, when 절), 빈칸 뒤 명사가 소유 관계인지 장소인지, 동사 모양(원형인지 to가 필요한지)을 먼저 확인합니다.",
+    "common_mistake_ko": "If I will have a car, I would drive.(X) → If I had a car, I would drive.(O) / I have seen him yesterday.(X) → I saw him yesterday.(O) / My mom made me to clean.(X) → made me clean(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "chance",
+     "part_of_speech": "명사",
+     "meaning_ko": "기회",
+     "example_en": "If I had the chance, I would study abroad.",
+     "example_ko": "기회가 있다면 나는 유학을 갈 거예요."
+    },
+    {
+     "word": "secret",
+     "part_of_speech": "명사",
+     "meaning_ko": "비밀",
+     "example_en": "She had already told the secret before I arrived.",
+     "example_ko": "내가 도착하기 전에 그녀는 이미 그 비밀을 말했어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "If I had more time, I would travel more.",
+     "ko": "시간이 더 있다면 나는 여행을 더 할 거예요."
+    },
+    {
+     "en": "I have just finished my homework.",
+     "ko": "나는 방금 숙제를 끝냈어요."
+    },
+    {
+     "en": "She hasn't called me yet.",
+     "ko": "그녀는 아직 나에게 전화하지 않았어요."
+    },
+    {
+     "en": "I saw that movie last week.",
+     "ko": "나는 지난주에 그 영화를 봤어요."
+    },
+    {
+     "en": "Have you ever been to Jeju?",
+     "ko": "제주도에 가 본 적 있어요?"
+    },
+    {
+     "en": "He is the man whose car was stolen.",
+     "ko": "그는 차를 도난당한 남자예요."
+    },
+    {
+     "en": "This is the town where I grew up.",
+     "ko": "여기가 내가 자란 마을이에요."
+    },
+    {
+     "en": "When we got to the station, the train had already left.",
+     "ko": "우리가 역에 도착했을 때 기차는 이미 떠난 뒤였어요."
+    },
+    {
+     "en": "My parents let me stay out until ten.",
+     "ko": "부모님은 내가 10시까지 밖에 있도록 허락해 주세요."
+    },
+    {
+     "en": "The school allows students to use phones at lunch.",
+     "ko": "학교는 학생들이 점심시간에 전화기를 쓰는 것을 허용해요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "If I ___ a car, I would drive to work.",
+     "choices": [
+      "had",
+      "have",
+      "will have",
+      "would have"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "제2조건문은 If + 과거형(had)을 씁니다.",
+     "error_tag": "second-conditional",
+     "id": "B1-021-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "I haven't finished my homework ___.",
+     "choices": [
+      "yet",
+      "already",
+      "just",
+      "ever"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "부정문 끝에서 '아직'은 yet입니다.",
+     "error_tag": "just-already-yet",
+     "id": "B1-021-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "I ___ him yesterday at the station.",
+     "choices": [
+      "saw",
+      "have seen",
+      "had seen",
+      "see"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "yesterday처럼 구체적인 과거 시점이 있으면 단순과거 saw입니다.",
+     "error_tag": "present-perfect-vs-past",
+     "id": "B1-021-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "He is the man ___ car was stolen.",
+     "choices": [
+      "whose",
+      "who",
+      "which",
+      "where"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "뒤에 car(그의 차)가 이어지므로 소유를 나타내는 whose입니다.",
+     "error_tag": "relative-whose",
+     "id": "B1-021-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: When we got to the cinema, the movie ___ already started.",
+     "answer_text": "had",
+     "accepted_answers": [
+      "had"
+     ],
+     "explanation_ko": "got(과거)보다 먼저 일어난 일이므로 과거완료 had started입니다.",
+     "error_tag": "past-perfect",
+     "id": "B1-021-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: My parents don't ___ me stay out late. (허락하지 않아요)",
+     "answer_text": "let",
+     "accepted_answers": [
+      "let"
+     ],
+     "explanation_ko": "'허락하다'는 let + 목적어 + 동사원형입니다.",
+     "error_tag": "make-let-allow",
+     "id": "B1-021-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "이번 주에 배운 문법 중 두 가지를 골라 나의 이야기를 두 문장으로 써 보세요.",
+    "example_answer_en": "If I had more money, I would visit London. I have just booked a trip to Busan.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-31",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-31"
+   }
   }
  ]
 }

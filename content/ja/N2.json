@@ -5369,6 +5369,223 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-26",
+   "day_index": 26,
+   "week_index": 4,
+   "level": "N2",
+   "unit_id": "N2-W04",
+   "lesson_type": "new",
+   "title_ko": "〜次第: ~하는 대로 / ~에 달려 있다",
+   "objective_ko": "동사 ます형 + 次第로 ‘~하는 대로 곧’을, 명사 + 次第로 ‘~에 달려 있다’를 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-25"
+   ],
+   "explanation_ko": "〜次第{しだい}에는 두 가지 쓰임이 있습니다. ① 동사 ます형 + 次第: ‘~하는 대로 곧, ~하자마자’라는 뜻으로, 앞의 일이 끝나는 즉시 뒤의 일을 할 때 씁니다(結果{けっか}が分{わ}かり次第{しだい}、連絡{れんらく}します). 뒤에는 의지・예정・의뢰 같은 표현이 오고, 과거형 문장은 오지 않습니다. 앞 동사는 ‘分{わ}かる・届{とど}く・終{お}わる・到着{とうちゃく}する’처럼 일이 이루어지는 순간을 나타내는 말이 자연스럽습니다. ② 명사 + 次第(だ): ‘~에 달려 있다’는 뜻입니다(成功{せいこう}するかどうかは努力{どりょく}次第{しだい}だ). ③ 명사 + 次第で: ‘~에 따라, ~여하에 따라’라는 뜻으로, 결과가 그 명사에 따라 달라진다고 말합니다(天気{てんき}次第{しだい}で予定{よてい}が変{か}わる). 〜によって보다 ‘그것에 결정권이 있다’는 느낌이 강합니다.",
+   "usage_notes": [
+    "ます형 + 次第는 문어체・비즈니스 문서나 안내에서 자주 쓰입니다.",
+    "뒤에는 ‘~しました’ 같은 과거형이 오지 않습니다. 앞으로 할 일을 말합니다.",
+    "명사 + 次第(だ)는 ‘그 명사에 달려 있다’는 뜻으로, 책임이나 가능성의 열쇠가 그 명사에 있다는 느낌입니다."
+   ],
+   "common_mistakes": [
+    "結果が分かり次第、連絡しました(X) → 連絡します(O): ます형 + 次第 뒤에는 과거형이 오지 않습니다.",
+    "分かる次第、連絡します(X) → 分かり次第(O): 사전형이 아니라 ます형에 붙입니다.",
+    "天気次第に予定が変わる(X) → 天気次第で(O): ‘~에 따라’는 次第で입니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N2-26-01",
+     "kind": "word",
+     "text": "結果{けっか}",
+     "reading_kana": "けっか",
+     "reading_romanized": "kekka",
+     "meaning_ko": "결과",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-26-02",
+     "kind": "word",
+     "text": "連絡{れんらく}",
+     "reading_kana": "れんらく",
+     "reading_romanized": "renraku",
+     "meaning_ko": "연락",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-26-03",
+     "kind": "word",
+     "text": "到着{とうちゃく}",
+     "reading_kana": "とうちゃく",
+     "reading_romanized": "touchaku",
+     "meaning_ko": "도착",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-26-04",
+     "kind": "word",
+     "text": "確認{かくにん}",
+     "reading_kana": "かくにん",
+     "reading_romanized": "kakunin",
+     "meaning_ko": "확인",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-26-05",
+     "kind": "word",
+     "text": "天候{てんこう}",
+     "reading_kana": "てんこう",
+     "reading_romanized": "tenkou",
+     "meaning_ko": "날씨, 기상",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-26-06",
+     "kind": "word",
+     "text": "努力{どりょく}",
+     "reading_kana": "どりょく",
+     "reading_romanized": "doryoku",
+     "meaning_ko": "노력",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "結果{けっか}が分{わ}かり次第{しだい}、ご連絡{れんらく}します。",
+     "meaning_ko": "결과를 알게 되는 대로 연락드리겠습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "荷物{にもつ}が届{とど}き次第{しだい}、確認{かくにん}いたします。",
+     "meaning_ko": "짐이 도착하는 대로 확인하겠습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "会議{かいぎ}が終{お}わり次第{しだい}、すぐに出発{しゅっぱつ}しましょう。",
+     "meaning_ko": "회의가 끝나는 대로 바로 출발합시다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "空港{くうこう}に到着{とうちゃく}し次第{しだい}、電話{でんわ}をください。",
+     "meaning_ko": "공항에 도착하는 대로 전화 주세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "準備{じゅんび}ができ次第{しだい}、始{はじ}めてください。",
+     "meaning_ko": "준비가 되는 대로 시작해 주세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "試合{しあい}ができるかどうかは、天候{てんこう}次第{しだい}だ。",
+     "meaning_ko": "시합을 할 수 있는지는 날씨에 달려 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "成功{せいこう}するかどうかは、あなたの努力{どりょく}次第{しだい}だ。",
+     "meaning_ko": "성공할 수 있는지는 당신의 노력에 달려 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "天気{てんき}次第{しだい}で、遠足{えんそく}の予定{よてい}が変{か}わるかもしれない。",
+     "meaning_ko": "날씨에 따라 소풍 일정이 바뀔지도 모른다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "値段{ねだん}次第{しだい}では、買{か}ってもいい。",
+     "meaning_ko": "가격에 따라서는 사도 좋다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「結果が分かり___、連絡します。」",
+     "options": [
+      "次第",
+      "ばかり",
+      "ほど",
+      "ところ"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ます형 + 次第로 ‘알게 되는 대로 곧’이라는 뜻이 됩니다.",
+     "id": "JP-N2-26-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「成功するかどうかは、努力___だ。」",
+     "options": [
+      "次第",
+      "ばかり",
+      "ほど",
+      "ごと"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "명사 + 次第(だ)는 ‘~에 달려 있다’는 뜻입니다.",
+     "id": "JP-N2-26-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「天気次第で、遠足の予定が変わるかもしれない。」의 뜻은?",
+     "options": [
+      "날씨에 따라 소풍 일정이 바뀔지도 모른다",
+      "날씨 탓에 소풍 일정이 바뀌었다",
+      "날씨와 상관없이 소풍 일정은 바뀌지 않는다",
+      "날씨가 좋아지는 대로 소풍 일정을 바꾼다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "명사 + 次第で는 ‘~에 따라’라는 뜻입니다.",
+     "id": "JP-N2-26-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「荷物が届き次第、確認___。」에서 쓸 수 없는 것은?",
+     "options": [
+      "確認しました",
+      "確認します",
+      "確認してください",
+      "確認するつもりです"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ます형 + 次第 뒤에는 앞으로 할 일(의지・의뢰・예정)이 오고 과거형은 오지 않습니다.",
+     "id": "JP-N2-26-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「到着」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "touchaku",
+     "accepted_answers": [
+      "touchaku",
+      "tochaku"
+     ],
+     "explanation_ko": "到着 = とうちゃく = touchaku (도착)",
+     "id": "JP-N2-26-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「連絡」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "renraku",
+     "accepted_answers": [
+      "renraku"
+     ],
+     "explanation_ko": "連絡 = れんらく = renraku (연락)",
+     "id": "JP-N2-26-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

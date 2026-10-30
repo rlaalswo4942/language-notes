@@ -4896,6 +4896,205 @@
     "version": 1,
     "last_revised": "2026-10-30"
    }
+  },
+  {
+   "id": "B2-026",
+   "level": "B2",
+   "track": "general",
+   "day": 26,
+   "title_ko": "수동태 심화: 조동사 수동·진행 수동·현재완료 수동",
+   "objective_ko": "must be done, is being repaired, has been sent처럼 시제와 조동사가 붙은 수동태를 만들고 쓴다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-31"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "수동태의 기본 모양은 be + 과거분사이고, 조동사나 시제에 따라 be 부분이 바뀝니다. ① 조동사 + be + 과거분사: The form must be submitted by Friday. Tickets can be bought online. ② 진행 수동은 am / is / are / was / were + being + 과거분사로, 지금 또는 그때 진행 중인 일을 말합니다: The bridge is being replaced this month. ③ 현재완료 수동은 has / have been + 과거분사로, 이미 끝난 일이나 지금과 연결된 일을 말합니다: The invitations have been sent. ④ 미래 수동은 will be + 과거분사입니다: The results will be published next week. ⑤ 행위자가 중요하지 않거나 모를 때 수동태를 쓰고, 알려 줄 필요가 있을 때만 by를 붙입니다.",
+    "common_mistake_ko": "The road is repairing now.(X) → is being repaired(O) / It must finish by Friday.(X) → It must be finished by Friday.(O) / The email has sent.(X) → has been sent(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "approve",
+     "part_of_speech": "동사",
+     "meaning_ko": "승인하다",
+     "example_en": "The board approved the new budget.",
+     "example_ko": "이사회가 새 예산을 승인했어요."
+    },
+    {
+     "word": "ensure",
+     "part_of_speech": "동사",
+     "meaning_ko": "보장하다, 확실히 하다",
+     "example_en": "Please ensure that all doors are locked.",
+     "example_ko": "모든 문이 잠겼는지 확실히 해 주세요."
+    },
+    {
+     "word": "replace",
+     "part_of_speech": "동사",
+     "meaning_ko": "교체하다, 대신하다",
+     "example_en": "The old bridge is being replaced this month.",
+     "example_ko": "낡은 다리가 이번 달에 교체되고 있어요."
+    },
+    {
+     "word": "submit",
+     "part_of_speech": "동사",
+     "meaning_ko": "제출하다",
+     "example_en": "All forms should be submitted online.",
+     "example_ko": "모든 서식은 온라인으로 제출해야 해요."
+    },
+    {
+     "word": "require",
+     "part_of_speech": "동사",
+     "meaning_ko": "요구하다, 필요로 하다",
+     "example_en": "Safety rules are required at all times.",
+     "example_ko": "안전 수칙은 항상 요구돼요."
+    },
+    {
+     "word": "publish",
+     "part_of_speech": "동사",
+     "meaning_ko": "발표하다, 출판하다",
+     "example_en": "The results will be published next week.",
+     "example_ko": "결과는 다음 주에 발표될 거예요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The new software must be installed before Monday.",
+     "ko": "새 소프트웨어는 월요일 전에 설치되어야 해요."
+    },
+    {
+     "en": "The old bridge is being replaced this month.",
+     "ko": "낡은 다리가 이번 달에 교체되고 있어요."
+    },
+    {
+     "en": "All forms should be submitted online.",
+     "ko": "모든 서식은 온라인으로 제출해야 해요."
+    },
+    {
+     "en": "The contract has been approved by the board.",
+     "ko": "계약은 이사회의 승인을 받았어요."
+    },
+    {
+     "en": "The documents were being checked when the power went out.",
+     "ko": "정전이 되었을 때 서류가 검토되고 있었어요."
+    },
+    {
+     "en": "The results will be published next week.",
+     "ko": "결과는 다음 주에 발표될 거예요."
+    },
+    {
+     "en": "Safety rules have to be followed at all times.",
+     "ko": "안전 수칙은 항상 지켜져야 해요."
+    },
+    {
+     "en": "The room is being cleaned right now, so please wait outside.",
+     "ko": "방을 지금 청소하고 있으니 밖에서 기다려 주세요."
+    },
+    {
+     "en": "This device can't be repaired, so we need a new one.",
+     "ko": "이 기기는 수리할 수 없어서 새 것이 필요해요."
+    },
+    {
+     "en": "Nothing has been decided yet.",
+     "ko": "아직 아무것도 결정되지 않았어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "The bridge ___ at the moment, so we can't cross it.",
+     "choices": [
+      "is being repaired",
+      "is repairing",
+      "has repaired",
+      "repairs"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "지금 진행 중인 수동은 is being + 과거분사입니다. 다리는 수리를 '받는' 쪽입니다.",
+     "error_tag": "passive-progressive",
+     "id": "B2-026-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "The application form must ___ by Friday.",
+     "choices": [
+      "be submitted",
+      "submit",
+      "be submitting",
+      "been submitted"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "조동사 must 뒤에는 be + 과거분사를 씁니다.",
+     "error_tag": "passive-modal",
+     "id": "B2-026-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "The invitations ___ to all the guests already.",
+     "choices": [
+      "have been sent",
+      "have sent",
+      "has been sent",
+      "are sending"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "주어가 복수이고 보내지는 쪽이므로 have been sent입니다.",
+     "error_tag": "passive-perfect",
+     "id": "B2-026-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "바른 문장은 어느 것인가요?",
+     "choices": [
+      "The new policy will be announced tomorrow.",
+      "The new policy will announce tomorrow.",
+      "The new policy will be announcing tomorrow.",
+      "The new policy will been announced tomorrow."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "미래 수동은 will be + 과거분사입니다.",
+     "error_tag": "passive-future",
+     "id": "B2-026-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: The kitchen ___ being cleaned right now.",
+     "answer_text": "is",
+     "accepted_answers": [
+      "is"
+     ],
+     "explanation_ko": "진행 수동의 be동사입니다. The kitchen은 단수이므로 is입니다.",
+     "error_tag": "passive-progressive",
+     "id": "B2-026-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: The report has ___ approved by the manager.",
+     "answer_text": "been",
+     "accepted_answers": [
+      "been"
+     ],
+     "explanation_ko": "현재완료 수동은 has been + 과거분사입니다.",
+     "error_tag": "passive-perfect",
+     "id": "B2-026-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "오늘 우리 집이나 학교에서 '되고 있는 일'을 수동태로 두 문장 써 보세요.",
+    "example_answer_en": "The classroom is being painted this week. The old desks have been replaced.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-31",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-31"
+   }
   }
  ]
 }

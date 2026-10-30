@@ -5395,6 +5395,226 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N3-26",
+   "day_index": 26,
+   "week_index": 4,
+   "level": "N3",
+   "unit_id": "N3-W04",
+   "lesson_type": "new",
+   "title_ko": "〜ついでに: ~하는 김에",
+   "objective_ko": "주된 일을 하는 기회에 덧붙여 다른 일을 하는 〜ついでに를 쓴다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N3-25"
+   ],
+   "explanation_ko": "〜ついでに는 ‘~하는 김에’라는 뜻으로, 어떤 일을 하는 기회를 이용해 다른 일도 함께 할 때 씁니다. ① 동사 사전형・た형 + ついでに: 사전형은 앞으로 하려는 일(買{か}い物{もの}に行{い}くついでに)을, た형은 이미 한 일(駅{えき}へ行{い}ったついでに)을 말합니다. ② 명사 + の + ついでに(散歩{さんぽ}のついでに、掃除{そうじ}のついでに). ③ 앞은 주된 용무, 뒤는 덧붙이는 부수적인 행동입니다. 뒤에는 의지적인 행동이 오며, 자연스럽게 일어나는 일에는 쓰지 않습니다. ④ 뒤에 오는 동작은 〜てくる・〜ておく와 자주 함께 쓰입니다(買{か}ってきた、拭{ふ}いておいた). ⑤ ‘ついでに’만 단독으로 ‘그 김에’라는 부탁에도 씁니다(ついでに、この手紙{てがみ}も出{だ}しておいてくれませんか).",
+   "usage_notes": [
+    "앞에는 주된 용무가, 뒤에는 덧붙이는 행동이 옵니다. 순서를 바꾸면 뜻이 달라집니다.",
+    "명사에는 の를 넣어 散歩のついでに로 씁니다.",
+    "〜ついでに는 이유를 나타내지 않습니다. 이유는 〜ので・〜から, 원인에 의한 결과는 〜おかげで・〜せいで를 씁니다."
+   ],
+   "common_mistakes": [
+    "散歩ついでに、ごみを捨てた(X) → 散歩のついでに(O): 명사 뒤에는 の를 넣습니다.",
+    "買い物に行くついでに、雨で寄れなかった(X) → 뒤에는 의지적인 행동이 옵니다.",
+    "駅へ行くついでで買った(X) → 駅へ行くついでに買った(O): に를 붙입니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N3-26-01",
+     "kind": "word",
+     "text": "寄{よ}る",
+     "reading_kana": "よる",
+     "reading_romanized": "yoru",
+     "meaning_ko": "들르다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N3-26-02",
+     "kind": "word",
+     "text": "郵便局{ゆうびんきょく}",
+     "reading_kana": "ゆうびんきょく",
+     "reading_romanized": "yuubinkyoku",
+     "meaning_ko": "우체국",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-26-03",
+     "kind": "word",
+     "text": "散歩{さんぽ}",
+     "reading_kana": "さんぽ",
+     "reading_romanized": "sanpo",
+     "meaning_ko": "산책",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-26-04",
+     "kind": "word",
+     "text": "捨{す}てる",
+     "reading_kana": "すてる",
+     "reading_romanized": "suteru",
+     "meaning_ko": "버리다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N3-26-05",
+     "kind": "word",
+     "text": "出張{しゅっちょう}",
+     "reading_kana": "しゅっちょう",
+     "reading_romanized": "shucchou",
+     "meaning_ko": "출장",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-26-06",
+     "kind": "word",
+     "text": "お土産{みやげ}",
+     "reading_kana": "おみやげ",
+     "reading_romanized": "omiyage",
+     "meaning_ko": "(여행·선물용) 기념품",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "買{か}い物{もの}に行{い}くついでに、郵便局{ゆうびんきょく}に寄{よ}った。",
+     "meaning_ko": "쇼핑하러 가는 김에 우체국에 들렀다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "散歩{さんぽ}のついでに、ごみを捨{す}ててきた。",
+     "meaning_ko": "산책하는 김에 쓰레기를 버리고 왔다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "出張{しゅっちょう}のついでに、友達{ともだち}に会{あ}ってくる予定{よてい}だ。",
+     "meaning_ko": "출장 가는 김에 친구를 만나고 올 예정이다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "駅{えき}へ行{い}ったついでに、お土産{みやげ}を買{か}った。",
+     "meaning_ko": "역에 간 김에 기념품을 샀다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "母{はは}は買{か}い物{もの}のついでに、私{わたし}の薬{くすり}も取{と}ってきてくれた。",
+     "meaning_ko": "어머니는 장 보는 김에 내 약도 받아 와 주셨다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "図書館{としょかん}へ本{ほん}を返{かえ}しに行{い}くついでに、新{あたら}しい本{ほん}も借{か}りてきた。",
+     "meaning_ko": "도서관에 책을 반납하러 가는 김에 새 책도 빌려 왔다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "ついでに、この手紙{てがみ}も出{だ}しておいてくれませんか。",
+     "meaning_ko": "가는 김에 이 편지도 부쳐 주지 않겠습니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "近{ちか}くを通{とお}ったついでに、ちょっと顔{かお}を見{み}に来{き}たよ。",
+     "meaning_ko": "근처를 지나던 김에 잠깐 얼굴을 보러 왔어.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "掃除{そうじ}のついでに、窓{まど}も拭{ふ}いておいた。",
+     "meaning_ko": "청소하는 김에 창문도 닦아 두었다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「買い物に行く___、郵便局に寄った。」",
+     "options": [
+      "ついでに",
+      "せいで",
+      "おかげで",
+      "わりに"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "주된 용무(쇼핑)를 하는 김에 덧붙인 행동(우체국에 들름)이므로 ついでに입니다.",
+     "id": "JP-N3-26-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「散歩の___、ごみを捨ててきた。」",
+     "options": [
+      "ついでに",
+      "ように",
+      "ほど",
+      "ばかり"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "명사 + の + ついでに로 ‘산책하는 김에’가 됩니다.",
+     "id": "JP-N3-26-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「駅へ行ったついでに、お土産を買った。」의 뜻은?",
+     "options": [
+      "역에 간 김에 기념품을 샀다",
+      "기념품을 사려고 역에 갔다",
+      "역에 가서 기념품만 샀다",
+      "역에 갈 때마다 기념품을 산다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜ついでに는 ‘~하는 김에’입니다. 목적은 〜ために, 한정은 〜ばかり, 반복은 〜たびに입니다.",
+     "id": "JP-N3-26-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「〜ついでに」는 어떤 때 쓰나요?",
+     "options": [
+      "주된 일을 하는 기회에 덧붙여 다른 일을 할 때",
+      "앞의 일이 원인이 되어 나쁜 결과가 생겼을 때",
+      "앞의 일이 일어난 직후에 곧바로 다른 일이 일어났을 때",
+      "어떤 일이 있을 때마다 반복해서 다른 일을 할 때"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜ついでに는 주된 용무를 하는 김에 다른 일도 덧붙여 할 때 씁니다.",
+     "id": "JP-N3-26-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「寄る」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "yoru",
+     "accepted_answers": [
+      "yoru"
+     ],
+     "explanation_ko": "寄る = よる = yoru (들르다)",
+     "id": "JP-N3-26-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「出張」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "shucchou",
+     "accepted_answers": [
+      "shucchou",
+      "shutchou",
+      "shuccho",
+      "shutcho",
+      "syuttyou"
+     ],
+     "explanation_ko": "出張 = しゅっちょう = shucchou (출장)",
+     "id": "JP-N3-26-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

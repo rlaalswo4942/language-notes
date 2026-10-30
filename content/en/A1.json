@@ -4918,6 +4918,208 @@
     "version": 1,
     "last_revised": "2026-10-30"
    }
+  },
+  {
+   "id": "A1-026",
+   "level": "A1",
+   "track": "foundation",
+   "day": 26,
+   "title_ko": "want to / need to: 하고 싶은 것과 해야 하는 것 말하기",
+   "objective_ko": "want to와 need to 뒤에 동사원형을 써서 바람과 필요를 말하고 묻는다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-31"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "하고 싶은 것은 want to, 해야 하거나 할 필요가 있는 것은 need to로 말합니다. ① want to + 동사원형(~하고 싶다): I want to learn English. ② need to + 동사원형(~해야 한다, ~할 필요가 있다): We need to leave at seven. ③ 뒤에 명사가 오면 to 없이 씁니다: I want a new bag. He needs a doctor. ④ 주어가 he / she / it이면 wants / needs를 씁니다: She wants to buy a bag. ⑤ 부정과 의문은 do / does를 씁니다: I don't want to stay home. / Does she need to bring her passport? 이때 동사는 want / need로 돌아갑니다. ⑥ don't need to는 '~할 필요가 없다'는 뜻입니다.",
+    "common_mistake_ko": "She want to buy a bag.(X) → She wants to buy a bag.(O) / I want drink some tea.(X) → I want to drink some tea.(O) / Does she needs to go?(X) → Does she need to go?(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "want",
+     "part_of_speech": "동사",
+     "meaning_ko": "원하다, ~하고 싶다",
+     "example_en": "I want to see the lake.",
+     "example_ko": "나는 그 호수를 보고 싶어요."
+    },
+    {
+     "word": "need",
+     "part_of_speech": "동사",
+     "meaning_ko": "필요하다, ~해야 한다",
+     "example_en": "I need a new notebook.",
+     "example_ko": "나는 새 공책이 필요해요."
+    },
+    {
+     "word": "umbrella",
+     "part_of_speech": "명사",
+     "meaning_ko": "우산",
+     "example_en": "You need an umbrella today.",
+     "example_ko": "오늘은 우산이 필요해요."
+    },
+    {
+     "word": "doctor",
+     "part_of_speech": "명사",
+     "meaning_ko": "의사",
+     "example_en": "My brother wants to be a doctor.",
+     "example_ko": "내 남동생은 의사가 되고 싶어 해요."
+    },
+    {
+     "word": "passport",
+     "part_of_speech": "명사",
+     "meaning_ko": "여권",
+     "example_en": "I need my passport at the airport.",
+     "example_ko": "공항에서는 여권이 필요해요."
+    },
+    {
+     "word": "souvenir",
+     "part_of_speech": "명사",
+     "meaning_ko": "기념품",
+     "example_en": "They want to buy a souvenir for their family.",
+     "example_ko": "그들은 가족에게 줄 기념품을 사고 싶어 해요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I want to learn English.",
+     "ko": "나는 영어를 배우고 싶어요."
+    },
+    {
+     "en": "She wants to buy a new bag.",
+     "ko": "그녀는 새 가방을 사고 싶어 해요."
+    },
+    {
+     "en": "We need to leave at seven.",
+     "ko": "우리는 7시에 출발해야 해요."
+    },
+    {
+     "en": "He needs a doctor.",
+     "ko": "그는 의사가 필요해요."
+    },
+    {
+     "en": "Do you want to see a movie tonight?",
+     "ko": "오늘 밤에 영화 보고 싶어요?"
+    },
+    {
+     "en": "Does she need to bring her passport?",
+     "ko": "그녀는 여권을 가져와야 해요?"
+    },
+    {
+     "en": "I don't want to stay home today.",
+     "ko": "나는 오늘 집에 있고 싶지 않아요."
+    },
+    {
+     "en": "You don't need to bring an umbrella.",
+     "ko": "우산을 가져올 필요 없어요."
+    },
+    {
+     "en": "They want to buy souvenirs for their family.",
+     "ko": "그들은 가족에게 줄 기념품을 사고 싶어 해요."
+    },
+    {
+     "en": "I need to go to the bank before noon.",
+     "ko": "나는 정오 전에 은행에 가야 해요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "She ___ to go home early. (~하고 싶어 해요)",
+     "choices": [
+      "wants",
+      "want",
+      "wanting",
+      "to want"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "주어가 She(3인칭 단수)이므로 wants to입니다.",
+     "error_tag": "want-to",
+     "id": "A1-026-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Does he ___ to wait here? (~해야 해요?)",
+     "choices": [
+      "need",
+      "needs",
+      "needing",
+      "needed"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Does 뒤에는 동사원형이므로 need입니다.",
+     "error_tag": "need-to",
+     "id": "A1-026-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "We ___ to finish the homework tonight. (~해야 해요)",
+     "choices": [
+      "need",
+      "needs",
+      "needing",
+      "are need"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "주어가 We이므로 need to입니다. needs는 3인칭 단수에 씁니다.",
+     "error_tag": "need-to",
+     "id": "A1-026-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "바른 문장은 어느 것인가요?",
+     "choices": [
+      "I want to drink some tea.",
+      "I want drink some tea.",
+      "I wants to drink some tea.",
+      "I want to drinking some tea."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "want 뒤에는 to + 동사원형을 씁니다. I에는 wants가 아니라 want입니다.",
+     "error_tag": "want-to",
+     "id": "A1-026-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: You ___ need to bring a pen. (~할 필요 없어요)",
+     "answer_text": "don't",
+     "accepted_answers": [
+      "don't",
+      "don’t",
+      "do not",
+      "dont"
+     ],
+     "explanation_ko": "don't need to는 '~할 필요가 없다'는 뜻입니다.",
+     "error_tag": "dont-need",
+     "id": "A1-026-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: My brother ___ to be a doctor. (~되고 싶어 해요)",
+     "answer_text": "wants",
+     "accepted_answers": [
+      "wants"
+     ],
+     "explanation_ko": "3인칭 단수 주어 + 바람이므로 wants to입니다.",
+     "error_tag": "want-to",
+     "id": "A1-026-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "하고 싶은 일과 해야 하는 일을 want to / need to로 한 문장씩 써 보세요.",
+    "example_answer_en": "I want to travel to Japan. I need to save some money.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-31",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-31"
+   }
   }
  ]
 }

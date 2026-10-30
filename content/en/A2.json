@@ -4901,6 +4901,205 @@
     "version": 1,
     "last_revised": "2026-10-30"
    }
+  },
+  {
+   "id": "A2-026",
+   "level": "A2",
+   "track": "foundation",
+   "day": 26,
+   "title_ko": "and / but / or / so: 문장 잇기",
+   "objective_ko": "and, but, or, so의 역할을 구별해 두 문장을 알맞게 잇는다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-10-31"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "짧은 문장을 이어 더 자연스럽게 말할 때 쓰는 접속사입니다. ① and: 비슷한 내용을 더합니다 — My brother cooked dinner and I washed the dishes. ② but: 반대되는 내용을 이어 줍니다 — I like tea, but I don't like coffee. ③ or: 선택을 나타냅니다 — Do you want soup or salad? ④ so: 앞의 내용이 이유가 되어 나오는 결과를 말합니다 — It was raining, so we stayed home. ⑤ 두 문장을 but / so로 이을 때는 앞에 쉼표(,)를 찍는 것이 보통입니다. ⑥ 부정문에서는 and 대신 or를 씁니다 — I don't like fish or meat.",
+    "common_mistake_ko": "Because I was tired, so I went to bed.(X) → I was tired, so I went to bed. / Because I was tired, I went to bed.(O) — because와 so는 한 문장에 함께 쓰지 않습니다. / I like coffee, so I don't like tea.(X) → but(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "sleepy",
+     "part_of_speech": "형용사",
+     "meaning_ko": "졸린",
+     "example_en": "I felt sleepy after lunch.",
+     "example_ko": "나는 점심 뒤에 졸렸어요."
+    },
+    {
+     "word": "noisy",
+     "part_of_speech": "형용사",
+     "meaning_ko": "시끄러운",
+     "example_en": "The restaurant is noisy, but the food is good.",
+     "example_ko": "그 식당은 시끄럽지만 음식은 맛있어요."
+    },
+    {
+     "word": "nervous",
+     "part_of_speech": "형용사",
+     "meaning_ko": "긴장한, 불안한",
+     "example_en": "I was nervous, so I drank some water.",
+     "example_ko": "나는 긴장해서 물을 조금 마셨어요."
+    },
+    {
+     "word": "lazy",
+     "part_of_speech": "형용사",
+     "meaning_ko": "게으른",
+     "example_en": "He is lazy, so he never cleans his room.",
+     "example_ko": "그는 게을러서 자기 방을 절대 청소하지 않아요."
+    },
+    {
+     "word": "spicy",
+     "part_of_speech": "형용사",
+     "meaning_ko": "매운",
+     "example_en": "The soup was spicy, so I drank a lot of water.",
+     "example_ko": "수프가 매워서 나는 물을 많이 마셨어요."
+    },
+    {
+     "word": "simple",
+     "part_of_speech": "형용사",
+     "meaning_ko": "간단한",
+     "example_en": "The recipe is simple, but it takes an hour.",
+     "example_ko": "그 요리법은 간단하지만 한 시간이 걸려요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I like tea, but I don't like coffee.",
+     "ko": "나는 차는 좋아하지만 커피는 좋아하지 않아요."
+    },
+    {
+     "en": "It was raining, so we stayed home.",
+     "ko": "비가 와서 우리는 집에 있었어요."
+    },
+    {
+     "en": "Do you want soup or salad?",
+     "ko": "수프를 드실래요, 샐러드를 드실래요?"
+    },
+    {
+     "en": "She is tired, but she wants to finish the work.",
+     "ko": "그녀는 피곤하지만 그 일을 끝내고 싶어 해요."
+    },
+    {
+     "en": "He is lazy, so he never cleans his room.",
+     "ko": "그는 게을러서 자기 방을 절대 청소하지 않아요."
+    },
+    {
+     "en": "The restaurant is noisy, but the food is delicious.",
+     "ko": "그 식당은 시끄럽지만 음식은 맛있어요."
+    },
+    {
+     "en": "I felt sleepy, but I had to study.",
+     "ko": "나는 졸렸지만 공부해야 했어요."
+    },
+    {
+     "en": "We can walk or take the bus.",
+     "ko": "우리는 걸어가도 되고 버스를 타도 돼요."
+    },
+    {
+     "en": "My brother cooked dinner and I washed the dishes.",
+     "ko": "남동생이 저녁을 만들었고 나는 설거지를 했어요."
+    },
+    {
+     "en": "The soup was spicy, so I drank a lot of water.",
+     "ko": "수프가 매워서 나는 물을 많이 마셨어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "It was cold, ___ I put on my jacket.",
+     "choices": [
+      "so",
+      "but",
+      "or",
+      "because"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "추운 것이 이유이고 재킷을 입은 것이 결과이므로 so입니다.",
+     "error_tag": "conjunction-so",
+     "id": "A2-026-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "I like pizza, ___ I don't like cheese.",
+     "choices": [
+      "but",
+      "so",
+      "or",
+      "because"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "좋아하는 것과 좋아하지 않는 것이 반대 내용이므로 but입니다.",
+     "error_tag": "conjunction-but",
+     "id": "A2-026-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Would you like tea ___ coffee?",
+     "choices": [
+      "or",
+      "but",
+      "so",
+      "because"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "둘 중 하나를 고르는 질문이므로 or입니다.",
+     "error_tag": "conjunction-or",
+     "id": "A2-026-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "바른 문장은 어느 것인가요?",
+     "choices": [
+      "I was tired, so I went to bed early.",
+      "Because I was tired, so I went to bed early.",
+      "I was tired, because I went to bed early.",
+      "So I was tired, I went to bed early."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "결과를 말할 때는 앞 문장 뒤에 ', so'를 씁니다. because와 so를 함께 쓰지 않습니다.",
+     "error_tag": "conjunction-so",
+     "id": "A2-026-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: The soup is very spicy, ___ I like it. (그래도 좋아해요)",
+     "answer_text": "but",
+     "accepted_answers": [
+      "but"
+     ],
+     "explanation_ko": "반대되는 내용을 잇는 접속사는 but입니다.",
+     "error_tag": "conjunction-but",
+     "id": "A2-026-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: We missed the bus, ___ we walked to school. (그래서)",
+     "answer_text": "so",
+     "accepted_answers": [
+      "so"
+     ],
+     "explanation_ko": "버스를 놓친 것이 이유이고 걸어간 것이 결과이므로 so입니다.",
+     "error_tag": "conjunction-so",
+     "id": "A2-026-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "and / but / or / so 중 두 개를 골라 오늘 있었던 일을 두 문장으로 써 보세요.",
+    "example_answer_en": "I was tired, so I went to bed early. I wanted to read, but I was too sleepy.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-31",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-31"
+   }
   }
  ]
 }

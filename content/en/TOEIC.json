@@ -3645,6 +3645,205 @@
     "version": 1,
     "last_revised": "2026-10-30"
    }
+  },
+  {
+   "id": "TOEIC-020",
+   "level": "B1",
+   "track": "toeic",
+   "day": 20,
+   "title_ko": "TOEIC Part 5: 형용사 + 전치사 짝 responsible for, eligible for, familiar with, capable of, aware of",
+   "objective_ko": "Part 5 빈칸에서 형용사 뒤에 이어지는 전치사를 짝으로 외워 알맞은 것을 고른다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/toeic/about/listening-reading.html",
+     "publisher": "ETS",
+     "supports": "공식 시험 형식",
+     "checked_at": "2026-10-31"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "Part 5에는 형용사와 함께 쓰이는 전치사를 묻는 문제가 자주 나옵니다. 형용사 + 전치사를 한 덩어리로 외우세요. ① be responsible for + 명사/-ing(~에 책임이 있다) ② be eligible for + 명사(~의 자격이 있다) ③ be familiar with + 명사(~에 익숙하다) ④ be capable of + -ing(~할 능력이 있다) ⑤ be aware of + 명사(~을 알고 있다) ⑥ be dependent on + 명사(~에 의존하다). 전치사 뒤에는 명사나 -ing가 오고 동사원형이 바로 오지 않습니다. 빈칸 앞의 형용사를 먼저 보고 짝이 되는 전치사를 고르면 보기를 빠르게 줄일 수 있습니다. 자체 제작 연습이며 ETS 공식 문항이 아닙니다.",
+    "common_mistake_ko": "responsible to training(X) → responsible for training(O) / capable to process(X) → capable of processing(O) / familiar of the rules(X) → familiar with the rules(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "responsible",
+     "part_of_speech": "형용사",
+     "meaning_ko": "책임이 있는",
+     "example_en": "Ms. Park is responsible for training new employees.",
+     "example_ko": "박 씨는 신입 직원 교육을 책임지고 있어요."
+    },
+    {
+     "word": "eligible",
+     "part_of_speech": "형용사",
+     "meaning_ko": "자격이 있는",
+     "example_en": "Staff with one year of service are eligible for the bonus.",
+     "example_ko": "근속 1년 직원은 상여금을 받을 자격이 있어요."
+    },
+    {
+     "word": "familiar",
+     "part_of_speech": "형용사",
+     "meaning_ko": "익숙한, 잘 아는",
+     "example_en": "All staff should be familiar with the safety procedures.",
+     "example_ko": "모든 직원은 안전 절차를 잘 알고 있어야 해요."
+    },
+    {
+     "word": "capable",
+     "part_of_speech": "형용사",
+     "meaning_ko": "능력이 있는",
+     "example_en": "The new system is capable of processing 500 orders an hour.",
+     "example_ko": "새 시스템은 한 시간에 주문 500건을 처리할 수 있어요."
+    },
+    {
+     "word": "aware",
+     "part_of_speech": "형용사",
+     "meaning_ko": "알고 있는",
+     "example_en": "Customers should be aware of the new return policy.",
+     "example_ko": "고객은 새 반품 규정을 알고 있어야 해요."
+    },
+    {
+     "word": "dependent",
+     "part_of_speech": "형용사",
+     "meaning_ko": "의존하는",
+     "example_en": "The company is dependent on a few large clients.",
+     "example_ko": "그 회사는 몇몇 큰 고객에게 의존하고 있어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Ms. Park is responsible for training new employees.",
+     "ko": "박 씨는 신입 직원 교육을 책임지고 있습니다."
+    },
+    {
+     "en": "Employees with one year of service are eligible for the bonus program.",
+     "ko": "근속 1년 이상인 직원은 상여금 제도의 대상이 됩니다."
+    },
+    {
+     "en": "All staff should be familiar with the safety procedures.",
+     "ko": "모든 직원은 안전 절차를 숙지해야 합니다."
+    },
+    {
+     "en": "The new system is capable of processing 500 orders per hour.",
+     "ko": "새 시스템은 시간당 주문 500건을 처리할 수 있습니다."
+    },
+    {
+     "en": "Customers should be aware of the new return policy.",
+     "ko": "고객은 새 반품 규정을 알고 있어야 합니다."
+    },
+    {
+     "en": "The company is dependent on a few large clients.",
+     "ko": "그 회사는 몇몇 대형 고객에게 의존하고 있습니다."
+    },
+    {
+     "en": "Mr. Lee is responsible for ordering office supplies.",
+     "ko": "이 씨는 사무용품 주문을 담당합니다."
+    },
+    {
+     "en": "Only full-time employees are eligible for the health plan.",
+     "ko": "정규직 직원만 건강 보험 제도의 대상이 됩니다."
+    },
+    {
+     "en": "Are you familiar with the new accounting software?",
+     "ko": "새 회계 소프트웨어에 익숙하신가요?"
+    },
+    {
+     "en": "Please be aware of the change in the delivery schedule.",
+     "ko": "배송 일정 변경을 알아 두시기 바랍니다."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "Ms. Park is responsible ___ training new employees.",
+     "choices": [
+      "for",
+      "to",
+      "at",
+      "with"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "responsible 뒤에는 for를 써서 'be responsible for ~(~에 책임이 있다)'가 됩니다.",
+     "error_tag": "adjective-preposition",
+     "id": "TOEIC-020-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Employees with one year of service are eligible ___ the bonus program.",
+     "choices": [
+      "for",
+      "of",
+      "in",
+      "from"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "'~의 자격이 있다'는 be eligible for입니다.",
+     "error_tag": "adjective-preposition",
+     "id": "TOEIC-020-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "All staff should be familiar ___ the safety procedures.",
+     "choices": [
+      "with",
+      "of",
+      "in",
+      "by"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "'~에 익숙하다'는 be familiar with입니다.",
+     "error_tag": "adjective-preposition",
+     "id": "TOEIC-020-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "The new system is capable ___ processing 500 orders per hour.",
+     "choices": [
+      "of",
+      "for",
+      "to",
+      "with"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "'~할 능력이 있다'는 be capable of + -ing입니다.",
+     "error_tag": "adjective-preposition",
+     "id": "TOEIC-020-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 전치사 한 단어를 쓰세요: Customers should be aware ___ the new return policy.",
+     "answer_text": "of",
+     "accepted_answers": [
+      "of"
+     ],
+     "explanation_ko": "'~을 알고 있다'는 be aware of입니다.",
+     "error_tag": "adjective-preposition",
+     "id": "TOEIC-020-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 전치사 한 단어를 쓰세요: The company is dependent ___ a few large clients.",
+     "answer_text": "on",
+     "accepted_answers": [
+      "on"
+     ],
+     "explanation_ko": "'~에 의존하다'는 be dependent on입니다.",
+     "error_tag": "adjective-preposition",
+     "id": "TOEIC-020-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "직장이나 학교에서 내가 맡은 일을 be responsible for를 넣어 한 문장으로 써 보세요.",
+    "example_answer_en": "I am responsible for cleaning the classroom on Fridays.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-31",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-31"
+   }
   }
  ]
 }

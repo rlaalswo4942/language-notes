@@ -6422,6 +6422,173 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전"
+  },
+  {
+   "id": "JP-INTRO-50",
+   "day_index": 50,
+   "week_index": 8,
+   "level": "INTRO",
+   "unit_id": "INTRO-W08",
+   "lesson_type": "new",
+   "title_ko": "가타카나 촉음 ッ",
+   "objective_ko": "작은 ッ는 다음 자음 앞에서 한 박자 쉬며, 로마자로는 다음 자음을 겹쳐 씁니다. 외래어 단어에서 ッ를 읽는다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-INTRO-49"
+   ],
+   "new_items": [
+    {
+     "id": "kana-d50-01",
+     "kind": "kana",
+     "text": "ッ",
+     "reading_romanized": "(pause)",
+     "meaning_ko": null
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "ベッド",
+     "reading_romanized": "beddo",
+     "meaning_ko": "침대",
+     "explanation_ko": "ベ(be) + ッ + ド(do)입니다. ッ 뒤의 d를 겹쳐 beddo로 씁니다."
+    },
+    {
+     "japanese": "コップ",
+     "reading_romanized": "koppu",
+     "meaning_ko": "컵",
+     "explanation_ko": "コ(ko) + ッ + プ(pu)입니다. ッ 뒤의 p를 겹쳐 koppu로 씁니다."
+    },
+    {
+     "japanese": "カップ",
+     "reading_romanized": "kappu",
+     "meaning_ko": "컵, 잔",
+     "explanation_ko": "カ(ka) + ッ + プ(pu)입니다. 컵에 담긴 음료나 컵 모양 용기를 말할 때도 씁니다."
+    },
+    {
+     "japanese": "サッカー",
+     "reading_romanized": "sakkaa",
+     "meaning_ko": "축구",
+     "explanation_ko": "サ(sa) + ッ + カ(ka) + 장음 ー입니다. ッ 뒤의 k를 겹치고 ー는 길게 읽습니다."
+    },
+    {
+     "japanese": "ロケット",
+     "reading_romanized": "roketto",
+     "meaning_ko": "로켓",
+     "explanation_ko": "ロ(ro) + ケ(ke) + ッ + ト(to)입니다. ッ 뒤의 t를 겹쳐 roketto로 씁니다."
+    },
+    {
+     "japanese": "チケット",
+     "reading_romanized": "chiketto",
+     "meaning_ko": "티켓, 표",
+     "explanation_ko": "チ(chi) + ケ(ke) + ッ + ト(to)입니다."
+    },
+    {
+     "japanese": "バッグ",
+     "reading_romanized": "baggu",
+     "meaning_ko": "가방",
+     "explanation_ko": "バ(ba) + ッ + グ(gu)입니다. ッ 뒤의 g를 겹쳐 baggu로 씁니다."
+    },
+    {
+     "japanese": "ホットケーキ",
+     "reading_romanized": "hottokeeki",
+     "meaning_ko": "핫케이크",
+     "explanation_ko": "ホ(ho) + ッ + ト(to) + ケ(ke) + 장음 ー + キ(ki)입니다."
+    },
+    {
+     "japanese": "ストップ",
+     "reading_romanized": "sutoppu",
+     "meaning_ko": "정지, 스톱",
+     "explanation_ko": "ス(su) + ト(to) + ッ + プ(pu)입니다. ッ 뒤의 p를 겹쳐 sutoppu로 씁니다."
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「ッ」의 일반적인 로마자 표기는 무엇인가요?",
+     "options": [
+      "(pause)",
+      "tsu",
+      "su",
+      "chi"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "작은 ッ는 소리를 한 박자 쉬는 촉음이며 (pause)로 표기합니다. 큰 ツ(tsu)와 구별하세요.",
+     "id": "JP-INTRO-50-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「ベッド」의 읽기를 고르세요.",
+     "options": [
+      "beddo",
+      "bedo",
+      "betsudo",
+      "bedodo"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ベ=be, ッ는 다음 자음을 겹침, ド=do → beddo(침대).",
+     "id": "JP-INTRO-50-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「サッカー」의 뜻은?",
+     "options": [
+      "축구",
+      "컵",
+      "침대",
+      "가방"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "サッカー(sakkaa)는 '축구'입니다. 컵은 コップ, 침대는 ベッド, 가방은 バッグ입니다.",
+     "id": "JP-INTRO-50-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「バッグ」의 뜻은?",
+     "options": [
+      "가방",
+      "핫케이크",
+      "로켓",
+      "정지"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "バッグ(baggu)는 '가방'입니다. 핫케이크는 ホットケーキ, 로켓은 ロケット입니다.",
+     "id": "JP-INTRO-50-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「コップ」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "koppu",
+     "accepted_answers": [
+      "koppu"
+     ],
+     "explanation_ko": "コップ = koppu (컵). ッ 뒤의 p를 겹쳐 씁니다.",
+     "id": "JP-INTRO-50-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「チケット」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "chiketto",
+     "accepted_answers": [
+      "chiketto",
+      "tiketto"
+     ],
+     "explanation_ko": "チケット = chiketto (티켓). ッ 뒤의 t를 겹쳐 씁니다.",
+     "id": "JP-INTRO-50-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_KATAKANA"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전"
   }
  ]
 }

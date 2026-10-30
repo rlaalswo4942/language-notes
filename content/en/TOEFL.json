@@ -3616,6 +3616,202 @@
     "version": 1,
     "last_revised": "2026-10-30"
    }
+  },
+  {
+   "id": "TOEFL-020",
+   "level": "B1",
+   "track": "toefl",
+   "day": 20,
+   "title_ko": "TOEFL 2026 Listen and Choose a Response 2: 요청·간접 질문·제안에 알맞은 응답 고르기",
+   "objective_ko": "Would you mind ...?, Do you know ...?, Have you ... yet?, How about ...? 같은 질문에 맞는 응답을 고른다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/content/ets-org/language-master/ko/home/toefl/test-takers/ibt/about/content.html",
+     "publisher": "ETS",
+     "supports": "2026 형식 유형명",
+     "checked_at": "2026-10-31"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "2026-01-21 이후 TOEFL iBT Listening에는 Listen and Choose a Response 유형이 있습니다(공식 안내 유형명). 이 사이트는 소리가 없으므로 아래는 문자로 읽는 비공식 연습입니다. 질문의 모양에 따라 알맞은 응답이 달라집니다. ① Would you mind ...? / Do you mind if ...?는 '꺼리세요?'라는 뜻이라 허락하려면 Not at all. / Go ahead.로 답하고, Yes는 거절로 들릴 수 있습니다. ② Do you know when ...?는 정보를 묻는 간접 질문이므로 시각·장소 같은 정보로 답합니다. ③ Have you ... yet?에는 Not yet. / Yes, I just did.처럼 완료 여부로 답합니다. ④ How about ...?는 제안이므로 수락하거나 다른 시간·방법을 제안하는 응답이 자연스럽습니다. 질문의 단어를 그대로 반복할 뿐 질문에 답하지 않는 응답은 정답이 아닙니다.",
+    "common_mistake_ko": "질문의 단어만 반복한 보기를 고르는 실수(예: 'Would you mind closing the window?' → 'The window is big.') → 질문이 요청인지, 정보를 묻는지, 제안인지 먼저 판단합니다."
+   },
+   "vocabulary": [
+    {
+     "word": "postpone",
+     "part_of_speech": "동사",
+     "meaning_ko": "미루다, 연기하다",
+     "example_en": "The professor postponed the quiz until Friday.",
+     "example_ko": "교수님은 퀴즈를 금요일로 미루셨어요."
+    },
+    {
+     "word": "recommend",
+     "part_of_speech": "동사",
+     "meaning_ko": "추천하다",
+     "example_en": "Can you recommend a good book on biology?",
+     "example_ko": "생물학 책 좋은 것 하나 추천해 줄래요?"
+    },
+    {
+     "word": "upcoming",
+     "part_of_speech": "형용사",
+     "meaning_ko": "다가오는, 곧 있을",
+     "example_en": "Is there an upcoming deadline for the scholarship?",
+     "example_ko": "장학금 마감이 곧 있나요?"
+    },
+    {
+     "word": "cancel",
+     "part_of_speech": "동사",
+     "meaning_ko": "취소하다",
+     "example_en": "They canceled the review session.",
+     "example_ko": "그들은 복습 시간을 취소했어요."
+    },
+    {
+     "word": "submit",
+     "part_of_speech": "동사",
+     "meaning_ko": "제출하다",
+     "example_en": "You must submit the form online.",
+     "example_ko": "서식은 온라인으로 제출해야 해요."
+    },
+    {
+     "word": "wonder",
+     "part_of_speech": "동사",
+     "meaning_ko": "궁금해하다",
+     "example_en": "I wonder if the library is open on Sunday.",
+     "example_ko": "도서관이 일요일에 문을 여는지 궁금해요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Would you mind closing the window? — Not at all.",
+     "ko": "창문 좀 닫아 주시겠어요? — 그럼요."
+    },
+    {
+     "en": "Do you know when the lab closes? — I think it closes at nine.",
+     "ko": "실험실이 언제 닫는지 알아요? — 9시에 닫는 것 같아요."
+    },
+    {
+     "en": "Have you handed in the essay yet? — Not yet. I'm finishing it tonight.",
+     "ko": "리포트 냈어요? — 아직요. 오늘 밤에 끝낼 거예요."
+    },
+    {
+     "en": "How about meeting after class? — Sorry, I have a lab until five. Can we meet at six?",
+     "ko": "수업 끝나고 만날까요? — 미안해요, 5시까지 실험이 있어요. 6시에 만날 수 있을까요?"
+    },
+    {
+     "en": "Did you hear that the lecture was postponed? — No, when is it now?",
+     "ko": "강의가 미뤄졌다는 얘기 들었어요? — 아니요, 이제 언제예요?"
+    },
+    {
+     "en": "Can you recommend a good book on biology? — Try this one. It's easy to read.",
+     "ko": "생물학 책 좋은 것 추천해 줄래요? — 이걸 읽어 봐요. 읽기 쉬워요."
+    },
+    {
+     "en": "Is there an upcoming deadline for the scholarship? — Yes, it's due on the fifteenth.",
+     "ko": "장학금 마감이 곧 있나요? — 네, 15일까지예요."
+    },
+    {
+     "en": "Do you mind if I sit here? — Go ahead.",
+     "ko": "여기 앉아도 될까요? — 앉으세요."
+    },
+    {
+     "en": "I wonder if the library is open on Sunday. — I think it's closed on weekends.",
+     "ko": "도서관이 일요일에 하는지 궁금해요. — 주말에는 닫는 것 같아요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "질문: 'Would you mind closing the window?' 가장 알맞은 응답은?",
+     "choices": [
+      "Not at all. I'll do it now.",
+      "Yes, it is a window.",
+      "Because it is cold.",
+      "In the morning."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "요청에 허락하는 응답은 Not at all.입니다. 나머지는 요청에 답하지 않습니다.",
+     "error_tag": "response",
+     "id": "TOEFL-020-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "질문: 'Do you know when the lab closes?' 가장 알맞은 응답은?",
+     "choices": [
+      "I think it closes at nine.",
+      "Yes, it is a big lab.",
+      "In the science building.",
+      "Because I need it."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "when 질문은 시각으로 답합니다.",
+     "error_tag": "response",
+     "id": "TOEFL-020-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "질문: 'Have you handed in the essay yet?' 가장 알맞은 응답은?",
+     "choices": [
+      "Not yet. I'm finishing it tonight.",
+      "The professor is in room 204.",
+      "Two pages, please.",
+      "I will hand it to the library."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "완료 여부를 묻는 질문에는 Not yet.으로 답하고 이유를 덧붙일 수 있습니다.",
+     "error_tag": "response",
+     "id": "TOEFL-020-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "질문: 'How about meeting after class?' 가장 알맞은 응답은?",
+     "choices": [
+      "Sounds good. Where should we meet?",
+      "It was a long class.",
+      "I meet him on Monday.",
+      "Yes, after is a class."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "제안에는 수락하며 세부 사항을 묻는 응답이 자연스럽습니다.",
+     "error_tag": "response",
+     "id": "TOEFL-020-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "대화를 완성하세요. A: Do you mind if I open the window? B: ___ at all. (괜찮아요)",
+     "answer_text": "Not",
+     "accepted_answers": [
+      "Not",
+      "not"
+     ],
+     "explanation_ko": "Do you mind ...?에 허락할 때는 Not at all.이라고 합니다.",
+     "error_tag": "response",
+     "id": "TOEFL-020-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "대화를 완성하세요. A: Have you finished the report? B: Not ___. (아직이요)",
+     "answer_text": "yet",
+     "accepted_answers": [
+      "yet"
+     ],
+     "explanation_ko": "완료되지 않았을 때 '아직'은 Not yet.입니다.",
+     "error_tag": "response",
+     "id": "TOEFL-020-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "친구에게 부탁하는 말과 그에 대한 응답을 두 줄 대화로 써 보세요.",
+    "example_answer_en": "A: Would you mind lending me your notes? B: Not at all. Here you are.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-10-31",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-10-31"
+   }
   }
  ]
 }
