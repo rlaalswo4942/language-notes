@@ -5100,6 +5100,205 @@
     "version": 1,
     "last_revised": "2026-10-31"
    }
+  },
+  {
+   "id": "A2-027",
+   "level": "A2",
+   "track": "foundation",
+   "day": 27,
+   "title_ko": "시간 접속사 when / while / before / after",
+   "objective_ko": "when, while, before, after로 두 동작의 때와 순서를 한 문장에 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-01"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "시간을 나타내는 접속사입니다. ① when: ~할 때 (When I get home, I take a shower.) ② while: ~하는 동안 (I listen to music while I cook dinner.) ③ before: ~하기 전에 (Brush your teeth before you go to bed.) ④ after: ~한 뒤에 (After we finished dinner, we watched TV.) ⑤ 접속사가 있는 절이 문장 앞에 오면 쉼표를 찍고, 뒤에 오면 쉼표 없이 씁니다. ⑥ 앞으로의 일을 말해도 시간 접속사 뒤에는 will을 쓰지 않고 현재형을 씁니다: I will call you when I arrive.",
+    "common_mistake_ko": "I will call you when I will arrive.(X) → I will call you when I arrive.(O) / I listen to music during I cook.(X) → I listen to music while I cook.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "breakfast",
+     "part_of_speech": "명사",
+     "meaning_ko": "아침 식사",
+     "example_en": "I eat breakfast at seven.",
+     "example_ko": "나는 7시에 아침을 먹어요."
+    },
+    {
+     "word": "shower",
+     "part_of_speech": "명사",
+     "meaning_ko": "샤워",
+     "example_en": "He takes a shower every morning.",
+     "example_ko": "그는 매일 아침 샤워를 해요."
+    },
+    {
+     "word": "dinner",
+     "part_of_speech": "명사",
+     "meaning_ko": "저녁 식사",
+     "example_en": "We have dinner at home on Sundays.",
+     "example_ko": "우리는 일요일에 집에서 저녁을 먹어요."
+    },
+    {
+     "word": "leave",
+     "part_of_speech": "동사",
+     "meaning_ko": "떠나다, 나가다",
+     "example_en": "I leave the office at six.",
+     "example_ko": "나는 6시에 사무실을 나서요."
+    },
+    {
+     "word": "arrive",
+     "part_of_speech": "동사",
+     "meaning_ko": "도착하다",
+     "example_en": "The train arrives at nine.",
+     "example_ko": "기차는 9시에 도착해요."
+    },
+    {
+     "word": "nap",
+     "part_of_speech": "명사",
+     "meaning_ko": "낮잠",
+     "example_en": "The baby takes a nap after lunch.",
+     "example_ko": "아기는 점심 뒤에 낮잠을 자요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "When I get home, I take a shower.",
+     "ko": "집에 도착하면 나는 샤워를 해요."
+    },
+    {
+     "en": "I listen to music while I cook dinner.",
+     "ko": "나는 저녁을 요리하는 동안 음악을 들어요."
+    },
+    {
+     "en": "Brush your teeth before you go to bed.",
+     "ko": "자기 전에 이를 닦으세요."
+    },
+    {
+     "en": "After we finished dinner, we watched TV.",
+     "ko": "저녁을 다 먹은 뒤에 우리는 TV를 봤어요."
+    },
+    {
+     "en": "Call me when you arrive at the station.",
+     "ko": "역에 도착하면 전화해 주세요."
+    },
+    {
+     "en": "Please wash your hands before you eat breakfast.",
+     "ko": "아침을 먹기 전에 손을 씻어 주세요."
+    },
+    {
+     "en": "He takes a nap after he comes home from school.",
+     "ko": "그는 학교에서 돌아온 뒤에 낮잠을 자요."
+    },
+    {
+     "en": "I always read the news while I eat breakfast.",
+     "ko": "나는 아침을 먹는 동안 항상 뉴스를 읽어요."
+    },
+    {
+     "en": "When it rains, we stay at home.",
+     "ko": "비가 오면 우리는 집에 있어요."
+    },
+    {
+     "en": "I will call you after I leave the office.",
+     "ko": "사무실을 나선 뒤에 전화할게요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "Brush your teeth ___ you go to bed. (자기 전에)",
+     "choices": [
+      "before",
+      "after",
+      "while",
+      "because"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "'~하기 전에'는 before입니다.",
+     "error_tag": "time-clause",
+     "id": "A2-027-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "I listen to music ___ I cook dinner. (요리하는 동안)",
+     "choices": [
+      "while",
+      "before",
+      "after",
+      "because"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "두 동작이 같은 시간에 이어질 때 '~하는 동안'은 while입니다.",
+     "error_tag": "time-clause",
+     "id": "A2-027-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "___ we finished lunch, we went for a walk. (점심을 먹은 뒤에)",
+     "choices": [
+      "After",
+      "Before",
+      "While",
+      "Because"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "먼저 끝난 동작 앞에 '~한 뒤에'를 뜻하는 After를 씁니다.",
+     "error_tag": "time-clause",
+     "id": "A2-027-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "바른 문장은 어느 것인가요?",
+     "choices": [
+      "I will call you when I arrive at the station.",
+      "I will call you when I will arrive at the station.",
+      "I will call you when I arriving at the station.",
+      "I will call you when arrive I at the station."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "시간 접속사 뒤에서는 미래의 일도 현재형(arrive)으로 씁니다.",
+     "error_tag": "future-time-clause",
+     "id": "A2-027-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Wash your hands ___ you eat. (먹기 전에)",
+     "answer_text": "before",
+     "accepted_answers": [
+      "before"
+     ],
+     "explanation_ko": "'~하기 전에'는 before입니다.",
+     "error_tag": "time-clause",
+     "id": "A2-027-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: He takes a nap ___ he comes home. (집에 온 뒤에)",
+     "answer_text": "after",
+     "accepted_answers": [
+      "after"
+     ],
+     "explanation_ko": "'~한 뒤에'는 after입니다.",
+     "error_tag": "time-clause",
+     "id": "A2-027-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "when / while / before / after 중 두 개 이상을 써서 하루 일과를 두 문장으로 써 보세요.",
+    "example_answer_en": "I check my phone when I wake up. I read the news while I eat breakfast.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-01",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-01"
+   }
   }
  ]
 }

@@ -3812,6 +3812,210 @@
     "version": 1,
     "last_revised": "2026-10-31"
    }
+  },
+  {
+   "id": "TOEFL-021",
+   "level": "B1",
+   "track": "toefl",
+   "day": 21,
+   "title_ko": "TOEFL 2026 3주 복습: 문장 만들기·이메일·토론·단어 완성·공지문·응답 고르기",
+   "objective_ko": "TOEFL 15~20일차 유형(Build a Sentence 2, Write an Email 2, Academic Discussion 2, Complete the Words 2, Read in Daily Life 2, Listen and Choose a Response 2)의 풀이 단서를 섞어 다시 확인한다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/content/ets-org/language-master/ko/home/toefl/test-takers/ibt/about/content.html",
+     "publisher": "ETS",
+     "supports": "2026 형식 유형명",
+     "checked_at": "2026-11-01"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "2026-01-21 이후 형식의 유형명은 ETS 공식 안내를 기준으로 하며, 아래는 이 사이트가 만든 비공식 연습입니다. 이번 주에 배운 여섯 가지를 복습합니다. ① 간접 의문문은 평서문 어순입니다: Could you tell me where the library is?(TOEFL-015) ② 이메일은 목적 → 구체적 요청 → 감사 인사 순서로 정중하게 씁니다(TOEFL-016). ③ 토론 글은 동료 의견을 언급하고(I agree with ... that ...), 내 의견과 이유를 덧붙입니다(TOEFL-017). ④ 단어 완성은 보이는 글자와 문맥으로 빠진 글자를 채웁니다(TOEFL-018). ⑤ 일상 지문(공지·안내)은 숫자·조건·요일을 찾습니다(TOEFL-019). ⑥ 응답 고르기는 질문이 요청인지, 정보를 묻는지, 제안인지 먼저 판단합니다(TOEFL-020). 점수를 예측하는 자료가 아닙니다.",
+    "common_mistake_ko": "Could you tell me where is the library?(X) → Could you tell me where the library is?(O) / 질문의 단어만 반복한 보기를 고르는 실수 → 질문의 종류를 먼저 판단합니다."
+   },
+   "vocabulary": [
+    {
+     "word": "assignment",
+     "part_of_speech": "명사",
+     "meaning_ko": "과제",
+     "example_en": "The assignment is due on Friday.",
+     "example_ko": "과제는 금요일까지예요."
+    },
+    {
+     "word": "available",
+     "part_of_speech": "형용사",
+     "meaning_ko": "이용할 수 있는, 시간이 되는",
+     "example_en": "Is the study room available this afternoon?",
+     "example_ko": "오늘 오후에 스터디룸을 쓸 수 있나요?"
+    },
+    {
+     "word": "appreciate",
+     "part_of_speech": "동사",
+     "meaning_ko": "감사하다",
+     "example_en": "I appreciate your quick reply.",
+     "example_ko": "빠른 답장에 감사드립니다."
+    },
+    {
+     "word": "extension",
+     "part_of_speech": "명사",
+     "meaning_ko": "연장",
+     "example_en": "The professor gave me a one-day extension.",
+     "example_ko": "교수님이 하루 연장을 해 주셨어요."
+    },
+    {
+     "word": "upcoming",
+     "part_of_speech": "형용사",
+     "meaning_ko": "다가오는",
+     "example_en": "Please check the upcoming schedule.",
+     "example_ko": "다가오는 일정을 확인해 주세요."
+    },
+    {
+     "word": "postpone",
+     "part_of_speech": "동사",
+     "meaning_ko": "미루다",
+     "example_en": "They postponed the meeting to Monday.",
+     "example_ko": "그들은 회의를 월요일로 미뤘어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Could you tell me where the library is?",
+     "ko": "도서관이 어디에 있는지 알려 주시겠어요?"
+    },
+    {
+     "en": "I do not know when the lab opens.",
+     "ko": "실험실이 언제 문을 여는지 모르겠어요."
+    },
+    {
+     "en": "Dear Professor Kim, I am writing to ask whether I can have an extension on the assignment.",
+     "ko": "김 교수님께, 과제 기한 연장이 가능한지 여쭙고자 메일을 드립니다."
+    },
+    {
+     "en": "I would appreciate it if you could reply by Friday.",
+     "ko": "금요일까지 답장해 주시면 감사하겠습니다."
+    },
+    {
+     "en": "I agree with Mina that remote classes save time, but I would add that they can make it harder to ask questions.",
+     "ko": "저는 원격 수업이 시간을 아낀다는 미나의 의견에 동의하지만, 질문하기가 더 어려워질 수 있다는 점도 덧붙이고 싶어요."
+    },
+    {
+     "en": "The assignment is due on Friday, and I need to submit it online.",
+     "ko": "과제는 금요일까지이고, 나는 그것을 온라인으로 제출해야 해요."
+    },
+    {
+     "en": "The pool is open from 7 a.m. to 9 p.m. on weekdays.",
+     "ko": "수영장은 평일 오전 7시부터 오후 9시까지 문을 엽니다."
+    },
+    {
+     "en": "Guests must show an ID card to enter the building.",
+     "ko": "방문객은 건물에 들어가려면 신분증을 보여야 합니다."
+    },
+    {
+     "en": "Would you mind closing the window? — Not at all.",
+     "ko": "창문 좀 닫아 주시겠어요? — 그럼요."
+    },
+    {
+     "en": "How about meeting after class? — Sorry, I have a lab until five. Can we meet at six?",
+     "ko": "수업 끝나고 만날까요? — 미안해요, 5시까지 실험이 있어요. 6시에 만날 수 있을까요?"
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "어순이 바른 문장은 어느 것인가요?",
+     "choices": [
+      "Could you tell me where the library is?",
+      "Could you tell me where is the library?",
+      "Could you tell me where the library does?",
+      "Could you tell me the library where is?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "간접 의문문은 의문사 뒤가 평서문 어순(주어 + 동사)입니다.",
+     "error_tag": "indirect-question",
+     "id": "TOEFL-021-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "정중한 요청 이메일의 첫 문장으로 가장 알맞은 것은?",
+     "choices": [
+      "Dear Professor Kim, I am writing to ask whether I can have an extension.",
+      "Hey, give me more time.",
+      "I want extension now.",
+      "Professor, your deadline is bad."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "받는 사람을 부르고 목적을 정중하게 밝히는 문장이 알맞습니다.",
+     "error_tag": "email",
+     "id": "TOEFL-021-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "동료 의견에 반응하며 내 생각을 더하는 문장으로 가장 알맞은 것은?",
+     "choices": [
+      "I agree with Mina that remote classes save time, but I would add that they can make it harder to ask questions.",
+      "Mina is wrong.",
+      "I like pizza.",
+      "Yes."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "동료의 의견을 언급하고 내 의견과 이유를 덧붙이는 문장입니다.",
+     "error_tag": "discussion",
+     "id": "TOEFL-021-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "질문: 'Would you mind closing the window?' 가장 알맞은 응답은?",
+     "choices": [
+      "Not at all. I'll do it now.",
+      "Yes, the window is big.",
+      "It is on the second floor.",
+      "I closed my book."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "요청에는 수락하는 응답이 알맞습니다. Would you mind ...?에는 Not at all.이 승낙입니다.",
+     "error_tag": "response",
+     "id": "TOEFL-021-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 들어갈 나머지 글자를 쓰세요: The assign___ is due on Friday. (과제)",
+     "answer_text": "ment",
+     "accepted_answers": [
+      "ment",
+      "assignment"
+     ],
+     "explanation_ko": "assign + ment = assignment(과제)입니다.",
+     "error_tag": "complete-words",
+     "id": "TOEFL-021-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "공지: 'The pool is open from 7 a.m. to 9 p.m. on weekdays.' 평일에 문을 닫는 시각을 숫자와 a.m./p.m.으로 쓰세요.",
+     "answer_text": "9 p.m.",
+     "accepted_answers": [
+      "9 p.m.",
+      "9 pm",
+      "9pm",
+      "9:00 p.m.",
+      "9 p.m"
+     ],
+     "explanation_ko": "공지에서 to 뒤의 시각이 문 닫는 시각입니다.",
+     "error_tag": "daily-life",
+     "id": "TOEFL-021-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "TOEFL 이메일 연습: 교수님께 과제 기한 연장을 정중하게 요청하는 문장 두 개를 써 보세요.",
+    "example_answer_en": "I am writing to ask whether I can have an extension on the assignment. I would appreciate it if you could reply by Friday.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-01",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-01"
+   }
   }
  ]
 }

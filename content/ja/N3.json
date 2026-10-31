@@ -5615,6 +5615,220 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N3-27",
+   "day_index": 27,
+   "week_index": 4,
+   "level": "N3",
+   "unit_id": "N3-W04",
+   "lesson_type": "practice",
+   "title_ko": "적용: 요리 교실 이야기 읽기",
+   "objective_ko": "4주차에 배운 문형(使役形・〜ほど・〜にしては・〜とおり(に)・〜ついでに)이 들어 있는 요리 교실 이야기를 읽고 뜻을 확인한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N3-26"
+   ],
+   "explanation_ko": "使役形(〜させる), 〜ほど, 〜にしては, 〜とおり(に), 〜ついでに 를 요리 교실 이야기에서 복습합니다. 使役形는 ‘시키다·하게 하다’이며 시키는 사람은 は, 하는 사람은 に로 나타냅니다. 〜にしては는 기대와 다른 결과(~치고는), 〜ついでに는 한 김에 다른 일을 함을 뜻합니다.",
+   "usage_notes": [
+    "使役形: 切る → 切らせる, 食べる → 食べさせる, 手伝う → 手伝わせる.",
+    "〜とおりに는 명사 뒤에 のとおりに로 이어집니다: 説明のとおりに.",
+    "〜にしては는 ‘그 조건에서 예상되는 것과 다르다’는 평가를 말할 때 씁니다."
+   ],
+   "common_mistakes": [
+    "先生は 生徒を 野菜を 切らせる(X) → 先生は 生徒に 野菜を 切らせる(O): 목적어가 있으면 시키는 대상에 に를 씁니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N3-27-01",
+     "kind": "word",
+     "text": "料理教室{りょうりきょうしつ}",
+     "reading_kana": "りょうりきょうしつ",
+     "reading_romanized": "ryouri kyoushitsu",
+     "meaning_ko": "요리 교실",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-27-02",
+     "kind": "word",
+     "text": "生徒{せいと}",
+     "reading_kana": "せいと",
+     "reading_romanized": "seito",
+     "meaning_ko": "학생",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-27-03",
+     "kind": "word",
+     "text": "説明{せつめい}",
+     "reading_kana": "せつめい",
+     "reading_romanized": "setsumei",
+     "meaning_ko": "설명",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N3-27-04",
+     "kind": "word",
+     "text": "味{あじ}",
+     "reading_kana": "あじ",
+     "reading_romanized": "aji",
+     "meaning_ko": "맛",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-27-05",
+     "kind": "word",
+     "text": "通{かよ}う",
+     "reading_kana": "かよう",
+     "reading_romanized": "kayou",
+     "meaning_ko": "다니다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N3-27-06",
+     "kind": "word",
+     "text": "習{なら}う",
+     "reading_kana": "ならう",
+     "reading_romanized": "narau",
+     "meaning_ko": "배우다",
+     "part_of_speech": "동사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "先月{せんげつ}、料理教室{りょうりきょうしつ}に通{かよ}い始{はじ}めた。",
+     "meaning_ko": "지난달 요리 교실에 다니기 시작했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "先生{せんせい}は生徒{せいと}に自分{じぶん}で野菜{やさい}を切{き}らせる。",
+     "meaning_ko": "선생님은 학생에게 직접 채소를 썰게 한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "先生{せんせい}の説明{せつめい}のとおりに作{つく}ると、味{あじ}がよくなる。",
+     "meaning_ko": "선생님의 설명대로 만들면 맛이 좋아진다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "始{はじ}めたばかりにしては、私{わたし}の料理{りょうり}はよくできた。",
+     "meaning_ko": "시작한 지 얼마 안 된 것치고는 내 요리는 잘 되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "思{おも}ったほど難{むずか}しくなかった。",
+     "meaning_ko": "생각한 만큼 어렵지 않았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "帰{かえ}りにスーパーへ寄{よ}ったついでに、牛乳{ぎゅうにゅう}も買{か}った。",
+     "meaning_ko": "돌아오는 길에 슈퍼마켓에 들른 김에 우유도 샀다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "母{はは}は私{わたし}に毎日{まいにち}料理{りょうり}を手伝{てつだ}わせる。",
+     "meaning_ko": "어머니는 나에게 매일 요리를 돕게 한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "家族{かぞく}は私{わたし}の料理{りょうり}を食{た}べて、喜{よろこ}んだ。",
+     "meaning_ko": "가족은 내 요리를 먹고 기뻐했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "来週{らいしゅう}は、習{なら}ったとおりに家{いえ}でも作{つく}ってみたい。",
+     "meaning_ko": "다음 주에는 배운 대로 집에서도 만들어 보고 싶다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「先生は生徒に野菜を切らせる」의 뜻은?",
+     "options": [
+      "선생님은 학생에게 채소를 썰게 한다",
+      "학생이 선생님께 채소를 썰라고 시킨다",
+      "선생님이 채소를 썰었다",
+      "채소가 선생님에게 잘린다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "切らせる는 切る의 使役形로, 시키는 사람(선생님)이 하는 사람(학생)에게 ‘썰게 한다’는 뜻입니다.",
+     "id": "JP-N3-27-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 始めたばかり（　）、上手にできた。",
+     "options": [
+      "にしては",
+      "について",
+      "にとって",
+      "として"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘시작한 지 얼마 안 된 것치고는’이라는 평가이므로 にしては입니다.",
+     "id": "JP-N3-27-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「思ったほど難しくなかった」의 뜻은?",
+     "options": [
+      "생각한 만큼 어렵지 않았다",
+      "생각보다 훨씬 어려웠다",
+      "생각한 대로 어려웠다",
+      "어려울 것 같지 않다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜ほど〜ない는 ‘~만큼 ~하지 않다’입니다.",
+     "id": "JP-N3-27-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 先生の説明（　）作ると、うまくいく。",
+     "options": [
+      "のとおりに",
+      "のために",
+      "のうちに",
+      "のせいで"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘설명대로’는 説明のとおりに입니다.",
+     "id": "JP-N3-27-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「説明」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "setsumei",
+     "accepted_answers": [
+      "setsumei"
+     ],
+     "explanation_ko": "説明 = せつめい(setsumei), ‘설명’입니다.",
+     "id": "JP-N3-27-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「生徒」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "seito",
+     "accepted_answers": [
+      "seito"
+     ],
+     "explanation_ko": "生徒 = せいと(seito), ‘학생’입니다.",
+     "id": "JP-N3-27-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

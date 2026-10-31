@@ -5586,6 +5586,220 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-27",
+   "day_index": 27,
+   "week_index": 4,
+   "level": "N2",
+   "unit_id": "N2-W04",
+   "lesson_type": "practice",
+   "title_ko": "적용: 시민공원 공사 소식 읽기",
+   "objective_ko": "4주차에 배운 문형(〜からには・〜に関して・〜に際して・〜おそれがある・〜次第)이 들어 있는 공원 공사 소식을 읽고 뜻을 확인한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-26"
+   ],
+   "explanation_ko": "〜からには, 〜に関して・〜に関する, 〜に際して・〜にあたって, 〜おそれがある, 〜次第 를 공원 공사 소식에서 복습합니다. 〜次第는 ‘동사 ます형 + 次第’(~하는 대로)와 ‘명사 + 次第’(~에 달려 있다)를 구별해야 합니다. 〜おそれがある는 나쁜 일이 생길 가능성에 씁니다.",
+   "usage_notes": [
+    "〜に関する + 명사 / 〜に関して + 서술 형태를 구별합니다.",
+    "〜おそれがある는 좋지 않은 일에만 씁니다(土砂崩れのおそれ).",
+    "〜次第는 ます형에 붙이면 ‘~하는 대로’, 명사에 붙이면 ‘~에 달려 있다’입니다."
+   ],
+   "common_mistakes": [
+    "雨が続くと、明日は晴れるおそれがある(X) → 좋은 일에는 おそれ를 쓰지 않습니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N2-27-01",
+     "kind": "word",
+     "text": "近隣{きんりん}",
+     "reading_kana": "きんりん",
+     "reading_romanized": "kinrin",
+     "meaning_ko": "인근, 이웃",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-27-02",
+     "kind": "word",
+     "text": "一般{いっぱん}",
+     "reading_kana": "いっぱん",
+     "reading_romanized": "ippan",
+     "meaning_ko": "일반",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-27-03",
+     "kind": "word",
+     "text": "日程{にってい}",
+     "reading_kana": "にってい",
+     "reading_romanized": "nittei",
+     "meaning_ko": "일정",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-27-04",
+     "kind": "word",
+     "text": "公開{こうかい}",
+     "reading_kana": "こうかい",
+     "reading_romanized": "koukai",
+     "meaning_ko": "공개",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N2-27-05",
+     "kind": "word",
+     "text": "延期{えんき}",
+     "reading_kana": "えんき",
+     "reading_romanized": "enki",
+     "meaning_ko": "연기",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N2-27-06",
+     "kind": "word",
+     "text": "土砂崩{どしゃくず}れ",
+     "reading_kana": "どしゃくずれ",
+     "reading_romanized": "doshakuzure",
+     "meaning_ko": "산사태",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "市民公園{しみんこうえん}の利用{りよう}に関{かん}して、市{し}は新{あたら}しい規則{きそく}を発表{はっぴょう}した。",
+     "meaning_ko": "시는 시민공원 이용에 관해 새 규칙을 발표했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "工事{こうじ}を始{はじ}めるに際{さい}して、近隣{きんりん}の住民{じゅうみん}に説明会{せつめいかい}が開{ひら}かれた。",
+     "meaning_ko": "공사를 시작하면서 인근 주민에게 설명회가 열렸다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "説明会{せつめいかい}で意見{いけん}を述{の}べたからには、最後{さいご}まで責任{せきにん}を持{も}たなければならない。",
+     "meaning_ko": "설명회에서 의견을 말한 이상 끝까지 책임을 져야 한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "雨{あめ}が続{つづ}くと、土砂崩{どしゃくず}れが起{お}こるおそれがある。",
+     "meaning_ko": "비가 계속되면 산사태가 일어날 우려가 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "工事{こうじ}が終{お}わり次第{しだい}、公園{こうえん}は一般{いっぱん}に公開{こうかい}される。",
+     "meaning_ko": "공사가 끝나는 대로 공원은 일반에 공개된다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "公開{こうかい}の日程{にってい}は、天候{てんこう}次第{しだい}で変{か}わる可能性{かのうせい}がある。",
+     "meaning_ko": "공개 일정은 날씨에 따라 바뀔 가능성이 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "新{あたら}しい公園{こうえん}に関{かん}する質問{しつもん}は、市役所{しやくしょ}で受{う}け付{つ}けている。",
+     "meaning_ko": "새 공원에 관한 질문은 시청에서 접수하고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "利用{りよう}にあたって、ごみは必{かなら}ず持{も}ち帰{かえ}ること。",
+     "meaning_ko": "이용할 때는 쓰레기를 반드시 가지고 돌아갈 것.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "台風{たいふう}が近{ちか}づいているので、延期{えんき}のおそれもある。",
+     "meaning_ko": "태풍이 다가오고 있어서 연기될 우려도 있다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 公園（　）質問は、市役所で受け付けている。",
+     "options": [
+      "に関する",
+      "に際する",
+      "次第の",
+      "おそれの"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "명사를 꾸미는 ‘~에 관한’은 に関する입니다.",
+     "id": "JP-N2-27-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 工事が終わり（　）、公園は公開される。",
+     "options": [
+      "次第",
+      "ながら",
+      "ために",
+      "ほど"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘끝나는 대로’는 ます형 + 次第입니다.",
+     "id": "JP-N2-27-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「土砂崩れが起こるおそれがある」의 뜻은?",
+     "options": [
+      "산사태가 일어날 우려가 있다",
+      "산사태가 일어났다",
+      "산사태가 일어날 리가 없다",
+      "산사태가 일어나기를 바란다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜おそれがある는 나쁜 일이 일어날 우려를 나타냅니다.",
+     "id": "JP-N2-27-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「意見を述べたからには、責任を持たなければならない」의 뜻은?",
+     "options": [
+      "의견을 말한 이상 책임을 져야 한다",
+      "의견을 말했지만 책임은 없다",
+      "의견을 말하기 전에 책임을 정한다",
+      "의견을 말하고 싶지 않다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜からには는 ‘~한 이상은’이라는 뜻으로, 뒤에 당연한 결론이 옵니다.",
+     "id": "JP-N2-27-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「日程」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "nittei",
+     "accepted_answers": [
+      "nittei"
+     ],
+     "explanation_ko": "日程 = にってい(nittei), ‘일정’입니다.",
+     "id": "JP-N2-27-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「延期」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "enki",
+     "accepted_answers": [
+      "enki"
+     ],
+     "explanation_ko": "延期 = えんき(enki), ‘연기’입니다.",
+     "id": "JP-N2-27-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

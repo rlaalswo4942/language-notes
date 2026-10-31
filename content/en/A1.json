@@ -5120,6 +5120,205 @@
     "version": 1,
     "last_revised": "2026-10-31"
    }
+  },
+  {
+   "id": "A1-027",
+   "level": "A1",
+   "track": "foundation",
+   "day": 27,
+   "title_ko": "because: 이유 말하기",
+   "objective_ko": "because 뒤에 '주어 + 동사' 문장을 써서 이유를 말하고, Why 질문에 Because로 답한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-01"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "이유는 because로 말합니다. ① 형태: 결과 문장 + because + 주어 + 동사 → I stayed home because I was sick.(아파서 집에 있었어요) ② because가 문장 앞에 오면 이유 문장 뒤에 쉼표를 찍습니다: Because it was cold, she wore a coat. ③ Why 질문의 대답: Why are you happy? — Because it is my birthday. ④ because 뒤에는 단어 하나가 아니라 '주어 + 동사'가 있는 문장이 옵니다. ⑤ 이유는 시제를 알맞게 맞춥니다(과거 일의 이유는 과거형).",
+    "common_mistake_ko": "I stayed home because sick.(X) → I stayed home because I was sick.(O) / I am happy because my birthday.(X) → I am happy because it is my birthday.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "because",
+     "part_of_speech": "접속사",
+     "meaning_ko": "왜냐하면, ~해서",
+     "example_en": "I stay home because it is cold.",
+     "example_ko": "추워서 나는 집에 있어요."
+    },
+    {
+     "word": "sick",
+     "part_of_speech": "형용사",
+     "meaning_ko": "아픈",
+     "example_en": "My brother is sick today.",
+     "example_ko": "내 남동생은 오늘 아파요."
+    },
+    {
+     "word": "thirsty",
+     "part_of_speech": "형용사",
+     "meaning_ko": "목이 마른",
+     "example_en": "I am thirsty after the long walk.",
+     "example_ko": "오래 걸어서 목이 말라요."
+    },
+    {
+     "word": "afraid",
+     "part_of_speech": "형용사",
+     "meaning_ko": "무서워하는",
+     "example_en": "The child is afraid in the dark room.",
+     "example_ko": "그 아이는 어두운 방에서 무서워해요."
+    },
+    {
+     "word": "angry",
+     "part_of_speech": "형용사",
+     "meaning_ko": "화난",
+     "example_en": "She is angry because he is late.",
+     "example_ko": "그가 늦어서 그녀는 화가 났어요."
+    },
+    {
+     "word": "happy",
+     "part_of_speech": "형용사",
+     "meaning_ko": "행복한, 기쁜",
+     "example_en": "We are happy because the sun is out.",
+     "example_ko": "해가 나와서 우리는 기뻐요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I stayed home because I was sick.",
+     "ko": "나는 아파서 집에 있었어요."
+    },
+    {
+     "en": "She is happy because it is her birthday.",
+     "ko": "오늘이 그녀의 생일이라서 그녀는 기뻐해요."
+    },
+    {
+     "en": "We took an umbrella because it was raining.",
+     "ko": "비가 오고 있어서 우리는 우산을 가져갔어요."
+    },
+    {
+     "en": "Why are you angry? — Because he is late.",
+     "ko": "왜 화났어요? — 그가 늦어서요."
+    },
+    {
+     "en": "I drink water because I am thirsty.",
+     "ko": "목이 말라서 나는 물을 마셔요."
+    },
+    {
+     "en": "The child is afraid because the room is dark.",
+     "ko": "방이 어두워서 그 아이는 무서워해요."
+    },
+    {
+     "en": "Because it is cold, I wear a coat.",
+     "ko": "추워서 나는 코트를 입어요."
+    },
+    {
+     "en": "Why do you study English? — Because I want to travel.",
+     "ko": "왜 영어를 공부해요? — 여행하고 싶어서요."
+    },
+    {
+     "en": "They didn't go out because it was too hot.",
+     "ko": "너무 더워서 그들은 외출하지 않았어요."
+    },
+    {
+     "en": "I like this park because it is quiet.",
+     "ko": "조용해서 나는 이 공원이 좋아요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "I stayed home ___ I was sick. (아파서)",
+     "choices": [
+      "because",
+      "but",
+      "or",
+      "and"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "이유를 나타내므로 because입니다. but은 반대, or는 선택, and는 나열입니다.",
+     "error_tag": "because",
+     "id": "A1-027-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Why are you happy? — ___ it is my birthday.",
+     "choices": [
+      "Because",
+      "But",
+      "Or",
+      "Then"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Why 질문에는 Because로 이유를 답합니다.",
+     "error_tag": "because",
+     "id": "A1-027-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "___ it was cold, she wore a coat. (추워서)",
+     "choices": [
+      "Because",
+      "But",
+      "Or",
+      "And"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "문장 맨 앞에서 이유를 이끄는 말은 Because입니다.",
+     "error_tag": "because",
+     "id": "A1-027-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "바른 문장은 어느 것인가요?",
+     "choices": [
+      "He is tired because he worked all day.",
+      "He is tired because he work all day.",
+      "He is tired because worked all day.",
+      "He is tired because he all day worked."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "because 뒤에는 '주어 + 동사'가 오며, 과거 일은 worked로 씁니다.",
+     "error_tag": "because-order",
+     "id": "A1-027-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: I drink water ___ I am thirsty. (~해서)",
+     "answer_text": "because",
+     "accepted_answers": [
+      "because"
+     ],
+     "explanation_ko": "이유를 나타내는 접속사 because입니다.",
+     "error_tag": "because",
+     "id": "A1-027-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Why are you late? — ___ the bus was late. (왜냐하면)",
+     "answer_text": "Because",
+     "accepted_answers": [
+      "because"
+     ],
+     "explanation_ko": "이유를 답할 때 Because로 시작합니다.",
+     "error_tag": "because",
+     "id": "A1-027-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "왜 그런지 because를 써서 두 문장을 써 보세요.",
+    "example_answer_en": "I like Saturdays because I can sleep late. I am happy today because it is sunny.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-01",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-01"
+   }
   }
  ]
 }

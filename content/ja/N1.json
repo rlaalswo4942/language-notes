@@ -5586,6 +5586,220 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-27",
+   "day_index": 27,
+   "week_index": 4,
+   "level": "N1",
+   "unit_id": "N1-W04",
+   "lesson_type": "practice",
+   "title_ko": "적용: 지역 극단의 공연 읽기",
+   "objective_ko": "4주차에 배운 문형(〜んばかり(に)・〜なくして(は)〜ない・〜と思いきや・〜たりとも〜ない・〜極まりない)이 들어 있는 공연 이야기를 읽고 뜻을 확인한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-26"
+   ],
+   "explanation_ko": "〜んばかり(に), 〜なくして(は)〜ない, 〜と思いきや, 〜たりとも〜ない, 〜極まりない 를 지역 극단의 공연 이야기에서 복습합니다. 〜んばかり는 ‘당장이라도 ~할 듯한’ 상태, 〜たりとも는 극단적으로 작은 단위(一瞬・一円)와 함께 ‘단 ~도 ~않다’를 뜻합니다.",
+   "usage_notes": [
+    "〜んばかり는 동사 ない형 + んばかり로 만듭니다: 割れる → 割れんばかり, 泣き出す → 泣き出さんばかり.",
+    "〜極まりない는 マイナス의 평가 명사·な형용사 어간에 붙습니다: 不安極まりない.",
+    "〜と思いきや는 예상과 반대의 결과가 이어질 때 씁니다."
+   ],
+   "common_mistakes": [
+    "一瞬たりとも気を抜く(X) → 一瞬たりとも気を抜けない(O): 〜たりとも 뒤에는 부정이 옵니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N1-27-01",
+     "kind": "word",
+     "text": "観客{かんきゃく}",
+     "reading_kana": "かんきゃく",
+     "reading_romanized": "kankyaku",
+     "meaning_ko": "관객",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-27-02",
+     "kind": "word",
+     "text": "舞台{ぶたい}",
+     "reading_kana": "ぶたい",
+     "reading_romanized": "butai",
+     "meaning_ko": "무대",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-27-03",
+     "kind": "word",
+     "text": "公演{こうえん}",
+     "reading_kana": "こうえん",
+     "reading_romanized": "kouen",
+     "meaning_ko": "공연",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N1-27-04",
+     "kind": "word",
+     "text": "寄付{きふ}",
+     "reading_kana": "きふ",
+     "reading_romanized": "kifu",
+     "meaning_ko": "기부",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N1-27-05",
+     "kind": "word",
+     "text": "楽屋{がくや}",
+     "reading_kana": "がくや",
+     "reading_romanized": "gakuya",
+     "meaning_ko": "분장실, 대기실",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-27-06",
+     "kind": "word",
+     "text": "団員{だんいん}",
+     "reading_kana": "だんいん",
+     "reading_romanized": "dan'in",
+     "meaning_ko": "단원",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "観客{かんきゃく}は割{わ}れんばかりの拍手{はくしゅ}を送{おく}った。",
+     "meaning_ko": "관객은 터질 듯한 박수를 보냈다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼女{かのじょ}は今{いま}にも泣{な}き出{だ}さんばかりの顔{かお}で舞台{ぶたい}に立{た}った。",
+     "meaning_ko": "그녀는 당장이라도 울음을 터뜨릴 듯한 얼굴로 무대에 섰다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "地元{じもと}の協力{きょうりょく}なくしては、この公演{こうえん}は成{な}り立{た}たない。",
+     "meaning_ko": "지역의 협력 없이는 이 공연은 성립하지 않는다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "資金{しきん}不足{ぶそく}で中止{ちゅうし}かと思{おも}いきや、寄付{きふ}が集{あつ}まって開催{かいさい}が決{き}まった。",
+     "meaning_ko": "자금 부족으로 중지인가 싶었는데, 기부금이 모여 개최가 결정되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "本番{ほんばん}では一瞬{いっしゅん}たりとも気{き}を抜{ぬ}けない。",
+     "meaning_ko": "본 공연에서는 한순간도 방심할 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "開演{かいえん}前{まえ}の楽屋{がくや}は、不安{ふあん}極{きわ}まりない空気{くうき}だった。",
+     "meaning_ko": "개막 전 분장실은 더할 나위 없이 불안한 분위기였다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "一円{いちえん}たりとも無駄{むだ}にできない予算{よさん}の中{なか}で、団員{だんいん}たちは工夫{くふう}を重{かさ}ねた。",
+     "meaning_ko": "단 1엔도 낭비할 수 없는 예산 속에서 단원들은 궁리를 거듭했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "終演{しゅうえん}後{ご}、観客{かんきゃく}は立{た}ち上{あ}がらんばかりに喜{よろこ}んだ。",
+     "meaning_ko": "공연이 끝난 뒤 관객은 일어설 듯이 기뻐했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "練習{れんしゅう}なくして、舞台{ぶたい}の成功{せいこう}はあり得{え}ない。",
+     "meaning_ko": "연습 없이는 무대의 성공은 있을 수 없다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「割れんばかりの拍手」의 뜻은?",
+     "options": [
+      "터질 듯한 박수",
+      "힘없는 박수",
+      "박수가 없었다",
+      "박수를 거절했다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜んばかり는 ‘당장이라도 ~할 듯한’이므로 割れんばかり는 ‘(소리로 건물이) 갈라질 듯한’ 박수입니다.",
+     "id": "JP-N1-27-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 地元の協力（　）は、この公演は成り立たない。",
+     "options": [
+      "なくして",
+      "をもって",
+      "にそって",
+      "ながらに"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘~없이는 ~할 수 없다’는 〜なくして(は)〜ない입니다.",
+     "id": "JP-N1-27-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 中止かと（　）、寄付が集まって開催が決まった。",
+     "options": [
+      "思いきや",
+      "思うまいか",
+      "思うべく",
+      "思わずとも"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "예상과 반대 결과가 이어지는 ‘~라고 생각했는데’는 〜と思いきや입니다.",
+     "id": "JP-N1-27-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「一瞬たりとも気を抜けない」의 뜻은?",
+     "options": [
+      "한순간도 방심할 수 없다",
+      "잠깐은 방심해도 된다",
+      "한순간 방심했다",
+      "방심할 필요가 없다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜たりとも〜ない는 ‘단 ~도 ~않다’로, 극단적으로 작은 단위까지 부정합니다.",
+     "id": "JP-N1-27-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「観客」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kankyaku",
+     "accepted_answers": [
+      "kankyaku"
+     ],
+     "explanation_ko": "観客 = かんきゃく(kankyaku), ‘관객’입니다.",
+     "id": "JP-N1-27-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「寄付」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kifu",
+     "accepted_answers": [
+      "kifu"
+     ],
+     "explanation_ko": "寄付 = きふ(kifu), ‘기부’입니다.",
+     "id": "JP-N1-27-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "JLPT_FORMAT"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

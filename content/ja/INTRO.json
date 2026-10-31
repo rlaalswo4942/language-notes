@@ -6589,6 +6589,174 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전"
+  },
+  {
+   "id": "JP-INTRO-51",
+   "day_index": 51,
+   "week_index": 8,
+   "level": "INTRO",
+   "unit_id": "INTRO-W08",
+   "lesson_type": "new",
+   "title_ko": "가타카나 장음 ー",
+   "objective_ko": "가타카나에서 장음 ー는 앞 글자의 모음을 한 박자 더 길게 늘이며, 로마자로는 모음을 두 번 씁니다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-INTRO-50"
+   ],
+   "new_items": [
+    {
+     "id": "kana-d51-01",
+     "kind": "kana",
+     "text": "ー",
+     "reading_romanized": "(long)",
+     "meaning_ko": null
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "コーヒー",
+     "reading_romanized": "koohii",
+     "meaning_ko": "커피",
+     "explanation_ko": "コ(ko) + ー + ヒ(hi) + ー입니다. ー가 앞 모음 o와 i를 길게 늘입니다."
+    },
+    {
+     "japanese": "ケーキ",
+     "reading_romanized": "keeki",
+     "meaning_ko": "케이크",
+     "explanation_ko": "ケ(ke) + ー + キ(ki)입니다. ケー는 ke를 길게 읽어 kee가 됩니다."
+    },
+    {
+     "japanese": "スーパー",
+     "reading_romanized": "suupaa",
+     "meaning_ko": "슈퍼마켓",
+     "explanation_ko": "ス(su) + ー + パ(pa) + ー입니다. 두 곳 모두 길게 읽습니다."
+    },
+    {
+     "japanese": "ノート",
+     "reading_romanized": "nooto",
+     "meaning_ko": "공책, 노트",
+     "explanation_ko": "ノ(no) + ー + ト(to)입니다. ノー는 noo로 씁니다."
+    },
+    {
+     "japanese": "タクシー",
+     "reading_romanized": "takushii",
+     "meaning_ko": "택시",
+     "explanation_ko": "タ(ta) + ク(ku) + シ(shi) + ー입니다. 마지막 シ를 길게 읽습니다."
+    },
+    {
+     "japanese": "ラーメン",
+     "reading_romanized": "raamen",
+     "meaning_ko": "라면, 일본식 국수",
+     "explanation_ko": "ラ(ra) + ー + メ(me) + ン(n)입니다. ラー는 raa로 씁니다."
+    },
+    {
+     "japanese": "ビール",
+     "reading_romanized": "biiru",
+     "meaning_ko": "맥주",
+     "explanation_ko": "ビ(bi) + ー + ル(ru)입니다. ビー는 bii로 씁니다."
+    },
+    {
+     "japanese": "カレー",
+     "reading_romanized": "karee",
+     "meaning_ko": "카레",
+     "explanation_ko": "カ(ka) + レ(re) + ー입니다. レー는 ree로 씁니다."
+    },
+    {
+     "japanese": "ゲーム",
+     "reading_romanized": "geemu",
+     "meaning_ko": "게임",
+     "explanation_ko": "ゲ(ge) + ー + ム(mu)입니다. ゲー는 gee로 씁니다."
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "가타카나에서 「ー」는 무엇을 나타내나요?",
+     "options": [
+      "앞 글자의 모음을 길게 늘인다",
+      "한 박자 쉰다",
+      "소리가 탁해진다",
+      "글자를 작게 줄인다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ー는 장음 기호로, 바로 앞 글자의 모음을 한 박자 더 늘입니다. 한 박자 쉬는 것은 작은 ッ입니다.",
+     "id": "JP-INTRO-51-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「コーヒー」의 읽기를 고르세요.",
+     "options": [
+      "koohii",
+      "kohi",
+      "kofi",
+      "koohi"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "コ=ko, ー는 o를 늘이고, ヒ=hi, ー는 i를 늘이므로 koohii입니다.",
+     "id": "JP-INTRO-51-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「ケーキ」의 뜻은?",
+     "options": [
+      "케이크",
+      "커피",
+      "카레",
+      "게임"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ケーキ(keeki)는 '케이크'입니다. 커피는 コーヒー, 카레는 カレー, 게임은 ゲーム입니다.",
+     "id": "JP-INTRO-51-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「ラーメン」의 뜻은?",
+     "options": [
+      "라면",
+      "카레",
+      "맥주",
+      "택시"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ラーメン(raamen)은 '라면(일본식 국수)'입니다. 카레는 カレー, 맥주는 ビール, 택시는 タクシー입니다.",
+     "id": "JP-INTRO-51-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「カレー」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "karee",
+     "accepted_answers": [
+      "karee",
+      "kare"
+     ],
+     "explanation_ko": "カレー = karee (카레). レ(re) 뒤의 ー가 e를 늘입니다.",
+     "id": "JP-INTRO-51-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「ビール」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "biiru",
+     "accepted_answers": [
+      "biiru",
+      "biru"
+     ],
+     "explanation_ko": "ビール = biiru (맥주). ビ(bi) 뒤의 ー가 i를 늘입니다.",
+     "id": "JP-INTRO-51-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_KATAKANA"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전"
   }
  ]
 }

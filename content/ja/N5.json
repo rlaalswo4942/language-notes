@@ -5626,6 +5626,221 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N5-27",
+   "day_index": 27,
+   "week_index": 4,
+   "level": "N5",
+   "unit_id": "N5-W04",
+   "lesson_type": "practice",
+   "title_ko": "적용: 친구와 영화 약속 읽기",
+   "objective_ko": "4주차에 배운 문형(날짜·시각·수 세기·교통수단·〜く なります)이 들어 있는 약속 글을 읽고 내용을 확인한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N5-26"
+   ],
+   "explanation_ko": "이번 주에 배운 날짜(〜月〜日), 시각(〜時〜分), 수 세기(〜枚・〜つ), 교통수단(〜で 行きます), 변화(〜く なります)를 영화 약속 글에서 복습합니다. 날짜는 二十五日{にじゅうごにち}처럼 읽고, 교통수단에는 で를 붙입니다. 영화표처럼 얇고 평평한 것은 〜枚로 셉니다.",
+   "usage_notes": [
+    "교통수단은 で로 나타냅니다: バスで 行きます.",
+    "얇고 평평한 것(표, 종이)은 〜枚로 셉니다: 切符を 二枚.",
+    "い형용사가 변할 때는 い를 く로 바꿉니다: よい → よく なります."
+   ],
+   "common_mistakes": [
+    "バスを 行きます(X) → バスで 行きます(O)",
+    "天気が よい なりました(X) → 天気が よく なりました(O)"
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N5-27-01",
+     "kind": "word",
+     "text": "約束{やくそく}",
+     "reading_kana": "やくそく",
+     "reading_romanized": "yakusoku",
+     "meaning_ko": "약속",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-27-02",
+     "kind": "word",
+     "text": "家{いえ}",
+     "reading_kana": "いえ",
+     "reading_romanized": "ie",
+     "meaning_ko": "집",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-27-03",
+     "kind": "word",
+     "text": "終{お}わります",
+     "reading_kana": "おわります",
+     "reading_romanized": "owarimasu",
+     "meaning_ko": "끝나다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N5-27-04",
+     "kind": "word",
+     "text": "待{ま}ちます",
+     "reading_kana": "まちます",
+     "reading_romanized": "machimasu",
+     "meaning_ko": "기다리다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N5-27-05",
+     "kind": "word",
+     "text": "二十五日{にじゅうごにち}",
+     "reading_kana": "にじゅうごにち",
+     "reading_romanized": "nijuugonichi",
+     "meaning_ko": "25일",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-27-06",
+     "kind": "word",
+     "text": "二枚{にまい}",
+     "reading_kana": "にまい",
+     "reading_romanized": "nimai",
+     "meaning_ko": "두 장",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "土曜日{どようび}に 友達{ともだち}と 映画{えいが}を 見{み}に 行{い}きます。",
+     "meaning_ko": "토요일에 친구와 영화를 보러 갑니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "約束{やくそく}は 十月{じゅうがつ} 二十五日{にじゅうごにち}、二時{にじ} 半{はん}です。",
+     "meaning_ko": "약속은 10월 25일 2시 반입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "家{いえ}から 駅{えき}まで 十五分{じゅうごふん}です。",
+     "meaning_ko": "집에서 역까지 15분입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "駅{えき}から 映画館{えいがかん}まで バスで 行{い}きます。",
+     "meaning_ko": "역에서 영화관까지 버스로 갑니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "映画館{えいがかん}で 切符{きっぷ}を 二枚{にまい} 買{か}いました。",
+     "meaning_ko": "영화관에서 표를 두 장 샀습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "友達{ともだち}は まだ 来{き}ません。駅{えき}で 待{ま}ちます。",
+     "meaning_ko": "친구는 아직 오지 않습니다. 역에서 기다립니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "天気{てんき}が よく なりました。",
+     "meaning_ko": "날씨가 좋아졌습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "映画{えいが}は 四時{よじ}に 終{お}わります。",
+     "meaning_ko": "영화는 4시에 끝납니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "今日{きょう}は 楽{たの}しい 一日{いちにち}でした。",
+     "meaning_ko": "오늘은 즐거운 하루였습니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「十月 二十五日」의 읽기는?",
+     "options": [
+      "じゅうがつ にじゅうごにち",
+      "じゅうがつ にじゅうごか",
+      "じゅうげつ にじゅうごにち",
+      "とおがつ にじゅうごにち"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "10월은 じゅうがつ, 25일은 にじゅうごにち입니다. 24일까지의 특수 읽기와 구별하세요.",
+     "id": "JP-N5-27-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ことばを 選んで ください。 駅まで バス（　）行きます。",
+     "options": [
+      "で",
+      "を",
+      "に",
+      "が"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "교통수단에는 で를 붙여 ‘버스로’를 나타냅니다.",
+     "id": "JP-N5-27-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「切符を 二枚 買いました」의 뜻은?",
+     "options": [
+      "표를 두 장 샀습니다.",
+      "표를 두 개 팔았습니다.",
+      "표가 두 장 있습니다.",
+      "표를 사고 싶습니다."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "切符는 ‘표’, 二枚는 ‘두 장’, 買いました는 ‘샀습니다’입니다.",
+     "id": "JP-N5-27-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "‘날씨가 좋아졌습니다’를 바르게 나타낸 것은?",
+     "options": [
+      "天気が よく なりました。",
+      "天気が よい なりました。",
+      "天気が よくに なりました。",
+      "天気を よく なりました。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "い형용사 よい는 い를 く로 바꿔 よく なります로 말합니다.",
+     "id": "JP-N5-27-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「約束」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "yakusoku",
+     "accepted_answers": [
+      "yakusoku"
+     ],
+     "explanation_ko": "約束 = やくそく(yakusoku), ‘약속’입니다.",
+     "id": "JP-N5-27-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「終わります」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "owarimasu",
+     "accepted_answers": [
+      "owarimasu"
+     ],
+     "explanation_ko": "終わります = おわります(owarimasu), ‘끝납니다’입니다.",
+     "id": "JP-N5-27-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

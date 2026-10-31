@@ -5610,6 +5610,221 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-27",
+   "day_index": 27,
+   "week_index": 4,
+   "level": "N4",
+   "unit_id": "N4-W04",
+   "lesson_type": "practice",
+   "title_ko": "적용: 비 오는 휴일 읽기",
+   "objective_ko": "4주차에 배운 문형(〜たら・〜そうです・〜ば・〜なければなりません・〜始める・〜続ける)이 들어 있는 짧은 글을 읽고 내용을 확인한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-26"
+   ],
+   "explanation_ko": "〜たら, 〜そうです(양태), 〜ば, 〜なければ なりません, 〜始める・〜続ける 를 비 오는 휴일 장면에서 복습합니다. 양태의 〜そうです는 동사 ます형(또는 い형용사 어간)에 붙어 ‘~할 것 같다’를 나타냅니다. 〜ば는 동사 가정형(終わる → 終われば)을 씁니다.",
+   "usage_notes": [
+    "〜そうです(양태)는 降ります → 降りそうです처럼 ます를 빼고 붙입니다.",
+    "おいしい → おいしそうです처럼 い형용사는 い를 빼고 붙입니다.",
+    "〜続ける는 ます형에 붙입니다: 勉強し続けます."
+   ],
+   "common_mistakes": [
+    "雨が 降るそうです(들은 이야기) と 降りそうです(양태)를 구별: 하늘을 보고 ‘올 것 같다’는 降りそうです입니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N4-27-01",
+     "kind": "word",
+     "text": "散歩{さんぽ}",
+     "reading_kana": "さんぽ",
+     "reading_romanized": "sanpo",
+     "meaning_ko": "산책",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N4-27-02",
+     "kind": "word",
+     "text": "試験{しけん}",
+     "reading_kana": "しけん",
+     "reading_romanized": "shiken",
+     "meaning_ko": "시험",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-27-03",
+     "kind": "word",
+     "text": "休{やす}み",
+     "reading_kana": "やすみ",
+     "reading_romanized": "yasumi",
+     "meaning_ko": "휴일, 쉼",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-27-04",
+     "kind": "word",
+     "text": "止{や}む",
+     "reading_kana": "やむ",
+     "reading_romanized": "yamu",
+     "meaning_ko": "(비 등이) 그치다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-27-05",
+     "kind": "word",
+     "text": "近{ちか}い",
+     "reading_kana": "ちかい",
+     "reading_romanized": "chikai",
+     "meaning_ko": "가깝다",
+     "part_of_speech": "い형용사"
+    },
+    {
+     "id": "w-JP-N4-27-06",
+     "kind": "word",
+     "text": "出{で}かける",
+     "reading_kana": "でかける",
+     "reading_romanized": "dekakeru",
+     "meaning_ko": "외출하다",
+     "part_of_speech": "동사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "空{そら}が 暗{くら}くて、雨{あめ}が 降{ふ}りそうです。",
+     "meaning_ko": "하늘이 어두워서 비가 올 것 같습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "明日{あした} 雨{あめ}が 降{ふ}ったら、出{で}かけません。",
+     "meaning_ko": "내일 비가 오면 외출하지 않겠습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "家{いえ}で 本{ほん}を 読{よ}み始{はじ}めました。",
+     "meaning_ko": "집에서 책을 읽기 시작했습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "宿題{しゅくだい}を しなければ なりません。",
+     "meaning_ko": "숙제를 해야 합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "早{はや}く 終{お}われば、友達{ともだち}に 会{あ}えます。",
+     "meaning_ko": "빨리 끝나면 친구를 만날 수 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "試験{しけん}が 近{ちか}いので、毎日{まいにち} 勉強{べんきょう}し続{つづ}けています。",
+     "meaning_ko": "시험이 가까워서 매일 계속 공부하고 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "日曜日{にちようび}は 休{やす}みですから、早{はや}く 起{お}きなくても いいです。",
+     "meaning_ko": "일요일은 쉬는 날이니까 일찍 일어나지 않아도 됩니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "雨{あめ}が やんだら、散歩{さんぽ}に 行{い}きましょう。",
+     "meaning_ko": "비가 그치면 산책하러 갑시다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "おいしそうな ケーキが ありますね。",
+     "meaning_ko": "맛있어 보이는 케이크가 있네요.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「雨が 降りそうです」의 뜻은?",
+     "options": [
+      "비가 올 것 같습니다.",
+      "비가 왔습니다.",
+      "비가 오지 않습니다.",
+      "비가 오고 있습니다."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜そうです(양태)는 눈에 보이는 모습으로 ‘~할 것 같다’고 판단합니다.",
+     "id": "JP-N4-27-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ことばを 選んで ください。 早く 終わ（　）、友達に 会えます。",
+     "options": [
+      "れば",
+      "りば",
+      "るば",
+      "いば"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "終わる의 가정형은 終われば(어미 う단 → え단 + ば)입니다.",
+     "id": "JP-N4-27-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「宿題を しなければ なりません」의 뜻은?",
+     "options": [
+      "숙제를 해야 합니다.",
+      "숙제를 하지 않아도 됩니다.",
+      "숙제를 하고 싶습니다.",
+      "숙제를 했습니다."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜なければ なりません은 ‘~해야 한다’는 의무입니다.",
+     "id": "JP-N4-27-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「おいしそうな ケーキ」의 뜻은?",
+     "options": [
+      "맛있어 보이는 케이크",
+      "맛있었던 케이크",
+      "맛없는 케이크",
+      "먹어 본 케이크"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "おいしい의 い를 빼고 そう를 붙이면 ‘맛있어 보인다’는 뜻이 됩니다.",
+     "id": "JP-N4-27-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「休み」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "yasumi",
+     "accepted_answers": [
+      "yasumi"
+     ],
+     "explanation_ko": "休み = やすみ(yasumi), ‘휴일, 쉼’입니다.",
+     "id": "JP-N4-27-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「散歩」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "sanpo",
+     "accepted_answers": [
+      "sanpo",
+      "sampo"
+     ],
+     "explanation_ko": "散歩 = さんぽ(sanpo), ‘산책’입니다.",
+     "id": "JP-N4-27-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

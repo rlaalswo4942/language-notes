@@ -4021,6 +4021,206 @@
     "version": 1,
     "last_revised": "2026-10-31"
    }
+  },
+  {
+   "id": "B1-022",
+   "level": "B1",
+   "track": "general",
+   "day": 22,
+   "title_ko": "의문사 + to부정사: how to / what to / where to",
+   "objective_ko": "know, show, tell, decide 같은 동사 뒤에서 '의문사 + to + 동사원형'으로 '~할지'를 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-01"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "의문사 뒤에 to부정사를 붙이면 '어떻게/무엇을/어디서 ~해야 할지'라는 뜻의 덩어리가 됩니다. ① how to + 동사: 방법 (Could you show me how to use this machine?) ② what to: 무엇을 (I don't know what to say.) ③ where to: 어디서·어디로 (She asked me where to park.) ④ when to: 언제 (We haven't decided when to leave.) ⑤ who(m) to: 누구에게·누구를 (Tell me who to call.) ⑥ whether to: ~할지 말지 (I'm not sure whether to accept the job.) ⑦ which + 명사 + to도 쓸 수 있습니다: which route to take. 주로 know, tell, show, ask, learn, decide, forget, wonder, explain 뒤에 씁니다. why to는 쓰지 않습니다.",
+    "common_mistake_ko": "Show me how use this.(X) → Show me how to use this.(O) / I don't know what should I say.(X) → I don't know what to say.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "instructions",
+     "part_of_speech": "명사",
+     "meaning_ko": "사용 설명, 지시",
+     "example_en": "Please read the instructions first.",
+     "example_ko": "먼저 사용 설명을 읽어 주세요."
+    },
+    {
+     "word": "manual",
+     "part_of_speech": "명사",
+     "meaning_ko": "설명서",
+     "example_en": "The manual explains how to install the app.",
+     "example_ko": "설명서에 앱을 설치하는 방법이 나와 있어요."
+    },
+    {
+     "word": "route",
+     "part_of_speech": "명사",
+     "meaning_ko": "경로, 길",
+     "example_en": "Which route should we take to the station?",
+     "example_ko": "역까지 어느 길로 갈까요?"
+    },
+    {
+     "word": "solve",
+     "part_of_speech": "동사",
+     "meaning_ko": "해결하다, 풀다",
+     "example_en": "We need to solve this problem today.",
+     "example_ko": "우리는 오늘 이 문제를 해결해야 해요."
+    },
+    {
+     "word": "figure out",
+     "part_of_speech": "구동사",
+     "meaning_ko": "알아내다, 이해하다",
+     "example_en": "I can't figure out how to open this box.",
+     "example_ko": "나는 이 상자를 어떻게 여는지 알 수가 없어요."
+    },
+    {
+     "word": "clue",
+     "part_of_speech": "명사",
+     "meaning_ko": "단서, 실마리",
+     "example_en": "The note gave us a clue.",
+     "example_ko": "그 쪽지가 우리에게 단서를 주었어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Could you show me how to use this machine?",
+     "ko": "이 기계 사용법을 보여 주시겠어요?"
+    },
+    {
+     "en": "I don't know what to say.",
+     "ko": "뭐라고 말해야 할지 모르겠어요."
+    },
+    {
+     "en": "She asked me where to park the car.",
+     "ko": "그녀는 내게 차를 어디에 주차해야 하는지 물었어요."
+    },
+    {
+     "en": "We haven't decided when to leave.",
+     "ko": "우리는 언제 떠날지 아직 정하지 못했어요."
+    },
+    {
+     "en": "He taught me how to make bread.",
+     "ko": "그는 내게 빵 만드는 법을 가르쳐 주었어요."
+    },
+    {
+     "en": "Please tell me who to call in an emergency.",
+     "ko": "긴급 상황에 누구에게 전화해야 하는지 알려 주세요."
+    },
+    {
+     "en": "I can't figure out how to turn on the TV.",
+     "ko": "TV를 어떻게 켜는지 모르겠어요."
+    },
+    {
+     "en": "The manual explains how to install the app.",
+     "ko": "설명서에는 앱을 설치하는 방법이 설명되어 있어요."
+    },
+    {
+     "en": "I'm not sure whether to accept the job or stay here.",
+     "ko": "그 일자리를 받아들일지 여기 남을지 확신이 없어요."
+    },
+    {
+     "en": "Do you know which route to take?",
+     "ko": "어느 길로 가야 하는지 아세요?"
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "Could you show me ___ use this machine?",
+     "choices": [
+      "how to",
+      "how",
+      "to how",
+      "what"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "방법은 how to + 동사원형입니다. how만으로는 뒤에 동사원형이 바로 올 수 없습니다.",
+     "error_tag": "wh-to",
+     "id": "B1-022-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "I don't know ___ say. (뭐라고 말해야 할지)",
+     "choices": [
+      "what to",
+      "where to",
+      "who to",
+      "whether"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "'무엇을 말할지'는 what to say입니다.",
+     "error_tag": "wh-to",
+     "id": "B1-022-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "She asked me ___ park the car. (어디에 주차할지)",
+     "choices": [
+      "where to",
+      "what to",
+      "who to",
+      "whether"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "장소를 묻는 말이므로 where to입니다.",
+     "error_tag": "wh-to",
+     "id": "B1-022-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "바른 문장은 어느 것인가요?",
+     "choices": [
+      "We haven't decided when to leave.",
+      "We haven't decided when leave.",
+      "We haven't decided when to leaving.",
+      "We haven't decided when we to leave."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "의문사 뒤에는 to + 동사원형을 씁니다.",
+     "error_tag": "wh-to-order",
+     "id": "B1-022-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Please tell me ___ to call in an emergency. (누구에게)",
+     "answer_text": "who",
+     "accepted_answers": [
+      "who",
+      "whom"
+     ],
+     "explanation_ko": "'누구에게 전화할지'는 who(m) to call입니다.",
+     "error_tag": "wh-to",
+     "id": "B1-022-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: He taught me ___ to make bread. (어떻게)",
+     "answer_text": "how",
+     "accepted_answers": [
+      "how"
+     ],
+     "explanation_ko": "방법을 말할 때는 how to입니다.",
+     "error_tag": "wh-to",
+     "id": "B1-022-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "how to / what to / where to 중 하나를 써서 '모르는 것'이나 '배우고 싶은 것'을 두 문장으로 써 보세요.",
+    "example_answer_en": "I want to learn how to cook pasta. I don't know where to buy fresh basil.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-01",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-01"
+   }
   }
  ]
 }

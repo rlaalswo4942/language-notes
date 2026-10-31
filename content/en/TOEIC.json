@@ -3844,6 +3844,205 @@
     "version": 1,
     "last_revised": "2026-10-31"
    }
+  },
+  {
+   "id": "TOEIC-021",
+   "level": "B1",
+   "track": "toeic",
+   "day": 21,
+   "title_ko": "3주 복습: TOEIC Part 5 시간·조건절 현재시제·by/until·during/while·수 일치·혼동 어휘·분사 형용사·형용사+전치사",
+   "objective_ko": "TOEIC 15~20일차의 풀이 단서(시간·조건절의 현재시제, by/until, during/while/for, 수 일치, 혼동 어휘, 분사형 형용사, 형용사+전치사)를 섞어 다시 확인한다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/toeic/about/listening-reading.html",
+     "publisher": "ETS",
+     "supports": "공식 시험 형식",
+     "checked_at": "2026-11-01"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "이번 주에 배운 여섯 가지를 복습합니다. ① 시간·조건 부사절(when, as soon as, if)에서는 미래의 일도 현재시제로 씁니다(TOEIC-015). ② by는 '~까지(기한)', until은 '~까지 계속', during은 명사 앞, while은 절 앞, for는 기간 앞에 씁니다(TOEIC-016). ③ 주어와 동사의 수를 맞추되, of 뒤 명사가 아니라 핵심 주어를 봅니다: The list of products is ...(TOEIC-017). ④ advice(명사)/advise(동사), affect(동사)/effect(명사)처럼 품사와 뜻이 다른 단어를 구별합니다(TOEIC-018). ⑤ 분사형 형용사는 사람이 느끼면 -ed, 사물이 일으키면 -ing이고, revised, damaged처럼 이미 된 상태는 -ed입니다(TOEIC-019). ⑥ responsible for, eligible for, familiar with, capable of, aware of처럼 짝으로 외웁니다(TOEIC-020). 자체 제작 연습이며 ETS 공식 문항이 아닙니다.",
+    "common_mistake_ko": "if it will rain tomorrow, ... (X) → if it rains tomorrow, ...(O) / The list of products are ...(X) → The list of products is ...(O) / responsible to the budget(X) → responsible for the budget(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "affect",
+     "part_of_speech": "동사",
+     "meaning_ko": "영향을 미치다",
+     "example_en": "The new rule will affect all staff.",
+     "example_ko": "새 규정은 모든 직원에게 영향을 줄 거예요."
+    },
+    {
+     "word": "eligible",
+     "part_of_speech": "형용사",
+     "meaning_ko": "자격이 있는",
+     "example_en": "Only full-time workers are eligible for the bonus.",
+     "example_ko": "정규직만 보너스를 받을 자격이 있어요."
+    },
+    {
+     "word": "responsible",
+     "part_of_speech": "형용사",
+     "meaning_ko": "책임이 있는",
+     "example_en": "Ms. Lee is responsible for the budget.",
+     "example_ko": "이 씨가 예산을 책임져요."
+    },
+    {
+     "word": "aware",
+     "part_of_speech": "형용사",
+     "meaning_ko": "알고 있는",
+     "example_en": "Are you aware of the new policy?",
+     "example_ko": "새 정책을 알고 계신가요?"
+    },
+    {
+     "word": "revise",
+     "part_of_speech": "동사",
+     "meaning_ko": "수정하다",
+     "example_en": "Please revise the report by Monday.",
+     "example_ko": "월요일까지 보고서를 수정해 주세요."
+    },
+    {
+     "word": "capable",
+     "part_of_speech": "형용사",
+     "meaning_ko": "능력이 있는",
+     "example_en": "He is capable of leading a large team.",
+     "example_ko": "그는 큰 팀을 이끌 능력이 있어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I will call you when the shipment arrives.",
+     "ko": "배송이 도착하면 전화드리겠습니다."
+    },
+    {
+     "en": "If the printer breaks down, please contact the IT team.",
+     "ko": "프린터가 고장 나면 IT 팀에 연락해 주세요."
+    },
+    {
+     "en": "The report is due by Friday.",
+     "ko": "보고서는 금요일까지 제출해야 합니다."
+    },
+    {
+     "en": "The store will stay open until 9 p.m.",
+     "ko": "그 가게는 오후 9시까지 문을 엽니다."
+    },
+    {
+     "en": "The power went out during the presentation.",
+     "ko": "발표 중에 전기가 나갔어요."
+    },
+    {
+     "en": "While the manager was away, her assistant answered the calls.",
+     "ko": "매니저가 자리를 비운 동안 보조가 전화를 받았어요."
+    },
+    {
+     "en": "The list of new products is on the desk.",
+     "ko": "신제품 목록은 책상 위에 있어요."
+    },
+    {
+     "en": "Employees who work overtime receive extra pay.",
+     "ko": "초과 근무를 하는 직원은 추가 수당을 받습니다."
+    },
+    {
+     "en": "The revised schedule will be posted online.",
+     "ko": "수정된 일정은 온라인에 게시될 예정입니다."
+    },
+    {
+     "en": "Applicants must be eligible for the program and familiar with the software.",
+     "ko": "지원자는 프로그램 자격이 있어야 하고 그 소프트웨어에 익숙해야 합니다."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "Please call me as soon as the shipment ___.",
+     "choices": [
+      "arrives",
+      "will arrive",
+      "arriving",
+      "arrive"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "시간 부사절(as soon as ...)에서는 미래도 현재시제를 쓰며, 3인칭 단수이므로 arrives입니다.",
+     "error_tag": "time-clause",
+     "id": "TOEIC-021-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "The proposal must be submitted ___ Friday at noon. (금요일 정오까지)",
+     "choices": [
+      "by",
+      "until",
+      "during",
+      "while"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "한 번 제출하는 동작의 기한은 by로 나타냅니다. until은 계속되는 상태에 씁니다.",
+     "error_tag": "by-until",
+     "id": "TOEIC-021-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "The list of new products ___ on the desk.",
+     "choices": [
+      "is",
+      "are",
+      "were",
+      "have been"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "핵심 주어는 단수 list이므로 is입니다. products에 끌려 are를 고르지 않도록 주의합니다.",
+     "error_tag": "agreement",
+     "id": "TOEIC-021-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "All employees are responsible ___ keeping their desks clean.",
+     "choices": [
+      "for",
+      "to",
+      "with",
+      "at"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "responsible은 for와 짝을 이룹니다.",
+     "error_tag": "adj-prep",
+     "id": "TOEIC-021-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Please give me some ___ about the new policy. (충고, 명사)",
+     "answer_text": "advice",
+     "accepted_answers": [
+      "advice"
+     ],
+     "explanation_ko": "명사는 advice, 동사는 advise입니다.",
+     "error_tag": "confusable",
+     "id": "TOEIC-021-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: The new tax rule will ___ small businesses. (영향을 미치다)",
+     "answer_text": "affect",
+     "accepted_answers": [
+      "affect"
+     ],
+     "explanation_ko": "동사 '영향을 미치다'는 affect이고, 명사 '영향'은 effect입니다.",
+     "error_tag": "confusable",
+     "id": "TOEIC-021-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "by와 until을 각각 한 번씩 써서 업무 일정에 관한 문장을 두 개 써 보세요.",
+    "example_answer_en": "I must send the report by Tuesday. The office will be closed until Monday.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-01",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-01"
+   }
   }
  ]
 }
