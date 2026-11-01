@@ -5825,6 +5825,227 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-28",
+   "day_index": 28,
+   "week_index": 4,
+   "level": "N4",
+   "unit_id": "N4-W04",
+   "lesson_type": "checkpoint",
+   "title_ko": "4주 점검: 의무·조건·양태·동작의 단계",
+   "objective_ko": "N4 넷째 주 문형(〜なければ なりません・〜なくても いいです, 〜たら, 〜そうです, 〜ば, 〜始める・〜続ける)을 종합 점검한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-27"
+   ],
+   "explanation_ko": "4주 차에 배운 의무와 불필요(〜なければ なりません・〜なくても いいです), 조건(〜たら・〜ば), 양태(〜そうです), 동작의 단계(〜始める・〜終わる・〜続ける)를 규칙과 날씨 이야기 속에서 다시 확인합니다. ない형의 い를 없애고 なければ・なくても를 붙이고, 〜たら는 た형 + ら, 〜ば는 동사 가정형(起きる → 起きれば), 〜そうです는 ます형에서 ます를 뺀 형태에 붙습니다.",
+   "usage_notes": [
+    "なければ なりません은 ‘~해야 합니다’, なくても いいです는 ‘~하지 않아도 됩니다’입니다.",
+    "〜たら 뒤에는 의지・부탁・권유를 자유롭게 쓸 수 있습니다.",
+    "〜そうです(양태)는 눈에 보이는 모습에서 ‘~일 것 같다’고 말할 때 씁니다. 들은 이야기를 전하는 〜そうです(전문)와 구별하세요."
+   ],
+   "common_mistakes": [
+    "規則は 守らなければ いいです(X) → 規則は 守らなければ なりません(O)",
+    "雨が 降るそうです(전문) ≠ 雨が 降りそうです(양태): 보이는 모습에서 판단하면 降りそうです",
+    "読む始めました(X) → 読み始めました(O): ます형에서 ます를 뺀 형태에 붙입니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N4-28-01",
+     "kind": "word",
+     "text": "規則{きそく}",
+     "reading_kana": "きそく",
+     "reading_romanized": "kisoku",
+     "meaning_ko": "규칙",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-28-02",
+     "kind": "word",
+     "text": "守{まも}る",
+     "reading_kana": "まもる",
+     "reading_romanized": "mamoru",
+     "meaning_ko": "지키다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-28-03",
+     "kind": "word",
+     "text": "洗濯{せんたく}",
+     "reading_kana": "せんたく",
+     "reading_romanized": "sentaku",
+     "meaning_ko": "빨래, 세탁",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-28-04",
+     "kind": "word",
+     "text": "乾{かわ}く",
+     "reading_kana": "かわく",
+     "reading_romanized": "kawaku",
+     "meaning_ko": "마르다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N4-28-05",
+     "kind": "word",
+     "text": "予約{よやく}",
+     "reading_kana": "よやく",
+     "reading_romanized": "yoyaku",
+     "meaning_ko": "예약",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-28-06",
+     "kind": "word",
+     "text": "混{こ}む",
+     "reading_kana": "こむ",
+     "reading_romanized": "komu",
+     "meaning_ko": "붐비다",
+     "part_of_speech": "동사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "明日{あした} テストが あるので、今晩{こんばん}は 勉強{べんきょう}しなければ なりません。",
+     "meaning_ko": "내일 시험이 있어서 오늘 밤은 공부해야 합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 部屋{へや}は 予約{よやく}しなくても いいです。",
+     "meaning_ko": "이 방은 예약하지 않아도 됩니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "雨{あめ}が 止{や}んだら、洗濯{せんたく}を します。",
+     "meaning_ko": "비가 그치면 빨래를 합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 服{ふく}は 天気{てんき}が よければ、すぐ 乾{かわ}きそうです。",
+     "meaning_ko": "이 옷은 날씨가 좋으면 금방 마를 것 같습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "空{そら}が 暗{くら}く なって、雨{あめ}が 降{ふ}りそうです。",
+     "meaning_ko": "하늘이 어두워져서 비가 올 것 같습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "早{はや}く 起{お}きれば、電車{でんしゃ}は 混{こ}んで いません。",
+     "meaning_ko": "일찍 일어나면 전철은 붐비지 않습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "規則{きそく}は 守{まも}らなければ なりません。",
+     "meaning_ko": "규칙은 지켜야 합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "先週{せんしゅう}から 日本語{にほんご}の 本{ほん}を 読{よ}み始{はじ}めました。",
+     "meaning_ko": "지난주부터 일본어 책을 읽기 시작했습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "試験{しけん}が 終{お}わるまで、三時間{さんじかん} 書{か}き続{つづ}けました。",
+     "meaning_ko": "시험이 끝날 때까지 세 시간 동안 계속 썼습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "時間{じかん}が あれば、一緒{いっしょ}に 映画{えいが}を 見{み}ませんか。",
+     "meaning_ko": "시간이 있으면 같이 영화를 보지 않겠습니까?",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "規則は 守ら（　）なりません。(지켜야 합니다)",
+     "options": [
+      "なければ",
+      "なくても",
+      "なくて",
+      "ないで"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜なければ なりません은 의무(~해야 한다)를 나타냅니다. 〜なくても いいです는 불필요(~하지 않아도 된다)입니다.",
+     "id": "JP-N4-28-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）、洗濯を します。(비가 그치면)",
+     "options": [
+      "雨が 止んだら",
+      "雨が 止むたら",
+      "雨が 止んたら",
+      "雨が 止みたら"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜たら는 た형에 ら를 붙입니다. 止む의 た형은 止んだ이므로 止んだら입니다.",
+     "id": "JP-N4-28-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "空が 暗く なって、雨が（　）。(올 것 같습니다)",
+     "options": [
+      "降りそうです",
+      "降るそうです",
+      "降りますそうです",
+      "降りらしいです"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "보이는 모습에서 판단하는 양태는 ます형 + そうです(降りそうです)입니다. 降るそうです는 들은 이야기를 전하는 전문입니다.",
+     "id": "JP-N4-28-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "早く（　）、電車は 混んで いません。(일찍 일어나면)",
+     "options": [
+      "起きれば",
+      "起きるば",
+      "起きけば",
+      "起きなば"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "2그룹 동사는 る를 빼고 れば를 붙입니다. 起きる → 起きれば.",
+     "id": "JP-N4-28-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「規則」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kisoku",
+     "accepted_answers": [
+      "kisoku"
+     ],
+     "explanation_ko": "規則 = きそく(kisoku), ‘규칙’입니다.",
+     "id": "JP-N4-28-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「洗濯」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "sentaku",
+     "accepted_answers": [
+      "sentaku"
+     ],
+     "explanation_ko": "洗濯 = せんたく(sentaku), ‘빨래, 세탁’입니다.",
+     "id": "JP-N4-28-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

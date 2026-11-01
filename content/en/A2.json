@@ -5299,6 +5299,205 @@
     "version": 1,
     "last_revised": "2026-11-01"
    }
+  },
+  {
+   "id": "A2-028",
+   "level": "A2",
+   "track": "foundation",
+   "day": 28,
+   "title_ko": "4주 복습: 순서 표현·which/whose·이동 전치사·관사·접속사·시간 접속사",
+   "objective_ko": "A2 22~27일차(순서 표현, which/whose와 소유대명사, 이동 전치사, a/an/the, and/but/or/so, when/while/before/after)를 섞어 다시 확인한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-02"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "이번 주 여섯 가지를 복습합니다. ① 순서 표현은 First / Then / Next / After that / Finally 순으로 단계를 말합니다(A2-022). ② which는 정해진 것 중에서 고를 때, whose는 누구 것인지 물을 때 쓰고, 대답에는 mine / yours / hers / theirs를 씁니다(A2-023). ③ 이동 전치사: into(안으로), out of(밖으로), through(통과해), across(가로질러), along(따라), past(지나쳐)(A2-024). ④ 처음 말하는 것에는 a / an, 이미 말한 것에는 the를 씁니다: I bought a jacket. The jacket was cheap.(A2-025) ⑤ and(그리고) / but(그러나) / or(또는) / so(그래서)로 문장을 잇습니다(A2-026). ⑥ when / while / before / after로 때와 순서를 말하고, 미래의 일도 현재형으로 씁니다(A2-027).",
+    "common_mistake_ko": "Whose bag is this? — It is my.(X) → It is mine.(O) / The bus drove across our house.(X) → The bus drove past our house.(O) / I will call you when I will arrive.(X) → I will call you when I arrive.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "borrow",
+     "part_of_speech": "동사",
+     "meaning_ko": "빌리다",
+     "example_en": "Can I borrow your pen?",
+     "example_ko": "펜을 빌려도 될까요?"
+    },
+    {
+     "word": "bridge",
+     "part_of_speech": "명사",
+     "meaning_ko": "다리",
+     "example_en": "We walked across the old bridge.",
+     "example_ko": "우리는 오래된 다리를 걸어서 건넜어요."
+    },
+    {
+     "word": "ingredient",
+     "part_of_speech": "명사",
+     "meaning_ko": "재료",
+     "example_en": "Eggs are the main ingredient in this cake.",
+     "example_ko": "달걀이 이 케이크의 주재료예요."
+    },
+    {
+     "word": "tidy",
+     "part_of_speech": "형용사",
+     "meaning_ko": "깔끔한",
+     "example_en": "Her room is always tidy.",
+     "example_ko": "그녀의 방은 항상 깔끔해요."
+    },
+    {
+     "word": "cross",
+     "part_of_speech": "동사",
+     "meaning_ko": "건너다",
+     "example_en": "Look both ways before you cross the road.",
+     "example_ko": "길을 건너기 전에 양쪽을 보세요."
+    },
+    {
+     "word": "belong",
+     "part_of_speech": "동사",
+     "meaning_ko": "~의 것이다",
+     "example_en": "This umbrella belongs to my sister.",
+     "example_ko": "이 우산은 내 여동생의 것이에요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "First, wash the vegetables. Then, cut them. Finally, put them in the pot.",
+     "ko": "먼저 채소를 씻으세요. 그다음에 자르세요. 마지막으로 냄비에 넣으세요."
+    },
+    {
+     "en": "Whose bag is this? — It is mine.",
+     "ko": "이것은 누구 가방이에요? — 제 거예요."
+    },
+    {
+     "en": "Which book is hers, the red one or the blue one?",
+     "ko": "빨간 책과 파란 책 중에서 어느 것이 그녀의 거예요?"
+    },
+    {
+     "en": "We walked along the river and across the bridge.",
+     "ko": "우리는 강을 따라 걷다가 다리를 건넜어요."
+    },
+    {
+     "en": "She came out of the shop and went into the bank.",
+     "ko": "그녀는 가게에서 나와 은행으로 들어갔어요."
+    },
+    {
+     "en": "I saw a dog in the park. The dog was very big.",
+     "ko": "나는 공원에서 개 한 마리를 봤어요. 그 개는 아주 컸어요."
+    },
+    {
+     "en": "I like tea, but my brother likes coffee.",
+     "ko": "나는 차를 좋아하지만 내 남동생은 커피를 좋아해요."
+    },
+    {
+     "en": "It was cold, so we stayed inside.",
+     "ko": "추워서 우리는 안에 있었어요."
+    },
+    {
+     "en": "I listen to music while I do my homework.",
+     "ko": "나는 숙제를 하는 동안 음악을 들어요."
+    },
+    {
+     "en": "Wash your hands before you eat, and brush your teeth after you eat.",
+     "ko": "먹기 전에 손을 씻고, 먹은 뒤에 이를 닦으세요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "Mix the eggs. ___, add the flour. (그다음에)",
+     "choices": [
+      "Then",
+      "Before",
+      "Because",
+      "While"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "순서를 이어 말할 때 Then(그다음에)을 씁니다. Before, Because, While은 문장을 잇는 접속사로 이 자리에 맞지 않습니다.",
+     "error_tag": "sequence",
+     "id": "A2-028-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "That bag isn't mine. It's ___. (그녀의 것)",
+     "choices": [
+      "hers",
+      "her",
+      "she",
+      "herself"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "\"그녀의 것\"은 소유대명사 hers입니다. her 뒤에는 명사가 와야 합니다.",
+     "error_tag": "possessive-pronoun",
+     "id": "A2-028-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "The bus drove ___ our house without stopping. (우리 집 앞을 지나)",
+     "choices": [
+      "past",
+      "into",
+      "out of",
+      "across"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "어떤 곳을 멈추지 않고 지나칠 때는 past를 씁니다.",
+     "error_tag": "movement-preposition",
+     "id": "A2-028-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "I bought a jacket. ___ jacket was very cheap. (그 재킷)",
+     "choices": [
+      "The",
+      "A",
+      "An",
+      "These"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "이미 말한 재킷을 다시 가리키므로 the를 씁니다.",
+     "error_tag": "article",
+     "id": "A2-028-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: I was tired, ___ I went to bed early. (그래서)",
+     "answer_text": "so",
+     "accepted_answers": [
+      "so"
+     ],
+     "explanation_ko": "결과를 이끄는 접속사는 so입니다.",
+     "error_tag": "conjunction",
+     "id": "A2-028-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Wash your hands ___ you eat. (먹기 전에)",
+     "answer_text": "before",
+     "accepted_answers": [
+      "before"
+     ],
+     "explanation_ko": "~하기 전에는 before입니다.",
+     "error_tag": "time-conjunction",
+     "id": "A2-028-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "오늘 아침에 한 일을 First, Then, Finally를 써서 세 문장으로 써 보세요.",
+    "example_answer_en": "First, I woke up at seven. Then, I ate breakfast. Finally, I went to school by bus.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-02",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-02"
+   }
   }
  ]
 }

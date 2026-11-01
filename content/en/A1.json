@@ -5319,6 +5319,205 @@
     "version": 1,
     "last_revised": "2026-11-01"
    }
+  },
+  {
+   "id": "A1-028",
+   "level": "A1",
+   "track": "foundation",
+   "day": 28,
+   "title_ko": "4주 복습: 규칙·불규칙 과거·과거 의문사·there was/were·want to/need to·because",
+   "objective_ko": "A1 22~27일차(규칙동사·불규칙동사 과거, 과거 의문사 질문, there was/were, want to/need to, because)를 섞어 다시 확인한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-02"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "이번 주 여섯 가지를 복습합니다. ① 규칙동사 과거는 -ed를 붙입니다: visit → visited, watch → watched (A1-022). ② 불규칙동사는 모양이 바뀝니다: go → went, buy → bought, eat → ate, see → saw (A1-023). ③ 과거 의문사 질문은 Where / What / Who / When / Why + did + 주어 + 동사원형입니다: Where did you go? (A1-024) ④ there was(단수·셀 수 없는 것) / there were(복수): There was a tree. / There were two cats. (A1-025) ⑤ want to는 하고 싶은 것, need to는 해야 하는 것: I want to rest, but I need to study. (A1-026) ⑥ because 뒤에는 주어 + 동사가 옵니다: I was tired because I woke up early. (A1-027)",
+    "common_mistake_ko": "Where did you went?(X) → Where did you go?(O) / There was two cats.(X) → There were two cats.(O) / I stayed home because sick.(X) → I stayed home because I was sick.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "yesterday",
+     "part_of_speech": "부사",
+     "meaning_ko": "어제",
+     "example_en": "I visited my aunt yesterday.",
+     "example_ko": "나는 어제 이모를 방문했어요."
+    },
+    {
+     "word": "visit",
+     "part_of_speech": "동사",
+     "meaning_ko": "방문하다",
+     "example_en": "We visit our grandparents every summer.",
+     "example_ko": "우리는 여름마다 조부모님을 방문해요."
+    },
+    {
+     "word": "ticket",
+     "part_of_speech": "명사",
+     "meaning_ko": "표, 티켓",
+     "example_en": "She bought a ticket for the train.",
+     "example_ko": "그녀는 기차표를 샀어요."
+    },
+    {
+     "word": "tired",
+     "part_of_speech": "형용사",
+     "meaning_ko": "피곤한",
+     "example_en": "He was tired after the long walk.",
+     "example_ko": "그는 오래 걸은 뒤에 피곤했어요."
+    },
+    {
+     "word": "finish",
+     "part_of_speech": "동사",
+     "meaning_ko": "끝내다",
+     "example_en": "I need to finish my homework.",
+     "example_ko": "나는 숙제를 끝내야 해요."
+    },
+    {
+     "word": "early",
+     "part_of_speech": "부사",
+     "meaning_ko": "일찍",
+     "example_en": "We woke up early this morning.",
+     "example_ko": "우리는 오늘 아침 일찍 일어났어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I visited my grandmother yesterday.",
+     "ko": "나는 어제 할머니를 방문했어요."
+    },
+    {
+     "en": "We watched a movie and ate popcorn.",
+     "ko": "우리는 영화를 보고 팝콘을 먹었어요."
+    },
+    {
+     "en": "She bought a ticket and went to the station.",
+     "ko": "그녀는 표를 사서 역에 갔어요."
+    },
+    {
+     "en": "Where did you go last weekend? — I went to the beach.",
+     "ko": "지난 주말에 어디에 갔어요? — 바다에 갔어요."
+    },
+    {
+     "en": "What did he eat for lunch? — He ate a sandwich.",
+     "ko": "그는 점심으로 뭘 먹었어요? — 샌드위치를 먹었어요."
+    },
+    {
+     "en": "There was a big tree in front of the house.",
+     "ko": "집 앞에 큰 나무가 한 그루 있었어요."
+    },
+    {
+     "en": "There were two cats on the sofa.",
+     "ko": "소파 위에 고양이가 두 마리 있었어요."
+    },
+    {
+     "en": "I want to go home, but I need to finish my homework.",
+     "ko": "집에 가고 싶지만 숙제를 끝내야 해요."
+    },
+    {
+     "en": "I was tired because I woke up early.",
+     "ko": "일찍 일어나서 피곤했어요."
+    },
+    {
+     "en": "Why did she stay home? — Because she was sick.",
+     "ko": "그녀는 왜 집에 있었어요? — 아파서요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "We ___ a movie last night.",
+     "choices": [
+      "watched",
+      "watch",
+      "watching",
+      "watches"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "어젯밤의 일이므로 규칙동사 watch에 -ed를 붙여 watched입니다.",
+     "error_tag": "past-regular",
+     "id": "A1-028-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "I ___ a new bag yesterday. (샀어요)",
+     "choices": [
+      "bought",
+      "buyed",
+      "buy",
+      "buying"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "buy는 불규칙동사로 과거형이 bought입니다. buyed라는 형태는 없습니다.",
+     "error_tag": "past-irregular",
+     "id": "A1-028-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "바른 문장은 어느 것인가요?",
+     "choices": [
+      "There were three students in the room.",
+      "There was three students in the room.",
+      "There is three students in the room.",
+      "There were three student in the room."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "복수(three students)의 과거 존재는 there were입니다. 복수 명사에는 -s도 필요합니다.",
+     "error_tag": "there-was-were",
+     "id": "A1-028-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "We stayed home ___ it was raining. (비가 와서)",
+     "choices": [
+      "because",
+      "but",
+      "or",
+      "and"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "이유를 나타내므로 because입니다. but은 반대, or는 선택, and는 나열입니다.",
+     "error_tag": "because",
+     "id": "A1-028-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: What ___ you eat for dinner yesterday?",
+     "answer_text": "did",
+     "accepted_answers": [
+      "did"
+     ],
+     "explanation_ko": "과거 의문사 질문은 의문사 + did + 주어 + 동사원형입니다.",
+     "error_tag": "wh-did",
+     "id": "A1-028-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: I ___ to see that movie. (그 영화를 보고 싶어요)",
+     "answer_text": "want",
+     "accepted_answers": [
+      "want"
+     ],
+     "explanation_ko": "하고 싶은 것은 want to + 동사원형입니다. 해야 하는 것은 need to입니다.",
+     "error_tag": "want-to",
+     "id": "A1-028-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "어제 한 일 두 문장과 그 이유 한 문장을 써 보세요.",
+    "example_answer_en": "I went to the library yesterday. I read two books. I was happy because I found a good story.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-02",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-02"
+   }
   }
  ]
 }

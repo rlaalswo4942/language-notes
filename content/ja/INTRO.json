@@ -6757,6 +6757,191 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전"
+  },
+  {
+   "id": "JP-INTRO-52",
+   "day_index": 52,
+   "week_index": 8,
+   "level": "INTRO",
+   "unit_id": "INTRO-W08",
+   "lesson_type": "new",
+   "title_ko": "가타카나 외래어 표기 ファ·フィ·フェ·フォ",
+   "objective_ko": "큰 フ 뒤에 작은 ァ·ィ·ェ·ォ를 붙여 fa·fi·fe·fo 소리를 나타내는 표기를 읽고, 외래어 단어를 읽는다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-INTRO-51"
+   ],
+   "new_items": [
+    {
+     "id": "kana-d52-01",
+     "kind": "kana",
+     "text": "ファ",
+     "reading_romanized": "fa",
+     "meaning_ko": null
+    },
+    {
+     "id": "kana-d52-02",
+     "kind": "kana",
+     "text": "フィ",
+     "reading_romanized": "fi",
+     "meaning_ko": null
+    },
+    {
+     "id": "kana-d52-03",
+     "kind": "kana",
+     "text": "フェ",
+     "reading_romanized": "fe",
+     "meaning_ko": null
+    },
+    {
+     "id": "kana-d52-04",
+     "kind": "kana",
+     "text": "フォ",
+     "reading_romanized": "fo",
+     "meaning_ko": null
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "ファン",
+     "reading_romanized": "fan",
+     "meaning_ko": "팬, 선풍기",
+     "explanation_ko": "ファ(fa) + ン(n)입니다. 큰 フ(fu)에 작은 ァ(a)가 붙어 fa가 됩니다. 작은 글자는 앞 글자와 합쳐 한 박자로 읽습니다."
+    },
+    {
+     "japanese": "ファイル",
+     "reading_romanized": "fairu",
+     "meaning_ko": "파일",
+     "explanation_ko": "ファ(fa) + イ(i) + ル(ru)입니다."
+    },
+    {
+     "japanese": "ファスナー",
+     "reading_romanized": "fasunaa",
+     "meaning_ko": "지퍼",
+     "explanation_ko": "ファ(fa) + ス(su) + ナ(na) + ー입니다. 마지막 ナ를 길게 읽습니다."
+    },
+    {
+     "japanese": "フィルム",
+     "reading_romanized": "firumu",
+     "meaning_ko": "필름",
+     "explanation_ko": "フィ(fi) + ル(ru) + ム(mu)입니다. 작은 ィ가 붙어 fi가 됩니다."
+    },
+    {
+     "japanese": "カフェ",
+     "reading_romanized": "kafe",
+     "meaning_ko": "카페",
+     "explanation_ko": "カ(ka) + フェ(fe)입니다. 작은 ェ가 붙어 fe가 됩니다."
+    },
+    {
+     "japanese": "フォーク",
+     "reading_romanized": "fooku",
+     "meaning_ko": "포크",
+     "explanation_ko": "フォ(fo) + ー + ク(ku)입니다. フォー는 fo를 길게 읽어 foo로 씁니다."
+    },
+    {
+     "japanese": "ソファー",
+     "reading_romanized": "sofaa",
+     "meaning_ko": "소파",
+     "explanation_ko": "ソ(so) + ファ(fa) + ー입니다. ソファ라고 ー 없이 쓰기도 합니다."
+    },
+    {
+     "japanese": "ヘッドフォン",
+     "reading_romanized": "heddofon",
+     "meaning_ko": "헤드폰",
+     "explanation_ko": "ヘ(he) + ッ + ド(do) + フォ(fo) + ン(n)입니다. ッ 뒤의 d를 겹쳐 씁니다."
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「ファ」의 일반적인 로마자 표기는 무엇인가요?",
+     "options": [
+      "fa",
+      "ha",
+      "pa",
+      "fu"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "큰 フ(fu)에 작은 ァ(a)가 붙으면 fa입니다.",
+     "id": "JP-INTRO-52-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「フォーク」의 읽기를 고르세요.",
+     "options": [
+      "fooku",
+      "fuuku",
+      "hooku",
+      "fuoku"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "フォ=fo, ー는 o를 길게 늘이고, ク=ku이므로 fooku입니다.",
+     "id": "JP-INTRO-52-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「カフェ」의 뜻은?",
+     "options": [
+      "카페",
+      "카레",
+      "커피",
+      "케이크"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "カフェ(kafe)는 ‘카페’입니다. 카레는 カレー, 커피는 コーヒー, 케이크는 ケーキ입니다.",
+     "id": "JP-INTRO-52-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「ソファー」의 뜻은?",
+     "options": [
+      "소파",
+      "소스",
+      "소금",
+      "수프"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ソファー(sofaa)는 ‘소파’입니다.",
+     "id": "JP-INTRO-52-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「ファイル」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "fairu",
+     "accepted_answers": [
+      "fairu",
+      "fuairu",
+      "huairu"
+     ],
+     "explanation_ko": "ファイル = fairu (파일). ファ(fa) + イ(i) + ル(ru).",
+     "id": "JP-INTRO-52-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「ファン」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "fan",
+     "accepted_answers": [
+      "fan",
+      "fuan",
+      "huan"
+     ],
+     "explanation_ko": "ファン = fan (팬). ファ(fa) + ン(n).",
+     "id": "JP-INTRO-52-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_KATAKANA"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전"
   }
  ]
 }

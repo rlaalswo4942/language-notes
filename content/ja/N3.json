@@ -5829,6 +5829,231 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N3-28",
+   "day_index": 28,
+   "week_index": 4,
+   "level": "N3",
+   "unit_id": "N3-W04",
+   "lesson_type": "checkpoint",
+   "title_ko": "4주 점검: 직장 체험 이야기",
+   "objective_ko": "N3 넷째 주 문형(使役形, 〜ほど, 〜にしては, 〜とおり(に), 〜ついでに)을 직장 체험 이야기 속에서 종합 점검한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N3-27"
+   ],
+   "explanation_ko": "4주 차에 배운 使役形(〜させる), 정도의 〜ほど, 기대와 다른 평가의 〜にしては, ‘~대로’의 〜とおり(に), ‘~하는 김에’의 〜ついでに를 직장 체험 이야기 속에서 다시 확인합니다. 使役形는 시키는 사람은 は, 시킴을 받는 사람은 に로 나타내고, 〜とおり는 명사에 직접 붙을 때 どおり가 됩니다(予想どおり). 〜にしては는 ‘~치고는’, 〜ついでに는 주된 용무를 하는 김에 덧붙이는 행동에 씁니다.",
+   "usage_notes": [
+    "使役形: 1그룹은 ない형의 ない를 せる로(書かない → 書かせる), 2그룹은 る를 떼고 させる(食べる → 食べさせる).",
+    "〜にしては는 앞의 기준으로 예상되는 것과 다른 결과・평가가 뒤에 옵니다.",
+    "〜ほど는 정도(~할 정도), AはBほど〜ない는 ‘A는 B만큼 ~하지 않다’입니다."
+   ],
+   "common_mistakes": [
+    "説明書のにしては機械を動かした(X) → 説明書のとおりに機械を動かした(O)",
+    "散歩ついでに(X) → 散歩のついでに(O): 명사 뒤에는 の를 넣습니다.",
+    "新人は先輩に資料をコピーさせた(X) → 先輩は新人に資料をコピーさせた(O): 시키는 사람이 주어입니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N3-28-01",
+     "kind": "word",
+     "text": "体験{たいけん}",
+     "reading_kana": "たいけん",
+     "reading_romanized": "taiken",
+     "meaning_ko": "체험",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-28-02",
+     "kind": "word",
+     "text": "指示{しじ}",
+     "reading_kana": "しじ",
+     "reading_romanized": "shiji",
+     "meaning_ko": "지시",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-28-03",
+     "kind": "word",
+     "text": "手順{てじゅん}",
+     "reading_kana": "てじゅん",
+     "reading_romanized": "tejun",
+     "meaning_ko": "순서, 절차",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-28-04",
+     "kind": "word",
+     "text": "緊張{きんちょう}",
+     "reading_kana": "きんちょう",
+     "reading_romanized": "kinchou",
+     "meaning_ko": "긴장",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-28-05",
+     "kind": "word",
+     "text": "新人{しんじん}",
+     "reading_kana": "しんじん",
+     "reading_romanized": "shinjin",
+     "meaning_ko": "신입, 신참",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-28-06",
+     "kind": "word",
+     "text": "落{お}ち着{つ}く",
+     "reading_kana": "おちつく",
+     "reading_romanized": "ochitsuku",
+     "meaning_ko": "침착하다, 진정되다",
+     "part_of_speech": "동사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "先輩{せんぱい}は新人{しんじん}に資料{しりょう}をコピーさせた。",
+     "meaning_ko": "선배는 신입에게 자료를 복사하게 했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "上司{じょうし}の指示{しじ}のとおりに作業{さぎょう}を進{すす}めた。",
+     "meaning_ko": "상사의 지시대로 작업을 진행했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "初{はじ}めての体験{たいけん}にしては、手順{てじゅん}をよく覚{おぼ}えている。",
+     "meaning_ko": "처음 해 보는 체험치고는 순서를 잘 기억하고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "緊張{きんちょう}しすぎて、手{て}が震{ふる}えるほどだった。",
+     "meaning_ko": "너무 긴장해서 손이 떨릴 정도였다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "郵便局{ゆうびんきょく}へ行{い}くついでに、会社{かいしゃ}の書類{しょるい}も出{だ}してきた。",
+     "meaning_ko": "우체국에 가는 김에 회사 서류도 부치고 왔다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "今日{きょう}の仕事{しごと}は思{おも}ったほど大変{たいへん}ではなかった。",
+     "meaning_ko": "오늘 일은 생각한 만큼 힘들지 않았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "部長{ぶちょう}は私{わたし}たちに、毎朝{まいあさ}会議室{かいぎしつ}を掃除{そうじ}させる。",
+     "meaning_ko": "부장은 우리에게 매일 아침 회의실을 청소하게 한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "説明書{せつめいしょ}のとおりに機械{きかい}を動{うご}かしたら、うまくいった。",
+     "meaning_ko": "설명서대로 기계를 움직였더니 잘 되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "新人{しんじん}にしては落{お}ち着{つ}いていて、先輩{せんぱい}たちを安心{あんしん}させた。",
+     "meaning_ko": "신입치고는 침착해서 선배들을 안심시켰다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "銀行{ぎんこう}へ行{い}ったついでに、昼{ひる}ご飯{はん}を食{た}べてきた。",
+     "meaning_ko": "은행에 간 김에 점심을 먹고 왔다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "部長は新人に会議室を（　）。(청소하게 했다)",
+     "options": [
+      "掃除させた",
+      "掃除された",
+      "掃除した",
+      "掃除させられた"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "시키는 쪽이 주어일 때는 使役形(掃除させた)를 씁니다. 掃除された는 수동, 掃除させられた는 사역수동입니다.",
+     "id": "JP-N3-28-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "説明書の（　）機械を動かした。(설명서대로)",
+     "options": [
+      "とおりに",
+      "ついでに",
+      "ほどに",
+      "にしては"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘~대로’는 〜とおり(に)입니다. 명사 + の + とおりに로 씁니다.",
+     "id": "JP-N3-28-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "初めて（　）、上手に作れた。(처음 해 본 것치고는)",
+     "options": [
+      "にしては",
+      "とおり",
+      "ついでに",
+      "ほど"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "기준(처음)에 비해 결과가 예상 밖으로 좋을 때는 〜にしては입니다.",
+     "id": "JP-N3-28-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "郵便局へ行く（　）、書類も出してきた。(가는 김에)",
+     "options": [
+      "ついでに",
+      "ほど",
+      "とおり",
+      "にしては"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "주된 용무를 하는 김에 다른 일을 덧붙일 때는 〜ついでに입니다.",
+     "id": "JP-N3-28-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「緊張」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kinchou",
+     "accepted_answers": [
+      "kinchou",
+      "kincho",
+      "kintyou",
+      "kintyo"
+     ],
+     "explanation_ko": "緊張 = きんちょう(kinchou), ‘긴장’입니다.",
+     "id": "JP-N3-28-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「手順」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "tejun",
+     "accepted_answers": [
+      "tejun",
+      "tezyun"
+     ],
+     "explanation_ko": "手順 = てじゅん(tejun), ‘순서, 절차’입니다.",
+     "id": "JP-N3-28-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

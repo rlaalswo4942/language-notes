@@ -5800,6 +5800,227 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-28",
+   "day_index": 28,
+   "week_index": 4,
+   "level": "N1",
+   "unit_id": "N1-W04",
+   "lesson_type": "checkpoint",
+   "title_ko": "4주 점검: 마을 도서관의 존속",
+   "objective_ko": "N1 넷째 주 문형(〜んばかり(に), 〜なくして(は)〜ない, 〜と思いきや, 〜たりとも〜ない, 〜極まりない)을 도서관 존속 이야기 속에서 종합 점검한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-27"
+   ],
+   "explanation_ko": "4주 차에 배운 〜んばかり(당장이라도 ~할 듯한), 〜なくして(は)〜ない(~없이는 ~할 수 없다), 〜と思いきや(~라고 생각했는데), 〜たりとも〜ない(단 ~라도 ~않다), 〜極まりない(더할 나위 없이 ~하다)를 마을 도서관의 존속을 둘러싼 이야기 속에서 다시 확인합니다. 〜んばかり는 ない형의 ない를 ん으로 바꿔 붙이고, 〜たりとも는 一円・一瞬처럼 가장 작은 단위의 말에 붙으며 뒤에 반드시 부정이 옵니다. 〜極まりない는 な형용사 어간・명사에 바로 붙어 부정적 평가를 강조합니다.",
+   "usage_notes": [
+    "〜なくして(は) 뒤에는 ない・できない・ありえない 같은 부정 표현이 옵니다.",
+    "〜と思いきや는 예상이 빗나간 의외의 결과를 이어서 말합니다.",
+    "〜たりとも는 ‘하나’를 포함한 최소 단위(一円・一秒・一人)에 붙고, 뒤는 항상 부정입니다."
+   ],
+   "common_mistakes": [
+    "泣かないんばかり(X) → 泣かんばかり(O): ない를 ん으로 바꿉니다.",
+    "一円たりとも無駄にする(X) → 一円たりとも無駄にしてはならない(O): 뒤에는 부정이 옵니다.",
+    "危険な極まりない(X) → 危険極まりない(O): な를 넣지 않습니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N1-28-01",
+     "kind": "word",
+     "text": "寄付{きふ}",
+     "reading_kana": "きふ",
+     "reading_romanized": "kifu",
+     "meaning_ko": "기부",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-28-02",
+     "kind": "word",
+     "text": "存続{そんぞく}",
+     "reading_kana": "そんぞく",
+     "reading_romanized": "sonzoku",
+     "meaning_ko": "존속",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-28-03",
+     "kind": "word",
+     "text": "老朽化{ろうきゅうか}",
+     "reading_kana": "ろうきゅうか",
+     "reading_romanized": "roukyuuka",
+     "meaning_ko": "노후화",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-28-04",
+     "kind": "word",
+     "text": "歓声{かんせい}",
+     "reading_kana": "かんせい",
+     "reading_romanized": "kansei",
+     "meaning_ko": "환성",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-28-05",
+     "kind": "word",
+     "text": "放置{ほうち}",
+     "reading_kana": "ほうち",
+     "reading_romanized": "houchi",
+     "meaning_ko": "방치",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-28-06",
+     "kind": "word",
+     "text": "目標{もくひょう}",
+     "reading_kana": "もくひょう",
+     "reading_romanized": "mokuhyou",
+     "meaning_ko": "목표",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "市民{しみん}の支援{しえん}なくして、この図書館{としょかん}の存続{そんぞく}はありえない。",
+     "meaning_ko": "시민의 지원 없이는 이 도서관의 존속은 있을 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "閉館{へいかん}が決{き}まった日{ひ}、館長{かんちょう}は泣{な}かんばかりの顔{かお}で挨拶{あいさつ}した。",
+     "meaning_ko": "폐관이 결정된 날 관장은 당장이라도 울 듯한 얼굴로 인사했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "寄付{きふ}は集{あつ}まらないと思{おも}いきや、一週間{いっしゅうかん}で目標額{もくひょうがく}に達{たっ}した。",
+     "meaning_ko": "기부는 모이지 않을 줄 알았는데 일주일 만에 목표액에 도달했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "老朽化{ろうきゅうか}した建物{たてもの}は、一刻{いっこく}たりとも放置{ほうち}できない。",
+     "meaning_ko": "노후한 건물은 한시도 방치할 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "工事{こうじ}の予算{よさん}を一円{いちえん}たりとも無駄{むだ}にしてはならない。",
+     "meaning_ko": "공사 예산을 단 1엔도 낭비해서는 안 된다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "管理{かんり}がずさんなまま放置{ほうち}するのは、無責任{むせきにん}極{きわ}まりない。",
+     "meaning_ko": "관리가 허술한 채 방치하는 것은 더할 나위 없이 무책임하다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "再開{さいかい}が決{き}まると、集{あつ}まった人々{ひとびと}から割{わ}れんばかりの歓声{かんせい}が上{あ}がった。",
+     "meaning_ko": "재개가 결정되자 모인 사람들 사이에서 터질 듯한 환성이 일었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "先人{せんじん}の努力{どりょく}なくしては、この蔵書{ぞうしょ}は今{いま}に残{のこ}らなかっただろう。",
+     "meaning_ko": "선인들의 노력 없이는 이 장서는 지금까지 남지 않았을 것이다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "簡単{かんたん}に終{お}わると思{おも}いきや、手続{てつづ}きは予想以上{よそういじょう}に複雑{ふくざつ}だった。",
+     "meaning_ko": "간단히 끝날 줄 알았는데 수속은 예상 이상으로 복잡했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "約束{やくそく}を破{やぶ}っておきながら謝罪{しゃざい}もしないとは、不誠実{ふせいじつ}極{きわ}まりない。",
+     "meaning_ko": "약속을 어기고도 사과조차 하지 않다니 더할 나위 없이 불성실하다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "館長は泣か（　）顔で挨拶した。(당장이라도 울 듯한)",
+     "options": [
+      "んばかりの",
+      "なくしての",
+      "たりとも",
+      "極まりない"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ない형의 ない를 ん으로 바꿔 〜んばかりの + 명사로 ‘당장이라도 ~할 듯한’을 나타냅니다.",
+     "id": "JP-N1-28-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "市民の支援（　）、図書館の存続はありえない。",
+     "options": [
+      "なくして",
+      "たりとも",
+      "極まりない",
+      "と思いきや"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘~없이는 ~할 수 없다’는 〜なくして(は)〜ない입니다. 뒤에 ありえない가 부정 표현으로 이어집니다.",
+     "id": "JP-N1-28-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "予算を一円（　）無駄にしてはならない。",
+     "options": [
+      "たりとも",
+      "んばかり",
+      "なくして",
+      "極まりない"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "一円처럼 최소 단위에 붙어 ‘단 1엔도’를 나타내는 것은 〜たりとも이며, 뒤에는 부정이 옵니다.",
+     "id": "JP-N1-28-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "寄付は集まらないと（　）、一週間で目標額に達した。",
+     "options": [
+      "思いきや",
+      "言わんばかり",
+      "思うまでもなく",
+      "思いたりとも"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "예상이 빗나간 결과를 이어 말하는 표현은 〜と思いきや입니다.",
+     "id": "JP-N1-28-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「寄付」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kifu",
+     "accepted_answers": [
+      "kifu"
+     ],
+     "explanation_ko": "寄付 = きふ(kifu), ‘기부’입니다.",
+     "id": "JP-N1-28-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「存続」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "sonzoku",
+     "accepted_answers": [
+      "sonzoku"
+     ],
+     "explanation_ko": "存続 = そんぞく(sonzoku), ‘존속’입니다.",
+     "id": "JP-N1-28-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "JLPT_FORMAT"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

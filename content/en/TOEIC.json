@@ -4043,6 +4043,202 @@
     "version": 1,
     "last_revised": "2026-11-01"
    }
+  },
+  {
+   "id": "TOEIC-022",
+   "level": "B1",
+   "track": "toeic",
+   "day": 22,
+   "title_ko": "TOEIC Part 7: 문자 메시지·온라인 채팅에서 화자의 의도 파악하기",
+   "objective_ko": "Part 7의 문자 메시지·채팅 지문에서 문제, 요청, 약속 같은 핵심 정보를 찾고 관용 표현의 뜻을 문맥으로 파악한다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/toeic/about/listening-reading.html",
+     "publisher": "ETS",
+     "supports": "공식 시험 형식",
+     "checked_at": "2026-11-02"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "TOEIC L&R Part 7에는 이메일·공지·광고 외에 문자 메시지나 온라인 채팅 형태의 지문도 나옵니다. 아래는 자체 제작한 짧은 연습 지문이며 ETS 공식 문항이 아닙니다. ① 먼저 누가 누구에게 무슨 일로 이야기하는지 파악합니다. ② 의도를 묻는 문제(What does ... most likely mean when ... writes ...?)는 인용된 문장의 앞뒤 메시지를 같이 읽고 정합니다. ③ 구어 표현은 글자 그대로가 아니라 대화 속 역할로 해석합니다: I'm on it(제가 바로 처리할게요), Count me in(저도 참여할게요), That works for me(저는 괜찮아요), Let me check(확인해 볼게요). ④ 시간·요일이 바뀌는 대화는 마지막에 합의된 내용을 정답으로 고릅니다. ⑤ 보기는 지문의 말을 다른 말로 바꾼 것이 많습니다(delayed → late).",
+    "common_mistake_ko": "I'm on it을 '나는 그 위에 있다'로 해석하는 실수 → 문맥상 '지금 처리하고 있다'입니다. / 중간에 나온 시간을 고르는 실수 → 마지막에 합의된 시간을 고릅니다."
+   },
+   "vocabulary": [
+    {
+     "word": "reschedule",
+     "part_of_speech": "동사",
+     "meaning_ko": "일정을 다시 잡다",
+     "example_en": "We need to reschedule the meeting to Friday.",
+     "example_ko": "회의를 금요일로 다시 잡아야 해요."
+    },
+    {
+     "word": "urgent",
+     "part_of_speech": "형용사",
+     "meaning_ko": "긴급한",
+     "example_en": "This is an urgent request.",
+     "example_ko": "이것은 긴급한 요청이에요."
+    },
+    {
+     "word": "forward",
+     "part_of_speech": "동사",
+     "meaning_ko": "전달하다",
+     "example_en": "Please forward the e-mail to Ms. Kim.",
+     "example_ko": "그 이메일을 김 씨에게 전달해 주세요."
+    },
+    {
+     "word": "handle",
+     "part_of_speech": "동사",
+     "meaning_ko": "처리하다",
+     "example_en": "Ms. Lee will handle the customer complaints.",
+     "example_ko": "이 씨가 고객 불만을 처리할 거예요."
+    },
+    {
+     "word": "confirmation",
+     "part_of_speech": "명사",
+     "meaning_ko": "확인, 확정",
+     "example_en": "You will receive a confirmation by text message.",
+     "example_ko": "문자 메시지로 확인 연락을 받으실 거예요."
+    },
+    {
+     "word": "cover",
+     "part_of_speech": "동사",
+     "meaning_ko": "대신 맡다",
+     "example_en": "Could you cover my shift on Saturday?",
+     "example_ko": "토요일 제 근무를 대신해 주실 수 있나요?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Are you available for a quick call at 3?",
+     "ko": "3시에 잠깐 통화할 수 있나요?"
+    },
+    {
+     "en": "I'm on it. I'll send the file in ten minutes.",
+     "ko": "제가 바로 처리할게요. 10분 안에 파일을 보낼게요."
+    },
+    {
+     "en": "Count me in for the team lunch.",
+     "ko": "팀 점심에 저도 참석할게요."
+    },
+    {
+     "en": "That works for me.",
+     "ko": "저는 괜찮아요."
+    },
+    {
+     "en": "The shipment has been delayed until Friday.",
+     "ko": "배송이 금요일까지 지연되었어요."
+    },
+    {
+     "en": "Could you cover my shift on Saturday?",
+     "ko": "토요일 제 근무를 대신해 주실 수 있나요?"
+    },
+    {
+     "en": "Let me check the schedule and get back to you.",
+     "ko": "일정을 확인해 보고 다시 연락드릴게요."
+    },
+    {
+     "en": "The client asked us to reschedule the meeting to Monday morning.",
+     "ko": "고객이 회의를 월요일 오전으로 다시 잡아 달라고 요청했어요."
+    },
+    {
+     "en": "No problem. I will handle it.",
+     "ko": "문제없어요. 제가 처리할게요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "Mina (9:02): The delivery truck is stuck in traffic. Jun (9:04): How long will it take? Mina (9:05): Probably an hour. — What is the problem?",
+     "choices": [
+      "A delivery will be late.",
+      "A meeting was canceled.",
+      "A manager is on vacation.",
+      "A printer is broken."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "배달 트럭이 교통 체증에 막혀 한 시간쯤 걸린다고 했으므로 배송이 늦어지는 것이 문제입니다.",
+     "error_tag": "part7-chat",
+     "id": "TOEIC-022-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Ana (2:10): Can someone send the sales report to the client today? Ben (2:11): I'm on it. — What does Ben most likely mean when he writes \"I'm on it\"?",
+     "choices": [
+      "He will do the task now.",
+      "He is sitting on the report.",
+      "He cannot do the task.",
+      "He wants more time."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "\"I'm on it\"은 \"제가 지금 처리할게요\"라는 뜻입니다. 요청에 응하는 말입니다.",
+     "error_tag": "part7-intent",
+     "id": "TOEIC-022-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Leo (1:00): Are you joining the workshop on Thursday? Sara (1:01): Count me in. — What will Sara most likely do?",
+     "choices": [
+      "Attend the workshop",
+      "Skip the workshop",
+      "Lead the workshop",
+      "Cancel the workshop"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "\"Count me in\"은 \"저도 참여할게요\"라는 뜻이므로 워크숍에 참석합니다.",
+     "error_tag": "part7-intent",
+     "id": "TOEIC-022-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Kim (4:00): Can we move the meeting to Monday at 10? Park (4:02): Monday morning works for me, but I can't make it before 11. Kim (4:03): Then let's say 11. — When will the meeting probably be held?",
+     "choices": [
+      "Monday at 11",
+      "Monday at 10",
+      "Tuesday at 11",
+      "Tuesday at 10"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "마지막에 합의된 시간은 월요일 11시입니다. 10시는 중간에 나온 제안입니다.",
+     "error_tag": "part7-detail",
+     "id": "TOEIC-022-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: A: How about Tuesday at two? B: That ___ for me. (저는 괜찮아요)",
+     "answer_text": "works",
+     "accepted_answers": [
+      "works"
+     ],
+     "explanation_ko": "\"That works for me.\"는 제안이 자신에게 괜찮다는 뜻입니다.",
+     "error_tag": "part7-expression",
+     "id": "TOEIC-022-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: The shipment has been ___ until Friday. (지연되었어요)",
+     "answer_text": "delayed",
+     "accepted_answers": [
+      "delayed",
+      "postponed"
+     ],
+     "explanation_ko": "has been 뒤에는 과거분사를 쓰며, 일정이 늦춰졌다는 뜻의 delayed가 알맞습니다.",
+     "error_tag": "part7-detail",
+     "id": "TOEIC-022-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "동료에게 회의 시간을 바꿀 수 있는지 묻는 짧은 메시지를 써 보세요.",
+    "example_answer_en": "Hi Jun, can we move tomorrow's meeting to 3 p.m.? Please let me know if that works for you.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-02",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-02"
+   }
   }
  ]
 }

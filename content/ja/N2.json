@@ -5800,6 +5800,227 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-28",
+   "day_index": 28,
+   "week_index": 4,
+   "level": "N2",
+   "unit_id": "N2-W04",
+   "lesson_type": "checkpoint",
+   "title_ko": "4주 점검: 전시회 개최 소식",
+   "objective_ko": "N2 넷째 주 문형(〜からには, 〜に関して・〜に関する, 〜に際して・〜にあたって, 〜おそれがある, 〜次第)을 전시회 소식 속에서 종합 점검한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-27"
+   ],
+   "explanation_ko": "4주 차에 배운 〜からには(~한 이상은), 〜に関して・〜に関する(~에 관해), 〜に際して(~할 때에), 〜おそれがある(~할 우려가 있다), 〜次第(~하는 대로 / ~에 달려 있다)를 전시회 개최 소식 속에서 다시 확인합니다. 〜に関する는 명사를 꾸밀 때, 〜に関して는 서술을 꾸밀 때 씁니다. 〜次第는 ‘ます형 + 次第’일 때 ‘~하는 대로’, ‘명사 + 次第’일 때 ‘~에 달려 있다’입니다.",
+   "usage_notes": [
+    "〜からには 뒤에는 의무・결의・판단이 옵니다.",
+    "〜おそれがある는 나쁜 일이 일어날 가능성에 씁니다. 좋은 일에는 쓰지 않습니다.",
+    "〜に際して는 입장・계약・개업처럼 중요한 계기에 쓰는 격식 있는 표현입니다."
+   ],
+   "common_mistakes": [
+    "個人情報に関して規約(X) → 個人情報に関する規約(O): 명사를 꾸밀 때는 〜に関する를 씁니다.",
+    "日程が決まった次第、お知らせします(X) → 日程が決まり次第、お知らせします(O): ます형 + 次第",
+    "合格するおそれがある(X) → 좋은 일에는 〜おそれ를 쓰지 않습니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N2-28-01",
+     "kind": "word",
+     "text": "開催{かいさい}",
+     "reading_kana": "かいさい",
+     "reading_romanized": "kaisai",
+     "meaning_ko": "개최",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-28-02",
+     "kind": "word",
+     "text": "来場者{らいじょうしゃ}",
+     "reading_kana": "らいじょうしゃ",
+     "reading_romanized": "raijousha",
+     "meaning_ko": "방문객",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-28-03",
+     "kind": "word",
+     "text": "延期{えんき}",
+     "reading_kana": "えんき",
+     "reading_romanized": "enki",
+     "meaning_ko": "연기",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-28-04",
+     "kind": "word",
+     "text": "事前{じぜん}",
+     "reading_kana": "じぜん",
+     "reading_romanized": "jizen",
+     "meaning_ko": "사전",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-28-05",
+     "kind": "word",
+     "text": "混雑{こんざつ}",
+     "reading_kana": "こんざつ",
+     "reading_romanized": "konzatsu",
+     "meaning_ko": "혼잡",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-28-06",
+     "kind": "word",
+     "text": "手続{てつづ}き",
+     "reading_kana": "てつづき",
+     "reading_romanized": "tetsuzuki",
+     "meaning_ko": "수속, 절차",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "展示会{てんじかい}を開催{かいさい}するからには、多{おお}くの来場者{らいじょうしゃ}に楽{たの}しんでもらいたい。",
+     "meaning_ko": "전시회를 개최하는 이상 많은 방문객이 즐겼으면 한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "展示会{てんじかい}の開催{かいさい}に関{かん}して、事前{じぜん}の申{もう}し込{こ}みは必要{ひつよう}ありません。",
+     "meaning_ko": "전시회 개최에 관해 사전 신청은 필요 없습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "入場{にゅうじょう}に際{さい}しては、受付{うけつけ}で手続{てつづ}きをお願{ねが}いします。",
+     "meaning_ko": "입장하실 때는 접수처에서 수속을 부탁드립니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "台風{たいふう}が近{ちか}づいているため、開催{かいさい}が延期{えんき}になるおそれがある。",
+     "meaning_ko": "태풍이 다가오고 있어서 개최가 연기될 우려가 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "日程{にってい}が決{き}まり次第{しだい}、ホームページでお知{し}らせします。",
+     "meaning_ko": "일정이 정해지는 대로 홈페이지에서 알리겠습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "週末{しゅうまつ}は混雑{こんざつ}するおそれがあるので、平日{へいじつ}の来場{らいじょう}をおすすめします。",
+     "meaning_ko": "주말은 혼잡할 우려가 있으므로 평일 방문을 권합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "成功{せいこう}するかどうかは、事前{じぜん}の準備{じゅんび}次第{しだい}だ。",
+     "meaning_ko": "성공할지 어떨지는 사전 준비에 달려 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "開催{かいさい}の中止{ちゅうし}に関{かん}する発表{はっぴょう}は、まだ行{おこな}われていない。",
+     "meaning_ko": "개최 중지에 관한 발표는 아직 이루어지지 않았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "引{ひ}き受{う}けたからには、最後{さいご}まで責任{せきにん}を持{も}ってやり遂{と}げるつもりだ。",
+     "meaning_ko": "맡은 이상 끝까지 책임지고 해낼 생각이다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "会場{かいじょう}の変更{へんこう}に際{さい}し、来場者{らいじょうしゃ}に案内状{あんないじょう}を送{おく}った。",
+     "meaning_ko": "회장 변경에 즈음하여 방문객에게 안내장을 보냈다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "引き受けた（　）、最後までやり遂げるつもりだ。",
+     "options": [
+      "からには",
+      "にもかかわらず",
+      "わけがない",
+      "に応じて"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "이미 맡은 이상 끝까지 하겠다는 결의를 말하므로 〜からには입니다.",
+     "id": "JP-N2-28-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "日程が決まり（　）、お知らせします。(정해지는 대로)",
+     "options": [
+      "次第",
+      "ながら",
+      "すぎ",
+      "がち"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ます형 + 次第는 ‘~하는 대로 곧’입니다.",
+     "id": "JP-N2-28-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "個人情報（　）規約を読んでください。",
+     "options": [
+      "に関する",
+      "に関して",
+      "に際して",
+      "に基づいて"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "명사를 꾸밀 때는 〜に関する를 씁니다. 〜に関して는 서술을 꾸밀 때 씁니다.",
+     "id": "JP-N2-28-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "台風が近づき、開催が延期になる（　）がある。(우려)",
+     "options": [
+      "おそれ",
+      "つもり",
+      "ところ",
+      "ほど"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "나쁜 일이 일어날 가능성은 〜おそれがある입니다.",
+     "id": "JP-N2-28-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「延期」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "enki",
+     "accepted_answers": [
+      "enki"
+     ],
+     "explanation_ko": "延期 = えんき(enki), ‘연기’입니다.",
+     "id": "JP-N2-28-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「開催」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kaisai",
+     "accepted_answers": [
+      "kaisai"
+     ],
+     "explanation_ko": "開催 = かいさい(kaisai), ‘개최’입니다.",
+     "id": "JP-N2-28-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

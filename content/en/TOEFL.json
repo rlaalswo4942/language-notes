@@ -4016,6 +4016,201 @@
     "version": 1,
     "last_revised": "2026-11-01"
    }
+  },
+  {
+   "id": "TOEFL-022",
+   "level": "B1",
+   "track": "toefl",
+   "day": 22,
+   "title_ko": "TOEFL 2026 Read an Academic Passage 2: 지시어·어휘·세부정보로 지문 읽기",
+   "objective_ko": "학술 지문에서 주제, 지시어가 가리키는 대상, 문맥 속 어휘 뜻, 세부 정보를 순서대로 찾는다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/content/ets-org/language-master/ko/home/toefl/test-takers/ibt/about/content.html",
+     "publisher": "ETS",
+     "supports": "2026 형식 유형명",
+     "checked_at": "2026-11-02"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "2026-01-21 이후 TOEFL iBT Reading에는 Read an Academic Passage 유형이 안내되어 있습니다(공식 안내 유형명). 아래 지문은 이 사이트가 만든 비공식 연습입니다. ① 첫 문장과 마지막 문장에서 글의 주제를 잡습니다. ② it, this, these, they 같은 지시어는 바로 앞 문장에서 가리키는 대상을 찾습니다. ③ 모르는 어휘는 앞뒤 문맥으로 뜻을 추론합니다. ④ 세부 정보 문제는 질문의 핵심 단어를 지문에서 찾아 대조합니다. ⑤ 지문과 같은 단어가 들어 있다고 정답은 아닙니다. 정답은 지문의 내용을 다른 말로 바꾼 경우가 많습니다. 점수를 예측하는 자료가 아닙니다.",
+    "common_mistake_ko": "지문에 나온 단어가 그대로 들어간 보기를 곧바로 고르는 실수 → 질문이 묻는 것(주제/세부 정보/지시 대상)과 맞는지 먼저 확인합니다."
+   },
+   "vocabulary": [
+    {
+     "word": "communicate",
+     "part_of_speech": "동사",
+     "meaning_ko": "의사소통하다, 알리다",
+     "example_en": "Bees communicate by moving in special patterns.",
+     "example_ko": "벌은 특별한 움직임으로 소식을 전해요."
+    },
+    {
+     "word": "colony",
+     "part_of_speech": "명사",
+     "meaning_ko": "무리, 군집",
+     "example_en": "A bee colony can have thousands of members.",
+     "example_ko": "벌 군집에는 수천 마리가 있을 수 있어요."
+    },
+    {
+     "word": "behavior",
+     "part_of_speech": "명사",
+     "meaning_ko": "행동",
+     "example_en": "Scientists study animal behavior.",
+     "example_ko": "과학자들은 동물의 행동을 연구해요."
+    },
+    {
+     "word": "efficiently",
+     "part_of_speech": "부사",
+     "meaning_ko": "효율적으로",
+     "example_en": "The team worked efficiently.",
+     "example_ko": "그 팀은 효율적으로 일했어요."
+    },
+    {
+     "word": "direction",
+     "part_of_speech": "명사",
+     "meaning_ko": "방향",
+     "example_en": "Which direction is the library?",
+     "example_ko": "도서관은 어느 방향이에요?"
+    },
+    {
+     "word": "distance",
+     "part_of_speech": "명사",
+     "meaning_ko": "거리",
+     "example_en": "The distance to the station is two kilometers.",
+     "example_ko": "역까지의 거리는 2킬로미터예요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Honeybees use a special movement called the waggle dance to share information.",
+     "ko": "꿀벌은 정보를 나누기 위해 8자 춤이라는 특별한 움직임을 사용해요."
+    },
+    {
+     "en": "A bee that finds food returns to the hive and dances.",
+     "ko": "먹이를 찾은 벌은 벌집으로 돌아와 춤을 춰요."
+    },
+    {
+     "en": "The angle of the dance shows the direction of the food.",
+     "ko": "춤의 각도는 먹이가 있는 방향을 보여 줘요."
+    },
+    {
+     "en": "The length of the dance tells other bees how far away the food is.",
+     "ko": "춤의 길이는 다른 벌에게 먹이가 얼마나 먼지 알려 줘요."
+    },
+    {
+     "en": "This behavior allows the colony to collect food efficiently.",
+     "ko": "이 행동 덕분에 군집은 먹이를 효율적으로 모을 수 있어요."
+    },
+    {
+     "en": "The word 'it' usually refers to a noun mentioned just before it.",
+     "ko": "'it'은 보통 바로 앞에 나온 명사를 가리켜요."
+    },
+    {
+     "en": "Scientists watch the colony to understand how bees communicate.",
+     "ko": "과학자들은 벌이 어떻게 소식을 전하는지 이해하려고 군집을 관찰해요."
+    },
+    {
+     "en": "In this context, 'efficiently' means without wasting time or energy.",
+     "ko": "이 문맥에서 'efficiently'는 시간이나 에너지를 낭비하지 않고라는 뜻이에요."
+    },
+    {
+     "en": "The main idea is the point that the whole passage supports.",
+     "ko": "주제는 지문 전체가 뒷받침하는 핵심이에요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "지문(자체 제작 연습): 'Honeybees use a special movement called the waggle dance to share information. A bee that finds a good flower patch returns to the hive and dances on the honeycomb. The angle of the dance shows the direction of the food, and the length of the dance tells other bees how far away it is. This behavior allows the colony to collect food efficiently.' — What is the passage mainly about?",
+     "choices": [
+      "How honeybees share where food is",
+      "How honeybees build a hive",
+      "Why honeybees make honey",
+      "When honeybees go to sleep"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "지문 전체가 춤의 각도와 길이로 먹이의 방향과 거리를 알리는 내용입니다.",
+     "error_tag": "main-idea",
+     "id": "TOEFL-022-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "지문(자체 제작 연습): 'Honeybees use a special movement called the waggle dance to share information. A bee that finds a good flower patch returns to the hive and dances on the honeycomb. The angle of the dance shows the direction of the food, and the length of the dance tells other bees how far away it is. This behavior allows the colony to collect food efficiently.' — The word 'it' in the passage refers to",
+     "choices": [
+      "the food",
+      "the dance",
+      "the hive",
+      "the angle"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "'how far away it is'에서 멀리 있는 것은 먹이이므로 it은 the food를 가리킵니다.",
+     "error_tag": "reference",
+     "id": "TOEFL-022-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "지문(자체 제작 연습): 'Honeybees use a special movement called the waggle dance to share information. A bee that finds a good flower patch returns to the hive and dances on the honeycomb. The angle of the dance shows the direction of the food, and the length of the dance tells other bees how far away it is. This behavior allows the colony to collect food efficiently.' — The word 'efficiently' is closest in meaning to",
+     "choices": [
+      "without wasting time or effort",
+      "with great fear",
+      "in a very loud way",
+      "by accident"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "efficiently는 낭비 없이 능률적으로라는 뜻입니다.",
+     "error_tag": "vocabulary",
+     "id": "TOEFL-022-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "지문(자체 제작 연습): 'Honeybees use a special movement called the waggle dance to share information. A bee that finds a good flower patch returns to the hive and dances on the honeycomb. The angle of the dance shows the direction of the food, and the length of the dance tells other bees how far away it is. This behavior allows the colony to collect food efficiently.' — According to the passage, what does the length of the dance show?",
+     "choices": [
+      "How far away the food is",
+      "How much food there is",
+      "Which flower it is",
+      "How old the bee is"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "지문에 춤의 길이는 먹이가 얼마나 먼지를 알려 준다고 나옵니다.",
+     "error_tag": "detail",
+     "id": "TOEFL-022-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "지문(자체 제작 연습): 'Honeybees use a special movement called the waggle dance to share information. A bee that finds a good flower patch returns to the hive and dances on the honeycomb. The angle of the dance shows the direction of the food, and the length of the dance tells other bees how far away it is. This behavior allows the colony to collect food efficiently.' — 빈칸에 알맞은 한 단어를 쓰세요: The angle of the dance shows the ___ of the food. (방향)",
+     "answer_text": "direction",
+     "accepted_answers": [
+      "direction"
+     ],
+     "explanation_ko": "춤의 각도는 먹이의 방향(direction)을 보여 줍니다.",
+     "error_tag": "detail",
+     "id": "TOEFL-022-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "지문(자체 제작 연습): 'Honeybees use a special movement called the waggle dance to share information. A bee that finds a good flower patch returns to the hive and dances on the honeycomb. The angle of the dance shows the direction of the food, and the length of the dance tells other bees how far away it is. This behavior allows the colony to collect food efficiently.' — 빈칸에 알맞은 한 단어를 쓰세요: This behavior allows the colony to ___ food efficiently. (모으다)",
+     "answer_text": "collect",
+     "accepted_answers": [
+      "collect"
+     ],
+     "explanation_ko": "지문의 마지막 문장에 collect food efficiently가 나옵니다.",
+     "error_tag": "detail",
+     "id": "TOEFL-022-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "동물이나 식물에 대해 알고 있는 사실 한 가지를 두 문장으로 써 보세요.",
+    "example_answer_en": "Ants leave a smell on the ground. Other ants follow it to find food.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-02",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-02"
+   }
   }
  ]
 }

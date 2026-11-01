@@ -4221,6 +4221,207 @@
     "version": 1,
     "last_revised": "2026-11-01"
    }
+  },
+  {
+   "id": "B1-023",
+   "level": "B1",
+   "track": "general",
+   "day": 23,
+   "title_ko": "부가의문문: isn't it? / don't you? / shall we?",
+   "objective_ko": "문장 끝에 짧은 질문을 붙여 확인하거나 동의를 구하는 부가의문문을 만든다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-02"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "부가의문문(question tag)은 문장 끝에 붙이는 짧은 질문으로, 확인하거나 동의를 구할 때 씁니다. ① 긍정문 뒤에는 부정 tag, 부정문 뒤에는 긍정 tag를 붙입니다: You are tired, aren't you? / You aren't tired, are you? ② tag의 동사는 본문의 be동사·조동사를 그대로 쓰고, 일반동사 문장은 do / does / did를 씁니다: They went home, didn't they? ③ tag의 주어는 대명사입니다: Tom can swim, can't he? ④ There is ...의 tag는 there를 씁니다: There is a bank near here, isn't there? ⑤ 특수한 경우: I am → aren't I?, Let's ... → shall we?, 명령문 → will you? ⑥ 끝을 올리면 정말 묻는 질문, 내리면 확인하는 말투입니다.",
+    "common_mistake_ko": "You live near the station, aren't you?(X) → You live near the station, don't you?(O) / She hasn't called, hasn't she?(X) → She hasn't called, has she?(O) / Let's start, will we?(X) → Let's start, shall we?(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "concert",
+     "part_of_speech": "명사",
+     "meaning_ko": "콘서트",
+     "example_en": "We went to a concert last night.",
+     "example_ko": "우리는 어젯밤 콘서트에 갔어요."
+    },
+    {
+     "word": "colleague",
+     "part_of_speech": "명사",
+     "meaning_ko": "동료",
+     "example_en": "My colleague helped me with the report.",
+     "example_ko": "내 동료가 보고서를 도와주었어요."
+    },
+    {
+     "word": "reservation",
+     "part_of_speech": "명사",
+     "meaning_ko": "예약",
+     "example_en": "I made a reservation for six people.",
+     "example_ko": "나는 여섯 명 자리를 예약했어요."
+    },
+    {
+     "word": "confirm",
+     "part_of_speech": "동사",
+     "meaning_ko": "확인하다",
+     "example_en": "Please confirm your address by e-mail.",
+     "example_ko": "이메일로 주소를 확인해 주세요."
+    },
+    {
+     "word": "assume",
+     "part_of_speech": "동사",
+     "meaning_ko": "가정하다, 추측하다",
+     "example_en": "I assume the store is open on Sundays.",
+     "example_ko": "그 가게는 일요일에도 연다고 생각해요."
+    },
+    {
+     "word": "obvious",
+     "part_of_speech": "형용사",
+     "meaning_ko": "분명한, 명백한",
+     "example_en": "It was obvious that he was nervous.",
+     "example_ko": "그가 긴장했다는 것은 분명했어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "You are from Busan, aren't you?",
+     "ko": "부산 출신이죠, 그렇죠?"
+    },
+    {
+     "en": "She doesn't like coffee, does she?",
+     "ko": "그녀는 커피를 좋아하지 않죠, 그렇죠?"
+    },
+    {
+     "en": "They went to the concert, didn't they?",
+     "ko": "그들은 콘서트에 갔죠, 그렇죠?"
+    },
+    {
+     "en": "He can swim, can't he?",
+     "ko": "그는 수영할 수 있죠, 그렇죠?"
+    },
+    {
+     "en": "It's a nice day, isn't it?",
+     "ko": "날씨 좋네요, 그렇죠?"
+    },
+    {
+     "en": "You haven't finished yet, have you?",
+     "ko": "아직 안 끝냈죠, 그렇죠?"
+    },
+    {
+     "en": "I'm right, aren't I?",
+     "ko": "제가 맞죠, 그렇죠?"
+    },
+    {
+     "en": "Let's take a break, shall we?",
+     "ko": "좀 쉴까요?"
+    },
+    {
+     "en": "Open the window, will you?",
+     "ko": "창문 좀 열어 줄래요?"
+    },
+    {
+     "en": "There is a bank near here, isn't there?",
+     "ko": "이 근처에 은행이 있죠, 그렇죠?"
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "You live near the station, ___?",
+     "choices": [
+      "don't you",
+      "do you",
+      "aren't you",
+      "didn't you"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "긍정문의 일반동사 현재형이므로 부정 tag인 don't you?를 붙입니다.",
+     "error_tag": "question-tag",
+     "id": "B1-023-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "She hasn't called you, ___?",
+     "choices": [
+      "has she",
+      "hasn't she",
+      "does she",
+      "did she"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "부정문(hasn't)이므로 긍정 tag를 쓰고, 본문의 조동사 has를 그대로 반복합니다.",
+     "error_tag": "question-tag",
+     "id": "B1-023-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Let's start now, ___?",
+     "choices": [
+      "shall we",
+      "will we",
+      "don't we",
+      "do we"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Let's ...의 부가의문문은 shall we?입니다.",
+     "error_tag": "question-tag",
+     "id": "B1-023-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "They were late yesterday, ___?",
+     "choices": [
+      "weren't they",
+      "were they",
+      "didn't they",
+      "aren't they"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "were가 쓰인 긍정문이므로 같은 be동사의 부정 tag인 weren't they?입니다.",
+     "error_tag": "question-tag",
+     "id": "B1-023-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: The movie wasn't boring, ___ it?",
+     "answer_text": "was",
+     "accepted_answers": [
+      "was"
+     ],
+     "explanation_ko": "부정문 뒤이므로 긍정 tag를 쓰고, be동사 was를 반복합니다.",
+     "error_tag": "question-tag",
+     "id": "B1-023-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Tom can drive, ___ he?",
+     "answer_text": "can't",
+     "accepted_answers": [
+      "can't",
+      "cant",
+      "can’t"
+     ],
+     "explanation_ko": "긍정문 뒤에는 부정 tag를 붙이며 조동사 can을 그대로 써서 can't he?가 됩니다.",
+     "error_tag": "question-tag",
+     "id": "B1-023-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "친구에게 확인하고 싶은 것을 부가의문문을 넣어 두 문장으로 써 보세요.",
+    "example_answer_en": "You live in Seoul, don't you? You haven't seen this movie, have you?",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-02",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-02"
+   }
   }
  ]
 }

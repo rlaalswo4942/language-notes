@@ -5294,6 +5294,206 @@
     "version": 1,
     "last_revised": "2026-11-01"
    }
+  },
+  {
+   "id": "B2-028",
+   "level": "B2",
+   "track": "general",
+   "day": 28,
+   "title_ko": "4주 복습: remember/stop + -ing/to·상관접속사·복합관계사·과거 추측·수동태 심화·가목적어 it",
+   "objective_ko": "B2 22~27일차(-ing/to부정사 의미 차이, 상관접속사, 복합관계사, 과거에 대한 추측, 수동태 심화, 가목적어 it)를 섞어 다시 확인한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-02"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "이번 주 여섯 가지를 복습합니다. ① remember / forget / stop / try는 뒤에 -ing가 오면 지나간 일(I remember locking the door), to부정사가 오면 앞으로 할 일이나 목적(Remember to lock the door)입니다(B2-022). ② both A and B / either A or B / neither A nor B / not only A but also B는 짝으로 씁니다(B2-023). ③ whatever / whoever / whenever / wherever / however는 \"~하든\"이라는 뜻의 복합관계사입니다(B2-024). ④ 과거에 대한 추측은 must have(틀림없이 ~했다) / can't have(~했을 리 없다) / might have(~했을지도 모른다) + 과거분사입니다(B2-025). ⑤ 수동태는 조동사(must be done), 진행(is being repaired), 현재완료(has been sent)와 결합합니다(B2-026). ⑥ 목적어가 길면 it을 먼저 쓰고 진목적어를 뒤로 보냅니다: I find it hard to refuse her requests.(B2-027)",
+    "common_mistake_ko": "I find hard to refuse her.(X) → I find it hard to refuse her.(O) / The road is repairing now.(X) → The road is being repaired now.(O) / He stopped to smoke(담배를 피우려고 멈췄다)와 He stopped smoking(담배를 끊었다)은 뜻이 다릅니다."
+   },
+   "vocabulary": [
+    {
+     "word": "overlook",
+     "part_of_speech": "동사",
+     "meaning_ko": "간과하다, 못 보고 지나치다",
+     "example_en": "We overlooked one small error in the report.",
+     "example_ko": "우리는 보고서의 작은 오류 하나를 간과했어요."
+    },
+    {
+     "word": "assumption",
+     "part_of_speech": "명사",
+     "meaning_ko": "가정, 추측",
+     "example_en": "The plan is based on a wrong assumption.",
+     "example_ko": "그 계획은 잘못된 가정에 근거해요."
+    },
+    {
+     "word": "hesitate",
+     "part_of_speech": "동사",
+     "meaning_ko": "망설이다",
+     "example_en": "Do not hesitate to ask for help.",
+     "example_ko": "도움을 청하는 것을 망설이지 마세요."
+    },
+    {
+     "word": "reliable",
+     "part_of_speech": "형용사",
+     "meaning_ko": "믿을 만한",
+     "example_en": "She is a reliable colleague.",
+     "example_ko": "그녀는 믿을 만한 동료예요."
+    },
+    {
+     "word": "circumstance",
+     "part_of_speech": "명사",
+     "meaning_ko": "상황, 사정",
+     "example_en": "Under the circumstances, we decided to wait.",
+     "example_ko": "그런 상황이어서 우리는 기다리기로 했어요."
+    },
+    {
+     "word": "objective",
+     "part_of_speech": "명사",
+     "meaning_ko": "목표",
+     "example_en": "The main objective is to reduce costs.",
+     "example_ko": "주요 목표는 비용을 줄이는 것이에요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I remember locking the door, so the key must be in my bag.",
+     "ko": "문을 잠근 것이 기억나니까 열쇠는 내 가방에 있을 거예요."
+    },
+    {
+     "en": "Remember to lock the door when you leave.",
+     "ko": "나갈 때 문 잠그는 것을 잊지 마세요."
+    },
+    {
+     "en": "She stopped to check her phone.",
+     "ko": "그녀는 휴대폰을 확인하려고 멈춰 섰어요."
+    },
+    {
+     "en": "Both the manager and the staff were satisfied with the result.",
+     "ko": "매니저와 직원들 모두 결과에 만족했어요."
+    },
+    {
+     "en": "Neither the printer nor the scanner is working today.",
+     "ko": "오늘은 프린터도 스캐너도 작동하지 않아요."
+    },
+    {
+     "en": "Whoever finishes first can leave early.",
+     "ko": "먼저 끝내는 사람은 누구든 일찍 퇴근해도 돼요."
+    },
+    {
+     "en": "Whatever you decide, I will support you.",
+     "ko": "무엇을 결정하든 나는 당신을 지지할 거예요."
+    },
+    {
+     "en": "He can't have left yet; his coat is still here.",
+     "ko": "그는 아직 떠났을 리 없어요. 코트가 아직 여기 있으니까요."
+    },
+    {
+     "en": "The road is being repaired, and the bridge has been closed.",
+     "ko": "도로는 수리 중이고 다리는 폐쇄되었어요."
+    },
+    {
+     "en": "I find it hard to refuse her requests.",
+     "ko": "나는 그녀의 부탁을 거절하기가 어렵다고 느껴요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "I'll never forget ___ the sea for the first time. (처음 바다를 본 것)",
+     "choices": [
+      "seeing",
+      "to see",
+      "see",
+      "saw"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "지나간 경험을 기억할 때는 forget + -ing입니다. to see는 \"봐야 할 것을 잊다\"가 됩니다.",
+     "error_tag": "gerund-infinitive",
+     "id": "B2-028-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "___ the manager nor his assistant was available.",
+     "choices": [
+      "Neither",
+      "Either",
+      "Both",
+      "Not only"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "nor와 짝을 이루는 것은 neither입니다(neither A nor B).",
+     "error_tag": "correlative",
+     "id": "B2-028-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "He ___ the answer; he looked really confused. (알았을 리 없다)",
+     "choices": [
+      "can't have known",
+      "must have known",
+      "might have known",
+      "should have known"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "과거에 대해 '~했을 리 없다'는 can't have + 과거분사입니다. 혼란스러워 보였다는 단서와도 맞습니다.",
+     "error_tag": "modal-perfect",
+     "id": "B2-028-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "I find ___ hard to concentrate in an open office.",
+     "choices": [
+      "it",
+      "this",
+      "that",
+      "them"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "진목적어(to concentrate ...)가 뒤에 있으므로 가목적어 it을 씁니다.",
+     "error_tag": "formal-object-it",
+     "id": "B2-028-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: The bridge is ___ repaired at the moment. (지금 수리되고 있어요)",
+     "answer_text": "being",
+     "accepted_answers": [
+      "being"
+     ],
+     "explanation_ko": "진행 수동은 be + being + 과거분사입니다.",
+     "error_tag": "passive-progressive",
+     "id": "B2-028-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: ___ you choose, I will be happy with it. (무엇을 고르든)",
+     "answer_text": "Whatever",
+     "accepted_answers": [
+      "whatever",
+      "whichever"
+     ],
+     "explanation_ko": "\"무엇을 ~하든\"은 복합관계사 whatever입니다.",
+     "error_tag": "compound-relative",
+     "id": "B2-028-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "4주 동안 배운 구문 중 두 가지를 골라 내 상황에 맞게 한 문장씩 써 보세요.",
+    "example_answer_en": "I find it difficult to wake up early, but I'll never forget seeing the sunrise from the mountain.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-02",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-02"
+   }
   }
  ]
 }
