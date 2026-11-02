@@ -6054,6 +6054,225 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N3-29",
+   "day_index": 29,
+   "week_index": 5,
+   "level": "N3",
+   "unit_id": "N3-W05",
+   "lesson_type": "new",
+   "title_ko": "〜かどうか: ~인지 어떤지",
+   "objective_ko": "문장 뒤에 〜かどうか를 붙여 ‘~인지 아닌지’를 말하고, 의문사가 있을 때의 〜か와 구별한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N3-28"
+   ],
+   "explanation_ko": "〜かどうか는 ‘~인지 어떤지’라는 뜻으로, 예/아니요로 답할 수 있는 내용을 다른 문장 속에 넣을 때 씁니다. 보통체 + かどうか: 合格{ごうかく}したかどうか, 都合{つごう}がいいかどうか. 명사와 な형용사는 だ 없이 붙입니다: 本当{ほんとう}かどうか, 静{しず}かかどうか. 뒤에는 分{わ}かりません, 確認{かくにん}します, 教{おし}えてください, 決{き}めます 같은 말이 자주 옵니다. 의문사(いつ・どこ・だれ・なに)가 이미 들어 있는 문장은 かどうか가 아니라 か만 붙입니다: 結果{けっか}がいつ出{で}るか. 〜かどうかは/〜かどうかを처럼 조사를 붙여 주제나 목적어로 쓸 수도 있습니다.",
+   "usage_notes": [
+    "명사·な형용사 + かどうか: 本当かどうか(だ는 붙이지 않음).",
+    "의문사가 있을 때는 か만: どこに行くか(×どこに行くかどうか).",
+    "〜かどうか 뒤에 分かりません·確認します·決めます가 자주 이어집니다."
+   ],
+   "common_mistakes": [
+    "本当だかどうか(X) → 本当かどうか(O)",
+    "結果がいつ出るかどうか(X) → 結果がいつ出るか(O)",
+    "合格するかどうか 뒤에 ‘~합니까’ 같은 단순 질문만 오는 것이 아니라, 모르는 것·확인할 것을 문장 속에 넣는 표현입니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N3-29-01",
+     "kind": "word",
+     "text": "確認{かくにん}",
+     "reading_kana": "かくにん",
+     "reading_romanized": "kakunin",
+     "meaning_ko": "확인",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N3-29-02",
+     "kind": "word",
+     "text": "本当{ほんとう}",
+     "reading_kana": "ほんとう",
+     "reading_romanized": "hontou",
+     "meaning_ko": "사실, 진짜",
+     "part_of_speech": "명사・な형용사"
+    },
+    {
+     "id": "w-JP-N3-29-03",
+     "kind": "word",
+     "text": "合格{ごうかく}",
+     "reading_kana": "ごうかく",
+     "reading_romanized": "goukaku",
+     "meaning_ko": "합격",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N3-29-04",
+     "kind": "word",
+     "text": "結果{けっか}",
+     "reading_kana": "けっか",
+     "reading_romanized": "kekka",
+     "meaning_ko": "결과",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-29-05",
+     "kind": "word",
+     "text": "予定{よてい}",
+     "reading_kana": "よてい",
+     "reading_romanized": "yotei",
+     "meaning_ko": "예정, 일정",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N3-29-06",
+     "kind": "word",
+     "text": "都合{つごう}",
+     "reading_kana": "つごう",
+     "reading_romanized": "tsugou",
+     "meaning_ko": "사정, 형편",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "明日{あした}の会議{かいぎ}に出{で}られるかどうか、確認{かくにん}します。",
+     "meaning_ko": "내일 회의에 참석할 수 있는지 확인하겠습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "試験{しけん}に合格{ごうかく}したかどうか、まだ分{わ}かりません。",
+     "meaning_ko": "시험에 합격했는지 아직 모릅니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}の話{はなし}が本当{ほんとう}かどうか、調{しら}べてみましょう。",
+     "meaning_ko": "그의 이야기가 사실인지 알아봅시다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "都合{つごう}がいいかどうか、教{おし}えてください。",
+     "meaning_ko": "사정이 괜찮은지 알려 주세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "結果{けっか}がいつ出{で}るか、知{し}っていますか。",
+     "meaning_ko": "결과가 언제 나오는지 알고 있습니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "パーティーに行{い}くかどうかは、予定{よてい}を見{み}てから決{き}めます。",
+     "meaning_ko": "파티에 갈지 말지는 일정을 보고 나서 정하겠습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この店{みせ}が静{しず}かかどうか、行{い}ってみないと分{わ}かりません。",
+     "meaning_ko": "이 가게가 조용한지는 가 보지 않으면 모릅니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "田中{たなか}さんが来{く}るかどうか、聞{き}いてもらえますか。",
+     "meaning_ko": "다나카 씨가 올지 어떨지 물어봐 주시겠습니까?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "天気{てんき}がよくなるかどうかによって、予定{よてい}が変{か}わります。",
+     "meaning_ko": "날씨가 좋아지는지에 따라 일정이 바뀝니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「合格したかどうか」의 뜻은?",
+     "options": [
+      "합격했는지 어떤지",
+      "합격하고 싶은지",
+      "합격한 뒤에",
+      "합격하지 않으면"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜かどうか는 ‘~인지 어떤지’입니다.",
+     "id": "JP-N3-29-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 彼の話が本当（　）、調べてみましょう。",
+     "options": [
+      "かどうか",
+      "ために",
+      "ばかり",
+      "ながら"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘사실인지 어떤지’이므로 명사 + かどうか입니다. 本当 뒤에 だ는 붙이지 않습니다.",
+     "id": "JP-N3-29-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 結果がいつ出る（　）、知っていますか。",
+     "options": [
+      "か",
+      "かどうか",
+      "かどうかか",
+      "のかどうか"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "いつ 같은 의문사가 있으므로 かどうか가 아니라 か만 붙입니다.",
+     "id": "JP-N3-29-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「パーティーに行くかどうかは、予定を見てから決めます」의 뜻은?",
+     "options": [
+      "파티에 갈지 말지는 일정을 보고 나서 정합니다.",
+      "파티에 가기 전에 일정을 정합니다.",
+      "파티에 가면 일정을 봅니다.",
+      "파티에 가고 싶어서 일정을 봅니다."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜かどうかは決めます는 ‘~할지 말지는 정합니다’입니다.",
+     "id": "JP-N3-29-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「確認」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kakunin",
+     "accepted_answers": [
+      "kakunin"
+     ],
+     "explanation_ko": "確認 = かくにん(kakunin), ‘확인’입니다.",
+     "id": "JP-N3-29-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「都合」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "tsugou",
+     "accepted_answers": [
+      "tsugou",
+      "tugou",
+      "tsugo",
+      "tugo"
+     ],
+     "explanation_ko": "都合 = つごう(tsugou), ‘사정, 형편’입니다.",
+     "id": "JP-N3-29-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

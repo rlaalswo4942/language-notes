@@ -6021,6 +6021,223 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-29",
+   "day_index": 29,
+   "week_index": 5,
+   "level": "N2",
+   "unit_id": "N2-W05",
+   "lesson_type": "new",
+   "title_ko": "〜うえに: ~한 데다가",
+   "objective_ko": "〜うえに로 앞의 내용에 같은 방향의 내용을 더해 ‘~한 데다가 ~도’라고 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-28"
+   ],
+   "explanation_ko": "〜うえに는 ‘~한 데다가, 게다가’라는 뜻으로, 앞의 내용에 비슷한 방향(좋은 점끼리, 또는 나쁜 점끼리)의 내용을 더할 때 씁니다. 접속: 동사 보통형(사전형·た형), い형용사 보통형, な형용사 어간 + な(또는 である), 명사 + の(또는 である) + うえに. 예: 駅{えき}から近{ちか}いうえに、家賃{やちん}も安{やす}い(좋은 점 + 좋은 점). 雨{あめ}が降{ふ}っているうえに、風{かぜ}も強{つよ}くなってきた(나쁜 점 + 나쁜 점). 뒤 문장에는 も・まで 같은 더하는 말이 자주 어울립니다. 앞뒤가 반대되는 내용이면 〜が・〜のに 같은 다른 표현을 씁니다.",
+   "usage_notes": [
+    "な형용사는 어간 + な: 静かなうえに.",
+    "명사는 の: 雨のうえに(또는 雨であるうえに).",
+    "앞뒤가 같은 방향(둘 다 좋은 점, 또는 둘 다 나쁜 점)일 때 씁니다."
+   ],
+   "common_mistakes": [
+    "静かだうえに(X) → 静かなうえに(O)",
+    "仕事が速いうえに、ミスが多い(어색함: 방향이 반대) → 仕事が速いが、ミスが多い",
+    "〜うえに는 ‘~한 뒤에’라는 순서의 뜻이 아니라 ‘~한 데다’라는 추가의 뜻입니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N2-29-01",
+     "kind": "word",
+     "text": "家賃{やちん}",
+     "reading_kana": "やちん",
+     "reading_romanized": "yachin",
+     "meaning_ko": "집세",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-29-02",
+     "kind": "word",
+     "text": "設備{せつび}",
+     "reading_kana": "せつび",
+     "reading_romanized": "setsubi",
+     "meaning_ko": "설비, 시설",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N2-29-03",
+     "kind": "word",
+     "text": "騒音{そうおん}",
+     "reading_kana": "そうおん",
+     "reading_romanized": "souon",
+     "meaning_ko": "소음",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-29-04",
+     "kind": "word",
+     "text": "割引{わりびき}",
+     "reading_kana": "わりびき",
+     "reading_romanized": "waribiki",
+     "meaning_ko": "할인",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N2-29-05",
+     "kind": "word",
+     "text": "無料{むりょう}",
+     "reading_kana": "むりょう",
+     "reading_romanized": "muryou",
+     "meaning_ko": "무료",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-29-06",
+     "kind": "word",
+     "text": "丁寧{ていねい}",
+     "reading_kana": "ていねい",
+     "reading_romanized": "teinei",
+     "meaning_ko": "정중함, 꼼꼼함",
+     "part_of_speech": "な형용사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "このアパートは駅{えき}から近{ちか}いうえに、家賃{やちん}も安{やす}い。",
+     "meaning_ko": "이 아파트는 역에서 가까운 데다 집세도 싸다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この店{みせ}は味{あじ}がいいうえに、サービスも丁寧{ていねい}だ。",
+     "meaning_ko": "이 가게는 맛이 좋은 데다 서비스도 정중하다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}は仕事{しごと}が速{はや}いうえに、ミスも少{すく}ない。",
+     "meaning_ko": "그는 일이 빠른 데다 실수도 적다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この道{みち}は狭{せま}いうえに、車{くるま}の通{とお}りが多{おお}くて危{あぶ}ない。",
+     "meaning_ko": "이 길은 좁은 데다 차 통행이 많아서 위험하다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "雨{あめ}が降{ふ}っているうえに、風{かぜ}も強{つよ}くなってきた。",
+     "meaning_ko": "비가 오는 데다 바람도 세지기 시작했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この部屋{へや}は静{しず}かなうえに、設備{せつび}も整{ととの}っている。",
+     "meaning_ko": "이 방은 조용한 데다 설비도 갖춰져 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼女{かのじょ}は英語{えいご}が話{はな}せるうえに、中国語{ちゅうごくご}もできる。",
+     "meaning_ko": "그녀는 영어를 할 수 있는 데다 중국어도 할 수 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "工事{こうじ}の騒音{そうおん}がひどいうえに、道{みち}も渋滞{じゅうたい}している。",
+     "meaning_ko": "공사 소음이 심한 데다 길도 정체되어 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この商品{しょうひん}は割引{わりびき}があるうえに、送料{そうりょう}も無料{むりょう}だ。",
+     "meaning_ko": "이 상품은 할인이 있는 데다 배송료도 무료다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「駅から近いうえに、家賃も安い」의 뜻은?",
+     "options": [
+      "역에서 가까운 데다 집세도 싸다.",
+      "역에서 가깝지만 집세는 비싸다.",
+      "역에서 멀어서 집세가 싸다.",
+      "역에서 가까워지면 집세가 싸진다."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜うえに는 ‘~한 데다가’로 같은 방향의 내용을 더합니다.",
+     "id": "JP-N2-29-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 彼は仕事が速い（　）、ミスも少ない。",
+     "options": [
+      "うえに",
+      "ために",
+      "ように",
+      "くせに"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "좋은 점에 좋은 점을 더하는 말이므로 うえに입니다.",
+     "id": "JP-N2-29-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「静か」에 うえに를 붙인 바른 형태는?",
+     "options": [
+      "静かなうえに",
+      "静かうえに",
+      "静かのうえに",
+      "静かだうえに"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "な형용사는 어간 + な + うえに로 연결합니다.",
+     "id": "JP-N2-29-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「雨が降っているうえに、風も強くなってきた」의 뜻은?",
+     "options": [
+      "비가 오는 데다 바람도 세지기 시작했다.",
+      "비가 오지만 바람은 약해졌다.",
+      "비가 와서 바람이 분다.",
+      "비가 그치고 바람이 세졌다."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "나쁜 상황(비)에 또 다른 나쁜 상황(바람)이 더해진 문장입니다.",
+     "id": "JP-N2-29-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「家賃」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "yachin",
+     "accepted_answers": [
+      "yachin"
+     ],
+     "explanation_ko": "家賃 = やちん(yachin), ‘집세’입니다.",
+     "id": "JP-N2-29-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「設備」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "setsubi",
+     "accepted_answers": [
+      "setsubi",
+      "setubi"
+     ],
+     "explanation_ko": "設備 = せつび(setsubi), ‘설비’입니다.",
+     "id": "JP-N2-29-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "JLPT_FORMAT"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

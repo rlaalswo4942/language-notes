@@ -4211,6 +4211,201 @@
     "version": 1,
     "last_revised": "2026-11-02"
    }
+  },
+  {
+   "id": "TOEFL-023",
+   "level": "B1",
+   "track": "toefl",
+   "day": 23,
+   "title_ko": "TOEFL 2026 Listen to a Conversation 2: 교수와의 대화에서 문제·조치·기한 찾기",
+   "objective_ko": "교수와 학생의 짧은 대화에서 방문 목적, 문제의 원인, 교수가 해 주기로 한 일, 기한과 다음 행동을 구별해서 찾는다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/content/ets-org/language-master/ko/home/toefl/test-takers/ibt/about/content.html",
+     "publisher": "ETS",
+     "supports": "2026 형식 유형명",
+     "checked_at": "2026-11-03"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "2026-01-21 이후 TOEFL iBT Listening에는 Listen to a Conversation 유형이 안내되어 있습니다(공식 안내 유형명). 이 사이트는 소리가 없으므로 아래는 대화문을 글로 읽는 비공식 자체 연습입니다. 이번에는 교수와 학생의 대화에서 다섯 가지를 차례로 찾습니다. ① 목적: 학생이 왜 찾아왔는가. ② 원인: 문제가 생긴 까닭. ③ 조치: 교수가 해 주기로 한 일(I will email you ...). ④ 기한·조건: 언제까지, 어떤 조건에서 허락했는가(but if you need more time, ... by Sunday night). ⑤ 다음 행동: 학생이 앞으로 할 일. 학생이 요청한 것과 교수가 실제로 허락한 것은 다를 수 있으니 'Can I ...?' 뒤의 대답을 끝까지 확인하세요. 점수를 예측하는 자료가 아닙니다.",
+    "common_mistake_ko": "학생이 요청한 날짜(Monday)를 교수가 허락한 날짜로 착각하는 실수 → 교수의 대답(Sunday night)을 확인합니다. / 대화에 나온 단어가 있다는 이유만으로 보기를 고르는 실수 → 질문이 목적·원인·조치·기한 중 무엇을 묻는지 먼저 구별합니다."
+   },
+   "vocabulary": [
+    {
+     "word": "experiment",
+     "part_of_speech": "명사",
+     "meaning_ko": "실험",
+     "example_en": "We repeated the experiment twice.",
+     "example_ko": "우리는 그 실험을 두 번 반복했어요."
+    },
+    {
+     "word": "fever",
+     "part_of_speech": "명사",
+     "meaning_ko": "열",
+     "example_en": "She stayed home with a fever.",
+     "example_ko": "그녀는 열이 나서 집에 있었어요."
+    },
+    {
+     "word": "deadline",
+     "part_of_speech": "명사",
+     "meaning_ko": "마감 기한",
+     "example_en": "The deadline is next Monday.",
+     "example_ko": "마감 기한은 다음 주 월요일이에요."
+    },
+    {
+     "word": "submit",
+     "part_of_speech": "동사",
+     "meaning_ko": "제출하다",
+     "example_en": "Please submit your essay online.",
+     "example_ko": "에세이를 온라인으로 제출하세요."
+    },
+    {
+     "word": "data",
+     "part_of_speech": "명사",
+     "meaning_ko": "자료, 데이터",
+     "example_en": "The professor shared the data with the class.",
+     "example_ko": "교수님이 수업 학생들과 자료를 공유했어요."
+    },
+    {
+     "word": "introduction",
+     "part_of_speech": "명사",
+     "meaning_ko": "서론, 도입부",
+     "example_en": "I will write the introduction first.",
+     "example_ko": "나는 서론을 먼저 쓸 거예요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The student wants to ask about a lab report.",
+     "ko": "학생은 실험 보고서에 대해 묻고 싶어 해요."
+    },
+    {
+     "en": "The student missed the lab because of a fever.",
+     "ko": "학생은 열이 나서 실험 수업에 빠졌어요."
+    },
+    {
+     "en": "He does not have the data for the second experiment.",
+     "ko": "그는 두 번째 실험 자료가 없어요."
+    },
+    {
+     "en": "The professor will email the class data tonight.",
+     "ko": "교수는 오늘 밤 수업 자료를 이메일로 보내 줄 거예요."
+    },
+    {
+     "en": "The student does not have to repeat the experiment.",
+     "ko": "학생은 실험을 다시 할 필요가 없어요."
+    },
+    {
+     "en": "The professor prefers a Friday deadline.",
+     "ko": "교수는 금요일 마감을 더 좋아해요."
+    },
+    {
+     "en": "The student can submit the report by Sunday night.",
+     "ko": "학생은 일요일 밤까지 보고서를 낼 수 있어요."
+    },
+    {
+     "en": "The student will start the introduction tomorrow.",
+     "ko": "학생은 내일 서론을 쓰기 시작할 거예요."
+    },
+    {
+     "en": "The professor's office hours are on Thursday.",
+     "ko": "교수의 면담 시간은 목요일이에요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "대화(글로 읽는 연습): 'Student: Hi, Professor Ortiz. I wanted to ask about the lab report that is due on Friday. Professor: Sure. What is the problem? Student: I missed Tuesday's lab because I had a fever, so I do not have the data for the second experiment. Professor: I am sorry to hear that. You do not need to repeat the experiment. I will email you the class data tonight. Student: Thank you! Can I turn in the report on Monday instead? Professor: I would rather you submit it on Friday, but if you need more time, you can send it by Sunday night. Student: Sunday works. I will start writing the introduction tomorrow. Professor: Good plan. Come to my office hours on Thursday if you have questions.' 질문: Why does the student visit the professor?",
+     "choices": [
+      "To ask about finishing a lab report after missing a lab",
+      "To complain about a grade",
+      "To borrow lab equipment",
+      "To change his major"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "학생은 금요일에 마감인 실험 보고서와 빠진 실험 수업에 대해 물으러 왔습니다.",
+     "error_tag": "purpose",
+     "id": "TOEFL-023-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "대화(글로 읽는 연습): 'Student: Hi, Professor Ortiz. I wanted to ask about the lab report that is due on Friday. Professor: Sure. What is the problem? Student: I missed Tuesday's lab because I had a fever, so I do not have the data for the second experiment. Professor: I am sorry to hear that. You do not need to repeat the experiment. I will email you the class data tonight. Student: Thank you! Can I turn in the report on Monday instead? Professor: I would rather you submit it on Friday, but if you need more time, you can send it by Sunday night. Student: Sunday works. I will start writing the introduction tomorrow. Professor: Good plan. Come to my office hours on Thursday if you have questions.' 질문: Why does the student not have the data for the second experiment?",
+     "choices": [
+      "He was sick on the day of the lab.",
+      "He lost his notebook.",
+      "The equipment broke.",
+      "He forgot the date."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "학생이 열이 나서 화요일 실험 수업에 빠졌다고 말했습니다.",
+     "error_tag": "reason",
+     "id": "TOEFL-023-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "대화(글로 읽는 연습): 'Student: Hi, Professor Ortiz. I wanted to ask about the lab report that is due on Friday. Professor: Sure. What is the problem? Student: I missed Tuesday's lab because I had a fever, so I do not have the data for the second experiment. Professor: I am sorry to hear that. You do not need to repeat the experiment. I will email you the class data tonight. Student: Thank you! Can I turn in the report on Monday instead? Professor: I would rather you submit it on Friday, but if you need more time, you can send it by Sunday night. Student: Sunday works. I will start writing the introduction tomorrow. Professor: Good plan. Come to my office hours on Thursday if you have questions.' 질문: What will the professor do tonight?",
+     "choices": [
+      "Email the class data to the student",
+      "Move the deadline to Monday",
+      "Cancel the office hours",
+      "Repeat the experiment for the student"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "교수는 오늘 밤 수업 자료를 이메일로 보내겠다고 했습니다. 월요일은 학생이 요청했을 뿐 허락되지 않았습니다.",
+     "error_tag": "action",
+     "id": "TOEFL-023-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "대화(글로 읽는 연습): 'Student: Hi, Professor Ortiz. I wanted to ask about the lab report that is due on Friday. Professor: Sure. What is the problem? Student: I missed Tuesday's lab because I had a fever, so I do not have the data for the second experiment. Professor: I am sorry to hear that. You do not need to repeat the experiment. I will email you the class data tonight. Student: Thank you! Can I turn in the report on Monday instead? Professor: I would rather you submit it on Friday, but if you need more time, you can send it by Sunday night. Student: Sunday works. I will start writing the introduction tomorrow. Professor: Good plan. Come to my office hours on Thursday if you have questions.' 질문: If the student needs more time, by when can he send the report?",
+     "choices": [
+      "Sunday night",
+      "Friday morning",
+      "Monday afternoon",
+      "Thursday evening"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "교수는 더 시간이 필요하면 일요일 밤까지 보내도 된다고 했습니다.",
+     "error_tag": "deadline",
+     "id": "TOEFL-023-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "대화(글로 읽는 연습): 'Student: Hi, Professor Ortiz. I wanted to ask about the lab report that is due on Friday. Professor: Sure. What is the problem? Student: I missed Tuesday's lab because I had a fever, so I do not have the data for the second experiment. Professor: I am sorry to hear that. You do not need to repeat the experiment. I will email you the class data tonight. Student: Thank you! Can I turn in the report on Monday instead? Professor: I would rather you submit it on Friday, but if you need more time, you can send it by Sunday night. Student: Sunday works. I will start writing the introduction tomorrow. Professor: Good plan. Come to my office hours on Thursday if you have questions.' 질문: On which day are the professor's office hours? (영어 한 단어)",
+     "answer_text": "Thursday",
+     "accepted_answers": [
+      "thursday"
+     ],
+     "explanation_ko": "교수는 목요일(Thursday)에 면담 시간에 오라고 했습니다.",
+     "error_tag": "detail",
+     "id": "TOEFL-023-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "대화(글로 읽는 연습): 'Student: Hi, Professor Ortiz. I wanted to ask about the lab report that is due on Friday. Professor: Sure. What is the problem? Student: I missed Tuesday's lab because I had a fever, so I do not have the data for the second experiment. Professor: I am sorry to hear that. You do not need to repeat the experiment. I will email you the class data tonight. Student: Thank you! Can I turn in the report on Monday instead? Professor: I would rather you submit it on Friday, but if you need more time, you can send it by Sunday night. Student: Sunday works. I will start writing the introduction tomorrow. Professor: Good plan. Come to my office hours on Thursday if you have questions.' 질문: The student will start writing the ___ tomorrow. (영어 한 단어)",
+     "answer_text": "introduction",
+     "accepted_answers": [
+      "introduction"
+     ],
+     "explanation_ko": "학생은 내일 서론(introduction)을 쓰기 시작하겠다고 말했습니다.",
+     "error_tag": "next-step",
+     "id": "TOEFL-023-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "학생이 교수에게 기한 연장을 부탁하고 교수가 조건을 말하는 상황을 영어 문장 두 개로 써 보세요.",
+    "example_answer_en": "Can I send the paper on Monday? You can send it by Sunday night.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 비공식 연습이며 ETS 점수와 무관합니다."
+   },
+   "publish_date": "2026-11-03",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-03"
+   }
   }
  ]
 }

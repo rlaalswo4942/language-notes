@@ -4239,6 +4239,205 @@
     "version": 1,
     "last_revised": "2026-11-02"
    }
+  },
+  {
+   "id": "TOEIC-023",
+   "level": "B1",
+   "track": "toeic",
+   "day": 23,
+   "title_ko": "TOEIC Part 5: 시간 부사 already / yet / still / recently / currently / previously",
+   "objective_ko": "문장의 시제와 위치 단서를 보고 already, yet, still, recently, currently, previously, ago 중 알맞은 시간 부사를 고른다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/toeic/about/listening-reading.html",
+     "publisher": "ETS",
+     "supports": "공식 시험 형식",
+     "checked_at": "2026-11-03"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "Part 5에서는 시간 부사가 시제·부정/긍정·위치와 맞는지 봅니다. ① already: 이미(긍정문, have/has 뒤 또는 문장 끝). The report has already been sent. ② yet: 아직(부정문·의문문 끝). The system has not been installed yet. ③ still: 여전히(be동사 뒤, 일반동사 앞, 부정문에서는 not 앞). We have still not received the payment. ④ recently: 최근에(과거 또는 현재완료). Ms. Lee recently joined the team. ⑤ currently: 현재(현재/현재진행). The company is currently hiring. ⑥ previously: 이전에(과거). Mr. Cho was previously a sales manager. ⑦ ago는 '기간 + ago'로 과거 시점에만 씁니다: ten minutes ago. TOEIC L&R Part 5 형식을 참고한 자체 제작 연습이며 ETS 공식 문항이 아닙니다.",
+    "common_mistake_ko": "The invoice has yet been sent.(X) → has already been sent.(O) / The meeting started ten minutes before.(X, 기준 없음) → ten minutes ago.(O) / The shipment has not arrived already.(X) → has not arrived yet.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "already",
+     "part_of_speech": "부사",
+     "meaning_ko": "이미",
+     "example_en": "The documents have already been signed.",
+     "example_ko": "서류는 이미 서명되었습니다."
+    },
+    {
+     "word": "yet",
+     "part_of_speech": "부사",
+     "meaning_ko": "아직(부정문), 벌써(의문문)",
+     "example_en": "The results are not ready yet.",
+     "example_ko": "결과는 아직 준비되지 않았습니다."
+    },
+    {
+     "word": "still",
+     "part_of_speech": "부사",
+     "meaning_ko": "여전히, 아직도",
+     "example_en": "The printer is still out of order.",
+     "example_ko": "프린터가 아직도 고장 나 있습니다."
+    },
+    {
+     "word": "recently",
+     "part_of_speech": "부사",
+     "meaning_ko": "최근에",
+     "example_en": "The firm recently opened a new office.",
+     "example_ko": "그 회사는 최근에 새 사무실을 열었습니다."
+    },
+    {
+     "word": "currently",
+     "part_of_speech": "부사",
+     "meaning_ko": "현재, 지금",
+     "example_en": "We are currently reviewing your application.",
+     "example_ko": "저희는 현재 귀하의 지원서를 검토하고 있습니다."
+    },
+    {
+     "word": "previously",
+     "part_of_speech": "부사",
+     "meaning_ko": "이전에",
+     "example_en": "He previously worked in the finance department.",
+     "example_ko": "그는 이전에 재무부에서 일했습니다."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The report has already been sent to the client.",
+     "ko": "보고서는 이미 고객에게 발송되었습니다."
+    },
+    {
+     "en": "The new system has not been installed yet.",
+     "ko": "새 시스템은 아직 설치되지 않았습니다."
+    },
+    {
+     "en": "We have still not received the payment.",
+     "ko": "저희는 아직도 대금을 받지 못했습니다."
+    },
+    {
+     "en": "Ms. Lee recently joined the marketing team.",
+     "ko": "이 씨는 최근 마케팅팀에 합류했습니다."
+    },
+    {
+     "en": "The company is currently hiring two engineers.",
+     "ko": "그 회사는 현재 엔지니어 두 명을 채용 중입니다."
+    },
+    {
+     "en": "Mr. Cho was previously a sales manager at another firm.",
+     "ko": "조 씨는 이전에 다른 회사에서 영업 부장이었습니다."
+    },
+    {
+     "en": "The meeting started ten minutes ago.",
+     "ko": "회의는 10분 전에 시작되었습니다."
+    },
+    {
+     "en": "Have you reviewed the contract yet?",
+     "ko": "계약서를 벌써 검토하셨나요?"
+    },
+    {
+     "en": "The building is still under construction.",
+     "ko": "그 건물은 아직 공사 중입니다."
+    },
+    {
+     "en": "The store recently reduced its prices.",
+     "ko": "그 가게는 최근 가격을 내렸습니다."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "The new software has not been installed ___.",
+     "choices": [
+      "yet",
+      "already",
+      "still",
+      "ever"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "부정문 끝에서 '아직'을 뜻하는 말은 yet입니다. already는 긍정문에 씁니다.",
+     "error_tag": "time-adverb",
+     "id": "TOEIC-023-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "The invoice has ___ been sent, so you do not need to send it again.",
+     "choices": [
+      "already",
+      "yet",
+      "ever",
+      "ago"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "이미 보냈다는 긍정의 뜻이므로 have/has 뒤에 already를 씁니다.",
+     "error_tag": "time-adverb",
+     "id": "TOEIC-023-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "We have ___ not received the payment.",
+     "choices": [
+      "still",
+      "yet",
+      "already",
+      "ever"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "have와 not 사이에 들어가 '아직도 받지 못했다'는 뜻이 되는 말은 still입니다.",
+     "error_tag": "time-adverb",
+     "id": "TOEIC-023-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "The conference was held three days ___.",
+     "choices": [
+      "ago",
+      "since",
+      "during",
+      "while"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "'기간 + ago'는 과거의 일에 쓰입니다. since, during, while은 이 자리에 쓸 수 없습니다.",
+     "error_tag": "time-adverb",
+     "id": "TOEIC-023-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: The shipment has not arrived ___. We are still waiting. (아직)",
+     "answer_text": "yet",
+     "accepted_answers": [
+      "yet"
+     ],
+     "explanation_ko": "부정문 끝에서 '아직'은 yet입니다.",
+     "error_tag": "time-adverb",
+     "id": "TOEIC-023-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: The store ___ opened a second branch last month. (최근에, r로 시작)",
+     "answer_text": "recently",
+     "accepted_answers": [
+      "recently"
+     ],
+     "explanation_ko": "'최근에'는 recently이며 과거의 일에 쓸 수 있습니다.",
+     "error_tag": "time-adverb",
+     "id": "TOEIC-023-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "already, yet, still 중 두 개를 골라 업무 상황을 설명하는 영어 문장 두 개를 써 보세요.",
+    "example_answer_en": "The report has already been sent. The contract has not been signed yet.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-03",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-03"
+   }
   }
  ]
 }

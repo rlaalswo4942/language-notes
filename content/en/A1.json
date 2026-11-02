@@ -5518,6 +5518,205 @@
     "version": 1,
     "last_revised": "2026-11-02"
    }
+  },
+  {
+   "id": "A1-029",
+   "level": "A1",
+   "track": "foundation",
+   "day": 29,
+   "title_ko": "What time is it?: 시각 묻고 말하기",
+   "objective_ko": "What time is it?와 What time do/does ...?로 시각과 일과 시간을 묻고, o'clock·half past·quarter past/to로 답한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-03"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "시각은 What time is it?로 묻고 It's ...로 답합니다. ① 정각: It's seven o'clock. ② 30분: It's half past eight. ③ 15분 지남: It's quarter past nine. ④ 15분 전: It's quarter to ten(10시 15분 전=9시 45분). ⑤ 숫자로도 말합니다: It's six thirty. ⑥ 일과 시간은 What time do you ...?로 묻습니다. 3인칭 단수 주어는 What time does the class start?처럼 does를 쓰고 동사는 원형입니다. 답할 때 시각 앞에는 at을 씁니다: I get up at seven. 단, 지금 몇 시냐는 질문의 답에는 at을 쓰지 않습니다.",
+    "common_mistake_ko": "What time you get up?(X) → What time do you get up?(O) / What time is it? — It's at seven.(X) → It's seven o'clock.(O) / What time does the class starts?(X) → What time does the class start?(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "o'clock",
+     "part_of_speech": "부사",
+     "meaning_ko": "~시 정각",
+     "example_en": "It is eight o'clock now.",
+     "example_ko": "지금은 8시 정각이에요."
+    },
+    {
+     "word": "half",
+     "part_of_speech": "명사",
+     "meaning_ko": "반, 30분",
+     "example_en": "It is half past seven.",
+     "example_ko": "7시 30분이에요."
+    },
+    {
+     "word": "quarter",
+     "part_of_speech": "명사",
+     "meaning_ko": "4분의 1, 15분",
+     "example_en": "The movie starts at quarter past six.",
+     "example_ko": "영화는 6시 15분에 시작해요."
+    },
+    {
+     "word": "minute",
+     "part_of_speech": "명사",
+     "meaning_ko": "분(시간 단위)",
+     "example_en": "Wait a minute, please.",
+     "example_ko": "잠깐만 기다려 주세요."
+    },
+    {
+     "word": "early",
+     "part_of_speech": "부사",
+     "meaning_ko": "일찍",
+     "example_en": "I get up early on Sundays.",
+     "example_ko": "나는 일요일에 일찍 일어나요."
+    },
+    {
+     "word": "late",
+     "part_of_speech": "부사",
+     "meaning_ko": "늦게",
+     "example_en": "He goes to bed late.",
+     "example_ko": "그는 늦게 자요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "What time is it? — It's seven o'clock.",
+     "ko": "지금 몇 시예요? — 7시 정각이에요."
+    },
+    {
+     "en": "It's half past eight.",
+     "ko": "8시 30분이에요."
+    },
+    {
+     "en": "It's quarter past nine.",
+     "ko": "9시 15분이에요."
+    },
+    {
+     "en": "It's quarter to ten.",
+     "ko": "10시 15분 전(9시 45분)이에요."
+    },
+    {
+     "en": "What time do you get up? — I get up at six thirty.",
+     "ko": "몇 시에 일어나요? — 6시 30분에 일어나요."
+    },
+    {
+     "en": "What time does the class start? — It starts at nine o'clock.",
+     "ko": "수업은 몇 시에 시작해요? — 9시 정각에 시작해요."
+    },
+    {
+     "en": "The bus leaves at ten past two.",
+     "ko": "버스는 2시 10분에 떠나요."
+    },
+    {
+     "en": "She goes to bed early.",
+     "ko": "그녀는 일찍 자요."
+    },
+    {
+     "en": "The shop closes at five thirty.",
+     "ko": "가게는 5시 30분에 문을 닫아요."
+    },
+    {
+     "en": "I am never late for school.",
+     "ko": "나는 학교에 절대 늦지 않아요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "What time is it? — It's ___. (7:00)",
+     "choices": [
+      "seven o'clock",
+      "at seven",
+      "seven clock",
+      "seven hours"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "지금 시각을 답할 때는 It's seven o'clock.처럼 쓰며 at을 붙이지 않습니다.",
+     "error_tag": "time",
+     "id": "A1-029-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "8:30은 It's ___ eight. 로 말합니다.",
+     "choices": [
+      "half past",
+      "half to",
+      "quarter past",
+      "quarter to"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "30분은 half past입니다. quarter past는 15분 지남, quarter to는 15분 전입니다.",
+     "error_tag": "time",
+     "id": "A1-029-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "___ the class start? — At nine o'clock.",
+     "choices": [
+      "What time does",
+      "What time do",
+      "What time is",
+      "What time are"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "the class는 3인칭 단수이므로 What time does ... start?입니다.",
+     "error_tag": "what-time",
+     "id": "A1-029-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "바른 문장은 어느 것인가요?",
+     "choices": [
+      "What time do you have lunch?",
+      "What time you have lunch?",
+      "What time have you lunch?",
+      "What time do you has lunch?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "What time 뒤에는 do/does + 주어 + 동사원형 순서이며, do 뒤 동사는 원형(have)입니다.",
+     "error_tag": "what-time-order",
+     "id": "A1-029-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: It's ___ past nine. (9시 15분)",
+     "answer_text": "quarter",
+     "accepted_answers": [
+      "quarter"
+     ],
+     "explanation_ko": "15분 지남은 quarter past입니다.",
+     "error_tag": "time",
+     "id": "A1-029-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: What time ___ she get up? — She gets up at six.",
+     "answer_text": "does",
+     "accepted_answers": [
+      "does"
+     ],
+     "explanation_ko": "she는 3인칭 단수이므로 does를 씁니다.",
+     "error_tag": "what-time",
+     "id": "A1-029-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "하루 일과 중 두 가지를 시각과 함께 영어 문장 두 개로 써 보세요.",
+    "example_answer_en": "I get up at six thirty. I go to school at half past seven.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-03",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-03"
+   }
   }
  ]
 }

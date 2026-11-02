@@ -6942,6 +6942,209 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전"
+  },
+  {
+   "id": "JP-INTRO-53",
+   "day_index": 53,
+   "week_index": 8,
+   "level": "INTRO",
+   "unit_id": "INTRO-W08",
+   "lesson_type": "new",
+   "title_ko": "가타카나 외래어 표기 ウィ·ウェ·ウォ·ティ·ディ",
+   "objective_ko": "큰 ウ·テ·デ 뒤에 작은 ィ·ェ·ォ를 붙여 wi·we·wo·ti·di 소리를 나타내는 표기를 읽고, 외래어 단어를 읽는다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-INTRO-52"
+   ],
+   "new_items": [
+    {
+     "id": "kana-d53-01",
+     "kind": "kana",
+     "text": "ウィ",
+     "reading_romanized": "wi",
+     "meaning_ko": null
+    },
+    {
+     "id": "kana-d53-02",
+     "kind": "kana",
+     "text": "ウェ",
+     "reading_romanized": "we",
+     "meaning_ko": null
+    },
+    {
+     "id": "kana-d53-03",
+     "kind": "kana",
+     "text": "ウォ",
+     "reading_romanized": "wo",
+     "meaning_ko": null
+    },
+    {
+     "id": "kana-d53-04",
+     "kind": "kana",
+     "text": "ティ",
+     "reading_romanized": "ti",
+     "meaning_ko": null
+    },
+    {
+     "id": "kana-d53-05",
+     "kind": "kana",
+     "text": "ディ",
+     "reading_romanized": "di",
+     "meaning_ko": null
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "ウィンク",
+     "reading_romanized": "winku",
+     "meaning_ko": "윙크",
+     "explanation_ko": "ウィ(wi) + ン(n) + ク(ku)입니다. 큰 ウ(u)에 작은 ィ가 붙어 wi가 됩니다."
+    },
+    {
+     "japanese": "ウィンドウ",
+     "reading_romanized": "windou",
+     "meaning_ko": "윈도우, 창",
+     "explanation_ko": "ウィ(wi) + ン(n) + ド(do) + ウ(u)입니다. 맨 앞은 작은 ィ가 붙은 ウィ, 맨 뒤는 큰 ウ입니다."
+    },
+    {
+     "japanese": "ウェブ",
+     "reading_romanized": "webu",
+     "meaning_ko": "웹",
+     "explanation_ko": "ウェ(we) + ブ(bu)입니다. 작은 ェ가 붙어 we가 됩니다."
+    },
+    {
+     "japanese": "ウェイター",
+     "reading_romanized": "weitaa",
+     "meaning_ko": "웨이터",
+     "explanation_ko": "ウェ(we) + イ(i) + タ(ta) + ー입니다. 마지막 タ를 길게 읽습니다."
+    },
+    {
+     "japanese": "ウォーター",
+     "reading_romanized": "wootaa",
+     "meaning_ko": "물(워터)",
+     "explanation_ko": "ウォ(wo) + ー + タ(ta) + ー입니다. ウォー는 wo를 길게 읽어 woo로 씁니다."
+    },
+    {
+     "japanese": "ティッシュ",
+     "reading_romanized": "tisshu",
+     "meaning_ko": "티슈, 휴지",
+     "explanation_ko": "ティ(ti) + ッ + シュ(shu)입니다. 작은 ッ 뒤의 s를 겹쳐 읽어 tisshu가 됩니다."
+    },
+    {
+     "japanese": "パーティー",
+     "reading_romanized": "paatii",
+     "meaning_ko": "파티",
+     "explanation_ko": "パ(pa) + ー + ティ(ti) + ー입니다. 두 곳에서 길게 읽습니다."
+    },
+    {
+     "japanese": "ミルクティー",
+     "reading_romanized": "mirukutii",
+     "meaning_ko": "밀크티",
+     "explanation_ko": "ミ(mi) + ル(ru) + ク(ku) + ティ(ti) + ー입니다."
+    },
+    {
+     "japanese": "ディスク",
+     "reading_romanized": "disuku",
+     "meaning_ko": "디스크",
+     "explanation_ko": "ディ(di) + ス(su) + ク(ku)입니다. 큰 デ가 아니라 작은 ィ가 붙은 ディ입니다."
+    },
+    {
+     "japanese": "ディナー",
+     "reading_romanized": "dinaa",
+     "meaning_ko": "디너, 저녁 식사",
+     "explanation_ko": "ディ(di) + ナ(na) + ー입니다."
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「ウィ」의 일반적인 로마자 표기는 무엇인가요?",
+     "options": [
+      "wi",
+      "ui",
+      "wa",
+      "we"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "큰 ウ에 작은 ィ가 붙으면 wi입니다.",
+     "id": "JP-INTRO-53-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「ウォーター」의 읽기를 고르세요.",
+     "options": [
+      "wootaa",
+      "utaa",
+      "wotaa",
+      "uotaa"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ウォ=wo, ー는 o를 길게 늘이고, タ=ta, ー이므로 wootaa입니다.",
+     "id": "JP-INTRO-53-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「パーティー」의 뜻은?",
+     "options": [
+      "파티",
+      "파스타",
+      "파이",
+      "파일"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "パーティー(paatii)는 ‘파티’입니다. 파스타는 パスタ, 파일은 ファイル입니다.",
+     "id": "JP-INTRO-53-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「ティッシュ」의 뜻은?",
+     "options": [
+      "티슈",
+      "티켓",
+      "티셔츠",
+      "차"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ティッシュ(tisshu)는 ‘티슈’입니다. 티켓은 チケット, 티셔츠는 Tシャツ 또는 ティーシャツ입니다.",
+     "id": "JP-INTRO-53-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「ウィンドウ」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "windou",
+     "accepted_answers": [
+      "windou",
+      "windo",
+      "uindou"
+     ],
+     "explanation_ko": "ウィンドウ = windou (윈도우). ウィ(wi) + ン(n) + ド(do) + ウ(u).",
+     "id": "JP-INTRO-53-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「ウェブ」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "webu",
+     "accepted_answers": [
+      "webu",
+      "uebu"
+     ],
+     "explanation_ko": "ウェブ = webu (웹). ウェ(we) + ブ(bu).",
+     "id": "JP-INTRO-53-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_KATAKANA"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전"
   }
  ]
 }

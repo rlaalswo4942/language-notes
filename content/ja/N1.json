@@ -6021,6 +6021,223 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-29",
+   "day_index": 29,
+   "week_index": 5,
+   "level": "N1",
+   "unit_id": "N1-W05",
+   "lesson_type": "new",
+   "title_ko": "〜はおろか: ~은 말할 것도 없고 (~조차)",
+   "objective_ko": "〜はおろか〜(も・さえ・すら)ない로 ‘~은커녕, ~조차’라는 극단적인 부정을 강조한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-28"
+   ],
+   "explanation_ko": "〜はおろか는 ‘~은 말할 것도 없고, ~은커녕’이라는 뜻으로, 앞에 정도가 낮거나 당연한 것을 놓고 뒤에 그보다 더한 것까지 부정한다는 강조 표현입니다. 형태: 명사 + はおろか + 명사 + も・さえ・すら・まで + 부정. 예: 旅行{りょこう}はおろか、友人{ゆうじん}に会{あ}う余裕{よゆう}さえない(여행은커녕 친구를 만날 여유조차 없다). 뒤에는 대개 ない 같은 부정이 오며, 앞은 쉬운 것·기본적인 것, 뒤는 더 어려운 것·극단적인 것입니다. 貯金{ちょきん}はおろか、借金{しゃっきん}まである처럼 ‘~는커녕 ~까지 있다’처럼 뒤에 더 나쁜 사실이 이어지기도 합니다. 부정적인 상황을 말할 때 주로 씁니다.",
+   "usage_notes": [
+    "명사 + はおろか + 명사 + も・さえ・すら + ない.",
+    "앞은 가벼운 것, 뒤는 더 극단적인 것이 옵니다.",
+    "기쁜 일을 칭찬하는 데에는 어울리지 않고, 주로 부정적인 상황에 씁니다."
+   ],
+   "common_mistakes": [
+    "旅行はおろか、散歩はできる(X) → 旅行はおろか、散歩さえできない(O)",
+    "散歩はおろか、運動もできる(X) → 運動はおろか、散歩すらできない(O): 앞이 더 어려운 것, 뒤가 더 쉬운 것이어야 합니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N1-29-01",
+     "kind": "word",
+     "text": "貯金{ちょきん}",
+     "reading_kana": "ちょきん",
+     "reading_romanized": "chokin",
+     "meaning_ko": "저금",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N1-29-02",
+     "kind": "word",
+     "text": "余裕{よゆう}",
+     "reading_kana": "よゆう",
+     "reading_romanized": "yoyuu",
+     "meaning_ko": "여유",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-29-03",
+     "kind": "word",
+     "text": "挨拶{あいさつ}",
+     "reading_kana": "あいさつ",
+     "reading_romanized": "aisatsu",
+     "meaning_ko": "인사",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N1-29-04",
+     "kind": "word",
+     "text": "返事{へんじ}",
+     "reading_kana": "へんじ",
+     "reading_romanized": "henji",
+     "meaning_ko": "답장, 대답",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N1-29-05",
+     "kind": "word",
+     "text": "食欲{しょくよく}",
+     "reading_kana": "しょくよく",
+     "reading_romanized": "shokuyoku",
+     "meaning_ko": "식욕",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-29-06",
+     "kind": "word",
+     "text": "睡眠{すいみん}",
+     "reading_kana": "すいみん",
+     "reading_romanized": "suimin",
+     "meaning_ko": "수면",
+     "part_of_speech": "명사・する동사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "彼{かれ}は忙{いそが}しくて、旅行{りょこう}はおろか、友人{ゆうじん}に会{あ}う余裕{よゆう}さえない。",
+     "meaning_ko": "그는 바빠서 여행은커녕 친구를 만날 여유조차 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "病気{びょうき}のため、運動{うんどう}はおろか、散歩{さんぽ}すらできない。",
+     "meaning_ko": "병 때문에 운동은커녕 산책조차 할 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼女{かのじょ}は料理{りょうり}はおろか、お湯{ゆ}を沸{わ}かすこともできない。",
+     "meaning_ko": "그녀는 요리는커녕 물을 끓이는 것도 못 한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "貯金{ちょきん}はおろか、借金{しゃっきん}まである。",
+     "meaning_ko": "저금은커녕 빚까지 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "食欲{しょくよく}がなく、ご飯{はん}はおろか、水{みず}も飲{の}めない。",
+     "meaning_ko": "식욕이 없어서 밥은커녕 물도 마실 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "近所{きんじょ}の人{ひと}とは、会話{かいわ}はおろか、挨拶{あいさつ}もしたことがない。",
+     "meaning_ko": "이웃과는 대화는커녕 인사도 한 적이 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}は忙{いそが}しくて、休日{きゅうじつ}はおろか、睡眠{すいみん}の時間{じかん}さえ取{と}れない。",
+     "meaning_ko": "그는 바빠서 휴일은커녕 잠잘 시간조차 낼 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "その村{むら}には、病院{びょういん}はおろか、薬局{やっきょく}すらない。",
+     "meaning_ko": "그 마을에는 병원은커녕 약국조차 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}は謝罪{しゃざい}はおろか、返事{へんじ}もよこさなかった。",
+     "meaning_ko": "그는 사과는커녕 답장도 보내지 않았다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「旅行はおろか、友人に会う余裕さえない」의 뜻은?",
+     "options": [
+      "여행은커녕 친구를 만날 여유조차 없다.",
+      "여행도 가고 친구도 만날 여유가 있다.",
+      "여행은 못 가지만 친구는 만난다.",
+      "여행은 하고 싶지만 친구는 만나기 싫다."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜はおろか〜さえない는 ‘~은커녕 ~조차 없다’입니다.",
+     "id": "JP-N1-29-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 病気のため、運動（　）、散歩すらできない。",
+     "options": [
+      "はおろか",
+      "ならでは",
+      "ともなると",
+      "をもって"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘운동은커녕 산책조차’라는 뜻이므로 はおろか입니다.",
+     "id": "JP-N1-29-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 彼女は料理はおろか、お湯を沸かすことも（　）。",
+     "options": [
+      "できない",
+      "できる",
+      "したい",
+      "しよう"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜はおろか 뒤에는 ‘~조차 못 한다’라는 부정이 이어집니다.",
+     "id": "JP-N1-29-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「近所の人とは、会話はおろか、挨拶もしたことがない」의 뜻은?",
+     "options": [
+      "이웃과는 대화는커녕 인사도 한 적이 없다.",
+      "이웃과 대화는 하지만 인사는 안 한다.",
+      "이웃과 대화도 인사도 자주 한다.",
+      "이웃과 인사는 하지만 대화는 한 적이 없다."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "대화는커녕 인사조차 한 적이 없다는 뜻입니다.",
+     "id": "JP-N1-29-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「貯金」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "chokin",
+     "accepted_answers": [
+      "chokin",
+      "tyokin"
+     ],
+     "explanation_ko": "貯金 = ちょきん(chokin), ‘저금’입니다.",
+     "id": "JP-N1-29-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「余裕」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "yoyuu",
+     "accepted_answers": [
+      "yoyuu",
+      "yoyu"
+     ],
+     "explanation_ko": "余裕 = よゆう(yoyuu), ‘여유’입니다.",
+     "id": "JP-N1-29-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "JLPT_FORMAT"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

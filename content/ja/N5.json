@@ -6066,6 +6066,224 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N5-29",
+   "day_index": 29,
+   "week_index": 5,
+   "level": "N5",
+   "unit_id": "N5-W05",
+   "lesson_type": "new",
+   "title_ko": "〜ないで ください: ~하지 마세요",
+   "objective_ko": "동사 ない형을 만들고 〜ないで ください로 ‘~하지 마세요’라고 정중하게 부탁·금지하는 말을 한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N5-28"
+   ],
+   "explanation_ko": "동사 ない형 + ないで ください는 ‘~하지 마세요’라는 정중한 부탁·금지 표현입니다. ない형 만드는 법: ① 1그룹(う단 동사)은 마지막 う단 소리를 あ단으로 바꾸고 ない를 붙입니다: 走{はし}る → 走{はし}らない, 話{はな}す → 話{はな}さない, 書{か}く → 書{か}かない. 마지막이 う이면 わ로 바꿉니다: 吸{す}う → 吸{す}わない. ② 2그룹(る동사)은 る를 떼고 ない를 붙입니다: 忘{わす}れる → 忘{わす}れない, 食{た}べる → 食{た}べない. ③ する → しない, 来{く}る → 来{こ}ない. 이 ない형에 で를 붙여 ないで ください로 말합니다.",
+   "usage_notes": [
+    "ない형 + ないで ください: 走らないで ください(뛰지 마세요).",
+    "마지막이 う로 끝나는 동사는 わ로 바꿉니다: 吸う → 吸わないで ください.",
+    "する는 しないで, 来る는 来ないで ください가 됩니다."
+   ],
+   "common_mistakes": [
+    "走るないで ください(X) → 走らないで ください(O)",
+    "吸うないで ください(X) → 吸わないで ください(O)",
+    "忘れて ください(X, ‘잊어 주세요’) → 忘れないで ください(O, ‘잊지 마세요’)"
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N5-29-01",
+     "kind": "word",
+     "text": "忘{わす}れる",
+     "reading_kana": "わすれる",
+     "reading_romanized": "wasureru",
+     "meaning_ko": "잊다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N5-29-02",
+     "kind": "word",
+     "text": "触{さわ}る",
+     "reading_kana": "さわる",
+     "reading_romanized": "sawaru",
+     "meaning_ko": "만지다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N5-29-03",
+     "kind": "word",
+     "text": "走{はし}る",
+     "reading_kana": "はしる",
+     "reading_romanized": "hashiru",
+     "meaning_ko": "달리다, 뛰다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N5-29-04",
+     "kind": "word",
+     "text": "心配{しんぱい}",
+     "reading_kana": "しんぱい",
+     "reading_romanized": "shinpai",
+     "meaning_ko": "걱정",
+     "part_of_speech": "명사・する동사"
+    },
+    {
+     "id": "w-JP-N5-29-05",
+     "kind": "word",
+     "text": "大声{おおごえ}",
+     "reading_kana": "おおごえ",
+     "reading_romanized": "oogoe",
+     "meaning_ko": "큰 소리",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-29-06",
+     "kind": "word",
+     "text": "遅{おく}れる",
+     "reading_kana": "おくれる",
+     "reading_romanized": "okureru",
+     "meaning_ko": "늦다",
+     "part_of_speech": "동사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "ここで 走{はし}らないで ください。",
+     "meaning_ko": "여기서 뛰지 마세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "大声{おおごえ}で 話{はな}さないで ください。",
+     "meaning_ko": "큰 소리로 말하지 마세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 絵{え}に 触{さわ}らないで ください。",
+     "meaning_ko": "이 그림을 만지지 마세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "宿題{しゅくだい}を 忘{わす}れないで ください。",
+     "meaning_ko": "숙제를 잊지 마세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "心配{しんぱい}しないで ください。",
+     "meaning_ko": "걱정하지 마세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "授業{じゅぎょう}に 遅{おく}れないで ください。",
+     "meaning_ko": "수업에 늦지 마세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "ここで 写真{しゃしん}を 撮{と}らないで ください。",
+     "meaning_ko": "여기서 사진을 찍지 마세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "窓{まど}を 開{あ}けないで ください。",
+     "meaning_ko": "창문을 열지 마세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "ここで たばこを 吸{す}わないで ください。",
+     "meaning_ko": "여기서 담배를 피우지 마세요.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「走る」의 ない형은?",
+     "options": [
+      "走らない",
+      "走りない",
+      "走るない",
+      "走てない"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "1그룹 동사 走る는 る를 ら로 바꿔 走らない가 됩니다.",
+     "id": "JP-N5-29-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "‘여기서 사진을 찍지 마세요’를 바르게 나타낸 것은?",
+     "options": [
+      "ここで 写真を 撮らないで ください。",
+      "ここで 写真を 撮って ください。",
+      "ここで 写真を 撮りないで ください。",
+      "ここで 写真を 撮ないで ください。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "撮る의 ない형은 撮らない이므로 撮らないで ください입니다. 撮って ください는 ‘찍어 주세요’입니다.",
+     "id": "JP-N5-29-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「心配しないで ください」의 뜻은?",
+     "options": [
+      "걱정하지 마세요.",
+      "걱정해 주세요.",
+      "걱정했습니다.",
+      "걱정하고 싶습니다."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜ないで ください는 ‘~하지 마세요’입니다.",
+     "id": "JP-N5-29-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「たばこを（　）ください。」 ‘담배를 피우지 마세요’가 되도록 알맞은 것은?",
+     "options": [
+      "吸わないで",
+      "吸うないで",
+      "吸いないで",
+      "吸なないで"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "마지막이 う인 동사는 わ로 바꿔 吸わない가 되고 ないで ください를 붙입니다.",
+     "id": "JP-N5-29-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「忘れる」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "wasureru",
+     "accepted_answers": [
+      "wasureru"
+     ],
+     "explanation_ko": "忘れる = わすれる(wasureru), ‘잊다’입니다.",
+     "id": "JP-N5-29-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「大声」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "oogoe",
+     "accepted_answers": [
+      "oogoe",
+      "ogoe",
+      "ohgoe"
+     ],
+     "explanation_ko": "大声 = おおごえ(oogoe), ‘큰 소리’입니다.",
+     "id": "JP-N5-29-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

@@ -5498,6 +5498,205 @@
     "version": 1,
     "last_revised": "2026-11-02"
    }
+  },
+  {
+   "id": "A2-029",
+   "level": "A2",
+   "track": "foundation",
+   "day": 29,
+   "title_ko": "look / sound / feel + 형용사: 상태와 느낌 말하기",
+   "objective_ko": "look, sound, feel, smell, taste 뒤에 형용사를 써서 보이는 모습·들리는 느낌·몸 상태를 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-03"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "look, sound, feel, smell, taste는 '~해 보이다/들리다/느껴지다/냄새가 나다/맛이 나다'라는 뜻으로 뒤에 형용사가 옵니다. ① 모습: You look tired. ② 소리·이야기: That sounds great. ③ 몸 상태·느낌: I feel cold. ④ 냄새: The soup smells delicious. ⑤ 맛: This cake tastes sweet. ⑥ 이 동사들 뒤에는 부사가 아니라 형용사를 씁니다(looks happy, not looks happily). ⑦ 명사를 비교할 때는 look like + 명사를 씁니다: He looks like his father. ⑧ sound like + 명사/절도 가능합니다: That sounds like a good idea.",
+    "common_mistake_ko": "She looks happily.(X) → She looks happy.(O) / The cake tastes well.(X) → The cake tastes good.(O) / He looks like tired.(X) → He looks tired.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "look",
+     "part_of_speech": "동사",
+     "meaning_ko": "~해 보이다",
+     "example_en": "You look tired today.",
+     "example_ko": "오늘 피곤해 보여요."
+    },
+    {
+     "word": "sound",
+     "part_of_speech": "동사",
+     "meaning_ko": "~하게 들리다",
+     "example_en": "That sounds great.",
+     "example_ko": "그거 좋은데요."
+    },
+    {
+     "word": "smell",
+     "part_of_speech": "동사",
+     "meaning_ko": "~한 냄새가 나다",
+     "example_en": "The kitchen smells good.",
+     "example_ko": "부엌에서 좋은 냄새가 나요."
+    },
+    {
+     "word": "taste",
+     "part_of_speech": "동사",
+     "meaning_ko": "~한 맛이 나다",
+     "example_en": "The soup tastes salty.",
+     "example_ko": "수프가 짠맛이 나요."
+    },
+    {
+     "word": "delicious",
+     "part_of_speech": "형용사",
+     "meaning_ko": "맛있는",
+     "example_en": "The bread smells delicious.",
+     "example_ko": "그 빵은 맛있는 냄새가 나요."
+    },
+    {
+     "word": "strange",
+     "part_of_speech": "형용사",
+     "meaning_ko": "이상한",
+     "example_en": "This music sounds strange.",
+     "example_ko": "이 음악은 이상하게 들려요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "You look tired today. Are you OK?",
+     "ko": "오늘 피곤해 보여요. 괜찮아요?"
+    },
+    {
+     "en": "That sounds great! Let's do it.",
+     "ko": "좋은데요! 그렇게 해요."
+    },
+    {
+     "en": "The soup smells delicious.",
+     "ko": "그 수프는 맛있는 냄새가 나요."
+    },
+    {
+     "en": "This cake tastes sweet.",
+     "ko": "이 케이크는 달콤한 맛이 나요."
+    },
+    {
+     "en": "I feel cold. Can you close the window?",
+     "ko": "추워요. 창문 좀 닫아 줄래요?"
+    },
+    {
+     "en": "He looks like his father.",
+     "ko": "그는 아버지를 닮았어요."
+    },
+    {
+     "en": "The music sounds strange.",
+     "ko": "그 음악은 이상하게 들려요."
+    },
+    {
+     "en": "She looks happy because she won the game.",
+     "ko": "그녀는 경기에서 이겨서 행복해 보여요."
+    },
+    {
+     "en": "The room smells bad.",
+     "ko": "방에서 나쁜 냄새가 나요."
+    },
+    {
+     "en": "That sounds like a good idea.",
+     "ko": "그거 좋은 생각 같아요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "You look ___ today. (피곤해 보여요)",
+     "choices": [
+      "tired",
+      "tiredly",
+      "tire",
+      "tiring"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "look 뒤에는 상태를 나타내는 형용사 tired가 옵니다. tiredly는 부사입니다.",
+     "error_tag": "look-adj",
+     "id": "A2-029-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "The soup smells ___.",
+     "choices": [
+      "delicious",
+      "deliciously",
+      "deliciousness",
+      "to delicious"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "smell 뒤에는 형용사를 씁니다. delicious가 알맞습니다.",
+     "error_tag": "smell-adj",
+     "id": "A2-029-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "He ___ his father. (그는 아버지를 닮았어요)",
+     "choices": [
+      "looks like",
+      "looks",
+      "is look",
+      "sounds"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "사람이나 사물을 닮았다고 말할 때는 look like + 명사입니다.",
+     "error_tag": "look-like",
+     "id": "A2-029-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "바른 문장은 어느 것인가요?",
+     "choices": [
+      "That sounds great.",
+      "That sounds greatly.",
+      "That sounds be great.",
+      "That sounds like great."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "sound 뒤에는 형용사 great를 바로 씁니다.",
+     "error_tag": "sound-adj",
+     "id": "A2-029-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: This cake ___ sweet. (달콤한 맛이 나요)",
+     "answer_text": "tastes",
+     "accepted_answers": [
+      "tastes"
+     ],
+     "explanation_ko": "맛이 나다는 taste이고 3인칭 단수이므로 tastes입니다.",
+     "error_tag": "taste-adj",
+     "id": "A2-029-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: That ___ like a good idea. (좋은 생각처럼 들려요)",
+     "answer_text": "sounds",
+     "accepted_answers": [
+      "sounds"
+     ],
+     "explanation_ko": "~처럼 들리다는 sound like이고 that은 3인칭 단수이므로 sounds입니다.",
+     "error_tag": "sound-like",
+     "id": "A2-029-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "오늘 기분이나 몸 상태를 feel을 써서, 음식이나 소리를 look/smell/taste/sound 중 하나로 한 문장씩 써 보세요.",
+    "example_answer_en": "I feel tired today. My dinner smells delicious.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-03",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-03"
+   }
   }
  ]
 }

@@ -5494,6 +5494,205 @@
     "version": 1,
     "last_revised": "2026-11-02"
    }
+  },
+  {
+   "id": "B2-029",
+   "level": "B2",
+   "track": "general",
+   "day": 29,
+   "title_ko": "요구·제안의 가정법 현재: suggest / insist / recommend that + 동사원형",
+   "objective_ko": "demand, insist, recommend, require, suggest 뒤의 that절과 It is essential that ... 구문에서 동사원형(가정법 현재)을 쓴다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-03"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "요구·주장·제안·권고를 나타내는 동사 뒤의 that절에서는 주어의 인칭·시제와 상관없이 동사원형(또는 should + 동사원형)을 씁니다. ① 동사: demand, insist, recommend, require, request, suggest, propose, advise. The doctor recommended that he rest for a week. ② 3인칭 단수에도 -s를 붙이지 않습니다: She demanded that he apologize. ③ be동사는 be를 씁니다: It is essential that the form be signed. ④ 부정은 not을 동사원형 앞에 둡니다: The committee requested that the building not be demolished. ⑤ It is essential/important/vital/necessary that + 주어 + 동사원형 형태로도 씁니다. ⑥ suggest가 '시사하다'(증거를 보여 주다)의 뜻일 때는 이 규칙이 아니라 일반 시제를 씁니다: The data suggests that sales are rising. 격식을 갖춘 글에서 특히 자주 쓰입니다.",
+    "common_mistake_ko": "She demanded that he apologizes.(X, 격식 문장 기준) → She demanded that he apologize.(O) / It is vital that she is present.(X, 격식 문장 기준) → It is vital that she be present.(O) / He suggested that she doesn't be late.(X) → He suggested that she not be late.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "insist",
+     "part_of_speech": "동사",
+     "meaning_ko": "주장하다, 고집하다",
+     "example_en": "He insists that we leave now.",
+     "example_ko": "그는 우리가 지금 떠나야 한다고 주장해요."
+    },
+    {
+     "word": "demand",
+     "part_of_speech": "동사",
+     "meaning_ko": "요구하다",
+     "example_en": "The customers demand a refund.",
+     "example_ko": "고객들은 환불을 요구해요."
+    },
+    {
+     "word": "recommend",
+     "part_of_speech": "동사",
+     "meaning_ko": "권하다, 추천하다",
+     "example_en": "I recommend that you see a doctor.",
+     "example_ko": "병원에 가 보기를 권해요."
+    },
+    {
+     "word": "request",
+     "part_of_speech": "동사",
+     "meaning_ko": "요청하다",
+     "example_en": "They requested that we send the report.",
+     "example_ko": "그들은 우리에게 보고서를 보내 달라고 요청했어요."
+    },
+    {
+     "word": "essential",
+     "part_of_speech": "형용사",
+     "meaning_ko": "필수적인",
+     "example_en": "It is essential that we act quickly.",
+     "example_ko": "우리가 빨리 행동하는 것이 필수적이에요."
+    },
+    {
+     "word": "vital",
+     "part_of_speech": "형용사",
+     "meaning_ko": "매우 중요한",
+     "example_en": "It is vital that everyone follow the rules.",
+     "example_ko": "모두가 규칙을 따르는 것이 매우 중요해요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The doctor recommended that he rest for a week.",
+     "ko": "의사는 그에게 일주일 동안 쉬라고 권했다."
+    },
+    {
+     "en": "My boss insists that every report be finished by Friday.",
+     "ko": "내 상사는 모든 보고서가 금요일까지 끝나야 한다고 주장한다."
+    },
+    {
+     "en": "It is essential that she be present at the meeting.",
+     "ko": "그녀가 회의에 참석하는 것이 필수적이다."
+    },
+    {
+     "en": "The committee requested that the building not be demolished.",
+     "ko": "위원회는 그 건물을 철거하지 말라고 요청했다."
+    },
+    {
+     "en": "We suggest that you arrive early.",
+     "ko": "우리는 당신이 일찍 도착하기를 제안합니다."
+    },
+    {
+     "en": "The law requires that employees wear safety helmets.",
+     "ko": "법은 직원들이 안전모를 쓰도록 요구한다."
+    },
+    {
+     "en": "She demanded that the manager apologize.",
+     "ko": "그녀는 매니저가 사과하라고 요구했다."
+    },
+    {
+     "en": "It is vital that everyone follow the safety rules.",
+     "ko": "모두가 안전 수칙을 따르는 것이 매우 중요하다."
+    },
+    {
+     "en": "The data suggests that sales are rising.",
+     "ko": "그 자료는 매출이 오르고 있음을 시사한다."
+    },
+    {
+     "en": "I insist that he explain what happened.",
+     "ko": "나는 그가 무슨 일이 있었는지 설명해야 한다고 주장한다."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "The doctor recommended that he ___ more water.",
+     "choices": [
+      "drink",
+      "drinks",
+      "drank",
+      "drinking"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "recommend 뒤 that절에서는 동사원형을 씁니다.",
+     "error_tag": "subjunctive",
+     "id": "B2-029-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "It is essential that the form ___ signed by Monday.",
+     "choices": [
+      "be",
+      "is",
+      "was",
+      "being"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "It is essential that 뒤에서는 동사원형을 쓰며, 수동태는 be + 과거분사입니다.",
+     "error_tag": "subjunctive",
+     "id": "B2-029-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "She demanded that he ___ the truth.",
+     "choices": [
+      "tell",
+      "tells",
+      "told",
+      "telling"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "demand 뒤 that절에서는 주어가 he여도 -s 없이 동사원형 tell을 씁니다.",
+     "error_tag": "subjunctive",
+     "id": "B2-029-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "바른 문장은 어느 것인가요?",
+     "choices": [
+      "The manager suggested that she not be late.",
+      "The manager suggested that she doesn't be late.",
+      "The manager suggested that she not to be late.",
+      "The manager suggested that she not being late."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "제안의 that절에서 부정은 not + 동사원형입니다: she not be late.",
+     "error_tag": "subjunctive-neg",
+     "id": "B2-029-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 동사원형을 쓰세요: The company requires that all staff ___ a badge. (wear)",
+     "answer_text": "wear",
+     "accepted_answers": [
+      "wear"
+     ],
+     "explanation_ko": "require 뒤 that절에서는 동사원형 wear를 씁니다.",
+     "error_tag": "subjunctive",
+     "id": "B2-029-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 동사원형을 쓰세요: It is important that he ___ on time. (be)",
+     "answer_text": "be",
+     "accepted_answers": [
+      "be"
+     ],
+     "explanation_ko": "It is important that 뒤에서는 be동사도 원형 be를 씁니다.",
+     "error_tag": "subjunctive",
+     "id": "B2-029-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "recommend, insist, suggest 중 하나를 써서 친구에게 주는 조언이나 요구를 that절이 있는 문장으로 써 보세요.",
+    "example_answer_en": "I recommend that you get more sleep before the exam.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-03",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-03"
+   }
   }
  ]
 }

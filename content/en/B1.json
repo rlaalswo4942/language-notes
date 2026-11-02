@@ -4422,6 +4422,205 @@
     "version": 1,
     "last_revised": "2026-11-02"
    }
+  },
+  {
+   "id": "B1-024",
+   "level": "B1",
+   "track": "general",
+   "day": 24,
+   "title_ko": "So do I / Neither do I: 같은 처지 말하기",
+   "objective_ko": "So + 조동사 + 주어와 Neither + 조동사 + 주어로 상대의 말에 '나도 그래요'라고 맞장구친다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-03"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "상대가 한 말에 '나도 그래'라고 말하는 방법입니다. ① 긍정문에 동의: So + 조동사/be동사 + 주어. I love hiking. — So do I. ② 부정문에 동의: Neither(또는 Nor) + 조동사 + 주어. I don't like spicy food. — Neither do I. ③ 앞 문장의 동사 형태에 맞추어 조동사를 고릅니다. 일반동사 현재 → do/does, 과거 → did, be동사 → am/is/are/was/were, 완료 → have/has, 조동사 can/will → can/will. ④ Neither 문장에는 이미 부정의 뜻이 있으므로 don't를 또 쓰지 않습니다. ⑤ 반대일 때는 I do. / I don't.처럼 말합니다. ⑥ 한 문장 안에서도 쓸 수 있습니다: Tom likes jazz, and so does his sister.",
+    "common_mistake_ko": "I don't like it. — So do I.(X, 나도 안 좋아한다는 뜻이 아님) → Neither do I.(O) / Neither don't I.(X) → Neither do I.(O) / I'm tired. — So do I.(X) → So am I.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "agree",
+     "part_of_speech": "동사",
+     "meaning_ko": "동의하다",
+     "example_en": "I agree with you.",
+     "example_ko": "당신 말에 동의해요."
+    },
+    {
+     "word": "disagree",
+     "part_of_speech": "동사",
+     "meaning_ko": "동의하지 않다",
+     "example_en": "I disagree with that idea.",
+     "example_ko": "나는 그 생각에 동의하지 않아요."
+    },
+    {
+     "word": "opinion",
+     "part_of_speech": "명사",
+     "meaning_ko": "의견",
+     "example_en": "What is your opinion?",
+     "example_ko": "당신의 의견은 뭐예요?"
+    },
+    {
+     "word": "prefer",
+     "part_of_speech": "동사",
+     "meaning_ko": "더 좋아하다",
+     "example_en": "I prefer tea to coffee.",
+     "example_ko": "나는 커피보다 차를 더 좋아해요."
+    },
+    {
+     "word": "similar",
+     "part_of_speech": "형용사",
+     "meaning_ko": "비슷한",
+     "example_en": "Our tastes are similar.",
+     "example_ko": "우리 취향은 비슷해요."
+    },
+    {
+     "word": "exactly",
+     "part_of_speech": "부사",
+     "meaning_ko": "정확히, 바로",
+     "example_en": "That is exactly what I think.",
+     "example_ko": "그게 바로 내 생각이에요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I love hiking. — So do I.",
+     "ko": "나는 하이킹을 정말 좋아해요. — 나도요."
+    },
+    {
+     "en": "I don't like spicy food. — Neither do I.",
+     "ko": "나는 매운 음식을 안 좋아해요. — 나도요."
+    },
+    {
+     "en": "I'm really tired. — So am I.",
+     "ko": "나 정말 피곤해요. — 나도요."
+    },
+    {
+     "en": "She can't drive. — Neither can he.",
+     "ko": "그녀는 운전을 못 해요. — 그도 못 해요."
+    },
+    {
+     "en": "We went to the beach last summer. — So did we.",
+     "ko": "우리는 지난여름에 바닷가에 갔어요. — 우리도요."
+    },
+    {
+     "en": "I haven't finished my homework. — Neither have I.",
+     "ko": "나는 숙제를 못 끝냈어요. — 나도요."
+    },
+    {
+     "en": "Tom likes jazz, and so does his sister.",
+     "ko": "톰은 재즈를 좋아하고 그의 여동생도 그래요."
+    },
+    {
+     "en": "Mina doesn't eat meat, and neither does her brother.",
+     "ko": "미나는 고기를 안 먹고 그녀의 오빠도 안 먹어요."
+    },
+    {
+     "en": "I prefer tea. — I don't. I prefer coffee.",
+     "ko": "나는 차가 더 좋아요. — 난 아니에요. 난 커피가 더 좋아요."
+    },
+    {
+     "en": "Our opinions are similar, and so are our tastes.",
+     "ko": "우리 의견은 비슷하고 취향도 그래요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "\"I'm hungry.\" — \"___ I.\"",
+     "choices": [
+      "So am",
+      "So do",
+      "Neither am",
+      "Neither do"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "앞 문장이 긍정이고 be동사(am)이므로 So am I입니다.",
+     "error_tag": "so-neither",
+     "id": "B1-024-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "\"I don't like horror films.\" — \"___ I.\"",
+     "choices": [
+      "Neither do",
+      "So do",
+      "Neither don't",
+      "So don't"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "부정문에 동의할 때는 Neither do I입니다. Neither 뒤에는 don't를 쓰지 않습니다.",
+     "error_tag": "so-neither",
+     "id": "B1-024-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "\"She can swim.\" — \"So ___ I.\"",
+     "choices": [
+      "can",
+      "do",
+      "am",
+      "have"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "앞 문장의 조동사 can을 그대로 써서 So can I입니다.",
+     "error_tag": "so-neither",
+     "id": "B1-024-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "\"I went to Busan last year.\" — \"So ___ my friends.\"",
+     "choices": [
+      "did",
+      "do",
+      "went",
+      "have"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "앞 문장이 과거의 일반동사이므로 did를 씁니다: So did my friends.",
+     "error_tag": "so-neither",
+     "id": "B1-024-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: \"I haven't seen that movie.\" — \"Neither ___ I.\"",
+     "answer_text": "have",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation_ko": "앞 문장이 현재완료(haven't)이므로 Neither have I입니다.",
+     "error_tag": "so-neither",
+     "id": "B1-024-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: \"I like jazz.\" — \"So ___ I.\"",
+     "answer_text": "do",
+     "accepted_answers": [
+      "do"
+     ],
+     "explanation_ko": "앞 문장이 현재시제의 일반동사 긍정이므로 So do I입니다.",
+     "error_tag": "so-neither",
+     "id": "B1-024-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "친구가 \"I love ...\"와 \"I don't like ...\"라고 말했다고 생각하고, 맞장구치는 대답을 각각 한 문장씩 써 보세요.",
+    "example_answer_en": "I love pizza. — So do I. / I don't like rainy days. — Neither do I.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-03",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-03"
+   }
   }
  ]
 }
