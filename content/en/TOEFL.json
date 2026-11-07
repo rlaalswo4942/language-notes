@@ -4406,6 +4406,201 @@
     "version": 1,
     "last_revised": "2026-11-03"
    }
+  },
+  {
+   "id": "TOEFL-024",
+   "level": "B1",
+   "track": "toefl",
+   "day": 24,
+   "title_ko": "TOEFL 2026 Listen to an Announcement 2: 시간·예약 규칙·기한 찾기",
+   "objective_ko": "캠퍼스 공지를 글로 읽고 목적, 달라지는 시간, 지켜야 할 규칙, 마감 시점을 구별해 찾는다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/content/ets-org/language-master/ko/home/toefl/test-takers/ibt/about/content.html",
+     "publisher": "ETS",
+     "supports": "2026 형식 유형명",
+     "checked_at": "2026-11-08"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "2026-01-21 이후 TOEFL iBT Listening에는 Listen to an Announcement 유형이 안내되어 있습니다(공식 안내 유형명). 이 사이트는 소리가 없으므로 아래는 공지문을 글로 읽는 비공식 자체 연습입니다. 이번에는 도서관 공지에서 네 가지를 차례로 찾습니다. ① 목적: 무엇을 알리는가. ② 변경: instead of처럼 바뀐 시간. ③ 규칙: must, may, not allowed 뒤의 조건. ④ 기한: before Friday처럼 시점 표현. 숫자와 조건이 여러 개 나오므로 질문이 묻는 것만 골라 확인하세요. 점수를 예측하는 자료가 아닙니다.",
+    "common_mistake_ko": "공지에 나온 이전 시간(8 a.m.)을 바뀐 시간으로 착각하는 실수 → instead of 앞이 새 시간입니다. / 규칙의 일부(예약)만 보고 시간 제한(three hours)을 놓치는 실수 → 질문이 묻는 조건을 확인합니다."
+   },
+   "vocabulary": [
+    {
+     "word": "reserve",
+     "part_of_speech": "동사",
+     "meaning_ko": "예약하다",
+     "example_en": "Please reserve a room online.",
+     "example_ko": "방을 온라인으로 예약하세요."
+    },
+    {
+     "word": "advance",
+     "part_of_speech": "명사",
+     "meaning_ko": "미리(in advance)",
+     "example_en": "Book your seat in advance.",
+     "example_ko": "좌석을 미리 예약하세요."
+    },
+    {
+     "word": "unclaimed",
+     "part_of_speech": "형용사",
+     "meaning_ko": "주인이 찾아가지 않은",
+     "example_en": "Unclaimed bags are kept for a week.",
+     "example_ko": "찾아가지 않은 가방은 일주일간 보관돼요."
+    },
+    {
+     "word": "donate",
+     "part_of_speech": "동사",
+     "meaning_ko": "기부하다",
+     "example_en": "They donate old books to schools.",
+     "example_ko": "그들은 헌책을 학교에 기부해요."
+    },
+    {
+     "word": "lid",
+     "part_of_speech": "명사",
+     "meaning_ko": "뚜껑",
+     "example_en": "Please put a lid on your cup.",
+     "example_ko": "컵에 뚜껑을 덮어 주세요."
+    },
+    {
+     "word": "midnight",
+     "part_of_speech": "명사",
+     "meaning_ko": "자정",
+     "example_en": "The library closes at midnight.",
+     "example_ko": "도서관은 자정에 문을 닫아요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The announcement is about the library during exam week.",
+     "ko": "공지는 시험 주간의 도서관에 대한 거예요."
+    },
+    {
+     "en": "The library will open at 7 a.m. instead of 8 a.m.",
+     "ko": "도서관은 8시 대신 7시에 열어요."
+    },
+    {
+     "en": "The library will close at midnight.",
+     "ko": "도서관은 자정에 닫아요."
+    },
+    {
+     "en": "Students must reserve study rooms online.",
+     "ko": "학생들은 스터디룸을 온라인으로 예약해야 해요."
+    },
+    {
+     "en": "A room must be reserved at least one day in advance.",
+     "ko": "방은 최소 하루 전에 예약해야 해요."
+    },
+    {
+     "en": "Each group may use a room for up to three hours.",
+     "ko": "각 모둠은 방을 최대 세 시간 쓸 수 있어요."
+    },
+    {
+     "en": "Food is not allowed in the study rooms.",
+     "ko": "스터디룸에서는 음식이 허용되지 않아요."
+    },
+    {
+     "en": "Drinks with lids are fine.",
+     "ko": "뚜껑 있는 음료는 괜찮아요."
+    },
+    {
+     "en": "Unclaimed items will be donated after Friday.",
+     "ko": "찾아가지 않은 물건은 금요일 이후 기부돼요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "공지(글로 읽는 연습): 'Attention students. This is an announcement from the Campus Library. Starting next Monday, the library will open at 7 a.m. instead of 8 a.m. during exam week, and it will close at midnight. The second-floor study rooms must be reserved online at least one day in advance, and each group may use a room for up to three hours. Food is not allowed in the study rooms, but drinks with lids are fine. If you lose something, please check the front desk before Friday, because unclaimed items will be donated after that. Thank you.' 질문: What is the main purpose of the announcement?",
+     "choices": [
+      "To explain library hours and rules for exam week",
+      "To announce a new librarian",
+      "To say the library will close permanently",
+      "To sell used books"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "공지는 시험 주간 도서관 시간과 이용 규칙을 알립니다.",
+     "error_tag": "purpose",
+     "id": "TOEFL-024-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "공지(글로 읽는 연습): 'Attention students. This is an announcement from the Campus Library. Starting next Monday, the library will open at 7 a.m. instead of 8 a.m. during exam week, and it will close at midnight. The second-floor study rooms must be reserved online at least one day in advance, and each group may use a room for up to three hours. Food is not allowed in the study rooms, but drinks with lids are fine. If you lose something, please check the front desk before Friday, because unclaimed items will be donated after that. Thank you.' 질문: What time will the library open during exam week?",
+     "choices": [
+      "7 a.m.",
+      "8 a.m.",
+      "9 a.m.",
+      "Midnight"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "instead of 8 a.m. 앞의 7 a.m.이 새 개장 시간입니다.",
+     "error_tag": "detail",
+     "id": "TOEFL-024-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "공지(글로 읽는 연습): 'Attention students. This is an announcement from the Campus Library. Starting next Monday, the library will open at 7 a.m. instead of 8 a.m. during exam week, and it will close at midnight. The second-floor study rooms must be reserved online at least one day in advance, and each group may use a room for up to three hours. Food is not allowed in the study rooms, but drinks with lids are fine. If you lose something, please check the front desk before Friday, because unclaimed items will be donated after that. Thank you.' 질문: What must students do to use a second-floor study room?",
+     "choices": [
+      "Reserve it online at least one day ahead",
+      "Pay a fee at the front desk",
+      "Ask a librarian on the same day",
+      "Bring their own food"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "스터디룸은 최소 하루 전에 온라인으로 예약해야 합니다.",
+     "error_tag": "rule",
+     "id": "TOEFL-024-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "공지(글로 읽는 연습): 'Attention students. This is an announcement from the Campus Library. Starting next Monday, the library will open at 7 a.m. instead of 8 a.m. during exam week, and it will close at midnight. The second-floor study rooms must be reserved online at least one day in advance, and each group may use a room for up to three hours. Food is not allowed in the study rooms, but drinks with lids are fine. If you lose something, please check the front desk before Friday, because unclaimed items will be donated after that. Thank you.' 질문: How long can a group use a study room?",
+     "choices": [
+      "Up to three hours",
+      "Up to two hours",
+      "Up to four hours",
+      "All day"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "공지에서 up to three hours라고 했습니다.",
+     "error_tag": "detail",
+     "id": "TOEFL-024-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "공지(글로 읽는 연습): 'Attention students. This is an announcement from the Campus Library. Starting next Monday, the library will open at 7 a.m. instead of 8 a.m. during exam week, and it will close at midnight. The second-floor study rooms must be reserved online at least one day in advance, and each group may use a room for up to three hours. Food is not allowed in the study rooms, but drinks with lids are fine. If you lose something, please check the front desk before Friday, because unclaimed items will be donated after that. Thank you.' 질문: 빈칸에 알맞은 한 단어를 쓰세요: Drinks with ___ are allowed in the study rooms. (뚜껑, l로 시작)",
+     "answer_text": "lids",
+     "accepted_answers": [
+      "lids"
+     ],
+     "explanation_ko": "drinks with lids are fine이라고 했습니다.",
+     "error_tag": "detail",
+     "id": "TOEFL-024-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "공지(글로 읽는 연습): 'Attention students. This is an announcement from the Campus Library. Starting next Monday, the library will open at 7 a.m. instead of 8 a.m. during exam week, and it will close at midnight. The second-floor study rooms must be reserved online at least one day in advance, and each group may use a room for up to three hours. Food is not allowed in the study rooms, but drinks with lids are fine. If you lose something, please check the front desk before Friday, because unclaimed items will be donated after that. Thank you.' 질문: 빈칸에 알맞은 한 단어를 쓰세요: Unclaimed items will be ___ after Friday. (기부될, d로 시작)",
+     "answer_text": "donated",
+     "accepted_answers": [
+      "donated"
+     ],
+     "explanation_ko": "unclaimed items will be donated라고 했습니다.",
+     "error_tag": "detail",
+     "id": "TOEFL-024-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "도서관 공지에서 기억할 규칙 두 가지를 영어 문장으로 써 보세요.",
+    "example_answer_en": "Study rooms must be reserved online. Food is not allowed in the rooms.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 비공식 연습이며 ETS 점수와 무관합니다."
+   },
+   "publish_date": "2026-11-08",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-08"
+   }
   }
  ]
 }

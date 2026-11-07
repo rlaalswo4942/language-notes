@@ -6273,6 +6273,223 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N3-30",
+   "day_index": 30,
+   "week_index": 5,
+   "level": "N3",
+   "unit_id": "N3-W05",
+   "lesson_type": "new",
+   "title_ko": "〜わけにはいかない: ~할 수는 없다",
+   "objective_ko": "동사 사전형·ない형에 〜わけにはいかない를 붙여 사정상 ~할 수 없다, ~하지 않을 수 없다는 뜻을 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N3-29"
+   ],
+   "explanation_ko": "〜わけにはいかない는 능력이 없어서가 아니라 사정·책임·상식 때문에 ‘그렇게 할 수는 없다’는 뜻입니다. ① 동사 사전형 + わけにはいかない: 休{やす}むわけにはいかない(쉴 수는 없다). ② 동사 ない형 + ないわけにはいかない: 行{い}かないわけにはいかない(안 갈 수는 없다 = 가야 한다). 정중하게는 わけにはいきません으로 말합니다. 단순히 할 수 없다는 뜻의 〜ことができない와 달리, 사정을 알고 있는 말하는 사람의 판단이 들어갑니다.",
+   "usage_notes": [
+    "사전형 + わけにはいかない: ~할 수는 없다.",
+    "ない형 + ないわけにはいかない: ~하지 않을 수는 없다(해야 한다).",
+    "정중체는 わけにはいきません."
+   ],
+   "common_mistakes": [
+    "休めるわけにはいかない(X) → 休むわけにはいかない(O)",
+    "行かないわけにはいかない를 ‘가면 안 된다’로 이해하는 것 → ‘안 갈 수 없다’, 즉 가야 한다",
+    "わけにはいきません을 능력 부족(できません)의 뜻으로만 이해하는 것"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "大事{だいじ}",
+     "reading_kana": "だいじ",
+     "reading_romanized": "daiji",
+     "meaning_ko": "중요함",
+     "part_of_speech": "な형용사",
+     "id": "w-JP-N3-30-01"
+    },
+    {
+     "kind": "word",
+     "text": "断{ことわ}る",
+     "reading_kana": "ことわる",
+     "reading_romanized": "kotowaru",
+     "meaning_ko": "거절하다",
+     "part_of_speech": "동사",
+     "id": "w-JP-N3-30-02"
+    },
+    {
+     "kind": "word",
+     "text": "出席{しゅっせき}",
+     "reading_kana": "しゅっせき",
+     "reading_romanized": "shusseki",
+     "meaning_ko": "출석",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N3-30-03"
+    },
+    {
+     "kind": "word",
+     "text": "失敗{しっぱい}",
+     "reading_kana": "しっぱい",
+     "reading_romanized": "shippai",
+     "meaning_ko": "실패",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N3-30-04"
+    },
+    {
+     "kind": "word",
+     "text": "書類{しょるい}",
+     "reading_kana": "しょるい",
+     "reading_romanized": "shorui",
+     "meaning_ko": "서류",
+     "part_of_speech": "명사",
+     "id": "w-JP-N3-30-05"
+    },
+    {
+     "kind": "word",
+     "text": "結婚式{けっこんしき}",
+     "reading_kana": "けっこんしき",
+     "reading_romanized": "kekkonshiki",
+     "meaning_ko": "결혼식",
+     "part_of_speech": "명사",
+     "id": "w-JP-N3-30-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "明日{あした}は大事{だいじ}な試験{しけん}があるので、休{やす}むわけにはいきません。",
+     "meaning_ko": "내일은 중요한 시험이 있어서 쉴 수는 없습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "約束{やくそく}したので、断{ことわ}るわけにはいきません。",
+     "meaning_ko": "약속했기 때문에 거절할 수는 없습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "運転{うんてん}するので、お酒{さけ}を飲{の}むわけにはいきません。",
+     "meaning_ko": "운전해야 해서 술을 마실 수는 없습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "先輩{せんぱい}に頼{たの}まれたので、行{い}かないわけにはいかない。",
+     "meaning_ko": "선배에게 부탁받았기 때문에 안 갈 수는 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "友達{ともだち}の結婚式{けっこんしき}だから、出席{しゅっせき}しないわけにはいかないよ。",
+     "meaning_ko": "친구의 결혼식이니까 출석하지 않을 수는 없어.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "病気{びょうき}の母{はは}を置{お}いて旅行{りょこう}に行{い}くわけにはいかない。",
+     "meaning_ko": "아픈 어머니를 두고 여행을 갈 수는 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "仕事{しごと}が終{お}わっていないので、帰{かえ}るわけにはいきません。",
+     "meaning_ko": "일이 끝나지 않아서 돌아갈 수는 없습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "お客{きゃく}さんの前{まえ}で、失敗{しっぱい}するわけにはいかない。",
+     "meaning_ko": "손님 앞에서 실수할 수는 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "大切{たいせつ}な書類{しょるい}なので、なくすわけにはいきません。",
+     "meaning_ko": "중요한 서류라서 잃어버릴 수는 없습니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「休むわけにはいかない」의 뜻은?",
+     "options": [
+      "사정상 쉴 수는 없다",
+      "쉬어도 된다",
+      "쉴 리가 없다",
+      "쉬고 싶다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜わけにはいかない는 사정상 ‘~할 수는 없다’입니다.",
+     "id": "JP-N3-30-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「出席しないわけにはいかない」의 뜻은?",
+     "options": [
+      "출석하지 않을 수는 없다 (출석해야 한다)",
+      "출석해서는 안 된다",
+      "출석하지 않아도 된다",
+      "출석할 수 없다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ない형 + ないわけにはいかない는 ‘~하지 않을 수는 없다’, 즉 ‘해야 한다’입니다.",
+     "id": "JP-N3-30-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「運転するので、お酒を( )わけにはいきません。」( )에 알맞은 것은?",
+     "options": [
+      "飲む",
+      "飲まない",
+      "飲んだ",
+      "飲みたい"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘마실 수는 없다’이므로 사전형 飲む가 옵니다.",
+     "id": "JP-N3-30-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「大切な書類なので、なくす( )。」( )에 알맞은 것은?",
+     "options": [
+      "わけにはいきません",
+      "ところです",
+      "ばかりです",
+      "ようです"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘잃어버릴 수는 없다’는 〜わけにはいきません입니다.",
+     "id": "JP-N3-30-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「断る」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kotowaru",
+     "accepted_answers": [
+      "kotowaru"
+     ],
+     "explanation_ko": "断る = ことわる(kotowaru), ‘거절하다’입니다.",
+     "id": "JP-N3-30-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「書類」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "shorui",
+     "accepted_answers": [
+      "shorui",
+      "syorui"
+     ],
+     "explanation_ko": "書類 = しょるい(shorui), ‘서류’입니다.",
+     "id": "JP-N3-30-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

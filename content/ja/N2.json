@@ -6238,6 +6238,225 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-30",
+   "day_index": 30,
+   "week_index": 5,
+   "level": "N2",
+   "unit_id": "N2-W05",
+   "lesson_type": "new",
+   "title_ko": "〜にわたって: ~에 걸쳐",
+   "objective_ko": "기간·횟수·범위를 나타내는 명사 뒤에 〜にわたって를 붙여 ‘~에 걸쳐’라는 폭넓은 범위를 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-29"
+   ],
+   "explanation_ko": "〜にわたって는 시간·장소·횟수의 폭이 넓음을 나타내며 ‘~에 걸쳐’라는 뜻입니다. 명사 + にわたって(三日間にわたって), 문장을 이을 때는 にわたり, 명사를 꾸밀 때는 にわたる(多岐にわたる問題)를 씁니다. 기간(三日間·長年), 범위(全国·広い地域), 횟수(三回)처럼 규모 있는 말에 어울리고, 한 시점(三時·昨日)이나 대상(この問題)에는 쓰지 않습니다. 앞뒤 문장은 사실을 서술하는 문체에 어울립니다.",
+   "usage_notes": [
+    "기간·범위·횟수 + にわたって: 三日間にわたって·全国にわたって.",
+    "문장 연결은 にわたり, 명사 수식은 にわたる.",
+    "한 시점이나 단순 대상에는 쓰지 않음."
+   ],
+   "common_mistakes": [
+    "昨日の三時にわたって会議をした(X) → 昨日の三時から五時まで会議をした(O)",
+    "この問題にわたって話した(X) → この問題について話した(O)",
+    "にわたる 뒤에 명사가 없이 문장을 끝내는 것(X) → にわたって·にわたり로 이어 감"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "地域{ちいき}",
+     "reading_kana": "ちいき",
+     "reading_romanized": "chiiki",
+     "meaning_ko": "지역",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-30-01"
+    },
+    {
+     "kind": "word",
+     "text": "範囲{はんい}",
+     "reading_kana": "はんい",
+     "reading_romanized": "han'i",
+     "meaning_ko": "범위",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-30-02"
+    },
+    {
+     "kind": "word",
+     "text": "全国{ぜんこく}",
+     "reading_kana": "ぜんこく",
+     "reading_romanized": "zenkoku",
+     "meaning_ko": "전국",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-30-03"
+    },
+    {
+     "kind": "word",
+     "text": "長年{ながねん}",
+     "reading_kana": "ながねん",
+     "reading_romanized": "naganen",
+     "meaning_ko": "오랜 세월",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-30-04"
+    },
+    {
+     "kind": "word",
+     "text": "展示会{てんじかい}",
+     "reading_kana": "てんじかい",
+     "reading_romanized": "tenjikai",
+     "meaning_ko": "전시회",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-30-05"
+    },
+    {
+     "kind": "word",
+     "text": "作家{さっか}",
+     "reading_kana": "さっか",
+     "reading_romanized": "sakka",
+     "meaning_ko": "작가",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-30-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "この地域{ちいき}では、三日間{みっかかん}にわたって大雨{おおあめ}が続{つづ}いた。",
+     "meaning_ko": "이 지역에서는 사흘에 걸쳐 큰비가 이어졌다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "調査{ちょうさ}は全国{ぜんこく}にわたって行{おこな}われた。",
+     "meaning_ko": "조사는 전국에 걸쳐 실시되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "会議{かいぎ}は長時間{ちょうじかん}にわたり、多{おお}くの意見{いけん}が出{で}た。",
+     "meaning_ko": "회의는 장시간에 걸쳐 진행되어 많은 의견이 나왔다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}は三十年{さんじゅうねん}にわたって、教師{きょうし}として働{はたら}いてきた。",
+     "meaning_ko": "그는 30년에 걸쳐 교사로 일해 왔다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "展示会{てんじかい}は一週間{いっしゅうかん}にわたって開催{かいさい}される。",
+     "meaning_ko": "전시회는 일주일에 걸쳐 개최된다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "川{かわ}の水{みず}は広{ひろ}い範囲{はんい}にわたって汚{よご}れていた。",
+     "meaning_ko": "강물은 넓은 범위에 걸쳐 더러워져 있었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "台風{たいふう}の影響{えいきょう}は、広{ひろ}い地域{ちいき}にわたって見{み}られた。",
+     "meaning_ko": "태풍의 영향은 넓은 지역에 걸쳐 나타났다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "その作家{さっか}は長年{ながねん}にわたり、多{おお}くの小説{しょうせつ}を書{か}いた。",
+     "meaning_ko": "그 작가는 오랜 세월에 걸쳐 많은 소설을 썼다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "新製品{しんせいひん}について、三回{さんかい}にわたって説明会{せつめいかい}が開{ひら}かれた。",
+     "meaning_ko": "신제품에 대해 세 차례에 걸쳐 설명회가 열렸다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「三日間にわたって」의 にわたって는 어떤 뜻인가요?",
+     "options": [
+      "~에 걸쳐",
+      "~에 대해서",
+      "~에 따라",
+      "~에도 불구하고"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜にわたって는 시간·범위가 넓음을 나타내는 ‘~에 걸쳐’입니다.",
+     "id": "JP-N2-30-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「調査は全国( )行われた。」( )에 알맞은 것은?",
+     "options": [
+      "にわたって",
+      "に対して",
+      "に基づいて",
+      "にあたって"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "전국이라는 범위에 걸쳐 실시되었다는 뜻이므로 にわたって입니다.",
+     "id": "JP-N2-30-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "〜にわたって가 자연스럽게 쓰인 문장은?",
+     "options": [
+      "展示会は一週間にわたって開催される。",
+      "私は昨日の午後三時にわたって友達に会った。",
+      "この問題にわたって話した。",
+      "彼は朝にわたって学校へ行った。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "一週間처럼 폭이 있는 기간에 쓰고, 한 시점이나 단순 대상에는 쓰지 않습니다.",
+     "id": "JP-N2-30-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「長年にわたり、小説を書いた」의 뜻은?",
+     "options": [
+      "오랜 세월에 걸쳐 소설을 썼다",
+      "오랜만에 소설을 썼다",
+      "오랜 세월 동안 소설을 쓰지 못했다",
+      "소설을 쓰기 위해 오래 걸렸다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "長年にわたり는 ‘오랜 세월에 걸쳐’입니다.",
+     "id": "JP-N2-30-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「範囲」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "hani",
+     "accepted_answers": [
+      "hani",
+      "han'i",
+      "han-i"
+     ],
+     "explanation_ko": "範囲 = はんい(han'i), ‘범위’입니다.",
+     "id": "JP-N2-30-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「地域」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "chiiki",
+     "accepted_answers": [
+      "chiiki",
+      "tiiki"
+     ],
+     "explanation_ko": "地域 = ちいき(chiiki), ‘지역’입니다.",
+     "id": "JP-N2-30-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "JLPT_FORMAT"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

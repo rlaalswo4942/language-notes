@@ -5693,6 +5693,201 @@
     "version": 1,
     "last_revised": "2026-11-03"
    }
+  },
+  {
+   "id": "B2-030",
+   "level": "B2",
+   "track": "general",
+   "day": 30,
+   "title_ko": "미래완료와 미래진행: will have + p.p. / will be -ing",
+   "objective_ko": "미래의 한 시점까지 끝나 있을 일은 will have + 과거분사로, 그 시점에 진행 중일 일은 will be + -ing로 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-08"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "미래의 기준 시점에 따라 두 형태를 구별합니다. ① 미래완료 will have + 과거분사: 기준 시점까지 완료될 일(By the end of next year, I will have finished my degree). by + 시점, by the time + 현재형 절과 자주 함께 씁니다. ② 미래진행 will be + -ing: 기준 시점에 진행 중일 일(This time tomorrow, we will be lying on a beach). ③ 시간 부사절에서는 미래 의미라도 현재형을 씁니다(By the time you arrive, ...). ④ 지속 기간도 말할 수 있습니다: By June, she will have worked here for ten years.",
+    "common_mistake_ko": "By next June, she will working here.(X) → will have worked / By the time you will arrive, the film will have started.(X) → By the time you arrive, ...(O) / I will have work at nine.(X) → I will be working at nine.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "deadline",
+     "part_of_speech": "명사",
+     "meaning_ko": "마감 기한",
+     "example_en": "We will have met the deadline by Friday.",
+     "example_ko": "우리는 금요일까지 마감을 맞출 거예요."
+    },
+    {
+     "word": "complete",
+     "part_of_speech": "동사",
+     "meaning_ko": "완료하다",
+     "example_en": "They will have completed the project by May.",
+     "example_ko": "그들은 5월까지 프로젝트를 끝낼 거예요."
+    },
+    {
+     "word": "graduate",
+     "part_of_speech": "동사",
+     "meaning_ko": "졸업하다",
+     "example_en": "She will have graduated by this time next year.",
+     "example_ko": "그녀는 내년 이맘때면 졸업했을 거예요."
+    },
+    {
+     "word": "retire",
+     "part_of_speech": "동사",
+     "meaning_ko": "은퇴하다",
+     "example_en": "He will have retired by 2035.",
+     "example_ko": "그는 2035년이면 은퇴했을 거예요."
+    },
+    {
+     "word": "estimate",
+     "part_of_speech": "동사",
+     "meaning_ko": "추정하다",
+     "example_en": "Experts estimate the work will be done soon.",
+     "example_ko": "전문가들은 작업이 곧 끝날 것으로 추정해요."
+    },
+    {
+     "word": "schedule",
+     "part_of_speech": "명사",
+     "meaning_ko": "일정",
+     "example_en": "Our schedule will be busy next week.",
+     "example_ko": "우리 일정은 다음 주에 바쁠 거예요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "By the end of next year, I will have finished my degree.",
+     "ko": "내년 말이면 나는 학위를 마쳤을 거예요."
+    },
+    {
+     "en": "This time tomorrow, we will be lying on a beach.",
+     "ko": "내일 이맘때 우리는 해변에 누워 있을 거예요."
+    },
+    {
+     "en": "By the time you arrive, the film will have started.",
+     "ko": "당신이 도착할 때쯤이면 영화는 이미 시작했을 거예요."
+    },
+    {
+     "en": "By next June, she will have worked here for ten years.",
+     "ko": "내년 6월이면 그녀는 여기서 10년 일한 셈이에요."
+    },
+    {
+     "en": "I will be working at nine tomorrow morning.",
+     "ko": "나는 내일 아침 9시에 일하고 있을 거예요."
+    },
+    {
+     "en": "They will have built the bridge by 2030.",
+     "ko": "그들은 2030년까지 다리를 지었을 거예요."
+    },
+    {
+     "en": "Will you be using the car tonight?",
+     "ko": "오늘 밤에 차를 쓰고 있을 건가요?"
+    },
+    {
+     "en": "By Friday, we will have met the deadline.",
+     "ko": "금요일이면 우리는 마감을 맞췄을 거예요."
+    },
+    {
+     "en": "He will have retired by the time I start my career.",
+     "ko": "내가 경력을 시작할 때쯤 그는 은퇴했을 거예요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "By the end of next year, I ___ my degree.",
+     "choices": [
+      "will have finished",
+      "finished",
+      "have finished",
+      "am finishing"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "기준 시점까지 끝나 있을 일은 will have + 과거분사입니다.",
+     "error_tag": "future-perfect",
+     "id": "B2-030-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "This time tomorrow, we ___ on a beach.",
+     "choices": [
+      "will be lying",
+      "have lain",
+      "lay",
+      "were lying"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "미래의 한 시점에 진행 중인 모습은 will be + -ing입니다.",
+     "error_tag": "future-continuous",
+     "id": "B2-030-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "By the time you arrive, the film ___.",
+     "choices": [
+      "will have started",
+      "had started",
+      "would start",
+      "starting"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "by the time 뒤 절은 현재형, 주절은 will have + 과거분사입니다.",
+     "error_tag": "future-perfect",
+     "id": "B2-030-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "문법적으로 바른 문장은?",
+     "choices": [
+      "By next June, she will have worked here for ten years.",
+      "By next June, she will working here for ten years.",
+      "By next June, she will has worked here for ten years.",
+      "By next June, she will have work here for ten years."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "will have 뒤에는 과거분사 worked가 옵니다.",
+     "error_tag": "future-perfect",
+     "id": "B2-030-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: By 2030, they ___ have built the bridge.",
+     "answer_text": "will",
+     "accepted_answers": [
+      "will"
+     ],
+     "explanation_ko": "미래완료는 will have + 과거분사입니다.",
+     "error_tag": "future-perfect",
+     "id": "B2-030-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: I'll be ___ at nine tomorrow morning. (work의 -ing형)",
+     "answer_text": "working",
+     "accepted_answers": [
+      "working"
+     ],
+     "explanation_ko": "미래진행은 will be + -ing입니다.",
+     "error_tag": "future-continuous",
+     "id": "B2-030-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "내년 이맘때까지 이루고 싶은 일과 그때 하고 있을 일을 미래완료·미래진행으로 한 문장씩 써 보세요.",
+    "example_answer_en": "By this time next year, I will have passed the test. I will be studying abroad.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-08",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-08"
+   }
   }
  ]
 }

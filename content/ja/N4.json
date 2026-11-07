@@ -6264,6 +6264,223 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-30",
+   "day_index": 30,
+   "week_index": 5,
+   "level": "N4",
+   "unit_id": "N4-W05",
+   "lesson_type": "new",
+   "title_ko": "〜て しまう: ~해 버리다 (완료·유감)",
+   "objective_ko": "동사 て형 + しまう로 일이 끝났음과 뜻하지 않은 일에 대한 유감·후회를 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-29"
+   ],
+   "explanation_ko": "동사 て형 + しまいます는 두 가지로 씁니다. ① 완료: 일을 끝까지 다 했다(本{ほん}を 全部{ぜんぶ} 読{よ}んで しまいました). ② 유감·후회: 뜻하지 않게 그렇게 되었다(財布{さいふ}を 落{お}として しまいました). て형은 읽다→読んで, 書く→書いて, 買う→買って, 落とす→落として, 壊れる→壊れて처럼 만듭니다. 말할 때는 〜て しまった가 〜ちゃった, 〜んで しまった가 〜じゃった로 줄기도 하는데, 이 줄임말은 친한 사이의 구어체입니다.",
+   "usage_notes": [
+    "완료는 ‘다 해 버리다’, 유감은 ‘~해 버렸다’로 새기면 됩니다.",
+    "문장 끝에서 〜て しまいました(정중), 〜て しまった(보통체).",
+    "구어체: 食{た}べて しまった → 食べちゃった."
+   ],
+   "common_mistakes": [
+    "読むて しまいました(X) → 読んで しまいました(O)",
+    "落として しまいました를 ‘일부러 떨어뜨렸다’고만 이해하는 것 → 뜻하지 않게 떨어뜨린 유감도 나타냄",
+    "しまいます(현재)는 ‘이제부터 다 끝내 버리겠다’는 완료 의지로 쓰일 수 있음"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "落{お}とす",
+     "reading_kana": "おとす",
+     "reading_romanized": "otosu",
+     "meaning_ko": "떨어뜨리다",
+     "part_of_speech": "동사",
+     "id": "w-JP-N4-30-01"
+    },
+    {
+     "kind": "word",
+     "text": "壊{こわ}れる",
+     "reading_kana": "こわれる",
+     "reading_romanized": "kowareru",
+     "meaning_ko": "고장 나다, 부서지다",
+     "part_of_speech": "동사",
+     "id": "w-JP-N4-30-02"
+    },
+    {
+     "kind": "word",
+     "text": "全部{ぜんぶ}",
+     "reading_kana": "ぜんぶ",
+     "reading_romanized": "zenbu",
+     "meaning_ko": "전부",
+     "part_of_speech": "명사",
+     "id": "w-JP-N4-30-03"
+    },
+    {
+     "kind": "word",
+     "text": "困{こま}る",
+     "reading_kana": "こまる",
+     "reading_romanized": "komaru",
+     "meaning_ko": "곤란하다",
+     "part_of_speech": "동사",
+     "id": "w-JP-N4-30-04"
+    },
+    {
+     "kind": "word",
+     "text": "寝坊{ねぼう}",
+     "reading_kana": "ねぼう",
+     "reading_romanized": "nebou",
+     "meaning_ko": "늦잠",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N4-30-05"
+    },
+    {
+     "kind": "word",
+     "text": "遅刻{ちこく}",
+     "reading_kana": "ちこく",
+     "reading_romanized": "chikoku",
+     "meaning_ko": "지각",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N4-30-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "宿題{しゅくだい}を 家{いえ}に 置{お}いて しまいました。",
+     "meaning_ko": "숙제를 집에 두고 와 버렸어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "財布{さいふ}を 落{お}として しまいました。",
+     "meaning_ko": "지갑을 떨어뜨려 버렸어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "昨日{きのう}、 本{ほん}を 全部{ぜんぶ} 読{よ}んで しまいました。",
+     "meaning_ko": "어제 책을 전부 읽어 버렸어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "電車{でんしゃ}に 傘{かさ}を 置{お}いて しまった。",
+     "meaning_ko": "전철에 우산을 두고 내려 버렸어.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "夕食{ゆうしょく}までに レポートを 書{か}いて しまいます。",
+     "meaning_ko": "저녁까지 보고서를 다 써 버리겠습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "寝坊{ねぼう}を して、 学校{がっこう}に 遅刻{ちこく}して しまいました。",
+     "meaning_ko": "늦잠을 자서 학교에 지각해 버렸어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "先生{せんせい}の 名前{なまえ}を 間違{まちが}えて しまいました。",
+     "meaning_ko": "선생님 이름을 틀려 버렸어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "安{やす}かったので、 たくさん 買{か}って しまいました。",
+     "meaning_ko": "싸서 많이 사 버렸어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "パソコンが 壊{こわ}れて しまって、 困{こま}って います。",
+     "meaning_ko": "컴퓨터가 고장 나 버려서 곤란해요.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「宿題を 置いて しまいました」의 느낌은?",
+     "options": [
+      "두고 와 버려서 유감이다",
+      "두고 오고 싶다",
+      "두고 오지 않았다",
+      "두고 오라고 시킨다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜て しまいました는 뜻하지 않은 일에 대한 유감을 나타낼 수 있습니다.",
+     "id": "JP-N4-30-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「本を 全部( )しまいました。」( )에 알맞은 것은?",
+     "options": [
+      "読んで",
+      "読み",
+      "読む",
+      "読まない"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "しまう 앞에는 て형(읽다→読んで)이 옵니다.",
+     "id": "JP-N4-30-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「パソコンが 壊れて しまいました」의 뜻은?",
+     "options": [
+      "컴퓨터가 고장 나 버렸다",
+      "컴퓨터를 고장 낼 것이다",
+      "컴퓨터가 고장 나지 않았다",
+      "컴퓨터를 고장 내고 싶다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "壊れる(고장 나다) + 〜て しまいました = 고장 나 버렸다.",
+     "id": "JP-N4-30-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「食べちゃった」는 어느 표현의 구어체인가요?",
+     "options": [
+      "食べて しまった",
+      "食べて いた",
+      "食べて みた",
+      "食べない"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜て しまった가 〜ちゃった로 줄어듭니다.",
+     "id": "JP-N4-30-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「寝坊」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "nebou",
+     "accepted_answers": [
+      "nebou",
+      "nebo"
+     ],
+     "explanation_ko": "寝坊 = ねぼう(nebou), ‘늦잠’입니다.",
+     "id": "JP-N4-30-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「壊れる」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kowareru",
+     "accepted_answers": [
+      "kowareru"
+     ],
+     "explanation_ko": "壊れる = こわれる(kowareru), ‘고장 나다’입니다.",
+     "id": "JP-N4-30-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

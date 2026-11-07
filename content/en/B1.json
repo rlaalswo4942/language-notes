@@ -4621,6 +4621,203 @@
     "version": 1,
     "last_revised": "2026-11-03"
    }
+  },
+  {
+   "id": "B1-025",
+   "level": "B1",
+   "track": "general",
+   "day": 25,
+   "title_ko": "must / might / can't: 지금 상황 추측하기",
+   "objective_ko": "단서를 보고 현재 상황을 must(분명히 ~이다), might(~일지도 모른다), can't(~일 리 없다)로 추측해 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-08"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "지금의 일을 단서로 추측할 때 조동사로 확신의 정도를 나타냅니다. ① must + 동사원형: 단서가 많아 거의 확실(The lights are on, so he must be at home). ② might + 동사원형: 확실하지 않음(He might be in the library). ③ can't + 동사원형: 거의 불가능(That can't be true). ④ 뒤에는 be동사나 상태 동사를 자주 씁니다. ⑤ 이 문장의 must는 '반드시 해야 한다'는 의무와 다른 뜻입니다.",
+    "common_mistake_ko": "He must to be at home.(X) → He must be at home.(O) / That mustn't be true.(X, 추측) → That can't be true.(O) / She might is late.(X) → She might be late.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "probably",
+     "part_of_speech": "부사",
+     "meaning_ko": "아마",
+     "example_en": "She is probably at work.",
+     "example_ko": "그녀는 아마 직장에 있을 거예요."
+    },
+    {
+     "word": "certain",
+     "part_of_speech": "형용사",
+     "meaning_ko": "확실한",
+     "example_en": "I am certain about the answer.",
+     "example_ko": "나는 답을 확신해요."
+    },
+    {
+     "word": "possible",
+     "part_of_speech": "형용사",
+     "meaning_ko": "가능한",
+     "example_en": "It is possible that he is ill.",
+     "example_ko": "그가 아플 수도 있어요."
+    },
+    {
+     "word": "obviously",
+     "part_of_speech": "부사",
+     "meaning_ko": "분명히",
+     "example_en": "Obviously, she loves music.",
+     "example_ko": "분명히 그녀는 음악을 좋아해요."
+    },
+    {
+     "word": "guess",
+     "part_of_speech": "동사",
+     "meaning_ko": "추측하다",
+     "example_en": "Let me guess his age.",
+     "example_ko": "그의 나이를 맞혀 볼게요."
+    },
+    {
+     "word": "reason",
+     "part_of_speech": "명사",
+     "meaning_ko": "이유",
+     "example_en": "There must be a reason for it.",
+     "example_ko": "거기에는 이유가 있을 거예요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The lights are on, so he must be at home.",
+     "ko": "불이 켜져 있으니 그는 분명 집에 있을 거예요."
+    },
+    {
+     "en": "He might be in the library.",
+     "ko": "그는 도서관에 있을지도 몰라요."
+    },
+    {
+     "en": "That can't be true!",
+     "ko": "그럴 리가 없어요!"
+    },
+    {
+     "en": "You have worked all day. You must be tired.",
+     "ko": "하루 종일 일했으니 분명 피곤하겠어요."
+    },
+    {
+     "en": "She might not know the answer.",
+     "ko": "그녀는 답을 모를지도 몰라요."
+    },
+    {
+     "en": "It can't be Ken's car. He doesn't drive.",
+     "ko": "켄의 차일 리가 없어요. 그는 운전을 안 해요."
+    },
+    {
+     "en": "There must be a reason for the delay.",
+     "ko": "지연에는 이유가 있을 거예요."
+    },
+    {
+     "en": "I'm not sure, but this might be the right road.",
+     "ko": "확실하진 않지만 이 길이 맞을지도 몰라요."
+    },
+    {
+     "en": "They are probably still at the airport.",
+     "ko": "그들은 아마 아직 공항에 있을 거예요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "The lights are on, so he ___ be at home.",
+     "choices": [
+      "must",
+      "can't",
+      "shouldn't",
+      "needn't"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "단서가 분명해 거의 확실할 때는 must입니다.",
+     "error_tag": "deduction",
+     "id": "B1-025-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "She has just eaten a big lunch, so she ___ be hungry.",
+     "choices": [
+      "can't",
+      "must",
+      "should to",
+      "is"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "방금 많이 먹었으니 배고플 리 없다는 뜻이므로 can't입니다.",
+     "error_tag": "deduction",
+     "id": "B1-025-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "I'm not sure, but Tom ___ be in the library. He often studies there.",
+     "choices": [
+      "might",
+      "can't",
+      "mustn't",
+      "doesn't"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "확실하지 않은 가능성은 might입니다.",
+     "error_tag": "deduction",
+     "id": "B1-025-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'I'm almost sure it is not true'와 가까운 문장은?",
+     "choices": [
+      "That can't be her phone.",
+      "That might be her phone.",
+      "That must be her phone.",
+      "That is probably her phone."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "거의 아니라고 확신할 때는 can't be입니다.",
+     "error_tag": "deduction",
+     "id": "B1-025-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: That man wears a police uniform. He ___ be a police officer. (거의 확실, m으로 시작)",
+     "answer_text": "must",
+     "accepted_answers": [
+      "must"
+     ],
+     "explanation_ko": "단서가 분명한 추측은 must입니다.",
+     "error_tag": "deduction",
+     "id": "B1-025-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: That ___ be true! He is only five, and he drives a bus. (~일 리가 없다)",
+     "answer_text": "can't",
+     "accepted_answers": [
+      "can't",
+      "cannot",
+      "can not"
+     ],
+     "explanation_ko": "불가능하다고 확신하면 can't입니다.",
+     "error_tag": "deduction",
+     "id": "B1-025-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "친구가 늦는 상황에서 추측을 두 문장으로 써 보세요. must나 might를 쓰세요.",
+    "example_answer_en": "She must be stuck in traffic. She might be on the bus.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-08",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-08"
+   }
   }
  ]
 }

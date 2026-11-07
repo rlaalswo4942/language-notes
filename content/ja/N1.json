@@ -6238,6 +6238,223 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-30",
+   "day_index": 30,
+   "week_index": 5,
+   "level": "N1",
+   "unit_id": "N1-W05",
+   "lesson_type": "new",
+   "title_ko": "〜とあって: ~이라서 (특별한 사정)",
+   "objective_ko": "특별한 사정이나 상황을 나타내는 말 뒤에 〜とあって를 붙여 ‘~라서 (자연스럽게) ~하다’는 결과를 서술한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-29"
+   ],
+   "explanation_ko": "〜とあって는 ‘~라는 특별한 상황이기 때문에’라는 이유를 나타내며, 그 상황에서 흔히 볼 수 있는 결과를 사실로 서술합니다. 명사·보통형 + とあって: 連休初日{れんきゅうしょにち}とあって, 人気{にんき}歌手{かしゅ}の来店{らいてん}とあって. 연휴·행사·인기인 같은 특별한 사건이나 계기에 어울립니다. 뒤에는 混雑{こんざつ}している, 行列{ぎょうれつ}ができた처럼 사실이 오고, 의지·명령·희망·권유는 오지 않습니다. 평범한 이유에는 〜ので·〜から를 쓰는 편이 자연스럽습니다.",
+   "usage_notes": [
+    "특별한 사정 + とあって + 그에 따른 사실 서술.",
+    "뒤에는 의지·명령·희망·권유 문장이 올 수 없음.",
+    "평범한 이유에는 ので·から를 사용."
+   ],
+   "common_mistakes": [
+    "連休とあって、早く帰ろう(X, 의지) → 連休とあって、道が混んでいる(O)",
+    "雨とあって、家にいます(평범한 이유) → 雨なので、家にいます(O)",
+    "〜とあっては(~라면)와 〜とあって(~라서)를 혼동하는 것"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "連休{れんきゅう}",
+     "reading_kana": "れんきゅう",
+     "reading_romanized": "renkyuu",
+     "meaning_ko": "연휴",
+     "part_of_speech": "명사",
+     "id": "w-JP-N1-30-01"
+    },
+    {
+     "kind": "word",
+     "text": "行列{ぎょうれつ}",
+     "reading_kana": "ぎょうれつ",
+     "reading_romanized": "gyouretsu",
+     "meaning_ko": "줄, 행렬",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N1-30-02"
+    },
+    {
+     "kind": "word",
+     "text": "熱気{ねっき}",
+     "reading_kana": "ねっき",
+     "reading_romanized": "nekki",
+     "meaning_ko": "열기",
+     "part_of_speech": "명사",
+     "id": "w-JP-N1-30-03"
+    },
+    {
+     "kind": "word",
+     "text": "猛暑{もうしょ}",
+     "reading_kana": "もうしょ",
+     "reading_romanized": "mousho",
+     "meaning_ko": "폭염",
+     "part_of_speech": "명사",
+     "id": "w-JP-N1-30-04"
+    },
+    {
+     "kind": "word",
+     "text": "巨匠{きょしょう}",
+     "reading_kana": "きょしょう",
+     "reading_romanized": "kyoshou",
+     "meaning_ko": "거장",
+     "part_of_speech": "명사",
+     "id": "w-JP-N1-30-05"
+    },
+    {
+     "kind": "word",
+     "text": "満席{まんせき}",
+     "reading_kana": "まんせき",
+     "reading_romanized": "manseki",
+     "meaning_ko": "만석",
+     "part_of_speech": "명사",
+     "id": "w-JP-N1-30-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "連休初日{れんきゅうしょにち}とあって、高速道路{こうそくどうろ}は大渋滞{だいじゅうたい}だった。",
+     "meaning_ko": "연휴 첫날이라서 고속도로는 심하게 막혔다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "人気{にんき}歌手{かしゅ}の来店{らいてん}とあって、店{みせ}の前{まえ}には長{なが}い行列{ぎょうれつ}ができた。",
+     "meaning_ko": "인기 가수가 온다고 해서 가게 앞에 긴 줄이 생겼다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "初{はじ}めての海外旅行{かいがいりょこう}とあって、娘{むすめ}は前日{ぜんじつ}から眠{ねむ}れなかったようだ。",
+     "meaning_ko": "첫 해외여행이라서 딸은 전날부터 잠을 이루지 못한 모양이다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "優勝{ゆうしょう}がかかった一戦{いっせん}とあって、観客{かんきゃく}の熱気{ねっき}はすさまじかった。",
+     "meaning_ko": "우승이 걸린 한 경기라서 관중의 열기는 대단했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "今年{ことし}は記録的{きろくてき}な猛暑{もうしょ}とあって、冷{つめ}たい飲料{いんりょう}の売{う}れ行{ゆ}きが好調{こうちょう}だ。",
+     "meaning_ko": "올해는 기록적인 폭염이라서 차가운 음료 판매가 호조다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "創業{そうぎょう}百年{ひゃくねん}の記念{きねん}セールとあって、店内{てんない}は大勢{おおぜい}の客{きゃく}でにぎわっていた。",
+     "meaning_ko": "창업 100주년 기념 세일이라서 매장 안은 많은 손님으로 붐볐다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "世界的{せかいてき}な巨匠{きょしょう}の個展{こてん}とあって、会場{かいじょう}には海外{かいがい}からの来場者{らいじょうしゃ}も目立{めだ}った。",
+     "meaning_ko": "세계적인 거장의 개인전이라서 회장에는 해외에서 온 방문객도 눈에 띄었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "試験{しけん}の前日{ぜんじつ}とあって、図書館{としょかん}は学生{がくせい}で満席{まんせき}だった。",
+     "meaning_ko": "시험 전날이라서 도서관은 학생들로 만석이었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "新商品{しんしょうひん}の発売日{はつばいび}とあって、開店前{かいてんまえ}から客{きゃく}が並{なら}んでいた。",
+     "meaning_ko": "신상품 발매일이라서 개점 전부터 손님이 줄 서 있었다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「連休初日とあって、道が混んでいる」의 とあって는?",
+     "options": [
+      "연휴 첫날이라는 특별한 사정 때문에",
+      "연휴 첫날이어도",
+      "연휴 첫날이 되면",
+      "연휴 첫날이 아니라서"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜とあって는 특별한 사정을 이유로 든 결과를 서술합니다.",
+     "id": "JP-N1-30-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "〜とあって 뒤에 오기 어려운 문장은?",
+     "options": [
+      "早く帰ろう。",
+      "行列ができた。",
+      "道が混んでいる。",
+      "客が多かった。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "의지·권유(帰ろう)는 とあって 뒤에 오지 않습니다.",
+     "id": "JP-N1-30-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「人気歌手の来店( )、店の前には行列ができた。」( )에 알맞은 것은?",
+     "options": [
+      "とあって",
+      "としても",
+      "ながらも",
+      "なしに"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "특별한 사정과 그 결과를 잇는 표현은 とあって입니다.",
+     "id": "JP-N1-30-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「優勝がかかった一戦とあって、観客の熱気はすさまじかった」에서 열기가 대단한 이유는?",
+     "options": [
+      "우승이 걸린 중요한 경기였기 때문",
+      "경기가 이미 끝났기 때문",
+      "관중이 적었기 때문",
+      "경기가 취소되었기 때문"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "とあって 앞의 ‘우승이 걸린 한 경기’가 이유입니다.",
+     "id": "JP-N1-30-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「行列」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "gyouretsu",
+     "accepted_answers": [
+      "gyouretsu",
+      "gyoretsu"
+     ],
+     "explanation_ko": "行列 = ぎょうれつ(gyouretsu), ‘줄, 행렬’입니다.",
+     "id": "JP-N1-30-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「満席」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "manseki",
+     "accepted_answers": [
+      "manseki"
+     ],
+     "explanation_ko": "満席 = まんせき(manseki), ‘만석’입니다.",
+     "id": "JP-N1-30-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "JLPT_FORMAT"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

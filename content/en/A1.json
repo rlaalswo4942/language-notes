@@ -5717,6 +5717,201 @@
     "version": 1,
     "last_revised": "2026-11-03"
    }
+  },
+  {
+   "id": "A1-030",
+   "level": "A1",
+   "track": "foundation",
+   "day": 30,
+   "title_ko": "날짜 말하기: 월·서수·What's the date?",
+   "objective_ko": "What's the date today?로 날짜를 묻고, 서수(first, second, third ...)와 in/on을 써서 날짜와 생일을 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-08"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "날짜는 What's the date today?로 묻고 It's November 8th.(읽기: November the eighth)처럼 답합니다. ① 서수: 1st first, 2nd second, 3rd third, 4th fourth, 5th fifth, 12th twelfth. ② 월 앞에는 in: My birthday is in May. ③ 날짜 앞에는 on: My birthday is on May 5th. ④ 생일은 When is your birthday?로 묻습니다. ⑤ 요일을 묻는 What day is it today?(It's Monday.)와 구별합니다.",
+    "common_mistake_ko": "My birthday is in May 5th.(X) → on May 5th.(O) / I was born on July.(X) → in July.(O) / It's the three of May.(X) → the third of May.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "date",
+     "part_of_speech": "명사",
+     "meaning_ko": "날짜",
+     "example_en": "What is the date today?",
+     "example_ko": "오늘 며칠이에요?"
+    },
+    {
+     "word": "month",
+     "part_of_speech": "명사",
+     "meaning_ko": "달, 월",
+     "example_en": "There are twelve months in a year.",
+     "example_ko": "1년에는 열두 달이 있어요."
+    },
+    {
+     "word": "birthday",
+     "part_of_speech": "명사",
+     "meaning_ko": "생일",
+     "example_en": "My birthday is on March 3rd.",
+     "example_ko": "내 생일은 3월 3일이에요."
+    },
+    {
+     "word": "year",
+     "part_of_speech": "명사",
+     "meaning_ko": "해, 연도",
+     "example_en": "This year I start English.",
+     "example_ko": "올해 나는 영어를 시작해요."
+    },
+    {
+     "word": "first",
+     "part_of_speech": "서수",
+     "meaning_ko": "첫 번째",
+     "example_en": "January is the first month.",
+     "example_ko": "1월은 첫 번째 달이에요."
+    },
+    {
+     "word": "third",
+     "part_of_speech": "서수",
+     "meaning_ko": "세 번째",
+     "example_en": "Her birthday is on the third of June.",
+     "example_ko": "그녀의 생일은 6월 3일이에요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "What's the date today? — It's November 8th.",
+     "ko": "오늘 며칠이에요? — 11월 8일이에요."
+    },
+    {
+     "en": "When is your birthday? — It's on May 5th.",
+     "ko": "생일이 언제예요? — 5월 5일이에요."
+    },
+    {
+     "en": "My birthday is in December.",
+     "ko": "내 생일은 12월이에요."
+    },
+    {
+     "en": "January is the first month of the year.",
+     "ko": "1월은 한 해의 첫 번째 달이에요."
+    },
+    {
+     "en": "February is the second month.",
+     "ko": "2월은 두 번째 달이에요."
+    },
+    {
+     "en": "The party is on June 3rd.",
+     "ko": "파티는 6월 3일이에요."
+    },
+    {
+     "en": "My sister was born in 2015.",
+     "ko": "내 여동생은 2015년에 태어났어요."
+    },
+    {
+     "en": "School starts in March.",
+     "ko": "학교는 3월에 시작해요."
+    },
+    {
+     "en": "What day is it today? — It's Monday.",
+     "ko": "오늘 무슨 요일이에요? — 월요일이에요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "My birthday is ___ May 5th.",
+     "choices": [
+      "on",
+      "in",
+      "at",
+      "to"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "날짜 앞에는 on을 씁니다.",
+     "error_tag": "date-prep",
+     "id": "A1-030-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "School starts ___ March.",
+     "choices": [
+      "in",
+      "on",
+      "at",
+      "by"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "월 이름 앞에는 in을 씁니다.",
+     "error_tag": "date-prep",
+     "id": "A1-030-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "3rd를 영어 낱말로 읽으면?",
+     "choices": [
+      "third",
+      "three",
+      "threeth",
+      "thirth"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "3번째는 three가 아니라 third입니다.",
+     "error_tag": "ordinal",
+     "id": "A1-030-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "What's the date today?에 알맞은 대답은?",
+     "choices": [
+      "It's November eighth.",
+      "It's eight o'clock.",
+      "It's fine.",
+      "It's in November."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "날짜를 묻는 질문에는 월과 일로 답합니다.",
+     "error_tag": "date-answer",
+     "id": "A1-030-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: February is the ___ month of the year. (두 번째)",
+     "answer_text": "second",
+     "accepted_answers": [
+      "second"
+     ],
+     "explanation_ko": "2번째는 second입니다.",
+     "error_tag": "ordinal",
+     "id": "A1-030-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: What's the ___ today? — It's May 5th. (날짜)",
+     "answer_text": "date",
+     "accepted_answers": [
+      "date"
+     ],
+     "explanation_ko": "날짜를 묻는 What's the date today?입니다.",
+     "error_tag": "date-question",
+     "id": "A1-030-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "내 생일과 오늘 날짜를 영어 문장 두 개로 써 보세요.",
+    "example_answer_en": "My birthday is on March 3rd. Today is November 8th.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-08",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-08"
+   }
   }
  ]
 }

@@ -7145,6 +7145,247 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전"
+  },
+  {
+   "id": "JP-INTRO-54",
+   "day_index": 54,
+   "week_index": 8,
+   "level": "INTRO",
+   "unit_id": "INTRO-W08",
+   "lesson_type": "new",
+   "title_ko": "숫자 1~10 읽기",
+   "objective_ko": "히라가나로 쓴 숫자 いち~じゅう를 읽고, 4·7·9의 두 가지 읽기를 구별해 뜻을 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-INTRO-53"
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-INTRO-54-01",
+     "kind": "word",
+     "text": "いち",
+     "reading_romanized": "ichi",
+     "meaning_ko": "1 (일)"
+    },
+    {
+     "id": "w-JP-INTRO-54-02",
+     "kind": "word",
+     "text": "に",
+     "reading_romanized": "ni",
+     "meaning_ko": "2 (이)"
+    },
+    {
+     "id": "w-JP-INTRO-54-03",
+     "kind": "word",
+     "text": "さん",
+     "reading_romanized": "san",
+     "meaning_ko": "3 (삼)"
+    },
+    {
+     "id": "w-JP-INTRO-54-04",
+     "kind": "word",
+     "text": "よん",
+     "reading_romanized": "yon",
+     "meaning_ko": "4 (사)"
+    },
+    {
+     "id": "w-JP-INTRO-54-05",
+     "kind": "word",
+     "text": "ご",
+     "reading_romanized": "go",
+     "meaning_ko": "5 (오)"
+    },
+    {
+     "id": "w-JP-INTRO-54-06",
+     "kind": "word",
+     "text": "ろく",
+     "reading_romanized": "roku",
+     "meaning_ko": "6 (육)"
+    },
+    {
+     "id": "w-JP-INTRO-54-07",
+     "kind": "word",
+     "text": "なな",
+     "reading_romanized": "nana",
+     "meaning_ko": "7 (칠)"
+    },
+    {
+     "id": "w-JP-INTRO-54-08",
+     "kind": "word",
+     "text": "はち",
+     "reading_romanized": "hachi",
+     "meaning_ko": "8 (팔)"
+    },
+    {
+     "id": "w-JP-INTRO-54-09",
+     "kind": "word",
+     "text": "きゅう",
+     "reading_romanized": "kyuu",
+     "meaning_ko": "9 (구)"
+    },
+    {
+     "id": "w-JP-INTRO-54-10",
+     "kind": "word",
+     "text": "じゅう",
+     "reading_romanized": "juu",
+     "meaning_ko": "10 (십)"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "いち",
+     "reading_romanized": "ichi",
+     "meaning_ko": "1 (일)",
+     "explanation_ko": "いち(ichi)는 숫자 1입니다. 소리 내어 읽고 뜻을 확인합니다."
+    },
+    {
+     "japanese": "に",
+     "reading_romanized": "ni",
+     "meaning_ko": "2 (이)",
+     "explanation_ko": "に(ni)는 숫자 2입니다. 소리 내어 읽고 뜻을 확인합니다."
+    },
+    {
+     "japanese": "さん",
+     "reading_romanized": "san",
+     "meaning_ko": "3 (삼)",
+     "explanation_ko": "さん(san)는 숫자 3입니다. 소리 내어 읽고 뜻을 확인합니다."
+    },
+    {
+     "japanese": "よん",
+     "reading_romanized": "yon",
+     "meaning_ko": "4 (사)",
+     "explanation_ko": "4는 よん으로 먼저 익힙니다. し라고도 읽지만 처음에는 よん을 기억하세요."
+    },
+    {
+     "japanese": "ご",
+     "reading_romanized": "go",
+     "meaning_ko": "5 (오)",
+     "explanation_ko": "ご(go)는 숫자 5입니다. 소리 내어 읽고 뜻을 확인합니다."
+    },
+    {
+     "japanese": "ろく",
+     "reading_romanized": "roku",
+     "meaning_ko": "6 (육)",
+     "explanation_ko": "ろく(roku)는 숫자 6입니다. 소리 내어 읽고 뜻을 확인합니다."
+    },
+    {
+     "japanese": "なな",
+     "reading_romanized": "nana",
+     "meaning_ko": "7 (칠)",
+     "explanation_ko": "7은 なな로 먼저 익힙니다. しち라고도 읽습니다."
+    },
+    {
+     "japanese": "はち",
+     "reading_romanized": "hachi",
+     "meaning_ko": "8 (팔)",
+     "explanation_ko": "はち(hachi)는 숫자 8입니다. 소리 내어 읽고 뜻을 확인합니다."
+    },
+    {
+     "japanese": "きゅう",
+     "reading_romanized": "kyuu",
+     "meaning_ko": "9 (구)",
+     "explanation_ko": "9는 きゅう로 먼저 익힙니다. く라고도 읽습니다. きゅ는 요음, う는 길게 읽습니다."
+    },
+    {
+     "japanese": "じゅう",
+     "reading_romanized": "juu",
+     "meaning_ko": "10 (십)",
+     "explanation_ko": "じゅ는 요음이고 う는 길게 읽습니다. 10입니다."
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「さん」은 어떤 숫자인가요?",
+     "options": [
+      "3",
+      "4",
+      "5",
+      "8"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "さん(san)은 3입니다.",
+     "id": "JP-INTRO-54-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「ろく」는 어떤 숫자인가요?",
+     "options": [
+      "6",
+      "7",
+      "9",
+      "10"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ろく(roku)는 6입니다.",
+     "id": "JP-INTRO-54-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「はち」는 어떤 숫자인가요?",
+     "options": [
+      "8",
+      "5",
+      "2",
+      "10"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "はち(hachi)는 8입니다.",
+     "id": "JP-INTRO-54-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "숫자 5를 나타내는 말은 어느 것인가요?",
+     "options": [
+      "ご",
+      "ろく",
+      "きゅう",
+      "じゅう"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "5는 ご(go)입니다.",
+     "id": "JP-INTRO-54-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「きゅう」(9)를 로마자로 입력하세요.",
+     "answer_text": "kyuu",
+     "accepted_answers": [
+      "kyuu",
+      "kyu",
+      "kyū"
+     ],
+     "explanation_ko": "きゅう = kyuu, 숫자 9입니다.",
+     "id": "JP-INTRO-54-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「じゅう」(10)를 로마자로 입력하세요.",
+     "answer_text": "juu",
+     "accepted_answers": [
+      "juu",
+      "ju",
+      "zyuu",
+      "jyuu",
+      "jū"
+     ],
+     "explanation_ko": "じゅう = juu, 숫자 10입니다.",
+     "id": "JP-INTRO-54-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전"
   }
  ]
 }
