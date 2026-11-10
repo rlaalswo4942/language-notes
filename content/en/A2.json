@@ -5892,6 +5892,205 @@
     "version": 1,
     "last_revised": "2026-11-08"
    }
+  },
+  {
+   "id": "A2-031",
+   "level": "A2",
+   "track": "foundation",
+   "day": 31,
+   "title_ko": "someone / anything / nothing / everything: 사람과 사물 말하기",
+   "objective_ko": "some-, any-, no-, every-에 -one / -body / -thing을 붙인 말을 긍정문·부정문·의문문에서 구별해 쓴다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-11"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "some-, any-, no-, every- 뒤에 -one(-body, 사람)이나 -thing(사물)을 붙입니다. ① something / someone: 긍정문, 권유·부탁(Would you like something to drink?). ② anything / anyone: 부정문·의문문(I can't see anything. Does anyone know?). ③ nothing / nobody(no one): 그 자체가 부정의 뜻이라 not과 함께 쓰지 않습니다(I have nothing to do). ④ everything / everyone: 모두·전부. 단수로 취급해 Everyone is here.처럼 씁니다. ⑤ 형용사는 뒤에 붙입니다: something cold.",
+    "common_mistake_ko": "I don't know nothing.(X) → I don't know anything. / I know nothing.(O) / Everyone are here.(X) → Everyone is here.(O) / cold something(X) → something cold(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "nobody",
+     "part_of_speech": "대명사",
+     "meaning_ko": "아무도 (~ 않다)",
+     "example_en": "Nobody is at home.",
+     "example_ko": "집에 아무도 없어요."
+    },
+    {
+     "word": "everyone",
+     "part_of_speech": "대명사",
+     "meaning_ko": "모두",
+     "example_en": "Everyone is here.",
+     "example_ko": "모두 여기 있어요."
+    },
+    {
+     "word": "someone",
+     "part_of_speech": "대명사",
+     "meaning_ko": "누군가",
+     "example_en": "Someone left a bag on the bus.",
+     "example_ko": "누군가 버스에 가방을 두고 내렸어요."
+    },
+    {
+     "word": "anything",
+     "part_of_speech": "대명사",
+     "meaning_ko": "무엇이든, (부정문·의문문에서) 아무것",
+     "example_en": "She didn't say anything.",
+     "example_ko": "그녀는 아무 말도 하지 않았어요."
+    },
+    {
+     "word": "nothing",
+     "part_of_speech": "대명사",
+     "meaning_ko": "아무것도 ~ 않음",
+     "example_en": "I have nothing to do today.",
+     "example_ko": "나는 오늘 할 일이 아무것도 없어요."
+    },
+    {
+     "word": "everything",
+     "part_of_speech": "대명사",
+     "meaning_ko": "모든 것",
+     "example_en": "Everything is ready.",
+     "example_ko": "모든 것이 준비됐어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "There is something in the box.",
+     "ko": "상자 안에 뭔가 있어요."
+    },
+    {
+     "en": "I can't see anyone in the room.",
+     "ko": "방에 아무도 보이지 않아요."
+    },
+    {
+     "en": "Nobody is at home.",
+     "ko": "집에 아무도 없어요."
+    },
+    {
+     "en": "Everything is ready.",
+     "ko": "모든 것이 준비됐어요."
+    },
+    {
+     "en": "Would you like something cold to drink?",
+     "ko": "시원한 마실 것 드실래요?"
+    },
+    {
+     "en": "Does anyone know the answer?",
+     "ko": "누구 답을 아는 사람 있어요?"
+    },
+    {
+     "en": "I have nothing to do today.",
+     "ko": "나는 오늘 할 일이 아무것도 없어요."
+    },
+    {
+     "en": "Everyone is here.",
+     "ko": "모두 여기 있어요."
+    },
+    {
+     "en": "She didn't say anything.",
+     "ko": "그녀는 아무 말도 하지 않았어요."
+    },
+    {
+     "en": "Someone left a bag on the bus.",
+     "ko": "누군가 버스에 가방을 두고 내렸어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "나는 입을 것이 하나도 없어요. → I don't have ___ to wear.",
+     "choices": [
+      "anything",
+      "nothing",
+      "something",
+      "everything"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "부정문에서는 anything을 씁니다. nothing은 not과 함께 쓰지 않습니다.",
+     "error_tag": "some-any",
+     "id": "A2-031-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Would you like ___ to drink?",
+     "choices": [
+      "something",
+      "nothing",
+      "nobody",
+      "everyone"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "권유하는 문장에서는 something을 씁니다.",
+     "error_tag": "some-any",
+     "id": "A2-031-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Everyone ___ here.",
+     "choices": [
+      "is",
+      "are",
+      "be",
+      "am"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "everyone은 단수로 취급해 is를 씁니다.",
+     "error_tag": "agreement",
+     "id": "A2-031-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "There is ___ in the room. It is empty.",
+     "choices": [
+      "nobody",
+      "anybody",
+      "somebody",
+      "everybody"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "방이 비어 있으므로 ‘아무도 없다’ = nobody입니다.",
+     "error_tag": "no-compound",
+     "id": "A2-031-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Is there ___ in the box? (무언가)",
+     "answer_text": "anything",
+     "accepted_answers": [
+      "anything"
+     ],
+     "explanation_ko": "의문문에서는 anything을 씁니다.",
+     "error_tag": "some-any",
+     "id": "A2-031-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: ___ is ready. (모든 것)",
+     "answer_text": "everything",
+     "accepted_answers": [
+      "everything"
+     ],
+     "explanation_ko": "모든 것은 everything입니다.",
+     "error_tag": "every-compound",
+     "id": "A2-031-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "someone / anything / nothing / everything 중 두 개를 골라 문장을 써 보세요.",
+    "example_answer_en": "Everything is ready. I have nothing to do today.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-11",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-11"
+   }
   }
  ]
 }

@@ -6457,6 +6457,235 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-31",
+   "day_index": 31,
+   "week_index": 5,
+   "level": "N2",
+   "unit_id": "N2-W05",
+   "lesson_type": "new",
+   "title_ko": "〜をきっかけに: ~을 계기로",
+   "objective_ko": "명사 + をきっかけに(して)로 어떤 일이 계기가 되어 새로운 행동이나 변화가 시작됨을 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-30"
+   ],
+   "explanation_ko": "〜をきっかけに(して)는 ‘~을 계기로’라는 뜻으로, 어떤 일이 시작점이 되어 새로운 행동이나 변화가 생겼음을 나타냅니다. 명사에는 그대로 붙이고(引{ひ}っ越{こ}しをきっかけに), 동사·문장은 ことを 를 넣어 〜た ことを きっかけに로 씁니다. ‘~이 계기였다’는 〜が きっかけで로도 말합니다. 뒤에는 習慣{しゅうかん}を始{はじ}めた, 〜ように なった처럼 시작·변화를 나타내는 내용이 자주 옵니다. 〜に伴{ともな}って(동반 변화)와 달리, 하나의 일이 변화의 출발점이 되었다는 점이 중심입니다. 격식 차린 글에서는 〜を契機{けいき}に도 씁니다.",
+   "usage_notes": [
+    "명사 + をきっかけに(して) / 동사 보통형 + ことをきっかけに.",
+    "〜が きっかけで: ~이 계기가 되어.",
+    "뒤에는 새로운 행동의 시작이나 변화가 자주 옴."
+   ],
+   "common_mistakes": [
+    "引っ越すをきっかけに(X) → 引っ越したことをきっかけに(O)",
+    "원인·이유만 말하고 싶을 때는 〜ので・〜ため를 쓰고, 〜をきっかけに는 변화의 출발점을 말할 때 씀",
+    "〜に伴って(동반 변화)와 〜をきっかけに(출발점)를 혼동하는 것"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "契機{けいき}",
+     "reading_kana": "けいき",
+     "reading_romanized": "keiki",
+     "meaning_ko": "계기",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-31-01"
+    },
+    {
+     "kind": "word",
+     "text": "転機{てんき}",
+     "reading_kana": "てんき",
+     "reading_romanized": "tenki",
+     "meaning_ko": "전환점",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-31-02"
+    },
+    {
+     "kind": "word",
+     "text": "習慣{しゅうかん}",
+     "reading_kana": "しゅうかん",
+     "reading_romanized": "shuukan",
+     "meaning_ko": "습관",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-31-03"
+    },
+    {
+     "kind": "word",
+     "text": "留学{りゅうがく}",
+     "reading_kana": "りゅうがく",
+     "reading_romanized": "ryuugaku",
+     "meaning_ko": "유학",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N2-31-04"
+    },
+    {
+     "kind": "word",
+     "text": "転職{てんしょく}",
+     "reading_kana": "てんしょく",
+     "reading_romanized": "tenshoku",
+     "meaning_ko": "이직",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N2-31-05"
+    },
+    {
+     "kind": "word",
+     "text": "決意{けつい}",
+     "reading_kana": "けつい",
+     "reading_romanized": "ketsui",
+     "meaning_ko": "결의, 결심",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N2-31-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "引{ひ}っ越{こ}しをきっかけに、早起{はやお}きの習慣{しゅうかん}を始{はじ}めた。",
+     "meaning_ko": "이사를 계기로 일찍 일어나는 습관을 들이기 시작했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "友人{ゆうじん}に誘{さそ}われたことをきっかけに、ジョギングを続{つづ}けている。",
+     "meaning_ko": "친구가 권한 것을 계기로 조깅을 계속하고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "留学{りゅうがく}をきっかけにして、英語{えいご}の勉強{べんきょう}に本気{ほんき}で取{と}り組{く}むようになった。",
+     "meaning_ko": "유학을 계기로 영어 공부에 진지하게 임하게 되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "祖母{そぼ}の病気{びょうき}をきっかけに、介護{かいご}の仕事{しごと}に興味{きょうみ}を持{も}った。",
+     "meaning_ko": "할머니의 병을 계기로 간병 일에 관심을 갖게 되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "息子{むすこ}の誕生{たんじょう}をきっかけとして、保険{ほけん}に入{はい}ることを決{き}めた。",
+     "meaning_ko": "아들의 탄생을 계기로 보험에 들기로 정했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "転職{てんしょく}をきっかけに、生活{せいかつ}のリズムが大{おお}きく変{か}わった。",
+     "meaning_ko": "이직을 계기로 생활 리듬이 크게 바뀌었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "一冊{いっさつ}の本{ほん}との出会{であ}いがきっかけで、歴史{れきし}を学{まな}びたくなった。",
+     "meaning_ko": "한 권의 책과의 만남이 계기가 되어 역사를 배우고 싶어졌다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "昨年{さくねん}の水害{すいがい}をきっかけに、地域{ちいき}で防災訓練{ぼうさいくんれん}が行{おこな}われるようになった。",
+     "meaning_ko": "작년의 수해를 계기로 지역에서 방재 훈련이 실시되게 되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "失敗{しっぱい}したことをきっかけに、計画{けいかく}の立{た}て方{かた}を見直{みなお}した。",
+     "meaning_ko": "실패한 것을 계기로 계획 세우는 법을 다시 살펴보았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この出来事{できごと}は、彼{かれ}にとって人生{じんせい}の転機{てんき}になった。",
+     "meaning_ko": "이 일은 그에게 인생의 전환점이 되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "大{おお}きな失敗{しっぱい}をきっかけに、二度{にど}と同{おな}じ過{あやま}ちを繰{く}り返{かえ}さないと決意{けつい}した。",
+     "meaning_ko": "큰 실패를 계기로 두 번 다시 같은 잘못을 되풀이하지 않겠다고 결심했다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「引っ越しをきっかけに、早起きを始めた」의 뜻은?",
+     "options": [
+      "이사를 계기로 일찍 일어나기 시작했다",
+      "이사 때문에 어쩔 수 없이 일찍 일어났다",
+      "이사하는 동안 일찍 일어났다",
+      "이사와 상관없이 일찍 일어났다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜をきっかけに는 ‘~을 계기로’입니다.",
+     "id": "JP-N2-31-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「友人に誘われた( )きっかけに、ジョギングを始めた」( )에 알맞은 것은?",
+     "options": [
+      "ことを",
+      "ことで",
+      "ことに",
+      "ことへ"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "문장에 붙일 때는 〜た ことを きっかけに로 씁니다.",
+     "id": "JP-N2-31-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "〜をきっかけに는 어떤 의미를 나타내나요?",
+     "options": [
+      "변화나 새로운 행동의 시작이 된 계기",
+      "어쩔 수 없는 결과",
+      "범위의 한정",
+      "가정 조건"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "어떤 일이 시작점이 되어 변화·행동이 생겼음을 나타냅니다.",
+     "id": "JP-N2-31-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「転機」의 뜻은?",
+     "options": [
+      "전환점",
+      "위기",
+      "기계",
+      "결과"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "転機(てんき)는 상황이 크게 바뀌는 전환점입니다.",
+     "id": "JP-N2-31-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「契機」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "keiki",
+     "accepted_answers": [
+      "keiki"
+     ],
+     "explanation_ko": "契機 = けいき(keiki), ‘계기’입니다.",
+     "id": "JP-N2-31-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「習慣」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "shuukan",
+     "accepted_answers": [
+      "shuukan",
+      "shukan",
+      "syuukan",
+      "syukan"
+     ],
+     "explanation_ko": "習慣 = しゅうかん(shuukan), ‘습관’입니다.",
+     "id": "JP-N2-31-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

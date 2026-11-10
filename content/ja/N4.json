@@ -6481,6 +6481,235 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-31",
+   "day_index": 31,
+   "week_index": 5,
+   "level": "N4",
+   "unit_id": "N4-W05",
+   "lesson_type": "new",
+   "title_ko": "〜て みる: ~해 보다 (시도)",
+   "objective_ko": "동사 て형 + みる로 어떤지 알아보려고 시험 삼아 해 본다는 뜻을 말하고, 〜て みたいです・〜て みましょう・〜て みて ください를 쓴다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-30"
+   ],
+   "explanation_ko": "동사 て형 + みます는 ‘~해 보다’라는 시도를 나타냅니다. 어떤지 알아보려고 한번 해 본다는 느낌입니다(この ケーキを 食{た}べて みます). 과거 〜て みました는 해 본 결과를 말할 때, 〜て みたいです는 ‘~해 보고 싶다’, 〜て みましょう는 ‘~해 봅시다’, 〜て みて ください는 ‘~해 보세요’입니다. て형은 読{よ}む→読んで, 食べる→食べて, 行く→行って, 書く→書いて처럼 만듭니다. 이때의 みる는 보통 히라가나로 씁니다.",
+   "usage_notes": [
+    "〜て みます: 시험 삼아 해 보다 / 〜て みたいです: 해 보고 싶다.",
+    "〜て みて ください: 해 보세요 (권유·부탁).",
+    "みる는 ‘눈으로 보다’(見る)가 아니라 ‘시도’의 뜻이라 히라가나로 씁니다."
+   ],
+   "common_mistakes": [
+    "食べるて みます(X) → 食べて みます(O)",
+    "行くて みたいです(X) → 行って みたいです(O)",
+    "〜て しまう(해 버리다)·〜て おく(해 두다)와 뜻을 혼동하지 않기"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "味{あじ}",
+     "reading_kana": "あじ",
+     "reading_romanized": "aji",
+     "meaning_ko": "맛",
+     "part_of_speech": "명사",
+     "id": "w-JP-N4-31-01"
+    },
+    {
+     "kind": "word",
+     "text": "実験{じっけん}",
+     "reading_kana": "じっけん",
+     "reading_romanized": "jikken",
+     "meaning_ko": "실험",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N4-31-02"
+    },
+    {
+     "kind": "word",
+     "text": "試着{しちゃく}",
+     "reading_kana": "しちゃく",
+     "reading_romanized": "shichaku",
+     "meaning_ko": "입어 봄, 시착",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N4-31-03"
+    },
+    {
+     "kind": "word",
+     "text": "試{ため}す",
+     "reading_kana": "ためす",
+     "reading_romanized": "tamesu",
+     "meaning_ko": "시험해 보다",
+     "part_of_speech": "동사(1그룹)",
+     "id": "w-JP-N4-31-04"
+    },
+    {
+     "kind": "word",
+     "text": "納豆{なっとう}",
+     "reading_kana": "なっとう",
+     "reading_romanized": "nattou",
+     "meaning_ko": "낫토",
+     "part_of_speech": "명사",
+     "id": "w-JP-N4-31-05"
+    },
+    {
+     "kind": "word",
+     "text": "挑戦{ちょうせん}",
+     "reading_kana": "ちょうせん",
+     "reading_romanized": "chousen",
+     "meaning_ko": "도전",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N4-31-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "この ケーキを 食{た}べて みます。",
+     "meaning_ko": "이 케이크를 먹어 볼게요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "日本{にほん}の 温泉{おんせん}に 行{い}って みたいです。",
+     "meaning_ko": "일본 온천에 가 보고 싶어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 服{ふく}を 試着{しちゃく}して みました。",
+     "meaning_ko": "이 옷을 입어 봤어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "納豆{なっとう}を 食{た}べて みましたが、あまり 好{す}きじゃ ありませんでした。",
+     "meaning_ko": "낫토를 먹어 봤는데 별로 좋아하지 않았어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 本{ほん}を 読{よ}んで みて ください。",
+     "meaning_ko": "이 책을 읽어 보세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "新{あたら}しい 方法{ほうほう}を 実験{じっけん}して みましょう。",
+     "meaning_ko": "새로운 방법을 실험해 봅시다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 方法{ほうほう}を 試{ため}して みませんか。",
+     "meaning_ko": "이 방법을 시험해 보지 않겠어요?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "先生{せんせい}に 聞{き}いて みます。",
+     "meaning_ko": "선생님께 물어볼게요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "友達{ともだち}に 電話{でんわ}して みましたが、出{で}ませんでした。",
+     "meaning_ko": "친구에게 전화해 봤는데 받지 않았어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "難{むずか}しそうですが、挑戦{ちょうせん}して みます。",
+     "meaning_ko": "어려워 보이지만 도전해 볼게요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 味{あじ}は どうですか。飲{の}んで みて ください。",
+     "meaning_ko": "이 맛은 어때요? 마셔 보세요.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「この ケーキを 食べて みます」의 뜻은?",
+     "options": [
+      "이 케이크를 먹어 볼게요",
+      "이 케이크를 먹어 버릴게요",
+      "이 케이크를 먹어 둘게요",
+      "이 케이크를 먹어 주세요"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜て みる는 ‘~해 보다’입니다.",
+     "id": "JP-N4-31-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「服を 着て ( ) ください」 — ‘입어 보세요’가 되도록 ( )에 알맞은 것은?",
+     "options": [
+      "みて",
+      "おいて",
+      "しまって",
+      "あげて"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜て みて ください는 ‘~해 보세요’입니다.",
+     "id": "JP-N4-31-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「飲む」를 〜て みる 형태로 만든 것은?",
+     "options": [
+      "飲んで みる",
+      "飲みて みる",
+      "飲って みる",
+      "飲むて みる"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "飲む의 て형은 飲んで입니다.",
+     "id": "JP-N4-31-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「온천에 가 보고 싶어요」를 일본어로 하면?",
+     "options": [
+      "温泉に 行って みたいです。",
+      "温泉に 行きて みたいです。",
+      "温泉に 行くて みたいです。",
+      "温泉に 行って みたです。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "行く의 て형은 行って이고, ‘해 보고 싶다’는 〜て みたいです입니다.",
+     "id": "JP-N4-31-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「味」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "aji",
+     "accepted_answers": [
+      "aji"
+     ],
+     "explanation_ko": "味 = あじ(aji), ‘맛’입니다.",
+     "id": "JP-N4-31-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「試着」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "shichaku",
+     "accepted_answers": [
+      "shichaku",
+      "shityaku",
+      "sichaku",
+      "sityaku"
+     ],
+     "explanation_ko": "試着 = しちゃく(shichaku), ‘입어 봄, 시착’입니다.",
+     "id": "JP-N4-31-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

@@ -6507,6 +6507,230 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N5-31",
+   "day_index": 31,
+   "week_index": 5,
+   "level": "N5",
+   "unit_id": "N5-W05",
+   "lesson_type": "new",
+   "title_ko": "〜が ほしいです: 갖고 싶은 것 말하기",
+   "objective_ko": "갖고 싶은 물건을 〜が ほしいです로 말하고, 부정(ほしくないです)·과거(ほしかったです)와 질문(何が ほしいですか)을 만든다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N5-30"
+   ],
+   "explanation_ko": "갖고 싶은 물건은 〜が ほしいです로 말합니다. 갖고 싶은 것을 나타내는 말에는 を가 아니라 が를 씁니다(自転車{じてんしゃ}が ほしいです). ほしい는 い형용사처럼 변합니다: 부정은 ほしくないです, 과거는 ほしかったです. 질문은 何{なに}が ほしいですか. 하고 싶은 동작은 12일차의 〜たいです를 씁니다.",
+   "usage_notes": [
+    "물건을 원할 때: 명사 + が ほしいです.",
+    "부정: ほしくないです / 과거: ほしかったです.",
+    "동작을 하고 싶을 때는 〜たいです (예: 買{か}いたいです)."
+   ],
+   "common_mistakes": [
+    "本{ほん}を ほしいです(X) → 本が ほしいです(O)",
+    "ほしいじゃ ないです(X) → ほしくないです(O)",
+    "自転車が ほしいです(갖고 싶다)와 自転車に 乗{の}りたいです(타고 싶다)는 뜻이 다릅니다"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "腕時計{うでどけい}",
+     "reading_kana": "うでどけい",
+     "reading_romanized": "udedokei",
+     "meaning_ko": "손목시계",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-31-01"
+    },
+    {
+     "kind": "word",
+     "text": "眼鏡{めがね}",
+     "reading_kana": "めがね",
+     "reading_romanized": "megane",
+     "meaning_ko": "안경",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-31-02"
+    },
+    {
+     "kind": "word",
+     "text": "鞄{かばん}",
+     "reading_kana": "かばん",
+     "reading_romanized": "kaban",
+     "meaning_ko": "가방",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-31-03"
+    },
+    {
+     "kind": "word",
+     "text": "辞書{じしょ}",
+     "reading_kana": "じしょ",
+     "reading_romanized": "jisho",
+     "meaning_ko": "사전",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-31-04"
+    },
+    {
+     "kind": "word",
+     "text": "帽子{ぼうし}",
+     "reading_kana": "ぼうし",
+     "reading_romanized": "boushi",
+     "meaning_ko": "모자",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-31-05"
+    },
+    {
+     "kind": "word",
+     "text": "指輪{ゆびわ}",
+     "reading_kana": "ゆびわ",
+     "reading_romanized": "yubiwa",
+     "meaning_ko": "반지",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-31-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "わたしは 新{あたら}しい 腕時計{うでどけい}が ほしいです。",
+     "meaning_ko": "저는 새 시계를 갖고 싶어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "誕生日{たんじょうび}に 何{なに}が ほしいですか。",
+     "meaning_ko": "생일에 무엇을 갖고 싶어요?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "新{あたら}しい 眼鏡{めがね}が ほしいです。",
+     "meaning_ko": "새 안경을 갖고 싶어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "今日{きょう}は 雨{あめ}です。傘{かさ}が ほしいです。",
+     "meaning_ko": "오늘은 비예요. 우산이 갖고 싶어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "わたしは 辞書{じしょ}は ほしくないです。",
+     "meaning_ko": "저는 사전은 갖고 싶지 않아요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "去年{きょねん}、帽子{ぼうし}が ほしかったです。",
+     "meaning_ko": "작년에 모자를 갖고 싶었어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "広{ひろ}い 部屋{へや}が ほしいです。",
+     "meaning_ko": "넓은 방을 갖고 싶어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "来年{らいねん}、パソコンが ほしいです。",
+     "meaning_ko": "내년에 컴퓨터를 갖고 싶어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "日本語{にほんご}の 辞書{じしょ}が ほしいです。",
+     "meaning_ko": "일본어 사전을 갖고 싶어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "指輪{ゆびわ}と 鞄{かばん}が ほしいです。",
+     "meaning_ko": "반지와 가방을 갖고 싶어요.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「腕時計が ほしいです」의 뜻은?",
+     "options": [
+      "손목시계를 갖고 싶어요",
+      "손목시계가 있어요",
+      "손목시계를 샀어요",
+      "손목시계를 보고 싶어요"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜が ほしいです는 ‘~을 갖고 싶다’입니다.",
+     "id": "JP-N5-31-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「鞄( ) ほしいです」( )에 알맞은 조사는? (보기 중에서)",
+     "options": [
+      "が",
+      "へ",
+      "で",
+      "から"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "갖고 싶은 물건에는 が를 씁니다.",
+     "id": "JP-N5-31-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「갖고 싶지 않아요」를 일본어로 하면?",
+     "options": [
+      "ほしくないです",
+      "ほしいじゃ ないです",
+      "ほしくません",
+      "ほしいません"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "い형용사처럼 い를 く로 바꿔 ほしくないです가 됩니다.",
+     "id": "JP-N5-31-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「何が ほしいですか」에 알맞은 대답은?",
+     "options": [
+      "傘が ほしいです。",
+      "傘を 行きます。",
+      "傘に 来ました。",
+      "傘で ほしいです。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "갖고 싶은 것을 〜が ほしいです로 대답합니다.",
+     "id": "JP-N5-31-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「眼鏡」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "megane",
+     "accepted_answers": [
+      "megane"
+     ],
+     "explanation_ko": "眼鏡 = めがね(megane), ‘안경’입니다.",
+     "id": "JP-N5-31-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「辞書」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "jisho",
+     "accepted_answers": [
+      "jisho",
+      "jisyo",
+      "zisho",
+      "zisyo"
+     ],
+     "explanation_ko": "辞書 = じしょ(jisho), ‘사전’입니다.",
+     "id": "JP-N5-31-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

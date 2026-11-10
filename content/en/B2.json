@@ -5888,6 +5888,206 @@
     "version": 1,
     "last_revised": "2026-11-08"
    }
+  },
+  {
+   "id": "B2-031",
+   "level": "B2",
+   "track": "general",
+   "day": 31,
+   "title_ko": "비교급 + 비교급: The more you practice, the better you become",
+   "objective_ko": "'~할수록 더 ~하다'를 the + 비교급, the + 비교급 구문으로 만들고 어순을 맞춰 쓴다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-11"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "두 가지가 함께 변하는 관계는 the + 비교급 + 주어 + 동사, the + 비교급 + 주어 + 동사로 나타냅니다. ① The more you practice, the better you become. ② 명사가 올 때: The more money you earn, the more you spend. ③ 부사: The more carefully you read, the more you understand. ④ 짧게 줄이기: The sooner, the better. ⑤ 두 절 모두 the가 필요하고 비교급 뒤에 than은 쓰지 않습니다. ⑥ 미래의 일이라도 시간·조건처럼 현재형으로 쓰는 경우가 많습니다.",
+    "common_mistake_ko": "More you practice, better you become.(X) → The more you practice, the better you become.(O) / the more better(X) → the better(O) / The soon we start, the soon we finish.(X) → The sooner ..., the sooner ...(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "gradually",
+     "part_of_speech": "부사",
+     "meaning_ko": "점차, 서서히",
+     "example_en": "Prices gradually went up.",
+     "example_ko": "물가가 서서히 올랐어요."
+    },
+    {
+     "word": "tend",
+     "part_of_speech": "동사",
+     "meaning_ko": "~하는 경향이 있다",
+     "example_en": "Prices tend to rise in winter.",
+     "example_ko": "겨울에는 물가가 오르는 경향이 있어요."
+    },
+    {
+     "word": "steady",
+     "part_of_speech": "형용사",
+     "meaning_ko": "꾸준한",
+     "example_en": "He made steady progress.",
+     "example_ko": "그는 꾸준히 발전했어요."
+    },
+    {
+     "word": "demanding",
+     "part_of_speech": "형용사",
+     "meaning_ko": "요구가 많은, 힘든",
+     "example_en": "It is a demanding job.",
+     "example_ko": "그것은 힘든 일이에요."
+    },
+    {
+     "word": "rewarding",
+     "part_of_speech": "형용사",
+     "meaning_ko": "보람 있는",
+     "example_en": "Teaching is a rewarding career.",
+     "example_ko": "가르치는 일은 보람 있는 직업이에요."
+    },
+    {
+     "word": "increase",
+     "part_of_speech": "동사",
+     "meaning_ko": "늘다, 늘리다",
+     "example_en": "Sales increased by ten percent.",
+     "example_ko": "매출이 10퍼센트 늘었어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The more you practice, the better you become.",
+     "ko": "연습할수록 더 잘하게 돼요."
+    },
+    {
+     "en": "The harder she worked, the more tired she felt.",
+     "ko": "그녀는 열심히 일할수록 더 피곤했어요."
+    },
+    {
+     "en": "The sooner we leave, the earlier we will arrive.",
+     "ko": "빨리 출발할수록 더 일찍 도착할 거예요."
+    },
+    {
+     "en": "The more money you earn, the more you spend.",
+     "ko": "돈을 많이 벌수록 더 많이 써요."
+    },
+    {
+     "en": "The older he got, the wiser he became.",
+     "ko": "그는 나이가 들수록 더 현명해졌어요."
+    },
+    {
+     "en": "The longer the meeting lasted, the less attention people paid.",
+     "ko": "회의가 길어질수록 사람들은 덜 집중했어요."
+    },
+    {
+     "en": "The fewer mistakes we make, the faster we finish.",
+     "ko": "실수가 적을수록 더 빨리 끝내요."
+    },
+    {
+     "en": "The sooner, the better.",
+     "ko": "빠를수록 좋아요."
+    },
+    {
+     "en": "The more carefully you read, the more you understand.",
+     "ko": "주의 깊게 읽을수록 더 많이 이해해요."
+    },
+    {
+     "en": "The colder it gets, the more people stay indoors.",
+     "ko": "추워질수록 더 많은 사람이 실내에 머물러요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "The more you read, ___ you learn.",
+     "choices": [
+      "the more",
+      "more",
+      "the most",
+      "most"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "두 절 모두 the + 비교급입니다.",
+     "error_tag": "double-comparative",
+     "id": "B2-031-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "The older he got, ___ he became.",
+     "choices": [
+      "the wiser",
+      "wiser",
+      "the wisest",
+      "the most wise"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "the + 비교급(wiser) 형태가 필요합니다.",
+     "error_tag": "double-comparative",
+     "id": "B2-031-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "The harder she studied, ___ her grades became.",
+     "choices": [
+      "the better",
+      "better",
+      "the best",
+      "most better"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "good의 비교급 better에 the를 붙입니다.",
+     "error_tag": "double-comparative",
+     "id": "B2-031-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "올바른 문장을 고르세요. (빨리 시작할수록 빨리 끝나요)",
+     "choices": [
+      "The sooner we start, the sooner we finish.",
+      "Sooner we start, sooner we finish.",
+      "The soon we start, the soon we finish.",
+      "The sooner we start, the more soon we finish."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "the sooner ..., the sooner ... 형태입니다.",
+     "error_tag": "double-comparative",
+     "id": "B2-031-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: The ___ you practice, the better you speak. (더 많이)",
+     "answer_text": "more",
+     "accepted_answers": [
+      "more"
+     ],
+     "explanation_ko": "practice를 꾸미는 비교급은 more입니다.",
+     "error_tag": "double-comparative",
+     "id": "B2-031-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: The ___, the better. (더 빨리)",
+     "answer_text": "sooner",
+     "accepted_answers": [
+      "sooner",
+      "earlier"
+     ],
+     "explanation_ko": "soon의 비교급은 sooner입니다. earlier도 같은 뜻으로 쓸 수 있습니다.",
+     "error_tag": "double-comparative",
+     "id": "B2-031-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "‘~할수록 더 ~하다’ 구문을 써서 공부나 운동에 대해 문장 하나를 써 보세요.",
+    "example_answer_en": "The more I walk, the better I sleep.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-11",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-11"
+   }
   }
  ]
 }

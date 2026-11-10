@@ -4601,6 +4601,205 @@
     "version": 1,
     "last_revised": "2026-11-08"
    }
+  },
+  {
+   "id": "TOEFL-025",
+   "level": "B1",
+   "track": "toefl",
+   "day": 25,
+   "title_ko": "TOEFL 2026 Take an Interview 2: 선호·과거 경험 질문에 답하기",
+   "objective_ko": "인터뷰 질문의 종류(선호·과거 경험·습관)에 맞는 시제를 고르고, 답 → 이유 → 예시 순서로 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/content/ets-org/language-master/ko/home/toefl/test-takers/ibt/about/content.html",
+     "publisher": "ETS",
+     "supports": "2026 형식 유형명",
+     "checked_at": "2026-11-11"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "2026-01-21 이후 TOEFL iBT Speaking에는 Take an Interview 유형이 안내되어 있습니다(공식 안내 유형명). 이 사이트는 글로 연습하는 비공식 자체 연습이며 점수를 예측하지 않습니다. ① 질문 유형을 먼저 확인합니다: 선호(Do you prefer ...?), 과거 경험(Tell me about a time ...), 습관(How often ...?). ② 시제를 질문에 맞춥니다: 과거 경험은 과거형(I visited), 습관은 현재형(I usually exercise). ③ 답 → 이유 → 예시 순서로 말합니다: I prefer ... because ... For example, ... ④ 첫 문장에서 질문에 바로 답합니다. 이유는 because, 예시는 For example로 연결합니다.",
+    "common_mistake_ko": "과거 경험을 묻는데 현재형으로 답하는 실수 → Last summer I visited Busan. / 첫 문장에서 질문과 상관없는 이야기를 시작하는 실수 → 먼저 답부터 말합니다."
+   },
+   "vocabulary": [
+    {
+     "word": "briefly",
+     "part_of_speech": "부사",
+     "meaning_ko": "간단히",
+     "example_en": "Please answer briefly.",
+     "example_ko": "간단히 대답해 주세요."
+    },
+    {
+     "word": "rather",
+     "part_of_speech": "부사",
+     "meaning_ko": "오히려, 차라리",
+     "example_en": "I would rather study in the morning.",
+     "example_ko": "나는 오전에 공부하는 편이 더 좋아요."
+    },
+    {
+     "word": "personal",
+     "part_of_speech": "형용사",
+     "meaning_ko": "개인적인",
+     "example_en": "I have a personal reason.",
+     "example_ko": "나에게는 개인적인 이유가 있어요."
+    },
+    {
+     "word": "support",
+     "part_of_speech": "동사",
+     "meaning_ko": "뒷받침하다, 지지하다",
+     "example_en": "A good example supports your answer.",
+     "example_ko": "좋은 예시는 답변을 뒷받침해요."
+    },
+    {
+     "word": "directly",
+     "part_of_speech": "부사",
+     "meaning_ko": "곧바로, 직접",
+     "example_en": "Answer the question directly.",
+     "example_ko": "질문에 곧바로 답하세요."
+    },
+    {
+     "word": "clearly",
+     "part_of_speech": "부사",
+     "meaning_ko": "분명하게",
+     "example_en": "Speak clearly and slowly.",
+     "example_ko": "분명하고 천천히 말하세요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Question: Do you prefer studying alone or in a group?",
+     "ko": "질문: 혼자 공부하는 것과 모둠으로 공부하는 것 중 어느 쪽을 더 좋아하나요?"
+    },
+    {
+     "en": "Answer: I prefer studying alone because I can focus better.",
+     "ko": "답: 더 집중할 수 있어서 혼자 공부하는 쪽을 더 좋아해요."
+    },
+    {
+     "en": "For example, last week I finished a chapter in two hours in the library.",
+     "ko": "예를 들어 지난주에 도서관에서 두 시간 만에 한 단원을 끝냈어요."
+    },
+    {
+     "en": "Question: Tell me about a time you learned something new.",
+     "ko": "질문: 새로운 것을 배웠던 때에 대해 말해 주세요."
+    },
+    {
+     "en": "Answer: Last summer, I learned how to cook pasta.",
+     "ko": "답: 지난여름에 파스타 만드는 법을 배웠어요."
+    },
+    {
+     "en": "At first it was difficult, but I practiced every weekend.",
+     "ko": "처음에는 어려웠지만 주말마다 연습했어요."
+    },
+    {
+     "en": "As a result, I can now cook dinner for my family.",
+     "ko": "그 결과 이제 가족을 위해 저녁을 만들 수 있어요."
+    },
+    {
+     "en": "Question: How often do you exercise?",
+     "ko": "질문: 얼마나 자주 운동하나요?"
+    },
+    {
+     "en": "I usually exercise three times a week because it helps me sleep.",
+     "ko": "운동이 잠드는 데 도움이 되어서 보통 일주일에 세 번 해요."
+    },
+    {
+     "en": "First, answer the question directly. Then give a reason and an example.",
+     "ko": "먼저 질문에 곧바로 답하세요. 그다음 이유와 예시를 말하세요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "질문: Tell me about a trip you took last year. 알맞은 첫 문장은?",
+     "choices": [
+      "I visited Busan last year.",
+      "I visit Busan last year.",
+      "I will visit Busan last year.",
+      "I am visiting Busan last year."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "과거 경험을 묻는 질문에는 과거형으로 답합니다.",
+     "error_tag": "tense-match",
+     "id": "TOEFL-025-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "이유를 말하는 문장으로 알맞은 것은?",
+     "choices": [
+      "I prefer mornings because I feel fresh.",
+      "I prefer mornings, for example.",
+      "I prefer mornings instead.",
+      "I prefer mornings in conclusion."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "이유는 because로 연결합니다.",
+     "error_tag": "reason",
+     "id": "TOEFL-025-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "예시를 이끄는 말은?",
+     "choices": [
+      "For example,",
+      "On the other hand,",
+      "In conclusion,",
+      "Instead,"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "For example은 예시를 소개합니다.",
+     "error_tag": "example-signal",
+     "id": "TOEFL-025-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "답변의 첫 문장이 해야 할 일은?",
+     "choices": [
+      "질문에 곧바로 답한다",
+      "관계없는 이야기를 시작한다",
+      "질문을 그대로 되풀이한다",
+      "결론으로 끝맺는다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "첫 문장에서 질문에 바로 답한 뒤 이유와 예시를 덧붙입니다.",
+     "error_tag": "answer-first",
+     "id": "TOEFL-025-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: I prefer tea ___ it helps me relax. (왜냐하면)",
+     "answer_text": "because",
+     "accepted_answers": [
+      "because"
+     ],
+     "explanation_ko": "이유를 이끄는 because입니다.",
+     "error_tag": "reason",
+     "id": "TOEFL-025-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: ___ example, I walk to school every day. (예를 들어)",
+     "answer_text": "for",
+     "accepted_answers": [
+      "for"
+     ],
+     "explanation_ko": "For example은 ‘예를 들어’입니다.",
+     "error_tag": "example-signal",
+     "id": "TOEFL-025-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "인터뷰 질문 Do you prefer cities or small towns? 에 답 → 이유 → 예시 순서로 세 문장을 써 보세요.",
+    "example_answer_en": "I prefer small towns because they are quiet. For example, my grandparents' town has a calm park. I can read there for hours.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-11",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-11"
+   }
   }
  ]
 }

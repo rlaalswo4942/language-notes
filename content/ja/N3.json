@@ -6490,6 +6490,234 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N3-31",
+   "day_index": 31,
+   "week_index": 5,
+   "level": "N3",
+   "unit_id": "N3-W05",
+   "lesson_type": "new",
+   "title_ko": "〜がち: ~하기 쉽다 (좋지 않은 경향)",
+   "objective_ko": "동사 ます형·명사 + がち로 바람직하지 않은 일이 자주 일어나는 경향을 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N3-30"
+   ],
+   "explanation_ko": "〜がち는 ‘~하기 쉽다, 자주 ~하는 경향이 있다’는 뜻으로, 대개 바람직하지 않은 일에 씁니다. 동사는 ます형에서 ます를 뗀 모양에 붙이고(忘{わす}れる→忘れがち, 遅{おく}れる→遅れがち), 명사에는 그대로 붙입니다(病気{びょうき}がち). 〜がちだ, 〜がちな 명사, 〜がちに なる로 활용합니다. ‘성질상 쉽게 그렇게 된다’는 중립적인 〜やすい와 달리, 〜がち는 ‘자주 그렇게 되어 곤란하다’는 평가가 들어갑니다.",
+   "usage_notes": [
+    "동사 ます형(ます 뗀 형) / 명사 + がち.",
+    "나쁜 경향에 쓰며, 좋은 일에는 잘 쓰지 않음.",
+    "뒤에 だ・な・に 를 붙여 활용: 〜がちだ / 〜がちな 명사."
+   ],
+   "common_mistakes": [
+    "忘れるがち(X) → 忘れがち(O)",
+    "親切{しんせつ}にしがちだ(좋은 일에 사용, 어색함) → 親切にしやすい",
+    "〜がち는 ‘쉽게 ~하기 쉽다’는 〜やすい와 달리 부정적 평가가 들어간다"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "傾向{けいこう}",
+     "reading_kana": "けいこう",
+     "reading_romanized": "keikou",
+     "meaning_ko": "경향",
+     "part_of_speech": "명사",
+     "id": "w-JP-N3-31-01"
+    },
+    {
+     "kind": "word",
+     "text": "遠慮{えんりょ}",
+     "reading_kana": "えんりょ",
+     "reading_romanized": "enryo",
+     "meaning_ko": "사양, 삼감",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N3-31-02"
+    },
+    {
+     "kind": "word",
+     "text": "不規則{ふきそく}",
+     "reading_kana": "ふきそく",
+     "reading_romanized": "fukisoku",
+     "meaning_ko": "불규칙",
+     "part_of_speech": "명사・な형용사",
+     "id": "w-JP-N3-31-03"
+    },
+    {
+     "kind": "word",
+     "text": "曇{くも}る",
+     "reading_kana": "くもる",
+     "reading_romanized": "kumoru",
+     "meaning_ko": "흐리다",
+     "part_of_speech": "동사(1그룹)",
+     "id": "w-JP-N3-31-04"
+    },
+    {
+     "kind": "word",
+     "text": "油断{ゆだん}",
+     "reading_kana": "ゆだん",
+     "reading_romanized": "yudan",
+     "meaning_ko": "방심",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N3-31-05"
+    },
+    {
+     "kind": "word",
+     "text": "睡眠{すいみん}",
+     "reading_kana": "すいみん",
+     "reading_romanized": "suimin",
+     "meaning_ko": "수면",
+     "part_of_speech": "명사",
+     "id": "w-JP-N3-31-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "忙{いそが}しいと、食事{しょくじ}が不規則{ふきそく}になりがちだ。",
+     "meaning_ko": "바쁘면 식사가 불규칙해지기 쉽다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "冬{ふゆ}は運動不足{うんどうぶそく}になりがちなので、毎日{まいにち}歩{ある}くようにしている。",
+     "meaning_ko": "겨울에는 운동 부족이 되기 쉬워서 매일 걷도록 하고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}は約束{やくそく}を忘{わす}れがちで、よくメモをとっている。",
+     "meaning_ko": "그는 약속을 잊어버리기 쉬워서 자주 메모를 한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "梅雨{つゆ}の時期{じき}は曇{くも}りがちの天気{てんき}が続{つづ}く。",
+     "meaning_ko": "장마철에는 흐린 날씨가 계속된다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "子{こ}どもの頃{ころ}、私{わたし}は病気{びょうき}がちだった。",
+     "meaning_ko": "어릴 적 나는 자주 아팠다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "電車{でんしゃ}が遅{おく}れがちなので、早{はや}めに家{いえ}を出{で}る。",
+     "meaning_ko": "전철이 자주 늦어서 일찍 집을 나선다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "慣{な}れてきたときこそ、油断{ゆだん}しがちだ。",
+     "meaning_ko": "익숙해졌을 때야말로 방심하기 쉽다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "一人暮{ひとりぐ}らしだと、野菜{やさい}が不足{ふそく}しがちだ。",
+     "meaning_ko": "혼자 살면 채소가 부족해지기 쉽다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "遠慮{えんりょ}しがちな性格{せいかく}なので、自分{じぶん}の意見{いけん}をなかなか言{い}えない。",
+     "meaning_ko": "사양하기 쉬운 성격이라 자기 의견을 좀처럼 말하지 못한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "睡眠{すいみん}不足{ぶそく}になりがちな人{ひと}は、昼間{ひるま}に眠{ねむ}くなる傾向{けいこう}がある。",
+     "meaning_ko": "수면 부족이 되기 쉬운 사람은 낮에 졸리는 경향이 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "夜更{よふ}かしがちな生活{せいかつ}を続{つづ}けると、体{からだ}の調子{ちょうし}が悪{わる}くなる。",
+     "meaning_ko": "밤늦게까지 깨어 있기 쉬운 생활을 계속하면 몸 상태가 나빠진다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「忙しいと、食事が不規則になりがちだ」의 뜻은?",
+     "options": [
+      "불규칙해지기 쉽다",
+      "불규칙해지려고 한다",
+      "불규칙해질 리 없다",
+      "불규칙해질 뿐이다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜がち는 ‘~하기 쉽다’입니다.",
+     "id": "JP-N3-31-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「忘れる」에 〜がち를 붙인 올바른 형태는?",
+     "options": [
+      "忘れがち",
+      "忘れるがち",
+      "忘れてがち",
+      "忘れたがち"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "동사는 ます형에서 ます를 뗀 모양에 붙입니다.",
+     "id": "JP-N3-31-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "〜がち는 보통 어떤 경향을 말할 때 쓰나요?",
+     "options": [
+      "바람직하지 않은 일이 자주 일어나는 경향",
+      "앞으로 할 계획",
+      "반드시 해야 하는 의무",
+      "예전에 해 본 경험"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜がち는 곤란한 일이 자주 일어나는 경향에 씁니다.",
+     "id": "JP-N3-31-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「子どもの頃、私は病気がちだった」의 뜻은?",
+     "options": [
+      "어릴 적 나는 자주 아팠다",
+      "어릴 적 나는 병이 완전히 나았다",
+      "어릴 적 나는 병원에 가야 했다",
+      "어릴 적 나는 병에 걸릴 리 없었다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "病気がち는 ‘자주 아프다’입니다.",
+     "id": "JP-N3-31-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「傾向」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "keikou",
+     "accepted_answers": [
+      "keikou",
+      "keiko",
+      "keikō"
+     ],
+     "explanation_ko": "傾向 = けいこう(keikou), ‘경향’입니다.",
+     "id": "JP-N3-31-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「遠慮」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "enryo",
+     "accepted_answers": [
+      "enryo"
+     ],
+     "explanation_ko": "遠慮 = えんりょ(enryo), ‘사양, 삼감’입니다.",
+     "id": "JP-N3-31-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

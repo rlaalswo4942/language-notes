@@ -5912,6 +5912,209 @@
     "version": 1,
     "last_revised": "2026-11-08"
    }
+  },
+  {
+   "id": "A1-031",
+   "level": "A1",
+   "track": "foundation",
+   "day": 31,
+   "title_ko": "형용사: 명사 앞과 be동사 뒤, 여러 형용사의 순서",
+   "objective_ko": "형용사를 명사 앞과 be동사 뒤에 쓰고, 형용사가 여러 개일 때 크기 → 색 순서로 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-11"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "형용사는 사람·사물의 모습이나 상태를 설명합니다. ① 명사 앞: a narrow street. ② be동사 뒤: The street is narrow. ③ 형용사는 복수가 되어도 모양이 변하지 않습니다: two soft pillows (softs X). ④ a/an은 형용사의 첫 소리로 정합니다: a wide river, an old house. ⑤ 형용사가 여러 개이면 보통 의견 → 크기 → 색 순서입니다: a nice big red car.",
+    "common_mistake_ko": "I have a bag heavy.(X) → a heavy bag.(O) / two softs pillows(X) → two soft pillows(O) / a red big car(X) → a big red car(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "dirty",
+     "part_of_speech": "형용사",
+     "meaning_ko": "더러운",
+     "example_en": "My shoes are dirty.",
+     "example_ko": "내 신발은 더러워요."
+    },
+    {
+     "word": "narrow",
+     "part_of_speech": "형용사",
+     "meaning_ko": "좁은",
+     "example_en": "The street is narrow.",
+     "example_ko": "그 길은 좁아요."
+    },
+    {
+     "word": "soft",
+     "part_of_speech": "형용사",
+     "meaning_ko": "부드러운, 푹신한",
+     "example_en": "This sofa is soft.",
+     "example_ko": "이 소파는 푹신해요."
+    },
+    {
+     "word": "wide",
+     "part_of_speech": "형용사",
+     "meaning_ko": "넓은",
+     "example_en": "The river is wide.",
+     "example_ko": "그 강은 넓어요."
+    },
+    {
+     "word": "sharp",
+     "part_of_speech": "형용사",
+     "meaning_ko": "날카로운",
+     "example_en": "Be careful. The knife is sharp.",
+     "example_ko": "조심하세요. 칼이 날카로워요."
+    },
+    {
+     "word": "smooth",
+     "part_of_speech": "형용사",
+     "meaning_ko": "매끄러운",
+     "example_en": "The table is smooth.",
+     "example_ko": "그 탁자는 매끄러워요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "This is a heavy bag.",
+     "ko": "이것은 무거운 가방이에요."
+    },
+    {
+     "en": "The bag is heavy.",
+     "ko": "그 가방은 무거워요."
+    },
+    {
+     "en": "I have two heavy bags.",
+     "ko": "나는 무거운 가방이 두 개 있어요."
+    },
+    {
+     "en": "It is a quiet room.",
+     "ko": "조용한 방이에요."
+    },
+    {
+     "en": "The room is clean.",
+     "ko": "그 방은 깨끗해요."
+    },
+    {
+     "en": "She has a big red car.",
+     "ko": "그녀는 크고 빨간 차가 있어요."
+    },
+    {
+     "en": "He lives in an old house.",
+     "ko": "그는 오래된 집에 살아요."
+    },
+    {
+     "en": "The street is narrow.",
+     "ko": "그 길은 좁아요."
+    },
+    {
+     "en": "This sofa is soft.",
+     "ko": "이 소파는 푹신해요."
+    },
+    {
+     "en": "My shoes are dirty.",
+     "ko": "내 신발은 더러워요."
+    },
+    {
+     "en": "The river is wide.",
+     "ko": "그 강은 넓어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "나는 무거운 가방이 있어요.",
+     "choices": [
+      "I have a heavy bag.",
+      "I have a bag heavy.",
+      "I have a heavys bag.",
+      "I have heavy a bag."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "형용사는 명사 앞에 오고 a는 형용사 앞에 둡니다.",
+     "error_tag": "adjective-order",
+     "id": "A1-031-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "We have two ___ pillows.",
+     "choices": [
+      "soft",
+      "softs",
+      "a soft",
+      "softly"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "형용사는 복수 명사 앞에서도 모양이 변하지 않습니다.",
+     "error_tag": "adjective-plural",
+     "id": "A1-031-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "She has a ___ car.",
+     "choices": [
+      "big red",
+      "red big",
+      "reds big",
+      "big reds"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "크기(big)가 색(red)보다 앞에 옵니다.",
+     "error_tag": "adjective-order",
+     "id": "A1-031-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "He lives in ___ old house.",
+     "choices": [
+      "an",
+      "a",
+      "two",
+      "many"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "old는 모음 소리로 시작하므로 an을 씁니다.",
+     "error_tag": "a-an",
+     "id": "A1-031-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: The street is ___. (좁은)",
+     "answer_text": "narrow",
+     "accepted_answers": [
+      "narrow"
+     ],
+     "explanation_ko": "좁은 길은 narrow입니다.",
+     "error_tag": "vocabulary",
+     "id": "A1-031-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: My shoes are ___. (더러운)",
+     "answer_text": "dirty",
+     "accepted_answers": [
+      "dirty"
+     ],
+     "explanation_ko": "더러운은 dirty입니다.",
+     "error_tag": "vocabulary",
+     "id": "A1-031-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "방이나 가방을 형용사를 써서 영어 문장 두 개로 설명해 보세요.",
+    "example_answer_en": "My room is small and clean. I have a big blue bag.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-11",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-11"
+   }
   }
  ]
 }

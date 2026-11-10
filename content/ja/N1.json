@@ -6455,6 +6455,227 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-31",
+   "day_index": 31,
+   "week_index": 5,
+   "level": "N1",
+   "unit_id": "N1-W05",
+   "lesson_type": "new",
+   "title_ko": "〜べく: ~하기 위해 (문어적 목적 표현)",
+   "objective_ko": "동사 사전형 + べく로 목적을 위한 의지적 행동을 격식 있게 서술한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-30"
+   ],
+   "explanation_ko": "〜べく는 ‘~하기 위해서’라는 목적을 나타내는 격식 있는 문어체 표현입니다. 동사 사전형에 붙이며(打開{だかい}する→打開すべく), する는 すべく 또는 するべく로 씁니다. 앞에는 실현을 목표로 하는 의지적 동작이 오고, 뒤에는 그 목적을 위해 취한 행동이 사실로 이어집니다. 일상 회화보다는 뉴스·보고문·연설에서 자주 쓰이며, 평이한 문장에서는 〜ために를 씁니다. ‘마땅히 ~해야 한다’는 〜べき(N3)와는 쓰임이 다르므로 구별합니다.",
+   "usage_notes": [
+    "동사 사전형 + べく: ~하기 위해. する는 すべく / するべく.",
+    "의지적 동작 + べく + 그 목적을 위한 행동.",
+    "문어적이라 뉴스·보고문에 자주 나옴. 회화에서는 〜ために."
+   ],
+   "common_mistakes": [
+    "実現しべく(X) → 実現すべく(O)",
+    "〜べき(마땅히 ~해야 하다)와 〜べく(~하기 위해)를 혼동하는 것",
+    "〜べく는 의지적인 동작에 붙으며 자연 현상 등에는 쓰지 않음"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "打破{だは}",
+     "reading_kana": "だは",
+     "reading_romanized": "daha",
+     "meaning_ko": "타파",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N1-31-01"
+    },
+    {
+     "kind": "word",
+     "text": "克服{こくふく}",
+     "reading_kana": "こくふく",
+     "reading_romanized": "kokufuku",
+     "meaning_ko": "극복",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N1-31-02"
+    },
+    {
+     "kind": "word",
+     "text": "解消{かいしょう}",
+     "reading_kana": "かいしょう",
+     "reading_romanized": "kaishou",
+     "meaning_ko": "해소",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N1-31-03"
+    },
+    {
+     "kind": "word",
+     "text": "実現{じつげん}",
+     "reading_kana": "じつげん",
+     "reading_romanized": "jitsugen",
+     "meaning_ko": "실현",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N1-31-04"
+    },
+    {
+     "kind": "word",
+     "text": "把握{はあく}",
+     "reading_kana": "はあく",
+     "reading_romanized": "haaku",
+     "meaning_ko": "파악",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N1-31-05"
+    },
+    {
+     "kind": "word",
+     "text": "究明{きゅうめい}",
+     "reading_kana": "きゅうめい",
+     "reading_romanized": "kyuumei",
+     "meaning_ko": "규명",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N1-31-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "事態{じたい}を打開{だかい}すべく、会社{かいしゃ}は新{あら}たな対策{たいさく}を打{う}ち出{だ}した。",
+     "meaning_ko": "사태를 타개하기 위해 회사는 새로운 대책을 내놓았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "現状{げんじょう}を打破{だは}すべく、若手{わかて}社員{しゃいん}が新{あら}たな企画{きかく}を提案{ていあん}した。",
+     "meaning_ko": "현상을 타파하기 위해 젊은 사원들이 새로운 기획을 제안했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}は夢{ゆめ}を実現{じつげん}すべく、会社{かいしゃ}を辞{や}めて海外{かいがい}へ渡{わた}った。",
+     "meaning_ko": "그는 꿈을 실현하기 위해 회사를 그만두고 해외로 건너갔다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "人手不足{ひとでぶそく}を解消{かいしょう}すべく、市{し}は外国人{がいこくじん}の採用{さいよう}を進{すす}めている。",
+     "meaning_ko": "일손 부족을 해소하기 위해 시는 외국인 채용을 추진하고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "顧客{こきゃく}のニーズを把握{はあく}すべく、全国{ぜんこく}でアンケート調査{ちょうさ}が行{おこな}われた。",
+     "meaning_ko": "고객의 요구를 파악하기 위해 전국에서 설문 조사가 실시되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "課題{かだい}を克服{こくふく}すべく、チーム全員{ぜんいん}が連日{れんじつ}議論{ぎろん}を重{かさ}ねた。",
+     "meaning_ko": "과제를 극복하기 위해 팀 전원이 연일 논의를 거듭했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "優勝{ゆうしょう}すべく、選手{せんしゅ}たちは厳{きび}しい練習{れんしゅう}に耐{た}えてきた。",
+     "meaning_ko": "우승하기 위해 선수들은 혹독한 연습을 견뎌 왔다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "一刻{いっこく}も早{はや}く現場{げんば}に駆{か}けつけるべく、救助隊{きゅうじょたい}はヘリコプターで出発{しゅっぱつ}した。",
+     "meaning_ko": "한시라도 빨리 현장에 달려가기 위해 구조대는 헬리콥터로 출발했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "真相{しんそう}を究明{きゅうめい}すべく、第三者委員会{だいさんしゃいいんかい}が設置{せっち}された。",
+     "meaning_ko": "진상을 규명하기 위해 제3자 위원회가 설치되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "父{ちち}を安心{あんしん}させるべく、毎週{まいしゅう}実家{じっか}に電話{でんわ}をかけている。",
+     "meaning_ko": "아버지를 안심시키기 위해 매주 본가에 전화를 걸고 있다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「事態を打開すべく、対策を打ち出した」의 すべく는?",
+     "options": [
+      "타개하기 위해",
+      "타개했기 때문에",
+      "타개해도",
+      "타개하지 않으면"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜べく는 목적(~하기 위해)을 나타냅니다.",
+     "id": "JP-N1-31-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「実現する」에 〜べく를 붙인 올바른 형태는?",
+     "options": [
+      "実現すべく",
+      "実現しべく",
+      "実現したべく",
+      "実現してべく"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "する는 すべく(또는 するべく)가 됩니다.",
+     "id": "JP-N1-31-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "〜べく와 가장 가까운 뜻의 표현은?",
+     "options": [
+      "〜ために",
+      "〜にもかかわらず",
+      "〜ものの",
+      "〜かのように"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜べく는 목적을 나타내는 〜ために의 격식 있는 표현입니다.",
+     "id": "JP-N1-31-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "〜べく의 문체로 알맞은 것은?",
+     "options": [
+      "격식 있는 문어체",
+      "어린이가 쓰는 말투",
+      "친구끼리의 가벼운 말투",
+      "특정 지역 방언"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "뉴스·보고문·연설 등에 자주 쓰이는 문어적 표현입니다.",
+     "id": "JP-N1-31-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「克服」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kokufuku",
+     "accepted_answers": [
+      "kokufuku"
+     ],
+     "explanation_ko": "克服 = こくふく(kokufuku), ‘극복’입니다.",
+     "id": "JP-N1-31-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「把握」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "haaku",
+     "accepted_answers": [
+      "haaku"
+     ],
+     "explanation_ko": "把握 = はあく(haaku), ‘파악’입니다.",
+     "id": "JP-N1-31-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }
