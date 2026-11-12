@@ -5017,6 +5017,205 @@
     "version": 1,
     "last_revised": "2026-11-11"
    }
+  },
+  {
+   "id": "B1-027",
+   "level": "B1",
+   "track": "general",
+   "day": 27,
+   "title_ko": "unless / as long as / provided that: 조건을 이어 주는 말",
+   "objective_ko": "unless(~하지 않는 한), as long as(~하기만 하면), provided that(~이라는 조건으로)을 써서 조건을 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-13"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "① unless는 if ... not과 같은 뜻입니다: I'll go unless it rains. = I'll go if it doesn't rain. unless 뒤에는 이미 부정의 뜻이 있으므로 not을 또 쓰지 않습니다. ② as long as는 '~하기만 하면, ~하는 한'으로 조건을 강조합니다: You can borrow it as long as you return it today. ③ provided (that)도 비슷한 뜻으로 조금 격식 있는 말입니다. 세 표현 모두 조건절에서는 미래 일도 현재형으로 씁니다(will을 쓰지 않음).",
+    "common_mistake_ko": "I won't go unless you don't go.(X) → unless you go.(O) / I'll go unless it will rain.(X) → unless it rains.(O) / as long you return(X) → as long as you return(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "guarantee",
+     "part_of_speech": "명사",
+     "meaning_ko": "보증",
+     "example_en": "The shop gives a one-year guarantee.",
+     "example_ko": "그 가게는 1년 보증을 해 줘요."
+    },
+    {
+     "word": "condition",
+     "part_of_speech": "명사",
+     "meaning_ko": "조건",
+     "example_en": "The main condition is simple.",
+     "example_ko": "주된 조건은 간단해요."
+    },
+    {
+     "word": "arrange",
+     "part_of_speech": "동사",
+     "meaning_ko": "준비하다, 마련하다",
+     "example_en": "I will arrange a taxi.",
+     "example_ko": "제가 택시를 마련할게요."
+    },
+    {
+     "word": "permit",
+     "part_of_speech": "동사",
+     "meaning_ko": "허락하다",
+     "example_en": "The school does not permit phones.",
+     "example_ko": "학교는 휴대폰을 허락하지 않아요."
+    },
+    {
+     "word": "exchange",
+     "part_of_speech": "동사",
+     "meaning_ko": "교환하다",
+     "example_en": "You can exchange the shirt for another size.",
+     "example_ko": "셔츠를 다른 사이즈로 교환할 수 있어요."
+    },
+    {
+     "word": "compromise",
+     "part_of_speech": "명사",
+     "meaning_ko": "타협",
+     "example_en": "We reached a compromise.",
+     "example_ko": "우리는 타협에 이르렀어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I'll go to the park unless it rains.",
+     "ko": "비가 오지 않는 한 공원에 갈 거예요."
+    },
+    {
+     "en": "We'll miss the train unless we hurry.",
+     "ko": "서두르지 않으면 기차를 놓칠 거예요."
+    },
+    {
+     "en": "You can't enter the building unless you have a card.",
+     "ko": "카드가 없으면 건물에 들어갈 수 없어요."
+    },
+    {
+     "en": "Unless you cancel the reservation, you will pay a fee.",
+     "ko": "예약을 취소하지 않으면 수수료를 내게 돼요."
+    },
+    {
+     "en": "You can borrow my bike as long as you return it today.",
+     "ko": "오늘 돌려주기만 하면 제 자전거를 빌려 가도 좋아요."
+    },
+    {
+     "en": "As long as you keep the receipt, you can get a refund.",
+     "ko": "영수증을 가지고 있기만 하면 환불받을 수 있어요."
+    },
+    {
+     "en": "She will help us provided that we ask politely.",
+     "ko": "우리가 공손하게 부탁하기만 하면 그녀는 도와줄 거예요."
+    },
+    {
+     "en": "I won't call you unless there is a problem.",
+     "ko": "문제가 없는 한 전화하지 않을게요."
+    },
+    {
+     "en": "Children can enter for free as long as they are with an adult.",
+     "ko": "어린이는 어른과 함께이기만 하면 무료로 입장할 수 있어요."
+    },
+    {
+     "en": "Unless I get permission, I can't use the room.",
+     "ko": "허락을 받지 못하면 그 방을 쓸 수 없어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "\"비가 오지 않는 한 소풍을 갈 거예요.\"를 영어로 하면?",
+     "choices": [
+      "We'll have a picnic unless it rains.",
+      "We'll have a picnic unless it doesn't rain.",
+      "We'll have a picnic unless it will rain.",
+      "We'll have a picnic unless it rained."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "unless 자체에 부정의 뜻이 있고, 조건절은 현재형을 씁니다.",
+     "error_tag": "unless",
+     "id": "B1-027-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "\"You'll be late unless you hurry.\"와 같은 뜻은?",
+     "choices": [
+      "You'll be late if you don't hurry.",
+      "You'll be late if you hurry.",
+      "You'll be late if you didn't hurry.",
+      "You'll be late when you hurry."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "unless = if ... not 입니다.",
+     "error_tag": "unless-meaning",
+     "id": "B1-027-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "You can use my laptop ___ you are careful with it.",
+     "choices": [
+      "as long as",
+      "unless",
+      "even though",
+      "in spite of"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "'조심하기만 하면'이라는 조건이므로 as long as입니다.",
+     "error_tag": "as-long-as",
+     "id": "B1-027-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "I won't go unless you go.",
+      "I won't go unless you don't go.",
+      "I won't go unless you won't go.",
+      "I won't go unless you not go."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "unless 뒤에는 not을 쓰지 않습니다.",
+     "error_tag": "unless-negative",
+     "id": "B1-027-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: You can't enter ___ you have a card. (~하지 않는 한)",
+     "answer_text": "unless",
+     "accepted_answers": [
+      "unless"
+     ],
+     "explanation_ko": "'~하지 않는 한'은 unless입니다.",
+     "error_tag": "unless",
+     "id": "B1-027-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 세 단어를 쓰세요: You can borrow it ___ ___ ___ you return it. (~하기만 하면)",
+     "answer_text": "as long as",
+     "accepted_answers": [
+      "as long as"
+     ],
+     "explanation_ko": "'~하기만 하면'은 as long as입니다.",
+     "error_tag": "as-long-as",
+     "id": "B1-027-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "unless 또는 as long as를 써서 친구와의 약속 조건을 영어 문장 두 개로 써 보세요.",
+    "example_answer_en": "I'll meet you tomorrow unless it rains. You can come as long as you bring a snack.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-13",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-13"
+   }
   }
  ]
 }

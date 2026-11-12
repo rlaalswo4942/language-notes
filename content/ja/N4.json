@@ -6710,6 +6710,233 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-32",
+   "day_index": 32,
+   "week_index": 5,
+   "level": "N4",
+   "unit_id": "N4-W05",
+   "lesson_type": "new",
+   "title_ko": "〜と: ~하면 (반드시 일어나는 일)",
+   "objective_ko": "동사 사전형·형용사 + と로 ‘~하면 늘 ~이 된다’는 자연스러운 결과·습관·길 안내를 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-31"
+   ],
+   "explanation_ko": "〜と는 ‘앞의 일이 일어나면 뒤의 일이 반드시 일어난다’는 뜻의 조건 표현입니다. 동사는 사전형(春{はる}に なると), い형용사는 기본형(暗{くら}いと), ‘~이 되면’은 명사 + に なると처럼 변화 동사와 함께 씁니다. ① 자연 현상: 冬{ふゆ}に なると 雪{ゆき}が 降{ふ}ります. ② 기계 조작: ボタンを 押{お}すと ドアが 開{あ}きます. ③ 길 안내: まっすぐ 行{い}くと 右{みぎ}に 駅{えき}が あります. ④ 습관·버릇. 뒤 문장에는 의지·권유·명령·희망(〜ましょう・〜て ください・〜たいです)을 쓸 수 없습니다. 그럴 때는 23일차의 〜たら를 씁니다.",
+   "usage_notes": [
+    "동사 사전형 / い형용사 기본형 + と + 결과.",
+    "자연 현상·기계 조작·길 안내·습관에 쓴다.",
+    "뒤에는 의지·권유·명령·희망 표현을 쓰지 않는다."
+   ],
+   "common_mistakes": [
+    "安{やす}いと、買{か}いましょう(X) → 安{やす}かったら、買{か}いましょう(O)",
+    "雨{あめ}が 降{ふ}りますと(X) → 雨が 降ると(O)",
+    "春に なりますと 花が 咲きます(X) → 春に なると 花が 咲きます(O)"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "押{お}す",
+     "reading_kana": "おす",
+     "reading_romanized": "osu",
+     "meaning_ko": "누르다",
+     "part_of_speech": "동사(1그룹)",
+     "id": "w-JP-N4-32-01"
+    },
+    {
+     "kind": "word",
+     "text": "開{あ}く",
+     "reading_kana": "あく",
+     "reading_romanized": "aku",
+     "meaning_ko": "열리다",
+     "part_of_speech": "동사(1그룹)",
+     "id": "w-JP-N4-32-02"
+    },
+    {
+     "kind": "word",
+     "text": "咲{さ}く",
+     "reading_kana": "さく",
+     "reading_romanized": "saku",
+     "meaning_ko": "피다",
+     "part_of_speech": "동사(1그룹)",
+     "id": "w-JP-N4-32-03"
+    },
+    {
+     "kind": "word",
+     "text": "曲{ま}がる",
+     "reading_kana": "まがる",
+     "reading_romanized": "magaru",
+     "meaning_ko": "돌다, 구부러지다",
+     "part_of_speech": "동사(1그룹)",
+     "id": "w-JP-N4-32-04"
+    },
+    {
+     "kind": "word",
+     "text": "暗{くら}い",
+     "reading_kana": "くらい",
+     "reading_romanized": "kurai",
+     "meaning_ko": "어둡다",
+     "part_of_speech": "い형용사",
+     "id": "w-JP-N4-32-05"
+    },
+    {
+     "kind": "word",
+     "text": "増{ふ}える",
+     "reading_kana": "ふえる",
+     "reading_romanized": "fueru",
+     "meaning_ko": "늘다, 늘어나다",
+     "part_of_speech": "동사(2그룹)",
+     "id": "w-JP-N4-32-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "春{はる}に なると、花{はな}が 咲{さ}きます。",
+     "meaning_ko": "봄이 되면 꽃이 핍니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この ボタンを 押{お}すと、ドアが 開{あ}きます。",
+     "meaning_ko": "이 버튼을 누르면 문이 열립니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "まっすぐ 行{い}って、角{かど}を 右{みぎ}に 曲{ま}がると、駅{えき}が あります。",
+     "meaning_ko": "곧장 가서 모퉁이를 오른쪽으로 돌면 역이 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "部屋{へや}が 暗{くら}いと、本{ほん}が 読{よ}みにくいです。",
+     "meaning_ko": "방이 어두우면 책을 읽기 어렵습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "冬{ふゆ}に なると、雪{ゆき}が たくさん 降{ふ}ります。",
+     "meaning_ko": "겨울이 되면 눈이 많이 내립니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "春{はる}に なると、暖{あたた}かく なります。",
+     "meaning_ko": "봄이 되면 따뜻해집니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 道{みち}を まっすぐ 行{い}くと、右{みぎ}に 郵便局{ゆうびんきょく}が あります。",
+     "meaning_ko": "이 길을 곧장 가면 오른쪽에 우체국이 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "ドアの 前{まえ}に 立{た}つと、自動{じどう}で 開{あ}きます。",
+     "meaning_ko": "문 앞에 서면 자동으로 열립니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "疲{つか}れると、頭{あたま}が 痛{いた}く なります。",
+     "meaning_ko": "피곤하면 머리가 아파집니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "毎朝{まいあさ}、七時{しちじ}に なると、アラームが 鳴{な}ります。",
+     "meaning_ko": "매일 아침 7시가 되면 알람이 웁니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "人{ひと}が 増{ふ}えると、町{まち}が にぎやかに なります。",
+     "meaning_ko": "사람이 늘면 마을이 북적이게 됩니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「春に なると、花が 咲きます」의 뜻은?",
+     "options": [
+      "봄이 되면 꽃이 핍니다",
+      "봄이 되어서 꽃을 샀습니다",
+      "봄이 되기 전에 꽃이 폈습니다",
+      "봄이 되면 꽃을 보러 가고 싶습니다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜と는 ‘~하면 (늘) ~이 된다’입니다.",
+     "id": "JP-N4-32-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「ボタンを ( )と、ドアが 開きます」( )에 알맞은 형태는?",
+     "options": [
+      "押す",
+      "押した",
+      "押して",
+      "押します"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜と 앞에는 동사 사전형을 씁니다.",
+     "id": "JP-N4-32-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "〜と 뒤에 쓸 수 없는 것은 어느 것인가요?",
+     "options": [
+      "권유(〜ましょう)",
+      "자연스러운 변화",
+      "습관",
+      "길 안내"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜と 뒤에는 의지·권유·명령·희망을 쓸 수 없습니다. 그럴 때는 〜たら를 씁니다.",
+     "id": "JP-N4-32-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「まっすぐ 行く( )、右に 銀行が あります」( )에 알맞은 말은?",
+     "options": [
+      "と",
+      "を",
+      "に",
+      "が"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "길 안내에는 동사 사전형 + と를 씁니다.",
+     "id": "JP-N4-32-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「曲がる」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "magaru",
+     "accepted_answers": [
+      "magaru"
+     ],
+     "explanation_ko": "曲がる = まがる(magaru), ‘돌다, 구부러지다’입니다.",
+     "id": "JP-N4-32-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「増える」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "fueru",
+     "accepted_answers": [
+      "fueru",
+      "huyeru"
+     ],
+     "explanation_ko": "増える = ふえる(fueru), ‘늘다’입니다.",
+     "id": "JP-N4-32-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

@@ -6676,6 +6676,229 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-32",
+   "day_index": 32,
+   "week_index": 5,
+   "level": "N1",
+   "unit_id": "N1-W05",
+   "lesson_type": "new",
+   "title_ko": "〜を皮切りに: ~을 시작으로",
+   "objective_ko": "〜を皮切りに(して)로 첫 사례를 시작으로 같은 일이 잇따라 전개되는 것을 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-31"
+   ],
+   "explanation_ko": "〜を皮切{かわき}りに(して)는 ‘~을 맨 처음으로 해서 뒤이어 여러 일이 차례로 이어진다’는 뜻입니다. 東京{とうきょう}公演{こうえん}を皮切りに、全国{ぜんこく}ツアーが行{おこな}われる. 앞에는 첫 번째가 되는 사건·장소(명사)가 오고, 뒤에는 규모가 커지거나 반복·연속되는 일(各地{かくち}で〜・次々{つぎつぎ}と〜・順次{じゅんじ}〜)이 옵니다. 앞이 맨 처음임을 강조하며, 뒤에 한 번으로 끝나는 일은 쓸 수 없습니다. ‘~을 계기로’의 〜をきっかけに와 달리 ‘시작 지점’에 초점이 있고 뒤에 연쇄적 전개가 온다는 점이 다릅니다.",
+   "usage_notes": [
+    "명사 + を皮切りに(して) + 연속·확대되는 일.",
+    "뒤에 各地で・次々と・順次 등이 자주 온다.",
+    "한 번으로 끝나는 일에는 쓰지 않는다."
+   ],
+   "common_mistakes": [
+    "会議を皮切りに、すぐ帰った(X) → 연속된 전개가 아니므로 부자연스럽다",
+    "最後の公演を皮切りに(X) → ‘마지막’에는 쓰지 않는다",
+    "〜を皮切りで(X) → 〜を皮切りに(O)"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "皮切{かわき}り",
+     "reading_kana": "かわきり",
+     "reading_romanized": "kawakiri",
+     "meaning_ko": "시작, 맨 처음",
+     "part_of_speech": "명사",
+     "id": "w-JP-N1-32-01"
+    },
+    {
+     "kind": "word",
+     "text": "公演{こうえん}",
+     "reading_kana": "こうえん",
+     "reading_romanized": "kouen",
+     "meaning_ko": "공연",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N1-32-02"
+    },
+    {
+     "kind": "word",
+     "text": "相次{あいつ}ぐ",
+     "reading_kana": "あいつぐ",
+     "reading_romanized": "aitsugu",
+     "meaning_ko": "잇따르다",
+     "part_of_speech": "동사(1그룹)",
+     "id": "w-JP-N1-32-03"
+    },
+    {
+     "kind": "word",
+     "text": "順次{じゅんじ}",
+     "reading_kana": "じゅんじ",
+     "reading_romanized": "junji",
+     "meaning_ko": "차례대로",
+     "part_of_speech": "부사",
+     "id": "w-JP-N1-32-04"
+    },
+    {
+     "kind": "word",
+     "text": "展開{てんかい}",
+     "reading_kana": "てんかい",
+     "reading_romanized": "tenkai",
+     "meaning_ko": "전개",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N1-32-05"
+    },
+    {
+     "kind": "word",
+     "text": "開催{かいさい}",
+     "reading_kana": "かいさい",
+     "reading_romanized": "kaisai",
+     "meaning_ko": "개최",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N1-32-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "東京{とうきょう}公演{こうえん}を皮切{かわき}りに、全国{ぜんこく}十{じゅっ}か所{しょ}でツアーが行{おこな}われる。",
+     "meaning_ko": "도쿄 공연을 시작으로 전국 열 곳에서 투어가 열린다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この映画{えいが}は韓国{かんこく}での公開{こうかい}を皮切{かわき}りに、世界{せかい}各国{かっこく}で上映{じょうえい}されることになった。",
+     "meaning_ko": "이 영화는 한국에서의 개봉을 시작으로 세계 각국에서 상영되게 되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "新商品{しんしょうひん}の発売{はつばい}を皮切{かわき}りに、各社{かくしゃ}が相次{あいつ}いで値下{ねさ}げに踏{ふ}み切{き}った。",
+     "meaning_ko": "신상품 발매를 시작으로 각 회사가 잇따라 가격 인하에 나섰다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "大阪{おおさか}店{てん}の開店{かいてん}を皮切{かわき}りにして、チェーンは全国{ぜんこく}へ展開{てんかい}していった。",
+     "meaning_ko": "오사카점 개점을 시작으로 체인은 전국으로 전개해 갔다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "来月{らいげつ}の札幌{さっぽろ}大会{たいかい}を皮切{かわき}りに、春{はる}まで国内{こくない}で試合{しあい}が順次{じゅんじ}開催{かいさい}される。",
+     "meaning_ko": "다음 달 삿포로 대회를 시작으로 봄까지 국내에서 경기가 차례로 개최된다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "大手{おおて}メーカーの値上{ねあ}げを皮切{かわき}りに、業界{ぎょうかい}全体{ぜんたい}で価格{かかく}の見直{みなお}しが進{すす}んだ。",
+     "meaning_ko": "대형 제조사의 가격 인상을 시작으로 업계 전체에서 가격 재검토가 진행되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}は新作{しんさく}の発表{はっぴょう}を皮切{かわき}りに、次々{つぎつぎ}と話題作{わだいさく}を世{よ}に送{おく}り出{だ}した。",
+     "meaning_ko": "그는 신작 발표를 시작으로 잇따라 화제작을 세상에 내놓았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "町{まち}の清掃{せいそう}活動{かつどう}を皮切{かわき}りに、地域{ちいき}のイベントが次々{つぎつぎ}に企画{きかく}された。",
+     "meaning_ko": "마을 청소 활동을 시작으로 지역 행사가 잇따라 기획되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "デビュー曲{きょく}のヒットを皮切{かわき}りに、そのバンドは人気{にんき}を高{たか}めていった。",
+     "meaning_ko": "데뷔곡의 히트를 시작으로 그 밴드는 인기를 높여 갔다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "今回{こんかい}の実験{じっけん}を皮切{かわき}りに、同{おな}じ方法{ほうほう}での検証{けんしょう}が各国{かっこく}で進{すす}められる予定{よてい}だ。",
+     "meaning_ko": "이번 실험을 시작으로 같은 방법의 검증이 각국에서 진행될 예정이다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「東京公演を皮切りに、全国ツアーが行われる」의 뜻은?",
+     "options": [
+      "도쿄 공연을 시작으로 전국 투어가 열린다",
+      "도쿄 공연 때문에 투어가 취소된다",
+      "도쿄 공연을 마지막으로 투어가 끝난다",
+      "도쿄 공연에 걸쳐 투어가 열린다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜を皮切りに는 ‘~을 시작으로’입니다.",
+     "id": "JP-N1-32-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "〜を皮切りに 뒤에 알맞은 문장은?",
+     "options": [
+      "各地で同じ催しが続いた",
+      "その日は早く帰った",
+      "彼は一人で食事をした",
+      "明日の天気は雨だ"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "뒤에는 연속·확대되는 전개가 옵니다.",
+     "id": "JP-N1-32-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「新商品の発売( )、各社が値下げに踏み切った」( )에 알맞은 말은?",
+     "options": [
+      "を皮切りに",
+      "をはじめ",
+      "をめぐって",
+      "にわたって"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "첫 사례를 시작으로 잇따랐으므로 を皮切りに입니다.",
+     "id": "JP-N1-32-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "〜を皮切りに가 나타내는 것은?",
+     "options": [
+      "첫 사례를 시작으로 같은 일이 이어짐",
+      "마지막 사례",
+      "반대·대조",
+      "우연의 일치"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "맨 처음 사건에서 연속 전개로 이어지는 표현입니다.",
+     "id": "JP-N1-32-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「公演」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kouen",
+     "accepted_answers": [
+      "kouen",
+      "koen"
+     ],
+     "explanation_ko": "公演 = こうえん(kouen), ‘공연’입니다.",
+     "id": "JP-N1-32-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「順次」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "junji",
+     "accepted_answers": [
+      "junji",
+      "zyunzi"
+     ],
+     "explanation_ko": "順次 = じゅんじ(junji), ‘차례대로’입니다.",
+     "id": "JP-N1-32-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

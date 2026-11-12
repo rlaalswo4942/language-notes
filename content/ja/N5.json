@@ -6731,6 +6731,228 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N5-32",
+   "day_index": 32,
+   "week_index": 5,
+   "level": "N5",
+   "unit_id": "N5-W05",
+   "lesson_type": "new",
+   "title_ko": "〜の 上・下・中: 위치 말하기",
+   "objective_ko": "上・下・中・前・後ろ・隣을 써서 사물과 사람이 어디에 있는지 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N5-31"
+   ],
+   "explanation_ko": "위치를 나타내는 말은 〈기준이 되는 것〉+ の + 위치 말 + に + あります/います 순서로 씁니다: 机{つくえ}の 上{うえ}に 本{ほん}が あります. 사물은 あります, 사람·동물은 います(11일차). 〜は どこに ありますか(어디에 있어요?)라고 물으면 〜は 〜の 上に あります로 대답합니다. 위치 말 앞에는 반드시 の를 씁니다(机の 上).",
+   "usage_notes": [
+    "기준 + の + 上/下/中/前/後ろ/隣 + に + あります/います.",
+    "물으면 どこに ありますか / いますか.",
+    "〜は를 쓰면 주제 문장: 辞書は 机の 上に あります."
+   ],
+   "common_mistakes": [
+    "机{つくえ}上{うえ}に(X) → 机{つくえ}の 上{うえ}に(O)",
+    "猫{ねこ}が あります(X) → 猫が います(O)",
+    "隣に 友達が あります(X) → 隣に 友達が います(O)"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "上{うえ}",
+     "reading_kana": "うえ",
+     "reading_romanized": "ue",
+     "meaning_ko": "위",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-32-01"
+    },
+    {
+     "kind": "word",
+     "text": "下{した}",
+     "reading_kana": "した",
+     "reading_romanized": "shita",
+     "meaning_ko": "아래",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-32-02"
+    },
+    {
+     "kind": "word",
+     "text": "中{なか}",
+     "reading_kana": "なか",
+     "reading_romanized": "naka",
+     "meaning_ko": "안, 속",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-32-03"
+    },
+    {
+     "kind": "word",
+     "text": "前{まえ}",
+     "reading_kana": "まえ",
+     "reading_romanized": "mae",
+     "meaning_ko": "앞",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-32-04"
+    },
+    {
+     "kind": "word",
+     "text": "後{うし}ろ",
+     "reading_kana": "うしろ",
+     "reading_romanized": "ushiro",
+     "meaning_ko": "뒤",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-32-05"
+    },
+    {
+     "kind": "word",
+     "text": "隣{となり}",
+     "reading_kana": "となり",
+     "reading_romanized": "tonari",
+     "meaning_ko": "옆, 이웃",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-32-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "机{つくえ}の 上{うえ}に 本{ほん}が あります。",
+     "meaning_ko": "책상 위에 책이 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "椅子{いす}の 下{した}に 猫{ねこ}が います。",
+     "meaning_ko": "의자 아래에 고양이가 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "鞄{かばん}の 中{なか}に 財布{さいふ}が あります。",
+     "meaning_ko": "가방 안에 지갑이 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "駅{えき}の 前{まえ}に 銀行{ぎんこう}が あります。",
+     "meaning_ko": "역 앞에 은행이 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "学校{がっこう}の 後{うし}ろに 公園{こうえん}が あります。",
+     "meaning_ko": "학교 뒤에 공원이 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "わたしの 隣{となり}に 友達{ともだち}が います。",
+     "meaning_ko": "제 옆에 친구가 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "辞書{じしょ}は どこに ありますか。",
+     "meaning_ko": "사전은 어디에 있어요?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "辞書{じしょ}は 机{つくえ}の 上{うえ}に あります。",
+     "meaning_ko": "사전은 책상 위에 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "犬{いぬ}は 木{き}の 下{した}に います。",
+     "meaning_ko": "개는 나무 아래에 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "冷蔵庫{れいぞうこ}の 中{なか}に 牛乳{ぎゅうにゅう}が あります。",
+     "meaning_ko": "냉장고 안에 우유가 있어요.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「机の 上に 本が あります」의 뜻은?",
+     "options": [
+      "책상 위에 책이 있어요",
+      "책상 아래에 책이 있어요",
+      "책상 안에 책이 있어요",
+      "책상 앞에 책이 있어요"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "上(うえ)는 ‘위’입니다.",
+     "id": "JP-N5-32-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「가방 안에 지갑이 있어요」를 일본어로 하면?",
+     "options": [
+      "鞄の 中に 財布が あります。",
+      "鞄の 下に 財布が あります。",
+      "鞄の 前に 財布が あります。",
+      "鞄の 後ろに 財布が あります。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘안’은 中(なか)입니다.",
+     "id": "JP-N5-32-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「고양이가 의자 아래에 있어요」: 猫が 椅子の ( ) に います。 ( )에 알맞은 말은?",
+     "options": [
+      "下",
+      "上",
+      "中",
+      "前"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘아래’는 下(した)입니다.",
+     "id": "JP-N5-32-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「隣に 友達が ( )」( )에 알맞은 말은? (친구가 옆에 있어요)",
+     "options": [
+      "います",
+      "あります",
+      "します",
+      "きます"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "사람에는 います를 씁니다.",
+     "id": "JP-N5-32-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「隣」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "tonari",
+     "accepted_answers": [
+      "tonari"
+     ],
+     "explanation_ko": "隣 = となり(tonari), ‘옆’입니다.",
+     "id": "JP-N5-32-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「後ろ」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "ushiro",
+     "accepted_answers": [
+      "ushiro",
+      "usiro"
+     ],
+     "explanation_ko": "後ろ = うしろ(ushiro), ‘뒤’입니다.",
+     "id": "JP-N5-32-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

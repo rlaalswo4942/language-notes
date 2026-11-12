@@ -6088,6 +6088,205 @@
     "version": 1,
     "last_revised": "2026-11-11"
    }
+  },
+  {
+   "id": "B2-032",
+   "level": "B2",
+   "track": "general",
+   "day": 32,
+   "title_ko": "전치사 + 관계대명사: in which / to whom / for which",
+   "objective_ko": "전치사를 관계대명사 앞에 두는 격식체(in which, to whom, for which)를 이해하고 쓴다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-13"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "관계절의 전치사는 관계대명사 앞으로 옮길 수 있습니다(격식체). the house which I grew up in → the house in which I grew up. 사람이면 whom을 씁니다: the man to whom I spoke (the man I spoke to는 구어체). 전치사 바로 뒤에는 who나 that을 쓰지 못하고 which(사물) / whom(사람)만 씁니다. 수량 표현도 가능합니다: most of whom, several of which. 전치사를 문장 끝에 두면 관계대명사를 생략할 수 있어 자연스럽지만, 전치사를 앞에 두면 생략할 수 없습니다.",
+    "common_mistake_ko": "the man to who I spoke(X) → to whom(O) / the house in that I live(X) → in which I live(O) / the house in I grew up(X) → in which I grew up(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "consultant",
+     "part_of_speech": "명사",
+     "meaning_ko": "컨설턴트, 자문가",
+     "example_en": "The consultant to whom we wrote replied quickly.",
+     "example_ko": "우리가 편지를 쓴 컨설턴트가 곧바로 답했어요."
+    },
+    {
+     "word": "initiative",
+     "part_of_speech": "명사",
+     "meaning_ko": "주도적 계획, 진취성",
+     "example_en": "The initiative was launched last year.",
+     "example_ko": "그 사업은 작년에 시작됐어요."
+    },
+    {
+     "word": "criterion",
+     "part_of_speech": "명사",
+     "meaning_ko": "기준",
+     "example_en": "This is the criterion by which we choose.",
+     "example_ko": "이것이 우리가 선택하는 기준이에요."
+    },
+    {
+     "word": "guideline",
+     "part_of_speech": "명사",
+     "meaning_ko": "지침",
+     "example_en": "The guidelines are on the website.",
+     "example_ko": "지침은 웹사이트에 있어요."
+    },
+    {
+     "word": "assessment",
+     "part_of_speech": "명사",
+     "meaning_ko": "평가",
+     "example_en": "The assessment is due on Friday.",
+     "example_ko": "평가는 금요일까지예요."
+    },
+    {
+     "word": "outline",
+     "part_of_speech": "동사",
+     "meaning_ko": "개요를 말하다",
+     "example_en": "She outlined the plan.",
+     "example_ko": "그녀는 계획의 개요를 설명했어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "This is the house in which I grew up.",
+     "ko": "여기가 제가 자란 집이에요."
+    },
+    {
+     "en": "The man to whom I spoke was the manager.",
+     "ko": "제가 말을 건 남자가 매니저였어요."
+    },
+    {
+     "en": "The approach by which the city reduced traffic was a success.",
+     "ko": "그 도시가 교통량을 줄인 방식은 성공이었어요."
+    },
+    {
+     "en": "The woman with whom I work is very experienced.",
+     "ko": "저와 함께 일하는 여성은 경험이 아주 많아요."
+    },
+    {
+     "en": "The applicants, most of whom had degrees, were interviewed.",
+     "ko": "지원자들은 대부분 학위가 있었고, 면접을 봤어요."
+    },
+    {
+     "en": "We discussed the reasons for which the project failed.",
+     "ko": "우리는 그 프로젝트가 실패한 이유들을 논의했어요."
+    },
+    {
+     "en": "The company for which she works is based in Seoul.",
+     "ko": "그녀가 일하는 회사는 서울에 있어요."
+    },
+    {
+     "en": "The house I grew up in is near the sea.",
+     "ko": "제가 자란 집은 바다 근처에 있어요."
+    },
+    {
+     "en": "She is the colleague on whom I rely the most.",
+     "ko": "그녀는 제가 가장 의지하는 동료예요."
+    },
+    {
+     "en": "The proposal, to which several residents objected, was withdrawn.",
+     "ko": "몇몇 주민이 반대한 그 제안은 철회됐어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "The woman ___ I spoke was a lawyer.",
+     "choices": [
+      "to whom",
+      "to who",
+      "whom to",
+      "which to"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "전치사 뒤의 사람 관계대명사는 whom입니다.",
+     "error_tag": "prep-whom",
+     "id": "B2-032-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "This is the room ___ the meeting was held.",
+     "choices": [
+      "in which",
+      "in that",
+      "which in",
+      "in what"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "전치사 + which 형태이며 전치사 뒤에는 that을 쓰지 않습니다.",
+     "error_tag": "prep-which",
+     "id": "B2-032-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "전치사를 관계대명사 앞에 둔 문장은?",
+     "choices": [
+      "The man to whom I gave the key left.",
+      "The man whom I gave the key to left.",
+      "The man who I gave the key to left.",
+      "The man I gave the key to left."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "to whom처럼 전치사가 관계대명사 앞에 있는 것은 첫 번째 문장입니다.",
+     "error_tag": "prep-front",
+     "id": "B2-032-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "The reasons for ___ he resigned are unclear.",
+     "choices": [
+      "which",
+      "that",
+      "who",
+      "whom"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "reasons는 사물이므로 for which입니다.",
+     "error_tag": "prep-which",
+     "id": "B2-032-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: The city in ___ I was born is small.",
+     "answer_text": "which",
+     "accepted_answers": [
+      "which"
+     ],
+     "explanation_ko": "사물(도시)이므로 in which입니다.",
+     "error_tag": "prep-which",
+     "id": "B2-032-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: The colleague with ___ I share the office is kind.",
+     "answer_text": "whom",
+     "accepted_answers": [
+      "whom"
+     ],
+     "explanation_ko": "사람이므로 with whom입니다.",
+     "error_tag": "prep-whom",
+     "id": "B2-032-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "in which 또는 to whom을 사용해 격식 있는 문장 두 개를 영어로 써 보세요.",
+    "example_answer_en": "This is the office in which I work. The person to whom I report is Ms. Lee.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-13",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-13"
+   }
   }
  ]
 }

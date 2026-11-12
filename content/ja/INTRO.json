@@ -7597,6 +7597,172 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전"
+  },
+  {
+   "id": "JP-INTRO-56",
+   "day_index": 56,
+   "week_index": 8,
+   "level": "INTRO",
+   "unit_id": "INTRO-W08",
+   "lesson_type": "checkpoint",
+   "title_ko": "입문 8주 점검: 인사말·가타카나 단어·숫자",
+   "objective_ko": "8주 동안 배운 히라가나·가타카나로 쓴 인사말, 외래어 단어, 숫자를 읽고 뜻과 연결한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-INTRO-55"
+   ],
+   "new_items": [],
+   "examples": [
+    {
+     "japanese": "こんにちは",
+     "reading_romanized": "konnichiwa",
+     "meaning_ko": "안녕하세요 (낮 인사)",
+     "explanation_ko": "끝의 は는 wa로 읽습니다."
+    },
+    {
+     "japanese": "ありがとう",
+     "reading_romanized": "arigatou",
+     "meaning_ko": "고마워요",
+     "explanation_ko": "う는 길게 읽습니다."
+    },
+    {
+     "japanese": "バス",
+     "reading_romanized": "basu",
+     "meaning_ko": "버스",
+     "explanation_ko": "バ(ba) + ス(su)입니다."
+    },
+    {
+     "japanese": "パン",
+     "reading_romanized": "pan",
+     "meaning_ko": "빵",
+     "explanation_ko": "パ는 ハ에 반탁점이 붙은 글자이고 ン은 n입니다."
+    },
+    {
+     "japanese": "コーヒー",
+     "reading_romanized": "koohii",
+     "meaning_ko": "커피",
+     "explanation_ko": "ー는 앞 글자의 모음을 길게 늘입니다."
+    },
+    {
+     "japanese": "ピザ",
+     "reading_romanized": "piza",
+     "meaning_ko": "피자",
+     "explanation_ko": "ピ(pi) + ザ(za)입니다."
+    },
+    {
+     "japanese": "ごはん",
+     "reading_romanized": "gohan",
+     "meaning_ko": "밥",
+     "explanation_ko": "여기서 は는 조사가 아니라 단어의 일부이므로 ha로 읽습니다."
+    },
+    {
+     "japanese": "さん",
+     "reading_romanized": "san",
+     "meaning_ko": "3 (삼)",
+     "explanation_ko": "숫자 3입니다."
+    },
+    {
+     "japanese": "ろく",
+     "reading_romanized": "roku",
+     "meaning_ko": "6 (육)",
+     "explanation_ko": "숫자 6입니다."
+    },
+    {
+     "japanese": "じゅう",
+     "reading_romanized": "juu",
+     "meaning_ko": "10 (십)",
+     "explanation_ko": "じゅ는 작은 ゅ가 붙은 요음이며 う로 길게 읽습니다."
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「バス」의 뜻은?",
+     "options": [
+      "버스",
+      "빵",
+      "피자",
+      "커피"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "バス(basu)는 버스입니다.",
+     "id": "JP-INTRO-56-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「ありがとう」는 언제 쓰는 말인가요?",
+     "options": [
+      "고마울 때",
+      "아침에 만났을 때",
+      "헤어질 때",
+      "사과할 때"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ありがとう(arigatou)는 고마움을 말하는 인사입니다.",
+     "id": "JP-INTRO-56-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「ろく」는 어떤 숫자인가요?",
+     "options": [
+      "6",
+      "7",
+      "9",
+      "10"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ろく(roku)는 6입니다.",
+     "id": "JP-INTRO-56-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「コーヒー」의 읽기를 고르세요.",
+     "options": [
+      "koohii",
+      "kohi",
+      "kofi",
+      "koohi"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "コー(koo) + ヒー(hii)로 koohii입니다.",
+     "id": "JP-INTRO-56-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「ピザ」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "piza",
+     "accepted_answers": [
+      "piza",
+      "pizza"
+     ],
+     "explanation_ko": "ピザ = piza (피자)",
+     "id": "JP-INTRO-56-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「ごはん」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "gohan",
+     "accepted_answers": [
+      "gohan"
+     ],
+     "explanation_ko": "ごはん = gohan (밥). は는 여기서 ha로 읽습니다.",
+     "id": "JP-INTRO-56-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_HIRAGANA",
+    "JF_KATAKANA"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전"
   }
  ]
 }

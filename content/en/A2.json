@@ -6091,6 +6091,206 @@
     "version": 1,
     "last_revised": "2026-11-11"
    }
+  },
+  {
+   "id": "A2-032",
+   "level": "A2",
+   "track": "foundation",
+   "day": 32,
+   "title_ko": "정도 부사: very / really / quite / a bit / not very",
+   "objective_ko": "형용사와 부사 앞에 정도 부사를 써서 '매우·정말·꽤·조금·그다지 ~않은'을 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-13"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "정도 부사는 형용사·부사 앞에서 정도를 나타냅니다. very(매우) > really(정말) / quite(꽤) > a bit(조금). 부정으로 not very를 쓰면 '그다지 ~하지 않은'이 됩니다: The room isn't very big. 이 말들은 형용사·부사 앞에 놓습니다: very hot, really good, quite expensive, a bit tired. 동사를 꾸밀 때는 very를 동사 앞에 바로 쓰지 않고 I like it very much.처럼 쓰거나 really를 씁니다: I really like it.",
+    "common_mistake_ko": "I very like this song.(X) → I like this song very much.(O) / The room is very not big.(X) → The room isn't very big.(O) / I'm tired a bit.(X) → I'm a bit tired.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "peaceful",
+     "part_of_speech": "형용사",
+     "meaning_ko": "평화로운, 조용한",
+     "example_en": "The park is very peaceful.",
+     "example_ko": "그 공원은 아주 평화로워요."
+    },
+    {
+     "word": "cozy",
+     "part_of_speech": "형용사",
+     "meaning_ko": "아늑한",
+     "example_en": "The room is quite cozy.",
+     "example_ko": "그 방은 꽤 아늑해요."
+    },
+    {
+     "word": "lively",
+     "part_of_speech": "형용사",
+     "meaning_ko": "활기찬",
+     "example_en": "The street is really lively at night.",
+     "example_ko": "그 거리는 밤에 정말 활기차요."
+    },
+    {
+     "word": "dusty",
+     "part_of_speech": "형용사",
+     "meaning_ko": "먼지투성이의",
+     "example_en": "The shelf is a bit dusty.",
+     "example_ko": "선반이 조금 먼지투성이예요."
+    },
+    {
+     "word": "tasty",
+     "part_of_speech": "형용사",
+     "meaning_ko": "맛있는",
+     "example_en": "The bread is quite tasty.",
+     "example_ko": "그 빵은 꽤 맛있어요."
+    },
+    {
+     "word": "gloomy",
+     "part_of_speech": "형용사",
+     "meaning_ko": "우울한, 어두침침한",
+     "example_en": "The weather is not very gloomy today.",
+     "example_ko": "오늘 날씨는 그다지 우중충하지 않아요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "This soup is very hot.",
+     "ko": "이 수프는 매우 뜨거워요."
+    },
+    {
+     "en": "The movie was really good.",
+     "ko": "그 영화는 정말 좋았어요."
+    },
+    {
+     "en": "The hotel is quite expensive.",
+     "ko": "그 호텔은 꽤 비싸요."
+    },
+    {
+     "en": "I'm a bit tired today.",
+     "ko": "저는 오늘 조금 피곤해요."
+    },
+    {
+     "en": "The room isn't very big.",
+     "ko": "그 방은 그다지 크지 않아요."
+    },
+    {
+     "en": "He speaks very slowly.",
+     "ko": "그는 아주 천천히 말해요."
+    },
+    {
+     "en": "The market was really crowded on Sunday.",
+     "ko": "일요일에 시장이 정말 붐볐어요."
+    },
+    {
+     "en": "I like this song very much.",
+     "ko": "저는 이 노래를 매우 좋아해요."
+    },
+    {
+     "en": "The test was quite difficult, but I passed.",
+     "ko": "시험은 꽤 어려웠지만 저는 통과했어요."
+    },
+    {
+     "en": "It's a bit noisy here.",
+     "ko": "여기는 조금 시끄러워요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "\"그 방은 그다지 크지 않아요.\"를 영어로 하면?",
+     "choices": [
+      "The room isn't very big.",
+      "The room is very not big.",
+      "The room not very big is.",
+      "The room isn't very bigly."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "not very는 be동사 뒤에서 isn't very + 형용사로 씁니다.",
+     "error_tag": "degree-adverb-order",
+     "id": "A2-032-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "\"나는 이 노래를 매우 좋아해요.\"를 영어로 하면?",
+     "choices": [
+      "I like this song very much.",
+      "I very like this song.",
+      "I like very this song.",
+      "I like this song very."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "very는 동사를 바로 꾸미지 않습니다. 동사 문장에서는 very much를 뒤에 붙입니다.",
+     "error_tag": "very-much",
+     "id": "A2-032-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "The soup is ___ hot. I can't drink it.",
+     "choices": [
+      "very",
+      "many",
+      "much",
+      "a lot"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "형용사 hot 앞에는 very를 씁니다. many/much/a lot은 형용사 앞에 직접 쓰지 않습니다.",
+     "error_tag": "degree-adverb",
+     "id": "A2-032-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "\"I'm a bit tired.\"의 뜻은?",
+     "choices": [
+      "조금 피곤해요",
+      "매우 피곤해요",
+      "전혀 피곤하지 않아요",
+      "피곤해졌어요"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "a bit은 '조금'입니다.",
+     "error_tag": "meaning",
+     "id": "A2-032-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: The hotel is ___ expensive. (꽤)",
+     "answer_text": "quite",
+     "accepted_answers": [
+      "quite"
+     ],
+     "explanation_ko": "'꽤'는 quite이고 형용사 앞에 옵니다.",
+     "error_tag": "degree-adverb",
+     "id": "A2-032-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 두 단어를 쓰세요: I'm ___ ___ tired. (조금)",
+     "answer_text": "a bit",
+     "accepted_answers": [
+      "a bit",
+      "a little"
+     ],
+     "explanation_ko": "'조금'은 a bit(또는 a little)입니다.",
+     "error_tag": "degree-adverb",
+     "id": "A2-032-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "오늘 날씨나 내 방에 대해 정도 부사를 하나 이상 써서 영어 문장 두 개를 써 보세요.",
+    "example_answer_en": "Today is quite cold. My room is a bit noisy.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-13",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-13"
+   }
   }
  ]
 }

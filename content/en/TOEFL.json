@@ -4800,6 +4800,205 @@
     "version": 1,
     "last_revised": "2026-11-11"
    }
+  },
+  {
+   "id": "TOEFL-026",
+   "level": "B1",
+   "track": "toefl",
+   "day": 26,
+   "title_ko": "TOEFL 2026 Listen to an Academic Talk 2: 정의·예시·장단점 찾기",
+   "objective_ko": "짧은 강의 글에서 주제, 정의(A is ...), 예시(For instance), 장점과 한계(However)를 구별해 찾는다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/content/ets-org/language-master/ko/home/toefl/test-takers/ibt/about/content.html",
+     "publisher": "ETS",
+     "supports": "2026 형식 유형명",
+     "checked_at": "2026-11-13"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "2026-01-21 이후 TOEFL iBT Listening에는 Listen to an Academic Talk 유형이 안내되어 있습니다(공식 안내 유형명). 이 사이트는 소리가 없으므로 아래는 짧은 강의를 글로 읽는 비공식 자체 연습입니다. 이번에는 장점과 한계를 함께 다루는 강의입니다. ① 주제: Today I want to talk about ... 뒤에 나옵니다. ② 정의: A green roof is ... 처럼 'A is B' 문장입니다. ③ 예시: For instance 뒤에 나오며 주제가 아니라 설명하는 사례입니다. ④ 장점: One benefit is ... / Another benefit is ... ⑤ 한계: However 뒤에 나오는 문제점. 점수를 예측하는 자료가 아닙니다.",
+    "common_mistake_ko": "예시(학교의 옥상)를 강의 주제로 착각하는 실수 → 주제는 green roofs입니다. / 장점과 한계(However 뒤)를 섞어 고르는 실수 → 질문이 장점을 묻는지 한계를 묻는지 먼저 확인합니다."
+   },
+   "vocabulary": [
+    {
+     "word": "absorb",
+     "part_of_speech": "동사",
+     "meaning_ko": "흡수하다",
+     "example_en": "Plants absorb rainwater.",
+     "example_ko": "식물은 빗물을 흡수해요."
+    },
+    {
+     "word": "limitation",
+     "part_of_speech": "명사",
+     "meaning_ko": "한계, 제한",
+     "example_en": "One limitation is the weight.",
+     "example_ko": "한 가지 한계는 무게예요."
+    },
+    {
+     "word": "flat",
+     "part_of_speech": "형용사",
+     "meaning_ko": "평평한",
+     "example_en": "The school has a flat roof.",
+     "example_ko": "그 학교는 평평한 지붕이 있어요."
+    },
+    {
+     "word": "partly",
+     "part_of_speech": "부사",
+     "meaning_ko": "부분적으로",
+     "example_en": "The roof is partly covered with grass.",
+     "example_ko": "지붕은 부분적으로 풀로 덮여 있어요."
+    },
+    {
+     "word": "plant",
+     "part_of_speech": "동사",
+     "meaning_ko": "심다",
+     "example_en": "They planted flowers on the roof.",
+     "example_ko": "그들은 지붕에 꽃을 심었어요."
+    },
+    {
+     "word": "structure",
+     "part_of_speech": "명사",
+     "meaning_ko": "구조(물)",
+     "example_en": "The structure must be strong.",
+     "example_ko": "그 구조물은 튼튼해야 해요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Today I want to talk about green roofs.",
+     "ko": "오늘은 녹색 지붕(옥상 녹화)에 대해 이야기하려고 해요."
+    },
+    {
+     "en": "A green roof is a roof that is partly or completely covered with plants.",
+     "ko": "녹색 지붕은 부분적으로 또는 전체가 식물로 덮인 지붕이에요."
+    },
+    {
+     "en": "For instance, a school in our city planted grass and small flowers on its flat roof.",
+     "ko": "예를 들어 우리 도시의 한 학교는 평평한 지붕에 풀과 작은 꽃을 심었어요."
+    },
+    {
+     "en": "One benefit is that the plants absorb rainwater.",
+     "ko": "한 가지 이점은 식물이 빗물을 흡수한다는 거예요."
+    },
+    {
+     "en": "Less water runs into the streets.",
+     "ko": "거리로 흘러 들어가는 물이 줄어요."
+    },
+    {
+     "en": "Another benefit is that the roof stays cooler in summer.",
+     "ko": "또 다른 이점은 여름에 지붕이 더 시원하게 유지된다는 거예요."
+    },
+    {
+     "en": "However, green roofs are heavy.",
+     "ko": "하지만 녹색 지붕은 무거워요."
+    },
+    {
+     "en": "A building must be strong enough to support one.",
+     "ko": "건물은 그것을 지탱할 만큼 튼튼해야 해요."
+    },
+    {
+     "en": "Next time, we will look at the cost.",
+     "ko": "다음 시간에는 비용을 살펴볼 거예요."
+    },
+    {
+     "en": "Listen for the topic first, then the definition, the example, and the benefits.",
+     "ko": "먼저 주제를 듣고, 그다음 정의·예시·이점을 들으세요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "강의(글로 읽는 연습): Professor: 'Last time we discussed urban heat. Today I want to talk about green roofs. A green roof is a roof that is partly or completely covered with plants. For instance, a school in our city planted grass and small flowers on its flat roof. One benefit is that the plants absorb rainwater, so less water runs into the streets. Another benefit is that the roof stays cooler in summer. However, green roofs are heavy, so a building must be strong enough to support one. Next time, we will look at the cost.' — 이 강의의 주제는?",
+     "choices": [
+      "Green roofs and their benefits",
+      "The history of urban heat",
+      "How schools teach science",
+      "The cost of buildings"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Today I want to talk about green roofs가 주제입니다. 비용은 다음 시간에 다룹니다.",
+     "error_tag": "lecture-topic",
+     "id": "TOEFL-026-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "강의(글로 읽는 연습): Professor: 'Last time we discussed urban heat. Today I want to talk about green roofs. A green roof is a roof that is partly or completely covered with plants. For instance, a school in our city planted grass and small flowers on its flat roof. One benefit is that the plants absorb rainwater, so less water runs into the streets. Another benefit is that the roof stays cooler in summer. However, green roofs are heavy, so a building must be strong enough to support one. Next time, we will look at the cost.' — 교수가 말한 green roof의 정의는?",
+     "choices": [
+      "A roof partly or completely covered with plants",
+      "A roof painted green",
+      "A roof made of glass",
+      "A roof used only by schools"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "A green roof is a roof that is partly or completely covered with plants.",
+     "error_tag": "lecture-definition",
+     "id": "TOEFL-026-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "강의(글로 읽는 연습): Professor: 'Last time we discussed urban heat. Today I want to talk about green roofs. A green roof is a roof that is partly or completely covered with plants. For instance, a school in our city planted grass and small flowers on its flat roof. One benefit is that the plants absorb rainwater, so less water runs into the streets. Another benefit is that the roof stays cooler in summer. However, green roofs are heavy, so a building must be strong enough to support one. Next time, we will look at the cost.' — 교수가 말한 이점으로 알맞은 것은?",
+     "choices": [
+      "Plants absorb rainwater, so less water runs into the streets",
+      "The building becomes lighter",
+      "The roof costs less than a normal roof",
+      "The building becomes taller"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "One benefit is that the plants absorb rainwater ... 가 해당합니다. 나머지는 강의에 없습니다.",
+     "error_tag": "lecture-benefit",
+     "id": "TOEFL-026-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "강의(글로 읽는 연습): Professor: 'Last time we discussed urban heat. Today I want to talk about green roofs. A green roof is a roof that is partly or completely covered with plants. For instance, a school in our city planted grass and small flowers on its flat roof. One benefit is that the plants absorb rainwater, so less water runs into the streets. Another benefit is that the roof stays cooler in summer. However, green roofs are heavy, so a building must be strong enough to support one. Next time, we will look at the cost.' — 교수가 말한 한계(문제점)는?",
+     "choices": [
+      "Green roofs are heavy, so the building must be strong enough",
+      "Green roofs are always too hot",
+      "Green roofs need no water",
+      "Green roofs cannot be planted in cities"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "However 뒤에서 green roofs are heavy라고 말합니다.",
+     "error_tag": "lecture-limit",
+     "id": "TOEFL-026-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "강의(글로 읽는 연습): Professor: 'Last time we discussed urban heat. Today I want to talk about green roofs. A green roof is a roof that is partly or completely covered with plants. For instance, a school in our city planted grass and small flowers on its flat roof. One benefit is that the plants absorb rainwater, so less water runs into the streets. Another benefit is that the roof stays cooler in summer. However, green roofs are heavy, so a building must be strong enough to support one. Next time, we will look at the cost.' — 빈칸에 알맞은 한 단어를 쓰세요: The roof stays ___ in summer. (더 시원한)",
+     "answer_text": "cooler",
+     "accepted_answers": [
+      "cooler"
+     ],
+     "explanation_ko": "the roof stays cooler in summer라고 말합니다.",
+     "error_tag": "lecture-detail",
+     "id": "TOEFL-026-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "강의(글로 읽는 연습): Professor: 'Last time we discussed urban heat. Today I want to talk about green roofs. A green roof is a roof that is partly or completely covered with plants. For instance, a school in our city planted grass and small flowers on its flat roof. One benefit is that the plants absorb rainwater, so less water runs into the streets. Another benefit is that the roof stays cooler in summer. However, green roofs are heavy, so a building must be strong enough to support one. Next time, we will look at the cost.' — 빈칸에 알맞은 한 단어를 쓰세요: 'For ___' (예를 들어) 라고 교수가 예시를 소개했습니다.",
+     "answer_text": "instance",
+     "accepted_answers": [
+      "instance"
+     ],
+     "explanation_ko": "교수는 For instance로 예시를 소개했습니다. For example과 같은 뜻입니다.",
+     "error_tag": "example-signal",
+     "id": "TOEFL-026-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "green roof 같은 주제 하나를 정해 'X is ...'와 'For instance, ...' 문장을 영어로 써 보세요.",
+    "example_answer_en": "A rain garden is a small garden that collects rainwater. For instance, a school built one next to its parking lot.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-13",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-13"
+   }
   }
  ]
 }

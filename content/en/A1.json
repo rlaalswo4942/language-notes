@@ -6115,6 +6115,205 @@
     "version": 1,
     "last_revised": "2026-11-11"
    }
+  },
+  {
+   "id": "A1-032",
+   "level": "A1",
+   "track": "foundation",
+   "day": 32,
+   "title_ko": "현재진행형 의문문과 부정문: Are you -ing? / I'm not -ing",
+   "objective_ko": "현재진행형으로 지금 하는 일을 묻고(Are you ...ing?), 부정하고(isn't / aren't / I'm not), 짧게 대답한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-13"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "현재진행형(be + -ing)의 의문문은 be동사를 주어 앞으로 보냅니다: You are waiting. → Are you waiting? 부정문은 be동사 뒤에 not을 둡니다: She is not cooking. = She isn't cooking. (I am not → I'm not, you/we/they are not → aren't). 짧은 대답은 be동사로 합니다: Yes, I am. / No, she isn't. 의문사는 맨 앞에 둡니다: What are you doing? Why are they shouting?",
+    "common_mistake_ko": "Do you waiting for the bus?(X) → Are you waiting for the bus?(O) / She isn't cooks.(X) → She isn't cooking.(O) / No, I don't.(X) → No, I'm not.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "knock",
+     "part_of_speech": "동사",
+     "meaning_ko": "두드리다, 노크하다",
+     "example_en": "Someone is knocking on the door.",
+     "example_ko": "누가 문을 두드리고 있어요."
+    },
+    {
+     "word": "wave",
+     "part_of_speech": "동사",
+     "meaning_ko": "손을 흔들다",
+     "example_en": "Is he waving at us?",
+     "example_ko": "그가 우리에게 손을 흔들고 있어요?"
+    },
+    {
+     "word": "whisper",
+     "part_of_speech": "동사",
+     "meaning_ko": "속삭이다",
+     "example_en": "They are whispering in class.",
+     "example_ko": "그들은 수업 중에 속삭이고 있어요."
+    },
+    {
+     "word": "stir",
+     "part_of_speech": "동사",
+     "meaning_ko": "젓다",
+     "example_en": "She is stirring the soup.",
+     "example_ko": "그녀는 수프를 젓고 있어요."
+    },
+    {
+     "word": "sweep",
+     "part_of_speech": "동사",
+     "meaning_ko": "쓸다",
+     "example_en": "He isn't sweeping the floor.",
+     "example_ko": "그는 바닥을 쓸고 있지 않아요."
+    },
+    {
+     "word": "peel",
+     "part_of_speech": "동사",
+     "meaning_ko": "껍질을 벗기다",
+     "example_en": "Are you peeling an apple?",
+     "example_ko": "사과 껍질을 벗기고 있어요?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Are you waiting for the bus?",
+     "ko": "버스를 기다리고 있어요?"
+    },
+    {
+     "en": "Yes, I am.",
+     "ko": "네, 그래요."
+    },
+    {
+     "en": "No, I'm not. I'm waiting for my friend.",
+     "ko": "아니요. 친구를 기다리고 있어요."
+    },
+    {
+     "en": "Is she cooking dinner?",
+     "ko": "그녀는 저녁을 요리하고 있어요?"
+    },
+    {
+     "en": "No, she isn't. She is cleaning the kitchen.",
+     "ko": "아니요. 그녀는 부엌을 청소하고 있어요."
+    },
+    {
+     "en": "They aren't listening to the teacher.",
+     "ko": "그들은 선생님 말씀을 듣고 있지 않아요."
+    },
+    {
+     "en": "What are you painting?",
+     "ko": "무엇을 그리고 있어요?"
+    },
+    {
+     "en": "He is carrying a heavy box.",
+     "ko": "그는 무거운 상자를 나르고 있어요."
+    },
+    {
+     "en": "Why are the children shouting?",
+     "ko": "아이들은 왜 소리치고 있어요?"
+    },
+    {
+     "en": "I am not sleeping. I am reading a book.",
+     "ko": "저는 자고 있지 않아요. 책을 읽고 있어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "그녀는 요리하고 있나요?",
+     "choices": [
+      "Is she cooking?",
+      "Is she cook?",
+      "Does she cooking?",
+      "Are she cooking?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "현재진행형 의문문은 Is + 주어 + -ing입니다.",
+     "error_tag": "progressive-question",
+     "id": "A1-032-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "They ___ listening to the teacher. (부정)",
+     "choices": [
+      "aren't",
+      "don't",
+      "isn't",
+      "not"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "they에는 are를 쓰므로 aren't + -ing입니다.",
+     "error_tag": "progressive-negative",
+     "id": "A1-032-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Are you waiting for the bus? — No, ___.",
+     "choices": [
+      "I'm not",
+      "I don't",
+      "I am no",
+      "I isn't"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "be동사 질문에는 be동사로 대답합니다. I am not → I'm not.",
+     "error_tag": "short-answer",
+     "id": "A1-032-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "What ___ you doing?",
+     "choices": [
+      "are",
+      "is",
+      "do",
+      "does"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "you 뒤에는 are가 옵니다. What are you doing?",
+     "error_tag": "wh-progressive",
+     "id": "A1-032-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Is he ___ a heavy box? (carry)",
+     "answer_text": "carrying",
+     "accepted_answers": [
+      "carrying"
+     ],
+     "explanation_ko": "be동사 뒤에는 -ing형입니다. carry → carrying (y 앞이 자음이라도 carry는 그대로 -ing).",
+     "error_tag": "ing-form",
+     "id": "A1-032-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: She is not ___ dinner. (cook)",
+     "answer_text": "cooking",
+     "accepted_answers": [
+      "cooking"
+     ],
+     "explanation_ko": "is not 뒤에도 -ing형이 옵니다.",
+     "error_tag": "ing-form",
+     "id": "A1-032-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "지금 하고 있는 일을 묻는 질문 하나와 그 대답(짧은 대답 + 한 문장)을 영어로 써 보세요.",
+    "example_answer_en": "Are you reading a book? No, I'm not. I'm listening to music.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-13",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-13"
+   }
   }
  ]
 }

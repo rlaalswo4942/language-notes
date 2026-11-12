@@ -6686,6 +6686,227 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-32",
+   "day_index": 32,
+   "week_index": 5,
+   "level": "N2",
+   "unit_id": "N2-W05",
+   "lesson_type": "new",
+   "title_ko": "〜ことから: ~라는 점에서 (근거·유래)",
+   "objective_ko": "〜ことから로 앞의 사실을 근거로 한 판단과, 이름·말의 유래를 설명한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-31"
+   ],
+   "explanation_ko": "〜ことから는 ‘앞의 사실을 근거(이유)로 뒤의 판단·명칭이 나왔다’는 뜻의 문어적 표현입니다. ① 판단의 근거: 足跡{あしあと}が窓{まど}の外{そと}にあったことから、犯人{はんにん}は外{そと}から入{はい}ったと推測{すいそく}された. ② 이름·유래: 桜{さくら}の木{き}が多{おお}いことから、桜通{さくらどお}りと呼{よ}ばれている. 접속은 보통형 + ことから이고, な형용사·명사는 〜であることから로 씁니다. 뒤에는 〜と思{おも}われる・〜と判断{はんだん}された・〜と呼{よ}ばれる처럼 판단이나 명칭을 나타내는 문장이 오고, 의뢰·명령·의지는 오기 어렵습니다.",
+   "usage_notes": [
+    "보통형 + ことから: 앞이 근거, 뒤가 판단·명칭·결과.",
+    "유래 설명: 〜ことから、〜と呼ばれている / 〜という名前がついた.",
+    "뒤에 의뢰·명령·의지 표현은 쓰지 않는다."
+   ],
+   "common_mistakes": [
+    "桜が多いことで、桜通りと呼ばれる(X, 어감이 약함) → 桜が多いことから(O)",
+    "〜ことから、〜てください(X) → 판단·명칭 문장으로 끝낸다",
+    "足跡があったことから、犯人は入っただろう(O) / 入りたい(X)"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "足跡{あしあと}",
+     "reading_kana": "あしあと",
+     "reading_romanized": "ashiato",
+     "meaning_ko": "발자국",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-32-01"
+    },
+    {
+     "kind": "word",
+     "text": "由来{ゆらい}",
+     "reading_kana": "ゆらい",
+     "reading_romanized": "yurai",
+     "meaning_ko": "유래",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N2-32-02"
+    },
+    {
+     "kind": "word",
+     "text": "推測{すいそく}",
+     "reading_kana": "すいそく",
+     "reading_romanized": "suisoku",
+     "meaning_ko": "추측",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N2-32-03"
+    },
+    {
+     "kind": "word",
+     "text": "地名{ちめい}",
+     "reading_kana": "ちめい",
+     "reading_romanized": "chimei",
+     "meaning_ko": "지명",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-32-04"
+    },
+    {
+     "kind": "word",
+     "text": "判断{はんだん}",
+     "reading_kana": "はんだん",
+     "reading_romanized": "handan",
+     "meaning_ko": "판단",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N2-32-05"
+    },
+    {
+     "kind": "word",
+     "text": "行列{ぎょうれつ}",
+     "reading_kana": "ぎょうれつ",
+     "reading_romanized": "gyouretsu",
+     "meaning_ko": "행렬, 줄",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-32-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "この道{みち}は桜{さくら}の木{き}が多{おお}いことから、桜通{さくらどお}りと呼{よ}ばれている。",
+     "meaning_ko": "이 길은 벚나무가 많다는 점에서 벚꽃길이라고 불린다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "足跡{あしあと}が窓{まど}の外{そと}にあったことから、犯人{はんにん}は外{そと}から入{はい}ったと推測{すいそく}された。",
+     "meaning_ko": "발자국이 창밖에 있었다는 점에서 범인은 밖에서 들어왔다고 추측되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この町{まち}は川{かわ}が三{みっ}つ合流{ごうりゅう}することから、三川町{さんかわちょう}と名付{なづ}けられた。",
+     "meaning_ko": "이 마을은 강 세 개가 합류한다는 점에서 산카와초라고 이름 지어졌다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "山頂{さんちょう}から富士山{ふじさん}が見{み}えることから、「富士見台{ふじみだい}」という地名{ちめい}がついた。",
+     "meaning_ko": "산 정상에서 후지산이 보인다는 점에서 ‘후지미다이’라는 지명이 붙었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼女{かのじょ}は毎朝{まいあさ}早{はや}く出社{しゅっしゃ}していることから、まじめな人{ひと}だと判断{はんだん}された。",
+     "meaning_ko": "그녀는 매일 아침 일찍 출근한다는 점에서 성실한 사람이라고 판단되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "売{う}れ行{ゆ}きが急{きゅう}に伸{の}びたことから、新{あたら}しい広告{こうこく}の効果{こうか}があったと考{かんが}えられる。",
+     "meaning_ko": "판매가 갑자기 늘었다는 점에서 새 광고의 효과가 있었다고 생각된다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "会場{かいじょう}に傘{かさ}が多{おお}かったことから、朝{あさ}は雨{あめ}だったと分{わ}かった。",
+     "meaning_ko": "회장에 우산이 많았던 것으로 보아 아침에는 비가 왔다는 것을 알았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "店{みせ}の前{まえ}に長{なが}い行列{ぎょうれつ}ができていることから、人気{にんき}のある店{みせ}だと思{おも}われる。",
+     "meaning_ko": "가게 앞에 긴 줄이 생겨 있는 점에서 인기 있는 가게라고 생각된다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この橋{はし}は形{かたち}が弓{ゆみ}に似{に}ていることから、弓橋{ゆみばし}と呼{よ}ばれる。",
+     "meaning_ko": "이 다리는 모양이 활을 닮았다는 점에서 유미바시라고 불린다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "駅名{えきめい}の由来{ゆらい}は、昔{むかし}そこに市場{いちば}があったことから来{き}ている。",
+     "meaning_ko": "역 이름의 유래는 옛날에 그곳에 시장이 있었다는 점에서 온 것이다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「桜の木が多いことから、桜通りと呼ばれている」에서 桜通り라고 불리는 이유는?",
+     "options": [
+      "벚나무가 많기 때문",
+      "벚꽃 축제가 있기 때문",
+      "길이 넓기 때문",
+      "옛날에 시장이 있었기 때문"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜ことから 앞이 이름의 근거입니다.",
+     "id": "JP-N2-32-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "〜ことから의 뜻으로 알맞은 것은?",
+     "options": [
+      "앞의 사실을 근거로 한 판단·명칭",
+      "앞으로의 의지",
+      "반대의 결과",
+      "동시 동작"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "앞의 사실이 뒤 판단·명칭의 근거가 됩니다.",
+     "id": "JP-N2-32-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「足跡が窓の外にあった( )、犯人は外から入ったと推測された」( )에 알맞은 말은?",
+     "options": [
+      "ことから",
+      "ことなく",
+      "ことだけ",
+      "ことに"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "근거를 나타내는 〜ことから가 알맞습니다.",
+     "id": "JP-N2-32-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "〜ことから의 뒤에 오기 어려운 문장은?",
+     "options": [
+      "〜てください (의뢰)",
+      "〜と呼ばれる",
+      "〜と判断された",
+      "〜と思われる"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜ことから 뒤에는 의뢰·명령이 아니라 판단이나 명칭이 옵니다.",
+     "id": "JP-N2-32-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「由来」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "yurai",
+     "accepted_answers": [
+      "yurai"
+     ],
+     "explanation_ko": "由来 = ゆらい(yurai), ‘유래’입니다.",
+     "id": "JP-N2-32-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「推測」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "suisoku",
+     "accepted_answers": [
+      "suisoku"
+     ],
+     "explanation_ko": "推測 = すいそく(suisoku), ‘추측’입니다.",
+     "id": "JP-N2-32-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

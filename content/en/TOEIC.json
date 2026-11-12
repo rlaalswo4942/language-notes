@@ -4837,6 +4837,205 @@
     "version": 1,
     "last_revised": "2026-11-11"
    }
+  },
+  {
+   "id": "TOEIC-026",
+   "level": "B1",
+   "track": "toeic",
+   "day": 26,
+   "title_ko": "TOEIC Part 7: 광고문에서 기간·조건·할인 정보 찾기",
+   "objective_ko": "광고문에서 기간(날짜), 조건(금액), 제한(쿠폰·재고)을 구별해 질문에 맞는 정보를 찾는다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/toeic/about/listening-reading.html",
+     "publisher": "ETS",
+     "supports": "공식 시험 형식",
+     "checked_at": "2026-11-13"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "TOEIC L&R Part 7에는 광고(advertisement)가 자주 나옵니다. 아래는 자체 제작한 짧은 광고로 읽는 순서를 연습합니다. ① 제목에서 무엇을 파는지·행사 이름을 확인합니다. ② 기간은 from ... to ... / valid until / through 뒤에서 찾습니다. ③ 조건은 over $60, $40 or more, at least처럼 금액·수량 표현 뒤에 있습니다. ④ 제한은 while supplies last(재고가 있는 동안), cannot be combined with ..., not valid 뒤에 나옵니다. ⑤ 질문과 보기는 다른 말로 바뀔 수 있으니 의미로 대조합니다. TOEIC L&R 형식을 참고한 자체 제작 연습이며 ETS 공식 문항이 아닙니다.",
+    "common_mistake_ko": "$40 조건과 $60 조건을 서로 바꿔 읽는 실수 → 무료 가방은 $40 이상, 무료 배송은 $60 초과입니다. / 'cannot be combined'를 '함께 쓸 수 있다'로 읽는 실수 / 행사 시작일을 종료일로 고르는 실수"
+   },
+   "vocabulary": [
+    {
+     "word": "valid",
+     "part_of_speech": "형용사",
+     "meaning_ko": "유효한",
+     "example_en": "This coupon is valid until May 31.",
+     "example_ko": "이 쿠폰은 5월 31일까지 유효합니다."
+    },
+    {
+     "word": "complimentary",
+     "part_of_speech": "형용사",
+     "meaning_ko": "무료의",
+     "example_en": "Complimentary coffee is available.",
+     "example_ko": "무료 커피가 제공됩니다."
+    },
+    {
+     "word": "purchase",
+     "part_of_speech": "명사/동사",
+     "meaning_ko": "구매(하다)",
+     "example_en": "Proof of purchase is required.",
+     "example_ko": "구매 증빙이 필요합니다."
+    },
+    {
+     "word": "redeem",
+     "part_of_speech": "동사",
+     "meaning_ko": "(쿠폰을) 사용하다, 교환하다",
+     "example_en": "You can redeem the coupon online.",
+     "example_ko": "쿠폰은 온라인에서 사용할 수 있습니다."
+    },
+    {
+     "word": "expire",
+     "part_of_speech": "동사",
+     "meaning_ko": "만료되다",
+     "example_en": "The offer will expire on Friday.",
+     "example_ko": "이 혜택은 금요일에 만료됩니다."
+    },
+    {
+     "word": "coupon",
+     "part_of_speech": "명사",
+     "meaning_ko": "쿠폰",
+     "example_en": "Please show your coupon at the register.",
+     "example_ko": "계산대에서 쿠폰을 보여 주세요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Take 20% off all paperbacks.",
+     "ko": "모든 페이퍼백 책을 20% 할인해 드립니다."
+    },
+    {
+     "en": "The sale runs from October 20 to October 27.",
+     "ko": "세일은 10월 20일부터 10월 27일까지입니다."
+    },
+    {
+     "en": "Spend $40 or more and receive a free canvas bag.",
+     "ko": "40달러 이상 구매하시면 무료 캔버스 가방을 드립니다."
+    },
+    {
+     "en": "The free bag is available while supplies last.",
+     "ko": "무료 가방은 재고가 있는 동안만 제공됩니다."
+    },
+    {
+     "en": "Free delivery on orders over $60.",
+     "ko": "60달러를 넘는 주문은 무료 배송입니다."
+    },
+    {
+     "en": "Discounts cannot be combined with other coupons.",
+     "ko": "할인은 다른 쿠폰과 함께 사용할 수 없습니다."
+    },
+    {
+     "en": "This coupon is valid until May 31.",
+     "ko": "이 쿠폰은 5월 31일까지 유효합니다."
+    },
+    {
+     "en": "The offer will expire on Friday.",
+     "ko": "이 혜택은 금요일에 만료됩니다."
+    },
+    {
+     "en": "Please show your coupon at the register.",
+     "ko": "계산대에서 쿠폰을 보여 주세요."
+    },
+    {
+     "en": "Complimentary coffee is available for all customers.",
+     "ko": "모든 고객께 무료 커피가 제공됩니다."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "Greenfield Books Autumn Sale: 20% off all paperbacks, October 20–27. Spend $40 or more and get a free canvas bag while supplies last. Free delivery on orders over $60. Discounts cannot be combined with other coupons. — When does the sale end?",
+     "choices": [
+      "October 27",
+      "October 20",
+      "November 1",
+      "It is not stated."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "October 20–27이므로 끝나는 날은 October 27입니다. 20일은 시작일입니다.",
+     "error_tag": "part7-detail",
+     "id": "TOEIC-026-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Greenfield Books Autumn Sale: 20% off all paperbacks, October 20–27. Spend $40 or more and get a free canvas bag while supplies last. Free delivery on orders over $60. Discounts cannot be combined with other coupons. — What must a customer do to receive a free canvas bag?",
+     "choices": [
+      "Spend $40 or more",
+      "Buy any paperback",
+      "Spend $60 or more",
+      "Show a coupon"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Spend $40 or more and get a free canvas bag에 해당합니다. $60은 무료 배송 조건입니다.",
+     "error_tag": "part7-condition",
+     "id": "TOEIC-026-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Greenfield Books Autumn Sale: 20% off all paperbacks, October 20–27. Spend $40 or more and get a free canvas bag while supplies last. Free delivery on orders over $60. Discounts cannot be combined with other coupons. — What is indicated about free delivery?",
+     "choices": [
+      "It requires an order over $60.",
+      "It is available on all orders.",
+      "It is only for the canvas bag.",
+      "It ends on October 20."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Free delivery on orders over $60이라고 했습니다.",
+     "error_tag": "part7-condition",
+     "id": "TOEIC-026-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Greenfield Books Autumn Sale: 20% off all paperbacks, October 20–27. Spend $40 or more and get a free canvas bag while supplies last. Free delivery on orders over $60. Discounts cannot be combined with other coupons. — What is stated about the discounts?",
+     "choices": [
+      "They cannot be used with other coupons.",
+      "They apply only to hardcover books.",
+      "They are available for one day.",
+      "They require a membership card."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Discounts cannot be combined with other coupons가 해당합니다.",
+     "error_tag": "part7-restriction",
+     "id": "TOEIC-026-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "광고의 'while supplies last'(재고가 있는 동안만) 빈칸을 채우세요: while ___ last (한 단어)",
+     "answer_text": "supplies",
+     "accepted_answers": [
+      "supplies"
+     ],
+     "explanation_ko": "while supplies last는 '재고가 있는 동안만'입니다.",
+     "error_tag": "part7-vocab",
+     "id": "TOEIC-026-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: This coupon is ___ until May 31. (유효한)",
+     "answer_text": "valid",
+     "accepted_answers": [
+      "valid"
+     ],
+     "explanation_ko": "'유효한'은 valid입니다.",
+     "error_tag": "part7-vocab",
+     "id": "TOEIC-026-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "새로 연 가게의 할인 광고에 넣을 문장을 'Take ...% off'로 시작해 한 문장 써 보세요.",
+    "example_answer_en": "Take 10% off all drinks this weekend.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-13",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-13"
+   }
   }
  ]
 }
