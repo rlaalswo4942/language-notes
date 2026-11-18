@@ -6899,6 +6899,229 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-33",
+   "day_index": 33,
+   "week_index": 5,
+   "level": "N1",
+   "unit_id": "N1-W05",
+   "lesson_type": "new",
+   "title_ko": "〜ゆえ(に): ~때문에 (문어체)",
+   "objective_ko": "격식 있는 글에서 이유를 나타내는 〜ゆえに・〜がゆえに・〜ゆえの를 읽고 쓴다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-32"
+   ],
+   "explanation_ko": "〜ゆえ(に)는 ‘~때문에’를 뜻하는 격식 있는 문어체 표현으로, 논설문·소설·연설 등에서 씁니다. 명사에는 そのまま 붙입니다: 貧{まず}しさゆえに. 동사·い형용사는 보통형 + がゆえに, 명사·な형용사는 〜であるがゆえに로 잇습니다. 뒤에 명사가 오면 ゆえの를 씁니다: 愛情{あいじょう}ゆえの厳{きび}しさ. 일상 회화에서는 から・ので를 쓰고, ゆえ는 약간 무겁고 글 같은 느낌을 줍니다.",
+   "usage_notes": [
+    "명사 + ゆえに / 명사 + ゆえの + 명사.",
+    "동사·い형용사 보통형 + がゆえに / 명사·な형용사 + であるがゆえに.",
+    "회화에서는 から・ので, 글에서는 ゆえに로 어감이 다르다."
+   ],
+   "common_mistakes": [
+    "愛情ゆえにの厳しさ(X) → 뒤에 명사가 오면 ゆえの: 愛情{あいじょう}ゆえの厳{きび}しさ(O)",
+    "일상 대화에서 「眠いゆえに、帰る」처럼 쓰면 어색하다 → 회화는 眠{ねむ}いから帰る",
+    "真面目ゆえに(△) → 형용사 이유는 真面目{まじめ}であるがゆえに로 쓰는 것이 안정적"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "断念{だんねん}",
+     "reading_kana": "だんねん",
+     "reading_romanized": "dannen",
+     "meaning_ko": "단념, 포기",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N1-33-01"
+    },
+    {
+     "kind": "word",
+     "text": "重{かさ}ねる",
+     "reading_kana": "かさねる",
+     "reading_romanized": "kasaneru",
+     "meaning_ko": "거듭하다, 포개다",
+     "part_of_speech": "동사(2그룹)",
+     "id": "w-JP-N1-33-02"
+    },
+    {
+     "kind": "word",
+     "text": "寛大{かんだい}",
+     "reading_kana": "かんだい",
+     "reading_romanized": "kandai",
+     "meaning_ko": "관대함",
+     "part_of_speech": "な형용사",
+     "id": "w-JP-N1-33-03"
+    },
+    {
+     "kind": "word",
+     "text": "孤独{こどく}",
+     "reading_kana": "こどく",
+     "reading_romanized": "kodoku",
+     "meaning_ko": "고독",
+     "part_of_speech": "명사・な형용사",
+     "id": "w-JP-N1-33-04"
+    },
+    {
+     "kind": "word",
+     "text": "抱{かか}え込{こ}む",
+     "reading_kana": "かかえこむ",
+     "reading_romanized": "kakaekomu",
+     "meaning_ko": "(혼자) 떠안다",
+     "part_of_speech": "동사(1그룹)",
+     "id": "w-JP-N1-33-05"
+    },
+    {
+     "kind": "word",
+     "text": "私生活{しせいかつ}",
+     "reading_kana": "しせいかつ",
+     "reading_romanized": "shiseikatsu",
+     "meaning_ko": "사생활",
+     "part_of_speech": "명사",
+     "id": "w-JP-N1-33-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "若{わか}いがゆえに、彼{かれ}は何度{なんど}も失敗{しっぱい}を重{かさ}ねた。",
+     "meaning_ko": "젊기에 그는 여러 번 실패를 거듭했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "貧{まず}しさゆえに、進学{しんがく}を断念{だんねん}せざるを得{え}なかった。",
+     "meaning_ko": "가난하기 때문에 진학을 포기할 수밖에 없었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼女{かのじょ}の厳{きび}しさは、愛情{あいじょう}ゆえのものだった。",
+     "meaning_ko": "그녀의 엄격함은 애정 때문이었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "有名{ゆうめい}であるがゆえに、私生活{しせいかつ}を自由{じゆう}に楽{たの}しめない。",
+     "meaning_ko": "유명하기에 사생활을 자유롭게 즐기지 못한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "真面目{まじめ}であるがゆえに、冗談{じょうだん}が通{つう}じないこともある。",
+     "meaning_ko": "성실하기에 농담이 통하지 않을 때도 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "情報{じょうほう}が不足{ふそく}していたがゆえに、判断{はんだん}を誤{あやま}った。",
+     "meaning_ko": "정보가 부족했기에 판단을 그르쳤다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "責任感{せきにんかん}の強{つよ}さゆえに、彼{かれ}は一人{ひとり}で問題{もんだい}を抱{かか}え込{こ}んだ。",
+     "meaning_ko": "책임감이 강하기에 그는 혼자서 문제를 떠안았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "経験{けいけん}が浅{あさ}いがゆえの失敗{しっぱい}だと、上司{じょうし}は寛大{かんだい}に受{う}け止{と}めてくれた。",
+     "meaning_ko": "경험이 얕아서 생긴 실수라며 상사는 너그럽게 받아들여 주었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "孤独{こどく}ゆえの強{つよ}さを、彼女{かのじょ}は身{み}につけていた。",
+     "meaning_ko": "고독하기에 생긴 강함을 그녀는 몸에 익히고 있었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "大雪{おおゆき}ゆえに、列車{れっしゃ}は運休{うんきゅう}となった。",
+     "meaning_ko": "폭설 때문에 열차는 운행을 멈추었다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「若いがゆえに、彼は何度も失敗を重ねた」의 뜻은?",
+     "options": [
+      "젊기 때문에 그는 여러 번 실패를 거듭했다",
+      "젊은데도 그는 한 번도 실패하지 않았다",
+      "젊어지자마자 그는 실패했다",
+      "젊다 해도 그는 실패하지 않았다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "がゆえに는 ‘~때문에’(원인)를 나타냅니다.",
+     "id": "JP-N1-33-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "〜ゆえに의 쓰임으로 알맞은 것은?",
+     "options": [
+      "논설문·소설 등에서 쓰는 격식 있는 이유 표현",
+      "일상 대화에서 쓰는 가벼운 권유 표현",
+      "예상과 반대되는 결과를 나타내는 표현",
+      "동작이 끝난 직후를 나타내는 표현"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ゆえに는 から・ので에 해당하는 문어적·격식 있는 이유 표현입니다.",
+     "id": "JP-N1-33-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「彼女の厳しさは、愛情（　）ものだった」 ( )에 알맞은 말은?",
+     "options": [
+      "ゆえの",
+      "ゆえに",
+      "ゆえで",
+      "ゆえを"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "뒤에 명사(もの)가 이어지므로 ゆえの입니다.",
+     "id": "JP-N1-33-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「有名であるがゆえに」와 뜻이 가장 가까운 것은?",
+     "options": [
+      "有名であるので",
+      "有名であるのに",
+      "有名であっても",
+      "有名であるなら"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "がゆえに는 ‘~이기 때문에’이므로 ので에 가깝습니다. のに(~인데도)·ても(~해도)·なら(~라면)는 뜻이 다릅니다.",
+     "id": "JP-N1-33-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「孤独」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kodoku",
+     "accepted_answers": [
+      "kodoku"
+     ],
+     "explanation_ko": "孤独 = こどく(kodoku), ‘고독’입니다.",
+     "id": "JP-N1-33-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「私生活」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "shiseikatsu",
+     "accepted_answers": [
+      "shiseikatsu",
+      "shiseikatu",
+      "shiseikatsu"
+     ],
+     "explanation_ko": "私生活 = しせいかつ(shiseikatsu), ‘사생활’입니다.",
+     "id": "JP-N1-33-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

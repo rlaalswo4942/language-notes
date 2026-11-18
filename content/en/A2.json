@@ -6291,6 +6291,205 @@
     "version": 1,
     "last_revised": "2026-11-13"
    }
+  },
+  {
+   "id": "A2-033",
+   "level": "A2",
+   "track": "foundation",
+   "day": 33,
+   "title_ko": "형용사 + 전치사: good at / interested in / afraid of / worried about",
+   "objective_ko": "감정·능력을 말하는 형용사와 짝이 되는 전치사를 익히고, 전치사 뒤에 명사나 -ing를 쓴다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-19"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "어떤 형용사는 정해진 전치사와 함께 쓰입니다. good at(~을 잘하는), interested in(~에 관심 있는), afraid of(~을 두려워하는), worried about(~을 걱정하는), proud of(~을 자랑스러워하는), excited about(~에 신이 난). 전치사 뒤에는 명사나 동사의 -ing형이 옵니다: She is good at drawing. / I'm worried about the test. 전치사 뒤에 to + 동사원형이나 동사원형을 바로 쓰지 않습니다.",
+    "common_mistake_ko": "I'm interested on music.(X) → I'm interested in music.(O) / He is afraid from dogs.(X) → He is afraid of dogs.(O) / She is good at to swim.(X) → She is good at swimming.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "worried",
+     "part_of_speech": "형용사",
+     "meaning_ko": "걱정하는",
+     "example_en": "Ken is worried about his exam.",
+     "example_ko": "켄은 시험을 걱정하고 있어요."
+    },
+    {
+     "word": "excited",
+     "part_of_speech": "형용사",
+     "meaning_ko": "신이 난, 들뜬",
+     "example_en": "We are excited about the trip.",
+     "example_ko": "우리는 여행 때문에 들떠 있어요."
+    },
+    {
+     "word": "interested",
+     "part_of_speech": "형용사",
+     "meaning_ko": "관심이 있는",
+     "example_en": "I'm interested in Japanese music.",
+     "example_ko": "나는 일본 음악에 관심이 있어요."
+    },
+    {
+     "word": "polite",
+     "part_of_speech": "형용사",
+     "meaning_ko": "예의 바른",
+     "example_en": "He is always polite to the guests.",
+     "example_ko": "그는 손님들에게 늘 예의 발라요."
+    },
+    {
+     "word": "fond",
+     "part_of_speech": "형용사",
+     "meaning_ko": "좋아하는, 애정을 가진",
+     "example_en": "My grandmother is fond of gardening.",
+     "example_ko": "할머니는 정원 가꾸기를 좋아하세요."
+    },
+    {
+     "word": "curious",
+     "part_of_speech": "형용사",
+     "meaning_ko": "궁금해하는",
+     "example_en": "The children are curious about space.",
+     "example_ko": "아이들은 우주를 궁금해해요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "She is good at drawing.",
+     "ko": "그녀는 그림을 잘 그려요."
+    },
+    {
+     "en": "I'm interested in Japanese music.",
+     "ko": "나는 일본 음악에 관심이 있어요."
+    },
+    {
+     "en": "He is afraid of big dogs.",
+     "ko": "그는 큰 개를 무서워해요."
+    },
+    {
+     "en": "Ken is worried about his exam.",
+     "ko": "켄은 시험을 걱정하고 있어요."
+    },
+    {
+     "en": "My mother is proud of me.",
+     "ko": "어머니는 나를 자랑스러워해요."
+    },
+    {
+     "en": "We are excited about the trip.",
+     "ko": "우리는 여행 때문에 들떠 있어요."
+    },
+    {
+     "en": "He is always polite to the guests.",
+     "ko": "그는 손님들에게 늘 예의 발라요."
+    },
+    {
+     "en": "My grandmother is fond of gardening.",
+     "ko": "할머니는 정원 가꾸기를 좋아하세요."
+    },
+    {
+     "en": "The children are curious about space.",
+     "ko": "아이들은 우주를 궁금해해요."
+    },
+    {
+     "en": "I'm not good at cooking.",
+     "ko": "나는 요리를 잘 못해요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "My brother is afraid ___ spiders.",
+     "choices": [
+      "of",
+      "from",
+      "with",
+      "to"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "afraid 뒤에는 of를 씁니다: afraid of spiders.",
+     "error_tag": "adj-prep",
+     "id": "A2-033-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "I'm interested ___ Japanese music.",
+     "choices": [
+      "in",
+      "at",
+      "from",
+      "to"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "interested 뒤에는 in을 씁니다: interested in.",
+     "error_tag": "adj-prep",
+     "id": "A2-033-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "She is good ___ drawing.",
+     "choices": [
+      "at",
+      "in",
+      "on",
+      "of"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘~을 잘하는’은 good at이고, 뒤에는 명사나 -ing가 옵니다.",
+     "error_tag": "adj-prep",
+     "id": "A2-033-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "I'm worried about ___ the test.",
+     "choices": [
+      "failing",
+      "fail",
+      "to fail",
+      "failed"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "전치사 about 뒤에는 동사의 -ing형이 옵니다: worried about failing.",
+     "error_tag": "adj-prep-ing",
+     "id": "A2-033-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Ken is worried ___ his exam.",
+     "answer_text": "about",
+     "accepted_answers": [
+      "about"
+     ],
+     "explanation_ko": "worried 뒤에는 about을 씁니다: worried about.",
+     "error_tag": "adj-prep",
+     "id": "A2-033-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: I'm very proud ___ my team.",
+     "answer_text": "of",
+     "accepted_answers": [
+      "of"
+     ],
+     "explanation_ko": "proud 뒤에는 of를 씁니다: proud of.",
+     "error_tag": "adj-prep",
+     "id": "A2-033-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "good at 또는 interested in을 써서 나에 대한 문장을 한 개 써 보세요.",
+    "example_answer_en": "I'm good at swimming.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-19",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-19"
+   }
   }
  ]
 }

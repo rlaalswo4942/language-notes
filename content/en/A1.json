@@ -6314,6 +6314,205 @@
     "version": 1,
     "last_revised": "2026-11-13"
    }
+  },
+  {
+   "id": "A1-033",
+   "level": "A1",
+   "track": "foundation",
+   "day": 33,
+   "title_ko": "날씨 말하기: What's the weather like? / It's sunny",
+   "objective_ko": "날씨를 묻고(What's the weather like?), It's + 형용사 또는 It's + -ing로 오늘 날씨를 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-19"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "날씨는 주어로 it을 써서 말합니다. It is sunny. (맑아요) / It's cloudy. (흐려요) 날씨를 물을 때는 What's the weather like today? 라고 하고, 대답은 It's + 날씨 형용사입니다. 비와 눈은 지금 내리고 있으면 현재진행형으로 말합니다: It's raining. / It's snowing. 부정은 It isn't cold. 처럼 be동사 뒤에 not을 둡니다. 날씨 형용사는 명사 뒤에 y를 붙인 것이 많습니다: cloud → cloudy, wind → windy, rain → rainy, snow → snowy.",
+    "common_mistake_ko": "Today is rain.(X) → It's raining. / It's rainy.(O) / It's like windy.(X) → It's windy.(O) / Is cloudy today?(X) → Is it cloudy today?(O) (날씨 문장에는 주어 it이 필요합니다)"
+   },
+   "vocabulary": [
+    {
+     "word": "cloudy",
+     "part_of_speech": "형용사",
+     "meaning_ko": "흐린",
+     "example_en": "It's cloudy this morning.",
+     "example_ko": "오늘 아침은 흐려요."
+    },
+    {
+     "word": "windy",
+     "part_of_speech": "형용사",
+     "meaning_ko": "바람이 많이 부는",
+     "example_en": "It's windy on the hill.",
+     "example_ko": "언덕에는 바람이 많이 불어요."
+    },
+    {
+     "word": "rainy",
+     "part_of_speech": "형용사",
+     "meaning_ko": "비 오는",
+     "example_en": "Is it rainy in your city?",
+     "example_ko": "당신이 사는 도시는 비가 자주 와요?"
+    },
+    {
+     "word": "snowy",
+     "part_of_speech": "형용사",
+     "meaning_ko": "눈이 오는, 눈 덮인",
+     "example_en": "It's snowy in the mountains.",
+     "example_ko": "산에는 눈이 와 있어요."
+    },
+    {
+     "word": "freezing",
+     "part_of_speech": "형용사",
+     "meaning_ko": "몹시 추운",
+     "example_en": "It's freezing outside!",
+     "example_ko": "밖은 몹시 추워요!"
+    },
+    {
+     "word": "humid",
+     "part_of_speech": "형용사",
+     "meaning_ko": "습한",
+     "example_en": "It's very humid in summer.",
+     "example_ko": "여름에는 매우 습해요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "What's the weather like today?",
+     "ko": "오늘 날씨가 어때요?"
+    },
+    {
+     "en": "It's sunny and warm.",
+     "ko": "맑고 따뜻해요."
+    },
+    {
+     "en": "It's cloudy this morning.",
+     "ko": "오늘 아침은 흐려요."
+    },
+    {
+     "en": "It's windy, so wear a jacket.",
+     "ko": "바람이 불어요, 그러니 재킷을 입으세요."
+    },
+    {
+     "en": "It's raining now.",
+     "ko": "지금 비가 오고 있어요."
+    },
+    {
+     "en": "It isn't cold today.",
+     "ko": "오늘은 춥지 않아요."
+    },
+    {
+     "en": "It's snowy in Seoul in January.",
+     "ko": "서울은 1월에 눈이 와요."
+    },
+    {
+     "en": "It's freezing outside!",
+     "ko": "밖은 몹시 추워요!"
+    },
+    {
+     "en": "It's very humid in summer.",
+     "ko": "여름에는 매우 습해요."
+    },
+    {
+     "en": "Is it windy today? — No, it isn't.",
+     "ko": "오늘 바람이 불어요? — 아니요, 안 불어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "'오늘 날씨가 어때요?'를 영어로 하면?",
+     "choices": [
+      "What's the weather like today?",
+      "What does the weather like today?",
+      "How is like the weather today?",
+      "Where is the weather today?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "날씨를 물을 때는 What's the weather like (today)? 라고 합니다.",
+     "error_tag": "weather-question",
+     "id": "A1-033-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "It ___ now. (지금 비가 오고 있어요)",
+     "choices": [
+      "is raining",
+      "rains",
+      "is rain",
+      "are raining"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "지금 내리고 있는 비는 현재진행형 is raining으로 말합니다.",
+     "error_tag": "weather-progressive",
+     "id": "A1-033-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'바람이 많이 불어요.'를 영어로 하면?",
+     "choices": [
+      "It's windy.",
+      "It's wind.",
+      "It windy.",
+      "They are windy."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "날씨의 주어는 it이고, 뒤에 형용사 windy를 씁니다.",
+     "error_tag": "weather-adjective",
+     "id": "A1-033-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'몹시 추운'을 뜻하는 단어는?",
+     "choices": [
+      "freezing",
+      "humid",
+      "windy",
+      "cloudy"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "freezing은 ‘몹시 추운’, humid는 ‘습한’, windy는 ‘바람 부는’, cloudy는 ‘흐린’입니다.",
+     "error_tag": "weather-vocab",
+     "id": "A1-033-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: It's ___ this morning. (흐려요)",
+     "answer_text": "cloudy",
+     "accepted_answers": [
+      "cloudy"
+     ],
+     "explanation_ko": "cloud(구름)에 -y를 붙인 cloudy가 ‘흐린’입니다.",
+     "error_tag": "weather-adjective",
+     "id": "A1-033-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: What's the ___ like today?",
+     "answer_text": "weather",
+     "accepted_answers": [
+      "weather"
+     ],
+     "explanation_ko": "What's the weather like today? 는 날씨를 묻는 기본 질문입니다.",
+     "error_tag": "weather-question",
+     "id": "A1-033-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "오늘 날씨를 영어 두 문장으로 써 보세요.",
+    "example_answer_en": "It's cloudy today. It isn't cold.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-19",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-19"
+   }
   }
  ]
 }

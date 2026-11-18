@@ -6953,6 +6953,227 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N5-33",
+   "day_index": 33,
+   "week_index": 5,
+   "level": "N5",
+   "unit_id": "N5-W05",
+   "lesson_type": "new",
+   "title_ko": "〜は 〜が 〜です: 사람·동물의 특징 말하기",
+   "objective_ko": "전체(は)와 특징이 되는 부분(が)을 나누어 “동생은 키가 커요”처럼 사람·동물의 모습을 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N5-32"
+   ],
+   "explanation_ko": "〈전체〉は 〈부분·특징〉が 형용사 です 순서로 말합니다: 弟{おとうと}は 背{せ}が 高{たか}いです(동생은 키가 커요). 첫 は는 ‘무엇에 대해 말하는가’(주제)를, が는 그 안의 특징이 되는 부분을 나타냅니다. 부정은 형용사만 바꿉니다: 背が 高くないです. 과거는 高かったです.",
+   "usage_notes": [
+    "〈사람/동물〉は 〈몸의 부분〉が 〈형용사〉です.",
+    "몸의 부분 뒤에는 を가 아니라 が를 씁니다.",
+    "い형용사 부정: 〜くないです (高い → 高くないです)."
+   ],
+   "common_mistakes": [
+    "弟は 背を 高いです(X) → 弟{おとうと}は 背{せ}が 高{たか}いです(O)",
+    "弟が 背は 高いです(X) → 전체에는 は, 부분에는 が (弟は 背が)",
+    "高いでは ありません(X) → い형용사 부정은 高くないです(O)"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "目{め}",
+     "reading_kana": "め",
+     "reading_romanized": "me",
+     "meaning_ko": "눈",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-33-01"
+    },
+    {
+     "kind": "word",
+     "text": "髪{かみ}",
+     "reading_kana": "かみ",
+     "reading_romanized": "kami",
+     "meaning_ko": "머리카락",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-33-02"
+    },
+    {
+     "kind": "word",
+     "text": "背{せ}",
+     "reading_kana": "せ",
+     "reading_romanized": "se",
+     "meaning_ko": "키(몸의 높이)",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-33-03"
+    },
+    {
+     "kind": "word",
+     "text": "耳{みみ}",
+     "reading_kana": "みみ",
+     "reading_romanized": "mimi",
+     "meaning_ko": "귀",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-33-04"
+    },
+    {
+     "kind": "word",
+     "text": "鼻{はな}",
+     "reading_kana": "はな",
+     "reading_romanized": "hana",
+     "meaning_ko": "코",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-33-05"
+    },
+    {
+     "kind": "word",
+     "text": "足{あし}",
+     "reading_kana": "あし",
+     "reading_romanized": "ashi",
+     "meaning_ko": "발, 다리",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-33-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "弟{おとうと}は 背{せ}が 高{たか}いです。",
+     "meaning_ko": "동생은 키가 커요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "妹{いもうと}は 髪{かみ}が 長{なが}いです。",
+     "meaning_ko": "여동생은 머리카락이 길어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "田中{たなか}さんは 目{め}が 大{おお}きいです。",
+     "meaning_ko": "다나카 씨는 눈이 커요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 犬{いぬ}は 耳{みみ}が 大{おお}きいです。",
+     "meaning_ko": "이 개는 귀가 커요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "兄{あに}は 髪{かみ}が 短{みじか}いです。",
+     "meaning_ko": "형은 머리카락이 짧아요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "父{ちち}は 背{せ}が 高{たか}くないです。",
+     "meaning_ko": "아버지는 키가 크지 않아요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "象{ぞう}は 鼻{はな}が 長{なが}いです。",
+     "meaning_ko": "코끼리는 코가 길어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "母{はは}は 足{あし}が 小{ちい}さいです。",
+     "meaning_ko": "어머니는 발이 작아요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "妹{いもうと}は 目{め}が 小{ちい}さくないです。",
+     "meaning_ko": "여동생은 눈이 작지 않아요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "その 人{ひと}は 背{せ}が 低{ひく}いです。",
+     "meaning_ko": "그 사람은 키가 작아요.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「弟は 背が 高いです」의 뜻은?",
+     "options": [
+      "동생은 키가 커요",
+      "동생은 키가 작아요",
+      "동생은 머리카락이 길어요",
+      "동생은 눈이 커요"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "背(せ)が 高い = 키가 크다. 弟는 ‘동생’입니다.",
+     "id": "JP-N5-33-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「여동생은 머리카락이 길어요」를 일본어로 하면?",
+     "options": [
+      "妹は 髪が 長いです。",
+      "妹が 髪は 長いです。",
+      "妹は 髪を 長いです。",
+      "妹は 髪が 短いです。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "전체(妹)에는 は, 특징이 되는 부분(髪)에는 が를 씁니다. 長い는 ‘길다’입니다.",
+     "id": "JP-N5-33-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「象は 鼻（　）長いです」 ( )에 알맞은 조사는?",
+     "options": [
+      "が",
+      "を",
+      "に",
+      "へ"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〈전체〉は 〈부분〉が 형용사 순서이므로 が입니다.",
+     "id": "JP-N5-33-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「父は 背が 高くないです」의 뜻은?",
+     "options": [
+      "아버지는 키가 크지 않아요",
+      "아버지는 키가 커요",
+      "아버지는 머리카락이 길지 않아요",
+      "아버지는 눈이 크지 않아요"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "高くないです는 高い의 부정(크지 않다)입니다. 背は ‘키’입니다.",
+     "id": "JP-N5-33-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「髪」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kami",
+     "accepted_answers": [
+      "kami"
+     ],
+     "explanation_ko": "髪 = かみ(kami), ‘머리카락’입니다.",
+     "id": "JP-N5-33-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「背」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "se",
+     "accepted_answers": [
+      "se"
+     ],
+     "explanation_ko": "背 = せ(se), ‘키’입니다.",
+     "id": "JP-N5-33-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

@@ -6937,6 +6937,227 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-33",
+   "day_index": 33,
+   "week_index": 5,
+   "level": "N4",
+   "unit_id": "N4-W05",
+   "lesson_type": "new",
+   "title_ko": "〜のに: ~인데도 (예상과 다른 결과)",
+   "objective_ko": "앞의 일에서 예상되는 것과 다른 결과가 나왔을 때 〜のに로 “~했는데도”라고 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-32"
+   ],
+   "explanation_ko": "〜のに는 ‘앞에서 예상한 것과 반대되는 결과’를 말할 때 씁니다: 雨{あめ}が 降{ふ}って いるのに、 出{で}かけました(비가 오는데도 외출했어요). 동사·い형용사는 보통형 + のに, な형용사·명사의 현재형은 〜なのに로 이어집니다: 日曜日{にちようび}なのに. 15일차의 〜から・〜ので가 ‘이유와 같은 방향의 결과’라면, 〜のに는 ‘이유와 반대 방향의 결과’입니다. 뒤 문장에는 보통 사실이나 감정이 오고, 〜てください・〜ましょう 같은 부탁·권유는 쓰지 않습니다.",
+   "usage_notes": [
+    "동사·い형용사: 보통형 + のに (降っているのに, 安いのに).",
+    "な형용사·명사: 현재형은 〜なのに (元気なのに, 日曜日なのに).",
+    "뒤 문장에 〜てください・〜ましょう는 쓸 수 없다."
+   ],
+   "common_mistakes": [
+    "日曜日だのに(X) → 日曜日{にちようび}なのに(O)",
+    "寒いのに、窓を 閉めて ください(X) → 부탁은 のに 뒤에 쓰지 않는다. 寒いのに、窓を 開けて います(O)",
+    "勉強したのに、合格しました(△) → 예상과 같은 결과에는 のに가 어색하다. 勉強{べんきょう}したので、合格{ごうかく}しました(O)"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "急{いそ}ぐ",
+     "reading_kana": "いそぐ",
+     "reading_romanized": "isogu",
+     "meaning_ko": "서두르다",
+     "part_of_speech": "동사(1그룹)",
+     "id": "w-JP-N4-33-01"
+    },
+    {
+     "kind": "word",
+     "text": "間{ま}に 合{あ}う",
+     "reading_kana": "まにあう",
+     "reading_romanized": "maniau",
+     "meaning_ko": "시간에 대다",
+     "part_of_speech": "동사(1그룹)",
+     "id": "w-JP-N4-33-02"
+    },
+    {
+     "kind": "word",
+     "text": "若{わか}い",
+     "reading_kana": "わかい",
+     "reading_romanized": "wakai",
+     "meaning_ko": "젊다",
+     "part_of_speech": "い형용사",
+     "id": "w-JP-N4-33-03"
+    },
+    {
+     "kind": "word",
+     "text": "出{で}かける",
+     "reading_kana": "でかける",
+     "reading_romanized": "dekakeru",
+     "meaning_ko": "외출하다",
+     "part_of_speech": "동사(2그룹)",
+     "id": "w-JP-N4-33-04"
+    },
+    {
+     "kind": "word",
+     "text": "残念{ざんねん}",
+     "reading_kana": "ざんねん",
+     "reading_romanized": "zannen",
+     "meaning_ko": "유감스러움, 아쉬움",
+     "part_of_speech": "な형용사",
+     "id": "w-JP-N4-33-05"
+    },
+    {
+     "kind": "word",
+     "text": "薬{くすり}",
+     "reading_kana": "くすり",
+     "reading_romanized": "kusuri",
+     "meaning_ko": "약",
+     "part_of_speech": "명사",
+     "id": "w-JP-N4-33-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "雨{あめ}が 降{ふ}って いるのに、 出{で}かけました。",
+     "meaning_ko": "비가 오고 있는데도 외출했어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "たくさん 勉強{べんきょう}したのに、 試験{しけん}に 落{お}ちました。",
+     "meaning_ko": "많이 공부했는데도 시험에 떨어졌어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "日曜日{にちようび}なのに、 会社{かいしゃ}に 行{い}きます。",
+     "meaning_ko": "일요일인데도 회사에 가요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "薬{くすり}を 飲{の}んだのに、 まだ 熱{ねつ}が あります。",
+     "meaning_ko": "약을 먹었는데도 아직 열이 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 店{みせ}は 安{やす}いのに、 おいしいです。",
+     "meaning_ko": "이 가게는 싼데도 맛있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "約束{やくそく}したのに、 友達{ともだち}は 来{き}ませんでした。",
+     "meaning_ko": "약속했는데도 친구는 오지 않았어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}は 若{わか}いのに、 英語{えいご}が 上手{じょうず}です。",
+     "meaning_ko": "그는 젊은데도 영어를 잘해요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "元気{げんき}なのに、 学校{がっこう}を 休{やす}みました。",
+     "meaning_ko": "건강한데도 학교를 쉬었어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "急{いそ}いだのに、 電車{でんしゃ}に 間{ま}に 合{あ}いませんでした。",
+     "meaning_ko": "서둘렀는데도 전철 시간에 맞추지 못했어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "寒{さむ}いのに、 窓{まど}を 開{あ}けて います。",
+     "meaning_ko": "추운데도 창문을 열어 놓고 있어요.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「雨が 降って いるのに、 出かけました」의 뜻은?",
+     "options": [
+      "비가 오는데도 외출했어요",
+      "비가 와서 외출하지 않았어요",
+      "비가 오니까 외출했어요",
+      "비가 오면 외출하겠어요"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "のに는 예상과 반대되는 결과(비가 오는데도 외출했다)를 나타냅니다.",
+     "id": "JP-N4-33-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「일요일인데도 회사에 가요」를 일본어로 할 때 ( )에 알맞은 말은? 「日曜日（　）、会社に 行きます」",
+     "options": [
+      "なのに",
+      "だのに",
+      "なので(이유)",
+      "のに"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "명사의 현재형은 〜なのに로 이어집니다. なので는 ‘~라서’(이유)라 뜻이 다릅니다.",
+     "id": "JP-N4-33-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「寒いのに、…」에 이어질 문장으로 자연스러운 것은?",
+     "options": [
+      "窓を 開けて います。",
+      "窓を 閉めて ください。",
+      "窓を 閉めましょう。",
+      "窓を 閉めませんか。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "のに 뒤에는 사실이나 감정을 말하고, 부탁(〜てください)·권유(〜ましょう・〜ませんか)는 쓰지 않습니다.",
+     "id": "JP-N4-33-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「약속했는데도 친구는 오지 않았어요」를 일본어로 하면?",
+     "options": [
+      "約束したのに、 友達は 来ませんでした。",
+      "約束したのに、 友達は 来ました。",
+      "約束したから、 友達は 来ませんでした。",
+      "約束したので、 友達は 来ました。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "예상(약속했으니 온다)과 반대 결과(오지 않았다)이므로 〜のに + 来ませんでした입니다.",
+     "id": "JP-N4-33-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「急ぐ」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "isogu",
+     "accepted_answers": [
+      "isogu"
+     ],
+     "explanation_ko": "急ぐ = いそぐ(isogu), ‘서두르다’입니다.",
+     "id": "JP-N4-33-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「薬」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kusuri",
+     "accepted_answers": [
+      "kusuri"
+     ],
+     "explanation_ko": "薬 = くすり(kusuri), ‘약’입니다.",
+     "id": "JP-N4-33-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

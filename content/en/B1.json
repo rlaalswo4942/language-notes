@@ -5216,6 +5216,185 @@
     "version": 1,
     "last_revised": "2026-11-13"
    }
+  },
+  {
+   "id": "B1-028",
+   "level": "B1",
+   "track": "general",
+   "day": 28,
+   "title_ko": "4주 복습: 의문사+to부정사·부가의문문·So do I·추측 조동사·could/was able to·unless",
+   "objective_ko": "B1 넷째 주에 배운 여섯 가지 문법(B1-022~027)을 섞어서 문제에 적용한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-19"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "이번 주에 배운 여섯 가지를 한 번에 복습합니다. ① 의문사 + to부정사: I don't know what to say. (무슨 말을 해야 할지) ② 부가의문문: 긍정문 뒤에는 부정, 부정문 뒤에는 긍정을 붙입니다. It's nice, isn't it? / You don't eat meat, do you? / Let's go, shall we? ③ So do I / Neither do I: 같은 처지를 말할 때, 긍정에는 So + 조동사 + 주어, 부정에는 Neither + 조동사 + 주어를 씁니다. ④ 지금 상황 추측: must be(틀림없이 ~이다), might be(~일지도 모른다), can't be(~일 리 없다). ⑤ could와 was able to: 과거의 일반적 능력은 could, 한 번 해낸 일은 was able to. ⑥ unless(~하지 않으면)·as long as(~하기만 하면)·provided that(~라는 조건이라면).",
+    "common_mistake_ko": "I don't know what to saying.(X) → I don't know what to say.(O) / It's cold, isn't it not?(X) → It's cold, isn't it?(O) / So I do.(X) → So do I.(O) / She can't to be at home.(X) → She can't be at home.(O) / I'll go unless it doesn't rain.(X) → I'll go unless it rains.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "prepare",
+     "part_of_speech": "동사",
+     "meaning_ko": "준비하다",
+     "example_en": "I don't know how to prepare for the interview.",
+     "example_ko": "면접을 어떻게 준비해야 할지 모르겠어요."
+    },
+    {
+     "word": "campus",
+     "part_of_speech": "명사",
+     "meaning_ko": "(대학) 캠퍼스, 교정",
+     "example_en": "She must be at the campus library.",
+     "example_ko": "그녀는 틀림없이 캠퍼스 도서관에 있을 거예요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I don't know what to say.",
+     "ko": "무슨 말을 해야 할지 모르겠어요."
+    },
+    {
+     "en": "Can you show me how to use this machine?",
+     "ko": "이 기계를 어떻게 쓰는지 알려 주시겠어요?"
+    },
+    {
+     "en": "It's a nice day, isn't it?",
+     "ko": "날씨가 좋네요, 그렇죠?"
+    },
+    {
+     "en": "You don't eat meat, do you?",
+     "ko": "당신은 고기를 안 먹죠, 그렇죠?"
+    },
+    {
+     "en": "Let's take a break, shall we?",
+     "ko": "좀 쉴까요?"
+    },
+    {
+     "en": "\"I love pizza.\" \"So do I.\"",
+     "ko": "“나는 피자를 좋아해요.” “나도요.”"
+    },
+    {
+     "en": "\"I can't swim.\" \"Neither can I.\"",
+     "ko": "“나는 수영을 못해요.” “나도 못해요.”"
+    },
+    {
+     "en": "She must be tired. She has worked all day.",
+     "ko": "그녀는 틀림없이 피곤할 거예요. 하루 종일 일했거든요."
+    },
+    {
+     "en": "He can't be at home. His car isn't here.",
+     "ko": "그는 집에 있을 리 없어요. 그의 차가 여기 없어요."
+    },
+    {
+     "en": "Yesterday, I was able to finish the report before lunch.",
+     "ko": "어제 나는 점심 전에 보고서를 끝낼 수 있었어요."
+    },
+    {
+     "en": "I'll go to the party unless I'm too tired.",
+     "ko": "너무 피곤하지 않으면 파티에 갈 거예요."
+    },
+    {
+     "en": "You can borrow my bike as long as you bring it back tomorrow.",
+     "ko": "내일 돌려주기만 하면 내 자전거를 빌려도 돼요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "I don't know ___ to do next.",
+     "choices": [
+      "what",
+      "who",
+      "how",
+      "where"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘다음에 무엇을 해야 할지’는 what to do입니다. who·how·where는 뒤의 do와 뜻이 맞지 않습니다.",
+     "error_tag": "wh-to-infinitive",
+     "id": "B1-028-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "She isn't here, ___?",
+     "choices": [
+      "is she",
+      "isn't she",
+      "does she",
+      "doesn't she"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "부정문(isn't) 뒤의 부가의문문은 긍정으로 붙입니다: is she?",
+     "error_tag": "tag-question",
+     "id": "B1-028-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "\"I'm hungry.\" — \"___.\"",
+     "choices": [
+      "So am I",
+      "So do I",
+      "Neither am I",
+      "Neither do I"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "긍정문 I'm hungry에는 be동사로 So am I라고 같은 처지를 말합니다.",
+     "error_tag": "so-do-i",
+     "id": "B1-028-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "He drives a new sports car. He ___ be rich.",
+     "choices": [
+      "must",
+      "can't",
+      "mustn't",
+      "shouldn't"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "근거가 있어 ‘틀림없이 ~이다’라고 확신할 때는 must be입니다.",
+     "error_tag": "modal-deduction",
+     "id": "B1-028-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: You can't go out ___ you finish your homework. (~하지 않으면)",
+     "answer_text": "unless",
+     "accepted_answers": [
+      "unless"
+     ],
+     "explanation_ko": "‘~하지 않으면’은 unless입니다. 숙제를 끝내지 않으면 나갈 수 없다는 뜻입니다.",
+     "error_tag": "unless",
+     "id": "B1-028-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: The car broke down, but we ___ able to get home by taxi.",
+     "answer_text": "were",
+     "accepted_answers": [
+      "were"
+     ],
+     "explanation_ko": "한 번 해낸 일은 was/were able to입니다. we에는 were를 씁니다.",
+     "error_tag": "could-was-able-to",
+     "id": "B1-028-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "이번 주에 배운 문법 중 두 가지를 골라 나의 이야기를 두 문장으로 써 보세요.",
+    "example_answer_en": "It's a nice day, isn't it? I'll go for a walk unless it rains.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-19",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-19"
+   }
   }
  ]
 }
