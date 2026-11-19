@@ -7158,6 +7158,240 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-34",
+   "day_index": 34,
+   "week_index": 5,
+   "level": "N4",
+   "unit_id": "N4-W05",
+   "lesson_type": "practice",
+   "title_ko": "적용: 여행 전날 읽기",
+   "objective_ko": "5주차에 배운 문형(〜て おく・〜て しまう・〜て みる・〜と・〜のに)이 들어 있는 여행 전날의 글을 읽고 내용을 확인한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-33"
+   ],
+   "explanation_ko": "이번 주에 배운 〜て おく(미리 ~해 두다), 〜て しまう(~해 버리다), 〜て みる(~해 보다), 〜と(~하면 반드시), 〜のに(~인데도)를 여행 전날 장면에서 복습합니다. て おく는 앞으로의 일을 위한 준비, て しまう는 완료 또는 유감, て みる는 시도를 나타냅니다. 〜と는 길 안내처럼 ‘그렇게 하면 반드시 그렇게 된다’는 때에 쓰고, 〜のに는 예상과 반대되는 결과 앞에 씁니다.",
+   "usage_notes": [
+    "〜て おきます: 미리 준비해 두다 (予約{よやく}して おきます).",
+    "〜て しまいました: 의도치 않은 결과·유감 (置{お}いて しまいました).",
+    "〜のに: 앞의 일에서 예상되는 것과 반대의 결과가 뒤에 옵니다."
+   ],
+   "common_mistakes": [
+    "旅行の 前に、ホテルを 予約して みました(X: 준비의 뜻이 아님) → 予約{よやく}して おきました(O)",
+    "宿題を 家に 置いて おきました(X: 깜빡 두고 온 유감) → 置{お}いて しまいました(O)",
+    "明日は 朝 早いので、まだ 起きて います(X: 예상과 반대) → 朝{あさ} 早{はや}いのに、まだ 起{お}きて います(O)"
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N4-34-01",
+     "kind": "word",
+     "text": "安心{あんしん}",
+     "reading_kana": "あんしん",
+     "reading_romanized": "anshin",
+     "meaning_ko": "안심",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-34-02",
+     "kind": "word",
+     "text": "現地{げんち}",
+     "reading_kana": "げんち",
+     "reading_romanized": "genchi",
+     "meaning_ko": "현지",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-34-03",
+     "kind": "word",
+     "text": "空港{くうこう}",
+     "reading_kana": "くうこう",
+     "reading_romanized": "kuukou",
+     "meaning_ko": "공항",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-34-04",
+     "kind": "word",
+     "text": "お土産{みやげ}",
+     "reading_kana": "おみやげ",
+     "reading_romanized": "omiyage",
+     "meaning_ko": "기념품, 선물",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-34-05",
+     "kind": "word",
+     "text": "天気予報{てんきよほう}",
+     "reading_kana": "てんきよほう",
+     "reading_romanized": "tenkiyohou",
+     "meaning_ko": "일기 예보",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-34-06",
+     "kind": "word",
+     "text": "出発{しゅっぱつ}",
+     "reading_kana": "しゅっぱつ",
+     "reading_romanized": "shuppatsu",
+     "meaning_ko": "출발",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "明日{あした}から 旅行{りょこう}です。",
+     "meaning_ko": "내일부터 여행입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "旅行{りょこう}の 前{まえ}に、ホテルを 予約{よやく}して おきました。",
+     "meaning_ko": "여행 전에 호텔을 예약해 두었습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "パスポートは カバンに 入{い}れて おいたので、安心{あんしん}です。",
+     "meaning_ko": "여권은 가방에 넣어 두었으니 안심입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "天気予報{てんきよほう}を 調{しら}べて おきました。",
+     "meaning_ko": "일기 예보를 알아봐 두었습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "スマホで 調{しら}べると、駅{えき}は ホテルの 近{ちか}くです。",
+     "meaning_ko": "스마트폰으로 알아보면 역은 호텔 근처입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "ここで 右{みぎ}へ 曲{ま}がると、駅{えき}が あります。",
+     "meaning_ko": "여기서 오른쪽으로 돌면 역이 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "切符{きっぷ}を 家{いえ}に 置{お}いて しまいました。",
+     "meaning_ko": "표를 집에 두고 와 버렸습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "新{あたら}しい カメラを 使{つか}って みました。",
+     "meaning_ko": "새 카메라를 써 보았습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "お土産{みやげ}は 現地{げんち}で 買{か}って みたいです。",
+     "meaning_ko": "기념품은 현지에서 사 보고 싶습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "明日{あした}は 朝{あさ} 早{はや}いのに、まだ 起{お}きて います。",
+     "meaning_ko": "내일은 아침이 이른데도 아직 깨어 있습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "明日{あした}の 出発{しゅっぱつ}は 七時{しちじ}です。",
+     "meaning_ko": "내일 출발은 7시입니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "空港{くうこう}までは 電車{でんしゃ}で 行{い}きます。",
+     "meaning_ko": "공항까지는 전철로 갑니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「ホテルを 予約して おきました」의 뜻은?",
+     "options": [
+      "호텔을 예약해 두었습니다.",
+      "호텔을 예약해 버렸습니다.",
+      "호텔을 예약해 보았습니다.",
+      "호텔을 예약하지 않았습니다."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜て おきました는 앞으로를 위해 미리 해 두었다는 뜻입니다.",
+     "id": "JP-N4-34-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「切符を 家に 置いて しまいました」의 뜻은?",
+     "options": [
+      "표를 집에 두고 와 버렸습니다.",
+      "표를 집에 미리 사 두었습니다.",
+      "표를 집에서 써 보았습니다.",
+      "표를 집에 두지 않았습니다."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜て しまいました는 완료나 유감을 나타냅니다. 여기서는 ‘두고 와 버렸다’는 유감입니다.",
+     "id": "JP-N4-34-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「新しい カメラを 使って みました」의 뜻은?",
+     "options": [
+      "새 카메라를 써 보았습니다.",
+      "새 카메라를 써 두었습니다.",
+      "새 카메라를 써 버렸습니다.",
+      "새 카메라를 사고 싶습니다."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜て みました는 ‘해 보았다’는 시도를 나타냅니다.",
+     "id": "JP-N4-34-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ことばを 選んで ください。 明日は 朝 早い（　）、まだ 起きて います。",
+     "options": [
+      "のに",
+      "ので",
+      "から",
+      "と"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "예상과 반대되는 결과(일찍 일어나야 하는데 아직 깨어 있음)이므로 〜のに입니다.",
+     "id": "JP-N4-34-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "（　）に 入る ひらがな 1文字를 입력하세요: ここで 右へ 曲がる（　）、駅が あります。 (~하면)",
+     "answer_text": "と",
+     "accepted_answers": [
+      "と"
+     ],
+     "explanation_ko": "길 안내에서 ‘그렇게 하면 있다’는 뜻은 〜と로 나타냅니다.",
+     "id": "JP-N4-34-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「空港」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kuukou",
+     "accepted_answers": [
+      "kuukou",
+      "kuuko",
+      "kukou",
+      "kuko"
+     ],
+     "explanation_ko": "空港 = くうこう(kuukou), ‘공항’입니다.",
+     "id": "JP-N4-34-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

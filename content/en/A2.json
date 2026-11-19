@@ -6490,6 +6490,205 @@
     "version": 1,
     "last_revised": "2026-11-19"
    }
+  },
+  {
+   "id": "A2-034",
+   "level": "A2",
+   "track": "foundation",
+   "day": 34,
+   "title_ko": "상태 동사: know / like / want / need는 진행형으로 쓰지 않는다",
+   "objective_ko": "지금 하고 있는 동작은 현재진행형으로, know·want·need처럼 지금의 상태를 나타내는 동사는 현재형으로 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-20"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "지금 하고 있는 동작(eat, cook, play)은 현재진행형(am/is/are + -ing)으로 말합니다: Tom is cooking dinner now. 하지만 know, understand, remember, believe, like, love, prefer, want, need처럼 생각·감정·바람·필요 같은 '상태'를 나타내는 동사는 지금 그렇더라도 보통 현재형으로 씁니다: I know her name.(O) / I am knowing her name.(X). 지금 하는 중이면 진행형, 지금의 상태이면 현재형이라고 구별하세요. 3인칭 단수(he/she/it)에는 -s를 붙입니다: She wants a new phone. 참고로 have가 '가지고 있다'일 때는 상태라서 I have a bike. 이고, '먹다'처럼 동작일 때는 I'm having lunch. 라고 말할 수 있습니다.",
+    "common_mistake_ko": "I am knowing his name.(X) → I know his name.(O) / She is wanting a new phone.(X) → She wants a new phone.(O) / We are needing more time.(X) → We need more time.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "understand",
+     "part_of_speech": "동사",
+     "meaning_ko": "이해하다",
+     "example_en": "I don't understand this question.",
+     "example_ko": "이 질문을 이해하지 못하겠어요."
+    },
+    {
+     "word": "remember",
+     "part_of_speech": "동사",
+     "meaning_ko": "기억하다",
+     "example_en": "Do you remember his name?",
+     "example_ko": "그의 이름을 기억하나요?"
+    },
+    {
+     "word": "prefer",
+     "part_of_speech": "동사",
+     "meaning_ko": "더 좋아하다",
+     "example_en": "I prefer tea to coffee.",
+     "example_ko": "나는 커피보다 차를 더 좋아해요."
+    },
+    {
+     "word": "believe",
+     "part_of_speech": "동사",
+     "meaning_ko": "믿다",
+     "example_en": "I believe you.",
+     "example_ko": "나는 당신을 믿어요."
+    },
+    {
+     "word": "mean",
+     "part_of_speech": "동사",
+     "meaning_ko": "의미하다",
+     "example_en": "What does this word mean?",
+     "example_ko": "이 단어는 무슨 뜻이에요?"
+    },
+    {
+     "word": "seem",
+     "part_of_speech": "동사",
+     "meaning_ko": "~처럼 보이다",
+     "example_en": "He seems tired today.",
+     "example_ko": "그는 오늘 피곤해 보여요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I know her phone number.",
+     "ko": "나는 그녀의 전화번호를 알아요."
+    },
+    {
+     "en": "She wants a glass of water now.",
+     "ko": "그녀는 지금 물 한 잔을 원해요."
+    },
+    {
+     "en": "We need more chairs.",
+     "ko": "우리는 의자가 더 필요해요."
+    },
+    {
+     "en": "I don't understand this question.",
+     "ko": "이 질문을 이해하지 못하겠어요."
+    },
+    {
+     "en": "Do you remember his name?",
+     "ko": "그의 이름을 기억하나요?"
+    },
+    {
+     "en": "I prefer tea to coffee.",
+     "ko": "나는 커피보다 차를 더 좋아해요."
+    },
+    {
+     "en": "What does this word mean?",
+     "ko": "이 단어는 무슨 뜻이에요?"
+    },
+    {
+     "en": "He seems tired today.",
+     "ko": "그는 오늘 피곤해 보여요."
+    },
+    {
+     "en": "Tom is cooking dinner now.",
+     "ko": "톰은 지금 저녁을 요리하고 있어요."
+    },
+    {
+     "en": "I believe you.",
+     "ko": "나는 당신을 믿어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "I ___ the answer. (나는 답을 알아요)",
+     "choices": [
+      "know",
+      "am knowing",
+      "knowing",
+      "knows"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "know는 상태 동사이므로 진행형이 아니라 현재형 know를 씁니다. 주어가 I라서 -s도 붙지 않습니다.",
+     "error_tag": "stative-verb",
+     "id": "A2-034-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Look! The children ___ in the park. (지금 놀고 있어요)",
+     "choices": [
+      "are playing",
+      "play",
+      "plays",
+      "are play"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "지금 하고 있는 동작이므로 현재진행형 are playing을 씁니다.",
+     "error_tag": "stative-verb",
+     "id": "A2-034-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "She ___ a new phone. (그녀는 새 휴대폰을 원해요)",
+     "choices": [
+      "wants",
+      "is wanting",
+      "want",
+      "wanting"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "want는 상태 동사이므로 현재형을 쓰고, she에는 -s를 붙여 wants입니다.",
+     "error_tag": "stative-verb",
+     "id": "A2-034-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "다음 중 어색한 문장은?",
+     "choices": [
+      "We are needing more time.",
+      "We need more time.",
+      "She likes jazz.",
+      "I understand you."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "need는 상태 동사라서 진행형(are needing)으로 쓰지 않고 We need more time. 이라고 합니다.",
+     "error_tag": "stative-verb",
+     "id": "A2-034-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: I don't ___ this word. Can you explain it? (이해하다)",
+     "answer_text": "understand",
+     "accepted_answers": [
+      "understand"
+     ],
+     "explanation_ko": "understand는 상태 동사라서 I don't understand 처럼 현재형으로 씁니다.",
+     "error_tag": "stative-verb",
+     "id": "A2-034-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 형태를 쓰세요: He ___ a new bike. (want의 알맞은 형태)",
+     "answer_text": "wants",
+     "accepted_answers": [
+      "wants"
+     ],
+     "explanation_ko": "want는 상태 동사이고 주어가 he이므로 wants입니다.",
+     "error_tag": "stative-verb",
+     "id": "A2-034-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "지금 알고 있는 것 한 가지와 지금 하고 있는 일 한 가지를 영어 두 문장으로 써 보세요.",
+    "example_answer_en": "I know a good restaurant. I am studying English now.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-20",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-20"
+   }
   }
  ]
 }

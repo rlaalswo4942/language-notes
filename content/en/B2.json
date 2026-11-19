@@ -6486,6 +6486,206 @@
     "version": 1,
     "last_revised": "2026-11-19"
    }
+  },
+  {
+   "id": "B2-034",
+   "level": "B2",
+   "track": "general",
+   "day": 34,
+   "title_ko": "동명사 관용 표현: It's no use -ing / There's no point in -ing / be worth -ing / can't help -ing",
+   "objective_ko": "동명사가 뒤따르는 굳어진 표현(no use, no point in, worth, can't help, feel like)을 정확한 형태로 쓴다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-20"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "다음 표현 뒤에는 to부정사가 아니라 동명사(-ing)가 옵니다. ① It's no use / It's no good + -ing: ~해 봐야 소용없다 (It's no use arguing with him.) ② There's no point in + -ing: ~해 봐야 의미가 없다 (There's no point in waiting any longer.) ③ be worth + -ing: ~할 가치가 있다 (The castle is worth visiting.) 여기서는 능동형 -ing로 수동의 뜻(방문될 가치)을 나타냅니다. ④ can't help + -ing: ~하지 않을 수 없다 (I couldn't help laughing.) ⑤ feel like + -ing: ~하고 싶다 (I don't feel like going out.) 일반적인 규칙으로 외우지 말고 한 덩어리 표현으로 익히세요.",
+    "common_mistake_ko": "There's no point in to wait.(X) → There's no point in waiting.(O) / The film is worth to see.(X) → The film is worth seeing.(O) / I couldn't help to laugh.(X) → I couldn't help laughing.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "pointless",
+     "part_of_speech": "형용사",
+     "meaning_ko": "의미 없는, 무의미한",
+     "example_en": "Complaining now is pointless.",
+     "example_ko": "이제 와서 불평하는 것은 의미가 없어요."
+    },
+    {
+     "word": "worthwhile",
+     "part_of_speech": "형용사",
+     "meaning_ko": "할 만한 가치가 있는",
+     "example_en": "Learning a language is worthwhile.",
+     "example_ko": "언어를 배우는 것은 가치 있는 일이에요."
+    },
+    {
+     "word": "resist",
+     "part_of_speech": "동사",
+     "meaning_ko": "참다, 저항하다",
+     "example_en": "I can't resist chocolate cake.",
+     "example_ko": "나는 초콜릿 케이크를 도저히 못 참아요."
+    },
+    {
+     "word": "temptation",
+     "part_of_speech": "명사",
+     "meaning_ko": "유혹",
+     "example_en": "She gave in to the temptation to shop online.",
+     "example_ko": "그녀는 온라인 쇼핑의 유혹에 넘어갔어요."
+    },
+    {
+     "word": "procrastinate",
+     "part_of_speech": "동사",
+     "meaning_ko": "미루다, 꾸물거리다",
+     "example_en": "Don't procrastinate; start the report today.",
+     "example_ko": "미루지 말고 오늘 보고서를 시작하세요."
+    },
+    {
+     "word": "sigh",
+     "part_of_speech": "동사",
+     "meaning_ko": "한숨 쉬다",
+     "example_en": "He couldn't help sighing when he saw the bill.",
+     "example_ko": "그는 청구서를 보고 한숨이 나오지 않을 수 없었어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "It's no use arguing with him; he never changes his mind.",
+     "ko": "그와 논쟁해 봐야 소용없어요. 그는 생각을 바꾸지 않아요."
+    },
+    {
+     "en": "It's no good complaining now.",
+     "ko": "이제 와서 불평해 봐야 소용없어요."
+    },
+    {
+     "en": "There's no point in waiting any longer.",
+     "ko": "더 기다려 봐야 의미가 없어요."
+    },
+    {
+     "en": "The old castle is worth visiting.",
+     "ko": "그 오래된 성은 가 볼 만한 가치가 있어요."
+    },
+    {
+     "en": "I couldn't help laughing when he fell.",
+     "ko": "그가 넘어졌을 때 웃지 않을 수 없었어요."
+    },
+    {
+     "en": "I don't feel like going out tonight.",
+     "ko": "오늘 밤은 나가고 싶지 않아요."
+    },
+    {
+     "en": "Is it worth buying a new laptop now?",
+     "ko": "지금 새 노트북을 사는 것이 가치가 있을까요?"
+    },
+    {
+     "en": "She can't help worrying about her exams.",
+     "ko": "그녀는 시험 걱정을 하지 않을 수 없어요."
+    },
+    {
+     "en": "There's no point in staying up all night before the exam.",
+     "ko": "시험 전에 밤을 새워 봐야 의미가 없어요."
+    },
+    {
+     "en": "It's no use crying over spilt milk.",
+     "ko": "엎질러진 우유를 두고 울어 봐야 소용없어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "There's no point in ___ any longer. (더 기다려 봐야 의미가 없다)",
+     "choices": [
+      "waiting",
+      "wait",
+      "to wait",
+      "waited"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "There's no point in 뒤에는 동명사를 씁니다: waiting.",
+     "error_tag": "gerund-idiom",
+     "id": "B2-034-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "The new exhibition is worth ___. (가 볼 만하다)",
+     "choices": [
+      "visiting",
+      "to visit",
+      "visit",
+      "visited"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "be worth 뒤에는 동명사(-ing)를 씁니다.",
+     "error_tag": "gerund-idiom",
+     "id": "B2-034-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "When I heard the joke, I couldn't help ___. (웃지 않을 수 없었다)",
+     "choices": [
+      "laughing",
+      "laugh",
+      "to laugh",
+      "laughed"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "can't help 뒤에는 동명사를 씁니다: couldn't help laughing.",
+     "error_tag": "gerund-idiom",
+     "id": "B2-034-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'논쟁해 봐야 소용없다'를 뜻하는 알맞은 문장은?",
+     "choices": [
+      "It's no use arguing.",
+      "It's no use to arguing.",
+      "It no use argue.",
+      "It's not use argue."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "It's no use + 동명사 형태입니다.",
+     "error_tag": "gerund-idiom",
+     "id": "B2-034-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: It's no ___ crying over spilt milk. (소용)",
+     "answer_text": "use",
+     "accepted_answers": [
+      "use",
+      "good"
+     ],
+     "explanation_ko": "It's no use / It's no good + -ing 는 '~해 봐야 소용없다'입니다.",
+     "error_tag": "gerund-idiom",
+     "id": "B2-034-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 형태를 쓰세요: I don't feel like ___ out tonight. (go의 알맞은 형태)",
+     "answer_text": "going",
+     "accepted_answers": [
+      "going"
+     ],
+     "explanation_ko": "feel like 뒤에는 동명사를 씁니다.",
+     "error_tag": "gerund-idiom",
+     "id": "B2-034-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "worth -ing 를 써서 추천하고 싶은 장소나 책, 영화를 한 문장으로 소개해 보세요.",
+    "example_answer_en": "The new library near my house is worth visiting.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-20",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-20"
+   }
   }
  ]
 }

@@ -7122,6 +7122,225 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-34",
+   "day_index": 34,
+   "week_index": 5,
+   "level": "N1",
+   "unit_id": "N1-W05",
+   "lesson_type": "practice",
+   "title_ko": "적용: 항구 마을 축제의 부활 읽기",
+   "objective_ko": "5주차에 배운 문형(〜はおろか・〜とあって・〜べく・〜を皮切りに・〜ゆえ(に))이 들어 있는 축제 부활 이야기를 읽고 뜻을 확인한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-33"
+   ],
+   "explanation_ko": "〜はおろか, 〜とあって, 〜べく, 〜を皮切りに, 〜ゆえ(に) 를 항구 마을 축제가 되살아난 이야기에서 복습합니다. 〜はおろか는 ‘~은 말할 것도 없고’(뒤에 さえ・すら + 부정), 〜とあって는 특별한 사정 때문에 일어난 결과의 서술, 〜べく는 격식 있는 목적 표현, 〜を皮切りに는 ‘~을 시작으로 뒤이어’, 〜ゆえ(に)는 문어체 이유 표현입니다.",
+   "usage_notes": [
+    "〜はおろか + も・さえ・すら + 부정 (県外はおろか、隣町の人さえ知らなかった).",
+    "〜べく는 동사 사전형에 붙고, 뒤에는 목적을 위해 한 행동이 옵니다.",
+    "〜とあって 뒤에는 의지·명령·권유가 오지 않고 사실의 서술이 옵니다."
+   ],
+   "common_mistakes": [
+    "県外はおろか、隣町の人さえ知っていた(X) → 뒤는 부정: 知{し}らなかった(O)",
+    "復活べく、署名活動を始めた(X) → 동사 형태로 씁니다: 復活{ふっかつ}させるべく、署名活動{しょめいかつどう}を始{はじ}めた(O)",
+    "十年ぶりの復活とあって、ぜひ来てください(X) → 〜とあって 뒤에는 사실이 옵니다: 期待{きたい}が高{たか}まった(O)"
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N1-34-01",
+     "kind": "word",
+     "text": "途絶{とだ}える",
+     "reading_kana": "とだえる",
+     "reading_romanized": "todaeru",
+     "meaning_ko": "끊기다, 중단되다",
+     "part_of_speech": "동사"
+    },
+    {
+     "id": "w-JP-N1-34-02",
+     "kind": "word",
+     "text": "署名{しょめい}",
+     "reading_kana": "しょめい",
+     "reading_romanized": "shomei",
+     "meaning_ko": "서명",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-34-03",
+     "kind": "word",
+     "text": "復活{ふっかつ}",
+     "reading_kana": "ふっかつ",
+     "reading_romanized": "fukkatsu",
+     "meaning_ko": "부활",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-34-04",
+     "kind": "word",
+     "text": "宣伝{せんでん}",
+     "reading_kana": "せんでん",
+     "reading_romanized": "senden",
+     "meaning_ko": "선전, 홍보",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-34-05",
+     "kind": "word",
+     "text": "催{もよお}し",
+     "reading_kana": "もよおし",
+     "reading_romanized": "moyooshi",
+     "meaning_ko": "행사, 모임",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-34-06",
+     "kind": "word",
+     "text": "熱意{ねつい}",
+     "reading_kana": "ねつい",
+     "reading_romanized": "netsui",
+     "meaning_ko": "열의",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "少子化{しょうしか}ゆえに、この港町{みなとまち}の祭{まつ}りは十年前{じゅうねんまえ}に途絶{とだ}えた。",
+     "meaning_ko": "저출생 탓에 이 항구 마을의 축제는 10년 전에 끊겼다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "担{にな}い手{て}が減{へ}り、神輿{みこし}を担{かつ}ぐことはおろか、準備{じゅんび}を手伝{てつだ}う人{ひと}すら集{あつ}まらなかった。",
+     "meaning_ko": "담당할 사람이 줄어 가마를 메는 것은 말할 것도 없고 준비를 돕는 사람조차 모이지 않았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "祭{まつ}りを復活{ふっかつ}させるべく、地元{じもと}の若者{わかもの}たちが署名活動{しょめいかつどう}を始{はじ}めた。",
+     "meaning_ko": "축제를 되살리기 위해 지역 젊은이들이 서명 운동을 시작했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "十年{じゅうねん}ぶりの復活{ふっかつ}とあって、町{まち}には期待{きたい}が高{たか}まった。",
+     "meaning_ko": "10년 만의 부활이라서 마을에는 기대가 높아졌다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "宣伝{せんでん}が足{た}りず、県外{けんがい}はおろか、隣町{となりまち}の人{ひと}さえ復活{ふっかつ}を知{し}らなかった。",
+     "meaning_ko": "홍보가 부족해 다른 현은 말할 것도 없고 이웃 마을 사람조차 부활을 몰랐다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "港{みなと}での出発式{しゅっぱつしき}を皮切{かわき}りに、各地区{かくちく}で催{もよお}しが順次{じゅんじ}行{おこな}われた。",
+     "meaning_ko": "항구의 출발식을 시작으로 각 지구에서 행사가 차례로 열렸다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "連休{れんきゅう}と重{かさ}なったとあって、予想{よそう}を上回{うわまわ}る観光客{かんこうきゃく}が訪{おとず}れた。",
+     "meaning_ko": "연휴와 겹쳤기 때문에 예상을 웃도는 관광객이 찾아왔다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "費用{ひよう}を抑{おさ}えるべく、住民{じゅうみん}は衣装{いしょう}も屋台{やたい}も手作{てづく}りした。",
+     "meaning_ko": "비용을 줄이기 위해 주민들은 의상도 포장마차도 직접 만들었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "祭{まつ}りが今年{ことし}も続{つづ}けられたのは、住民{じゅうみん}の熱意{ねつい}ゆえの成果{せいか}だ。",
+     "meaning_ko": "축제가 올해도 이어질 수 있었던 것은 주민들의 열의 덕분의 성과다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「十年ぶりの復活とあって、町には期待が高まった」의 뜻은?",
+     "options": [
+      "10년 만의 부활이라는 특별한 사정으로 마을에 기대가 높아졌다",
+      "10년 만의 부활을 위해 마을이 기대를 모았다",
+      "10년 만의 부활이지만 마을의 기대는 높아지지 않았다",
+      "10년 만의 부활에도 마을은 아무 기대를 하지 않았다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜とあって는 특별한 사정 때문에 그런 결과가 되었다는 사실을 서술합니다.",
+     "id": "JP-N1-34-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 県外（　）、隣町の人さえ復活を知らなかった。",
+     "options": [
+      "はおろか",
+      "ゆえに",
+      "べく",
+      "を皮切りに"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘~은 말할 것도 없고, ~조차 ~않았다’는 〜はおろか입니다.",
+     "id": "JP-N1-34-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 祭りを復活させる（　）、若者たちが署名活動を始めた。",
+     "options": [
+      "べく",
+      "はおろか",
+      "を皮切りに",
+      "極まりない"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "동사 사전형 + べく는 ‘~하기 위해’라는 목적을 나타냅니다. 나머지는 동사 사전형 뒤에 바로 이어지지 않습니다.",
+     "id": "JP-N1-34-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「港での出発式を皮切りに、各地区で催しが順次行われた」의 뜻은?",
+     "options": [
+      "항구의 출발식을 시작으로 각 지구에서 행사가 차례로 열렸다",
+      "항구의 출발식을 마지막으로 행사가 끝났다",
+      "출발식은 항구에서만 열렸다",
+      "각 지구의 행사가 끝난 뒤에 출발식이 열렸다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜を皮切りに는 첫 번째 사건을 시작으로 뒤이어 여러 일이 이어짐을 나타냅니다.",
+     "id": "JP-N1-34-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「復活」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "fukkatsu",
+     "accepted_answers": [
+      "fukkatsu",
+      "fukkatu",
+      "hukkatu"
+     ],
+     "explanation_ko": "復活 = ふっかつ(fukkatsu), ‘부활’입니다.",
+     "id": "JP-N1-34-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「熱意」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "netsui",
+     "accepted_answers": [
+      "netsui",
+      "netui"
+     ],
+     "explanation_ko": "熱意 = ねつい(netsui), ‘열의’입니다.",
+     "id": "JP-N1-34-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "JLPT_FORMAT"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

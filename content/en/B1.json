@@ -5395,6 +5395,205 @@
     "version": 1,
     "last_revised": "2026-11-19"
    }
+  },
+  {
+   "id": "B1-029",
+   "level": "B1",
+   "track": "general",
+   "day": 29,
+   "title_ko": "want / ask / tell + 목적어 + to부정사: 누가 무엇을 하길 바라는지 말하기",
+   "objective_ko": "want·ask·tell·expect·remind·encourage 뒤에 '사람 + to 동사원형'을 써서 남에게 바라거나 부탁·지시한 내용을 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-20"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "want, ask, tell, would like, expect, remind, encourage, persuade 뒤에는 '목적어(사람) + to 동사원형' 순서로 씁니다: I want you to come early. (나는 네가 일찍 오기를 바란다) / She asked me to help. (그녀는 내게 도와 달라고 부탁했다) / He told them to wait. (그는 그들에게 기다리라고 말했다) 부정은 to 앞에 not을 둡니다: He told me not to be late. want 뒤에는 that절을 쓰지 않고 I want you to ... 로 말합니다. 목적어는 me, you, him처럼 목적격입니다. make와 let은 to 없이 동사원형을 쓰므로 구별하세요: They let me go.(O) / They made me go.(O) / They made me to go.(X) (B1-020)",
+    "common_mistake_ko": "I want that you come early.(X) → I want you to come early.(O) / She told me don't be late.(X) → She told me not to be late.(O) / He asked me help him.(X) → He asked me to help him.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "remind",
+     "part_of_speech": "동사",
+     "meaning_ko": "상기시키다, 일깨우다",
+     "example_en": "Please remind me to call my mother.",
+     "example_ko": "어머니께 전화하라고 제게 상기시켜 주세요."
+    },
+    {
+     "word": "expect",
+     "part_of_speech": "동사",
+     "meaning_ko": "기대하다, 예상하다",
+     "example_en": "We expect you to arrive before nine.",
+     "example_ko": "우리는 당신이 9시 전에 도착하기를 기대합니다."
+    },
+    {
+     "word": "encourage",
+     "part_of_speech": "동사",
+     "meaning_ko": "격려하다, 권장하다",
+     "example_en": "My teacher encouraged me to join the contest.",
+     "example_ko": "선생님은 내게 대회에 참가하도록 격려했다."
+    },
+    {
+     "word": "order",
+     "part_of_speech": "동사",
+     "meaning_ko": "명령하다",
+     "example_en": "The officer ordered everyone to leave.",
+     "example_ko": "경찰관은 모두에게 떠나라고 명령했다."
+    },
+    {
+     "word": "instruct",
+     "part_of_speech": "동사",
+     "meaning_ko": "지시하다",
+     "example_en": "The nurse instructed him to rest for two days.",
+     "example_ko": "간호사는 그에게 이틀 동안 쉬라고 지시했다."
+    },
+    {
+     "word": "persuade",
+     "part_of_speech": "동사",
+     "meaning_ko": "설득하다",
+     "example_en": "I persuaded my brother to come with us.",
+     "example_ko": "나는 동생이 우리와 함께 가도록 설득했다."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I want you to come early tomorrow.",
+     "ko": "나는 네가 내일 일찍 오기를 바라."
+    },
+    {
+     "en": "She asked me to help her with the box.",
+     "ko": "그녀는 내게 상자 옮기는 것을 도와 달라고 부탁했다."
+    },
+    {
+     "en": "The teacher told us to open our books.",
+     "ko": "선생님은 우리에게 책을 펴라고 말했다."
+    },
+    {
+     "en": "He told me not to be late.",
+     "ko": "그는 내게 늦지 말라고 말했다."
+    },
+    {
+     "en": "Please remind me to call my mother.",
+     "ko": "어머니께 전화하라고 제게 상기시켜 주세요."
+    },
+    {
+     "en": "We expect you to arrive before nine.",
+     "ko": "우리는 당신이 9시 전에 도착하기를 기대합니다."
+    },
+    {
+     "en": "My teacher encouraged me to join the contest.",
+     "ko": "선생님은 내게 대회에 참가하도록 격려했다."
+    },
+    {
+     "en": "I persuaded my brother to come with us.",
+     "ko": "나는 동생이 우리와 함께 가도록 설득했다."
+    },
+    {
+     "en": "Would you like me to carry your bag?",
+     "ko": "제가 가방을 들어 드릴까요?"
+    },
+    {
+     "en": "They let me use the phone.",
+     "ko": "그들은 내가 전화를 쓰게 해 주었다."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "I want ___ early tomorrow. (나는 네가 내일 일찍 오기를 바란다)",
+     "choices": [
+      "you to come",
+      "that you come",
+      "you come",
+      "for you come"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "want 뒤에는 '목적어 + to 동사원형'을 씁니다: want you to come.",
+     "error_tag": "object-infinitive",
+     "id": "B1-029-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'그는 내게 늦지 말라고 말했다.'를 영어로 하면?",
+     "choices": [
+      "He told me not to be late.",
+      "He told me to not late.",
+      "He told me don't be late.",
+      "He said me not be late."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "tell + 목적어 + not to + 동사원형으로 부정의 지시를 전합니다.",
+     "error_tag": "object-infinitive",
+     "id": "B1-029-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "She asked me ___ her with the box. (도와 달라고)",
+     "choices": [
+      "to help",
+      "help",
+      "helping",
+      "that help"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ask + 목적어 + to부정사: asked me to help.",
+     "error_tag": "object-infinitive",
+     "id": "B1-029-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "다음 중 어색한 문장은?",
+     "choices": [
+      "They made me to leave early.",
+      "They let me leave early.",
+      "They asked me to leave early.",
+      "They told me to leave early."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "make는 '목적어 + 동사원형'을 씁니다(They made me leave early). ask·tell은 to부정사를 씁니다.",
+     "error_tag": "make-vs-ask",
+     "id": "B1-029-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Please remind me ___ buy milk.",
+     "answer_text": "to",
+     "accepted_answers": [
+      "to"
+     ],
+     "explanation_ko": "remind + 목적어 + to + 동사원형입니다.",
+     "error_tag": "object-infinitive",
+     "id": "B1-029-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 형태를 쓰세요: My teacher ___ me to join the contest. (encourage의 과거형)",
+     "answer_text": "encouraged",
+     "accepted_answers": [
+      "encouraged"
+     ],
+     "explanation_ko": "과거의 일이므로 encourage에 -d를 붙인 encouraged입니다.",
+     "error_tag": "object-infinitive",
+     "id": "B1-029-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "가족이나 친구에게 바라는 일을 'I want ... to ...' 형태로 두 문장 써 보세요.",
+    "example_answer_en": "I want my brother to clean his room. I want my friends to visit me this weekend.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-20",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-20"
+   }
   }
  ]
 }

@@ -7174,6 +7174,236 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N5-34",
+   "day_index": 34,
+   "week_index": 5,
+   "level": "N5",
+   "unit_id": "N5-W05",
+   "lesson_type": "practice",
+   "title_ko": "적용: 동물원에 간 날 읽기",
+   "objective_ko": "5주차에 배운 문형(〜ないで ください・〜と・〜や・〜も・〜が ほしいです・〜の 上・下・中・〜は 〜が 〜です)이 들어 있는 동물원 이야기를 읽고 내용을 확인한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N5-33"
+   ],
+   "explanation_ko": "이번 주에 배운 〜ないで ください(~하지 마세요), と・や・も(나열과 추가), 〜が ほしいです(갖고 싶다), 〜の 上・下・中(위치), 〜は 〜が 〜です(특징)를 동물원 이야기에서 복습합니다. 금지는 ない형에 ないで ください를 붙이고(触{さわ}る → 触らないで ください), 갖고 싶은 것에는 を가 아니라 が를 씁니다. 위치를 말할 때는 〜の 中に あります처럼 の 뒤에 위치 말을 놓고, 사물에는 あります, 사람·동물에는 います를 씁니다.",
+   "usage_notes": [
+    "금지: ない형 + ないで ください (触{さわ}る → 触{さわ}らないで ください).",
+    "갖고 싶은 것: 〜が ほしいです (を가 아니라 が).",
+    "전체는 は, 특징이 되는 부분은 が: 象{ぞう}は 鼻{はな}が 長{なが}いです."
+   ],
+   "common_mistakes": [
+    "動物に 触るないで ください(X) → 動物{どうぶつ}に 触{さわ}らないで ください(O)",
+    "鞄の 中に お弁当が います(X) → 물건은 あります: 鞄{かばん}の 中{なか}に お弁当{べんとう}が あります(O)",
+    "象は 鼻を 長いです(X) → 象{ぞう}は 鼻{はな}が 長{なが}いです(O)"
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N5-34-01",
+     "kind": "word",
+     "text": "動物園{どうぶつえん}",
+     "reading_kana": "どうぶつえん",
+     "reading_romanized": "doubutsuen",
+     "meaning_ko": "동물원",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-34-02",
+     "kind": "word",
+     "text": "動物{どうぶつ}",
+     "reading_kana": "どうぶつ",
+     "reading_romanized": "doubutsu",
+     "meaning_ko": "동물",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-34-03",
+     "kind": "word",
+     "text": "写真{しゃしん}",
+     "reading_kana": "しゃしん",
+     "reading_romanized": "shashin",
+     "meaning_ko": "사진",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-34-04",
+     "kind": "word",
+     "text": "池{いけ}",
+     "reading_kana": "いけ",
+     "reading_romanized": "ike",
+     "meaning_ko": "연못",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-34-05",
+     "kind": "word",
+     "text": "お弁当{べんとう}",
+     "reading_kana": "おべんとう",
+     "reading_romanized": "obentou",
+     "meaning_ko": "도시락",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-34-06",
+     "kind": "word",
+     "text": "入口{いりぐち}",
+     "reading_kana": "いりぐち",
+     "reading_romanized": "iriguchi",
+     "meaning_ko": "입구",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "日曜日{にちようび}に 動物園{どうぶつえん}へ 行{い}きました。",
+     "meaning_ko": "일요일에 동물원에 갔어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "象{ぞう}は 鼻{はな}が 長{なが}いです。",
+     "meaning_ko": "코끼리는 코가 길어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "ウサギは 耳{みみ}が 長{なが}いです。",
+     "meaning_ko": "토끼는 귀가 길어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "動物{どうぶつ}に 触{さわ}らないで ください。",
+     "meaning_ko": "동물을 만지지 마세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "ここで 走{はし}らないで ください。",
+     "meaning_ko": "여기서 뛰지 마세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "鞄{かばん}の 中{なか}に お弁当{べんとう}と おにぎりが あります。",
+     "meaning_ko": "가방 안에 도시락과 주먹밥이 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "わたしは 象{ぞう}の 写真{しゃしん}が ほしいです。",
+     "meaning_ko": "나는 코끼리 사진이 갖고 싶어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "妹{いもうと}は 帽子{ぼうし}と 鞄{かばん}が ほしいです。",
+     "meaning_ko": "여동생은 모자와 가방을 갖고 싶어 해요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "池{いけ}の 中{なか}に 魚{さかな}が います。",
+     "meaning_ko": "연못 안에 물고기가 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "動物園{どうぶつえん}の 入口{いりぐち}の 前{まえ}に 友達{ともだち}が います。",
+     "meaning_ko": "동물원 입구 앞에 친구가 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "友達{ともだち}も 動物園{どうぶつえん}に 来{き}ました。",
+     "meaning_ko": "친구도 동물원에 왔어요.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「動物に 触らないで ください」의 뜻은?",
+     "options": [
+      "동물을 만지지 마세요.",
+      "동물을 만져 보세요.",
+      "동물을 보세요.",
+      "동물이 만지고 싶어요."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "触らないで ください는 ‘만지지 마세요’라는 금지 표현입니다.",
+     "id": "JP-N5-34-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「象は 鼻（　）長いです」 ( )에 알맞은 조사는?",
+     "options": [
+      "が",
+      "を",
+      "に",
+      "へ"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〈전체〉は 〈부분〉が 형용사 순서이므로 が입니다.",
+     "id": "JP-N5-34-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "‘가방 안에 도시락이 있어요’를 일본어로 하면?",
+     "options": [
+      "鞄の 中に お弁当が あります。",
+      "鞄に 中の お弁当が あります。",
+      "鞄の 中が お弁当に あります。",
+      "鞄の 中に お弁当が います。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "위치는 〜の 中に, 물건이 있다는 あります를 씁니다. います는 사람·동물에 씁니다.",
+     "id": "JP-N5-34-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「妹は 帽子と 鞄が ほしいです」의 뜻은?",
+     "options": [
+      "여동생은 모자와 가방을 갖고 싶어 해요.",
+      "여동생은 모자와 가방을 갖고 있어요.",
+      "여동생은 모자나 가방을 샀어요.",
+      "여동생은 모자와 가방이 필요 없어요."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "と는 둘을 모두 나열하고, 〜が ほしいです는 ‘갖고 싶다’입니다.",
+     "id": "JP-N5-34-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「動物」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "doubutsu",
+     "accepted_answers": [
+      "doubutsu",
+      "dobutsu",
+      "doubutu",
+      "dobutu"
+     ],
+     "explanation_ko": "動物 = どうぶつ(doubutsu), ‘동물’입니다.",
+     "id": "JP-N5-34-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「写真」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "shashin",
+     "accepted_answers": [
+      "shashin",
+      "syasin"
+     ],
+     "explanation_ko": "写真 = しゃしん(shashin), ‘사진’입니다.",
+     "id": "JP-N5-34-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

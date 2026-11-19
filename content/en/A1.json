@@ -6513,6 +6513,205 @@
     "version": 1,
     "last_revised": "2026-11-19"
    }
+  },
+  {
+   "id": "A1-034",
+   "level": "A1",
+   "track": "foundation",
+   "day": 34,
+   "title_ko": "길 묻고 안내하기: Where is ...? / Go straight / Turn left / It's on your right",
+   "objective_ko": "길을 묻고(Where is ...? / How do I get to ...?), 직진·좌회전·우회전과 위치 표현으로 간단히 길을 안내한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-20"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "길을 물을 때는 Excuse me, where is the post office? 또는 How do I get to the station? 이라고 합니다. 안내는 명령문으로 합니다: Go straight. (곧장 가세요) / Turn left. (왼쪽으로 도세요) / Turn right. (오른쪽으로 도세요) 어디서 도는지는 at the corner(모퉁이에서), at the traffic light(신호등에서)로 말하고, 거리는 for two blocks(두 블록 동안)로 말합니다: Go straight for two blocks. 목적지의 위치는 It's on your left. / It's on your right. / It's next to the bank. 처럼 말합니다. 마지막에 You can't miss it. 을 붙이면 '쉽게 찾을 수 있어요'라는 뜻입니다.",
+    "common_mistake_ko": "Go to straight.(X) → Go straight.(O) / Where the post office is?(X) → Where is the post office?(O) / It's at your right.(X) → It's on your right.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "straight",
+     "part_of_speech": "부사",
+     "meaning_ko": "곧장, 똑바로",
+     "example_en": "Go straight for two blocks.",
+     "example_ko": "두 블록 곧장 가세요."
+    },
+    {
+     "word": "traffic light",
+     "part_of_speech": "명사",
+     "meaning_ko": "신호등",
+     "example_en": "Turn left at the traffic light.",
+     "example_ko": "신호등에서 왼쪽으로 도세요."
+    },
+    {
+     "word": "block",
+     "part_of_speech": "명사",
+     "meaning_ko": "블록, 한 구획",
+     "example_en": "The bank is two blocks from here.",
+     "example_ko": "은행은 여기서 두 블록 떨어져 있어요."
+    },
+    {
+     "word": "post office",
+     "part_of_speech": "명사",
+     "meaning_ko": "우체국",
+     "example_en": "Where is the post office?",
+     "example_ko": "우체국이 어디예요?"
+    },
+    {
+     "word": "pharmacy",
+     "part_of_speech": "명사",
+     "meaning_ko": "약국",
+     "example_en": "The pharmacy is on your right.",
+     "example_ko": "약국은 오른쪽에 있어요."
+    },
+    {
+     "word": "cross",
+     "part_of_speech": "동사",
+     "meaning_ko": "(길을) 건너다",
+     "example_en": "Cross the street here.",
+     "example_ko": "여기서 길을 건너세요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Excuse me, where is the post office?",
+     "ko": "실례합니다, 우체국이 어디예요?"
+    },
+    {
+     "en": "Go straight for two blocks.",
+     "ko": "두 블록 곧장 가세요."
+    },
+    {
+     "en": "Turn left at the traffic light.",
+     "ko": "신호등에서 왼쪽으로 도세요."
+    },
+    {
+     "en": "Turn right at the corner.",
+     "ko": "모퉁이에서 오른쪽으로 도세요."
+    },
+    {
+     "en": "The pharmacy is on your right.",
+     "ko": "약국은 오른쪽에 있어요."
+    },
+    {
+     "en": "How do I get to the station?",
+     "ko": "역에는 어떻게 가나요?"
+    },
+    {
+     "en": "Cross the street and go straight.",
+     "ko": "길을 건너서 곧장 가세요."
+    },
+    {
+     "en": "The bank is next to the post office.",
+     "ko": "은행은 우체국 옆에 있어요."
+    },
+    {
+     "en": "It's on your left. You can't miss it.",
+     "ko": "왼쪽에 있어요. 쉽게 찾을 수 있어요."
+    },
+    {
+     "en": "Is the museum far from here? — No, it's two blocks away.",
+     "ko": "박물관은 여기서 멀어요? — 아니요, 두 블록 떨어져 있어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "'곧장 가세요.'를 영어로 하면?",
+     "choices": [
+      "Go straight.",
+      "Go to straight.",
+      "Going straight.",
+      "You go straights."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "방향을 안내할 때는 명령문 Go straight. 를 씁니다. straight 앞에 to를 넣지 않습니다.",
+     "error_tag": "directions",
+     "id": "A1-034-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'신호등에서 왼쪽으로 도세요.'를 영어로 하면?",
+     "choices": [
+      "Turn left at the traffic light.",
+      "Turn left in the traffic light.",
+      "Turn the left at traffic light.",
+      "Turns left at the traffic light."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "도는 장소는 at the traffic light로 말하고, 명령문이므로 동사원형 Turn을 씁니다.",
+     "error_tag": "directions",
+     "id": "A1-034-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "The pharmacy is ___ your right. (오른쪽에 있어요)",
+     "choices": [
+      "on",
+      "in",
+      "under",
+      "between"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "'~의 오른쪽에'는 on your right 라고 합니다.",
+     "error_tag": "directions-prep",
+     "id": "A1-034-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "길을 물을 때 알맞은 문장은?",
+     "choices": [
+      "Where is the post office?",
+      "Where the post office is?",
+      "Where is post office the?",
+      "Where does the post office?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "의문사 Where 뒤에 be동사가 먼저 오는 Where is the post office? 가 알맞습니다.",
+     "error_tag": "directions-question",
+     "id": "A1-034-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Go ___ for two blocks. (곧장)",
+     "answer_text": "straight",
+     "accepted_answers": [
+      "straight"
+     ],
+     "explanation_ko": "Go straight 는 '곧장 가세요'입니다.",
+     "error_tag": "directions",
+     "id": "A1-034-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Turn ___ at the corner. (오른쪽으로)",
+     "answer_text": "right",
+     "accepted_answers": [
+      "right"
+     ],
+     "explanation_ko": "Turn right 는 '오른쪽으로 도세요'입니다.",
+     "error_tag": "directions",
+     "id": "A1-034-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "집에서 가까운 편의점이나 역까지 가는 길을 영어 두세 문장으로 안내해 보세요.",
+    "example_answer_en": "Go straight for two blocks. Turn left at the traffic light. The store is on your right.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-20",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-20"
+   }
   }
  ]
 }
