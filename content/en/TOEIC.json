@@ -5434,6 +5434,201 @@
     "version": 1,
     "last_revised": "2026-11-20"
    }
+  },
+  {
+   "id": "TOEIC-029",
+   "level": "B1",
+   "track": "toeic",
+   "day": 29,
+   "title_ko": "TOEIC Part 7: 사내 공지·메모에서 NOT 유형과 세부 정보 찾기",
+   "objective_ko": "사내 공지에서 목적·날짜·요청 사항을 찾고, '언급되지 않은 것(NOT)'을 보기와 지문을 대조해 고른다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/toeic/about/listening-reading.html",
+     "publisher": "ETS",
+     "supports": "공식 시험 형식",
+     "checked_at": "2026-11-21"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "TOEIC L&R Part 7에는 공지·메모·이메일 같은 지문이 나옵니다(비공식 자체 연습이며 ETS 문항이 아닙니다). 사내 공지는 보통 ① 무엇이 바뀌는가(목적) ② 언제·어디서 ③ 직원이 해야 할 일 ④ 문의처 순서로 쓰여 있습니다. 'NOT mentioned / true' 유형은 보기 네 개 중 세 개는 지문에 있고 한 개만 없습니다. 보기를 하나씩 지문과 대조하며 '있다/없다'를 표시하고, 없는 것을 고릅니다. 지문의 표현은 보기에서 다른 말로 바뀌어 나오기도 합니다(two weeks → the length of the work). 이 레슨은 점수 예측과 무관합니다.",
+    "common_mistake_ko": "지문에 일부만 나온 단어가 보기에 있다고 바로 고른다 → 내용 전체가 맞는지 확인 / 'NOT' 문제에서 지문에 있는 것을 고른다 → 없는 것을 고른다 / 날짜를 대충 읽는다 → 숫자와 요일을 다시 확인"
+   },
+   "vocabulary": [
+    {
+     "word": "maintenance",
+     "part_of_speech": "명사",
+     "meaning_ko": "정비, 유지·보수",
+     "example_en": "The elevator is closed for maintenance.",
+     "example_ko": "엘리베이터는 정비로 운행하지 않아요."
+    },
+    {
+     "word": "facility",
+     "part_of_speech": "명사",
+     "meaning_ko": "시설",
+     "example_en": "The facility is open to all employees.",
+     "example_ko": "그 시설은 모든 직원이 이용할 수 있어요."
+    },
+    {
+     "word": "access",
+     "part_of_speech": "명사",
+     "meaning_ko": "접근, 이용",
+     "example_en": "Access to the lab is limited.",
+     "example_ko": "실험실 출입은 제한돼요."
+    },
+    {
+     "word": "effective",
+     "part_of_speech": "형용사",
+     "meaning_ko": "(날짜부터) 시행되는, 효과적인",
+     "example_en": "The new policy is effective as of March 1.",
+     "example_ko": "새 방침은 3월 1일부터 시행돼요."
+    },
+    {
+     "word": "in advance",
+     "part_of_speech": "부사구",
+     "meaning_ko": "미리, 사전에",
+     "example_en": "Please book the room in advance.",
+     "example_ko": "방을 미리 예약해 주세요."
+    },
+    {
+     "word": "accommodate",
+     "part_of_speech": "동사",
+     "meaning_ko": "수용하다, 맞춰 주다",
+     "example_en": "The hall can accommodate fifty guests.",
+     "example_ko": "그 홀은 손님 50명을 수용할 수 있어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Starting Monday, the fourth-floor meeting rooms will be closed for maintenance.",
+     "ko": "월요일부터 4층 회의실은 정비를 위해 폐쇄돼요."
+    },
+    {
+     "en": "The maintenance work is expected to take two weeks.",
+     "ko": "정비 작업은 2주가 걸릴 것으로 예상돼요."
+    },
+    {
+     "en": "Employees should reserve a room on the third floor in advance.",
+     "ko": "직원들은 3층에 있는 방을 미리 예약해야 해요."
+    },
+    {
+     "en": "Access to the parking garage will not be affected.",
+     "ko": "주차장 이용은 영향을 받지 않아요."
+    },
+    {
+     "en": "Please contact the facilities office at extension 215 with any questions.",
+     "ko": "질문이 있으면 내선 215번 시설 관리실로 연락해 주세요."
+    },
+    {
+     "en": "The new policy is effective as of March 1.",
+     "ko": "새 방침은 3월 1일부터 시행돼요."
+    },
+    {
+     "en": "The conference room can accommodate up to twenty people.",
+     "ko": "회의실은 최대 20명까지 수용할 수 있어요."
+    },
+    {
+     "en": "Which of the following is NOT mentioned in the notice?",
+     "ko": "다음 중 공지에 언급되지 않은 것은?"
+    },
+    {
+     "en": "Employees are asked to book rooms at least one day ahead.",
+     "ko": "직원은 적어도 하루 전에 방을 예약하도록 요청받아요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "NOTICE TO ALL STAFF\nStarting Monday, March 4, the meeting rooms on the fourth floor will be closed for maintenance. The work is expected to take two weeks. During this period, employees who need a meeting room should reserve one on the third floor at least one day in advance. Access to the parking garage will not be affected. Please contact the facilities office at extension 215 with any questions.\n\nWhich of the following is NOT mentioned in the notice?",
+     "choices": [
+      "The cost of the repairs",
+      "The length of the maintenance work",
+      "Where to reserve a room during the work",
+      "How to contact the facilities office"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "공사 기간(two weeks), 대체 장소(third floor), 문의처(extension 215)는 나오지만 수리 비용은 나오지 않습니다.",
+     "error_tag": "not-mentioned",
+     "id": "TOEIC-029-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "NOTICE TO ALL STAFF\nStarting Monday, March 4, the meeting rooms on the fourth floor will be closed for maintenance. The work is expected to take two weeks. During this period, employees who need a meeting room should reserve one on the third floor at least one day in advance. Access to the parking garage will not be affected. Please contact the facilities office at extension 215 with any questions.\n\nWhat is the purpose of the notice?",
+     "choices": [
+      "To introduce a new parking policy",
+      "To announce a temporary room closure",
+      "To invite employees to a meeting",
+      "To request payment for repairs"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "4층 회의실이 정비로 닫힌다는 것을 알리는 공지입니다. 주차장은 영향이 없다고만 언급됩니다.",
+     "error_tag": "purpose",
+     "id": "TOEIC-029-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "NOTICE TO ALL STAFF\nStarting Monday, March 4, the meeting rooms on the fourth floor will be closed for maintenance. The work is expected to take two weeks. During this period, employees who need a meeting room should reserve one on the third floor at least one day in advance. Access to the parking garage will not be affected. Please contact the facilities office at extension 215 with any questions.\n\nWhen will the maintenance begin?",
+     "choices": [
+      "On March 18",
+      "At extension 215",
+      "On March 4",
+      "One day in advance"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "Starting Monday, March 4 에서 시작일을 알 수 있습니다. 2주 뒤는 끝나는 시점쯤입니다.",
+     "error_tag": "detail-date",
+     "id": "TOEIC-029-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "NOTICE TO ALL STAFF\nStarting Monday, March 4, the meeting rooms on the fourth floor will be closed for maintenance. The work is expected to take two weeks. During this period, employees who need a meeting room should reserve one on the third floor at least one day in advance. Access to the parking garage will not be affected. Please contact the facilities office at extension 215 with any questions.\n\nWhat should employees do if they need a meeting room?",
+     "choices": [
+      "Park in the garage",
+      "Call the facilities office to cancel the work",
+      "Wait until the work is finished",
+      "Reserve one on the third floor at least a day ahead"
+     ],
+     "answer_index": 3,
+     "explanation_ko": "employees who need a meeting room should reserve one on the third floor at least one day in advance 에 해당합니다.",
+     "error_tag": "detail-request",
+     "id": "TOEIC-029-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Employees should reserve a room in ___. (미리)",
+     "answer_text": "advance",
+     "accepted_answers": [
+      "advance"
+     ],
+     "explanation_ko": "in advance 는 '미리, 사전에'입니다.",
+     "error_tag": "vocabulary",
+     "id": "TOEIC-029-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Access to the parking garage will not be ___. (영향받지 않을 것이다)",
+     "answer_text": "affected",
+     "accepted_answers": [
+      "affected"
+     ],
+     "explanation_ko": "be affected 는 '영향을 받다'입니다. will not be affected 로 수동태입니다.",
+     "error_tag": "vocabulary",
+     "id": "TOEIC-029-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "사내 공지를 한 편 짓는다고 생각하고, 무엇이 언제 바뀌는지와 직원이 해야 할 일을 영어 두세 문장으로 써 보세요.",
+    "example_answer_en": "The cafeteria will be closed on Friday for cleaning. Employees should bring lunch from home. Please contact the office with any questions.",
+    "note_ko": "비공식 자체 연습이며 ETS 문항이 아닙니다. 예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-21",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-21"
+   }
   }
  ]
 }

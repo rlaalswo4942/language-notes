@@ -5397,6 +5397,202 @@
     "version": 1,
     "last_revised": "2026-11-20"
    }
+  },
+  {
+   "id": "TOEFL-029",
+   "level": "B1",
+   "track": "toefl",
+   "day": 29,
+   "title_ko": "TOEFL 2026 Listen and Repeat 2: 긴 문장의 숫자·시간·장소 정보를 덩어리로 기억해 따라 말하기",
+   "objective_ko": "숫자·시간·장소가 들어 있는 비교적 긴 캠퍼스 문장을 의미 덩어리로 끊어 기억하고 그대로 따라 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/content/ets-org/language-master/ko/home/toefl/test-takers/ibt/about/content.html",
+     "publisher": "ETS",
+     "supports": "2026 형식 유형명",
+     "checked_at": "2026-11-21"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "TOEFL iBT 2026 Speaking의 Listen and Repeat 두 번째 연습입니다(비공식 자체 연습). 이 사이트에는 음원이 없으므로 문장을 눈으로 읽고 소리 내어 따라 말합니다. ① 문장이 길어질수록 의미 덩어리로 끊습니다: The shuttle bus runs / every fifteen minutes / from the east gate. ② 숫자·시간·방 번호는 들은 그대로 정확히 말합니다(room two hundred and four, nine thirty). ③ 들은 단어를 비슷한 말로 바꾸지 않습니다(permit을 allow로 바꾸지 않기). ④ 한 단어를 놓쳐도 멈추지 말고 끝까지 이어 말합니다. ⑤ 가린 뒤 다시 말하는 연습으로 기억을 확인합니다. 공식 문항 수와 시간은 ETS 안내를 확인하세요. 점수·합격 가능성 예측은 없습니다.",
+    "common_mistake_ko": "숫자를 비슷한 숫자로 바꿔 말한다 → 들은 그대로 / 한 단어에서 멈춘다 → 계속 이어서 말한다 / 모든 단어를 같은 세기로 말한다 → 내용어를 더 강하게"
+   },
+   "vocabulary": [
+    {
+     "word": "attendance",
+     "part_of_speech": "명사",
+     "meaning_ko": "출석, 참석",
+     "example_en": "Attendance is required at the orientation.",
+     "example_ko": "오리엔테이션은 출석이 필수예요."
+    },
+    {
+     "word": "cafeteria",
+     "part_of_speech": "명사",
+     "meaning_ko": "구내식당",
+     "example_en": "The cafeteria opens at seven.",
+     "example_ko": "구내식당은 7시에 열어요."
+    },
+    {
+     "word": "permit",
+     "part_of_speech": "명사·동사",
+     "meaning_ko": "허가증 / 허락하다",
+     "example_en": "Parking permits can be picked up at the security office.",
+     "example_ko": "주차 허가증은 경비실에서 받을 수 있어요."
+    },
+    {
+     "word": "relocate",
+     "part_of_speech": "동사",
+     "meaning_ko": "이전하다, 옮기다",
+     "example_en": "The department will relocate in January.",
+     "example_ko": "그 학과는 1월에 이전할 거예요."
+    },
+    {
+     "word": "orientation",
+     "part_of_speech": "명사",
+     "meaning_ko": "오리엔테이션, 안내 교육",
+     "example_en": "The orientation starts at nine thirty.",
+     "example_ko": "오리엔테이션은 9시 30분에 시작해요."
+    },
+    {
+     "word": "vehicle",
+     "part_of_speech": "명사",
+     "meaning_ko": "차량",
+     "example_en": "Vehicles are not permitted in the courtyard.",
+     "example_ko": "차량은 안뜰에 들어갈 수 없어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The cafeteria will be closed for renovation until next Thursday.",
+     "ko": "구내식당은 다음 주 목요일까지 공사로 문을 닫아요."
+    },
+    {
+     "en": "Attendance is required at the orientation session on Monday morning.",
+     "ko": "월요일 아침 오리엔테이션은 출석이 필수예요."
+    },
+    {
+     "en": "Parking permits can be picked up at the security office.",
+     "ko": "주차 허가증은 경비실에서 받을 수 있어요."
+    },
+    {
+     "en": "The writing center has moved to room two hundred and four.",
+     "ko": "글쓰기 센터는 204호로 옮겼어요."
+    },
+    {
+     "en": "Vehicles are not permitted inside the main courtyard.",
+     "ko": "차량은 중앙 안뜰 안에 들어갈 수 없어요."
+    },
+    {
+     "en": "All first-year students should meet in the auditorium at nine thirty.",
+     "ko": "1학년 학생은 모두 9시 30분에 강당에서 모여야 해요."
+    },
+    {
+     "en": "The department will relocate to the new science building in January.",
+     "ko": "그 학과는 1월에 새 과학관으로 이전할 거예요."
+    },
+    {
+     "en": "Please bring your student card and a printed copy of your schedule.",
+     "ko": "학생증과 인쇄한 시간표를 가져오세요."
+    },
+    {
+     "en": "The shuttle bus runs every fifteen minutes from the east gate.",
+     "ko": "셔틀버스는 동문에서 15분마다 운행해요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "You hear: \"Parking permits can be picked up at the security office.\" Which repetition is best?",
+     "choices": [
+      "Parking permits can be picked up at the security office.",
+      "Parking permits can be taken at the security office.",
+      "Parking permits can be picked up at the main office.",
+      "Parking permits can be picked at security office."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "단어를 바꾸거나(taken) 장소를 바꾸거나(main office) 빼먹지 않고 그대로 말한 것이 가장 좋습니다.",
+     "error_tag": "repeat-exact",
+     "id": "TOEFL-029-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "\"The shuttle bus runs every fifteen minutes from the east gate.\" 문장을 의미 덩어리로 가장 잘 끊은 것은?",
+     "choices": [
+      "The / shuttle bus / runs every / fifteen minutes from / the east gate",
+      "The shuttle bus runs / every fifteen minutes / from the east gate",
+      "The shuttle / bus runs every / fifteen / minutes from the east / gate",
+      "The shuttle bus runs every fifteen / minutes from the east gate"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "주어와 동사 / 빈도 / 출발 장소처럼 의미가 이어지는 덩어리로 끊으면 기억하기 쉽습니다.",
+     "error_tag": "repeat-chunk",
+     "id": "TOEFL-029-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "방 번호나 시간(room two hundred and four, nine thirty)이 들어 있는 문장을 따라 말할 때 가장 좋은 방법은?",
+     "choices": [
+      "비슷한 숫자로 바꿔 말한다",
+      "숫자는 빼고 나머지만 말한다",
+      "숫자를 들은 그대로 정확하게 말한다",
+      "숫자를 한국어로 말한다"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "숫자·시간·방 번호는 중요한 정보이므로 들은 그대로 정확히 말해야 합니다.",
+     "error_tag": "repeat-numbers",
+     "id": "TOEFL-029-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'relocate'의 뜻으로 알맞은 것은?",
+     "choices": [
+      "반복하다",
+      "취소하다",
+      "확인하다",
+      "이전하다, 옮기다"
+     ],
+     "answer_index": 3,
+     "explanation_ko": "relocate = 이전하다, 옮기다. The department will relocate 는 '그 학과가 이전할 것이다'입니다.",
+     "error_tag": "repeat-vocab",
+     "id": "TOEFL-029-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "다음 문장을 눈으로 읽고 가린 뒤 그대로 써 보세요: Vehicles are not permitted inside the main courtyard.",
+     "answer_text": "Vehicles are not permitted inside the main courtyard",
+     "accepted_answers": [
+      "Vehicles are not permitted inside the main courtyard",
+      "vehicles are not permitted inside the main courtyard"
+     ],
+     "explanation_ko": "들은 문장을 그대로 기억해 낸 것입니다. 끝의 마침표는 무시됩니다.",
+     "error_tag": "repeat-exact",
+     "id": "TOEFL-029-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Attendance is ___ at the orientation session on Monday morning. (r로 시작, '필수로 요구되는')",
+     "answer_text": "required",
+     "accepted_answers": [
+      "required"
+     ],
+     "explanation_ko": "학습한 문장 그대로입니다. Attendance is required at the orientation session on Monday morning.",
+     "error_tag": "repeat-exact",
+     "id": "TOEFL-029-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "Listen and Repeat 연습으로 아래 문장을 소리 내어 세 번 따라 말한 뒤, 덩어리를 / 로 나누어 써 보세요: All first-year students should meet in the auditorium at nine thirty.",
+    "example_answer_en": "All first-year students / should meet / in the auditorium / at nine thirty.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다. 비공식 자체 연습이며 ETS 문항이 아닙니다."
+   },
+   "publish_date": "2026-11-21",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-21"
+   }
   }
  ]
 }

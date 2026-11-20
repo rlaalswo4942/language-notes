@@ -7341,6 +7341,233 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-35",
+   "day_index": 35,
+   "week_index": 5,
+   "level": "N1",
+   "unit_id": "N1-W05",
+   "lesson_type": "checkpoint",
+   "title_ko": "5주 점검: 전통 공방의 후계자",
+   "objective_ko": "N1 다섯째 주 문형(〜はおろか, 〜とあって, 〜べく, 〜を皮切りに, 〜ゆえ(に))을 전통 공방 후계자 이야기 속에서 종합 점검한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-34"
+   ],
+   "explanation_ko": "5주 차에 배운 〜はおろか(~은 말할 것도 없고), 〜とあって(~이라서: 특별한 사정), 〜べく(~하기 위해), 〜を皮切りに(~을 시작으로), 〜ゆえ(に)(~때문에: 문어체)를 전통 공방 후계자 이야기에서 다시 확인합니다. 〜はおろか는 뒤에 も・さえ・すら와 부정이 이어지고, 〜とあって는 특별한 사정에 따른 결과를 사실로 서술합니다. 〜べく는 동사 사전형에 붙는 격식 있는 목적 표현이고, 〜を皮切りに는 첫 행사를 시작으로 뒤이어 일이 이어질 때, 〜ゆえに는 문어적인 이유를 나타냅니다.",
+   "usage_notes": [
+    "〜はおろか + さえ・すら・も + 부정 (国内はおろか、海外でも知られていなかった).",
+    "〜べく는 사전형 + べく (する → するべく/すべく).",
+    "〜とあって 뒤에는 의지·명령이 오지 않고 사실의 서술이 옵니다."
+   ],
+   "common_mistakes": [
+    "後継者はおろか、見習いさえ来た(X) → 見習{みなら}いすら来{こ}なかった(O): 뒤는 부정",
+    "技を守るべくために(X) → 技{わざ}を守{まも}るべく(O)",
+    "年末とあって、手伝ってください(X) → 年末{ねんまつ}とあって、注文{ちゅうもん}に追{お}われている(O)"
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N1-35-01",
+     "kind": "word",
+     "text": "後継者{こうけいしゃ}",
+     "reading_kana": "こうけいしゃ",
+     "reading_romanized": "koukeisha",
+     "meaning_ko": "후계자",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-35-02",
+     "kind": "word",
+     "text": "工房{こうぼう}",
+     "reading_kana": "こうぼう",
+     "reading_romanized": "koubou",
+     "meaning_ko": "공방",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-35-03",
+     "kind": "word",
+     "text": "需要{じゅよう}",
+     "reading_kana": "じゅよう",
+     "reading_romanized": "juyou",
+     "meaning_ko": "수요",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-35-04",
+     "kind": "word",
+     "text": "弟子{でし}",
+     "reading_kana": "でし",
+     "reading_romanized": "deshi",
+     "meaning_ko": "제자",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-35-05",
+     "kind": "word",
+     "text": "育成{いくせい}",
+     "reading_kana": "いくせい",
+     "reading_romanized": "ikusei",
+     "meaning_ko": "육성",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N1-35-06",
+     "kind": "word",
+     "text": "親方{おやかた}",
+     "reading_kana": "おやかた",
+     "reading_romanized": "oyakata",
+     "meaning_ko": "장인, 스승",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "若手{わかて}の後継者{こうけいしゃ}はおろか、見習{みなら}いを希望{きぼう}する人{ひと}すらいなかった。",
+     "meaning_ko": "젊은 후계자는 말할 것도 없고 견습을 희망하는 사람조차 없었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "老舗{しにせ}の工房{こうぼう}とあって、遠方{えんぽう}からも注文{ちゅうもん}が相次{あいつ}いだ。",
+     "meaning_ko": "노포 공방이라서 먼 곳에서도 주문이 잇따랐다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "伝統{でんとう}の技{わざ}を守{まも}るべく、親方{おやかた}は弟子{でし}の育成{いくせい}に力{ちから}を注{そそ}いだ。",
+     "meaning_ko": "전통의 기술을 지키기 위해 장인은 제자 육성에 힘을 쏟았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "海外{かいがい}での展示会{てんじかい}を皮切{かわき}りに、各国{かっこく}から依頼{いらい}が舞{ま}い込{こ}んだ。",
+     "meaning_ko": "해외 전시회를 시작으로 각국에서 의뢰가 날아들었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "需要{じゅよう}の減少{げんしょう}ゆえに、工房{こうぼう}は一時{いちじ}、閉鎖{へいさ}を考{かんが}えた。",
+     "meaning_ko": "수요 감소 탓에 공방은 한때 폐쇄를 고려했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "国内{こくない}はおろか、海外{かいがい}でもその名{な}は知{し}られていなかった。",
+     "meaning_ko": "국내는 말할 것도 없고 해외에서도 그 이름은 알려져 있지 않았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "年末{ねんまつ}とあって、工房{こうぼう}は朝{あさ}から晩{ばん}まで注文{ちゅうもん}に追{お}われている。",
+     "meaning_ko": "연말이라서 공방은 아침부터 밤까지 주문에 쫓기고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "技術{ぎじゅつ}を次世代{じせだい}に伝{つた}えるべく、親方{おやかた}は動画{どうが}での記録{きろく}を始{はじ}めた。",
+     "meaning_ko": "기술을 다음 세대에 전하기 위해 장인은 동영상 기록을 시작했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "見習{みなら}い募集{ぼしゅう}の告知{こくち}を皮切{かわき}りに、体験会{たいけんかい}や講座{こうざ}が次々{つぎつぎ}と開{ひら}かれた。",
+     "meaning_ko": "견습생 모집 공지를 시작으로 체험회와 강좌가 잇따라 열렸다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "経験{けいけん}の浅{あさ}さゆえに、弟子{でし}は大{おお}きな失敗{しっぱい}を犯{おか}してしまった。",
+     "meaning_ko": "경험이 얕은 탓에 제자는 큰 실수를 저지르고 말았다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "後継者はおろか、見習いを希望する人（　）いなかった。",
+     "options": [
+      "すら",
+      "ばかり",
+      "こそ",
+      "など"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜はおろか 뒤에는 さえ・すら와 부정이 이어집니다. ばかり・こそ는 이 문형과 이어지지 않습니다.",
+     "id": "JP-N1-35-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "老舗の工房（　）、遠方からも注文が相次いだ。",
+     "options": [
+      "べく",
+      "とあって",
+      "はおろか",
+      "を皮切りに"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "특별한 사정 때문에 일어난 결과를 사실로 서술하는 표현은 〜とあって입니다. べく는 동사에 붙는 목적 표현입니다.",
+     "id": "JP-N1-35-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "伝統の技を守る（　）、親方は弟子の育成に力を注いだ。",
+     "options": [
+      "ゆえに",
+      "とあって",
+      "べく",
+      "はおろか"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "동사 사전형에 붙어 ‘~하기 위해’를 나타내는 격식 있는 표현은 〜べく입니다.",
+     "id": "JP-N1-35-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "海外での展示会（　）、各国から依頼が舞い込んだ。",
+     "options": [
+      "べく",
+      "ゆえに",
+      "とあって",
+      "を皮切りに"
+     ],
+     "answer_index": 3,
+     "explanation_ko": "첫 행사를 시작으로 뒤이어 일이 이어질 때는 〜を皮切りに입니다.",
+     "id": "JP-N1-35-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「後継者」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "koukeisha",
+     "accepted_answers": [
+      "koukeisha",
+      "kokeisha",
+      "koukeisya",
+      "kokeisya"
+     ],
+     "explanation_ko": "後継者 = こうけいしゃ(koukeisha), ‘후계자’입니다.",
+     "id": "JP-N1-35-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「需要」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "juyou",
+     "accepted_answers": [
+      "juyou",
+      "juyo",
+      "zyuyou",
+      "zyuyo"
+     ],
+     "explanation_ko": "需要 = じゅよう(juyou), ‘수요’입니다.",
+     "id": "JP-N1-35-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "JLPT_FORMAT"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

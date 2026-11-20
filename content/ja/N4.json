@@ -7392,6 +7392,230 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-35",
+   "day_index": 35,
+   "week_index": 5,
+   "level": "N4",
+   "unit_id": "N4-W05",
+   "lesson_type": "checkpoint",
+   "title_ko": "5주 점검: 이사 준비 이야기",
+   "objective_ko": "N4 다섯째 주 문형(〜て おく, 〜て しまう, 〜て みる, 〜と, 〜のに)을 이사 준비 이야기 속에서 종합 점검한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-34"
+   ],
+   "explanation_ko": "5주 차에 배운 〜て おく(미리 ~해 두다), 〜て しまう(~해 버리다: 완료·유감), 〜て みる(~해 보다), 〜と(~하면 반드시 ~한다), 〜のに(~인데도)를 이사 준비 이야기에서 한 번에 점검합니다. 〜て おく는 나중을 위해 미리 해 두는 일에, 〜て しまう는 끝내 버렸다는 뜻과 아쉬움에 씁니다. 〜て みる는 시험 삼아 해 보는 일입니다. 〜と는 사전형에 붙어 늘 그렇게 되는 일(春に なると)을, 〜のに는 예상과 반대되는 결과를 나타냅니다.",
+   "usage_notes": [
+    "〜て おく: 準備{じゅんび}・予約{よやく}처럼 나중을 위한 행동에 씁니다.",
+    "〜て しまう: 완료 외에 ‘잊어 버렸다·잃어 버렸다’ 같은 유감도 나타냅니다.",
+    "〜のに 뒤에는 희망·명령 표현이 올 수 없고 사실의 서술이 옵니다."
+   ],
+   "common_mistakes": [
+    "荷物を 箱に 入れる おきます(X) → 荷物{にもつ}を 箱{はこ}に 入{い}れて おきます(O)",
+    "ボタンを 押したと、ドアが 開きます(X) → 押{お}すと(O)",
+    "掃除したのに、きれいに なりたいです(X) → のに 뒤에는 사실이 옵니다: まだ 汚{きたな}いです(O)"
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N4-35-01",
+     "kind": "word",
+     "text": "引{ひ}っ越{こ}し",
+     "reading_kana": "ひっこし",
+     "reading_romanized": "hikkoshi",
+     "meaning_ko": "이사",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-35-02",
+     "kind": "word",
+     "text": "荷物{にもつ}",
+     "reading_kana": "にもつ",
+     "reading_romanized": "nimotsu",
+     "meaning_ko": "짐",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-35-03",
+     "kind": "word",
+     "text": "箱{はこ}",
+     "reading_kana": "はこ",
+     "reading_romanized": "hako",
+     "meaning_ko": "상자",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-35-04",
+     "kind": "word",
+     "text": "鍵{かぎ}",
+     "reading_kana": "かぎ",
+     "reading_romanized": "kagi",
+     "meaning_ko": "열쇠",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-35-05",
+     "kind": "word",
+     "text": "掃除{そうじ}",
+     "reading_kana": "そうじ",
+     "reading_romanized": "souji",
+     "meaning_ko": "청소",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N4-35-06",
+     "kind": "word",
+     "text": "桜{さくら}",
+     "reading_kana": "さくら",
+     "reading_romanized": "sakura",
+     "meaning_ko": "벚꽃",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "引{ひ}っ越{こ}しの 前{まえ}に、荷物{にもつ}を 箱{はこ}に 入{い}れて おきます。",
+     "meaning_ko": "이사 전에 짐을 상자에 넣어 둡니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "大切{たいせつ}な 本{ほん}を 箱{はこ}に 入{い}れるのを 忘{わす}れて しまいました。",
+     "meaning_ko": "소중한 책을 상자에 넣는 것을 잊어 버렸습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "新{あたら}しい 町{まち}を 歩{ある}いて みました。",
+     "meaning_ko": "새 동네를 걸어 보았습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この ボタンを 押{お}すと、ドアが 開{あ}きます。",
+     "meaning_ko": "이 버튼을 누르면 문이 열립니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "掃除{そうじ}したのに、まだ 部屋{へや}が 汚{きたな}いです。",
+     "meaning_ko": "청소했는데도 아직 방이 더럽습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "友達{ともだち}が 来{く}る 前{まえ}に、お菓子{かし}を 買{か}って おきました。",
+     "meaning_ko": "친구가 오기 전에 과자를 사 두었습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "引{ひ}っ越{こ}しの 日{ひ}は 雨{あめ}だったのに、手伝{てつだ}いの 人{ひと}が たくさん 来{き}ました。",
+     "meaning_ko": "이사하는 날은 비가 왔는데도 도와줄 사람이 많이 왔습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "春{はる}に なると、この 町{まち}は 桜{さくら}が きれいです。",
+     "meaning_ko": "봄이 되면 이 동네는 벚꽃이 예쁩니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "大事{だいじ}な 鍵{かぎ}を なくして しまいました。",
+     "meaning_ko": "소중한 열쇠를 잃어 버렸습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "新{あたら}しい 部屋{へや}で 料理{りょうり}を 作{つく}って みたいです。",
+     "meaning_ko": "새 방에서 요리를 만들어 보고 싶습니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "パーティーの 前に 飲み物を 買って（　）。(미리 사 두다)",
+     "options": [
+      "おきます",
+      "しまいます",
+      "みます",
+      "あげます"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "나중을 위해 미리 해 두는 일은 〜て おきます입니다. 〜て しまいます는 ‘~해 버리다’입니다.",
+     "id": "JP-N4-35-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "大事な 鍵を なくして（　）。(잃어 버렸다)",
+     "options": [
+      "おきました",
+      "しまいました",
+      "みました",
+      "ありました"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "아쉬움을 담아 ‘~해 버렸다’고 할 때는 〜て しまいました입니다.",
+     "id": "JP-N4-35-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "この ボタンを 押す（　）、ドアが 開きます。",
+     "options": [
+      "のに",
+      "ながら",
+      "と",
+      "たいです"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "늘 그렇게 되는 일은 사전형 + と로 말합니다. のに는 예상과 반대되는 결과에 씁니다.",
+     "id": "JP-N4-35-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "掃除した（　）、部屋が 汚いです。(청소했는데도)",
+     "options": [
+      "と",
+      "から",
+      "ので",
+      "のに"
+     ],
+     "answer_index": 3,
+     "explanation_ko": "예상과 반대되는 결과는 〜のに입니다. から・ので는 이유라서 뜻이 맞지 않습니다.",
+     "id": "JP-N4-35-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「引っ越し」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "hikkoshi",
+     "accepted_answers": [
+      "hikkoshi",
+      "hikosi",
+      "hikkosi"
+     ],
+     "explanation_ko": "引っ越し = ひっこし(hikkoshi), ‘이사’입니다.",
+     "id": "JP-N4-35-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「荷物」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "nimotsu",
+     "accepted_answers": [
+      "nimotsu",
+      "nimotu"
+     ],
+     "explanation_ko": "荷物 = にもつ(nimotsu), ‘짐’입니다.",
+     "id": "JP-N4-35-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

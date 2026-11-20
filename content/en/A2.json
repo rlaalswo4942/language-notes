@@ -6689,6 +6689,205 @@
     "version": 1,
     "last_revised": "2026-11-20"
    }
+  },
+  {
+   "id": "A2-035",
+   "level": "A2",
+   "track": "foundation",
+   "day": 35,
+   "title_ko": "5주 복습: look/sound/feel·현재진행형 미래 계획·someone/anything·정도 부사·형용사+전치사·상태 동사",
+   "objective_ko": "A2 29~34일차(look/sound/feel, 확정된 미래 계획의 현재진행형, someone·anything 등, 정도 부사, 형용사+전치사, 상태 동사)를 섞어 다시 확인한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-21"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "이번 주 여섯 가지를 복습합니다. ① look / sound / feel / smell / taste + 형용사: That soup smells delicious. (A2-029) ② 이미 정해진 미래 계획은 현재진행형으로 말합니다: I'm seeing the dentist tomorrow at ten. (A2-030) ③ some-/any-/no-/every- + one/thing: Is there anything in the fridge? — Nothing. (A2-031) ④ 정도 부사는 형용사 앞에 둡니다: quite small, very cozy, a bit noisy, not very good. (A2-032) ⑤ 형용사 + 전치사 짝: good at, interested in, afraid of, worried about. (A2-033) ⑥ know, like, want, need, understand 같은 상태 동사는 보통 진행형으로 쓰지 않습니다: I understand. (A2-034)",
+    "common_mistake_ko": "This music sounds beautifully.(X) → sounds beautiful.(O) / I'm knowing the answer.(X) → I know the answer.(O) / She is good in math.(X) → She is good at math.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "look",
+     "part_of_speech": "동사",
+     "meaning_ko": "~해 보이다",
+     "example_en": "You look tired today.",
+     "example_ko": "오늘 피곤해 보여요."
+    },
+    {
+     "word": "nobody",
+     "part_of_speech": "대명사",
+     "meaning_ko": "아무도 ~않다",
+     "example_en": "Nobody knows the answer.",
+     "example_ko": "아무도 답을 몰라요."
+    },
+    {
+     "word": "quite",
+     "part_of_speech": "부사",
+     "meaning_ko": "꽤, 상당히",
+     "example_en": "The room is quite small.",
+     "example_ko": "방이 꽤 작아요."
+    },
+    {
+     "word": "worried",
+     "part_of_speech": "형용사",
+     "meaning_ko": "걱정하는",
+     "example_en": "I'm worried about the exam.",
+     "example_ko": "나는 시험이 걱정돼요."
+    },
+    {
+     "word": "prefer",
+     "part_of_speech": "동사",
+     "meaning_ko": "더 좋아하다",
+     "example_en": "I prefer tea to coffee.",
+     "example_ko": "나는 커피보다 차를 더 좋아해요."
+    },
+    {
+     "word": "tonight",
+     "part_of_speech": "부사",
+     "meaning_ko": "오늘 밤",
+     "example_en": "We're meeting at the station tonight.",
+     "example_ko": "우리는 오늘 밤 역에서 만나요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "That soup smells delicious.",
+     "ko": "그 수프는 맛있는 냄새가 나요."
+    },
+    {
+     "en": "You look tired. Are you okay?",
+     "ko": "피곤해 보여요. 괜찮아요?"
+    },
+    {
+     "en": "That sounds great!",
+     "ko": "그거 좋은데요!"
+    },
+    {
+     "en": "I'm seeing the dentist tomorrow at ten.",
+     "ko": "나는 내일 10시에 치과에 가요(예약이 되어 있어요)."
+    },
+    {
+     "en": "Is there anything in the fridge? — No, there's nothing.",
+     "ko": "냉장고에 뭐가 있어요? — 아니요, 아무것도 없어요."
+    },
+    {
+     "en": "Everyone is here, but nobody knows the answer.",
+     "ko": "모두 여기 있지만 아무도 답을 몰라요."
+    },
+    {
+     "en": "The room is quite small, but it's very cozy.",
+     "ko": "방은 꽤 작지만 아주 아늑해요."
+    },
+    {
+     "en": "I'm worried about the exam, but I'm good at math.",
+     "ko": "나는 시험이 걱정되지만 수학은 잘해요."
+    },
+    {
+     "en": "She's interested in art, and she's afraid of dogs.",
+     "ko": "그녀는 미술에 관심이 있고 개를 무서워해요."
+    },
+    {
+     "en": "I don't understand this word. Can you help me?",
+     "ko": "이 단어를 이해하지 못하겠어요. 도와줄래요?"
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "This music ___ beautiful.",
+     "choices": [
+      "sounds",
+      "sounds like",
+      "is sounding",
+      "sound"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "sound 뒤에는 형용사가 바로 옵니다. 3인칭 단수이므로 sounds입니다. sounds like 뒤에는 명사가 옵니다.",
+     "error_tag": "sound-adjective",
+     "id": "A2-035-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "I ___ my cousin at the airport at six tonight. (이미 약속이 정해져 있음)",
+     "choices": [
+      "meeting",
+      "am meeting",
+      "am meet",
+      "meets to"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "정해진 미래 계획은 현재진행형 am meeting 으로 말합니다.",
+     "error_tag": "present-continuous-future",
+     "id": "A2-035-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "I'm knowing the answer.",
+      "I am know the answer.",
+      "I know the answer.",
+      "I knowing the answer."
+     ],
+     "answer_index": 2,
+     "explanation_ko": "know는 상태 동사라서 보통 진행형으로 쓰지 않습니다.",
+     "error_tag": "stative-verb",
+     "id": "A2-035-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "The room is ___ small, but I like it. (꽤)",
+     "choices": [
+      "any",
+      "much",
+      "enough",
+      "quite"
+     ],
+     "answer_index": 3,
+     "explanation_ko": "quite는 형용사 앞에서 '꽤'라는 뜻의 정도 부사입니다.",
+     "error_tag": "degree-adverb",
+     "id": "A2-035-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: There is ___ in the box. It's empty. (아무것도 없다)",
+     "answer_text": "nothing",
+     "accepted_answers": [
+      "nothing"
+     ],
+     "explanation_ko": "'아무것도 없다'는 nothing 입니다. 이미 부정의 뜻이 들어 있어 not을 더 쓰지 않습니다.",
+     "error_tag": "nothing",
+     "id": "A2-035-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: I'm interested ___ music. (~에 관심이 있다)",
+     "answer_text": "in",
+     "accepted_answers": [
+      "in"
+     ],
+     "explanation_ko": "interested in 은 '~에 관심이 있는'입니다.",
+     "error_tag": "adjective-preposition",
+     "id": "A2-035-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "요즘 걱정되는 것, 관심 있는 것을 각각 한 문장으로 써 보세요. (worried about / interested in)",
+    "example_answer_en": "I'm worried about my test next week. I'm interested in learning guitar.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-21",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-21"
+   }
   }
  ]
 }

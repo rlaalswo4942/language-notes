@@ -7404,6 +7404,233 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N5-35",
+   "day_index": 35,
+   "week_index": 5,
+   "level": "N5",
+   "unit_id": "N5-W05",
+   "lesson_type": "checkpoint",
+   "title_ko": "5주 점검: 교실과 학교 생활",
+   "objective_ko": "N5 다섯째 주 문형(〜ないで ください, 〜と・〜や・〜も, 〜が ほしいです, 〜の 上・下・中, 〜は 〜が 〜です)을 교실 이야기 속에서 종합 점검한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N5-34"
+   ],
+   "explanation_ko": "5주 차에 배운 〜ないで ください(~하지 마세요), と・や・も(나열과 추가), 〜が ほしいです(갖고 싶다), 〜の 上・下・中(위치), 〜は 〜が 〜です(특징)를 교실 이야기에서 한 번에 점검합니다. 금지는 동사 ない형에 ないで ください를 붙입니다(走{はし}る → 走らないで ください). と는 모두 나열할 때, や는 그 밖에도 더 있을 때 씁니다. 갖고 싶은 것에는 を가 아니라 が를 쓰고, 위치는 〜の 上に・下に・中に처럼 の 뒤에 위치 말을 놓습니다. 전체는 は, 특징이 되는 부분은 が로 나타냅니다.",
+   "usage_notes": [
+    "금지: ない형 + ないで ください (書{か}く → 書{か}かないで ください).",
+    "と는 전부 나열(犬と 猫), や는 예를 들어 나열(鉛筆や ノート), も는 ‘~도’입니다.",
+    "〈전체〉は 〈부분〉が 형용사: 先生{せんせい}は 背{せ}が 高{たか}いです."
+   ],
+   "common_mistakes": [
+    "教室で 走るないで ください(X) → 教室{きょうしつ}で 走{はし}らないで ください(O)",
+    "辞書を ほしいです(X) → 辞書{じしょ}が ほしいです(O)",
+    "先生は 背を 高いです(X) → 先生{せんせい}は 背{せ}が 高{たか}いです(O)"
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N5-35-01",
+     "kind": "word",
+     "text": "教室{きょうしつ}",
+     "reading_kana": "きょうしつ",
+     "reading_romanized": "kyoushitsu",
+     "meaning_ko": "교실",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-35-02",
+     "kind": "word",
+     "text": "辞書{じしょ}",
+     "reading_kana": "じしょ",
+     "reading_romanized": "jisho",
+     "meaning_ko": "사전",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-35-03",
+     "kind": "word",
+     "text": "鉛筆{えんぴつ}",
+     "reading_kana": "えんぴつ",
+     "reading_romanized": "enpitsu",
+     "meaning_ko": "연필",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-35-04",
+     "kind": "word",
+     "text": "机{つくえ}",
+     "reading_kana": "つくえ",
+     "reading_romanized": "tsukue",
+     "meaning_ko": "책상",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-35-05",
+     "kind": "word",
+     "text": "窓{まど}",
+     "reading_kana": "まど",
+     "reading_romanized": "mado",
+     "meaning_ko": "창문",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N5-35-06",
+     "kind": "word",
+     "text": "背{せ}",
+     "reading_kana": "せ",
+     "reading_romanized": "se",
+     "meaning_ko": "키, 등",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "教室{きょうしつ}の 中{なか}で 走{はし}らないで ください。",
+     "meaning_ko": "교실 안에서 뛰지 마세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "机{つくえ}の 上{うえ}に 辞書{じしょ}と 鉛筆{えんぴつ}が あります。",
+     "meaning_ko": "책상 위에 사전과 연필이 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "辞書{じしょ}に 名前{なまえ}を 書{か}かないで ください。",
+     "meaning_ko": "사전에 이름을 쓰지 마세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "新{あたら}しい 辞書{じしょ}が ほしいです。",
+     "meaning_ko": "새 사전이 갖고 싶어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "机{つくえ}の 上{うえ}に 鉛筆{えんぴつ}や ノートが あります。",
+     "meaning_ko": "책상 위에 연필이랑 노트 같은 것이 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "机{つくえ}の 下{した}に 鞄{かばん}が あります。",
+     "meaning_ko": "책상 아래에 가방이 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "先生{せんせい}は 背{せ}が 高{たか}いです。",
+     "meaning_ko": "선생님은 키가 커요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "鞄{かばん}の 中{なか}に ノートも 辞書{じしょ}も あります。",
+     "meaning_ko": "가방 안에 노트도 사전도 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "窓{まど}を 開{あ}けないで ください。寒{さむ}いです。",
+     "meaning_ko": "창문을 열지 마세요. 추워요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "わたしは 犬{いぬ}と 猫{ねこ}が ほしいです。",
+     "meaning_ko": "나는 개와 고양이가 갖고 싶어요.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「教室の 中で 走らないで ください」의 뜻은?",
+     "options": [
+      "교실 안에서 뛰지 마세요.",
+      "교실 안에서 뛰어 주세요.",
+      "교실 안에서 걸어 주세요.",
+      "교실 안에서 뛰고 싶어요."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "走らないで ください는 ‘뛰지 마세요’라는 금지 표현입니다.",
+     "id": "JP-N5-35-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「机の（　）に 鞄が あります」 ( )에 알맞은 말은? (책상 아래에)",
+     "options": [
+      "上",
+      "下",
+      "中",
+      "前"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "‘아래’는 下입니다. 上는 위, 中는 안, 前는 앞입니다.",
+     "id": "JP-N5-35-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「先生は 背（　）高いです」 ( )에 알맞은 조사는?",
+     "options": [
+      "を",
+      "に",
+      "が",
+      "へ"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "〈전체〉は 〈부분〉が 형용사 순서이므로 が입니다.",
+     "id": "JP-N5-35-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「鉛筆（　）ノートが あります」 연필이랑 노트 같은 것이 (그 밖에도) 있다는 뜻일 때 ( )에 알맞은 말은?",
+     "options": [
+      "と",
+      "も",
+      "の",
+      "や"
+     ],
+     "answer_index": 3,
+     "explanation_ko": "그 밖에도 더 있음을 암시하며 예를 드는 나열은 や입니다. と는 모두 나열할 때 씁니다.",
+     "id": "JP-N5-35-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「辞書」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "jisho",
+     "accepted_answers": [
+      "jisho",
+      "zisyo",
+      "jisyo",
+      "zisho"
+     ],
+     "explanation_ko": "辞書 = じしょ(jisho), ‘사전’입니다.",
+     "id": "JP-N5-35-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「教室」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kyoushitsu",
+     "accepted_answers": [
+      "kyoushitsu",
+      "kyoshitsu",
+      "kyousitu",
+      "kyositu"
+     ],
+     "explanation_ko": "教室 = きょうしつ(kyoushitsu), ‘교실’입니다.",
+     "id": "JP-N5-35-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

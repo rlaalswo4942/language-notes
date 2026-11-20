@@ -6686,6 +6686,205 @@
     "version": 1,
     "last_revised": "2026-11-20"
    }
+  },
+  {
+   "id": "B2-035",
+   "level": "B2",
+   "track": "general",
+   "day": 35,
+   "title_ko": "5주 복습: 요구·제안의 가정법 현재·미래완료·비교급 + 비교급·전치사 + 관계대명사·목적 표현·동명사 관용 표현",
+   "objective_ko": "B2 29~34일차(suggest/insist that + 동사원형, 미래완료·미래진행, The more ..., the ..., 전치사 + 관계대명사, 목적 표현, 동명사 관용 표현)를 섞어 다시 확인한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-21"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "이번 주 여섯 가지를 복습합니다. ① 요구·제안: insist / demand / recommend / suggest + that + 주어 + 동사원형(be, get ...): The doctor recommended that he get more rest. (B2-029) ② 미래완료 will have + p.p.는 '미래 시점까지 끝나 있을 일', 미래진행 will be -ing는 '그 시점에 하고 있을 일'입니다. (B2-030) ③ The + 비교급 ..., the + 비교급 ...: The longer you wait, the higher the price becomes. (B2-031) ④ 전치사 + 관계대명사: the person to whom I spoke, the company for which she works. (B2-032) ⑤ 목적: in order to / so as to + 동사원형, so that + 절. (B2-033) ⑥ 동명사 관용 표현: It's no use -ing, There's no point in -ing, be worth -ing, can't help -ing. (B2-034)",
+    "common_mistake_ko": "The manager insisted that every employee attends.(X) → attend(O) / The more you wait, the more high the price.(X) → The longer you wait, the higher the price.(O) / It's no use to worry.(X) → It's no use worrying.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "insist",
+     "part_of_speech": "동사",
+     "meaning_ko": "(강하게) 주장하다, 고집하다",
+     "example_en": "She insisted that he see a doctor.",
+     "example_ko": "그녀는 그가 진찰을 받아야 한다고 주장했어요."
+    },
+    {
+     "word": "complete",
+     "part_of_speech": "동사",
+     "meaning_ko": "완료하다",
+     "example_en": "I will have completed the course by June.",
+     "example_ko": "나는 6월까지 과정을 마칠 거예요."
+    },
+    {
+     "word": "gradually",
+     "part_of_speech": "부사",
+     "meaning_ko": "점차, 서서히",
+     "example_en": "Prices gradually increased over the year.",
+     "example_ko": "물가는 1년에 걸쳐 서서히 올랐어요."
+    },
+    {
+     "word": "guideline",
+     "part_of_speech": "명사",
+     "meaning_ko": "지침",
+     "example_en": "Please follow the safety guidelines.",
+     "example_ko": "안전 지침을 따라 주세요."
+    },
+    {
+     "word": "prevent",
+     "part_of_speech": "동사",
+     "meaning_ko": "막다, 예방하다",
+     "example_en": "We left early to prevent any delay.",
+     "example_ko": "우리는 지연을 막으려고 일찍 떠났어요."
+    },
+    {
+     "word": "pointless",
+     "part_of_speech": "형용사",
+     "meaning_ko": "무의미한, 소용없는",
+     "example_en": "It's pointless to argue about it now.",
+     "example_ko": "지금 그것을 놓고 다투는 것은 소용없어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The manager insisted that every employee attend the training.",
+     "ko": "매니저는 모든 직원이 교육에 참석해야 한다고 주장했어요."
+    },
+    {
+     "en": "It's essential that she be informed immediately.",
+     "ko": "그녀가 즉시 통보받는 것이 필수예요."
+    },
+    {
+     "en": "By next June, I will have completed the course.",
+     "ko": "내년 6월이면 나는 그 과정을 마친 상태일 거예요."
+    },
+    {
+     "en": "This time tomorrow, we will be flying to Busan.",
+     "ko": "내일 이맘때 우리는 부산으로 가는 비행기 안에 있을 거예요."
+    },
+    {
+     "en": "The more you practice, the more confident you become.",
+     "ko": "연습할수록 더 자신감이 생겨요."
+    },
+    {
+     "en": "The company for which she works is expanding overseas.",
+     "ko": "그녀가 일하는 회사는 해외로 확장하고 있어요."
+    },
+    {
+     "en": "The colleague with whom I share an office is moving abroad.",
+     "ko": "나와 사무실을 같이 쓰는 동료는 해외로 이사해요."
+    },
+    {
+     "en": "We left early so as to avoid the traffic.",
+     "ko": "우리는 교통 체증을 피하려고 일찍 떠났어요."
+    },
+    {
+     "en": "They put up a fence so that children could not wander onto the road.",
+     "ko": "아이들이 도로로 들어가지 못하도록 울타리를 쳤어요."
+    },
+    {
+     "en": "It's no use complaining about the delay. It's worth waiting.",
+     "ko": "지연을 불평해 봐야 소용없어요. 기다릴 가치가 있어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "The doctor recommended that he ___ more rest.",
+     "choices": [
+      "get",
+      "gets",
+      "got",
+      "getting"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "recommend that 뒤의 절은 주어가 3인칭이어도 동사원형을 씁니다.",
+     "error_tag": "subjunctive-present",
+     "id": "B2-035-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "By 2030, the company ___ its target.",
+     "choices": [
+      "reaches",
+      "will have reached",
+      "has reached",
+      "is reaching"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "By + 미래 시점에는 그때까지 끝나 있을 일을 나타내는 미래완료 will have + p.p.를 씁니다.",
+     "error_tag": "future-perfect",
+     "id": "B2-035-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "The ___ you wait, the ___ the price becomes.",
+     "choices": [
+      "long / high",
+      "longer / more high",
+      "longer / higher",
+      "longest / highest"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "The + 비교급, the + 비교급 구문은 두 곳 모두 비교급입니다.",
+     "error_tag": "comparative-pair",
+     "id": "B2-035-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "The person ___ I spoke was very helpful.",
+     "choices": [
+      "whom to",
+      "to who",
+      "who to",
+      "to whom"
+     ],
+     "answer_index": 3,
+     "explanation_ko": "전치사 + 관계대명사는 to whom 처럼 전치사가 앞에 오고, 사람에는 whom을 씁니다.",
+     "error_tag": "preposition-relative",
+     "id": "B2-035-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: We took a taxi in ___ to arrive on time. (목적 표현)",
+     "answer_text": "order",
+     "accepted_answers": [
+      "order"
+     ],
+     "explanation_ko": "in order to + 동사원형은 '~하기 위해'입니다.",
+     "error_tag": "purpose",
+     "id": "B2-035-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 단어를 쓰세요: It's no use ___ about it. (worry)",
+     "answer_text": "worrying",
+     "accepted_answers": [
+      "worrying"
+     ],
+     "explanation_ko": "It's no use 다음에는 동명사(-ing)가 옵니다.",
+     "error_tag": "gerund-idiom",
+     "id": "B2-035-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "미래의 한 시점(예: 올해 말)까지 끝내 놓을 일을 will have + 과거분사로 두 문장 써 보세요.",
+    "example_answer_en": "By the end of this year, I will have finished three books. I will have saved enough money for a trip.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-21",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-21"
+   }
   }
  ]
 }

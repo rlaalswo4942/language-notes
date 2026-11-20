@@ -7383,6 +7383,227 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N3-35",
+   "day_index": 35,
+   "week_index": 5,
+   "level": "N3",
+   "unit_id": "N3-W05",
+   "lesson_type": "checkpoint",
+   "title_ko": "5주 점검: 송년회 준비 이야기",
+   "objective_ko": "N3 다섯째 주 문형(〜かどうか, 〜わけにはいかない, 〜がち, 〜わけだ, 〜かわりに)을 송년회 준비 이야기 속에서 종합 점검한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N3-34"
+   ],
+   "explanation_ko": "5주 차에 배운 〜かどうか(~인지 어떤지), 〜わけにはいかない(~할 수는 없다), 〜がち(~하기 쉽다), 〜わけだ(~한 것도 당연하다), 〜かわりに(~대신에)를 송년회 준비 이야기에서 다시 확인합니다. 〜かどうか는 의문의 내용을 문장에 넣을 때 쓰고, 〜わけにはいかない는 사정상 할 수 없다는 뜻입니다(断{ことわ}るわけにはいかない). 〜がち는 동사 ます형이나 명사에 붙어 좋지 않은 경향을 나타내고, 〜わけだ는 사실을 알고 나서 ‘그래서 그렇구나’라고 납득할 때 씁니다.",
+   "usage_notes": [
+    "〜わけにはいかない: 동사 사전형·ない형 + わけにはいかない (行かないわけにはいかない = 안 갈 수는 없다).",
+    "〜がち는 나쁜 방향의 경향에 씁니다 (忘{わす}れがちだ).",
+    "〜かわりに는 ‘대신’(대체) 외에 ‘그 대신 이쪽은’(대가)의 뜻도 있습니다."
+   ],
+   "common_mistakes": [
+    "行くわけにはいかないので、行きます(X) → 行{い}かないわけにはいかないので、行{い}きます(O)",
+    "忘れるがちだ(X) → 忘{わす}れがちだ(O): ます형에 붙입니다.",
+    "雨が降ります かどうか、わかりません(X) → 雨{あめ}が降{ふ}るかどうか、わかりません(O): かどうか 앞에는 보통체를 씁니다."
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N3-35-01",
+     "kind": "word",
+     "text": "忘年会{ぼうねんかい}",
+     "reading_kana": "ぼうねんかい",
+     "reading_romanized": "bounenkai",
+     "meaning_ko": "송년회",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-35-02",
+     "kind": "word",
+     "text": "幹事{かんじ}",
+     "reading_kana": "かんじ",
+     "reading_romanized": "kanji",
+     "meaning_ko": "간사, 모임 총무",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-35-03",
+     "kind": "word",
+     "text": "予約{よやく}",
+     "reading_kana": "よやく",
+     "reading_romanized": "yoyaku",
+     "meaning_ko": "예약",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-35-04",
+     "kind": "word",
+     "text": "会費{かいひ}",
+     "reading_kana": "かいひ",
+     "reading_romanized": "kaihi",
+     "meaning_ko": "회비",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-35-05",
+     "kind": "word",
+     "text": "日程{にってい}",
+     "reading_kana": "にってい",
+     "reading_romanized": "nittei",
+     "meaning_ko": "일정",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N3-35-06",
+     "kind": "word",
+     "text": "残業{ざんぎょう}",
+     "reading_kana": "ざんぎょう",
+     "reading_romanized": "zangyou",
+     "meaning_ko": "야근, 잔업",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "忘年会{ぼうねんかい}に参加{さんか}できるかどうか、今週中{こんしゅうちゅう}に教{おし}えてください。",
+     "meaning_ko": "송년회에 참가할 수 있을지 어떨지 이번 주 안에 알려 주세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "幹事{かんじ}を頼{たの}まれたので、断{ことわ}るわけにはいかない。",
+     "meaning_ko": "간사를 부탁받아서 거절할 수는 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "年末{ねんまつ}は忙{いそが}しくて、準備{じゅんび}が後回{あとまわ}しになりがちだ。",
+     "meaning_ko": "연말은 바빠서 준비가 뒷전이 되기 쉽다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "毎日{まいにち}残業{ざんぎょう}していたのか。それで疲{つか}れているわけだ。",
+     "meaning_ko": "매일 야근했던 건가. 그래서 피곤한 것도 당연하다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "店{みせ}を予約{よやく}するかわりに、会議室{かいぎしつ}で食事会{しょくじかい}をすることにした。",
+     "meaning_ko": "가게를 예약하는 대신 회의실에서 식사 모임을 하기로 했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "会費{かいひ}が高{たか}いかどうかは、人数{にんずう}によって変{か}わる。",
+     "meaning_ko": "회비가 비싼지 어떤지는 인원수에 따라 바뀐다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "部長{ぶちょう}が来{く}るので、遅刻{ちこく}するわけにはいかない。",
+     "meaning_ko": "부장이 오니 지각할 수는 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "忙{いそが}しいときは、連絡{れんらく}を忘{わす}れがちになる。",
+     "meaning_ko": "바쁠 때는 연락을 잊기 쉽다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "みんなの予定{よてい}がばらばらだから、日程{にってい}が決{き}まらないわけだ。",
+     "meaning_ko": "모두의 예정이 제각각이니 일정이 정해지지 않는 것도 당연하다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "私{わたし}が会計{かいけい}をするかわりに、田中{たなか}さんが司会{しかい}をしてくれた。",
+     "meaning_ko": "내가 회계를 맡는 대신 다나카 씨가 사회를 봐 주었다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "参加できる（　）、教えてください。(~인지 어떤지)",
+     "options": [
+      "かどうか",
+      "わけにはいかない",
+      "がち",
+      "かわりに"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "의문의 내용을 문장에 넣을 때는 〜かどうか를 씁니다.",
+     "id": "JP-N3-35-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "約束したので、行かない（　）。(안 갈 수는 없다)",
+     "options": [
+      "わけではない",
+      "わけにはいかない",
+      "がちだ",
+      "かわりに"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "사정상 할 수 없다는 뜻은 〜わけにはいかない입니다. 行かない + わけにはいかない로 ‘안 갈 수는 없다’가 됩니다.",
+     "id": "JP-N3-35-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "忙しいと、食事を抜き（　）。(거르기 쉽다)",
+     "options": [
+      "かわりだ",
+      "わけにはいかない",
+      "がちだ",
+      "かどうか"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "동사 ます형 + がちだ는 ‘~하기 쉽다’(좋지 않은 경향)입니다. 抜き는 抜く의 ます형입니다.",
+     "id": "JP-N3-35-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "毎日残業している。疲れている（　）。(그래서 그렇구나)",
+     "options": [
+      "がちだ",
+      "かどうか",
+      "かわりに",
+      "わけだ"
+     ],
+     "answer_index": 3,
+     "explanation_ko": "사실을 알고 나서 납득할 때는 〜わけだ를 씁니다.",
+     "id": "JP-N3-35-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「幹事」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kanji",
+     "accepted_answers": [
+      "kanji"
+     ],
+     "explanation_ko": "幹事 = かんじ(kanji), ‘간사’입니다. 漢字와 소리가 같지만 뜻이 다릅니다.",
+     "id": "JP-N3-35-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「予約」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "yoyaku",
+     "accepted_answers": [
+      "yoyaku"
+     ],
+     "explanation_ko": "予約 = よやく(yoyaku), ‘예약’입니다.",
+     "id": "JP-N3-35-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

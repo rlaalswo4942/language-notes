@@ -7347,6 +7347,234 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-35",
+   "day_index": 35,
+   "week_index": 5,
+   "level": "N2",
+   "unit_id": "N2-W05",
+   "lesson_type": "checkpoint",
+   "title_ko": "5주 점검: 자전거 공유 서비스 도입",
+   "objective_ko": "N2 다섯째 주 문형(〜うえに, 〜にわたって, 〜をきっかけに, 〜ことから, 〜というより)을 자전거 공유 서비스 이야기 속에서 종합 점검한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-34"
+   ],
+   "explanation_ko": "5주 차에 배운 〜うえに(~한 데다가), 〜にわたって(~에 걸쳐), 〜をきっかけに(~을 계기로), 〜ことから(~라는 점에서), 〜というより(~라기보다)를 자전거 공유 서비스 이야기에서 다시 확인합니다. 〜うえに는 플러스 요소를 덧붙이고, 〜にわたって는 기간·범위가 넓음을 나타냅니다. 〜をきっかけに는 어떤 일을 계기로 새로운 움직임이 시작될 때, 〜ことから는 근거나 유래를 말할 때 씁니다. 〜というより는 앞의 표현보다 뒤의 표현이 더 어울린다는 뜻입니다.",
+   "usage_notes": [
+    "〜うえに: 비슷한 방향의 내용을 덧붙입니다 (安いうえに、便利だ).",
+    "〜にわたって: 三年間・全国처럼 폭이 넓은 말에 붙습니다.",
+    "〜ことから: 뒤에는 앞 사실에서 이끌어 낸 결론·이름의 유래가 옵니다."
+   ],
+   "common_mistakes": [
+    "安いうえに、高い(X: 방향이 반대) → 安いうえに、便利だ(O)",
+    "三年間をわたって(X) → 三年間にわたって(O)",
+    "事故をきっかけで(X) → 事故をきっかけに(O)"
+   ],
+   "new_items": [
+    {
+     "id": "w-JP-N2-35-01",
+     "kind": "word",
+     "text": "利用{りよう}",
+     "reading_kana": "りよう",
+     "reading_romanized": "riyou",
+     "meaning_ko": "이용",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-35-02",
+     "kind": "word",
+     "text": "導入{どうにゅう}",
+     "reading_kana": "どうにゅう",
+     "reading_romanized": "dounyuu",
+     "meaning_ko": "도입",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-35-03",
+     "kind": "word",
+     "text": "渋滞{じゅうたい}",
+     "reading_kana": "じゅうたい",
+     "reading_romanized": "juutai",
+     "meaning_ko": "정체, 막힘",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-35-04",
+     "kind": "word",
+     "text": "普及{ふきゅう}",
+     "reading_kana": "ふきゅう",
+     "reading_romanized": "fukyuu",
+     "meaning_ko": "보급",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-35-05",
+     "kind": "word",
+     "text": "実験{じっけん}",
+     "reading_kana": "じっけん",
+     "reading_romanized": "jikken",
+     "meaning_ko": "실험",
+     "part_of_speech": "명사"
+    },
+    {
+     "id": "w-JP-N2-35-06",
+     "kind": "word",
+     "text": "苦情{くじょう}",
+     "reading_kana": "くじょう",
+     "reading_romanized": "kujou",
+     "meaning_ko": "불평, 항의",
+     "part_of_speech": "명사"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "自転車{じてんしゃ}シェアは、安{やす}いうえに、手軽{てがる}に使{つか}える。",
+     "meaning_ko": "자전거 공유는 저렴한 데다 손쉽게 쓸 수 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "市{し}は三年間{さんねんかん}にわたって、実験{じっけん}を続{つづ}けてきた。",
+     "meaning_ko": "시는 3년에 걸쳐 실험을 이어 왔다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "渋滞{じゅうたい}の問題{もんだい}をきっかけに、導入{どうにゅう}の検討{けんとう}が始{はじ}まった。",
+     "meaning_ko": "정체 문제를 계기로 도입 검토가 시작되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "駅{えき}の近{ちか}くに専用{せんよう}の置{お}き場{ば}があることから、利用者{りようしゃ}が増{ふ}えた。",
+     "meaning_ko": "역 근처에 전용 거치대가 있는 점에서 이용자가 늘었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "利用者{りようしゃ}の増加{ぞうか}は、普及{ふきゅう}というより、生活{せいかつ}の一部{いちぶ}になったと言{い}うべきだ。",
+     "meaning_ko": "이용자 증가는 보급이라기보다 생활의 일부가 되었다고 해야 한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "このサービスは環境{かんきょう}にやさしいうえに、健康{けんこう}にもよい。",
+     "meaning_ko": "이 서비스는 환경에 좋은 데다 건강에도 좋다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "夏休{なつやす}みの期間{きかん}にわたって、貸{か}し出{だ}し料金{りょうきん}は無料{むりょう}になる。",
+     "meaning_ko": "여름방학 기간 내내 대여 요금은 무료가 된다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "雨{あめ}の日{ひ}に事故{じこ}が多{おお}かったことをきっかけに、ヘルメットの着用{ちゃくよう}が呼{よ}びかけられた。",
+     "meaning_ko": "비 오는 날 사고가 많았던 것을 계기로 헬멧 착용이 권장되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼女{かのじょ}の説明{せつめい}は、説明{せつめい}というより、苦情{くじょう}に近{ちか}かった。",
+     "meaning_ko": "그녀의 설명은 설명이라기보다 불평에 가까웠다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "道{みち}が狭{せま}いことから、車道{しゃどう}の利用{りよう}は危険{きけん}だとされている。",
+     "meaning_ko": "길이 좁은 점에서 차도 이용은 위험하다고 여겨진다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "安い（　）、手軽に使える。",
+     "options": [
+      "うえに",
+      "にわたって",
+      "というより",
+      "ことから"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "플러스 요소를 덧붙이는 표현은 〜うえに입니다.",
+     "id": "JP-N2-35-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "三年間（　）、実験を続けてきた。",
+     "options": [
+      "をきっかけに",
+      "にわたって",
+      "ことから",
+      "うえに"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "기간이 길게 이어질 때는 〜にわたって를 씁니다.",
+     "id": "JP-N2-35-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "渋滞の問題（　）、導入の検討が始まった。",
+     "options": [
+      "にわたって",
+      "うえに",
+      "をきっかけに",
+      "というより"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "어떤 일을 계기로 새로운 움직임이 시작될 때는 〜をきっかけに입니다.",
+     "id": "JP-N2-35-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "道が狭い（　）、車道の利用は危険だとされている。",
+     "options": [
+      "というより",
+      "にわたって",
+      "をきっかけに",
+      "ことから"
+     ],
+     "answer_index": 3,
+     "explanation_ko": "앞 사실을 근거로 결론을 이끌 때는 〜ことから를 씁니다.",
+     "id": "JP-N2-35-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「渋滞」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "juutai",
+     "accepted_answers": [
+      "juutai",
+      "jyuutai",
+      "jutai",
+      "zyuutai",
+      "zyutai"
+     ],
+     "explanation_ko": "渋滞 = じゅうたい(juutai), ‘정체’입니다.",
+     "id": "JP-N2-35-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「導入」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "dounyuu",
+     "accepted_answers": [
+      "dounyuu",
+      "dounyu",
+      "donyuu",
+      "donyu"
+     ],
+     "explanation_ko": "導入 = どうにゅう(dounyuu), ‘도입’입니다.",
+     "id": "JP-N2-35-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }
