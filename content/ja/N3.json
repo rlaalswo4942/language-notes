@@ -7604,6 +7604,232 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N3-36",
+   "day_index": 36,
+   "week_index": 6,
+   "level": "N3",
+   "unit_id": "N3-W06",
+   "lesson_type": "new",
+   "title_ko": "〜に比べて: ~에 비해",
+   "objective_ko": "비교 대상을 〜に比べて로 나타내어 “A는 B에 비해 ~하다”를 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N3-35"
+   ],
+   "explanation_ko": "〜に比{くら}べて는 ‘~와 비교해서, ~에 비해’라는 뜻으로, 비교의 기준을 앞에 두고 결과를 뒤에 말합니다. 今年{ことし}は去年{きょねん}に比{くら}べて、雪{ゆき}が少{すく}ない. 〜に比{くら}べると(~에 비하면)·〜に比{くら}べ(문어체)도 같은 뜻입니다. 명사 + に比べて가 기본이며, 동사·형용사를 이을 때는 〜のに比べて(예: 思{おも}ったのに比べて)를 씁니다. 회화에서는 より로 바꿔 말할 수 있습니다(去年より少ない).",
+   "usage_notes": [
+    "기준이 되는 명사 + に比べて + 비교 결과.",
+    "〜に比べると・〜に比べ도 같은 뜻 (比べ는 글에서).",
+    "회화에서는 〜より로 바꿔 말할 수 있다."
+   ],
+   "common_mistakes": [
+    "去年を比べて(X) → 去年{きょねん}に比{くら}べて(O)",
+    "比べて 앞에 비교 기준을 쓰지 않고 결과만 말하면 어색하다",
+    "〜に対して(~에 대해, 대조)와 구별한다: 兄に比べて背が低い(비교) / 兄に対して失礼だ(대상)"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "平均{へいきん}",
+     "reading_kana": "へいきん",
+     "reading_romanized": "heikin",
+     "meaning_ko": "평균",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N3-36-01"
+    },
+    {
+     "kind": "word",
+     "text": "物価{ぶっか}",
+     "reading_kana": "ぶっか",
+     "reading_romanized": "bukka",
+     "meaning_ko": "물가",
+     "part_of_speech": "명사",
+     "id": "w-JP-N3-36-02"
+    },
+    {
+     "kind": "word",
+     "text": "収入{しゅうにゅう}",
+     "reading_kana": "しゅうにゅう",
+     "reading_romanized": "shuunyuu",
+     "meaning_ko": "수입",
+     "part_of_speech": "명사",
+     "id": "w-JP-N3-36-03"
+    },
+    {
+     "kind": "word",
+     "text": "割合{わりあい}",
+     "reading_kana": "わりあい",
+     "reading_romanized": "wariai",
+     "meaning_ko": "비율",
+     "part_of_speech": "명사",
+     "id": "w-JP-N3-36-04"
+    },
+    {
+     "kind": "word",
+     "text": "世代{せだい}",
+     "reading_kana": "せだい",
+     "reading_romanized": "sedai",
+     "meaning_ko": "세대",
+     "part_of_speech": "명사",
+     "id": "w-JP-N3-36-05"
+    },
+    {
+     "kind": "word",
+     "text": "税金{ぜいきん}",
+     "reading_kana": "ぜいきん",
+     "reading_romanized": "zeikin",
+     "meaning_ko": "세금",
+     "part_of_speech": "명사",
+     "id": "w-JP-N3-36-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "今年{ことし}は去年{きょねん}に比{くら}べて、雪{ゆき}が少{すく}ない。",
+     "meaning_ko": "올해는 작년에 비해 눈이 적다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "東京{とうきょう}は地方{ちほう}に比{くら}べて、家賃{やちん}が高{たか}い。",
+     "meaning_ko": "도쿄는 지방에 비해 집세가 비싸다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "以前{いぜん}に比{くら}べて、物価{ぶっか}が上{あ}がった。",
+     "meaning_ko": "예전에 비해 물가가 올랐다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "平均{へいきん}に比{くら}べて、彼{かれ}の成績{せいせき}はずっといい。",
+     "meaning_ko": "평균에 비해 그의 성적은 훨씬 좋다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "昨日{きのう}に比{くら}べると、今日{きょう}は気温{きおん}が低{ひく}い。",
+     "meaning_ko": "어제에 비하면 오늘은 기온이 낮다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "兄{あに}に比{くら}べて、私{わたし}は背{せ}が低{ひく}い。",
+     "meaning_ko": "형에 비해 나는 키가 작다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "去年{きょねん}に比{くら}べて、観光客{かんこうきゃく}が増加{ぞうか}している。",
+     "meaning_ko": "작년에 비해 관광객이 증가하고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この町{まち}は十年前{じゅうねんまえ}に比{くら}べて、とても便利{べんり}になった。",
+     "meaning_ko": "이 동네는 10년 전에 비해 매우 편리해졌다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "昔{むかし}に比{くら}べて、収入{しゅうにゅう}は増{ふ}えたが、税金{ぜいきん}も増{ふ}えた。",
+     "meaning_ko": "옛날에 비해 수입은 늘었지만 세금도 늘었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "若{わか}い世代{せだい}に比{くら}べて、高齢者{こうれいしゃ}の割合{わりあい}が高{たか}い。",
+     "meaning_ko": "젊은 세대에 비해 고령자의 비율이 높다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "都会{とかい}に比{くら}べ、田舎{いなか}は静{しず}かだ。",
+     "meaning_ko": "도시에 비해 시골은 조용하다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「今年は去年に比べて、雪が少ない」의 뜻은?",
+     "options": [
+      "올해는 작년에 비해 눈이 적다",
+      "올해는 작년보다 눈이 많다",
+      "올해도 작년처럼 눈이 오지 않았다",
+      "올해는 눈이 올 것 같다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜に比べて는 ‘~에 비해’이며, 작년이 비교 기준입니다.",
+     "id": "JP-N3-36-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「東京は地方（　）、家賃が高い」 ( )에 알맞은 말은?",
+     "options": [
+      "に比べて",
+      "について",
+      "によって",
+      "として"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "비교의 기준을 나타내는 말은 〜に比べて 입니다.",
+     "id": "JP-N3-36-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "〜に比べて의 뜻으로 알맞은 것은?",
+     "options": [
+      "~에 비해",
+      "~에 대해",
+      "~ 때문에",
+      "~하는 동안"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "比べる는 ‘비교하다’이며 〜に比べて는 ‘~와 비교해서’입니다.",
+     "id": "JP-N3-36-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「兄に比べて、私は背が低い」에서 비교의 기준이 되는 사람은?",
+     "options": [
+      "형",
+      "나",
+      "선생님",
+      "친구"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜に比べて 앞의 말(兄)이 비교 기준입니다.",
+     "id": "JP-N3-36-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「物価」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "bukka",
+     "accepted_answers": [
+      "bukka"
+     ],
+     "explanation_ko": "物価 = ぶっか(bukka), ‘물가’입니다.",
+     "id": "JP-N3-36-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「割合」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "wariai",
+     "accepted_answers": [
+      "wariai"
+     ],
+     "explanation_ko": "割合 = わりあい(wariai), ‘비율’입니다.",
+     "id": "JP-N3-36-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

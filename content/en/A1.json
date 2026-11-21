@@ -6911,6 +6911,201 @@
     "version": 1,
     "last_revised": "2026-11-21"
    }
+  },
+  {
+   "id": "A1-036",
+   "level": "A1",
+   "track": "foundation",
+   "day": 36,
+   "title_ko": "What do you do?: 직업 묻고 말하기",
+   "objective_ko": "직업을 묻고 답하는 What do you do? / Where do you work?를 쓰고, 직업 앞의 a / an을 바르게 붙인다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-22"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "직업을 물을 때는 What do you do? 라고 합니다. 대답은 I'm a nurse. 처럼 'be동사 + a / an + 직업'입니다. 직업 이름이 모음 소리로 시작하면 an을 씁니다: an engineer. 일하는 곳은 Where do you work? 로 묻고 I work in an office. / I work at a hospital. 처럼 답합니다. 3인칭 단수(he, she, my father)에서는 What does she do? — She works at a bank. 처럼 does와 works를 씁니다.",
+    "common_mistake_ko": "She is engineer.(X) → She is an engineer.(O) / My mother work in an office.(X) → My mother works in an office.(O) / What are you do?(X) → What do you do?(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "nurse",
+     "part_of_speech": "명사",
+     "meaning_ko": "간호사",
+     "example_en": "My sister is a nurse.",
+     "example_ko": "내 여동생은 간호사예요."
+    },
+    {
+     "word": "driver",
+     "part_of_speech": "명사",
+     "meaning_ko": "운전기사",
+     "example_en": "My father is a bus driver.",
+     "example_ko": "아버지는 버스 기사예요."
+    },
+    {
+     "word": "farmer",
+     "part_of_speech": "명사",
+     "meaning_ko": "농부",
+     "example_en": "My uncle is a farmer.",
+     "example_ko": "삼촌은 농부예요."
+    },
+    {
+     "word": "waiter",
+     "part_of_speech": "명사",
+     "meaning_ko": "(식당) 종업원",
+     "example_en": "The waiter is very kind.",
+     "example_ko": "그 종업원은 아주 친절해요."
+    },
+    {
+     "word": "engineer",
+     "part_of_speech": "명사",
+     "meaning_ko": "엔지니어, 기술자",
+     "example_en": "She is an engineer at a car company.",
+     "example_ko": "그녀는 자동차 회사의 엔지니어예요."
+    },
+    {
+     "word": "office",
+     "part_of_speech": "명사",
+     "meaning_ko": "사무실",
+     "example_en": "I work in an office.",
+     "example_ko": "나는 사무실에서 일해요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "What do you do? — I'm a nurse.",
+     "ko": "무슨 일을 하세요? — 간호사예요."
+    },
+    {
+     "en": "My father is a bus driver.",
+     "ko": "아버지는 버스 기사예요."
+    },
+    {
+     "en": "She is an engineer.",
+     "ko": "그녀는 엔지니어예요."
+    },
+    {
+     "en": "Where do you work? — I work in an office.",
+     "ko": "어디서 일하세요? — 사무실에서 일해요."
+    },
+    {
+     "en": "He works at a restaurant. He is a waiter.",
+     "ko": "그는 식당에서 일해요. 종업원이에요."
+    },
+    {
+     "en": "My uncle is a farmer. He has a small farm.",
+     "ko": "삼촌은 농부예요. 작은 농장이 있어요."
+    },
+    {
+     "en": "What does your sister do? — She is a teacher.",
+     "ko": "여동생은 무슨 일을 해요? — 선생님이에요."
+    },
+    {
+     "en": "I'm not a driver. I'm a student.",
+     "ko": "나는 운전기사가 아니에요. 학생이에요."
+    },
+    {
+     "en": "Does he work at a hospital? — No, he doesn't. He works at a school.",
+     "ko": "그는 병원에서 일해요? — 아니요. 학교에서 일해요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "She is engineer.",
+      "She is an engineer.",
+      "She an engineer.",
+      "She is a engineer."
+     ],
+     "answer_index": 1,
+     "explanation_ko": "직업 앞에는 a / an이 필요하고, engineer는 모음 소리로 시작하므로 an을 씁니다.",
+     "error_tag": "article",
+     "id": "A1-036-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'무슨 일을 하세요?'를 영어로 물을 때 알맞은 문장은?",
+     "choices": [
+      "What are you do?",
+      "What you do?",
+      "What do you do?",
+      "How do you do work?"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "직업을 묻는 기본 표현은 What do you do? 입니다.",
+     "error_tag": "job-question",
+     "id": "A1-036-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "My brother ___ in a hospital.",
+     "choices": [
+      "work",
+      "works",
+      "working",
+      "is work"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "주어가 3인칭 단수(my brother)이므로 일반동사에 -s를 붙여 works 입니다.",
+     "error_tag": "third-person-s",
+     "id": "A1-036-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Where does she work? 에 알맞은 대답은?",
+     "choices": [
+      "She work at a bank.",
+      "She is work at a bank.",
+      "She works at a bank.",
+      "She works in a doctor."
+     ],
+     "answer_index": 2,
+     "explanation_ko": "3인칭 단수는 works를 쓰고, 일하는 장소는 at a bank 처럼 말합니다. in a doctor는 장소가 아닙니다.",
+     "error_tag": "work-place",
+     "id": "A1-036-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: He is ___ farmer.",
+     "answer_text": "a",
+     "accepted_answers": [
+      "a"
+     ],
+     "explanation_ko": "farmer는 자음 소리로 시작하므로 a를 씁니다.",
+     "error_tag": "article",
+     "id": "A1-036-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: My mother ___ in an office. (work)",
+     "answer_text": "works",
+     "accepted_answers": [
+      "works"
+     ],
+     "explanation_ko": "주어가 3인칭 단수이므로 works 입니다.",
+     "error_tag": "third-person-s",
+     "id": "A1-036-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "가족이나 친구 한 명의 직업과 일하는 곳을 영어 두 문장으로 써 보세요.",
+    "example_answer_en": "My sister is a nurse. She works at a hospital.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-22",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-22"
+   }
   }
  ]
 }

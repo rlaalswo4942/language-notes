@@ -7616,6 +7616,232 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-36",
+   "day_index": 36,
+   "week_index": 6,
+   "level": "N4",
+   "unit_id": "N4-W06",
+   "lesson_type": "new",
+   "title_ko": "〜ように なる: ~하게 되다 (변화)",
+   "objective_ko": "가능형·동사 사전형에 〜ように なる를 붙여 “~할 수 있게 됐다 / ~하게 됐다”처럼 변화를 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-35"
+   ],
+   "explanation_ko": "〜ように なる는 능력이나 습관이 ‘~하는 상태로 바뀌었다’는 뜻입니다. 가능형 + ように なりました: 泳{およ}げるように なりました(헤엄칠 수 있게 됐어요). 사전형 + ように なりました: 野菜{やさい}を 食{た}べるように なりました(채소를 먹게 됐어요). 반대로 할 수 없게 되었을 때는 〜なく なりました를 씁니다: 食{た}べられなく なりました(못 먹게 됐어요). 앞으로 그렇게 되고 싶다는 바람은 〜ように なりたいです 라고 합니다.",
+   "usage_notes": [
+    "가능형·사전형 + ように なる: ~하게 되다.",
+    "〜ない형 + なく なる: ~하지 않게/못하게 되다.",
+    "〜ように なりたいです: ~할 수 있게 되고 싶다."
+   ],
+   "common_mistakes": [
+    "泳げるに なりました(X) → 泳{およ}げるように なりました(O)",
+    "食べられなく なりました(못 먹게 됐다)와 食べないように なりました(안 먹게 됐다)는 뜻이 다릅니다",
+    "野菜を 食べるように なりました는 ‘채소를 먹는 습관이 생겼다’이며 ‘먹을 수 있게 됐다’와는 다릅니다"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "泳{およ}ぐ",
+     "reading_kana": "およぐ",
+     "reading_romanized": "oyogu",
+     "meaning_ko": "헤엄치다",
+     "part_of_speech": "동사(1그룹)",
+     "id": "w-JP-N4-36-01"
+    },
+    {
+     "kind": "word",
+     "text": "慣{な}れる",
+     "reading_kana": "なれる",
+     "reading_romanized": "nareru",
+     "meaning_ko": "익숙해지다",
+     "part_of_speech": "동사(2그룹)",
+     "id": "w-JP-N4-36-02"
+    },
+    {
+     "kind": "word",
+     "text": "話{はな}す",
+     "reading_kana": "はなす",
+     "reading_romanized": "hanasu",
+     "meaning_ko": "말하다, 이야기하다",
+     "part_of_speech": "동사(1그룹)",
+     "id": "w-JP-N4-36-03"
+    },
+    {
+     "kind": "word",
+     "text": "毎晩{まいばん}",
+     "reading_kana": "まいばん",
+     "reading_romanized": "maiban",
+     "meaning_ko": "매일 밤",
+     "part_of_speech": "명사",
+     "id": "w-JP-N4-36-04"
+    },
+    {
+     "kind": "word",
+     "text": "苦手{にがて}",
+     "reading_kana": "にがて",
+     "reading_romanized": "nigate",
+     "meaning_ko": "서툶, 잘 못함",
+     "part_of_speech": "な형용사・명사",
+     "id": "w-JP-N4-36-05"
+    },
+    {
+     "kind": "word",
+     "text": "眠{ねむ}る",
+     "reading_kana": "ねむる",
+     "reading_romanized": "nemuru",
+     "meaning_ko": "자다, 잠들다",
+     "part_of_speech": "동사(1그룹)",
+     "id": "w-JP-N4-36-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "日本語{にほんご}が 話{はな}せるように なりました。",
+     "meaning_ko": "일본어를 말할 수 있게 됐어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "泳{およ}げるように なりました。",
+     "meaning_ko": "헤엄칠 수 있게 됐어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "自転車{じてんしゃ}に 乗{の}れるように なりました。",
+     "meaning_ko": "자전거를 탈 수 있게 됐어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "毎日{まいにち} 練習{れんしゅう}して、漢字{かんじ}が 読{よ}めるように なりました。",
+     "meaning_ko": "매일 연습해서 한자를 읽을 수 있게 됐어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "最近{さいきん}、野菜{やさい}を 食{た}べるように なりました。",
+     "meaning_ko": "요즘 채소를 먹게 됐어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "運転{うんてん}に 慣{な}れて、夜{よる}も 運転{うんてん}できるように なりました。",
+     "meaning_ko": "운전에 익숙해져서 밤에도 운전할 수 있게 됐어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "朝{あさ} 早{はや}く 起{お}きられるように なりたいです。",
+     "meaning_ko": "아침 일찍 일어날 수 있게 되고 싶어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 町{まち}では 車{くるま}が 増{ふ}えて、子{こ}どもが 道{みち}で 遊{あそ}べなく なりました。",
+     "meaning_ko": "이 동네는 차가 늘어서 아이들이 길에서 놀 수 없게 됐어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "辛{から}い 物{もの}が 苦手{にがて}でしたが、食{た}べられるように なりました。",
+     "meaning_ko": "매운 음식을 잘 못 먹었지만 먹을 수 있게 됐어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "毎晩{まいばん} 夜{よる}ぐっすり 眠{ねむ}れるように なりました。",
+     "meaning_ko": "매일 밤 푹 잘 수 있게 됐어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "前{まえ}は 食{た}べられましたが、今{いま}は 食{た}べられなく なりました。",
+     "meaning_ko": "전에는 먹을 수 있었지만 지금은 먹지 못하게 됐어요.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「泳げるように なりました」의 뜻은?",
+     "options": [
+      "헤엄칠 수 있게 됐어요",
+      "헤엄치고 싶어졌어요",
+      "헤엄쳐 버렸어요",
+      "헤엄치려고 해요"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "가능형 + ように なりました는 ‘~할 수 있게 됐다’입니다.",
+     "id": "JP-N4-36-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「日本語が 話せる（　） なりました。」 ( )에 알맞은 말은?",
+     "options": [
+      "ように",
+      "ために",
+      "ながら",
+      "そうに"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "변화를 나타내는 표현은 〜ように なる 입니다.",
+     "id": "JP-N4-36-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「(전에는 먹었지만) 지금은 못 먹게 됐어요」를 일본어로 하면?",
+     "options": [
+      "食べられなく なりました。",
+      "食べられるように なりました。",
+      "食べたく なりました。",
+      "食べて しまいました。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "할 수 없게 된 변화는 〜なく なりました 입니다. 食べられるように는 ‘먹을 수 있게 됐다’입니다.",
+     "id": "JP-N4-36-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「最近、野菜を 食べるように なりました」의 뜻은?",
+     "options": [
+      "요즘 채소를 먹게 됐어요",
+      "요즘 채소를 먹을 수 없게 됐어요",
+      "요즘 채소를 먹어 버렸어요",
+      "요즘 채소를 먹은 적이 있어요"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "사전형 + ように なりました는 습관·행동의 변화(~하게 됐다)를 나타냅니다.",
+     "id": "JP-N4-36-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「泳ぐ」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "oyogu",
+     "accepted_answers": [
+      "oyogu"
+     ],
+     "explanation_ko": "泳ぐ = およぐ(oyogu), ‘헤엄치다’입니다.",
+     "id": "JP-N4-36-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「慣れる」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "nareru",
+     "accepted_answers": [
+      "nareru"
+     ],
+     "explanation_ko": "慣れる = なれる(nareru), ‘익숙해지다’입니다.",
+     "id": "JP-N4-36-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

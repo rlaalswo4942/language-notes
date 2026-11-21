@@ -7568,6 +7568,222 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-36",
+   "day_index": 36,
+   "week_index": 6,
+   "level": "N1",
+   "unit_id": "N1-W06",
+   "lesson_type": "new",
+   "title_ko": "〜をおいて(ほかに)〜ない: ~을 제외하고는 없다",
+   "objective_ko": "〜をおいて 뒤에 부정을 이어 “~말고는 ~할 사람·것이 없다”는 유일성·최적임을 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-35"
+   ],
+   "explanation_ko": "〜をおいて(ほかに)〜ない는 ‘~을 제외하고는 달리 ~이 없다’는 뜻으로, 앞의 명사가 유일한 적임자·유일한 선택지임을 강조하는 격식 있는 표현입니다. この大役{たいやく}を任{まか}せられるのは、彼{かれ}をおいてほかにいない. 뒤에는 いない・ない・考{かんが}えられない 같은 부정 표현이 오며, ほかに(他に)가 자주 함께 쓰입니다. 사람 외에 때·장소·기회에도 씁니다(今をおいてほかに機会はない). 비슷한 〜にほかならない(바로 ~이다)와 형태가 다르므로 구별합니다.",
+   "usage_notes": [
+    "명사 + をおいて(ほかに) + 부정: ~말고는 ~없다.",
+    "적임자·유일한 선택지를 강조한다.",
+    "뒤에는 いない・ない・考えられない 같은 부정 표현."
+   ],
+   "common_mistakes": [
+    "彼をおいて任せられる人がいる(X) → 뒤는 부정: 彼{かれ}をおいてほかにいない(O)",
+    "〜をおいて를 ‘~을 놓아 두고’라는 일반적 동작으로 해석하지 않습니다(荷物を置いて行く와 다름)",
+    "〜をおいて(~말고는 없다)와 〜にほかならない(바로 ~이다)는 형태가 달라 혼동하지 않습니다"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "適任{てきにん}",
+     "reading_kana": "てきにん",
+     "reading_romanized": "tekinin",
+     "meaning_ko": "적임",
+     "part_of_speech": "명사・な형용사",
+     "id": "w-JP-N1-36-01"
+    },
+    {
+     "kind": "word",
+     "text": "後任{こうにん}",
+     "reading_kana": "こうにん",
+     "reading_romanized": "kounin",
+     "meaning_ko": "후임",
+     "part_of_speech": "명사",
+     "id": "w-JP-N1-36-02"
+    },
+    {
+     "kind": "word",
+     "text": "任{まか}せる",
+     "reading_kana": "まかせる",
+     "reading_romanized": "makaseru",
+     "meaning_ko": "맡기다",
+     "part_of_speech": "동사(2그룹)",
+     "id": "w-JP-N1-36-03"
+    },
+    {
+     "kind": "word",
+     "text": "人材{じんざい}",
+     "reading_kana": "じんざい",
+     "reading_romanized": "jinzai",
+     "meaning_ko": "인재",
+     "part_of_speech": "명사",
+     "id": "w-JP-N1-36-04"
+    },
+    {
+     "kind": "word",
+     "text": "打{う}ち込{こ}む",
+     "reading_kana": "うちこむ",
+     "reading_romanized": "uchikomu",
+     "meaning_ko": "몰두하다",
+     "part_of_speech": "동사(1그룹)",
+     "id": "w-JP-N1-36-05"
+    },
+    {
+     "kind": "word",
+     "text": "候補{こうほ}",
+     "reading_kana": "こうほ",
+     "reading_romanized": "kouho",
+     "meaning_ko": "후보",
+     "part_of_speech": "명사",
+     "id": "w-JP-N1-36-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "この大役{たいやく}を任{まか}せられるのは、彼{かれ}をおいてほかにいない。",
+     "meaning_ko": "이 큰 역할을 맡길 수 있는 사람은 그 사람 말고는 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "新{あたら}しい部長{ぶちょう}には、彼女{かのじょ}をおいて適任者{てきにんしゃ}はいない。",
+     "meaning_ko": "새 부장으로는 그녀 말고는 적임자가 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "後任{こうにん}を選{えら}ぶなら、彼{かれ}をおいてほかに候補{こうほ}はいない。",
+     "meaning_ko": "후임을 고른다면 그 사람 말고는 후보가 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "研究{けんきゅう}に打{う}ち込{こ}んできた彼{かれ}をおいて、この賞{しょう}にふさわしい人{ひと}はいない。",
+     "meaning_ko": "연구에 몰두해 온 그 사람 말고는 이 상에 어울리는 사람은 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この伝統{でんとう}を守{まも}れるのは、地元{じもと}の人々{ひとびと}をおいてほかにない。",
+     "meaning_ko": "이 전통을 지킬 수 있는 것은 현지 사람들 말고는 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "チームの再建{さいけん}を任{まか}せるなら、彼{かれ}をおいてほかに考{かんが}えられない。",
+     "meaning_ko": "팀의 재건을 맡긴다면 그 사람 말고는 생각할 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この役{やく}を演{えん}じられるのは、彼{かれ}をおいてほかにいないと言{い}われている。",
+     "meaning_ko": "이 역을 연기할 수 있는 사람은 그 사람 말고는 없다고들 한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "人材{じんざい}の育成{いくせい}を急{いそ}ぐなら、今{いま}をおいてほかに機会{きかい}はない。",
+     "meaning_ko": "인재 육성을 서두른다면 지금 말고는 기회가 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この町{まち}を再生{さいせい}させる人物{じんぶつ}は、彼{かれ}をおいてほかにいない。",
+     "meaning_ko": "이 동네를 되살릴 인물은 그 사람 말고는 없다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「彼をおいてほかにいない」의 뜻은?",
+     "options": [
+      "그 사람 말고는 (적임자가) 없다",
+      "그 사람을 두고 가 버렸다",
+      "그 사람 외에도 많이 있다",
+      "그 사람은 어디에도 없다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜をおいて(ほかに)〜ない는 ‘~말고는 없다’는 유일성 표현입니다.",
+     "id": "JP-N1-36-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「この役を任せられるのは、彼（　）ほかにいない」 ( )에 알맞은 말은?",
+     "options": [
+      "をおいて",
+      "にとって",
+      "をめぐって",
+      "に応じて"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘~을 제외하고는’이라는 뜻의 〜をおいて가 알맞습니다.",
+     "id": "JP-N1-36-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "〜をおいて 뒤에 오는 문말의 형태는?",
+     "options": [
+      "부정 표현 (〜ない・いない)",
+      "긍정 표현 (〜ある・いる)",
+      "의지 표현 (〜よう)",
+      "과거 표현 (〜た)"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜をおいて는 ‘~말고는 ~이 없다’이므로 뒤에 부정이 옵니다.",
+     "id": "JP-N1-36-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「今をおいてほかに機会はない」의 뜻은?",
+     "options": [
+      "지금이 유일한 기회다",
+      "지금은 기회가 많다",
+      "지금까지 기회가 없었다",
+      "지금은 기회를 놓쳤다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "今をおいてほかに〜ない는 ‘지금 말고는 ~이 없다’는 뜻입니다.",
+     "id": "JP-N1-36-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「適任」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "tekinin",
+     "accepted_answers": [
+      "tekinin"
+     ],
+     "explanation_ko": "適任 = てきにん(tekinin), ‘적임’입니다.",
+     "id": "JP-N1-36-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「人材」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "jinzai",
+     "accepted_answers": [
+      "jinzai"
+     ],
+     "explanation_ko": "人材 = じんざい(jinzai), ‘인재’입니다.",
+     "id": "JP-N1-36-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

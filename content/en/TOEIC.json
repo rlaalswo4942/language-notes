@@ -5629,6 +5629,201 @@
     "version": 1,
     "last_revised": "2026-11-21"
    }
+  },
+  {
+   "id": "TOEIC-030",
+   "level": "B1",
+   "track": "toeic",
+   "day": 30,
+   "title_ko": "TOEIC Part 7: 기사(article)에서 목적·세부 정보·추론 찾기",
+   "objective_ko": "짧은 기사에서 주제, 일정, 비용 출처를 찾고, 지문에 직접 쓰이지 않은 내용을 추론하는 문제를 푼다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/toeic/about/listening-reading.html",
+     "publisher": "ETS",
+     "supports": "공식 시험 형식",
+     "checked_at": "2026-11-22"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "TOEIC L&R Part 7에는 기사 형태의 지문도 나옵니다(비공식 자체 연습이며 ETS 문항이 아닙니다). 기사는 보통 첫 문단에 ① 무엇이(what) ② 누가(who) ③ 언제(when)를 알리고, 뒤에서 일정·비용·인용·영향을 설명합니다. 주제 문제는 첫 문장과 제목에서, 세부 정보 문제는 질문의 핵심어(when, cost, money)를 지문에서 찾아 답합니다. 추론 문제('suggested / implied')는 지문에 그대로 나오지 않고 근거 문장을 바꿔 말한 것이 정답입니다: drivers are advised to use Pine Avenue → 우회 도로로 쓸 수 있다. 보기마다 근거 문장이 있는지 확인합니다. 이 레슨은 점수 예측과 무관합니다.",
+    "common_mistake_ko": "기사 속 단어가 그대로 들어 있다고 바로 고른다 → 문장 전체의 뜻이 맞는지 확인 / 추론 문제에서 지문에 없는 사실을 상상해 고른다 → 근거 문장이 있는 것을 고른다 / 날짜와 기간을 대충 읽는다 → 시작과 끝을 구별해서 읽는다"
+   },
+   "vocabulary": [
+    {
+     "word": "council",
+     "part_of_speech": "명사",
+     "meaning_ko": "(시·의) 의회, 위원회",
+     "example_en": "The city council approved the plan.",
+     "example_ko": "시 의회가 그 계획을 승인했어요."
+    },
+    {
+     "word": "construction",
+     "part_of_speech": "명사",
+     "meaning_ko": "건설, 공사",
+     "example_en": "Construction begins next month.",
+     "example_ko": "공사는 다음 달에 시작돼요."
+    },
+    {
+     "word": "regional",
+     "part_of_speech": "형용사",
+     "meaning_ko": "지역의",
+     "example_en": "A regional fund pays for the project.",
+     "example_ko": "지역 기금이 그 사업 비용을 대요."
+    },
+    {
+     "word": "scheduled",
+     "part_of_speech": "형용사",
+     "meaning_ko": "예정된",
+     "example_en": "The meeting is scheduled for Monday.",
+     "example_ko": "회의는 월요일로 예정돼 있어요."
+    },
+    {
+     "word": "connect",
+     "part_of_speech": "동사",
+     "meaning_ko": "연결하다",
+     "example_en": "The road connects the station with the school.",
+     "example_ko": "그 도로는 역과 학교를 연결해요."
+    },
+    {
+     "word": "lane",
+     "part_of_speech": "명사",
+     "meaning_ko": "차선, 길",
+     "example_en": "One lane will be closed.",
+     "example_ko": "한 개 차선이 폐쇄될 거예요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The city council announced a new bike lane on Tuesday.",
+     "ko": "시 의회는 화요일에 새 자전거 도로를 발표했어요."
+    },
+    {
+     "en": "The lane will connect the station with the university.",
+     "ko": "그 도로는 역과 대학교를 연결할 거예요."
+    },
+    {
+     "en": "Construction is scheduled to begin in June.",
+     "ko": "공사는 6월에 시작할 예정이에요."
+    },
+    {
+     "en": "The work will finish before the fall semester starts.",
+     "ko": "공사는 가을 학기가 시작되기 전에 끝날 거예요."
+    },
+    {
+     "en": "The project will cost about $400,000.",
+     "ko": "그 사업에는 약 40만 달러가 들 거예요."
+    },
+    {
+     "en": "Most of the money will come from a regional fund.",
+     "ko": "돈의 대부분은 지역 기금에서 나올 거예요."
+    },
+    {
+     "en": "The lane is meant to reduce traffic near the station.",
+     "ko": "그 도로는 역 근처 교통량을 줄이려는 것이에요."
+    },
+    {
+     "en": "Drivers are advised to use Pine Avenue during the work.",
+     "ko": "운전자들은 공사 중에 파인 가를 이용하도록 권고받아요."
+    },
+    {
+     "en": "Which of the following is suggested about Pine Avenue?",
+     "ko": "다음 중 파인 가에 대해 암시된 것은?"
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "HARBOR CITY (May 12) — The city council announced on Tuesday that a new bike lane will be built along Mill Road, which connects the central train station with the university. Construction is scheduled to begin in June and to finish before the fall semester starts in September. The project will cost about $400,000, and most of the money will come from a regional transportation fund. Council member Linda Park said that the lane is meant to reduce traffic near the station. During construction, one lane of Mill Road will be closed during daytime hours, and drivers are advised to use Pine Avenue.\n\nWhat is the main purpose of the article?",
+     "choices": [
+      "To report on a planned road project",
+      "To announce a new university building",
+      "To ask drivers for donations",
+      "To explain a change in train schedules"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "첫 문장에서 시 의회가 새 자전거 도로 건설을 발표했다는 소식을 전합니다.",
+     "error_tag": "purpose",
+     "id": "TOEIC-030-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "HARBOR CITY (May 12) — The city council announced on Tuesday that a new bike lane will be built along Mill Road, which connects the central train station with the university. Construction is scheduled to begin in June and to finish before the fall semester starts in September. The project will cost about $400,000, and most of the money will come from a regional transportation fund. Council member Linda Park said that the lane is meant to reduce traffic near the station. During construction, one lane of Mill Road will be closed during daytime hours, and drivers are advised to use Pine Avenue.\n\nWhen is the work expected to be completed?",
+     "choices": [
+      "In May",
+      "In June",
+      "Before September",
+      "On Tuesday"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "before the fall semester starts in September 에서 9월 전에 끝난다는 것을 알 수 있습니다. June은 시작 시점입니다.",
+     "error_tag": "detail-date",
+     "id": "TOEIC-030-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "HARBOR CITY (May 12) — The city council announced on Tuesday that a new bike lane will be built along Mill Road, which connects the central train station with the university. Construction is scheduled to begin in June and to finish before the fall semester starts in September. The project will cost about $400,000, and most of the money will come from a regional transportation fund. Council member Linda Park said that the lane is meant to reduce traffic near the station. During construction, one lane of Mill Road will be closed during daytime hours, and drivers are advised to use Pine Avenue.\n\nHow will most of the cost be paid?",
+     "choices": [
+      "With university fees",
+      "With a regional transportation fund",
+      "With ticket sales at the station",
+      "With tolls from drivers"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "most of the money will come from a regional transportation fund 에 해당합니다.",
+     "error_tag": "detail-cost",
+     "id": "TOEIC-030-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "HARBOR CITY (May 12) — The city council announced on Tuesday that a new bike lane will be built along Mill Road, which connects the central train station with the university. Construction is scheduled to begin in June and to finish before the fall semester starts in September. The project will cost about $400,000, and most of the money will come from a regional transportation fund. Council member Linda Park said that the lane is meant to reduce traffic near the station. During construction, one lane of Mill Road will be closed during daytime hours, and drivers are advised to use Pine Avenue.\n\nWhat is suggested about Pine Avenue?",
+     "choices": [
+      "It will be closed in June.",
+      "It will get a new bike lane.",
+      "It can be used as an alternative route during the work.",
+      "It connects the station with the university."
+     ],
+     "answer_index": 2,
+     "explanation_ko": "drivers are advised to use Pine Avenue 는 공사 중 우회 도로로 쓸 수 있다는 뜻입니다. 역과 대학을 잇는 길은 Mill Road 입니다.",
+     "error_tag": "inference",
+     "id": "TOEIC-030-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: The work is scheduled to ___ in June. (시작하다)",
+     "answer_text": "begin",
+     "accepted_answers": [
+      "begin"
+     ],
+     "explanation_ko": "be scheduled to begin 은 '시작할 예정이다'입니다. 본문에도 나옵니다.",
+     "error_tag": "vocabulary",
+     "id": "TOEIC-030-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Drivers are ___ to use Pine Avenue. (권고받는다)",
+     "answer_text": "advised",
+     "accepted_answers": [
+      "advised"
+     ],
+     "explanation_ko": "be advised to ~ 는 '~하도록 권고받다'입니다.",
+     "error_tag": "vocabulary",
+     "id": "TOEIC-030-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "짧은 지역 소식을 하나 짓는다고 생각하고, 무엇이 언제 시작되는지 영어 두세 문장으로 써 보세요.",
+    "example_answer_en": "The city library will open a new reading room in April. The work will begin next week. Visitors can use the main room during the work.",
+    "note_ko": "비공식 자체 연습이며 ETS 문항이 아닙니다. 예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-22",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-22"
+   }
   }
  ]
 }

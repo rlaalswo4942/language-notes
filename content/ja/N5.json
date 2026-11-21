@@ -7631,6 +7631,228 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N5-36",
+   "day_index": 36,
+   "week_index": 6,
+   "level": "N5",
+   "unit_id": "N5-W06",
+   "lesson_type": "new",
+   "title_ko": "〜ましょうか: 제안하고 도와주겠다고 말하기",
+   "objective_ko": "동사 ます형에 〜ましょうか를 붙여 “~할까요?”라고 도움을 제안하고, 승낙·사양하는 대답을 한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N5-35"
+   ],
+   "explanation_ko": "동사 ます형의 ます를 ましょうか로 바꾸면 ‘제가 ~할까요?’라고 상대를 돕겠다는 제안이 됩니다: 荷物{にもつ}を 持{も}ちましょうか(짐을 들어 드릴까요?). 받아들일 때는 はい、お願{ねが}いします, 사양할 때는 いいえ、大丈夫{だいじょうぶ}です 라고 답합니다. 10일차의 〜ましょう(같이 ~해요)와 형태가 비슷하지만, 끝에 か가 붙으면 ‘내가 해 줄까요?’라는 제안·제의가 됩니다.",
+   "usage_notes": [
+    "동사 ます형 어간 + ましょうか: 제가 ~할까요?",
+    "받아들이기: はい、お願いします。",
+    "사양하기: いいえ、大丈夫です。"
+   ],
+   "common_mistakes": [
+    "荷物を 持ちましょうか(O) / 荷物を 持ちますか(△) → 도와주겠다는 제안에는 ましょうか를 씁니다",
+    "いいえ、お願いします(X) → 거절은 いいえ、大丈夫です(O)",
+    "手伝いましょうよ(권유)와 手伝いましょうか(제안)는 뜻이 다릅니다"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "手伝{てつだ}う",
+     "reading_kana": "てつだう",
+     "reading_romanized": "tetsudau",
+     "meaning_ko": "돕다",
+     "part_of_speech": "동사(1그룹)",
+     "id": "w-JP-N5-36-01"
+    },
+    {
+     "kind": "word",
+     "text": "持{も}つ",
+     "reading_kana": "もつ",
+     "reading_romanized": "motsu",
+     "meaning_ko": "들다, 가지다",
+     "part_of_speech": "동사(1그룹)",
+     "id": "w-JP-N5-36-02"
+    },
+    {
+     "kind": "word",
+     "text": "運{はこ}ぶ",
+     "reading_kana": "はこぶ",
+     "reading_romanized": "hakobu",
+     "meaning_ko": "나르다, 옮기다",
+     "part_of_speech": "동사(1그룹)",
+     "id": "w-JP-N5-36-03"
+    },
+    {
+     "kind": "word",
+     "text": "入{い}れる",
+     "reading_kana": "いれる",
+     "reading_romanized": "ireru",
+     "meaning_ko": "넣다, (차·커피를) 타다",
+     "part_of_speech": "동사(2그룹)",
+     "id": "w-JP-N5-36-04"
+    },
+    {
+     "kind": "word",
+     "text": "袋{ふくろ}",
+     "reading_kana": "ふくろ",
+     "reading_romanized": "fukuro",
+     "meaning_ko": "봉지, 자루",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-36-05"
+    },
+    {
+     "kind": "word",
+     "text": "閉{し}める",
+     "reading_kana": "しめる",
+     "reading_romanized": "shimeru",
+     "meaning_ko": "닫다",
+     "part_of_speech": "동사(2그룹)",
+     "id": "w-JP-N5-36-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "荷物{にもつ}を 持{も}ちましょうか。",
+     "meaning_ko": "짐을 들어 드릴까요?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "窓{まど}を 開{あ}けましょうか。",
+     "meaning_ko": "창문을 열까요?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "ドアを 閉{し}めましょうか。",
+     "meaning_ko": "문을 닫을까요?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "手伝{てつだ}いましょうか。",
+     "meaning_ko": "도와 드릴까요?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "はい、お願{ねが}いします。",
+     "meaning_ko": "네, 부탁해요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "いいえ、大丈夫{だいじょうぶ}です。",
+     "meaning_ko": "아니요, 괜찮아요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この 袋{ふくろ}を 運{はこ}びましょうか。",
+     "meaning_ko": "이 봉지를 옮겨 드릴까요?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "コーヒーを 入{い}れましょうか。",
+     "meaning_ko": "커피를 타 드릴까요?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "重{おも}いですね。 持{も}ちましょうか。",
+     "meaning_ko": "무겁네요. 들어 드릴까요?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "いいえ、自分{じぶん}で 持{も}ちます。",
+     "meaning_ko": "아니요, 제가 들게요.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「荷物を 持ちましょうか」의 뜻은?",
+     "options": [
+      "짐을 들어 드릴까요?",
+      "짐을 들었어요",
+      "짐을 들지 마세요",
+      "짐을 들고 싶어요"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜ましょうか는 ‘제가 ~할까요?’라는 제안입니다.",
+     "id": "JP-N5-36-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「창문을 열까요?」를 일본어로 하면?",
+     "options": [
+      "窓を 開けましょうか。",
+      "窓を 開けました。",
+      "窓を 開けてください。",
+      "窓を 開けたいです。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "제안은 〜ましょうか입니다. 開けました는 과거, 開けてください는 부탁, 開けたいです는 희망입니다.",
+     "id": "JP-N5-36-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「手伝いましょうか。」에 대한 대답으로 알맞은 것은?",
+     "options": [
+      "はい、お願いします。",
+      "はい、手伝いましょうか。",
+      "はい、どういたしまして。",
+      "いいえ、お願いします。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "도움을 받아들일 때는 はい、お願いします 라고 합니다.",
+     "id": "JP-N5-36-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「荷物を 持ち（　）か。」 ( )에 알맞은 말은?",
+     "options": [
+      "ましょう",
+      "ます",
+      "ました",
+      "たい"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘들어 드릴까요?’는 持ちましょうか 입니다.",
+     "id": "JP-N5-36-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「袋」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "fukuro",
+     "accepted_answers": [
+      "fukuro",
+      "hukuro"
+     ],
+     "explanation_ko": "袋 = ふくろ(fukuro), ‘봉지’입니다.",
+     "id": "JP-N5-36-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「運ぶ」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "hakobu",
+     "accepted_answers": [
+      "hakobu"
+     ],
+     "explanation_ko": "運ぶ = はこぶ(hakobu), ‘나르다’입니다.",
+     "id": "JP-N5-36-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

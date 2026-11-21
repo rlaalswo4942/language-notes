@@ -6888,6 +6888,201 @@
     "version": 1,
     "last_revised": "2026-11-21"
    }
+  },
+  {
+   "id": "A2-036",
+   "level": "A2",
+   "track": "foundation",
+   "day": 36,
+   "title_ko": "구동사 2: sit down / stand up / come back / give back / throw away / look after",
+   "objective_ko": "목적어가 필요 없는 구동사와 목적어가 있는 구동사를 구별하고, 대명사 목적어의 자리를 바르게 놓는다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-22"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "구동사는 '동사 + 작은 말(부사)'이 한 덩어리로 쓰이는 표현입니다. ① 목적어가 없는 것: sit down(앉다), stand up(일어서다), come back(돌아오다). ② 목적어를 가지는 것: throw away(버리다), give back(돌려주다). 목적어가 명사이면 두 자리가 모두 가능합니다: throw away the paper / throw the paper away. 목적어가 it, them 같은 대명사이면 반드시 가운데에 씁니다: throw it away, give it back. ③ look after(돌보다)는 떨어뜨리지 않고 look after the baby / look after her 처럼 씁니다.",
+    "common_mistake_ko": "I threw away it.(X) → I threw it away.(O) / Give back it to me.(X) → Give it back to me.(O) / She looks the baby after.(X) → She looks after the baby.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "sit down",
+     "part_of_speech": "구동사",
+     "meaning_ko": "앉다",
+     "example_en": "Please sit down here.",
+     "example_ko": "여기에 앉으세요."
+    },
+    {
+     "word": "stand up",
+     "part_of_speech": "구동사",
+     "meaning_ko": "일어서다",
+     "example_en": "Please stand up when she comes in.",
+     "example_ko": "그녀가 들어올 때 일어서 주세요."
+    },
+    {
+     "word": "come back",
+     "part_of_speech": "구동사",
+     "meaning_ko": "돌아오다",
+     "example_en": "Please come back before six.",
+     "example_ko": "6시 전에 돌아오세요."
+    },
+    {
+     "word": "give back",
+     "part_of_speech": "구동사",
+     "meaning_ko": "돌려주다",
+     "example_en": "I'll give the book back tomorrow.",
+     "example_ko": "그 책은 내일 돌려줄게요."
+    },
+    {
+     "word": "throw away",
+     "part_of_speech": "구동사",
+     "meaning_ko": "버리다",
+     "example_en": "Don't throw it away.",
+     "example_ko": "그것을 버리지 마세요."
+    },
+    {
+     "word": "look after",
+     "part_of_speech": "구동사",
+     "meaning_ko": "돌보다",
+     "example_en": "She looks after her little brother.",
+     "example_ko": "그녀는 남동생을 돌봐요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Please sit down. The class is starting.",
+     "ko": "앉으세요. 수업이 시작해요."
+    },
+    {
+     "en": "Everyone, stand up, please.",
+     "ko": "여러분, 일어서 주세요."
+    },
+    {
+     "en": "I'll come back in ten minutes.",
+     "ko": "10분 뒤에 돌아올게요."
+    },
+    {
+     "en": "Can you give back my pen?",
+     "ko": "내 펜을 돌려줄래요?"
+    },
+    {
+     "en": "Can you give it back tomorrow?",
+     "ko": "그것을 내일 돌려줄 수 있어요?"
+    },
+    {
+     "en": "Don't throw away your old shoes.",
+     "ko": "오래된 신발을 버리지 마세요."
+    },
+    {
+     "en": "This box is empty. Please throw it away.",
+     "ko": "이 상자는 비었어요. 그것을 버려 주세요."
+    },
+    {
+     "en": "My grandmother looks after our cat.",
+     "ko": "할머니가 우리 고양이를 돌봐 주세요."
+    },
+    {
+     "en": "He looks after his two children on Sundays.",
+     "ko": "그는 일요일마다 두 아이를 돌봐요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "'그것을 버리세요'를 영어로 하면?",
+     "choices": [
+      "Throw away it.",
+      "Throw it away.",
+      "Throw away to it.",
+      "It throw away."
+     ],
+     "answer_index": 1,
+     "explanation_ko": "목적어가 it 같은 대명사이면 throw와 away 사이에 씁니다.",
+     "error_tag": "phrasal-verb-order",
+     "id": "A2-036-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Please ___ down. The class is starting.",
+     "choices": [
+      "sits",
+      "sitting",
+      "sit",
+      "to sit"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "명령문은 동사원형으로 시작하므로 sit down 입니다.",
+     "error_tag": "imperative",
+     "id": "A2-036-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'나는 그것을 돌려주었어요'로 알맞은 문장은?",
+     "choices": [
+      "I gave back it.",
+      "I gave it back.",
+      "I gave to back it.",
+      "I gave back to it."
+     ],
+     "answer_index": 1,
+     "explanation_ko": "대명사 목적어 it은 gave와 back 사이에 놓습니다.",
+     "error_tag": "phrasal-verb-order",
+     "id": "A2-036-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "She looks after her little brother. 의 뜻은?",
+     "choices": [
+      "그녀는 남동생을 찾고 있어요.",
+      "그녀는 남동생을 돌봐요.",
+      "그녀는 남동생을 쳐다봐요.",
+      "그녀는 남동생을 따라가요."
+     ],
+     "answer_index": 1,
+     "explanation_ko": "look after는 '돌보다'입니다. 찾는 것은 look for, 쳐다보는 것은 look at 입니다.",
+     "error_tag": "vocabulary",
+     "id": "A2-036-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Please ___ back before six. (돌아오다)",
+     "answer_text": "come",
+     "accepted_answers": [
+      "come"
+     ],
+     "explanation_ko": "'돌아오다'는 come back 이고, 명령문이므로 come 입니다.",
+     "error_tag": "vocabulary",
+     "id": "A2-036-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: I'll look ___ your cat while you are away. (돌보다)",
+     "answer_text": "after",
+     "accepted_answers": [
+      "after"
+     ],
+     "explanation_ko": "'돌보다'는 look after 입니다.",
+     "error_tag": "vocabulary",
+     "id": "A2-036-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "오늘 배운 구동사 중 두 개를 골라 영어 문장으로 써 보세요.",
+    "example_answer_en": "Please sit down. I'll give it back tomorrow.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-22",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-22"
+   }
   }
  ]
 }

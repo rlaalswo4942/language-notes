@@ -1,12 +1,12 @@
 {
  "courses": {
   "PRE-A1": 30,
-  "A1": 35,
-  "A2": 35,
-  "B1": 30,
-  "B2": 35,
-  "TOEIC": 29,
-  "TOEFL": 29
+  "A1": 36,
+  "A2": 36,
+  "B1": 31,
+  "B2": 36,
+  "TOEIC": 30,
+  "TOEFL": 30
  },
  "sources": false,
  "plus": [

@@ -5593,6 +5593,203 @@
     "version": 1,
     "last_revised": "2026-11-21"
    }
+  },
+  {
+   "id": "TOEFL-030",
+   "level": "B1",
+   "track": "toefl",
+   "day": 30,
+   "title_ko": "TOEFL 2026 Build a Sentence 3: 관계절과 that절 어순",
+   "objective_ko": "관계절과 whether절이 들어간 문장을 알맞은 어순으로 배열한다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/content/ets-org/language-master/ko/home/toefl/test-takers/ibt/about/content.html",
+     "publisher": "ETS",
+     "supports": "2026 형식 유형명",
+     "checked_at": "2026-11-22"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "Build a Sentence는 2026-01-21 이후 TOEFL iBT Writing에 포함된 유형명입니다(비공식 자체 연습입니다). 이번에는 절이 들어간 문장의 어순을 확인합니다. ① 관계절은 꾸미는 명사 바로 뒤에 옵니다: The book that I borrowed from the library was helpful. ② 목적어 역할의 that은 생략할 수 있습니다: The essay I wrote was long. ③ 사람이 주어 역할이면 who를 씁니다: The student who asked the question is in my class. ④ whether는 '~인지'를 뜻하고 뒤는 평서문 어순입니다: She asked whether the deadline was extended. 관계절과 whether절 안에서는 의문문 어순(조동사를 앞으로)을 쓰지 않습니다. ETS 점수와 무관하며 점수 예측도 없습니다.",
+    "common_mistake_ko": "The book I that borrowed was helpful.(X) → The book that I borrowed was helpful.(O) / The essay was that I wrote long.(X) → The essay that I wrote was long.(O) / She asked whether was the deadline extended.(X) → She asked whether the deadline was extended.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "citation",
+     "part_of_speech": "명사",
+     "meaning_ko": "인용, 출처 표기",
+     "example_en": "Every citation must include the author's name.",
+     "example_ko": "모든 인용에는 저자 이름이 들어가야 해요."
+    },
+    {
+     "word": "draft",
+     "part_of_speech": "명사",
+     "meaning_ko": "초안",
+     "example_en": "I sent my first draft to the professor.",
+     "example_ko": "나는 교수님께 초안을 보냈어요."
+    },
+    {
+     "word": "seminar",
+     "part_of_speech": "명사",
+     "meaning_ko": "세미나, 토론 수업",
+     "example_en": "The seminar meets every Thursday.",
+     "example_ko": "그 세미나는 매주 목요일에 열려요."
+    },
+    {
+     "word": "certificate",
+     "part_of_speech": "명사",
+     "meaning_ko": "수료증, 증명서",
+     "example_en": "Students received a certificate after the workshop.",
+     "example_ko": "학생들은 워크숍이 끝난 뒤 수료증을 받았어요."
+    },
+    {
+     "word": "prerequisite",
+     "part_of_speech": "명사",
+     "meaning_ko": "선수 과목, 필수 조건",
+     "example_en": "Biology 101 is a prerequisite for this course.",
+     "example_ko": "생물학 101은 이 과목의 선수 과목이에요."
+    },
+    {
+     "word": "semester",
+     "part_of_speech": "명사",
+     "meaning_ko": "학기",
+     "example_en": "The new semester starts in September.",
+     "example_ko": "새 학기는 9월에 시작해요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The book that I borrowed from the library was helpful.",
+     "ko": "내가 도서관에서 빌린 책은 도움이 됐어요."
+    },
+    {
+     "en": "The essay I wrote was long.",
+     "ko": "내가 쓴 에세이는 길었어요."
+    },
+    {
+     "en": "The student who asked the question is in my class.",
+     "ko": "질문을 한 학생은 내 반이에요."
+    },
+    {
+     "en": "The paper that I submitted yesterday was graded.",
+     "ko": "내가 어제 제출한 과제는 채점됐어요."
+    },
+    {
+     "en": "She asked whether the deadline was extended.",
+     "ko": "그녀는 마감이 연장됐는지 물었어요."
+    },
+    {
+     "en": "The students who attended the workshop received a certificate.",
+     "ko": "워크숍에 참석한 학생들은 수료증을 받았어요."
+    },
+    {
+     "en": "My advisor read the draft that I sent last week.",
+     "ko": "지도 교수님은 내가 지난주에 보낸 초안을 읽으셨어요."
+    },
+    {
+     "en": "The citation she added is correct.",
+     "ko": "그녀가 추가한 인용 표기는 맞아요."
+    },
+    {
+     "en": "I wonder whether the new semester starts in September.",
+     "ko": "새 학기가 9월에 시작하는지 궁금해요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "어순이 올바른 문장은?",
+     "choices": [
+      "The book I that borrowed was helpful.",
+      "The book that I borrowed from the library was helpful.",
+      "The book that borrowed I from the library was helpful.",
+      "The that book I borrowed from the library was helpful."
+     ],
+     "answer_index": 1,
+     "explanation_ko": "관계절(that I borrowed from the library)은 꾸미는 명사 the book 바로 뒤에 옵니다.",
+     "error_tag": "relative-clause",
+     "id": "TOEFL-030-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "The student ___ asked the question is in my class.",
+     "choices": [
+      "whom",
+      "who",
+      "whose",
+      "what"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "사람이 관계절의 주어(asked의 주어)이므로 who 입니다. whom은 목적어 자리에 씁니다.",
+     "error_tag": "relative-pronoun",
+     "id": "TOEFL-030-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "어순이 올바른 문장은?",
+     "choices": [
+      "The essay was that I wrote long.",
+      "That the essay I wrote was long.",
+      "The essay that I wrote was long.",
+      "The essay I wrote that was long."
+     ],
+     "answer_index": 2,
+     "explanation_ko": "The essay that I wrote(주어) + was long(서술) 순서입니다.",
+     "error_tag": "relative-clause",
+     "id": "TOEFL-030-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "She asked ___ the deadline was extended.",
+     "choices": [
+      "that",
+      "whether",
+      "did",
+      "what"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "'~인지'를 나타내는 whether 뒤에는 평서문 어순이 옵니다.",
+     "error_tag": "whether-clause",
+     "id": "TOEFL-030-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: The paper ___ I submitted was graded. (관계대명사)",
+     "answer_text": "that",
+     "accepted_answers": [
+      "that",
+      "which"
+     ],
+     "explanation_ko": "꾸미는 말이 사물이고 I submitted가 이어지므로 that(또는 which)을 씁니다.",
+     "error_tag": "relative-pronoun",
+     "id": "TOEFL-030-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: The students ___ attended the workshop received a certificate. (사람, 주격)",
+     "answer_text": "who",
+     "accepted_answers": [
+      "who",
+      "that"
+     ],
+     "explanation_ko": "사람이 attended의 주어이므로 who(또는 that)를 씁니다.",
+     "error_tag": "relative-pronoun",
+     "id": "TOEFL-030-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "관계절(who / that)을 넣어 학교생활에 대한 영어 문장 하나를 써 보세요.",
+    "example_answer_en": "The professor who teaches my class gave us a long reading.",
+    "note_ko": "비공식 자체 연습이며 ETS 문항이 아닙니다. 예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-22",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-22"
+   }
   }
  ]
 }
