@@ -7106,6 +7106,201 @@
     "version": 1,
     "last_revised": "2026-11-22"
    }
+  },
+  {
+   "id": "A1-037",
+   "level": "A1",
+   "track": "foundation",
+   "day": 37,
+   "title_ko": "식당에서 주문하기: Can I have ...? / I'll have ...",
+   "objective_ko": "식당에서 메뉴판·음식·계산서를 정중하게 요청하고, 주문을 정해 말하는 표현을 쓴다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-23"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "식당에서 무언가를 부탁할 때는 Can I have ... , please? 라고 합니다: Can I have the menu, please? 음식을 정해서 주문할 때는 I'll have ... (~로 할게요)를 씁니다: I'll have the chicken soup. 종업원은 Are you ready to order? (주문하시겠어요?), Anything else? (더 필요한 것 있으세요?)라고 묻고, 더 필요 없으면 No, that's all, thank you. 라고 답합니다. 계산할 때는 Can I have the bill, please? 라고 합니다. 자리를 부탁할 때는 We'd like a table for two. 처럼 말합니다. 포장 여부는 For here or to go? 로 묻습니다.",
+    "common_mistake_ko": "Can I has the menu?(X) → Can I have the menu?(O) — Can 뒤에는 동사원형 have를 씁니다. / I'll to have soup.(X) → I'll have soup.(O) — will 뒤에는 to 없이 동사원형이 옵니다. / 부탁할 때 please를 빼면 퉁명스럽게 들릴 수 있습니다."
+   },
+   "vocabulary": [
+    {
+     "word": "menu",
+     "part_of_speech": "명사",
+     "meaning_ko": "메뉴판",
+     "example_en": "Can I have the menu, please?",
+     "example_ko": "메뉴판 주시겠어요?"
+    },
+    {
+     "word": "waiter",
+     "part_of_speech": "명사",
+     "meaning_ko": "(남자) 종업원",
+     "example_en": "The waiter brought us water.",
+     "example_ko": "종업원이 우리에게 물을 가져다줬어요."
+    },
+    {
+     "word": "order",
+     "part_of_speech": "동사",
+     "meaning_ko": "주문하다",
+     "example_en": "We want to order now.",
+     "example_ko": "지금 주문하고 싶어요."
+    },
+    {
+     "word": "bill",
+     "part_of_speech": "명사",
+     "meaning_ko": "계산서",
+     "example_en": "Can I have the bill, please?",
+     "example_ko": "계산서 주시겠어요?"
+    },
+    {
+     "word": "dessert",
+     "part_of_speech": "명사",
+     "meaning_ko": "후식",
+     "example_en": "I'll have ice cream for dessert.",
+     "example_ko": "후식으로 아이스크림을 먹을게요."
+    },
+    {
+     "word": "soup",
+     "part_of_speech": "명사",
+     "meaning_ko": "수프",
+     "example_en": "The soup is hot.",
+     "example_ko": "수프가 뜨거워요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Can I have the menu, please?",
+     "ko": "메뉴판 주시겠어요?"
+    },
+    {
+     "en": "Can I have a glass of water, please?",
+     "ko": "물 한 잔 주시겠어요?"
+    },
+    {
+     "en": "Are you ready to order?",
+     "ko": "주문하시겠어요?"
+    },
+    {
+     "en": "I'll have the chicken soup.",
+     "ko": "치킨 수프로 할게요."
+    },
+    {
+     "en": "Anything else? — No, that's all, thank you.",
+     "ko": "더 필요한 것 있으세요? — 아니요, 그게 다예요, 감사합니다."
+    },
+    {
+     "en": "We'd like a table for two.",
+     "ko": "두 명 자리 부탁드려요."
+    },
+    {
+     "en": "For here or to go?",
+     "ko": "드시고 가세요, 가져가세요?"
+    },
+    {
+     "en": "I'll have a coffee and a slice of cake.",
+     "ko": "커피와 케이크 한 조각으로 할게요."
+    },
+    {
+     "en": "Can I have the bill, please?",
+     "ko": "계산서 주시겠어요?"
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "식당에서 메뉴판을 정중하게 부탁하는 문장은?",
+     "choices": [
+      "Can I have the menu, please?",
+      "Can I has the menu, please?",
+      "I can have menu, please?",
+      "Do I can have the menu, please?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Can I have ... , please? 가 정중한 부탁이며 Can 뒤에는 동사원형 have를 씁니다.",
+     "error_tag": "request",
+     "id": "A1-037-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "종업원이 \"Anything else?\"라고 물었을 때, 더 필요 없다는 대답으로 알맞은 것은?",
+     "choices": [
+      "No, that's all, thank you.",
+      "Yes, I do.",
+      "Nice to meet you.",
+      "I'm a student."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Anything else? 에는 No, that's all, thank you. 처럼 '그게 다예요'라고 답합니다.",
+     "error_tag": "response",
+     "id": "A1-037-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "\"I'll have the soup.\"의 뜻으로 가장 알맞은 것은?",
+     "choices": [
+      "수프로 할게요(주문)",
+      "수프를 가지고 있어요",
+      "수프를 만들 거예요",
+      "수프를 먹은 적이 있어요"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "I'll have ... 는 메뉴를 정해서 주문하는 표현입니다.",
+     "error_tag": "ordering",
+     "id": "A1-037-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "계산서를 부탁하는 문장으로 알맞은 것은?",
+     "choices": [
+      "Can I have the bill, please?",
+      "Can I bill you, please?",
+      "Can I have a bill the, please?",
+      "Bill me, can I?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Can I have the bill, please? 가 계산서를 요청하는 기본 문장입니다.",
+     "error_tag": "request",
+     "id": "A1-037-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Can I ___ a glass of water, please?",
+     "answer_text": "have",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation_ko": "Can I have ... , please? 로 부탁합니다.",
+     "error_tag": "request",
+     "id": "A1-037-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Are you ready to ___? (주문하다)",
+     "answer_text": "order",
+     "accepted_answers": [
+      "order"
+     ],
+     "explanation_ko": "be ready to order 는 '주문할 준비가 되다'입니다.",
+     "error_tag": "vocabulary",
+     "id": "A1-037-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "식당에서 음식 하나를 주문하고 계산서를 부탁하는 영어 문장 두 개를 써 보세요.",
+    "example_answer_en": "I'll have the chicken soup, please. Can I have the bill, please?",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-23",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-23"
+   }
   }
  ]
 }

@@ -5824,6 +5824,201 @@
     "version": 1,
     "last_revised": "2026-11-22"
    }
+  },
+  {
+   "id": "TOEIC-031",
+   "level": "B1",
+   "track": "toeic",
+   "day": 31,
+   "title_ko": "TOEIC Part 7: 수업 일정표·이용 안내에서 시간·비용·규칙 찾기",
+   "objective_ko": "일정표와 안내문이 합쳐진 지문에서 요일·시각·추가 비용·예약 마감 규칙을 찾아 계산한다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/toeic/about/listening-reading.html",
+     "publisher": "ETS",
+     "supports": "공식 시험 형식",
+     "checked_at": "2026-11-23"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "TOEIC L&R Part 7에는 일정표(schedule)와 안내문이 한 지문에 함께 나오기도 합니다(비공식 자체 연습이며 ETS 문항이 아닙니다). 먼저 표에서 요일·시각·장소를 읽고, 아래 Notes 의 규칙(비용, 예약 마감, 취소)을 확인합니다. 시간 계산 문제는 규칙의 숫자를 그대로 계산합니다: 6:30 P.M. 수업이 '시작 두 시간 전에 마감'이면 4:30 P.M. 입니다. 'up to three classes ... at no extra charge' 는 세 번째까지 무료, 네 번째부터 추가 비용이 든다는 뜻입니다. 보기와 같은 단어가 지문에 있어도 숫자·조건이 맞는지 확인합니다. 이 레슨은 점수 예측과 무관합니다.",
+    "common_mistake_ko": "표만 보고 아래 Notes 를 읽지 않는다 → 규칙·비용은 Notes 에 있습니다. / '두 시간 전 마감'을 시작 시각 그대로로 착각한다 → 시작 시각에서 시간을 빼서 계산합니다. / up to three 를 '세 번 이상'으로 읽는다 → '최대 세 번'입니다."
+   },
+   "vocabulary": [
+    {
+     "word": "schedule",
+     "part_of_speech": "명사",
+     "meaning_ko": "일정(표)",
+     "example_en": "Please check the class schedule.",
+     "example_ko": "수업 일정표를 확인해 주세요."
+    },
+    {
+     "word": "additional",
+     "part_of_speech": "형용사",
+     "meaning_ko": "추가의",
+     "example_en": "Each additional class costs $8.",
+     "example_ko": "추가 수업은 한 번에 8달러예요."
+    },
+    {
+     "word": "charge",
+     "part_of_speech": "명사",
+     "meaning_ko": "요금",
+     "example_en": "There is no extra charge.",
+     "example_ko": "추가 요금은 없어요."
+    },
+    {
+     "word": "cancel",
+     "part_of_speech": "동사",
+     "meaning_ko": "취소하다",
+     "example_en": "Please cancel your booking early.",
+     "example_ko": "예약은 미리 취소해 주세요."
+    },
+    {
+     "word": "require",
+     "part_of_speech": "동사",
+     "meaning_ko": "요구하다, 필요로 하다",
+     "example_en": "The class does not require booking.",
+     "example_ko": "그 수업은 예약이 필요 없어요."
+    },
+    {
+     "word": "limit",
+     "part_of_speech": "명사",
+     "meaning_ko": "한도, 제한",
+     "example_en": "The weekly limit is three classes.",
+     "example_ko": "주당 한도는 세 번이에요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The yoga class starts at 6:30 P.M. on Monday.",
+     "ko": "요가 수업은 월요일 오후 6시 30분에 시작해요."
+    },
+    {
+     "en": "Members may book up to three classes per week.",
+     "ko": "회원은 주당 최대 세 번 수업을 예약할 수 있어요."
+    },
+    {
+     "en": "Each additional class costs eight dollars.",
+     "ko": "추가 수업은 한 번에 8달러예요."
+    },
+    {
+     "en": "Booking closes two hours before a class starts.",
+     "ko": "예약은 수업 시작 두 시간 전에 마감돼요."
+    },
+    {
+     "en": "Please cancel at least three hours before the class.",
+     "ko": "수업 최소 세 시간 전까지 취소해 주세요."
+    },
+    {
+     "en": "The spin class is held in the studio on Tuesday and Thursday.",
+     "ko": "스핀 수업은 화요일과 목요일에 스튜디오에서 열려요."
+    },
+    {
+     "en": "Family Swim lasts ninety minutes.",
+     "ko": "가족 수영은 90분 동안 진행돼요."
+    },
+    {
+     "en": "Children under 12 can join Family Swim for free.",
+     "ko": "12세 미만 어린이는 가족 수영에 무료로 참여할 수 있어요."
+    },
+    {
+     "en": "The weekly schedule is posted at the front desk.",
+     "ko": "주간 일정표는 안내 데스크에 게시돼 있어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "HARPER FITNESS CENTER — Spring Class Schedule\nMonday 6:30 P.M. — Yoga (Room A, 60 minutes)\nTuesday 7:00 A.M. — Spin (Studio, 45 minutes)\nWednesday 6:30 P.M. — Yoga (Room A, 60 minutes)\nThursday 7:00 A.M. — Spin (Studio, 45 minutes)\nSaturday 9:00 A.M. — Family Swim (Pool, 90 minutes)\nNotes: Members may book up to three classes per week at no extra charge. Each additional class costs $8. Booking closes two hours before a class starts. Please cancel at least three hours before the class; otherwise the class will count toward your weekly limit. Family Swim is free for members' children under 12 and does not require booking.\n\nWhat time does the Tuesday class start?",
+     "choices": [
+      "6:30 A.M.",
+      "7:00 A.M.",
+      "6:30 P.M.",
+      "9:00 A.M."
+     ],
+     "answer_index": 1,
+     "explanation_ko": "표에서 Tuesday 7:00 A.M. — Spin 입니다.",
+     "error_tag": "schedule",
+     "id": "TOEIC-031-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "HARPER FITNESS CENTER — Spring Class Schedule\nMonday 6:30 P.M. — Yoga (Room A, 60 minutes)\nTuesday 7:00 A.M. — Spin (Studio, 45 minutes)\nWednesday 6:30 P.M. — Yoga (Room A, 60 minutes)\nThursday 7:00 A.M. — Spin (Studio, 45 minutes)\nSaturday 9:00 A.M. — Family Swim (Pool, 90 minutes)\nNotes: Members may book up to three classes per week at no extra charge. Each additional class costs $8. Booking closes two hours before a class starts. Please cancel at least three hours before the class; otherwise the class will count toward your weekly limit. Family Swim is free for members' children under 12 and does not require booking.\n\nA member books four classes in one week. How much extra will the member pay?",
+     "choices": [
+      "Nothing",
+      "$8",
+      "$16",
+      "$24"
+     ],
+     "answer_index": 1,
+     "explanation_ko": "세 번까지 무료이고 추가 수업은 한 번에 $8 이므로 네 번째 수업 하나에 $8 입니다.",
+     "error_tag": "calculation",
+     "id": "TOEIC-031-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "HARPER FITNESS CENTER — Spring Class Schedule\nMonday 6:30 P.M. — Yoga (Room A, 60 minutes)\nTuesday 7:00 A.M. — Spin (Studio, 45 minutes)\nWednesday 6:30 P.M. — Yoga (Room A, 60 minutes)\nThursday 7:00 A.M. — Spin (Studio, 45 minutes)\nSaturday 9:00 A.M. — Family Swim (Pool, 90 minutes)\nNotes: Members may book up to three classes per week at no extra charge. Each additional class costs $8. Booking closes two hours before a class starts. Please cancel at least three hours before the class; otherwise the class will count toward your weekly limit. Family Swim is free for members' children under 12 and does not require booking.\n\nBy what time must a member book the Monday yoga class?",
+     "choices": [
+      "By 4:30 P.M. on Monday",
+      "By 6:30 P.M. on Sunday",
+      "By 3:30 P.M. on Monday",
+      "Booking is not required"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "예약은 시작 두 시간 전에 마감되고, 수업은 6:30 P.M. 이므로 4:30 P.M. 입니다.",
+     "error_tag": "detail-time",
+     "id": "TOEIC-031-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "HARPER FITNESS CENTER — Spring Class Schedule\nMonday 6:30 P.M. — Yoga (Room A, 60 minutes)\nTuesday 7:00 A.M. — Spin (Studio, 45 minutes)\nWednesday 6:30 P.M. — Yoga (Room A, 60 minutes)\nThursday 7:00 A.M. — Spin (Studio, 45 minutes)\nSaturday 9:00 A.M. — Family Swim (Pool, 90 minutes)\nNotes: Members may book up to three classes per week at no extra charge. Each additional class costs $8. Booking closes two hours before a class starts. Please cancel at least three hours before the class; otherwise the class will count toward your weekly limit. Family Swim is free for members' children under 12 and does not require booking.\n\nWhat is indicated about Family Swim?",
+     "choices": [
+      "Booking is not required.",
+      "It is only for adults.",
+      "It costs $8 per person.",
+      "It lasts 45 minutes."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "does not require booking 이라고 쓰여 있습니다. 90분이므로 45분은 틀리고, 요금은 12세 미만 회원 자녀에게 무료입니다.",
+     "error_tag": "inference",
+     "id": "TOEIC-031-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Please ___ your booking at least three hours before the class. (취소하다)",
+     "answer_text": "cancel",
+     "accepted_answers": [
+      "cancel"
+     ],
+     "explanation_ko": "cancel 은 '취소하다'이며 지문에도 나옵니다.",
+     "error_tag": "vocabulary",
+     "id": "TOEIC-031-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: There is no extra ___ for the first three classes. (요금)",
+     "answer_text": "charge",
+     "accepted_answers": [
+      "charge"
+     ],
+     "explanation_ko": "no extra charge 는 '추가 요금 없음'입니다.",
+     "error_tag": "vocabulary",
+     "id": "TOEIC-031-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "수업이나 모임의 요일과 시간을 알리는 영어 문장 두세 개를 써 보세요.",
+    "example_answer_en": "The English club meets on Wednesday at 7:00 P.M. Please arrive ten minutes early. Booking is not required.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-23",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-23"
+   }
   }
  ]
 }

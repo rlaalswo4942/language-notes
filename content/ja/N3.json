@@ -7830,6 +7830,224 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N3-37",
+   "day_index": 37,
+   "week_index": 6,
+   "level": "N3",
+   "unit_id": "N3-W06",
+   "lesson_type": "new",
+   "title_ko": "〜っぱなし: ~한 채로 둠 (방치·계속)",
+   "objective_ko": "동사 ます형에 っぱなし를 붙여, 해야 할 일을 하지 않고 그대로 둔 상태나 같은 상태가 계속됨을 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N3-36"
+   ],
+   "explanation_ko": "동사 ます형의 어간에 っぱなし를 붙이면 ‘~한 채로 그대로 두다·계속 ~하다’라는 뜻이 됩니다. 주로 좋지 않은 상태에 쓰는 말입니다: 電気{でんき}をつけっぱなしで寝{ね}てしまった(불을 켜 둔 채로 자 버렸다). 〜っぱなしにする(그대로 둔다)·〜っぱなしになる/だ(그대로 있다)의 형태로 많이 씁니다. 立{た}ちっぱなし(계속 서 있음)처럼 같은 상태가 오래 이어지는 것도 나타냅니다. 〜たまま는 단순히 ‘~한 상태로’이고, 〜っぱなし는 방치한다는 부정적인 느낌이 더해집니다.",
+   "usage_notes": [
+    "ます형 어간 + っぱなし: 그대로 둠·계속됨.",
+    "〜っぱなしに する / 〜っぱなしに なって いる.",
+    "주로 부정적인 상황에 쓴다(불만·주의)."
+   ],
+   "common_mistakes": [
+    "電気をつけるっぱなし(X) → つけっぱなし(O) — ます형 어간에 붙입니다",
+    "좋은 상태에는 쓰지 않습니다: 窓を開けたまま(△)와 달리 비난하는 느낌이 있습니다",
+    "開けっぱなし는 ‘열려 있는 채’이고, 開けておく(일부러 열어 둔다)와 뜻이 다릅니다"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "散{ち}らかる",
+     "reading_kana": "ちらかる",
+     "reading_romanized": "chirakaru",
+     "meaning_ko": "어질러지다",
+     "part_of_speech": "동사(1그룹)",
+     "id": "w-JP-N3-37-01"
+    },
+    {
+     "kind": "word",
+     "text": "蛇口{じゃぐち}",
+     "reading_kana": "じゃぐち",
+     "reading_romanized": "jaguchi",
+     "meaning_ko": "수도꼭지",
+     "part_of_speech": "명사",
+     "id": "w-JP-N3-37-02"
+    },
+    {
+     "kind": "word",
+     "text": "消{け}す",
+     "reading_kana": "けす",
+     "reading_romanized": "kesu",
+     "meaning_ko": "끄다, 지우다",
+     "part_of_speech": "동사(1그룹)",
+     "id": "w-JP-N3-37-03"
+    },
+    {
+     "kind": "word",
+     "text": "洗{あら}い物{もの}",
+     "reading_kana": "あらいもの",
+     "reading_romanized": "araimono",
+     "meaning_ko": "설거지(거리)",
+     "part_of_speech": "명사",
+     "id": "w-JP-N3-37-04"
+    },
+    {
+     "kind": "word",
+     "text": "置{お}く",
+     "reading_kana": "おく",
+     "reading_romanized": "oku",
+     "meaning_ko": "두다, 놓다",
+     "part_of_speech": "동사(1그룹)",
+     "id": "w-JP-N3-37-05"
+    },
+    {
+     "kind": "word",
+     "text": "点{つ}ける",
+     "reading_kana": "つける",
+     "reading_romanized": "tsukeru",
+     "meaning_ko": "켜다",
+     "part_of_speech": "동사(2그룹)",
+     "id": "w-JP-N3-37-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "電気{でんき}をつけっぱなしで寝{ね}てしまった。",
+     "meaning_ko": "불을 켜 둔 채로 자 버렸다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "蛇口{じゃぐち}を開{あ}けっぱなしにすると、水{みず}が無駄{むだ}になる。",
+     "meaning_ko": "수도꼭지를 틀어 둔 채로 두면 물이 낭비된다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "ドアが開{あ}けっぱなしになっていたので、閉{し}めた。",
+     "meaning_ko": "문이 열린 채로 있어서 닫았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "部屋{へや}に服{ふく}が出{だ}しっぱなしで、散{ち}らかっている。",
+     "meaning_ko": "방에 옷이 나와 있는 채라서 어질러져 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "昨日{きのう}は仕事{しごと}で一日中{いちにちじゅう}立{た}ちっぱなしだった。",
+     "meaning_ko": "어제는 일 때문에 하루 종일 서 있었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "使{つか}ったものは出{だ}しっぱなしにしないで、片付{かたづ}けてください。",
+     "meaning_ko": "사용한 물건은 꺼내 놓은 채로 두지 말고 치워 주세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}は言{い}いっぱなしで、あとのことは何{なに}もしない。",
+     "meaning_ko": "그는 말만 해 놓고 뒷일은 아무것도 하지 않는다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "テレビをつけっぱなしにしないで、見{み}ないときは消{け}してね。",
+     "meaning_ko": "TV를 켜 놓은 채로 두지 말고, 보지 않을 때는 꺼.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "洗{あら}い物{もの}をシンクに置{お}きっぱなしにしてしまった。",
+     "meaning_ko": "설거지거리를 싱크대에 둔 채로 두고 말았다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「電気をつけっぱなしで寝てしまった」의 뜻은?",
+     "options": [
+      "불을 켜 둔 채로 자 버렸다",
+      "불을 끄고 잤다",
+      "불이 저절로 켜졌다",
+      "불을 켜려다 말았다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜っぱなし는 ‘그대로 둔 채’라는 뜻입니다.",
+     "id": "JP-N3-37-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「ドアを（　）っぱなしにしないでください。」 ( )에 알맞은 형태는?",
+     "options": [
+      "開け",
+      "開ける",
+      "開けた",
+      "開けて"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜っぱなし는 동사 ます형 어간(開け)에 붙습니다.",
+     "id": "JP-N3-37-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "〜っぱなし의 뉘앙스로 알맞은 것은?",
+     "options": [
+      "해야 할 일을 하지 않고 그대로 둔 좋지 않은 상태",
+      "곧 ~할 예정이다",
+      "일부러 ~하기 위해",
+      "~한 적이 있다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜っぱなし는 방치·계속 같은 부정적인 느낌이 있습니다.",
+     "id": "JP-N3-37-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「一日中立ちっぱなしだった」의 뜻은?",
+     "options": [
+      "하루 종일 계속 서 있었다",
+      "하루 종일 앉아 있었다",
+      "하루 종일 서지 못했다",
+      "하루 만에 일어섰다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "立ちっぱなし는 서 있는 상태가 계속되는 것입니다.",
+     "id": "JP-N3-37-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「無駄」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "muda",
+     "accepted_answers": [
+      "muda"
+     ],
+     "explanation_ko": "無駄 = むだ(muda), ‘낭비·헛됨’입니다.",
+     "id": "JP-N3-37-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「蛇口」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "jaguchi",
+     "accepted_answers": [
+      "jaguchi",
+      "zyaguti",
+      "jyaguchi"
+     ],
+     "explanation_ko": "蛇口 = じゃぐち(jaguchi), ‘수도꼭지’입니다.",
+     "id": "JP-N3-37-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

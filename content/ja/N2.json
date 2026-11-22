@@ -7803,6 +7803,224 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-37",
+   "day_index": 37,
+   "week_index": 6,
+   "level": "N2",
+   "unit_id": "N2-W06",
+   "lesson_type": "new",
+   "title_ko": "〜に反して: ~와 달리, ~에 반하여",
+   "objective_ko": "기대·예상·규칙과 어긋나는 결과나 행동을 〜に反して / 〜に反する로 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-36"
+   ],
+   "explanation_ko": "〜に反{はん}して는 ‘~와 반대로, ~에 어긋나게’라는 뜻으로, 앞에는 予想{よそう}・期待{きたい}・規則{きそく}・意見{いけん}처럼 기준이 되는 명사가 옵니다: 予想{よそう}に反{はん}して、売{う}り上{あ}げは伸{の}びなかった. 명사를 꾸밀 때는 〜に反{はん}する+명사 / 〜に反{はん}した+명사 를 씁니다: 規則{きそく}に反{はん}する行為{こうい}. 〜に対{たい}して(대상이나 대비)와 달리 기준과 어긋남을 나타내며, 〜とは逆{ぎゃく}に와 비슷합니다. 문장 뒤에는 보통 기준과 다른 결과가 옵니다.",
+   "usage_notes": [
+    "명사 + に反して: ~와 달리.",
+    "명사 + に反する/に反した + 명사: ~에 반하는.",
+    "予想・期待・意見・規則・法律 등 기준이 되는 말과 함께 쓴다."
+   ],
+   "common_mistakes": [
+    "予想に反して、予想通りだった(X) → 결과는 기준과 달라야 합니다",
+    "予想を反して(X) → 予想に反して(O) — 조사는 に입니다",
+    "〜に反する 뒤에는 명사가 오며, 문장을 끝낼 때는 〜に反して / 〜に反している 로 씁니다"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "違反{いはん}",
+     "reading_kana": "いはん",
+     "reading_romanized": "ihan",
+     "meaning_ko": "위반",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N2-37-01"
+    },
+    {
+     "kind": "word",
+     "text": "反{はん}する",
+     "reading_kana": "はんする",
+     "reading_romanized": "hansuru",
+     "meaning_ko": "반하다, 어긋나다",
+     "part_of_speech": "동사(する)",
+     "id": "w-JP-N2-37-02"
+    },
+    {
+     "kind": "word",
+     "text": "方針{ほうしん}",
+     "reading_kana": "ほうしん",
+     "reading_romanized": "houshin",
+     "meaning_ko": "방침",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-37-03"
+    },
+    {
+     "kind": "word",
+     "text": "願{ねが}い",
+     "reading_kana": "ねがい",
+     "reading_romanized": "negai",
+     "meaning_ko": "바람, 소원",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-37-04"
+    },
+    {
+     "kind": "word",
+     "text": "行為{こうい}",
+     "reading_kana": "こうい",
+     "reading_romanized": "koui",
+     "meaning_ko": "행위",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-37-05"
+    },
+    {
+     "kind": "word",
+     "text": "勝手{かって}",
+     "reading_kana": "かって",
+     "reading_romanized": "katte",
+     "meaning_ko": "제멋대로, 마음대로",
+     "part_of_speech": "な형용사・명사",
+     "id": "w-JP-N2-37-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "予想{よそう}に反{はん}して、試合{しあい}は一方的{いっぽうてき}な展開{てんかい}になった。",
+     "meaning_ko": "예상과 달리 경기는 일방적으로 전개되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "期待{きたい}に反{はん}して、新商品{しんしょうひん}はあまり売{う}れなかった。",
+     "meaning_ko": "기대와 달리 신제품은 그다지 팔리지 않았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "親{おや}の意見{いけん}に反{はん}して、彼{かれ}は留学{りゅうがく}を決{き}めた。",
+     "meaning_ko": "부모의 의견에 반해 그는 유학을 정했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "規則{きそく}に反{はん}する行為{こうい}は認{みと}められない。",
+     "meaning_ko": "규칙에 반하는 행위는 인정되지 않는다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "天気予報{てんきよほう}に反{はん}して、午後{ごご}から晴{は}れた。",
+     "meaning_ko": "일기예보와 달리 오후부터 맑아졌다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "私{わたし}の願{ねが}いに反{はん}して、計画{けいかく}は中止{ちゅうし}になった。",
+     "meaning_ko": "내 바람과 달리 계획은 중지되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "法律{ほうりつ}に反{はん}した行動{こうどう}をとってはいけない。",
+     "meaning_ko": "법률에 반하는 행동을 해서는 안 된다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "周囲{しゅうい}の心配{しんぱい}に反{はん}して、彼女{かのじょ}は元気{げんき}に帰{かえ}ってきた。",
+     "meaning_ko": "주위의 걱정과 달리 그녀는 건강하게 돌아왔다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "会社{かいしゃ}の方針{ほうしん}に反{はん}して、勝手{かって}に情報{じょうほう}を公開{こうかい}した。",
+     "meaning_ko": "회사의 방침에 반하여 멋대로 정보를 공개했다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「予想に反して、試合は一方的な展開になった」의 뜻은?",
+     "options": [
+      "예상과 달리 경기는 일방적으로 전개되었다",
+      "예상대로 경기는 일방적으로 전개되었다",
+      "예상 덕분에 경기가 재미있었다",
+      "예상하기 전에 경기가 끝났다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜に反して는 기준(예상)과 어긋나는 결과를 나타냅니다.",
+     "id": "JP-N2-37-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「期待（　）反して、結果は悪かった。」 ( )에 알맞은 조사는?",
+     "options": [
+      "に",
+      "を",
+      "が",
+      "で"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜に反して 의 조사는 に입니다.",
+     "id": "JP-N2-37-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "〜に反して와 가장 가까운 뜻은?",
+     "options": [
+      "~와 반대로(기대·규칙과 어긋나게)",
+      "~에 따라",
+      "~을 계기로",
+      "~에 대해서"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜に反して는 기준과 어긋남을 나타냅니다. ~에 따라는 〜に応じて, 계기는 〜をきっかけに입니다.",
+     "id": "JP-N2-37-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "〜に反して를 쓰기에 자연스러운 문장은?",
+     "options": [
+      "予想に反して、雨が降らなかった。",
+      "傘に反して、雨が降らなかった。",
+      "机に反して、本を読んだ。",
+      "駅に反して、電車に乗った。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "予想・期待 같은 기준이 되는 명사에 붙어야 자연스럽습니다.",
+     "id": "JP-N2-37-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「予想」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "yosou",
+     "accepted_answers": [
+      "yosou",
+      "yoso",
+      "yosoo"
+     ],
+     "explanation_ko": "予想 = よそう(yosou), ‘예상’입니다.",
+     "id": "JP-N2-37-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「違反」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "ihan",
+     "accepted_answers": [
+      "ihan"
+     ],
+     "explanation_ko": "違反 = いはん(ihan), ‘위반’입니다.",
+     "id": "JP-N2-37-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

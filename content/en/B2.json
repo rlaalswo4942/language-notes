@@ -7080,6 +7080,201 @@
     "version": 1,
     "last_revised": "2026-11-22"
    }
+  },
+  {
+   "id": "B2-037",
+   "level": "B2",
+   "track": "foundation",
+   "day": 37,
+   "title_ko": "수량 표현: a number of / the number of / a great deal of / plenty of",
+   "objective_ko": "a number of와 the number of의 동사 일치, 가산·불가산 명사에 맞는 수량 표현을 구별해 쓴다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-23"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "① a number of + 복수 가산명사는 '많은 ~'이라는 뜻이며 복수 동사를 씁니다: A number of residents have complained. ② the number of + 복수명사는 '~의 수'라는 뜻이고 '수' 자체가 주어이므로 단수 동사를 씁니다: The number of complaints has risen. ③ a great deal of / a large amount of 는 불가산명사 앞에 씁니다: a great deal of money / effort / research. ④ plenty of 는 가산(복수)·불가산 모두 앞에 쓸 수 있습니다: plenty of time, plenty of seats. ⑤ a large number of 는 복수 가산명사 앞에 씁니다: a large number of people were waiting.",
+    "common_mistake_ko": "The number of complaints have risen.(X) → has risen.(O) / A great deal of hours(X) → a great deal of time(O) — a great deal of 는 불가산명사 앞에만 씁니다. / A number of information(X) → A great deal of information(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "majority",
+     "part_of_speech": "명사",
+     "meaning_ko": "대다수",
+     "example_en": "The majority of residents support the plan.",
+     "example_ko": "주민 대다수가 그 계획을 지지해요."
+    },
+    {
+     "word": "shortage",
+     "part_of_speech": "명사",
+     "meaning_ko": "부족",
+     "example_en": "There is a shortage of nurses.",
+     "example_ko": "간호사가 부족해요."
+    },
+    {
+     "word": "resident",
+     "part_of_speech": "명사",
+     "meaning_ko": "주민",
+     "example_en": "Residents were asked to stay home.",
+     "example_ko": "주민들은 집에 머물러 달라고 요청받았어요."
+    },
+    {
+     "word": "complaint",
+     "part_of_speech": "명사",
+     "meaning_ko": "불만, 항의",
+     "example_en": "We received many complaints about the noise.",
+     "example_ko": "소음에 대한 항의를 많이 받았어요."
+    },
+    {
+     "word": "decline",
+     "part_of_speech": "명사",
+     "meaning_ko": "감소, 하락",
+     "example_en": "There was a decline in sales.",
+     "example_ko": "매출이 감소했어요."
+    },
+    {
+     "word": "volunteer",
+     "part_of_speech": "명사",
+     "meaning_ko": "자원봉사자",
+     "example_en": "The number of volunteers is growing.",
+     "example_ko": "자원봉사자 수가 늘고 있어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "A number of residents have complained about the noise.",
+     "ko": "많은 주민들이 소음에 대해 항의했어요."
+    },
+    {
+     "en": "The number of complaints has risen sharply.",
+     "ko": "항의 건수가 급격히 늘었어요."
+    },
+    {
+     "en": "A great deal of money was spent on the repairs.",
+     "ko": "수리에 많은 돈이 쓰였어요."
+    },
+    {
+     "en": "There is plenty of time before the train leaves.",
+     "ko": "기차가 떠나기까지 시간이 충분해요."
+    },
+    {
+     "en": "There are plenty of seats at the back.",
+     "ko": "뒤쪽에 빈 좌석이 많아요."
+    },
+    {
+     "en": "The number of volunteers is growing every year.",
+     "ko": "자원봉사자 수가 해마다 늘고 있어요."
+    },
+    {
+     "en": "A large number of people were waiting outside.",
+     "ko": "많은 사람들이 밖에서 기다리고 있었어요."
+    },
+    {
+     "en": "A great deal of research has been done on sleep.",
+     "ko": "수면에 관해 많은 연구가 이루어졌어요."
+    },
+    {
+     "en": "The majority of residents support the plan.",
+     "ko": "주민 대다수가 그 계획을 지지해요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "빈칸에 알맞은 것은? The number of cars in the city ___ increased.",
+     "choices": [
+      "has",
+      "have",
+      "are",
+      "were"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "the number of ~ 는 '수'가 주어이므로 단수 동사 has 를 씁니다.",
+     "error_tag": "agreement",
+     "id": "B2-037-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "빈칸에 알맞은 것은? A number of students ___ asking for extra classes.",
+     "choices": [
+      "are",
+      "is",
+      "has been",
+      "was"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "a number of + 복수명사는 '많은 ~'이며 복수 동사를 씁니다. asking 과 함께 are asking 이 됩니다.",
+     "error_tag": "agreement",
+     "id": "B2-037-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "빈칸에 알맞은 것은? She spent a great deal of ___ on the project.",
+     "choices": [
+      "time",
+      "hours",
+      "days",
+      "meetings"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "a great deal of 는 불가산명사 앞에 씁니다. time 은 이 문장에서 불가산이고, hours / days / meetings 는 가산 복수입니다.",
+     "error_tag": "countability",
+     "id": "B2-037-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "Plenty of information is available online.",
+      "Plenty of informations are available online.",
+      "A number of information is available online.",
+      "The number of information are available online."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "information 은 불가산명사라서 복수형이 없고 단수 동사를 씁니다. plenty of 는 불가산명사 앞에도 쓸 수 있습니다.",
+     "error_tag": "countability",
+     "id": "B2-037-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: The ___ of visitors has doubled. (방문객의 '수')",
+     "answer_text": "number",
+     "accepted_answers": [
+      "number"
+     ],
+     "explanation_ko": "'~의 수'는 the number of 이고 뒤의 동사는 단수(has)입니다.",
+     "error_tag": "agreement",
+     "id": "B2-037-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: A great ___ of effort is needed.",
+     "answer_text": "deal",
+     "accepted_answers": [
+      "deal"
+     ],
+     "explanation_ko": "a great deal of + 불가산명사 입니다.",
+     "error_tag": "quantifier",
+     "id": "B2-037-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "a number of 와 the number of 를 각각 한 번씩 써서 영어 문장 두 개를 써 보세요.",
+    "example_answer_en": "A number of students joined the club this year. The number of members has doubled.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-23",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-23"
+   }
   }
  ]
 }

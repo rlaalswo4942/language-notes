@@ -5790,6 +5790,202 @@
     "version": 1,
     "last_revised": "2026-11-22"
    }
+  },
+  {
+   "id": "TOEFL-031",
+   "level": "B1",
+   "track": "toefl",
+   "day": 31,
+   "title_ko": "TOEFL 2026 Write an Email 3: 문제 상황을 알리고 정중하게 요청하기",
+   "objective_ko": "인사·목적·상황 설명·요청·마무리 순서로 정중한 이메일을 구성하고 알맞은 표현을 고른다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/content/ets-org/language-master/ko/home/toefl/test-takers/ibt/about/content.html",
+     "publisher": "ETS",
+     "supports": "2026 형식 유형명",
+     "checked_at": "2026-11-23"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "Write an Email 은 2026-01-21 이후 TOEFL iBT Writing 에 포함된 유형명입니다(비공식 자체 연습입니다). 이번에는 문제 상황을 알리고 요청하는 이메일을 연습합니다. 구성: ① 인사(Dear Professor Kim,) ② 목적(I am writing regarding ...) ③ 상황 설명(Unfortunately, I am unable to ...) ④ 정중한 요청(I would appreciate it if you could ... / Could you please ...?) ⑤ 마무리(Thank you for your time and assistance. Sincerely, 이름). 교수나 담당자에게는 명령문(Extend the deadline.)이나 구어체(Hey, ...)를 피하고, 격식 있는 어조를 유지합니다. 이 레슨은 점수 예측과 무관합니다.",
+    "common_mistake_ko": "Extend the deadline now.(X) → I would appreciate it if you could extend the deadline.(O) / Hey Professor, ...(X) → Dear Professor Kim,(O) / 상황 설명 없이 요청만 쓴다 → 왜 필요한지 한두 문장으로 설명합니다."
+   },
+   "vocabulary": [
+    {
+     "word": "appreciate",
+     "part_of_speech": "동사",
+     "meaning_ko": "감사하다",
+     "example_en": "I would appreciate your help.",
+     "example_ko": "도와주시면 감사하겠습니다."
+    },
+    {
+     "word": "regarding",
+     "part_of_speech": "전치사",
+     "meaning_ko": "~에 관해",
+     "example_en": "I am writing regarding the exam schedule.",
+     "example_ko": "시험 일정에 관해 씁니다."
+    },
+    {
+     "word": "unfortunately",
+     "part_of_speech": "부사",
+     "meaning_ko": "안타깝게도",
+     "example_en": "Unfortunately, I cannot attend.",
+     "example_ko": "안타깝게도 참석할 수 없어요."
+    },
+    {
+     "word": "inconvenience",
+     "part_of_speech": "명사",
+     "meaning_ko": "불편",
+     "example_en": "I apologize for the inconvenience.",
+     "example_ko": "불편을 드려 죄송합니다."
+    },
+    {
+     "word": "extend",
+     "part_of_speech": "동사",
+     "meaning_ko": "연장하다",
+     "example_en": "Could you extend the deadline?",
+     "example_ko": "기한을 연장해 주실 수 있을까요?"
+    },
+    {
+     "word": "assistance",
+     "part_of_speech": "명사",
+     "meaning_ko": "도움",
+     "example_en": "Thank you for your assistance.",
+     "example_ko": "도와주셔서 감사합니다."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Dear Professor Kim,",
+     "ko": "김 교수님께,"
+    },
+    {
+     "en": "I am writing regarding the schedule of the final exam.",
+     "ko": "기말시험 일정에 관해 씁니다."
+    },
+    {
+     "en": "Unfortunately, I am unable to attend the lab session on Friday.",
+     "ko": "안타깝게도 금요일 실험 수업에 참석할 수 없어요."
+    },
+    {
+     "en": "I would appreciate it if you could extend the deadline by two days.",
+     "ko": "기한을 이틀 연장해 주시면 감사하겠습니다."
+    },
+    {
+     "en": "I apologize for any inconvenience this may cause.",
+     "ko": "이로 인해 불편을 드린다면 죄송합니다."
+    },
+    {
+     "en": "Could you please let me know if there is another time slot available?",
+     "ko": "다른 가능한 시간대가 있는지 알려 주시겠어요?"
+    },
+    {
+     "en": "The printer in the library has not been working since Monday.",
+     "ko": "도서관 프린터가 월요일부터 작동하지 않고 있어요."
+    },
+    {
+     "en": "Thank you for your time and assistance.",
+     "ko": "시간 내어 도와주셔서 감사합니다."
+    },
+    {
+     "en": "Sincerely, Mina Lee",
+     "ko": "감사합니다. 이민아 드림"
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "정중한 이메일의 마무리 문장으로 가장 알맞은 것은?",
+     "choices": [
+      "Thank you for your time and assistance.",
+      "See ya!",
+      "Whatever, thanks.",
+      "Reply to me fast."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "격식 있는 이메일은 Thank you for your time and assistance. 처럼 감사로 마무리합니다.",
+     "error_tag": "register",
+     "id": "TOEFL-031-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "교수님께 기한 연장을 정중하게 요청하는 문장은?",
+     "choices": [
+      "I would appreciate it if you could extend the deadline.",
+      "Extend the deadline now.",
+      "You must extend the deadline.",
+      "I want you to extend deadline."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "I would appreciate it if you could ... 는 정중한 요청 표현입니다.",
+     "error_tag": "register",
+     "id": "TOEFL-031-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "\"Unfortunately, ...\" 뒤에 이어지기에 가장 자연스러운 문장은?",
+     "choices": [
+      "I am unable to attend the lab session.",
+      "I am very happy to attend the session.",
+      "I look forward to the session.",
+      "The session was great."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Unfortunately 는 좋지 않은 소식 앞에 쓰므로 참석할 수 없다는 내용이 자연스럽습니다.",
+     "error_tag": "tone",
+     "id": "TOEFL-031-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "요청 이메일의 알맞은 구성 순서는?",
+     "choices": [
+      "인사 → 목적 → 상황 설명 → 요청 → 마무리",
+      "마무리 → 요청 → 목적 → 인사",
+      "요청 → 인사 → 마무리 → 목적",
+      "상황 설명 → 마무리 → 인사 → 목적"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "인사로 시작해 목적, 상황, 요청을 말한 뒤 감사 인사로 마무리하는 것이 기본 구성입니다.",
+     "error_tag": "structure",
+     "id": "TOEFL-031-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: I am writing ___ the schedule of the final exam. (~에 관해, 격식)",
+     "answer_text": "regarding",
+     "accepted_answers": [
+      "regarding",
+      "about"
+     ],
+     "explanation_ko": "regarding 은 '~에 관해'라는 격식 있는 전치사입니다. about 도 알맞습니다.",
+     "error_tag": "vocabulary",
+     "id": "TOEFL-031-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: I would ___ it if you could reply by Friday. (감사하다)",
+     "answer_text": "appreciate",
+     "accepted_answers": [
+      "appreciate"
+     ],
+     "explanation_ko": "I would appreciate it if you could ... 는 정중한 요청 표현입니다.",
+     "error_tag": "register",
+     "id": "TOEFL-031-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "친구나 교수님께 도서관 프린터 고장을 알리고 수리를 부탁하는 영어 이메일 두세 문장을 써 보세요.",
+    "example_answer_en": "Dear Ms. Park, I am writing regarding the printer on the second floor of the library. It has not been working since Monday. I would appreciate it if you could check it. Thank you for your assistance.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-23",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-23"
+   }
   }
  ]
 }

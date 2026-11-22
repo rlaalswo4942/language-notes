@@ -5988,6 +5988,201 @@
     "version": 1,
     "last_revised": "2026-11-22"
    }
+  },
+  {
+   "id": "B1-032",
+   "level": "B1",
+   "track": "foundation",
+   "day": 32,
+   "title_ko": "전치사 뒤 동명사: look forward to -ing / interested in -ing",
+   "objective_ko": "전치사 뒤에는 동사의 -ing형을 쓴다는 규칙을 look forward to, interested in, apologize for 등에 적용한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/grammar/intermediate-to-upper-intermediate/gerunds",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-23"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "전치사(in, for, of, from, without, instead of 등) 뒤에 동사가 오면 동사원형이나 to부정사가 아니라 동명사(-ing)를 씁니다: She is interested in learning Spanish. He apologized for being late. They succeeded in finishing on time. 특히 look forward to 의 to는 to부정사가 아니라 전치사이므로 뒤에 -ing를 씁니다: I'm looking forward to seeing you. 그 밖에 instead of -ing, without -ing, insist on -ing, prevent A from -ing 도 같은 규칙입니다.",
+    "common_mistake_ko": "I look forward to see you.(X) → I look forward to seeing you.(O) / He apologized for be late.(X) → for being late.(O) / Instead of to take a taxi.(X) → Instead of taking a taxi.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "apologize",
+     "part_of_speech": "동사",
+     "meaning_ko": "사과하다",
+     "example_en": "He apologized for being late.",
+     "example_ko": "그는 늦은 것을 사과했어요."
+    },
+    {
+     "word": "succeed",
+     "part_of_speech": "동사",
+     "meaning_ko": "성공하다",
+     "example_en": "She succeeded in passing the test.",
+     "example_ko": "그녀는 시험에 합격하는 데 성공했어요."
+    },
+    {
+     "word": "insist",
+     "part_of_speech": "동사",
+     "meaning_ko": "고집하다, 강력히 주장하다",
+     "example_en": "He insisted on paying.",
+     "example_ko": "그는 자기가 내겠다고 고집했어요."
+    },
+    {
+     "word": "prevent",
+     "part_of_speech": "동사",
+     "meaning_ko": "막다, 방해하다",
+     "example_en": "The rain prevented us from going out.",
+     "example_ko": "비 때문에 우리는 외출하지 못했어요."
+    },
+    {
+     "word": "instead of",
+     "part_of_speech": "표현",
+     "meaning_ko": "~ 대신에",
+     "example_en": "Instead of taking a taxi, we walked.",
+     "example_ko": "택시를 타는 대신 우리는 걸었어요."
+    },
+    {
+     "word": "look forward to",
+     "part_of_speech": "표현",
+     "meaning_ko": "~을 기대하다",
+     "example_en": "I'm looking forward to the weekend.",
+     "example_ko": "주말이 기다려져요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I'm looking forward to seeing you next week.",
+     "ko": "다음 주에 당신을 만나길 기대하고 있어요."
+    },
+    {
+     "en": "She is interested in learning Spanish.",
+     "ko": "그녀는 스페인어를 배우는 데 관심이 있어요."
+    },
+    {
+     "en": "He apologized for being late.",
+     "ko": "그는 늦은 것을 사과했어요."
+    },
+    {
+     "en": "They succeeded in finishing the project on time.",
+     "ko": "그들은 프로젝트를 제때 끝내는 데 성공했어요."
+    },
+    {
+     "en": "Instead of taking a taxi, we walked home.",
+     "ko": "택시를 타는 대신 우리는 걸어서 집에 갔어요."
+    },
+    {
+     "en": "She insisted on paying for dinner.",
+     "ko": "그녀는 저녁을 자기가 내겠다고 고집했어요."
+    },
+    {
+     "en": "The rain prevented us from going out.",
+     "ko": "비 때문에 우리는 외출하지 못했어요."
+    },
+    {
+     "en": "Thank you for helping me.",
+     "ko": "도와줘서 고마워요."
+    },
+    {
+     "en": "He left without saying goodbye.",
+     "ko": "그는 작별 인사 없이 떠났어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "빈칸에 알맞은 것은? I'm looking forward to ___ you.",
+     "choices": [
+      "meeting",
+      "meet",
+      "to meet",
+      "met"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "look forward to 의 to는 전치사이므로 뒤에 동명사 meeting 을 씁니다.",
+     "error_tag": "gerund-after-preposition",
+     "id": "B1-032-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "He apologized for being late.",
+      "He apologized for be late.",
+      "He apologized for to be late.",
+      "He apologized for been late."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "전치사 for 뒤에는 동명사 being 을 씁니다.",
+     "error_tag": "gerund-after-preposition",
+     "id": "B1-032-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "빈칸에 알맞은 것은? Instead of ___ a taxi, we took the bus.",
+     "choices": [
+      "taking",
+      "take",
+      "to take",
+      "took"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "instead of 는 전치사이므로 뒤에 -ing 를 씁니다.",
+     "error_tag": "gerund-after-preposition",
+     "id": "B1-032-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "빈칸에 알맞은 것은? The storm prevented us ___ leaving.",
+     "choices": [
+      "from",
+      "of",
+      "to",
+      "at"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "prevent A from -ing 는 'A가 ~하지 못하게 막다'입니다.",
+     "error_tag": "preposition-choice",
+     "id": "B1-032-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 -ing형으로 쓰세요: She is good at ___ pictures. (draw)",
+     "answer_text": "drawing",
+     "accepted_answers": [
+      "drawing"
+     ],
+     "explanation_ko": "전치사 at 뒤에는 동명사 drawing 을 씁니다.",
+     "error_tag": "gerund-after-preposition",
+     "id": "B1-032-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 -ing형으로 쓰세요: Thank you for ___ me. (help)",
+     "answer_text": "helping",
+     "accepted_answers": [
+      "helping"
+     ],
+     "explanation_ko": "전치사 for 뒤에는 동명사 helping 을 씁니다.",
+     "error_tag": "gerund-after-preposition",
+     "id": "B1-032-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "look forward to 또는 interested in 을 써서 -ing형이 들어간 영어 문장을 두 개 써 보세요.",
+    "example_answer_en": "I'm looking forward to visiting my grandparents. I'm interested in learning how to cook.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-23",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-23"
+   }
   }
  ]
 }

@@ -7083,6 +7083,201 @@
     "version": 1,
     "last_revised": "2026-11-22"
    }
+  },
+  {
+   "id": "A2-037",
+   "level": "A2",
+   "track": "foundation",
+   "day": 37,
+   "title_ko": "It takes ...: 걸리는 시간 말하기",
+   "objective_ko": "It takes + 시간 + to + 동사원형과 How long does it take ...?로 걸리는 시간을 묻고 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-23"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "걸리는 시간은 take를 써서 말합니다. 기본형은 It takes + 시간 + to + 동사원형 입니다: It takes twenty minutes to walk to the station. 사람을 넣으려면 take 바로 뒤에 목적어를 둡니다: It takes me an hour to get to work. 과거에 걸린 시간은 took 입니다: The trip took three hours. 묻는 문장은 How long does it take (to ...)? / How long did it take? 이고, 대답은 It takes about 20 minutes. 처럼 합니다. 오래 걸리지 않을 때는 It doesn't take long. 이라고 합니다.",
+    "common_mistake_ko": "How long time does it take?(X) → How long does it take?(O) — time을 붙이지 않습니다. / It take ten minutes.(X) → It takes ten minutes.(O) — 3인칭 단수 takes. / It takes 20 minutes walk.(X) → It takes 20 minutes to walk.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "journey",
+     "part_of_speech": "명사",
+     "meaning_ko": "여정, 이동",
+     "example_en": "The journey took two hours.",
+     "example_ko": "이동에 두 시간 걸렸어요."
+    },
+    {
+     "word": "traffic",
+     "part_of_speech": "명사",
+     "meaning_ko": "교통(량)",
+     "example_en": "There was a lot of traffic this morning.",
+     "example_ko": "오늘 아침에 차가 많았어요."
+    },
+    {
+     "word": "distance",
+     "part_of_speech": "명사",
+     "meaning_ko": "거리",
+     "example_en": "The distance is about five kilometers.",
+     "example_ko": "거리는 약 5킬로미터예요."
+    },
+    {
+     "word": "arrive",
+     "part_of_speech": "동사",
+     "meaning_ko": "도착하다",
+     "example_en": "We arrive at six.",
+     "example_ko": "우리는 여섯 시에 도착해요."
+    },
+    {
+     "word": "delay",
+     "part_of_speech": "명사",
+     "meaning_ko": "지연",
+     "example_en": "There is a delay of ten minutes.",
+     "example_ko": "10분 지연이 있어요."
+    },
+    {
+     "word": "quickly",
+     "part_of_speech": "부사",
+     "meaning_ko": "빠르게",
+     "example_en": "She walks quickly.",
+     "example_ko": "그녀는 빠르게 걸어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "How long does it take to get to the station?",
+     "ko": "역까지 가는 데 얼마나 걸려요?"
+    },
+    {
+     "en": "It takes about twenty minutes.",
+     "ko": "약 20분 걸려요."
+    },
+    {
+     "en": "It takes me an hour to get to work by bus.",
+     "ko": "버스로 출근하는 데 한 시간 걸려요."
+    },
+    {
+     "en": "How long did the journey take? — It took three hours.",
+     "ko": "이동에 얼마나 걸렸어요? — 세 시간 걸렸어요."
+    },
+    {
+     "en": "It takes ten minutes to walk to the park.",
+     "ko": "공원까지 걸어서 10분 걸려요."
+    },
+    {
+     "en": "There was a lot of traffic, so the trip took two hours.",
+     "ko": "차가 많아서 이동에 두 시간 걸렸어요."
+    },
+    {
+     "en": "How long does it take you to cook dinner?",
+     "ko": "저녁을 요리하는 데 얼마나 걸려요?"
+    },
+    {
+     "en": "It doesn't take long.",
+     "ko": "오래 걸리지 않아요."
+    },
+    {
+     "en": "The delay took more than an hour.",
+     "ko": "지연은 한 시간이 넘게 걸렸어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "It takes 20 minutes to walk to school.",
+      "It take 20 minutes to walk to school.",
+      "It takes 20 minutes walk to school.",
+      "It is takes 20 minutes to walk to school."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "It takes + 시간 + to + 동사원형 입니다. 3인칭 단수이므로 takes 를 씁니다.",
+     "error_tag": "it-takes",
+     "id": "A2-037-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "\"How long does it take to get there?\"에 대한 대답으로 알맞은 것은?",
+     "choices": [
+      "About forty minutes.",
+      "Yes, it does.",
+      "On Monday.",
+      "At the station."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "How long 은 걸리는 시간을 묻습니다. 시간의 길이로 답합니다.",
+     "error_tag": "how-long",
+     "id": "A2-037-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "어제 이동에 걸린 시간을 묻는 문장은?",
+     "choices": [
+      "How long did the trip take?",
+      "How long did the trip took?",
+      "How long does the trip took?",
+      "How long the trip took?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "과거 의문문은 did + 동사원형(take) 입니다.",
+     "error_tag": "question-form",
+     "id": "A2-037-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "\"It takes me an hour to get to work.\"의 뜻은?",
+     "choices": [
+      "출근하는 데 나는 한 시간 걸려요.",
+      "나는 한 시간 동안 일해요.",
+      "한 시간 뒤에 출근할 거예요.",
+      "나는 일을 가져가요."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "It takes me + 시간 + to ... 는 '내가 ~하는 데 시간이 걸린다'입니다.",
+     "error_tag": "meaning",
+     "id": "A2-037-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: It ___ me ten minutes to walk home yesterday. (과거)",
+     "answer_text": "took",
+     "accepted_answers": [
+      "took"
+     ],
+     "explanation_ko": "과거에 걸린 시간은 took 입니다.",
+     "error_tag": "past",
+     "id": "A2-037-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: How ___ does it take to cook rice?",
+     "answer_text": "long",
+     "accepted_answers": [
+      "long"
+     ],
+     "explanation_ko": "걸리는 시간을 묻는 말은 How long 입니다.",
+     "error_tag": "how-long",
+     "id": "A2-037-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "집에서 학교나 직장까지 걸리는 시간을 영어 두 문장으로 써 보세요.",
+    "example_answer_en": "It takes me thirty minutes to get to school by bus. It doesn't take long by bike.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-23",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-23"
+   }
   }
  ]
 }
