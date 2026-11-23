@@ -7275,6 +7275,202 @@
     "version": 1,
     "last_revised": "2026-11-23"
    }
+  },
+  {
+   "id": "B2-038",
+   "level": "B2",
+   "track": "foundation",
+   "day": 38,
+   "title_ko": "as if / as though: 마치 ~인 것처럼",
+   "objective_ko": "as if / as though 뒤에서 사실과 다름을 나타내는 과거형·had + 과거분사와, 실제 가능성을 나타내는 현재형을 구별해 쓴다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-24"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "as if / as though 는 '마치 ~인 것처럼'이라는 뜻이며 둘의 의미는 거의 같습니다. ① 현재 사실과 다를 때는 과거형을 씁니다(be 동사는 격식 있게 were): He talks as if he knew everything.(실제로는 모름) / She behaves as though she were the manager.(실제로는 아님) ② 과거 사실과 다르거나 그 전의 일을 말할 때는 had + 과거분사: You look as if you had seen a ghost. / She acted as though nothing had happened. ③ 실제로 그럴 가능성이 높을 때는 직설법(현재형)을 씁니다: It looks as if it's going to rain. 표현하는 사람이 사실이라고 믿는지에 따라 시제 형태가 달라집니다. 구어체에서는 as if he was 도 들리지만, 시험·격식 글에서는 were 가 안전합니다.",
+    "common_mistake_ko": "He talks as if he knows everything.(실제로는 모른다는 뜻이면 X) → as if he knew everything(O). / It looks as if it were going to rain.(가능성이 높으면 어색) → It looks as if it's going to rain. / She looked as if she saw a ghost.(X) → as if she had seen a ghost(O). / as if 뒤에 will 을 쓰지 않고 would 도 쓰지 않습니다(그 자리는 과거형·had + p.p.)."
+   },
+   "vocabulary": [
+    {
+     "word": "pretend",
+     "part_of_speech": "동사",
+     "meaning_ko": "~인 척하다",
+     "example_en": "The boy pretended to be asleep.",
+     "example_ko": "소년은 자는 척했어요."
+    },
+    {
+     "word": "behave",
+     "part_of_speech": "동사",
+     "meaning_ko": "행동하다",
+     "example_en": "He behaves as if he were the boss.",
+     "example_ko": "그는 사장인 것처럼 행동해요."
+    },
+    {
+     "word": "exhausted",
+     "part_of_speech": "형용사",
+     "meaning_ko": "녹초가 된",
+     "example_en": "She looked exhausted after the long flight.",
+     "example_ko": "그녀는 긴 비행 뒤에 녹초가 된 것 같았어요."
+    },
+    {
+     "word": "ghost",
+     "part_of_speech": "명사",
+     "meaning_ko": "유령",
+     "example_en": "You look as if you had seen a ghost.",
+     "example_ko": "유령이라도 본 것 같은 얼굴이네요."
+    },
+    {
+     "word": "stranger",
+     "part_of_speech": "명사",
+     "meaning_ko": "낯선 사람",
+     "example_en": "They treated me as if I were a stranger.",
+     "example_ko": "그들은 나를 낯선 사람처럼 대했어요."
+    },
+    {
+     "word": "obviously",
+     "part_of_speech": "부사",
+     "meaning_ko": "분명히",
+     "example_en": "He obviously knew the answer.",
+     "example_ko": "그는 분명히 답을 알고 있었어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "He talks as if he knew everything about the city.",
+     "ko": "그는 그 도시에 대해 다 아는 것처럼 말해요(실제로는 모름)."
+    },
+    {
+     "en": "She behaves as though she were the manager.",
+     "ko": "그녀는 마치 매니저인 것처럼 행동해요(실제로는 아님)."
+    },
+    {
+     "en": "You look as if you had seen a ghost.",
+     "ko": "유령이라도 본 것 같은 얼굴이에요."
+    },
+    {
+     "en": "It looks as if it's going to rain.",
+     "ko": "곧 비가 올 것 같아요(실제로 가능성이 높음)."
+    },
+    {
+     "en": "He spends money as if it grew on trees.",
+     "ko": "그는 돈이 나무에서 자라기라도 하는 것처럼 써요."
+    },
+    {
+     "en": "She acted as though nothing had happened.",
+     "ko": "그녀는 아무 일도 없었던 것처럼 행동했어요."
+    },
+    {
+     "en": "They treat me as if I were a stranger.",
+     "ko": "그들은 나를 낯선 사람처럼 대해요."
+    },
+    {
+     "en": "He looks exhausted, as if he hadn't slept for days.",
+     "ko": "그는 며칠 동안 못 잔 것처럼 녹초가 된 얼굴이에요."
+    },
+    {
+     "en": "The boy pretended to be asleep, as though he couldn't hear us.",
+     "ko": "소년은 우리 말이 들리지 않는 것처럼 자는 척했어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "'사실은 모르면서 다 아는 것처럼' 말한다는 뜻의 문장은?",
+     "choices": [
+      "He talks as if he knew everything.",
+      "He talks as if he will know everything.",
+      "He talks as if he would know everything.",
+      "He talks as if he knowing everything."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "현재 사실과 다름을 나타내는 as if 뒤에는 과거형(knew)을 씁니다.",
+     "error_tag": "as-if-unreal",
+     "id": "B2-038-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "빈칸에 알맞은 것은? She looked as if she ___ a ghost.",
+     "choices": [
+      "had seen",
+      "would see",
+      "is seeing",
+      "will have seen"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "이미 일어난 일을 근거로 한 비유이므로 had + 과거분사(had seen)를 씁니다.",
+     "error_tag": "as-if-past",
+     "id": "B2-038-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "실제로 곧 비가 올 가능성이 높은 상황에 알맞은 문장은?",
+     "choices": [
+      "It looks as if it's going to rain.",
+      "It looks as if it had been going to rain.",
+      "It looks as if it would have gone to rain.",
+      "It looks as if it rains soon."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "실제 가능성이 높을 때는 as if 뒤에 현재형(is going to)을 씁니다.",
+     "error_tag": "as-if-real",
+     "id": "B2-038-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "\"He behaves as though he were the boss.\"의 뜻으로 알맞은 것은?",
+     "choices": [
+      "실제로는 사장이 아니다",
+      "실제로 사장이다",
+      "곧 사장이 될 것이다",
+      "전에 사장이었다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "as though 뒤의 were 는 사실과 다름을 나타내므로 그는 사장이 아닙니다.",
+     "error_tag": "meaning",
+     "id": "B2-038-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: She talked as if she ___ never met him before, but they were old friends.",
+     "answer_text": "had",
+     "accepted_answers": [
+      "had"
+     ],
+     "explanation_ko": "과거 사실과 다름을 나타내므로 had + never met 형태가 됩니다.",
+     "error_tag": "as-if-past",
+     "id": "B2-038-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: He looks tired, as ___ he hadn't slept. (if / though 중 하나)",
+     "answer_text": "if",
+     "accepted_answers": [
+      "if",
+      "though"
+     ],
+     "explanation_ko": "as if 와 as though 는 같은 뜻입니다.",
+     "error_tag": "as-if",
+     "id": "B2-038-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "as if 또는 as though 를 사용해 주변 사람의 행동이나 표정을 비유하는 문장 두 개를 써 보세요.",
+    "example_answer_en": "My brother talks as if he were a famous chef. She looked as though she had run a marathon.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-24",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-24"
+   }
   }
  ]
 }

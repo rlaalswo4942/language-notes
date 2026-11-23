@@ -7278,6 +7278,201 @@
     "version": 1,
     "last_revised": "2026-11-23"
    }
+  },
+  {
+   "id": "A2-038",
+   "level": "A2",
+   "track": "foundation",
+   "day": 38,
+   "title_ko": "짧은 이메일 쓰기: Dear ... / I'm writing to ... / Best wishes",
+   "objective_ko": "친구에게 보내는 짧은 이메일의 인사·목적·요청·마무리를 알맞은 표현으로 쓴다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-24"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "친구에게 보내는 짧은 이메일은 ① 인사(Dear Anna, 또는 Hi Anna,) ② 답장·감사(Thanks for your email.) ③ 쓰는 목적(I'm writing to invite you to my party.) ④ 자세한 내용(The party is on Saturday at 6 p.m.) ⑤ 요청(Can you come? / Please reply by Thursday.) ⑥ 마무리 인사(Write soon! / See you soon!)와 서명(Best wishes, Tom) 순서로 씁니다. I'm writing to + 동사원형 은 '~하려고 씁니다'라는 목적 표현입니다. hope 는 바라는 것을 말할 때 쓰며 I hope you can come. 처럼 뒤에 문장이 옵니다. 인사 Dear Anna 뒤와 마무리 Best wishes 뒤에는 쉼표를 찍고, 서명은 줄을 바꿔 이름을 씁니다.",
+    "common_mistake_ko": "I'm writing for invite you.(X) → I'm writing to invite you.(O) / Please reply until Thursday.(X) → Please reply by Thursday.(O) — 마감 시점은 by. / I hope you to come.(X) → I hope you can come.(O) / Best wishes 와 이름을 같은 줄에 이어 쓰지 말고 쉼표 뒤에 이름을 씁니다."
+   },
+   "vocabulary": [
+    {
+     "word": "invite",
+     "part_of_speech": "동사",
+     "meaning_ko": "초대하다",
+     "example_en": "I want to invite you to my party.",
+     "example_ko": "당신을 제 파티에 초대하고 싶어요."
+    },
+    {
+     "word": "reply",
+     "part_of_speech": "동사",
+     "meaning_ko": "답장하다, 대답하다",
+     "example_en": "Please reply by Thursday.",
+     "example_ko": "목요일까지 답장해 주세요."
+    },
+    {
+     "word": "hope",
+     "part_of_speech": "동사",
+     "meaning_ko": "바라다",
+     "example_en": "I hope you can come.",
+     "example_ko": "오시면 좋겠어요."
+    },
+    {
+     "word": "soon",
+     "part_of_speech": "부사",
+     "meaning_ko": "곧, 빨리",
+     "example_en": "Write soon!",
+     "example_ko": "곧 답장 써 줘!"
+    },
+    {
+     "word": "plan",
+     "part_of_speech": "명사",
+     "meaning_ko": "계획",
+     "example_en": "What is your plan for Sunday?",
+     "example_ko": "일요일 계획이 뭐예요?"
+    },
+    {
+     "word": "details",
+     "part_of_speech": "명사",
+     "meaning_ko": "자세한 내용",
+     "example_en": "I'll send you the details tomorrow.",
+     "example_ko": "자세한 내용은 내일 보내 줄게요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Dear Anna,",
+     "ko": "안나에게,"
+    },
+    {
+     "en": "Thanks for your email.",
+     "ko": "이메일 고마워요."
+    },
+    {
+     "en": "I'm writing to invite you to my birthday party.",
+     "ko": "제 생일 파티에 초대하려고 이메일을 써요."
+    },
+    {
+     "en": "The party is on Saturday at 6 p.m.",
+     "ko": "파티는 토요일 오후 6시예요."
+    },
+    {
+     "en": "Can you come?",
+     "ko": "올 수 있어요?"
+    },
+    {
+     "en": "Please reply by Thursday.",
+     "ko": "목요일까지 답장해 주세요."
+    },
+    {
+     "en": "I hope you can come.",
+     "ko": "오시면 좋겠어요."
+    },
+    {
+     "en": "I'll send you the details tomorrow.",
+     "ko": "자세한 내용은 내일 보내 줄게요."
+    },
+    {
+     "en": "Write soon! Best wishes, Tom",
+     "ko": "곧 답장 줘! 잘 지내, 톰"
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "친구에게 보내는 이메일의 맨 처음 인사로 알맞은 것은?",
+     "choices": [
+      "Dear Anna,",
+      "Best wishes, Anna",
+      "See you soon!",
+      "Please reply by Thursday."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "이메일은 Dear Anna, 처럼 이름을 넣은 인사로 시작합니다.",
+     "error_tag": "greeting",
+     "id": "A2-038-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'초대하려고 이메일을 써요'를 올바르게 쓴 문장은?",
+     "choices": [
+      "I'm writing to invite you to a party.",
+      "I'm writing for invite you to a party.",
+      "I'm writing invite you to a party.",
+      "I write to inviting you to a party."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "I'm writing to + 동사원형 으로 목적을 말합니다.",
+     "error_tag": "purpose-to",
+     "id": "A2-038-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "이메일 끝부분의 마무리로 알맞은 것은?",
+     "choices": [
+      "Best wishes, Tom",
+      "Thanks for your email.",
+      "I'm writing to ask about the plan.",
+      "Dear Tom,"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Best wishes, 이름 은 마무리 인사와 서명입니다.",
+     "error_tag": "closing",
+     "id": "A2-038-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'목요일까지 답장해 주세요'에 알맞은 문장은?",
+     "choices": [
+      "Please reply by Thursday.",
+      "Please reply until Thursday.",
+      "Please replying by Thursday.",
+      "Please reply at Thursday."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "마감 시점은 by 로 표현하고 Please 뒤에는 동사원형을 씁니다.",
+     "error_tag": "by-deadline",
+     "id": "A2-038-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: I'm writing ___ invite you to my party.",
+     "answer_text": "to",
+     "accepted_answers": [
+      "to"
+     ],
+     "explanation_ko": "I'm writing to + 동사원형 은 목적 표현입니다.",
+     "error_tag": "purpose-to",
+     "id": "A2-038-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: I ___ you can come on Saturday. (바라다)",
+     "answer_text": "hope",
+     "accepted_answers": [
+      "hope"
+     ],
+     "explanation_ko": "I hope + 문장 은 바라는 것을 말합니다.",
+     "error_tag": "vocabulary",
+     "id": "A2-038-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "친구를 어딘가에 초대하는 짧은 이메일을 영어로 세 문장 써 보세요.",
+    "example_answer_en": "Dear Mia, I'm writing to invite you to dinner on Friday. Can you come? Best wishes, Sam",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-24",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-24"
+   }
   }
  ]
 }

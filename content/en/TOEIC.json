@@ -6019,6 +6019,206 @@
     "version": 1,
     "last_revised": "2026-11-23"
    }
+  },
+  {
+   "id": "TOEIC-032",
+   "level": "B1",
+   "track": "toeic",
+   "day": 32,
+   "title_ko": "TOEIC Part 6: 빈칸에 알맞은 문장 고르기(문장 삽입)",
+   "objective_ko": "공지 이메일의 빈칸에서 앞뒤 문장의 지시어·연결어·내용을 단서로 알맞은 문장을 고른다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/toeic/about/listening-reading.html",
+     "publisher": "ETS",
+     "supports": "공식 시험 형식",
+     "checked_at": "2026-11-24"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "TOEIC L&R Part 6 에는 짧은 글(이메일·공지 등)의 빈칸에 알맞은 단어나 문장을 고르는 문제가 나옵니다(비공식 자체 연습이며 ETS 문항이 아닙니다). 문장 삽입 문제는 ① 빈칸 바로 뒤 문장의 The / This / It 가 가리키는 대상이 보기에 있는지, ② Therefore(그러므로) / However(그러나) 같은 연결어가 앞뒤 논리와 맞는지, ③ 지문의 날짜·장소·규칙과 모순되는 보기는 없는지, ④ 지문과 관계없는 새 주제를 꺼내는 보기는 아닌지를 차례로 확인합니다. 보기에 지문과 같은 단어가 있어도 내용이 모순되면 오답입니다. 이 레슨은 점수 예측과 무관합니다.",
+    "common_mistake_ko": "빈칸 앞뒤를 읽지 않고 보기만 읽는다 → 앞 문장과 뒤 문장을 먼저 읽습니다. / 연결어(However / Therefore)를 무시한다 → 앞뒤 관계가 대조인지 결과인지 확인합니다. / 지문에 나온 단어가 있다는 이유로 고른다 → 날짜·조건이 모순되지 않는지 확인합니다."
+   },
+   "vocabulary": [
+    {
+     "word": "closure",
+     "part_of_speech": "명사",
+     "meaning_ko": "폐쇄, 닫음",
+     "example_en": "The closure lasts five days.",
+     "example_ko": "폐쇄는 5일간 이어져요."
+    },
+    {
+     "word": "repair",
+     "part_of_speech": "명사",
+     "meaning_ko": "수리",
+     "example_en": "The repair will take one week.",
+     "example_ko": "수리는 일주일 걸릴 거예요."
+    },
+    {
+     "word": "reopen",
+     "part_of_speech": "동사",
+     "meaning_ko": "다시 열다",
+     "example_en": "The lot will reopen on Monday.",
+     "example_ko": "주차장은 월요일에 다시 열려요."
+    },
+    {
+     "word": "extension",
+     "part_of_speech": "명사",
+     "meaning_ko": "내선 번호",
+     "example_en": "Call me at extension 214.",
+     "example_ko": "내선 214번으로 전화 주세요."
+    },
+    {
+     "word": "patience",
+     "part_of_speech": "명사",
+     "meaning_ko": "인내, 양해",
+     "example_en": "Thank you for your patience.",
+     "example_ko": "양해해 주셔서 감사합니다."
+    },
+    {
+     "word": "complete",
+     "part_of_speech": "동사",
+     "meaning_ko": "완료하다",
+     "example_en": "The work will be completed on Friday.",
+     "example_ko": "작업은 금요일에 완료될 거예요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The north parking lot will be closed for repairs.",
+     "ko": "북쪽 주차장은 수리를 위해 폐쇄돼요."
+    },
+    {
+     "en": "Employees who usually park there should use the south lot instead.",
+     "ko": "평소 거기에 주차하는 직원은 대신 남쪽 주차장을 이용해 주세요."
+    },
+    {
+     "en": "The south lot may fill up quickly in the morning.",
+     "ko": "남쪽 주차장은 아침에 금방 찰 수 있어요."
+    },
+    {
+     "en": "Therefore, we recommend arriving 15 minutes earlier than usual.",
+     "ko": "그러므로 평소보다 15분 일찍 도착하길 권해요."
+    },
+    {
+     "en": "Visitors may park on Dalton Avenue.",
+     "ko": "방문객은 달턴 가에 주차해도 돼요."
+    },
+    {
+     "en": "Parking on Dalton Avenue is free after 9 A.M.",
+     "ko": "달턴 가 주차는 오전 9시 이후 무료예요."
+    },
+    {
+     "en": "The north lot will reopen on Monday, March 10.",
+     "ko": "북쪽 주차장은 3월 10일 월요일에 다시 열려요."
+    },
+    {
+     "en": "All repairs are expected to be completed by Friday evening.",
+     "ko": "모든 수리는 금요일 저녁까지 끝날 예정이에요."
+    },
+    {
+     "en": "Please contact Maria Lopez at extension 214.",
+     "ko": "내선 214번 마리아 로페즈에게 연락해 주세요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "Subject: North Parking Lot Closure\nDear colleagues,\nThe north parking lot will be closed for repairs from Monday, March 3, to Friday, March 7. [1] The south lot has 40 extra spaces, but it may fill up quickly in the morning. [2] Visitors may park on Dalton Avenue, where parking is free [4] 9 A.M. All repairs are expected to be completed by Friday evening. [3] Please contact Maria Lopez at extension 214 if you have any questions.\nThank you for your patience.\n\nWhich sentence belongs in [1]?",
+     "choices": [
+      "Employees who usually park there should use the south lot instead.",
+      "The north lot has space for 120 cars.",
+      "Parking permits cost $20 per month.",
+      "The repairs were completed last year."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "바로 뒤 문장이 The south lot 이라고 정해서 말하므로 앞에 남쪽 주차장을 처음 언급한 문장이 필요합니다.",
+     "error_tag": "sentence-insertion",
+     "id": "TOEIC-032-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Subject: North Parking Lot Closure\nDear colleagues,\nThe north parking lot will be closed for repairs from Monday, March 3, to Friday, March 7. [1] The south lot has 40 extra spaces, but it may fill up quickly in the morning. [2] Visitors may park on Dalton Avenue, where parking is free [4] 9 A.M. All repairs are expected to be completed by Friday evening. [3] Please contact Maria Lopez at extension 214 if you have any questions.\nThank you for your patience.\n\nWhich sentence belongs in [2]?",
+     "choices": [
+      "Therefore, we recommend arriving 15 minutes earlier than usual.",
+      "However, the south lot will be closed all week.",
+      "In contrast, the north lot will open on March 3.",
+      "Meanwhile, parking permits are no longer required."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "남쪽 주차장이 아침에 금방 찰 수 있다는 앞 내용의 결과로 일찍 도착을 권하는 문장이 알맞습니다. 나머지는 앞 내용과 모순되거나 관련이 없습니다.",
+     "error_tag": "sentence-insertion",
+     "id": "TOEIC-032-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Subject: North Parking Lot Closure\nDear colleagues,\nThe north parking lot will be closed for repairs from Monday, March 3, to Friday, March 7. [1] The south lot has 40 extra spaces, but it may fill up quickly in the morning. [2] Visitors may park on Dalton Avenue, where parking is free [4] 9 A.M. All repairs are expected to be completed by Friday evening. [3] Please contact Maria Lopez at extension 214 if you have any questions.\nThank you for your patience.\n\nWhich sentence belongs in [3]?",
+     "choices": [
+      "The north lot will reopen on Monday, March 10.",
+      "The north lot will stay closed until further notice.",
+      "Please do not park on Dalton Avenue.",
+      "All employees should return their parking permits."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "수리가 금요일 저녁까지 끝난다는 앞 내용과 이어지므로 재개방 날짜를 알리는 문장이 알맞습니다.",
+     "error_tag": "sentence-insertion",
+     "id": "TOEIC-032-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Subject: North Parking Lot Closure\nDear colleagues,\nThe north parking lot will be closed for repairs from Monday, March 3, to Friday, March 7. [1] The south lot has 40 extra spaces, but it may fill up quickly in the morning. [2] Visitors may park on Dalton Avenue, where parking is free [4] 9 A.M. All repairs are expected to be completed by Friday evening. [3] Please contact Maria Lopez at extension 214 if you have any questions.\nThank you for your patience.\n\nWhich word belongs in [4]?",
+     "choices": [
+      "after",
+      "during",
+      "by",
+      "while"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "'오전 9시 이후 무료'이므로 after 가 알맞습니다. during 과 while 은 시각 앞에 쓰지 않고, by 는 마감 시점입니다.",
+     "error_tag": "preposition",
+     "id": "TOEIC-032-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: The north lot will ___ on Monday, March 10. (다시 열다)",
+     "answer_text": "reopen",
+     "accepted_answers": [
+      "reopen",
+      "re-open"
+     ],
+     "explanation_ko": "reopen 은 '다시 열다'입니다.",
+     "error_tag": "vocabulary",
+     "id": "TOEIC-032-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Please ___ Maria Lopez if you have any questions. (연락하다)",
+     "answer_text": "contact",
+     "accepted_answers": [
+      "contact",
+      "call",
+      "email",
+      "e-mail",
+      "ask"
+     ],
+     "explanation_ko": "contact 는 '연락하다'입니다.",
+     "error_tag": "vocabulary",
+     "id": "TOEIC-032-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "공지 이메일에 쓸 수 있는 영어 문장 두세 개를 써 보세요. 닫는 날짜와 다시 여는 날짜를 포함하세요.",
+    "example_answer_en": "The library will be closed from Monday to Wednesday. It will reopen on Thursday. Please contact the front desk with any questions.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-24",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-24"
+   }
   }
  ]
 }

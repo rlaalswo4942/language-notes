@@ -8021,6 +8021,226 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-38",
+   "day_index": 38,
+   "week_index": 6,
+   "level": "N2",
+   "unit_id": "N2-W06",
+   "lesson_type": "new",
+   "title_ko": "〜を問わず: ~을 불문하고, ~에 관계없이",
+   "objective_ko": "명사 + を問わず로 연령·성별·유무·밤낮 같은 조건에 관계없이 같은 결과가 성립함을 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-37"
+   ],
+   "explanation_ko": "〜を問{と}わず는 ‘~을 가리지 않고, ~에 관계없이’라는 뜻의 격식 있는 표현입니다. 주로 명사(또는 반대어 쌍·범위를 나타내는 말)에 붙여 그 조건이 결과를 바꾸지 않음을 나타냅니다: 応募{おうぼ}は年齢{ねんれい}・性別{せいべつ}を問{と}わず、どなたでもできる(응모는 연령·성별을 불문하고 누구나 할 수 있다), 工事{こうじ}は昼夜{ちゅうや}を問{と}わず続{つづ}けられている(공사는 밤낮을 가리지 않고 계속되고 있다), 経験{けいけん}の有無{うむ}を問{と}わず(경험 유무를 불문하고). 뒤에는 ‘누구나·언제나·항상’처럼 조건에 구애받지 않는 내용이 자주 옵니다. 〜にかかわらず와 가까운 뜻이지만 〜を問わず는 명사에 붙는 것이 중심입니다.",
+   "usage_notes": [
+    "명사 + を問わず: 昼夜・年齢・国籍・天候 등.",
+    "〜の有無・男女 처럼 대립하는 말에도 붙는다.",
+    "뒤에는 조건에 구애받지 않는 내용이 온다."
+   ],
+   "common_mistakes": [
+    "年齢を問わないで募集する(△) → 年齢を問わず募集する(O) — 격식 있는 글에서는 〜を問わず를 씁니다",
+    "〜を問わず는 ‘~을 묻지 않고’ 즉 ‘상관하지 않고’라는 뜻이며, 조건이 중요하다는 뜻이 아닙니다",
+    "を 대신 が・に를 쓰지 않습니다(年齢が問わず X)"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "年齢{ねんれい}",
+     "reading_kana": "ねんれい",
+     "reading_romanized": "nenrei",
+     "meaning_ko": "연령",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-38-01"
+    },
+    {
+     "kind": "word",
+     "text": "性別{せいべつ}",
+     "reading_kana": "せいべつ",
+     "reading_romanized": "seibetsu",
+     "meaning_ko": "성별",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-38-02"
+    },
+    {
+     "kind": "word",
+     "text": "国籍{こくせき}",
+     "reading_kana": "こくせき",
+     "reading_romanized": "kokuseki",
+     "meaning_ko": "국적",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-38-03"
+    },
+    {
+     "kind": "word",
+     "text": "昼夜{ちゅうや}",
+     "reading_kana": "ちゅうや",
+     "reading_romanized": "chuuya",
+     "meaning_ko": "밤낮",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-38-04"
+    },
+    {
+     "kind": "word",
+     "text": "応募{おうぼ}",
+     "reading_kana": "おうぼ",
+     "reading_romanized": "oubo",
+     "meaning_ko": "응모",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N2-38-05"
+    },
+    {
+     "kind": "word",
+     "text": "有無{うむ}",
+     "reading_kana": "うむ",
+     "reading_romanized": "umu",
+     "meaning_ko": "유무",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-38-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "応募{おうぼ}は年齢{ねんれい}・性別{せいべつ}を問{と}わず、どなたでもできる。",
+     "meaning_ko": "응모는 연령·성별을 불문하고 누구나 할 수 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この店{みせ}は国籍{こくせき}を問{と}わず、多{おお}くの客{きゃく}が訪{おとず}れる。",
+     "meaning_ko": "이 가게는 국적을 불문하고 많은 손님이 방문한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "工事{こうじ}は昼夜{ちゅうや}を問{と}わず続{つづ}けられている。",
+     "meaning_ko": "공사는 밤낮을 가리지 않고 계속되고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "経験{けいけん}の有無{うむ}を問{と}わず、意欲{いよく}のある人{ひと}を募集{ぼしゅう}する。",
+     "meaning_ko": "경험 유무를 불문하고 의욕 있는 사람을 모집한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "このスポーツは老若男女{ろうにゃくなんにょ}を問{と}わず楽{たの}しめる。",
+     "meaning_ko": "이 스포츠는 남녀노소를 불문하고 즐길 수 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "天候{てんこう}を問{と}わず、試合{しあい}は予定{よてい}どおり行{おこな}われる。",
+     "meaning_ko": "날씨에 관계없이 경기는 예정대로 열린다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この資格{しかく}は学歴{がくれき}を問{と}わず、誰{だれ}でも受{う}けられる。",
+     "meaning_ko": "이 자격시험은 학력을 불문하고 누구나 볼 수 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "会員{かいいん}は、利用{りよう}の回数{かいすう}を問{と}わず、料金{りょうきん}が同{おな}じだ。",
+     "meaning_ko": "회원은 이용 횟수에 관계없이 요금이 같다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "季節{きせつ}を問{と}わず、この公園{こうえん}は散歩{さんぽ}する人{ひと}でにぎわっている。",
+     "meaning_ko": "계절을 가리지 않고 이 공원은 산책하는 사람들로 붐빈다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「年齢を問わず、応募できる」의 뜻으로 알맞은 것은?",
+     "options": [
+      "나이에 관계없이 응모할 수 있다",
+      "나이가 많은 사람만 응모할 수 있다",
+      "나이를 물어봐야 응모할 수 있다",
+      "나이 때문에 응모할 수 없다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜を問わず는 ‘~을 불문하고’입니다.",
+     "id": "JP-N2-38-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「工事は昼夜（　）続けられている。」 ( )에 알맞은 말은?",
+     "options": [
+      "を問わず",
+      "に応じて",
+      "をめぐって",
+      "に伴って"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘밤낮을 가리지 않고’이므로 を問わず입니다.",
+     "id": "JP-N2-38-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "〜を問わず와 가장 가까운 뜻은?",
+     "options": [
+      "〜にかかわらず",
+      "〜に違いない",
+      "〜わけがない",
+      "〜ざるを得ない"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜を問わず는 〜にかかわらず와 가까운 ‘~에 관계없이’입니다.",
+     "id": "JP-N2-38-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「経験の有無を問わず」의 뜻은?",
+     "options": [
+      "경험이 있든 없든 상관없이",
+      "경험이 없는 사람만",
+      "경험이 있어야만",
+      "경험을 묻기 전에"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "有無를 問わず는 있든 없든 상관없다는 뜻입니다.",
+     "id": "JP-N2-38-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「年齢」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "nenrei",
+     "accepted_answers": [
+      "nenrei",
+      "nenree"
+     ],
+     "explanation_ko": "年齢 = ねんれい(nenrei), ‘연령’입니다.",
+     "id": "JP-N2-38-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「昼夜」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "chuuya",
+     "accepted_answers": [
+      "chuuya",
+      "chuya",
+      "tyuuya",
+      "tyuya"
+     ],
+     "explanation_ko": "昼夜 = ちゅうや(chuuya), ‘밤낮’입니다.",
+     "id": "JP-N2-38-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

@@ -8060,6 +8060,233 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-38",
+   "day_index": 38,
+   "week_index": 6,
+   "level": "N4",
+   "unit_id": "N4-W06",
+   "lesson_type": "new",
+   "title_ko": "疑問詞+か・疑問詞+も: 何か・誰か / 何も・誰も",
+   "objective_ko": "何か・誰か・どこか로 ‘어떤·누군가·어딘가’를 말하고, 何も・誰も・どこへも + 부정으로 ‘아무것도·아무도·어디에도 ~않다’를 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-37"
+   ],
+   "explanation_ko": "의문사 뒤에 か를 붙이면 확실하지 않은 사물·사람·장소를 말합니다: 何{なに}か 飲{の}みませんか(뭔가 마시지 않을래요?), 部屋{へや}に 誰{だれ}か いますか(방에 누군가 있어요?), どこかへ 行{い}きますか(어딘가 가요?). 의문사 뒤에 も를 붙이고 문장을 부정형으로 끝내면 전부 부정이 됩니다: 何{なに}も 食{た}べませんでした(아무것도 먹지 않았어요), 誰{だれ}も いません(아무도 없어요). 이때 を・が는 쓰지 않고, に・へ 같은 조사는 남겨 どこへも・誰{だれ}にも 처럼 의문사+조사 뒤에 も를 붙입니다. 〜か 질문에는 はい / いいえ 로 답하고, 〜も 부정문은 ‘하나도 없다’는 뜻입니다.",
+   "usage_notes": [
+    "의문사 + か: 불특정(뭔가·누군가·어딘가). を・が는 생략, に・へ는 남음(どこかへ).",
+    "의문사 + も + 부정: 전체 부정. 何も / 誰も / どこへも / 誰にも.",
+    "〜も 뒤에는 반드시 부정형(ません・ない)이 옵니다."
+   ],
+   "common_mistakes": [
+    "何も 食べます(X) → 何も 食べません(O) — 〜も 뒤는 부정형",
+    "何をも 食べません(X) → 何も 食べません(O) — を는 생략",
+    "誰も(아무도)와 誰か(누군가)를 섞지 않게 주의합니다"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "部屋{へや}",
+     "reading_kana": "へや",
+     "reading_romanized": "heya",
+     "meaning_ko": "방",
+     "part_of_speech": "명사",
+     "id": "w-JP-N4-38-01"
+    },
+    {
+     "kind": "word",
+     "text": "玄関{げんかん}",
+     "reading_kana": "げんかん",
+     "reading_romanized": "genkan",
+     "meaning_ko": "현관",
+     "part_of_speech": "명사",
+     "id": "w-JP-N4-38-02"
+    },
+    {
+     "kind": "word",
+     "text": "約束{やくそく}",
+     "reading_kana": "やくそく",
+     "reading_romanized": "yakusoku",
+     "meaning_ko": "약속",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N4-38-03"
+    },
+    {
+     "kind": "word",
+     "text": "留守{るす}",
+     "reading_kana": "るす",
+     "reading_romanized": "rusu",
+     "meaning_ko": "집을 비움, 부재",
+     "part_of_speech": "명사",
+     "id": "w-JP-N4-38-04"
+    },
+    {
+     "kind": "word",
+     "text": "台所{だいどころ}",
+     "reading_kana": "だいどころ",
+     "reading_romanized": "daidokoro",
+     "meaning_ko": "부엌",
+     "part_of_speech": "명사",
+     "id": "w-JP-N4-38-05"
+    },
+    {
+     "kind": "word",
+     "text": "郵便{ゆうびん}",
+     "reading_kana": "ゆうびん",
+     "reading_romanized": "yuubin",
+     "meaning_ko": "우편",
+     "part_of_speech": "명사",
+     "id": "w-JP-N4-38-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "何{なに}か 飲{の}みませんか。",
+     "meaning_ko": "뭔가 마시지 않을래요?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "台所{だいどころ}に 何{なに}か ありますか。",
+     "meaning_ko": "부엌에 뭔가 있어요?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "部屋{へや}に 誰{だれ}か いますか。",
+     "meaning_ko": "방에 누군가 있어요?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "いいえ、誰{だれ}も いません。",
+     "meaning_ko": "아니요, 아무도 없어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "週末{しゅうまつ}は どこかへ 行{い}きますか。",
+     "meaning_ko": "주말에는 어딘가 가요?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "今日{きょう}は どこへも 行{い}きませんでした。",
+     "meaning_ko": "오늘은 어디에도 가지 않았어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "朝{あさ}から 何{なに}も 食{た}べて いません。",
+     "meaning_ko": "아침부터 아무것도 먹지 않았어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "約束{やくそく}の ことは 誰{だれ}にも 言{い}って いません。",
+     "meaning_ko": "약속에 대해서는 아무에게도 말하지 않았어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "玄関{げんかん}に 誰{だれ}も いません。",
+     "meaning_ko": "현관에 아무도 없어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "今日{きょう}は 郵便{ゆうびん}が 何{なに}も 来{き}て いません。",
+     "meaning_ko": "오늘은 우편이 아무것도 오지 않았어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "家{いえ}は 留守{るす}でした。",
+     "meaning_ko": "집은 비어 있었어요.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「何か 飲みませんか」의 뜻으로 알맞은 것은?",
+     "options": [
+      "뭔가 마시지 않을래요?",
+      "아무것도 마시지 않아요",
+      "무엇을 마셨어요?",
+      "마셔도 돼요?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "何か는 ‘뭔가’이며 〜ませんか는 권유입니다.",
+     "id": "JP-N4-38-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「部屋に 誰（　）いません。」 ( )에 알맞은 말은? (아무도 없어요)",
+     "options": [
+      "も",
+      "か",
+      "が",
+      "を"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "誰も + 부정형이 ‘아무도 ~않다’입니다.",
+     "id": "JP-N4-38-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「どこ（　）行きませんでした。」 ( )에 알맞은 말은? (어디에도 가지 않았어요)",
+     "options": [
+      "へも",
+      "をも",
+      "がも",
+      "へを"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "방향의 へ는 남기고 も를 붙인 どこへも가 ‘어디에도’입니다.",
+     "id": "JP-N4-38-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「台所に 何か ありますか。」에 ‘아무것도 없어요’라고 답하는 문장은?",
+     "options": [
+      "いいえ、何も ありません。",
+      "はい、何も あります。",
+      "いいえ、何か ありません。",
+      "はい、何も ありませんでした。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "전체 부정은 何も + 부정형입니다.",
+     "id": "JP-N4-38-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「郵便」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "yuubin",
+     "accepted_answers": [
+      "yuubin",
+      "yubin"
+     ],
+     "explanation_ko": "郵便 = ゆうびん(yuubin), ‘우편’입니다.",
+     "id": "JP-N4-38-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「約束」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "yakusoku",
+     "accepted_answers": [
+      "yakusoku"
+     ],
+     "explanation_ko": "約束 = やくそく(yakusoku), ‘약속’입니다.",
+     "id": "JP-N4-38-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

@@ -6183,6 +6183,201 @@
     "version": 1,
     "last_revised": "2026-11-23"
    }
+  },
+  {
+   "id": "B1-033",
+   "level": "B1",
+   "track": "foundation",
+   "day": 33,
+   "title_ko": "의견 말하기: In my opinion / I agree / I don't think so",
+   "objective_ko": "자기 의견을 말하고 동의·반대·부분 동의를 정중하게 표현한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-24"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "의견을 말할 때는 In my opinion, ... / I think (that) ... 를 씁니다. 동의: I agree. / I agree with you. / That's true. / Exactly! 반대: I don't agree. / I don't think so. / I'm not sure about that. 일부를 인정하면서 부드럽게 반대할 때는 I see what you mean, but ... / That's a good point, but ... 를 씁니다. agree 는 동사이므로 am/is/are 없이 I agree 로 쓰고, '~에게 동의하다'는 agree with + 사람/의견 입니다. 반대할 때는 I don't think that's a good idea. 처럼 don't think + 긍정문 형태가 자연스럽습니다. 같은 뜻으로 상대에게 의견을 물을 때는 What's your opinion about ...? / What do you think of ...? 를 씁니다.",
+    "common_mistake_ko": "I am agree with you.(X) → I agree with you.(O) / I agree to you.(X) → I agree with you.(O) / I don't think so 대신 I think no.(X) / 반대 의견을 You are wrong. 처럼 바로 말하면 거칠게 들릴 수 있어 I see what you mean, but ... 처럼 완화합니다."
+   },
+   "vocabulary": [
+    {
+     "word": "opinion",
+     "part_of_speech": "명사",
+     "meaning_ko": "의견",
+     "example_en": "In my opinion, the new rule is useful.",
+     "example_ko": "제 의견으로는 새 규칙이 유용해요."
+    },
+    {
+     "word": "agree",
+     "part_of_speech": "동사",
+     "meaning_ko": "동의하다",
+     "example_en": "I agree with you.",
+     "example_ko": "당신 말에 동의해요."
+    },
+    {
+     "word": "disagree",
+     "part_of_speech": "동사",
+     "meaning_ko": "동의하지 않다",
+     "example_en": "I disagree with that idea.",
+     "example_ko": "저는 그 생각에 동의하지 않아요."
+    },
+    {
+     "word": "reason",
+     "part_of_speech": "명사",
+     "meaning_ko": "이유",
+     "example_en": "What is your reason?",
+     "example_ko": "이유가 뭐예요?"
+    },
+    {
+     "word": "point",
+     "part_of_speech": "명사",
+     "meaning_ko": "요점, 지적",
+     "example_en": "That's a good point.",
+     "example_ko": "좋은 지적이에요."
+    },
+    {
+     "word": "exactly",
+     "part_of_speech": "부사",
+     "meaning_ko": "바로 그래요, 정확히",
+     "example_en": "Exactly! That's what I think, too.",
+     "example_ko": "맞아요! 저도 그렇게 생각해요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "In my opinion, public transport should be cheaper.",
+     "ko": "제 의견으로는 대중교통이 더 싸야 해요."
+    },
+    {
+     "en": "What's your opinion about the new rule?",
+     "ko": "새 규칙에 대해 어떻게 생각하세요?"
+    },
+    {
+     "en": "I agree with you about the price.",
+     "ko": "가격에 대해서는 당신 말에 동의해요."
+    },
+    {
+     "en": "I don't agree. I think it's too expensive.",
+     "ko": "동의하지 않아요. 너무 비싸다고 생각해요."
+    },
+    {
+     "en": "I don't think that's a good idea.",
+     "ko": "그건 좋은 생각이 아닌 것 같아요."
+    },
+    {
+     "en": "That's a good point, but I'm not sure it's practical.",
+     "ko": "좋은 지적이지만 그게 현실적인지는 모르겠어요."
+    },
+    {
+     "en": "I see what you mean, but I'd prefer to walk.",
+     "ko": "무슨 말인지 알겠지만 저는 걷는 게 더 좋아요."
+    },
+    {
+     "en": "Exactly! That's what I think, too.",
+     "ko": "맞아요! 저도 그렇게 생각해요."
+    },
+    {
+     "en": "A: This film is boring. B: I don't think so. I enjoyed it.",
+     "ko": "A: 이 영화 지루해. B: 난 그렇게 생각 안 해. 나는 재미있었어."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "동의를 나타내는 올바른 문장은?",
+     "choices": [
+      "I agree with you.",
+      "I am agree with you.",
+      "I agree to you.",
+      "I'm agreeing you."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "agree 는 동사이고 '~에게 동의하다'는 agree with 입니다.",
+     "error_tag": "agree",
+     "id": "B1-033-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "A: \"This film is boring.\" B가 '그렇게 생각하지 않아요'라고 답하는 문장은?",
+     "choices": [
+      "I don't think so.",
+      "I think no.",
+      "I'm not agree.",
+      "I don't thinking so."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "I don't think so. 는 상대 의견에 부드럽게 반대하는 표현입니다.",
+     "error_tag": "disagree",
+     "id": "B1-033-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "상대 의견을 인정하면서 부드럽게 반대하는 문장은?",
+     "choices": [
+      "I see what you mean, but I'd prefer to walk.",
+      "You are wrong, and I hate it.",
+      "I agree with you, so I disagree.",
+      "Exactly, but yes."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "I see what you mean, but ... 은 일부를 인정한 뒤 반대 의견을 말하는 표현입니다.",
+     "error_tag": "soften",
+     "id": "B1-033-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'좋은 지적이에요'를 영어로 말하면?",
+     "choices": [
+      "That's a good point.",
+      "That's a good dot.",
+      "That's a good pointing.",
+      "That's a good pointed."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "point 는 '요점, 지적'이며 That's a good point. 로 말합니다.",
+     "error_tag": "vocabulary",
+     "id": "B1-033-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: In my ___, the new rule is useful. (의견)",
+     "answer_text": "opinion",
+     "accepted_answers": [
+      "opinion"
+     ],
+     "explanation_ko": "In my opinion, ... 은 의견을 말하는 표현입니다.",
+     "error_tag": "opinion",
+     "id": "B1-033-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: I ___ with you. It's a great idea. (동의합니다)",
+     "answer_text": "agree",
+     "accepted_answers": [
+      "agree"
+     ],
+     "explanation_ko": "I agree with you. 는 동의 표현입니다.",
+     "error_tag": "agree",
+     "id": "B1-033-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "최근 뉴스나 생활 속 주제 하나에 대해 의견을 영어 두세 문장으로 써 보세요.",
+    "example_answer_en": "In my opinion, students should have more time to sleep. I think school should start later. I don't think early classes are a good idea.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-24",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-24"
+   }
   }
  ]
 }

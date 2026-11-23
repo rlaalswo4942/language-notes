@@ -7301,6 +7301,201 @@
     "version": 1,
     "last_revised": "2026-11-23"
    }
+  },
+  {
+   "id": "A1-038",
+   "level": "A1",
+   "track": "foundation",
+   "day": 38,
+   "title_ko": "교통수단: by bus / on foot / How do you go to ...?",
+   "objective_ko": "by + 교통수단, on foot, take + the + 교통수단으로 어떻게 오가는지 묻고 답한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-24"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "어떻게 가는지 물을 때는 How do you go to school? 처럼 말합니다. 대답은 교통수단 앞에 by를 붙입니다: I go to school by bus. by 뒤에는 a/the를 붙이지 않습니다: by bus, by train, by car, by bike, by subway. 걸어서 갈 때는 on foot 이라고 하며 I go to the park on foot. 또는 동사 walk 를 써서 I walk to the park. 라고 합니다. 탈것을 '타고 간다'는 동사 take 로도 말하는데, 이때는 the 를 붙입니다: I take the bus. / She takes the subway to work. 3인칭 단수(he, she)는 goes, takes, walks 처럼 -s/-es 를 붙입니다. get to ... 도 '~에 가다·도착하다'라는 뜻으로 How do you get to work? 처럼 씁니다.",
+    "common_mistake_ko": "by the bus(X) → by bus(O) — by 뒤에는 관사를 쓰지 않습니다. / in foot, by foot(X) → on foot(O). / She take the bus.(X) → She takes the bus.(O) — 3인칭 단수 -s. / I take by bus.(X) → I go by bus. 또는 I take the bus.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "bus",
+     "part_of_speech": "명사",
+     "meaning_ko": "버스",
+     "example_en": "I go to school by bus.",
+     "example_ko": "저는 버스로 학교에 가요."
+    },
+    {
+     "word": "train",
+     "part_of_speech": "명사",
+     "meaning_ko": "기차, 열차",
+     "example_en": "She goes to work by train.",
+     "example_ko": "그녀는 기차로 출근해요."
+    },
+    {
+     "word": "subway",
+     "part_of_speech": "명사",
+     "meaning_ko": "지하철",
+     "example_en": "I take the subway to the office.",
+     "example_ko": "저는 지하철을 타고 사무실에 가요."
+    },
+    {
+     "word": "bike",
+     "part_of_speech": "명사",
+     "meaning_ko": "자전거",
+     "example_en": "He goes to school by bike.",
+     "example_ko": "그는 자전거로 학교에 가요."
+    },
+    {
+     "word": "walk",
+     "part_of_speech": "동사",
+     "meaning_ko": "걷다",
+     "example_en": "We walk to the station.",
+     "example_ko": "우리는 역까지 걸어가요."
+    },
+    {
+     "word": "station",
+     "part_of_speech": "명사",
+     "meaning_ko": "역",
+     "example_en": "The station is near my house.",
+     "example_ko": "역은 우리 집에서 가까워요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "How do you go to school?",
+     "ko": "학교에 어떻게 가요?"
+    },
+    {
+     "en": "I go to school by bus.",
+     "ko": "저는 버스로 학교에 가요."
+    },
+    {
+     "en": "She goes to work by train.",
+     "ko": "그녀는 기차로 출근해요."
+    },
+    {
+     "en": "We go to the park on foot.",
+     "ko": "우리는 걸어서 공원에 가요."
+    },
+    {
+     "en": "My father goes to work by car.",
+     "ko": "아버지는 차로 출근하세요."
+    },
+    {
+     "en": "I take the subway to the office.",
+     "ko": "저는 지하철을 타고 사무실에 가요."
+    },
+    {
+     "en": "He goes to school by bike.",
+     "ko": "그는 자전거로 학교에 가요."
+    },
+    {
+     "en": "Do you walk to the station? — Yes, I do.",
+     "ko": "역까지 걸어가요? — 네, 걸어가요."
+    },
+    {
+     "en": "How does your sister get to work? — She goes by train.",
+     "ko": "언니(여동생)는 어떻게 출근해요? — 기차로 가요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "'저는 버스로 학교에 가요'를 올바르게 쓴 문장은?",
+     "choices": [
+      "I go to school by bus.",
+      "I go to school by the bus.",
+      "I go to school in bus.",
+      "I go to school with bus."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "교통수단은 by + 무관사 명사(by bus)로 말합니다.",
+     "error_tag": "by-transport",
+     "id": "A1-038-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'우리는 걸어서 공원에 가요'에서 빈칸에 알맞은 말은? We go to the park ___.",
+     "choices": [
+      "on foot",
+      "by foot",
+      "in foot",
+      "with foot"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "걸어서는 on foot 입니다.",
+     "error_tag": "on-foot",
+     "id": "A1-038-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "\"How do you go to work?\"에 알맞은 대답은?",
+     "choices": [
+      "By train.",
+      "At six o'clock.",
+      "Yes, I do.",
+      "It's my office."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "How do you go ...? 는 방법을 묻는 질문이므로 By train. 처럼 교통수단으로 답합니다.",
+     "error_tag": "response",
+     "id": "A1-038-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "She takes the subway to work.",
+      "She take the subway to work.",
+      "She takes by subway to work.",
+      "She goes the subway to work."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "take 는 the 와 함께 쓰고 3인칭 단수이므로 takes 입니다.",
+     "error_tag": "take-the",
+     "id": "A1-038-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: He goes to school ___ bike.",
+     "answer_text": "by",
+     "accepted_answers": [
+      "by"
+     ],
+     "explanation_ko": "교통수단 앞에는 by 를 씁니다.",
+     "error_tag": "by-transport",
+     "id": "A1-038-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: We walk to the library, so we go ___ foot.",
+     "answer_text": "on",
+     "accepted_answers": [
+      "on"
+     ],
+     "explanation_ko": "on foot 은 '걸어서'입니다.",
+     "error_tag": "on-foot",
+     "id": "A1-038-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "내가 학교나 직장에 어떻게 가는지 영어 문장 두 개를 써 보세요.",
+    "example_answer_en": "I go to school by bus. My brother goes to work by train.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-24",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-24"
+   }
   }
  ]
 }

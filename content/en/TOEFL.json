@@ -5986,6 +5986,201 @@
     "version": 1,
     "last_revised": "2026-11-23"
    }
+  },
+  {
+   "id": "TOEFL-032",
+   "level": "B1",
+   "track": "toefl",
+   "day": 32,
+   "title_ko": "TOEFL 2026 Read in Daily Life 3: 안내 이메일에서 목적·장소·기한·준비물 찾기",
+   "objective_ko": "기숙사 안내 이메일에서 글의 목적, 대체 장소, 기한, 준비물 같은 세부 정보를 찾는다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/content/ets-org/language-master/ko/home/toefl/test-takers/ibt/about/content.html",
+     "publisher": "ETS",
+     "supports": "2026 형식 유형명",
+     "checked_at": "2026-11-24"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "Read in Daily Life 는 2026-01-21 이후 TOEFL iBT Reading 에 포함된 유형명입니다(비공식 자체 연습입니다). 이메일·공지·문자처럼 일상에서 읽는 글에서 세부 정보를 찾습니다. ① 제목(Subject)과 첫 문장으로 글의 목적을 파악합니다. ② 질문이 묻는 정보의 종류(언제 / 어디서 / 무엇을 / 왜)를 표시합니다. ③ 해당 부분을 찾아 숫자(시각·날짜)와 조건(~까지, ~하면)을 그대로 비교합니다. ④ 시간 길이를 묻는 문제는 시작과 끝 시각을 계산합니다(9:00 A.M.부터 3:00 P.M.까지는 6시간). ⑤ 지문에 있는 단어가 그대로 들어 있어도 내용이 다르면 오답입니다. 이 레슨은 점수 예측과 무관합니다.",
+    "common_mistake_ko": "제목만 보고 답한다 → 본문의 세부 정보를 확인합니다. / by 10:00 P.M. 을 '10시 이후'로 읽는다 → by 는 그 시각까지(늦어도)입니다. / Cedar Hall 과 Maple Hall 을 섞는다 → 장소 이름을 정확히 구별합니다."
+   },
+   "vocabulary": [
+    {
+     "word": "technician",
+     "part_of_speech": "명사",
+     "meaning_ko": "기술자",
+     "example_en": "A technician will fix the machine.",
+     "example_ko": "기술자가 기계를 고칠 거예요."
+    },
+    {
+     "word": "replace",
+     "part_of_speech": "동사",
+     "meaning_ko": "교체하다",
+     "example_en": "They will replace two dryers.",
+     "example_ko": "건조기 두 대를 교체할 거예요."
+    },
+    {
+     "word": "resident",
+     "part_of_speech": "명사",
+     "meaning_ko": "거주자",
+     "example_en": "All residents received the email.",
+     "example_ko": "모든 거주자가 이메일을 받았어요."
+    },
+    {
+     "word": "remove",
+     "part_of_speech": "동사",
+     "meaning_ko": "꺼내다, 치우다",
+     "example_en": "Please remove your clothes by 10:00 P.M.",
+     "example_ko": "오후 10시까지 옷을 꺼내 주세요."
+    },
+    {
+     "word": "enter",
+     "part_of_speech": "동사",
+     "meaning_ko": "들어가다",
+     "example_en": "You need an ID card to enter the building.",
+     "example_ko": "건물에 들어가려면 학생증이 필요해요."
+    },
+    {
+     "word": "understanding",
+     "part_of_speech": "명사",
+     "meaning_ko": "이해, 양해",
+     "example_en": "Thank you for your understanding.",
+     "example_ko": "양해해 주셔서 감사합니다."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The first-floor laundry room will be closed on Thursday.",
+     "ko": "1층 세탁실은 목요일에 닫혀요."
+    },
+    {
+     "en": "A technician will replace two dryers.",
+     "ko": "기술자가 건조기 두 대를 교체할 거예요."
+    },
+    {
+     "en": "Please use the laundry room in the basement of Cedar Hall.",
+     "ko": "시더 홀 지하의 세탁실을 이용해 주세요."
+    },
+    {
+     "en": "You will need your student ID card to enter the building.",
+     "ko": "건물에 들어가려면 학생증이 필요해요."
+    },
+    {
+     "en": "Please remove your clothes from the machines by 10:00 P.M. on Wednesday.",
+     "ko": "수요일 오후 10시까지 기계에서 옷을 꺼내 주세요."
+    },
+    {
+     "en": "The room will be closed from 9:00 A.M. to 3:00 P.M.",
+     "ko": "세탁실은 오전 9시부터 오후 3시까지 닫혀요."
+    },
+    {
+     "en": "The residents received an email from the Residence Hall Office.",
+     "ko": "거주자들은 기숙사 사무실에서 이메일을 받았어요."
+    },
+    {
+     "en": "The technician can begin on time if the machines are empty.",
+     "ko": "기계가 비어 있으면 기술자가 제시간에 시작할 수 있어요."
+    },
+    {
+     "en": "Thank you for your understanding.",
+     "ko": "양해해 주셔서 감사합니다."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "From: Jordan Reed, Residence Hall Office\nTo: All residents of Maple Hall\nSubject: Laundry room closed this Thursday\n\nHello everyone,\nThe first-floor laundry room will be closed on Thursday, October 9, from 9:00 A.M. to 3:00 P.M. while a technician replaces two dryers. Please use the laundry room in the basement of Cedar Hall during this time. You will need your student ID card to enter the building. If you have clothes in the machines on Wednesday night, please remove them by 10:00 P.M. so that the technician can begin on time. Thank you for your understanding.\nJordan Reed\n\nWhy did Jordan Reed write the email?",
+     "choices": [
+      "To announce a temporary closure of a laundry room",
+      "To ask residents to pay for new dryers",
+      "To say that a new laundry room has opened",
+      "To cancel all laundry service in Cedar Hall"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "제목과 첫 문장이 1층 세탁실이 목요일에 임시로 닫힌다는 내용입니다.",
+     "error_tag": "purpose",
+     "id": "TOEFL-032-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "From: Jordan Reed, Residence Hall Office\nTo: All residents of Maple Hall\nSubject: Laundry room closed this Thursday\n\nHello everyone,\nThe first-floor laundry room will be closed on Thursday, October 9, from 9:00 A.M. to 3:00 P.M. while a technician replaces two dryers. Please use the laundry room in the basement of Cedar Hall during this time. You will need your student ID card to enter the building. If you have clothes in the machines on Wednesday night, please remove them by 10:00 P.M. so that the technician can begin on time. Thank you for your understanding.\nJordan Reed\n\nWhere should residents do their laundry on Thursday?",
+     "choices": [
+      "In the basement of Cedar Hall",
+      "On the first floor of Maple Hall",
+      "In the technician's office",
+      "At a laundromat outside the campus"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "두 번째 문장에서 Cedar Hall 의 지하 세탁실을 이용하라고 합니다.",
+     "error_tag": "detail",
+     "id": "TOEFL-032-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "From: Jordan Reed, Residence Hall Office\nTo: All residents of Maple Hall\nSubject: Laundry room closed this Thursday\n\nHello everyone,\nThe first-floor laundry room will be closed on Thursday, October 9, from 9:00 A.M. to 3:00 P.M. while a technician replaces two dryers. Please use the laundry room in the basement of Cedar Hall during this time. You will need your student ID card to enter the building. If you have clothes in the machines on Wednesday night, please remove them by 10:00 P.M. so that the technician can begin on time. Thank you for your understanding.\nJordan Reed\n\nWhat should residents do by 10:00 P.M. on Wednesday?",
+     "choices": [
+      "Take their clothes out of the machines",
+      "Bring their student ID cards to the office",
+      "Call the technician",
+      "Move the dryers to the basement"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "수요일 밤 기계에 옷이 있으면 10시까지 꺼내 달라고 합니다.",
+     "error_tag": "detail",
+     "id": "TOEFL-032-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "From: Jordan Reed, Residence Hall Office\nTo: All residents of Maple Hall\nSubject: Laundry room closed this Thursday\n\nHello everyone,\nThe first-floor laundry room will be closed on Thursday, October 9, from 9:00 A.M. to 3:00 P.M. while a technician replaces two dryers. Please use the laundry room in the basement of Cedar Hall during this time. You will need your student ID card to enter the building. If you have clothes in the machines on Wednesday night, please remove them by 10:00 P.M. so that the technician can begin on time. Thank you for your understanding.\nJordan Reed\n\nHow long will the first-floor laundry room be closed on Thursday?",
+     "choices": [
+      "Six hours",
+      "Three hours",
+      "Nine hours",
+      "Until Friday"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "오전 9시부터 오후 3시까지이므로 6시간입니다.",
+     "error_tag": "calculation",
+     "id": "TOEFL-032-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Please ___ your clothes from the machines by 10:00 P.M. (꺼내다, 치우다)",
+     "answer_text": "remove",
+     "accepted_answers": [
+      "remove"
+     ],
+     "explanation_ko": "remove 는 '꺼내다, 치우다'이며 지문에도 나옵니다.",
+     "error_tag": "vocabulary",
+     "id": "TOEFL-032-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: The laundry room will be ___ on Thursday. (닫혀 있는)",
+     "answer_text": "closed",
+     "accepted_answers": [
+      "closed"
+     ],
+     "explanation_ko": "be closed 는 '닫혀 있다'입니다.",
+     "error_tag": "vocabulary",
+     "id": "TOEFL-032-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "학교나 건물의 임시 폐쇄를 알리는 짧은 영어 안내문을 두세 문장으로 써 보세요.",
+    "example_answer_en": "The gym will be closed on Friday from 8:00 A.M. to noon. Please use the pool instead. Thank you for your understanding.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-24",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-24"
+   }
   }
  ]
 }

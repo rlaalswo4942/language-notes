@@ -8003,6 +8003,224 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-38",
+   "day_index": 38,
+   "week_index": 6,
+   "level": "N1",
+   "unit_id": "N1-W06",
+   "lesson_type": "new",
+   "title_ko": "〜を踏まえて: ~을 토대로·감안하여",
+   "objective_ko": "〜を踏まえて로 앞의 사실·경험·의견을 고려해 판단·계획·제언을 하는 문장을 만든다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-37"
+   ],
+   "explanation_ko": "〜を踏{ふ}まえて는 ‘~을 토대로(감안·고려해서)’라는 뜻으로, 앞의 사실·경험·지적을 바탕에 두고 그것을 고려해 뒤의 판단·계획·제언을 한다는 격식 있는 표현입니다: 前回{ぜんかい}の反省{はんせい}を踏{ふ}まえて、計画{けいかく}を綿密{めんみつ}に立{た}てた. 명사에 붙고 〜を踏{ふ}まえた+명사 로 연결할 수 있습니다: 現場{げんば}の声{こえ}を踏{ふ}まえた改善案{かいぜんあん}. 뒤에는 検討{けんとう}する・提言{ていげん}する・見直{みなお}す・設定{せってい}する 등이 자주 옵니다. 〜に基{もと}づいて(N2)가 앞의 것에 따라 그대로 판단하는 느낌이라면, 〜を踏まえて는 앞의 사정을 고려해 판단하는 느낌이 있습니다. 부정형은 〜を踏まえずに 입니다.",
+   "usage_notes": [
+    "명사 + を踏まえて / を踏まえ / を踏まえた + 명사.",
+    "뒤에는 판단·검토·제언·계획 등이 온다.",
+    "〜に基づいて보다 ‘고려·반영’의 느낌이 강하다."
+   ],
+   "common_mistakes": [
+    "〜を踏まえて 뒤에 단순한 감정만 쓰면 어색합니다(悲しいを踏まえて X) → 명사를 써야 합니다",
+    "踏まえる를 ‘밟다’라는 물리적 의미로만 알고 있으면 뜻을 놓칩니다(비유적 사용)",
+    "〜に基づいて(근거에 따라)와 〜を踏まえて(고려하여)의 뉘앙스 차이에 주의"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "踏{ふ}まえる",
+     "reading_kana": "ふまえる",
+     "reading_romanized": "fumaeru",
+     "meaning_ko": "토대로 삼다, 감안하다",
+     "part_of_speech": "동사(2그룹)",
+     "id": "w-JP-N1-38-01"
+    },
+    {
+     "kind": "word",
+     "text": "提言{ていげん}",
+     "reading_kana": "ていげん",
+     "reading_romanized": "teigen",
+     "meaning_ko": "제언",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N1-38-02"
+    },
+    {
+     "kind": "word",
+     "text": "検証{けんしょう}",
+     "reading_kana": "けんしょう",
+     "reading_romanized": "kenshou",
+     "meaning_ko": "검증",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N1-38-03"
+    },
+    {
+     "kind": "word",
+     "text": "見直{みなお}す",
+     "reading_kana": "みなおす",
+     "reading_romanized": "minaosu",
+     "meaning_ko": "재검토하다",
+     "part_of_speech": "동사(1그룹)",
+     "id": "w-JP-N1-38-04"
+    },
+    {
+     "kind": "word",
+     "text": "課題{かだい}",
+     "reading_kana": "かだい",
+     "reading_romanized": "kadai",
+     "meaning_ko": "과제",
+     "part_of_speech": "명사",
+     "id": "w-JP-N1-38-05"
+    },
+    {
+     "kind": "word",
+     "text": "指摘{してき}",
+     "reading_kana": "してき",
+     "reading_romanized": "shiteki",
+     "meaning_ko": "지적",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N1-38-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "前回{ぜんかい}の反省{はんせい}を踏{ふ}まえて、今回{こんかい}は計画{けいかく}を綿密{めんみつ}に立{た}てた。",
+     "meaning_ko": "지난번 반성을 토대로 이번에는 계획을 면밀히 세웠다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "専門家{せんもんか}の指摘{してき}を踏{ふ}まえ、制度{せいど}の見直{みなお}しが検討{けんとう}されている。",
+     "meaning_ko": "전문가의 지적을 감안해 제도 재검토가 검토되고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "これまでの経緯{けいい}を踏{ふ}まえた上{うえ}で、慎重{しんちょう}に判断{はんだん}したい。",
+     "meaning_ko": "지금까지의 경위를 감안한 뒤 신중하게 판단하고 싶다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "調査{ちょうさ}の結果{けっか}を踏{ふ}まえて、提言{ていげん}をまとめた。",
+     "meaning_ko": "조사 결과를 토대로 제언을 정리했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "現場{げんば}の声{こえ}を踏{ふ}まえた改善案{かいぜんあん}が高{たか}く評価{ひょうか}された。",
+     "meaning_ko": "현장의 목소리를 반영한 개선안이 높이 평가받았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "人口減少{じんこうげんしょう}という現状{げんじょう}を踏{ふ}まえ、地域{ちいき}の交通{こうつう}のあり方{かた}が議論{ぎろん}された。",
+     "meaning_ko": "인구 감소라는 현상을 감안해 지역 교통의 바람직한 모습이 논의되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "過去{かこ}の事例{じれい}を踏{ふ}まえて、再発{さいはつ}防止策{ぼうしさく}を検証{けんしょう}する。",
+     "meaning_ko": "과거 사례를 토대로 재발 방지책을 검증한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "課題{かだい}を踏{ふ}まえ、来年度{らいねんど}の目標{もくひょう}を設定{せってい}した。",
+     "meaning_ko": "과제를 감안해 내년도 목표를 설정했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "事実関係{じじつかんけい}を踏{ふ}まえずに結論{けつろん}を出{だ}すのは危険{きけん}だ。",
+     "meaning_ko": "사실관계를 고려하지 않고 결론을 내리는 것은 위험하다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「前回の反省を踏まえて、計画を立てた」의 뜻으로 알맞은 것은?",
+     "options": [
+      "지난번 반성을 토대로 계획을 세웠다",
+      "지난번 반성을 무시하고 계획을 세웠다",
+      "지난번 반성이 끝나자마자 계획을 세웠다",
+      "지난번 반성 없이는 계획을 세울 수 없었다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜を踏まえて는 앞의 사실·반성을 토대로 삼는다는 뜻입니다.",
+     "id": "JP-N1-38-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「専門家の指摘（　）、制度の見直しが検討されている。」 ( )에 알맞은 말은?",
+     "options": [
+      "を踏まえ",
+      "をよそに",
+      "を禁じ得ず",
+      "と相まって"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘지적을 감안해 재검토가 검토되고 있다’이므로 を踏まえ가 알맞습니다.",
+     "id": "JP-N1-38-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "〜を踏まえて의 뜻으로 알맞은 것은?",
+     "options": [
+      "앞의 사실·의견을 근거로 삼아 고려하여",
+      "앞의 사실을 전혀 무시하고",
+      "앞의 일이 끝나자마자",
+      "앞의 일을 하지 않으면"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜を踏まえて는 ‘~을 토대로, 감안하여’입니다.",
+     "id": "JP-N1-38-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「調査の結果（　）、提言をまとめた。」 ( )에 알맞은 말은?",
+     "options": [
+      "を踏まえて",
+      "をものともせず",
+      "を皮切りに",
+      "を余儀なくされて"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘조사 결과를 토대로 제언을 정리했다’이므로 を踏まえて입니다.",
+     "id": "JP-N1-38-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「提言」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "teigen",
+     "accepted_answers": [
+      "teigen"
+     ],
+     "explanation_ko": "提言 = ていげん(teigen), ‘제언’입니다.",
+     "id": "JP-N1-38-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「検証」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kenshou",
+     "accepted_answers": [
+      "kenshou",
+      "kensho",
+      "kenshoo"
+     ],
+     "explanation_ko": "検証 = けんしょう(kenshou), ‘검증’입니다.",
+     "id": "JP-N1-38-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

@@ -8048,6 +8048,224 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N3-38",
+   "day_index": 38,
+   "week_index": 6,
+   "level": "N3",
+   "unit_id": "N3-W06",
+   "lesson_type": "new",
+   "title_ko": "〜たところ: ~했더니 (결과·사실 발견)",
+   "objective_ko": "동사 た形 + ところ로 ‘~해 봤더니 ~했다’라는 결과나 새로 알게 된 사실을 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N3-37"
+   ],
+   "explanation_ko": "동사의 た형에 ところ를 붙이면 어떤 행동을 해 본 결과 알게 된 사실이나 뜻밖의 결과를 말합니다: 店{みせ}に問{と}い合{あ}わせたところ、在庫{ざいこ}はもうないと言{い}われた(가게에 문의했더니 재고가 이제 없다고 들었다). 뒤에는 사실을 서술하는 과거형(〜だった・〜た・〜ことがわかった)이 오고, 〜しよう・〜してください 같은 의지·명령·희망은 오지 않습니다. 앞의 N3-9에서 배운 〜たところだ(막 ~한 참이다)와 모양이 비슷하지만, 문장이 ところ에서 끝나지 않고 뒤에 결과가 이어지면 이 ‘~했더니’의 용법입니다. 앞에서 한 일 자체는 보통 보고·확인·문의·시도처럼 결과를 기대하며 하는 행동입니다.",
+   "usage_notes": [
+    "동사 た형 + ところ、結果(과거형): ~했더니 ~했다.",
+    "뒤에는 사실·결과를 쓰고 의지·명령은 쓰지 않는다.",
+    "〜たところだ(막 ~한 참이다)와 구별한다."
+   ],
+   "common_mistakes": [
+    "報告したところ、すぐに行こう(X) → 報告したところ、すぐに対応が決まった(O) — 뒤는 결과 사실",
+    "今、家を出たところ、雨が降っていた(O: ~했더니) / 今、家を出たところだ(O: 막 ~한 참) — 뒤에 이어지는지 끝나는지 확인",
+    "ところ 앞은 た형: 確認するところ(X) → 確認したところ(O)"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "担当者{たんとうしゃ}",
+     "reading_kana": "たんとうしゃ",
+     "reading_romanized": "tantousha",
+     "meaning_ko": "담당자",
+     "part_of_speech": "명사",
+     "id": "w-JP-N3-38-01"
+    },
+    {
+     "kind": "word",
+     "text": "問{と}い合{あ}わせる",
+     "reading_kana": "といあわせる",
+     "reading_romanized": "toiawaseru",
+     "meaning_ko": "문의하다",
+     "part_of_speech": "동사(2그룹)",
+     "id": "w-JP-N3-38-02"
+    },
+    {
+     "kind": "word",
+     "text": "外出中{がいしゅつちゅう}",
+     "reading_kana": "がいしゅつちゅう",
+     "reading_romanized": "gaishutsuchuu",
+     "meaning_ko": "외출 중",
+     "part_of_speech": "명사",
+     "id": "w-JP-N3-38-03"
+    },
+    {
+     "kind": "word",
+     "text": "在庫{ざいこ}",
+     "reading_kana": "ざいこ",
+     "reading_romanized": "zaiko",
+     "meaning_ko": "재고",
+     "part_of_speech": "명사",
+     "id": "w-JP-N3-38-04"
+    },
+    {
+     "kind": "word",
+     "text": "報告{ほうこく}",
+     "reading_kana": "ほうこく",
+     "reading_romanized": "houkoku",
+     "meaning_ko": "보고",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N3-38-05"
+    },
+    {
+     "kind": "word",
+     "text": "判明{はんめい}",
+     "reading_kana": "はんめい",
+     "reading_romanized": "hanmei",
+     "meaning_ko": "판명",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N3-38-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "店{みせ}に問{と}い合{あ}わせたところ、在庫{ざいこ}はもうないと言{い}われた。",
+     "meaning_ko": "가게에 문의했더니 재고가 이제 없다고 들었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "電話{でんわ}したところ、担当者{たんとうしゃ}は外出中{がいしゅつちゅう}だった。",
+     "meaning_ko": "전화했더니 담당자는 외출 중이었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "駅{えき}に着{つ}いたところ、電車{でんしゃ}はもう出{で}てしまっていた。",
+     "meaning_ko": "역에 도착했더니 전철은 이미 떠나 버렸다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "資料{しりょう}を確認{かくにん}したところ、数字{すうじ}に間違{まちが}いがあることが判明{はんめい}した。",
+     "meaning_ko": "자료를 확인했더니 숫자에 오류가 있음이 판명되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "先生{せんせい}に相談{そうだん}したところ、すぐに解決{かいけつ}した。",
+     "meaning_ko": "선생님께 상담했더니 바로 해결되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "窓{まど}を開{あ}けたところ、涼{すず}しい風{かぜ}が入{はい}ってきた。",
+     "meaning_ko": "창문을 열었더니 시원한 바람이 들어왔다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "試{ため}しに食{た}べてみたところ、意外{いがい}においしかった。",
+     "meaning_ko": "시험 삼아 먹어 봤더니 의외로 맛있었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "部長{ぶちょう}に報告{ほうこく}したところ、計画{けいかく}を変更{へんこう}することになった。",
+     "meaning_ko": "부장님께 보고했더니 계획을 변경하게 되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "今{いま}、家{いえ}を出{で}たところだ。",
+     "meaning_ko": "지금 막 집을 나선 참이다. (〜たところだ와 비교)",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「問い合わせたところ、在庫はなかった」의 뜻으로 알맞은 것은?",
+     "options": [
+      "문의했더니 재고가 없었다",
+      "문의하려는 참에 재고가 없어졌다",
+      "문의해야 재고가 없다",
+      "문의해도 재고를 사지 않았다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜たところ는 ‘~했더니’이며 결과 사실이 뒤에 옵니다.",
+     "id": "JP-N3-38-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「電話した（　）、担当者は外出中だった。」 ( )에 알맞은 말은?",
+     "options": [
+      "ところ",
+      "ばかり",
+      "はず",
+      "うち"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "결과를 알게 된 ‘~했더니’는 〜たところ입니다.",
+     "id": "JP-N3-38-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「今、家を出たところです」의 뜻은?",
+     "options": [
+      "지금 막 집을 나선 참이에요",
+      "집을 나섰더니 비가 왔어요",
+      "집을 나설 거예요",
+      "집을 나서지 않았어요"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "문장이 ところ(です)로 끝나는 〜たところだ는 ‘막 ~한 참’입니다.",
+     "id": "JP-N3-38-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "〜たところ 뒤에 오는 문장으로 알맞은 것은?",
+     "options": [
+      "在庫はなかった。",
+      "在庫を見に行こう。",
+      "在庫を見に行きなさい。",
+      "在庫を見に行きたい。"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜たところ 뒤에는 사실·결과가 오며 의지·명령·희망은 오지 않습니다.",
+     "id": "JP-N3-38-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「在庫」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "zaiko",
+     "accepted_answers": [
+      "zaiko"
+     ],
+     "explanation_ko": "在庫 = ざいこ(zaiko), ‘재고’입니다.",
+     "id": "JP-N3-38-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「担当者」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "tantousha",
+     "accepted_answers": [
+      "tantousha",
+      "tantosha",
+      "tantoosha"
+     ],
+     "explanation_ko": "担当者 = たんとうしゃ(tantousha), ‘담당자’입니다.",
+     "id": "JP-N3-38-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }
