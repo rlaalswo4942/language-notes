@@ -7496,6 +7496,201 @@
     "version": 1,
     "last_revised": "2026-11-24"
    }
+  },
+  {
+   "id": "A1-039",
+   "level": "A1",
+   "track": "foundation",
+   "day": 39,
+   "title_ko": "Where are you from?: 나라·국적·언어 말하기",
+   "objective_ko": "출신과 국적, 쓰는 언어를 묻고 대답한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-25"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "출신을 물을 때는 Where are you from? 이라고 하고, 대답은 I'm from Korea. 처럼 from + 나라 이름입니다. 나라 이름과 국적을 나타내는 말은 다릅니다: Korea → Korean(한국의, 한국 사람), Japan → Japanese, China → Chinese, the USA → American, Canada → Canadian. 국적은 be동사 뒤에 써서 말합니다: I'm Korean. / Are you Japanese? — Yes, I am. 쓰는 언어는 동사 speak 로 말합니다: I speak Korean and English. 나라·국적·언어 이름은 문장 중간에서도 첫 글자를 대문자로 씁니다. 3인칭 단수는 She is from Canada. / He speaks Japanese. 처럼 be동사와 -s 에 주의합니다.",
+    "common_mistake_ko": "I'm from Korean.(X) → I'm from Korea. / I'm Korean.(O) — from 뒤에는 나라 이름. / She from Canada.(X) → She is from Canada.(O) — be동사 빠뜨림. / korean, english(X) → Korean, English(O) — 대문자. / He speak English.(X) → He speaks English.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "country",
+     "part_of_speech": "명사",
+     "meaning_ko": "나라",
+     "example_en": "Korea is a country in Asia.",
+     "example_ko": "한국은 아시아에 있는 나라예요."
+    },
+    {
+     "word": "city",
+     "part_of_speech": "명사",
+     "meaning_ko": "도시",
+     "example_en": "Seoul is a big city.",
+     "example_ko": "서울은 큰 도시예요."
+    },
+    {
+     "word": "language",
+     "part_of_speech": "명사",
+     "meaning_ko": "언어, 말",
+     "example_en": "English is a useful language.",
+     "example_ko": "영어는 유용한 언어예요."
+    },
+    {
+     "word": "capital",
+     "part_of_speech": "명사",
+     "meaning_ko": "수도",
+     "example_en": "Seoul is the capital of Korea.",
+     "example_ko": "서울은 한국의 수도예요."
+    },
+    {
+     "word": "Korean",
+     "part_of_speech": "형용사·명사",
+     "meaning_ko": "한국의, 한국 사람, 한국어",
+     "example_en": "My teacher is Korean.",
+     "example_ko": "우리 선생님은 한국 사람이에요."
+    },
+    {
+     "word": "American",
+     "part_of_speech": "형용사·명사",
+     "meaning_ko": "미국의, 미국 사람",
+     "example_en": "He is American.",
+     "example_ko": "그는 미국 사람이에요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Where are you from?",
+     "ko": "어디에서 오셨어요?(출신이 어디예요?)"
+    },
+    {
+     "en": "I'm from Korea.",
+     "ko": "저는 한국에서 왔어요."
+    },
+    {
+     "en": "She is from Japan. She is Japanese.",
+     "ko": "그녀는 일본에서 왔어요. 일본 사람이에요."
+    },
+    {
+     "en": "He is from the USA. He is American.",
+     "ko": "그는 미국에서 왔어요. 미국 사람이에요."
+    },
+    {
+     "en": "Are you Chinese? — No, I'm not. I'm Korean.",
+     "ko": "중국 사람이에요? — 아니요, 저는 한국 사람이에요."
+    },
+    {
+     "en": "My teacher is from Canada.",
+     "ko": "우리 선생님은 캐나다 출신이에요."
+    },
+    {
+     "en": "What language do you speak? — I speak Korean and a little English.",
+     "ko": "어떤 언어를 해요? — 한국어와 영어를 조금 해요."
+    },
+    {
+     "en": "Seoul is a big city in Korea.",
+     "ko": "서울은 한국에 있는 큰 도시예요."
+    },
+    {
+     "en": "My friend speaks Japanese and English.",
+     "ko": "내 친구는 일본어와 영어를 해요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "\"Where are you from?\"에 알맞은 대답은?",
+     "choices": [
+      "I'm from Korea.",
+      "I'm fine, thank you.",
+      "I'm twelve years old.",
+      "I'm a student."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "출신을 묻는 질문에는 I'm from + 나라 이름 으로 답합니다.",
+     "error_tag": "where-from",
+     "id": "A1-039-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "일본 사람(일본의)을 뜻하는 영어 단어는?",
+     "choices": [
+      "Japanese",
+      "Japan",
+      "Japaneses",
+      "Japanian"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Japan 은 나라 이름, 일본 사람·일본의는 Japanese 입니다.",
+     "error_tag": "nationality",
+     "id": "A1-039-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "She is from Canada.",
+      "She from Canada.",
+      "She is from the Canada.",
+      "She are from Canada."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "주어 She 뒤에는 is 가 필요하고, Canada 에는 the 를 붙이지 않습니다.",
+     "error_tag": "be-verb",
+     "id": "A1-039-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "나라·국적·언어 이름을 쓸 때 맞는 것은?",
+     "choices": [
+      "문장 중간에서도 첫 글자를 대문자로 쓴다",
+      "항상 소문자로 쓴다",
+      "문장 맨 앞일 때만 대문자로 쓴다",
+      "마음대로 쓴다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Korea, Korean, English 처럼 고유한 이름은 항상 대문자로 시작합니다.",
+     "error_tag": "capital-letter",
+     "id": "A1-039-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: He is from the USA. He is ___. (미국 사람)",
+     "answer_text": "American",
+     "accepted_answers": [
+      "american"
+     ],
+     "explanation_ko": "미국 사람, 미국의는 American 입니다.",
+     "error_tag": "nationality",
+     "id": "A1-039-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: I ___ Korean and English. (말해요)",
+     "answer_text": "speak",
+     "accepted_answers": [
+      "speak"
+     ],
+     "explanation_ko": "언어를 말한다는 동사는 speak 입니다.",
+     "error_tag": "speak-language",
+     "id": "A1-039-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "내가 어디에서 왔고 어떤 언어를 말하는지 영어 문장 두 개를 써 보세요.",
+    "example_answer_en": "I'm from Korea. I speak Korean and a little English.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-25",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-25"
+   }
   }
  ]
 }

@@ -8287,6 +8287,230 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-39",
+   "day_index": 39,
+   "week_index": 6,
+   "level": "N4",
+   "unit_id": "N4-W06",
+   "lesson_type": "new",
+   "title_ko": "〜という: ~라고 하는 (이름·내용 소개)",
+   "objective_ko": "〜という로 이름을 소개하거나 들은 이야기의 내용을 말하는 문장을 만든다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-38"
+   ],
+   "explanation_ko": "〜という는 ‘~라고 하는’이라는 뜻으로 두 가지로 씁니다. ① 이름 소개: 「さくら」という 店{みせ}(‘사쿠라’라는 가게), 田中{たなか}さんという 人{ひと}(다나카 씨라는 사람). 처음 듣는 이름을 상대에게 알려 줄 때 편리합니다. ② 내용 설명: 〜という 話{はなし}・連絡{れんらく}・意味{いみ}처럼 뒤의 명사가 어떤 내용인지 앞에서 말해 줍니다: 友{とも}だちが 引{ひ}っ越{こ}すという 話{はなし}(친구가 이사한다는 이야기). 내용 부분은 보통형(辞書形・た形・ない形)으로 쓰고, 명사와 な형용사는 だ를 붙여 〜だという 로 씁니다: 父{ちち}が 病気{びょうき}だという 連絡{れんらく}. 이름을 물을 때는 何{なん}という 〜ですか(뭐라고 하는 ~예요?)입니다.",
+   "usage_notes": [
+    "이름 + という + 명사: 「さくら」という 店.",
+    "보통형 + という + 話・連絡・意味 등.",
+    "명사·な형용사는 〜だという.",
+    "묻기: 何という 〜ですか."
+   ],
+   "common_mistakes": [
+    "「さくら」は 店です という 店(X) → 「さくら」という 店(O) — 이름 + という + 명사",
+    "病気だ という 連絡(X) → 病気だという 連絡(O) — 〜だという는 한 덩어리로 씁니다",
+    "引っ越すです という 話(X) → 引っ越すという 話(O) — ですます형이 아니라 보통형"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "有名{ゆうめい}",
+     "reading_kana": "ゆうめい",
+     "reading_romanized": "yuumei",
+     "meaning_ko": "유명함",
+     "part_of_speech": "な형용사",
+     "id": "w-JP-N4-39-01"
+    },
+    {
+     "kind": "word",
+     "text": "話{はなし}",
+     "reading_kana": "はなし",
+     "reading_romanized": "hanashi",
+     "meaning_ko": "이야기",
+     "part_of_speech": "명사",
+     "id": "w-JP-N4-39-02"
+    },
+    {
+     "kind": "word",
+     "text": "名前{なまえ}",
+     "reading_kana": "なまえ",
+     "reading_romanized": "namae",
+     "meaning_ko": "이름",
+     "part_of_speech": "명사",
+     "id": "w-JP-N4-39-03"
+    },
+    {
+     "kind": "word",
+     "text": "引{ひ}っ越{こ}す",
+     "reading_kana": "ひっこす",
+     "reading_romanized": "hikkosu",
+     "meaning_ko": "이사하다",
+     "part_of_speech": "동사(1그룹)",
+     "id": "w-JP-N4-39-04"
+    },
+    {
+     "kind": "word",
+     "text": "近所{きんじょ}",
+     "reading_kana": "きんじょ",
+     "reading_romanized": "kinjo",
+     "meaning_ko": "근처, 이웃",
+     "part_of_speech": "명사",
+     "id": "w-JP-N4-39-05"
+    },
+    {
+     "kind": "word",
+     "text": "歌手{かしゅ}",
+     "reading_kana": "かしゅ",
+     "reading_romanized": "kashu",
+     "meaning_ko": "가수",
+     "part_of_speech": "명사",
+     "id": "w-JP-N4-39-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "「さくら」という 店{みせ}を 知{し}っていますか。",
+     "meaning_ko": "‘사쿠라’라는 가게를 알아요?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "田中{たなか}さんという 人{ひと}から 電話{でんわ}が ありました。",
+     "meaning_ko": "다나카 씨라는 사람에게서 전화가 왔어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "これは 何{なん}という 花{はな}ですか。",
+     "meaning_ko": "이것은 뭐라고 하는 꽃이에요?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "近所{きんじょ}に 「ひまわり」という パン屋{や}が できました。",
+     "meaning_ko": "근처에 ‘해바라기’라는 빵집이 생겼어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "友{とも}だちが 来月{らいげつ} 引{ひ}っ越{こ}すという 話{はなし}を 聞{き}きました。",
+     "meaning_ko": "친구가 다음 달에 이사한다는 이야기를 들었어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "山田{やまだ}さんが 結婚{けっこん}するという 話{はなし}は 本当{ほんとう}ですか。",
+     "meaning_ko": "야마다 씨가 결혼한다는 이야기는 사실이에요?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "これは 「ありがとう」という 意味{いみ}です。",
+     "meaning_ko": "이것은 ‘고마워요’라는 뜻이에요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "「ゆめ」という 歌{うた}が 好{す}きです。",
+     "meaning_ko": "‘꿈’이라는 노래를 좋아해요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "東京{とうきょう}には 渋谷{しぶや}という 有名{ゆうめい}な 町{まち}が あります。",
+     "meaning_ko": "도쿄에는 시부야라는 유명한 동네가 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "父{ちち}が 病気{びょうき}だという 連絡{れんらく}が ありました。",
+     "meaning_ko": "아버지가 편찮으시다는 연락이 있었어요.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「「さくら」という 店を 知っていますか」의 뜻으로 알맞은 것은?",
+     "options": [
+      "‘사쿠라’라는 가게를 알아요?",
+      "‘사쿠라’에서 가게를 해요?",
+      "‘사쿠라’ 가게가 어디예요?",
+      "‘사쿠라’는 가게가 아니에요?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "名前 + という + 名詞는 ‘~라는 ~’입니다.",
+     "id": "JP-N4-39-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「田中さん（　）人から 電話が ありました。」 ( )에 알맞은 말은?",
+     "options": [
+      "という",
+      "から",
+      "まで",
+      "より"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘다나카 씨라는 사람’이므로 という가 알맞습니다.",
+     "id": "JP-N4-39-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「友だちが 引っ越すという 話を 聞きました」의 뜻은?",
+     "options": [
+      "친구가 이사한다는 이야기를 들었어요",
+      "친구에게 이사를 하라는 말을 들었어요",
+      "친구가 이사를 도와줬어요",
+      "친구와 이사 이야기를 하지 않았어요"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "引っ越す + という + 話는 ‘이사한다는 이야기’입니다.",
+     "id": "JP-N4-39-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「これは 何という 花ですか」의 뜻은?",
+     "options": [
+      "이것은 뭐라고 하는 꽃이에요?",
+      "이것은 어디의 꽃이에요?",
+      "이것은 누가 준 꽃이에요?",
+      "이것은 언제 핀 꽃이에요?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "何という 〜ですか는 이름을 묻는 말입니다.",
+     "id": "JP-N4-39-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「有名」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "yuumei",
+     "accepted_answers": [
+      "yuumei",
+      "yumei",
+      "yuumee"
+     ],
+     "explanation_ko": "有名 = ゆうめい(yuumei), ‘유명함’입니다.",
+     "id": "JP-N4-39-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「近所」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kinjo",
+     "accepted_answers": [
+      "kinjo"
+     ],
+     "explanation_ko": "近所 = きんじょ(kinjo), ‘근처, 이웃’입니다.",
+     "id": "JP-N4-39-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

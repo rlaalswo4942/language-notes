@@ -7473,6 +7473,201 @@
     "version": 1,
     "last_revised": "2026-11-24"
    }
+  },
+  {
+   "id": "A2-039",
+   "level": "A2",
+   "track": "foundation",
+   "day": 39,
+   "title_ko": "아플 때 말하기: What's the matter? / I have a headache",
+   "objective_ko": "어디가 어떻게 아픈지 말하고, 아픈 사람에게 간단히 충고한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-25"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "아픈 사람에게는 What's the matter? 또는 What's wrong? 이라고 묻습니다. 증상은 have + a + 증상으로 말합니다: I have a headache(두통) / a fever(열) / a cough(기침) / a cold(감기) / a sore throat(목 아픔) / a stomachache(복통). 아픈 부위를 주어로 해서 동사 hurt 로도 말합니다: My back hurts. / My legs hurt. 몸 상태는 I don't feel well. / I feel sick. 처럼 말합니다. 아픈 사람에게는 앞에서 배운 should 로 충고합니다: You should rest. / You should take some medicine. / You should see a doctor. 증상 이름 앞에는 보통 a 를 붙입니다(have a headache).",
+    "common_mistake_ko": "I have headache.(X) → I have a headache.(O) / I am headache.(X) → I have a headache.(O) / My back hurt.(X) → My back hurts.(O) — 부위가 단수면 hurts. / You should to rest.(X) → You should rest.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "toothache",
+     "part_of_speech": "명사",
+     "meaning_ko": "치통",
+     "example_en": "I have a toothache.",
+     "example_ko": "저는 이가 아파요."
+    },
+    {
+     "word": "fever",
+     "part_of_speech": "명사",
+     "meaning_ko": "열",
+     "example_en": "She has a fever.",
+     "example_ko": "그녀는 열이 있어요."
+    },
+    {
+     "word": "cough",
+     "part_of_speech": "명사·동사",
+     "meaning_ko": "기침, 기침하다",
+     "example_en": "He has a bad cough.",
+     "example_ko": "그는 기침이 심해요."
+    },
+    {
+     "word": "pharmacy",
+     "part_of_speech": "명사",
+     "meaning_ko": "약국",
+     "example_en": "You can buy it at the pharmacy.",
+     "example_ko": "약국에서 살 수 있어요."
+    },
+    {
+     "word": "sneeze",
+     "part_of_speech": "동사",
+     "meaning_ko": "재채기하다",
+     "example_en": "I sneeze a lot in spring.",
+     "example_ko": "저는 봄에 재채기를 많이 해요."
+    },
+    {
+     "word": "matter",
+     "part_of_speech": "명사",
+     "meaning_ko": "문제, 일",
+     "example_en": "What's the matter?",
+     "example_ko": "무슨 일이에요?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "What's the matter? — I have a headache.",
+     "ko": "무슨 일이에요? — 머리가 아파요."
+    },
+    {
+     "en": "You look tired. Are you OK?",
+     "ko": "피곤해 보여요. 괜찮아요?"
+    },
+    {
+     "en": "I have a sore throat and a cough.",
+     "ko": "목이 아프고 기침이 나요."
+    },
+    {
+     "en": "My back hurts after the long walk.",
+     "ko": "오래 걸었더니 등이 아파요."
+    },
+    {
+     "en": "She has a fever, so she stays in bed.",
+     "ko": "그녀는 열이 있어서 침대에 누워 있어요."
+    },
+    {
+     "en": "You should take some medicine.",
+     "ko": "약을 좀 먹는 게 좋겠어요."
+    },
+    {
+     "en": "He should rest at home today.",
+     "ko": "그는 오늘 집에서 쉬는 게 좋겠어요."
+    },
+    {
+     "en": "It hurts when I walk.",
+     "ko": "걸을 때 아파요."
+    },
+    {
+     "en": "I don't feel well. I'd like to see a doctor.",
+     "ko": "몸이 좋지 않아요. 진찰을 받고 싶어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "\"What's the matter?\"에 알맞은 대답은?",
+     "choices": [
+      "I have a stomachache.",
+      "I'm from Spain.",
+      "It's eight o'clock.",
+      "Yes, I do."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "무슨 일이냐는 질문에는 증상을 말합니다.",
+     "error_tag": "symptom",
+     "id": "A2-039-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "I have a headache.",
+      "I have headache.",
+      "I am a headache.",
+      "I has a headache."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "증상 앞에는 a 를 붙이고 I 뒤에는 have 를 씁니다.",
+     "error_tag": "have-a",
+     "id": "A2-039-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'등이 아파요'를 올바르게 말한 문장은?",
+     "choices": [
+      "My back hurts.",
+      "My back hurt.",
+      "I back hurts.",
+      "My back are hurt."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "부위(단수)가 주어이면 My back hurts. 입니다.",
+     "error_tag": "hurt",
+     "id": "A2-039-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "She has a fever. 에게 알맞은 충고는?",
+     "choices": [
+      "She should rest at home.",
+      "She should play outside all day.",
+      "She shouldn't rest at all.",
+      "She should not take any medicine or rest."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "열이 있을 때는 집에서 쉬는 것이 알맞은 충고입니다.",
+     "error_tag": "advice",
+     "id": "A2-039-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: What's the ___? — I have a cough. (무슨 일이에요?)",
+     "answer_text": "matter",
+     "accepted_answers": [
+      "matter"
+     ],
+     "explanation_ko": "What's the matter? 는 '무슨 일이에요?'입니다.",
+     "error_tag": "vocabulary",
+     "id": "A2-039-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: You should take some ___. (약)",
+     "answer_text": "medicine",
+     "accepted_answers": [
+      "medicine"
+     ],
+     "explanation_ko": "약은 medicine 입니다.",
+     "error_tag": "vocabulary",
+     "id": "A2-039-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "몸이 아픈 상황을 가정하고, 증상을 말하는 영어 문장과 충고하는 영어 문장을 하나씩 써 보세요.",
+    "example_answer_en": "I have a fever and a sore throat. You should rest and drink warm water.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-25",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-25"
+   }
   }
  ]
 }

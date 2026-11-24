@@ -8297,6 +8297,228 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N5-39",
+   "day_index": 39,
+   "week_index": 6,
+   "level": "N5",
+   "unit_id": "N5-W06",
+   "lesson_type": "new",
+   "title_ko": "〜の 前・後ろ・隣・近く・間: 위치 말하기 2",
+   "objective_ko": "前・後ろ・隣・近く・間으로 사물과 사람이 어디에 있는지 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N5-38"
+   ],
+   "explanation_ko": "앞에서 배운 上・下・中 말고도 위치를 나타내는 말이 많습니다. 〜の 前{まえ}(앞), 〜の 後{うし}ろ(뒤), 〜の 隣{となり}(옆, 바로 이웃), 〜の 近{ちか}く(근처), AとBの 間{あいだ}(A와 B 사이)입니다. 문장 형태는 ‘장소 + に + 사물이 あります / 사람·동물이 います’ 입니다: 駅{えき}の 前{まえ}に 銀行{ぎんこう}が あります(역 앞에 은행이 있어요). 先生{せんせい}は 教室{きょうしつ}の 前{まえ}に います(선생님은 교실 앞에 있어요). 둘 사이를 말할 때는 AとBの 間に 라고 합니다.",
+   "usage_notes": [
+    "〜の + 위치어 + に + あります / います.",
+    "사물·건물은 あります, 사람·동물은 います.",
+    "둘 사이: AとBの 間に."
+   ],
+   "common_mistakes": [
+    "駅に 前に 銀行が あります(X) → 駅の 前に 銀行が あります(O) — 위치어 앞에는 の",
+    "先生は 教室の 前に あります(X) → います(O) — 사람은 います",
+    "間 앞에는 두 개를 と로 이어 말합니다: 本屋と 銀行の 間に"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "前{まえ}",
+     "reading_kana": "まえ",
+     "reading_romanized": "mae",
+     "meaning_ko": "앞",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-39-01"
+    },
+    {
+     "kind": "word",
+     "text": "後{うし}ろ",
+     "reading_kana": "うしろ",
+     "reading_romanized": "ushiro",
+     "meaning_ko": "뒤",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-39-02"
+    },
+    {
+     "kind": "word",
+     "text": "隣{となり}",
+     "reading_kana": "となり",
+     "reading_romanized": "tonari",
+     "meaning_ko": "옆, 이웃",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-39-03"
+    },
+    {
+     "kind": "word",
+     "text": "近{ちか}く",
+     "reading_kana": "ちかく",
+     "reading_romanized": "chikaku",
+     "meaning_ko": "근처",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-39-04"
+    },
+    {
+     "kind": "word",
+     "text": "間{あいだ}",
+     "reading_kana": "あいだ",
+     "reading_romanized": "aida",
+     "meaning_ko": "사이",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-39-05"
+    },
+    {
+     "kind": "word",
+     "text": "銀行{ぎんこう}",
+     "reading_kana": "ぎんこう",
+     "reading_romanized": "ginkou",
+     "meaning_ko": "은행",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-39-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "駅{えき}の 前{まえ}に 銀行{ぎんこう}が あります。",
+     "meaning_ko": "역 앞에 은행이 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "銀行{ぎんこう}の 隣{となり}に 本屋{ほんや}が あります。",
+     "meaning_ko": "은행 옆에 서점이 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "学校{がっこう}の 後{うし}ろに 公園{こうえん}が あります。",
+     "meaning_ko": "학교 뒤에 공원이 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "本屋{ほんや}と 銀行{ぎんこう}の 間{あいだ}に 花屋{はなや}が あります。",
+     "meaning_ko": "서점과 은행 사이에 꽃집이 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "家{いえ}の 近{ちか}くに コンビニが あります。",
+     "meaning_ko": "집 근처에 편의점이 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "先生{せんせい}は 教室{きょうしつ}の 前{まえ}に います。",
+     "meaning_ko": "선생님은 교실 앞에 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "友{とも}だちは わたしの 隣{となり}に います。",
+     "meaning_ko": "친구는 내 옆에 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "犬{いぬ}は いすの 後{うし}ろに います。",
+     "meaning_ko": "개는 의자 뒤에 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "駅{えき}の 近{ちか}くに 大{おお}きい 病院{びょういん}が あります。",
+     "meaning_ko": "역 근처에 큰 병원이 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "郵便局{ゆうびんきょく}は 銀行{ぎんこう}の 前{まえ}ですか。",
+     "meaning_ko": "우체국은 은행 앞이에요?",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「駅の 前に 銀行が あります」의 뜻으로 알맞은 것은?",
+     "options": [
+      "역 앞에 은행이 있어요",
+      "역 뒤에 은행이 있어요",
+      "역 안에 은행이 있어요",
+      "역 옆에 은행이 없어요"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "前는 ‘앞’이므로 ‘역 앞에 은행이 있어요’입니다.",
+     "id": "JP-N5-39-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「学校の（　）に 公園が あります。」 ( )에 알맞은 말은? (학교 뒤에 공원이 있어요)",
+     "options": [
+      "後ろ",
+      "前",
+      "隣",
+      "間"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘뒤’는 後ろ입니다.",
+     "id": "JP-N5-39-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「本屋と 銀行の 間に 花屋が あります」의 뜻은?",
+     "options": [
+      "서점과 은행 사이에 꽃집이 있어요",
+      "서점 옆에 은행과 꽃집이 있어요",
+      "서점 앞에 꽃집이 있어요",
+      "은행 근처에 서점이 없어요"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "AとBの 間に는 ‘A와 B 사이에’입니다.",
+     "id": "JP-N5-39-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「先生は 教室の 前に（　）。」 ( )에 알맞은 말은? (선생님은 교실 앞에 있어요)",
+     "options": [
+      "います",
+      "あります",
+      "しました",
+      "でした"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "사람이 있다고 할 때는 います를 씁니다.",
+     "id": "JP-N5-39-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「隣」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "tonari",
+     "accepted_answers": [
+      "tonari"
+     ],
+     "explanation_ko": "隣 = となり(tonari), ‘옆, 이웃’입니다.",
+     "id": "JP-N5-39-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「近く」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "chikaku",
+     "accepted_answers": [
+      "chikaku",
+      "tikaku"
+     ],
+     "explanation_ko": "近く = ちかく(chikaku), ‘근처’입니다.",
+     "id": "JP-N5-39-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

@@ -8221,6 +8221,222 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-39",
+   "day_index": 39,
+   "week_index": 6,
+   "level": "N1",
+   "unit_id": "N1-W06",
+   "lesson_type": "new",
+   "title_ko": "〜かたわら: ~하는 한편 (본업과 병행)",
+   "objective_ko": "〜かたわら로 본업을 하면서 다른 활동을 꾸준히 병행하는 모습을 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-38"
+   ],
+   "explanation_ko": "〜かたわら(傍{かたわ}ら)는 ‘~하는 한편, ~하는 틈틈이’라는 뜻으로, 중심이 되는 일(본업·주된 활동)을 하면서 그와 별도로 다른 활동을 오랫동안 꾸준히 병행한다는 격식 있는 표현입니다. 동사 사전형 또는 명사 + の에 붙습니다: 会社員{かいしゃいん}として働{はたら}くかたわら、小説{しょうせつ}を書{か}いている. 앞이 본업, 뒤가 병행하는 활동이며, 짧은 동시 동작을 나타내는 〜ながら와 달리 일정 기간 이어지는 활동에 씁니다(歩{ある}きながら話{はな}す를 歩くかたわら話す라고는 하지 않음). 뒤에는 부업·취미·봉사·연구 같은 활동이 오고, 〜ている・〜てきた 와 어울립니다.",
+   "usage_notes": [
+    "동사 사전형 / 명사 + の + かたわら.",
+    "앞 = 본업, 뒤 = 병행하는 활동.",
+    "일정 기간 이어지는 활동에 쓴다(짧은 동시 동작은 ながら).",
+    "격식 있는 글에서 자주 쓰인다."
+   ],
+   "common_mistakes": [
+    "歩くかたわら 話す(X) → 歩きながら 話す(O) — 짧은 동시 동작에는 ながら",
+    "〜かたわら 뒤에 일회성 행동을 쓰면 어색합니다(昨日だけ〜X) → 꾸준히 이어지는 활동을 씁니다",
+    "앞과 뒤의 주종 관계가 바뀌지 않도록 주의합니다 — 앞이 본업"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "傍{かたわ}ら",
+     "reading_kana": "かたわら",
+     "reading_romanized": "katawara",
+     "meaning_ko": "~하는 한편, 곁",
+     "part_of_speech": "명사・접속 표현",
+     "id": "w-JP-N1-39-01"
+    },
+    {
+     "kind": "word",
+     "text": "本業{ほんぎょう}",
+     "reading_kana": "ほんぎょう",
+     "reading_romanized": "hongyou",
+     "meaning_ko": "본업",
+     "part_of_speech": "명사",
+     "id": "w-JP-N1-39-02"
+    },
+    {
+     "kind": "word",
+     "text": "両立{りょうりつ}",
+     "reading_kana": "りょうりつ",
+     "reading_romanized": "ryouritsu",
+     "meaning_ko": "양립, 병행",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N1-39-03"
+    },
+    {
+     "kind": "word",
+     "text": "創作{そうさく}",
+     "reading_kana": "そうさく",
+     "reading_romanized": "sousaku",
+     "meaning_ko": "창작",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N1-39-04"
+    },
+    {
+     "kind": "word",
+     "text": "携{たずさ}わる",
+     "reading_kana": "たずさわる",
+     "reading_romanized": "tazusawaru",
+     "meaning_ko": "관여하다, 종사하다",
+     "part_of_speech": "동사(1그룹)",
+     "id": "w-JP-N1-39-05"
+    },
+    {
+     "kind": "word",
+     "text": "地道{じみち}",
+     "reading_kana": "じみち",
+     "reading_romanized": "jimichi",
+     "meaning_ko": "착실함, 꾸준함",
+     "part_of_speech": "な형용사",
+     "id": "w-JP-N1-39-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "彼{かれ}は会社員{かいしゃいん}として働{はたら}くかたわら、休日{きゅうじつ}に小説{しょうせつ}を書{か}いている。",
+     "meaning_ko": "그는 회사원으로 일하는 한편, 휴일에 소설을 쓰고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "母{はは}は家事{かじ}のかたわら、地域{ちいき}の子{こ}ども食堂{しょくどう}で手伝{てつだ}いをしている。",
+     "meaning_ko": "어머니는 집안일을 하는 한편, 지역 어린이 식당에서 일손을 돕고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "教師{きょうし}を務{つと}めるかたわら、地元{じもと}の歴史{れきし}の研究{けんきゅう}にも携{たずさ}わってきた。",
+     "meaning_ko": "교사로 일하는 한편, 지역 역사 연구에도 관여해 왔다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼女{かのじょ}は本業{ほんぎょう}のかたわら、地道{じみち}な創作{そうさく}活動{かつどう}を続{つづ}けている。",
+     "meaning_ko": "그녀는 본업과 병행해 꾸준히 창작 활동을 이어 가고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "農業{のうぎょう}を営{いとな}むかたわら、民宿{みんしゅく}も経営{けいえい}している。",
+     "meaning_ko": "농업을 하는 한편 민박도 운영하고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "大学院{だいがくいん}で学{まな}ぶかたわら、翻訳{ほんやく}の仕事{しごと}を請{う}け負{お}っていた。",
+     "meaning_ko": "대학원에서 공부하는 한편 번역 일도 맡고 있었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "看護師{かんごし}としての勤務{きんむ}のかたわら、地域{ちいき}の防災{ぼうさい}活動{かつどう}に参加{さんか}している。",
+     "meaning_ko": "간호사로 근무하는 한편 지역 방재 활동에도 참여하고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "定年後{ていねんご}も、会社{かいしゃ}の顧問{こもん}を務{つと}めるかたわら、若手{わかて}の指導{しどう}に当{あ}たっている。",
+     "meaning_ko": "정년 후에도 회사 고문을 맡는 한편 젊은 직원 지도를 하고 있다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「会社員として働くかたわら、小説を書いている」의 뜻으로 알맞은 것은?",
+     "options": [
+      "회사원으로 일하는 한편 소설도 쓰고 있다",
+      "회사원으로 일하자마자 소설을 썼다",
+      "회사원으로 일하면서 소설은 쓰지 않는다",
+      "회사원이라서 소설을 쓸 수 없다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜かたわら는 본업을 하면서 다른 활동을 병행한다는 뜻입니다.",
+     "id": "JP-N1-39-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「教師を務める（　）、地元の歴史の研究にも携わってきた。」 ( )에 알맞은 말은?",
+     "options": [
+      "かたわら",
+      "あまり",
+      "いかんで",
+      "たりとも"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘교사로 일하는 한편 연구에도 관여했다’이므로 かたわら가 알맞습니다.",
+     "id": "JP-N1-39-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "〜かたわら의 설명으로 알맞은 것은?",
+     "options": [
+      "본업을 하면서 별도의 활동을 꾸준히 병행한다",
+      "동작이 끝나자마자 다음 동작을 한다",
+      "어쩔 수 없이 어떤 일을 하게 된다",
+      "~하는 것이 당연하다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜かたわら는 본업과 다른 활동을 병행한다는 표현입니다.",
+     "id": "JP-N1-39-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「農業を営むかたわら、民宿も経営している」에서 중심이 되는 일은?",
+     "options": [
+      "농업",
+      "민박",
+      "둘 다 같은 비중",
+      "알 수 없다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "かたわら 앞의 활동(農業)이 중심이 되는 본업입니다.",
+     "id": "JP-N1-39-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「本業」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "hongyou",
+     "accepted_answers": [
+      "hongyou",
+      "hongyo",
+      "hongyoo"
+     ],
+     "explanation_ko": "本業 = ほんぎょう(hongyou), ‘본업’입니다.",
+     "id": "JP-N1-39-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「両立」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "ryouritsu",
+     "accepted_answers": [
+      "ryouritsu",
+      "ryoritsu",
+      "ryooritsu"
+     ],
+     "explanation_ko": "両立 = りょうりつ(ryouritsu), ‘양립, 병행’입니다.",
+     "id": "JP-N1-39-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

@@ -8241,6 +8241,224 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-39",
+   "day_index": 39,
+   "week_index": 6,
+   "level": "N2",
+   "unit_id": "N2-W06",
+   "lesson_type": "new",
+   "title_ko": "〜に沿って: ~에 따라·~에 맞춰 (기준·방침, 선을 따라)",
+   "objective_ko": "〜に沿って로 방침·기준·기대에 맞추어 하는 일과 길·강을 따라 이어지는 모습을 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-38"
+   ],
+   "explanation_ko": "〜に沿{そ}って는 ‘~에 따라, ~에 맞춰’라는 뜻으로 명사에 붙습니다. 크게 두 가지로 씁니다. ① 방침・계획・매뉴얼・규정・기대・요망처럼 기준이 되는 것에서 벗어나지 않고 하는 경우: 会社{かいしゃ}の方針{ほうしん}に沿{そ}って計画{けいかく}を立{た}てた. ② 강・해안・길처럼 선을 따라 이동하거나 늘어서는 경우: 川{かわ}に沿{そ}って桜{さくら}の木{き}が並{なら}んでいる. 〜に沿{そ}い, 〜に沿{そ}った+명사 형태로도 쓰며(お客様{きゃくさま}の要望{ようぼう}に沿{そ}った商品{しょうひん}), 부정은 〜に沿{そ}わない 입니다. 〜に応{おう}じて(상황의 변화에 맞춰 달라짐)나 〜に基{もと}づいて(근거로 삼음)와 달리, 기준에서 벗어나지 않고 그대로 따른다는 느낌이 강합니다.",
+   "usage_notes": [
+    "명사 + に沿って / に沿い / に沿った + 명사.",
+    "기준: 方針・計画・マニュアル・規定・期待・要望.",
+    "선: 川・海岸・道路 등을 따라.",
+    "부정: 〜に沿わない."
+   ],
+   "common_mistakes": [
+    "川を沿って(X) → 川に沿って(O) — 조사는 に",
+    "〜に沿って 앞에 동사를 바로 붙이면 안 됩니다 → 명사로 만들어 연결",
+    "〜に応じて(변화에 맞춰)와 〜に沿って(기준에 따라)를 혼동하지 않도록 주의"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "方針{ほうしん}",
+     "reading_kana": "ほうしん",
+     "reading_romanized": "houshin",
+     "meaning_ko": "방침",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-39-01"
+    },
+    {
+     "kind": "word",
+     "text": "手順{てじゅん}",
+     "reading_kana": "てじゅん",
+     "reading_romanized": "tejun",
+     "meaning_ko": "절차, 순서",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-39-02"
+    },
+    {
+     "kind": "word",
+     "text": "規定{きてい}",
+     "reading_kana": "きてい",
+     "reading_romanized": "kitei",
+     "meaning_ko": "규정",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N2-39-03"
+    },
+    {
+     "kind": "word",
+     "text": "沿{そ}う",
+     "reading_kana": "そう",
+     "reading_romanized": "sou",
+     "meaning_ko": "따르다, 따라가다",
+     "part_of_speech": "동사(1그룹)",
+     "id": "w-JP-N2-39-04"
+    },
+    {
+     "kind": "word",
+     "text": "期待{きたい}",
+     "reading_kana": "きたい",
+     "reading_romanized": "kitai",
+     "meaning_ko": "기대",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N2-39-05"
+    },
+    {
+     "kind": "word",
+     "text": "要望{ようぼう}",
+     "reading_kana": "ようぼう",
+     "reading_romanized": "youbou",
+     "meaning_ko": "요망, 요구",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N2-39-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "会社{かいしゃ}の方針{ほうしん}に沿{そ}って、新{あたら}しい計画{けいかく}を立{た}てた。",
+     "meaning_ko": "회사 방침에 따라 새 계획을 세웠다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "マニュアルに沿{そ}って、手順{てじゅん}どおりに作業{さぎょう}を進{すす}める。",
+     "meaning_ko": "매뉴얼에 따라 절차대로 작업을 진행한다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "川{かわ}に沿{そ}って、桜{さくら}の木{き}が並{なら}んでいる。",
+     "meaning_ko": "강을 따라 벚나무가 늘어서 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "規定{きてい}に沿{そ}って、申請{しんせい}書類{しょるい}を提出{ていしゅつ}してください。",
+     "meaning_ko": "규정에 따라 신청 서류를 제출해 주십시오.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "お客様{きゃくさま}の要望{ようぼう}に沿{そ}った商品{しょうひん}を開発{かいはつ}した。",
+     "meaning_ko": "고객 요망에 맞는 상품을 개발했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "期待{きたい}に沿{そ}えるよう、全力{ぜんりょく}を尽{つ}くします。",
+     "meaning_ko": "기대에 부응할 수 있도록 전력을 다하겠습니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "海岸{かいがん}に沿{そ}って走{はし}る道路{どうろ}は景色{けしき}がよい。",
+     "meaning_ko": "해안을 따라 달리는 도로는 경치가 좋다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "計画{けいかく}に沿{そ}い、工事{こうじ}は順調{じゅんちょう}に進{すす}んでいる。",
+     "meaning_ko": "계획에 따라 공사는 순조롭게 진행되고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}の意見{いけん}は会社{かいしゃ}の方針{ほうしん}に沿{そ}わないものだった。",
+     "meaning_ko": "그의 의견은 회사 방침에 맞지 않는 것이었다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「マニュアルに沿って作業を進める」의 뜻으로 알맞은 것은?",
+     "options": [
+      "매뉴얼에 따라 작업을 진행한다",
+      "매뉴얼 때문에 작업을 중단한다",
+      "매뉴얼에도 불구하고 작업을 진행한다",
+      "매뉴얼을 만들면서 작업을 진행한다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜に沿って는 기준에 따라 한다는 뜻입니다.",
+     "id": "JP-N2-39-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「川（　）沿って、桜の木が並んでいる。」 ( )에 알맞은 말은?",
+     "options": [
+      "に",
+      "を",
+      "が",
+      "で"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜に沿って의 조사는 に입니다.",
+     "id": "JP-N2-39-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「お客様の要望に沿った商品を開発した」의 뜻은?",
+     "options": [
+      "고객 요망에 맞는 상품을 개발했다",
+      "고객 요망을 무시한 상품을 개발했다",
+      "고객 요망 때문에 개발을 중단했다",
+      "고객이 직접 상품을 개발했다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜に沿った+명사는 ‘~에 맞는 ~’입니다.",
+     "id": "JP-N2-39-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「会社の方針（　）、計画を立てた。」 ( )에 알맞은 말은? (회사 방침에 따라 계획을 세웠다)",
+     "options": [
+      "に沿って",
+      "に伴って",
+      "を問わず",
+      "にもかかわらず"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "방침을 기준으로 따른다는 뜻이므로 に沿って가 알맞습니다.",
+     "id": "JP-N2-39-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「方針」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "houshin",
+     "accepted_answers": [
+      "houshin",
+      "hoshin"
+     ],
+     "explanation_ko": "方針 = ほうしん(houshin), ‘방침’입니다.",
+     "id": "JP-N2-39-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「手順」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "tejun",
+     "accepted_answers": [
+      "tejun"
+     ],
+     "explanation_ko": "手順 = てじゅん(tejun), ‘절차, 순서’입니다.",
+     "id": "JP-N2-39-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

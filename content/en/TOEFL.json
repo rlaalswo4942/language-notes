@@ -6181,6 +6181,206 @@
     "version": 1,
     "last_revised": "2026-11-24"
    }
+  },
+  {
+   "id": "TOEFL-033",
+   "level": "B1",
+   "track": "toefl",
+   "day": 33,
+   "title_ko": "TOEFL 2026 Take an Interview 3: 찬반 의견 질문에 답하고 반대 입장 인정하기",
+   "objective_ko": "찬반을 묻는 질문에 입장 → 이유 → 예시 → 반대 입장 한 문장 순서로 답한다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/content/ets-org/language-master/ko/home/toefl/test-takers/ibt/about/content.html",
+     "publisher": "ETS",
+     "supports": "2026 형식 유형명",
+     "checked_at": "2026-11-25"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "2026-01-21 이후 TOEFL iBT Speaking에는 Take an Interview 유형이 안내되어 있습니다(공식 안내 유형명). 이 사이트는 글로 연습하는 비공식 자체 연습이며 점수를 예측하지 않습니다. 의견을 묻는 질문(Do you agree or disagree that ...?, What is your opinion?)에는 ① 첫 문장에서 입장을 밝히고(I agree/disagree that ... / In my opinion, ...), ② because 로 이유를 말하고, ③ For example 로 예시를 들고, ④ 마지막에 Although some people ..., I still think ... 처럼 반대 입장을 한 문장 인정하면 답이 균형 있게 들립니다. 반대 입장은 길게 말하지 않고 한 문장으로 끝냅니다. However 는 앞 문장과 대조되는 새 문장을 시작할 때 씁니다.",
+    "common_mistake_ko": "입장 없이 사실만 나열하는 실수 → 첫 문장에서 agree/disagree 를 말합니다. / Although 와 but 을 한 문장에 함께 쓰는 실수 → Although some people disagree, I think ...(but 없음). / 반대 입장을 길게 설명해 시간을 다 쓰는 실수 → 한 문장만."
+   },
+   "vocabulary": [
+    {
+     "word": "viewpoint",
+     "part_of_speech": "명사",
+     "meaning_ko": "관점, 시각",
+     "example_en": "She has a different viewpoint.",
+     "example_ko": "그녀는 다른 관점을 갖고 있어요."
+    },
+    {
+     "word": "although",
+     "part_of_speech": "접속사",
+     "meaning_ko": "비록 ~이지만",
+     "example_en": "Although it was cold, we went out.",
+     "example_ko": "추웠지만 우리는 나갔어요."
+    },
+    {
+     "word": "convenient",
+     "part_of_speech": "형용사",
+     "meaning_ko": "편리한",
+     "example_en": "The library is convenient for students.",
+     "example_ko": "도서관은 학생들에게 편리해요."
+    },
+    {
+     "word": "persuade",
+     "part_of_speech": "동사",
+     "meaning_ko": "설득하다",
+     "example_en": "I want to persuade my friends to join.",
+     "example_ko": "저는 친구들이 함께하도록 설득하고 싶어요."
+    },
+    {
+     "word": "reasonable",
+     "part_of_speech": "형용사",
+     "meaning_ko": "합리적인",
+     "example_en": "That is a reasonable idea.",
+     "example_ko": "그것은 합리적인 생각이에요."
+    },
+    {
+     "word": "balanced",
+     "part_of_speech": "형용사",
+     "meaning_ko": "균형 잡힌",
+     "example_en": "A balanced answer mentions both sides.",
+     "example_ko": "균형 잡힌 답변은 양쪽을 언급해요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Question: Do you agree or disagree that students should wear uniforms?",
+     "ko": "질문: 학생들이 교복을 입어야 한다는 데 동의하나요, 동의하지 않나요?"
+    },
+    {
+     "en": "Answer: I agree that students should wear uniforms because it saves time in the morning.",
+     "ko": "답: 아침 시간을 아낄 수 있어서 학생들이 교복을 입어야 한다는 데 동의해요."
+    },
+    {
+     "en": "For example, I don't need to choose clothes before school.",
+     "ko": "예를 들어 등교 전에 옷을 고를 필요가 없어요."
+    },
+    {
+     "en": "Although some students want to show their style, I still think uniforms are more convenient.",
+     "ko": "자기 스타일을 보여 주고 싶은 학생들도 있지만, 저는 여전히 교복이 더 편리하다고 생각해요."
+    },
+    {
+     "en": "Question: Some people say online classes are better than classroom classes. What is your opinion?",
+     "ko": "질문: 온라인 수업이 교실 수업보다 낫다고 말하는 사람들이 있습니다. 당신의 의견은 무엇인가요?"
+    },
+    {
+     "en": "In my opinion, classroom classes are better because I can ask questions right away.",
+     "ko": "제 의견으로는 바로 질문할 수 있어서 교실 수업이 더 좋아요."
+    },
+    {
+     "en": "However, online classes have one advantage: I can study from home.",
+     "ko": "하지만 온라인 수업에는 집에서 공부할 수 있다는 장점이 있어요."
+    },
+    {
+     "en": "Question: Is it a good idea to require every student to take a sports class?",
+     "ko": "질문: 모든 학생에게 체육 수업을 필수로 듣게 하는 것이 좋은 생각일까요?"
+    },
+    {
+     "en": "I disagree. Not every student enjoys sports, so a choice would be better.",
+     "ko": "동의하지 않아요. 모든 학생이 운동을 좋아하지는 않으니 선택하게 하는 편이 나아요."
+    },
+    {
+     "en": "First, state your opinion. Then give a reason, an example, and one short sentence about the other side.",
+     "ko": "먼저 의견을 말하세요. 그다음 이유와 예시, 그리고 반대 입장에 대한 짧은 한 문장을 말하세요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "질문: Do you agree or disagree that students should wear uniforms? 가장 알맞은 첫 문장은?",
+     "choices": [
+      "I agree that students should wear uniforms.",
+      "Uniforms are made of cotton.",
+      "I wore a uniform yesterday.",
+      "Let me ask you a question."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "첫 문장에서 입장을 바로 밝힙니다.",
+     "error_tag": "opinion-first",
+     "id": "TOEFL-033-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "반대 입장을 한 문장으로 인정할 때 쓰기 알맞은 표현은?",
+     "choices": [
+      "Although some people disagree,",
+      "For example,",
+      "Because of this,",
+      "First of all,"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Although some people ... 은 반대 입장을 인정하는 표현입니다.",
+     "error_tag": "concession",
+     "id": "TOEFL-033-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "I think online classes are useful ___ I can study at any time.",
+     "choices": [
+      "because",
+      "although",
+      "however",
+      "instead"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "이유를 이끄는 말은 because 입니다.",
+     "error_tag": "reason",
+     "id": "TOEFL-033-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "의견 질문에 대한 답변의 알맞은 순서는?",
+     "choices": [
+      "입장 → 이유 → 예시 → 반대 입장 한 문장",
+      "예시 → 이유 → 입장",
+      "반대 입장만 길게 말하고 끝낸다",
+      "질문을 되풀이하고 멈춘다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "입장 → 이유 → 예시 → 반대 입장 한 문장 순서가 균형 있습니다.",
+     "error_tag": "structure",
+     "id": "TOEFL-033-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: I ___ that students need more sleep. (동의해요)",
+     "answer_text": "agree",
+     "accepted_answers": [
+      "agree"
+     ],
+     "explanation_ko": "I agree that ... 는 '~라는 데 동의해요'입니다.",
+     "error_tag": "opinion-first",
+     "id": "TOEFL-033-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: ___ some people like cities, I prefer small towns. (비록 ~지만)",
+     "answer_text": "Although",
+     "accepted_answers": [
+      "although",
+      "though"
+     ],
+     "explanation_ko": "Although(= Though)는 '비록 ~지만'입니다.",
+     "error_tag": "concession",
+     "id": "TOEFL-033-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "질문 Do you agree or disagree that students should have homework every day? 에 입장 → 이유 → 반대 입장 한 문장 순서로 세 문장을 써 보세요.",
+    "example_answer_en": "I disagree that students should have homework every day because they need time to rest. For example, I study better after I sleep well. Although homework helps some students, I think a few days a week is enough.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-25",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-25"
+   }
   }
  ]
 }

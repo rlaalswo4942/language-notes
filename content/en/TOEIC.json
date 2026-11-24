@@ -6219,6 +6219,201 @@
     "version": 1,
     "last_revised": "2026-11-24"
    }
+  },
+  {
+   "id": "TOEIC-033",
+   "level": "B1",
+   "track": "toeic",
+   "day": 33,
+   "title_ko": "TOEIC Part 5: 동사 + 목적어 짝 submit / attend / hold / make / meet / place / conduct",
+   "objective_ko": "목적어와 자주 짝을 이루는 동사를 보고 Part 5 어휘 문제의 답을 고른다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/toeic/about/listening-reading.html",
+     "publisher": "ETS",
+     "supports": "공식 시험 형식",
+     "checked_at": "2026-11-25"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "Part 5 어휘 문제에서는 뒤에 오는 명사와 자연스럽게 짝을 이루는 동사를 고르는 문제가 자주 나옵니다. ① submit a report / an application / a form(제출하다). ② attend a meeting / a conference / an event(참석하다) — 뒤에 전치사 없이 바로 목적어. ③ hold a meeting / an event / a training session(개최하다). ④ make a reservation / a decision / an appointment(예약·결정·약속을 하다). ⑤ meet a deadline / a requirement(기한을 맞추다, 요건을 충족하다). ⑥ place an order(주문하다). ⑦ conduct a survey / an interview / an inspection(조사·면접·점검을 실시하다). 뜻이 비슷해 보여도 명사에 따라 짝이 정해져 있으므로 덩어리로 익힙니다. TOEIC L&R Part 5 형식을 참고한 자체 제작 연습이며 ETS 공식 문항이 아닙니다.",
+    "common_mistake_ko": "do a reservation(X) → make a reservation(O) / attend to the meeting(X) → attend the meeting(O) / hold a deadline(X) → meet a deadline(O) / make an order(X, 시험에서는) → place an order(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "comply",
+     "part_of_speech": "동사",
+     "meaning_ko": "따르다, 준수하다",
+     "example_en": "All staff must comply with the safety rules.",
+     "example_ko": "모든 직원은 안전 규칙을 지켜야 해요."
+    },
+    {
+     "word": "participant",
+     "part_of_speech": "명사",
+     "meaning_ko": "참가자",
+     "example_en": "Each participant received a name tag.",
+     "example_ko": "참가자마다 이름표를 받았어요."
+    },
+    {
+     "word": "organizer",
+     "part_of_speech": "명사",
+     "meaning_ko": "주최자",
+     "example_en": "The organizer sent the schedule by e-mail.",
+     "example_ko": "주최자가 일정을 이메일로 보냈어요."
+    },
+    {
+     "word": "vendor",
+     "part_of_speech": "명사",
+     "meaning_ko": "판매업체, 납품업체",
+     "example_en": "The vendor delivered the boxes on time.",
+     "example_ko": "납품업체가 상자를 제때 배달했어요."
+    },
+    {
+     "word": "conduct",
+     "part_of_speech": "동사",
+     "meaning_ko": "실시하다, 수행하다",
+     "example_en": "The team will conduct a survey.",
+     "example_ko": "그 팀은 조사를 실시할 거예요."
+    },
+    {
+     "word": "verify",
+     "part_of_speech": "동사",
+     "meaning_ko": "확인하다, 검증하다",
+     "example_en": "Please verify your address before you submit the form.",
+     "example_ko": "양식을 제출하기 전에 주소를 확인해 주세요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Please submit your expense report by Monday.",
+     "ko": "월요일까지 경비 보고서를 제출해 주세요."
+    },
+    {
+     "en": "Over two hundred people attended the opening event.",
+     "ko": "200명이 넘는 사람이 개막 행사에 참석했어요."
+    },
+    {
+     "en": "The company will hold a training session next week.",
+     "ko": "회사는 다음 주에 교육을 개최할 거예요."
+    },
+    {
+     "en": "Mr. Lee made a reservation for six people.",
+     "ko": "이 씨는 6명 자리를 예약했어요."
+    },
+    {
+     "en": "We must meet the deadline for the project.",
+     "ko": "우리는 프로젝트 기한을 맞춰야 해요."
+    },
+    {
+     "en": "Customers can place an order by phone or online.",
+     "ko": "고객은 전화나 온라인으로 주문할 수 있어요."
+    },
+    {
+     "en": "The research team conducted a survey of 500 residents.",
+     "ko": "연구팀은 주민 500명을 대상으로 조사를 실시했어요."
+    },
+    {
+     "en": "You can make a decision after you read the contract.",
+     "ko": "계약서를 읽은 뒤에 결정하면 돼요."
+    },
+    {
+     "en": "Her assistant will submit the application.",
+     "ko": "그녀의 비서가 신청서를 제출할 거예요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "All applicants must ___ their forms by Friday.",
+     "choices": [
+      "submit",
+      "attend",
+      "conduct",
+      "meet"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "form(양식)은 submit(제출하다)과 짝을 이룹니다.",
+     "error_tag": "verb-collocation",
+     "id": "TOEIC-033-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Ms. Park will ___ the annual sales meeting in Room 3.",
+     "choices": [
+      "hold",
+      "submit",
+      "reply",
+      "apply"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "meeting 을 '개최하다'는 hold 입니다.",
+     "error_tag": "verb-collocation",
+     "id": "TOEIC-033-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "The firm must ___ the deadline for the project.",
+     "choices": [
+      "meet",
+      "hold",
+      "tell",
+      "stay"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "deadline 은 meet(맞추다)과 짝을 이룹니다.",
+     "error_tag": "verb-collocation",
+     "id": "TOEIC-033-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "To ___ a reservation, please call the front desk.",
+     "choices": [
+      "make",
+      "do",
+      "say",
+      "go"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "reservation 은 make 와 짝을 이룹니다.",
+     "error_tag": "verb-collocation",
+     "id": "TOEIC-033-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Customers can ___ an order online. (주문하다, p로 시작)",
+     "answer_text": "place",
+     "accepted_answers": [
+      "place"
+     ],
+     "explanation_ko": "'주문하다'는 place an order 입니다.",
+     "error_tag": "verb-collocation",
+     "id": "TOEIC-033-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Our team will ___ a survey next month. (실시하다, c로 시작)",
+     "answer_text": "conduct",
+     "accepted_answers": [
+      "conduct"
+     ],
+     "explanation_ko": "survey 를 '실시하다'는 conduct 입니다.",
+     "error_tag": "verb-collocation",
+     "id": "TOEIC-033-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "submit, attend, meet 중 두 개를 사용해 업무 상황의 영어 문장 두 개를 써 보세요.",
+    "example_answer_en": "Please submit the report by noon. All staff must attend the meeting on Friday.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-25",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-25"
+   }
   }
  ]
 }

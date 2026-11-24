@@ -7471,6 +7471,201 @@
     "version": 1,
     "last_revised": "2026-11-24"
    }
+  },
+  {
+   "id": "B2-039",
+   "level": "B2",
+   "track": "foundation",
+   "day": 39,
+   "title_ko": "was going to / was about to / was supposed to: 과거의 계획과 예정",
+   "objective_ko": "과거의 계획·직전의 상황·예정과 의무를 구별해 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/grammar/b1-b2-grammar",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-25"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "과거 시점에서 앞일을 말하는 세 표현을 구별합니다. ① was/were going to + 동사원형: 과거에 세운 계획입니다. 흔히 '그럴 생각이었지만 하지 못했다'는 뜻으로 뒤에 but 절이 옵니다: I was going to call you, but I lost my phone. ② was/were about to + 동사원형: 바로 직전의 상황, '막 ~하려던 참이었다'입니다. 주로 when 절과 함께 씁니다: I was about to leave when the phone rang. ③ was/were supposed to + 동사원형: '~하기로 되어 있었다'는 예정이나 의무이며, 실제로는 그렇게 되지 않았다는 뜻으로 자주 쓰입니다: The meeting was supposed to start at nine, but it was postponed. 시간이 많이 앞선 계획에는 about to 를 쓰지 않습니다(about to 는 ‘직전’에만).",
+    "common_mistake_ko": "I was about leave.(X) → I was about to leave.(O) — to 필요. / I was going to called you.(X) → I was going to call you.(O) — 뒤에는 동사원형. / The train was supposed arrive at 8.(X) → was supposed to arrive.(O) / We were about to travel next month.(X) → 먼 미래 계획은 were going to"
+   },
+   "vocabulary": [
+    {
+     "word": "cancel",
+     "part_of_speech": "동사",
+     "meaning_ko": "취소하다",
+     "example_en": "They had to cancel the trip.",
+     "example_ko": "그들은 여행을 취소해야 했어요."
+    },
+    {
+     "word": "reschedule",
+     "part_of_speech": "동사",
+     "meaning_ko": "일정을 다시 잡다",
+     "example_en": "We had to reschedule the interview.",
+     "example_ko": "우리는 면접 일정을 다시 잡아야 했어요."
+    },
+    {
+     "word": "attend",
+     "part_of_speech": "동사",
+     "meaning_ko": "참석하다",
+     "example_en": "He was going to attend the conference.",
+     "example_ko": "그는 학회에 참석할 계획이었어요."
+    },
+    {
+     "word": "depart",
+     "part_of_speech": "동사",
+     "meaning_ko": "출발하다",
+     "example_en": "The bus was about to depart.",
+     "example_ko": "버스가 막 출발하려던 참이었어요."
+    },
+    {
+     "word": "unexpected",
+     "part_of_speech": "형용사",
+     "meaning_ko": "예상치 못한",
+     "example_en": "An unexpected problem came up.",
+     "example_ko": "예상치 못한 문제가 생겼어요."
+    },
+    {
+     "word": "interrupt",
+     "part_of_speech": "동사",
+     "meaning_ko": "끼어들다, 방해하다",
+     "example_en": "Please don't interrupt me.",
+     "example_ko": "제 말을 끊지 말아 주세요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I was going to call you, but I lost my phone.",
+     "ko": "전화하려고 했지만 휴대폰을 잃어버렸어요."
+    },
+    {
+     "en": "We were going to travel by train, but the tickets were sold out.",
+     "ko": "우리는 기차로 여행할 계획이었지만 표가 매진되었어요."
+    },
+    {
+     "en": "She was about to leave when the phone rang.",
+     "ko": "그녀가 막 떠나려던 참에 전화가 울렸어요."
+    },
+    {
+     "en": "The bus was about to depart, so we ran to the stop.",
+     "ko": "버스가 막 출발하려던 참이라 우리는 정류장으로 뛰었어요."
+    },
+    {
+     "en": "The meeting was supposed to start at nine, but it was postponed.",
+     "ko": "회의는 9시에 시작하기로 되어 있었지만 연기되었어요."
+    },
+    {
+     "en": "You were supposed to submit the form yesterday.",
+     "ko": "어제 양식을 제출하기로 되어 있었어요."
+    },
+    {
+     "en": "He was going to attend the conference, but an unexpected problem came up.",
+     "ko": "그는 학회에 참석할 계획이었지만 예상치 못한 문제가 생겼어요."
+    },
+    {
+     "en": "I was about to say something when she interrupted me.",
+     "ko": "내가 막 말하려던 참에 그녀가 끼어들었어요."
+    },
+    {
+     "en": "Were you supposed to meet them at the station?",
+     "ko": "그들을 역에서 만나기로 되어 있었어요?"
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "I ___ call you, but I forgot your number.",
+     "choices": [
+      "was going to",
+      "am going to",
+      "was go to",
+      "were going"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "과거에 하려던 계획은 was going to + 동사원형 입니다.",
+     "error_tag": "was-going-to",
+     "id": "B2-039-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'막 떠나려던 참에 전화가 울렸다'를 올바르게 쓴 문장은?",
+     "choices": [
+      "I was about to leave when the phone rang.",
+      "I was about leave when the phone rang.",
+      "I was about to left when the phone rang.",
+      "I am about to leave when the phone rang."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "직전의 상황은 was about to + 동사원형 입니다.",
+     "error_tag": "was-about-to",
+     "id": "B2-039-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "The train ___ arrive at 8:00, but it was twenty minutes late.",
+     "choices": [
+      "was supposed to",
+      "was about",
+      "is supposed",
+      "supposed to be"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "예정은 was supposed to + 동사원형 입니다.",
+     "error_tag": "was-supposed-to",
+     "id": "B2-039-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "'계획했지만 하지 못했다'는 뜻에 가장 가까운 문장은?",
+     "choices": [
+      "We were going to visit Jeju, but we changed our plan.",
+      "We visited Jeju last week and enjoyed it.",
+      "We have visited Jeju twice.",
+      "We will visit Jeju next week."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "were going to ..., but ... 는 계획했지만 실현하지 못한 일을 나타냅니다.",
+     "error_tag": "was-going-to",
+     "id": "B2-039-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: The bus was about ___ leave.",
+     "answer_text": "to",
+     "accepted_answers": [
+      "to"
+     ],
+     "explanation_ko": "was about to + 동사원형 입니다.",
+     "error_tag": "was-about-to",
+     "id": "B2-039-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: You were ___ to turn in the report yesterday. (~하기로 되어 있었다)",
+     "answer_text": "supposed",
+     "accepted_answers": [
+      "supposed"
+     ],
+     "explanation_ko": "was supposed to 는 '~하기로 되어 있었다'입니다.",
+     "error_tag": "was-supposed-to",
+     "id": "B2-039-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "계획했지만 하지 못한 일을 was going to 로, 막 하려던 일을 was about to 로 써서 문장 두 개를 만들어 보세요.",
+    "example_answer_en": "I was going to go jogging, but it rained. I was about to go to bed when my friend called.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-25",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-25"
+   }
   }
  ]
 }
