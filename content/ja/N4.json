@@ -8511,6 +8511,233 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-40",
+   "day_index": 40,
+   "week_index": 6,
+   "level": "N4",
+   "unit_id": "N4-W06",
+   "lesson_type": "new",
+   "title_ko": "〜と 言いました: 남의 말 전하기",
+   "objective_ko": "〜と 言いました로 다른 사람이 한 말을 그대로 또는 보통형으로 전한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-39"
+   ],
+   "explanation_ko": "다른 사람이 한 말을 전할 때는 ‘보통형 + と 言{い}いました’ 를 씁니다. 직접 전할 때는 「 」 안에 말을 그대로 넣습니다: 山田{やまだ}さんは 「あした 会議{かいぎ}が あります」と 言{い}いました. 간접으로 전할 때는 「 」 없이 보통형(사전형・ない형・た형)을 씁니다: 山田{やまだ}さんは あした 会議{かいぎ}が あると 言{い}いました(야마다 씨는 내일 회의가 있다고 말했어요). い형용사는 そのまま(難{むずか}しくないと), 명사와 な형용사는 だ를 붙여 보통형으로 만듭니다(学生{がくせい}だと). 〜と 言{い}って いました 도 같은 뜻으로 자주 쓰입니다. 전해 달라고 부탁할 때는 〜と 伝{つた}えて ください 를 씁니다.",
+   "usage_notes": [
+    "보통형 + と 言いました.",
+    "직접: 「말」と 言いました / 간접: 보통형 と 言いました.",
+    "전달 부탁: 〜と 伝えて ください."
+   ],
+   "common_mistakes": [
+    "あした 会議が ありますと 言いました(X) → あした 会議が あると 言いました(O) — と 앞은 보통형",
+    "学生ですと 言いました(X) → 学生だと 言いました(O)",
+    "来ないを 言いました(X) → 来ないと 言いました(O) — 조사는 を가 아니라 と"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "伝{つた}える",
+     "reading_kana": "つたえる",
+     "reading_romanized": "tsutaeru",
+     "meaning_ko": "전하다",
+     "part_of_speech": "동사(2그룹)",
+     "id": "w-JP-N4-40-01"
+    },
+    {
+     "kind": "word",
+     "text": "用事{ようじ}",
+     "reading_kana": "ようじ",
+     "reading_romanized": "youji",
+     "meaning_ko": "볼일, 용무",
+     "part_of_speech": "명사",
+     "id": "w-JP-N4-40-02"
+    },
+    {
+     "kind": "word",
+     "text": "会議{かいぎ}",
+     "reading_kana": "かいぎ",
+     "reading_romanized": "kaigi",
+     "meaning_ko": "회의",
+     "part_of_speech": "명사",
+     "id": "w-JP-N4-40-03"
+    },
+    {
+     "kind": "word",
+     "text": "予定{よてい}",
+     "reading_kana": "よてい",
+     "reading_romanized": "yotei",
+     "meaning_ko": "예정",
+     "part_of_speech": "명사",
+     "id": "w-JP-N4-40-04"
+    },
+    {
+     "kind": "word",
+     "text": "返事{へんじ}",
+     "reading_kana": "へんじ",
+     "reading_romanized": "henji",
+     "meaning_ko": "대답, 답장",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N4-40-05"
+    },
+    {
+     "kind": "word",
+     "text": "都合{つごう}",
+     "reading_kana": "つごう",
+     "reading_romanized": "tsugou",
+     "meaning_ko": "사정, 형편",
+     "part_of_speech": "명사",
+     "id": "w-JP-N4-40-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "田中{たなか}さんは あした 来{こ}ないと 言{い}いました。",
+     "meaning_ko": "다나카 씨는 내일 오지 않는다고 말했어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "山田{やまだ}さんは 「あした 会議{かいぎ}が あります」と 言{い}いました。",
+     "meaning_ko": "야마다 씨는 “내일 회의가 있어요”라고 말했어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "山田{やまだ}さんは あした 会議{かいぎ}が あると 言{い}いました。",
+     "meaning_ko": "야마다 씨는 내일 회의가 있다고 말했어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "母{はは}は 今日{きょう} 遅{おそ}く なると 言{い}って いました。",
+     "meaning_ko": "어머니는 오늘 늦어진다고 말했어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "友{とも}だちは この 映画{えいが}は おもしろいと 言{い}いました。",
+     "meaning_ko": "친구는 이 영화는 재미있다고 말했어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "先生{せんせい}は 日本語{にほんご}は 難{むずか}しくないと 言{い}いました。",
+     "meaning_ko": "선생님은 일본어는 어렵지 않다고 말했어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}は 用事{ようじ}が あるから、行{い}けないと 言{い}いました。",
+     "meaning_ko": "그는 볼일이 있어서 갈 수 없다고 말했어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "友{とも}だちは あしたは 都合{つごう}が 悪{わる}いと 言{い}って いました。",
+     "meaning_ko": "친구는 내일은 사정이 좋지 않다고 말했어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "山田{やまだ}さんは あとで 返事{へんじ}を すると 言{い}いました。",
+     "meaning_ko": "야마다 씨는 나중에 답장을 하겠다고 말했어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "妹{いもうと}は 「わたしは 学生{がくせい}です」と 言{い}いました。",
+     "meaning_ko": "여동생은 “저는 학생이에요”라고 말했어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "先生{せんせい}に 田中{たなか}さんが 休{やす}むと 伝{つた}えて ください。",
+     "meaning_ko": "선생님께 다나카 씨가 쉰다고 전해 주세요.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「田中さんは あした 来ないと 言いました」의 뜻으로 알맞은 것은?",
+     "options": [
+      "다나카 씨는 내일 오지 않는다고 말했어요",
+      "다나카 씨는 내일 온다고 말했어요",
+      "다나카 씨는 내일 오지 말라고 말했어요",
+      "다나카 씨는 어제 오지 않았다고 말했어요"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "来ない(오지 않는다) + と 言いました는 ‘오지 않는다고 말했어요’입니다.",
+     "id": "JP-N4-40-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「山田さんは あした 会議が（　）と 言いました。」 ( )에 알맞은 말은? (내일 회의가 있다고 말했어요)",
+     "options": [
+      "ある",
+      "あります",
+      "あった",
+      "あれば"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "と 앞에는 보통형을 쓰므로 사전형 ある가 알맞습니다. あった는 과거(있었다)입니다.",
+     "id": "JP-N4-40-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「先生は 日本語は 難しくないと 言いました」의 뜻은?",
+     "options": [
+      "선생님은 일본어는 어렵지 않다고 말했어요",
+      "선생님은 일본어는 어렵다고 말했어요",
+      "선생님은 일본어를 쉽게 가르쳐 달라고 말했어요",
+      "선생님은 일본어가 어렵지 않냐고 물었어요"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "難しくない(어렵지 않다) + と 言いました입니다.",
+     "id": "JP-N4-40-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「母は 今日 遅くなると 言っていました」의 뜻은?",
+     "options": [
+      "어머니는 오늘 늦어진다고 말했어요",
+      "어머니는 오늘 일찍 온다고 말했어요",
+      "어머니는 어제 늦었다고 말했어요",
+      "어머니는 오늘 오지 말라고 말했어요"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜と 言っていました도 ‘~라고 말했어요’라는 전달 표현입니다.",
+     "id": "JP-N4-40-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「用事」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "youji",
+     "accepted_answers": [
+      "youji",
+      "yoji"
+     ],
+     "explanation_ko": "用事 = ようじ(youji), ‘볼일’입니다.",
+     "id": "JP-N4-40-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「会議」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kaigi",
+     "accepted_answers": [
+      "kaigi"
+     ],
+     "explanation_ko": "会議 = かいぎ(kaigi), ‘회의’입니다.",
+     "id": "JP-N4-40-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

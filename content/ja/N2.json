@@ -8459,6 +8459,229 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-40",
+   "day_index": 40,
+   "week_index": 6,
+   "level": "N2",
+   "unit_id": "N2-W06",
+   "lesson_type": "new",
+   "title_ko": "〜に過ぎない: ~에 불과하다",
+   "objective_ko": "〜に過ぎない로 어떤 것이 그 정도일 뿐 대단한 것이 아님을 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-39"
+   ],
+   "explanation_ko": "〜に過{す}ぎない는 ‘~에 불과하다, ~일 뿐이다’라는 뜻으로, 대상이 그 정도에 지나지 않고 크거나 중요하지 않다고 평가할 때 씁니다. 접속: 명사 + に過{す}ぎない, 동사・い형용사는 보통형 + に過{す}ぎない, な형용사는 〜な/〜である + に過{す}ぎない 입니다. ただの・単{たん}なる・ほんの・あくまで(단지·단순한·극히·어디까지나) 같은 말과 함께 자주 쓰입니다. 문장을 잇는 중지형은 〜に過{す}ぎず, 정중하게는 〜に過{す}ぎません 입니다. 〜に違{ちが}いない(틀림없이 ~이다)와 형태가 비슷하지만 뜻이 전혀 다릅니다.",
+   "usage_notes": [
+    "명사 + に過ぎない.",
+    "보통형 + に過ぎない.",
+    "ただの・単なる・ほんの와 함께 자주 쓴다.",
+    "중지형: 〜に過ぎず."
+   ],
+   "common_mistakes": [
+    "噂に過ぎるない(X) → 噂に過ぎない(O)",
+    "運がよかったに違いない(△) → 운이 좋았을 뿐이라면 〜に過ぎない",
+    "単なる推測だに過ぎない(X) → 単なる推測に過ぎない(O) — 명사 뒤에 だ를 넣지 않는다"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "一例{いちれい}",
+     "reading_kana": "いちれい",
+     "reading_romanized": "ichirei",
+     "meaning_ko": "한 예",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-40-01"
+    },
+    {
+     "kind": "word",
+     "text": "単{たん}なる",
+     "reading_kana": "たんなる",
+     "reading_romanized": "tannaru",
+     "meaning_ko": "단순한",
+     "part_of_speech": "연체사",
+     "id": "w-JP-N2-40-02"
+    },
+    {
+     "kind": "word",
+     "text": "一部{いちぶ}",
+     "reading_kana": "いちぶ",
+     "reading_romanized": "ichibu",
+     "meaning_ko": "일부",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-40-03"
+    },
+    {
+     "kind": "word",
+     "text": "主張{しゅちょう}",
+     "reading_kana": "しゅちょう",
+     "reading_romanized": "shuchou",
+     "meaning_ko": "주장",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N2-40-04"
+    },
+    {
+     "kind": "word",
+     "text": "根拠{こんきょ}",
+     "reading_kana": "こんきょ",
+     "reading_romanized": "konkyo",
+     "meaning_ko": "근거",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-40-05"
+    },
+    {
+     "kind": "word",
+     "text": "憶測{おくそく}",
+     "reading_kana": "おくそく",
+     "reading_romanized": "okusoku",
+     "meaning_ko": "억측, 추측",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N2-40-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "それはただの噂{うわさ}に過{す}ぎない。",
+     "meaning_ko": "그것은 단순한 소문에 불과하다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "これは問題{もんだい}のほんの一例{いちれい}に過{す}ぎない。",
+     "meaning_ko": "이것은 문제의 극히 일부 예에 불과하다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}の意見{いけん}は、一部{いちぶ}の人{ひと}の考{かんが}えに過{す}ぎない。",
+     "meaning_ko": "그의 의견은 일부 사람의 생각에 불과하다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "単{たん}なる憶測{おくそく}に過{す}ぎないので、信{しん}じないでください。",
+     "meaning_ko": "단순한 억측에 불과하니 믿지 마세요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "私{わたし}はまだ新人{しんじん}に過{す}ぎません。",
+     "meaning_ko": "저는 아직 신입에 불과합니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "その主張{しゅちょう}は、根拠{こんきょ}のない想像{そうぞう}に過{す}ぎない。",
+     "meaning_ko": "그 주장은 근거 없는 상상에 불과하다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}は部長{ぶちょう}の言{い}うとおりに動{うご}いているに過{す}ぎない。",
+     "meaning_ko": "그는 부장이 말하는 대로 움직이고 있을 뿐이다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この値上{ねあ}げは、一時的{いちじてき}な対応{たいおう}に過{す}ぎない。",
+     "meaning_ko": "이번 가격 인상은 일시적인 대응에 불과하다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "成功{せいこう}したといっても、運{うん}がよかったに過{す}ぎない。",
+     "meaning_ko": "성공했다고 해도 운이 좋았을 뿐이다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "今{いま}の数字{すうじ}は全体{ぜんたい}の一部{いちぶ}に過{す}ぎず、正確{せいかく}な結果{けっか}ではない。",
+     "meaning_ko": "지금의 숫자는 전체의 일부에 불과하며 정확한 결과가 아니다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「それはただの噂に過ぎない」의 뜻으로 알맞은 것은?",
+     "options": [
+      "그것은 단순한 소문에 불과하다",
+      "그것은 소문대로일 것이다",
+      "그것은 소문에 따라 달라진다",
+      "그것은 소문일 리가 없다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜に過ぎない는 ‘~에 불과하다’입니다.",
+     "id": "JP-N2-40-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「これは問題のほんの一例（　）。」 ( )에 알맞은 말은? (이것은 문제의 극히 일부 예에 불과하다)",
+     "options": [
+      "に過ぎない",
+      "に違いない",
+      "ざるを得ない",
+      "かねない"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘불과하다’는 〜に過ぎない입니다.",
+     "id": "JP-N2-40-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「成功したといっても、運がよかった（　）。」 ( )에 알맞은 말은? (운이 좋았을 뿐이다)",
+     "options": [
+      "に過ぎない",
+      "わけがない",
+      "どころではない",
+      "に際して"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "い형용사 과거형 보통형 + に過ぎない로 ‘~했을 뿐이다’를 나타냅니다.",
+     "id": "JP-N2-40-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「〜に過ぎない」와 가장 가까운 뜻은?",
+     "options": [
+      "~에 불과하다 (대단하지 않다)",
+      "~임에 틀림없다",
+      "~할 수밖에 없다",
+      "~할 우려가 있다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "過ぎない는 ‘그 정도일 뿐’이라는 평가입니다. 違いない・ざるを得ない・おそれがある와 구별합니다.",
+     "id": "JP-N2-40-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「一例」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "ichirei",
+     "accepted_answers": [
+      "ichirei",
+      "itirei"
+     ],
+     "explanation_ko": "一例 = いちれい(ichirei), ‘한 예’입니다.",
+     "id": "JP-N2-40-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「憶測」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "okusoku",
+     "accepted_answers": [
+      "okusoku"
+     ],
+     "explanation_ko": "憶測 = おくそく(okusoku), ‘억측’입니다.",
+     "id": "JP-N2-40-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

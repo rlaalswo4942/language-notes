@@ -6381,6 +6381,213 @@
     "version": 1,
     "last_revised": "2026-11-25"
    }
+  },
+  {
+   "id": "TOEFL-034",
+   "level": "TOEFL",
+   "track": "toefl",
+   "day": 34,
+   "title_ko": "TOEFL 2026 Write an Email 4: 일정 변경을 요청하고 이유 설명하기",
+   "objective_ko": "이메일에서 상황과 이유를 밝히고 대안을 제안하며 정중하게 일정 변경을 요청한다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/content/ets-org/language-master/ko/home/toefl/test-takers/ibt/about/content.html",
+     "publisher": "ETS",
+     "supports": "2026 형식 유형명",
+     "checked_at": "2026-11-26"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "Write an Email은 2026-01-21 이후 TOEFL iBT Writing에 포함된 유형명입니다(비공식 자체 연습이며 점수를 예측하지 않습니다). 일정 변경을 요청하는 이메일은 ① 인사와 보내는 목적(I am writing to ask whether we could postpone ...) ② 이유(I have a schedule conflict because ...) ③ 대안 제안(Would Thursday afternoon be possible?) ④ 감사와 마무리(Thank you for your understanding. / Best regards,) 순서로 씁니다. 상대에게는 Could you ...? / Would it be possible to ...? 처럼 정중하게 묻고, 이유는 짧고 분명하게 한 문장으로 말합니다. 사과(I apologize for any inconvenience)는 한 번이면 충분합니다.",
+    "common_mistake_ko": "I want to change the meeting.(X) → I am writing to ask whether we could postpone the meeting.(O): 직접적이고 무례합니다. / Change the time to Thursday.(X) → Would Thursday afternoon be possible?(O): 명령문은 피합니다. / 사과를 여러 번 반복하는 실수 → 한 번만 사과하고 대안을 제안합니다."
+   },
+   "vocabulary": [
+    {
+     "word": "conflict",
+     "part_of_speech": "명사",
+     "meaning_ko": "(일정의) 충돌, 겹침",
+     "example_en": "I have a schedule conflict on Tuesday.",
+     "example_ko": "화요일에 일정이 겹쳐요."
+    },
+    {
+     "word": "flexible",
+     "part_of_speech": "형용사",
+     "meaning_ko": "융통성 있는",
+     "example_en": "I am flexible on Thursday or Friday.",
+     "example_ko": "저는 목요일이나 금요일에 시간을 조정할 수 있어요."
+    },
+    {
+     "word": "session",
+     "part_of_speech": "명사",
+     "meaning_ko": "(활동) 시간, 수업",
+     "example_en": "The review session starts at ten.",
+     "example_ko": "복습 시간은 10시에 시작해요."
+    },
+    {
+     "word": "availability",
+     "part_of_speech": "명사",
+     "meaning_ko": "가능한 시간, 이용 가능함",
+     "example_en": "Please let me know your availability.",
+     "example_ko": "가능한 시간을 알려 주세요."
+    },
+    {
+     "word": "urgent",
+     "part_of_speech": "형용사",
+     "meaning_ko": "급한",
+     "example_en": "This is an urgent request.",
+     "example_ko": "급한 요청입니다."
+    },
+    {
+     "word": "unable",
+     "part_of_speech": "형용사",
+     "meaning_ko": "~할 수 없는",
+     "example_en": "I am unable to attend on Tuesday.",
+     "example_ko": "화요일에는 참석할 수 없어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I am writing regarding our meeting on Tuesday.",
+     "ko": "화요일 회의에 관해 글을 씁니다."
+    },
+    {
+     "en": "I am writing to ask whether we could postpone the meeting.",
+     "ko": "회의를 미룰 수 있는지 여쭙고자 글을 씁니다."
+    },
+    {
+     "en": "I have a schedule conflict because I have a lab exam that morning.",
+     "ko": "그날 아침에 실험 시험이 있어서 일정이 겹칩니다."
+    },
+    {
+     "en": "Would Thursday afternoon be possible?",
+     "ko": "목요일 오후는 가능할까요?"
+    },
+    {
+     "en": "I am flexible on Thursday or Friday.",
+     "ko": "저는 목요일이나 금요일에는 조정할 수 있어요."
+    },
+    {
+     "en": "I apologize for any inconvenience.",
+     "ko": "불편을 드려 죄송합니다."
+    },
+    {
+     "en": "I would appreciate your understanding.",
+     "ko": "이해해 주시면 감사하겠습니다."
+    },
+    {
+     "en": "Could you let me know which time works for you?",
+     "ko": "어느 시간이 괜찮으신지 알려 주실 수 있나요?"
+    },
+    {
+     "en": "Please let me know your availability.",
+     "ko": "가능한 시간을 알려 주세요."
+    },
+    {
+     "en": "I am unable to attend on Tuesday.",
+     "ko": "화요일에는 참석할 수 없어요."
+    },
+    {
+     "en": "This is an urgent request, so I would be grateful for a quick reply.",
+     "ko": "급한 요청이라 빠른 답장을 주시면 감사하겠습니다."
+    },
+    {
+     "en": "Thank you for your time. Best regards, Min",
+     "ko": "시간 내 주셔서 감사합니다. 민 드림"
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "일정 변경을 요청하는 이메일의 첫 목적 문장으로 가장 알맞은 것은?",
+     "choices": [
+      "I am writing to ask whether we could postpone our meeting.",
+      "Change our meeting to another day.",
+      "I do not want to come to the meeting.",
+      "What a nice weather today!"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "이메일의 목적을 정중하게 밝히는 첫 문장입니다.",
+     "error_tag": "email-purpose",
+     "id": "TOEFL-034-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "이유를 짧고 분명하게 밝힌 문장은?",
+     "choices": [
+      "I have a schedule conflict because I have an exam that morning.",
+      "I am very busy and many things happen to me.",
+      "My life is difficult these days.",
+      "You should know that I cannot come."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "원인(because)과 구체적인 상황이 한 문장에 분명하게 들어 있습니다.",
+     "error_tag": "reason",
+     "id": "TOEFL-034-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "대안을 정중하게 제안하는 문장은?",
+     "choices": [
+      "Would Thursday afternoon be possible?",
+      "Come on Thursday afternoon.",
+      "Thursday afternoon is the only time.",
+      "Thursday afternoon, no other day."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Would ... be possible? 는 정중한 제안·질문입니다.",
+     "error_tag": "alternative",
+     "id": "TOEFL-034-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "이메일의 마무리로 가장 알맞은 것은?",
+     "choices": [
+      "Thank you for your understanding. Best regards, Min",
+      "I will wait for your answer today.",
+      "Please do it now.",
+      "See you never."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "감사 표현과 맺음말(Best regards)로 정중하게 끝냅니다.",
+     "error_tag": "closing",
+     "id": "TOEFL-034-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 단어를 쓰세요: I would like to ___ the meeting until next week. (미루다)",
+     "answer_text": "postpone",
+     "accepted_answers": [
+      "postpone"
+     ],
+     "explanation_ko": "미룬다는 뜻의 동사는 postpone 입니다.",
+     "error_tag": "vocabulary",
+     "id": "TOEFL-034-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 단어를 쓰세요: I have a schedule ___ on Tuesday morning. (일정이 겹침)",
+     "answer_text": "conflict",
+     "accepted_answers": [
+      "conflict"
+     ],
+     "explanation_ko": "schedule conflict 는 일정 충돌을 뜻합니다.",
+     "error_tag": "vocabulary",
+     "id": "TOEFL-034-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "교수님께 면담 시간을 목요일 오후로 바꿔 달라고 부탁하는 이메일 본문을 세 문장으로 써 보세요.",
+    "example_answer_en": "I am writing to ask whether we could move our meeting. I have a schedule conflict because I have an exam on Tuesday morning. Would Thursday afternoon be possible?",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-26",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-26"
+   }
   }
  ]
 }

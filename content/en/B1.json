@@ -6573,6 +6573,186 @@
     "version": 1,
     "last_revised": "2026-11-25"
    }
+  },
+  {
+   "id": "B1-035",
+   "level": "B1",
+   "track": "general",
+   "day": 35,
+   "title_ko": "5주 복습: want/ask/tell + to부정사·수동태 확장·보고화법·전치사 + 동명사·의견 말하기·충고 표현",
+   "objective_ko": "B1 다섯째 주에 배운 여섯 가지 문법(B1-029~034)을 섞어서 문제에 적용한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-26"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "이번 주에 배운 여섯 가지를 한 번에 복습합니다. ① want / ask / tell + 목적어 + to부정사: My boss told me to finish the report. ② 수동태 확장: has been done(완료), will be done(미래), can be done(가능): This form must be signed. ③ 보고화법 입문: She said that she was tired. / He asked if I liked coffee. ④ 전치사 뒤 동명사: I'm looking forward to seeing you. / She is interested in learning Japanese. ⑤ 의견 말하기: In my opinion, ... / I agree. / I don't think so. ⑥ 충고: You had better go to bed early. / You ought to see a doctor. / If I were you, I'd rest.",
+    "common_mistake_ko": "My boss told me finish the report.(X) → told me to finish(O) / I'm looking forward to see you.(X) → to seeing(O) / The form must sign.(X) → must be signed(O) / She asked me that I liked coffee.(X) → asked me if I liked coffee(O) / You had better to go.(X) → You had better go.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "improvement",
+     "part_of_speech": "명사",
+     "meaning_ko": "향상, 개선",
+     "example_en": "There has been a big improvement in her English.",
+     "example_ko": "그녀의 영어가 크게 좋아졌어요."
+    },
+    {
+     "word": "suggestion",
+     "part_of_speech": "명사",
+     "meaning_ko": "제안, 의견",
+     "example_en": "In my opinion, that is a useful suggestion.",
+     "example_ko": "내 생각에 그건 유용한 제안이에요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "My boss told me to finish the report by Friday.",
+     "ko": "상사가 금요일까지 보고서를 끝내라고 말했어요."
+    },
+    {
+     "en": "She asked me to open the window.",
+     "ko": "그녀는 나에게 창문을 열어 달라고 부탁했어요."
+    },
+    {
+     "en": "I want you to come to the party.",
+     "ko": "나는 네가 파티에 오길 바라요."
+    },
+    {
+     "en": "This form must be signed before Monday.",
+     "ko": "이 서류는 월요일 전에 서명되어야 해요."
+    },
+    {
+     "en": "The work has been done.",
+     "ko": "그 일은 이미 끝났어요."
+    },
+    {
+     "en": "The results will be announced next week.",
+     "ko": "결과는 다음 주에 발표될 거예요."
+    },
+    {
+     "en": "She said that she was tired.",
+     "ko": "그녀는 피곤하다고 말했어요."
+    },
+    {
+     "en": "He asked if I liked coffee.",
+     "ko": "그는 내가 커피를 좋아하는지 물었어요."
+    },
+    {
+     "en": "I'm looking forward to seeing you again.",
+     "ko": "당신을 다시 만나기를 기대하고 있어요."
+    },
+    {
+     "en": "She is interested in learning Japanese.",
+     "ko": "그녀는 일본어를 배우는 데 관심이 있어요."
+    },
+    {
+     "en": "In my opinion, this plan is a good idea.",
+     "ko": "내 생각에는 이 계획이 좋은 생각이에요."
+    },
+    {
+     "en": "You look very tired. You had better go to bed early.",
+     "ko": "아주 피곤해 보여요. 일찍 자는 게 좋겠어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "My boss told me ___ the report by Friday.",
+     "choices": [
+      "to finish",
+      "finish",
+      "finishing",
+      "that finish"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "tell + 목적어 + to부정사 형태입니다.",
+     "error_tag": "object-to-infinitive",
+     "id": "B1-035-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "This form must ___ before Monday.",
+     "choices": [
+      "be signed",
+      "sign",
+      "signed",
+      "be signing"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "조동사 뒤의 수동태는 be + 과거분사입니다: must be signed.",
+     "error_tag": "passive-modal",
+     "id": "B1-035-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "\"Do you like coffee?\" she asked me. → She asked me ___ I liked coffee.",
+     "choices": [
+      "if",
+      "that",
+      "to",
+      "what"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Yes/No 질문을 전할 때는 if(또는 whether)를 씁니다.",
+     "error_tag": "reported-question",
+     "id": "B1-035-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "I'm looking forward to ___ you again.",
+     "choices": [
+      "seeing",
+      "see",
+      "saw",
+      "to see"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "look forward to 의 to 는 전치사이므로 뒤에 동명사(-ing)가 옵니다.",
+     "error_tag": "preposition-gerund",
+     "id": "B1-035-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: You look very tired. You ___ better go to bed early.",
+     "answer_text": "had",
+     "accepted_answers": [
+      "had",
+      "'d"
+     ],
+     "explanation_ko": "충고 표현 had better + 동사원형 입니다.",
+     "error_tag": "had-better",
+     "id": "B1-035-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: In my ___, the new plan is a good idea. (제 의견으로는)",
+     "answer_text": "opinion",
+     "accepted_answers": [
+      "opinion"
+     ],
+     "explanation_ko": "의견을 말하는 표현은 In my opinion, ... 입니다.",
+     "error_tag": "opinion",
+     "id": "B1-035-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "이번 주에 배운 문법 중 두 가지를 골라 나의 이야기를 두 문장으로 써 보세요.",
+    "example_answer_en": "I'm looking forward to seeing my friends this weekend. In my opinion, we had better meet early.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-26",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-26"
+   }
   }
  ]
 }

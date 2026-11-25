@@ -7666,6 +7666,205 @@
     "version": 1,
     "last_revised": "2026-11-25"
    }
+  },
+  {
+   "id": "B2-040",
+   "level": "B2",
+   "track": "general",
+   "day": 40,
+   "title_ko": "be said / believed / thought to ...: 소문과 평판 말하기",
+   "objective_ko": "주어 + be said / believed / thought / reported to + 동사원형(또는 to have + 과거분사) 구문으로 일반적인 믿음이나 보도를 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-26"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "‘~라고들 한다, ~라고 여겨진다’를 It is said that ... 대신 사람이나 사물을 주어로 하여 말할 수 있습니다. People say that he is rich. → He is said to be rich. 지금과 같은 시점의 일은 to + 동사원형, 이미 지난 일은 to have + 과거분사, 진행 중인 일은 to be + -ing 를 씁니다: The bridge is said to have been built in the 1800s. / He is reported to be living in Spain. 이 구문에 쓰이는 동사는 say, believe, think, report, know, expect 등입니다. 뉴스·기사·설명문에서 자주 쓰는 격식 있는 표현입니다.",
+    "common_mistake_ko": "He is said that he is rich.(X) → He is said to be rich. / It is said that he is rich.(O) / He is believed to leave the country last week.(X) → to have left(O) — 과거 일은 완료형. / The bridge is said to be built in the 1800s.(X) → to have been built(O)."
+   },
+   "vocabulary": [
+    {
+     "word": "reputation",
+     "part_of_speech": "명사",
+     "meaning_ko": "평판, 명성",
+     "example_en": "The restaurant has a good reputation.",
+     "example_ko": "그 식당은 평판이 좋아요."
+    },
+    {
+     "word": "rumour",
+     "part_of_speech": "명사",
+     "meaning_ko": "소문",
+     "example_en": "There is a rumour that the shop will close.",
+     "example_ko": "그 가게가 문을 닫는다는 소문이 있어요."
+    },
+    {
+     "word": "ancient",
+     "part_of_speech": "형용사",
+     "meaning_ko": "고대의, 아주 오래된",
+     "example_en": "The ancient temple is a popular tourist spot.",
+     "example_ko": "그 고대 사원은 인기 있는 관광지예요."
+    },
+    {
+     "word": "reportedly",
+     "part_of_speech": "부사",
+     "meaning_ko": "보도에 따르면",
+     "example_en": "The company has reportedly lost money.",
+     "example_ko": "그 회사는 보도에 따르면 손실을 봤다고 해요."
+    },
+    {
+     "word": "treasure",
+     "part_of_speech": "명사",
+     "meaning_ko": "보물",
+     "example_en": "The treasure is believed to be hidden on the island.",
+     "example_ko": "그 보물은 섬에 숨겨져 있다고 여겨져요."
+    },
+    {
+     "word": "legend",
+     "part_of_speech": "명사",
+     "meaning_ko": "전설",
+     "example_en": "According to the legend, a king once lived here.",
+     "example_ko": "전설에 따르면 옛날에 한 왕이 여기 살았어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "He is said to be very rich.",
+     "ko": "그는 아주 부자라고들 해요."
+    },
+    {
+     "en": "The company is said to be planning a new factory.",
+     "ko": "그 회사는 새 공장을 계획 중이라고들 해요."
+    },
+    {
+     "en": "He is believed to have left the country last night.",
+     "ko": "그는 어젯밤에 나라를 떠났다고 여겨져요."
+    },
+    {
+     "en": "The painting is thought to be worth over a million dollars.",
+     "ko": "그 그림은 100만 달러가 넘는 가치가 있다고 여겨져요."
+    },
+    {
+     "en": "The old bridge is said to have been built in the 1800s.",
+     "ko": "그 오래된 다리는 1800년대에 지어졌다고들 해요."
+    },
+    {
+     "en": "The two countries are expected to sign the agreement next week.",
+     "ko": "두 나라는 다음 주에 협정에 서명할 것으로 예상돼요."
+    },
+    {
+     "en": "The man is reported to be living in Spain now.",
+     "ko": "그 남자는 지금 스페인에서 살고 있다고 보도되었어요."
+    },
+    {
+     "en": "The founder is said to have worked sixteen hours a day.",
+     "ko": "그 창업자는 하루에 열여섯 시간씩 일했다고들 해요."
+    },
+    {
+     "en": "The treasure is believed to be hidden on the island.",
+     "ko": "그 보물은 섬에 숨겨져 있다고 여겨져요."
+    },
+    {
+     "en": "It is said that the legend is more than 500 years old.",
+     "ko": "그 전설은 500년이 넘었다고들 해요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "People say that she is a talented singer. = She ___ a talented singer.",
+     "choices": [
+      "is said to be",
+      "says to be",
+      "is said being",
+      "is saying to be"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "주어 + be said to + 동사원형 형태입니다.",
+     "error_tag": "said-to",
+     "id": "B2-040-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "He is believed ___ the country last week.",
+     "choices": [
+      "to have left",
+      "to leave",
+      "leaving",
+      "to be leaving"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "지난주에 일어난 일이므로 to have + 과거분사(to have left)를 씁니다.",
+     "error_tag": "perfect-infinitive",
+     "id": "B2-040-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "It is thought that the temple was built in the 12th century. = The temple is thought ___ in the 12th century.",
+     "choices": [
+      "to have been built",
+      "to be built",
+      "to build",
+      "having built"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "과거에 ‘지어진’ 일이므로 수동의 완료형 to have been built 입니다.",
+     "error_tag": "passive-perfect-infinitive",
+     "id": "B2-040-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "The CEO is reported to be resigning next month.",
+      "The CEO is reported resign next month.",
+      "The CEO is report to resign next month.",
+      "It is reported the CEO to resign next month."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "be reported to + 동사원형(또는 to be -ing) 형태입니다.",
+     "error_tag": "reporting-structure",
+     "id": "B2-040-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: She is said ___ be the best player in the league.",
+     "answer_text": "to",
+     "accepted_answers": [
+      "to"
+     ],
+     "explanation_ko": "be said to + 동사원형 입니다.",
+     "error_tag": "said-to",
+     "id": "B2-040-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: He is thought to ___ been ill for a long time.",
+     "answer_text": "have",
+     "accepted_answers": [
+      "have"
+     ],
+     "explanation_ko": "과거부터 계속된 일은 to have + 과거분사 입니다.",
+     "error_tag": "perfect-infinitive",
+     "id": "B2-040-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "알고 있는 인물이나 장소에 대해 be said to ... 구문을 써서 영어 문장 두 개를 써 보세요.",
+    "example_answer_en": "The castle is said to be more than 800 years old. My grandfather is said to have been a very good cook.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-26",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-26"
+   }
   }
  ]
 }

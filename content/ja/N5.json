@@ -8519,6 +8519,463 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N5-40",
+   "day_index": 40,
+   "week_index": 6,
+   "level": "N5",
+   "unit_id": "N5-W06",
+   "lesson_type": "new",
+   "title_ko": "いつも・よく・時々・あまり・ぜんぜん: 빈도 말하기",
+   "objective_ko": "いつも・よく・時々・あまり・ぜんぜん으로 어떤 일을 얼마나 자주 하는지 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N5-39"
+   ],
+   "explanation_ko": "하는 일의 빈도를 나타내는 말입니다. いつも(항상), よく(자주), 時々{ときどき}(가끔), あまり(별로), 全然{ぜんぜん}(전혀) 순으로 빈도가 낮아집니다. 위치는 보통 ‘주어는 + 빈도 말 + 목적어를 + 동사’ 입니다: わたしは いつも 朝{あさ}ごはんを 食{た}べます(나는 항상 아침을 먹어요). あまり와 全然은 반드시 부정 동사와 함께 씁니다: コーヒーを あまり 飲{の}みません(커피를 별로 마시지 않아요), 全然{ぜんぜん} 勉強{べんきょう}しません(전혀 공부하지 않아요). 毎朝{まいあさ}・毎週{まいしゅう}처럼 ‘매~’를 붙이면 정해진 때마다 한다는 뜻입니다.",
+   "usage_notes": [
+    "빈도 말은 동사 앞에 둔다: いつも 食べます.",
+    "あまり・全然 + 부정(〜ません).",
+    "いつも・よく・時々 + 긍정(〜ます)."
+   ],
+   "common_mistakes": [
+    "あまり 飲みます(X) → あまり 飲みません(O) — あまり는 부정과 함께",
+    "食べます いつも(X) → いつも 食べます(O) — 빈도 말은 동사 앞",
+    "全然 食べます(X) → 全然 食べません(O) — 全然도 부정과 함께"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "いつも",
+     "reading_kana": "いつも",
+     "reading_romanized": "itsumo",
+     "meaning_ko": "항상",
+     "part_of_speech": "부사",
+     "id": "w-JP-N5-40-01"
+    },
+    {
+     "kind": "word",
+     "text": "よく",
+     "reading_kana": "よく",
+     "reading_romanized": "yoku",
+     "meaning_ko": "자주",
+     "part_of_speech": "부사",
+     "id": "w-JP-N5-40-02"
+    },
+    {
+     "kind": "word",
+     "text": "時々{ときどき}",
+     "reading_kana": "ときどき",
+     "reading_romanized": "tokidoki",
+     "meaning_ko": "가끔",
+     "part_of_speech": "부사",
+     "id": "w-JP-N5-40-03"
+    },
+    {
+     "kind": "word",
+     "text": "あまり",
+     "reading_kana": "あまり",
+     "reading_romanized": "amari",
+     "meaning_ko": "별로 (부정과 함께)",
+     "part_of_speech": "부사",
+     "id": "w-JP-N5-40-04"
+    },
+    {
+     "kind": "word",
+     "text": "全然{ぜんぜん}",
+     "reading_kana": "ぜんぜん",
+     "reading_romanized": "zenzen",
+     "meaning_ko": "전혀 (부정과 함께)",
+     "part_of_speech": "부사",
+     "id": "w-JP-N5-40-05"
+    },
+    {
+     "kind": "word",
+     "text": "毎週{まいしゅう}",
+     "reading_kana": "まいしゅう",
+     "reading_romanized": "maishuu",
+     "meaning_ko": "매주",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-40-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "わたしは いつも 朝{あさ}ごはんを 食{た}べます。",
+     "meaning_ko": "나는 항상 아침을 먹어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "毎朝{まいあさ} 六時{ろくじ}に 起{お}きます。",
+     "meaning_ko": "매일 아침 6시에 일어나요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "兄{あに}は よく 本{ほん}を 読{よ}みます。",
+     "meaning_ko": "형(오빠)은 책을 자주 읽어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "友{とも}だちと よく 公園{こうえん}に 行{い}きます。",
+     "meaning_ko": "친구와 자주 공원에 가요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "時々{ときどき} 映画{えいが}を 見{み}ます。",
+     "meaning_ko": "가끔 영화를 봐요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "土曜日{どようび}は 時々{ときどき} 友{とも}だちと 買{か}い物{もの}を します。",
+     "meaning_ko": "토요일은 가끔 친구와 쇼핑을 해요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "わたしは あまり コーヒーを 飲{の}みません。",
+     "meaning_ko": "나는 커피를 별로 마시지 않아요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "弟{おとうと}は 野菜{やさい}を あまり 食{た}べません。",
+     "meaning_ko": "남동생은 채소를 별로 먹지 않아요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "日曜日{にちようび}は 全然{ぜんぜん} 勉強{べんきょう}しません。",
+     "meaning_ko": "일요일은 전혀 공부하지 않아요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "毎週{まいしゅう} 日曜日{にちようび}に 学校{がっこう}へ 行{い}きます。",
+     "meaning_ko": "매주 일요일에 학교에 가요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "学校{がっこう}へ いつも バスで 行{い}きます。",
+     "meaning_ko": "학교에는 항상 버스로 가요.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「わたしは いつも 朝ごはんを 食べます」의 뜻으로 알맞은 것은?",
+     "options": [
+      "나는 항상 아침을 먹어요",
+      "나는 가끔 아침을 먹어요",
+      "나는 아침을 전혀 먹지 않아요",
+      "나는 어제 아침을 먹었어요"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "いつも는 ‘항상’입니다.",
+     "id": "JP-N5-40-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「わたしは あまり コーヒーを（　）。」 ( )에 알맞은 말은? (나는 커피를 별로 마시지 않아요)",
+     "options": [
+      "飲みません",
+      "飲みます",
+      "飲みました",
+      "飲みましょう"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "あまり는 부정 동사와 함께 쓰므로 飲みません입니다.",
+     "id": "JP-N5-40-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「時々 映画を 見ます」의 뜻은?",
+     "options": [
+      "가끔 영화를 봐요",
+      "항상 영화를 봐요",
+      "영화를 전혀 보지 않아요",
+      "영화를 매일 봐요"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "時々는 ‘가끔’입니다.",
+     "id": "JP-N5-40-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「日曜日は 全然 勉強しません」의 뜻은?",
+     "options": [
+      "일요일은 전혀 공부하지 않아요",
+      "일요일은 항상 공부해요",
+      "일요일은 가끔 공부해요",
+      "일요일은 공부했어요"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "全然은 부정 동사와 함께 ‘전혀 ~하지 않다’입니다.",
+     "id": "JP-N5-40-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「全然」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "zenzen",
+     "accepted_answers": [
+      "zenzen"
+     ],
+     "explanation_ko": "全然 = ぜんぜん(zenzen), ‘전혀’입니다.",
+     "id": "JP-N5-40-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「時々」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "tokidoki",
+     "accepted_answers": [
+      "tokidoki"
+     ],
+     "explanation_ko": "時々 = ときどき(tokidoki), ‘가끔’입니다.",
+     "id": "JP-N5-40-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N5-41",
+   "day_index": 41,
+   "week_index": 6,
+   "level": "N5",
+   "unit_id": "N5-W06",
+   "lesson_type": "practice",
+   "title_ko": "적용: 학교 식당의 점심 읽기",
+   "objective_ko": "6주차에 배운 문형(〜ましょうか・〜に します・〜ごろ・〜ぐらい・〜の 前・隣・近く・빈도 말)이 들어 있는 점심시간 이야기를 읽고 내용을 확인한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N5-40"
+   ],
+   "explanation_ko": "이번 주에 배운 〜ましょうか(제안하고 도와주기), 〜に します(정하기), 〜ごろ・〜ぐらい(대략의 시각과 시간), 〜の 前・隣・近く(위치), いつも・よく・時々・あまり(빈도)를 학교 식당 이야기에서 복습합니다. 시각 뒤에는 ごろ(十二時{じゅうにじ}ごろ), 시간의 길이 뒤에는 ぐらい(三十分{さんじゅっぷん}ぐらい)를 씁니다. 무엇으로 할지 정할 때는 〜に します, 도와주겠다고 할 때는 동사 ます형 + ましょうか, 위치는 〜の 隣・近くに あります/います, あまり는 부정 동사와 함께 씁니다.",
+   "usage_notes": [
+    "시각: 十二時ごろ / 시간의 길이: 三十分ぐらい.",
+    "정하기: 〜に します.",
+    "제안: 〜ましょうか.",
+    "위치: 〜の 隣・近くに あります."
+   ],
+   "common_mistakes": [
+    "十二時ぐらいに 行きます(△) → 시각에는 ごろ: 十二時ごろに 行きます(O)",
+    "定食を します(X) → 定食に します(O)",
+    "魚を あまり 食べます(X) → 食べません(O)"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "食堂{しょくどう}",
+     "reading_kana": "しょくどう",
+     "reading_romanized": "shokudou",
+     "meaning_ko": "식당",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-41-01"
+    },
+    {
+     "kind": "word",
+     "text": "先輩{せんぱい}",
+     "reading_kana": "せんぱい",
+     "reading_romanized": "senpai",
+     "meaning_ko": "선배",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-41-02"
+    },
+    {
+     "kind": "word",
+     "text": "席{せき}",
+     "reading_kana": "せき",
+     "reading_romanized": "seki",
+     "meaning_ko": "자리",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-41-03"
+    },
+    {
+     "kind": "word",
+     "text": "窓{まど}",
+     "reading_kana": "まど",
+     "reading_romanized": "mado",
+     "meaning_ko": "창문",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-41-04"
+    },
+    {
+     "kind": "word",
+     "text": "注文{ちゅうもん}",
+     "reading_kana": "ちゅうもん",
+     "reading_romanized": "chuumon",
+     "meaning_ko": "주문",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N5-41-05"
+    },
+    {
+     "kind": "word",
+     "text": "カレー",
+     "reading_kana": "カレー",
+     "reading_romanized": "karee",
+     "meaning_ko": "카레",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-41-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "毎日{まいにち}、昼休{ひるやす}みに 食堂{しょくどう}へ 行{い}きます。",
+     "meaning_ko": "매일 점심시간에 식당에 가요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "食堂{しょくどう}は 図書館{としょかん}の 隣{となり}に あります。",
+     "meaning_ko": "식당은 도서관 옆에 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "わたしは いつも 友{とも}だちと 十二時{じゅうにじ}ごろに 行{い}きます。",
+     "meaning_ko": "나는 항상 친구와 12시쯤 가요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "食堂{しょくどう}の 入口{いりぐち}の 前{まえ}に 先輩{せんぱい}が います。",
+     "meaning_ko": "식당 입구 앞에 선배가 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "「席{せき}を 取{と}りましょうか。」「はい、お願{ねが}いします。」",
+     "meaning_ko": "“자리를 잡을까요?” “네, 부탁해요.”",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "席{せき}は 窓{まど}の 近{ちか}くに あります。",
+     "meaning_ko": "자리는 창문 근처에 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "今日{きょう}は わたしは 定食{ていしょく}に します。",
+     "meaning_ko": "오늘은 나는 정식으로 할게요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "友{とも}だちは カレーに します。",
+     "meaning_ko": "친구는 카레로 할게요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "友{とも}だちは あまり 魚{さかな}を 食{た}べません。",
+     "meaning_ko": "친구는 생선을 별로 먹지 않아요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "食事{しょくじ}の 時間{じかん}は 三十分{さんじゅっぷん}ぐらいです。",
+     "meaning_ko": "식사 시간은 30분쯤이에요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "先輩{せんぱい}は 時々{ときどき} 一緒{いっしょ}に 食{た}べます。",
+     "meaning_ko": "선배는 가끔 함께 먹어요.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「食堂は 図書館の 隣に あります」의 뜻으로 알맞은 것은?",
+     "options": [
+      "식당은 도서관 옆에 있어요",
+      "식당은 도서관 앞에 있어요",
+      "식당은 도서관 뒤에 있어요",
+      "식당은 도서관 안에 있어요"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "隣은 ‘옆’입니다.",
+     "id": "JP-N5-41-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「十二時ごろに 行きます」의 뜻은?",
+     "options": [
+      "12시쯤에 가요",
+      "12시 정각에 가요",
+      "12시간 동안 가요",
+      "12시까지 가요"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜ごろ는 대략의 시각을 나타냅니다.",
+     "id": "JP-N5-41-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「友だちは カレーに します」의 뜻은?",
+     "options": [
+      "친구는 카레로 할게요(카레로 정해요)",
+      "친구는 카레를 만들어요",
+      "친구는 카레를 사러 가요",
+      "친구는 카레를 싫어해요"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜に します는 무엇으로 할지 정할 때 씁니다.",
+     "id": "JP-N5-41-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「友だちは あまり 魚を（　）。」 ( )에 알맞은 말은? (친구는 생선을 별로 먹지 않아요)",
+     "options": [
+      "食べません",
+      "食べます",
+      "食べました",
+      "食べましょう"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "あまり는 부정 동사와 함께 쓰므로 食べません입니다.",
+     "id": "JP-N5-41-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「食堂」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "shokudou",
+     "accepted_answers": [
+      "shokudou",
+      "shokudo",
+      "syokudou",
+      "syokudo"
+     ],
+     "explanation_ko": "食堂 = しょくどう(shokudou), ‘식당’입니다.",
+     "id": "JP-N5-41-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「定食」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "teishoku",
+     "accepted_answers": [
+      "teishoku",
+      "teisyoku"
+     ],
+     "explanation_ko": "定食 = ていしょく(teishoku), ‘정식’입니다.",
+     "id": "JP-N5-41-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

@@ -7668,6 +7668,205 @@
     "version": 1,
     "last_revised": "2026-11-25"
    }
+  },
+  {
+   "id": "A2-040",
+   "level": "A2",
+   "track": "general",
+   "day": 40,
+   "title_ko": "Shall I ...? / Would you like me to ...?: 도와주겠다고 제안하기",
+   "objective_ko": "Shall I ...? 와 Would you like me to ...? 로 상대를 돕겠다고 제안하고 응답한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-26"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "상대를 도와주겠다고 제안할 때 Shall I + 동사원형 ...?(제가 ~할까요?) 를 씁니다: Shall I open the window? 조금 더 정중하게는 Would you like me to + 동사원형 ...? 를 씁니다: Would you like me to carry your bag? 이 두 표현은 ‘내가 해 줄까요?’라는 제안이고, 주어는 I 입니다(Shall I / Shall we). 응답은 수락: Yes, please. / That's very kind of you. 거절: No, thank you. I'm fine. / No, thanks. I can do it myself. 가 자연스럽습니다.",
+    "common_mistake_ko": "Shall I to open the window?(X) → Shall I open the window?(O) — Shall 뒤는 to 없는 동사원형. / Would you like me carry your bag?(X) → Would you like me to carry your bag?(O) — me 뒤에 to. / Do I shall help you?(X) → Shall I help you?(O)."
+   },
+   "vocabulary": [
+    {
+     "word": "hold",
+     "part_of_speech": "동사",
+     "meaning_ko": "잡다, 들고 있다",
+     "example_en": "Shall I hold the door for you?",
+     "example_ko": "문을 잡아 드릴까요?"
+    },
+    {
+     "word": "suitcase",
+     "part_of_speech": "명사",
+     "meaning_ko": "여행 가방",
+     "example_en": "Would you like me to carry your suitcase?",
+     "example_ko": "여행 가방을 들어 드릴까요?"
+    },
+    {
+     "word": "stairs",
+     "part_of_speech": "명사",
+     "meaning_ko": "계단",
+     "example_en": "Shall I help you with the stairs?",
+     "example_ko": "계단 오르는 걸 도와 드릴까요?"
+    },
+    {
+     "word": "tray",
+     "part_of_speech": "명사",
+     "meaning_ko": "쟁반",
+     "example_en": "Shall I carry the tray?",
+     "example_ko": "쟁반을 들어 드릴까요?"
+    },
+    {
+     "word": "spare",
+     "part_of_speech": "형용사",
+     "meaning_ko": "여분의",
+     "example_en": "Shall I bring a spare umbrella?",
+     "example_ko": "여분의 우산을 가져올까요?"
+    },
+    {
+     "word": "grateful",
+     "part_of_speech": "형용사",
+     "meaning_ko": "고마워하는",
+     "example_en": "I'm very grateful for your help.",
+     "example_ko": "도와주셔서 정말 고마워요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "Shall I open the window? It's hot in here.",
+     "ko": "제가 창문을 열까요? 여기 덥네요."
+    },
+    {
+     "en": "Yes, please. That's very kind of you.",
+     "ko": "네, 부탁해요. 정말 친절하시네요."
+    },
+    {
+     "en": "Would you like me to carry your suitcase?",
+     "ko": "여행 가방을 들어 드릴까요?"
+    },
+    {
+     "en": "No, thank you. I'm fine.",
+     "ko": "아니요, 괜찮아요."
+    },
+    {
+     "en": "Shall I hold the door for you?",
+     "ko": "문을 잡아 드릴까요?"
+    },
+    {
+     "en": "Shall I help you with the stairs?",
+     "ko": "계단 오르는 걸 도와 드릴까요?"
+    },
+    {
+     "en": "Would you like me to bring a spare umbrella?",
+     "ko": "여분의 우산을 가져올까요?"
+    },
+    {
+     "en": "No, thanks. I can do it myself.",
+     "ko": "아니요, 괜찮아요. 제가 할 수 있어요."
+    },
+    {
+     "en": "Shall I carry the tray to the kitchen?",
+     "ko": "쟁반을 부엌으로 들고 갈까요?"
+    },
+    {
+     "en": "I'm very grateful for your help.",
+     "ko": "도와주셔서 정말 고마워요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "It's hot in here. ___ I open the window?",
+     "choices": [
+      "Shall",
+      "Do",
+      "Are",
+      "Does"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘제가 ~할까요?’라는 제안은 Shall I 로 합니다.",
+     "error_tag": "shall-i",
+     "id": "A2-040-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Would you like me ___ your bag?",
+     "choices": [
+      "to carry",
+      "carry",
+      "carrying",
+      "carries"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Would you like me + to + 동사원형 형태입니다.",
+     "error_tag": "would-you-like-me-to",
+     "id": "A2-040-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "\"Shall I carry your bag?\"에 대한 정중한 수락은?",
+     "choices": [
+      "Yes, please. Thank you.",
+      "Yes, I shall carry.",
+      "No, you are.",
+      "I'm carry."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "제안을 받아들일 때는 Yes, please. 가 자연스럽습니다.",
+     "error_tag": "offer-reply",
+     "id": "A2-040-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "Shall I help you with the dishes?",
+      "Shall I helping you with the dishes?",
+      "Shall I to help you with the dishes?",
+      "Do I shall help you with the dishes?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Shall I 뒤에는 to 없이 동사원형을 씁니다.",
+     "error_tag": "shall-i",
+     "id": "A2-040-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: ___ I carry that box for you? (제가 ~할까요?)",
+     "answer_text": "Shall",
+     "accepted_answers": [
+      "shall"
+     ],
+     "explanation_ko": "제안의 ‘제가 ~할까요?’는 Shall I 입니다.",
+     "error_tag": "shall-i",
+     "id": "A2-040-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Would you like me ___ open the door?",
+     "answer_text": "to",
+     "accepted_answers": [
+      "to"
+     ],
+     "explanation_ko": "Would you like me to + 동사원형 입니다.",
+     "error_tag": "would-you-like-me-to",
+     "id": "A2-040-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "가방이 무거워 보이는 친구에게 도와주겠다고 제안하는 영어 문장 두 개를 써 보세요.",
+    "example_answer_en": "Shall I carry your bag? Would you like me to hold the door for you?",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-26",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-26"
+   }
   }
  ]
 }

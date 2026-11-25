@@ -8437,6 +8437,226 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-40",
+   "day_index": 40,
+   "week_index": 6,
+   "level": "N1",
+   "unit_id": "N1-W06",
+   "lesson_type": "new",
+   "title_ko": "〜ならいざ知らず: ~라면 몰라도",
+   "objective_ko": "〜ならいざ知らず로 앞의 경우는 이해되지만 뒤의 경우는 그렇지 않다는 놀람·비판을 말한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-39"
+   ],
+   "explanation_ko": "〜ならいざ知{し}らず는 ‘A라면 몰라도 (B는 그렇지 않다)’라는 뜻으로, A의 경우는 예외로 이해할 수 있지만 B의 경우는 도저히 받아들일 수 없다는 놀람・비판・불만을 나타냅니다. 접속: 명사 + ならいざ知{し}らず, 동사・い형용사 보통형 + ならいざ知{し}らず, 비슷한 형태로 〜はいざ知{し}らず도 있습니다. 앞에는 극단적이거나 예외적인 경우를 놓고, 뒤에는 그렇게 하면 안 되는 상황에 대한 화자의 판단(信{しん}じられない・情{なさ}けない・困{こま}る・通用{つうよう}しない 등)이 옵니다. 문어적이고 격식 있는 표현입니다.",
+   "usage_notes": [
+    "명사 + ならいざ知らず、〜.",
+    "앞은 예외적 경우, 뒤는 놀람·비판·판단.",
+    "〜はいざ知らず로 바꿔 쓸 수 있다."
+   ],
+   "common_mistakes": [
+    "子供でもいざ知らず(X) → 子供ならいざ知らず(O) — なら를 쓴다",
+    "初心者ならいざ知らず、うまくできて当然だ(X) → 뒤에는 비판·놀람이 오는 것이 자연스럽다",
+    "いざ知らない(X) → いざ知らず(O) — 고정된 형태"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "初心者{しょしんしゃ}",
+     "reading_kana": "しょしんしゃ",
+     "reading_romanized": "shoshinsha",
+     "meaning_ko": "초보자",
+     "part_of_speech": "명사",
+     "id": "w-JP-N1-40-01"
+    },
+    {
+     "kind": "word",
+     "text": "素人{しろうと}",
+     "reading_kana": "しろうと",
+     "reading_romanized": "shirouto",
+     "meaning_ko": "아마추어, 문외한",
+     "part_of_speech": "명사",
+     "id": "w-JP-N1-40-02"
+    },
+    {
+     "kind": "word",
+     "text": "常識{じょうしき}",
+     "reading_kana": "じょうしき",
+     "reading_romanized": "joushiki",
+     "meaning_ko": "상식",
+     "part_of_speech": "명사",
+     "id": "w-JP-N1-40-03"
+    },
+    {
+     "kind": "word",
+     "text": "軽率{けいそつ}",
+     "reading_kana": "けいそつ",
+     "reading_romanized": "keisotsu",
+     "meaning_ko": "경솔함",
+     "part_of_speech": "な형용사",
+     "id": "w-JP-N1-40-04"
+    },
+    {
+     "kind": "word",
+     "text": "通用{つうよう}",
+     "reading_kana": "つうよう",
+     "reading_romanized": "tsuuyou",
+     "meaning_ko": "통용됨",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N1-40-05"
+    },
+    {
+     "kind": "word",
+     "text": "取引先{とりひきさき}",
+     "reading_kana": "とりひきさき",
+     "reading_romanized": "torihikisaki",
+     "meaning_ko": "거래처",
+     "part_of_speech": "명사",
+     "id": "w-JP-N1-40-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "子供{こども}ならいざ知{し}らず、大人{おとな}がこんな間違{まちが}いをするとは信{しん}じられない。",
+     "meaning_ko": "아이라면 몰라도 어른이 이런 실수를 하다니 믿을 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "初心者{しょしんしゃ}ならいざ知{し}らず、プロがこんなミスをするとは情{なさ}けない。",
+     "meaning_ko": "초보자라면 몰라도 프로가 이런 실수를 하다니 한심하다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "学生{がくせい}ならいざ知{し}らず、社会人{しゃかいじん}が遅刻{ちこく}を繰{く}り返{かえ}すのは問題{もんだい}だ。",
+     "meaning_ko": "학생이라면 몰라도 직장인이 지각을 반복하는 것은 문제다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "素人{しろうと}ならいざ知{し}らず、専門家{せんもんか}がそんな初歩的{しょほてき}な誤{あやま}りを犯{おか}すとは。",
+     "meaning_ko": "아마추어라면 몰라도 전문가가 그런 초보적인 잘못을 저지르다니.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "新人{しんじん}ならいざ知{し}らず、責任者{せきにんしゃ}が常識{じょうしき}を知{し}らないとは困{こま}る。",
+     "meaning_ko": "신입이라면 몰라도 책임자가 상식을 모르다니 곤란하다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "一度{いちど}ならいざ知{し}らず、何度{なんど}も同{おな}じ失敗{しっぱい}をするのは軽率{けいそつ}と言{い}わざるを得{え}ない。",
+     "meaning_ko": "한 번이라면 몰라도 여러 번 같은 실수를 하는 것은 경솔하다고 할 수밖에 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "友人{ゆうじん}同士{どうし}ならいざ知{し}らず、取引先{とりひきさき}にそんな言葉遣{ことばづか}いは失礼{しつれい}だ。",
+     "meaning_ko": "친구 사이라면 몰라도 거래처에 그런 말투는 실례다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "暖{あたた}かい時期{じき}ならいざ知{し}らず、真冬{まふゆ}に薄着{うすぎ}で出{で}かけるのは危険{きけん}だ。",
+     "meaning_ko": "따뜻한 시기라면 몰라도 한겨울에 얇게 입고 나가는 것은 위험하다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "昔{むかし}ならいざ知{し}らず、今{いま}の時代{じだい}にそんな考{かんが}え方{かた}は通用{つうよう}しない。",
+     "meaning_ko": "옛날이라면 몰라도 지금 시대에 그런 사고방식은 통하지 않는다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「子供ならいざ知らず、大人がこんな間違いをするとは信じられない」의 뜻으로 알맞은 것은?",
+     "options": [
+      "아이라면 몰라도 어른이 이런 실수를 하다니 믿을 수 없다",
+      "아이는 물론 어른도 실수하는 것은 당연하다",
+      "아이가 몰라도 어른이 가르쳐 줘야 한다",
+      "아이인지 어른인지 몰라서 믿을 수 없다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜ならいざ知らず는 ‘~라면 몰라도’이며 뒤에는 놀람·비판이 옵니다.",
+     "id": "JP-N1-40-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「初心者（　）いざ知らず、プロがこんなミスをするとは。」 ( )에 알맞은 말은?",
+     "options": [
+      "なら",
+      "でも",
+      "さえ",
+      "こそ"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "고정된 형태는 〜ならいざ知らず입니다.",
+     "id": "JP-N1-40-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「〜ならいざ知らず」 뒤에 오는 내용으로 알맞은 것은?",
+     "options": [
+      "앞의 경우는 이해되지만 뒤의 경우는 문제라는 판단·놀람",
+      "앞의 경우와 뒤의 경우가 같다는 설명",
+      "앞의 조건이 이루어지면 반드시 뒤가 일어난다는 설명",
+      "앞의 일이 끝난 직후 뒤가 일어난다는 설명"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "앞은 예외적으로 이해할 수 있는 경우, 뒤는 받아들일 수 없다는 화자의 판단입니다.",
+     "id": "JP-N1-40-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「昔ならいざ知らず、今の時代に そんな考え方は（　）。」 ( )에 알맞은 말은? (통하지 않는다)",
+     "options": [
+      "通用しない",
+      "通用する",
+      "通用させたい",
+      "通用してきた"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘옛날이라면 몰라도’이므로 지금은 통하지 않는다는 내용이 이어져야 합니다. 通用しない가 알맞습니다.",
+     "id": "JP-N1-40-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「素人」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "shirouto",
+     "accepted_answers": [
+      "shirouto",
+      "sirouto"
+     ],
+     "explanation_ko": "素人 = しろうと(shirouto), ‘아마추어’입니다.",
+     "id": "JP-N1-40-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「常識」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "joushiki",
+     "accepted_answers": [
+      "joushiki",
+      "joshiki",
+      "jyoushiki",
+      "zyousiki"
+     ],
+     "explanation_ko": "常識 = じょうしき(joushiki), ‘상식’입니다.",
+     "id": "JP-N1-40-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }
