@@ -8682,6 +8682,232 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-41",
+   "day_index": 41,
+   "week_index": 6,
+   "level": "N2",
+   "unit_id": "N2-W06",
+   "lesson_type": "practice",
+   "title_ko": "적용: 시민 독서회 모집 소식 읽기",
+   "objective_ko": "6주차에 배운 문형(〜からといって・〜に反して・〜を問わず・〜に沿って・〜に過ぎない)이 들어 있는 독서회 소식을 읽고 뜻을 확인한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-40"
+   ],
+   "explanation_ko": "〜からといって, 〜に反して, 〜を問わず, 〜に沿って, 〜に過ぎない 를 시민 독서회 모집 소식에서 복습합니다. 〜からといって는 ‘~라고 해서(~라고는 할 수 없다)’, 〜に反して는 ‘~와 달리’, 〜を問わず는 ‘~에 관계없이’, 〜に沿って는 ‘~에 따라·~에 맞춰’, 〜に過ぎない는 ‘~에 불과하다’를 나타냅니다. 〜からといって 뒤에는 보통 〜とは限らない・〜わけではない 가 옵니다.",
+   "usage_notes": [
+    "〜からといって: 보통형 + からといって + 〜とは限らない / 〜わけではない.",
+    "〜に反して: 予想{よそう}・期待{きたい}・計画{けいかく} 같은 기준 명사에 붙습니다.",
+    "〜を問わず: 年齢{ねんれい}・国籍{こくせき}처럼 조건이 되는 명사에 붙습니다.",
+    "〜に過ぎない: 대상을 ‘그 정도일 뿐’이라고 낮춰 말합니다."
+   ],
+   "common_mistakes": [
+    "有名だからといって、必ず面白い(X) → 面白{おもしろ}いとは限{かぎ}らない(O) — 뒤는 부정",
+    "予想を反して(X) → 予想{よそう}に反{はん}して(O)",
+    "年齢を問わなく(X) → 年齢{ねんれい}を問{と}わず(O)"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "募集{ぼしゅう}",
+     "reading_kana": "ぼしゅう",
+     "reading_romanized": "boshuu",
+     "meaning_ko": "모집",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N2-41-01"
+    },
+    {
+     "kind": "word",
+     "text": "参加者{さんかしゃ}",
+     "reading_kana": "さんかしゃ",
+     "reading_romanized": "sankasha",
+     "meaning_ko": "참가자",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-41-02"
+    },
+    {
+     "kind": "word",
+     "text": "運営{うんえい}",
+     "reading_kana": "うんえい",
+     "reading_romanized": "unei",
+     "meaning_ko": "운영",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N2-41-03"
+    },
+    {
+     "kind": "word",
+     "text": "趣旨{しゅし}",
+     "reading_kana": "しゅし",
+     "reading_romanized": "shushi",
+     "meaning_ko": "취지",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-41-04"
+    },
+    {
+     "kind": "word",
+     "text": "初心者{しょしんしゃ}",
+     "reading_kana": "しょしんしゃ",
+     "reading_romanized": "shoshinsha",
+     "meaning_ko": "초심자",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-41-05"
+    },
+    {
+     "kind": "word",
+     "text": "反響{はんきょう}",
+     "reading_kana": "はんきょう",
+     "reading_romanized": "hankyou",
+     "meaning_ko": "반향, 반응",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-41-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "市{し}の読書会{どくしょかい}では、年齢{ねんれい}・経験{けいけん}を問{と}わず、参加者{さんかしゃ}を募集{ぼしゅう}している。",
+     "meaning_ko": "시의 독서회에서는 연령·경험을 불문하고 참가자를 모집하고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "運営{うんえい}は、市{し}の方針{ほうしん}に沿{そ}って進{すす}められている。",
+     "meaning_ko": "운영은 시의 방침에 따라 진행되고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "初心者向{しょしんしゃむ}けだからといって、内容{ないよう}が簡単{かんたん}だとは限{かぎ}らない。",
+     "meaning_ko": "초심자용이라고 해서 내용이 쉽다고는 할 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "予想{よそう}に反{はん}して、申{もう}し込{こ}みは初日{しょにち}で定員{ていいん}に達{たっ}した。",
+     "meaning_ko": "예상과 달리 신청은 첫날에 정원에 도달했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "趣旨{しゅし}に沿{そ}って選{えら}ばれた本{ほん}は、どれも読{よ}みやすい。",
+     "meaning_ko": "취지에 맞춰 고른 책은 모두 읽기 쉽다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "反響{はんきょう}が大{おお}きかったからといって、すぐに会場{かいじょう}を広{ひろ}げられるわけではない。",
+     "meaning_ko": "반향이 컸다고 해서 바로 회장을 넓힐 수 있는 것은 아니다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この会{かい}は、国籍{こくせき}を問{と}わず誰{だれ}でも参加{さんか}できる。",
+     "meaning_ko": "이 모임은 국적을 불문하고 누구나 참가할 수 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "主催者{しゅさいしゃ}は「ただの読書会{どくしょかい}に過{す}ぎない」と話{はな}すが、参加者{さんかしゃ}の満足度{まんぞくど}は高{たか}い。",
+     "meaning_ko": "주최자는 “그저 독서회에 불과하다”고 말하지만 참가자의 만족도는 높다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "当初{とうしょ}の計画{けいかく}に反{はん}する意見{いけん}も出{で}たが、議論{ぎろん}は計画{けいかく}に沿{そ}って進{すす}んだ。",
+     "meaning_ko": "당초 계획에 반하는 의견도 나왔지만 논의는 계획에 맞춰 진행됐다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "開催{かいさい}は平日{へいじつ}・休日{きゅうじつ}を問{と}わず、月{つき}に二回{にかい}ある。",
+     "meaning_ko": "개최는 평일·휴일을 가리지 않고 한 달에 두 번 있다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「年齢・経験を問わず、参加者を募集している」의 뜻은?",
+     "options": [
+      "나이·경험을 불문하고 참가자를 모집하고 있다",
+      "나이·경험이 있는 사람만 모집하고 있다",
+      "나이·경험을 물어본 뒤 참가자를 모집한다",
+      "나이·경험에 따라 모집 인원을 정한다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜を問わず는 ‘~에 관계없이, ~을 가리지 않고’입니다.",
+     "id": "JP-N2-41-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 運営は、市の方針（　）進められている。",
+     "options": [
+      "に沿って",
+      "に反して",
+      "を問わず",
+      "に過ぎず"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "방침에 맞춰 진행한다는 뜻이므로 〜に沿って 입니다. に反して는 ‘~와 달리’입니다.",
+     "id": "JP-N2-41-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 初心者向けだからといって、内容が簡単だと（　）。",
+     "options": [
+      "は限らない",
+      "に過ぎない",
+      "を問わない",
+      "に沿わない"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜からといって 뒤에는 〜とは限らない(~라고는 할 수 없다)가 호응합니다.",
+     "id": "JP-N2-41-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「予想に反して、申し込みは初日で定員に達した」에서 「予想に反して」의 뜻은?",
+     "options": [
+      "예상과 달리",
+      "예상대로",
+      "예상에 맞춰",
+      "예상을 넘기 위해"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜に反して는 기준(예상)과 어긋나는 결과를 나타냅니다.",
+     "id": "JP-N2-41-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「募集」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "boshuu",
+     "accepted_answers": [
+      "boshuu",
+      "boshu",
+      "bosyuu",
+      "bosyu"
+     ],
+     "explanation_ko": "募集 = ぼしゅう(boshuu), ‘모집’입니다.",
+     "id": "JP-N2-41-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「趣旨」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "shushi",
+     "accepted_answers": [
+      "shushi",
+      "syusi"
+     ],
+     "explanation_ko": "趣旨 = しゅし(shushi), ‘취지’입니다.",
+     "id": "JP-N2-41-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

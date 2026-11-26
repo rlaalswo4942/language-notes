@@ -7865,6 +7865,205 @@
     "version": 1,
     "last_revised": "2026-11-26"
    }
+  },
+  {
+   "id": "B2-041",
+   "level": "B2",
+   "track": "general",
+   "day": 41,
+   "title_ko": "be likely to / be bound to / tend to: 가능성과 경향 말하기",
+   "objective_ko": "likely, unlikely, bound to, tend to 로 앞일의 가능성과 습관적인 경향을 구별해 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-27"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "앞일의 가능성은 정도에 따라 다르게 말합니다. ① be likely to + 동사원형: ‘~할 가능성이 높다’. The manager is likely to accept our offer. 부정은 be unlikely to 입니다: She is unlikely to change her mind. It is likely / unlikely that + 절 로도 말합니다. ② be bound to + 동사원형: 상황으로 보아 ‘틀림없이 ~하게 되어 있다’는 더 강한 확신입니다. If you don't practise, you are bound to make mistakes. ③ tend to + 동사원형: 가능성이 아니라 ‘~하는 경향이 있다’는 일반적·습관적 성향입니다. People tend to forget names when they are tired. 같은 문장에서 likely < bound 순으로 확신이 강해지고, tend to 는 앞일이 아니라 평소의 경향을 말합니다.",
+    "common_mistake_ko": "She is unlikely change her mind.(X) → She is unlikely to change her mind.(O) — to + 동사원형. / The prices are likely rise.(X) → The prices are likely to rise.(O) / He tends to be late tomorrow.(X) → He is likely to be late tomorrow.(O) — tend to 는 평소의 경향이지 내일 일의 예측이 아닙니다."
+   },
+   "vocabulary": [
+    {
+     "word": "tendency",
+     "part_of_speech": "명사",
+     "meaning_ko": "경향, 성향",
+     "example_en": "There is a tendency to eat more in winter.",
+     "example_ko": "겨울에는 더 많이 먹는 경향이 있어요."
+    },
+    {
+     "word": "inevitable",
+     "part_of_speech": "형용사",
+     "meaning_ko": "피할 수 없는",
+     "example_en": "Some delay is inevitable on a busy holiday.",
+     "example_ko": "붐비는 휴일에는 어느 정도 지연이 불가피해요."
+    },
+    {
+     "word": "forecast",
+     "part_of_speech": "명사",
+     "meaning_ko": "예보, 예측",
+     "example_en": "The forecast says heavy snow is likely tonight.",
+     "example_ko": "예보에 따르면 오늘 밤 큰 눈이 올 가능성이 높아요."
+    },
+    {
+     "word": "assume",
+     "part_of_speech": "동사",
+     "meaning_ko": "가정하다, 당연하게 여기다",
+     "example_en": "Don't assume that everyone agrees.",
+     "example_ko": "모두가 동의한다고 당연하게 생각하지 마세요."
+    },
+    {
+     "word": "probable",
+     "part_of_speech": "형용사",
+     "meaning_ko": "있을 법한, 가능성이 높은",
+     "example_en": "It is probable that the match will be postponed.",
+     "example_ko": "경기가 연기될 가능성이 높아요."
+    },
+    {
+     "word": "outcome",
+     "part_of_speech": "명사",
+     "meaning_ko": "결과",
+     "example_en": "The outcome of the vote is hard to predict.",
+     "example_ko": "투표 결과는 예측하기 어려워요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The train is likely to be late because of the snow.",
+     "ko": "눈 때문에 기차가 늦을 가능성이 높아요."
+    },
+    {
+     "en": "It is unlikely that the shop will open before ten.",
+     "ko": "그 가게가 10시 전에 문을 열 것 같지는 않아요."
+    },
+    {
+     "en": "She is unlikely to change her mind.",
+     "ko": "그녀가 마음을 바꿀 것 같지는 않아요."
+    },
+    {
+     "en": "If you don't prepare, you are bound to make mistakes.",
+     "ko": "준비하지 않으면 틀림없이 실수하게 될 거예요."
+    },
+    {
+     "en": "Prices are bound to rise next year.",
+     "ko": "내년에는 물가가 틀림없이 오를 거예요."
+    },
+    {
+     "en": "Young people tend to prefer online shopping.",
+     "ko": "젊은 사람들은 온라인 쇼핑을 선호하는 경향이 있어요."
+    },
+    {
+     "en": "I tend to feel sleepy after lunch.",
+     "ko": "저는 점심 먹고 나면 졸린 경향이 있어요."
+    },
+    {
+     "en": "He is certain to be chosen for the team.",
+     "ko": "그는 틀림없이 팀에 뽑힐 거예요."
+    },
+    {
+     "en": "The manager is likely to accept the offer, but nothing is certain yet.",
+     "ko": "매니저가 제안을 받아들일 가능성이 높지만 아직 확실한 것은 없어요."
+    },
+    {
+     "en": "Some delay is inevitable, so we are bound to arrive late.",
+     "ko": "어느 정도 지연은 불가피해서 우리는 틀림없이 늦게 도착할 거예요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "The manager ___ accept our offer. (받아들일 가능성이 높다)",
+     "choices": [
+      "is likely to",
+      "is likely",
+      "is bound",
+      "likely to"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "가능성이 높다는 뜻은 be likely to + 동사원형 입니다. to 가 빠지거나 be동사가 빠지면 틀립니다.",
+     "error_tag": "likely-to",
+     "id": "B2-041-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "She is unlikely to change her mind.",
+      "She is unlikely change her mind.",
+      "She isn't unlikely to changing her mind.",
+      "She unlikely to change her mind."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "부정적 가능성은 be unlikely to + 동사원형 으로 말합니다.",
+     "error_tag": "unlikely-to",
+     "id": "B2-041-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "상황으로 보아 ‘틀림없이 ~하게 되어 있다’는 강한 확신을 나타내는 문장은?",
+     "choices": [
+      "You are bound to feel nervous before the interview.",
+      "You tend to feel nervous before the interview.",
+      "You are unlikely to feel nervous before the interview.",
+      "You used to feel nervous before the interview."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "be bound to 는 ‘틀림없이 ~하게 된다’입니다. tend to 는 경향, unlikely to 는 가능성이 낮음, used to 는 과거의 습관입니다.",
+     "error_tag": "bound-to",
+     "id": "B2-041-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "“People tend to forget names.” 에서 tend to 의 뜻과 가장 가까운 것은?",
+     "choices": [
+      "~하는 경향이 있다",
+      "~하려고 애쓰다",
+      "~할 필요가 있다",
+      "~하기로 약속하다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "tend to + 동사원형 은 ‘~하는 경향이 있다’입니다.",
+     "error_tag": "tend-to",
+     "id": "B2-041-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: It is ___ that the shop will open before nine. (un 으로 시작, ~할 것 같지 않다)",
+     "answer_text": "unlikely",
+     "accepted_answers": [
+      "unlikely"
+     ],
+     "explanation_ko": "It is unlikely that + 절 은 ‘~할 것 같지 않다’입니다.",
+     "error_tag": "unlikely-that",
+     "id": "B2-041-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: People ___ to forget names when they are tired. (~하는 경향이 있다)",
+     "answer_text": "tend",
+     "accepted_answers": [
+      "tend"
+     ],
+     "explanation_ko": "일반적인 경향은 tend to + 동사원형 으로 말합니다.",
+     "error_tag": "tend-to",
+     "id": "B2-041-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "내일이나 다음 주의 날씨·교통·일정에 대해 likely, unlikely, bound to 중 두 가지를 써서 영어 문장 두 개를 써 보세요.",
+    "example_answer_en": "It is likely to rain tomorrow. We are bound to be late if we leave after nine.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-27",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-27"
+   }
   }
  ]
 }

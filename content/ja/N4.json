@@ -8738,6 +8738,234 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-41",
+   "day_index": 41,
+   "week_index": 6,
+   "level": "N4",
+   "unit_id": "N4-W06",
+   "lesson_type": "practice",
+   "title_ko": "적용: 요리 교실에 다니는 이야기 읽기",
+   "objective_ko": "6주차에 배운 문형(〜ように なる・〜ように する・疑問詞+か/も・〜という・〜と 言いました)이 들어 있는 요리 교실 이야기를 읽고 내용을 확인한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-40"
+   ],
+   "explanation_ko": "이번 주에 배운 〜ように なる(~하게 되다), 〜ように する(~하도록 하다), 何か・何も(의문사+か/も), 〜という(~라고 하는), 〜と 言いました(전하는 말)를 요리 교실 이야기에서 복습합니다. 변화는 〜ように なりました, 노력하는 습관은 〜ように して います, 이름·내용 소개는 〜という, 남의 말은 보통형 + と 言{い}いました 입니다. 何か는 ‘뭔가’, 何も는 부정과 함께 ‘아무것도’입니다.",
+   "usage_notes": [
+    "변화: 作{つく}るように なりました.",
+    "습관·노력: 食{た}べるように して います / 食{た}べないように して います.",
+    "이름 소개: 「みそ汁」という 料理.",
+    "전하는 말: 大切{たいせつ}だと 言いました (な형용사는 だ를 붙입니다)."
+   ],
+   "common_mistakes": [
+    "野菜を 切るように なれました(X) → 野菜{やさい}を 上手{じょうず}に 切{き}れるように なりました(O) — 변화 앞은 가능형이나 사전형",
+    "夜は 甘い 物を 食べるように して います(X: 의도와 반대) → 食{た}べないように して います(O)",
+    "何も 作りました(X) → 何{なに}も 作{つく}りませんでした(O) — 何も는 부정과 함께"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "材料{ざいりょう}",
+     "reading_kana": "ざいりょう",
+     "reading_romanized": "zairyou",
+     "meaning_ko": "재료",
+     "part_of_speech": "명사",
+     "id": "w-JP-N4-41-01"
+    },
+    {
+     "kind": "word",
+     "text": "味{あじ}",
+     "reading_kana": "あじ",
+     "reading_romanized": "aji",
+     "meaning_ko": "맛",
+     "part_of_speech": "명사",
+     "id": "w-JP-N4-41-02"
+    },
+    {
+     "kind": "word",
+     "text": "手伝{てつだ}う",
+     "reading_kana": "てつだう",
+     "reading_romanized": "tetsudau",
+     "meaning_ko": "돕다",
+     "part_of_speech": "동사",
+     "id": "w-JP-N4-41-03"
+    },
+    {
+     "kind": "word",
+     "text": "簡単{かんたん}",
+     "reading_kana": "かんたん",
+     "reading_romanized": "kantan",
+     "meaning_ko": "간단함, 쉬움",
+     "part_of_speech": "な형용사",
+     "id": "w-JP-N4-41-04"
+    },
+    {
+     "kind": "word",
+     "text": "習{なら}う",
+     "reading_kana": "ならう",
+     "reading_romanized": "narau",
+     "meaning_ko": "배우다",
+     "part_of_speech": "동사",
+     "id": "w-JP-N4-41-05"
+    },
+    {
+     "kind": "word",
+     "text": "自分{じぶん}",
+     "reading_kana": "じぶん",
+     "reading_romanized": "jibun",
+     "meaning_ko": "자기, 스스로",
+     "part_of_speech": "명사",
+     "id": "w-JP-N4-41-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "先月{せんげつ}から 料理教室{りょうりきょうしつ}に 通{かよ}って います。",
+     "meaning_ko": "지난달부터 요리 교실에 다니고 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "毎週{まいしゅう} 通{かよ}って、野菜{やさい}を 上手{じょうず}に 切{き}れるように なりました。",
+     "meaning_ko": "매주 다녀서 채소를 잘 자를 수 있게 됐어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "前{まえ}は 料理{りょうり}を ぜんぜん しませんでしたが、今{いま}は 毎日{まいにち} 自分{じぶん}で 作{つく}るように なりました。",
+     "meaning_ko": "전에는 요리를 전혀 하지 않았지만 지금은 매일 직접 만들게 됐어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "先生{せんせい}は 「材料{ざいりょう}は 前{まえ}の 日{ひ}に 買{か}って ください」と 言{い}いました。",
+     "meaning_ko": "선생님은 “재료는 전날에 사 주세요”라고 말했어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "先生{せんせい}は 味{あじ}を 見{み}るのが 大切{たいせつ}だと 言{い}いました。",
+     "meaning_ko": "선생님은 맛을 보는 것이 중요하다고 말했어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "わたしは 毎日{まいにち} 野菜{やさい}を 食{た}べるように して います。",
+     "meaning_ko": "나는 매일 채소를 먹도록 하고 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "夜{よる}は 甘{あま}い 物{もの}を 食{た}べないように して います。",
+     "meaning_ko": "밤에는 단 것을 먹지 않도록 하고 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "教室{きょうしつ}で 「みそ汁{しる}」という 簡単{かんたん}な 料理{りょうり}を 習{なら}いました。",
+     "meaning_ko": "교실에서 ‘된장국’이라는 간단한 요리를 배웠어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "教室{きょうしつ}が 終{お}わってから、友{とも}だちと 何{なに}か 食{た}べませんか。",
+     "meaning_ko": "교실이 끝난 뒤에 친구와 뭔가 먹지 않을래요?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "昨日{きのう}は 疲{つか}れて いて、何{なに}も 作{つく}りませんでした。",
+     "meaning_ko": "어제는 피곤해서 아무것도 만들지 않았어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "弟{おとうと}が 手伝{てつだ}いたいと 言{い}いました。",
+     "meaning_ko": "동생이 돕고 싶다고 말했어요.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「野菜を 上手に 切れるように なりました」의 뜻은?",
+     "options": [
+      "채소를 잘 자를 수 있게 됐어요",
+      "채소를 잘 자르도록 하고 있어요",
+      "채소를 자르고 싶어졌어요",
+      "채소를 자를 수 없게 됐어요"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "可能形 + ように なりました는 ‘~할 수 있게 됐다’(변화)입니다.",
+     "id": "JP-N4-41-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「夜は 甘い 物を 食べない（　）して います」 ( )에 알맞은 말은?",
+     "options": [
+      "ように",
+      "ために",
+      "ことに",
+      "ばかり"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜ない + ように して います는 ‘~하지 않도록 하고 있다’입니다.",
+     "id": "JP-N4-41-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「昨日は 何も 作りませんでした」의 뜻은?",
+     "options": [
+      "어제는 아무것도 만들지 않았어요",
+      "어제는 뭔가 만들었어요",
+      "어제는 누군가 만들었어요",
+      "어제는 어디선가 만들었어요"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "何も + 부정형은 ‘아무것도 ~않다’입니다.",
+     "id": "JP-N4-41-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「先生は 味を 見るのが 大切だと 言いました」의 뜻은?",
+     "options": [
+      "선생님은 맛을 보는 것이 중요하다고 말했어요",
+      "선생님은 맛을 보지 말라고 말했어요",
+      "선생님은 맛이 중요하지 않다고 말했어요",
+      "선생님은 맛을 봐 달라고 부탁했어요"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "보통형(大切だ) + と 言いました는 남의 말을 전하는 표현입니다.",
+     "id": "JP-N4-41-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「材料」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "zairyou",
+     "accepted_answers": [
+      "zairyou",
+      "zairyo"
+     ],
+     "explanation_ko": "材料 = ざいりょう(zairyou), ‘재료’입니다.",
+     "id": "JP-N4-41-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「簡単」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kantan",
+     "accepted_answers": [
+      "kantan"
+     ],
+     "explanation_ko": "簡単 = かんたん(kantan), ‘간단함’입니다.",
+     "id": "JP-N4-41-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

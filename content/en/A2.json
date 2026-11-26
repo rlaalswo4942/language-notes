@@ -7867,6 +7867,205 @@
     "version": 1,
     "last_revised": "2026-11-26"
    }
+  },
+  {
+   "id": "A2-041",
+   "level": "A2",
+   "track": "general",
+   "day": 41,
+   "title_ko": "Do you mind if I ...? / Would you mind ...ing?: 허락 구하기와 정중하게 부탁하기",
+   "objective_ko": "Do you mind if I ...? 로 허락을 구하고 Would you mind + -ing ...? 로 정중하게 부탁하며, 대답의 뜻을 정확히 구별한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-27"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "내가 어떤 행동을 해도 되는지 정중하게 물을 때 Do you mind if I + 동사 ...? 를 씁니다: Do you mind if I open the window? (창문을 열어도 될까요?) 상대에게 무언가를 부탁할 때는 Would you mind + -ing ...? 를 씁니다: Would you mind closing the door? (문을 닫아 주시겠어요?) mind 는 ‘꺼리다, 싫어하다’라는 뜻이므로 대답이 우리말과 반대로 느껴집니다. 허락하거나 들어줄 때는 No, not at all. / No, of course not. / Sure, go ahead. 처럼 부정이나 허락의 말로 답하고, 거절할 때는 I'm sorry, but I'd rather you didn't. 처럼 이유와 함께 정중히 말합니다.",
+    "common_mistake_ko": "Would you mind to close the door?(X) → Would you mind closing the door?(O) — mind 뒤에는 -ing. / Do you mind if I opened the window?(X) → Do you mind if I open the window?(O) — 자기 행동은 현재형. / Yes, go ahead.(허락할 때 X) → No, not at all. / Sure, go ahead.(O) — Yes 는 ‘꺼린다’로 들릴 수 있습니다."
+   },
+   "vocabulary": [
+    {
+     "word": "mind",
+     "part_of_speech": "동사",
+     "meaning_ko": "꺼리다, 신경 쓰다",
+     "example_en": "I don't mind waiting for you.",
+     "example_ko": "저는 당신을 기다리는 것 괜찮아요."
+    },
+    {
+     "word": "borrow",
+     "part_of_speech": "동사",
+     "meaning_ko": "빌리다",
+     "example_en": "Do you mind if I borrow your pen?",
+     "example_ko": "펜 좀 빌려도 될까요?"
+    },
+    {
+     "word": "permission",
+     "part_of_speech": "명사",
+     "meaning_ko": "허락",
+     "example_en": "You need permission to use this room.",
+     "example_ko": "이 방을 쓰려면 허락이 필요해요."
+    },
+    {
+     "word": "politely",
+     "part_of_speech": "부사",
+     "meaning_ko": "정중하게",
+     "example_en": "She asked me politely to move my bag.",
+     "example_ko": "그녀는 내 가방을 옮겨 달라고 정중하게 부탁했어요."
+    },
+    {
+     "word": "volume",
+     "part_of_speech": "명사",
+     "meaning_ko": "음량, 볼륨",
+     "example_en": "Would you mind turning down the volume?",
+     "example_ko": "볼륨을 좀 줄여 주시겠어요?"
+    },
+    {
+     "word": "seat",
+     "part_of_speech": "명사",
+     "meaning_ko": "자리, 좌석",
+     "example_en": "Do you mind if I take this seat?",
+     "example_ko": "이 자리에 앉아도 될까요?"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Do you mind if I open the window?",
+     "ko": "창문을 열어도 될까요?"
+    },
+    {
+     "en": "No, not at all. It's hot in here.",
+     "ko": "네, 괜찮아요. 여기 더워요."
+    },
+    {
+     "en": "Would you mind closing the door?",
+     "ko": "문을 닫아 주시겠어요?"
+    },
+    {
+     "en": "Sure, go ahead.",
+     "ko": "그럼요, 그렇게 하세요."
+    },
+    {
+     "en": "Do you mind if I borrow your pen?",
+     "ko": "펜 좀 빌려도 될까요?"
+    },
+    {
+     "en": "I'm sorry, but I'd rather you didn't. I'm using it now.",
+     "ko": "죄송하지만 그러지 않으셨으면 해요. 지금 쓰고 있어서요."
+    },
+    {
+     "en": "Would you mind turning down the volume?",
+     "ko": "볼륨을 좀 줄여 주시겠어요?"
+    },
+    {
+     "en": "No, of course not. I'll turn it down.",
+     "ko": "물론이죠. 줄일게요."
+    },
+    {
+     "en": "Do you mind if I take this seat?",
+     "ko": "이 자리에 앉아도 될까요?"
+    },
+    {
+     "en": "I don't mind waiting. Take your time.",
+     "ko": "저는 기다리는 것 괜찮아요. 천천히 하세요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "허락을 구하는 알맞은 문장은?",
+     "choices": [
+      "Do you mind if I open the window?",
+      "Do you mind if I opening the window?",
+      "Do you mind I to open the window?",
+      "Do you mind if I opened the window now?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Do you mind if I + 현재형 동사 ...? 로 허락을 구합니다.",
+     "error_tag": "permission",
+     "id": "A2-041-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "\"Would you mind closing the door?\"를 들어주겠다는 대답으로 알맞은 것은?",
+     "choices": [
+      "No, not at all.",
+      "Yes, I do.",
+      "Yes, go ahead.",
+      "I'd rather you didn't."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "Would you mind ...? 는 ‘꺼리시나요?’라는 질문이므로 들어줄 때는 No, not at all. 이라고 합니다. I'd rather you didn't 는 거절입니다.",
+     "error_tag": "mind-answer",
+     "id": "A2-041-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Would you mind ___ the music down?",
+     "choices": [
+      "turn",
+      "to turn",
+      "turning",
+      "turned"
+     ],
+     "answer_index": 2,
+     "explanation_ko": "Would you mind 뒤에는 동사의 -ing 형태를 씁니다.",
+     "error_tag": "mind-ing",
+     "id": "A2-041-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Do you mind if I borrow your dictionary? — 거절하는 정중한 대답은?",
+     "choices": [
+      "I'm sorry, but I need it right now.",
+      "No, not at all.",
+      "Sure, go ahead.",
+      "No, of course not."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "I'm sorry, but ... 과 이유를 말하면 정중하게 거절하는 것입니다. 나머지는 모두 허락의 대답입니다.",
+     "error_tag": "refuse",
+     "id": "A2-041-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: Do you ___ if I sit here? (꺼리다)",
+     "answer_text": "mind",
+     "accepted_answers": [
+      "mind"
+     ],
+     "explanation_ko": "허락을 구하는 표현은 Do you mind if I ...? 입니다.",
+     "error_tag": "mind",
+     "id": "A2-041-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 형태를 쓰세요: Would you mind ___ me your pen? (lend 의 -ing 형)",
+     "answer_text": "lending",
+     "accepted_answers": [
+      "lending"
+     ],
+     "explanation_ko": "Would you mind 뒤에는 -ing 형태가 옵니다. lend → lending.",
+     "error_tag": "mind-ing",
+     "id": "A2-041-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "옆 사람에게 허락을 구하는 문장 하나와 정중하게 부탁하는 문장 하나를 써 보세요.",
+    "example_answer_en": "Do you mind if I sit here? Would you mind passing me the salt?",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-27",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-27"
+   }
   }
  ]
 }

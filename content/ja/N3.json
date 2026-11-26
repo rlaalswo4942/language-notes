@@ -8717,6 +8717,236 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N3-41",
+   "day_index": 41,
+   "week_index": 6,
+   "level": "N3",
+   "unit_id": "N3-W06",
+   "lesson_type": "practice",
+   "title_ko": "적용: 이사한 동네의 생활 읽기",
+   "objective_ko": "6주차에 배운 문형(〜に比べて・〜っぱなし・〜たところ・〜ば〜ほど・〜まま)이 들어 있는 이사 이야기를 읽고 뜻을 확인한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N3-40"
+   ],
+   "explanation_ko": "〜に比べて, 〜っぱなし, 〜たところ, 〜ば〜ほど, 〜まま 를 이사한 동네 이야기에서 복습합니다. 〜に比べて는 ‘~에 비해’, 〜っぱなし는 ‘~한 채로 방치함’, 〜たところ는 ‘~했더니(알게 된 사실)’, 〜ば〜ほど는 ‘~하면 할수록’, 〜まま는 ‘~한 채로(상태가 이어짐)’를 나타냅니다. 〜っぱなし는 ます형 어간(置き + っぱなし), 〜まま는 た형·ない형·명사 + の(昔{むかし}のまま)에 붙습니다.",
+   "usage_notes": [
+    "〜に比{くら}べて: 명사 + に比べて (前のアパートに比べて).",
+    "〜っぱなし: ます형 어간 + っぱなし (置き → 置きっぱなし).",
+    "〜ば〜ほど: 住めば住むほど — 같은 동사를 ば형과 사전형으로 반복합니다.",
+    "〜まま: た형 + まま (履いたまま)."
+   ],
+   "common_mistakes": [
+    "荷物を置くっぱなしにした(X) → 荷物{にもつ}を置{お}きっぱなしにした(O)",
+    "靴を履くまま入った(X) → 靴{くつ}を履{は}いたまま入{はい}った(O)",
+    "住むほど好きになる(X) → 住{す}めば住{す}むほど好{す}きになる(O)"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "家賃{やちん}",
+     "reading_kana": "やちん",
+     "reading_romanized": "yachin",
+     "meaning_ko": "집세",
+     "part_of_speech": "명사",
+     "id": "w-JP-N3-41-01"
+    },
+    {
+     "kind": "word",
+     "text": "通勤{つうきん}",
+     "reading_kana": "つうきん",
+     "reading_romanized": "tsuukin",
+     "meaning_ko": "통근, 출퇴근",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N3-41-02"
+    },
+    {
+     "kind": "word",
+     "text": "騒音{そうおん}",
+     "reading_kana": "そうおん",
+     "reading_romanized": "souon",
+     "meaning_ko": "소음",
+     "part_of_speech": "명사",
+     "id": "w-JP-N3-41-03"
+    },
+    {
+     "kind": "word",
+     "text": "不動産{ふどうさん}",
+     "reading_kana": "ふどうさん",
+     "reading_romanized": "fudousan",
+     "meaning_ko": "부동산",
+     "part_of_speech": "명사",
+     "id": "w-JP-N3-41-04"
+    },
+    {
+     "kind": "word",
+     "text": "日当{ひあ}たり",
+     "reading_kana": "ひあたり",
+     "reading_romanized": "hiatari",
+     "meaning_ko": "볕이 드는 정도, 채광",
+     "part_of_speech": "명사",
+     "id": "w-JP-N3-41-05"
+    },
+    {
+     "kind": "word",
+     "text": "周辺{しゅうへん}",
+     "reading_kana": "しゅうへん",
+     "reading_romanized": "shuuhen",
+     "meaning_ko": "주변",
+     "part_of_speech": "명사",
+     "id": "w-JP-N3-41-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "新{あたら}しい部屋{へや}は、前{まえ}のアパートに比{くら}べて家賃{やちん}が高{たか}い。",
+     "meaning_ko": "새 방은 이전 아파트에 비해 집세가 비싸다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "不動産{ふどうさん}に問{と}い合{あ}わせたところ、日当{ひあ}たりのいい部屋{へや}が一つ空{あ}いていると言{い}われた。",
+     "meaning_ko": "부동산에 문의했더니 채광이 좋은 방이 하나 비어 있다고 들었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "実際{じっさい}に見{み}に行{い}ったところ、周辺{しゅうへん}はとても静{しず}かだった。",
+     "meaning_ko": "실제로 보러 갔더니 주변은 매우 조용했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "駅{えき}に近{ちか}ければ近{ちか}いほど、家賃{やちん}は高{たか}くなる。",
+     "meaning_ko": "역에 가까우면 가까울수록 집세는 비싸진다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "通勤{つうきん}の時間{じかん}は、短{みじか}ければ短{みじか}いほどいい。",
+     "meaning_ko": "통근 시간은 짧으면 짧을수록 좋다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "前{まえ}の部屋{へや}では、夜{よる}も窓{まど}を開{あ}けっぱなしにして寝{ね}ていた。",
+     "meaning_ko": "전의 방에서는 밤에도 창문을 열어 둔 채로 자고 있었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "引{ひ}っ越{こ}しの荷物{にもつ}が玄関{げんかん}に置{お}きっぱなしになっている。",
+     "meaning_ko": "이삿짐이 현관에 방치된 채로 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "古{ふる}い家具{かぐ}をそのまま使{つか}っている。",
+     "meaning_ko": "낡은 가구를 그대로 쓰고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "靴{くつ}を履{は}いたまま、荷物{にもつ}を部屋{へや}に運{はこ}んでしまった。",
+     "meaning_ko": "신발을 신은 채로 짐을 방에 옮겨 버렸다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "通勤{つうきん}は、前{まえ}に比{くら}べて三十分{さんじゅっぷん}短{みじか}くなった。",
+     "meaning_ko": "통근은 전에 비해 30분 짧아졌다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "住{す}めば住{す}むほど、この町{まち}が好{す}きになる。",
+     "meaning_ko": "살면 살수록 이 동네가 좋아진다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「前のアパートに比べて家賃が高い」의 뜻은?",
+     "options": [
+      "이전 아파트에 비해 집세가 비싸다",
+      "이전 아파트 덕분에 집세가 싸다",
+      "이전 아파트처럼 집세를 내지 않는다",
+      "이전 아파트에 사는 동안 집세가 올랐다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜に比べて는 ‘~에 비해’입니다. 비교 기준이 前のアパート입니다.",
+     "id": "JP-N3-41-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 住めば住む（　）、この町が好きになる。",
+     "options": [
+      "ほど",
+      "まま",
+      "っぱなし",
+      "ところ"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "같은 동사를 ば형과 사전형으로 반복하는 〜ば〜ほど는 ‘~하면 할수록’입니다.",
+     "id": "JP-N3-41-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 実際に見に行った（　）、周辺はとても静かだった。",
+     "options": [
+      "ところ",
+      "ほど",
+      "ばかり",
+      "うえ"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜たところ 는 ‘~했더니’라는 뜻으로, 해 본 결과 알게 된 사실을 뒤에 말합니다.",
+     "id": "JP-N3-41-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "（　）に 入る ものを 選んで ください。 靴を履いた（　）、部屋に入ってしまった。",
+     "options": [
+      "まま",
+      "ほど",
+      "ところ",
+      "わけ"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜た + まま 은 ‘~한 채로’입니다. 신발을 신은 상태 그대로 들어간 것입니다.",
+     "id": "JP-N3-41-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「家賃」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "yachin",
+     "accepted_answers": [
+      "yachin"
+     ],
+     "explanation_ko": "家賃 = やちん(yachin), ‘집세’입니다.",
+     "id": "JP-N3-41-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「通勤」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "tsuukin",
+     "accepted_answers": [
+      "tsuukin",
+      "tsukin",
+      "tuukin",
+      "tukin"
+     ],
+     "explanation_ko": "通勤 = つうきん(tsuukin), ‘통근’입니다.",
+     "id": "JP-N3-41-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

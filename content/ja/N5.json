@@ -8976,6 +8976,232 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N5-42",
+   "day_index": 42,
+   "week_index": 6,
+   "level": "N5",
+   "unit_id": "N5-W06",
+   "lesson_type": "checkpoint",
+   "title_ko": "6주 점검: 공원과 찻집에서 보내는 토요일",
+   "objective_ko": "N5 여섯째 주 문형(〜ましょうか・〜に します・〜ごろ・〜ぐらい・〜の 前・近く・間・빈도 말)을 토요일 이야기 속에서 종합 점검한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N5-41"
+   ],
+   "explanation_ko": "6주 차에 배운 〜ましょうか(제안하고 도와주기), 〜に します(정하기), 〜ごろ・〜ぐらい(대략의 시각과 시간), 〜の 前・近く・間(위치), あまり・いつも(빈도)를 공원과 찻집 이야기에서 한 번에 점검합니다. 시각 뒤에는 ごろ(十時{じゅうじ}ごろ), 시간의 길이 뒤에는 ぐらい(一時間{いちじかん}ぐらい)를 씁니다. 도와주겠다고 할 때는 동사 ます형의 ます를 ましょうか로 바꿉니다(持{も}ちます → 持{も}ちましょうか). 정할 때는 〜に します, 두 곳의 사이는 〜と 〜の 間{あいだ}に 라고 합니다.",
+   "usage_notes": [
+    "시각: 十時ごろ / 시간의 길이: 一時間ぐらい.",
+    "제안: 持ちます → 持ちましょうか.",
+    "정하기: 紅茶に します.",
+    "위치: AとBの 間に あります."
+   ],
+   "common_mistakes": [
+    "一時間ごろ 散歩します(X) → 一時間{いちじかん}ぐらい 散歩{さんぽ}します(O) — 시간의 길이는 ぐらい",
+    "紅茶を します(X) → 紅茶{こうちゃ}に します(O)",
+    "公園の 近くを あります(X) → 公園{こうえん}の 近{ちか}くに あります(O)"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "公園{こうえん}",
+     "reading_kana": "こうえん",
+     "reading_romanized": "kouen",
+     "meaning_ko": "공원",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-42-01"
+    },
+    {
+     "kind": "word",
+     "text": "喫茶店{きっさてん}",
+     "reading_kana": "きっさてん",
+     "reading_romanized": "kissaten",
+     "meaning_ko": "찻집, 카페",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-42-02"
+    },
+    {
+     "kind": "word",
+     "text": "散歩{さんぽ}",
+     "reading_kana": "さんぽ",
+     "reading_romanized": "sanpo",
+     "meaning_ko": "산책",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N5-42-03"
+    },
+    {
+     "kind": "word",
+     "text": "荷物{にもつ}",
+     "reading_kana": "にもつ",
+     "reading_romanized": "nimotsu",
+     "meaning_ko": "짐",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-42-04"
+    },
+    {
+     "kind": "word",
+     "text": "紅茶{こうちゃ}",
+     "reading_kana": "こうちゃ",
+     "reading_romanized": "koucha",
+     "meaning_ko": "홍차",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-42-05"
+    },
+    {
+     "kind": "word",
+     "text": "ケーキ",
+     "reading_kana": "ケーキ",
+     "reading_romanized": "keeki",
+     "meaning_ko": "케이크",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-42-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "土曜日{どようび}は いつも 友{とも}だちと 公園{こうえん}へ 行{い}きます。",
+     "meaning_ko": "토요일은 항상 친구와 공원에 가요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "公園{こうえん}は 駅{えき}の 近{ちか}くに あります。",
+     "meaning_ko": "공원은 역 근처에 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "公園{こうえん}と 喫茶店{きっさてん}の 間{あいだ}に 郵便局{ゆうびんきょく}が あります。",
+     "meaning_ko": "공원과 찻집 사이에 우체국이 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "十時{じゅうじ}ごろに 公園{こうえん}で 会{あ}います。",
+     "meaning_ko": "10시쯤에 공원에서 만나요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "公園{こうえん}を 一時間{いちじかん}ぐらい 散歩{さんぽ}します。",
+     "meaning_ko": "공원을 1시간쯤 산책해요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "「荷物{にもつ}を 持{も}ちましょうか。」「ありがとう。お願{ねが}いします。」",
+     "meaning_ko": "“짐을 들어 드릴까요?” “고마워요. 부탁해요.”",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "喫茶店{きっさてん}の 入口{いりぐち}の 前{まえ}に ベンチが あります。",
+     "meaning_ko": "찻집 입구 앞에 벤치가 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "わたしは 紅茶{こうちゃ}に します。友{とも}だちは コーヒーに します。",
+     "meaning_ko": "나는 홍차로 할게요. 친구는 커피로 할게요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "友{とも}だちは あまり ケーキを 食{た}べません。",
+     "meaning_ko": "친구는 케이크를 별로 먹지 않아요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "喫茶店{きっさてん}に 二時間{にじかん}ぐらい います。",
+     "meaning_ko": "찻집에 2시간쯤 있어요.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「公園と 喫茶店の 間に 郵便局が あります」의 뜻으로 알맞은 것은?",
+     "options": [
+      "공원과 찻집 사이에 우체국이 있어요",
+      "공원과 찻집 뒤에 우체국이 있어요",
+      "공원 안에 찻집과 우체국이 있어요",
+      "공원과 찻집 앞에 우체국이 있어요"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "AとBの 間に는 ‘A와 B 사이에’라는 뜻입니다.",
+     "id": "JP-N5-42-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「十時（　）に 公園で 会います」 ( )에 알맞은 말은? (10시쯤에)",
+     "options": [
+      "ごろ",
+      "まで",
+      "ずつ",
+      "だけ"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "대략의 시각 뒤에는 ごろ를 씁니다. まで는 ‘~까지’, ずつ는 ‘~씩’, だけ는 ‘~만’입니다.",
+     "id": "JP-N5-42-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「荷物を 持ちましょうか」의 뜻은?",
+     "options": [
+      "짐을 들어 드릴까요?",
+      "짐을 들어 주세요",
+      "짐을 들었어요",
+      "짐을 들고 싶지 않아요"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜ましょうか는 ‘~할까요?’라고 제안하거나 도와주겠다고 할 때 씁니다.",
+     "id": "JP-N5-42-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「わたしは 紅茶（　）します」 ( )에 알맞은 조사는? (홍차로 할게요)",
+     "options": [
+      "に",
+      "を",
+      "が",
+      "で"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "무엇으로 할지 정할 때는 〜に します를 씁니다.",
+     "id": "JP-N5-42-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「公園」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kouen",
+     "accepted_answers": [
+      "kouen",
+      "koen"
+     ],
+     "explanation_ko": "公園 = こうえん(kouen), ‘공원’입니다.",
+     "id": "JP-N5-42-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「紅茶」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "koucha",
+     "accepted_answers": [
+      "koucha",
+      "kocha",
+      "koutya",
+      "kotya"
+     ],
+     "explanation_ko": "紅茶 = こうちゃ(koucha), ‘홍차’입니다.",
+     "id": "JP-N5-42-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

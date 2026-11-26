@@ -6753,6 +6753,205 @@
     "version": 1,
     "last_revised": "2026-11-26"
    }
+  },
+  {
+   "id": "B1-036",
+   "level": "B1",
+   "track": "general",
+   "day": 36,
+   "title_ko": "for / during / while: 얼마 동안, 언제 동안 말하기",
+   "objective_ko": "for + 기간, during + 명사, while + 주어와 동사를 구별해 ‘~하는 동안’을 정확히 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-27"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "‘~하는 동안’은 영어에서 세 가지로 나뉩니다. ① for + 기간(숫자·길이): 얼마나 오래인지 말합니다. I waited for two hours. / We stayed there for a week. ② during + 명사: 어떤 사건이나 시기 ‘안에’ 일어난 일을 말합니다. I fell asleep during the film. / It rained during the night. ③ while + 주어 + 동사: 두 동작이 함께 진행될 때 씁니다. She called me while I was cooking. during 과 while 은 뜻이 같지만 뒤에 오는 모양이 다릅니다(명사 vs 절). for 뒤에는 two hours, a week 처럼 길이를 나타내는 말이 옵니다. during 뒤에도 기간이 오지만 그 기간이 ‘그때 안에’라는 시기의 틀일 때입니다: during the summer(여름 동안).",
+    "common_mistake_ko": "We stayed in Jeju during a week.(X) → We stayed in Jeju for a week.(O) — 길이를 말할 때는 for. / She called me during I was cooking.(X) → She called me while I was cooking.(O) — 절 앞은 while. / Please turn off your phone while the meeting.(X) → ... during the meeting.(O) — 명사 앞은 during."
+   },
+   "vocabulary": [
+    {
+     "word": "period",
+     "part_of_speech": "명사",
+     "meaning_ko": "기간, 시기",
+     "example_en": "The shop is closed for a short period in August.",
+     "example_ko": "그 가게는 8월에 잠깐 문을 닫아요."
+    },
+    {
+     "word": "interrupt",
+     "part_of_speech": "동사",
+     "meaning_ko": "방해하다, 말을 끊다",
+     "example_en": "Please don't interrupt me while I'm speaking.",
+     "example_ko": "제가 말하는 동안 끊지 말아 주세요."
+    },
+    {
+     "word": "audience",
+     "part_of_speech": "명사",
+     "meaning_ko": "청중, 관객",
+     "example_en": "The audience was quiet during the performance.",
+     "example_ko": "공연 중에 관객들은 조용했어요."
+    },
+    {
+     "word": "flight",
+     "part_of_speech": "명사",
+     "meaning_ko": "항공편, 비행",
+     "example_en": "I slept for most of the flight.",
+     "example_ko": "저는 비행 시간 대부분 동안 잤어요."
+    },
+    {
+     "word": "whole",
+     "part_of_speech": "형용사",
+     "meaning_ko": "전체의, 온",
+     "example_en": "It rained for the whole weekend.",
+     "example_ko": "주말 내내 비가 왔어요."
+    },
+    {
+     "word": "delay",
+     "part_of_speech": "명사",
+     "meaning_ko": "지연",
+     "example_en": "There was a delay of two hours during the trip.",
+     "example_ko": "여행 중에 두 시간 지연이 있었어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "I waited for two hours at the station.",
+     "ko": "저는 역에서 두 시간 동안 기다렸어요."
+    },
+    {
+     "en": "I fell asleep during the film.",
+     "ko": "저는 영화를 보는 중에 잠이 들었어요."
+    },
+    {
+     "en": "She called me while I was cooking.",
+     "ko": "그녀는 내가 요리하는 동안 전화했어요."
+    },
+    {
+     "en": "We stayed in Busan for a week.",
+     "ko": "우리는 부산에서 일주일 동안 머물렀어요."
+    },
+    {
+     "en": "Please turn off your phone during the performance.",
+     "ko": "공연 중에는 휴대전화를 꺼 주세요."
+    },
+    {
+     "en": "Don't talk while the teacher is explaining.",
+     "ko": "선생님이 설명하는 동안에는 말하지 마세요."
+    },
+    {
+     "en": "It rained during the night, so the grass is wet.",
+     "ko": "밤사이에 비가 와서 잔디가 젖었어요."
+    },
+    {
+     "en": "My grandfather has lived here for forty years.",
+     "ko": "할아버지는 이곳에 40년 동안 살고 계세요."
+    },
+    {
+     "en": "I read a magazine while I was waiting for the bus.",
+     "ko": "저는 버스를 기다리는 동안 잡지를 읽었어요."
+    },
+    {
+     "en": "I slept for most of the flight.",
+     "ko": "저는 비행 시간 대부분 동안 잤어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "I studied English ___ three hours yesterday.",
+     "choices": [
+      "for",
+      "during",
+      "while",
+      "since"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "three hours 는 길이를 나타내므로 for 를 씁니다. since 는 시작 시점 앞에 씁니다.",
+     "error_tag": "for-during",
+     "id": "B1-036-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Please don't use your phone ___ the meeting.",
+     "choices": [
+      "during",
+      "while",
+      "about",
+      "since"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "the meeting 은 명사(사건)이므로 during 을 씁니다. while 뒤에는 주어와 동사가 필요합니다.",
+     "error_tag": "during-while",
+     "id": "B1-036-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "She called me ___ I was having dinner.",
+     "choices": [
+      "while",
+      "during",
+      "for",
+      "in"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "I was having dinner 는 주어와 동사가 있는 절이므로 while 을 씁니다.",
+     "error_tag": "during-while",
+     "id": "B1-036-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "We stayed in Jeju for a week.",
+      "We stayed in Jeju during a week.",
+      "We stayed in Jeju while a week.",
+      "We stayed in Jeju since a week."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "기간의 길이(a week)에는 for 를 씁니다. during 뒤에는 the summer 처럼 특정한 때를 나타내는 말이 옵니다.",
+     "error_tag": "for-during",
+     "id": "B1-036-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: I lived in Seoul ___ five years. (~ 동안)",
+     "answer_text": "for",
+     "accepted_answers": [
+      "for"
+     ],
+     "explanation_ko": "five years 는 기간의 길이이므로 for 를 씁니다.",
+     "error_tag": "for-during",
+     "id": "B1-036-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: He fell asleep ___ the lesson. (수업 중에)",
+     "answer_text": "during",
+     "accepted_answers": [
+      "during"
+     ],
+     "explanation_ko": "the lesson 은 명사이므로 during 을 씁니다.",
+     "error_tag": "during-while",
+     "id": "B1-036-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "휴가나 주말에 한 일을 for, during, while 중 두 가지를 써서 영어 문장 두 개로 써 보세요.",
+    "example_answer_en": "I stayed at home for two days. I watched TV while I was eating lunch.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-27",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-27"
+   }
   }
  ]
 }
