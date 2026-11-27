@@ -8908,6 +8908,230 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N2-42",
+   "day_index": 42,
+   "week_index": 6,
+   "level": "N2",
+   "unit_id": "N2-W06",
+   "lesson_type": "checkpoint",
+   "title_ko": "6주 점검: 시민 마라톤 대회 보고",
+   "objective_ko": "N2 여섯째 주 문형(〜からといって・〜に反して・〜を問わず・〜に沿って・〜に過ぎない)을 마라톤 대회 보고문 속에서 종합 점검한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N2-41"
+   ],
+   "explanation_ko": "6주 차에 배운 〜からといって(~라고 해서), 〜に反{はん}して(~와 달리), 〜を問{と}わず(~에 관계없이), 〜に沿{そ}って(~에 따라), 〜に過{す}ぎない(~에 불과하다)를 시민 마라톤 대회 보고문에서 한 번에 점검합니다. 〜からといって 뒤에는 보통 〜とは限{かぎ}らない・〜わけではない 가 오고, 〜に反して는 予想{よそう}・予報{よほう}・期待{きたい} 같은 기준 명사에, 〜を問わず는 年齢{ねんれい}・国籍{こくせき}처럼 조건이 되는 명사에 붙습니다. 〜に沿って는 計画{けいかく}・方針{ほうしん} 같은 기준이나 川{かわ}처럼 선을 따라가는 대상에 씁니다.",
+   "usage_notes": [
+    "〜からといって: 보통형 + からといって + 〜とは限らない.",
+    "〜に反{はん}して: 予想・予報에 붙어 ‘~와 반대로’.",
+    "〜を問{と}わず: 年齢・経験・国籍 같은 조건 명사에 붙습니다.",
+    "〜に沿{そ}って: 計画・方針(기준)이나 川(선)를 따라서.",
+    "〜に過{す}ぎない: ‘그 정도에 불과하다’고 낮춰 말합니다."
+   ],
+   "common_mistakes": [
+    "速く走れるからといって、長く走れる(X) → 長{なが}く走{はし}れるとは限{かぎ}らない(O)",
+    "予報を反して(X) → 予報{よほう}に反{はん}して(O)",
+    "年齢を問わなく(X) → 年齢{ねんれい}を問{と}わず(O)"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "大会{たいかい}",
+     "reading_kana": "たいかい",
+     "reading_romanized": "taikai",
+     "meaning_ko": "대회",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-42-01"
+    },
+    {
+     "kind": "word",
+     "text": "運営{うんえい}",
+     "reading_kana": "うんえい",
+     "reading_romanized": "unei",
+     "meaning_ko": "운영",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N2-42-02"
+    },
+    {
+     "kind": "word",
+     "text": "参加者{さんかしゃ}",
+     "reading_kana": "さんかしゃ",
+     "reading_romanized": "sankasha",
+     "meaning_ko": "참가자",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-42-03"
+    },
+    {
+     "kind": "word",
+     "text": "順位{じゅんい}",
+     "reading_kana": "じゅんい",
+     "reading_romanized": "jun'i",
+     "meaning_ko": "순위",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-42-04"
+    },
+    {
+     "kind": "word",
+     "text": "当日{とうじつ}",
+     "reading_kana": "とうじつ",
+     "reading_romanized": "toujitsu",
+     "meaning_ko": "당일",
+     "part_of_speech": "명사",
+     "id": "w-JP-N2-42-05"
+    },
+    {
+     "kind": "word",
+     "text": "経験{けいけん}",
+     "reading_kana": "けいけん",
+     "reading_romanized": "keiken",
+     "meaning_ko": "경험",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N2-42-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "今回{こんかい}の大会{たいかい}は、年齢{ねんれい}や経験{けいけん}を問{と}わず、誰{だれ}でも参加{さんか}できる。",
+     "meaning_ko": "이번 대회는 나이나 경험에 관계없이 누구나 참가할 수 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "天気予報{てんきよほう}に反{はん}して、当日{とうじつ}は朝{あさ}から晴{は}れた。",
+     "meaning_ko": "일기예보와 달리 당일은 아침부터 맑았다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "参加者{さんかしゃ}が多{おお}いからといって、成功{せいこう}したとは限{かぎ}らない。",
+     "meaning_ko": "참가자가 많다고 해서 성공했다고는 할 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "運営{うんえい}は、あらかじめ決{き}めた計画{けいかく}に沿{そ}って進{すす}められた。",
+     "meaning_ko": "운영은 미리 정한 계획에 따라 진행되었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "私{わたし}はボランティアの一人{ひとり}に過{す}ぎないが、大会{たいかい}の成功{せいこう}がうれしい。",
+     "meaning_ko": "나는 자원봉사자 중 한 사람에 불과하지만 대회의 성공이 기쁘다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "コースは、川{かわ}に沿{そ}って約{やく}十キロ続{つづ}いている。",
+     "meaning_ko": "코스는 강을 따라 약 10킬로미터 이어진다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "練習{れんしゅう}が足{た}りなかったので、結果{けっか}は予想{よそう}に反{はん}して悪{わる}かった。",
+     "meaning_ko": "연습이 부족해서 결과는 예상과 달리 나빴다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "速{はや}く走{はし}れるからといって、長{なが}く走{はし}れるとは限{かぎ}らない。",
+     "meaning_ko": "빨리 달릴 수 있다고 해서 오래 달릴 수 있다고는 할 수 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "国籍{こくせき}を問{と}わず、外国{がいこく}からの参加者{さんかしゃ}も受{う}け入{い}れている。",
+     "meaning_ko": "국적에 관계없이 외국에서 온 참가자도 받아들이고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "順位{じゅんい}は参考{さんこう}に過{す}ぎない。大切{たいせつ}なのは楽{たの}しむことだ。",
+     "meaning_ko": "순위는 참고에 불과하다. 중요한 것은 즐기는 것이다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「年齢や経験を問わず、参加できる」의 뜻으로 알맞은 것은?",
+     "options": [
+      "나이나 경험에 관계없이 참가할 수 있다",
+      "나이와 경험을 물어본 뒤 참가할 수 있다",
+      "나이와 경험이 없으면 참가할 수 없다",
+      "나이와 경험 때문에 참가할 수 없다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜を問わず는 ‘~에 관계없이’라는 뜻입니다.",
+     "id": "JP-N2-42-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「天気予報（　）、当日は朝から晴れた」 ( )에 알맞은 말은?",
+     "options": [
+      "に反して",
+      "に沿って",
+      "を問わず",
+      "に過ぎない"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "예보와 반대의 결과를 말하므로 に反して(~와 달리)입니다.",
+     "id": "JP-N2-42-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「参加者が多いからといって、成功した（　）」 ( )에 알맞은 말은?",
+     "options": [
+      "とは限らない",
+      "に違いない",
+      "ざるを得ない",
+      "に決まっている"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜からといって 뒤에는 ‘~라고는 할 수 없다’는 〜とは限らない가 어울립니다.",
+     "id": "JP-N2-42-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「計画（　）進められた」 ( )에 알맞은 말은? (계획에 따라)",
+     "options": [
+      "に沿って",
+      "に反して",
+      "に過ぎない",
+      "を問わず"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "계획을 기준으로 따라 간다는 뜻이므로 に沿って입니다.",
+     "id": "JP-N2-42-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「大会」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "taikai",
+     "accepted_answers": [
+      "taikai"
+     ],
+     "explanation_ko": "大会 = たいかい(taikai), ‘대회’입니다.",
+     "id": "JP-N2-42-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「参加者」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "sankasha",
+     "accepted_answers": [
+      "sankasha",
+      "sankasya"
+     ],
+     "explanation_ko": "参加者 = さんかしゃ(sankasha), ‘참가자’입니다.",
+     "id": "JP-N2-42-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

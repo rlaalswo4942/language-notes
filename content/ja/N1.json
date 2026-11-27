@@ -8881,6 +8881,231 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N1-42",
+   "day_index": 42,
+   "week_index": 6,
+   "level": "N1",
+   "unit_id": "N1-W06",
+   "lesson_type": "checkpoint",
+   "title_ko": "6주 점검: 시민 오케스트라의 재건",
+   "objective_ko": "N1 여섯째 주 문형(〜をおいて(ほかに)〜ない・〜のみならず・〜を踏まえて・〜かたわら・〜ならいざ知らず)을 시민 오케스트라 이야기 속에서 종합 점검한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N1-41"
+   ],
+   "explanation_ko": "6주 차에 배운 〜をおいて(ほかに)〜ない(~을 제외하고는 없다), 〜のみならず(~뿐만 아니라), 〜を踏{ふ}まえて(~을 토대로), 〜かたわら(~하는 한편), 〜ならいざ知{し}らず(~라면 몰라도)를 시민 오케스트라 이야기에서 한 번에 점검합니다. 〜をおいてほかにない는 유일한 적임자·선택지를 강조하며 뒤가 부정입니다. 〜のみならず는 문어체로 앞뒤를 더하고, 〜を踏まえて는 앞의 사실을 바탕으로 뒤의 판단·계획을 하며, 〜かたわら는 본업과 병행하는 활동에 씁니다. 〜ならいざ知らず는 ‘앞의 경우라면 몰라도 이 경우는 곤란하다’는 뜻입니다.",
+   "usage_notes": [
+    "〜をおいてほかにいない: 유일한 적임자를 강조, 뒤는 부정.",
+    "〜のみならず…も: 문어체로 ‘~뿐 아니라 ~도’.",
+    "〜を踏{ふ}まえて: 앞의 사실을 바탕으로 판단·계획.",
+    "〜かたわら: 본업과 함께 꾸준히 이어 가는 활동.",
+    "〜ならいざ知{し}らず: 앞은 예외로 인정하고 뒤에서 비판·놀람."
+   ],
+   "common_mistakes": [
+    "彼女をおいてほかにいる(X) → 彼女{かのじょ}をおいてほかにいない(O)",
+    "演奏のみならず指導もかたわら(X) → 演奏{えんそう}のみならず、指導{しどう}にも優{すぐ}れている(O)",
+    "素人ならいざ知らず、プロが間違えても当然だ(X: 문맥 불일치) → 素人{しろうと}ならいざ知{し}らず、プロが間違{まちが}えるとは(O)"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "楽団{がくだん}",
+     "reading_kana": "がくだん",
+     "reading_romanized": "gakudan",
+     "meaning_ko": "악단, 오케스트라",
+     "part_of_speech": "명사",
+     "id": "w-JP-N1-42-01"
+    },
+    {
+     "kind": "word",
+     "text": "指揮者{しきしゃ}",
+     "reading_kana": "しきしゃ",
+     "reading_romanized": "shikisha",
+     "meaning_ko": "지휘자",
+     "part_of_speech": "명사",
+     "id": "w-JP-N1-42-02"
+    },
+    {
+     "kind": "word",
+     "text": "難局{なんきょく}",
+     "reading_kana": "なんきょく",
+     "reading_romanized": "nankyoku",
+     "meaning_ko": "난국, 어려운 국면",
+     "part_of_speech": "명사",
+     "id": "w-JP-N1-42-03"
+    },
+    {
+     "kind": "word",
+     "text": "資金{しきん}",
+     "reading_kana": "しきん",
+     "reading_romanized": "shikin",
+     "meaning_ko": "자금",
+     "part_of_speech": "명사",
+     "id": "w-JP-N1-42-04"
+    },
+    {
+     "kind": "word",
+     "text": "団員{だんいん}",
+     "reading_kana": "だんいん",
+     "reading_romanized": "dan'in",
+     "meaning_ko": "단원",
+     "part_of_speech": "명사",
+     "id": "w-JP-N1-42-05"
+    },
+    {
+     "kind": "word",
+     "text": "反省{はんせい}",
+     "reading_kana": "はんせい",
+     "reading_romanized": "hansei",
+     "meaning_ko": "반성",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N1-42-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "この難局{なんきょく}を乗{の}り切{き}れるのは、彼女{かのじょ}をおいてほかにいない。",
+     "meaning_ko": "이 난국을 헤쳐 나갈 수 있는 사람은 그녀 말고는 없다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}は演奏{えんそう}のみならず、指導{しどう}にも優{すぐ}れた才能{さいのう}を発揮{はっき}している。",
+     "meaning_ko": "그는 연주뿐 아니라 지도에서도 뛰어난 재능을 발휘하고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "昨年{さくねん}の反省{はんせい}を踏{ふ}まえて、今年{ことし}の計画{けいかく}を立{た}て直{なお}した。",
+     "meaning_ko": "작년의 반성을 토대로 올해 계획을 다시 세웠다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "会社員{かいしゃいん}として働{はたら}くかたわら、週末{しゅうまつ}は楽団{がくだん}で指揮{しき}を執{と}っている。",
+     "meaning_ko": "회사원으로 일하는 한편, 주말에는 악단에서 지휘를 맡고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "素人{しろうと}ならいざ知{し}らず、プロがこんな初歩的{しょほてき}な間違{まちが}いをするとは。",
+     "meaning_ko": "아마추어라면 몰라도 프로가 이런 초보적인 실수를 하다니.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "資金{しきん}不足{ぶそく}のみならず、団員{だんいん}の高齢化{こうれいか}も深刻{しんこく}な問題{もんだい}だ。",
+     "meaning_ko": "자금 부족뿐 아니라 단원의 고령화도 심각한 문제다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "市民{しみん}の声{こえ}を踏{ふ}まえて、演奏会{えんそうかい}の曲目{きょくもく}を決{き}めた。",
+     "meaning_ko": "시민의 의견을 토대로 연주회 곡목을 정했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "彼{かれ}は医師{いし}として勤{つと}めるかたわら、小説{しょうせつ}も書{か}いている。",
+     "meaning_ko": "그는 의사로 근무하는 한편 소설도 쓰고 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "子供{こども}ならいざ知{し}らず、大人{おとな}がルールを守{まも}らないのは恥{は}ずかしいことだ。",
+     "meaning_ko": "아이라면 몰라도 어른이 규칙을 지키지 않는 것은 부끄러운 일이다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "この楽団{がくだん}を率{ひき}いることができるのは、あの指揮者{しきしゃ}をおいてほかにない。",
+     "meaning_ko": "이 악단을 이끌 수 있는 사람은 저 지휘자 말고는 없다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「彼女をおいてほかにいない」의 뜻으로 알맞은 것은?",
+     "options": [
+      "그녀 말고는 달리 없다(그녀가 유일한 적임자다)",
+      "그녀를 두고 아무도 가지 않았다",
+      "그녀 외에도 여러 명이 있다",
+      "그녀는 어디에도 없다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜をおいてほかにいない는 ‘~을 제외하고는 달리 없다’로 유일한 적임자를 강조합니다.",
+     "id": "JP-N1-42-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「演奏（　）、指導にも優れている」 ( )에 알맞은 말은?",
+     "options": [
+      "のみならず",
+      "かたわら",
+      "ならいざ知らず",
+      "をおいて"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "‘연주뿐 아니라 지도에서도’이므로 のみならず입니다.",
+     "id": "JP-N1-42-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「昨年の反省を（　）、今年の計画を立て直した」 ( )에 알맞은 말은?",
+     "options": [
+      "踏まえて",
+      "おいて",
+      "問わず",
+      "よそに"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "앞의 사실을 바탕으로 하므로 〜を踏まえて입니다.",
+     "id": "JP-N1-42-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「会社員として働く（　）、週末は楽団で指揮を執っている」 ( )에 알맞은 말은?",
+     "options": [
+      "かたわら",
+      "ならいざ知らず",
+      "をおいて",
+      "のみならず"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "본업과 병행하는 활동을 말하므로 〜かたわら입니다.",
+     "id": "JP-N1-42-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「楽団」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "gakudan",
+     "accepted_answers": [
+      "gakudan"
+     ],
+     "explanation_ko": "楽団 = がくだん(gakudan), ‘악단’입니다.",
+     "id": "JP-N1-42-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「指揮者」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "shikisha",
+     "accepted_answers": [
+      "shikisha",
+      "sikisya",
+      "shikisya"
+     ],
+     "explanation_ko": "指揮者 = しきしゃ(shikisha), ‘지휘자’입니다.",
+     "id": "JP-N1-42-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "JLPT_FORMAT"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

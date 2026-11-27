@@ -9202,6 +9202,228 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N5-43",
+   "day_index": 43,
+   "week_index": 7,
+   "level": "N5",
+   "unit_id": "N5-W07",
+   "lesson_type": "new",
+   "title_ko": "どんな: 어떤 ~인지 묻고 답하기",
+   "objective_ko": "どんな + 명사로 사람·장소·물건의 종류와 성질을 묻고, 형용사로 대답한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N5-42"
+   ],
+   "explanation_ko": "どんな는 ‘어떤’이라는 뜻으로, 뒤에 명사를 붙여 그 사람·장소·물건의 종류나 성질을 묻습니다. 先生{せんせい}は どんな 人{ひと}ですか(선생님은 어떤 사람이에요?)처럼 씁니다. 대답은 い형용사 + 명사(優{やさ}しい 人{ひと}), な형용사 + な + 명사(静{しず}かな 町{まち})로 합니다. 좋아하는 것의 종류를 물을 때는 どんな 食{た}べ物{もの}が 好{す}きですか 라고 하고, 〜が 好{す}きです 로 대답합니다.",
+   "usage_notes": [
+    "どんな 뒤에는 반드시 명사가 옵니다: どんな 町{まち}ですか.",
+    "い형용사는 そのまま 명사 앞에: 優{やさ}しい 人{ひと} / な형용사는 な를 붙여서: 静{しず}かな 町{まち}.",
+    "취향 묻기: どんな 〜が 好{す}きですか → 〜が 好{す}きです."
+   ],
+   "common_mistakes": [
+    "どんなですか(X) → どんな 人{ひと}ですか(O) — どんな 뒤에 명사가 필요합니다.",
+    "静かい 町(X) → 静{しず}かな 町{まち}(O) — 静か는 な형용사",
+    "優しいな 人(X) → 優{やさ}しい 人{ひと}(O) — い형용사에는 な를 붙이지 않습니다"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "町{まち}",
+     "reading_kana": "まち",
+     "reading_romanized": "machi",
+     "meaning_ko": "마을, 동네",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-43-01"
+    },
+    {
+     "kind": "word",
+     "text": "色{いろ}",
+     "reading_kana": "いろ",
+     "reading_romanized": "iro",
+     "meaning_ko": "색",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-43-02"
+    },
+    {
+     "kind": "word",
+     "text": "食{た}べ物{もの}",
+     "reading_kana": "たべもの",
+     "reading_romanized": "tabemono",
+     "meaning_ko": "음식",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-43-03"
+    },
+    {
+     "kind": "word",
+     "text": "歌手{かしゅ}",
+     "reading_kana": "かしゅ",
+     "reading_romanized": "kashu",
+     "meaning_ko": "가수",
+     "part_of_speech": "명사",
+     "id": "w-JP-N5-43-04"
+    },
+    {
+     "kind": "word",
+     "text": "広{ひろ}い",
+     "reading_kana": "ひろい",
+     "reading_romanized": "hiroi",
+     "meaning_ko": "넓다",
+     "part_of_speech": "い형용사",
+     "id": "w-JP-N5-43-05"
+    },
+    {
+     "kind": "word",
+     "text": "優{やさ}しい",
+     "reading_kana": "やさしい",
+     "reading_romanized": "yasashii",
+     "meaning_ko": "상냥하다",
+     "part_of_speech": "い형용사",
+     "id": "w-JP-N5-43-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "「どんな 町{まち}ですか。」「静{しず}かな 町{まち}です。」",
+     "meaning_ko": "“어떤 동네예요?” “조용한 동네예요.”",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "「どんな 色{いろ}が 好{す}きですか。」「青{あお}が 好{す}きです。」",
+     "meaning_ko": "“어떤 색을 좋아해요?” “파란색을 좋아해요.”",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "「どんな 食{た}べ物{もの}が 好{す}きですか。」「魚{さかな}が 好{す}きです。」",
+     "meaning_ko": "“어떤 음식을 좋아해요?” “생선을 좋아해요.”",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "「どんな 歌手{かしゅ}ですか。」「有名{ゆうめい}な 歌手{かしゅ}です。」",
+     "meaning_ko": "“어떤 가수예요?” “유명한 가수예요.”",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "「先生{せんせい}は どんな 人{ひと}ですか。」「優{やさ}しい 人{ひと}です。」",
+     "meaning_ko": "“선생님은 어떤 분이에요?” “상냥한 분이에요.”",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "「どんな 部屋{へや}が ほしいですか。」「広{ひろ}い 部屋{へや}が ほしいです。」",
+     "meaning_ko": "“어떤 방을 갖고 싶어요?” “넓은 방을 갖고 싶어요.”",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "わたしの 町{まち}は 小{ちい}さい 町{まち}です。",
+     "meaning_ko": "내가 사는 동네는 작은 동네예요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "「どんな 映画{えいが}が 好{す}きですか。」「面白{おもしろ}い 映画{えいが}が 好{す}きです。」",
+     "meaning_ko": "“어떤 영화를 좋아해요?” “재미있는 영화를 좋아해요.”",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "「あれは どんな 店{みせ}ですか。」「新{あたら}しい 店{みせ}です。」",
+     "meaning_ko": "“저건 어떤 가게예요?” “새 가게예요.”",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "「田中{たなか}さんは どんな 人{ひと}ですか。」「親切{しんせつ}な 人{ひと}です。」",
+     "meaning_ko": "“다나카 씨는 어떤 사람이에요?” “친절한 사람이에요.”",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「先生は どんな 人ですか」의 뜻으로 알맞은 것은?",
+     "options": [
+      "선생님은 어떤 사람이에요?",
+      "선생님은 누구예요?",
+      "선생님은 어디에 있어요?",
+      "선생님은 몇 살이에요?"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "どんな 人는 ‘어떤 사람’이라는 뜻으로 사람의 성질을 묻습니다.",
+     "id": "JP-N5-43-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「どんな 町ですか」「（　）町です。」 ( )에 알맞은 말은? (조용한)",
+     "options": [
+      "静かな",
+      "静かい",
+      "静かの",
+      "静かに"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "静か는 な형용사이므로 명사 앞에서 静かな 町가 됩니다.",
+     "id": "JP-N5-43-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「優しい 人です」의 뜻은?",
+     "options": [
+      "상냥한 사람이에요",
+      "유명한 사람이에요",
+      "키가 큰 사람이에요",
+      "어린 사람이에요"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "優しい는 ‘상냥하다’입니다.",
+     "id": "JP-N5-43-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「（　）食べ物が 好きですか。」 ( )에 알맞은 말은? (어떤 음식을 좋아해요?)",
+     "options": [
+      "どんな",
+      "どこ",
+      "だれ",
+      "いくつ"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "종류를 묻는 ‘어떤’은 どんな이고, 뒤에 명사 食べ物가 옵니다.",
+     "id": "JP-N5-43-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「歌手」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kashu",
+     "accepted_answers": [
+      "kashu",
+      "kasyu"
+     ],
+     "explanation_ko": "歌手 = かしゅ(kashu), ‘가수’입니다.",
+     "id": "JP-N5-43-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「広い」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "hiroi",
+     "accepted_answers": [
+      "hiroi"
+     ],
+     "explanation_ko": "広い = ひろい(hiroi), ‘넓다’입니다.",
+     "id": "JP-N5-43-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

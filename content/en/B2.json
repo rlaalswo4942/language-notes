@@ -8064,6 +8064,213 @@
     "version": 1,
     "last_revised": "2026-11-27"
    }
+  },
+  {
+   "id": "B2-042",
+   "level": "B2",
+   "track": "general",
+   "day": 42,
+   "title_ko": "6주 복습: 관계절 줄이기·수량 표현·as if·과거의 예정·be said to·가능성 표현",
+   "objective_ko": "B2 36~41일차(관계절 줄이기, 수량 표현, as if, was going to / about to / supposed to, be said to, likely / bound / tend)를 섞어 다시 확인한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-28"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "이번 주 여섯 가지를 복습합니다. ① 관계절 줄이기: 능동은 -ing, 수동은 과거분사: the man standing at the door / the report written by Ann. (B2-036) ② a number of + 복수명사 + 복수 동사 / the number of + 복수명사 + 단수 동사 / a great deal of + 불가산명사. (B2-037) ③ as if / as though: 사실과 다르면 과거형(He talks as if he knew everything), 과거 이전의 일이면 had + 과거분사. (B2-038) ④ was going to(그럴 계획이었다), was about to(막 ~하려던 참), was supposed to(~하기로 되어 있었다). (B2-039) ⑤ be said to + 동사원형 / to have + 과거분사: The bridge is said to have been built in the 1800s. (B2-040) ⑥ be likely / unlikely to(가능성), be bound to(틀림없이), tend to(경향). (B2-041)",
+    "common_mistake_ko": "The number of students have increased.(X) → The number of students has increased.(O) — ‘수’가 주어이면 단수 동사. / He talks as if he knows everything.(실제로는 모를 때 X) → as if he knew everything.(O) / The bridge is said being built in 1800.(X) → is said to have been built in 1800.(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "resident",
+     "part_of_speech": "명사",
+     "meaning_ko": "주민",
+     "example_en": "A number of residents have complained about the noise.",
+     "example_ko": "많은 주민이 소음에 대해 불평했어요."
+    },
+    {
+     "word": "pretend",
+     "part_of_speech": "동사",
+     "meaning_ko": "~인 척하다",
+     "example_en": "The child pretended to be asleep.",
+     "example_ko": "그 아이는 자는 척했어요."
+    },
+    {
+     "word": "reschedule",
+     "part_of_speech": "동사",
+     "meaning_ko": "일정을 다시 잡다",
+     "example_en": "We had to reschedule the meeting.",
+     "example_ko": "우리는 회의 일정을 다시 잡아야 했어요."
+    },
+    {
+     "word": "ancient",
+     "part_of_speech": "형용사",
+     "meaning_ko": "고대의, 아주 오래된",
+     "example_en": "The castle is said to be ancient.",
+     "example_ko": "그 성은 아주 오래되었다고 해요."
+    },
+    {
+     "word": "inevitable",
+     "part_of_speech": "형용사",
+     "meaning_ko": "피할 수 없는",
+     "example_en": "Some delays are inevitable in a big project.",
+     "example_ko": "큰 프로젝트에서는 어느 정도 지연이 불가피해요."
+    },
+    {
+     "word": "assume",
+     "part_of_speech": "동사",
+     "meaning_ko": "추정하다, 가정하다",
+     "example_en": "Don't assume that everyone agrees.",
+     "example_ko": "모두가 동의한다고 단정하지 마세요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The man standing at the door is my uncle.",
+     "ko": "문 앞에 서 있는 남자가 제 삼촌이에요."
+    },
+    {
+     "en": "The report written by Ann was very clear.",
+     "ko": "Ann 이 쓴 보고서는 아주 명확했어요."
+    },
+    {
+     "en": "A number of residents have complained about the noise.",
+     "ko": "많은 주민이 소음에 대해 불평했어요."
+    },
+    {
+     "en": "The number of complaints has risen this year.",
+     "ko": "올해 불만의 수가 늘었어요."
+    },
+    {
+     "en": "He talks as if he knew everything.",
+     "ko": "그는 마치 모든 것을 아는 것처럼 말해요."
+    },
+    {
+     "en": "You look as if you had seen a ghost.",
+     "ko": "마치 유령이라도 본 것 같은 얼굴이에요."
+    },
+    {
+     "en": "I was going to call you, but I lost my phone.",
+     "ko": "전화하려고 했는데 휴대폰을 잃어버렸어요."
+    },
+    {
+     "en": "I was about to leave when the phone rang.",
+     "ko": "막 나가려던 참에 전화가 울렸어요."
+    },
+    {
+     "en": "The meeting was supposed to start at nine.",
+     "ko": "회의는 9시에 시작하기로 되어 있었어요."
+    },
+    {
+     "en": "The bridge is said to have been built in the 1800s.",
+     "ko": "그 다리는 1800년대에 지어졌다고 해요."
+    },
+    {
+     "en": "She is unlikely to change her mind.",
+     "ko": "그녀가 마음을 바꿀 가능성은 낮아요."
+    },
+    {
+     "en": "If you don't practise, you are bound to make mistakes.",
+     "ko": "연습하지 않으면 틀림없이 실수하게 돼요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "The woman ___ at the desk is our new manager.",
+     "choices": [
+      "sitting",
+      "sat",
+      "to sit",
+      "sits"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "who is sitting at the desk 를 줄이면 능동의 -ing 형 sitting 이 됩니다.",
+     "error_tag": "reduced-relative",
+     "id": "B2-042-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "The number of students ___ increased this year.",
+     "choices": [
+      "has",
+      "have",
+      "are",
+      "were"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "the number of ~ 는 ‘수’가 주어이므로 단수 동사 has 입니다.",
+     "error_tag": "number-of",
+     "id": "B2-042-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "He talks as if he ___ everything. (실제로는 모른다)",
+     "choices": [
+      "knew",
+      "knows",
+      "has known",
+      "will know"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "사실과 다른 상황은 as if 뒤에 과거형을 씁니다.",
+     "error_tag": "as-if",
+     "id": "B2-042-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "I ___ leave when the phone rang. (막 ~하려던 참이었다)",
+     "choices": [
+      "was about to",
+      "was supposed to",
+      "was likely to",
+      "am going to"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "바로 직전의 상황은 was about to 로 말합니다. when 절과 자주 함께 씁니다.",
+     "error_tag": "about-to",
+     "id": "B2-042-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: The old castle is said ___ have been built in 1200.",
+     "answer_text": "to",
+     "accepted_answers": [
+      "to"
+     ],
+     "explanation_ko": "be said to have + 과거분사 로 이미 지난 일을 말합니다.",
+     "error_tag": "be-said-to",
+     "id": "B2-042-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: She is ___ to change her mind. (~할 가능성이 낮다)",
+     "answer_text": "unlikely",
+     "accepted_answers": [
+      "unlikely"
+     ],
+     "explanation_ko": "be unlikely to + 동사원형 은 ‘~할 가능성이 낮다’입니다.",
+     "error_tag": "likely",
+     "id": "B2-042-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "계획했지만 하지 못한 일(was going to ... but ...)과 사람들의 경향(tend to)을 한 문장씩 써 보세요.",
+    "example_answer_en": "I was going to go jogging, but it rained. People tend to stay home in winter.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-28",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-28"
+   }
   }
  ]
 }

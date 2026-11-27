@@ -6791,6 +6791,205 @@
     "version": 1,
     "last_revised": "2026-11-27"
    }
+  },
+  {
+   "id": "TOEFL-036",
+   "level": "TOEFL",
+   "track": "toefl",
+   "day": 36,
+   "title_ko": "TOEFL 2026 Complete the Words 3: 접두사·접미사로 품사와 뜻 판단하기",
+   "objective_ko": "접두사와 접미사를 단서로 빠진 글자의 품사와 뜻을 판단해 단어를 완성한다.",
+   "reference_sources": [
+    {
+     "url": "https://www.ets.org/content/ets-org/language-master/ko/home/toefl/test-takers/ibt/about/content.html",
+     "publisher": "ETS",
+     "supports": "2026 형식 유형명",
+     "checked_at": "2026-11-28"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "Complete the Words는 2026-01-21 이후 TOEFL iBT Reading에 포함된 유형명입니다(비공식 자체 연습이며 점수를 예측하지 않습니다). 이번에는 단어의 앞뒤 조각을 단서로 씁니다. ① 접미사는 품사를 알려 줍니다: -tion, -ment, -ness 는 보통 명사(exhibition, development), -ful, -able, -ive 는 형용사(useful, available), -ly 는 부사(quickly), -ize 는 동사(organize) 를 만듭니다. ② 접두사는 뜻을 바꿉니다: re-(다시: return, rebuild), un-(반대: unable), pre-(미리: prepare). ③ 빈칸 앞뒤 문장에서 필요한 품사를 먼저 정하고 그 품사에 맞는 끝부분을 고릅니다. ④ 완성한 단어를 문장에 넣어 읽고 철자(-ment, -tion)를 확인합니다.",
+    "common_mistake_ko": "The new develop of the harbor area...(X) → development(O): 명사 자리에는 명사형 어미가 필요합니다. / The plant grows quick in warm weather.(X) → quickly(O): 동사를 꾸미면 부사입니다. / Read the instructions careful.(X) → carefully(O) / 철자 실수: developement(X) → development(O)"
+   },
+   "vocabulary": [
+    {
+     "word": "exhibition",
+     "part_of_speech": "명사",
+     "meaning_ko": "전시회",
+     "example_en": "The museum opened a new exhibition about ancient tools.",
+     "example_ko": "박물관은 고대 도구에 관한 새 전시회를 열었어요."
+    },
+    {
+     "word": "development",
+     "part_of_speech": "명사",
+     "meaning_ko": "발전, 개발",
+     "example_en": "The development of the harbor area attracted many visitors.",
+     "example_ko": "항구 지역의 개발이 많은 방문객을 끌어들였어요."
+    },
+    {
+     "word": "achievement",
+     "part_of_speech": "명사",
+     "meaning_ko": "성취, 업적",
+     "example_en": "Finishing the project was a great achievement.",
+     "example_ko": "프로젝트를 끝낸 것은 큰 성취였어요."
+    },
+    {
+     "word": "available",
+     "part_of_speech": "형용사",
+     "meaning_ko": "이용할 수 있는",
+     "example_en": "The books are available in the library.",
+     "example_ko": "그 책들은 도서관에서 이용할 수 있어요."
+    },
+    {
+     "word": "effective",
+     "part_of_speech": "형용사",
+     "meaning_ko": "효과적인",
+     "example_en": "Short daily practice is an effective way to learn.",
+     "example_ko": "매일 짧게 연습하는 것은 효과적인 학습 방법이에요."
+    },
+    {
+     "word": "gradually",
+     "part_of_speech": "부사",
+     "meaning_ko": "서서히, 점차",
+     "example_en": "The temperature gradually rose during the afternoon.",
+     "example_ko": "오후 동안 기온이 서서히 올랐어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "The museum opened a new exhibition about ancient tools.",
+     "ko": "박물관은 고대 도구에 관한 새 전시회를 열었어요."
+    },
+    {
+     "en": "The development of the harbor area attracted many visitors.",
+     "ko": "항구 지역의 개발이 많은 방문객을 끌어들였어요."
+    },
+    {
+     "en": "Finishing the project was a great achievement.",
+     "ko": "프로젝트를 끝낸 것은 큰 성취였어요."
+    },
+    {
+     "en": "The books are available in the library.",
+     "ko": "그 책들은 도서관에서 이용할 수 있어요."
+    },
+    {
+     "en": "Short daily practice is an effective way to learn.",
+     "ko": "매일 짧게 연습하는 것은 효과적인 학습 방법이에요."
+    },
+    {
+     "en": "The temperature gradually rose during the afternoon.",
+     "ko": "오후 동안 기온이 서서히 올랐어요."
+    },
+    {
+     "en": "Please read the instructions carefully before the test.",
+     "ko": "시험 전에 안내문을 주의 깊게 읽으세요."
+    },
+    {
+     "en": "Students must return the books to the library by Friday.",
+     "ko": "학생들은 금요일까지 책을 도서관에 반납해야 해요."
+    },
+    {
+     "en": "The plant grows quickly in warm weather.",
+     "ko": "그 식물은 따뜻한 날씨에 빨리 자라요."
+    },
+    {
+     "en": "The team was unable to finish the experiment.",
+     "ko": "그 팀은 실험을 끝낼 수 없었어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "The museum plans a new exhibi___ about ancient tools. 빈칸에 알맞은 끝부분은?",
+     "choices": [
+      "tion",
+      "ted",
+      "ting",
+      "tor"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "a new 뒤에는 명사가 필요하며 ‘전시회’라는 뜻의 exhibition 입니다.",
+     "error_tag": "complete-suffix",
+     "id": "TOEFL-036-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Please read the instructions care___ before the test. 빈칸에 알맞은 끝부분은?",
+     "choices": [
+      "fully",
+      "ful",
+      "less",
+      "ness"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "동사 read 를 꾸미므로 부사 carefully 입니다. careful 은 형용사입니다.",
+     "error_tag": "complete-suffix",
+     "id": "TOEFL-036-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Students must re___ the books to the library by Friday. 알맞은 단어는?",
+     "choices": [
+      "return",
+      "remove",
+      "repair",
+      "reply"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "to the library 와 어울리는 동사는 ‘돌려주다’ return 입니다.",
+     "error_tag": "complete-context",
+     "id": "TOEFL-036-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "접미사 -ment, -tion 이 붙은 단어는 보통 어떤 품사인가요?",
+     "choices": [
+      "명사",
+      "동사",
+      "부사",
+      "형용사"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "-ment, -tion 은 development, exhibition 처럼 명사를 만드는 접미사입니다.",
+     "error_tag": "complete-strategy",
+     "id": "TOEFL-036-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 단어 전체를 쓰세요: The new develop____ of the old harbor area attracted many visitors.",
+     "answer_text": "development",
+     "accepted_answers": [
+      "development"
+     ],
+     "explanation_ko": "the new ___ of ~ 는 명사 자리이므로 development 입니다.",
+     "error_tag": "complete-spelling",
+     "id": "TOEFL-036-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 단어 전체를 쓰세요: The plant grows quick__ in warm weather.",
+     "answer_text": "quickly",
+     "accepted_answers": [
+      "quickly"
+     ],
+     "explanation_ko": "동사 grows 를 꾸미므로 부사 quickly 입니다.",
+     "error_tag": "complete-suffix",
+     "id": "TOEFL-036-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "오늘 배운 단어 exhibition, development, achievement, available, effective, gradually 중 세 개로 짧은 학술 문장을 써 보세요.",
+    "example_answer_en": "The exhibition was available to students. The development of the city gradually changed daily life.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-28",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-28"
+   }
   }
  ]
 }

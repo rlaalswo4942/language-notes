@@ -8947,6 +8947,229 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N3-42",
+   "day_index": 42,
+   "week_index": 6,
+   "level": "N3",
+   "unit_id": "N3-W06",
+   "lesson_type": "checkpoint",
+   "title_ko": "6주 점검: 새 노트북을 사다",
+   "objective_ko": "N3 여섯째 주 문형(〜に比べて・〜っぱなし・〜たところ・〜ば〜ほど・〜まま)을 노트북 구입 이야기 속에서 종합 점검한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N3-41"
+   ],
+   "explanation_ko": "6주 차에 배운 〜に比{くら}べて(~에 비해), 〜っぱなし(~한 채로 방치함), 〜たところ(~했더니), 〜ば〜ほど(~하면 할수록), 〜まま(~한 채로)를 새 노트북을 사는 이야기에서 점검합니다. 〜に比べて는 비교 대상을 명사로 제시하고, 〜っぱなし는 ます형 어간(つけ + っぱなし), 〜たところ는 た형에 붙어 시도한 뒤 알게 된 사실을, 〜ば〜ほど는 같은 동사·형용사를 ば형과 사전형으로 반복해 정도의 비례를, 〜まま은 た형·ない형·명사 + の에 붙어 상태가 그대로 이어짐을 나타냅니다.",
+   "usage_notes": [
+    "〜に比{くら}べて: 명사 + に比べて (前のパソコンに比べて).",
+    "〜っぱなし: ます형 어간 + っぱなし (つけ → つけっぱなし).",
+    "〜たところ: た형 + ところ + 사실 (聞いたところ、〜だった).",
+    "〜ば〜ほど: 使{つか}えば使{つか}うほど / 安{やす}ければ安{やす}いほど.",
+    "〜まま: た형 + まま (開けたまま)."
+   ],
+   "common_mistakes": [
+    "電源をつけるっぱなしにした(X) → 電源{でんげん}をつけっぱなしにした(O)",
+    "店に聞いたところ、行ってみた(X: 결과·사실이 와야 함) → 店{みせ}に聞{き}いたところ、在庫{ざいこ}はあと一台{いちだい}だった(O)",
+    "使うほど便利だ(X) → 使{つか}えば使{つか}うほど便利{べんり}だ(O)"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "電源{でんげん}",
+     "reading_kana": "でんげん",
+     "reading_romanized": "dengen",
+     "meaning_ko": "전원",
+     "part_of_speech": "명사",
+     "id": "w-JP-N3-42-01"
+    },
+    {
+     "kind": "word",
+     "text": "在庫{ざいこ}",
+     "reading_kana": "ざいこ",
+     "reading_romanized": "zaiko",
+     "meaning_ko": "재고",
+     "part_of_speech": "명사",
+     "id": "w-JP-N3-42-02"
+    },
+    {
+     "kind": "word",
+     "text": "値段{ねだん}",
+     "reading_kana": "ねだん",
+     "reading_romanized": "nedan",
+     "meaning_ko": "가격",
+     "part_of_speech": "명사",
+     "id": "w-JP-N3-42-03"
+    },
+    {
+     "kind": "word",
+     "text": "画面{がめん}",
+     "reading_kana": "がめん",
+     "reading_romanized": "gamen",
+     "meaning_ko": "화면",
+     "part_of_speech": "명사",
+     "id": "w-JP-N3-42-04"
+    },
+    {
+     "kind": "word",
+     "text": "人気{にんき}",
+     "reading_kana": "にんき",
+     "reading_romanized": "ninki",
+     "meaning_ko": "인기",
+     "part_of_speech": "명사",
+     "id": "w-JP-N3-42-05"
+    },
+    {
+     "kind": "word",
+     "text": "説明書{せつめいしょ}",
+     "reading_kana": "せつめいしょ",
+     "reading_romanized": "setsumeisho",
+     "meaning_ko": "설명서",
+     "part_of_speech": "명사",
+     "id": "w-JP-N3-42-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "前{まえ}のパソコンに比{くら}べて、新{あたら}しいパソコンは動{うご}きが速{はや}い。",
+     "meaning_ko": "이전 컴퓨터에 비해 새 컴퓨터는 동작이 빠르다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "古{ふる}いパソコンは、電源{でんげん}をつけっぱなしにしていた。",
+     "meaning_ko": "오래된 컴퓨터는 전원을 켜 둔 채로 두었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "店{みせ}に聞{き}いたところ、在庫{ざいこ}はあと一台{いちだい}だけだった。",
+     "meaning_ko": "가게에 물어봤더니 재고는 앞으로 한 대뿐이었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "使{つか}えば使{つか}うほど、便利{べんり}さがわかる。",
+     "meaning_ko": "쓰면 쓸수록 편리함을 알게 된다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "値段{ねだん}が安{やす}ければ安{やす}いほど、人気{にんき}がある。",
+     "meaning_ko": "가격이 싸면 쌀수록 인기가 있다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "箱{はこ}を開{あ}けたまま、説明書{せつめいしょ}を読{よ}んだ。",
+     "meaning_ko": "상자를 연 채로 설명서를 읽었다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "友{とも}だちのパソコンに比{くら}べて、私{わたし}のは少{すこ}し重{おも}い。",
+     "meaning_ko": "친구의 컴퓨터에 비해 내 것은 조금 무겁다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "画面{がめん}をつけっぱなしで寝{ね}てしまった。",
+     "meaning_ko": "화면을 켜 둔 채로 자 버렸다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "説明書{せつめいしょ}を読{よ}んだところ、使{つか}い方{かた}は簡単{かんたん}だった。",
+     "meaning_ko": "설명서를 읽어 보니 사용법은 간단했다.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "買{か}ったばかりのパソコンを、箱{はこ}に入{い}れたまま置{お}いてある。",
+     "meaning_ko": "산 지 얼마 안 된 컴퓨터를 상자에 넣은 채로 두었다.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「箱を開けたまま、説明書を読んだ」의 뜻으로 알맞은 것은?",
+     "options": [
+      "상자를 연 채로 설명서를 읽었다",
+      "상자를 열기 전에 설명서를 읽었다",
+      "상자를 열자마자 설명서를 버렸다",
+      "상자를 열 수 없어서 설명서를 읽었다"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜た まま은 ‘~한 상태 그대로’를 나타냅니다.",
+     "id": "JP-N3-42-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「電源をつけ（　）にして、寝てしまった」 ( )에 알맞은 말은?",
+     "options": [
+      "っぱなし",
+      "ほど",
+      "ところ",
+      "ばかり"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "ます형 어간 + っぱなし는 ‘~한 채로 방치함’을 나타내므로 つけっぱなし입니다.",
+     "id": "JP-N3-42-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「店に聞いた（　）、在庫はあと一台だけだった」 ( )에 알맞은 말은?",
+     "options": [
+      "ところ",
+      "まま",
+      "ほど",
+      "ついでに"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜たところ는 ‘~했더니(알게 된 사실)’를 나타냅니다.",
+     "id": "JP-N3-42-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「使えば使う（　）、便利さがわかる」 ( )에 알맞은 말은?",
+     "options": [
+      "ほど",
+      "まま",
+      "ところ",
+      "っぱなし"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜ば〜ほど는 ‘~하면 할수록’이라는 뜻입니다.",
+     "id": "JP-N3-42-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「値段」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "nedan",
+     "accepted_answers": [
+      "nedan"
+     ],
+     "explanation_ko": "値段 = ねだん(nedan), ‘가격’입니다.",
+     "id": "JP-N3-42-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「画面」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "gamen",
+     "accepted_answers": [
+      "gamen"
+     ],
+     "explanation_ko": "画面 = がめん(gamen), ‘화면’입니다.",
+     "id": "JP-N3-42-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JLPT_LEVELS",
+    "TADOKU"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }

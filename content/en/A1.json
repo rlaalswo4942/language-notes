@@ -8292,6 +8292,209 @@
     "version": 1,
     "last_revised": "2026-11-27"
    }
+  },
+  {
+   "id": "A1-043",
+   "level": "A1",
+   "track": "foundation",
+   "day": 43,
+   "title_ko": "사람 묘사하기: be + 형용사 / have + 머리·수염 / wear",
+   "objective_ko": "사람의 키·체형은 be, 머리·수염은 have / has, 입거나 쓴 것은 wear 로 구별해서 외모를 말한다.",
+   "reference_sources": [
+    {
+     "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2",
+     "publisher": "British Council",
+     "supports": "문법 학습 주제",
+     "checked_at": "2026-11-28"
+    }
+   ],
+   "grammar": {
+    "explanation_ko": "사람의 겉모습을 말할 때는 세 가지를 구별합니다. ① 키나 체형 같은 상태는 be + 형용사: She is tall. / He is slim. ② 머리카락·수염처럼 가지고 있는 특징은 have / has: She has long hair. / He has a beard. 머리 모양은 형용사를 hair 앞에 둡니다(short hair, curly hair). ③ 입거나 쓰거나 낀 것은 wear: He wears glasses. 지금 입고 있는 중이면 is wearing 을 씁니다: She is wearing a red coat today. 외모를 물을 때는 What does he look like? 라고 하고, He is tall and he has short hair. 처럼 대답합니다. 부정문과 의문문은 앞에서 배운 규칙대로 doesn't / does 를 씁니다: He doesn't have a beard. / Does she wear glasses?",
+    "common_mistake_ko": "She is long hair.(X) → She has long hair.(O) — 머리카락은 have / has. / He has tall.(X) → He is tall.(O) — 키는 be동사. / She wear glasses.(X) → She wears glasses.(O) — 3인칭 단수는 wears."
+   },
+   "vocabulary": [
+    {
+     "word": "hair",
+     "part_of_speech": "명사",
+     "meaning_ko": "머리카락",
+     "example_en": "She has long hair.",
+     "example_ko": "그녀는 머리카락이 길어요."
+    },
+    {
+     "word": "curly",
+     "part_of_speech": "형용사",
+     "meaning_ko": "곱슬곱슬한",
+     "example_en": "My sister has curly hair.",
+     "example_ko": "우리 언니는 곱슬머리예요."
+    },
+    {
+     "word": "glasses",
+     "part_of_speech": "명사",
+     "meaning_ko": "안경",
+     "example_en": "My teacher wears glasses.",
+     "example_ko": "우리 선생님은 안경을 써요."
+    },
+    {
+     "word": "beard",
+     "part_of_speech": "명사",
+     "meaning_ko": "턱수염",
+     "example_en": "My uncle has a beard.",
+     "example_ko": "우리 삼촌은 턱수염이 있어요."
+    },
+    {
+     "word": "slim",
+     "part_of_speech": "형용사",
+     "meaning_ko": "날씬한",
+     "example_en": "The boy is tall and slim.",
+     "example_ko": "그 소년은 키가 크고 날씬해요."
+    },
+    {
+     "word": "bald",
+     "part_of_speech": "형용사",
+     "meaning_ko": "대머리의",
+     "example_en": "My grandfather is bald.",
+     "example_ko": "우리 할아버지는 머리가 벗겨졌어요."
+    }
+   ],
+   "examples": [
+    {
+     "en": "She is tall.",
+     "ko": "그녀는 키가 커요."
+    },
+    {
+     "en": "He is slim.",
+     "ko": "그는 날씬해요."
+    },
+    {
+     "en": "She has long hair.",
+     "ko": "그녀는 머리카락이 길어요."
+    },
+    {
+     "en": "My sister has curly hair.",
+     "ko": "우리 언니는 곱슬머리예요."
+    },
+    {
+     "en": "He has a beard.",
+     "ko": "그는 턱수염이 있어요."
+    },
+    {
+     "en": "My teacher wears glasses.",
+     "ko": "우리 선생님은 안경을 써요."
+    },
+    {
+     "en": "She is wearing a red coat today.",
+     "ko": "그녀는 오늘 빨간 코트를 입고 있어요."
+    },
+    {
+     "en": "What does your brother look like?",
+     "ko": "당신의 남동생은 어떻게 생겼어요?"
+    },
+    {
+     "en": "He is tall, and he has short hair.",
+     "ko": "그는 키가 크고 머리가 짧아요."
+    },
+    {
+     "en": "Does she wear glasses? — No, she doesn't.",
+     "ko": "그녀는 안경을 써요? — 아니요, 안 써요."
+    },
+    {
+     "en": "My father doesn't have a beard.",
+     "ko": "우리 아버지는 턱수염이 없어요."
+    }
+   ],
+   "questions": [
+    {
+     "type": "single_choice",
+     "stem": "My brother ___ short black hair.",
+     "choices": [
+      "has",
+      "is",
+      "wears",
+      "have"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "머리카락은 have / has 로 말합니다. 주어 My brother 는 3인칭 단수이므로 has 입니다.",
+     "error_tag": "have-has",
+     "id": "A1-043-Q1"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Anna ___ very tall.",
+     "choices": [
+      "is",
+      "has",
+      "wears",
+      "have"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "키는 be + 형용사로 말하므로 is 입니다.",
+     "error_tag": "be-adjective",
+     "id": "A1-043-Q2"
+    },
+    {
+     "type": "single_choice",
+     "stem": "올바른 문장은?",
+     "choices": [
+      "He wears glasses.",
+      "He is glasses.",
+      "He has wears glasses.",
+      "He wear glasses."
+     ],
+     "answer_index": 0,
+     "explanation_ko": "안경을 쓰는 것은 wear 이고, 3인칭 단수이므로 wears 입니다.",
+     "error_tag": "wear",
+     "id": "A1-043-Q3"
+    },
+    {
+     "type": "single_choice",
+     "stem": "Look at that girl! She ___ a yellow hat right now.",
+     "choices": [
+      "is wearing",
+      "wears",
+      "has wearing",
+      "is wear"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "지금 쓰고 있는 중이므로 현재진행형 is wearing 을 씁니다.",
+     "error_tag": "present-continuous",
+     "id": "A1-043-Q4"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: My uncle ___ a beard. (가지고 있다)",
+     "answer_text": "has",
+     "accepted_answers": [
+      "has"
+     ],
+     "explanation_ko": "3인칭 단수 주어이므로 has 를 씁니다.",
+     "error_tag": "have-has",
+     "id": "A1-043-Q5"
+    },
+    {
+     "type": "typing",
+     "stem": "빈칸에 알맞은 한 단어를 쓰세요: He ___ tall and slim. (be동사)",
+     "answer_text": "is",
+     "accepted_answers": [
+      "is"
+     ],
+     "explanation_ko": "키와 체형은 be동사로 말하며, 주어 He 에는 is 를 씁니다.",
+     "error_tag": "be-adjective",
+     "id": "A1-043-Q6"
+    }
+   ],
+   "output_task": {
+    "prompt_ko": "가족이나 친구 한 명을 골라 외모를 두 문장으로 써 보세요.",
+    "example_answer_en": "My friend Jun is tall. He has short hair and wears glasses.",
+    "note_ko": "예시 정답만 가능한 것은 아닙니다."
+   },
+   "publish_date": "2026-11-28",
+   "estimated_minutes": 15,
+   "content_kind": "original_practice",
+   "review_status": "draft",
+   "revision": {
+    "version": 1,
+    "last_revised": "2026-11-28"
+   }
   }
  ]
 }

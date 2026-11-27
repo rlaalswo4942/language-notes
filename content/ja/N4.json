@@ -8966,6 +8966,230 @@
    "content_status": "draft",
    "schema_validation": "passed",
    "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
+  },
+  {
+   "id": "JP-N4-42",
+   "day_index": 42,
+   "week_index": 6,
+   "level": "N4",
+   "unit_id": "N4-W06",
+   "lesson_type": "checkpoint",
+   "title_ko": "6주 점검: 건강한 생활 이야기",
+   "objective_ko": "N4 여섯째 주 문형(〜ように なる・〜ように する・疑問詞+か/も・〜という・〜と 言いました)을 건강 이야기 속에서 종합 점검한다.",
+   "estimated_minutes": 15,
+   "prerequisite_lesson_ids": [
+    "JP-N4-41"
+   ],
+   "explanation_ko": "6주 차에 배운 〜ように なる(~하게 되다), 〜ように する(~하도록 하다), 何か・何も(의문사+か/も), 〜という(~라고 하는), 〜と 言{い}いました(남의 말 전하기)를 건강한 생활 이야기에서 한 번에 점검합니다. 변화는 起{お}きられるように なりました, 노력하는 습관은 食{た}べないように して います, 이름·내용 소개는 「ラジオ体操{たいそう}」という 運動{うんどう}, 남의 말은 보통형 + と 言いました(大切{たいせつ}だと 言いました)입니다. 何も・誰{だれ}も는 부정과 함께 쓰고, 何か・誰か는 긍정·의문에 씁니다.",
+   "usage_notes": [
+    "변화: 가능형 + ように なりました (起きられるように なりました).",
+    "습관·노력: 〜ように して います / 〜ないように して います.",
+    "이름 소개: 「〜」という 運動.",
+    "전하는 말: 보통형 + と 言いました (な형용사는 だ를 붙입니다)."
+   ],
+   "common_mistakes": [
+    "早く 起きられるように しました(X: 변화를 말할 때) → 早{はや}く 起{お}きられるように なりました(O)",
+    "何も 食べました(X) → 何{なに}も 食{た}べませんでした(O) — 何も는 부정과 함께",
+    "運動が 大切です と 言いました(X) → 運動{うんどう}が 大切{たいせつ}だと 言{い}いました(O)"
+   ],
+   "new_items": [
+    {
+     "kind": "word",
+     "text": "健康{けんこう}",
+     "reading_kana": "けんこう",
+     "reading_romanized": "kenkou",
+     "meaning_ko": "건강",
+     "part_of_speech": "명사・な형용사",
+     "id": "w-JP-N4-42-01"
+    },
+    {
+     "kind": "word",
+     "text": "運動{うんどう}",
+     "reading_kana": "うんどう",
+     "reading_romanized": "undou",
+     "meaning_ko": "운동",
+     "part_of_speech": "명사・する동사",
+     "id": "w-JP-N4-42-02"
+    },
+    {
+     "kind": "word",
+     "text": "習慣{しゅうかん}",
+     "reading_kana": "しゅうかん",
+     "reading_romanized": "shuukan",
+     "meaning_ko": "습관",
+     "part_of_speech": "명사",
+     "id": "w-JP-N4-42-03"
+    },
+    {
+     "kind": "word",
+     "text": "体操{たいそう}",
+     "reading_kana": "たいそう",
+     "reading_romanized": "taisou",
+     "meaning_ko": "체조",
+     "part_of_speech": "명사",
+     "id": "w-JP-N4-42-04"
+    },
+    {
+     "kind": "word",
+     "text": "体{からだ}",
+     "reading_kana": "からだ",
+     "reading_romanized": "karada",
+     "meaning_ko": "몸",
+     "part_of_speech": "명사",
+     "id": "w-JP-N4-42-05"
+    },
+    {
+     "kind": "word",
+     "text": "早{はや}い",
+     "reading_kana": "はやい",
+     "reading_romanized": "hayai",
+     "meaning_ko": "이르다, 빠르다",
+     "part_of_speech": "い형용사",
+     "id": "w-JP-N4-42-06"
+    }
+   ],
+   "examples": [
+    {
+     "japanese": "毎朝{まいあさ} 三十分{さんじゅっぷん} 歩{ある}くように して います。",
+     "meaning_ko": "매일 아침 30분 걷도록 하고 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "前{まえ}は 起{お}きられませんでしたが、今{いま}は 六時{ろくじ}に 起{お}きられるように なりました。",
+     "meaning_ko": "전에는 일어나지 못했지만 지금은 6시에 일어날 수 있게 되었어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "夜{よる}は 甘{あま}い 物{もの}を 食{た}べないように して います。",
+     "meaning_ko": "밤에는 단 것을 먹지 않도록 하고 있어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "「ラジオ体操{たいそう}」という 運動{うんどう}を 知{し}って いますか。",
+     "meaning_ko": "‘라디오 체조’라는 운동을 알고 있나요?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "医者{いしゃ}は 運動{うんどう}が 大切{たいせつ}だと 言{い}いました。",
+     "meaning_ko": "의사는 운동이 중요하다고 말했어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "友{とも}だちは 「毎日{まいにち} 体操{たいそう}を します」と 言{い}いました。",
+     "meaning_ko": "친구는 “매일 체조를 해요”라고 말했어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "何{なに}か 運動{うんどう}を して いますか。",
+     "meaning_ko": "뭔가 운동을 하고 있나요?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "今朝{けさ}は 何{なに}も 食{た}べませんでした。",
+     "meaning_ko": "오늘 아침은 아무것도 먹지 않았어요.",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "誰{だれ}か 一緒{いっしょ}に 走{はし}りませんか。",
+     "meaning_ko": "누구 같이 달리지 않을래요?",
+     "explanation_ko": ""
+    },
+    {
+     "japanese": "毎日{まいにち} 歩{ある}いて いるので、体{からだ}が 元気{げんき}に なりました。",
+     "meaning_ko": "매일 걷고 있어서 몸이 건강해졌어요.",
+     "explanation_ko": ""
+    }
+   ],
+   "exercises": [
+    {
+     "type": "single_choice",
+     "prompt_ko": "「六時に 起きられるように なりました」의 뜻은?",
+     "options": [
+      "6시에 일어날 수 있게 되었어요",
+      "6시에 일어나려고 해요",
+      "6시에 일어나야 해요",
+      "6시에 일어나지 못했어요"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "〜ように なりました는 ‘~하게 되었다’는 변화를 나타냅니다. 起きられる는 ‘일어날 수 있다’입니다.",
+     "id": "JP-N4-42-Q1"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「夜は 甘い 物を（　）ように して います」 ( )에 알맞은 말은? (먹지 않도록)",
+     "options": [
+      "食べない",
+      "食べる",
+      "食べた",
+      "食べて"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "먹지 않도록 노력한다는 뜻이므로 食べない + ように して います입니다.",
+     "id": "JP-N4-42-Q2"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「今朝は 何も（　）。」 ( )에 알맞은 말은? (아무것도 먹지 않았어요)",
+     "options": [
+      "食べませんでした",
+      "食べました",
+      "食べます",
+      "食べましょう"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "何も는 부정과 함께 쓰므로 食べませんでした입니다.",
+     "id": "JP-N4-42-Q3"
+    },
+    {
+     "type": "single_choice",
+     "prompt_ko": "「医者は 運動が 大切だと 言いました」의 뜻은?",
+     "options": [
+      "의사는 운동이 중요하다고 말했어요",
+      "의사는 운동을 하라고 부탁했어요",
+      "의사는 운동이 싫다고 말했어요",
+      "의사는 운동하는 중이었어요"
+     ],
+     "answer_index": 0,
+     "explanation_ko": "보통형 + と 言いました는 남의 말을 전하는 표현입니다.",
+     "id": "JP-N4-42-Q4"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「健康」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "kenkou",
+     "accepted_answers": [
+      "kenkou",
+      "kenko"
+     ],
+     "explanation_ko": "健康 = けんこう(kenkou), ‘건강’입니다.",
+     "id": "JP-N4-42-Q5"
+    },
+    {
+     "type": "typing",
+     "prompt_ko": "「運動」의 읽기를 로마자로 입력하세요.",
+     "answer_text": "undou",
+     "accepted_answers": [
+      "undou",
+      "undo"
+     ],
+     "explanation_ko": "運動 = うんどう(undou), ‘운동’입니다.",
+     "id": "JP-N4-42-Q6"
+    }
+   ],
+   "review_offsets_days": [
+    1,
+    3,
+    7,
+    14,
+    30
+   ],
+   "source_refs": [
+    "JF_IRODORI",
+    "JLPT_LEVELS"
+   ],
+   "content_status": "draft",
+   "schema_validation": "passed",
+   "editor_note_ko": "AI 초안: 자동 형식 검사만 통과, 언어 교육자 검수 전. 단계 구분은 사이트 자체 기준이며 JLPT 공식 목록이 아님."
   }
  ]
 }
